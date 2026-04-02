@@ -33,7 +33,7 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
     setCurrentStage(1);
     setCurrentIndex(0);
     setAnswers({});
-    setTimeLeft(stage1Questions.length * 2 * 60); // 2 minutes per question
+    setTimeLeft(120); // 2 minutes per question
   };
 
   const submitStage1 = () => {
@@ -69,7 +69,7 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
     setCurrentIndex(0);
     // Keep stage 1 answers, but we use a new answers mapping implicitly or overwrite. Let's just track globally based on unique ID.
     // Or we keep the same answers obj.
-    setTimeLeft(Math.floor(stage2Questions.length * 1.5 * 60)); // 1.5 min per question
+    setTimeLeft(120); // 2 min per question
   };
 
   const submitStage2 = () => {
@@ -93,10 +93,16 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
       const timer = setInterval(() => setTimeLeft(t => t - 1), 1000);
       return () => clearInterval(timer);
     } else if ((phase === 'stage1' || phase === 'stage2') && timeLeft === 0) {
-      if (phase === 'stage1') submitStage1();
-      else submitStage2();
+      const questions = phase === 'stage1' ? stage1Questions : stage2Questions;
+      if (currentIndex < questions.length - 1) {
+        setCurrentIndex(i => i + 1);
+        setTimeLeft(120);
+      } else {
+        if (phase === 'stage1') submitStage1();
+        else submitStage2();
+      }
     }
-  }, [phase, timeLeft]);
+  }, [phase, timeLeft, currentIndex, stage1Questions, stage2Questions, answers, masteryStatus]);
 
   // Handle generic quiz rendering
   const renderQuiz = (questions, stageLabel, onSubmit) => {
@@ -142,21 +148,16 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
           })}
         </div>
 
-        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '2rem' }}>
-          <button 
-            className="btn btn-outline" 
-            onClick={() => setCurrentIndex(i => Math.max(0, i - 1))}
-            disabled={currentIndex === 0}
-          >
-             Back
-          </button>
-          
+        <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '2rem' }}>
           {currentIndex === questions.length - 1 ? (
             <button className="btn btn-primary" onClick={onSubmit} style={{ background: 'var(--accent-pink)' }}>
               Submit Stage
             </button>
           ) : (
-            <button className="btn btn-primary" onClick={() => setCurrentIndex(i => i + 1)}>
+            <button className="btn btn-primary" onClick={() => {
+              setCurrentIndex(i => i + 1);
+              setTimeLeft(120);
+            }}>
               Next Question
             </button>
           )}
@@ -177,8 +178,9 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
           <h4 style={{ color: 'var(--accent-purple)', marginBottom: '1rem' }}>Test Structure:</h4>
           <ul style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', color: 'var(--text-muted)' }}>
             <li><strong style={{ color: 'white' }}>Stage 1:</strong> 29 Hard questions (1 per topic). 2 minutes per question.</li>
-            <li><strong style={{ color: 'white' }}>Stage 2:</strong> Retest on failed topics with Easy questions. 1.5 minutes per question.</li>
+            <li><strong style={{ color: 'white' }}>Stage 2:</strong> Retest on failed topics with Easy questions. 2 minutes per question.</li>
             <li><strong style={{ color: 'white' }}>Evaluation:</strong> Topics will be graded as Mastered, Partially Mastered, or Not Mastered At All.</li>
+            <li><strong style={{ color: 'white' }}>Note:</strong> You cannot return to previous questions.</li>
           </ul>
         </div>
         <button className="btn btn-primary" onClick={startStage1} style={{ fontSize: '1.2rem', padding: '1rem 3rem' }}>
