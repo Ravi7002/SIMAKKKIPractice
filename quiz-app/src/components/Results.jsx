@@ -1,13 +1,69 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { evaluateResults } from '../utils';
 import { RotateCcw, Target, AlertTriangle, CheckCircle2, XCircle } from 'lucide-react';
 
 const Results = ({ questions, answers, onRestart }) => {
   const { totalScore, topics } = useMemo(() => evaluateResults(questions, answers), [questions, answers]);
 
-  // Max possible score
   const maxScore = questions.length * 4;
   const percentage = Math.max(0, (totalScore / maxScore) * 100).toFixed(1);
+
+  const [showReview, setShowReview] = useState(false);
+
+  if (showReview) {
+    return (
+      <div className="fade-in w-full mx-auto" style={{ maxWidth: '900px' }}>
+        <div className="text-center mb-8">
+          <h2 className="text-gradient mb-2" style={{ fontSize: '2.5rem' }}>Review Answers</h2>
+          <button onClick={() => setShowReview(false)} className="btn btn-outline mt-4">Back to Results</button>
+        </div>
+        
+        <div className="review-list" style={{ display: 'flex', flexDirection: 'column', gap: '2rem', textAlign: 'left' }}>
+          {questions.map((q, idx) => {
+            const userAnswer = answers[q.id];
+            const isCorrect = userAnswer === q.correct_answer;
+            return (
+              <div key={q.id} className="glass-card" style={{ borderLeft: isCorrect ? '4px solid var(--accent-green)' : (userAnswer ? '4px solid var(--accent-red)' : '4px solid var(--text-muted)') }}>
+                <div style={{ marginBottom: '1rem', color: 'var(--text-muted)' }}>Question {idx + 1}</div>
+                <div style={{ fontSize: '1.2rem', marginBottom: '1.5rem', whiteSpace: 'pre-wrap' }}>{q.question_text}</div>
+                
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', marginBottom: '1.5rem' }}>
+                  {q.options.map(opt => {
+                    const isSelected = userAnswer === opt.letter;
+                    const isCorrectOpt = q.correct_answer === opt.letter;
+                    let optStyle = { padding: '1rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.1)' };
+                    
+                    if (isCorrectOpt) {
+                      optStyle.background = 'rgba(16, 185, 129, 0.2)';
+                      optStyle.borderColor = 'var(--accent-green)';
+                    } else if (isSelected) {
+                      optStyle.background = 'rgba(239, 68, 68, 0.2)';
+                      optStyle.borderColor = 'var(--accent-red)';
+                    }
+                    
+                    return (
+                      <div key={opt.letter} style={optStyle}>
+                        <span style={{ fontWeight: 'bold', marginRight: '1rem' }}>{opt.letter}.</span>
+                        {opt.text}
+                      </div>
+                    )
+                  })}
+                </div>
+                
+                <div style={{ background: 'rgba(255,255,255,0.05)', padding: '1rem', borderRadius: '8px' }}>
+                  <h4 style={{ color: 'var(--accent-purple)', marginBottom: '0.5rem' }}>Explanation:</h4>
+                  <p style={{ lineHeight: '1.5' }}>{q.explanation || 'No explanation provided.'}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div className="text-center mt-8 pb-8">
+          <button onClick={() => setShowReview(false)} className="btn btn-primary">Back to Results</button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="fade-in w-full mx-auto" style={{ maxWidth: '900px' }}>
@@ -76,7 +132,10 @@ const Results = ({ questions, answers, onRestart }) => {
         </div>
       </div>
 
-      <div className="text-center pb-8">
+      <div className="text-center pb-8" style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+        <button onClick={() => setShowReview(true)} className="btn btn-outline" style={{ padding: '1rem 2rem' }}>
+          Review Questions
+        </button>
         <button onClick={onRestart} className="btn btn-primary" style={{ padding: '1rem 2rem' }}>
           <RotateCcw size={20} /> Try Again
         </button>
