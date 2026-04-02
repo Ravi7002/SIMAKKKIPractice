@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Clock, ShieldAlert, CheckCircle, XCircle, ArrowRight, ArrowLeft } from 'lucide-react';
+import { Clock, ShieldAlert, CheckCircle, XCircle, ArrowRight, ArrowLeft, Activity } from 'lucide-react';
 import { cleanText } from '../utils';
 
 const AbilityTest = ({ allTopicsData, onFinish }) => {

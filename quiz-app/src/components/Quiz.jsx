@@ -1,15 +1,40 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { cleanText } from '../utils';
-import { ChevronRight, SkipForward, ArrowLeft } from 'lucide-react';
+import { ChevronRight, ArrowLeft, CheckCircle, XCircle } from 'lucide-react';
 
 const Quiz = ({ questions, answers, setAnswers, onFinish }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [guessedOptions, setGuessedOptions] = useState([]);
+  const [showExplanation, setShowExplanation] = useState(false);
   
   const question = questions[currentIndex];
   const progress = ((currentIndex) / questions.length) * 100;
 
+  // Reset local state when moving to a new question
+  useEffect(() => {
+    setGuessedOptions([]);
+    // If we've already answered this in the global state, pre-fill it and show explanation
+    if (answers[question.id]) {
+      setGuessedOptions([answers[question.id]]);
+      setShowExplanation(true);
+    } else {
+      setShowExplanation(false);
+    }
+  }, [currentIndex, question.id, answers]);
+
   const handleOptionSelect = (letter) => {
-    setAnswers(prev => ({ ...prev, [question.id]: letter }));
+    if (showExplanation) return; // already got it correct
+    
+    if (!guessedOptions.includes(letter)) {
+      const newGuesses = [...guessedOptions, letter];
+      setGuessedOptions(newGuesses);
+      
+      if (letter === question.correct_answer) {
+        setShowExplanation(true);
+        // Set the answer in parent context once they find the correct one
+        setAnswers(prev => ({ ...prev, [question.id]: letter }));
+      }
+    }
   };
 
   const handleNext = () => {
@@ -25,8 +50,6 @@ const Quiz = ({ questions, answers, setAnswers, onFinish }) => {
       setCurrentIndex(prev => prev - 1);
     }
   };
-
-  const selectedOption = answers[question.id] || null;
 
   return (
     <div className="fade-in w-full mx-auto" style={{ maxWidth: '800px' }}>
@@ -44,26 +67,51 @@ const Quiz = ({ questions, answers, setAnswers, onFinish }) => {
         <div className="progress-fill" style={{ width: `${progress}%` }}></div>
       </div>
 
-      <div className="glass-card mb-8">
+      <div className="glass-card mb-4">
         <h2 className="mb-8" style={{ fontSize: '1.5rem', lineHeight: '1.6' }}>
           {cleanText(question.question_text)}
         </h2>
 
         <div className="options-container">
-          {question.options.map((opt) => (
-            <button
-              key={opt.letter}
-              className={`option-btn ${selectedOption === opt.letter ? 'selected' : ''}`}
-              onClick={() => handleOptionSelect(opt.letter)}
-            >
-              <div className="option-letter">{opt.letter}</div>
-              <div style={{ flex: 1, lineHeight: '1.5' }}>
-                {cleanText(opt.text)}
-              </div>
-            </button>
-          ))}
+          {question.options.map((opt) => {
+            const isGuessed = guessedOptions.includes(opt.letter);
+            const isCorrectAnswer = opt.letter === question.correct_answer;
+            
+            let btnClass = 'option-btn';
+            if (isGuessed) {
+              if (isCorrectAnswer) btnClass += ' correct';
+              else btnClass += ' incorrect';
+            }
+
+            return (
+              <button
+                key={opt.letter}
+                className={btnClass}
+                onClick={() => handleOptionSelect(opt.letter)}
+                disabled={isGuessed && !isCorrectAnswer}
+              >
+                <div className="option-letter">{opt.letter}</div>
+                <div style={{ flex: 1, lineHeight: '1.5' }}>
+                  {cleanText(opt.text)}
+                </div>
+                {isGuessed && isCorrectAnswer && <CheckCircle size={24} style={{ color: 'var(--accent-green)' }} />}
+                {isGuessed && !isCorrectAnswer && <XCircle size={24} style={{ color: 'var(--accent-red)' }} />}
+              </button>
+            );
+          })}
         </div>
       </div>
+
+      {showExplanation && (
+        <div className="glass-card fade-in mb-4" style={{ background: 'rgba(16, 185, 129, 0.1)', border: '1px solid rgba(16, 185, 129, 0.2)', padding: '1.5rem' }}>
+          <h3 style={{ color: 'var(--accent-green)', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <CheckCircle size={20} /> Correct!
+          </h3>
+          <p style={{ lineHeight: '1.5' }}>
+            {cleanText(question.explanation || `The correct answer is ${question.correct_answer}.`)}
+          </p>
+        </div>
+      )}
 
       <div className="flex-between">
         <button 
@@ -76,14 +124,11 @@ const Quiz = ({ questions, answers, setAnswers, onFinish }) => {
         </button>
         
         <div style={{ display: 'flex', gap: '1rem' }}>
-          {!selectedOption && (
-            <button onClick={handleNext} className="btn" style={{ background: 'rgba(255,255,255,0.05)' }}>
-              Skip <SkipForward size={18} />
+          {showExplanation && (
+            <button onClick={handleNext} className="btn btn-primary fade-in" style={{ minWidth: '140px' }}>
+              {currentIndex === questions.length - 1 ? 'Finish Exam' : 'Continue'} <ChevronRight size={18} />
             </button>
           )}
-          <button onClick={handleNext} className="btn btn-primary" style={{ minWidth: '140px' }}>
-            {currentIndex === questions.length - 1 ? 'Finish Exam' : 'Continue'} <ChevronRight size={18} />
-          </button>
         </div>
       </div>
     </div>

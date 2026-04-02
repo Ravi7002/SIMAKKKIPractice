@@ -171,6 +171,26 @@ h1, h2, h3 {
   box-shadow: 0 0 15px rgba(139, 92, 246, 0.2);
 }
 
+.option-btn.correct {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: var(--accent-green);
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
+}
+
+.option-btn.incorrect {
+  background: rgba(239, 68, 68, 0.15);
+  border-color: var(--accent-red);
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.2);
+  animation: shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes shake {
+  10%, 90% { transform: translate3d(-2px, 0, 0); }
+  20%, 80% { transform: translate3d(3px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-5px, 0, 0); }
+  40%, 60% { transform: translate3d(5px, 0, 0); }
+}
+
 .option-letter {
   display: flex;
   align-items: center;
@@ -187,6 +207,16 @@ h1, h2, h3 {
 
 .option-btn.selected .option-letter {
   background: var(--accent-purple);
+  color: white;
+}
+
+.option-btn.correct .option-letter {
+  background: var(--accent-green);
+  color: white;
+}
+
+.option-btn.incorrect .option-letter {
+  background: var(--accent-red);
   color: white;
 }
 
