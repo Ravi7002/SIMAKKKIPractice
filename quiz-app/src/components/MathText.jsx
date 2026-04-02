@@ -3,89 +3,81 @@ import katex from 'katex';
 import 'katex/dist/katex.min.css';
 
 /**
- * Converts plain-text math notation to LaTeX:
- * - sqrt(x)   → \sqrt{x}
- * - cbrt(x)   → \sqrt[3]{x}
- * - x^2       → x^{2}
- * - ^{...}    kept as-is (already LaTeX)
- * - \sqrt{..} kept as-is
- * - log_2(x)  → \log_{2}(x)
- * - fractions like (a/b) in math context
+ * Converts plain-text math notation into LaTeX.
  */
-function toLatex(raw) {
-  let s = raw;
-
-  // Already-LaTeX passthrough for common patterns — leave alone
-  // Normalize cbrt(x) → \sqrt[3]{x}
+function toLatex(s) {
+  // cbrt(x) → \sqrt[3]{x}
   s = s.replace(/cbrt\(([^)]+)\)/g, (_, inner) => `\\sqrt[3]{${inner}}`);
 
   // sqrt(x) → \sqrt{x}
-  s = s.replace(/sqrt\(([^)]+)\)/g, (_, inner) => `\\sqrt{${inner}}`);
+  s = s.replace(/\bsqrt\(([^)]+)\)/g, (_, inner) => `\\sqrt{${inner}}`);
 
   // log_base(x) → \log_{base}(x)
   s = s.replace(/log_(\w+)\(([^)]+)\)/g, (_, base, arg) => `\\log_{${base}}(${arg})`);
 
-  // plain ^ not already in {}  e.g. x^2 → x^{2}, x^10 → x^{10}
-  // but leave ^{ alone (already latex)
-  s = s.replace(/\^(?!\{)(-?\d+\.?\d*)/g, (_, exp) => `^{${exp}}`);
+  // x^{...} → already fine, leave
+  // x^word or x^digit → x^{word}  (handles 3^x, x^2, 3^{xy})
+  s = s.replace(/\^(?!\{)(-?[a-zA-Z0-9]+)/g, (_, exp) => `^{${exp}}`);
 
-  // Inline fractions written as (a/b) in obvious math text - skip, too risky
+  // * → \cdot (but not ** or */)
+  s = s.replace(/(?<![*])\*(?![*/])/g, ' \\cdot ');
 
   return s;
 }
 
 /**
- * Splits a text string into segments: regular text and $...$ or $$...$$ math blocks.
- * Also detects plain-text math patterns and wraps them in inline math.
+ * Render a LaTeX string with KaTeX.
  */
-function splitIntoSegments(text) {
-  if (!text) return [{ type: 'text', value: '' }];
-
-  // First, find explicit $...$ or $$...$$ delimiters
-  const segments = [];
-  // Regex: $$...$$  or  $...$
-  const mathRegex = /(\$\$[\s\S]+?\$\$|\$[^$\n]+?\$)/g;
-
-  let lastIndex = 0;
-  let match;
-  while ((match = mathRegex.exec(text)) !== null) {
-    if (match.index > lastIndex) {
-      // text before this math block — check for plain-text math
-      segments.push(...splitPlainMath(text.slice(lastIndex, match.index)));
-    }
-    const raw = match[0];
-    const isDisplay = raw.startsWith('$$');
-    const inner = isDisplay ? raw.slice(2, -2) : raw.slice(1, -1);
-    segments.push({ type: isDisplay ? 'display' : 'inline', value: inner });
-    lastIndex = match.index + match[0].length;
+function renderMath(latex, display = false) {
+  try {
+    return katex.renderToString(latex, {
+      throwOnError: false,
+      displayMode: display,
+      trust: true,
+    });
+  } catch {
+    return latex;
   }
-
-  if (lastIndex < text.length) {
-    segments.push(...splitPlainMath(text.slice(lastIndex)));
-  }
-
-  return segments;
 }
 
 /**
- * Detect plain-text math patterns like sqrt(...), x^2, \sqrt{} (LaTeX without $)
- * and wrap them as inline math segments.
+ * A "math token" is any of:
+ *  - something^something  (e.g. 3^x, x^2, x^{10})
+ *  - sqrt(...) or cbrt(...)
+ *  - \latexCommand{...}
+ *  - log_b(...)
+ */
+const MATH_TOKEN = /(?:[a-zA-Z0-9.]+\^(?:\{[^}]+\}|[a-zA-Z0-9]+)|sqrt\([^)]+\)|cbrt\([^)]+\)|\\[a-zA-Z]+(?:\{[^}]*\})*|\blog_\w+\([^)]+\))/;
+
+/**
+ * Splits a plain-text block into text/math segments.
+ * Groups consecutive math tokens + operators into one math block.
  */
 function splitPlainMath(text) {
   if (!text) return [];
 
-  // Patterns that indicate math content in plain text
-  const plainMathPattern = /((?:\\[a-zA-Z]+\{[^}]*\}|cbrt\([^)]+\)|sqrt\([^)]+\)|log_\w+\([^)]+\)|\w+\^(?:\{[^}]+\}|-?\d+))[^,\s\w]*)+/g;
+  // Build a pattern that matches a "math run":
+  // one or more math tokens connected by operators/spaces
+  const MATH_TOKEN_STR = MATH_TOKEN.source;
+  const OPERATOR = /\s*[*/+\-=<>≤≥^]\s*|\s+/.source;
+  // A math run must start with a math token, then optionally more tokens/operators, and end with a math token or a bare number/result
+  const MATH_RUN = new RegExp(
+    `(${MATH_TOKEN_STR}(?:(?:${OPERATOR})(?:${MATH_TOKEN_STR}|[0-9]+(?:\\.[0-9]+)?))*)`,
+    'g'
+  );
 
   const segments = [];
   let lastIndex = 0;
   let match;
 
-  while ((match = plainMathPattern.exec(text)) !== null) {
+  while ((match = MATH_RUN.exec(text)) !== null) {
+    // Only treat as math if the match actually contains a real math token
+    if (!MATH_TOKEN.test(match[0])) continue;
+
     if (match.index > lastIndex) {
       segments.push({ type: 'text', value: text.slice(lastIndex, match.index) });
     }
-    segments.push({ type: 'inline', value: toLatex(match[0]) });
+    segments.push({ type: 'inline', value: toLatex(match[0].trim()) });
     lastIndex = match.index + match[0].length;
   }
 
@@ -96,48 +88,52 @@ function splitPlainMath(text) {
   return segments.length > 0 ? segments : [{ type: 'text', value: text }];
 }
 
-function renderMath(latex, display) {
-  try {
-    return katex.renderToString(latex, {
-      throwOnError: false,
-      displayMode: display,
-      trust: true,
-    });
-  } catch (e) {
-    return latex;
+/**
+ * Master split: handles explicit $...$ / $$...$$ delimiters first,
+ * then falls back to plain-text math detection.
+ */
+function splitIntoSegments(text) {
+  if (!text) return [{ type: 'text', value: '' }];
+
+  // Remove citation brackets
+  text = text.replace(/\[\d+\]/g, '').trim();
+
+  const segments = [];
+  const mathDelim = /(\$\$[\s\S]+?\$\$|\$[^$\n]+?\$)/g;
+  let lastIndex = 0;
+  let match;
+
+  while ((match = mathDelim.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      segments.push(...splitPlainMath(text.slice(lastIndex, match.index)));
+    }
+    const raw = match[0];
+    const isDisplay = raw.startsWith('$$');
+    const inner = isDisplay ? raw.slice(2, -2) : raw.slice(1, -1);
+    segments.push({ type: isDisplay ? 'display' : 'inline', value: inner });
+    lastIndex = match.index + raw.length;
   }
+
+  if (lastIndex < text.length) {
+    segments.push(...splitPlainMath(text.slice(lastIndex)));
+  }
+
+  return segments;
 }
 
 /**
- * MathText component — renders text with inline math expressions beautifully.
- * Supports:
- *  - $...$ and $$...$$ delimiters
- *  - Plain-text sqrt(), cbrt(), log_b(), x^2 patterns
- *  - Raw LaTeX like \sqrt{} \frac{}{}
+ * MathText — renders text with inline math expressions.
+ * Handles sqrt(), cbrt(), x^2, x^y, log_b(), LaTeX \cmd{}, $...$ delimiters.
  */
 const MathText = ({ text, style, className }) => {
   if (!text) return null;
 
-  // Remove citation brackets like [1]
-  const cleaned = text.replace(/\[\d+\]/g, '').trim();
-
-  const segments = splitIntoSegments(cleaned);
+  const segments = splitIntoSegments(String(text));
 
   return (
     <span style={style} className={className}>
       {segments.map((seg, i) => {
         if (seg.type === 'text') {
-          // Still do a final pass: convert any remaining x^{n} patterns
-          // and any \sqrt{} that slipped through as plain text
-          const hasLatex = /\\[a-zA-Z]|\^{/.test(seg.value);
-          if (hasLatex) {
-            return (
-              <span
-                key={i}
-                dangerouslySetInnerHTML={{ __html: renderMath(toLatex(seg.value), false) }}
-              />
-            );
-          }
           return <span key={i}>{seg.value}</span>;
         }
         return (
