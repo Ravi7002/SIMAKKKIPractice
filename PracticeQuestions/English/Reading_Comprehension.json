@@ -1,0 +1,172 @@
+{
+  "subject": "English",
+  "topic": "Reading Comprehension",
+  "introduction": "Reading Comprehension evaluates your ability to digest large blocks of text, understand primary purposes, evaluate author tones, and infer implicit statements safely without leaping to outside biases.",
+  "tips_and_tricks": [
+    "Identify the main idea in the first and last paragraph.",
+    "Do NOT use outside knowledge. If the text says the sky is green, then for the purpose of the test, it is green.",
+    "Look out for absolute words in options like 'never', 'always', or 'all' \u2014 these are usually incorrect distractors."
+  ],
+  "questions": [
+    {
+      "id": "rc_easy_1",
+      "subject": "English",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question_text": "Passage: 'Bees play a vital role in Earth's ecosystem. By pollinating flowers, they ensure the production of fruits and seeds. Without them, human agricultural output would drop significantly, sparking food shortages.'\n\nWhat is the primary purpose of this passage?",
+      "options": [
+        {"letter": "A", "text": "To describe how bees build hives."},
+        {"letter": "B", "text": "To explain the economic cost of honey."},
+        {"letter": "C", "text": "To highlight the importance of bees to agriculture and nature."},
+        {"letter": "D", "text": "To warn people about bee stings."},
+        {"letter": "E", "text": "To prove that humans are superior to bees."}
+      ],
+      "correct_answer": "C",
+      "explanation": "The passage discusses bees' roles in ecosystems, pollinating, and agriculture. Option C summarizes this completely. The other options introduce topics not mentioned (hives, money, stings)."
+    },
+    {
+      "id": "rc_easy_2",
+      "subject": "English",
+      "topic": "Reading Comprehension",
+      "difficulty": "easy",
+      "question_text": "Passage: 'Unlike his boisterous and energetic sister, James preferred to spend his afternoons in the quiet corner of the library, lost in ancient history books.'\n\nWhat does the word 'boisterous' most likely mean based on the context?",
+      "options": [
+        {"letter": "A", "text": "Quiet and shy"},
+        {"letter": "B", "text": "Loud and energetic"},
+        {"letter": "C", "text": "Angry and violent"},
+        {"letter": "D", "text": "Intelligent and studious"},
+        {"letter": "E", "text": "Lazy and sleepy"}
+      ],
+      "correct_answer": "B",
+      "explanation": "The word 'Unlike' establishes a contrast. If James is quiet, his sister must be the opposite. 'Loud and energetic' perfectly contrasts with 'quiet'. Furthermore, the text pairs 'boisterous' with 'energetic'."
+    },
+    {
+      "id": "rc_medium_1",
+      "subject": "English",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question_text": "Passage: 'While solar energy is theoretically abundant and highly sustainable, the immediate transition to a 100% solar grid is hindered by battery storage limitations. Sunless days and nights require massive reserves, which current lithium-based technology struggles to efficiently provide without severe ecological mining impacts.'\n\nWhich of the following would the author most likely agree with?",
+      "options": [
+        {"letter": "A", "text": "Solar energy is an unreliable source and should be abandoned immediately."},
+        {"letter": "B", "text": "Lithium mining is the only way to save the planet from fossil fuels."},
+        {"letter": "C", "text": "Solar grids are perfectly ready for immediate global deployment."},
+        {"letter": "D", "text": "Transitioning to solar power presents complex technological and ecological trade-offs."},
+        {"letter": "E", "text": "Wind power is vastly superior to solar power in modern grids."}
+      ],
+      "correct_answer": "D",
+      "explanation": "The author acknowledges solar energy is sustainable (positive) but lists battery and ecological limitations (negative). Option D describes this nuanced, balanced viewpoint (trade-offs). Options A and C are extreme absolutes. Option E introduces wind, which isn't in the text."
+    },
+    {
+      "id": "rc_medium_2",
+      "subject": "English",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question_text": "Passage: 'Historical records of the 14th-century plague focus primarily on urban centers because merchants and officials kept meticulous logs. Consequently, modern textbooks often underestimate the devastation in rural farming communities, where oral traditions died alongside entire unrecorded villages.'\n\nWhat is the implied consequence of depending solely on urban historical records?",
+      "options": [
+        {"letter": "A", "text": "It proves that the plague did not affect rural communities heavily."},
+        {"letter": "B", "text": "It paints an accurate picture of medieval economic policies."},
+        {"letter": "C", "text": "It creates a skewed historical narrative that ignores rural suffering."},
+        {"letter": "D", "text": "It shows that farmers were immune to the plagues of the 14th century."},
+        {"letter": "E", "text": "It highlights the superior medical infrastructure of 14th-century cities."}
+      ],
+      "correct_answer": "C",
+      "explanation": "The text states that relying on urban logs causes textbooks to 'underestimate the devastation' in rural areas. This directly implies the historical narrative is skewed, missing the rural perspective. Option C captures this safely."
+    },
+    {
+      "id": "rc_medium_3",
+      "subject": "English",
+      "topic": "Reading Comprehension",
+      "difficulty": "medium",
+      "question_text": "Passage: 'The company instituted a rigid new policy regarding tardiness. Any employee arriving past 9:00 AM would receive a formal warning. Surprisingly, productivity over the next month plummeted, as employees engaged in malicious compliance, starting work precisely at 9:00 AM rather than coming in 15 minutes early out of goodwill as they previously had.'\n\nWhat can be inferred about the company's new policy?",
+      "options": [
+        {"letter": "A", "text": "It successfully solved the overall problem of low productivity."},
+        {"letter": "B", "text": "It alienated employees, replacing intrinsic goodwill with strict minimum compliance."},
+        {"letter": "C", "text": "It forced employees to work long hours without any financial compensation."},
+        {"letter": "D", "text": "It fired the employees who were regularly late."},
+        {"letter": "E", "text": "It was enthusiastically welcomed by the local workers' union."}
+      ],
+      "correct_answer": "B",
+      "explanation": "The passage notes that productivity plummeted because employees stopped starting early 'out of goodwill', choosing 'malicious compliance' instead. This implies the strict rule destroyed employee flexibility and motivation. Option B aligns perfectly."
+    },
+    {
+      "id": "rc_hard_1",
+      "subject": "English",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question_text": "Passage: 'Skeptics of cognitive behavioral therapy (CBT) argue that its focus on immediate symptom alleviation bypasses the deep-seated root traumas explored in prolonged psychoanalysis. Proponents, however, contend that paralyzing symptoms must be neutralized before productive deep-trauma work can even commence, framing CBT not as a replacement for psychoanalysis, but as a critical precursor.'\n\nHow do the proponents of CBT respond to the skeptics' specific criticism?",
+      "options": [
+        {"letter": "A", "text": "They deny that root traumas actually exist in modern patients."},
+        {"letter": "B", "text": "They argue that symptom alleviation is entirely sufficient for mental health."},
+        {"letter": "C", "text": "They claim deep psychoanalysis is medically dangerous and outdated."},
+        {"letter": "D", "text": "They suggest that bypassing symptoms is impossible using psychoanalysis alone."},
+        {"letter": "E", "text": "They validate the importance of root traumas but argue they are inaccessible while severe symptoms persist."}
+      ],
+      "correct_answer": "E",
+      "explanation": "The proponents do not dismiss root trauma (like A or B suggest). Instead, they say symptoms 'must be neutralized before productive deep-trauma work can even commence'. This means they value the deep work, but believe you must fix immediate symptoms first. Option E encapsulates this 'precursor' logic absolutely."
+    },
+    {
+      "id": "rc_hard_2",
+      "subject": "English",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question_text": "Passage: 'Critics panning the latest avant-garde film consistently misinterpret its chaotic cinematography as directorial incompetence. In reality, the shaky camera work and dissonant audio track are deliberate mechanics designed to forcefully thrust the audience into the protagonist's localized psychosis. To demand smooth panning shots is to demand a fundamental betrayal of the narrative's core theme.'\n\nWhat is the author's primary attitude toward the critics?",
+      "options": [
+        {"letter": "A", "text": "Sympathetic to their demand for polished cinematography."},
+        {"letter": "B", "text": "Dismissive, asserting they failed to grasp the thematic intent of the style."},
+        {"letter": "C", "text": "Objective, simply stating varying perspectives on filmmaking."},
+        {"letter": "D", "text": "Angry that they personally attacked the film's lead actor."},
+        {"letter": "E", "text": "Confused about why they perceived the audio track as dissonant."}
+      ],
+      "correct_answer": "B",
+      "explanation": "The author says critics 'misinterpret' the film and that demanding smooth shots is a 'fundamental betrayal' of the theme. The tone strongly defends the film's choices and dismisses the critics as having completely missed the point."
+    },
+    {
+      "id": "rc_hard_3",
+      "subject": "English",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question_text": "Passage: 'The economic stagnation of the 1970s, characterized by the simultaneous onset of inflation and rising unemployment (stagflation), defied the established Keynesian consensus. Policymakers who attempted to spend their way out of unemployment only accelerated inflation, caught in a theoretical blind spot that ultimately paved the way for monetarist economic theory to seize academic dominance.'\n\nAccording to the passage, why did Keynesian policymakers fail during the 1970s?",
+      "options": [
+        {"letter": "A", "text": "They refused to spend enough government money to combat unemployment."},
+        {"letter": "B", "text": "They enthusiastically adopted monetarist economic theory too early."},
+        {"letter": "C", "text": "Their established methods for curing unemployment paradoxically worsened the simultaneous inflation."},
+        {"letter": "D", "text": "They intentionally caused stagflation to destroy competing academic theories."},
+        {"letter": "E", "text": "They lacked accurate modern computer models for predicting unemployment."}
+      ],
+      "correct_answer": "C",
+      "explanation": "The passage states that they 'attempted to spend their way out' (eliminating A) but 'only accelerated inflation'. This trap, where a solution for one metric ruined the other, was a 'theoretical blind spot'. Option C perfectly describes this paradox."
+    },
+    {
+      "id": "rc_hard_4",
+      "subject": "English",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question_text": "Passage: 'In analyzing evolutionary adaptations, there is a dangerous temptation to assume hyper-optimization. Often, a physical trait does not exist because it provides an active survival advantage, but simply because it is a genetic byproduct of a different, more essential trait, and does not actively kill the organism. Neutral traits persist on the back of advantageous ones.'\n\nWhich logical fallacy in evolutionary biology is the passage warning against?",
+      "options": [
+        {"letter": "A", "text": "Assuming that evolution is entirely driven by random chance."},
+        {"letter": "B", "text": "Believing that traits can evolve independently of genetics."},
+        {"letter": "C", "text": "Assuming every observable physical characteristic has a specific functional purpose."},
+        {"letter": "D", "text": "Ignoring the fact that physical traits can be actively harmful to survival."},
+        {"letter": "E", "text": "Underestimating the speed at which genetic byproducts manifest."}
+      ],
+      "correct_answer": "C",
+      "explanation": "The passage warns against the 'temptation to assume hyper-optimization' (thinking everything has an active advantage). It points out that 'neutral traits' exist just because they piggyback on other genes. Option C properly describes the fallacy of over-attributing functional purpose to everything."
+    },
+    {
+      "id": "rc_hard_5",
+      "subject": "English",
+      "topic": "Reading Comprehension",
+      "difficulty": "hard",
+      "question_text": "Passage: 'Algorithm-driven news feeds operate under a perverse utilitarianism, maximizing user engagement above strict journalistic truth. When outrage inherently generates more clicks than nuanced analysis, the algorithm functionally censors moderation by burying it in obscurity. Thus, the tool designed to connect global populations paradoxically fractures them into tribal, hyper-polarized echo chambers.'\n\nWhat is the 'perverse utilitarianism' referring to in the context of the argument?",
+      "options": [
+        {"letter": "A", "text": "The platform's dedication to providing exactly what the user wants to buy."},
+        {"letter": "B", "text": "A misapplied optimization where the 'greatest good' is defined purely as maximum screen time, regardless of societal damage."},
+        {"letter": "C", "text": "A deliberate conspiracy by journalists to fracture global populations."},
+        {"letter": "D", "text": "The logical framework used by users to filter out fake news manually."},
+        {"letter": "E", "text": "An unethical attempt to charge users money for accessing moderate content."}
+      ],
+      "correct_answer": "B",
+      "explanation": "Utilitarianism usually seeks the 'greatest good'. Here it is 'perverse' because the system 'maximizes user engagement above strict journalistic truth'. The algorithm optimizes for metrics (screen time/clicks) instead of actual good (truth/societal health). Option B is a perfect analytical summary."
+    }
+  ]
+}

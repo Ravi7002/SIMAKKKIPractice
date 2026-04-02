@@ -1,0 +1,173 @@
+{
+  "subject": "Basic Mathematics",
+  "topic": "Exponents and Logarithms",
+  "introduction": "This topic covers simplifying exponential expressions, utilizing logarithm properties (addition/subtraction rules, base changes), and solving interdependent algebraic systems that involve both exponents and logs.",
+  "tips_and_tricks": [
+    "log(A*B) = log(A) + log(B). Distractors will try to make you add bases instead.",
+    "a^(m/n) = n-th root of a^m.",
+    "Change of base formula: log_b(a) = log_k(a) / log_k(b).",
+    "If x = log_y(z), then y^x = z."
+  ],
+  "questions": [
+    {
+      "id": "el_easy_1",
+      "subject": "Basic Mathematics",
+      "topic": "Exponents and Logarithms",
+      "difficulty": "easy",
+      "question_text": "Solve for x in the equation 2^(3x - 1) = 32.",
+      "options": [
+        {"letter": "A", "text": "2"},
+        {"letter": "B", "text": "1"},
+        {"letter": "C", "text": "3"},
+        {"letter": "D", "text": "6"},
+        {"letter": "E", "text": "4"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Since 32 = 2^5, we can set the exponents equal: 3x - 1 = 5. Adding 1 to both sides: 3x = 6. Dividing by 3: x = 2."
+    },
+    {
+      "id": "el_easy_2",
+      "subject": "Basic Mathematics",
+      "topic": "Exponents and Logarithms",
+      "difficulty": "easy",
+      "question_text": "What is the continuous evaluated value of log\u2083(27) + log\u2082(8)?",
+      "options": [
+        {"letter": "A", "text": "6"},
+        {"letter": "B", "text": "5"},
+        {"letter": "C", "text": "9"},
+        {"letter": "D", "text": "12"},
+        {"letter": "E", "text": "8"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Evaluate each part: log\u2083(27) = 3 because 3^3 = 27. log\u2082(8) = 3 because 2^3 = 8. Adding them gives 3 + 3 = 6."
+    },
+    {
+      "id": "el_medium_1",
+      "subject": "Basic Mathematics",
+      "topic": "Exponents and Logarithms",
+      "difficulty": "medium",
+      "question_text": "Solve the system of equations for x an y: \n1) 3^x * 3^y = 81\n2) 2^x / 2^y = 4",
+      "options": [
+        {"letter": "A", "text": "x = 3, y = 1"},
+        {"letter": "B", "text": "x = 2, y = 2"},
+        {"letter": "C", "text": "x = 1, y = 3"},
+        {"letter": "D", "text": "x = 4, y = 0"},
+        {"letter": "E", "text": "x = 5, y = -1"}
+      ],
+      "correct_answer": "A",
+      "explanation": "From the first equation: 3^(x+y) = 3^4 \u2192 x + y = 4.\nFrom the second equation: 2^(x-y) = 2^2 \u2192 x - y = 2.\nAdding both simplified equations: 2x = 6 \u2192 x = 3. Then, 3 + y = 4 \u2192 y = 1."
+    },
+    {
+      "id": "el_medium_2",
+      "subject": "Basic Mathematics",
+      "topic": "Exponents and Logarithms",
+      "difficulty": "medium",
+      "question_text": "Simplify the expression log(50) + log(2) - log(10).",
+      "options": [
+        {"letter": "A", "text": "1"},
+        {"letter": "B", "text": "2"},
+        {"letter": "C", "text": "log(42)"},
+        {"letter": "D", "text": "10"},
+        {"letter": "E", "text": "0"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Use log rules: log(A) + log(B) = log(A*B) and log(A) - log(B) = log(A/B). \nExpression = log((50 * 2) / 10) = log(100 / 10) = log(10). Assuming base 10 by default, log(10) = 1."
+    },
+    {
+      "id": "el_medium_3",
+      "subject": "Basic Mathematics",
+      "topic": "Exponents and Logarithms",
+      "difficulty": "medium",
+      "question_text": "If 5^(x) = 7, express x in terms of natural logarithms.",
+      "options": [
+        {"letter": "A", "text": "ln(7) / ln(5)"},
+        {"letter": "B", "text": "ln(5) / ln(7)"},
+        {"letter": "C", "text": "ln(35)"},
+        {"letter": "D", "text": "ln(7 - 5)"},
+        {"letter": "E", "text": "ln(7) * ln(5)"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Take the natural logarithm (ln) of both sides: ln(5^x) = ln(7). Using log power rules: x*ln(5) = ln(7). Solve for x = ln(7) / ln(5)."
+    },
+    {
+      "id": "el_hard_1",
+      "subject": "Basic Mathematics",
+      "topic": "Exponents and Logarithms",
+      "difficulty": "hard",
+      "question_text": "If log\u2082(x) + log\u2084(x) = 6, find the value of x.",
+      "options": [
+        {"letter": "A", "text": "16"},
+        {"letter": "B", "text": "64"},
+        {"letter": "C", "text": "8"},
+        {"letter": "D", "text": "4"},
+        {"letter": "E", "text": "32"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Use the base change rule: log\u2084(x) = log\u2082(x) / log\u2082(4) = log\u2082(x) / 2. \nThe equation becomes log\u2082(x) + (1/2)*log\u2082(x) = 6. Let log\u2082(x) = y. \ny + 0.5y = 6 \u2192 1.5y = 6 \u2192 y = 4. \nSince y = 4, then log\u2082(x) = 4, which means x = 2^4 = 16."
+    },
+    {
+      "id": "el_hard_2",
+      "subject": "Basic Mathematics",
+      "topic": "Exponents and Logarithms",
+      "difficulty": "hard",
+      "question_text": "Solve for x: 3^(2x) - 10 * 3^x + 9 = 0",
+      "options": [
+        {"letter": "A", "text": "x = 0  and  x = 2"},
+        {"letter": "B", "text": "x = 1  and  x = 9"},
+        {"letter": "C", "text": "x = 0  and  x = 3"},
+        {"letter": "D", "text": "x = 3  and  x = 9"},
+        {"letter": "E", "text": "x = 1  and  x = 2"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Let u = 3^x. The equation becomes a quadratic: u\u00b2 - 10u + 9 = 0. \nFactoring yields (u - 9)(u - 1) = 0. So u = 9 or u = 1. \nFor u = 9: 3^x = 9 \u2192 x = 2. \nFor u = 1: 3^x = 1 \u2192 x = 0."
+    },
+    {
+      "id": "el_hard_3",
+      "subject": "Basic Mathematics",
+      "topic": "Exponents and Logarithms",
+      "difficulty": "hard",
+      "question_text": "If a, b, and c are positive numbers such that a^x = b^y = c^z and b\u00b2 = ac, which of the following relates x, y, and z?",
+      "options": [
+        {"letter": "A", "text": "2/y = 1/x + 1/z"},
+        {"letter": "B", "text": "y\u00b2 = xz"},
+        {"letter": "C", "text": "2y = x + z"},
+        {"letter": "D", "text": "1/y = 2/x + 2/z"},
+        {"letter": "E", "text": "y = xz / (x+z)"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Let a^x = b^y = c^z = k. Then a = k^(1/x), b = k^(1/y), and c = k^(1/z). \nGiven b\u00b2 = ac, substitute the terms: (k^(1/y))\u00b2 = (k^(1/x)) * (k^(1/z)). \nk^(2/y) = k^(1/x + 1/z). Since the bases are equal, the exponents are equal: 2/y = 1/x + 1/z."
+    },
+    {
+      "id": "el_hard_4",
+      "subject": "Basic Mathematics",
+      "topic": "Exponents and Logarithms",
+      "difficulty": "hard",
+      "question_text": "Evaluate the infinite product: P = 2^(1/2) * 2^(1/4) * 2^(1/8) * ...",
+      "options": [
+        {"letter": "A", "text": "2"},
+        {"letter": "B", "text": "4"},
+        {"letter": "C", "text": "1"},
+        {"letter": "D", "text": "\u221a2"},
+        {"letter": "E", "text": "\u221e"}
+      ],
+      "correct_answer": "A",
+      "explanation": "When multiplying terms with the same base, add their exponents. \nP = 2^(1/2 + 1/4 + 1/8 + ...). \nThe exponent is an infinite geometric series with first term a=1/2 and common ratio r=1/2. \nSum = a / (1 - r) = (1/2) / (1 - 1/2) = (1/2) / (1/2) = 1. \nThus, P = 2^1 = 2."
+    },
+    {
+      "id": "el_hard_5",
+      "subject": "Basic Mathematics",
+      "topic": "Exponents and Logarithms",
+      "difficulty": "hard",
+      "question_text": "If log\u2081\u2080(2) = a and log\u2081\u2080(3) = b, express log\u2085(12) in terms of a and b.",
+      "options": [
+        {"letter": "A", "text": "(2a + b) / (1 - a)"},
+        {"letter": "B", "text": "(a + 2b) / (1 - a)"},
+        {"letter": "C", "text": "(2a + b) / a"},
+        {"letter": "D", "text": "(a + 2b) / (1 + a)"},
+        {"letter": "E", "text": "(a + b) / (1 - a)"}
+      ],
+      "correct_answer": "A",
+      "explanation": "First use the change of base block: log\u2085(12) = log\u2081\u2080(12) / log\u2081\u2080(5). \nNumerator: log(12) = log(2\u00b2 * 3) = 2*log(2) + log(3) = 2a + b. \nDenominator: log(5) = log(10 / 2) = log(10) - log(2) = 1 - a. \nCombining them gives (2a + b) / (1 - a)."
+    }
+  ]
+}

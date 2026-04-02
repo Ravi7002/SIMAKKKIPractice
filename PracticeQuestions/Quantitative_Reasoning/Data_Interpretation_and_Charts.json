@@ -1,0 +1,172 @@
+{
+  "subject": "Quantitative Reasoning",
+  "topic": "Data Interpretation and Charts",
+  "introduction": "This topic tests your ability to quickly analyze grouped data distributions, overlapping survey percentages, and visual representations of statistics to extract core insights without falling for visual illusions.",
+  "tips_and_tricks": [
+    "Always check the baseline when dealing with percentages (Percentage of what?).",
+    "Absolute numbers cannot be derived solely from percentage charts unless a total absolute population is provided.",
+    "Verify every single word in a statement before marking it as true; one swapped category flips the meaning."
+  ],
+  "questions": [
+    {
+      "id": "dic_easy_1",
+      "subject": "Quantitative Reasoning",
+      "topic": "Data Interpretation and Charts",
+      "difficulty": "easy",
+      "question_text": "A pie chart shows a total budget of $2000. Rent takes up 40% and Food takes up 20%. How much money is allocated to Rent and Food combined?",
+      "options": [
+        {"letter": "A", "text": "$1200"},
+        {"letter": "B", "text": "$800"},
+        {"letter": "C", "text": "$400"},
+        {"letter": "D", "text": "$1000"},
+        {"letter": "E", "text": "$600"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Total percentage for Rent and Food = 40% + 20% = 60%. \n60% of $2000 = 0.60 * 2000 = $1200."
+    },
+    {
+      "id": "dic_easy_2",
+      "subject": "Quantitative Reasoning",
+      "topic": "Data Interpretation and Charts",
+      "difficulty": "easy",
+      "question_text": "In a bar chart, Product A sold 150 units, Product B sold 250 units, and Product C sold 100 units. What percentage of total sales does Product B represent?",
+      "options": [
+        {"letter": "A", "text": "40%"},
+        {"letter": "B", "text": "25%"},
+        {"letter": "C", "text": "30%"},
+        {"letter": "D", "text": "50%"},
+        {"letter": "E", "text": "60%"}
+      ],
+      "correct_answer": "D",
+      "explanation": "Total sales = 150 + 250 + 100 = 500 units. \nProduct B percentage = (250 / 500) * 100% = 50%."
+    },
+    {
+      "id": "dic_medium_1",
+      "subject": "Quantitative Reasoning",
+      "topic": "Data Interpretation and Charts",
+      "difficulty": "medium",
+      "question_text": "In a survey of 400 people, 30% are adults over 50. Of these older adults, 40% exercise regularly. How many older adults in the survey DO NOT exercise regularly?",
+      "options": [
+        {"letter": "A", "text": "48"},
+        {"letter": "B", "text": "72"},
+        {"letter": "C", "text": "120"},
+        {"letter": "D", "text": "168"},
+        {"letter": "E", "text": "100"}
+      ],
+      "correct_answer": "B",
+      "explanation": "Number of older adults = 30% of 400 = 0.3 * 400 = 120. \nPercentage of older adults who DO NOT exercise = 100% - 40% = 60%. \nOlder adults not exercising = 60% of 120 = 0.6 * 120 = 72."
+    },
+    {
+      "id": "dic_medium_2",
+      "subject": "Quantitative Reasoning",
+      "topic": "Data Interpretation and Charts",
+      "difficulty": "medium",
+      "question_text": "Company X's profit increased by 20% from 2020 to 2021, and decreased by 10% from 2021 to 2022. What was the overall percentage change from 2020 to 2022?",
+      "options": [
+        {"letter": "A", "text": "10% increase"},
+        {"letter": "B", "text": "12% increase"},
+        {"letter": "C", "text": "8% increase"},
+        {"letter": "D", "text": "8% decrease"},
+        {"letter": "E", "text": "15% increase"}
+      ],
+      "correct_answer": "C",
+      "explanation": "Let initial profit be 100. \nIn 2021: 100 * 1.20 = 120. \nIn 2022: Decrease by 10% \u2192 120 * 0.90 = 108. \nOverall change from 100 to 108 is an 8% increase."
+    },
+    {
+      "id": "dic_medium_3",
+      "subject": "Quantitative Reasoning",
+      "topic": "Data Interpretation and Charts",
+      "difficulty": "medium",
+      "question_text": "A stacked bar chart shows the population of two cities broken into M (Male) and F (Female). City 1 total is 50,000 (60% M, 40% F). City 2 total is 80,000 (45% M, 55% F). What is the total female percentage across both cities combined?",
+      "options": [
+        {"letter": "A", "text": "47.5%"},
+        {"letter": "B", "text": "49.2%"},
+        {"letter": "C", "text": "55%"},
+        {"letter": "D", "text": "52.3%"},
+        {"letter": "E", "text": "45%"}
+      ],
+      "correct_answer": "B",
+      "explanation": "Females in City 1 = 40% of 50,000 = 20,000. \nFemales in City 2 = 55% of 80,000 = 44,000. \nTotal Females = 20,000 + 44,000 = 64,000. \nTotal Population = 50,000 + 80,000 = 130,000. \nPercentage = (64,000 / 130,000) * 100% \u2248 49.23%. Distractors just average 40 and 55."
+    },
+    {
+      "id": "dic_hard_1",
+      "subject": "Quantitative Reasoning",
+      "topic": "Data Interpretation and Charts",
+      "difficulty": "hard",
+      "question_text": "In a survey table for school activities, 20% of Club A members are seniors, while 50% of Club B members are seniors. Together, the two clubs have 200 members in total, and 32% of all completely pooled members are seniors. Assuming nobody is in both clubs, how many members are in Club A?",
+      "options": [
+        {"letter": "A", "text": "120"},
+        {"letter": "B", "text": "100"},
+        {"letter": "C", "text": "60"},
+        {"letter": "D", "text": "80"},
+        {"letter": "E", "text": "150"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Let A be the members in Club A and B be members in Club B. \nA + B = 200 \u2192 B = 200 - A. \nSeniors in A + Seniors in B = Total Seniors. \n0.20*A + 0.50*(200 - A) = 0.32 * 200. \n0.20A + 100 - 0.50A = 64 \u2192 -0.30A = -36 \u2192 A = 36 / 0.30 = 120."
+    },
+    {
+      "id": "dic_hard_2",
+      "subject": "Quantitative Reasoning",
+      "topic": "Data Interpretation and Charts",
+      "difficulty": "hard",
+      "question_text": "A chart gives data on 500 cars. 40% are sedans, 35% are SUVs, 25% are trucks. 20% of ALL cars are silver, and exactly half of the silver cars are SUVs. If 15% of sedans are silver, how many trucks are silver?",
+      "options": [
+        {"letter": "A", "text": "10"},
+        {"letter": "B", "text": "15"},
+        {"letter": "C", "text": "20"},
+        {"letter": "D", "text": "25"},
+        {"letter": "E", "text": "5"}
+      ],
+      "correct_answer": "C",
+      "explanation": "Total silver cars = 20% of 500 = 100. \nHalf are SUVs \u2192 Silver SUVs = 50. \nNumber of sedans = 40% of 500 = 200. \nSilver sedans = 15% of sedans = 15% of 200 = 30. \nSilver trucks = Total Silver - Silver SUVs - Silver sedans = 100 - 50 - 30 = 20."
+    },
+    {
+      "id": "dic_hard_3",
+      "subject": "Quantitative Reasoning",
+      "topic": "Data Interpretation and Charts",
+      "difficulty": "hard",
+      "question_text": "An investment chart shows stock values over 3 years. Stock X grew by 150%, then lost 40%, then gained 25%. Stock Y grew by a steady continuous rate. Both ended at exactly 1.875 times their original value. What is the false statement below?",
+      "options": [
+        {"letter": "A", "text": "During year 2, Stock X fell back down to exactly 1.5 times its entry value."},
+        {"letter": "B", "text": "Stock X grew by an overall 87.5% from year 0 to year 3."},
+        {"letter": "C", "text": "If Stock Y grew purely by simple interest, its annual rate would be 29.17%."},
+        {"letter": "D", "text": "The end-of-year 1 value for Stock X was 2.5 times its starting value."},
+        {"letter": "E", "text": "Stock Y grew at an exact 25% compound annual growth rate."}
+      ],
+      "correct_answer": "E",
+      "explanation": "Let initial value = 100. \nYr1 X = 100 + 150% = 250 (which is 2.5 times - D is True). \nYr2 X = 250 * 0.60 = 150 (which is 1.5 times - A is True). \nYr3 X = 150 * 1.25 = 187.5 (overall 87.5% growth - B is True). \nFor simple interest Y: 87.5 / 3 = 29.166% per year (C is basically True). \nFor compound interest Y: rate r = (1.875)^(1/3) - 1. 1.25^3 = 1.953125, not 1.875! Thus, an exact 25% compound rate is False. E is the false statement."
+    },
+    {
+      "id": "dic_hard_4",
+      "subject": "Quantitative Reasoning",
+      "topic": "Data Interpretation and Charts",
+      "difficulty": "hard",
+      "question_text": "An incomplete table of male/female test performance reveals that 60% of females passed and 40% of males passed. If the overall pass rate for the entire group was 45%, what is the ratio of males to females in the group?",
+      "options": [
+        {"letter": "A", "text": "3:1"},
+        {"letter": "B", "text": "2:3"},
+        {"letter": "C", "text": "1:3"},
+        {"letter": "D", "text": "3:2"},
+        {"letter": "E", "text": "4:1"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Let F = number of females, M = number of males. \nTotal passed = 0.6F + 0.4M. \nAlso, Total passed = 0.45 * (F + M). \nEquating: 0.6F + 0.4M = 0.45F + 0.45M \u2192 0.15F = 0.05M. \nDivide by 0.05: 3F = M. \nTherefore, the ratio of Males to Females (M : F) is 3 : 1."
+    },
+    {
+      "id": "dic_hard_5",
+      "subject": "Quantitative Reasoning",
+      "topic": "Data Interpretation and Charts",
+      "difficulty": "hard",
+      "question_text": "A poll indicated 70% support for policy A and 80% support for policy B. If 'x' represents the percentage of people who supported BOTH policies, what is the full range of possible values for x?",
+      "options": [
+        {"letter": "A", "text": "70% \u2264 x \u2264 80%"},
+        {"letter": "B", "text": "50% \u2264 x \u2264 70%"},
+        {"letter": "C", "text": "50% \u2264 x \u2264 80%"},
+        {"letter": "D", "text": "30% \u2264 x \u2264 70%"},
+        {"letter": "E", "text": "0% \u2264 x \u2264 50%"}
+      ],
+      "correct_answer": "B",
+      "explanation": "The maximum overlap happens if everyone who supported A also supported B. So max(x) = min(70, 80) = 70%. \nThe minimum overlap happens if the sets are pushed apart as far as possible: P(A) + P(B) - 100% = 70% + 80% - 100% = 50%. \nThus, 50% \u2264 x \u2264 70%."
+    }
+  ]
+}

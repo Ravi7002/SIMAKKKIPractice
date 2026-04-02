@@ -1,0 +1,302 @@
+{
+    "test_generation_criteria": {
+        "Basic_Mathematics": {
+            "Combinatorics_and_Probability": {
+                "core_concept": "Counting methods, combinations, permutations, and probability of specific events.",
+                "question_structure": "Present a scenario involving drawing items, distributing identical objects, or forming committees.",
+                "distractor_strategy": "Use answers from wrong formulas, like adding instead of multiplying, or forgetting to subtract overlaps.",
+                "levels": {
+                    "easy": "Simple combinations or single-event probability.",
+                    "medium": "Distributing identical items with basic limits (like stars and bars).",
+                    "hard": "Multiple dependent events or complex restrictions on groups."
+                }
+            },
+            "Functions_and_Inverses": {
+                "core_concept": "Domain, range, inverse functions, and composite functions.",
+                "question_structure": "Give a function or set of functions and ask to evaluate an inverse or composite at a specific value.",
+                "distractor_strategy": "Swap domain and range limits, or evaluate the composite in the wrong order.",
+                "levels": {
+                    "easy": "Find the inverse of a simple linear function.",
+                    "medium": "Evaluate an inverse or composite at a specific number.",
+                    "hard": "Identify true/false statements involving domain, range, and composite rules."
+                }
+            },
+            "Statistics": {
+                "core_concept": "Mean, variance, and standard deviation across combined groups.",
+                "question_structure": "Provide total group stats and one subgroup's stats, then ask for the other subgroup's stats.",
+                "distractor_strategy": "Use simple averages instead of weighted averages, or forget to square the standard deviation.",
+                "levels": {
+                    "easy": "Find the missing average of a subgroup.",
+                    "medium": "Find combined standard deviation with equal subgroup means.",
+                    "hard": "Find combined variance when subgroup means are different."
+                }
+            },
+            "Set_Theory": {
+                "core_concept": "Overlapping sets, unions, intersections, and maximum/minimum values.",
+                "question_structure": "Give total populations and sizes of several overlapping categories.",
+                "distractor_strategy": "Ignore maximum overlap rules or just subtract numbers blindly.",
+                "levels": {
+                    "easy": "Two sets with a basic Venn diagram setup.",
+                    "medium": "Three sets finding exact intersections.",
+                    "hard": "Four sets finding the maximum or minimum possible outside the sets."
+                }
+            },
+            "Vectors": {
+                "core_concept": "Vector equations related to geometric shapes and area ratios.",
+                "question_structure": "Give a vector sum equation for a point inside a shape and ask for an area ratio.",
+                "distractor_strategy": "Invert the ratio or use the wrong coefficients from the equation.",
+                "levels": {
+                    "easy": "Basic vector addition or magnitude.",
+                    "medium": "Finding area ratios using standard vector coefficients.",
+                    "hard": "Complex shapes or 3D vector relationships."
+                }
+            },
+            "Quadratic_Equations": {
+                "core_concept": "Roots, vertex shifts, and forming new equations.",
+                "question_structure": "Give an equation or function shift, and ask for the new roots or new equation.",
+                "distractor_strategy": "Shift in the wrong direction or fail to square the shift correctly.",
+                "levels": {
+                    "easy": "Find roots of a basic factored quadratic.",
+                    "medium": "Shift roots by a constant and find the new equation.",
+                    "hard": "Combine function shifts with vertex line constraints."
+                }
+            },
+            "Exponents_and_Logarithms": {
+                "core_concept": "Log properties, base changes, and solving exponential systems.",
+                "question_structure": "Present equations with variables in exponents or logs.",
+                "distractor_strategy": "Add bases instead of multiplying, or misuse log addition rules.",
+                "levels": {
+                    "easy": "Solve a single log or exponent equation with matching bases.",
+                    "medium": "Solve a system of two exponential equations using substitution.",
+                    "hard": "Equations requiring log base conversions and factoring."
+                }
+            },
+            "Systems_of_Equations": {
+                "core_concept": "Solving multiple variables, sometimes involving non-linear terms or determinants.",
+                "question_structure": "Give two or three equations and ask for a combined value like x+y or x-y.",
+                "distractor_strategy": "Make sign errors during substitution or solve for the wrong variable.",
+                "levels": {
+                    "easy": "Standard two-variable linear system.",
+                    "medium": "Three-variable linear system asking for a sum of variables.",
+                    "hard": "Non-linear systems involving squares or matrix determinant conditions."
+                }
+            },
+            "Sequences_and_Series": {
+                "core_concept": "Arithmetic, geometric, and quadratic sequence patterns and sums.",
+                "question_structure": "Provide sequence terms or sum conditions and ask for a specific term or total.",
+                "distractor_strategy": "Use the arithmetic formula for a geometric sequence, or count the wrong number of terms.",
+                "levels": {
+                    "easy": "Find the next term in a basic arithmetic/geometric sequence.",
+                    "medium": "Find sums of arithmetic series with remainders or specific gaps.",
+                    "hard": "Quadratic sequences or mixed arithmetic/geometric conditions."
+                }
+            },
+            "Trigonometry": {
+                "core_concept": "Max and min values of trig functions.",
+                "question_structure": "Provide an expression like a*cos(x) + b*sin(x) + c and ask for the maximum.",
+                "distractor_strategy": "Just add the coefficients together without using the square root rule.",
+                "levels": {
+                    "easy": "Find the max of a basic sine or cosine wave.",
+                    "medium": "Find the max of a combined sine and cosine expression.",
+                    "hard": "Expressions involving squared trig functions or identities."
+                }
+            },
+            "Inequalities": {
+                "core_concept": "Rational inequalities and number line sign charts.",
+                "question_structure": "Provide a fraction with variables on top and bottom, asking where it is positive or negative.",
+                "distractor_strategy": "Forget to exclude the denominator zero points or flip the sign wrong.",
+                "levels": {
+                    "easy": "Basic linear inequality.",
+                    "medium": "Quadratic inequality requiring factoring.",
+                    "hard": "Rational inequality with multiple critical points."
+                }
+            }
+        },
+        "Quantitative_Reasoning": {
+            "Pattern_Recognition_and_Puzzles": {
+                "core_concept": "Finding math rules hidden in shapes, grids, or number sets.",
+                "question_structure": "Show a visual layout of numbers with one missing.",
+                "distractor_strategy": "Offer numbers that fit a partial pattern but fail on the last step.",
+                "levels": {
+                    "easy": "Simple addition or subtraction patterns in a line.",
+                    "medium": "Alternating math operations or grid-based row rules.",
+                    "hard": "Complex shape logic where outside numbers multiply or divide to form the inside."
+                }
+            },
+            "Matrix_Algebra": {
+                "core_concept": "Matrix inverses, multiplication, and solving for vectors.",
+                "question_structure": "Give an inverse matrix relationship and ask to find the original vector values.",
+                "distractor_strategy": "Multiply the matrices in the wrong order or mess up the negative signs.",
+                "levels": {
+                    "easy": "Basic 2x2 matrix addition or multiplication.",
+                    "medium": "Solving for variables using an inverse matrix.",
+                    "hard": "3x3 matrices or combining determinants with inverses."
+                }
+            },
+            "Systems_of_Linear_Equations": {
+                "core_concept": "Solving for unknowns using given equation outcomes.",
+                "question_structure": "Provide a 3-variable system with the solution given, asking to find the coefficients.",
+                "distractor_strategy": "Include answers from partial solving steps.",
+                "levels": {
+                    "easy": "Find one missing coefficient in a 2-variable system.",
+                    "medium": "Find missing coefficients in a 3-variable system.",
+                    "hard": "Word problems that must be translated into complex 3-variable systems."
+                }
+            },
+            "Coordinate_Geometry": {
+                "core_concept": "Circle equations, centers, reflections, and translations.",
+                "question_structure": "Provide a circle equation, apply movements, and ask for the new equation.",
+                "distractor_strategy": "Shift the center in the wrong direction (adding instead of subtracting).",
+                "levels": {
+                    "easy": "Find the center and radius of a standard circle.",
+                    "medium": "Translate a circle's center and rewrite the equation.",
+                    "hard": "Reflect across an axis, translate, and expand the polynomial equation."
+                }
+            },
+            "Data_Interpretation_and_Charts": {
+                "core_concept": "Reading stacked bar charts, percentages, and grouped survey data.",
+                "question_structure": "Provide text or charts with overlapping categories and ask to verify statements.",
+                "distractor_strategy": "Use absolute numbers instead of percentages, or misalign the categories.",
+                "levels": {
+                    "easy": "Read a direct value from a simple chart.",
+                    "medium": "Calculate true percentages from subgroup data.",
+                    "hard": "Evaluate multiple complex statements to find the false one using multi-step math."
+                }
+            },
+            "Word_Problems": {
+                "core_concept": "Work rates, ticket sales, or pooled resources.",
+                "question_structure": "Give two scenarios with different rates resulting in different leftovers, ask for a final rate.",
+                "distractor_strategy": "Use answers that relate to only one person's rate instead of the combined goal.",
+                "levels": {
+                    "easy": "Basic speed or cost word problem.",
+                    "medium": "Two people working together at different constant rates.",
+                    "hard": "System of equations hidden inside a word problem with changing leftover amounts."
+                }
+            },
+            "Algebraic_Manipulation": {
+                "core_concept": "Nested square roots, factoring high exponents, and special algebraic rules.",
+                "question_structure": "Present a complex looking expression that simplifies cleanly using algebraic tricks.",
+                "distractor_strategy": "Offer answers where the student just adds the visible numbers without factoring.",
+                "levels": {
+                    "easy": "Basic polynomial factoring.",
+                    "medium": "Simplifying fractions with very high exponents by factoring out the lowest power.",
+                    "hard": "Solving nested radicals or cubed roots using expansion formulas."
+                }
+            },
+            "Geometry": {
+                "core_concept": "Relating 2D face areas to 3D volumes.",
+                "question_structure": "Give the areas of three faces of a prism and ask for the total volume.",
+                "distractor_strategy": "Just add the areas or multiply them without taking the square root.",
+                "levels": {
+                    "easy": "Find volume given side lengths.",
+                    "medium": "Find volume given three face areas using the square root shortcut.",
+                    "hard": "Shapes with missing dimensions requiring the Pythagorean theorem to finish."
+                }
+            }
+        },
+        "Logical_Reasoning": {
+            "Deductive_Logic_and_Syllogisms": {
+                "core_concept": "Drawing absolute conclusions from strict premises (If A then B).",
+                "question_structure": "State rules and a specific event, ask what must be true or false.",
+                "distractor_strategy": "Use common sense assumptions that are not actually in the text rules.",
+                "levels": {
+                    "easy": "Simple If A then B, and A happens.",
+                    "medium": "Using negative logic (If A then B, Not B, therefore Not A).",
+                    "hard": "Linking multiple 'some' and 'all' statements safely."
+                }
+            },
+            "Analytical_Reasoning_and_Sequencing": {
+                "core_concept": "Ordering items or people based on relative clues.",
+                "question_structure": "Provide constraints (X is before Y, Z is highest) and ask for a specific position.",
+                "distractor_strategy": "Place items in an order that breaks exactly one hidden rule.",
+                "levels": {
+                    "easy": "Ordering 3 to 4 items with direct clues.",
+                    "medium": "Ordering 5 items with relative 'better than/worse than' clues.",
+                    "hard": "Ordering items where some positions remain uncertain but the target answer is fixed."
+                }
+            },
+            "Conditional_Logic": {
+                "core_concept": "Applying multiple if-then criteria to a specific case.",
+                "question_structure": "List complex eligibility rules and a subject's stats, ask what they qualify for.",
+                "distractor_strategy": "Offer choices that apply if the student misreads 'and/or' conditions.",
+                "levels": {
+                    "easy": "Single condition check.",
+                    "medium": "Checking independent multiple conditions (qualifying for both).",
+                    "hard": "Complex dependent conditions (If X is picked, Y cannot be)."
+                }
+            },
+            "Spatial_Reasoning_and_Arrangements": {
+                "core_concept": "Placing items in physical relationships (tables, desks, circles).",
+                "question_structure": "Give seating rules (adjacent, opposite, gender limits) and ask who sits where.",
+                "distractor_strategy": "Violate the 'adjacent' rule or the gender rule in the wrong options.",
+                "levels": {
+                    "easy": "Simple line arrangement with direct clues.",
+                    "medium": "Desk/table arrangements with pairing rules.",
+                    "hard": "Circular seating with left/right directional rules."
+                }
+            },
+            "Rate_Time_and_Distance": {
+                "core_concept": "Calculating meeting times for objects moving at different speeds.",
+                "question_structure": "Give two speeds, a total distance, and a start time, ask when they meet.",
+                "distractor_strategy": "Subtract the speeds instead of adding them for head-on travel.",
+                "levels": {
+                    "easy": "One object moving at a constant rate.",
+                    "medium": "Two objects moving toward each other to find a meeting time.",
+                    "hard": "Objects leaving at different times with different speeds."
+                }
+            },
+            "Mathematical_Logic": {
+                "core_concept": "Tracking logic through math operations, like changing averages.",
+                "question_structure": "Give an average, replace some numbers, give the new average, ask for a missing value.",
+                "distractor_strategy": "Forget to account for the number of items when multiplying averages.",
+                "levels": {
+                    "easy": "Find the new average when one number is added.",
+                    "medium": "Find missing values based on logic inequalities.",
+                    "hard": "Swapping multiple elements between sets and tracking the average shift."
+                }
+            }
+        },
+        "English": {
+            "Reading_Comprehension": {
+                "core_concept": "Identifying main ideas, tone, target audience, and explicit inferences.",
+                "question_structure": "Provide a paragraph and ask for the best title, tone, or primary message.",
+                "distractor_strategy": "Use choices that are true facts but not the main point of the specific text.",
+                "levels": {
+                    "easy": "Finding explicit facts directly stated in the text.",
+                    "medium": "Identifying the target audience or the best title.",
+                    "hard": "Determining the author's precise tone or underlying purpose."
+                }
+            },
+            "Grammar_and_Tenses": {
+                "core_concept": "Correct verb forms based on time context and sentence structure.",
+                "question_structure": "Provide a sentence with a missing verb or ask what a specific verb tense implies.",
+                "distractor_strategy": "Use the wrong tense that sounds okay when spoken but breaks grammar rules.",
+                "levels": {
+                    "easy": "Basic present or past tense matching.",
+                    "medium": "Using modal verbs (can, should) with the correct base verb.",
+                    "hard": "Identifying the timeline of past perfect tense actions."
+                }
+            },
+            "Paragraph_Cohesion_and_Structure": {
+                "core_concept": "Logical flow, sentence insertion, and identifying irrelevant ideas.",
+                "question_structure": "Ask where a new sentence belongs, how two paragraphs relate, or which sentence to cut.",
+                "distractor_strategy": "Pick sentences that share a keyword but don't match the actual topic.",
+                "levels": {
+                    "easy": "Identify the relationship between two clear paragraphs (cause/effect).",
+                    "medium": "Find the one irrelevant sentence in a paragraph.",
+                    "hard": "Choose the exact spot to insert a transition sentence."
+                }
+            },
+            "Vocabulary_in_Context": {
+                "core_concept": "Choosing the right idiom or word based on the sentence meaning.",
+                "question_structure": "Provide a fill-in-the-blank sentence needing a specific phrase.",
+                "distractor_strategy": "Offer idioms that look similar but mean something completely different.",
+                "levels": {
+                    "easy": "Basic vocabulary word replacement.",
+                    "medium": "Choosing the correct verb form for the context.",
+                    "hard": "Selecting the correct English idiom for an abstract situation."
+                }
+            }
+        }
+    }
+}

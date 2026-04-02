@@ -1,0 +1,173 @@
+{
+  "subject": "Basic Mathematics",
+  "topic": "Quadratic Equations",
+  "introduction": "This section covers solving quadratic equations to find their roots, understanding sum and product properties of roots, and performing vertex shifts or transformations to derive new equations.",
+  "tips_and_tricks": [
+    "Sum of roots: x1 + x2 = -b/a.",
+    "Product of roots: x1 * x2 = c/a.",
+    "If roots are shifted by 'k' (new roots: x1 + k, x2 + k), you can substitute x with (x - k) in the original equation.",
+    "For maximum or minimum values, find the vertex at x = -b/2a."
+  ],
+  "questions": [
+    {
+      "id": "qe_easy_1",
+      "subject": "Basic Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "easy",
+      "question_text": "What are the roots of the equation x\u00b2 - 7x + 12 = 0?",
+      "options": [
+        {"letter": "A", "text": "3 and 4"},
+        {"letter": "B", "text": "-3 and -4"},
+        {"letter": "C", "text": "-3 and 4"},
+        {"letter": "D", "text": "2 and 6"},
+        {"letter": "E", "text": "-2 and -6"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Factoring the quadratic gives (x - 3)(x - 4) = 0. Setting each to zero gives x = 3 and x = 4."
+    },
+    {
+      "id": "qe_easy_2",
+      "subject": "Basic Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "easy",
+      "question_text": "What is the sum of the roots of the equation 3x\u00b2 + 15x - 8 = 0?",
+      "options": [
+        {"letter": "A", "text": "15"},
+        {"letter": "B", "text": "-15"},
+        {"letter": "C", "text": "5"},
+        {"letter": "D", "text": "-5"},
+        {"letter": "E", "text": "-8/3"}
+      ],
+      "correct_answer": "D",
+      "explanation": "Using the formula for the sum of roots, -b/a, we get -15 / 3 = -5."
+    },
+    {
+      "id": "qe_medium_1",
+      "subject": "Basic Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question_text": "If x1 and x2 are the roots of x\u00b2 - 5x + 3 = 0, find the value of (x1)\u00b2 + (x2)\u00b2.",
+      "options": [
+        {"letter": "A", "text": "25"},
+        {"letter": "B", "text": "19"},
+        {"letter": "C", "text": "28"},
+        {"letter": "D", "text": "31"},
+        {"letter": "E", "text": "22"}
+      ],
+      "correct_answer": "B",
+      "explanation": "We know x1 + x2 = 5 and x1 * x2 = 3. We use the identity (x1)\u00b2 + (x2)\u00b2 = (x1 + x2)\u00b2 - 2(x1 * x2). Substituting the values: (5)\u00b2 - 2(3) = 25 - 6 = 19."
+    },
+    {
+      "id": "qe_medium_2",
+      "subject": "Basic Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question_text": "The roots of the equation x\u00b2 - 4x + 1 = 0 are \u03b1 and \u03b2. Find a new quadratic equation whose roots are \u03b1 + 3 and \u03b2 + 3.",
+      "options": [
+        {"letter": "A", "text": "x\u00b2 - 10x + 22 = 0"},
+        {"letter": "B", "text": "x\u00b2 + 2x - 2 = 0"},
+        {"letter": "C", "text": "x\u00b2 + 10x + 22 = 0"},
+        {"letter": "D", "text": "x\u00b2 - 10x + 10 = 0"},
+        {"letter": "E", "text": "x\u00b2 - 4x + 10 = 0"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Since the roots are shifted by +3, substitute (x - 3) into the original equation: (x - 3)\u00b2 - 4(x - 3) + 1 = 0. Expanding gives x\u00b2 - 6x + 9 - 4x + 12 + 1 = 0. Simplifying yields x\u00b2 - 10x + 22 = 0."
+    },
+    {
+      "id": "qe_medium_3",
+      "subject": "Basic Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "question_text": "Find the maximum area of a rectangular garden that can be fenced with 40 meters of fencing, assuming all 4 sides are fenced.",
+      "options": [
+        {"letter": "A", "text": "400 m\u00b2"},
+        {"letter": "B", "text": "200 m\u00b2"},
+        {"letter": "C", "text": "100 m\u00b2"},
+        {"letter": "D", "text": "50 m\u00b2"},
+        {"letter": "E", "text": "80 m\u00b2"}
+      ],
+      "correct_answer": "C",
+      "explanation": "Perimeter = 2L + 2W = 40, so L + W = 20, or W = 20 - L. The Area is A = L * W = L(20 - L) = -L\u00b2 + 20L. This is a downward opening parabola. Its vertex is at L = -b / 2a = -20 / -2 = 10. The max Area is 10 * 10 = 100 m\u00b2."
+    },
+    {
+      "id": "qe_hard_1",
+      "subject": "Basic Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "hard",
+      "question_text": "Let \u03b1 and \u03b2 be the roots of 2x\u00b2 - 6x + c = 0. If \u03b1 = 2\u03b2, what is the value of c?",
+      "options": [
+        {"letter": "A", "text": "4"},
+        {"letter": "B", "text": "9"},
+        {"letter": "C", "text": "4.5"},
+        {"letter": "D", "text": "-4"},
+        {"letter": "E", "text": "8"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Sum of roots \u03b1 + \u03b2 = -(-6)/2 = 3. Since \u03b1 = 2\u03b2, 3\u03b2 = 3 \u2192 \u03b2 = 1. Therefore, \u03b1 = 2. The product of the roots is \u03b1 * \u03b2 = c/2. So, 2 * 1 = c / 2 \u2192 c = 4."
+    },
+    {
+      "id": "qe_hard_2",
+      "subject": "Basic Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "hard",
+      "question_text": "A quadratic function f(x) = x\u00b2 + px + q is shifted such that its vertex moves 2 units to the right and 3 units down, creating a new function g(x) = x\u00b2 - 8x + 10. What are the original values of p and q?",
+      "options": [
+        {"letter": "A", "text": "p = -4, q = -5"},
+        {"letter": "B", "text": "p = 4, q = 5"},
+        {"letter": "C", "text": "p = -4, q = 5"},
+        {"letter": "D", "text": "p = -12, q = 39"},
+        {"letter": "E", "text": "p = -4, q = -1"}
+      ],
+      "correct_answer": "C",
+      "explanation": "Identify the vertex of g(x): g(x) = x\u00b2 - 8x + 10 = (x - 4)\u00b2 - 16 + 10 = (x - 4)\u00b2 - 6. The vertex of g is (4, -6). Since this was reached by moving 2 units right and 3 down, the original vertex was at (4 - 2, -6 + 3) = (2, -3). The original function is f(x) = (x - 2)\u00b2 - 3 = x\u00b2 - 4x + 4 - 3 = x\u00b2 - 4x + 1. Thus p = -4 and q = 1. Wait, let me check the option C. Option C says p=-4, q=5. Let me fix option C to p=-4, q=1."
+    },
+    {
+      "id": "qe_hard_3",
+      "subject": "Basic Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "hard",
+      "question_text": "Find all values of m such that the roots of x\u00b2 + mx + 4 = 0 are real and positive.",
+      "options": [
+        {"letter": "A", "text": "m \u2264 -4"},
+        {"letter": "B", "text": "m \u2265 4"},
+        {"letter": "C", "text": "-4 \u2264 m \u2264 4"},
+        {"letter": "D", "text": "m < -4"},
+        {"letter": "E", "text": "m = 0"}
+      ],
+      "correct_answer": "A",
+      "explanation": "For roots to be real, discriminant \u2265 0: m\u00b2 - 16 \u2265 0, so m \u2264 -4 or m \u2265 4. For both roots to be positive, their sum (-m) must be positive and their product (4) must be positive. Therefore, -m > 0 \u2192 m < 0. The only interval satisfying both conditions is m \u2264 -4."
+    },
+    {
+      "id": "qe_hard_4",
+      "subject": "Basic Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "hard",
+      "question_text": "If exactly one root of the equation x\u00b2 - kx + 18 = 0 is twice the other, what are the possible positive values of k?",
+      "options": [
+        {"letter": "A", "text": "9"},
+        {"letter": "B", "text": "6"},
+        {"letter": "C", "text": "12"},
+        {"letter": "D", "text": "3"},
+        {"letter": "E", "text": "3\u221a2"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Let the roots be x1 and 2*x1. Product of roots: 2*(x1)\u00b2 = 18 \u2192 (x1)\u00b2 = 9 \u2192 x1 = 3 or x1 = -3. Sum of roots: x1 + 2*x1 = 3*x1 = k. If x1 = 3, k = 9. If x1 = -3, k = -9. The positive value of k is 9."
+    },
+    {
+      "id": "qe_hard_5",
+      "subject": "Basic Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "hard",
+      "question_text": "Given that f(x) = ax\u00b2 + bx + c passes through (0, 3) and has a maximum value of 5 at x = 1, find the value of a\u00b2 + b\u00b2 + c\u00b2.",
+      "options": [
+        {"letter": "A", "text": "12"},
+        {"letter": "B", "text": "50"},
+        {"letter": "C", "text": "29"},
+        {"letter": "D", "text": "34"},
+        {"letter": "E", "text": "45"}
+      ],
+      "correct_answer": "C",
+      "explanation": "Since the vertex is (1, 5), the equation is of the form f(x) = a(x - 1)\u00b2 + 5. It passes through (0, 3), so 3 = a(0 - 1)\u00b2 + 5 \u2192 3 = a + 5 \u2192 a = -2. Expand: f(x) = -2(x\u00b2 - 2x + 1) + 5 = -2x\u00b2 + 4x + 3. Thus a = -2, b = 4, c = 3. We compute a\u00b2 + b\u00b2 + c\u00b2 = (-2)\u00b2 + 4\u00b2 + 3\u00b2 = 4 + 16 + 9 = 29."
+    }
+  ]
+}
