@@ -45,7 +45,8 @@ const PracticeTest = ({ allTopicsData, onBack }) => {
         questions={selectedTopic.questions} 
         answers={answers} 
         setAnswers={setAnswers} 
-        onFinish={onBack} // Send back to home or topic list on finish
+        onFinish={() => setView('topics')}
+        onQuit={goBack}
       />
     );
   }

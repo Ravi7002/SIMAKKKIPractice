@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { cleanText } from '../utils';
 import { ChevronRight, ArrowLeft, CheckCircle, XCircle } from 'lucide-react';
 
-const Quiz = ({ questions, answers, setAnswers, onFinish }) => {
+const Quiz = ({ questions, answers, setAnswers, onFinish, onQuit }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [guessedOptions, setGuessedOptions] = useState([]);
   const [showExplanation, setShowExplanation] = useState(false);
@@ -58,8 +58,15 @@ const Quiz = ({ questions, answers, setAnswers, onFinish }) => {
           <span className="text-muted">Question {currentIndex + 1}</span>
           <span className="text-muted" style={{ opacity: 0.5 }}> / {questions.length}</span>
         </div>
-        <div className="badge badge-gray">
-          {question.subject} • {question.topic}
+        <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+          <div className="badge badge-gray">
+            {question.subject} • {question.topic}
+          </div>
+          {onQuit && (
+            <button onClick={onQuit} style={{ padding: '0.4rem 0.8rem', background: 'rgba(239, 68, 68, 0.1)', color: 'var(--accent-red)', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: '500' }}>
+              Quit
+            </button>
+          )}
         </div>
       </div>
 
