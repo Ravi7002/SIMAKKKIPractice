@@ -122,7 +122,7 @@
     {
         "id": "math_05",
         "subject": "Basic Mathematics",
-        "topic": "Sets and Venn Diagrams",
+        "topic": "Set Theory",
         "question_text": "At a multinational conference, there are 600 attendees. 400 people can speak English, 350 can speak Mandarin, 300 can speak Arabic, and 250 can speak Japanese. Find the maximum number of attendees who cannot speak any of these languages.",
         "options": [
             {
@@ -182,7 +182,7 @@
     {
         "id": "math_07",
         "subject": "Basic Mathematics",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Quadratic Equations",
         "question_text": "Given that g(x+3) = x, and the equation (g(x))^2 + 4g(x) + 3 = 0 has roots x1 and x2, the equation whose roots are x1 + 1 and x2 + 1 is...",
         "options": [
             {
@@ -272,7 +272,7 @@
     {
         "id": "math_10",
         "subject": "Basic Mathematics",
-        "topic": "Systems of Linear Equations",
+        "topic": "Systems of Equations",
         "question_text": "Find the positive difference value of x - y given the system: x^2 + y^2 + 3x + 3y = 14 and xy + x + y = 5.",
         "options": [
             {
@@ -332,7 +332,7 @@
     {
         "id": "math_12",
         "subject": "Basic Mathematics",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Quadratic Equations",
         "question_text": "A quadratic function f(x) is shifted 3 units downward, resulting in: g(x) = x^2 + bx + b + 5. If the vertex of g(x) lies on the line y = x + 1, find f(x).",
         "options": [
             {
@@ -422,7 +422,7 @@
     {
         "id": "math_15",
         "subject": "Basic Mathematics",
-        "topic": "Systems of Linear Equations",
+        "topic": "Systems of Equations",
         "question_text": "For the real number k, the system: kx + y = 3, ky + z = 3, x + kz = 3 has no solution if and only if k = ...",
         "options": [
             {
@@ -692,7 +692,7 @@
     {
         "id": "quant_04",
         "subject": "Quantitative Reasoning",
-        "topic": "Geometry and Coordinates",
+        "topic": "Coordinate Geometry",
         "question_text": "The center of the circle given by the equation: x^2 + y^2 - 6x + 2y - 6 = 0 is reflected across the X-axis, and then translated 4 units to the left along the X-axis. The equation of the new circle is:",
         "options": [
             {
@@ -902,7 +902,7 @@
     {
         "id": "quant_11",
         "subject": "Quantitative Reasoning",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Algebraic Manipulation",
         "question_text": "Given: \\sqrt{21 - \\sqrt{320}} = \\sqrt{a} - \\sqrt{b}. Find the value of (a + b).",
         "options": [
             {
@@ -962,7 +962,7 @@
     {
         "id": "quant_13",
         "subject": "Quantitative Reasoning",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Algebraic Manipulation",
         "question_text": "Evaluate: \\sqrt[3]{10 + 6\\sqrt{3}} + \\sqrt[3]{10 - 6\\sqrt{3}}",
         "options": [
             {
@@ -992,7 +992,7 @@
     {
         "id": "quant_14",
         "subject": "Quantitative Reasoning",
-        "topic": "Geometry and Coordinates",
+        "topic": "Geometry",
         "question_text": "The areas of three adjacent faces of a rectangular prism are 18 cm^2, 32 cm^2, and 36 cm^2. What is the volume of the rectangular prism (in cm^3)?",
         "options": [
             {
@@ -1052,7 +1052,7 @@
     {
         "id": "quant_16",
         "subject": "Quantitative Reasoning",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Algebraic Manipulation",
         "question_text": "If x > 0, evaluate: (x^{50} - x^{60}) / (x^{50} + x^{40}) = ?",
         "options": [
             {
@@ -1082,7 +1082,7 @@
     {
         "id": "quant_17",
         "subject": "Quantitative Reasoning",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Algebraic Manipulation",
         "question_text": "The value of n is determined by the following rules: If k < k^2, then n = 3y. If k >= k^2, then n = y/3 + 2. Given k = sin(30) and y = 12, what is the value of n?",
         "options": [
             {
@@ -1112,7 +1112,7 @@
     {
         "id": "quant_18",
         "subject": "Quantitative Reasoning",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Algebraic Manipulation",
         "question_text": "If 4 * 3^{(1-2x)} + 5 * 3^{-2x} - 17 = 0, the value of x that satisfies the equation is:",
         "options": [
             {
@@ -1141,8 +1141,8 @@
     },
     {
         "id": "quant_19",
-        "subject": "Basic Mathematics",
-        "topic": "Functions and Inverses",
+        "subject": "Quantitative Reasoning",
+        "topic": "Algebraic Manipulation",
         "question_text": "If f(2x) = 4 / (2+x) where x > -2, and g(4x) = (3+x) / 2, then: 1. f(x) = 8 / (4+x), 2. g(x) = (12+x) / 8, 3. f^-1(x) = (8-4x) / x, 4. (f o g)(4) = 1. Choose the correct statement:",
         "options": [
             {
@@ -1171,8 +1171,8 @@
     },
     {
         "id": "quant_20",
-        "subject": "Basic Mathematics",
-        "topic": "Exponents and Logarithms",
+        "subject": "Quantitative Reasoning",
+        "topic": "Algebraic Manipulation",
         "question_text": "Find the value of x that satisfies: log_2(x+6) = 2 + log_2(x)",
         "options": [
             {
@@ -1832,7 +1832,7 @@
     {
         "id": "logic_02",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "All members of a library must show their membership card to borrow books. Those who do not show the card will not be allowed to borrow books. The librarian uses the digital database to verify current status. Budi, a member, did not show his card because he left it at home. Thus, the correct conclusion is...",
         "options": [
             {
@@ -1892,7 +1892,7 @@
     {
         "id": "logic_04",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "Cloud computing is a subset of information technology that allows users to store data on remote servers. Streaming services rely on cloud computing algorithms to deliver content to users. Based on the statement above, the correct conclusion is...",
         "options": [
             {
@@ -1922,7 +1922,7 @@
     {
         "id": "logic_05",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "All professional athletes require a strict nutrition plan. Without a proper nutrition plan, an athlete may fatigue quickly and lose stamina. If an athlete competes consistently at a high level without losing stamina, the correct conclusion is...",
         "options": [
             {
@@ -2042,7 +2042,7 @@
     {
         "id": "logic_09",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "All mammals are warm-blooded. Some mammals live in the ocean. The correct conclusion is...",
         "options": [
             {
@@ -2132,7 +2132,7 @@
     {
         "id": "logic_12",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "A power outage occurred in District X last night. The outage was caused by a transformer failure affecting the neighboring areas, including District Y. Maya's shop was affected by the power outage last night. The correct statement is...",
         "options": [
             {
@@ -2162,7 +2162,7 @@
     {
         "id": "logic_13",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "If people consume too much sugar, they will gain weight. People who gain weight tend to develop health issues. Based on the statements above, the correct conclusion is...",
         "options": [
             {
@@ -2192,7 +2192,7 @@
     {
         "id": "logic_14",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "If a student reads daily, they will have a broader vocabulary. People with a broader vocabulary can express ideas more clearly. Based on the statements above, the correct conclusion is...",
         "options": [
             {

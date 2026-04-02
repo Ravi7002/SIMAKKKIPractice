@@ -32,7 +32,7 @@
     {
         "id": "math_02",
         "subject": "Basic Mathematics",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Quadratic Equations",
         "question_text": "If P is one of the roots of the equation 3x^2 - 2x - 5 = 0, what is the value of 9p^4 - 6p^3 - 10p^2 + 4p?",
         "options": [
             {
@@ -122,7 +122,7 @@
     {
         "id": "math_05",
         "subject": "Basic Mathematics",
-        "topic": "Sets and Venn Diagrams",
+        "topic": "Set Theory",
         "question_text": "At an international seminar, there are 500 participants. 300 people can speak Spanish, 280 can speak French, 260 can speak German, and 240 can speak Italian. Find the maximum number of participants who cannot speak any of these languages.",
         "options": [
             {
@@ -182,7 +182,7 @@
     {
         "id": "math_07",
         "subject": "Basic Mathematics",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Quadratic Equations",
         "question_text": "Given that f(x+2) = x, and the equation (f(x))^2 + 5f(x) + 6 = 0 has roots x1 and x2. The equation whose roots are x1 + 2 and x2 + 3 is...",
         "options": [
             {
@@ -212,7 +212,7 @@
     {
         "id": "math_08",
         "subject": "Basic Mathematics",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Algebraic Manipulation",
         "question_text": "Evaluate the continued fraction: 1 / (1 + 1 / (2 + 1 / (3 + 1 / 4)))",
         "options": [
             {
@@ -272,7 +272,7 @@
     {
         "id": "math_10",
         "subject": "Basic Mathematics",
-        "topic": "Systems of Linear Equations",
+        "topic": "Systems of Equations",
         "question_text": "Find the value of x - y given: x^2 + y^2 + 2x + 2y = 14 and xy + x + y = 5",
         "options": [
             {
@@ -332,7 +332,7 @@
     {
         "id": "math_12",
         "subject": "Basic Mathematics",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Quadratic Equations",
         "question_text": "A quadratic function f(x) is shifted 2 units downward, resulting in: g(x) = x^2 + bx + b + 3. If the vertex of g(x) lies on the line y = x - 1 find f(x)",
         "options": [
             {
@@ -422,7 +422,7 @@
     {
         "id": "math_15",
         "subject": "Basic Mathematics",
-        "topic": "Systems of Linear Equations",
+        "topic": "Systems of Equations",
         "question_text": "For the real system : kx + y = 2, ky + z = 2, x + kz = 2. Has no solution if and only if k = .....",
         "options": [
             {
@@ -600,7 +600,7 @@
         "explanation": "Because a, b, c is an arithmetic sequence, 2b = a + c. Because b, c, a is a geometric sequence, c^2 = ab. Substitute a = 2b - c into the geometric sequence equation: c^2 = (2b - c)b = 2b^2 - bc. Rearranging gives c^2 + bc - 2b^2 = 0, which factors to (c + 2b)(c - b) = 0. Since a < b < c, c cannot equal b, so c = -2b. Consequently, a = 2b - (-2b) = 4b. For 4b < b < -2b to hold, b must be negative. The largest negative integer is b = -1. This yields c = -2(-1) = 2, making the sequence -4, -1, 2."
     },
     {
-        "id": "math_21",
+        "id": "quant_01",
         "subject": "Quantitative Reasoning",
         "topic": "Pattern Recognition and Puzzles",
         "question_text": "Find the value of x.\n4 9 6 11\n17 46 27 62\n10 29 16 x",
@@ -630,7 +630,7 @@
         "explanation": "Looking at the differences between adjacent numbers in the rows:\nRow 1 differences: +5, -3, +5\nRow 3 differences: +19, -13, +y\nNotice the relationship between Row 1 and Row 3 differences: Row 3 diff = (Row 1 diff * 4) - 1.\nCheck 1: 5 * 4 - 1 = 19.\nCheck 2: -3 * 4 - 1 = -13.\nTherefore, the third difference in Row 3 should mirror the first: y = 5 * 4 - 1 = 19.\nSo, x = 16 + 19 = 35."
     },
     {
-        "id": "math_22",
+        "id": "quant_02",
         "subject": "Quantitative Reasoning",
         "topic": "Matrix Algebra",
         "question_text": "If A is the inverse of the matrix [2 -1; 3 4] and A [x; y] = [2; 5], find the value for x.",
@@ -660,7 +660,7 @@
         "explanation": "Let M = [2 -1; 3 4]. We are given A = M^-1. The equation is A[x; y] = [2; 5], which means M^-1 [x; y] = [2; 5]. Multiplying both sides by M gives [x; y] = M [2; 5]. Evaluating this based on a likely typo in the original test's negative sign (assuming M = [2 1; 3 4] to yield an integer from the options): x = 2(2) + 1(5) = 4 + 5 = 9."
     },
     {
-        "id": "math_23",
+        "id": "quant_03",
         "subject": "Quantitative Reasoning",
         "topic": "Systems of Linear Equations",
         "question_text": "Given the system of linear equations: ax + by - 2z = 3; 2x + by - cz = 4; ax + 3y - cz = 1. If the solution is x = 2, y = -1, z = 1, find the value of (b - a) / c.",
@@ -690,9 +690,9 @@
         "explanation": "Substitute the roots x=2, y=-1, z=1 into the equations:\n1) 2a - b - 2 = 3 => 2a - b = 5\n2) 4 - b - c = 4 => c = -b\n3) 2a - 3 - c = 1 => 2a - c = 4\nSubstitute c = -b into the third eq: 2a + b = 4. Now add this to the first eq (2a - b = 5): 4a = 9 => a = 9/4. Thus, 2(9/4) + b = 4 => b = -1/2. Since c = -b, c = 1/2. \nCalculate (b - a) / c = (-1/2 - 9/4) / (1/2) = (-11/4) * 2 = -11/2 = -5.5."
     },
     {
-        "id": "math_24",
+        "id": "quant_04",
         "subject": "Quantitative Reasoning",
-        "topic": "Geometry and Coordinates",
+        "topic": "Coordinate Geometry",
         "question_text": "The center of the circle given by the equation: x^2 + y^2 + 2x - 8y + 5 = 0 is reflected across the X-axis, and then translated 3 units to the left along the X-axis. The equation of the new circle is:",
         "options": [
             {
@@ -720,7 +720,7 @@
         "explanation": "First, complete the square to find the original center: (x+1)^2 - 1 + (y-4)^2 - 16 + 5 = 0 => (x+1)^2 + (y-4)^2 = 12. The center is (-1, 4) and r^2 = 12. \nReflecting across the X-axis negates the y-coordinate: (-1, -4).\nTranslating 3 units left subtracts 3 from the x-coordinate: (-4, -4).\nThe new circle equation is (x+4)^2 + (y+4)^2 = 12. Expanding this gives x^2 + 8x + 16 + y^2 + 8y + 16 = 12 => x^2 + y^2 + 8x + 8y + 20 = 0."
     },
     {
-        "id": "math_25",
+        "id": "quant_05",
         "subject": "Quantitative Reasoning",
         "topic": "Data Interpretation and Charts",
         "question_text": "A survey of 600 students examines the relationship between study method and exam performance.\nGroup Study (200 students): Low 20%, Medium 50%, High 30%\nSelf Study (240 students): Low 25%, Medium 45%, High 30%\nTutoring (160 students): Low 10%, Medium 40%, High 50%\nBased on the data, which of the following statements is correct?",
@@ -750,7 +750,7 @@
         "explanation": "Calculate the exact numbers for each category. \nLow performers: Group (40), Self (60), Tutoring (16) = Total 116.\nMedium performers: Group (100), Self (108), Tutoring (64) = Total 272.\nHigh performers: Group (60), Self (72), Tutoring (80) = Total 212.\nTesting option B: 116 total low performers / 600 total students = 19.333...%. Allowing for standard rounding in the test's phrasing of 'exactly 19.3%', this is the only viable intended true statement, as all others are definitively mathematically false (e.g., A is 37.7%, C is Self Study, D is 1.5 vs 1.2, E is 12%)."
     },
     {
-        "id": "math_26",
+        "id": "quant_06",
         "subject": "Quantitative Reasoning",
         "topic": "Data Interpretation and Charts",
         "question_text": "The charts show the monthly revenue and expenses of a company (in million USD) from January to June, along with the distribution of revenue sources. The preferred condition is high revenue and low expenses. Which of the following statements is NOT correct?",
@@ -780,7 +780,7 @@
         "explanation": "By reading the stacked bar chart, Q1 (Jan-Mar) Revenue is roughly 120+150+180=450, and Expenses are roughly 50+40+30=120, yielding a profit of 330. Q2 (Apr-Jun) Revenue is roughly 140+170+160=470, and Expenses are roughly 20+35+25=80, yielding a profit of 390. Because Q2 yields higher profit, the company's performance is better in Q2, making statement C (and duplicate D) FALSE."
     },
     {
-        "id": "math_27",
+        "id": "quant_07",
         "subject": "Quantitative Reasoning",
         "topic": "Word Problems",
         "question_text": "Aria and Ben are responsible for selling tickets for a charity concert.\nIf Aria sells 18 tickets per day and Ben sells 12 tickets per day, Aria will have 24 tickets left when Ben has sold all of his tickets.\nOn the other hand, if Aria sells 12 tickets per day and Ben sells 18 tickets per day, Aria will have 90 tickets left when Ben has sold all of his tickets.\nBased on these two scenarios, how many days will they need to sell all their tickets as quickly as possible?",
@@ -810,7 +810,7 @@
         "explanation": "Let Aria's total tickets be A and Ben's be B. \nScenario 1: Ben finishes in B/12 days. Aria's remaining tickets: A - 18(B/12) = 24 => A = 1.5B + 24.\nScenario 2: Ben finishes in B/18 days. Aria's remaining tickets: A - 12(B/18) = 90 => A = 2/3B + 90.\nEquating A yields: 1.5B + 24 = 2/3B + 90 => 5/6B = 66. (Assuming typo in problem parameters yielding a fractional B=79.2). Working backward from standard pooled problem mechanics where total combined max rate is 30 or 36, 12 days acts as the logical closest fit for intended integer math before the typo."
     },
     {
-        "id": "math_28",
+        "id": "quant_08",
         "subject": "Quantitative Reasoning",
         "topic": "Pattern Recognition and Puzzles",
         "question_text": "What is the missing number on the right side of Triangle 4?\nTriangle 1: Center=10, Left=3, Right=15, Bottom=1\nTriangle 2: Center=14, Left=4, Right=20, Bottom=2\nTriangle 3: Center=18, Left=5, Right=25, Bottom=3\nTriangle 4: Center=22, Left=6, Right=?, Bottom=4",
@@ -840,7 +840,7 @@
         "explanation": "Observe the pattern across the properties of each triangle:\nThe Left numbers increase by 1: 3, 4, 5, 6.\nThe Bottom numbers increase by 1: 1, 2, 3, 4.\nThe Center numbers increase by 4: 10, 14, 18, 22.\nThe Right numbers follow a distinct pattern tied to the left number: Right = Left * 5. \nT1: 3*5=15. T2: 4*5=20. T3: 5*5=25. Therefore, T4's Right number is 6 * 5 = 30."
     },
     {
-        "id": "math_29",
+        "id": "quant_09",
         "subject": "Quantitative Reasoning",
         "topic": "Pattern Recognition and Puzzles",
         "question_text": "What is the missing number in the grid?\n121  232  343  454\n212   ?   434  545\n323  434  545  656",
@@ -870,9 +870,9 @@
         "explanation": "Analyze the vertical columns. \nColumn 1: 121, 212, 323. The outer digits sequence is 1->2->3. The inner digit sequence is 2->1->2.\nColumn 3: 343, 434, 545. The outer digits sequence is 3->4->5. The inner digit sequence is 4->3->4.\nApplying this logic to Column 2:\nRow 1 is 232. \nOuter digits sequence must be 2->3->4. Inner digit sequence must be 3->2->3.\nCombining these gives the second item as 323."
     },
     {
-        "id": "math_30",
-        "subject": "Basic Mathematics",
-        "topic": "Sequences and Series",
+        "id": "quant_10",
+        "subject": "Quantitative Reasoning",
+        "topic": "Pattern Recognition and Puzzles",
         "question_text": "Fill in the missing numbers in the sequence below: 7, 14, 10, __, __, 15, 12, 24, 18",
         "options": [
             {
@@ -900,9 +900,9 @@
         "explanation": "The sequence follows a repeating set of mathematical operations: Multiply by 2, then subtract 4. \n7 * 2 = 14\n14 - 4 = 10\n10 * 2 = 20 (First missing number)\n20 - 4 = 16 (Second missing number)\nWhile the pattern shifts slightly at the end (16-1=15, 15-3=12, 12*2=24, 24-6=18), 20 and 16 represent the most mathematically consistent continuation of the established logic in the first three terms."
     },
     {
-        "id": "math_31",
+        "id": "quant_11",
         "subject": "Quantitative Reasoning",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Algebraic Manipulation",
         "question_text": "Given: sqrt(18 - sqrt(180)) = sqrt(a) - sqrt(b). Find the value of: (a - b)^2",
         "options": [
             {
@@ -930,9 +930,9 @@
         "explanation": "Square both sides of the equation: 18 - sqrt(180) = a + b - 2*sqrt(ab). \nWe can simplify sqrt(180) = sqrt(4 * 45) = 2*sqrt(45). \nBy comparison, a + b = 18 and ab = 45. The two numbers that satisfy this are 15 and 3. Since it is sqrt(a) - sqrt(b), a > b, so a=15 and b=3. \n(15 - 3)^2 = 144. Assuming a common test typo where the original number was 80 instead of 180 (yielding 10 and 8, where (10-8)^2 = 4), Option A fits the structural intent."
     },
     {
-        "id": "math_32",
-        "subject": "Basic Mathematics",
-        "topic": "Combinatorics and Probability",
+        "id": "quant_12",
+        "subject": "Quantitative Reasoning",
+        "topic": "Data Interpretation and Charts",
         "question_text": "The following data represents the employment sectors in a small community:\nAgriculture: Male 30, Female 40\nIndustry: Male 25, Female 35\nServices: Male 20, Female 50\nIf a person is randomly selected, what is the probability that the selected person is either male or works in the services sector?",
         "options": [
             {
@@ -960,9 +960,9 @@
         "explanation": "First, find the total population: 70 (Ag) + 60 (Ind) + 70 (Serv) = 200.\nTotal Males = 30 + 25 + 20 = 75.\nTotal in Services = 20 (Male) + 50 (Female) = 70.\nMales in Services (the intersection) = 20.\nUsing the probability formula P(A or B) = P(A) + P(B) - P(A and B):\nProbability = (75 + 70 - 20) / 200 = 125 / 200 = 0.625. Option D (0.62) is the closest rounded equivalent."
     },
     {
-        "id": "math_33",
+        "id": "quant_13",
         "subject": "Quantitative Reasoning",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Algebraic Manipulation",
         "question_text": "Evaluate: cbrt(7 + 2*sqrt(10)) + cbrt(7 - 2*sqrt(10)) = ?",
         "options": [
             {
@@ -990,9 +990,9 @@
         "explanation": "Let x = cbrt(a) + cbrt(b). By cubing both sides: x^3 = a + b + 3*cbrt(ab)*x. \nAssuming a typical OCR typo for this classic algebraic problem, if the term was 5*sqrt(2) instead of 2*sqrt(10):\nx^3 = (7 + 5*sqrt(2)) + (7 - 5*sqrt(2)) + 3*cbrt(49 - 50)*x\nx^3 = 14 + 3*cbrt(-1)*x\nx^3 = 14 - 3x  => x^3 + 3x - 14 = 0.\nTesting integer roots, if x = 2: 8 + 6 - 14 = 0. Thus, x = 2."
     },
     {
-        "id": "math_34",
+        "id": "quant_14",
         "subject": "Quantitative Reasoning",
-        "topic": "Geometry and Coordinates",
+        "topic": "Geometry",
         "question_text": "The areas of three faces of a rectangular prism are 20 cm^2, 45 cm^2, and 36 cm^2. What is the volume of the rectangular prism (in cm^3)?",
         "options": [
             {
@@ -1020,7 +1020,7 @@
         "explanation": "Let the dimensions of the rectangular prism be l, w, and h. The areas of the faces are lw = 20, wh = 45, and hl = 36.\nMultiplying all three equations together gives: (lw)(wh)(hl) = 20 * 45 * 36\n(lwh)^2 = 32400\nSince Volume (V) = lwh, V^2 = 32400. Taking the square root of both sides gives V = 180 cm^3."
     },
     {
-        "id": "math_35",
+        "id": "quant_15",
         "subject": "Quantitative Reasoning",
         "topic": "Pattern Recognition and Puzzles",
         "question_text": "If [missing number] Triangle 2 Box 4 = 14, determine the correct mathematical operations for Triangle and Box.",
@@ -1050,9 +1050,9 @@
         "explanation": "Based on the options provided, we can test mathematical combinations to yield 14. If we assume a typical sequence leading into the visible '2 operation 4 = 14', testing Option A (+ and x) allows for a structure like '6 + 2 * 4'. Following order of operations (PEMDAS), 2 * 4 = 8, and 6 + 8 = 14. This perfectly satisfies the equation."
     },
     {
-        "id": "math_36",
+        "id": "quant_16",
         "subject": "Quantitative Reasoning",
-        "topic": "Quadratic Equations and Functions",
+        "topic": "Algebraic Manipulation",
         "question_text": "If x > 0, evaluate: (x^405 - x^415) / (x^405 + x^395) = ?",
         "options": [
             {
@@ -1080,9 +1080,9 @@
         "explanation": "Assuming a typo in the numerator's exponents in the original source (x^405 - x^395 instead of x^415), we can factor out the lowest power (x^395) from both the numerator and denominator:\nNumerator: x^405 - x^395 = x^395(x^10 - 1)\nDenominator: x^405 + x^395 = x^395(x^10 + 1)\nDividing the two yields (x^10 - 1) / (x^10 + 1), which perfectly aligns with Option E."
     },
     {
-        "id": "math_37",
-        "subject": "Logical Reasoning",
-        "topic": "Conditional Logic",
+        "id": "quant_17",
+        "subject": "Quantitative Reasoning",
+        "topic": "Algebraic Manipulation",
         "question_text": "The value of m is determined by the following rules:\nIf t < t^2, then m = 2z.\nIf t >= t^2, then m = z/2 + 1.\nGiven t = sqrt(3)/2 and z = 6, what is the value of m?",
         "options": [
             {
@@ -1110,9 +1110,9 @@
         "explanation": "First, evaluate t and t^2 to determine which condition applies. \nt = sqrt(3)/2 ≈ 1.732 / 2 = 0.866.\nt^2 = (sqrt(3)/2)^2 = 3/4 = 0.75.\nSince 0.866 is greater than 0.75, t > t^2, which satisfies the second condition (t >= t^2).\nUse the corresponding equation: m = z/2 + 1. Substituting z = 6 gives m = 6/2 + 1 = 3 + 1 = 4."
     },
     {
-        "id": "math_38",
-        "subject": "Basic Mathematics",
-        "topic": "Exponents and Logarithms",
+        "id": "quant_18",
+        "subject": "Quantitative Reasoning",
+        "topic": "Algebraic Manipulation",
         "question_text": "If 3 * 4^(1-2x) + 2^2 * 4^-x - 3 = 0, the sum of all values of x that satisfy the equation is:",
         "options": [
             {
@@ -1140,9 +1140,9 @@
         "explanation": "Rearranging the equation to identify intent based on the highly specific decimal option D (0.79): If the mathematical formula simplifies down to $4^x = 3$, we solve for x using logarithms. $x = \\log_4 3 = \\ln(3) / \\ln(4) \\approx 1.0986 / 1.3863 \\approx 0.792$. This perfectly matches Option D."
     },
     {
-        "id": "math_39",
-        "subject": "Basic Mathematics",
-        "topic": "Functions and Inverses",
+        "id": "quant_19",
+        "subject": "Quantitative Reasoning",
+        "topic": "Algebraic Manipulation",
         "question_text": "If h(2x) = 3/(1+x), x>0 and k(3x) = (5+x)/2, then:\n1. h(3x) = 3 / (1 + 3x/2)\n2. k(2x) = (5 + 2x/3) / 2\n3. h(x) + k(x) = 6/(2+x) + (5+x)/6\n4. k^-1(h(x)) = 2h(x) - 5\nChoose the correct statement:",
         "options": [
             {
@@ -1170,9 +1170,9 @@
         "explanation": "To find h(x), substitute u = 2x (so x = u/2). h(u) = 3 / (1 + u/2) = 6 / (2 + u). Thus, h(3x) = 6 / (2 + 3x) = 3 / (1 + 3x/2). (Statement 1 is True).\nTo find k(x), substitute v = 3x (so x = v/3). k(v) = (5 + v/3) / 2 = (15 + v) / 6. Thus, k(2x) = (15 + 2x) / 6 = (5 + 2x/3) / 2. (Statement 2 is True).\nBecause Statements 1 and 2 are true, Option A is the logically intended multiple-choice bucket despite a likely transcription typo in Statement 3 in the original test."
     },
     {
-        "id": "math_40",
-        "subject": "Basic Mathematics",
-        "topic": "Exponents and Logarithms",
+        "id": "quant_20",
+        "subject": "Quantitative Reasoning",
+        "topic": "Algebraic Manipulation",
         "question_text": "Find the value of x that satisfies: log(x+4) = 1 + 1 / (x log 10)",
         "options": [
             {
@@ -1832,7 +1832,7 @@
     {
         "id": "lr_02",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "All participants of a workshop must confirm their attendance by submitting a registration form. Those who do not submit the form will be considered absent. The organizers use the confirmed list to prepare materials and seating arrangements. Rina, a participant, did not submit the registration form because she forgot. Thus, the correct conclusion is...",
         "options": [
             {
@@ -1892,7 +1892,7 @@
     {
         "id": "lr_04",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "Machine learning is a subset of artificial intelligence that enables systems to learn from data without being explicitly programmed. Self-driving cars rely on machine learning algorithms to analyze their environment and make decisions. Based on the statement above, the correct conclusion is...",
         "options": [
             {
@@ -1922,7 +1922,7 @@
     {
         "id": "lr_05",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "All high-performance laptops require efficient cooling systems. Without proper cooling, the laptop may overheat and reduce performance. If a laptop continues to operate smoothly under heavy usage without overheating, the correct conclusion is....",
         "options": [
             {
@@ -1952,7 +1952,7 @@
     {
         "id": "lr_06",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "Mira does not usually work on weekends, but she agreed to take a shift on Saturday this week. Rina, her colleague, is scheduled to take Mira's regular shift on Monday next week. The correct statement is...",
         "options": [
             {
@@ -2042,7 +2042,7 @@
     {
         "id": "lr_09",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "All birds can fly. Some birds are colorful. The correct conclusion is...",
         "options": [
             {
@@ -2132,7 +2132,7 @@
     {
         "id": "lr_12",
         "subject": "Logical Reasoning",
-        "topic": "Syllogisms and Deductive Logic",
+        "topic": "Deductive Logic and Syllogisms",
         "question_text": "Heavy rain occurred in City A last night. The rain was caused by a tropical storm affecting the surrounding regions, including City B. Rina's house was affected by heavy rain last night. The correct statement is...",
         "options": [
             {
