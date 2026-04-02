@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { cleanText } from '../utils';
+import MathText from './MathText';
 import { ChevronRight, SkipForward, ArrowLeft, Clock, AlertTriangle } from 'lucide-react';
 
 const SECTIONS = [
@@ -133,7 +133,7 @@ const TryoutQuiz = ({ questions, answers, setAnswers, onFinish }) => {
 
       <div className="glass-card mb-8">
         <h2 className="mb-8" style={{ fontSize: '1.5rem', lineHeight: '1.6', whiteSpace: 'pre-wrap' }}>
-          {cleanText(question.question_text)}
+          <MathText text={question.question_text} />
         </h2>
 
         <div className="options-container">
@@ -145,7 +145,7 @@ const TryoutQuiz = ({ questions, answers, setAnswers, onFinish }) => {
             >
               <div className="option-letter">{opt.letter}</div>
               <div style={{ flex: 1, lineHeight: '1.5' }}>
-                {cleanText(opt.text)}
+                <MathText text={opt.text} />
               </div>
             </button>
           ))}

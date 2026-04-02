@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Clock, ShieldAlert, CheckCircle, XCircle, ArrowRight, ArrowLeft, Activity } from 'lucide-react';
-import { cleanText } from '../utils';
+import MathText from './MathText';
 
 const AbilityTest = ({ allTopicsData, onFinish }) => {
   const [phase, setPhase] = useState('intro'); // 'intro', 'stage1', 'stage2', 'review'
@@ -128,7 +128,7 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
         </div>
 
         <div style={{ fontSize: '1.2rem', lineHeight: '1.6', marginBottom: '2rem' }}>
-          {cleanText(q.question_text)}
+          <MathText text={q.question_text} />
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
@@ -142,7 +142,7 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
                 style={{ textAlign: 'left', padding: '1rem', display: 'flex', gap: '1rem', fontSize: '1.1rem' }}
               >
                 <span style={{ fontWeight: 'bold', minWidth: '24px' }}>{opt.letter}.</span>
-                <span>{cleanText(opt.text)}</span>
+                <span><MathText text={opt.text} /></span>
               </button>
             )
           })}

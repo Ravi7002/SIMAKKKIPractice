@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { evaluateResults } from '../utils';
 import { RotateCcw, Target, AlertTriangle, CheckCircle2, XCircle } from 'lucide-react';
+import MathText from './MathText';
 
 const Results = ({ questions, answers, onRestart }) => {
   const { totalScore, topics } = useMemo(() => evaluateResults(questions, answers), [questions, answers]);
@@ -25,7 +26,7 @@ const Results = ({ questions, answers, onRestart }) => {
             return (
               <div key={q.id} className="glass-card" style={{ borderLeft: isCorrect ? '4px solid var(--accent-green)' : (userAnswer ? '4px solid var(--accent-red)' : '4px solid var(--text-muted)') }}>
                 <div style={{ marginBottom: '1rem', color: 'var(--text-muted)' }}>Question {idx + 1}</div>
-                <div style={{ fontSize: '1.2rem', marginBottom: '1.5rem', whiteSpace: 'pre-wrap' }}>{q.question_text}</div>
+                <div style={{ fontSize: '1.2rem', marginBottom: '1.5rem', whiteSpace: 'pre-wrap' }}><MathText text={q.question_text} /></div>
                 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', marginBottom: '1.5rem' }}>
                   {q.options.map(opt => {
@@ -44,7 +45,7 @@ const Results = ({ questions, answers, onRestart }) => {
                     return (
                       <div key={opt.letter} style={optStyle}>
                         <span style={{ fontWeight: 'bold', marginRight: '1rem' }}>{opt.letter}.</span>
-                        {opt.text}
+                        <MathText text={opt.text} />
                       </div>
                     )
                   })}
@@ -52,7 +53,7 @@ const Results = ({ questions, answers, onRestart }) => {
                 
                 <div style={{ background: 'rgba(255,255,255,0.05)', padding: '1rem', borderRadius: '8px' }}>
                   <h4 style={{ color: 'var(--accent-purple)', marginBottom: '0.5rem' }}>Explanation:</h4>
-                  <p style={{ lineHeight: '1.5' }}>{q.explanation || 'No explanation provided.'}</p>
+                  <p style={{ lineHeight: '1.5' }}><MathText text={q.explanation || 'No explanation provided.'} /></p>
                 </div>
               </div>
             );

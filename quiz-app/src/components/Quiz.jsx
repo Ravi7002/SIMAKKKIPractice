@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { cleanText } from '../utils';
+import MathText from './MathText';
 import { ChevronRight, ArrowLeft, CheckCircle, XCircle } from 'lucide-react';
 
 const Quiz = ({ questions, answers, setAnswers, onFinish, onQuit }) => {
@@ -76,7 +76,7 @@ const Quiz = ({ questions, answers, setAnswers, onFinish, onQuit }) => {
 
       <div className="glass-card mb-4">
         <h2 className="mb-8" style={{ fontSize: '1.5rem', lineHeight: '1.6' }}>
-          {cleanText(question.question_text)}
+          <MathText text={question.question_text} />
         </h2>
 
         <div className="options-container">
@@ -99,7 +99,7 @@ const Quiz = ({ questions, answers, setAnswers, onFinish, onQuit }) => {
               >
                 <div className="option-letter">{opt.letter}</div>
                 <div style={{ flex: 1, lineHeight: '1.5' }}>
-                  {cleanText(opt.text)}
+                  <MathText text={opt.text} />
                 </div>
                 {isGuessed && isCorrectAnswer && <CheckCircle size={24} style={{ color: 'var(--accent-green)' }} />}
                 {isGuessed && !isCorrectAnswer && <XCircle size={24} style={{ color: 'var(--accent-red)' }} />}
@@ -115,7 +115,7 @@ const Quiz = ({ questions, answers, setAnswers, onFinish, onQuit }) => {
             <CheckCircle size={20} /> Correct!
           </h3>
           <p style={{ lineHeight: '1.5' }}>
-            {cleanText(question.explanation || `The correct answer is ${question.correct_answer}.`)}
+            <MathText text={question.explanation || `The correct answer is ${question.correct_answer}.`} />
           </p>
         </div>
       )}
