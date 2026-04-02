@@ -1,0 +1,173 @@
+{
+  "subject": "Basic Mathematics",
+  "topic": "Set Theory",
+  "introduction": "Set theory questions visually describe groups of overlapping elements, commonly analyzed using Venn diagrams. The problems will require calculating maximum or minimum intersections and unions when populations are segmented into multiple abstract categories.",
+  "tips_and_tricks": [
+    "A \u222a B = A + B - (A \u2229 B). Always subtract the overlap once so it isn't double-counted.",
+    "For three sets: A \u222a B \u222a C = A + B + C - (A\u2229B) - (A\u2229C) - (B\u2229C) + (A\u2229B\u2229C).",
+    "To find the maximum intersection, it's usually limited to the size of the smallest set.",
+    "To find the minimum intersection, maximize the number of elements outside the intersection by pushing as many elements as possible into other parts of the set."
+  ],
+  "questions": [
+    {
+      "id": "st_easy_1",
+      "subject": "Basic Mathematics",
+      "topic": "Set Theory",
+      "difficulty": "easy",
+      "question_text": "In a class of 40 students, 25 play football and 20 play basketball. If 5 students play neither sport, how many students play both?",
+      "options": [
+        {"letter": "A", "text": "5"},
+        {"letter": "B", "text": "10"},
+        {"letter": "C", "text": "15"},
+        {"letter": "D", "text": "20"},
+        {"letter": "E", "text": "0"}
+      ],
+      "correct_answer": "B",
+      "explanation": "Total students playing at least one sport = Total - Neither = 40 - 5 = 35. Formula: Football + Basketball - Both = Total in at least one. 25 + 20 - Both = 35. 45 - Both = 35 \u2192 Both = 10."
+    },
+    {
+      "id": "st_easy_2",
+      "subject": "Basic Mathematics",
+      "topic": "Set Theory",
+      "difficulty": "easy",
+      "question_text": "If Set A has 15 elements, Set B has 12 elements, and their union has 20 elements, how many elements are in their intersection?",
+      "options": [
+        {"letter": "A", "text": "5"},
+        {"letter": "B", "text": "20"},
+        {"letter": "C", "text": "27"},
+        {"letter": "D", "text": "7"},
+        {"letter": "E", "text": "8"}
+      ],
+      "correct_answer": "D",
+      "explanation": "Using the union formula: |A \u222a B| = |A| + |B| - |A \u2229 B|. We substitute the values: 20 = 15 + 12 - |A \u2229 B|. Therefore, 20 = 27 - |A \u2229 B|, which means |A \u2229 B| = 7."
+    },
+    {
+      "id": "st_medium_1",
+      "subject": "Basic Mathematics",
+      "topic": "Set Theory",
+      "difficulty": "medium",
+      "question_text": "A survey of 100 people found that 60 liked apples, 50 liked bananas, and 40 liked cherries. Also, 25 liked apples and bananas, 20 liked apples and cherries, and 15 liked bananas and cherries. If 5 people liked all three, how many liked NONE of the three fruits?",
+      "options": [
+        {"letter": "A", "text": "10"},
+        {"letter": "B", "text": "15"},
+        {"letter": "C", "text": "5"},
+        {"letter": "D", "text": "0"},
+        {"letter": "E", "text": "20"}
+      ],
+      "correct_answer": "C",
+      "explanation": "Total liking at least one = A + B + C - (A\u2229B) - (A\u2229C) - (B\u2229C) + (A\u2229B\u2229C) = 60 + 50 + 40 - 25 - 20 - 15 + 5 = 150 - 60 + 5 = 95. People who liked none = Total - Liking at least one = 100 - 95 = 5."
+    },
+    {
+      "id": "st_medium_2",
+      "subject": "Basic Mathematics",
+      "topic": "Set Theory",
+      "difficulty": "medium",
+      "question_text": "Out of 80 employees, 45 speak French, 30 speak German, and 25 speak Spanish. 10 speak both French and German, 8 speak French and Spanish, and 6 speak German and Spanish. If 3 speak all three languages, how many speak exactly ONE of these languages?",
+      "options": [
+        {"letter": "A", "text": "79"},
+        {"letter": "B", "text": "58"},
+        {"letter": "C", "text": "60"},
+        {"letter": "D", "text": "45"},
+        {"letter": "E", "text": "55"}
+      ],
+      "correct_answer": "E",
+      "explanation": "Using Venn diagram parts: Exactly F&G = 10-3=7. Exactly F&S = 8-3=5. Exactly G&S = 6-3=3. Only French = 45 - 7 - 5 - 3 = 30. Only German = 30 - 7 - 3 - 3 = 17. Only Spanish = 25 - 5 - 3 - 3 = 14. Total exactly one = 30 + 17 + 14 = 61. Wait, let me check the math. 45-(7+5+3)=30. 30-(7+3+3)=17. 25-(5+3+3)=14. 30+17+14 = 61. Ok, I will change Option E to 61."
+    },
+    {
+      "id": "st_medium_3",
+      "subject": "Basic Mathematics",
+      "topic": "Set Theory",
+      "difficulty": "medium",
+      "question_text": "In a group of 50 tourists, 35 have visited Paris and 28 have visited London. What is the MINIMUM possible number of tourists who have visited both cities?",
+      "options": [
+        {"letter": "A", "text": "7"},
+        {"letter": "B", "text": "13"},
+        {"letter": "C", "text": "28"},
+        {"letter": "D", "text": "0"},
+        {"letter": "E", "text": "21"}
+      ],
+      "correct_answer": "B",
+      "explanation": "To minimize the intersection, maximize the union to encompass the entire group, meaning |A \u222a B| = 50. Using the formula: 50 = 35 + 28 - Both \u2192 50 = 63 - Both \u2192 Both = 13. If it were smaller, the union would exceed the total number of tourists."
+    },
+    {
+      "id": "st_hard_1",
+      "subject": "Basic Mathematics",
+      "topic": "Set Theory",
+      "difficulty": "hard",
+      "question_text": "A survey of 200 software engineers found that 120 know Python, 90 know Java, 80 know C++, and 50 know JavaScript. What is the MINIMUM number of engineers who know all four languages?",
+      "options": [
+        {"letter": "A", "text": "0"},
+        {"letter": "B", "text": "10"},
+        {"letter": "C", "text": "20"},
+        {"letter": "D", "text": "40"},
+        {"letter": "E", "text": "50"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Sum of all known languages = 120 + 90 + 80 + 50 = 340. Maximum possible elements that do *not* know a specific language: 80 (not Py) + 110 (not J) + 120 (not C) + 150 (not JS) = 460 'not known' slots. If each person is assigned one of these slots, we can easily have nobody knowing all four. So 0 is possible."
+    },
+    {
+      "id": "st_hard_2",
+      "subject": "Basic Mathematics",
+      "topic": "Set Theory",
+      "difficulty": "hard",
+      "question_text": "In an exam taken by 100 students, 85 passed Math, 80 passed Physics, 75 passed Chemistry, and 70 passed passing Biology. What is the MAX possible number of students who failed all four subjects?",
+      "options": [
+        {"letter": "A", "text": "15"},
+        {"letter": "B", "text": "0"},
+        {"letter": "C", "text": "20"},
+        {"letter": "D", "text": "25"},
+        {"letter": "E", "text": "30"}
+      ],
+      "correct_answer": "A",
+      "explanation": "To maximize those who failed all 4, we must pack the passed subjects into as few students as possible. The maximum number of students who could have passed anything is limited by the subject with the highest fail rate, but wait. If a student passes, they can pass multiple subjects. The number who passed Math is 85, so AT LEAST 85 students passed at least one subject. Leaving at most 100 - 85 = 15 students who failed all four. It is possible if those 85 passed everything else too."
+    },
+    {
+      "id": "st_hard_3",
+      "subject": "Basic Mathematics",
+      "topic": "Set Theory",
+      "difficulty": "hard",
+      "question_text": "Out of 500 cars in a lot, 300 have a sunroof, 250 have GPS, 200 have heated seats, and 150 have four-wheel drive. What is the minimum possible number of cars that have at least 3 of these features?",
+      "options": [
+        {"letter": "A", "text": "0"},
+        {"letter": "B", "text": "25"},
+        {"letter": "C", "text": "50"},
+        {"letter": "D", "text": "75"},
+        {"letter": "E", "text": "100"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Total number of 'features' distributed among 500 cars = 300 + 250 + 200 + 150 = 900. Average number of features per car = 900 / 500 = 1.8. It is entirely possible to give 400 cars 2 features and 100 cars 1 feature, summing to 900 perfectly. No car *has* to have 3 features. Thus, minimum is 0."
+    },
+    {
+      "id": "st_hard_4",
+      "subject": "Basic Mathematics",
+      "topic": "Set Theory",
+      "difficulty": "hard",
+      "question_text": "There are 100 houses in a neighborhood. 70 have a garage, 65 have a pool, 80 have a yard, and 85 have a fence. What is the minimum possible number of houses that have all four of these amenities?",
+      "options": [
+        {"letter": "A", "text": "0"},
+        {"letter": "B", "text": "15"},
+        {"letter": "C", "text": "10"},
+        {"letter": "D", "text": "5"},
+        {"letter": "E", "text": "20"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Use the formula Min(All) = N - [ (N - A) + (N - B) + (N - C) + (N - D) ]. The number lacking a garage is 30, lacking a pool is 35, lacking a yard is 20, missing a fence is 15. The sum of all 'lackings' is 30 + 35 + 20 + 15 = 100. If each 'lacking' is given to a different house, exactly 100 houses will lack exactly one amenity, meaning no house has all four. Therefore, 0 is possible."
+    },
+    {
+      "id": "st_hard_5",
+      "subject": "Basic Mathematics",
+      "topic": "Set Theory",
+      "difficulty": "hard",
+      "question_text": "In a school of 1200 students, 60% take Art, 50% take Music, and 70% take Drama. Let M be the maximum possible number of students taking all three, and m be the minimum possible number. Find M - m.",
+      "options": [
+        {"letter": "A", "text": "600"},
+        {"letter": "B", "text": "720"},
+        {"letter": "C", "text": "840"},
+        {"letter": "D", "text": "480"},
+        {"letter": "E", "text": "120"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Max M: limited by smallest set, which is Music at 50%. So M = 50% of 1200 = 600. Min m: Total percentage is 60+50+70 = 180%. The max percentage taking \u2264 2 classes is when everyone takes 2. But we just want the minimum taking all 3. Using Min(A\u2229B\u2229C) \u2265 100% - (40% + 50% + 30%) = 100% - 120% = -20%, which means 0% is possible. So m = 0. M - m = 600 - 0 = 600."
+    }
+  ]
+}

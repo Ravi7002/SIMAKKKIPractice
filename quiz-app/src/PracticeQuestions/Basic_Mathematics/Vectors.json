@@ -1,0 +1,172 @@
+{
+  "subject": "Basic Mathematics",
+  "topic": "Vectors",
+  "introduction": "Vector mathematics involves quantities with both magnitude and direction. Questions often require setting up vector equations to describe geometric properties, predicting resultant vectors through addition, or using vector coefficients to calculate fractional area ratios and relationships between points.",
+  "tips_and_tricks": [
+    "Vector addition can be visualized geometricly using the head-to-tail method.",
+    "If point P divides line AB in a ratio m:n, then the position vector of P is (n*a + m*b) / (m + n).",
+    "To find the area of a triangle formed by two vectors a and b, use (1/2) * ||a x b|| or geometry rules related to proportional heights and bases."
+  ],
+  "questions": [
+    {
+      "id": "vec_easy_1",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "easy",
+      "question_text": "Given vector u = 3i - 4j and vector v = 2i + j. What is the magnitude of the vector u + v?",
+      "options": [
+        {"letter": "A", "text": "5"},
+        {"letter": "B", "text": "\u221a34"},
+        {"letter": "C", "text": "6"},
+        {"letter": "D", "text": "\u221a24"},
+        {"letter": "E", "text": "8"}
+      ],
+      "correct_answer": "B",
+      "explanation": "First find the sum: u + v = (3+2)i + (-4+1)j = 5i - 3j. Then calculate the magnitude: ||u + v|| = \u221a(5\u00b2 + (-3)\u00b2) = \u221a(25 + 9) = \u221a34."
+    },
+    {
+      "id": "vec_easy_2",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "easy",
+      "question_text": "If vector A = (2, -1) and vector B = (-1, 5), what is the result of 2A - B?",
+      "options": [
+        {"letter": "A", "text": "(5, -7)"},
+        {"letter": "B", "text": "(3, 4)"},
+        {"letter": "C", "text": "(1, 9)"},
+        {"letter": "D", "text": "(5, -3)"},
+        {"letter": "E", "text": "(3, -7)"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Multiply vector A by 2 to get (4, -2). Next, subtract vector B: (4, -2) - (-1, 5) = (4 - (-1), -2 - 5) = (5, -7)."
+    },
+    {
+      "id": "vec_medium_1",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "question_text": "In triangle OAB, let vector OA = a and vector OB = b. Point P lies on AB such that AP:PB = 2:1. Express vector OP in terms of a and b.",
+      "options": [
+        {"letter": "A", "text": "(1/3)a + (2/3)b"},
+        {"letter": "B", "text": "(2/3)a + (1/3)b"},
+        {"letter": "C", "text": "2a + b"},
+        {"letter": "D", "text": "(1/2)a + (1/2)b"},
+        {"letter": "E", "text": "(1/3)a - (2/3)b"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Using the section formula for a point dividing a line in ratio m:n, OP = (n*a + m*b) / (m + n). Here m=2 and n=1. So OP = (1*a + 2*b) / (2+1) = (1/3)a + (2/3)b."
+    },
+    {
+      "id": "vec_medium_2",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "question_text": "Let OABC be a parallelogram. If vector OA = a and vector OC = c, find the vector from the midpoint of AB to the midpoint of BC.",
+      "options": [
+        {"letter": "A", "text": "(1/2)c - (1/2)a"},
+        {"letter": "B", "text": "(1/2)a - (1/2)c"},
+        {"letter": "C", "text": "(1/2)a + (1/2)c"},
+        {"letter": "D", "text": "a - c"},
+        {"letter": "E", "text": "-1/2(a + c)"}
+      ],
+      "correct_answer": "A",
+      "explanation": "B = a + c. Midpoint of AB is M1 = a + (1/2)c. Midpoint of BC is M2 = c + (1/2)a. Vector from M1 to M2 is M2 - M1 = (c + (1/2)a) - (a + (1/2)c) = (1/2)c - (1/2)a."
+    },
+    {
+      "id": "vec_medium_3",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "question_text": "Given points A(1, 2, 3), B(4, -1, 2), and C(5, 5, 5). The vector AB and vector AC form a triangle. Find the ratio of the area of triangle ABC to the area of a parallelogram spanned by AB and AC.",
+      "options": [
+        {"letter": "A", "text": "1:2"},
+        {"letter": "B", "text": "2:1"},
+        {"letter": "C", "text": "1:4"},
+        {"letter": "D", "text": "1:1"},
+        {"letter": "E", "text": "\u221a2:1"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The area of a triangle formed by two vectors is exactly half the area of the parallelogram spanned by the exact same two vectors. Thus the ratio is 1:2. The coordinates provided are just distractors."
+    },
+    {
+      "id": "vec_hard_1",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "hard",
+      "question_text": "In triangle OAB, point C lies on OA such that OC = (1/3)OA, and point D lies on OB such that OD = (1/2)OB. Let AD and BC intersect at P. Vector OP can be expressed as k*OA + m*OB. What is k/m?",
+      "options": [
+        {"letter": "A", "text": "3/2"},
+        {"letter": "B", "text": "2/3"},
+        {"letter": "C", "text": "1/2"},
+        {"letter": "D", "text": "1/3"},
+        {"letter": "E", "text": "3"}
+      ],
+      "correct_answer": "C",
+      "explanation": "Let OA = a, OB = b. OC = a/3, OD = b/2. P lies on AD: OP = s*a + (1-s)(b/2). P lies on BC: OP = t(a/3) + (1-t)b. Equating coefficients: s = t/3 and (1-s)/2 = 1-t. Substitute s: (1 - t/3)/2 = 1 - t \u2192 1/2 - t/6 = 1 - t \u2192 (5/6)t = 1/2 \u2192 t = 3/5. Then s = 1/5. Thus OP = (1/5)a + (2/5)b. k = 1/5, m = 2/5. Coefficient ratio k/m = (1/5) / (2/5) = 1/2."
+    },
+    {
+      "id": "vec_hard_2",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "hard",
+      "question_text": "Vectors u, v, w are unit vectors such that u + v + w = 0. What is the value of the dot product u\u00b7v + v\u00b7w + w\u00b7u?",
+      "options": [
+        {"letter": "A", "text": "-3/2"},
+        {"letter": "B", "text": "-1"},
+        {"letter": "C", "text": "0"},
+        {"letter": "D", "text": "3/2"},
+        {"letter": "E", "text": "3"}
+      ],
+      "correct_answer": "A",
+      "explanation": "We know ||u + v + w||\u00b2 = 0. Expanding this: ||u||\u00b2 + ||v||\u00b2 + ||w||\u00b2 + 2(u\u00b7v + v\u00b7w + w\u00b7u) = 0. Since they are unit vectors, their squared magnitudes are each 1. 1 + 1 + 1 + 2(u\u00b7v + v\u00b7w + w\u00b7u) = 0 \u2192 3 + 2(dot products) = 0. Result = -3/2."
+    },
+    {
+      "id": "vec_hard_3",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "hard",
+      "question_text": "In triangle ABC, vector AB = c, vector BC = a, and vector CA = b. The area of \u0394ABC is given by ||a\u00d7b||/2. If P is a point inside the triangle such that the vector sum PA + PB + PC = 0, what is the ratio of the area of \u0394PAB to \u0394ABC?",
+      "options": [
+        {"letter": "A", "text": "1:3"},
+        {"letter": "B", "text": "1:4"},
+        {"letter": "C", "text": "1:2"},
+        {"letter": "D", "text": "2:3"},
+        {"letter": "E", "text": "1:\u221a3"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The equation PA + PB + PC = 0 means P is the centroid of the triangle. The centroid divides the triangle into three smaller triangles of equal area. Therefore, the area of \u0394PAB is exactly 1/3 of the total area of \u0394ABC."
+    },
+    {
+      "id": "vec_hard_4",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "hard",
+      "question_text": "Vector a = xi + yj and vector b = 2i - j. If the projection of a on b has a magnitude of 11/\u221a5 and a is perpendicular to c = 3i + 4j, what are the possible values of x and y?",
+      "options": [
+        {"letter": "A", "text": "x = 4, y = -3"},
+        {"letter": "B", "text": "x = 4, y = -3  or  x = -4, y = 3"},
+        {"letter": "C", "text": "x = 3, y = -4"},
+        {"letter": "D", "text": "x = -4, y = 3"},
+        {"letter": "E", "text": "x = 2, y = -1.5"}
+      ],
+      "correct_answer": "B",
+      "explanation": "Since a \u22a5 c, their dot product is 0: 3x + 4y = 0 \u2192 y = -3x/4. Projection of a on b is |a\u00b7b| / ||b|| = |2x - y| / \u221a5 = 11/\u221a5. So |2x - y| = 11. Substitute y: |2x - (-3x/4)| = 11 \u2192 |11x/4| = 11 \u2192 11x/4 = \u00b111 \u2192 x = \u00b14. If x=4, y=-3. If x=-4, y=3."
+    },
+    {
+      "id": "vec_hard_5",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "hard",
+      "question_text": "In a regular hexagon ABCDEF, if vector AB = p and vector BC = q, express vector AE in terms of p and q.",
+      "options": [
+        {"letter": "A", "text": "2q - p"},
+        {"letter": "B", "text": "p + 2q"},
+        {"letter": "C", "text": "2p - q"},
+        {"letter": "D", "text": "q - p"},
+        {"letter": "E", "text": "p - 2q"}
+      ],
+      "correct_answer": "A",
+      "explanation": "In a regular hexagon, AD is parallel to and twice the length of BC. So vector AD = 2q. We know AB + BC + CD = AD \u2192 p + q + CD = 2q \u2192 CD = q - p. Also, DE is parallel and equal to opposite of AB, so DE = -p. AE = AD + DE = 2q - p."
+    }
+  ]
+}

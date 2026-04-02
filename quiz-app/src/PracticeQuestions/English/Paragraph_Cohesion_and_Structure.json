@@ -1,0 +1,172 @@
+{
+  "subject": "English",
+  "topic": "Paragraph Cohesion and Structure",
+  "introduction": "This topic evaluates your ability to organize thoughts logically. You will be asked to identify irrelevant sentences, determine the best order of jumbled sentences, or select the best transition word to connect two ideas.",
+  "tips_and_tricks": [
+    "Look for pronoun clues; a sentence starting with 'These resources' must directly follow a sentence identifying those resources.",
+    "Transition words (However, Furthermore, Therefore) strictly dictate the logical relationship between the surrounding sentences.",
+    "A paragraph's concluding sentence should summarize or transition smoothly to a new topic, not introduce hyper-specific new data."
+  ],
+  "questions": [
+    {
+      "id": "pcs_easy_1",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "easy",
+      "question_text": "Arrange the following sentences into a logical paragraph: \n1. First, you must gather your ingredients. \n2. Finally, bake it in the oven for 30 minutes. \n3. Making a cake is a simple process. \n4. Next, mix them all together in a large bowl.",
+      "options": [
+        {"letter": "A", "text": "1, 4, 2, 3"},
+        {"letter": "B", "text": "3, 1, 4, 2"},
+        {"letter": "C", "text": "3, 4, 1, 2"},
+        {"letter": "D", "text": "1, 3, 4, 2"},
+        {"letter": "E", "text": "4, 1, 2, 3"}
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 3 is the topic sentence introducing the paragraph ('Making a cake'). The sequence words 'First' (1), 'Next' (4), and 'Finally' (2) explicitly order the rest of the steps. The correct order is 3, 1, 4, 2."
+    },
+    {
+      "id": "pcs_easy_2",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "easy",
+      "question_text": "Choose the best transition word for the blank: 'The restaurant had terrible reviews and a history of health violations; ______, we decided to eat somewhere else.'",
+      "options": [
+        {"letter": "A", "text": "Therefore"},
+        {"letter": "B", "text": "However"},
+        {"letter": "C", "text": "Furthermore"},
+        {"letter": "D", "text": "Despite this"},
+        {"letter": "E", "text": "Similarly"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The first clause establishes a negative cause (terrible reviews). The second clause describes the logical effect or consequence (deciding to eat elsewhere). The word 'Therefore' correctly indicates a cause-and-effect relationship."
+    },
+    {
+      "id": "pcs_medium_1",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "medium",
+      "question_text": "Which sentence should be removed because it disrupts the flow and cohesion of the following paragraph? \n(A) The rise of remote work has fundamentally altered urban life. \n(B) Without the daily commute, fewer people are relying on public transportation. \n(C) Trains in Japan are known for their exceptional punctuality. \n(D) Consequently, transport authorities are facing significant revenue shortfalls. \n(E) These shortfalls may inevitably lead to reduced services across major cities.",
+      "options": [
+        {"letter": "A", "text": "(A)"},
+        {"letter": "B", "text": "(B)"},
+        {"letter": "C", "text": "(C)"},
+        {"letter": "D", "text": "(D)"},
+        {"letter": "E", "text": "(E)"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The paragraph is analyzing the economic impact of remote work on general public transportation revenue. Sentence (C) introduces a specific, unrelated fact about Japanese train punctuality, which completely breaks the logical chain connecting lower ridership (B) to revenue shortfalls (D)."
+    },
+    {
+      "id": "pcs_medium_2",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "medium",
+      "question_text": "What is the best logical order for the following sentences? \n1. Consequently, standard safety protocols are useless against them. \n2. These zero-day vulnerabilities are highly prized by hackers. \n3. A zero-day vulnerability is a software flaw unknown to the vendor. \n4. Because the vendor is unaware, no patch exists to fix the problem.",
+      "options": [
+        {"letter": "A", "text": "3, 2, 4, 1"},
+        {"letter": "B", "text": "3, 4, 1, 2"},
+        {"letter": "C", "text": "2, 3, 4, 1"},
+        {"letter": "D", "text": "4, 1, 3, 2"},
+        {"letter": "E", "text": "3, 1, 4, 2"}
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 3 defines the term 'zero-day vulnerability' and establishes 'vendor unawareness'. Sentence 4 starts with 'Because the vendor is unaware', directly linking back to 3. Sentence 1 begins with 'Consequently', expanding on the lack of a patch. Sentence 2 concludes the thought by stating why hackers value this status. Thus 3, 4, 1, 2 flows perfectly."
+    },
+    {
+      "id": "pcs_medium_3",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "medium",
+      "question_text": "Select the appropriate transition phrase to fill the blank: 'Electric vehicles produce zero tailpipe emissions. ______, if the local electricity grid relies on coal, the overall carbon footprint may still be surprisingly high.'",
+      "options": [
+        {"letter": "A", "text": "Additionally"},
+        {"letter": "B", "text": "Consequently"},
+        {"letter": "C", "text": "Nevertheless"},
+        {"letter": "D", "text": "In other words"},
+        {"letter": "E", "text": "For instance"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The first sentence presents a positive environmental fact about EVs. The second sentence introduces a contrasting negative reality (high carbon footprint via coal). 'Nevertheless' correctly signals this sharp contrast or concession. 'However' would also work, but 'Nevertheless' is the best available option here."
+    },
+    {
+      "id": "pcs_hard_1",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "hard",
+      "question_text": "Read the following sentences: \n1) It is this exact flexibility that makes the theory so difficult to test scientifically. \n2) String theory suggests that the fundamental particles of the universe are not tiny dots, but vibrating strings. \n3) Depending on how these strings vibrate, they manifest as different types of particles. \n4) Since there are almost infinite ways strings can vibrate, the theory can be mathematically adjusted to fit almost any experimental observation. \nWhat is the most coherent sequence?",
+      "options": [
+        {"letter": "A", "text": "2, 4, 1, 3"},
+        {"letter": "B", "text": "2, 3, 4, 1"},
+        {"letter": "C", "text": "4, 1, 2, 3"},
+        {"letter": "D", "text": "3, 4, 1, 2"},
+        {"letter": "E", "text": "2, 1, 3, 4"}
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 introduces the core concept of String theory (vibrating strings). Sentence 3 explains the immediate implication of those vibrations (manifesting as particles). Sentence 4 expands on the mathematical consequence of infinite vibrations (being adjustable). Sentence 1 uses the pronoun 'this exact flexibility', directly referring back to the adjustability detailed in 4."
+    },
+    {
+      "id": "pcs_hard_2",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "hard",
+      "question_text": "A writer wishes to add the following sentence to the paragraph below: 'This unexpected discovery radically altered their view of human migration.' \n[1] The archaeologists began excavating the coastal cave expecting to find temporary hunting tools. [2] Instead, they quickly uncovered layers of complex pottery and permanent hearths. [3] Radiocarbon dating confirmed the site was continuously occupied for over five centuries. [4] Clearly, stable maritime cultures existed much earlier than previously documented on this continent. [5] \nWhere does the sentence best fit?",
+      "options": [
+        {"letter": "A", "text": "Between 1 and 2"},
+        {"letter": "B", "text": "Between 2 and 3"},
+        {"letter": "C", "text": "Between 3 and 4"},
+        {"letter": "D", "text": "After sentence 4 (position 5)"},
+        {"letter": "E", "text": "Before sentence 1"}
+      ],
+      "correct_answer": "D",
+      "explanation": "The sentence speaks of a discovery that 'altered their view of human migration'. Sentences 1-3 detail the physical unearthing of the discovery. Sentence 4 provides the specific scientific conclusion (maritime cultures existed much earlier). Placing the target sentence at [5] provides the macro-level impact that directly stems from the specific conclusion in [4]."
+    },
+    {
+      "id": "pcs_hard_3",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "hard",
+      "question_text": "Identify the flawed logical transition in the paragraph: \n'The new zoning laws were designed to increase affordable housing options. (A) Indeed, developers were granted tax breaks if 20% of their new units fell below market rate. (B) Conversely, several community groups protested the laws. (C) Therefore, many developers opted to build luxury high-rises outside the zoned jurisdiction. (D) Ultimately, the policy resulted in a net loss of affordable units within the city boundaries.'",
+      "options": [
+        {"letter": "A", "text": "Indeed"},
+        {"letter": "B", "text": "Conversely"},
+        {"letter": "C", "text": "Therefore"},
+        {"letter": "D", "text": "Ultimately"},
+        {"letter": "E", "text": "There is no flawed transition"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The transition 'Therefore' implies a causal link from the preceding sentence. The preceding sentence states that community groups protested. The following sentence states developers built luxury high-rises outside the city. Community protests do not logically CAUSE developers to build luxury units elsewhere; the developers likely did so to avoid the 20% tax break constraints mentioned earlier, making 'Therefore' an illogical connective."
+    },
+    {
+      "id": "pcs_hard_4",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "hard",
+      "question_text": "Which pair of transitional phrases best outlines a shift from a theoretical argument to a practical compromise?",
+      "options": [
+        {"letter": "A", "text": "Consequently / Furthermore"},
+        {"letter": "B", "text": "In principle / In practice"},
+        {"letter": "C", "text": "Admittedly / For instance"},
+        {"letter": "D", "text": "Primarily / Secondarily"},
+        {"letter": "E", "text": "Similarly / Yet"}
+      ],
+      "correct_answer": "B",
+      "explanation": "The phrase 'In principle' establishes the theoretical argument (how things should work in an ideal framework), while the phrase 'In practice' specifically introduces the real-world compromise or pragmatic reality of the situation."
+    },
+    {
+      "id": "pcs_hard_5",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "hard",
+      "question_text": "Reorder the following to form a rigorous deductive paragraph: \n1) Consequently, we can definitively categorize the artifact as an authentic relic rather than a modern forgery. \n2) Our laboratory utilized mass spectrometry to analyze the paint utilized on the statue. \n3) The mass spectrometer identified high concentrations of lead-tin yellow, a pigment completely abandoned by artists after 1750. \n4) Any modern forgery would invariably contain synthetic titanium-based whites or chromium-based yellows.",
+      "options": [
+        {"letter": "A", "text": "2, 3, 4, 1"},
+        {"letter": "B", "text": "2, 4, 3, 1"},
+        {"letter": "C", "text": "4, 2, 3, 1"},
+        {"letter": "D", "text": "3, 2, 4, 1"},
+        {"letter": "E", "text": "4, 3, 2, 1"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Sentence 2 sets up the methodology (mass spectrometry). Sentence 3 reports the direct results of that exact test (lead-tin yellow). Sentence 4 provides the comparative standard for modern forgeries. Sentence 1 offers the ultimate conclusion ('Consequently... authentic relic') derived from comparing the findings of 3 against the rule established in 4. The order 2, 3, 4, 1 perfectly builds this argument."
+    }
+  ]
+}

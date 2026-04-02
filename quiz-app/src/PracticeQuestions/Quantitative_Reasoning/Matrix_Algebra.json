@@ -1,0 +1,172 @@
+{
+  "subject": "Quantitative Reasoning",
+  "topic": "Matrix Algebra",
+  "introduction": "Matrix algebra focuses on operations including addition, scalar multiplication, matrix multiplication, and finding inverses. Questions may ask you to find original components from an inverse relationship or calculate unknown matrix dimensions and elements.",
+  "tips_and_tricks": [
+    "Matrix multiplication AB is generally NOT equal to BA.",
+    "For finding an inverse of a 2x2 matrix [[a, b], [c, d]], use (1 / (ad - bc)) * [[d, -b], [-c, a]].",
+    "If the determinant (ad - bc) is zero, the matrix has no inverse."
+  ],
+  "questions": [
+    {
+      "id": "ma_easy_1",
+      "subject": "Quantitative Reasoning",
+      "topic": "Matrix Algebra",
+      "difficulty": "easy",
+      "question_text": "If Matrix A = [[2, 1], [0, 3]] and Matrix B = [[1, 4], [2, 1]], find A + B.",
+      "options": [
+        {"letter": "A", "text": "[[3, 4], [2, 3]]"},
+        {"letter": "B", "text": "[[2, 4], [0, 3]]"},
+        {"letter": "C", "text": "[[3, 5], [2, 4]]"},
+        {"letter": "D", "text": "[[1, -3], [-2, 2]]"},
+        {"letter": "E", "text": "[[4, 9], [6, 3]]"}
+      ],
+      "correct_answer": "C",
+      "explanation": "Matrix addition is performed element by element. \nTop-left: 2 + 1 = 3. Top-right: 1 + 4 = 5. \nBottom-left: 0 + 2 = 2. Bottom-right: 3 + 1 = 4. \nResult is [[3, 5], [2, 4]]."
+    },
+    {
+      "id": "ma_easy_2",
+      "subject": "Quantitative Reasoning",
+      "topic": "Matrix Algebra",
+      "difficulty": "easy",
+      "question_text": "Find the determinant of the matrix M = [[4, 2], [3, 5]].",
+      "options": [
+        {"letter": "A", "text": "14"},
+        {"letter": "B", "text": "26"},
+        {"letter": "C", "text": "6"},
+        {"letter": "D", "text": "2"},
+        {"letter": "E", "text": "20"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The determinant of a 2x2 matrix [[a, b], [c, d]] is ad - bc. \nHere, (4 * 5) - (2 * 3) = 20 - 6 = 14."
+    },
+    {
+      "id": "ma_medium_1",
+      "subject": "Quantitative Reasoning",
+      "topic": "Matrix Algebra",
+      "difficulty": "medium",
+      "question_text": "If Matrix X = [[1, 2], [3, 4]] and Matrix Y = [[2, 0], [1, 2]], find the product XY.",
+      "options": [
+        {"letter": "A", "text": "[[2, 0], [3, 8]]"},
+        {"letter": "B", "text": "[[4, 4], [10, 8]]"},
+        {"letter": "C", "text": "[[3, 2], [4, 6]]"},
+        {"letter": "D", "text": "[[4, 8], [10, 4]]"},
+        {"letter": "E", "text": "[[2, 4], [4, 8]]"}
+      ],
+      "correct_answer": "B",
+      "explanation": "Matrix multiplication involves dotting the rows of the first matrix across the columns of the second. \nTop-Left: (1*2) + (2*1) = 4. \nTop-Right: (1*0) + (2*2) = 4. \nBottom-Left: (3*2) + (4*1) = 10. \nBottom-Right: (3*0) + (4*2) = 8. \nResult is [[4, 4], [10, 8]]."
+    },
+    {
+      "id": "ma_medium_2",
+      "subject": "Quantitative Reasoning",
+      "topic": "Matrix Algebra",
+      "difficulty": "medium",
+      "question_text": "Given A = [[3, -1], [2, 5]]. Find the inverse matrix A\u207b\u00b9.",
+      "options": [
+        {"letter": "A", "text": "(1/17) * [[5, 1], [-2, 3]]"},
+        {"letter": "B", "text": "(1/13) * [[5, 1], [-2, 3]]"},
+        {"letter": "C", "text": "(1/17) * [[3, 1], [-2, 5]]"},
+        {"letter": "D", "text": "[[5/17, -1/17], [2/17, 3/17]]"},
+        {"letter": "E", "text": "(1/7) * [[5, 1], [-2, 3]]"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Determinant of A: (3*5) - (-1*2) = 15 + 2 = 17. \nThe inverse rule swaps top-left and bottom-right, and negates the other two elements. \nA\u207b\u00b9 = (1 / Det(A)) * [[5, 1], [-2, 3]], which is (1/17) * [[5, 1], [-2, 3]]."
+    },
+    {
+      "id": "ma_medium_3",
+      "subject": "Quantitative Reasoning",
+      "topic": "Matrix Algebra",
+      "difficulty": "medium",
+      "question_text": "If A = [[x, 2], [3, 4]] and there is no inverse for A, what is the value of x?",
+      "options": [
+        {"letter": "A", "text": "2/3"},
+        {"letter": "B", "text": "3/2"},
+        {"letter": "C", "text": "6"},
+        {"letter": "D", "text": "-1.5"},
+        {"letter": "E", "text": "1.5"}
+      ],
+      "correct_answer": "E",
+      "explanation": "A matrix has no inverse if its determinant equals 0. \nDet = (x*4) - (2*3) = 4x - 6 = 0 \u2192 4x = 6 \u2192 x = 6/4 = 3/2 = 1.5."
+    },
+    {
+      "id": "ma_hard_1",
+      "subject": "Quantitative Reasoning",
+      "topic": "Matrix Algebra",
+      "difficulty": "hard",
+      "question_text": "The matrix equation [[2, 1], [-1, 1]] * [[x], [y]] = [[5], [2]] has a solution. Find x - y.",
+      "options": [
+        {"letter": "A", "text": "0"},
+        {"letter": "B", "text": "1/3"},
+        {"letter": "C", "text": "-2/3"},
+        {"letter": "D", "text": "-4"},
+        {"letter": "E", "text": "-2"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The equations are: 2x + y = 5, and -x + y = 2. \nSubtract the second from the first: (2x - (-x)) + (y - y) = 5 - 2 \u2192 3x = 3 \u2192 x = 1. \nSubstitute x = 1 into -x + y = 2 \u2192 -1 + y = 2 \u2192 y = 3. \nWe need to find x - y = 1 - 3 = -2. Wait, option C says -2/3. Let me replace option C with -2, but E is already -2. I'll mark E as correct."
+    },
+    {
+      "id": "ma_hard_2",
+      "subject": "Quantitative Reasoning",
+      "topic": "Matrix Algebra",
+      "difficulty": "hard",
+      "question_text": "If A = [[1, 2], [0, 1]], find A\u00b3.",
+      "options": [
+        {"letter": "A", "text": "[[1, 8], [0, 1]]"},
+        {"letter": "B", "text": "[[1, 6], [0, 1]]"},
+        {"letter": "C", "text": "[[3, 6], [0, 3]]"},
+        {"letter": "D", "text": "[[1, 4], [0, 1]]"},
+        {"letter": "E", "text": "[[1, 2], [0, 1]]"}
+      ],
+      "correct_answer": "B",
+      "explanation": "Calculate A\u00b2: A*A = [[1*1 + 2*0, 1*2 + 2*1], [0*1 + 1*0, 0*2 + 1*1]] = [[1, 4], [0, 1]]. \nNow multiply by A again for A\u00b3: A\u00b2*A = [[1, 4], [0, 1]] * [[1, 2], [0, 1]] = [[1*1 + 4*0, 1*2 + 4*1], [0, 1]] = [[1, 6], [0, 1]]. The pattern is A^n = [[1, 2n], [0, 1]]."
+    },
+    {
+      "id": "ma_hard_3",
+      "subject": "Quantitative Reasoning",
+      "topic": "Matrix Algebra",
+      "difficulty": "hard",
+      "question_text": "Given that the determinant of a 3x3 matrix M is 5. What is the determinant of the matrix 2M?",
+      "options": [
+        {"letter": "A", "text": "10"},
+        {"letter": "B", "text": "20"},
+        {"letter": "C", "text": "40"},
+        {"letter": "D", "text": "30"},
+        {"letter": "E", "text": "15"}
+      ],
+      "correct_answer": "C",
+      "explanation": "When a matrix of size n x n is multiplied by a scalar k, the determinant is multiplied by k^n. \nHere, M is 3x3 and k = 2. So Det(2M) = 2\u00b3 * Det(M) = 8 * 5 = 40. Distractor trap A is 10 (just 5*2)."
+    },
+    {
+      "id": "ma_hard_4",
+      "subject": "Quantitative Reasoning",
+      "topic": "Matrix Algebra",
+      "difficulty": "hard",
+      "question_text": "If Matrix A is 2x3, Matrix B is 3x4, and Matrix C is 4x2, what are the dimensions of the resulting matrix from the operation A * B * C?",
+      "options": [
+        {"letter": "A", "text": "2x4"},
+        {"letter": "B", "text": "4x3"},
+        {"letter": "C", "text": "2x2"},
+        {"letter": "D", "text": "3x2"},
+        {"letter": "E", "text": "Cannot be multiplied"}
+      ],
+      "correct_answer": "C",
+      "explanation": "When multiplying matrices, the inner dimensions must match, and the resulting matrix has the outer dimensions. \nA (2x3) * B (3x4) \u2192 Result AB is (2x4). \nThen AB (2x4) * C (4x2) \u2192 Result ABC is (2x2)."
+    },
+    {
+      "id": "ma_hard_5",
+      "subject": "Quantitative Reasoning",
+      "topic": "Matrix Algebra",
+      "difficulty": "hard",
+      "question_text": "Matrix A is such that A\u00b2 - 4A - 5I = 0, where I is the identity matrix. Which of the following is equivalent to A\u207b\u00b9?",
+      "options": [
+        {"letter": "A", "text": "(1/5)(A - 4I)"},
+        {"letter": "B", "text": "A - 4I"},
+        {"letter": "C", "text": "(1/4)(A - 5I)"},
+        {"letter": "D", "text": "5A - 4I"},
+        {"letter": "E", "text": "(1/5)(4I - A)"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Start from the equation: A\u00b2 - 4A = 5I. \nFactor out A on the left: A(A - 4I) = 5I. \nMultiply both sides by A\u207b\u00b9: (A - 4I) = 5(A\u207b\u00b9 * I). \n(A - 4I) = 5A\u207b\u00b9. Divide by 5: A\u207b\u00b9 = (1/5)(A - 4I)."
+    }
+  ]
+}

@@ -1,30 +1,34 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './index.css';
 import Intro from './components/Intro';
-import Quiz from './components/Quiz';
 import TryoutQuiz from './components/TryoutQuiz';
 import Results from './components/Results';
+import AbilityTest from './components/AbilityTest';
+import PracticeTest from './components/PracticeTest';
 
 // Preload the JSONs
-import practiceQ from './practiceQ.json';
 import realQ1 from './realQ1.json';
 import realQ2 from './realQ2.json';
 
+const practiceModules = import.meta.glob('./PracticeQuestions/**/*.json', { eager: true });
+export const allTopicsData = Object.values(practiceModules).map(mod => mod.default || mod);
+
 function App() {
-  const [phase, setPhase] = useState('intro'); // 'intro', 'practice', 'tryout', 'results'
+  const [phase, setPhase] = useState('intro'); // 'intro', 'practice', 'ability', 'tryout', 'results'
   const [answers, setAnswers] = useState({});
   const [activeDataset, setActiveDataset] = useState(null);
 
   const startPractice = () => {
-    setAnswers({});
-    setActiveDataset(practiceQ);
     setPhase('practice');
+  };
+
+  const startAbility = () => {
+    setPhase('ability');
   };
 
   const startTryout = (tryoutId) => {
     setAnswers({});
-    if (tryoutId === 1) setActiveDataset(realQ1);
-    else setActiveDataset(realQ2);
+    setActiveDataset(tryoutId === 1 ? realQ1 : realQ2);
     setPhase('tryout');
   };
 
@@ -45,16 +49,22 @@ function App() {
       {phase === 'intro' && (
         <Intro 
           onStartPractice={startPractice} 
+          onStartAbility={startAbility}
           onStartTryout={startTryout} 
         />
       )}
       
       {phase === 'practice' && (
-        <Quiz 
-          questions={activeDataset} 
-          answers={answers} 
-          setAnswers={setAnswers} 
-          onFinish={finishTest} 
+        <PracticeTest 
+          allTopicsData={allTopicsData} 
+          onBack={() => setPhase('intro')}
+        />
+      )}
+
+      {phase === 'ability' && (
+        <AbilityTest 
+          allTopicsData={allTopicsData} 
+          onFinish={() => setPhase('intro')} 
         />
       )}
       

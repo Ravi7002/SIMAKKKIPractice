@@ -1,0 +1,173 @@
+{
+  "subject": "Logical Reasoning",
+  "topic": "Spatial Reasoning and Arrangements",
+  "introduction": "Spatial reasoning requires mentally mapping physical relationships in 1D, 2D, or circular spaces. You will place items around tables, in grids, or inside buildings based on adjacency and directional rules.",
+  "tips_and_tricks": [
+    "Draw the physical space. For circular seating with N seats, draw a polygon with N vertices.",
+    "'Adjacent' means sharing a boundary or being directly next to each other.",
+    "In a circle, 'opposite' only strictly works for an even number of seats.",
+    "Left/Right directions in circular puzzles often depend on everyone facing the center."
+  ],
+  "questions": [
+    {
+      "id": "sraa_easy_1",
+      "subject": "Logical Reasoning",
+      "topic": "Spatial Reasoning and Arrangements",
+      "difficulty": "easy",
+      "question_text": "Four people (A, B, C, D) sit in a straight row of four chairs. A is next to B. C is next to D. A is on the far left. If B cannot sit next to C, who sits on the far right?",
+      "options": [
+        {"letter": "A", "text": "A"},
+        {"letter": "B", "text": "B"},
+        {"letter": "C", "text": "C"},
+        {"letter": "D", "text": "D"},
+        {"letter": "E", "text": "Nobody"}
+      ],
+      "correct_answer": "C",
+      "explanation": "Row: 1, 2, 3, 4. A is on the far left (Seat 1). Since A is next to B, B is in Seat 2. The remaining seats are 3 and 4, taken by C and D. B cannot sit next to C, so C cannot be in Seat 3. Thus, D is in Seat 3, and C is in Seat 4 (far right)."
+    },
+    {
+      "id": "sraa_easy_2",
+      "subject": "Logical Reasoning",
+      "topic": "Spatial Reasoning and Arrangements",
+      "difficulty": "easy",
+      "question_text": "Bob is sitting exactly opposite to Alice at a round table with 4 evenly spaced seats. Charlie sits to Alice's immediate right. Where does Dave sit?",
+      "options": [
+        {"letter": "A", "text": "To Alice's immediate left."},
+        {"letter": "B", "text": "Opposite Charlie."},
+        {"letter": "C", "text": "To Bob's immediate right."},
+        {"letter": "D", "text": "Both A and B"},
+        {"letter": "E", "text": "Next to Alice and Bob."}
+      ],
+      "correct_answer": "D",
+      "explanation": "Seats: North, South, East, West. Alice is North, Bob is South. Charlie is to Alice's right (East). The only seat left for Dave is West, which is Alice's immediate left and opposite Charlie."
+    },
+    {
+      "id": "sraa_medium_1",
+      "subject": "Logical Reasoning",
+      "topic": "Spatial Reasoning and Arrangements",
+      "difficulty": "medium",
+      "question_text": "Five cars (Red, Blue, Green, White, Black) are parked side-by-side in 5 spots. \n- Red is separated from White by exactly one car. \n- Blue is on the far left. \n- Black is parked directly right of Red. \nIf Red is in spot 3, which car is in the middle (spot 3)?",
+      "options": [
+        {"letter": "A", "text": "Red"},
+        {"letter": "B", "text": "White"},
+        {"letter": "C", "text": "Green"},
+        {"letter": "D", "text": "Black"},
+        {"letter": "E", "text": "Blue"}
+      ],
+      "correct_answer": "A",
+      "explanation": "If Red is in spot 3, the middle spot is exactly 3. Therefore, Red is in the middle. (The other rules allow a valid arrangement: Blue, White, Red, Black, Green)."
+    },
+    {
+      "id": "sraa_medium_2",
+      "subject": "Logical Reasoning",
+      "topic": "Spatial Reasoning and Arrangements",
+      "difficulty": "medium",
+      "question_text": "Six people sit around a circular table facing the center. \n- A sits opposite B. \n- C sits second to the left of A. \n- D sits between A and C. \n- E sits opposite D. \nWho sits to the immediate right of B?",
+      "options": [
+        {"letter": "A", "text": "E"},
+        {"letter": "B", "text": "C"},
+        {"letter": "C", "text": "A"},
+        {"letter": "D", "text": "F"},
+        {"letter": "E", "text": "D"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Let's place A at position 6. B is opposite at 3. C is second to the left of A (so C is at 2). D sits between A and C, making D at 1. E sits opposite D, so E is at 4. The unassigned F is at 5. B is at 3, facing center, right is 4. Person at 4 is E."
+    },
+    {
+      "id": "sraa_medium_3",
+      "subject": "Logical Reasoning",
+      "topic": "Spatial Reasoning and Arrangements",
+      "difficulty": "medium",
+      "question_text": "A 3x3 grid contains 9 boxes. You must place letters A, B, C into the grid such that: \n- No row or column contains the same letter more than once. \n- The top-left corner is A, and the center is B. \nWhat letter MUST be in the bottom-right corner?",
+      "options": [
+        {"letter": "A", "text": "A"},
+        {"letter": "B", "text": "B"},
+        {"letter": "C", "text": "C"},
+        {"letter": "D", "text": "Blank"},
+        {"letter": "E", "text": "Cannot be determined"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The only valid latin square satisfying the conditions has A at (1,1), C at (1,2), B at (1,3) / C at (2,1), B at (2,2), A at (2,3) / B at (3,1), A at (3,2), C at (3,3). Thus bottom-right must be C."
+    },
+    {
+      "id": "sraa_hard_1",
+      "subject": "Logical Reasoning",
+      "topic": "Spatial Reasoning and Arrangements",
+      "difficulty": "hard",
+      "question_text": "Eight people sit at a round table. \n- M sits facing the center. \n- N sits opposite M. \n- O sits immediately to M's right. \n- P sits opposite O. \nWhere does P sit in relation to N?",
+      "options": [
+        {"letter": "A", "text": "Immediately to N's left."},
+        {"letter": "B", "text": "Immediately to N's right."},
+        {"letter": "C", "text": "Two seats to N's left."},
+        {"letter": "D", "text": "P is not at the table."},
+        {"letter": "E", "text": "Opposite N."}
+      ],
+      "correct_answer": "A",
+      "explanation": "Let M be at 6 o'clock facing the center. M's right is 5 o'clock. So O is at 5. N is opposite M, at 12 o'clock. P is opposite O, so P is at 11 o'clock. Standing at 12 facing the center, your left arm points to 11. Therefore, P is immediately to N's left."
+    },
+    {
+      "id": "sraa_hard_2",
+      "subject": "Logical Reasoning",
+      "topic": "Spatial Reasoning and Arrangements",
+      "difficulty": "hard",
+      "question_text": "In a 4-story building (Floor 1 is bottom, 4 is top), four families (W, X, Y, Z) live on different floors. \n- W does not live on the top floor. \n- X lives exactly two floors above Y. \n- Z lives on an even-numbered floor. \nWho lives on Floor 3?",
+      "options": [
+        {"letter": "A", "text": "W"},
+        {"letter": "B", "text": "X"},
+        {"letter": "C", "text": "Y"},
+        {"letter": "D", "text": "Z"},
+        {"letter": "E", "text": "Cannot be determined"}
+      ],
+      "correct_answer": "B",
+      "explanation": "If X is two floors above Y, it can be (4,2) or (3,1). If (4,2), even floors are full, so Z (who needs an even floor) cannot be placed. Thus, X=3, Y=1. Z must take an even floor (2 or 4). Since W cannot be on floor 4, W must be 2, leaving Z for 4. Therefore, X lives on Floor 3."
+    },
+    {
+      "id": "sraa_hard_3",
+      "subject": "Logical Reasoning",
+      "topic": "Spatial Reasoning and Arrangements",
+      "difficulty": "hard",
+      "question_text": "A gallery has 5 rooms in a row (1 2 3 4 5). Five paintings (A, B, C, D, E) are displayed, one in each room. \n- A is not in room 1 or 5. \n- B is next to A. \n- C is next to D. \n- E is in room 5. \nIf B is in room 3, where is D?",
+      "options": [
+        {"letter": "A", "text": "Room 1"},
+        {"letter": "B", "text": "Room 3"},
+        {"letter": "C", "text": "Room 4"},
+        {"letter": "D", "text": "Room 1 or 2"},
+        {"letter": "E", "text": "Room 3 or 4"}
+      ],
+      "correct_answer": "D",
+      "explanation": "E is at 5. B is at 3. A must be next to B, so A is 2 or 4. Since C and D must be next to each other, they need two adjacent empty rooms. If A is 2, spaces are 1 and 4 (not adjacent). So A must be 4. This leaves rooms 1 and 2 empty for C and D. Hence, D can be 1 or 2."
+    },
+    {
+      "id": "sraa_hard_4",
+      "subject": "Logical Reasoning",
+      "topic": "Spatial Reasoning and Arrangements",
+      "difficulty": "hard",
+      "question_text": "Six people stand in a regular hexagon formation, facing the center. \n- Tom is directly opposite Sarah. \n- Jake is to the immediate right of Sarah. \n- Emily is directly opposite Jake. \n- Max is not next to Emily. \n- Lily is the last person. \nWho is standing to the immediate left of Tom?",
+      "options": [
+        {"letter": "A", "text": "Jake"},
+        {"letter": "B", "text": "Emily"},
+        {"letter": "C", "text": "Max"},
+        {"letter": "D", "text": "Lily"},
+        {"letter": "E", "text": "Sarah"}
+      ],
+      "correct_answer": "C",
+      "explanation": "If Sarah is at position 6 (bottom), Tom is at 3 (top). Jake is to Sarah's immediate right, making him 5. Emily is opposite Jake at 2. The remaining are 1 and 4. Max cannot be next to Emily (cannot be 1 or 3). So Max is 4. Lily is 1. Facing center, the left of Tom (3) is position 4. Max is at 4."
+    },
+    {
+      "id": "sraa_hard_5",
+      "subject": "Logical Reasoning",
+      "topic": "Spatial Reasoning and Arrangements",
+      "difficulty": "hard",
+      "question_text": "You must park 3 trucks and 3 sedans in a straight row of 6 spots (1 to 6). \n- No two trucks can be parked next to each other. \n- Spot 1 must be a sedan. \n- Spot 6 must be a truck. \nHow many valid arrangements exist?",
+      "options": [
+        {"letter": "A", "text": "1"},
+        {"letter": "B", "text": "2"},
+        {"letter": "C", "text": "3"},
+        {"letter": "D", "text": "4"},
+        {"letter": "E", "text": "0"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Spot 1 is S. Spot 6 is T. To prevent T adjacent to T6, Spot 5 must be S. The remaining spots (2,3,4) must hold 2 T's and 1 S. The only way to arrange T, T, S without placing T's next to each other is T, S, T. Resulting chain: S, T, S, T, S, T. This gives exactly 1 unique arrangement."
+    }
+  ]
+}

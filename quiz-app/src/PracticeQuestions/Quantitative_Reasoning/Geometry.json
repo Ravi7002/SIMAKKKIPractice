@@ -1,0 +1,173 @@
+{
+  "subject": "Quantitative Reasoning",
+  "topic": "Geometry",
+  "introduction": "This topic connects 2D geometric concepts like areas of faces with the 3D outcomes like total volume. Instead of finding straightforward measurements, you must deduce hidden dimensions using Pythagorean relationships or surface area totals.",
+  "tips_and_tricks": [
+    "Volume of a rectangular prism = L \u00d7 W \u00d7 H.",
+    "The areas of the three distinct faces meeting at a corner are xy, yz, and xz.",
+    "Volume squared = (xyz)\u00b2 = (xy) \u00d7 (yz) \u00d7 (xz). So Volume = \u221a(Area1 \u00d7 Area2 \u00d7 Area3).",
+    "Don't just blindly add areas together when a volume is requested."
+  ],
+  "questions": [
+    {
+      "id": "geom_easy_1",
+      "subject": "Quantitative Reasoning",
+      "topic": "Geometry",
+      "difficulty": "easy",
+      "question_text": "What is the volume of a rectangular box whose sides have lengths 4 cm, 5 cm, and 10 cm?",
+      "options": [
+        {"letter": "A", "text": "200 cm\u00b3"},
+        {"letter": "B", "text": "100 cm\u00b3"},
+        {"letter": "C", "text": "19 cm\u00b3"},
+        {"letter": "D", "text": "400 cm\u00b3"},
+        {"letter": "E", "text": "20 cm\u00b3"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Volume is simply Length \u00d7 Width \u00d7 Height. So, 4 \u00d7 5 \u00d7 10 = 200 cm\u00b3."
+    },
+    {
+      "id": "geom_easy_2",
+      "subject": "Quantitative Reasoning",
+      "topic": "Geometry",
+      "difficulty": "easy",
+      "question_text": "If the volume of a cube is 64 inches cubed, what is the length of one of its edges?",
+      "options": [
+        {"letter": "A", "text": "8 inches"},
+        {"letter": "B", "text": "6 inches"},
+        {"letter": "C", "text": "4 inches"},
+        {"letter": "D", "text": "16 inches"},
+        {"letter": "E", "text": "2 inches"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The volume of a cube is s\u00b3. Since s\u00b3 = 64, we take the cube root of 64, which is 4."
+    },
+    {
+      "id": "geom_medium_1",
+      "subject": "Quantitative Reasoning",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question_text": "The areas of three mutually adjacent faces of a rectangular prism are 20, 30, and 24. What is the total volume of the prism?",
+      "options": [
+        {"letter": "A", "text": "74"},
+        {"letter": "B", "text": "120"},
+        {"letter": "C", "text": "14400"},
+        {"letter": "D", "text": "240"},
+        {"letter": "E", "text": "864"}
+      ],
+      "correct_answer": "B",
+      "explanation": "The areas are xy=20, yz=30, xz=24. If we multiply them together: (xy)(yz)(xz) = x\u00b2y\u00b2z\u00b2 = 20 \u00d7 30 \u00d7 24 = 14400. Since Volume V = xyz, we take the square root. V = \u221a14400 = 120. Don't pick 14400, that is V\u00b2!"
+    },
+    {
+      "id": "geom_medium_2",
+      "subject": "Quantitative Reasoning",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question_text": "The surface area of a cube is 150 square units. What is its volume?",
+      "options": [
+        {"letter": "A", "text": "25"},
+        {"letter": "B", "text": "100"},
+        {"letter": "C", "text": "150"},
+        {"letter": "D", "text": "125"},
+        {"letter": "E", "text": "625"}
+      ],
+      "correct_answer": "D",
+      "explanation": "A cube has 6 identical square faces. Total surface area = 6s\u00b2 = 150 \u2192 s\u00b2 = 25 \u2192 s = 5. The volume is s\u00b3 = 5\u00b3 = 125."
+    },
+    {
+      "id": "geom_medium_3",
+      "subject": "Quantitative Reasoning",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question_text": "The ratio of the side lengths of two cubes is 2 : 3. What is the ratio of their volumes?",
+      "options": [
+        {"letter": "A", "text": "4 : 9"},
+        {"letter": "B", "text": "8 : 27"},
+        {"letter": "C", "text": "2 : 3"},
+        {"letter": "D", "text": "16 : 81"},
+        {"letter": "E", "text": "6 : 9"}
+      ],
+      "correct_answer": "B",
+      "explanation": "When a 1D length ratio is A : B, the 3D volume ratio becomes A\u00b3 : B\u00b3. Here, 2\u00b3 : 3\u00b3 equals 8 : 27."
+    },
+    {
+      "id": "geom_hard_1",
+      "subject": "Quantitative Reasoning",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "question_text": "A rectangular solid has a square base. The diagonal of the base is 10\u221a2 cm. The volume of the solid is 1000 cm\u00b3. What is the total height of the solid?",
+      "options": [
+        {"letter": "A", "text": "20 cm"},
+        {"letter": "B", "text": "10 cm"},
+        {"letter": "C", "text": "5 cm"},
+        {"letter": "D", "text": "15 cm"},
+        {"letter": "E", "text": "25 cm"}
+      ],
+      "correct_answer": "B",
+      "explanation": "If the base is a square with side s, its diagonal is s\u221a2. Since s\u221a2 = 10\u221a2, s = 10 cm. The area of the square base is 10 \u00d7 10 = 100 cm\u00b2. Volume = Base_Area \u00d7 Height. So, 1000 = 100 \u00d7 H \u2192 H = 10 cm."
+    },
+    {
+      "id": "geom_hard_2",
+      "subject": "Quantitative Reasoning",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "question_text": "A cylinder has a volume of 72\u03c0 and a height of 8. What is the surface area of the cylinder (including top and bottom)?",
+      "options": [
+        {"letter": "A", "text": "66\u03c0"},
+        {"letter": "B", "text": "54\u03c0"},
+        {"letter": "C", "text": "48\u03c0"},
+        {"letter": "D", "text": "72\u03c0"},
+        {"letter": "E", "text": "60\u03c0"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Volume V = \u03c0r\u00b2h. So 72\u03c0 = \u03c0r\u00b2(8) \u2192 72 = 8r\u00b2 \u2192 r\u00b2 = 9 \u2192 r = 3. \nTotal surface area = 2\u03c0r\u00b2 (bases) + 2\u03c0rh (lateral area). \nArea = 2\u03c0(3\u00b2) + 2\u03c0(3)(8) = 18\u03c0 + 48\u03c0 = 66\u03c0."
+    },
+    {
+      "id": "geom_hard_3",
+      "subject": "Quantitative Reasoning",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "question_text": "A solid steel rectangular prism has dimensions 4x6x9. It is melted down and recast perfectly into identical cubes, each with a side length of 2. How many full cubes can be created?",
+      "options": [
+        {"letter": "A", "text": "18"},
+        {"letter": "B", "text": "27"},
+        {"letter": "C", "text": "36"},
+        {"letter": "D", "text": "24"},
+        {"letter": "E", "text": "54"}
+      ],
+      "correct_answer": "B",
+      "explanation": "Volume of original steel block = 4 \u00d7 6 \u00d7 9 = 216. \nThe volume of each target cube = 2\u00b3 = 8. \nSince it is melted, shape orientation does not matter, only total volume. \n216 / 8 = 27 cubes."
+    },
+    {
+      "id": "geom_hard_4",
+      "subject": "Quantitative Reasoning",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "question_text": "A cone and a cylinder have the same base radius and the same height. If their combined volume is 100\u03c0, what is the volume of the cylinder?",
+      "options": [
+        {"letter": "A", "text": "25\u03c0"},
+        {"letter": "B", "text": "75\u03c0"},
+        {"letter": "C", "text": "50\u03c0"},
+        {"letter": "D", "text": "33.3\u03c0"},
+        {"letter": "E", "text": "80\u03c0"}
+      ],
+      "correct_answer": "B",
+      "explanation": "Volume of cylinder = \u03c0r\u00b2h. Volume of cone = (1/3)\u03c0r\u00b2h. \nFor the exact same radius and height, the cylinder is exactly 3 times larger than the cone. \nLet cone volume = C, so cylinder volume = 3C. \nTotal volume = C + 3C = 4C = 100\u03c0 \u2192 C = 25\u03c0. \nThe cylinder volume is 3C = 75\u03c0."
+    },
+    {
+      "id": "geom_hard_5",
+      "subject": "Quantitative Reasoning",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "question_text": "An ant sits at corner A of a solid rectangular block measuring 3 cm by 4 cm by 12 cm. It needs to walk across the outside surfaces to reach the exact opposite corner B. What is the absolute shortest walking distance?",
+      "options": [
+        {"letter": "A", "text": "13 cm"},
+        {"letter": "B", "text": "14.4 cm"},
+        {"letter": "C", "text": "15 cm"},
+        {"letter": "D", "text": "\u221a193 cm"},
+        {"letter": "E", "text": "\u221a225 cm"}
+      ],
+      "correct_answer": "D",
+      "explanation": "To find the shortest walking path on the surface, we conceptually unbox or 'unfold' the box into a flat 2D shape. The ant can take 3 distinct unfolded paths involving the sides: \nPath 1 (fold 3 and 4 together against 12): \u221a((3+4)\u00b2 + 12\u00b2) = \u221a(7\u00b2 + 12\u00b2) = \u221a(49 + 144) = \u221a193. \nPath 2 (fold 3 and 12 together against 4): \u221a((3+12)\u00b2 + 4\u00b2) = \u221a(15\u00b2 + 16) = \u221a(225 + 16) = \u221a241. \nPath 3 (fold 4 and 12 together against 3): \u221a((4+12)\u00b2 + 3\u00b2) = \u221a(16\u00b2 + 9) = \u221a(256 + 9) = \u221a265. \nThe shortest of these 2D distances is \u221a193."
+    }
+  ]
+}

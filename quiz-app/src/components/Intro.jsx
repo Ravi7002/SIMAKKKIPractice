@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BookOpen, Sparkles, BrainCircuit, Activity, Clock, Award } from 'lucide-react';
 
-const Intro = ({ onStartPractice, onStartTryout }) => {
+const Intro = ({ onStartPractice, onStartAbility, onStartTryout }) => {
   const [showTryoutOptions, setShowTryoutOptions] = useState(false);
 
   return (
@@ -27,7 +27,7 @@ const Intro = ({ onStartPractice, onStartTryout }) => {
 
       {!showTryoutOptions ? (
         <div className="flex-column" style={{ gap: '1rem' }}>
-          <button onClick={() => alert('Ability Test coming soon!')} className="btn" style={{ fontSize: '1.2rem', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)' }}>
+          <button onClick={onStartAbility} className="btn" style={{ fontSize: '1.2rem', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)' }}>
             <Activity size={24} style={{ color: 'var(--accent-blue)' }} /> Ability Test
           </button>
           

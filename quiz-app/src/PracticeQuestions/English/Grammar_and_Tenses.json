@@ -1,0 +1,172 @@
+{
+  "subject": "English",
+  "topic": "Grammar and Tenses",
+  "introduction": "This topic tests your mastery of standard written English rules, focusing on subject-verb agreement, pronoun consistency, complex verb tenses, and parallel structure.",
+  "tips_and_tricks": [
+    "Identify the true subject. Ignore prepositional phrases that come between the subject and the verb.",
+    "Parallelism requires items in a list or comparison to have the same grammatical form (e.g., swimming, running, and biking).",
+    "Pay attention to time markers in the sentence to determine if you need past perfect (had done) or present perfect (have done)."
+  ],
+  "questions": [
+    {
+      "id": "gat_easy_1",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "easy",
+      "question_text": "Choose the correct form of the verb to complete the sentence: 'The box of chocolates _____ empty by the time I got home.'",
+      "options": [
+        {"letter": "A", "text": "were"},
+        {"letter": "B", "text": "was"},
+        {"letter": "C", "text": "are"},
+        {"letter": "D", "text": "have been"},
+        {"letter": "E", "text": "is"}
+      ],
+      "correct_answer": "B",
+      "explanation": "The subject of the sentence is 'box' (singular), not 'chocolates' (plural object of the preposition). Because 'box' is singular and the sentence refers to a past event ('by the time I got home'), the correct verb is the singular past tense 'was'."
+    },
+    {
+      "id": "gat_easy_2",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "easy",
+      "question_text": "Identify the incorrect word in the following sentence: 'She likes to hike, swim, and riding her bicycle in the park.'",
+      "options": [
+        {"letter": "A", "text": "likes"},
+        {"letter": "B", "text": "hike"},
+        {"letter": "C", "text": "swim"},
+        {"letter": "D", "text": "riding"},
+        {"letter": "E", "text": "bicycle"}
+      ],
+      "correct_answer": "D",
+      "explanation": "This sentence violates parallel structure. The verbs in the list should all be in the same form. 'Hike' and 'swim' are infinitive verbs (to hike, to swim), so 'riding' should be 'ride'. Therefore, 'riding' is the incorrect word."
+    },
+    {
+      "id": "gat_medium_1",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "medium",
+      "question_text": "Select the option that best completes the sentence: 'By the end of this year, the research team _____ their comprehensive study on marine life.'",
+      "options": [
+        {"letter": "A", "text": "will finish"},
+        {"letter": "B", "text": "finished"},
+        {"letter": "C", "text": "has finished"},
+        {"letter": "D", "text": "will have finished"},
+        {"letter": "E", "text": "finishes"}
+      ],
+      "correct_answer": "D",
+      "explanation": "The phrase 'By the end of this year' indicates an action that will be completed before a specific time in the future. This requires the future perfect tense, which is formed with 'will have' + past participle. 'Will have finished' is the correct choice."
+    },
+    {
+      "id": "gat_medium_2",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "medium",
+      "question_text": "Which sentence demonstrates the correct use of the past perfect tense?",
+      "options": [
+        {"letter": "A", "text": "I had eaten dinner before my friend arrived."},
+        {"letter": "B", "text": "I have eaten dinner before my friend arrived."},
+        {"letter": "C", "text": "I ate dinner after my friend had arrived."},
+        {"letter": "D", "text": "I was eating dinner when my friend arrived."},
+        {"letter": "E", "text": "I had been eating dinner before my friend arrives."}
+      ],
+      "correct_answer": "A",
+      "explanation": "The past perfect tense ('had' + past participle) is used to show that one past action happened before another past action. In option A, eating dinner happened before the friend arrived. Option C reverses the logical timeline implied by the question format, and B mixes present perfect with past simple incorrectly."
+    },
+    {
+      "id": "gat_medium_3",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "medium",
+      "question_text": "Choose the most grammatically correct sentence.",
+      "options": [
+        {"letter": "A", "text": "Neither the manager nor the employees is happy with the decision."},
+        {"letter": "B", "text": "Neither the manager nor the employees are happy with the decision."},
+        {"letter": "C", "text": "Neither the employees nor the manager are happy with the decision."},
+        {"letter": "D", "text": "Neither the managers nor the employee are happy with the decision."},
+        {"letter": "E", "text": "Neither manager or employees is happy with the decision."}
+      ],
+      "correct_answer": "B",
+      "explanation": "When using 'neither/nor', the verb MUST agree with the subject closest to it. In option B, 'employees' is plural and is closest to the verb, so the plural verb 'are' is correct. Option C is wrong because 'manager' is singular but 'are' is plural. Option A is wrong because 'employees' is plural but 'is' is singular."
+    },
+    {
+      "id": "gat_hard_1",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "hard",
+      "question_text": "Identify the flawed sentence:",
+      "options": [
+        {"letter": "A", "text": "Had he known about the storm, he would not have departed."},
+        {"letter": "B", "text": "Scarcely had she entered the room when the phone rang."},
+        {"letter": "C", "text": "Not only did he fail the exam, but he also lost his textbook."},
+        {"letter": "D", "text": "If I was you, I would thoroughly reconsider the financial proposal."},
+        {"letter": "E", "text": "Walking down the street, I saw the old building being demolished."}
+      ],
+      "correct_answer": "D",
+      "explanation": "Option D uses incorrect subjunctive mood. When expressing a hypothetical or contrary-to-fact situation, the correct form of the verb 'to be' is 'were', regardless of the subject. The sentence should start with 'If I were you'."
+    },
+    {
+      "id": "gat_hard_2",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "hard",
+      "question_text": "Select the correct wording to fix the sentence: 'The committee, despite facing severe budgetary cuts and losing three key personnel, _____ their intention to finish the project on time.'",
+      "options": [
+        {"letter": "A", "text": "have reaffirmed"},
+        {"letter": "B", "text": "reaffirming"},
+        {"letter": "C", "text": "has reaffirmed"},
+        {"letter": "D", "text": "were reaffirming"},
+        {"letter": "E", "text": "are reaffirming"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The subject 'committee' acts as a singular collective noun in this context because the group is acting in unison ('their' in the original is a common colloquialism, but 'committee' still takes a singular verb grammatically). The interrupter phrase 'despite facing...' does not change the subject. The singular verb 'has reaffirmed' is required to match 'committee'."
+    },
+    {
+      "id": "gat_hard_3",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "hard",
+      "question_text": "Which of the following sentences correctly deploys a dangling or misplaced modifier?",
+      "options": [
+        {"letter": "A", "text": "Running to catch the bus, my umbrella blew inside out."},
+        {"letter": "B", "text": "Covered in thick dust, we found the antique chest in the attic."},
+        {"letter": "C", "text": "After reading the original study, the article's conclusion seemed flawed."},
+        {"letter": "D", "text": "Exhausted from the marathon, the runner collapsed at the finish line."},
+        {"letter": "E", "text": "To bake a perfect cake, the oven must be preheated."}
+      ],
+      "correct_answer": "D",
+      "explanation": "Wait, the question asks which sentence *correctly deploys* the modifier (meaning which one does NOT have a dangling/misplaced modifier error). In A, the umbrella was running. In B, 'we' were covered in dust. In C, 'the article's conclusion' was reading the study. In E, 'the oven' is trying to bake a cake. Only D correctly attaches the modifier 'Exhausted from the marathon' to the logical noun 'the runner'."
+    },
+    {
+      "id": "gat_hard_4",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "hard",
+      "question_text": "Choose the option that maintains the correct sequence of tenses: 'He testified that he _____ the defendant at the diner before the incident _____ place.'",
+      "options": [
+        {"letter": "A", "text": "had seen / took"},
+        {"letter": "B", "text": "saw / had taken"},
+        {"letter": "C", "text": "has seen / took"},
+        {"letter": "D", "text": "had seen / had taken"},
+        {"letter": "E", "text": "saw / takes"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The sentence establishes a timeline in the past. The incident 'took' place in the past. Seeing the defendant happened prior to that incident. Therefore, the earlier action needs the past perfect ('had seen'), while the later past action uses simple past ('took')."
+    },
+    {
+      "id": "gat_hard_5",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "hard",
+      "question_text": "Fill in the blanks with the correct pronoun cases: 'Between you and _____, I believe that it was _____ who submitted the anonymous report.'",
+      "options": [
+        {"letter": "A", "text": "I / she"},
+        {"letter": "B", "text": "me / her"},
+        {"letter": "C", "text": "I / her"},
+        {"letter": "D", "text": "me / she"},
+        {"letter": "E", "text": "we / they"}
+      ],
+      "correct_answer": "D",
+      "explanation": "'Between' is a preposition, so the pronouns following it must be in the objective case ('me' instead of 'I'). In the second clause, 'it was ___', the pronoun follows a linking verb (was), taking a predicate nominative position, which requires the subjective case ('she' instead of 'her'). Thus, 'me / she' is correct."
+    }
+  ]
+}
