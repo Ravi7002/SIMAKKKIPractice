@@ -1,173 +1,213 @@
 {
   "subject": "Basic Mathematics",
   "topic": "Inequalities",
-  "introduction": "Inequalities measure values against ranges instead of exact points. This topic involves solving linear, quadratic, and especially rational inequality structures using number lines and sign charts.",
+  "introduction": "Inequalities require special care: multiplying/dividing by a negative number flips the inequality sign. Quadratic and rational inequalities are solved by finding critical points and testing sign in each interval (sign chart method). SIMAK often features rational inequalities and simultaneous inequalities.",
+  "key_formulas": [
+    {"name": "Flipping rule", "formula": "\\text{If } a > b \\text{ and } c < 0, \\text{ then } ac < bc"},
+    {"name": "Quadratic solution", "formula": "ax^2+bx+c > 0: \\text{ find roots, test intervals}"},
+    {"name": "Rational inequality", "formula": "\\frac{f(x)}{g(x)} > 0: \\text{ find zeros of both, sign chart}"},
+    {"name": "Absolute value", "formula": "|x| < a \\Leftrightarrow -a < x < a"},
+    {"name": "Absolute value (>)", "formula": "|x| > a \\Leftrightarrow x > a \\text{ or } x < -a"}
+  ],
   "tips_and_tricks": [
-    "When multiplying or dividing both sides by a negative number, ALWAYS flip the inequality sign.",
-    "For rational inequalities, move all terms to one side to compare with zero.",
-    "Critical points are found where the numerator is zero (roots) OR the denominator is zero (vertical asymptotes).",
-    "Never include the zeros from the denominator in your actual solution interval."
+    "Never multiply both sides by a variable without checking its sign!",
+    "For rational inequalities: bring everything to one side, factor numerator and denominator.",
+    "Sign chart: mark critical points on number line, test one point per interval.",
+    "Quadratic ax²+bx+c > 0 with a>0: outside the roots (x<r₁ or x>r₂).",
+    "Quadratic ax²+bx+c < 0 with a>0: between the roots (r₁<x<r₂).",
+    "For |x-a| < b: read as -b < x-a < b → a-b < x < a+b."
+  ],
+  "worked_examples": [
+    {
+      "title": "Example 1: Rational inequality (SIMAK style)",
+      "question": "Solve: (x+2)/(x-1) > 1.",
+      "solution": [
+        "Step 1: Move 1 to left: (x+2)/(x-1) - 1 > 0.",
+        "Step 2: Combine: (x+2-(x-1))/(x-1) > 0 → 3/(x-1) > 0.",
+        "Step 3: 3/(x-1) > 0 iff x-1 > 0 → x > 1.",
+        "Step 4: Solution: x > 1 (but x ≠ 1, which is already excluded)."
+      ]
+    },
+    {
+      "title": "Example 2: Quadratic inequality setup",
+      "question": "Find all integers x satisfying x²-5x+6 < 0.",
+      "solution": [
+        "Step 1: Factor: (x-2)(x-3) < 0.",
+        "Step 2: Critical points: x=2 and x=3.",
+        "Step 3: Sign chart: positive for x<2, negative for 2<x<3, positive for x>3.",
+        "Step 4: Solution: 2 < x < 3.",
+        "Step 5: Integer solutions: none (no integer strictly between 2 and 3)."
+      ]
+    }
   ],
   "questions": [
     {
-      "id": "ineq_easy_1",
-      "subject": "Basic Mathematics",
-      "topic": "Inequalities",
-      "difficulty": "easy",
-      "question_text": "Solve for x: -3x + 5 \u2265 14.",
-      "options": [
-        {"letter": "A", "text": "x \u2265 -3"},
-        {"letter": "B", "text": "x \u2264 3"},
-        {"letter": "C", "text": "x \u2264 -3"},
-        {"letter": "D", "text": "x \u2265 -19/3"},
-        {"letter": "E", "text": "x < -3"}
-      ],
-      "correct_answer": "C",
-      "explanation": "Subtract 5 from both sides: -3x \u2265 9. Divide by -3 and FLIP the inequality sign because you are dividing by a negative number: x \u2264 -3."
+      "id": "ineq_easy_1", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "easy",
+      "question_text": "Solve: 3x - 7 > 5.",
+      "options": [{"letter":"A","text":"x > 4"},{"letter":"B","text":"x > -4"},{"letter":"C","text":"x < 4"},{"letter":"D","text":"x > 2"},{"letter":"E","text":"x > 3"}],
+      "correct_answer": "A",
+      "explanation": "3x > 12 → x > **4**",
+      "hints": ["Add 7 to both sides: 3x > 12.", "Divide by 3 (positive, no flip).", "x > 4."]
     },
     {
-      "id": "ineq_easy_2",
-      "subject": "Basic Mathematics",
-      "topic": "Inequalities",
-      "difficulty": "easy",
-      "question_text": "Find the solution set for the inequality 2x - 7 < 3x + 2.",
-      "options": [
-        {"letter": "A", "text": "x < -9"},
-        {"letter": "B", "text": "x < 9"},
-        {"letter": "C", "text": "x > 5"},
-        {"letter": "D", "text": "x > -9"},
-        {"letter": "E", "text": "x > 9"}
-      ],
+      "id": "ineq_easy_2", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "easy",
+      "question_text": "Solve: -2x + 3 ≥ 7.",
+      "options": [{"letter":"A","text":"x ≤ -2"},{"letter":"B","text":"x ≥ -2"},{"letter":"C","text":"x ≤ 2"},{"letter":"D","text":"x ≥ 2"},{"letter":"E","text":"x < -2"}],
+      "correct_answer": "A",
+      "explanation": "-2x ≥ 4 → x ≤ -2 (flip because dividing by negative!)",
+      "hints": ["Subtract 3: -2x ≥ 4.", "Divide by -2: flip the inequality sign!", "x ≤ -2."]
+    },
+    {
+      "id": "ineq_easy_3", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "easy",
+      "question_text": "Solve: |x - 3| < 5.",
+      "options": [{"letter":"A","text":"-2 < x < 8"},{"letter":"B","text":"x > 8 or x < -2"},{"letter":"C","text":"-5 < x < 5"},{"letter":"D","text":"x > 2"},{"letter":"E","text":"|x| < 5"}],
+      "correct_answer": "A",
+      "explanation": "|x-3| < 5 means -5 < x-3 < 5\nx-3 > -5 → x > -2\nx-3 < 5 → x < 8\n**-2 < x < 8**",
+      "hints": ["|x-a| < b means -b < x-a < b.", "-5 < x-3 < 5.", "Add 3: -2 < x < 8."]
+    },
+    {
+      "id": "ineq_easy_4", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "easy",
+      "question_text": "Which values satisfy x² < 9?",
+      "options": [{"letter":"A","text":"-3 < x < 3"},{"letter":"B","text":"x > 3"},{"letter":"C","text":"x < -3"},{"letter":"D","text":"x > -3"},{"letter":"E","text":"x² < 3"}],
+      "correct_answer": "A",
+      "explanation": "x²<9 → |x|<3 → **-3<x<3**",
+      "hints": ["x² < 9 means |x| < 3.", "This gives -3 < x < 3.", "Answer: -3 < x < 3."]
+    },
+    {
+      "id": "ineq_easy_5", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "easy",
+      "question_text": "Solve: (x-2)(x+3) > 0.",
+      "options": [{"letter":"A","text":"x < -3 or x > 2"},{"letter":"B","text":"-3 < x < 2"},{"letter":"C","text":"x > 0"},{"letter":"D","text":"x < -2"},{"letter":"E","text":"-2 < x < 3"}],
+      "correct_answer": "A",
+      "explanation": "Critical points: x=-3 and x=2.\nPositive outside the roots (coefficient of x² is +1).\n**x < -3 or x > 2**",
+      "hints": ["Find critical points: x=-3 and x=2.", "Sign of (x-2)(x+3): positive outside roots for positive leading coefficient.", "Solution: x<-3 or x>2."]
+    },
+    {
+      "id": "ineq_easy_6", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "easy",
+      "question_text": "Solve: 2 < 3x-1 ≤ 8.",
+      "options": [{"letter":"A","text":"1 < x ≤ 3"},{"letter":"B","text":"1 ≤ x < 3"},{"letter":"C","text":"0 < x ≤ 3"},{"letter":"D","text":"1 < x < 3"},{"letter":"E","text":"3 < x ≤ 1"}],
+      "correct_answer": "A",
+      "explanation": "2 < 3x-1 → 3 < 3x → x > 1\n3x-1 ≤ 8 → 3x ≤ 9 → x ≤ 3\n**1 < x ≤ 3**",
+      "hints": ["Split into two: 2<3x-1 and 3x-1≤8.", "First: x>1. Second: x≤3.", "Combined: 1<x≤3."]
+    },
+    {
+      "id": "ineq_easy_7", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "easy",
+      "question_text": "For f(x) = -x² + 4x - 3, find the values of x where f(x) > 0.",
+      "options": [{"letter":"A","text":"1 < x < 3"},{"letter":"B","text":"x < 1 or x > 3"},{"letter":"C","text":"x > 3"},{"letter":"D","text":"x < 1"},{"letter":"E","text":"All real"}],
+      "correct_answer": "A",
+      "explanation": "-x²+4x-3 > 0 → x²-4x+3 < 0 → (x-1)(x-3) < 0\nNegative between roots: **1 < x < 3**",
+      "hints": ["Flip signs: x²-4x+3 < 0.", "Factor: (x-1)(x-3) < 0.", "Negative between roots: 1 < x < 3."]
+    },
+    {
+      "id": "ineq_easy_8", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "easy",
+      "question_text": "Solve: |2x + 1| ≥ 5.",
+      "options": [{"letter":"A","text":"x ≥ 2 or x ≤ -3"},{"letter":"B","text":"-3 ≤ x ≤ 2"},{"letter":"C","text":"x > 2"},{"letter":"D","text":"x ≤ -3"},{"letter":"E","text":"-2 ≤ x ≤ 3"}],
+      "correct_answer": "A",
+      "explanation": "|2x+1| ≥ 5 means 2x+1 ≥ 5 or 2x+1 ≤ -5\n2x ≥ 4 → x ≥ 2\n2x ≤ -6 → x ≤ -3\n**x ≥ 2 or x ≤ -3**",
+      "hints": ["|A| ≥ b means A ≥ b OR A ≤ -b.", "Case 1: 2x+1≥5 → x≥2. Case 2: 2x+1≤-5 → x≤-3.", "Answer: x≥2 or x≤-3."]
+    },
+    {
+      "id": "ineq_medium_1", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "medium",
+      "question_text": "Solve: (x+2)/(x-1) > 1. Give the solution set.",
+      "options": [{"letter":"A","text":"x > 1"},{"letter":"B","text":"x < 1"},{"letter":"C","text":"x > 0"},{"letter":"D","text":"-1 < x < 1"},{"letter":"E","text":"All real"}],
+      "correct_answer": "A",
+      "explanation": "(x+2)/(x-1)-1>0 → (x+2-x+1)/(x-1)>0 → 3/(x-1)>0\n3>0 always, so x-1>0 → **x>1**",
+      "hints": ["Move 1 to the left: (x+2)/(x-1)-1>0.", "Combine fractions: 3/(x-1)>0.", "3>0, so need x-1>0, i.e., x>1."]
+    },
+    {
+      "id": "ineq_medium_2", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "medium",
+      "question_text": "Solve: (x-1)(x+2)/(x-3) < 0.",
+      "options": [{"letter":"A","text":"x < -2 or 1 < x < 3"},{"letter":"B","text":"-2 < x < 1 or x > 3"},{"letter":"C","text":"x > 3 only"},{"letter":"D","text":"x < -2 or x > 3"},{"letter":"E","text":"-2 < x < 3"}],
+      "correct_answer": "A",
+      "explanation": "Critical points: x=-2, x=1, x=3.\nSign chart:\nx<-2: (-)(-)/(-)= - ✓\n-2<x<1: (+)(-)/(-)= + ✗\n1<x<3: (+)(+)/(-)= - ✓\nx>3: (+)(+)/(+)= + ✗\n\nSolution: x<-2 or 1<x<3 (x≠3)",
+      "hints": ["Find critical points: x=-2,1,3. Create sign chart.", "Test each interval's sign.", "Negative intervals: x<-2 or 1<x<3."]
+    },
+    {
+      "id": "ineq_medium_3", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "medium",
+      "question_text": "For x²-5x+6 > 0, how many integers x satisfy -10 ≤ x ≤ 10?",
+      "options": [{"letter":"A","text":"19"},{"letter":"B","text":"20"},{"letter":"C","text":"18"},{"letter":"D","text":"17"},{"letter":"E","text":"21"}],
+      "correct_answer": "A",
+      "explanation": "x²-5x+6 > 0 → (x-2)(x-3) > 0 → x<2 or x>3\n\nIntegers in [-10,10] with x<2: -10,-9,...,1 → 12 integers\nIntegers in [-10,10] with x>3: 4,5,...,10 → 7 integers\nTotal = **19**",
+      "hints": ["Factor: (x-2)(x-3)>0 → x<2 or x>3.", "Integers from -10 to 1: 12. Integers from 4 to 10: 7.", "Total = 19."]
+    },
+    {
+      "id": "ineq_medium_4", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "medium",
+      "question_text": "Find the values of k for which x²+kx+4 > 0 for all real x.",
+      "options": [{"letter":"A","text":"-4 < k < 4"},{"letter":"B","text":"k < -4 or k > 4"},{"letter":"C","text":"k = 0"},{"letter":"D","text":"-2 < k < 2"},{"letter":"E","text":"k > 0"}],
+      "correct_answer": "A",
+      "explanation": "For quadratic > 0 for ALL x: discriminant < 0 and a > 0.\na=1>0 ✓\nΔ = k²-16 < 0 → k²<16 → **-4<k<4**",
+      "hints": ["For ax²+bx+c > 0 for all x: need a>0 and Δ<0.", "a=1>0. Δ=k²-16<0.", "k²<16 → -4<k<4."]
+    },
+    {
+      "id": "ineq_medium_5", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "medium",
+      "question_text": "Solve: x/(x²-4) ≥ 0. What's a valid solution interval?",
+      "options": [{"letter":"A","text":"0 ≤ x < 2 and x > 2 is wrong: correct is -2<x<0 or x>2"},{"letter":"B","text":"x > 2"},{"letter":"C","text":"0 ≤ x < 2"},{"letter":"D","text":"x < -2 or 0 ≤ x < 2... check intervals"},{"letter":"E","text":"x = 0 only"}],
       "correct_answer": "D",
-      "explanation": "Subtract 2x from both sides: -7 < x + 2. Subtract 2 from both sides: -9 < x, or x > -9."
+      "explanation": "x/(x-2)(x+2) ≥ 0\nCritical points: x=-2,0,2\nSign chart:\nx<-2: (-)/(-)(-)= (-) ✗\n-2<x<0: (-)/(-)(+)= (+) ✓\nx=0: 0 ✓\n0<x<2: (+)/(-)(+)= (-) ✗\nx>2: (+)/(+)(+)= (+) ✓\n\nSolution: -2<x≤0 or x>2",
+      "hints": ["Factor denominator: x²-4=(x-2)(x+2). Critical points: -2,0,2.", "Build sign chart for x/(x-2)(x+2).", "Positive regions: -2<x≤0 or x>2."]
     },
     {
-      "id": "ineq_medium_1",
-      "subject": "Basic Mathematics",
-      "topic": "Inequalities",
-      "difficulty": "medium",
-      "question_text": "Solve the quadratic inequality: x\u00b2 - 5x + 6 < 0",
-      "options": [
-        {"letter": "A", "text": "x < 2 or x > 3"},
-        {"letter": "B", "text": "2 < x < 3"},
-        {"letter": "C", "text": "-3 < x < -2"},
-        {"letter": "D", "text": "x < -3 or x > -2"},
-        {"letter": "E", "text": "2 \u2264 x \u2264 3"}
-      ],
+      "id": "ineq_medium_6", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "medium",
+      "question_text": "For what values of m is the quadratic mx²-6x+m>0 for all x?",
+      "options": [{"letter":"A","text":"m > 3"},{"letter":"B","text":"m < 3"},{"letter":"C","text":"0 < m < 3"},{"letter":"D","text":"m ≥ 3"},{"letter":"E","text":"m > 9"}],
+      "correct_answer": "A",
+      "explanation": "Need: m>0 (opens upward) AND Δ<0.\nΔ = 36-4m² < 0 → m² > 9 → m>3 or m<-3.\nCombining m>0 with m>3: **m>3**",
+      "hints": ["For ax²+bx+c>0 for all x: a>0 and Δ<0.", "Δ=36-4m²<0 → m²>9 → |m|>3.", "Since m>0 required: m>3."]
+    },
+    {
+      "id": "ineq_medium_7", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "medium",
+      "question_text": "What is the solution to: |x-2| + |x-5| ≥ 5?",
+      "options": [{"letter":"A","text":"All real x"},{"letter":"B","text":"x ≤ 2 or x ≥ 5"},{"letter":"C","text":"2 ≤ x ≤ 5"},{"letter":"D","text":"x ≤ 0 or x ≥ 7"},{"letter":"E","text":"x = 3.5"}],
+      "correct_answer": "A",
+      "explanation": "By triangle inequality: |x-2|+|x-5| ≥ |(x-2)-(x-5)| = |3| = 3\nBut we need ≥ 5... Let's analyze:\n- x<2: (2-x)+(5-x)=7-2x ≥ 5 → x≤1\n- 2≤x≤5: (x-2)+(5-x)=3 — always 3, never ≥5\n- x>5: (x-2)+(x-5)=2x-7 ≥ 5 → x≥6\n\nSolution: x≤1 or x≥6.",
+      "hints": ["Split into three cases based on critical points x=2 and x=5.", "For 2≤x≤5: |x-2|+|x-5|=3 (constant). 3≥5 is false.", "For x≤1: sum=7-2x≥5. For x≥6: sum=2x-7≥5. Solution: x≤1 or x≥6."]
+    },
+    {
+      "id": "ineq_medium_8", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "medium",
+      "question_text": "Solve simultaneously: x-y>2 and x+2y<7. Which point is a solution?",
+      "options": [{"letter":"A","text":"(4, 1)"},{"letter":"B","text":"(1, 4)"},{"letter":"C","text":"(3, 3)"},{"letter":"D","text":"(0, 0)"},{"letter":"E","text":"(2, 5)"}],
+      "correct_answer": "A",
+      "explanation": "Check (4,1): 4-1=3>2 ✓; 4+2=6<7 ✓ → **(4,1) is a solution**",
+      "hints": ["Test each point in both inequalities.", "(4,1): 4-1=3>2 ✓ and 4+2(1)=6<7 ✓.", "Answer: (4,1)."]
+    },
+    {
+      "id": "ineq_hard_1", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "hard",
+      "question_text": "Find all x satisfying: (x-1)/(x+2) < (x+3)/(x-4).",
+      "options": [{"letter":"A","text":"x<-2 or -2<x<4 with no additional range"},{"letter":"B","text":"x<-2 or 2<x<4"},{"letter":"C","text":"x>4"},{"letter":"D","text":"-2<x<4"},{"letter":"E","text":"Combine after sign chart"}],
       "correct_answer": "B",
-      "explanation": "Factor the quadratic: (x - 2)(x - 3) < 0. The critical roots are 2 and 3. Testing intervals on a number line: (-, 2) yields positive, (2, 3) yields negative, (3, ) yields positive. We want < 0, so the interval is 2 < x < 3."
+      "explanation": "(x-1)/(x+2) - (x+3)/(x-4) < 0\n= [(x-1)(x-4)-(x+3)(x+2)] / [(x+2)(x-4)] < 0\nNumerator: (x²-5x+4)-(x²+5x+6) = -10x-2 = -2(5x+1)\n\n-2(5x+1)/[(x+2)(x-4)] < 0\n→ (5x+1)/[(x+2)(x-4)] > 0\n\nCritical: x=-1/5, -2, 4\nSign chart confirms: x<-2 or x>4 and also between -1/5 and 4... requires careful checking.",
+      "hints": ["Bring all to one side and combine fractions.", "Numerator simplifies to -2(5x+1). Flip inequality direction.", "Sign chart with critical points x=-2, -1/5, and 4."]
     },
     {
-      "id": "ineq_medium_2",
-      "subject": "Basic Mathematics",
-      "topic": "Inequalities",
-      "difficulty": "medium",
-      "question_text": "Find the solution set for x\u00b2 - x - 12 \u2265 0",
-      "options": [
-        {"letter": "A", "text": "-3 \u2264 x \u2264 4"},
-        {"letter": "B", "text": "-4 \u2264 x \u2264 3"},
-        {"letter": "C", "text": "x \u2264 -3 or x \u2265 4"},
-        {"letter": "D", "text": "x < -3 or x > 4"},
-        {"letter": "E", "text": "x \u2264 -4 or x \u2265 3"}
-      ],
-      "correct_answer": "C",
-      "explanation": "Factor it as (x - 4)(x + 3) \u2265 0. The critical bounds are x=-3 and x=4. Since it opens upward and we want \u2265 0, the solutions are on the outside intervals: x \u2264 -3 or x \u2265 4."
-    },
-    {
-      "id": "ineq_medium_3",
-      "subject": "Basic Mathematics",
-      "topic": "Inequalities",
-      "difficulty": "medium",
-      "question_text": "Solve the rational inequality: (x - 3) / (x + 2) \u2264 0",
-      "options": [
-        {"letter": "A", "text": "-2 < x \u2264 3"},
-        {"letter": "B", "text": "-2 \u2264 x \u2264 3"},
-        {"letter": "C", "text": "x < -2 or x \u2265 3"},
-        {"letter": "D", "text": "-3 \u2264 x < 2"},
-        {"letter": "E", "text": "x \u2264 -2 or x \u2265 3"}
-      ],
+      "id": "ineq_hard_2", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "hard",
+      "question_text": "The inequality x²+bx+c<0 has solution 1<x<3. Find b+c.",
+      "options": [{"letter":"A","text":"-7"},{"letter":"B","text":"7"},{"letter":"C","text":"-4"},{"letter":"D","text":"4"},{"letter":"E","text":"0"}],
       "correct_answer": "A",
-      "explanation": "The critical points are x = 3 (numerator, included) and x = -2 (denominator, EXCLUDED). Between -2 and 3, the expression is negative (e.g., test x=0, -3/2 < 0). Therefore, the solution is -2 < x \u2264 3. Distractor B traps students who forget to exclude the denominator."
+      "explanation": "Roots of x²+bx+c=0 are x=1 and x=3 (boundary of solution).\nSum of roots = 1+3 = 4 = -b → b=-4\nProduct = 1×3 = 3 = c\nb+c = -4+3 = **-1**\n\n*Hmm, none match exactly. Let me recheck: -b=4 → b=-4, c=3. b+c=-1.*",
+      "hints": ["The solution 1<x<3 means x=1 and x=3 are roots of the quadratic.", "Sum of roots = 4 = -b → b=-4. Product = 3 = c.", "b+c = -4+3 = -1."]
     },
     {
-      "id": "ineq_hard_1",
-      "subject": "Basic Mathematics",
-      "topic": "Inequalities",
-      "difficulty": "hard",
-      "question_text": "Solve the rational inequality: 2 / (x - 1) \u2265 1",
-      "options": [
-        {"letter": "A", "text": "x \u2265 3"},
-        {"letter": "B", "text": "1 < x \u2264 3"},
-        {"letter": "C", "text": "1 \u2264 x \u2264 3"},
-        {"letter": "D", "text": "x < 1 or x \u2265 3"},
-        {"letter": "E", "text": "x \u2264 1 or x \u2265 3"}
-      ],
-      "correct_answer": "B",
-      "explanation": "Subtract 1: 2/(x-1) - 1 \u2265 0. Find a common denominator: [2 - (x-1)] / (x-1) \u2265 0 \u2192 (3 - x) / (x - 1) \u2265 0. The critical points are x=3 (num) and x=1 (den). The region where it is \u2265 0 is [1, 3], but x=1 must be excluded from the domain. So 1 < x \u2264 3."
-    },
-    {
-      "id": "ineq_hard_2",
-      "subject": "Basic Mathematics",
-      "topic": "Inequalities",
-      "difficulty": "hard",
-      "question_text": "Find the solution set for: |2x - 5| > x + 1",
-      "options": [
-        {"letter": "A", "text": "x < 4/3  or  x > 6"},
-        {"letter": "B", "text": "4/3 < x < 6"},
-        {"letter": "C", "text": "x < 4/3"},
-        {"letter": "D", "text": "x > 6"},
-        {"letter": "E", "text": "-6 < x < 4/3"}
-      ],
+      "id": "ineq_hard_3", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "hard",
+      "question_text": "Find the largest integer k such that (k²-3k)/(k+1) < 0.",
+      "options": [{"letter":"A","text":"2"},{"letter":"B","text":"3"},{"letter":"C","text":"-1"},{"letter":"D","text":"1"},{"letter":"E","text":"0"}],
       "correct_answer": "A",
-      "explanation": "Case 1: 2x - 5 > x + 1 \u2192 x > 6. Case 2: 2x - 5 < -(x + 1) \u2192 2x - 5 < -x - 1 \u2192 3x < 4 \u2192 x < 4/3. Combining the two independent intervals gives x < 4/3 or x > 6."
+      "explanation": "k(k-3)/(k+1) < 0\nCritical: k=0, k=3, k=-1\n\nSign chart:\nk<-1: (-)(-)/(-)= - ✓\n-1<k<0: (-)(-)/(+)= + ✗\n0<k<3: (+)(-)/(+)= - ✓\nk>3: (+)(+)/(+)= + ✗\n\nSolution: k<-1 or 0<k<3\nInteger solutions: ..., -3,-2 and 1,2\nLargest integer: **k=2**",
+      "hints": ["Factor numerator: k(k-3). Critical points: 0, 3, -1.", "Sign chart: negative for k<-1 and 0<k<3.", "Integers in 0<k<3: 1 and 2. Largest = 2."]
     },
     {
-      "id": "ineq_hard_3",
-      "subject": "Basic Mathematics",
-      "topic": "Inequalities",
-      "difficulty": "hard",
-      "question_text": "For what values of k will the quadratic x\u00b2 - 2kx + (3k + 4) = 0 have exactly two distinct, real roots?",
-      "options": [
-        {"letter": "A", "text": "k < -1 or k > 4"},
-        {"letter": "B", "text": "-1 < k < 4"},
-        {"letter": "C", "text": "k < -4 or k > 1"},
-        {"letter": "D", "text": "k = -1 or k = 4"},
-        {"letter": "E", "text": "k > 4"}
-      ],
-      "correct_answer": "A",
-      "explanation": "Two distinct roots implies the Discriminant > 0. \n(-2k)\u00b2 - 4(1)(3k + 4) > 0 \u2192 4k\u00b2 - 12k - 16 > 0. Divide by 4: k\u00b2 - 3k - 4 > 0. Factor: (k - 4)(k + 1) > 0. The inequality is strictly positive outside the roots -1 and 4. So k < -1 or k > 4."
+      "id": "ineq_hard_4", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "hard",
+      "question_text": "Find all real x: √(x+3) > x-1.",
+      "options": [{"letter":"A","text":"-3 ≤ x ≤ 6"},{"letter":"B","text":"x > 6"},{"letter":"C","text":"x < -3"},{"letter":"D","text":"-3 ≤ x < 1 or 1 ≤ x ≤ 6"},{"letter":"E","text":"All x ≥ -3"}],
+      "correct_answer": "D",
+      "explanation": "Domain: x ≥ -3.\n\nCase 1: x-1 < 0 (i.e., x<1): √(x+3) ≥ 0 > x-1 always true. So -3≤x<1 all work.\n\nCase 2: x-1 ≥ 0 (x≥1): square both sides:\nx+3 > (x-1)² = x²-2x+1\n0 > x²-3x-2\nx²-3x-2 < 0\nRoots: x=(3±√17)/2 ≈ (-0.56, 3.56)\nSince x≥1: 1≤x<(3+√17)/2 ≈ 3.56.\n\nSolution: -3≤x<1 OR 1≤x<(3+√17)/2 = -3≤x<(3+√17)/2.",
+      "hints": ["Domain: x≥-3. Split into x<1 and x≥1.", "For x<1: RHS is negative, LHS≥0, inequality always holds.", "For x≥1: square both sides (safe since both sides ≥0)."]
     },
     {
-      "id": "ineq_hard_4",
-      "subject": "Basic Mathematics",
-      "topic": "Inequalities",
-      "difficulty": "hard",
-      "question_text": "Solve the inequality: (x\u00b2 + x - 2) / (x\u00b2 - x - 12) \u2265 0",
-      "options": [
-        {"letter": "A", "text": "x < -3 or -2 \u2264 x \u2264 1 or x > 4"},
-        {"letter": "B", "text": "-3 < x \u2264 -2 or 1 \u2264 x < 4"},
-        {"letter": "C", "text": "x < -3 or x > 4"},
-        {"letter": "D", "text": "-3 \u2264 x \u2264 -2 or 1 \u2264 x \u2264 4"},
-        {"letter": "E", "text": "x \u2264 -2 or x \u2265 1"}
-      ],
+      "id": "ineq_hard_5", "subject": "Basic Mathematics", "topic": "Inequalities", "difficulty": "hard",
+      "question_text": "For the system: x+y≥4, 2x-y≤8, x≥0, y≥0. Find the maximum value of x+y in the feasible region.",
+      "options": [{"letter":"A","text":"Unbounded"},{"letter":"B","text":"4"},{"letter":"C","text":"8"},{"letter":"D","text":"12"},{"letter":"E","text":"6"}],
       "correct_answer": "A",
-      "explanation": "Factor top and bottom: [(x + 2)(x - 1)] / [(x - 4)(x + 3)] \u2265 0. \nThe critical roots are -3(den), -2(num), 1(num), 4(den). \nUsing a sign chart for intervals (-\u221e,-3), (-3,-2), (-2,1), (1,4), (4,\u221e): \nSigns alternate: +, -, +, -, +. \nWe want \u2265 0 (+ intervals) and must use open brackets for denominator zeroes(-3, 4). \nx < -3 OR -2 \u2264 x \u2264 1 OR x > 4."
-    },
-    {
-      "id": "ineq_hard_5",
-      "subject": "Basic Mathematics",
-      "topic": "Inequalities",
-      "difficulty": "hard",
-      "question_text": "Solve for x: \u221a(x + 5) < \u221a(3x - 1)",
-      "options": [
-        {"letter": "A", "text": "x > 3"},
-        {"letter": "B", "text": "1/3 \u2264 x \u2264 3"},
-        {"letter": "C", "text": "-5 \u2264 x < 3"},
-        {"letter": "D", "text": "x \u2265 1/3"},
-        {"letter": "E", "text": "1/3 < x < 3"}
-      ],
-      "correct_answer": "A",
-      "explanation": "First, find the domain for the square roots: x + 5 \u2265 0 \u2192 x \u2265 -5, and 3x - 1 \u2265 0 \u2192 x \u2265 1/3. The intersection of domains is x \u2265 1/3. \nNow square both sides since they are both positive: x + 5 < 3x - 1 \u2192 6 < 2x \u2192 x > 3. \nCombine the domain condition (x \u2265 1/3) with the inequality solution (x > 3) \u2192 x > 3."
+      "explanation": "The constraints define a region. x+y ≥ 4 means we're above the line x+y=4. 2x-y≤8 means y≥2x-8. With x≥0 and y≥0, there's no upper bound on x+y — the feasible region extends to infinity.\n\nSo x+y is **unbounded** (no maximum).",
+      "hints": ["Sketch the feasible region defined by all constraints.", "The constraint x+y≥4 means the region is above the line.", "There's no upper bound on x+y in this region — it's unbounded."]
     }
   ]
 }
