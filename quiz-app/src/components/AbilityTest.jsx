@@ -18,14 +18,28 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
   // Track topic mastery
   const [masteryStatus, setMasteryStatus] = useState({}); // { topicName: 'mastered' | 'partial' | 'not' }
 
+  // Subject order for the Ability Test
+  const SUBJECT_ORDER = ['Basic Mathematics', 'English', 'Quantitative Reasoning', 'Logical Reasoning'];
+
+  const sortBySubject = (qs) => [...qs].sort((a, b) => {
+    // Prefer the question's own subject, fall back to the topic-level subject
+    const aSubj = a.subject ?? a._topicData?.subject ?? '';
+    const bSubj = b.subject ?? b._topicData?.subject ?? '';
+    const ai = SUBJECT_ORDER.indexOf(aSubj);
+    const bi = SUBJECT_ORDER.indexOf(bSubj);
+    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+  });
+
   // Initialization
   useEffect(() => {
-    // Pick 1 hard question per topic
+    // Pick 1 hard question per topic, sorted by subject order:
+    // Basic Mathematics → English → Quantitative Reasoning → Logical Reasoning
     const hardQs = allTopicsData.map(topicData => {
       const q = topicData.questions.find(q => q.difficulty === 'hard') || topicData.questions[0];
-      return { ...q, _topicName: topicData.topic, _topicData: topicData };
+      // Explicitly carry the topic-level subject onto the question object as a fallback
+      return { ...q, subject: q.subject ?? topicData.subject, _topicName: topicData.topic, _topicData: topicData };
     });
-    setStage1Questions(hardQs);
+    setStage1Questions(sortBySubject(hardQs));
   }, [allTopicsData]);
 
   const startStage1 = () => {
@@ -48,12 +62,12 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
         // Needs retest
         newMastery[q._topicName] = 'not_yet';
         const easyQ = q._topicData.questions.find(sq => sq.difficulty === 'easy') || q._topicData.questions[0];
-        easyQs.push({ ...easyQ, _topicName: q._topicName, _topicData: q._topicData });
+        easyQs.push({ ...easyQ, subject: easyQ.subject ?? q._topicData.subject, _topicName: q._topicName, _topicData: q._topicData });
       }
     });
 
     setMasteryStatus(newMastery);
-    setStage2Questions(easyQs);
+    setStage2Questions(sortBySubject(easyQs));
     
     if (easyQs.length === 0) {
       setPhase('review'); // Got everything perfect!
@@ -114,8 +128,33 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '1rem' }}>
           <div>
             <h2 className="text-gradient" style={{ margin: 0 }}>{stageLabel}</h2>
-            <div className="text-muted" style={{ fontSize: '0.9rem', marginTop: '0.5rem' }}>
-              {q._topicName} • Question {currentIndex + 1} of {questions.length}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginTop: '0.5rem', flexWrap: 'wrap' }}>
+              <span style={{
+                background: (() => {
+                  switch(q.subject) {
+                    case 'Basic Mathematics': return 'rgba(139, 92, 246, 0.25)';
+                    case 'English': return 'rgba(59, 130, 246, 0.25)';
+                    case 'Quantitative Reasoning': return 'rgba(16, 185, 129, 0.25)';
+                    case 'Logical Reasoning': return 'rgba(245, 158, 11, 0.25)';
+                    default: return 'rgba(255,255,255,0.1)';
+                  }
+                })(),
+                color: (() => {
+                  switch(q.subject) {
+                    case 'Basic Mathematics': return 'var(--accent-purple)';
+                    case 'English': return 'var(--accent-blue)';
+                    case 'Quantitative Reasoning': return 'var(--accent-green)';
+                    case 'Logical Reasoning': return '#f59e0b';
+                    default: return 'var(--text-muted)';
+                  }
+                })(),
+                padding: '3px 10px', borderRadius: '20px', fontSize: '0.8rem', fontWeight: '600', letterSpacing: '0.03em'
+              }}>
+                {q.subject ?? 'Unknown Subject'}
+              </span>
+              <span className="text-muted" style={{ fontSize: '0.9rem' }}>
+                {q._topicName} • Question {currentIndex + 1} of {questions.length}
+              </span>
             </div>
           </div>
           
