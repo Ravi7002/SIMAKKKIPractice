@@ -1,0 +1,101 @@
+{
+    "summary": "Analysis of topics found in realQ1 and realQ2 vs current PracticeQuestions",
+    "sections": {
+        "Logical Reasoning": {
+            "real_test_topics": [
+                "Analytical Reasoning and Sequencing",
+                "Conditional Logic",
+                "Deductive Logic and Syllogisms",
+                "Mathematical Logic",
+                "Rate, Time, and Distance",
+                "Spatial Reasoning and Arrangements"
+            ],
+            "current_practice_topics": [
+                "Analytical Reasoning and Sequencing",
+                "Conditional Logic",
+                "Deductive Logic and Syllogisms",
+                "Mathematical Logic",
+                "Rate, Time, and Distance",
+                "Spatial Reasoning and Arrangements"
+            ],
+            "missing_in_practice": [],
+            "extra_in_practice": [],
+            "relevance_summary": "6/6 real topics covered."
+        },
+        "English": {
+            "real_test_topics": [
+                "Grammar and Tenses",
+                "Paragraph Cohesion and Structure",
+                "Reading Comprehension",
+                "Vocabulary in Context"
+            ],
+            "current_practice_topics": [
+                "Grammar and Tenses",
+                "Paragraph Cohesion and Structure",
+                "Reading Comprehension",
+                "Vocabulary in Context"
+            ],
+            "missing_in_practice": [],
+            "extra_in_practice": [],
+            "relevance_summary": "4/4 real topics covered."
+        },
+        "Quantitative Reasoning": {
+            "real_test_topics": [
+                "Algebraic Manipulation",
+                "Coordinate Geometry",
+                "Data Interpretation and Charts",
+                "Geometry",
+                "Matrix Algebra",
+                "Pattern Recognition and Puzzles",
+                "Systems of Linear Equations",
+                "Word Problems"
+            ],
+            "current_practice_topics": [
+                "Algebraic Manipulation",
+                "Coordinate Geometry",
+                "Data Interpretation and Charts",
+                "Geometry",
+                "Matrix Algebra",
+                "Pattern Recognition and Puzzles",
+                "Systems of Linear Equations",
+                "Word Problems"
+            ],
+            "missing_in_practice": [],
+            "extra_in_practice": [],
+            "relevance_summary": "8/8 real topics covered."
+        },
+        "Basic Mathematics": {
+            "real_test_topics": [
+                "Algebraic Manipulation",
+                "Combinatorics and Probability",
+                "Exponents and Logarithms",
+                "Functions and Inverses",
+                "Inequalities",
+                "Quadratic Equations",
+                "Sequences and Series",
+                "Set Theory",
+                "Statistics",
+                "Systems of Equations",
+                "Trigonometry",
+                "Vectors"
+            ],
+            "current_practice_topics": [
+                "Algebraic Manipulation",
+                "Combinatorics and Probability",
+                "Exponents and Logarithms",
+                "Functions and Inverses",
+                "Inequalities",
+                "Quadratic Equations",
+                "Sequences and Series",
+                "Set Theory",
+                "Statistics",
+                "Systems of Equations",
+                "Trigonometry",
+                "Vectors"
+            ],
+            "missing_in_practice": [],
+            "extra_in_practice": [],
+            "relevance_summary": "12/12 real topics covered."
+        }
+    }
+}

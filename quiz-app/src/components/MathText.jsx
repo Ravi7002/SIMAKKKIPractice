@@ -19,8 +19,19 @@ function toLatex(s) {
   // x^word or x^digit → x^{word}  (handles 3^x, x^2, 3^{xy})
   s = s.replace(/\^(?!\{)(-?[a-zA-Z0-9]+)/g, (_, exp) => `^{${exp}}`);
 
+  // x_{...} → already fine, leave
+  // x_word or x_digit → x_{word}  (handles a_n, x_1, S_{n-1})
+  s = s.replace(/_(?!\{)(-?[a-zA-Z0-9]+)/g, (_, sub) => `_{${sub}}`);
+
   // * → \cdot (but not ** or */)
   s = s.replace(/(?<![*])\*(?![*/])/g, ' \\cdot ');
+
+  // Common symbols
+  s = s.replace(/\+\-/g, '\\pm');
+  s = s.replace(/~=/g, '\\approx');
+  s = s.replace(/!=/g, '\\neq');
+  s = s.replace(/<=/g, '\\le');
+  s = s.replace(/>=/g, '\\ge');
 
   return s;
 }
@@ -43,11 +54,13 @@ function renderMath(latex, display = false) {
 /**
  * A "math token" is any of:
  *  - something^something  (e.g. 3^x, x^2, x^{10})
+ *  - something_something  (e.g. a_n, x_1)
  *  - sqrt(...) or cbrt(...)
  *  - \latexCommand{...}
  *  - log_b(...)
+ *  - variable followed by digit (e.g. x1, x2)
  */
-const MATH_TOKEN = /(?:[a-zA-Z0-9.]+\^(?:\{[^}]+\}|[a-zA-Z0-9]+)|sqrt\([^)]+\)|cbrt\([^)]+\)|\\[a-zA-Z]+(?:\{[^}]*\})*|\blog_\w+\([^)]+\))/;
+const MATH_TOKEN = /(?:[a-zA-Z0-9.]+\^(?:\{[^}]+\}|[a-zA-Z0-9-]+)|[a-zA-Z0-9.]+_\{[^}]+\}|[a-zA-Z0-9.]+_(-?[a-zA-Z0-9]+)|sqrt\([^)]+\)|cbrt\([^)]+\)|\\[a-zA-Z]+(?:\{[^}]*\})*|\blog_\w+\([^)]+\)|[a-z][0-9])/;
 
 /**
  * Splits a plain-text block into text/math segments.
@@ -59,7 +72,7 @@ function splitPlainMath(text) {
   // Build a pattern that matches a "math run":
   // one or more math tokens connected by operators/spaces
   const MATH_TOKEN_STR = MATH_TOKEN.source;
-  const OPERATOR = /\s*[*/+\-=<>≤≥^]\s*|\s+/.source;
+  const OPERATOR = /\s*[*/+\-=<>≤≥^!~|±]\s*|\s+/.source;
   // A math run must start with a math token, then optionally more tokens/operators, and end with a math token or a bare number/result
   const MATH_RUN = new RegExp(
     `(${MATH_TOKEN_STR}(?:(?:${OPERATOR})(?:${MATH_TOKEN_STR}|[0-9]+(?:\\.[0-9]+)?))*)`,
