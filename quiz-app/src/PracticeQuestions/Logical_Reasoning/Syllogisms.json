@@ -1,0 +1,262 @@
+{
+  "subject": "Logical Reasoning",
+  "topic": "Syllogisms",
+  "introduction": "Syllogisms test your ability to draw valid conclusions from two or more given statements (premises). In SIMAK, each statement is treated as absolutely true — even if it contradicts common sense. Your task is NOT to judge truth, but to determine what MUST logically follow. Use Venn diagrams or immediate inference rules to check validity.",
+  "key_formulas": [
+    {"name": "Universal Affirmative (A)", "formula": "\\text{All A are B} \\Rightarrow \\text{Venn: A circle inside B circle}"},
+    {"name": "Universal Negative (E)", "formula": "\\text{No A are B} \\Rightarrow \\text{Venn: A and B circles don't overlap}"},
+    {"name": "Particular Affirmative (I)", "formula": "\\text{Some A are B} \\Rightarrow \\text{Venn: A and B overlap partially}"},
+    {"name": "Particular Negative (O)", "formula": "\\text{Some A are not B} \\Rightarrow \\text{Venn: part of A is outside B}"},
+    {"name": "Valid AAA syllogism", "formula": "\\text{All A→B, All B→C} \\therefore \\text{All A→C}"},
+    {"name": "Valid EAE syllogism", "formula": "\\text{No A→B, All C→A} \\therefore \\text{No C→B}"}
+  ],
+  "tips_and_tricks": [
+    "Treat every statement as 100% true — even absurd ones.",
+    "Draw Venn diagrams for complex sets of premises.",
+    "'All A are B' does NOT mean 'All B are A'. The conversion is NOT always valid!",
+    "'Some A are B' is always a valid conclusion if 'All A are B' — some is included in all.",
+    "If the conclusion uses 'must be true', verify it holds in ALL possible diagrams.",
+    "Negative conclusion requires at least one negative premise.",
+    "'Either...or...' in conclusion can be true if both individual parts might be true."
+  ],
+  "worked_examples": [
+    {
+      "title": "Example 1: All-All syllogism",
+      "question": "All cats are mammals. All mammals are warm-blooded. What can we conclude?",
+      "solution": [
+        "Step 1: Draw chain: Cats ⊂ Mammals ⊂ Warm-blooded.",
+        "Step 2: Valid conclusion: All cats are warm-blooded (AAA-1 form).",
+        "Step 3: Also valid: Some warm-blooded are cats (by conversion of A to I).",
+        "Step 4: NOT valid: All warm-blooded are cats (illegal conversion)."
+      ]
+    },
+    {
+      "title": "Example 2: 'Some' premise complications",
+      "question": "All A are B. Some C are A. What follows?",
+      "solution": [
+        "Step 1: All A ⊂ B. Some C overlap with A.",
+        "Step 2: The C that overlap with A are also in B (since A ⊂ B).",
+        "Step 3: So some C are B.",
+        "Step 4: Valid conclusion: Some C are B. (Some C are A + All A are B → Some C are B.)"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "syl_easy_1", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "easy",
+      "question_text": "Statements: All dogs are animals. All animals need food.\nConclusion: All dogs need food.\nIs the conclusion valid?",
+      "options": [{"letter":"A","text":"Yes, valid"},{"letter":"B","text":"No, invalid"},{"letter":"C","text":"Partially valid"},{"letter":"D","text":"Cannot determine"},{"letter":"E","text":"Only if dogs eat plants"}],
+      "correct_answer": "A",
+      "explanation": "**AAA-1 Syllogism:**\nAll dogs → animals (A ⊂ B)\nAll animals → need food (B ⊂ C)\nTherefore All dogs → need food (A ⊂ C) ✓\n\nThis is a valid chain inference.",
+      "hints": ["Dogs ⊂ Animals ⊂ Need food — draw the Venn chain.", "If every A is B, and every B is C, then every A is C.", "Valid conclusion."]
+    },
+    {
+      "id": "syl_easy_2", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "easy",
+      "question_text": "Statements: No fish are birds. All eagles are birds.\nConclusion: No eagles are fish.\nIs the conclusion valid?",
+      "options": [{"letter":"A","text":"Yes, valid"},{"letter":"B","text":"No, invalid"},{"letter":"C","text":"Cannot determine"},{"letter":"D","text":"Only some cases"},{"letter":"E","text":"The opposite is true"}],
+      "correct_answer": "A",
+      "explanation": "No fish are birds → Fish and Birds are completely separate.\nAll eagles are birds → Eagles ⊂ Birds.\nSince Eagles ⊂ Birds, and Birds ∩ Fish = ∅, then Eagles ∩ Fish = ∅\nConclusion: No eagles are fish ✓",
+      "hints": ["Eagles are inside the Bird circle. Fish and Birds don't overlap.", "Eagles (inside Birds) can't be in Fish.", "No eagles are fish — valid."]
+    },
+    {
+      "id": "syl_easy_3", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "easy",
+      "question_text": "Statement: All roses are flowers.\nConclusion I: Some flowers are roses.\nConclusion II: All flowers are roses.\nWhich is valid?",
+      "options": [{"letter":"A","text":"Only Conclusion I"},{"letter":"B","text":"Only Conclusion II"},{"letter":"C","text":"Both"},{"letter":"D","text":"Neither"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "A",
+      "explanation": "All roses are flowers → Roses ⊂ Flowers.\n\nConclusion I: Some flowers are roses → YES ✓ (if all A are B, then some B are A — called 'conversion by limitation').\n\nConclusion II: All flowers are roses → NOT VALID ✗ (there may be other flowers that aren't roses).",
+      "hints": ["Draw: Roses circle inside Flowers circle.", "'Some flowers are roses' — is any part of Flowers inside Roses? Yes.", "'All flowers are roses' — can flowers be outside Roses? Yes → invalid."]
+    },
+    {
+      "id": "syl_easy_4", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "easy",
+      "question_text": "Statements: Some students are athletes. All athletes are disciplined.\nConclusion: Some students are disciplined.\nIs this valid?",
+      "options": [{"letter":"A","text":"Yes, valid"},{"letter":"B","text":"No, invalid"},{"letter":"C","text":"Only if all students are athletes"},{"letter":"D","text":"Cannot determine"},{"letter":"E","text":"Partially valid"}],
+      "correct_answer": "A",
+      "explanation": "Some students = athletes. Those athletes are disciplined (All athletes → disciplined).\nTherefore those students (who are athletes) are disciplined.\nConclusion: Some students are disciplined ✓",
+      "hints": ["Some students ARE athletes. All athletes are disciplined.", "The students who are athletes → disciplined.", "Some students are disciplined. Valid."]
+    },
+    {
+      "id": "syl_easy_5", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "easy",
+      "question_text": "Statements: No computers are living things. All robots are computers.\nConclusion: No robots are living things.\nValid?",
+      "options": [{"letter":"A","text":"Yes, valid"},{"letter":"B","text":"No"},{"letter":"C","text":"Partially"},{"letter":"D","text":"Cannot determine"},{"letter":"E","text":"Only sometimes"}],
+      "correct_answer": "A",
+      "explanation": "Robots ⊂ Computers. Computers ∩ Living things = ∅.\nSince Robots ⊂ Computers, Robots ∩ Living things = ∅.\nConclusion: No robots are living things ✓",
+      "hints": ["Robots are inside Computers. Computers don't overlap with Living things.", "Robots (inside Computers) can't reach Living things.", "Valid."]
+    },
+    {
+      "id": "syl_easy_6", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "easy",
+      "question_text": "Statement: Some A are B. Some B are C.\nConclusion: Some A are C.\nValid?",
+      "options": [{"letter":"A","text":"Not necessarily valid"},{"letter":"B","text":"Always valid"},{"letter":"C","text":"Never valid"},{"letter":"D","text":"Valid if A=C"},{"letter":"E","text":"Valid only with a third premise"}],
+      "correct_answer": "A",
+      "explanation": "**Two 'Some' premises cannot guarantee a conclusion.**\nA and C might not overlap at all. The B's that overlap with A might be completely different from the B's that overlap with C.\n\nDraw: A and B overlap, B and C overlap, but A and C might be separate.\nConclusion is NOT necessarily valid.",
+      "hints": ["Draw a Venn: can A and C be completely separate?", "The B's shared with A and the B's shared with C might be different.", "Not necessarily valid — Some+Some doesn't guarantee a conclusion."]
+    },
+    {
+      "id": "syl_easy_7", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "easy",
+      "question_text": "Statements: All X are Y. No Z are Y.\nConclusion: No Z are X.\nValid?",
+      "options": [{"letter":"A","text":"Yes, valid"},{"letter":"B","text":"No"},{"letter":"C","text":"Cannot determine"},{"letter":"D","text":"Only sometimes"},{"letter":"E","text":"Partially"}],
+      "correct_answer": "A",
+      "explanation": "X ⊂ Y, and Z ∩ Y = ∅.\nSince X ⊂ Y and Z can't touch Y, Z can't touch X either.\nConclusion: No Z are X ✓",
+      "hints": ["X is inside Y. Z can't reach Y at all.", "So Z can't reach X (which is inside Y).", "Valid."]
+    },
+    {
+      "id": "syl_easy_8", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "easy",
+      "question_text": "Statement: No managers are lazy.\nConclusion: Some non-lazy people are managers.\nValid?",
+      "options": [{"letter":"A","text":"Valid (assuming managers exist)"},{"letter":"B","text":"Invalid"},{"letter":"C","text":"Cannot determine"},{"letter":"D","text":"Only if there's one manager"},{"letter":"E","text":"Partially valid"}],
+      "correct_answer": "A",
+      "explanation": "No managers are lazy → All managers are non-lazy.\nIf managers exist, then some non-lazy people are managers.\nConclusion follows if we assume the class isn't empty ✓",
+      "hints": ["No managers are lazy means all managers fall into 'non-lazy'.", "If any manager exists, they are non-lazy.", "Some non-lazy are managers — valid (assuming the class exists)."]
+    },
+    {
+      "id": "syl_medium_1", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "medium",
+      "question_text": "Statements:\n1. All politicians are liars.\n2. Some honest people are politicians.\nWhich conclusion MUST follow?",
+      "options": [
+        {"letter":"A","text":"Some honest people are liars"},
+        {"letter":"B","text":"All honest people are liars"},
+        {"letter":"C","text":"No honest people are liars"},
+        {"letter":"D","text":"All liars are politicians"},
+        {"letter":"E","text":"No politicians are honest"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Some honest people = politicians (from S2).\nAll politicians = liars (from S1).\n\nThose honest people who are politicians → are also liars.\nConclusion: Some honest people are liars ✓\n\n(This may seem contradictory but we treat statements as true.)",
+      "hints": ["The honest people who are politicians are also liars (from S1).", "Some honest + All politicians are liars → Some honest are liars.", "Answer: Some honest people are liars."]
+    },
+    {
+      "id": "syl_medium_2", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "medium",
+      "question_text": "Statements:\n1. All books are knowledge.\n2. Some knowledge is valuable.\n3. All valuable things are expensive.\n\nConclusion: Some knowledge is expensive.\nValid?",
+      "options": [{"letter":"A","text":"Yes, valid"},{"letter":"B","text":"No, invalid"},{"letter":"C","text":"Cannot determine"},{"letter":"D","text":"Only if books are expensive"},{"letter":"E","text":"Only sometimes"}],
+      "correct_answer": "A",
+      "explanation": "Some knowledge is valuable (S2). All valuable → expensive (S3).\nTherefore some knowledge is expensive ✓\n\n(The B that is valuable → also expensive, so some knowledge is expensive.)",
+      "hints": ["Some knowledge is valuable, and valuable → expensive.", "Chain: some knowledge → valuable → expensive.", "Some knowledge is expensive. Valid."]
+    },
+    {
+      "id": "syl_medium_3", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "medium",
+      "question_text": "Statements:\n1. No trees are roads.\n2. Some walls are roads.\n\nConclusion I: Some walls are not trees.\nConclusion II: No walls are trees.\nWhich conclusion(s) follow?",
+      "options": [
+        {"letter":"A","text":"Only Conclusion I"},
+        {"letter":"B","text":"Only Conclusion II"},
+        {"letter":"C","text":"Both"},
+        {"letter":"D","text":"Neither"},
+        {"letter":"E","text":"Cannot determine"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Some walls = roads (S2). No trees = roads (S1) → trees and roads are separate.\nThose walls that are roads → are NOT trees (since trees ∩ roads = ∅).\nSo those particular walls are not trees → Some walls are not trees ✓ (Conclusion I)\n\nConclusion II 'No walls are trees' is too strong — other walls might be trees. INVALID ✗",
+      "hints": ["Walls that are roads can't be trees (trees and roads don't overlap).", "So some walls (the ones that are roads) are not trees → Conclusion I valid.", "Conclusion II 'No walls are trees' is not guaranteed — other walls could be trees."]
+    },
+    {
+      "id": "syl_medium_4", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "medium",
+      "question_text": "Statements:\n1. All circles are shapes.\n2. All shapes are beautiful.\n3. Some beautiful things are colorful.\n\nConclusion: Some circles are colorful.\nValid?",
+      "options": [{"letter":"A","text":"Not necessarily — the beautiful circles may not be the colorful ones"},{"letter":"B","text":"Yes, absolutely valid"},{"letter":"C","text":"Valid only if all shapes are colorful"},{"letter":"D","text":"Invalid because there's no link"},{"letter":"E","text":"Valid because all circles are beautiful"}],
+      "correct_answer": "A",
+      "explanation": "All circles → shapes → beautiful.\nSome beautiful things are colorful.\n\nThe colorful beautiful things might be a different subset of beautiful, not necessarily circles.\nConclusion 'Some circles are colorful' is NOT necessarily valid.\n\nThe 'some beautiful = colorful' might not overlap with circles even though circles are beautiful.",
+      "hints": ["All circles are beautiful, but only SOME beautiful are colorful.", "Are those 'some colorful beautiful things' necessarily circles? Not required.", "Not necessarily valid."]
+    },
+    {
+      "id": "syl_medium_5", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "medium",
+      "question_text": "Given: If all A are B, and all B are C, and no C are D, what can we say about A and D?",
+      "options": [
+        {"letter":"A","text":"No A are D"},
+        {"letter":"B","text":"Some A are D"},
+        {"letter":"C","text":"All A are D"},
+        {"letter":"D","text":"Some A are not D"},
+        {"letter":"E","text":"Cannot determine"}
+      ],
+      "correct_answer": "A",
+      "explanation": "A ⊂ B ⊂ C. C ∩ D = ∅.\nSince A ⊂ C and C ∩ D = ∅ → A ∩ D = ∅.\nConclusion: **No A are D** ✓",
+      "hints": ["Chain: A inside B inside C. D doesn't touch C.", "A is inside C. D can't reach C, so D can't reach A.", "No A are D."]
+    },
+    {
+      "id": "syl_medium_6", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "medium",
+      "question_text": "Statements:\n1. All cats are pets.\n2. Some pets are small.\n3. All small things are cute.\n\nConclusion I: Some cats are cute.\nConclusion II: Some pets are cute.\nWhich is/are valid?",
+      "options": [
+        {"letter":"A","text":"Only Conclusion II"},
+        {"letter":"B","text":"Both"},
+        {"letter":"C","text":"Only Conclusion I"},
+        {"letter":"D","text":"Neither"},
+        {"letter":"E","text":"Cannot determine"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Some pets are small (S2). All small → cute (S3). So some pets are cute ✓ (Conclusion II valid)\n\nConclusion I: Are those small pets necessarily cats? Not guaranteed — they could be other pets.\nSome cats might be small, but S2 doesn't say so.\nConclusion I is NOT necessarily valid.",
+      "hints": ["Some pets are small → those are cute. But are those small pets cats?", "The small pets could be dogs, not cats.", "Conclusion II (some pets are cute) is valid. Conclusion I (some cats are cute) is not guaranteed."]
+    },
+    {
+      "id": "syl_medium_7", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "medium",
+      "question_text": "Statements: Some doctors are singers. All singers are creative.\nConclusion: All doctors are creative.\nValid?",
+      "options": [{"letter":"A","text":"No — only SOME doctors are creative"},{"letter":"B","text":"Yes, valid"},{"letter":"C","text":"Cannot determine"},{"letter":"D","text":"Partially"},{"letter":"E","text":"Only if all doctors sing"}],
+      "correct_answer": "A",
+      "explanation": "Only SOME doctors are singers. Those singers (doctor-singers) are creative.\nBut other doctors (non-singers) — we don't know.\n\nConclusion 'All doctors are creative' is too strong → **INVALID**.\nCorrect conclusion: Some doctors are creative ✓",
+      "hints": ["'Some' doctors are singers — not all.", "Only those doctor-singers are definitely creative.", "'All doctors are creative' is too strong → invalid."]
+    },
+    {
+      "id": "syl_medium_8", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "medium",
+      "question_text": "Statements:\n1. No birds can swim.\n2. Penguins can swim.\nConclusion: Penguins are not birds.\nValid?",
+      "options": [{"letter":"A","text":"Yes, valid (given the premises)"},{"letter":"B","text":"No, invalid"},{"letter":"C","text":"Only factually, not logically"},{"letter":"D","text":"Partially valid"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "A",
+      "explanation": "Remember: we treat statements as ABSOLUTELY TRUE even if wrong factually.\n\nNo birds can swim → birds ∩ swimmers = ∅.\nPenguins can swim → penguins ⊂ swimmers.\nIf penguins were birds, birds would be in swimmers — contradiction!\nConclusion: Penguins are not birds ✓ (logically valid given the premises)",
+      "hints": ["Treat both statements as 100% true.", "No birds swim. Penguins swim → penguins can't be birds.", "Valid given these premises."]
+    },
+    {
+      "id": "syl_hard_1", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "hard",
+      "question_text": "Statements:\n1. Some scientists are writers.\n2. All writers are philosophers.\n3. Some philosophers are not innovative.\n\nConclusion I: Some scientists are philosophers.\nConclusion II: Some scientists are not innovative.\nWhich MUST follow?",
+      "options": [
+        {"letter":"A","text":"Only Conclusion I"},
+        {"letter":"B","text":"Only Conclusion II"},
+        {"letter":"C","text":"Both"},
+        {"letter":"D","text":"Neither"},
+        {"letter":"E","text":"Cannot determine"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Conclusion I: Some scientists = writers (S1). All writers = philosophers (S2). Those scientist-writers → philosophers. So some scientists are philosophers ✓\n\nConclusion II: Those scientist-writers → philosophers. But are they non-innovative? S3 says SOME philosophers are not innovative. The scientist-philosophers might all be innovative. Conclusion II NOT necessarily valid.\n\nOnly Conclusion I follows ✓",
+      "hints": ["Conclusion I: Some scientists→writers→philosophers. Valid chain.", "Conclusion II: Are those philosopher-scientists among the 'not innovative' ones? Not guaranteed.", "Only Conclusion I is valid."]
+    },
+    {
+      "id": "syl_hard_2", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "hard",
+      "question_text": "Statements:\n1. All that glitters is not gold.\n2. All gold is valuable.\n\nConclusion: Some glittering things are not valuable.\nValid?",
+      "options": [
+        {"letter":"A","text":"Valid — some glittering things are not gold and may not be valuable"},
+        {"letter":"B","text":"Invalid — all glittering things could still be valuable through other means"},
+        {"letter":"C","text":"Valid — because gold is valuable"},
+        {"letter":"D","text":"Invalid — the premises don't logically connect glitter to value"},
+        {"letter":"E","text":"Cannot determine with these premises"}
+      ],
+      "correct_answer": "B",
+      "explanation": "S1: Some glittering things are not gold (i.e., not all glittering = gold).\nS2: All gold is valuable.\n\nThe non-gold glittering things: S2 says nothing about them — they MIGHT be valuable or not.\nWe CANNOT conclude some glittering things are not valuable (they could all be valuable through non-gold means).\n\nConclusion is NOT necessarily valid.",
+      "hints": ["S1 says some glittering things aren't gold. Does that mean they're not valuable?", "Not being gold doesn't mean not valuable — other valuable things exist.", "We can't conclude some glittering things are not valuable. Invalid."]
+    },
+    {
+      "id": "syl_hard_3", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "hard",
+      "question_text": "Statements:\n1. All P are Q.\n2. All Q are R.\n3. Some R are not S.\n4. All S are T.\n\nConclusion: All P are T.\nValid?",
+      "options": [
+        {"letter":"A","text":"Not necessarily valid"},
+        {"letter":"B","text":"Always valid"},
+        {"letter":"C","text":"Valid if all R are S"},
+        {"letter":"D","text":"Invalid because S3 breaks the chain"},
+        {"letter":"E","text":"Valid because P→Q→R"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Chain: P ⊂ Q ⊂ R. All P are R.\nS3: Some R are not S. The P's (which are R) might or might not be S.\nS4: If P were S → P are T. But if P are not S → no guarantee P is T.\n\nWe can't conclude All P are T because some P (as members of R) might not be S, giving no path to T.",
+      "hints": ["P→Q→R chain gives All P are R.", "But some R are not S — are the P's among the S ones or non-S ones?", "Not guaranteed all P are S → not guaranteed all P are T. Not necessarily valid."]
+    },
+    {
+      "id": "syl_hard_4", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "hard",
+      "question_text": "Statements:\n1. No introverts are talkative.\n2. All social media influencers are talkative.\n3. Some students are introverts.\n\nConclusion I: No students who are introverts are influencers.\nConclusion II: Some students are not influencers.\nBoth valid?",
+      "options": [
+        {"letter":"A","text":"Both valid"},
+        {"letter":"B","text":"Only Conclusion I"},
+        {"letter":"C","text":"Only Conclusion II"},
+        {"letter":"D","text":"Neither"},
+        {"letter":"E","text":"Cannot determine"}
+      ],
+      "correct_answer": "A",
+      "explanation": "I: Introvert ∩ Talkative = ∅. Influencers ⊂ Talkative. So Introvert ∩ Influencer = ∅. Students who are introverts cannot be influencers ✓\n\nII: Some students are introverts. Introverts cannot be influencers. So those students (introverts) are not influencers. Some students are not influencers ✓\n\nBoth valid!",
+      "hints": ["No introverts are talkative. Influencers must be talkative → introverts ≠ influencers.", "Some students are introverts → those students are not influencers.", "Both conclusions follow."]
+    },
+    {
+      "id": "syl_hard_5", "subject": "Logical Reasoning", "topic": "Syllogisms", "difficulty": "hard",
+      "question_text": "Statements:\n1. All A are B or C (A ⊂ B∪C).\n2. No B are D.\n3. No C are D.\n\nConclusion: No A are D.\nValid?",
+      "options": [{"letter":"A","text":"Yes, valid"},{"letter":"B","text":"No, invalid"},{"letter":"C","text":"Cannot determine"},{"letter":"D","text":"Only if A=B∪C"},{"letter":"E","text":"Partially valid"}],
+      "correct_answer": "A",
+      "explanation": "Every A is either in B or C (or both).\nNo B intersects D. No C intersects D.\nTherefore no member of B∪C is in D.\nSince every A ⊂ B∪C, no A can be in D.\nConclusion: **No A are D** ✓",
+      "hints": ["Every A is in B or C. Neither B nor C touches D.", "Since A is covered by B∪C, and D doesn't touch either, D can't touch A.", "No A are D. Valid."]
+    }
+  ]
+}

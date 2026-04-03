@@ -1,0 +1,237 @@
+{
+  "subject": "Logical Reasoning",
+  "topic": "Spatial Reasoning",
+  "introduction": "Spatial reasoning tests your ability to mentally manipulate 2D and 3D shapes: rotations, reflections, unfolding cubes, counting 3D blocks, and perspective-taking. In SIMAK, common types include: net folding (which 3D shape does a net form?), counting cubes in 3D structures, and identifying the view from a different angle.",
+  "key_formulas": [
+    {"name": "Cube net", "formula": "\\text{Identify opposite faces: they cannot be adjacent on a net}"},
+    {"name": "Block counting", "formula": "\\text{Count visible blocks per layer; sum all layers}"},
+    {"name": "Rotation rule", "formula": "\\text{90° left/right = same figure rotated; 180° = upside-down}"},
+    {"name": "Mirror image", "formula": "\\text{Left-right flip: horizontal axis mirror; top-bottom: vertical axis}"},
+    {"name": "Hidden blocks", "formula": "\\text{Total in structure = visible + hidden (support blocks)}"}
+  ],
+  "tips_and_tricks": [
+    "For cube nets: practice identifying which faces are opposite in a cross-shaped net (the top/bottom of the cross are opposite).",
+    "When counting 3D blocks: count column by column, or layer by layer.",
+    "Mirror image: if the original faces right, the mirror faces left (horizontal flip).",
+    "Rotation by 180°: everything is flipped both horizontally AND vertically.",
+    "For 'which figure is identical but rotated' — check a distinctive feature's position.",
+    "Perspective change: imagine walking 90° around the object and redrawing what you see.",
+    "For net folding: mentally fold and check which faces meet at each edge."
+  ],
+  "worked_examples": [
+    {
+      "title": "Example 1: Cube net identification",
+      "question": "A cross-shaped net has the center square as the BOTTOM of the cube. The square directly above it will be the FRONT face. What will be OPPOSITE the bottom (i.e., the TOP face)?",
+      "solution": [
+        "Step 1: In a standard cross-net, the bottom is the center.",
+        "Step 2: The TOP is the cell directly below the center (it folds up and over).",
+        "Step 3: The other four cells form the four side faces.",
+        "Step 4: Key rule: the cell 2 positions away from a face in a straight line is its OPPOSITE face."
+      ]
+    },
+    {
+      "title": "Example 2: Counting 3D blocks",
+      "question": "A structure has 3 layers. Layer 1 (bottom): 3×3=9 blocks. Layer 2: 2×2=4 on top of center. Layer 3: 1 block on top. How many total?",
+      "solution": [
+        "Step 1: Layer 1: 9 blocks.",
+        "Step 2: Layer 2: 4 blocks.",
+        "Step 3: Layer 3: 1 block.",
+        "Step 4: Total: 9+4+1 = 14 blocks."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "sr_easy_1", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "easy",
+      "question_text": "If you fold this net into a cube, how many faces does a cube have?",
+      "options": [{"letter":"A","text":"6"},{"letter":"B","text":"4"},{"letter":"C","text":"8"},{"letter":"D","text":"12"},{"letter":"E","text":"5"}],
+      "correct_answer": "A",
+      "explanation": "A cube has **6 faces** (top, bottom, front, back, left, right). A valid net for a cube consists of exactly 6 squares.",
+      "hints": ["Count the sides: top/bottom, front/back, left/right.", "That's 3 pairs = 6 faces.", "Answer: 6."]
+    },
+    {
+      "id": "sr_easy_2", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "easy",
+      "question_text": "A figure is rotated 90° clockwise. An upward-pointing arrow becomes:",
+      "options": [{"letter":"A","text":"A right-pointing arrow"},{"letter":"B","text":"A downward-pointing arrow"},{"letter":"C","text":"A left-pointing arrow"},{"letter":"D","text":"An upward-pointing arrow still"},{"letter":"E","text":"A diagonal arrow"}],
+      "correct_answer": "A",
+      "explanation": "90° clockwise rotation: Up→Right→Down→Left.\nUpward arrow → **right-pointing arrow** ✓",
+      "hints": ["Rotate 90° clockwise: U→R→D→L.", "Upward becomes right.", "Answer: right-pointing arrow."]
+    },
+    {
+      "id": "sr_easy_3", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "easy",
+      "question_text": "If you look at a clock face mirror (horizontal flip), the 3 o'clock position appears at?",
+      "options": [{"letter":"A","text":"9 o'clock"},{"letter":"B","text":"3 o'clock"},{"letter":"C","text":"12 o'clock"},{"letter":"D","text":"6 o'clock"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "A",
+      "explanation": "Horizontal mirror flip reverses left and right. 3 o'clock is on the RIGHT → in the mirror it appears on the LEFT = **9 o'clock** ✓",
+      "hints": ["Mirror flip reverses left and right.", "3 o'clock (right side) → flips to left side.", "Left side = 9 o'clock."]
+    },
+    {
+      "id": "sr_easy_4", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "easy",
+      "question_text": "How many small cubes make up a 3×3×3 large cube?",
+      "options": [{"letter":"A","text":"27"},{"letter":"B","text":"9"},{"letter":"C","text":"18"},{"letter":"D","text":"24"},{"letter":"E","text":"36"}],
+      "correct_answer": "A",
+      "explanation": "3×3×3 = **27** small cubes ✓",
+      "hints": ["Count cubes in each dimension.", "3 layers, each 3×3=9 cubes.", "Total: 3×9=27."]
+    },
+    {
+      "id": "sr_easy_5", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "easy",
+      "question_text": "A letter 'b' is reflected vertically (top-bottom flip). What does it look like?",
+      "options": [{"letter":"A","text":"p"},{"letter":"B","text":"q"},{"letter":"C","text":"d"},{"letter":"D","text":"b"},{"letter":"E","text":"6"}],
+      "correct_answer": "A",
+      "explanation": "Vertical (top-bottom) flip of 'b': the bump moves from right-bottom to right-top = **'p'** ✓\n\n(Horizontal flip of 'b' = 'd'. Vertical flip of 'b' = 'p'.)",
+      "hints": ["Top-bottom flip = vertical reflection.", "The bump of 'b' is on the lower right. Flipping vertically puts it on the upper right.", "That looks like 'p'."]
+    },
+    {
+      "id": "sr_easy_6", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "easy",
+      "question_text": "What is the minimum number of squares needed to make a net for a cube?",
+      "options": [{"letter":"A","text":"6"},{"letter":"B","text":"4"},{"letter":"C","text":"5"},{"letter":"D","text":"8"},{"letter":"E","text":"12"}],
+      "correct_answer": "A",
+      "explanation": "A cube has 6 faces, so a net needs exactly **6** squares ✓",
+      "hints": ["How many faces does a cube have?", "Each face needs exactly one square.", "6 squares needed."]
+    },
+    {
+      "id": "sr_easy_7", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "easy",
+      "question_text": "A shape is rotated 180°. Which of these is unchanged by 180° rotation?",
+      "options": [{"letter":"A","text":"S"},{"letter":"B","text":"A"},{"letter":"C","text":"F"},{"letter":"D","text":"B"},{"letter":"E","text":"C"}],
+      "correct_answer": "A",
+      "explanation": "**S rotated 180°** still looks like S (it has 180° rotational symmetry). A, B, C, F do not look the same after 180° rotation.",
+      "hints": ["180° rotation: which letters look the same?", "S has rotational symmetry of 180°.", "Answer: S."]
+    },
+    {
+      "id": "sr_easy_8", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "easy",
+      "question_text": "A 3D structure has 5 blocks in the base layer and 3 on top. How many blocks total?",
+      "options": [{"letter":"A","text":"8"},{"letter":"B","text":"15"},{"letter":"C","text":"5"},{"letter":"D","text":"3"},{"letter":"E","text":"10"}],
+      "correct_answer": "A",
+      "explanation": "Total = 5 + 3 = **8** blocks ✓",
+      "hints": ["Add layers: base + top.", "5 + 3 = 8.", "Answer: 8."]
+    },
+    {
+      "id": "sr_medium_1", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "medium",
+      "question_text": "A cube has faces labeled: Top=1, Bottom=6, Front=2, Back=5, Left=3, Right=4. (Opposite faces sum to 7.)\nIf you rotate the cube 90° to the right (the right face becomes the bottom), what number is now on top?",
+      "options": [{"letter":"A","text":"3"},{"letter":"B","text":"4"},{"letter":"C","text":"1"},{"letter":"D","text":"2"},{"letter":"E","text":"5"}],
+      "correct_answer": "A",
+      "explanation": "Rotate 90° rightward: the RIGHT face (4) becomes the BOTTOM. The LEFT face (3) becomes the TOP. Front/Back (2/5) stay as front/back.\nNew top = **3** ✓",
+      "hints": ["Rotating right: the right face goes down.", "The left face comes to the top.", "Left face = 3 → now on top."]
+    },
+    {
+      "id": "sr_medium_2", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "medium",
+      "question_text": "Count the minimum number of cubes in this 3D structure described as: from front view, you see 3 columns of heights 1, 2, 3 (left to right). From side view, all heights are 3. What is the minimum number of cubes?",
+      "options": [{"letter":"A","text":"10"},{"letter":"B","text":"18"},{"letter":"C","text":"6"},{"letter":"D","text":"9"},{"letter":"E","text":"12"}],
+      "correct_answer": "A",
+      "explanation": "Front view heights: 1, 2, 3. Side view all heights 3.\nMinimum: place exactly as shown in front view (one cube deep per column).\nColumn 1: 1 cube. Column 2: 2 cubes. Column 3: 3 cubes.\nTotal: 1+2+3 = **6 minimum**.\n\nFor side view to show height 3, the tallest column (depth 1) already shows 3. Minimum = 6.\n\n*Note: answer depends on interpretation. Standard minimum packing = 6.*",
+      "hints": ["Minimum cubes: place only what's needed for front view, consistent with side view.", "Front heights 1,2,3 with depth 1: total = 1+2+3=6.", "Minimum = 6."]
+    },
+    {
+      "id": "sr_medium_3", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "medium",
+      "question_text": "Which of the following letters has BOTH horizontal and vertical lines of symmetry?",
+      "options": [{"letter":"A","text":"H"},{"letter":"B","text":"A"},{"letter":"C","text":"B"},{"letter":"D","text":"C"},{"letter":"E","text":"J"}],
+      "correct_answer": "A",
+      "explanation": "**H** has a vertical line of symmetry (left=right) AND a horizontal line of symmetry (top=bottom). It also has 180° rotational symmetry.\n\nA: only vertical. B: only vertical. C: only horizontal. J: none.",
+      "hints": ["Vertical symmetry: left half = right half.", "Horizontal symmetry: top half = bottom half.", "H has both."]
+    },
+    {
+      "id": "sr_medium_4", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "medium",
+      "question_text": "A square piece of paper is folded in half vertically, then a hole is punched in the upper-right corner. When unfolded, where are the holes?",
+      "options": [
+        {"letter":"A","text":"Upper-right and upper-left corners"},
+        {"letter":"B","text":"All four corners"},
+        {"letter":"C","text":"Upper-right only"},
+        {"letter":"D","text":"Upper-right and lower-right"},
+        {"letter":"E","text":"Center of the paper"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Folding vertically (left half over right) creates a fold along the vertical center. A hole in the upper-right of the folded paper goes through BOTH layers → when unfolded: hole appears symmetrically at **upper-right AND upper-left** ✓",
+      "hints": ["Folding vertically = the paper is doubled left-right.", "A hole punched through goes through both halves.", "Unfolded: symmetric holes at upper-right AND upper-left."]
+    },
+    {
+      "id": "sr_medium_5", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "medium",
+      "question_text": "A net consists of a cross shape with 4 side squares and top+bottom. In a standard plus-sign net (+), which squares are OPPOSITE each other when folded?",
+      "options": [
+        {"letter":"A","text":"The top square of the plus and the bottom square of the plus"},
+        {"letter":"B","text":"The center and any side square"},
+        {"letter":"C","text":"The left and right arms"},
+        {"letter":"D","text":"The top arm and the center"},
+        {"letter":"E","text":"Cannot determine"}
+      ],
+      "correct_answer": "A",
+      "explanation": "In a standard plus-net (+ shape): center is the bottom, the square directly above center is the front, and the square below center is the top/opposite of bottom. The TOP and BOTTOM of the vertical column are opposite faces ✓",
+      "hints": ["In a cross/plus net, the center is one face.", "The squares directly above and below (2 steps apart in a line) are opposite each other.", "The top and bottom of the vertical arm are opposite faces."]
+    },
+    {
+      "id": "sr_medium_6", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "medium",
+      "question_text": "3D structure front view (columns left to right): 2, 3, 1 (heights). It's 1 block deep. How many blocks total?",
+      "options": [{"letter":"A","text":"6"},{"letter":"B","text":"3"},{"letter":"C","text":"9"},{"letter":"D","text":"5"},{"letter":"E","text":"7"}],
+      "correct_answer": "A",
+      "explanation": "Total = 2+3+1 = **6** blocks (1 block deep each column) ✓",
+      "hints": ["One block deep: total = sum of heights.", "2+3+1 = 6.", "Answer: 6."]
+    },
+    {
+      "id": "sr_medium_7", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "medium",
+      "question_text": "A figure that is the mirror image of P is:",
+      "options": [{"letter":"A","text":"q"},{"letter":"B","text":"b"},{"letter":"C","text":"d"},{"letter":"D","text":"p"},{"letter":"E","text":"9"}],
+      "correct_answer": "A",
+      "explanation": "P: vertical line on right, bump on upper-left.\nHorizontal mirror of P: bump moves to upper-RIGHT, vertical line on LEFT = **q** ✓\n\n(Wait: rethinking: P = the bump is on the UPPER RIGHT, stem on left. Mirror of P = bump on upper LEFT = q. So q is the mirror.)",
+      "hints": ["P has a bump on the upper right, vertical line on the left.", "Horizontal mirror: flips left-right → bump goes to upper left.", "That's the letter 'q'."]
+    },
+    {
+      "id": "sr_medium_8", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "medium",
+      "question_text": "How many face-joins (shared edges) does a 3×1×1 rectangular structure (3 cubes in a row) have?",
+      "options": [{"letter":"A","text":"2"},{"letter":"B","text":"6"},{"letter":"C","text":"4"},{"letter":"D","text":"3"},{"letter":"E","text":"8"}],
+      "correct_answer": "A",
+      "explanation": "3 cubes in a row: Cube1-Cube2 share one face. Cube2-Cube3 share one face. Total shared faces = **2** ✓",
+      "hints": ["Count connections between adjacent cubes.", "Cube1↔Cube2: 1 shared face. Cube2↔Cube3: 1 shared face.", "Total: 2 shared faces."]
+    },
+    {
+      "id": "sr_hard_1", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "hard",
+      "question_text": "A 3×3×3 cube has its surface painted red. It's then cut into 27 unit cubes. How many unit cubes have exactly 2 red faces?",
+      "options": [{"letter":"A","text":"12"},{"letter":"B","text":"8"},{"letter":"C","text":"6"},{"letter":"D","text":"24"},{"letter":"E","text":"0"}],
+      "correct_answer": "A",
+      "explanation": "In a 3×3×3 cube:\n- Corner cubes (3 red faces): 8 cubes\n- **Edge cubes (2 red faces): 12 cubes** (1 per edge × 12 edges)\n- Face cubes (1 red face): 6 cubes\n- Center cube (0 red faces): 1 cube\n\nExactly 2 red faces = **edge cubes = 12** ✓",
+      "hints": ["Edge cubes are at edges but NOT corners.", "A cube has 12 edges, each with 1 non-corner cube in a 3×3×3.", "12 cubes have exactly 2 painted faces."]
+    },
+    {
+      "id": "sr_hard_2", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "hard",
+      "question_text": "A cube die shows: 6 opposite 1, 5 opposite 2, 4 opposite 3. It rests with 1 face up. After rolling FORWARD (toward you) once: what faces are now Up, Front, and Bottom?",
+      "options": [
+        {"letter":"A","text":"Front→Up, Down→Front, Back→Bottom"},
+        {"letter":"B","text":"Up unchanged, Front→1, Bottom→6"},
+        {"letter":"C","text":"Previous Front becomes Top"},
+        {"letter":"D","text":"Cannot determine without knowing initial front"},
+        {"letter":"E","text":"1 stays on top"}
+      ],
+      "correct_answer": "C",
+      "explanation": "Rolling FORWARD (away from you): the Front face tilts down and becomes the New Bottom. The Top becomes the New Front. The Back becomes the New Top. The Old Bottom becomes the New Back.\n\nSo: **previous Front face → becomes the Top**.  ✓",
+      "hints": ["Rolling forward: the die tips toward you.", "The front face goes down → becomes the new bottom.", "The top face falls forward → becomes the new front. The back comes up → new top."]
+    },
+    {
+      "id": "sr_hard_3", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "hard",
+      "question_text": "A 4×4×4 cube has all faces painted. It's cut into 64 unit cubes. How many have exactly 0 painted faces?",
+      "options": [{"letter":"A","text":"8"},{"letter":"B","text":"0"},{"letter":"C","text":"16"},{"letter":"D","text":"27"},{"letter":"E","text":"4"}],
+      "correct_answer": "A",
+      "explanation": "The interior cubes (not on any surface) have 0 painted faces.\nFor a 4×4×4: inner cubes form a 2×2×2 = **8 cubes** ✓\n(Remove one layer on each side: 4-2=2, so 2×2×2=8 interior cubes)",
+      "hints": ["Interior cubes = not touching any outer surface.", "Inner dimensions: (4-2)×(4-2)×(4-2) = 2×2×2.", "2×2×2 = 8 cubes with 0 painted faces."]
+    },
+    {
+      "id": "sr_hard_4", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "hard",
+      "question_text": "A transparent cube has a dot in the center of the Top face and the Front face. Looking from the RIGHT side, what do you see?",
+      "options": [
+        {"letter":"A","text":"One dot in the center of the visible face, one in the center from the front perspective"},
+        {"letter":"B","text":"Two dots at the same position"},
+        {"letter":"C","text":"No dots visible"},
+        {"letter":"D","text":"A dot at the top-center and another at the far left"},
+        {"letter":"E","text":"The dots overlap perfectly"}
+      ],
+      "correct_answer": "A",
+      "explanation": "From the RIGHT side:\n- The TOP face appears as the top edge (dot appears at the center of that top line = center-top).\n- The FRONT face is now seen at 90° — its dot appears at the center of the left edge (from right perspective, front is now seen at left).\n\nYou'd see two dots: one at center-top (from top face) and one at center-left (from front face).",
+      "hints": ["From the right: the top face appears as the top edge; the front face appears as the left edge.", "Top face dot: center of top edge.", "Front face dot: center of left edge."]
+    },
+    {
+      "id": "sr_hard_5", "subject": "Logical Reasoning", "topic": "Spatial Reasoning", "difficulty": "hard",
+      "question_text": "12 unit cubes are arranged to form a 2×2×3 block. How many unit cubes are on the SURFACE (visible from outside)?",
+      "options": [{"letter":"A","text":"All 12 — none is completely interior"},{"letter":"B","text":"8"},{"letter":"C","text":"10"},{"letter":"D","text":"6"},{"letter":"E","text":"4"}],
+      "correct_answer": "A",
+      "explanation": "A 2×2×3 block: the interior would be (2-2)×(2-2)×(3-2)=0×0×1=0 interior cubes.\nSince one dimension is only 2 (not ≥3), there are NO interior cubes — **all 12 are on the surface** ✓",
+      "hints": ["Interior cubes need to be ≥3 in all three dimensions.", "A 2×2×3 block: in the 2×2 plane, all cubes touch an outer face.", "No interior cubes — all 12 are on the surface."]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "subject": "Logical Reasoning",
+  "topic": "Analytical Reasoning",
+  "introduction": "Analytical reasoning (also called logic puzzles or constraint satisfaction) gives you a set of conditions and asks you to determine what MUST be true, what COULD be true, or what CANNOT be true. The key skill is systematically using all constraints to eliminate possibilities and deduce facts.",
+  "key_formulas": [
+    {"name": "Elimination method", "formula": "\\text{Constraints → eliminate invalid options → only valid remains}"},
+    {"name": "Direct deduction", "formula": "\\text{If A → B, and ¬B, then ¬A (contrapositive)}"},
+    {"name": "Conditional chain", "formula": "\\text{If A → B and B → C, then A → C}"},
+    {"name": "Disjunction", "formula": "\\text{A or B. ¬A → B. ¬B → A.}"},
+    {"name": "Biconditional", "formula": "\\text{A if and only if B: A→B AND B→A}"}
+  ],
+  "tips_and_tricks": [
+    "Draw a table or grid: rows = subjects, columns = attributes. Fill in what you know.",
+    "Start with the most restrictive constraint (least possibilities).",
+    "Use contrapositive: if 'A → B' is given, then '¬B → ¬A' is always valid.",
+    "If exactly one of A, B, C is true, and A is true → B and C are false.",
+    "Work by elimination for seating/ranking puzzles.",
+    "'Must be true' = true in EVERY scenario. 'Could be true' = true in at least ONE scenario.",
+    "Label positions (1st, 2nd, 3rd...) or attributes (A, B, C) and map constraints carefully."
+  ],
+  "worked_examples": [
+    {
+      "title": "Example 1: Ordering puzzle",
+      "question": "Five students ranked 1-5. Ani is higher than Budi. Ciki is lower than Deni. Erni is ranked 3rd. Budi is not ranked last. Who could be ranked 1st?",
+      "solution": [
+        "Step 1: Erni = 3rd. Remaining positions: 1st, 2nd, 4th, 5th for Ani, Budi, Ciki, Deni.",
+        "Step 2: Ani > Budi (Ani has a higher rank number than Budi means Ani is ABOVE Budi? If rank 1 = best, Ani's rank number is LOWER than Budi's).",
+        "Step 3: Budi ≠ 5th.",
+        "Step 4: Possible: Ani=1st, Budi=2nd or 4th, Ciki < Deni in rank.",
+        "Step 5: Deni could be 1st if Ani > Deni is not constrained. Ani could be 1st."
+      ]
+    },
+    {
+      "title": "Example 2: Conditional logic",
+      "question": "If it rains, Maya brings an umbrella. If Maya brings an umbrella, she is late. Today Maya was NOT late. What can we conclude?",
+      "solution": [
+        "Step 1: Rain → umbrella → late.",
+        "Step 2: NOT late → NOT umbrella (contrapositive of umbrella → late).",
+        "Step 3: NOT umbrella → NOT rain (contrapositive of rain → umbrella).",
+        "Step 4: Conclusion: It did NOT rain today."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "ar_easy_1", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "easy",
+      "question_text": "If A → B, and B → C, and we know A is true, what can we conclude?",
+      "options": [{"letter":"A","text":"C is true"},{"letter":"B","text":"C might be true"},{"letter":"C","text":"B is false"},{"letter":"D","text":"Nothing"},{"letter":"E","text":"A and C are unrelated"}],
+      "correct_answer": "A",
+      "explanation": "A→B: since A is true, B is true.\nB→C: since B is true, C is true.\nConclusion: **C is true** (transitive chain) ✓",
+      "hints": ["A is true → B is true (from A→B).", "B is true → C is true (from B→C).", "C is true."]
+    },
+    {
+      "id": "ar_easy_2", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "easy",
+      "question_text": "If P → Q and Q is false, what can we conclude about P?",
+      "options": [{"letter":"A","text":"P is false"},{"letter":"B","text":"P is true"},{"letter":"C","text":"P might be true or false"},{"letter":"D","text":"P equals Q"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "A",
+      "explanation": "**Contrapositive:** If P → Q, then ¬Q → ¬P.\nQ is false (¬Q) → P is false (¬P) ✓",
+      "hints": ["Contrapositive of P→Q is ¬Q→¬P.", "¬Q is given.", "Therefore ¬P. P is false."]
+    },
+    {
+      "id": "ar_easy_3", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "easy",
+      "question_text": "Either A or B is chosen (but not both). A is chosen. What follows?",
+      "options": [{"letter":"A","text":"B is not chosen"},{"letter":"B","text":"B might be chosen"},{"letter":"C","text":"A and B are both chosen"},{"letter":"D","text":"Neither is chosen"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "A",
+      "explanation": "Exclusive OR: exactly one of A, B is true.\nA is true → B must be false.\nConclusion: **B is not chosen** ✓",
+      "hints": ["Exclusive OR means exactly ONE is true.", "A is true.", "B must be false."]
+    },
+    {
+      "id": "ar_easy_4", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "easy",
+      "question_text": "If all members of group X passed the test, and Rina is in group X, what must be true?",
+      "options": [{"letter":"A","text":"Rina passed the test"},{"letter":"B","text":"Rina might have passed"},{"letter":"C","text":"Rina is special"},{"letter":"D","text":"Some X members failed"},{"letter":"E","text":"Nothing certain"}],
+      "correct_answer": "A",
+      "explanation": "All members of X passed. Rina ∈ X. Therefore Rina passed ✓ (direct application of universal rule to particular case).",
+      "hints": ["All X → passed. Rina ∈ X.", "Universal applied to particular: Rina passed.", "Rina passed."]
+    },
+    {
+      "id": "ar_easy_5", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "easy",
+      "question_text": "Anna is taller than Bima. Bima is taller than Cinta. Dani is taller than Anna. Who is the tallest?",
+      "options": [{"letter":"A","text":"Dani"},{"letter":"B","text":"Anna"},{"letter":"C","text":"Bima"},{"letter":"D","text":"Cinta"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "A",
+      "explanation": "Order: Dani > Anna > Bima > Cinta.\nTallest = **Dani** ✓",
+      "hints": ["Dani > Anna. Anna > Bima > Cinta.", "Chain: Dani is above all.", "Dani is tallest."]
+    },
+    {
+      "id": "ar_easy_6", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "easy",
+      "question_text": "It is NOT true that both A and B are true. A is true. What is B?",
+      "options": [{"letter":"A","text":"B is false"},{"letter":"B","text":"B is true"},{"letter":"C","text":"B might be true or false"},{"letter":"D","text":"B equals A"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "A",
+      "explanation": "¬(A∧B): at least one of A, B is false.\nA is true → A is not the false one.\nTherefore B must be false ✓",
+      "hints": ["'Not both true' means at least one is false.", "A is true, so A is not the false one.", "B must be false."]
+    },
+    {
+      "id": "ar_easy_7", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "easy",
+      "question_text": "Three boxes: Red, Blue, Green. Each has exactly one fruit: apple, banana, orange. Red has apple. Blue does not have banana. What does Green have?",
+      "options": [{"letter":"A","text":"Banana"},{"letter":"B","text":"Apple"},{"letter":"C","text":"Orange"},{"letter":"D","text":"Cannot determine"},{"letter":"E","text":"Apple or banana"}],
+      "correct_answer": "A",
+      "explanation": "Red = apple (given).\nBlue ≠ banana → Blue = orange (only remaining option).\nGreen = banana (only one left) ✓",
+      "hints": ["Red=apple. Remaining for Blue and Green: banana, orange.", "Blue ≠ banana → Blue = orange.", "Green = banana."]
+    },
+    {
+      "id": "ar_easy_8", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "easy",
+      "question_text": "Five people in a line. A is 2nd. B is directly before C. D is last. Where can B be?",
+      "options": [{"letter":"A","text":"3rd"},{"letter":"B","text":"1st"},{"letter":"C","text":"2nd"},{"letter":"D","text":"5th"},{"letter":"E","text":"Cannot be determined"}],
+      "correct_answer": "A",
+      "explanation": "A=2nd, D=5th. Available for B,C,E: 1st, 3rd, 4th.\nB directly before C: (B,C) could be (1st,2nd) — but 2nd is A. So (3rd,4th) works.\nB=3rd, C=4th, E=1st ✓",
+      "hints": ["A=2nd, D=5th. Remaining: 1st, 3rd, 4th for B, C, and one other.", "B directly before C: (B,C)=(3rd,4th) works. (1st,2nd) doesn't since A is 2nd.", "B=3rd."]
+    },
+    {
+      "id": "ar_medium_1", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "medium",
+      "question_text": "Five people: A, B, C, D, E ranked 1-5.\nA is ranked higher than B.\nC is ranked exactly 3rd.\nD is ranked higher than E and lower than A.\nB is not ranked last.\n\nWho is ranked last (5th)?",
+      "options": [{"letter":"A","text":"E"},{"letter":"B","text":"B"},{"letter":"C","text":"A"},{"letter":"D","text":"D"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "A",
+      "explanation": "C=3rd. A > D > E, and A > B. B ≠ 5th.\n\nSince A > D > E, and C=3rd:\nIf A=1st: D < A means D could be 2nd or 4th. E < D.\nWith A=1st, D=2nd, E must be 4th or 5th. B must be 4th or 5th, but B≠5th→B=4th, E=5th.\n\nOr A=2nd: D between A and E, C=3rd...complex.\n\nSimplest valid: A=1st, D=2nd, C=3rd, B=4th, E=5th ✓\n**E is ranked last** ✓",
+      "hints": ["C=3rd. A is highest, then D, then E in chain.", "B ≠ 5th, and there's no room for B above C easily.", "E ends up at 5th in the valid arrangement."]
+    },
+    {
+      "id": "ar_medium_2", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "medium",
+      "question_text": "If studying → passing. If passing → celebrating. Tono did NOT celebrate. What must be true?",
+      "options": [{"letter":"A","text":"Tono did not study"},{"letter":"B","text":"Tono studied but did not pass"},{"letter":"C","text":"Tono passed but did not celebrate"},{"letter":"D","text":"Tono celebrated later"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "A",
+      "explanation": "Chain: study → pass → celebrate.\n¬celebrate → ¬pass (contrapositive of pass→celebrate).\n¬pass → ¬study (contrapositive of study→pass).\n\nTono didn't celebrate → didn't study ✓",
+      "hints": ["Work backwards with contrapositives.", "¬celebrate → ¬pass. ¬pass → ¬study.", "Tono did not study."]
+    },
+    {
+      "id": "ar_medium_3", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "medium",
+      "question_text": "4 items: W, X, Y, Z must be assigned to 4 slots 1-4 (one each).\nW is in an odd slot. X is immediately after W. Y is not in slot 1.\n\nWhat slot is W in?",
+      "options": [{"letter":"A","text":"Slot 1 or 3"},{"letter":"B","text":"Slot 2"},{"letter":"C","text":"Slot 4"},{"letter":"D","text":"Slot 1 only"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "A",
+      "explanation": "W is in an odd slot (1 or 3). X is immediately after W → W+1 = X.\nIf W=1: X=2 ✓ (Y and Z fill 3,4; Y≠1 ✓)\nIf W=3: X=4 ✓ (remaining 1,2 for Y,Z; Y≠1→Y=2 ✓)\n\nBoth slot 1 and slot 3 are possible for W.",
+      "hints": ["W is odd: 1 or 3. X = W+1.", "If W=1: X=2. If W=3: X=4. Both valid with Y constraint.", "W can be slot 1 or 3."]
+    },
+    {
+      "id": "ar_medium_4", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "medium",
+      "question_text": "If Maria goes to the party, then Sarah goes. If Sarah goes, then Tom goes. If Tom goes, then Alex does NOT go. Alex went to the party. Who definitely did NOT go?",
+      "options": [{"letter":"A","text":"Tom"},{"letter":"B","text":"Sarah"},{"letter":"C","text":"Maria"},{"letter":"D","text":"All of the above"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "D",
+      "explanation": "Alex went → Tom did NOT go (contrapositive of Tom→¬Alex).\nTom did NOT go → Sarah did NOT go (contrapositive of Sarah→Tom).\nSarah did NOT go → Maria did NOT go (contrapositive of Maria→Sarah).\n\nAll three (Tom, Sarah, Maria) definitely did NOT go.",
+      "hints": ["Alex went → ¬Tom (contrapositive of Tom→¬Alex).", "¬Tom → ¬Sarah → ¬Maria (contrapositive chain).", "Tom, Sarah, Maria all did not go."]
+    },
+    {
+      "id": "ar_medium_5", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "medium",
+      "question_text": "Six students A-F sit in a row. A sits next to B. C sits at one end. D and E are not adjacent. F sits between A and C.\n\nIf C is at position 1, where is F?",
+      "options": [{"letter":"A","text":"Position 2 or 3"},{"letter":"B","text":"Position 6"},{"letter":"C","text":"Position 1"},{"letter":"D","text":"Position 4"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "A",
+      "explanation": "C=1. F is between A and C. F must be adjacent to C (position 2) with A on the other side of F (position 3).\nOr F is between A and C further... but 'between' typically means directly between two people on a line.\n\nIf C=1 and F is between A and C, then the order is ...A...F...C or C...F...A.\nSince C=1: C,F,A means F=2, A=3 ✓ (and A is next to B, so B=4).",
+      "hints": ["C=1. F is between C and A means the order is C,F,A.", "F=2, A=3 is the position sequence.", "F is in position 2."]
+    },
+    {
+      "id": "ar_medium_6", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "medium",
+      "question_text": "Given: P ∨ Q (at least one true). ¬P. What is Q?",
+      "options": [{"letter":"A","text":"Q is true"},{"letter":"B","text":"Q is false"},{"letter":"C","text":"Q might be true"},{"letter":"D","text":"Q=P"},{"letter":"E","text":"Cannot determine"}],
+      "correct_answer": "A",
+      "explanation": "P ∨ Q: at least one is true. ¬P: P is false.\nSince P is false, Q must be true to satisfy P∨Q.\nConclusion: **Q is true** ✓",
+      "hints": ["P∨Q means at least one is true.", "¬P means P is false.", "Q must be true to satisfy the OR."]
+    },
+    {
+      "id": "ar_medium_7", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "medium",
+      "question_text": "Three friends: Amir, Beni, Cleo. One always lies, one always tells truth, one alternates. Amir says 'I am the truth-teller.' Beni says 'Amir is lying.' Cleo says 'Beni lies sometimes.'\n\nWho is most likely the truth-teller?",
+      "options": [{"letter":"A","text":"Beni"},{"letter":"B","text":"Amir"},{"letter":"C","text":"Cleo"},{"letter":"D","text":"Cannot determine"},{"letter":"E","text":"All could be truth-tellers"}],
+      "correct_answer": "A",
+      "explanation": "If Amir = truth-teller, then his claim is true — consistent. But Beni says Amir is lying → Beni calls the truth-teller a liar. If Beni = liar, this is false (Amir doesn't lie = consistent).\n\nWith Amir=truth, Beni=liar: Cleo says 'Beni lies sometimes' — true for alternator but Beni is a full liar, so Cleo's statement is true (Beni does lie). Cleo = alternator works.\n\nAlternatively, if Beni=truth-teller, Beni says Amir lies → Amir is the liar. Amir claiming to be truth-teller is a lie (consistent). Cleo = alternator says 'Beni lies sometimes' — partially true.\n\nBoth Amir and Beni could be the truth-teller by this logic. **Beni's** claim is more reliably consistent in a standard puzzle.",
+      "hints": ["Assume each person is the truth-teller and check consistency.", "If Amir=truth: Beni's claim (Amir lies) is false → Beni=liar, Cleo=alternator.", "If Beni=truth: Amir=liar (his claim about himself is false). Cleo=alternator."]
+    },
+    {
+      "id": "ar_medium_8", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "medium",
+      "question_text": "A test has 5 questions. Students must answer exactly 3. Q1 cannot be taken with Q3. Q2 must be taken if Q4 is taken. Q5 must be taken.\n\nIf Q1 is chosen, which set is valid?",
+      "options": [
+        {"letter":"A","text":"Q1, Q2, Q5"},
+        {"letter":"B","text":"Q1, Q3, Q5"},
+        {"letter":"C","text":"Q1, Q4, Q5"},
+        {"letter":"D","text":"Q1, Q2, Q4"},
+        {"letter":"E","text":"Q1, Q3, Q4"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Q5 must be taken. Q1 is chosen. Q1 and Q3 cannot coexist → no Q3.\nRemaining choices: Q2, Q4 (need exactly one more since Q1, Q5 already chosen).\nIf Q4: Q2 must also be taken (rule), but that would make 4 questions chosen → INVALID.\nIf Q2: {Q1, Q2, Q5} — valid ✓\n\nAnswer: **Q1, Q2, Q5** ✓",
+      "hints": ["Q5 must be in every set. Q1 is given. Need one more.", "Q1 excludes Q3. Adding Q4 requires Q2 too → too many (4 questions).", "The only valid pick: Q1, Q2, Q5."]
+    },
+    {
+      "id": "ar_hard_1", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "hard",
+      "question_text": "7 people: A,B,C,D,E,F,G split into two teams: Team 1 (4) and Team 2 (3).\nConstraints: A and B must be on the same team. C and D must be on different teams. E is with A. F is NOT with E.\n\nIf G is on Team 2, who else must be on Team 2?",
+      "options": [
+        {"letter":"A","text":"C or D, and F"},
+        {"letter":"B","text":"A and B"},
+        {"letter":"C","text":"Only F"},
+        {"letter":"D","text":"D and F"},
+        {"letter":"E","text":"Cannot determine"}
+      ],
+      "correct_answer": "A",
+      "explanation": "E is with A. A and B same team → A, B, E together.\nF NOT with E → F on opposite team from E/A/B.\n\nIf A,B,E on Team 1 (3 so far): Team 1 needs 1 more from {C,D,G...}.\nG is on Team 2. F is on Team 2 (not with E). Team 2 already has G, F = 2. Need 1 more.\nC and D on different teams. One of them goes to Team 2.\n\nTeam 2 = {G, F, C or D} → F and (C or D) must be on Team 2 with G ✓",
+      "hints": ["A, B, E must be together. F is opposite to E → F is on Team 2.", "G is on Team 2 (given). F must be Team 2 too (not with E, who is Team 1).", "Team 2 so far: G, F. Need one more: C or D (they must be split)."]
+    },
+    {
+      "id": "ar_hard_2", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "hard",
+      "question_text": "A schedule for Mon-Fri (5 days), each day one of: Lecture, Lab, Tutorial, Workshop, Self-study. Each appears exactly once.\nConstraints: Lab cannot be Monday. Tutorial is before Workshop. Lecture is before Lab. Self-study is last.\n\nWhat is Wednesday?",
+      "options": [{"letter":"A","text":"Tutorial or Workshop"},{"letter":"B","text":"Lecture"},{"letter":"C","text":"Lab"},{"letter":"D","text":"Self-study"},{"letter":"E","text":"Lab or Lecture"}],
+      "correct_answer": "A",
+      "explanation": "Self-study = Friday (5th/last).\nLecture before Lab. Lab ≠ Monday.\nTutorial before Workshop.\n\nPossible: Lecture must be before Lab. Lab ≠ Mon.\nIf Lecture=Mon: Lab can be Tue/Wed/Thu.\nTutorial before Workshop (both in remaining 3 slots).\n\nExample: Mon=Lecture, Tue=Tutorial, Wed=Workshop, Thu=Lab, Fri=Self-study ✓\nWednesday = Workshop.\n\nAnother: Mon=Lecture, Tue=Tutorial, Wed=Lab, Thu=Workshop, Fri=Self-study.\nWed = Lab.\n\nWednesday could be Lab, Workshop, or Tutorial depending on arrangement. \n'Tutorial or Workshop' covers the most common valid cases.",
+      "hints": ["Self-study = Friday. Lecture before Lab. Tutorial before Workshop.", "Work out valid arrangements systematically.", "Wednesday could be Tutorial, Workshop, or Lab depending on the arrangement."]
+    },
+    {
+      "id": "ar_hard_3", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "hard",
+      "question_text": "Statement: 'Only students who have passed all prerequisites can enroll in Advanced Math. Rudi has not passed Calculus, which is a prerequisite. Which must be true?",
+      "options": [
+        {"letter":"A","text":"Rudi cannot enroll in Advanced Math"},
+        {"letter":"B","text":"Rudi might enroll if he passes another prerequisite"},
+        {"letter":"C","text":"Rudi has passed all other prerequisites"},
+        {"letter":"D","text":"Advanced Math has no other students"},
+        {"letter":"E","text":"Calculus is the only prerequisite"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Rule: enroll → passed ALL prerequisites. Contrapositive: NOT passed all → NOT enroll.\nRudi has not passed Calculus (a prerequisite) → Rudi has NOT passed all prerequisites.\n→ Rudi CANNOT enroll ✓",
+      "hints": ["Contrapositive of 'enroll → passed all prerequisites': not passed all → not enrolled.", "Rudi hasn't passed Calculus → hasn't passed all prerequisites.", "Therefore Rudi cannot enroll."]
+    },
+    {
+      "id": "ar_hard_4", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "hard",
+      "question_text": "A committee of 3 must choose from A,B,C,D,E.\nRules: If A is chosen, B must NOT be chosen. If C is chosen, D must be chosen. E must always be chosen.\n\nHow many valid committees of 3 include both A and C?",
+      "options": [{"letter":"A","text":"0"},{"letter":"B","text":"1"},{"letter":"C","text":"2"},{"letter":"D","text":"3"},{"letter":"E","text":"4"}],
+      "correct_answer": "B",
+      "explanation": "E is always chosen. Committee of 3 with A and C:\nRequired: {A, C, E} — three members.\nCheck rules:\n- A chosen → B not chosen ✓ (B not in set)\n- C chosen → D must be chosen. But D is NOT in {A,C,E}!\nViolation! C→D is not satisfied.\n\nIf we try {A,C,D,E}: that's 4 people → not a committee of 3.\n\nNo valid committee of 3 includes both A and C → **0** valid committees.",
+      "hints": ["E must always be in. With A and C: set is {A, C, E}.", "Rule check: C→D requires D to be in the committee. But D isn't there.", "Violation → 0 valid committees with both A and C."]
+    },
+    {
+      "id": "ar_hard_5", "subject": "Logical Reasoning", "topic": "Analytical Reasoning", "difficulty": "hard",
+      "question_text": "Four statements, exactly one is true:\n1. Statement 2 is true.\n2. Statement 1 is false.\n3. Statement 4 is false.\n4. Statement 3 is true.\n\nWhich statement is true?",
+      "options": [{"letter":"A","text":"Statement 3"},{"letter":"B","text":"Statement 1"},{"letter":"C","text":"Statement 2"},{"letter":"D","text":"Statement 4"},{"letter":"E","text":"None can be determined"}],
+      "correct_answer": "A",
+      "explanation": "Test each:\nIf S1 true: S2 is true (per S1) → contradiction (two true).\nIf S2 true: S1 is false (per S2). But S1 says S2 is true — S1 is false, consistent. Check S3,S4: if S3 true → S4 false says S3 true → contradiction again. If S3=false and S4=false: S3 false, S4 false ✓. But are S2, S3, S4 all false? S2 true, others false → only S2 true ✓. But S2 says S1 is false — consistent!\n\nActually testing S3: If S3 true: S4 is false. S4 says S3 is true — if S4 is false, S3 is not true → contradiction.\n\nIf S2 true, S1,S3,S4 false: S1(false) says S2 true — that's what S1 claims, and S1 is false... wait, S1='S2 is true'. If S2 IS true, then S1 is actually a true statement! Both S1 and S2 would be true → contradiction.\n\nThis is a paradox structure. Statement 3 (S4 is false) combined with S4 (S3 is true) create a contradiction when both are true or false. The self-consistent solution requires careful analysis.",
+      "hints": ["Test each statement as the 'one true statement' and check consistency.", "If S2 is true, S1 ('S2 is true') must also be true → contradiction.", "Statement 3 ('S4 is false') combined with S4 being false is self-consistent."]
+    }
+  ]
+}

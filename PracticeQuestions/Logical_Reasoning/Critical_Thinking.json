@@ -1,0 +1,339 @@
+{
+  "subject": "Logical Reasoning",
+  "topic": "Critical Thinking",
+  "introduction": "Critical thinking in SIMAK involves evaluating arguments: identifying conclusions, premise strength, assumptions, and logical flaws. Key question types: 'Which best strengthens/weakens?', 'What assumption is the argument based on?', 'What can be inferred?', and 'Which argument is most/least logical?'",
+  "key_formulas": [
+    {"name": "Argument structure", "formula": "\\text{Premise(s)} + \\text{Assumption} \\Rightarrow \\text{Conclusion}"},
+    {"name": "Strengthen", "formula": "\\text{Add info that makes the conclusion more likely true}"},
+    {"name": "Weaken", "formula": "\\text{Add info that makes the conclusion less likely true}"},
+    {"name": "Assumption", "formula": "\\text{Unstated premise the argument REQUIRES to be valid}"},
+    {"name": "Flaw", "formula": "\\text{Error in reasoning: correlation≠causation, hasty generalization, false dichotomy}"}
+  ],
+  "tips_and_tricks": [
+    "CONCLUSION = what the author is trying to prove (look for: 'therefore', 'thus', 'hence', 'so').",
+    "PREMISE = evidence provided to support the conclusion (look for: 'because', 'since', 'given that').",
+    "ASSUMPTION = an unstated premise the argument depends on. Negate it — if the argument collapses, it's the assumption.",
+    "To STRENGTHEN: add a premise that supports the conclusion or rules out an alternative explanation.",
+    "To WEAKEN: add a premise that challenges the link between evidence and conclusion.",
+    "Common flaws: correlation ≠ causation, sample size too small, false dichotomy (only two options when more exist).",
+    "When asked 'what can be inferred': choose the most modest, directly supported statement."
+  ],
+  "worked_examples": [
+    {
+      "title": "Example 1: Identifying the assumption",
+      "question": "Argument: 'Students who eat breakfast perform better on exams. Therefore, we should provide free breakfast to all students.' What is the key assumption?",
+      "solution": [
+        "Step 1: Conclusion: provide free breakfast to all students.",
+        "Step 2: Premise: breakfast-eating students do better.",
+        "Step 3: The gap: does forcing/providing breakfast cause better performance?",
+        "Step 4: Assumption: Having free breakfast available will cause students to actually eat it (and that eating breakfast is the CAUSE, not merely correlated with, better performance).",
+        "Step 5: Also: that providing breakfast is feasible and the most effective way to improve performance."
+      ]
+    },
+    {
+      "title": "Example 2: Strengthening vs. Weakening",
+      "question": "Argument: 'City A introduced bike lanes and its traffic accidents decreased by 30%. Therefore, bike lanes reduce traffic accidents.' What weakens this?",
+      "solution": [
+        "Step 1: The conclusion assumes bike lanes CAUSED the accident decrease.",
+        "Step 2: A weakener disrupts this causal link.",
+        "Step 3: Weakener: 'At the same time bike lanes were added, traffic enforcement was also significantly increased.' → The enforcement, not the bike lanes, could explain the accident decrease."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "ct_easy_1", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "easy",
+      "question_text": "Argument: 'All athletes train daily. Marco trains daily. Therefore, Marco is an athlete.' What logical flaw does this commit?",
+      "options": [
+        {"letter":"A","text":"Affirming the consequent — assumes the converse is true"},
+        {"letter":"B","text":"Ad hominem — attacks the person"},
+        {"letter":"C","text":"False dichotomy — ignores other options"},
+        {"letter":"D","text":"Hasty generalization"},
+        {"letter":"E","text":"No flaw — the argument is valid"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The argument says: if athlete → trains daily. Then because Marco trains daily → Marco is athlete.\nThis is **affirming the consequent**: (A→B) + B → concluding A. INVALID.\nMarco could train daily for other reasons (e.g., being a gym enthusiast).",
+      "hints": ["Is 'trains daily' exclusive to athletes?", "The argument assumes ONLY athletes train daily — not stated.", "Flaw: affirming the consequent."]
+    },
+    {
+      "id": "ct_easy_2", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "easy",
+      "question_text": "Find the conclusion: 'Since students who regularly exercise get higher GPAs, and exercise helps concentration, schools should make physical education mandatory.'",
+      "options": [
+        {"letter":"A","text":"Schools should make physical education mandatory"},
+        {"letter":"B","text":"Students who exercise get higher GPAs"},
+        {"letter":"C","text":"Exercise helps concentration"},
+        {"letter":"D","text":"Physical education is currently not mandatory"},
+        {"letter":"E","text":"GPAs are an important metric"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The **conclusion** is the main point the argument is trying to prove: **'Schools should make physical education mandatory.'**\nThe rest are premises (evidence) supporting this recommendation.",
+      "hints": ["The conclusion is what the argument is trying to persuade you to accept.", "Look for the main recommendation or claim.", "'Schools should make PE mandatory' is the conclusion."]
+    },
+    {
+      "id": "ct_easy_3", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "easy",
+      "question_text": "Which of the following, if true, WEAKENS this argument? 'Ice cream sales and drowning rates both increase in summer. Therefore, eating ice cream causes drowning.'",
+      "options": [
+        {"letter":"A","text":"Both ice cream sales and drowning increase because people swim more in hot weather"},
+        {"letter":"B","text":"Ice cream is popular worldwide"},
+        {"letter":"C","text":"Drowning rates are high in coastal cities"},
+        {"letter":"D","text":"Ice cream sales are highest in July"},
+        {"letter":"E","text":"Lifeguards reduce drowning rates"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The argument wrongly assumes correlation = causation. **A** provides a **third variable (hot weather/summer)** that explains BOTH trends without any causal link between ice cream and drowning → this **weakens** the argument by explaining the correlation differently.",
+      "hints": ["The argument says correlation = causation.", "What if both are caused by a third factor (hot weather)?", "Introducing a confounding variable weakens the causal claim."]
+    },
+    {
+      "id": "ct_easy_4", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "easy",
+      "question_text": "What type of reasoning error is: 'You're either with us or against us. Since you didn't support our proposal, you are against us.'",
+      "options": [
+        {"letter":"A","text":"False dichotomy"},
+        {"letter":"B","text":"Ad hominem"},
+        {"letter":"C","text":"Slippery slope"},
+        {"letter":"D","text":"Begging the question"},
+        {"letter":"E","text":"Hasty generalization"}
+      ],
+      "correct_answer": "A",
+      "explanation": "**False dichotomy** = presenting only two options when more exist.\nNot supporting the proposal could mean: disagreement with one aspect, neutrality, absence, or a different position — not simply 'against'.",
+      "hints": ["Are there really only two options: for or against?", "Someone might not have voted due to absence, or partial agreement.", "False dichotomy = limiting to two options when more exist."]
+    },
+    {
+      "id": "ct_easy_5", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "easy",
+      "question_text": "Argument: '5 out of 10 students I asked said Math is their favorite subject. Therefore, Math is the most popular subject among students.' What is the main flaw?",
+      "options": [
+        {"letter":"A","text":"Hasty generalization from a small sample"},
+        {"letter":"B","text":"Ad hominem"},
+        {"letter":"C","text":"False cause"},
+        {"letter":"D","text":"Circular reasoning"},
+        {"letter":"E","text":"No flaw"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Drawing a universal conclusion from only 10 students is a **hasty generalization** — the sample is too small and may not represent all students.",
+      "hints": ["How large is the sample? Is 10 students representative of all students?", "Drawing broad conclusions from small samples = hasty generalization.", "Answer: hasty generalization."]
+    },
+    {
+      "id": "ct_easy_6", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "easy",
+      "question_text": "Which sentence is the PREMISE in: 'The museum should extend its hours because many people cannot visit during the current operating times.'",
+      "options": [
+        {"letter":"A","text":"Many people cannot visit during current operating times"},
+        {"letter":"B","text":"The museum should extend its hours"},
+        {"letter":"C","text":"Museums have limited hours"},
+        {"letter":"D","text":"More visitors means more revenue"},
+        {"letter":"E","text":"People prefer flexible schedules"}
+      ],
+      "correct_answer": "A",
+      "explanation": "**'Because'** signals a premise: 'many people cannot visit during current operating times' is the **reason given** to support the conclusion.",
+      "hints": ["'Because' introduces a premise (reason/evidence).", "The claim being supported is 'extend hours'.", "The premise is: 'many people cannot visit during current hours'."]
+    },
+    {
+      "id": "ct_easy_7", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "easy",
+      "question_text": "Which of these represents circular reasoning (begging the question)?",
+      "options": [
+        {"letter":"A","text":"'This medicine works because it's made by a reputable company, and we know it's reputable because its medicines work.'"},
+        {"letter":"B","text":"'Exercise helps you lose weight because it burns calories.'"},
+        {"letter":"C","text":"'Many studies show coffee improves alertness; therefore, coffee is useful.'"},
+        {"letter":"D","text":"'If you miss one class, you'll fail the whole course.'"},
+        {"letter":"E","text":"'All politicians lie, so this politician is lying.'"}
+      ],
+      "correct_answer": "A",
+      "explanation": "**Circular reasoning**: the conclusion is used as a premise. Option A says: medicine works because company is reputable, AND company is reputable because medicine works. The reasoning circles back on itself.",
+      "hints": ["Circular = using the conclusion as its own evidence.", "Check A: 'works because reputable, reputable because works' — completely circular.", "Answer: A."]
+    },
+    {
+      "id": "ct_easy_8", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "easy",
+      "question_text": "Argument: 'We must ban social media for teenagers. Otherwise, teen mental health will continue to deteriorate.' This is an example of:",
+      "options": [
+        {"letter":"A","text":"False dichotomy — ban is not the only solution"},
+        {"letter":"B","text":"Slippery slope"},
+        {"letter":"C","text":"Hasty generalization"},
+        {"letter":"D","text":"Ad hominem"},
+        {"letter":"E","text":"Strong, valid argument"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The argument presents only TWO options: ban social media OR mental health deteriorates. But there could be other solutions (regulation, education, parental controls). → **False dichotomy** ✓",
+      "hints": ["Is banning social media the ONLY way to improve teen mental health?", "Other options exist (regulation, education, digital literacy).", "False dichotomy — only two options presented."]
+    },
+    {
+      "id": "ct_medium_1", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "medium",
+      "question_text": "Argument: 'After the company hired a new CEO, profits increased by 40%. Clearly, the new CEO's leadership is responsible for the improvement.'\n\nWhich statement most WEAKENS this argument?",
+      "options": [
+        {"letter":"A","text":"The company had already implemented a cost reduction plan before the CEO was hired"},
+        {"letter":"B","text":"The new CEO previously worked at a successful company"},
+        {"letter":"C","text":"The CEO received a large bonus after the profits increased"},
+        {"letter":"D","text":"The industry as a whole saw a 35% profit increase during the same period"},
+        {"letter":"E","text":"The company operates in multiple countries"}
+      ],
+      "correct_answer": "D",
+      "explanation": "The argument claims the CEO caused the profit increase (post hoc reasoning). **D weakens** it most by showing the WHOLE INDUSTRY gained similarly — suggesting the increase was due to industry-wide factors, NOT specifically the CEO's actions.",
+      "hints": ["The argument assumes the CEO caused the improvement.", "What would show the improvement wasn't specifically due to the CEO?", "If the whole industry improved similarly, the CEO isn't the unique cause."]
+    },
+    {
+      "id": "ct_medium_2", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "medium",
+      "question_text": "Argument: 'Students in Finland score highest in international tests. Finland has a shorter school day. Therefore, shorter school days lead to better academic results.'\n\nWhat is the main assumption?",
+      "options": [
+        {"letter":"A","text":"The shorter school day is the primary reason for Finland's high scores"},
+        {"letter":"B","text":"All countries should copy Finland's education system"},
+        {"letter":"C","text":"International test scores accurately measure education quality"},
+        {"letter":"D","text":"Finland's students are more intelligent"},
+        {"letter":"E","text":"Longer school days are harmful"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The argument jumps from 'Finland has high scores AND short days' to 'short days CAUSE high scores.' The **key assumption** is that the school day length is the PRIMARY (or major) cause of the high scores, ignoring other factors (teacher quality, culture, funding, etc.).",
+      "hints": ["The argument claims a causal link. What must be assumed?", "They assume short school days = the cause of high scores.", "The assumption: short day length is the primary reason — ignoring other factors."]
+    },
+    {
+      "id": "ct_medium_3", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "medium",
+      "question_text": "Argument: 'Our product is eco-friendly, affordable, and high quality. You should choose our product.'\n\nWhich is the BEST evidence to STRENGTHEN this claim?",
+      "options": [
+        {"letter":"A","text":"Independent lab tests confirm all three claimed attributes"},
+        {"letter":"B","text":"The founder founded other companies before this one"},
+        {"letter":"C","text":"The product comes in multiple colors"},
+        {"letter":"D","text":"The company has an active Instagram account"},
+        {"letter":"E","text":"The product has been sold for 3 years"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The conclusion rests on three claims (eco-friendly, affordable, quality). **Independent lab tests** provide objective verification of these claims → directly strengthens the argument by providing external evidence.",
+      "hints": ["What would most directly support the three claims made?", "Independent verification (lab tests) vs. unrelated company info.", "Lab tests confirming the claims most directly strengthens the argument."]
+    },
+    {
+      "id": "ct_medium_4", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "medium",
+      "question_text": "Argument: 'The city's crime rate dropped after the new police chief was appointed. The new chief must have implemented effective policies.'\n\nWhich adds the MOST doubt to this conclusion?",
+      "options": [
+        {"letter":"A","text":"The new chief hired 50% more officers"},
+        {"letter":"B","text":"A major economic boom occurred in the city during the same period, reducing poverty"},
+        {"letter":"C","text":"The chief has a PhD in criminology"},
+        {"letter":"D","text":"Crime rates dropped in the chief's previous city too"},
+        {"letter":"E","text":"The city council praised the chief"}
+      ],
+      "correct_answer": "B",
+      "explanation": "**B introduces a confounding variable** — a major economic boom reduces poverty, which typically reduces crime. This alternative explanation casts doubt on whether the chief's policies were the actual cause.",
+      "hints": ["The argument assumes the chief's policies caused crime reduction.", "What alternative explanation could explain the crime drop?", "An economic boom reducing poverty could equally explain the crime drop."]
+    },
+    {
+      "id": "ct_medium_5", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "medium",
+      "question_text": "Argument: 'Vegetarians live longer than non-vegetarians. Therefore, eating meat reduces lifespan.'\n\nWhich flaw is present?",
+      "options": [
+        {"letter":"A","text":"Correlation is treated as causation; other lifestyle factors aren't considered"},
+        {"letter":"B","text":"False dichotomy"},
+        {"letter":"C","text":"Ad hominem"},
+        {"letter":"D","text":"Begging the question"},
+        {"letter":"E","text":"No flaw — the argument is sound"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Vegetarians may also exercise more, smoke less, have lower stress, etc. The argument fails to account for **confounding variables** — assuming diet alone causes the lifespan difference. Correlation ≠ causation here.",
+      "hints": ["Do vegetarians differ from non-vegetarians ONLY in diet?", "Other lifestyle factors (exercise, smoking) could explain the lifespan difference.", "Correlation treated as causation, ignoring confounders."]
+    },
+    {
+      "id": "ct_medium_6", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "medium",
+      "question_text": "Argument: 'No studies have proven that this supplement is harmful. Therefore, it must be safe.'\n\nWhat reasoning error is this?",
+      "options": [
+        {"letter":"A","text":"Argument from ignorance — absence of evidence of harm ≠ evidence of safety"},
+        {"letter":"B","text":"Slippery slope"},
+        {"letter":"C","text":"False dichotomy"},
+        {"letter":"D","text":"Hasty generalization"},
+        {"letter":"E","text":"Circular reasoning"}
+      ],
+      "correct_answer": "A",
+      "explanation": "**Argument from ignorance**: 'No proof it's harmful' does NOT mean it IS safe. Studies may simply not have been conducted yet. The absence of evidence is not evidence of absence.",
+      "hints": ["'No studies proving harm' = lack of evidence.", "Absence of evidence ≠ evidence of safety.", "Argument from ignorance."]
+    },
+    {
+      "id": "ct_medium_7", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "medium",
+      "question_text": "Which argument is MOST logically sound?",
+      "options": [
+        {"letter":"A","text":"Everyone I know prefers coffee over tea, so most people prefer coffee."},
+        {"letter":"B","text":"A nationwide survey of 10,000 representative adults found 65% prefer coffee; therefore, coffee is more popular than tea in this country."},
+        {"letter":"C","text":"Coffee tastes better, so coffee is more popular."},
+        {"letter":"D","text":"Coffee is sold everywhere, so it must be preferred by most people."},
+        {"letter":"E","text":"Tea is not popular in my city, so coffee must be more popular nationwide."}
+      ],
+      "correct_answer": "B",
+      "explanation": "**B** uses a large (10,000), representative, nationwide sample and draws a proportionally appropriate conclusion. It avoids hasty generalization, personal bias, and confounding issues present in all other options.",
+      "hints": ["Which argument has the strongest evidence?", "Look for: large, representative sample, appropriate conclusion.", "B: 10,000 nationwide survey → valid evidence for nationwide claim."]
+    },
+    {
+      "id": "ct_medium_8", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "medium",
+      "question_text": "Statement: 'Companies that offer remote work have higher employee satisfaction scores. Therefore, companies should offer remote work.'\n\nWhich of the following, if true, STRENGTHENS this argument most?",
+      "options": [
+        {"letter":"A","text":"Higher employee satisfaction is strongly correlated with lower turnover and higher productivity"},
+        {"letter":"B","text":"Remote work requires good internet connection"},
+        {"letter":"C","text":"Some employees prefer working in an office"},
+        {"letter":"D","text":"Remote work companies save on office space costs"},
+        {"letter":"E","text":"The study on satisfaction was conducted during a pandemic"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The argument: remote work → higher satisfaction → should be adopted. A gap: WHY does higher satisfaction matter?\n**A bridges this gap**: higher satisfaction → lower turnover + higher productivity → concrete business benefit → therefore companies should offer remote work ✓.",
+      "hints": ["The argument needs to show WHY higher satisfaction matters for the recommendation.", "Higher satisfaction → better outcomes (productivity, retention) strengthens the business case.", "A directly provides the reason why satisfaction scores matter."]
+    },
+    {
+      "id": "ct_hard_1", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "hard",
+      "question_text": "Argument: 'The Broken Windows Theory holds that visible signs of disorder (e.g., broken windows) encourage more crime. City X repaired all broken windows and graffiti, and crime dropped by 20%. Critics say correlation doesn't prove causation.'\n\nWhich piece of evidence would BEST support the causal relationship?",
+      "options": [
+        {"letter":"A","text":"Controlled experiments in similar neighborhoods — some repaired, some not — showing crime drops only in repaired areas"},
+        {"letter":"B","text":"Interviews with residents saying they feel safer after repairs"},
+        {"letter":"C","text":"Crime rates in neighboring cities also dropped simultaneously"},
+        {"letter":"D","text":"The city also deployed more police during the same period"},
+        {"letter":"E","text":"The mayor publicly credited the repair program for the crime reduction"}
+      ],
+      "correct_answer": "A",
+      "explanation": "To establish **causation** (not just correlation), you need a **controlled comparison** — holding all other variables constant and manipulating only the treatment (repairs). Option A describes a randomized or quasi-experimental design, the gold standard for establishing causation.",
+      "hints": ["To prove causation, you need a controlled experiment.", "A controlled trial compares treatment (repairs) vs. control (no repairs) groups.", "Option A provides exactly this — the strongest evidence for causation."]
+    },
+    {
+      "id": "ct_hard_2", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "hard",
+      "question_text": "Argument: 'We must cut education funding. Education improves critical thinking. Critical thinkers question authority. Questioning authority leads to social instability. Social instability is dangerous. Therefore, education is dangerous.'\n\nWhat is the primary flaw?",
+      "options": [
+        {"letter":"A","text":"Slippery slope — an implausible causal chain from education to danger"},
+        {"letter":"B","text":"Hasty generalization"},
+        {"letter":"C","text":"Ad hominem"},
+        {"letter":"D","text":"False authority"},
+        {"letter":"E","text":"The argument is logically valid"}
+      ],
+      "correct_answer": "A",
+      "explanation": "**Slippery slope fallacy**: a chain of loosely connected consequences is assumed to lead inevitably to an extreme conclusion. Each step may be questionable (does critical thinking always question authority? Does all questioning cause instability?). The chain is presented as inevitable without justification.",
+      "hints": ["The argument creates a long chain: education → critical thinking → questioning → instability → danger.", "Is each step in the chain inevitable or exaggerated?", "Presenting an implausible chain as inevitable = slippery slope."]
+    },
+    {
+      "id": "ct_hard_3", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "hard",
+      "question_text": "A study finds that students who were praised for 'intelligence' after a first test performed WORSE on a subsequent harder test than those praised for 'effort.' The researchers conclude: 'Praising effort, not intelligence, leads to better resilience.'\n\nWhich best identifies a key ASSUMPTION of this conclusion?",
+      "options": [
+        {"letter":"A","text":"Better performance on the second test is a reliable indicator of resilience"},
+        {"letter":"B","text":"Students in both groups received the same quality of teaching"},
+        {"letter":"C","text":"The praise type is the ONLY systematic difference between the groups"},
+        {"letter":"D","text":"Resilience is more important than intelligence"},
+        {"letter":"E","text":"The study was conducted ethically"}
+      ],
+      "correct_answer": "C",
+      "explanation": "To conclude that praise TYPE caused the difference in performance, the researchers must assume that **praise type was the ONLY systematic difference** between the groups. If other variables differed (teacher attitude, student selection, etc.), those could explain the results instead.",
+      "hints": ["For causation to hold: the difference must be due ONLY to praise type.", "What must be true for praise type to be the causal factor?", "Key assumption: praise type is the only systematic difference."]
+    },
+    {
+      "id": "ct_hard_4", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "hard",
+      "question_text": "Paradox: A medical treatment has a 90% survival rate, but Hospital A has an 80% survival rate and Hospital B has an 85% survival rate. How can the national average be higher than both hospitals?",
+      "options": [
+        {"letter":"A","text":"Simpson's Paradox — Hospital A treats mostly severe cases; when stratified, both hospitals outperform the national figure for each severity"},
+        {"letter":"B","text":"Statistical error in the national data"},
+        {"letter":"C","text":"The hospitals treat different diseases"},
+        {"letter":"D","text":"The national survival rate is calculated differently"},
+        {"letter":"E","text":"This is impossible"}
+      ],
+      "correct_answer": "A",
+      "explanation": "**Simpson's Paradox**: when data is aggregated, the trend reverses compared to subgroup analysis. Hospital A may treat mostly high-severity cases (lower survival regardless of quality). When stratified by severity, each hospital may have better survival than the national average for that severity level. The national 90% includes many low-severity cases that easily survive.",
+      "hints": ["Can overall averages mislead compared to subgroup analysis?", "What if Hospital A specializes in severe/terminal cases that have lower survival rates?", "Simpson's Paradox: aggregated data reverses the individual trends."]
+    },
+    {
+      "id": "ct_hard_5", "subject": "Logical Reasoning", "topic": "Critical Thinking", "difficulty": "hard",
+      "question_text": "Argument: 'Country A spends 8% of GDP on healthcare and has an average life expectancy of 82 years. Country B spends 16% of GDP on healthcare and has an average life expectancy of 78 years. Therefore, higher healthcare spending does not improve life expectancy.'\n\nWhich response BEST challenges this conclusion?",
+      "options": [
+        {"letter":"A","text":"Country B may have worse lifestyle factors (diet, obesity rates) that counteract the higher spending"},
+        {"letter":"B","text":"Country A has lower population density"},
+        {"letter":"C","text":"Country B's doctors are less qualified"},
+        {"letter":"D","text":"The spending data may have been collected in different years"},
+        {"letter":"E","text":"Life expectancy is not the only health metric"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The argument ignores confounding variables. **A** identifies that Country B's worse lifestyle factors could explain the lower life expectancy DESPITE higher spending — meaning the spending might actually be compensating for poor health behaviors, and without it, life expectancy might be even lower.",
+      "hints": ["The argument compares two countries without controlling for other differences.", "What if Country B's population is in worse health baseline?", "Higher spending in Country B might be keeping life expectancy as high as 78 despite worse lifestyle factors."]
+    }
+  ]
+}

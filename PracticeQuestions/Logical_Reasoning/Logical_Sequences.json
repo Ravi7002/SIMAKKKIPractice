@@ -1,0 +1,215 @@
+{
+  "subject": "Logical Reasoning",
+  "topic": "Logical Sequences",
+  "introduction": "Logical sequences test pattern recognition in numbers, letters, and figures. For number sequences: find the rule (arithmetic, geometric, quadratic, alternating). For letter sequences: use alphabetical positions. For figure sequences: identify changes in shape, size, rotation, shading, or count. The key is to find the SIMPLEST rule that fits all given terms.",
+  "key_formulas": [
+    {"name": "Arithmetic sequence", "formula": "a_n = a_1 + (n-1)d, \\quad \\text{diff is constant}"},
+    {"name": "Geometric sequence", "formula": "a_n = a_1 \\cdot r^{n-1}, \\quad \\text{ratio is constant}"},
+    {"name": "Quadratic sequence", "formula": "\\text{2nd differences are constant}"},
+    {"name": "Fibonacci-like", "formula": "a_n = a_{n-1} + a_{n-2}"},
+    {"name": "Alternating sequence", "formula": "\\text{Two interleaved sequences: odd terms and even terms}"},
+    {"name": "Letter position", "formula": "A=1, B=2, ..., Z=26"}
+  ],
+  "tips_and_tricks": [
+    "Always compute differences first: if constant → arithmetic. If differences grow by constant → quadratic.",
+    "If differences aren't constant, try ratios (divide consecutive terms).",
+    "For letter sequences: convert to numbers (A=1, B=2...) and find the numeric pattern.",
+    "Alternating sequences: separate odd-indexed and even-indexed terms and find pattern in each.",
+    "For figure sequences: track ONE attribute at a time (shape count, rotation angle, shading pattern).",
+    "If you can't find a pattern, check if every other term forms a sequence.",
+    "Quadratic: 1, 4, 9, 16... (perfect squares). Triangular: 1, 3, 6, 10, 15..."
+  ],
+  "worked_examples": [
+    {
+      "title": "Example 1: Second-difference sequence",
+      "question": "Find the next term: 3, 7, 13, 21, 31, ?",
+      "solution": [
+        "Step 1: First differences: 4, 6, 8, 10 (increasing by 2 each time).",
+        "Step 2: Second differences: 2, 2, 2 — constant! This is a quadratic sequence.",
+        "Step 3: Next first difference: 10+2 = 12.",
+        "Step 4: Next term: 31+12 = 43."
+      ]
+    },
+    {
+      "title": "Example 2: Alternating sequence",
+      "question": "Find the next term: 2, 3, 4, 6, 8, 12, 16, ?",
+      "solution": [
+        "Step 1: Separate odd-indexed: 2, 4, 8, 16 (×2 each time).",
+        "Step 2: Even-indexed: 3, 6, 12 (×2 each time).",
+        "Step 3: The next term is odd-indexed (9th), following 2,4,8,16 → next is 32? But wait...",
+        "Step 4: Actually: 2×2=4×2=8×2=16. Next odd: 32. Answer: 24 for even, or 32 for odd.",
+        "Step 5: If sequence is 2,3,4,6,8,12,16,24,32... Next after 16 is 24 (even series: 3,6,12,24)."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "ls_easy_1", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "easy",
+      "question_text": "Find the next number: 2, 5, 8, 11, 14, ?",
+      "options": [{"letter":"A","text":"17"},{"letter":"B","text":"16"},{"letter":"C","text":"18"},{"letter":"D","text":"19"},{"letter":"E","text":"15"}],
+      "correct_answer": "A",
+      "explanation": "Differences: +3, +3, +3, +3 → arithmetic with d=3.\nNext: 14+3 = **17** ✓",
+      "hints": ["Compute differences between consecutive terms.", "Each difference = 3 (arithmetic).", "14+3 = 17."]
+    },
+    {
+      "id": "ls_easy_2", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "easy",
+      "question_text": "Find the next number: 3, 6, 12, 24, 48, ?",
+      "options": [{"letter":"A","text":"96"},{"letter":"B","text":"72"},{"letter":"C","text":"84"},{"letter":"D","text":"100"},{"letter":"E","text":"60"}],
+      "correct_answer": "A",
+      "explanation": "Ratios: 6/3=2, 12/6=2, 24/12=2, 48/24=2 → geometric with r=2.\nNext: 48×2 = **96** ✓",
+      "hints": ["Check ratios between consecutive terms.", "Each ratio = 2 (geometric).", "48×2 = 96."]
+    },
+    {
+      "id": "ls_easy_3", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "easy",
+      "question_text": "Find the next letter: A, C, E, G, ?",
+      "options": [{"letter":"A","text":"I"},{"letter":"B","text":"H"},{"letter":"C","text":"J"},{"letter":"D","text":"K"},{"letter":"E","text":"F"}],
+      "correct_answer": "A",
+      "explanation": "A(1), C(3), E(5), G(7) — every other letter, +2 each step.\nNext: G+2 = I (position 9) ✓",
+      "hints": ["Convert to numbers: 1,3,5,7...", "Difference = +2 each time.", "7+2=9 = I."]
+    },
+    {
+      "id": "ls_easy_4", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "easy",
+      "question_text": "Find the next number: 1, 1, 2, 3, 5, 8, ?",
+      "options": [{"letter":"A","text":"13"},{"letter":"B","text":"11"},{"letter":"C","text":"15"},{"letter":"D","text":"16"},{"letter":"E","text":"10"}],
+      "correct_answer": "A",
+      "explanation": "Fibonacci: each term = sum of two previous.\n5+8 = **13** ✓",
+      "hints": ["Each term = previous + the one before that.", "5+8 = 13.", "Answer: 13."]
+    },
+    {
+      "id": "ls_easy_5", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "easy",
+      "question_text": "Find the next number: 100, 50, 25, 12.5, ?",
+      "options": [{"letter":"A","text":"6.25"},{"letter":"B","text":"6"},{"letter":"C","text":"7.5"},{"letter":"D","text":"5"},{"letter":"E","text":"10"}],
+      "correct_answer": "A",
+      "explanation": "Halving each time (÷2): 100→50→25→12.5→**6.25** ✓",
+      "hints": ["Each term is halved.", "12.5 ÷ 2 = 6.25.", "Answer: 6.25."]
+    },
+    {
+      "id": "ls_easy_6", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "easy",
+      "question_text": "Find the missing number: 2, 4, ?, 16, 32.",
+      "options": [{"letter":"A","text":"8"},{"letter":"B","text":"6"},{"letter":"C","text":"10"},{"letter":"D","text":"12"},{"letter":"E","text":"14"}],
+      "correct_answer": "A",
+      "explanation": "Geometric sequence with r=2: 2, 4, 8, 16, 32.\nMissing term = **8** ✓",
+      "hints": ["Pattern: multiply by 2 each time.", "4×2 = 8.", "Answer: 8."]
+    },
+    {
+      "id": "ls_easy_7", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "easy",
+      "question_text": "Find the next number: 1, 4, 9, 16, 25, ?",
+      "options": [{"letter":"A","text":"36"},{"letter":"B","text":"30"},{"letter":"C","text":"35"},{"letter":"D","text":"49"},{"letter":"E","text":"40"}],
+      "correct_answer": "A",
+      "explanation": "Perfect squares: 1²,2²,3²,4²,5² → next: 6²=**36** ✓",
+      "hints": ["These are perfect squares: 1,4,9,16,25...", "Next = 6² = 36.", "Answer: 36."]
+    },
+    {
+      "id": "ls_easy_8", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "easy",
+      "question_text": "Find the next pair: 2, 4 | 3, 9 | 4, 16 | 5, ?",
+      "options": [{"letter":"A","text":"25"},{"letter":"B","text":"20"},{"letter":"C","text":"10"},{"letter":"D","text":"30"},{"letter":"E","text":"15"}],
+      "correct_answer": "A",
+      "explanation": "Pattern: first number, then its square: 2→4, 3→9, 4→16, 5→**25** ✓",
+      "hints": ["Each pair: n, n².", "5² = 25.", "Answer: 25."]
+    },
+    {
+      "id": "ls_medium_1", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "medium",
+      "question_text": "Find the next number: 3, 7, 13, 21, 31, ?",
+      "options": [{"letter":"A","text":"43"},{"letter":"B","text":"41"},{"letter":"C","text":"45"},{"letter":"D","text":"37"},{"letter":"E","text":"39"}],
+      "correct_answer": "A",
+      "explanation": "Differences: 4, 6, 8, 10 (increasing by 2).\nNext difference: 10+2=12.\nNext term: 31+12=**43** ✓",
+      "hints": ["Compute differences: 4,6,8,10.", "Second differences: all 2 → quadratic.", "Next difference: 12. Next term: 31+12=43."]
+    },
+    {
+      "id": "ls_medium_2", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "medium",
+      "question_text": "Find the next number: 2, 3, 5, 9, 17, ?",
+      "options": [{"letter":"A","text":"33"},{"letter":"B","text":"31"},{"letter":"C","text":"35"},{"letter":"D","text":"30"},{"letter":"E","text":"34"}],
+      "correct_answer": "A",
+      "explanation": "Each term ≈ 2×previous - 1:\n3=2×2-1, 5=2×3-1, 9=2×5-1, 17=2×9-1, next: 2×17-1=**33** ✓\n\nOr differences: 1,2,4,8 (doubling) → next diff=16 → 17+16=33 ✓",
+      "hints": ["Find the differences: 1,2,4,8 — they double!", "Next difference: 16.", "17+16 = 33."]
+    },
+    {
+      "id": "ls_medium_3", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "medium",
+      "question_text": "Alternating sequence: 1, 2, 4, 6, 7, 18, 10, 54, ?",
+      "options": [{"letter":"A","text":"13"},{"letter":"B","text":"162"},{"letter":"C","text":"11"},{"letter":"D","text":"16"},{"letter":"E","text":"20"}],
+      "correct_answer": "A",
+      "explanation": "Odd positions (1st): 1, 4, 7, 10, ? → arithmetic +3 → next = **13**.\nEven positions (2nd): 2, 6, 18, 54 → geometric ×3 → next = 162.\n\nThe 9th term is odd-positioned → **13** ✓",
+      "hints": ["Separate odd and even indexed terms.", "Odd: 1,4,7,10 (+3 each). Even: 2,6,18,54 (×3 each).", "9th term is odd-indexed: 10+3=13."]
+    },
+    {
+      "id": "ls_medium_4", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "medium",
+      "question_text": "Find the next: AZ, BY, CX, DW, ?",
+      "options": [{"letter":"A","text":"EV"},{"letter":"B","text":"FV"},{"letter":"C","text":"EU"},{"letter":"D","text":"EW"},{"letter":"E","text":"DV"}],
+      "correct_answer": "A",
+      "explanation": "First letters: A,B,C,D → next: E (alphabetical +1).\nSecond letters: Z,Y,X,W → next: V (reverse alphabet -1).\nAnswer: **EV** ✓",
+      "hints": ["First letter: +1 alphabetically (A,B,C,D...).", "Second letter: -1 from end (Z,Y,X,W...).", "Next: E+V = EV."]
+    },
+    {
+      "id": "ls_medium_5", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "medium",
+      "question_text": "Find the missing number: 6, 11, 21, 36, 56, ?",
+      "options": [{"letter":"A","text":"81"},{"letter":"B","text":"76"},{"letter":"C","text":"90"},{"letter":"D","text":"71"},{"letter":"E","text":"85"}],
+      "correct_answer": "A",
+      "explanation": "Differences: 5, 10, 15, 20 (arithmetic progression, +5).\nNext difference: 25.\nNext term: 56+25=**81** ✓",
+      "hints": ["Differences: 5,10,15,20.", "Second differences: all 5 → quadratic.", "Next difference: 25. 56+25=81."]
+    },
+    {
+      "id": "ls_medium_6", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "medium",
+      "question_text": "Find the next number: 2, 6, 12, 20, 30, ?",
+      "options": [{"letter":"A","text":"42"},{"letter":"B","text":"40"},{"letter":"C","text":"36"},{"letter":"D","text":"44"},{"letter":"E","text":"38"}],
+      "correct_answer": "A",
+      "explanation": "Pattern: 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=**42** ✓\n\nAlternatively: differences 4,6,8,10 (+2 each) → next diff=12 → 30+12=42.",
+      "hints": ["Each term = n×(n+1): 2=1×2, 6=2×3, 12=3×4...", "Next: 6×7=42.", "Or: differences increasing by 2, next=30+12=42."]
+    },
+    {
+      "id": "ls_medium_7", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "medium",
+      "question_text": "Number pattern: 144, 121, 100, 81, 64, ?",
+      "options": [{"letter":"A","text":"49"},{"letter":"B","text":"36"},{"letter":"C","text":"50"},{"letter":"D","text":"48"},{"letter":"E","text":"45"}],
+      "correct_answer": "A",
+      "explanation": "Descending perfect squares: 12²=144, 11²=121, 10²=100, 9²=81, 8²=64, 7²=**49** ✓",
+      "hints": ["These are perfect squares in descending order.", "12²,11²,10²,9²,8²,7²...", "7²=49."]
+    },
+    {
+      "id": "ls_medium_8", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "medium",
+      "question_text": "Find the next: 0, 1, 3, 6, 10, 15, ?",
+      "options": [{"letter":"A","text":"21"},{"letter":"B","text":"20"},{"letter":"C","text":"18"},{"letter":"D","text":"22"},{"letter":"E","text":"25"}],
+      "correct_answer": "A",
+      "explanation": "Triangular numbers: T(n) = n(n+1)/2.\nT(0)=0, T(1)=1, T(2)=3, T(3)=6, T(4)=10, T(5)=15, T(6)=**21** ✓\n\nOr differences: 1,2,3,4,5 → next: 6 → 15+6=21.",
+      "hints": ["These are triangular numbers: 0,1,3,6,10,15...", "Differences: 1,2,3,4,5 → next: 6.", "15+6=21."]
+    },
+    {
+      "id": "ls_hard_1", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "hard",
+      "question_text": "Find the next number: 1, 2, 4, 7, 11, 16, 22, ?",
+      "options": [{"letter":"A","text":"29"},{"letter":"B","text":"28"},{"letter":"C","text":"30"},{"letter":"D","text":"33"},{"letter":"E","text":"27"}],
+      "correct_answer": "A",
+      "explanation": "Differences: 1, 2, 3, 4, 5, 6 (increasing by 1 each time).\nNext difference: 7.\nNext term: 22+7=**29** ✓",
+      "hints": ["Differences: 1,2,3,4,5,6.", "Pattern: increasing by 1 each time.", "Next diff=7: 22+7=29."]
+    },
+    {
+      "id": "ls_hard_2", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "hard",
+      "question_text": "What is the missing term? 4, 8, 24, 96, 480, ?",
+      "options": [{"letter":"A","text":"2880"},{"letter":"B","text":"1440"},{"letter":"C","text":"960"},{"letter":"D","text":"3360"},{"letter":"E","text":"576"}],
+      "correct_answer": "A",
+      "explanation": "Ratios: 8/4=2, 24/8=3, 96/24=4, 480/96=5.\nRatios: 2,3,4,5 — increasing by 1.\nNext ratio: 6. Next term: 480×6=**2880** ✓",
+      "hints": ["Compute the ratios between consecutive terms.", "Ratios: 2,3,4,5 (increasing by 1).", "Next ratio=6: 480×6=2880."]
+    },
+    {
+      "id": "ls_hard_3", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "hard",
+      "question_text": "Letter sequence: B, D, G, K, P, ?",
+      "options": [{"letter":"A","text":"V"},{"letter":"B","text":"U"},{"letter":"C","text":"W"},{"letter":"D","text":"T"},{"letter":"E","text":"X"}],
+      "correct_answer": "A",
+      "explanation": "Positions: B=2, D=4, G=7, K=11, P=16.\nDifferences: 2, 3, 4, 5 (increasing by 1).\nNext difference: 6. Next position: 16+6=22 = **V** ✓",
+      "hints": ["Convert to position numbers: 2,4,7,11,16.", "Differences: 2,3,4,5 (increasing).", "Next difference=6: 16+6=22=V."]
+    },
+    {
+      "id": "ls_hard_4", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "hard",
+      "question_text": "Find the next: 1, 3, 8, 21, 55, ?",
+      "options": [{"letter":"A","text":"144"},{"letter":"B","text":"120"},{"letter":"C","text":"89"},{"letter":"D","text":"100"},{"letter":"E","text":"133"}],
+      "correct_answer": "A",
+      "explanation": "These are Fibonacci numbers at odd indices: F(1)=1, F(3)=2... wait.\nActually: 1, 3, 8, 21, 55 — these are every other Fibonacci number.\nF(1)=1, F(4)=3, F(6)=8, F(8)=21, F(10)=55, F(12)=**144** ✓\n\nAlternatively: each term ≈ previous × 2.6:\n1→3(×3), 3→8(×2.67), 8→21(×2.625), 21→55(×2.619), 55→144(×2.618≈φ²) ✓",
+      "hints": ["These are alternate Fibonacci numbers.", "1,3,8,21,55 - each multiplied by approximately 2.618 (φ²).", "55 × 2.618 ≈ 144."]
+    },
+    {
+      "id": "ls_hard_5", "subject": "Logical Reasoning", "topic": "Logical Sequences", "difficulty": "hard",
+      "question_text": "Find the missing: 5, 10, 13, 26, 29, 58, 61, ?",
+      "options": [{"letter":"A","text":"122"},{"letter":"B","text":"124"},{"letter":"C","text":"64"},{"letter":"D","text":"120"},{"letter":"E","text":"119"}],
+      "correct_answer": "A",
+      "explanation": "Pattern alternates between ×2 and +3:\n5×2=10, 10+3=13, 13×2=26, 26+3=29, 29×2=58, 58+3=61, 61×2=**122** ✓",
+      "hints": ["Check if alternating operations work: ×2, +3, ×2, +3...", "5→10(×2)→13(+3)→26(×2)→29(+3)→58(×2)→61(+3)→122(×2).", "Next: 61×2=122."]
+    }
+  ]
+}
