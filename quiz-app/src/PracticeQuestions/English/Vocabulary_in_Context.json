@@ -1,172 +1,229 @@
 {
   "subject": "English",
   "topic": "Vocabulary in Context",
-  "introduction": "This topic tests your ability to deduce the meaning of complex, unusual, or polysemous (multiple meaning) words solely based on the surrounding sentences and overall paragraph tone.",
+  "introduction": "Vocabulary questions test your ability to understand word meanings from context — not just memorized definitions. In SIMAK, the key skill is finding the word or phrase that preserves the original sentence's meaning when substituted. Focus on the nuance of the word in its specific context, not just its general definition.",
+  "key_formulas": [
+    {"name": "Strategy", "formula": "\\text{Read sentence → Guess meaning from context → Match to closest option}"},
+    {"name": "Tone clue", "formula": "\\text{Positive/negative surroundings narrow word meaning}"},
+    {"name": "Affixes", "formula": "\\text{un- (not), re- (again), -tion (noun), -ous (adjective), dis- (opposite)}"},
+    {"name": "Contrast clue", "formula": "\\text{'although', 'despite', 'however' = meaning is opposite to what precedes}"},
+    {"name": "Synonym clue", "formula": "\\text{'or', 'also called', 'in other words' = nearby synonym provided}"}
+  ],
   "tips_and_tricks": [
-    "Cover up the word and read the sentence. Ask yourself what simple word would fit in the blank, then find the option that matches it.",
-    "Look out for tone shifts. If the paragraph is praising someone and contains 'but X', then word X must be negative.",
-    "Never guess a word based purely on how it sounds; 'enervate' sounds energetic but means to drain."
+    "Always read the FULL sentence before choosing — the surrounding words determine the meaning.",
+    "Use tone: if the sentence is negative overall, the target word likely has a negative connotation.",
+    "Watch for 'contrast' signal words (but, however, despite) — the word's meaning contrasts with what came before.",
+    "Eliminate options that change the sentence's meaning significantly.",
+    "The correct answer should be interchangeable with the target word in THAT specific context.",
+    "Beware of words with multiple meanings — context determines which meaning applies.",
+    "Common SIMAK word types: formal verbs (elaborate, mitigate, bolster) and academic adjectives (pervasive, contentious, robust)."
+  ],
+  "worked_examples": [
+    {
+      "title": "Example 1: Using contrast clues",
+      "question": "The CEO's initial response was TENTATIVE; however, after consulting her team, she made a much more decisive statement. The word 'tentative' means:",
+      "solution": [
+        "Step 1: Note the contrast signal 'however'.",
+        "Step 2: 'After consulting' → she became MORE decisive.",
+        "Step 3: Therefore, BEFORE consulting, she was LESS decisive → tentative = not fully certain, hesitant.",
+        "Step 4: Answer: uncertain/hesitant."
+      ]
+    },
+    {
+      "title": "Example 2: Using positive/negative tone",
+      "question": "The city's UBIQUITOUS traffic jams have made daily commuting a nightmare for residents. 'Ubiquitous' means:",
+      "solution": [
+        "Step 1: Context: traffic jams are causing a 'nightmare'.",
+        "Step 2: The word describes how widespread/common these jams are.",
+        "Step 3: 'Ubiquitous' = present or appearing to be present everywhere.",
+        "Step 4: Closest synonym: widespread/ever-present."
+      ]
+    }
   ],
   "questions": [
     {
-      "id": "vic_easy_1",
-      "subject": "English",
-      "topic": "Vocabulary in Context",
-      "difficulty": "easy",
-      "question_text": "'Despite the heavy rain and howling winds, the ancient lighthouse remained steadfast on the cliff.' Which of the following is closest in meaning to 'steadfast'?",
-      "options": [
-        {"letter": "A", "text": "Hidden"},
-        {"letter": "B", "text": "Firmly fixed"},
-        {"letter": "C", "text": "Trembling"},
-        {"letter": "D", "text": "Bright"},
-        {"letter": "E", "text": "Broken"}
-      ],
-      "correct_answer": "B",
-      "explanation": "The word 'Despite' indicates that the lighthouse did NOT succumb to the harsh storm conditions. This means it stayed strong and unmoving. 'Firmly fixed' matches this meaning perfectly."
-    },
-    {
-      "id": "vic_easy_2",
-      "subject": "English",
-      "topic": "Vocabulary in Context",
-      "difficulty": "easy",
-      "question_text": "'The teacher had to reprimand the students for talking loudly during the final examination.' The word 'reprimand' most closely means:",
-      "options": [
-        {"letter": "A", "text": "Reward"},
-        {"letter": "B", "text": "Scold"},
-        {"letter": "C", "text": "Ignore"},
-        {"letter": "D", "text": "Praise"},
-        {"letter": "E", "text": "Help"}
-      ],
-      "correct_answer": "B",
-      "explanation": "Talking loudly during a final exam is universally considered bad behavior in a classroom. A teacher's response to bad behavior would be a scolding or a warning. Option B, 'Scold', is correct."
-    },
-    {
-      "id": "vic_medium_1",
-      "subject": "English",
-      "topic": "Vocabulary in Context",
-      "difficulty": "medium",
-      "question_text": "'The politician's speech was so equivocal that both the environmentalists and the industrial lobby believed he had promised to support their specific cause.' In this context, 'equivocal' means:",
-      "options": [
-        {"letter": "A", "text": "Passionate"},
-        {"letter": "B", "text": "Short"},
-        {"letter": "C", "text": "Ambiguous"},
-        {"letter": "D", "text": "Offensive"},
-        {"letter": "E", "text": "Detailed"}
-      ],
-      "correct_answer": "C",
-      "explanation": "If two opposing sides (environmentalists and industrial lobby) both think the politician agreed with them, it means his words were unclear or capable of dual interpretation. 'Ambiguous' means open to more than one interpretation."
-    },
-    {
-      "id": "vic_medium_2",
-      "subject": "English",
-      "topic": "Vocabulary in Context",
-      "difficulty": "medium",
-      "question_text": "'His ostentatious display of wealth\u2014arriving in a gold-plated helicopter to a charity event for the homeless\u2014alienated many potential donors.' What is the best synonym for 'ostentatious'?",
-      "options": [
-        {"letter": "A", "text": "Showy"},
-        {"letter": "B", "text": "Generous"},
-        {"letter": "C", "text": "Modest"},
-        {"letter": "D", "text": "Secretive"},
-        {"letter": "E", "text": "Accidental"}
-      ],
+      "id": "vc_easy_1", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "easy",
+      "question_text": "The student's DILIGENT approach to studying resulted in excellent exam scores. The word 'diligent' most nearly means:",
+      "options": [{"letter":"A","text":"Hardworking and careful"},{"letter":"B","text":"Careless"},{"letter":"C","text":"Intelligent"},{"letter":"D","text":"Lazy"},{"letter":"E","text":"Creative"}],
       "correct_answer": "A",
-      "explanation": "Arriving in a gold-plated helicopter is a highly visible, extravagant, and boastful action. 'Showy' directly captures the meaning of making an excessively noticeable display to attract attention."
+      "explanation": "Context: approach leads to 'excellent scores' — this is a positive description. 'Diligent' = showing care and consistency in work → **hardworking and careful** ✓.",
+      "hints": ["Result is 'excellent scores' — must be a positive word.", "'Diligent' describes work ethic, not intelligence.", "Diligent = hardworking and careful."]
     },
     {
-      "id": "vic_medium_3",
-      "subject": "English",
-      "topic": "Vocabulary in Context",
-      "difficulty": "medium",
-      "question_text": "'The marathon through the desert was a grueling ordeal; by the finish line, three runners had collapsed from exhaustion.' 'Grueling' is best defined as:",
-      "options": [
-        {"letter": "A", "text": "Brief"},
-        {"letter": "B", "text": "Exhausting"},
-        {"letter": "C", "text": "Boring"},
-        {"letter": "D", "text": "Exhilarating"},
-        {"letter": "E", "text": "Confusing"}
-      ],
+      "id": "vc_easy_2", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "easy",
+      "question_text": "The medicine was ADMINISTERED to the patient twice daily. 'Administered' most closely means:",
+      "options": [{"letter":"A","text":"Given"},{"letter":"B","text":"Prescribed"},{"letter":"C","text":"Dissolved"},{"letter":"D","text":"Tested"},{"letter":"E","text":"Rejected"}],
+      "correct_answer": "A",
+      "explanation": "In a medical context, administer = to give medicine to a patient. The sentence describes the dosing routine → **given** ✓.",
+      "hints": ["Medical context: 'administered to the patient'.", "'Administer' in medical use = to give/apply.", "Answer: given."]
+    },
+    {
+      "id": "vc_easy_3", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "easy",
+      "question_text": "The politician's speech was CONCISE, covering all major points in under five minutes. 'Concise' means:",
+      "options": [{"letter":"A","text":"Brief and clear"},{"letter":"B","text":"Long and detailed"},{"letter":"C","text":"Confusing"},{"letter":"D","text":"Emotional"},{"letter":"E","text":"Unprepared"}],
+      "correct_answer": "A",
+      "explanation": "Context: covered MAJOR points in UNDER FIVE minutes → short but complete. 'Concise' = expressing much in few words → **brief and clear** ✓.",
+      "hints": ["'Under five minutes' but covered major points — what word describes this?", "Short yet complete/clear.", "Concise = brief and clear."]
+    },
+    {
+      "id": "vc_easy_4", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "easy",
+      "question_text": "The new law was ENACTED to protect workers' rights. 'Enacted' means:",
+      "options": [{"letter":"A","text":"Put into effect"},{"letter":"B","text":"Cancelled"},{"letter":"C","text":"Proposed"},{"letter":"D","text":"Debated"},{"letter":"E","text":"Violated"}],
+      "correct_answer": "A",
+      "explanation": "A law that is 'enacted' is officially made into law. Context: it was made to protect rights (a completed action). → **put into effect** ✓.",
+      "hints": ["'Enacted' describes what happened to the law — it became official.", "Laws are proposed, debated, then enacted.", "Enacted = put into effect (officially made a law)."]
+    },
+    {
+      "id": "vc_easy_5", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "easy",
+      "question_text": "The scientist's hypothesis was PLAUSIBLE, supported by preliminary data. 'Plausible' most nearly means:",
+      "options": [{"letter":"A","text":"Seemingly reasonable or probable"},{"letter":"B","text":"Certainly true"},{"letter":"C","text":"Impossible"},{"letter":"D","text":"Confusing"},{"letter":"E","text":"Dangerous"}],
+      "correct_answer": "A",
+      "explanation": "'Plausible' = appearing likely to be true or valid, but not proven. Context: 'supported by preliminary (early) data' — not proven, but reasonable → **seemingly reasonable or probable** ✓.",
+      "hints": ["Not fully proven but supported by data — how would you describe that?", "Plausible ≠ definitely true; it means reasonably believable.", "Seemingly reasonable or probable."]
+    },
+    {
+      "id": "vc_easy_6", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "easy",
+      "question_text": "The company's ABUNDANT resources allowed it to fund multiple projects simultaneously. 'Abundant' means:",
+      "options": [{"letter":"A","text":"Plentiful"},{"letter":"B","text":"Limited"},{"letter":"C","text":"Wasted"},{"letter":"D","text":"Borrowed"},{"letter":"E","text":"Hidden"}],
+      "correct_answer": "A",
+      "explanation": "Context: enough resources for 'multiple projects simultaneously' → there's a lot. 'Abundant' = present in large quantities → **plentiful** ✓.",
+      "hints": ["Multiple projects at once — suggests plenty of resources.", "Abundant = existing in large amounts.", "Answer: plentiful."]
+    },
+    {
+      "id": "vc_easy_7", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "easy",
+      "question_text": "The athlete's injury was MINOR and she was expected to recover within a week. 'Minor' most nearly means:",
+      "options": [{"letter":"A","text":"Not serious"},{"letter":"B","text":"Severe"},{"letter":"C","text":"Unexpected"},{"letter":"D","text":"Permanent"},{"letter":"E","text":"Complex"}],
+      "correct_answer": "A",
+      "explanation": "Recovery within a week suggests it wasn't serious. 'Minor' = small in importance or seriousness → **not serious** ✓.",
+      "hints": ["'Within a week' = quick recovery → not a serious injury.", "Minor = small, not significant.", "Answer: not serious."]
+    },
+    {
+      "id": "vc_easy_8", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "easy",
+      "question_text": "Her INNOVATIVE design won the international architecture competition. 'Innovative' means:",
+      "options": [{"letter":"A","text":"Introducing new ideas"},{"letter":"B","text":"Traditional"},{"letter":"C","text":"Expensive"},{"letter":"D","text":"Simple"},{"letter":"E","text":"Copied"}],
+      "correct_answer": "A",
+      "explanation": "Context: wins a competition → the design stood out. 'Innovative' = featuring new methods or ideas → **introducing new ideas** ✓.",
+      "hints": ["Won a competition — the design must have been special/original.", "Innovative = new and original.", "Answer: introducing new ideas."]
+    },
+    {
+      "id": "vc_medium_1", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "medium",
+      "question_text": "The documentary DEPICTED life in rural areas with remarkable accuracy, capturing both the hardships and the beauty. 'Depicted' most nearly means:",
+      "options": [{"letter":"A","text":"Portrayed"},{"letter":"B","text":"Criticized"},{"letter":"C","text":"Simplified"},{"letter":"D","text":"Fabricated"},{"letter":"E","text":"Ignored"}],
+      "correct_answer": "A",
+      "explanation": "'Depicted' = represented or showed in a picture/film/description. Context: the documentary captured life accurately → **portrayed** ✓.",
+      "hints": ["A documentary 'depicts' what it shows.", "Depicts = portrays/represents.", "Answer: portrayed."]
+    },
+    {
+      "id": "vc_medium_2", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "medium",
+      "question_text": "Despite the TURBULENT economic conditions, the startup managed to grow its revenue by 40%. 'Turbulent' most nearly means:",
+      "options": [{"letter":"A","text":"Unstable and chaotic"},{"letter":"B","text":"Favorable"},{"letter":"C","text":"Predictable"},{"letter":"D","text":"Innovative"},{"letter":"E","text":"Global"}],
+      "correct_answer": "A",
+      "explanation": "'Despite' signals a contrast — growing revenue was difficult despite the conditions. 'Turbulent' = characterized by confusion and disorder → **unstable and chaotic** ✓.",
+      "hints": ["'Despite' = the conditions were against growth.", "Turbulent = full of conflict, disorder.", "Unstable and chaotic."]
+    },
+    {
+      "id": "vc_medium_3", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "medium",
+      "question_text": "The professor's ESOTERIC lecture left most students confused, as it was filled with highly specialized jargon. 'Esoteric' most nearly means:",
+      "options": [{"letter":"A","text":"Intended for only a small number of specialists"},{"letter":"B","text":"Simple and clear"},{"letter":"C","text":"Long and boring"},{"letter":"D","text":"Widely accessible"},{"letter":"E","text":"Inspiring"}],
+      "correct_answer": "A",
+      "explanation": "Context: 'most students confused' + 'highly specialized jargon' → the content was only understandable to experts. 'Esoteric' = understood by only a small group with specialized knowledge → **intended for only a small number of specialists** ✓.",
+      "hints": ["Most students were confused — who could understand it?", "Esoteric = meant for specialists, not general audiences.", "Intended for a small group of specialists."]
+    },
+    {
+      "id": "vc_medium_4", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "medium",
+      "question_text": "The government took STRINGENT measures to control the spread of the disease, including mandatory quarantines and travel bans. 'Stringent' most nearly means:",
+      "options": [{"letter":"A","text":"Very strict"},{"letter":"B","text":"Lenient"},{"letter":"C","text":"Temporary"},{"letter":"D","text":"Financial"},{"letter":"E","text":"Popular"}],
+      "correct_answer": "A",
+      "explanation": "Examples given (mandatory quarantines, travel bans) are severe restrictions → they are **very strict** measures. 'Stringent' = strict and precise → **very strict** ✓.",
+      "hints": ["The examples — mandatory quarantines and travel bans — are extreme measures.", "Stringent = very strict and demanding.", "Answer: very strict."]
+    },
+    {
+      "id": "vc_medium_5", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "medium",
+      "question_text": "The journalist's SCATHING review of the film left no aspect of its production uncriticized. 'Scathing' most nearly means:",
+      "options": [{"letter":"A","text":"Harshly critical"},{"letter":"B","text":"Mildly positive"},{"letter":"C","text":"Objective and neutral"},{"letter":"D","text":"Enthusiastic"},{"letter":"E","text":"Detailed but fair"}],
+      "correct_answer": "A",
+      "explanation": "'Left no aspect uncriticized' = completely critical. 'Scathing' = severely critical → **harshly critical** ✓.",
+      "hints": ["Nothing was left uncriticized — how severe must the review be?", "Scathing = very harsh and severe in criticism.", "Harshly critical."]
+    },
+    {
+      "id": "vc_medium_6", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "medium",
+      "question_text": "Her PRAGMATIC approach to business problems focused on practical results rather than theoretical ideals. 'Pragmatic' means:",
+      "options": [{"letter":"A","text":"Practical and focused on real-world outcomes"},{"letter":"B","text":"Idealistic"},{"letter":"C","text":"Aggressive"},{"letter":"D","text":"Academic"},{"letter":"E","text":"Rigid"}],
+      "correct_answer": "A",
+      "explanation": "The sentence contrasts 'practical results' with 'theoretical ideals' — pragmatic is on the practical side. 'Pragmatic' = dealing with things realistically → **practical and focused on real-world outcomes** ✓.",
+      "hints": ["'Rather than theoretical' = the word is the opposite of theoretical.", "Pragmatic = practical, not idealistic.", "Practical and focused on real-world outcomes."]
+    },
+    {
+      "id": "vc_medium_7", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "medium",
+      "question_text": "The project was JEOPARDIZED by the sudden withdrawal of funding from the main sponsor. 'Jeopardized' most nearly means:",
+      "options": [{"letter":"A","text":"Put at risk"},{"letter":"B","text":"Improved"},{"letter":"C","text":"Completed"},{"letter":"D","text":"Extended"},{"letter":"E","text":"Publicized"}],
+      "correct_answer": "A",
+      "explanation": "Withdrawal of funding is a threat → the project's success was endangered. 'Jeopardize' = to endanger/put at risk → **put at risk** ✓.",
+      "hints": ["Losing funding is bad for a project — what happened to it?", "Jeopardize = to put in danger.", "Put at risk."]
+    },
+    {
+      "id": "vc_medium_8", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "medium",
+      "question_text": "The CEO's decision to DIVEST the company's petroleum assets signaled a shift toward renewable energy investment. 'Divest' most nearly means:",
+      "options": [{"letter":"A","text":"Sell off or dispose of"},{"letter":"B","text":"Acquire"},{"letter":"C","text":"Develop"},{"letter":"D","text":"Research"},{"letter":"E","text":"Insure"}],
+      "correct_answer": "A",
+      "explanation": "Context: after divesting petroleum assets, they shifted to renewable investment. They moved AWAY from petroleum → they got rid of those assets. 'Divest' = to sell off holdings → **sell off or dispose of** ✓.",
+      "hints": ["The company shifted AWAY from petroleum → they must have removed those assets.", "Divest = to strip away/sell off.", "Sell off or dispose of."]
+    },
+    {
+      "id": "vc_hard_1", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "hard",
+      "question_text": "The diplomat's EQUIVOCAL response to the question satisfied neither ally nor opposition, as it neither confirmed nor denied the allegations. 'Equivocal' most nearly means:",
+      "options": [{"letter":"A","text":"Clear and direct"},{"letter":"B","text":"Deliberately ambiguous"},{"letter":"C","text":"Emotionally charged"},{"letter":"D","text":"Surprisingly positive"},{"letter":"E","text":"Completely evasive"}],
       "correct_answer": "B",
-      "explanation": "The context clue is 'collapsed from exhaustion'. A task that causes physical collapse is intensely demanding and 'exhausting'. "
+      "explanation": "Context: 'neither confirmed nor denied' — the response went both ways, pleasing neither side. 'Equivocal' = open to interpretation; ambiguous on purpose → **deliberately ambiguous** ✓.",
+      "hints": ["'Neither confirmed nor denied' = the answer was unclear by design.", "Equivocal = having multiple possible meanings, deliberately vague.", "Deliberately ambiguous."]
     },
     {
-      "id": "vic_hard_1",
-      "subject": "English",
-      "topic": "Vocabulary in Context",
-      "difficulty": "hard",
-      "question_text": "Read the sentence: 'Despite her public persona of serene patience, behind closed doors the CEO was known for her mercurial temper, capable of firing executives over perceived slights in a matter of seconds.' What does 'mercurial' mean?",
-      "options": [
-        {"letter": "A", "text": "Lethargic"},
-        {"letter": "B", "text": "Volatile"},
-        {"letter": "C", "text": "Calculated"},
-        {"letter": "D", "text": "Forgiving"},
-        {"letter": "E", "text": "Heavy"}
-      ],
-      "correct_answer": "B",
-      "explanation": "The sentence contrasts her 'public persona of serene patience' with her private temper. A temper that leads to firing someone in a 'matter of seconds' over tiny issues is sudden, unpredictable, and explosive. 'Volatile' accurately captures this sudden, drastic shifting of mood."
-    },
-    {
-      "id": "vic_hard_2",
-      "subject": "English",
-      "topic": "Vocabulary in Context",
-      "difficulty": "hard",
-      "question_text": "'The sheer ubiquity of smartphones has fundamentally altered societal norms; there is scarcely a corner of the globe where a glowing rectangular screen is not visible.' What is the closest synonym for 'ubiquity'?",
-      "options": [
-        {"letter": "A", "text": "Expense"},
-        {"letter": "B", "text": "Complexity"},
-        {"letter": "C", "text": "Omnipresence"},
-        {"letter": "D", "text": "Fragility"},
-        {"letter": "E", "text": "Isolating effect"}
-      ],
+      "id": "vc_hard_2", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "hard",
+      "question_text": "The PERVASIVE influence of social media on adolescent self-perception is now well-documented in psychiatric literature. 'Pervasive' most nearly means:",
+      "options": [{"letter":"A","text":"Occasional"},{"letter":"B","text":"Negative"},{"letter":"C","text":"Spreading through every part"},{"letter":"D","text":"Underestimated"},{"letter":"E","text":"Temporary"}],
       "correct_answer": "C",
-      "explanation": "The phrase 'scarcely a corner of the globe where... [it] is not visible' means the phones are everywhere at once. 'Omnipresence' carries the exact same meaning of being present essentially everywhere."
+      "explanation": "'Well-documented' and used to describe social media's influence on all adolescents → the influence is widespread and deep. 'Pervasive' = spreading widely throughout → **spreading through every part** ✓.",
+      "hints": ["'Well-documented' suggests this influence is widely acknowledged.", "Pervasive = present everywhere, widespread.", "Spreading through every part."]
     },
     {
-      "id": "vic_hard_3",
-      "subject": "English",
-      "topic": "Vocabulary in Context",
-      "difficulty": "hard",
-      "question_text": "'Rather than directly confronting the board with his controversial proposal, he chose an obsequious approach, flattering the chairman endlessly and fetching coffee for the senior members in hopes of winning their favor.' In this context, 'obsequious' means:",
-      "options": [
-        {"letter": "A", "text": "Rebellious"},
-        {"letter": "B", "text": "Fawning"},
-        {"letter": "C", "text": "Rational"},
-        {"letter": "D", "text": "Aggressive"},
-        {"letter": "E", "text": "Unpredictable"}
-      ],
+      "id": "vc_hard_3", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "hard",
+      "question_text": "Rather than CAPITULATING to public pressure, the prime minister maintained her controversial stance on the trade agreement. 'Capitulating' means:",
+      "options": [{"letter":"A","text":"Responding diplomatically"},{"letter":"B","text":"Yielding or surrendering"},{"letter":"C","text":"Ignoring completely"},{"letter":"D","text":"Arguing against"},{"letter":"E","text":"Consulting with"}],
       "correct_answer": "B",
-      "explanation": "Flattering people endlessly and performing menial tasks (fetching coffee) to win favor shows an excessive willingness to please or submit to authority. 'Fawning' is a direct synonym for displaying exaggerated flattery or affection out of subservience."
+      "explanation": "'Rather than capitulating' = she DIDN'T do it, and instead 'maintained her stance'. The sentence contrasts doing X with maintaining her position. 'Capitulate' = to give in/surrender → **yielding or surrendering** ✓.",
+      "hints": ["'Rather than' = she chose NOT to do this, instead maintaining her stance.", "What's the opposite of maintaining your position?", "Capitulate = give in, yield."]
     },
     {
-      "id": "vic_hard_4",
-      "subject": "English",
-      "topic": "Vocabulary in Context",
-      "difficulty": "hard",
-      "question_text": "'The lawyer's argument was a masterpiece of sophistry; it sounded brilliant and logically sound to the jury, but fell apart completely upon rigorous legal inspection.' What does 'sophistry' imply?",
-      "options": [
-        {"letter": "A", "text": "Absolute truth"},
-        {"letter": "B", "text": "Deceptive reasoning"},
-        {"letter": "C", "text": "Emotional appeal"},
-        {"letter": "D", "text": "Legal precedent"},
-        {"letter": "E", "text": "Complex vocabulary"}
-      ],
+      "id": "vc_hard_4", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "hard",
+      "question_text": "The ACRIMONIOUS dispute between the two departments severely disrupted the company's operations. 'Acrimonious' most nearly means:",
+      "options": [{"letter":"A","text":"Productive and structured"},{"letter":"B","text":"Bitter and angry"},{"letter":"C","text":"Formal and procedural"},{"letter":"D","text":"Occasional and minor"},{"letter":"E","text":"Technical and complex"}],
       "correct_answer": "B",
-      "explanation": "The context notes the argument 'sounded brilliant' but 'fell apart completely' upon actual inspection. This means the argument intentionally used false or clever-sounding logic to mask a hollow core. 'Deceptive reasoning' defines sophistry perfectly."
+      "explanation": "'Disrupted company operations severely' suggests the dispute was intense and damaging. 'Acrimonious' = characterized by bitterness or ill will → **bitter and angry** ✓.",
+      "hints": ["'Severely disrupted' = a strong, negative dispute.", "Acrimonious = filled with bitterness.", "Bitter and angry."]
     },
     {
-      "id": "vic_hard_5",
-      "subject": "English",
-      "topic": "Vocabulary in Context",
-      "difficulty": "hard",
-      "question_text": "'While modern literature often celebrates the rugged individualist fighting a corrupt system, classical tragedies often warned against hubris, proving that excessive pride invariably invites the wrath of the gods.' What is the best definition for 'hubris'?",
-      "options": [
-        {"letter": "A", "text": "Humility"},
-        {"letter": "B", "text": "Arrogance"},
-        {"letter": "C", "text": "Courage"},
-        {"letter": "D", "text": "Intelligence"},
-        {"letter": "E", "text": "Fate"}
-      ],
+      "id": "vc_hard_5", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "hard",
+      "question_text": "The OSTENSIBLE reason for the company's restructuring was cost savings, but insiders suspected it was a move to consolidate power at the executive level. 'Ostensible' most nearly means:",
+      "options": [{"letter":"A","text":"Hidden"},{"letter":"B","text":"Appears to be so but may not be"},{"letter":"C","text":"Clearly justified"},{"letter":"D","text":"Financially motivated"},{"letter":"E","text":"Well-communicated"}],
       "correct_answer": "B",
-      "explanation": "The text directly links the word 'hubris' via an appositive structure to 'excessive pride'. The closest synonym to excessive or blinding pride is 'Arrogance'."
+      "explanation": "The 'ostensible' reason was stated publicly, BUT insiders suspected a different real reason. 'Ostensible' = stated or appearing to be the case but not necessarily the real reason → **appears to be so but may not be** ✓.",
+      "hints": ["The stated reason vs. the suspected reason = a gap between appearance and reality.", "Ostensible = stated on the surface but possibly false.", "Appears to be so but may not be."]
+    },
+    {
+      "id": "vc_hard_6", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "hard",
+      "question_text": "The committee was praised for its JUDICIOUS allocation of resources, ensuring that every department received adequate funding without waste. 'Judicious' most nearly means:",
+      "options": [{"letter":"A","text":"Showing good judgment"},{"letter":"B","text":"Equal"},{"letter":"C","text":"Generous"},{"letter":"D","text":"Legally binding"},{"letter":"E","text":"Arbitrary"}],
+      "correct_answer": "A",
+      "explanation": "'Every department received adequate funding without waste' = the right amount for each → careful, sensible decision-making. 'Judicious' = having or showing good judgment → **showing good judgment** ✓.",
+      "hints": ["'No waste but adequate funding' = a smart, carefully considered decision.", "Judicious = wise, showing good judgment.", "Showing good judgment."]
+    },
+    {
+      "id": "vc_hard_7", "subject": "English", "topic": "Vocabulary in Context", "difficulty": "hard",
+      "question_text": "The report's findings CORROBORATED earlier studies, strengthening confidence in the original conclusions. 'Corroborated' most nearly means:",
+      "options": [{"letter":"A","text":"Contradicted"},{"letter":"B","text":"Replaced"},{"letter":"C","text":"Confirmed and supported"},{"letter":"D","text":"Criticized"},{"letter":"E","text":"Summarized"}],
+      "correct_answer": "C",
+      "explanation": "'Strengthening confidence in the conclusions' = the new findings agreed with earlier studies. 'Corroborate' = to confirm or support with evidence → **confirmed and supported** ✓.",
+      "hints": ["'Strengthening confidence' = the findings agreed with what was before.", "Corroborate = provide supporting evidence for.", "Confirmed and supported."]
     }
   ]
 }

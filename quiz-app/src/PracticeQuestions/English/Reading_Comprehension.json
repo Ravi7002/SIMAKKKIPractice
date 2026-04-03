@@ -1,172 +1,367 @@
 {
   "subject": "English",
   "topic": "Reading Comprehension",
-  "introduction": "Reading Comprehension evaluates your ability to digest large blocks of text, understand primary purposes, evaluate author tones, and infer implicit statements safely without leaping to outside biases.",
+  "introduction": "Reading comprehension tests your ability to understand, analyze, and interpret written texts. SIMAK passages cover academic, scientific, and social topics. Key skills: identifying the main idea, understanding tone and purpose, making inferences, and finding explicit vs. implicit information.",
+  "key_formulas": [
+    {"name": "Main idea", "formula": "\\text{What is the passage MOSTLY about? (not a detail)}"},
+    {"name": "Tone/Attitude", "formula": "\\text{Author's feeling: critical, objective, enthusiastic, concerned...}"},
+    {"name": "Inference", "formula": "\\text{What can be CONCLUDED but is NOT directly stated?}"},
+    {"name": "Purpose", "formula": "\\text{Why did the author write this? (inform, persuade, describe, warn)}"},
+    {"name": "Vocabulary in context", "formula": "\\text{Replace word with synonym; sentence meaning must be preserved}"}
+  ],
   "tips_and_tricks": [
-    "Identify the main idea in the first and last paragraph.",
-    "Do NOT use outside knowledge. If the text says the sky is green, then for the purpose of the test, it is green.",
-    "Look out for absolute words in options like 'never', 'always', or 'all' \u2014 these are usually incorrect distractors."
+    "Read the questions FIRST, then read the passage — you'll know what to look for.",
+    "Main idea = what the whole passage is about, NOT what one paragraph says.",
+    "For tone questions: look for value-loaded words (impressive, alarming, unfortunately).",
+    "Inferences are supported by the text but not stated directly. Eliminate extreme answers.",
+    "The correct answer for inference questions is almost never the most obvious or sensational one.",
+    "'Best title' should reflect the full passage, not just one section.",
+    "Watch for EXCEPT/NOT questions — they require the answer that is NOT supported by the text."
+  ],
+  "worked_examples": [
+    {
+      "title": "Example 1: Identifying main idea",
+      "question": "A passage describes deforestation, its effects on biodiversity, climate, and local communities, and ends with a call for sustainable policies. What is the main idea?",
+      "solution": [
+        "Step 1: Don't pick a specific detail (e.g., 'deforestation affects birds').",
+        "Step 2: The passage covers multiple effects AND a solution → the main idea must be broad.",
+        "Step 3: Main idea: 'Deforestation causes serious environmental and social problems that require urgent policy response.'",
+        "Key: It covers the scope of the WHOLE passage, not just one paragraph."
+      ]
+    },
+    {
+      "title": "Example 2: Distinguishing tone",
+      "question": "In a passage using words like 'alarmingly rapid', 'devastating consequences', and 'urgent action required', what is the author's tone?",
+      "solution": [
+        "Step 1: 'Alarmingly' = suggesting alarm, fear.",
+        "Step 2: 'Devastating' = emphasizing severe negative impact.",
+        "Step 3: 'Urgent action required' = calling for immediate response.",
+        "Step 4: Tone = concerned/alarmed/urgent (NOT neutral or celebratory)."
+      ]
+    }
   ],
   "questions": [
     {
-      "id": "rc_easy_1",
-      "subject": "English",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question_text": "Passage: 'Bees play a vital role in Earth's ecosystem. By pollinating flowers, they ensure the production of fruits and seeds. Without them, human agricultural output would drop significantly, sparking food shortages.'\n\nWhat is the primary purpose of this passage?",
+      "id": "rc_easy_1", "subject": "English", "topic": "Reading Comprehension", "difficulty": "easy",
+      "question_text": "Passage: 'The rainforest is home to more than half of the world's plant and animal species. Despite covering only 6% of the Earth's surface, it plays a crucial role in regulating climate and producing oxygen.' \n\nWhat is the passage mainly about?",
       "options": [
-        {"letter": "A", "text": "To describe how bees build hives."},
-        {"letter": "B", "text": "To explain the economic cost of honey."},
-        {"letter": "C", "text": "To highlight the importance of bees to agriculture and nature."},
-        {"letter": "D", "text": "To warn people about bee stings."},
-        {"letter": "E", "text": "To prove that humans are superior to bees."}
+        {"letter":"A","text":"The importance of rainforests"},
+        {"letter":"B","text":"How rainforests produce oxygen"},
+        {"letter":"C","text":"The percentage of Earth covered by forests"},
+        {"letter":"D","text":"Animals living in rainforests"},
+        {"letter":"E","text":"Climate change and its causes"}
       ],
-      "correct_answer": "C",
-      "explanation": "The passage discusses bees' roles in ecosystems, pollinating, and agriculture. Option C summarizes this completely. The other options introduce topics not mentioned (hives, money, stings)."
+      "correct_answer": "A",
+      "explanation": "The passage mentions multiple roles of rainforests (biodiversity, climate regulation, oxygen), making the overall main idea **the importance of rainforests**. Options B, C, D are specific details, not the main idea.",
+      "hints": ["Main idea = what the WHOLE passage is about.", "The passage covers biodiversity AND climate AND oxygen — what topic ties them all?", "Importance of rainforests covers all these points."]
     },
     {
-      "id": "rc_easy_2",
-      "subject": "English",
-      "topic": "Reading Comprehension",
-      "difficulty": "easy",
-      "question_text": "Passage: 'Unlike his boisterous and energetic sister, James preferred to spend his afternoons in the quiet corner of the library, lost in ancient history books.'\n\nWhat does the word 'boisterous' most likely mean based on the context?",
+      "id": "rc_easy_2", "subject": "English", "topic": "Reading Comprehension", "difficulty": "easy",
+      "question_text": "Passage: 'Exercise has been proven to improve mood, reduce stress, and increase energy levels. Regular physical activity helps maintain a healthy weight and reduces the risk of chronic diseases such as diabetes and heart disease.'\n\nWhich of the following is explicitly stated in the passage?",
       "options": [
-        {"letter": "A", "text": "Quiet and shy"},
-        {"letter": "B", "text": "Loud and energetic"},
-        {"letter": "C", "text": "Angry and violent"},
-        {"letter": "D", "text": "Intelligent and studious"},
-        {"letter": "E", "text": "Lazy and sleepy"}
+        {"letter":"A","text":"Exercise can cure diabetes"},
+        {"letter":"B","text":"Exercise reduces the risk of heart disease"},
+        {"letter":"C","text":"Daily exercise is required for good health"},
+        {"letter":"D","text":"Exercise is only useful for weight loss"},
+        {"letter":"E","text":"Stress cannot be managed without exercise"}
       ],
       "correct_answer": "B",
-      "explanation": "The word 'Unlike' establishes a contrast. If James is quiet, his sister must be the opposite. 'Loud and energetic' perfectly contrasts with 'quiet'. Furthermore, the text pairs 'boisterous' with 'energetic'."
+      "explanation": "The passage explicitly states 'reduces the risk of chronic diseases such as diabetes and heart disease.'\n\nOption A says 'cure' — the text says 'reduce risk' only.\nOptions C, D, E are not stated in the passage.",
+      "hints": ["'Explicitly stated' = directly written in the text.", "Look for the exact claim in the passage.", "Heart disease is specifically mentioned."]
     },
     {
-      "id": "rc_medium_1",
-      "subject": "English",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question_text": "Passage: 'While solar energy is theoretically abundant and highly sustainable, the immediate transition to a 100% solar grid is hindered by battery storage limitations. Sunless days and nights require massive reserves, which current lithium-based technology struggles to efficiently provide without severe ecological mining impacts.'\n\nWhich of the following would the author most likely agree with?",
+      "id": "rc_easy_3", "subject": "English", "topic": "Reading Comprehension", "difficulty": "easy",
+      "question_text": "Passage: 'Many students struggle academically because they lack proper sleep. Studies show that sleep deprivation impairs memory consolidation, reduces concentration, and increases emotional instability.'\n\nWhat is the primary cause of academic struggle mentioned?",
       "options": [
-        {"letter": "A", "text": "Solar energy is an unreliable source and should be abandoned immediately."},
-        {"letter": "B", "text": "Lithium mining is the only way to save the planet from fossil fuels."},
-        {"letter": "C", "text": "Solar grids are perfectly ready for immediate global deployment."},
-        {"letter": "D", "text": "Transitioning to solar power presents complex technological and ecological trade-offs."},
-        {"letter": "E", "text": "Wind power is vastly superior to solar power in modern grids."}
+        {"letter":"A","text":"Lack of proper sleep"},
+        {"letter":"B","text":"Poor diet"},
+        {"letter":"C","text":"Emotional instability"},
+        {"letter":"D","text":"Memory problems"},
+        {"letter":"E","text":"Lack of studying"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The passage directly states: 'because they lack proper sleep' — **lack of proper sleep** is given as the primary cause. Emotional instability and memory problems are effects, not causes.",
+      "hints": ["Find the cause-effect relationship in the passage.", "'Because' signals the cause.", "The cause is lack of proper sleep."]
+    },
+    {
+      "id": "rc_easy_4", "subject": "English", "topic": "Reading Comprehension", "difficulty": "easy",
+      "question_text": "Passage: 'Indonesia is the world's largest archipelago, consisting of over 17,000 islands. It has the fourth largest population in the world and is one of the world's largest democracies.'\n\nWhich fact is NOT mentioned in the passage?",
+      "options": [
+        {"letter":"A","text":"Indonesia has over 17,000 islands"},
+        {"letter":"B","text":"Indonesia is the fourth most populous country"},
+        {"letter":"C","text":"Indonesia is an archipelago"},
+        {"letter":"D","text":"Indonesia's capital is Jakarta"},
+        {"letter":"E","text":"Indonesia is one of the largest democracies"}
       ],
       "correct_answer": "D",
-      "explanation": "The author acknowledges solar energy is sustainable (positive) but lists battery and ecological limitations (negative). Option D describes this nuanced, balanced viewpoint (trade-offs). Options A and C are extreme absolutes. Option E introduces wind, which isn't in the text."
+      "explanation": "Jakarta as capital is **NOT mentioned** in the passage. The passage mentions: number of islands, population rank, and democracy status only.",
+      "hints": ["Find which option is NOT in the passage.", "The passage doesn't mention any city or capital.", "Jakarta is not in the text — answer D."]
     },
     {
-      "id": "rc_medium_2",
-      "subject": "English",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question_text": "Passage: 'Historical records of the 14th-century plague focus primarily on urban centers because merchants and officials kept meticulous logs. Consequently, modern textbooks often underestimate the devastation in rural farming communities, where oral traditions died alongside entire unrecorded villages.'\n\nWhat is the implied consequence of depending solely on urban historical records?",
+      "id": "rc_easy_5", "subject": "English", "topic": "Reading Comprehension", "difficulty": "easy",
+      "question_text": "Passage: 'Plastic pollution has become one of the most urgent environmental crises. Every year, millions of tons of plastic enter the ocean, threatening marine life and ecosystems. Immediate global action is required.'\n\nThe author's tone is best described as:",
       "options": [
-        {"letter": "A", "text": "It proves that the plague did not affect rural communities heavily."},
-        {"letter": "B", "text": "It paints an accurate picture of medieval economic policies."},
-        {"letter": "C", "text": "It creates a skewed historical narrative that ignores rural suffering."},
-        {"letter": "D", "text": "It shows that farmers were immune to the plagues of the 14th century."},
-        {"letter": "E", "text": "It highlights the superior medical infrastructure of 14th-century cities."}
+        {"letter":"A","text":"Alarmed and urgent"},
+        {"letter":"B","text":"Neutral and objective"},
+        {"letter":"C","text":"Optimistic"},
+        {"letter":"D","text":"Humorous"},
+        {"letter":"E","text":"Indifferent"}
       ],
-      "correct_answer": "C",
-      "explanation": "The text states that relying on urban logs causes textbooks to 'underestimate the devastation' in rural areas. This directly implies the historical narrative is skewed, missing the rural perspective. Option C captures this safely."
+      "correct_answer": "A",
+      "explanation": "Words like 'most urgent', 'threatening', and 'Immediate global action required' express alarm and urgency. The tone is clearly **alarmed and urgent**.",
+      "hints": ["Look for emotional/evaluative words.", "'Urgent', 'threatening', 'immediate' = not neutral.", "Tone: alarmed and urgent."]
     },
     {
-      "id": "rc_medium_3",
-      "subject": "English",
-      "topic": "Reading Comprehension",
-      "difficulty": "medium",
-      "question_text": "Passage: 'The company instituted a rigid new policy regarding tardiness. Any employee arriving past 9:00 AM would receive a formal warning. Surprisingly, productivity over the next month plummeted, as employees engaged in malicious compliance, starting work precisely at 9:00 AM rather than coming in 15 minutes early out of goodwill as they previously had.'\n\nWhat can be inferred about the company's new policy?",
+      "id": "rc_easy_6", "subject": "English", "topic": "Reading Comprehension", "difficulty": "easy",
+      "question_text": "Passage: 'The purpose of vaccination is to prepare the immune system to fight specific diseases. When a vaccine is administered, the body produces antibodies, which remain to protect against future infections.'\n\nWhat does a vaccine do according to the passage?",
       "options": [
-        {"letter": "A", "text": "It successfully solved the overall problem of low productivity."},
-        {"letter": "B", "text": "It alienated employees, replacing intrinsic goodwill with strict minimum compliance."},
-        {"letter": "C", "text": "It forced employees to work long hours without any financial compensation."},
-        {"letter": "D", "text": "It fired the employees who were regularly late."},
-        {"letter": "E", "text": "It was enthusiastically welcomed by the local workers' union."}
+        {"letter":"A","text":"It prepares the immune system to fight diseases"},
+        {"letter":"B","text":"It immediately cures infections"},
+        {"letter":"C","text":"It replaces the immune system"},
+        {"letter":"D","text":"It eliminates all bacteria"},
+        {"letter":"E","text":"It is only needed once in a lifetime"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The passage states: 'The purpose of vaccination is to prepare the immune system to fight specific diseases.' This is directly stated → **A**.",
+      "hints": ["Find the stated purpose of vaccination in the passage.", "Passage says 'prepare the immune system'.", "Answer: A."]
+    },
+    {
+      "id": "rc_easy_7", "subject": "English", "topic": "Reading Comprehension", "difficulty": "easy",
+      "question_text": "Passage: 'Renewable energy sources, such as solar and wind power, are becoming increasingly cost-competitive with fossil fuels. This shift is driven by technological advances and growing environmental awareness.'\n\nWhat is driving the shift to renewable energy?",
+      "options": [
+        {"letter":"A","text":"Technological advances and environmental awareness"},
+        {"letter":"B","text":"Government mandates only"},
+        {"letter":"C","text":"The disappearance of fossil fuels"},
+        {"letter":"D","text":"Lower energy demand globally"},
+        {"letter":"E","text":"International trade agreements"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Directly stated: 'driven by technological advances and growing environmental awareness' → **A**.",
+      "hints": ["Find 'driven by' in the passage.", "'Technological advances and environmental awareness' matches option A.", "Direct quote → A."]
+    },
+    {
+      "id": "rc_easy_8", "subject": "English", "topic": "Reading Comprehension", "difficulty": "easy",
+      "question_text": "Passage: 'Children who read regularly tend to develop stronger vocabulary, better critical thinking skills, and greater empathy compared to those who do not read as frequently.'\n\nAccording to the passage, regular reading helps children develop all of the following EXCEPT:",
+      "options": [
+        {"letter":"A","text":"Better mathematical skills"},
+        {"letter":"B","text":"Stronger vocabulary"},
+        {"letter":"C","text":"Greater empathy"},
+        {"letter":"D","text":"Better critical thinking"},
+        {"letter":"E","text":"Comparative advantage over non-readers"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The passage mentions vocabulary, critical thinking, and empathy. **Mathematical skills** are NOT mentioned → A is the 'EXCEPT' answer.",
+      "hints": ["EXCEPT question: find what is NOT in the passage.", "The passage mentions: vocabulary, critical thinking, empathy.", "Mathematical skills are NOT mentioned → A."]
+    },
+    {
+      "id": "rc_medium_1", "subject": "English", "topic": "Reading Comprehension", "difficulty": "medium",
+      "question_text": "Passage: 'Urbanization brings economic opportunities and improved access to services, yet it also leads to traffic congestion, pollution, and social inequality. Policymakers must balance growth with sustainability to ensure that cities remain livable for all residents, not just the affluent.'\n\nWhich best describes the author's purpose?",
+      "options": [
+        {"letter":"A","text":"To argue that urbanization should be stopped"},
+        {"letter":"B","text":"To present a balanced view of urbanization's challenges"},
+        {"letter":"C","text":"To celebrate the economic benefits of city life"},
+        {"letter":"D","text":"To criticize wealthy urban residents"},
+        {"letter":"E","text":"To demand specific policy changes"}
       ],
       "correct_answer": "B",
-      "explanation": "The passage notes that productivity plummeted because employees stopped starting early 'out of goodwill', choosing 'malicious compliance' instead. This implies the strict rule destroyed employee flexibility and motivation. Option B aligns perfectly."
+      "explanation": "The passage presents both positives ('economic opportunities') and negatives ('congestion, pollution, inequality') and calls for balance. The purpose is **to present a balanced view of urbanization's drawbacks** and suggest a balanced approach.",
+      "hints": ["Does the author only argue one side or present both?", "Passage mentions benefits AND problems AND a call for balance.", "Purpose: balanced view of urbanization's challenges."]
     },
     {
-      "id": "rc_hard_1",
-      "subject": "English",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question_text": "Passage: 'Skeptics of cognitive behavioral therapy (CBT) argue that its focus on immediate symptom alleviation bypasses the deep-seated root traumas explored in prolonged psychoanalysis. Proponents, however, contend that paralyzing symptoms must be neutralized before productive deep-trauma work can even commence, framing CBT not as a replacement for psychoanalysis, but as a critical precursor.'\n\nHow do the proponents of CBT respond to the skeptics' specific criticism?",
+      "id": "rc_medium_2", "subject": "English", "topic": "Reading Comprehension", "difficulty": "medium",
+      "question_text": "Passage: 'The discovery of penicillin by Alexander Fleming in 1928 revolutionized medicine. Before antibiotics, even minor infections could be fatal. Fleming's accidental discovery—noticing that mold killed bacteria on a petri dish—saved millions of lives and laid the foundation for modern pharmaceutical science.'\n\nWhat can be inferred from the passage?",
       "options": [
-        {"letter": "A", "text": "They deny that root traumas actually exist in modern patients."},
-        {"letter": "B", "text": "They argue that symptom alleviation is entirely sufficient for mental health."},
-        {"letter": "C", "text": "They claim deep psychoanalysis is medically dangerous and outdated."},
-        {"letter": "D", "text": "They suggest that bypassing symptoms is impossible using psychoanalysis alone."},
-        {"letter": "E", "text": "They validate the importance of root traumas but argue they are inaccessible while severe symptoms persist."}
+        {"letter":"A","text":"Fleming intentionally researched mold as an antibacterial agent"},
+        {"letter":"B","text":"Before 1928, there was no effective treatment for infections"},
+        {"letter":"C","text":"Antibiotics were developed in the 1920s from a chance observation"},
+        {"letter":"D","text":"Modern medicine would not exist without Fleming"},
+        {"letter":"E","text":"All antibiotics are derived from mold"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The passage says penicillin was an 'accidental discovery' in 1928 → antibiotics came from a **chance observation in the 1920s** ✓.\n\nA: Wrong — it was 'accidental'.\nB: Extreme — the passage says infections 'could be' fatal, not that there was NO treatment.\nD: Extreme — 'laid the foundation', not 'without him, modern medicine wouldn't exist'.",
+      "hints": ["Inference = supported by the text but not literally stated.", "'Accidental discovery' suggests 'chance observation'.", "1928 = 1920s. Both facts combine to support option C."]
+    },
+    {
+      "id": "rc_medium_3", "subject": "English", "topic": "Reading Comprehension", "difficulty": "medium",
+      "question_text": "Passage: 'While proponents of social media argue it fosters global connectivity and enables marginalized voices to be heard, critics contend that it accelerates the spread of misinformation, reduces attention spans, and amplifies social polarization.'\n\nWhich statement best represents the author's position?",
+      "options": [
+        {"letter":"A","text":"Social media is clearly more harmful than beneficial"},
+        {"letter":"B","text":"Social media should be banned for its negative effects"},
+        {"letter":"C","text":"The author presents multiple perspectives without taking a stance"},
+        {"letter":"D","text":"The author supports social media's role in democracy"},
+        {"letter":"E","text":"The author believes misinformation is the biggest threat today"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The passage uses 'proponents argue... critics contend...' — it presents both sides without the author personally endorsing either. The author remains **neutral/objective**, presenting multiple perspectives.",
+      "hints": ["Look for 'I believe', 'we must', 'clearly' — signals of taking a side.", "The passage uses 'proponents argue' and 'critics contend' — balancing both.", "The author doesn't take a side → neutral/objective."]
+    },
+    {
+      "id": "rc_medium_4", "subject": "English", "topic": "Reading Comprehension", "difficulty": "medium",
+      "question_text": "Passage: 'Despite advances in medical technology, access to quality healthcare remains unequal. In many developing countries, rural populations must travel hours to reach the nearest hospital. Telemedicine, however, offers a promising solution by enabling remote consultations via digital devices.'\n\nWhich best describes the structure of the passage?",
+      "options": [
+        {"letter":"A","text":"Problem → context → proposed solution"},
+        {"letter":"B","text":"Cause → effect → recommendation"},
+        {"letter":"C","text":"Comparison between developed and developing countries"},
+        {"letter":"D","text":"Argument → counter-argument → conclusion"},
+        {"letter":"E","text":"Historical background → current status → future prediction"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Sentence 1: Problem (unequal healthcare)\nSentence 2: Context (rural populations in developing countries)\nSentence 3: 'however' → Solution (telemedicine)\n\nStructure: **Problem → context → proposed solution**",
+      "hints": ["Trace the logical flow: what comes first, then what?", "Sentence 1 = problem. Sentence 2 = context/example. 'However' = shift to solution.", "Problem → context → solution."]
+    },
+    {
+      "id": "rc_medium_5", "subject": "English", "topic": "Reading Comprehension", "difficulty": "medium",
+      "question_text": "Passage: 'Artificial intelligence is transforming industries at an unprecedented pace. While AI-driven automation improves efficiency, it simultaneously displaces millions of low-skill workers. Economists debate whether new job categories will emerge fast enough to offset these losses.'\n\nWhat is the author's most likely target audience?",
+      "options": [
+        {"letter":"A","text":"Children learning about technology"},
+        {"letter":"B","text":"Economists and policymakers"},
+        {"letter":"C","text":"AI software engineers"},
+        {"letter":"D","text":"Factory workers"},
+        {"letter":"E","text":"General educated readers interested in current issues"}
       ],
       "correct_answer": "E",
-      "explanation": "The proponents do not dismiss root trauma (like A or B suggest). Instead, they say symptoms 'must be neutralized before productive deep-trauma work can even commence'. This means they value the deep work, but believe you must fix immediate symptoms first. Option E encapsulates this 'precursor' logic absolutely."
+      "explanation": "The passage uses formal but accessible language, discusses economic and social implications, and references economists without being highly technical. This is written for **general educated readers** interested in current affairs.",
+      "hints": ["Who would benefit from reading this passage?", "It's not highly technical (not for engineers). Not too simple (not for children).", "General educated readers interested in current issues."]
     },
     {
-      "id": "rc_hard_2",
-      "subject": "English",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question_text": "Passage: 'Critics panning the latest avant-garde film consistently misinterpret its chaotic cinematography as directorial incompetence. In reality, the shaky camera work and dissonant audio track are deliberate mechanics designed to forcefully thrust the audience into the protagonist's localized psychosis. To demand smooth panning shots is to demand a fundamental betrayal of the narrative's core theme.'\n\nWhat is the author's primary attitude toward the critics?",
+      "id": "rc_medium_6", "subject": "English", "topic": "Reading Comprehension", "difficulty": "medium",
+      "question_text": "Passage: 'The tiger population in Indonesia has dwindled to critically low levels due to poaching and habitat destruction. Conservation efforts, including anti-poaching patrols and habitat restoration, have shown some success, but experts warn that without greater governmental commitment, extinction remains a real possibility.'\n\nThe word 'dwindled' in the passage is closest in meaning to:",
       "options": [
-        {"letter": "A", "text": "Sympathetic to their demand for polished cinematography."},
-        {"letter": "B", "text": "Dismissive, asserting they failed to grasp the thematic intent of the style."},
-        {"letter": "C", "text": "Objective, simply stating varying perspectives on filmmaking."},
-        {"letter": "D", "text": "Angry that they personally attacked the film's lead actor."},
-        {"letter": "E", "text": "Confused about why they perceived the audio track as dissonant."}
+        {"letter":"A","text":"Decreased gradually"},
+        {"letter":"B","text":"Increased rapidly"},
+        {"letter":"C","text":"Remained stable"},
+        {"letter":"D","text":"Disappeared suddenly"},
+        {"letter":"E","text":"Divided into groups"}
+      ],
+      "correct_answer": "A",
+      "explanation": "'Dwindled' means to become progressively smaller or fewer. Context: tiger population reaching 'critically low levels' → **decreased gradually** ✓.",
+      "hints": ["Use context: tiger population is now critically low → it must have gone down.", "Dwindle = become smaller/fewer gradually.", "Answer: decreased gradually."]
+    },
+    {
+      "id": "rc_medium_7", "subject": "English", "topic": "Reading Comprehension", "difficulty": "medium",
+      "question_text": "Passage: 'Coffee is among the most consumed beverages in the world, second only to water. Its primary active compound, caffeine, stimulates the central nervous system, reducing fatigue and improving alertness. Research suggests moderate consumption may reduce the risk of Parkinson's disease and type 2 diabetes.'\n\nBased on the passage, which conclusion is most reasonable?",
+      "options": [
+        {"letter":"A","text":"Excessive coffee causes Parkinson's disease"},
+        {"letter":"B","text":"Moderate coffee consumption has some health benefits"},
+        {"letter":"C","text":"Coffee is healthier than water"},
+        {"letter":"D","text":"All caffeine sources reduce fatigue"},
+        {"letter":"E","text":"Coffee should be consumed daily for maximum benefit"}
       ],
       "correct_answer": "B",
-      "explanation": "The author says critics 'misinterpret' the film and that demanding smooth shots is a 'fundamental betrayal' of the theme. The tone strongly defends the film's choices and dismisses the critics as having completely missed the point."
+      "explanation": "The passage says 'moderate consumption MAY reduce the risk' of certain diseases → reasonable conclusion: **moderate consumption has some potential health benefits** ✓.\n\nOption A: extreme and not stated. C: not stated. D, E: not supported.",
+      "hints": ["'May reduce' = a possibility, not a certainty.", "Moderate consumption, not excessive.", "Reasonable conclusion: moderate coffee may offer health benefits."]
     },
     {
-      "id": "rc_hard_3",
-      "subject": "English",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question_text": "Passage: 'The economic stagnation of the 1970s, characterized by the simultaneous onset of inflation and rising unemployment (stagflation), defied the established Keynesian consensus. Policymakers who attempted to spend their way out of unemployment only accelerated inflation, caught in a theoretical blind spot that ultimately paved the way for monetarist economic theory to seize academic dominance.'\n\nAccording to the passage, why did Keynesian policymakers fail during the 1970s?",
+      "id": "rc_medium_8", "subject": "English", "topic": "Reading Comprehension", "difficulty": "medium",
+      "question_text": "Passage: 'The introduction of smartphones has dramatically changed communication patterns. Where once people would call or meet in person, text messaging and social media have become the dominant forms of interaction. While this increases convenience, many psychologists worry about the decline of deep, meaningful interpersonal relationships.'\n\nThe author implies that:",
       "options": [
-        {"letter": "A", "text": "They refused to spend enough government money to combat unemployment."},
-        {"letter": "B", "text": "They enthusiastically adopted monetarist economic theory too early."},
-        {"letter": "C", "text": "Their established methods for curing unemployment paradoxically worsened the simultaneous inflation."},
-        {"letter": "D", "text": "They intentionally caused stagflation to destroy competing academic theories."},
-        {"letter": "E", "text": "They lacked accurate modern computer models for predicting unemployment."}
-      ],
-      "correct_answer": "C",
-      "explanation": "The passage states that they 'attempted to spend their way out' (eliminating A) but 'only accelerated inflation'. This trap, where a solution for one metric ruined the other, was a 'theoretical blind spot'. Option C perfectly describes this paradox."
-    },
-    {
-      "id": "rc_hard_4",
-      "subject": "English",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question_text": "Passage: 'In analyzing evolutionary adaptations, there is a dangerous temptation to assume hyper-optimization. Often, a physical trait does not exist because it provides an active survival advantage, but simply because it is a genetic byproduct of a different, more essential trait, and does not actively kill the organism. Neutral traits persist on the back of advantageous ones.'\n\nWhich logical fallacy in evolutionary biology is the passage warning against?",
-      "options": [
-        {"letter": "A", "text": "Assuming that evolution is entirely driven by random chance."},
-        {"letter": "B", "text": "Believing that traits can evolve independently of genetics."},
-        {"letter": "C", "text": "Assuming every observable physical characteristic has a specific functional purpose."},
-        {"letter": "D", "text": "Ignoring the fact that physical traits can be actively harmful to survival."},
-        {"letter": "E", "text": "Underestimating the speed at which genetic byproducts manifest."}
-      ],
-      "correct_answer": "C",
-      "explanation": "The passage warns against the 'temptation to assume hyper-optimization' (thinking everything has an active advantage). It points out that 'neutral traits' exist just because they piggyback on other genes. Option C properly describes the fallacy of over-attributing functional purpose to everything."
-    },
-    {
-      "id": "rc_hard_5",
-      "subject": "English",
-      "topic": "Reading Comprehension",
-      "difficulty": "hard",
-      "question_text": "Passage: 'Algorithm-driven news feeds operate under a perverse utilitarianism, maximizing user engagement above strict journalistic truth. When outrage inherently generates more clicks than nuanced analysis, the algorithm functionally censors moderation by burying it in obscurity. Thus, the tool designed to connect global populations paradoxically fractures them into tribal, hyper-polarized echo chambers.'\n\nWhat is the 'perverse utilitarianism' referring to in the context of the argument?",
-      "options": [
-        {"letter": "A", "text": "The platform's dedication to providing exactly what the user wants to buy."},
-        {"letter": "B", "text": "A misapplied optimization where the 'greatest good' is defined purely as maximum screen time, regardless of societal damage."},
-        {"letter": "C", "text": "A deliberate conspiracy by journalists to fracture global populations."},
-        {"letter": "D", "text": "The logical framework used by users to filter out fake news manually."},
-        {"letter": "E", "text": "An unethical attempt to charge users money for accessing moderate content."}
+        {"letter":"A","text":"Smartphones should be banned from schools"},
+        {"letter":"B","text":"Digital communication has both advantages and potential drawbacks"},
+        {"letter":"C","text":"Face-to-face communication is now obsolete"},
+        {"letter":"D","text":"Psychologists are incorrect in their concerns"},
+        {"letter":"E","text":"Text messaging is superior to phone calls"}
       ],
       "correct_answer": "B",
-      "explanation": "Utilitarianism usually seeks the 'greatest good'. Here it is 'perverse' because the system 'maximizes user engagement above strict journalistic truth'. The algorithm optimizes for metrics (screen time/clicks) instead of actual good (truth/societal health). Option B is a perfect analytical summary."
+      "explanation": "The passage presents convenience as a positive, but also the concern about declining deep relationships as a negative. The implication: **digital communication has both advantages (convenience) and potential drawbacks (relationship quality)**.",
+      "hints": ["The passage gives a benefit ('increases convenience') and a concern ('decline of meaningful relationships').", "Both sides are presented.", "Implication: digital communication has benefits AND drawbacks."]
+    },
+    {
+      "id": "rc_hard_1", "subject": "English", "topic": "Reading Comprehension", "difficulty": "hard",
+      "question_text": "Passage: 'The narrative of meritocracy, seductive in its simplicity, promises that talent and hard work alone determine success. Yet sociologists contend that structural inequalities—disparities in educational access, social capital, and systemic bias—mediate the translation of effort into outcomes. To accept meritocracy uncritically is to render invisible the very scaffolding that supports some while constraining others.'\n\nThe author's main argument is that:",
+      "options": [
+        {"letter":"A","text":"Talent and hard work are meaningless in modern society"},
+        {"letter":"B","text":"Meritocracy is a complete myth with no basis in reality"},
+        {"letter":"C","text":"Success is shaped by structural factors, not just individual effort"},
+        {"letter":"D","text":"Sociologists oppose the idea of individual achievement"},
+        {"letter":"E","text":"Educational access is the sole determinant of success"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The passage says meritocracy is 'seductive' but that structural inequalities 'mediate' the link between effort and outcomes. The author argues that success is **shaped by structural factors, not just individual effort** — not that merit is entirely meaningless.",
+      "hints": ["'Yet' introduces the counterpoint to meritocracy — this is the author's view.", "'Mediate' = affect/influence outcome of effort.", "The author doesn't deny merit exists, just that structural factors also matter."]
+    },
+    {
+      "id": "rc_hard_2", "subject": "English", "topic": "Reading Comprehension", "difficulty": "hard",
+      "question_text": "Passage: 'Unlike traditional education, which prioritizes rote memorization, progressive pedagogy emphasizes critical inquiry, collaborative learning, and the cultivation of intrinsic motivation. Critics argue this approach lacks rigor; proponents counter that it produces more adaptable, creative thinkers equipped for a rapidly changing world.'\n\nWhich statement would the author of the passage MOST LIKELY agree with?",
+      "options": [
+        {"letter":"A","text":"Traditional education is superior because it ensures knowledge mastery"},
+        {"letter":"B","text":"Progressive pedagogy is rigorously proven to be more effective"},
+        {"letter":"C","text":"The debate between traditional and progressive education has valid points on both sides"},
+        {"letter":"D","text":"Memorization is obsolete in modern education"},
+        {"letter":"E","text":"Schools should only use collaborative learning methods"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The author presents critics' view AND proponents' view without endorsing either. The balanced presentation suggests the author sees **valid points on both sides** — the most defensible interpretation of an objective, informative passage.",
+      "hints": ["Does the author explicitly favor one side?", "The passage says 'critics argue' AND 'proponents counter' — both presented.", "The author seems balanced → valid points on both sides."]
+    },
+    {
+      "id": "rc_hard_3", "subject": "English", "topic": "Reading Comprehension", "difficulty": "hard",
+      "question_text": "Passage: 'The paradox of modern connectivity is that despite unprecedented technological tools for communication, loneliness rates in developed nations have reached epidemic proportions. This invites a troubling reconsideration of whether digital interaction can substitute for, or merely simulates, the neurobiological satiation that face-to-face contact provides.'\n\nThe word 'satiation' as used means:",
+      "options": [
+        {"letter":"A","text":"Stimulation"},
+        {"letter":"B","text":"Fulfillment of a need"},
+        {"letter":"C","text":"Disruption"},
+        {"letter":"D","text":"Suppression"},
+        {"letter":"E","text":"Measurement"}
+      ],
+      "correct_answer": "B",
+      "explanation": "'Neurobiological satiation' = the biological fulfillment/satisfaction that face-to-face contact provides. 'Satiation' means the state of being fully satisfied or having a need met → **fulfillment of a need** ✓.",
+      "hints": ["'Satiation' = state of being fully satisfied.", "Context: face-to-face contact 'satiates' a neurobiological need.", "Closest meaning: fulfillment of a need."]
+    },
+    {
+      "id": "rc_hard_4", "subject": "English", "topic": "Reading Comprehension", "difficulty": "hard",
+      "question_text": "Complex passage analysis: A passage discusses how confirmation bias — the tendency to seek information that confirms existing beliefs — distorts scientific inquiry. It argues that replication crises in psychology stem partly from researchers unconsciously designing bias-confirming studies.\n\nWhich inference is BEST supported?",
+      "options": [
+        {"letter":"A","text":"All psychological research is invalid"},
+        {"letter":"B","text":"Bias can affect even trained scientists"},
+        {"letter":"C","text":"The replication crisis is primarily caused by fraud"},
+        {"letter":"D","text":"Confirmation bias only affects non-scientists"},
+        {"letter":"E","text":"Psychology as a field should be abandoned"}
+      ],
+      "correct_answer": "B",
+      "explanation": "'Researchers unconsciously designing bias-confirming studies' implies that even trained scientists are subject to confirmation bias. This supports inference **B: bias can affect even trained scientists** ✓.\n\nA, E: Extreme. C: The passage says 'unconsciously' not fraudulently. D: Opposite of what the passage implies.",
+      "hints": ["'Unconsciously designing' = even trained researchers are affected.", "This directly supports the inference about scientists and bias.", "Answer B is supported; others are extreme or opposite to the text."]
+    },
+    {
+      "id": "rc_hard_5", "subject": "English", "topic": "Reading Comprehension", "difficulty": "hard",
+      "question_text": "Passage: 'The commodification of education transforms learning from an intrinsically motivated, emancipatory practice into a market-driven transaction. Students become consumers, educators service providers, and knowledge a product whose value is measured in employment outcomes rather than intellectual depth.'\n\nThe author's tone is best described as:",
+      "options": [
+        {"letter":"A","text":"Celebratory of market-based education"},
+        {"letter":"B","text":"Neutral and descriptive"},
+        {"letter":"C","text":"Critically concerned about education's commercialization"},
+        {"letter":"D","text":"Ambivalent about both approaches"},
+        {"letter":"E","text":"Statistically analytical"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The author uses loaded language: 'transforms' (implies a negative change), 'becomes consumers' (dehumanizing), 'value is measured in employment outcomes rather than intellectual depth' (lamenting the reduction). The tone is clearly **critically concerned**.",
+      "hints": ["What does 'transforms' here imply — positive or negative change?", "Words like 'transaction', 'consumers', 'product' frame education negatively.", "The author clearly disapproves → critically concerned."]
+    },
+    {
+      "id": "rc_hard_6", "subject": "English", "topic": "Reading Comprehension", "difficulty": "hard",
+      "question_text": "Based on the passage: 'Genomic sequencing has made personalized medicine feasible, yet its democratization is hindered by prohibitive costs and the concentration of genetic databases in high-income nations. Consequently, the benefits of precision medicine risk being limited to affluent populations, further entrenching global health inequities.'\n\nWhat is the central concern expressed?",
+      "options": [
+        {"letter":"A","text":"Genetic databases are inaccurate"},
+        {"letter":"B","text":"Personalized medicine is not yet effective"},
+        {"letter":"C","text":"Unequal access may limit precision medicine to wealthy populations"},
+        {"letter":"D","text":"High-income nations should stop genetic research"},
+        {"letter":"E","text":"Genomic sequencing causes more harm than good"}
+      ],
+      "correct_answer": "C",
+      "explanation": "'Benefits of precision medicine risk being limited to affluent populations, further entrenching global health inequities' = the central concern is **unequal access based on wealth**. Options A, B, D, E are not stated or are extreme.",
+      "hints": ["'Hindered by prohibitive costs' and 'limited to affluent' = access problem.", "The central concern is about who benefits.", "Unequal access → C."]
+    },
+    {
+      "id": "rc_hard_7", "subject": "English", "topic": "Reading Comprehension", "difficulty": "hard",
+      "question_text": "Passage about scientific literacy ends with: 'An electorate incapable of evaluating scientific claims cannot meaningfully participate in evidence-based democratic decision-making.'\n\nThe author most likely believes that:",
+      "options": [
+        {"letter":"A","text":"Scientists should make all government decisions"},
+        {"letter":"B","text":"Democracy requires citizens to have basic scientific literacy"},
+        {"letter":"C","text":"Scientific claims are always more reliable than political opinions"},
+        {"letter":"D","text":"Democracy has failed because of poor scientific education"},
+        {"letter":"E","text":"Citizens who lack science education should not vote"}
+      ],
+      "correct_answer": "B",
+      "explanation": "'Cannot meaningfully participate in evidence-based decision-making' implies that to participate meaningfully, citizens need scientific literacy. The author believes **democracy requires citizens to have basic scientific literacy** ✓.\n\nD and E are extreme. A and C go beyond what is stated.",
+      "hints": ["'Cannot meaningfully participate' = needs improvement, not that democracy has failed.", "The author wants better participation, not exclusion.", "Implication: scientific literacy is needed for meaningful democratic participation."]
     }
   ]
 }
