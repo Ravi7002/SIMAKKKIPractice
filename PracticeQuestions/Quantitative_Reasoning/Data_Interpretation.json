@@ -1,0 +1,469 @@
+{
+  "subject": "Quantitative Reasoning",
+  "topic": "Data Interpretation",
+  "introduction": "Data Interpretation requires reading charts (bar, pie, line) and tables to answer quantitative questions. Key skills: calculating percentage change, reading approximate values, comparing categories, identifying trends, and computing totals/averages from data.",
+  "key_formulas": [
+    {"name": "Percentage change", "formula": "\\%\\text{ change} = \\frac{\\text{New} - \\text{Old}}{\\text{Old}} \\times 100"},
+    {"name": "Percentage of total", "formula": "\\% = \\frac{\\text{Part}}{\\text{Total}} \\times 100"},
+    {"name": "Average", "formula": "\\bar{x} = \\frac{\\sum x_i}{n}"},
+    {"name": "Ratio from pie chart", "formula": "\\text{Value} = \\frac{\\text{Angle}}{360°} \\times \\text{Total}"},
+    {"name": "Bar chart reading", "formula": "\\text{Read height from y-axis scale carefully}"}
+  ],
+  "tips_and_tricks": [
+    "Always identify the unit (thousands, millions, %) before computing.",
+    "For percentage change: use (New - Old)/Old × 100. Sign indicates increase/decrease.",
+    "For pie charts: each degree = 1/360 of total. Each 1% = 3.6°.",
+    "Read bar charts by projecting tops to the y-axis — don't estimate by eye alone.",
+    "For multiple series bar charts: be sure to read the correct bar within each group.",
+    "Trend lines: focus on direction (up/down) and rate (steep vs. gradual).",
+    "Cross-check your answer with magnitude: does it make sense given the chart scale?"
+  ],
+  "worked_examples": [
+    {
+      "title": "Example 1: Bar chart — percentage change",
+      "question": "A bar chart shows Company A's revenue: 2021=400M, 2022=500M. What is the percentage increase?",
+      "solution": [
+        "Step 1: Identify Old=400M, New=500M.",
+        "Step 2: Change = 500-400 = 100M.",
+        "Step 3: % change = (100/400) × 100 = 25%.",
+        "Step 4: Revenue grew by 25%."
+      ]
+    },
+    {
+      "title": "Example 2: Pie chart — category value",
+      "question": "A pie chart shows total budget = 500M. Education sector = 30%. What is the education budget?",
+      "solution": [
+        "Step 1: Education % = 30%.",
+        "Step 2: Value = 30% × 500M = 0.30 × 500 = 150M.",
+        "Step 3: Education budget = 150 million."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "di_e1", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "easy",
+      "chart_data": {
+        "type": "bar",
+        "title": "Monthly Sales (in units)",
+        "x_label": "Month",
+        "y_label": "Units Sold",
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+        "datasets": [{"label": "Product A", "values": [120, 150, 100, 180, 160, 200]}]
+      },
+      "question_text": "Based on the bar chart showing Monthly Sales:\nIn which month were the most units sold?",
+      "options": [{"letter":"A","text":"June"},{"letter":"B","text":"April"},{"letter":"C","text":"May"},{"letter":"D","text":"February"},{"letter":"E","text":"January"}],
+      "correct_answer": "A",
+      "explanation": "The highest bar is **June** with 200 units. Look for the tallest bar in the chart.",
+      "hints": ["Find the tallest bar in the chart.", "June reaches 200 units.", "Answer: June."]
+    },
+    {
+      "id": "di_e2", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "easy",
+      "chart_data": {
+        "type": "bar",
+        "title": "Monthly Sales (in units)",
+        "x_label": "Month",
+        "y_label": "Units Sold",
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+        "datasets": [{"label": "Product A", "values": [120, 150, 100, 180, 160, 200]}]
+      },
+      "question_text": "Based on the bar chart:\nWhat is the total number of units sold from Jan to Jun?",
+      "options": [{"letter":"A","text":"910"},{"letter":"B","text":"850"},{"letter":"C","text":"900"},{"letter":"D","text":"960"},{"letter":"E","text":"880"}],
+      "correct_answer": "A",
+      "explanation": "Total = 120+150+100+180+160+200 = **910** units ✓",
+      "hints": ["Add all monthly values.", "120+150+100+180+160+200.", "= 910."]
+    },
+    {
+      "id": "di_e3", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "easy",
+      "chart_data": {
+        "type": "pie",
+        "title": "Budget Allocation (Total: 800 Billion)",
+        "labels": ["Education", "Health", "Defense", "Infrastructure", "Other"],
+        "datasets": [{"label": "Share", "values": [25, 30, 20, 15, 10]}]
+      },
+      "question_text": "Based on the pie chart (Total budget = 800 Billion):\nHow much is allocated to Health?",
+      "options": [{"letter":"A","text":"240 Billion"},{"letter":"B","text":"200 Billion"},{"letter":"C","text":"160 Billion"},{"letter":"D","text":"120 Billion"},{"letter":"E","text":"80 Billion"}],
+      "correct_answer": "A",
+      "explanation": "Health = 30% of 800B = 0.30 × 800 = **240 Billion** ✓",
+      "hints": ["Health is 30% of the total.", "30% × 800B = ?", "= 240 Billion."]
+    },
+    {
+      "id": "di_e4", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "easy",
+      "chart_data": {
+        "type": "pie",
+        "title": "Budget Allocation (Total: 800 Billion)",
+        "labels": ["Education", "Health", "Defense", "Infrastructure", "Other"],
+        "datasets": [{"label": "Share", "values": [25, 30, 20, 15, 10]}]
+      },
+      "question_text": "Based on the pie chart:\nWhich two sectors together account for 55% of the budget?",
+      "options": [{"letter":"A","text":"Education + Health"},{"letter":"B","text":"Defense + Infrastructure"},{"letter":"C","text":"Health + Defense"},{"letter":"D","text":"Education + Infrastructure"},{"letter":"E","text":"Defense + Other"}],
+      "correct_answer": "A",
+      "explanation": "Education (25%) + Health (30%) = **55%** ✓",
+      "hints": ["Sum categories to reach 55%.", "25%+30%=55%.", "Education + Health."]
+    },
+    {
+      "id": "di_e5", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "easy",
+      "chart_data": {
+        "type": "line",
+        "title": "Population Growth (millions)",
+        "x_label": "Year",
+        "y_label": "Population (M)",
+        "labels": ["2018", "2019", "2020", "2021", "2022", "2023"],
+        "datasets": [{"label": "Population", "values": [10, 11, 12.5, 12, 13.5, 15]}]
+      },
+      "question_text": "Based on the line graph:\nIn which year did population DECREASE compared to the previous year?",
+      "options": [{"letter":"A","text":"2021"},{"letter":"B","text":"2019"},{"letter":"C","text":"2022"},{"letter":"D","text":"2023"},{"letter":"E","text":"2020"}],
+      "correct_answer": "A",
+      "explanation": "2021 shows 12M, which is LESS than 2020's 12.5M — this is the only decrease. **2021** ✓",
+      "hints": ["Find where the line dips below the previous year.", "2021: 12 < 2020: 12.5.", "Answer: 2021."]
+    },
+    {
+      "id": "di_e6", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "easy",
+      "chart_data": {
+        "type": "table",
+        "title": "Student Exam Scores",
+        "headers": ["Student", "Math", "English", "Science", "Total"],
+        "rows": [
+          ["Ali", 85, 78, 92, 255],
+          ["Budi", 70, 90, 80, 240],
+          ["Cinta", 95, 88, 75, 258],
+          ["Dani", 60, 72, 85, 217],
+          ["Eka", 88, 76, 90, 254]
+        ]
+      },
+      "question_text": "Based on the scores table:\nWho scored the highest total?",
+      "options": [{"letter":"A","text":"Cinta"},{"letter":"B","text":"Ali"},{"letter":"C","text":"Eka"},{"letter":"D","text":"Budi"},{"letter":"E","text":"Dani"}],
+      "correct_answer": "A",
+      "explanation": "Cinta: 258. Ali: 255. Eka: 254. Highest = **Cinta** ✓",
+      "hints": ["Compare the Total column.", "Cinta has 258, the highest.", "Answer: Cinta."]
+    },
+    {
+      "id": "di_e7", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "easy",
+      "chart_data": {
+        "type": "table",
+        "title": "Student Exam Scores",
+        "headers": ["Student", "Math", "English", "Science", "Total"],
+        "rows": [
+          ["Ali", 85, 78, 92, 255],
+          ["Budi", 70, 90, 80, 240],
+          ["Cinta", 95, 88, 75, 258],
+          ["Dani", 60, 72, 85, 217],
+          ["Eka", 88, 76, 90, 254]
+        ]
+      },
+      "question_text": "Based on the scores table:\nWhat is the average Math score across all students?",
+      "options": [{"letter":"A","text":"79.6"},{"letter":"B","text":"80"},{"letter":"C","text":"78"},{"letter":"D","text":"81"},{"letter":"E","text":"77"}],
+      "correct_answer": "A",
+      "explanation": "Math scores: 85+70+95+60+88=398. Average = 398÷5 = **79.6** ✓",
+      "hints": ["Add all Math scores: 85+70+95+60+88=398.", "Divide by 5 students.", "398÷5=79.6."]
+    },
+    {
+      "id": "di_e8", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "easy",
+      "chart_data": {
+        "type": "line",
+        "title": "Population Growth (millions)",
+        "x_label": "Year",
+        "y_label": "Population (M)",
+        "labels": ["2018", "2019", "2020", "2021", "2022", "2023"],
+        "datasets": [{"label": "Population", "values": [10, 11, 12.5, 12, 13.5, 15]}]
+      },
+      "question_text": "Based on the line graph:\nWhat was the population increase from 2022 to 2023?",
+      "options": [{"letter":"A","text":"1.5 million"},{"letter":"B","text":"1 million"},{"letter":"C","text":"2 million"},{"letter":"D","text":"0.5 million"},{"letter":"E","text":"2.5 million"}],
+      "correct_answer": "A",
+      "explanation": "2023: 15M. 2022: 13.5M. Increase = 15-13.5 = **1.5 million** ✓",
+      "hints": ["Read values: 2022=13.5, 2023=15.", "Subtract: 15-13.5=1.5.", "1.5 million."]
+    },
+    {
+      "id": "di_m1", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "medium",
+      "chart_data": {
+        "type": "bar",
+        "title": "Company Revenue by Quarter (Billion IDR)",
+        "x_label": "Quarter",
+        "y_label": "Revenue (Billion IDR)",
+        "labels": ["Q1", "Q2", "Q3", "Q4"],
+        "datasets": [
+          {"label": "2022", "values": [200, 250, 220, 280]},
+          {"label": "2023", "values": [240, 290, 270, 340]}
+        ]
+      },
+      "question_text": "Based on the grouped bar chart comparing 2022 and 2023 quarterly revenue:\nWhat is the percentage increase in Q4 revenue from 2022 to 2023?",
+      "options": [{"letter":"A","text":"21.4%"},{"letter":"B","text":"25%"},{"letter":"C","text":"18%"},{"letter":"D","text":"20%"},{"letter":"E","text":"15%"}],
+      "correct_answer": "A",
+      "explanation": "Q4: 2022=280B, 2023=340B.\n% increase = (340-280)/280 × 100 = 60/280 × 100 ≈ **21.4%** ✓",
+      "hints": ["% change = (New-Old)/Old × 100.", "= (340-280)/280 × 100.", "= 60/280 × 100 ≈ 21.4%."]
+    },
+    {
+      "id": "di_m2", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "medium",
+      "chart_data": {
+        "type": "bar",
+        "title": "Company Revenue by Quarter (Billion IDR)",
+        "x_label": "Quarter",
+        "y_label": "Revenue (Billion IDR)",
+        "labels": ["Q1", "Q2", "Q3", "Q4"],
+        "datasets": [
+          {"label": "2022", "values": [200, 250, 220, 280]},
+          {"label": "2023", "values": [240, 290, 270, 340]}
+        ]
+      },
+      "question_text": "Based on the grouped bar chart:\nIn which quarter was the revenue DIFFERENCE between 2022 and 2023 the LARGEST?",
+      "options": [{"letter":"A","text":"Q4"},{"letter":"B","text":"Q1"},{"letter":"C","text":"Q2"},{"letter":"D","text":"Q3"},{"letter":"E","text":"Same in all"}],
+      "correct_answer": "A",
+      "explanation": "Differences: Q1=40, Q2=40, Q3=50, Q4=60. Largest = **Q4** (60B) ✓",
+      "hints": ["Compute 2023 - 2022 for each quarter.", "Q1=40, Q2=40, Q3=50, Q4=60.", "Largest difference: Q4."]
+    },
+    {
+      "id": "di_m3", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "medium",
+      "chart_data": {
+        "type": "pie",
+        "title": "Market Share by Company (Total Market: 5 Trillion IDR)",
+        "labels": ["Alfa", "Beta", "Gamma", "Delta", "Others"],
+        "datasets": [{"label": "Market Share %", "values": [35, 25, 20, 12, 8]}]
+      },
+      "question_text": "Based on the pie chart (Total market: 5 Trillion IDR):\nWhat is the combined market value of Alfa and Gamma?",
+      "options": [{"letter":"A","text":"2.75 Trillion"},{"letter":"B","text":"3 Trillion"},{"letter":"C","text":"2.5 Trillion"},{"letter":"D","text":"2.25 Trillion"},{"letter":"E","text":"3.25 Trillion"}],
+      "correct_answer": "A",
+      "explanation": "Alfa=35% + Gamma=20% = 55%.\n55% × 5T = 0.55 × 5 = **2.75 Trillion** ✓",
+      "hints": ["Alfa=35%, Gamma=20%. Add: 55%.", "55% × 5 Trillion.", "= 2.75 Trillion."]
+    },
+    {
+      "id": "di_m4", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "medium",
+      "chart_data": {
+        "type": "table",
+        "title": "Regional Sales Data (Million IDR)",
+        "headers": ["Region", "2021", "2022", "2023", "Growth (2021→2023)"],
+        "rows": [
+          ["North", 500, 600, 720, "44%"],
+          ["South", 400, 450, 500, "25%"],
+          ["East", 600, 700, 840, "40%"],
+          ["West", 300, 360, 450, "50%"],
+          ["Central", 450, 490, 540, "20%"]
+        ]
+      },
+      "question_text": "Based on the regional sales table:\nWhich region showed the highest percentage growth from 2021 to 2023?",
+      "options": [{"letter":"A","text":"West (50%)"},{"letter":"B","text":"North (44%)"},{"letter":"C","text":"East (40%)"},{"letter":"D","text":"South (25%)"},{"letter":"E","text":"Central (20%)"}],
+      "correct_answer": "A",
+      "explanation": "Growth column: West=50%, highest. Verify: (450-300)/300×100 = 50% ✓\n**West** has the highest growth.",
+      "hints": ["Check the Growth column.", "West: 50% is the highest.", "Answer: West."]
+    },
+    {
+      "id": "di_m5", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "medium",
+      "chart_data": {
+        "type": "line",
+        "title": "Unemployment Rate (%) over 6 Years",
+        "x_label": "Year",
+        "y_label": "Unemployment Rate (%)",
+        "labels": ["2018", "2019", "2020", "2021", "2022", "2023"],
+        "datasets": [
+          {"label": "Urban", "values": [5.2, 4.8, 7.1, 6.5, 5.9, 5.2]},
+          {"label": "Rural", "values": [6.0, 5.8, 8.2, 7.5, 6.8, 6.1]}
+        ]
+      },
+      "question_text": "Based on the dual-line graph of unemployment rates:\nIn which year was the unemployment rate gap between Urban and Rural the largest?",
+      "options": [{"letter":"A","text":"2020"},{"letter":"B","text":"2021"},{"letter":"C","text":"2018"},{"letter":"D","text":"2022"},{"letter":"E","text":"2019"}],
+      "correct_answer": "A",
+      "explanation": "Gaps: 2018=0.8, 2019=1.0, 2020=**1.1**, 2021=1.0, 2022=0.9, 2023=0.9.\nLargest gap = **2020** (1.1%) ✓",
+      "hints": ["Calculate Rural - Urban for each year.", "2020: 8.2-7.1=1.1.", "Largest gap: 2020."]
+    },
+    {
+      "id": "di_m6", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "medium",
+      "chart_data": {
+        "type": "table",
+        "title": "Production and Cost Data",
+        "headers": ["Product", "Units Produced", "Total Cost (M)", "Revenue (M)", "Profit (M)"],
+        "rows": [
+          ["X", 1000, 50, 80, 30],
+          ["Y", 2000, 90, 140, 50],
+          ["Z", 1500, 75, 110, 35],
+          ["W", 500, 30, 45, 15]
+        ]
+      },
+      "question_text": "Based on the production table:\nWhich product has the highest profit margin (Profit/Revenue)?",
+      "options": [{"letter":"A","text":"X (37.5%)"},{"letter":"B","text":"Y (35.7%)"},{"letter":"C","text":"Z (31.8%)"},{"letter":"D","text":"W (33.3%)"},{"letter":"E","text":"All equal"}],
+      "correct_answer": "A",
+      "explanation": "Profit margins:\nX: 30/80=37.5%, Y: 50/140=35.7%, Z: 35/110=31.8%, W: 15/45=33.3%.\nHighest = **X at 37.5%** ✓",
+      "hints": ["Profit margin = Profit/Revenue × 100.", "Calculate for each: X=30/80=37.5%.", "X has the highest margin."]
+    },
+    {
+      "id": "di_m7", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "medium",
+      "chart_data": {
+        "type": "bar",
+        "title": "Students by Faculty and Gender",
+        "x_label": "Faculty",
+        "y_label": "Number of Students",
+        "labels": ["Engineering", "Law", "Medicine", "Economics", "Science"],
+        "datasets": [
+          {"label": "Male", "values": [350, 200, 150, 300, 180]},
+          {"label": "Female", "values": [150, 300, 250, 200, 220]}
+        ]
+      },
+      "question_text": "Based on the grouped bar chart:\nIn which faculty do female students outnumber male students by the most?",
+      "options": [{"letter":"A","text":"Law (gap: 100)"},{"letter":"B","text":"Medicine (gap: 100)"},{"letter":"C","text":"Economics (gap: 100)"},{"letter":"D","text":"Science (gap: 40)"},{"letter":"E","text":"Engineering"}],
+      "correct_answer": "A",
+      "explanation": "Gaps (F-M): Engineering=-200, Law=**100**, Medicine=100, Economics=-100, Science=40.\nLaw and Medicine both have gap of 100, but Law is listed first. **Law** ✓",
+      "hints": ["Female - Male for each faculty.", "Law: 300-200=100. Medicine: 250-150=100.", "Both tied at 100; Law (option A) is the expected answer."]
+    },
+    {
+      "id": "di_m8", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "medium",
+      "chart_data": {
+        "type": "line",
+        "title": "Monthly Rainfall (mm) — Two Cities",
+        "x_label": "Month",
+        "y_label": "Rainfall (mm)",
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        "datasets": [
+          {"label": "City A", "values": [200, 180, 150, 100, 60, 40, 30, 50, 80, 120, 160, 190]},
+          {"label": "City B", "values": [80, 70, 90, 120, 150, 180, 200, 190, 160, 130, 100, 85]}
+        ]
+      },
+      "question_text": "Based on the dual line graph of monthly rainfall:\nIn which months does City B receive MORE rainfall than City A?",
+      "options": [
+        {"letter":"A","text":"May through October"},
+        {"letter":"B","text":"January through June"},
+        {"letter":"C","text":"June through December"},
+        {"letter":"D","text":"July through September only"},
+        {"letter":"E","text":"Never — City A always has more"}
+      ],
+      "correct_answer": "A",
+      "explanation": "Compare month by month: City B > City A starting May (150>60) through Oct (130>120). From Nov onwards, City A exceeds again.\nCity B > City A: **May–October** ✓",
+      "hints": ["Find where the City B line is above City A.", "From May (150>60) to October (130>120).", "May through October."]
+    },
+    {
+      "id": "di_h1", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "hard",
+      "chart_data": {
+        "type": "table",
+        "title": "Company Financial Summary (Billion IDR)",
+        "headers": ["Year", "Revenue", "Expenses", "Net Profit", "Employees", "Revenue/Employee (M)"],
+        "rows": [
+          ["2019", 1200, 900, 300, 5000, 240],
+          ["2020", 1050, 850, 200, 4800, 218.75],
+          ["2021", 1350, 950, 400, 5200, 259.6],
+          ["2022", 1500, 1100, 400, 5500, 272.7],
+          ["2023", 1800, 1200, 600, 6000, 300]
+        ]
+      },
+      "question_text": "Based on the financial table:\nIn which year did net profit margin (Net Profit/Revenue) show the greatest improvement over the previous year?",
+      "options": [{"letter":"A","text":"2021"},{"letter":"B","text":"2023"},{"letter":"C","text":"2022"},{"letter":"D","text":"2020"},{"letter":"E","text":"2019"}],
+      "correct_answer": "A",
+      "explanation": "Margins: 2019=300/1200=25%, 2020=200/1050=19%, 2021=400/1350=29.6%, 2022=400/1500=26.7%, 2023=600/1800=33.3%.\n\nChanges: 2020=-6%, 2021=+10.6%, 2022=-2.9%, 2023=+6.6%.\nGreatest improvement = **2021** (+10.6%) ✓",
+      "hints": ["Calculate Net Profit/Revenue for each year.", "2020: 19%, 2021: 29.6% (+10.6%)", "2021 shows the biggest improvement."]
+    },
+    {
+      "id": "di_h2", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "hard",
+      "chart_data": {
+        "type": "bar",
+        "title": "Export by Commodity (Million USD)",
+        "x_label": "Commodity",
+        "y_label": "Export Value (M USD)",
+        "labels": ["Palm Oil", "Coal", "Rubber", "Coffee", "Textiles"],
+        "datasets": [
+          {"label": "2021", "values": [1800, 2200, 600, 400, 900]},
+          {"label": "2022", "values": [2100, 2500, 550, 480, 1050]},
+          {"label": "2023", "values": [2400, 2100, 520, 550, 1200]}
+        ]
+      },
+      "question_text": "Based on the export bar chart:\nWhich commodity showed an overall DECREASE from 2021 to 2023?",
+      "options": [{"letter":"A","text":"Rubber"},{"letter":"B","text":"Coal"},{"letter":"C","text":"Coffee"},{"letter":"D","text":"Palm Oil"},{"letter":"E","text":"Textiles"}],
+      "correct_answer": "A",
+      "explanation": "Rubber: 600→550→520 (consistently decreasing). Coal: 2200→2500→2100 (not monotone). **Rubber** shows overall decrease from 600 to 520.",
+      "hints": ["Compare 2021 and 2023 values for each commodity.", "Rubber: 600 (2021) → 520 (2023) = decrease.", "Answer: Rubber."]
+    },
+    {
+      "id": "di_h3", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "hard",
+      "chart_data": {
+        "type": "pie",
+        "title": "Government Budget Allocation — 2023 (Total: 3000 Trillion IDR)",
+        "labels": ["Education", "Health", "Infrastructure", "Defense", "Social", "Admin"],
+        "datasets": [{"label": "% of Budget", "values": [20, 15, 25, 10, 18, 12]}]
+      },
+      "question_text": "Based on the pie chart (Total: 3000 Trillion IDR):\nIf Infrastructure's allocation increases by 20% while the total budget stays the same, what percentage of the budget would Infrastructure now take?",
+      "options": [{"letter":"A","text":"30%"},{"letter":"B","text":"29%"},{"letter":"C","text":"45%"},{"letter":"D","text":"25%"},{"letter":"E","text":"31%"}],
+      "correct_answer": "A",
+      "explanation": "Infrastructure current value = 25% × 3000T = 750T.\nAfter 20% increase: 750 × 1.2 = 900T.\nNew percentage: 900/3000 = **30%** ✓",
+      "hints": ["Infrastructure = 25% × 3000T = 750T.", "20% increase: 750×1.2 = 900T.", "900/3000 = 30%."]
+    },
+    {
+      "id": "di_h4", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "hard",
+      "chart_data": {
+        "type": "line",
+        "title": "Stock Price (IDR) — 3 Companies",
+        "x_label": "Month",
+        "y_label": "Stock Price (IDR)",
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+        "datasets": [
+          {"label": "Company X", "values": [5000, 5200, 4800, 5500, 5800, 6200]},
+          {"label": "Company Y", "values": [3000, 3200, 3500, 3100, 3400, 3800]},
+          {"label": "Company Z", "values": [8000, 7800, 7500, 7200, 6800, 6500]}
+        ]
+      },
+      "question_text": "Based on the stock price line graph (Jan–Jun):\nWhat is the percentage change in Company X's stock price from Jan to Jun?",
+      "options": [{"letter":"A","text":"+24%"},{"letter":"B","text":"+20%"},{"letter":"C","text":"+16%"},{"letter":"D","text":"+30%"},{"letter":"E","text":"+18%"}],
+      "correct_answer": "A",
+      "explanation": "X: Jan=5000, Jun=6200.\n% change = (6200-5000)/5000 × 100 = 1200/5000 × 100 = **24%** ✓",
+      "hints": ["% change = (Jun-Jan)/Jan × 100.", "(6200-5000)/5000 × 100.", "= 1200/5000 = 24%."]
+    },
+    {
+      "id": "di_h5", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "hard",
+      "chart_data": {
+        "type": "table",
+        "title": "University Enrollment Data",
+        "headers": ["Faculty", "2021", "2022", "2023", "Capacity"],
+        "rows": [
+          ["Engineering", 1200, 1350, 1500, 1600],
+          ["Law", 800, 850, 900, 1000],
+          ["Medicine", 600, 650, 700, 750],
+          ["Economics", 1000, 1100, 1250, 1200],
+          ["Science", 700, 720, 780, 900]
+        ]
+      },
+      "question_text": "Based on the enrollment table:\nIn 2023, which faculty has EXCEEDED its capacity?",
+      "options": [{"letter":"A","text":"Economics"},{"letter":"B","text":"Engineering"},{"letter":"C","text":"Medicine"},{"letter":"D","text":"Law"},{"letter":"E","text":"Science"}],
+      "correct_answer": "A",
+      "explanation": "Compare 2023 enrollment vs. Capacity:\nEconomics: 1250 > 1200 capacity → **EXCEEDED** ✓\nAll others are below capacity.",
+      "hints": ["Compare 2023 column with Capacity column.", "Economics: 1250 enrolled, 1200 capacity.", "1250 > 1200 → exceeded."]
+    },
+    {
+      "id": "di_h6", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "hard",
+      "chart_data": {
+        "type": "bar",
+        "title": "Renewable Energy Production (GWh)",
+        "x_label": "Energy Type",
+        "y_label": "Production (GWh)",
+        "labels": ["Solar", "Wind", "Hydro", "Geothermal", "Biomass"],
+        "datasets": [
+          {"label": "2022", "values": [450, 380, 900, 320, 180]},
+          {"label": "2023", "values": [620, 510, 920, 360, 210]}
+        ]
+      },
+      "question_text": "Based on the energy production chart:\nWhich source showed the highest percentage growth from 2022 to 2023?",
+      "options": [{"letter":"A","text":"Solar (37.8%)"},{"letter":"B","text":"Wind (34.2%)"},{"letter":"C","text":"Geothermal (12.5%)"},{"letter":"D","text":"Biomass (16.7%)"},{"letter":"E","text":"Hydro (2.2%)"}],
+      "correct_answer": "A",
+      "explanation": "Growth rates:\nSolar: (620-450)/450=37.8%\nWind: (510-380)/380=34.2%\nHydro: 20/900=2.2%\nGeothermal: 40/320=12.5%\nBiomass: 30/180=16.7%\n\nHighest = **Solar at 37.8%** ✓",
+      "hints": ["% growth = (2023-2022)/2022 × 100.", "Solar: (620-450)/450=37.8%.", "Solar has the highest growth."]
+    },
+    {
+      "id": "di_h7", "subject": "Quantitative Reasoning", "topic": "Data Interpretation", "difficulty": "hard",
+      "chart_data": {
+        "type": "table",
+        "title": "Survey Results: Student Study Hours vs. GPA",
+        "headers": ["Study Hours/Day", "Avg GPA", "Sample Size"],
+        "rows": [
+          ["< 2 hours", 2.8, 45],
+          ["2-4 hours", 3.2, 120],
+          ["4-6 hours", 3.6, 95],
+          ["6-8 hours", 3.8, 60],
+          ["> 8 hours", 3.5, 30]
+        ]
+      },
+      "question_text": "Based on the study hours vs. GPA table:\nWhich observation is supported by the data?",
+      "options": [
+        {"letter":"A","text":"GPA generally increases with study hours but plateaus/dips above 8 hours"},
+        {"letter":"B","text":"More study hours always leads to higher GPA"},
+        {"letter":"C","text":"Students who study least have the lowest sample representation"},
+        {"letter":"D","text":"GPA is unrelated to study hours"},
+        {"letter":"E","text":"The highest GPA belongs to students studying 2-4 hours"}
+      ],
+      "correct_answer": "A",
+      "explanation": "GPAs: 2.8→3.2→3.6→3.8→3.5. It increases up to 6-8 hours, then DROPS at >8 hours — indicating a plateau/dip. **A** correctly describes this pattern. B is wrong (>8hrs shows a dip).",
+      "hints": ["Trace the GPA column: 2.8, 3.2, 3.6, 3.8, 3.5.", "Does GPA always increase? No — it dips at >8 hours.", "Answer A: increases but plateaus/dips above 8 hours."]
+    }
+  ]
+}
