@@ -777,7 +777,74 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "By reading the stacked bar chart, Q1 (Jan-Mar) Revenue is roughly 120+150+180=450, and Expenses are roughly 50+40+30=120, yielding a profit of 330. Q2 (Apr-Jun) Revenue is roughly 140+170+160=470, and Expenses are roughly 20+35+25=80, yielding a profit of 390. Because Q2 yields higher profit, the company's performance is better in Q2, making statement C (and duplicate D) FALSE."
+        "explanation": "By reading the stacked bar chart, Q1 (Jan-Mar) Revenue is roughly 120+150+180=450, and Expenses are roughly 50+40+30=120, yielding a profit of 330. Q2 (Apr-Jun) Revenue is roughly 140+170+160=470, and Expenses are roughly 20+35+25=80, yielding a profit of 390. Because Q2 yields higher profit, the company's performance is better in Q2, making statement C (and duplicate D) FALSE.",
+        "chart": {
+            "type": "dual",
+            "bar": {
+                "title": "Revenue and Expenses (Jan-Jun)",
+                "xLabel": "Month",
+                "yLabel": "Million USD",
+                "labels": [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun"
+                ],
+                "datasets": [
+                    {
+                        "label": "Revenue",
+                        "color": "#2196F3",
+                        "values": [
+                            120,
+                            150,
+                            180,
+                            140,
+                            170,
+                            160
+                        ]
+                    },
+                    {
+                        "label": "Expenses",
+                        "color": "#FF9800",
+                        "values": [
+                            50,
+                            40,
+                            30,
+                            20,
+                            35,
+                            25
+                        ]
+                    }
+                ]
+            },
+            "pie": {
+                "title": "Revenue Sources Distribution",
+                "segments": [
+                    {
+                        "label": "Product Sales",
+                        "value": 35,
+                        "color": "#2196F3"
+                    },
+                    {
+                        "label": "Services",
+                        "value": 25,
+                        "color": "#FF9800"
+                    },
+                    {
+                        "label": "Subscriptions",
+                        "value": 20,
+                        "color": "#4CAF50"
+                    },
+                    {
+                        "label": "Licensing",
+                        "value": 20,
+                        "color": "#F44336"
+                    }
+                ]
+            }
+        }
     },
     {
         "id": "quant_07",

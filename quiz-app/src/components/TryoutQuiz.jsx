@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import MathText from './MathText';
+import QuestionChart from './QuestionChart';
 import { ChevronRight, SkipForward, ArrowLeft, Clock, AlertTriangle } from 'lucide-react';
 
 const SECTIONS = [
@@ -132,6 +133,7 @@ const TryoutQuiz = ({ questions, answers, setAnswers, onFinish }) => {
       </div>
 
       <div className="glass-card mb-8">
+        {question.chart && <QuestionChart chart={question.chart} />}
         <h2 className="mb-8" style={{ fontSize: '1.5rem', lineHeight: '1.6', whiteSpace: 'pre-wrap' }}>
           <MathText text={question.question_text} />
         </h2>
