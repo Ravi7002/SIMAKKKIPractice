@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BookOpen, Sparkles, BrainCircuit, Activity, Clock, Award } from 'lucide-react';
 
-const Intro = ({ onStartPractice, onStartAbility, onStartTryout }) => {
+const Intro = ({ onStartPractice, onStartAbility, onStartTryout, onStartCompare }) => {
   const [showTryoutOptions, setShowTryoutOptions] = useState(false);
 
   return (
@@ -37,6 +37,10 @@ const Intro = ({ onStartPractice, onStartAbility, onStartTryout }) => {
           
           <button onClick={() => setShowTryoutOptions(true)} className="btn btn-primary" style={{ fontSize: '1.2rem', padding: '1rem' }}>
             <Award size={24} /> Tryouts
+          </button>
+          
+          <button onClick={onStartCompare} className="btn" style={{ fontSize: '1.1rem', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', marginTop: '1rem', color: 'var(--text-muted)' }}>
+            <Activity size={20} /> Compare Questions (Real vs Practice)
           </button>
         </div>
       ) : (

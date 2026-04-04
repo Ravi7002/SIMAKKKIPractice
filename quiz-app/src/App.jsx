@@ -5,6 +5,7 @@ import TryoutQuiz from './components/TryoutQuiz';
 import Results from './components/Results';
 import AbilityTest from './components/AbilityTest';
 import PracticeTest from './components/PracticeTest';
+import Comparator from './components/Comparator';
 
 // Preload the JSONs
 import realQ1 from './realQ1.json';
@@ -32,6 +33,10 @@ function App() {
     setPhase('tryout');
   };
 
+  const startCompare = () => {
+    setPhase('compare');
+  };
+
   const finishTest = () => {
     setPhase('results');
   };
@@ -51,6 +56,7 @@ function App() {
           onStartPractice={startPractice} 
           onStartAbility={startAbility}
           onStartTryout={startTryout} 
+          onStartCompare={startCompare}
         />
       )}
       
@@ -82,6 +88,14 @@ function App() {
           questions={activeDataset} 
           answers={answers} 
           onRestart={restartQuiz} 
+        />
+      )}
+
+      {phase === 'compare' && (
+        <Comparator 
+          allTopicsData={allTopicsData} 
+          realQ1={realQ1} 
+          onBack={() => setPhase('intro')} 
         />
       )}
     </>
