@@ -78,11 +78,22 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
         <div className="progress-fill" style={{ width: `${(currentIndex / questions.length) * 100}%` }} />
       </div>
 
-      {/* Passage Component */}
+      {/* Passage Panel — only shown for reading-comp questions, sticks while passage_id is same */}
       {question.passage && (
-        <div className="glass-card mb-4 fade-in" style={{ background: 'rgba(255,255,255,0.02)', borderLeft: '4px solid var(--accent-purple)' }}>
-          <h4 style={{ color: 'var(--accent-purple)', marginBottom: '0.8rem', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reading Passage</h4>
-          <div style={{ maxHeight: '200px', overflowY: 'auto', paddingRight: '10px', fontSize: '1.05rem', lineHeight: '1.7', color: 'var(--text-muted)' }}>
+        <div className="glass-card mb-4 fade-in" style={{
+          background: 'rgba(139,92,246,0.04)',
+          borderLeft: '4px solid var(--accent-purple)',
+          borderRadius: '12px'
+        }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem' }}>
+            <h4 style={{ color: 'var(--accent-purple)', margin: 0, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.07em' }}>
+              📖 Reading Passage{question.passage_title ? ` — ${question.passage_title}` : ''}
+            </h4>
+            <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+              {questions.filter(q => q.passage_id && q.passage_id === question.passage_id).length} questions share this passage
+            </span>
+          </div>
+          <div style={{ maxHeight: '240px', overflowY: 'auto', paddingRight: '10px', fontSize: '1rem', lineHeight: '1.75', color: 'var(--text-muted)', whiteSpace: 'pre-wrap' }}>
             <MathText text={question.passage} />
           </div>
         </div>
@@ -191,8 +202,10 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
           <div key={subject} style={{ marginBottom: '1.5rem' }}>
             <h4 style={{ fontSize: '0.8rem', color: 'var(--accent-blue)', marginBottom: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{subject}</h4>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '8px' }}>
-              {list.map(item => {
+              {list.map((item, li) => {
                  const isActive = item.idx === currentIndex;
+                 const sharesPassage = item.q.passage_id && item.q.passage_id === question.passage_id;
+                 const isFirstInPassage = sharesPassage && (li === 0 || list[li-1].q.passage_id !== item.q.passage_id);
                  return (
                    <button 
                      key={item.idx} 
@@ -202,19 +215,22 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
                         setShowExplanation(false);
                         setHintsRevealed(0);
                      }}
+                     title={item.q.passage_title ? `Passage: ${item.q.passage_title}` : undefined}
                      style={{
                         padding: '0.5rem 0',
                         textAlign: 'center',
                         fontSize: '0.9rem',
                         fontWeight: 'bold',
                         borderRadius: '6px',
-                        background: isActive ? 'var(--accent-purple)' : 'rgba(255,255,255,0.05)',
-                        border: `1px solid ${isActive ? 'var(--accent-purple)' : 'rgba(255,255,255,0.1)'}`,
+                        background: isActive ? 'var(--accent-purple)' : sharesPassage ? 'rgba(139,92,246,0.12)' : 'rgba(255,255,255,0.05)',
+                        border: `1px solid ${isActive ? 'var(--accent-purple)' : sharesPassage ? 'rgba(139,92,246,0.4)' : 'rgba(255,255,255,0.1)'}`,
                         color: isActive ? 'white' : 'var(--text-muted)',
                         cursor: 'pointer',
-                        transition: 'all 0.2s'
+                        transition: 'all 0.2s',
+                        position: 'relative'
                      }}
                    >
+                     {item.q.passage_id && <span style={{ position:'absolute', top:'-4px', right:'-2px', fontSize:'8px' }}>📖</span>}
                      {item.idx + 1}
                    </button>
                  );

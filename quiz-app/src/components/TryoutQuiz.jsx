@@ -133,9 +133,20 @@ const TryoutQuiz = ({ questions, answers, setAnswers, onFinish }) => {
       </div>
 
       {question.passage && (
-        <div className="glass-card mb-4 fade-in" style={{ background: 'rgba(255,255,255,0.02)', borderLeft: '4px solid var(--accent-purple)' }}>
-          <h4 style={{ color: 'var(--accent-purple)', marginBottom: '0.8rem', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reading Passage</h4>
-          <div style={{ maxHeight: '180px', overflowY: 'auto', paddingRight: '10px', fontSize: '1.05rem', lineHeight: '1.7', color: 'var(--text-muted)' }}>
+        <div className="glass-card mb-4 fade-in" style={{
+          background: 'rgba(139,92,246,0.04)',
+          borderLeft: '4px solid var(--accent-purple)',
+          borderRadius: '12px'
+        }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem' }}>
+            <h4 style={{ color: 'var(--accent-purple)', margin: 0, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.07em' }}>
+              📖 Reading Passage{question.passage_title ? ` — ${question.passage_title}` : ''}
+            </h4>
+            <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+              {sectionQuestions.filter(q => q.passage_id && q.passage_id === question.passage_id).length} questions share this passage
+            </span>
+          </div>
+          <div style={{ maxHeight: '220px', overflowY: 'auto', paddingRight: '10px', fontSize: '1rem', lineHeight: '1.75', color: 'var(--text-muted)', whiteSpace: 'pre-wrap' }}>
             <MathText text={question.passage} />
           </div>
         </div>
