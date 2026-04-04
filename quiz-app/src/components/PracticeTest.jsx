@@ -282,7 +282,7 @@ const LearnView = ({ topicData, onStartQuiz }) => {
             {topicData.key_formulas.map((f, i) => (
               <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '1rem', padding: '0.8rem 1.2rem', background: 'rgba(139,92,246,0.07)', borderRadius: '8px', border: '1px solid rgba(139,92,246,0.15)' }}>
                 <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem', minWidth: '160px' }}>{f.name}:</span>
-                <span style={{ fontWeight: '600' }}><MathText text={f.formula} /></span>
+                <span style={{ fontWeight: '600' }}><MathText text={f.formula.includes('$') ? f.formula : `$\\displaystyle ${f.formula}$`} /></span>
               </div>
             ))}
           </div>
