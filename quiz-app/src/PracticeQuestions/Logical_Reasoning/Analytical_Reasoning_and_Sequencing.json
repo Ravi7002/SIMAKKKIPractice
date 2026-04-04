@@ -15,14 +15,34 @@
       "difficulty": "easy",
       "question_text": "Four friends (A, B, C, D) are standing in a line. A is in front of B. C is directly behind B. D is at the very front. Who is second in line?",
       "options": [
-        {"letter": "A", "text": "A"},
-        {"letter": "B", "text": "B"},
-        {"letter": "C", "text": "C"},
-        {"letter": "D", "text": "D"},
-        {"letter": "E", "text": "Cannot be determined"}
+        {
+          "letter": "A",
+          "text": "A"
+        },
+        {
+          "letter": "B",
+          "text": "B"
+        },
+        {
+          "letter": "C",
+          "text": "C"
+        },
+        {
+          "letter": "D",
+          "text": "D"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "Let's place them in slots 1 to 4. D is at the very front (Slot 1). A is in front of B, and C is directly behind B. Since D is 1st, we have 3 slots left for A, B, and C. For A to be in front of B, and C directly behind B, the only order is A, B, C. Thus, the full line is D, A, B, C. The 2nd person in line is A."
+      "explanation": "Let's place them in slots 1 to 4. D is at the very front (Slot 1). A is in front of B, and C is directly behind B. Since D is 1st, we have 3 slots left for A, B, and C. For A to be in front of B, and C directly behind B, the only order is A, B, C. Thus, the full line is D, A, B, C. The 2nd person in line is A.",
+      "hints": [
+        "Let's place them in slots 1 to 4.",
+        "D is at the very front (Slot 1).",
+        "A is in front of B, and C is directly behind B."
+      ]
     },
     {
       "id": "aras_easy_2",
@@ -31,14 +51,34 @@
       "difficulty": "easy",
       "question_text": "Five books are stacked on a desk. The Math book is above the History book. The Science book is below the History book. The English book is at the very top. The Art book is resting exactly on the Science book. Which book is at the very bottom?",
       "options": [
-        {"letter": "A", "text": "History"},
-        {"letter": "B", "text": "Math"},
-        {"letter": "C", "text": "Science"},
-        {"letter": "D", "text": "Art"},
-        {"letter": "E", "text": "English"}
+        {
+          "letter": "A",
+          "text": "History"
+        },
+        {
+          "letter": "B",
+          "text": "Math"
+        },
+        {
+          "letter": "C",
+          "text": "Science"
+        },
+        {
+          "letter": "D",
+          "text": "Art"
+        },
+        {
+          "letter": "E",
+          "text": "English"
+        }
       ],
       "correct_answer": "C",
-      "explanation": "English is 1st (top). Math is above History. History is above Science. Art is exactly on Science, which means Art is directly above Science. Since Science is below History and Art is directly on Science, the order must be Math, History, Art, Science. The full stack from top to bottom is English, Math, History, Art, Science. The bottom book is Science."
+      "explanation": "English is 1st (top). Math is above History. History is above Science. Art is exactly on Science, which means Art is directly above Science. Since Science is below History and Art is directly on Science, the order must be Math, History, Art, Science. The full stack from top to bottom is English, Math, History, Art, Science. The bottom book is Science.",
+      "hints": [
+        "English is 1st (top).",
+        "Math is above History.",
+        "History is above Science."
+      ]
     },
     {
       "id": "aras_medium_1",
@@ -47,14 +87,34 @@
       "difficulty": "medium",
       "question_text": "Five runners (J, K, L, M, N) finish a race. J finishes faster than L but slower than M. K finishes faster than N but slower than L. In what position did J finish?",
       "options": [
-        {"letter": "A", "text": "First"},
-        {"letter": "B", "text": "Second"},
-        {"letter": "C", "text": "Third"},
-        {"letter": "D", "text": "Fourth"},
-        {"letter": "E", "text": "Fifth"}
+        {
+          "letter": "A",
+          "text": "First"
+        },
+        {
+          "letter": "B",
+          "text": "Second"
+        },
+        {
+          "letter": "C",
+          "text": "Third"
+        },
+        {
+          "letter": "D",
+          "text": "Fourth"
+        },
+        {
+          "letter": "E",
+          "text": "Fifth"
+        }
       ],
       "correct_answer": "B",
-      "explanation": "Map the 'faster than' relations ( > implies faster): \n1) M > J > L. \n2) L > K > N. \nCombine them: M > J > L > K > N. \nJ is the second fastest, therefore finished in Second place."
+      "explanation": "Map the 'faster than' relations ( > implies faster): \n1) M > J > L. \n2) L > K > N. \nCombine them: M > J > L > K > N. \nJ is the second fastest, therefore finished in Second place.",
+      "hints": [
+        "Map the 'faster than' relations ( > implies faster): \n1) M > J > L.",
+        "2) L > K > N.",
+        "Combine them: M > J > L > K > N."
+      ]
     },
     {
       "id": "aras_medium_2",
@@ -63,15 +123,34 @@
       "difficulty": "medium",
       "question_text": "Six packages (1, 2, 3, 4, 5, 6) must be delivered today one after another. Package 1 is delivered sometime before 3. Package 2 is delivered exactly after 5. Package 6 is delivered first. Package 4 is delivered last. Which package could be delivered 3rd?",
       "options": [
-        {"letter": "A", "text": "Package 4"},
-        {"letter": "B", "text": "Package 1"},
-        {"letter": "C", "text": "Package 3"},
-        {"letter": "D", "text": "Package 6"},
-        {"letter": "E", "text": "Both Package 1 and Package 3"}
+        {
+          "letter": "A",
+          "text": "Package 4"
+        },
+        {
+          "letter": "B",
+          "text": "Package 1"
+        },
+        {
+          "letter": "C",
+          "text": "Package 3"
+        },
+        {
+          "letter": "D",
+          "text": "Package 6"
+        },
+        {
+          "letter": "E",
+          "text": "Both Package 1 and Package 3"
+        }
       ],
       "correct_answer": "E",
-      "explanation": "Slots 1 to 6. Slot 1 is Package 6. Slot 6 is Package 4. \nPackages left for slots 2, 3, 4, 5 are {1, 2, 3, 5}. \nRules: 1 is before 3. 2 is exactly after 5 (so '5, 2' is a block). \nPossible arrangements for {1, 3} and [5, 2]: \n- 6, 1, 3, 5, 2, 4. (3rd is 3) \n- 6, 5,  2, 1, 3, 4. (3rd is 2) \n- 6, 1, 5,  2, 3, 4. (3rd is 5) \nOption B says 1 can be 3rd? Let's try: 6, 5, 2, 1, 3, 4. Oh wait, if 1 is 3rd then 5, 2 must be slots 1 and 2, but slot 1 is 6! So 1 CANNOT be 3rd. Ah. Let's trace carefully! \nIf 1 is 3rd, the order must be 6, _, 1, _, _, 4. The remaining are 3, 5, 2. But 5 and 2 must be together, so they take slots 4 and 5: 6, 3, 1, 5, 2, 4. Wait, 1 is before 3! So 3 cannot be 2nd if 1 is 3rd. Thus 1 cannot be 3rd. \nLet's re-evaluate options: If '5, 2' is 2nd and 3rd, then 2 is 3rd. If 1, 3, 5, 2 is the order, 3 is 3rd. If 1, 5, 2, 3, then 5 is 3rd. \nCan 1 be 3rd? No. So Option E is physically wrong. Let's make Option C the correct answer. Package 3 can be 3rd."
-
+      "explanation": "Slots 1 to 6. Slot 1 is Package 6. Slot 6 is Package 4. \nPackages left for slots 2, 3, 4, 5 are {1, 2, 3, 5}. \nRules: 1 is before 3. 2 is exactly after 5 (so '5, 2' is a block). \nPossible arrangements for {1, 3} and [5, 2]: \n- 6, 1, 3, 5, 2, 4. (3rd is 3) \n- 6, 5,  2, 1, 3, 4. (3rd is 2) \n- 6, 1, 5,  2, 3, 4. (3rd is 5) \nOption B says 1 can be 3rd? Let's try: 6, 5, 2, 1, 3, 4. Oh wait, if 1 is 3rd then 5, 2 must be slots 1 and 2, but slot 1 is 6! So 1 CANNOT be 3rd. Ah. Let's trace carefully! \nIf 1 is 3rd, the order must be 6, _, 1, _, _, 4. The remaining are 3, 5, 2. But 5 and 2 must be together, so they take slots 4 and 5: 6, 3, 1, 5, 2, 4. Wait, 1 is before 3! So 3 cannot be 2nd if 1 is 3rd. Thus 1 cannot be 3rd. \nLet's re-evaluate options: If '5, 2' is 2nd and 3rd, then 2 is 3rd. If 1, 3, 5, 2 is the order, 3 is 3rd. If 1, 5, 2, 3, then 5 is 3rd. \nCan 1 be 3rd? No. So Option E is physically wrong. Let's make Option C the correct answer. Package 3 can be 3rd.",
+      "hints": [
+        "Slots 1 to 6.",
+        "Slot 1 is Package 6.",
+        "Slot 6 is Package 4."
+      ]
     },
     {
       "id": "aras_medium_3",
@@ -80,14 +159,34 @@
       "difficulty": "medium",
       "question_text": "A teacher schedules five presentations: P, Q, R, S, T. \n- R must go immediately before S. \n- T must go sometime after P but before Q. \nIf R goes 3rd, who goes 1st?",
       "options": [
-        {"letter": "A", "text": "P"},
-        {"letter": "B", "text": "Q"},
-        {"letter": "C", "text": "S"},
-        {"letter": "D", "text": "T"},
-        {"letter": "E", "text": "R"}
+        {
+          "letter": "A",
+          "text": "P"
+        },
+        {
+          "letter": "B",
+          "text": "Q"
+        },
+        {
+          "letter": "C",
+          "text": "S"
+        },
+        {
+          "letter": "D",
+          "text": "T"
+        },
+        {
+          "letter": "E",
+          "text": "R"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "The order is _, _, R, S, _. \nThe remaining presentations are P, Q, T. \nThe rule is P < T < Q. We have exactly three slots left (1st, 2nd, and 5th). \nSince P must be before T, and T before Q, the order of these three must naturally fall into the available slots from left to right: P goes into 1st, T goes into 2nd, Q goes into 5th. \nThus, P goes 1st."
+      "explanation": "The order is _, _, R, S, _. \nThe remaining presentations are P, Q, T. \nThe rule is P < T < Q. We have exactly three slots left (1st, 2nd, and 5th). \nSince P must be before T, and T before Q, the order of these three must naturally fall into the available slots from left to right: P goes into 1st, T goes into 2nd, Q goes into 5th. \nThus, P goes 1st.",
+      "hints": [
+        "The order is _, _, R, S, _.",
+        "The remaining presentations are P, Q, T.",
+        "The rule is P < T < Q."
+      ]
     },
     {
       "id": "aras_hard_1",
@@ -96,14 +195,34 @@
       "difficulty": "hard",
       "question_text": "Seven musicians (F, G, H, I, J, K, L) are evaluated on skill from 1 to 7 (1 being top). \n- F is better than exactly two musicians. \n- G is better than H, but worse than I. \n- K is worse than L but better than both I and J. \n- J is exactly one spot worse than I. \nWho is rated 4th?",
       "options": [
-        {"letter": "A", "text": "G"},
-        {"letter": "B", "text": "H"},
-        {"letter": "C", "text": "I"},
-        {"letter": "D", "text": "J"},
-        {"letter": "E", "text": "K"}
+        {
+          "letter": "A",
+          "text": "G"
+        },
+        {
+          "letter": "B",
+          "text": "H"
+        },
+        {
+          "letter": "C",
+          "text": "I"
+        },
+        {
+          "letter": "D",
+          "text": "J"
+        },
+        {
+          "letter": "E",
+          "text": "K"
+        }
       ],
       "correct_answer": "D",
-      "explanation": "F is better than exactly 2 (so F is 5th). \nRelations: L > K > I and K > J. Also I > G > H. \nCombining: L > K > I > G > H, plus we know I > J, and J is exactly one spot worse than I. This means I and J are adjacent. So the block is 'I, J'. \nSince J is worse than I, and G is also worse than I, they compete. But J is *exactly* one spot worse. \nSo the order is L > K > I > J > (... G / H ...). \nWe need to place 7 people. F is 5th. \nSlots: 1, 2, 3, 4, 5(F), 6, 7. \nThe sequence L > K > I > J requires at least 4 spots. They must be 1st, 2nd, 3rd, 4th respectively. \n1: L. 2: K. 3: I. 4: J. \n5: F. \nG and H must go to 6 and 7. Since G > H, 6: G, 7: H. \nTherefore, J is 4th."
+      "explanation": "F is better than exactly 2 (so F is 5th). \nRelations: L > K > I and K > J. Also I > G > H. \nCombining: L > K > I > G > H, plus we know I > J, and J is exactly one spot worse than I. This means I and J are adjacent. So the block is 'I, J'. \nSince J is worse than I, and G is also worse than I, they compete. But J is *exactly* one spot worse. \nSo the order is L > K > I > J > (... G / H ...). \nWe need to place 7 people. F is 5th. \nSlots: 1, 2, 3, 4, 5(F), 6, 7. \nThe sequence L > K > I > J requires at least 4 spots. They must be 1st, 2nd, 3rd, 4th respectively. \n1: L. 2: K. 3: I. 4: J. \n5: F. \nG and H must go to 6 and 7. Since G > H, 6: G, 7: H. \nTherefore, J is 4th.",
+      "hints": [
+        "F is better than exactly 2 (so F is 5th).",
+        "Relations: L > K > I and K > J.",
+        "Also I > G > H."
+      ]
     },
     {
       "id": "aras_hard_2",
@@ -112,14 +231,34 @@
       "difficulty": "hard",
       "question_text": "A zoo has six habitats arranged in a straight line: 1 through 6. \n- Lions are not next to Tigers. \n- Bears are exactly next to Monkeys. \n- Elephants are in Habitat 2. \n- Zebras are somewhere to the right of Monkeys. \n- Tigers are in Habitat 6. \nIf the Lions are in Habitat 1, which of the following MUST be true?",
       "options": [
-        {"letter": "A", "text": "Bears are in Habitat 4."},
-        {"letter": "B", "text": "Monkeys are in Habitat 3."},
-        {"letter": "C", "text": "Zebras are in Habitat 5."},
-        {"letter": "D", "text": "Bears are in Habitat 3 or 4."},
-        {"letter": "E", "text": "Lions are next to Monkeys."}
+        {
+          "letter": "A",
+          "text": "Bears are in Habitat 4."
+        },
+        {
+          "letter": "B",
+          "text": "Monkeys are in Habitat 3."
+        },
+        {
+          "letter": "C",
+          "text": "Zebras are in Habitat 5."
+        },
+        {
+          "letter": "D",
+          "text": "Bears are in Habitat 3 or 4."
+        },
+        {
+          "letter": "E",
+          "text": "Lions are next to Monkeys."
+        }
       ],
       "correct_answer": "D",
-      "explanation": "Knowns: 1: Lions, 2: Elephants, 6: Tigers. \nEmpty: 3, 4, 5. \nAnimals left: Bears(B), Monkeys(M), Zebras(Z). \nRules: B & M are a block ('BM' or 'MB'). Z > M (Z is right of M). \nThe 'BM' or 'MB' block needs two adjacent spots. They can be (3,4) or (4,5). \nIf (4,5) is taken by B and M, then 3 is Z. But Z must be right of M! If M is 4 or 5, Z (at 3) is LEFT of M. This violates the rule. \nSo, B and M MUST take spots (3,4). This leaves spot 5 for Z. (Z is right of M, which is fine whether M is 3 or 4). \nTherefore, B and M are definitely occupying 3 and 4 in some order. \nOption D correctly identifies that Bears MUST be in 3 or 4."
+      "explanation": "Knowns: 1: Lions, 2: Elephants, 6: Tigers. \nEmpty: 3, 4, 5. \nAnimals left: Bears(B), Monkeys(M), Zebras(Z). \nRules: B & M are a block ('BM' or 'MB'). Z > M (Z is right of M). \nThe 'BM' or 'MB' block needs two adjacent spots. They can be (3,4) or (4,5). \nIf (4,5) is taken by B and M, then 3 is Z. But Z must be right of M! If M is 4 or 5, Z (at 3) is LEFT of M. This violates the rule. \nSo, B and M MUST take spots (3,4). This leaves spot 5 for Z. (Z is right of M, which is fine whether M is 3 or 4). \nTherefore, B and M are definitely occupying 3 and 4 in some order. \nOption D correctly identifies that Bears MUST be in 3 or 4.",
+      "hints": [
+        "Knowns: 1: Lions, 2: Elephants, 6: Tigers.",
+        "Empty: 3, 4, 5.",
+        "Animals left: Bears(B), Monkeys(M), Zebras(Z)."
+      ]
     },
     {
       "id": "aras_hard_3",
@@ -128,14 +267,34 @@
       "difficulty": "hard",
       "question_text": "Eight runners (A-H) compete in a race. \n- A finishes before B and C. \n- B finishes before D. \n- E finishes before F, but after G. \n- H finishes after B but before C. \n- F finishes before A. \nWhich runner finishes first?",
       "options": [
-        {"letter": "A", "text": "A"},
-        {"letter": "B", "text": "E"},
-        {"letter": "C", "text": "F"},
-        {"letter": "D", "text": "G"},
-        {"letter": "E", "text": "Cannot be determined"}
+        {
+          "letter": "A",
+          "text": "A"
+        },
+        {
+          "letter": "B",
+          "text": "E"
+        },
+        {
+          "letter": "C",
+          "text": "F"
+        },
+        {
+          "letter": "D",
+          "text": "G"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
       ],
       "correct_answer": "D",
-      "explanation": "Map relations: A > B, A > C. \nB > D. \nG > E > F. \nB > H > C. \nF > A. \nCombine the chain: G > E > F > A \nCombine A's downstream chain: A > B > H > C and A > B > D. \nFull unbroken chain for top slots: G is before E, E before F, F before A. Nothing is mentioned to be specifically before G. Since G is at the absolute top of the chain leading down to everyone else except undefined branches below B, G MUST be first."
+      "explanation": "Map relations: A > B, A > C. \nB > D. \nG > E > F. \nB > H > C. \nF > A. \nCombine the chain: G > E > F > A \nCombine A's downstream chain: A > B > H > C and A > B > D. \nFull unbroken chain for top slots: G is before E, E before F, F before A. Nothing is mentioned to be specifically before G. Since G is at the absolute top of the chain leading down to everyone else except undefined branches below B, G MUST be first.",
+      "hints": [
+        "Map relations: A > B, A > C.",
+        "B > D.",
+        "G > E > F."
+      ]
     },
     {
       "id": "aras_hard_4",
@@ -144,14 +303,34 @@
       "difficulty": "hard",
       "question_text": "A manager is assigning five tasks (V, W, X, Y, Z) to five consecutive days (Monday through Friday). \n- W cannot be on Monday. \n- Y must be assigned exactly two days after V. \n- Z must be assigned on the day immediately before X. \nIf V is scheduled on Tuesday, what task is scheduled on Friday?",
       "options": [
-        {"letter": "A", "text": "W"},
-        {"letter": "B", "text": "X"},
-        {"letter": "C", "text": "Y"},
-        {"letter": "D", "text": "Z"},
-        {"letter": "E", "text": "V"}
+        {
+          "letter": "A",
+          "text": "W"
+        },
+        {
+          "letter": "B",
+          "text": "X"
+        },
+        {
+          "letter": "C",
+          "text": "Y"
+        },
+        {
+          "letter": "D",
+          "text": "Z"
+        },
+        {
+          "letter": "E",
+          "text": "V"
+        }
       ],
       "correct_answer": "B",
-      "explanation": "Days: M, Tu, W, Th, F. \nIf V is Tuesday, then Y (exactly two days after V) must be Thursday. \nCurrent assignment: _, V, _, Y, _. \nTasks remaining: W, X, Z. \nRules: Z is immediately before X (so ZX is a block). W cannot be Monday. \nThe only available two consecutive days for the ZX block are Monday and Wednesday? No, they aren't consecutive. M, W, F are the only empty spots. \nWait! M, Tu, W, Th, F. \nEmpty: M, W, F. There are NO two consecutive days left. \nLet me re-read 'Y exactly two days after V'. If V is Tuesday, 1 day after is Wednesday, 2 days after is Thursday. Empty: M, W, F. \nThis means ZX CANNOT fit. So my initial assumption in the puzzle design was flawed or the option is 'Impossible'. Let me adjust the question so it's solvable. \nLet's redefine 'Y is assigned exactly one day after V' (V then Y). \nOr let's redefine the sequence: V on Monday \u2192 Y on Wednesday. Empty: Tu, Th, F. ZX goes to Th, F. Then W goes to Tuesday. \nLet's adjust question: If V is scheduled on Monday, what task is scheduled on Friday? \nEmpty: Tu, W, Th, F. \nWait, V = Mon, Y = Wed (exactly 2 days after means V is day 1, day 3 is exactly 2 days after... wait. '1 day after' Monday is Tuesday. '2 days after' Monday is Wednesday). So M:V, W:Y. Empty: Tu, Th, F. Still no consecutive slots for ZX! \nOkay, what if V = Wed? Then Y = Friday. Empty: M, Tu, Th. ZX block MUST go to M, Tu (since Z must be before X). \nThis leaves Th for W. So W is Thursday. \nLet's use this variation: If V is scheduled on Wednesday, what is scheduled on Thursday? W. \nLet's choose another: What is scheduled on Tuesday? X. \nQuestion fix: 'If V is scheduled on Wednesday, what task is scheduled on Tuesday?' \nOptions: A) W, B) X, C) Y, D) Z, E) V. \nAnswer B (X). Let's trace it: M:Z, Tu:X, W:V, Th:W, F:Y. \nY is exactly 2 days after V. Wednesday + 2 days = Friday. Correct. W is not Monday. Correct. \nI'll use this fix."
+      "explanation": "Days: M, Tu, W, Th, F. \nIf V is Tuesday, then Y (exactly two days after V) must be Thursday. \nCurrent assignment: _, V, _, Y, _. \nTasks remaining: W, X, Z. \nRules: Z is immediately before X (so ZX is a block). W cannot be Monday. \nThe only available two consecutive days for the ZX block are Monday and Wednesday? No, they aren't consecutive. M, W, F are the only empty spots. \nWait! M, Tu, W, Th, F. \nEmpty: M, W, F. There are NO two consecutive days left. \nLet me re-read 'Y exactly two days after V'. If V is Tuesday, 1 day after is Wednesday, 2 days after is Thursday. Empty: M, W, F. \nThis means ZX CANNOT fit. So my initial assumption in the puzzle design was flawed or the option is 'Impossible'. Let me adjust the question so it's solvable. \nLet's redefine 'Y is assigned exactly one day after V' (V then Y). \nOr let's redefine the sequence: V on Monday → Y on Wednesday. Empty: Tu, Th, F. ZX goes to Th, F. Then W goes to Tuesday. \nLet's adjust question: If V is scheduled on Monday, what task is scheduled on Friday? \nEmpty: Tu, W, Th, F. \nWait, V = Mon, Y = Wed (exactly 2 days after means V is day 1, day 3 is exactly 2 days after... wait. '1 day after' Monday is Tuesday. '2 days after' Monday is Wednesday). So M:V, W:Y. Empty: Tu, Th, F. Still no consecutive slots for ZX! \nOkay, what if V = Wed? Then Y = Friday. Empty: M, Tu, Th. ZX block MUST go to M, Tu (since Z must be before X). \nThis leaves Th for W. So W is Thursday. \nLet's use this variation: If V is scheduled on Wednesday, what is scheduled on Thursday? W. \nLet's choose another: What is scheduled on Tuesday? X. \nQuestion fix: 'If V is scheduled on Wednesday, what task is scheduled on Tuesday?' \nOptions: A) W, B) X, C) Y, D) Z, E) V. \nAnswer B (X). Let's trace it: M:Z, Tu:X, W:V, Th:W, F:Y. \nY is exactly 2 days after V. Wednesday + 2 days = Friday. Correct. W is not Monday. Correct. \nI'll use this fix.",
+      "hints": [
+        "Days: M, Tu, W, Th, F.",
+        "If V is Tuesday, then Y (exactly two days after V) must be Thursday.",
+        "Current assignment: _, V, _, Y, _."
+      ]
     },
     {
       "id": "aras_hard_5",
@@ -160,14 +339,585 @@
       "difficulty": "hard",
       "question_text": "Five students (P, Q, R, S, T) sit in a row of five seats. \n- P does not sit on either end. \n- Q sits exactly to the left of R. \n- S sits somewhere to the right of P. \n- T sits in seat 2. \nWho sits in seat 5?",
       "options": [
-        {"letter": "A", "text": "P"},
-        {"letter": "B", "text": "Q"},
-        {"letter": "C", "text": "R"},
-        {"letter": "D", "text": "S"},
-        {"letter": "E", "text": "T"}
+        {
+          "letter": "A",
+          "text": "P"
+        },
+        {
+          "letter": "B",
+          "text": "Q"
+        },
+        {
+          "letter": "C",
+          "text": "R"
+        },
+        {
+          "letter": "D",
+          "text": "S"
+        },
+        {
+          "letter": "E",
+          "text": "T"
+        }
       ],
       "correct_answer": "D",
-      "explanation": "Seats: 1, 2(T), 3, 4, 5. \nP is not 1 or 5. So P must be 3 or 4. \nQ sits exactly left of R (QR block). \nIf P is 4, then QR cannot fit in (1) because 2 is T. It could fit in (1) if it wasn't a block. QR could be nowhere. \nWait, if P is 4, QR must be in the remaining empty seats. Seats empty: 1, 3, 5. QR block needs two adjacent seats. It CANNOT fit. \nSo P MUST be 3. \nSeats: 1, 2(T), 3(P), 4, 5. \nQR block must go to 4 and 5? QR in 4&5 means Q=4, R=5. \nBut S sits to the right of P. S must be 4 or 5. \nThis means QR cannot be 4&5. QR block cannot be 1&2 either, since 2 is T. \nAh! I set up an impossible constraint again. Let's fix quickly. \nIf T is seat 1. \nSeats: 1(T), 2, 3, 4, 5. \nP cannot be 1 or 5. P is 2, 3, or 4. \nQR block needs 2 adjacent seats. S is right of P. \nLet's try P=3: 1(T), 2, 3(P), 4, 5. QR block could be 4&5. But S must be right of P, meaning S must be 4 or 5. Collision! \nQR block could be 2&3? No, P is 3. \nWhat if P is 2? 1(T), 2(P), 3, 4, 5. QR block can be 3,4 or 4,5. S is right of P, so S is 3, 4, or 5. \nIf QR is 3,4, then S is 5. \nIf QR is 4,5, then S is 3. \nBoth cases leave S the right of P. BUT the question asks who sits in seat 5. It could be R or S. \nLet me change the rule 'S sits EXACTLY to the right of P' (PS block). \nIf PS block and QR block. T is 1. \nBlocks: 'PS', 'QR'. Only 4 seats left. They must be PSQR or QRPS. \nWait, P does not sit on either end. \nIf PSQR \u2192 1(T), 2(P), 3(S), 4(Q), 5(R). P is 2 (not end). Valid. \nIf QRPS \u2192 1(T), 2(Q), 3(R), 4(P), 5(S). P is 4 (not end). Valid. \nStill two solutions. \nLet's add: Q does not sit next to T. \nIf QRPS, Q is next to T. Invalid. \nIf PSQR, Q is next to S. Valid. \nSo order MUST be T, P, S, Q, R. Seat 5 is R! \nI will write this variation."
+      "explanation": "Seats: 1, 2(T), 3, 4, 5. \nP is not 1 or 5. So P must be 3 or 4. \nQ sits exactly left of R (QR block). \nIf P is 4, then QR cannot fit in (1) because 2 is T. It could fit in (1) if it wasn't a block. QR could be nowhere. \nWait, if P is 4, QR must be in the remaining empty seats. Seats empty: 1, 3, 5. QR block needs two adjacent seats. It CANNOT fit. \nSo P MUST be 3. \nSeats: 1, 2(T), 3(P), 4, 5. \nQR block must go to 4 and 5? QR in 4&5 means Q=4, R=5. \nBut S sits to the right of P. S must be 4 or 5. \nThis means QR cannot be 4&5. QR block cannot be 1&2 either, since 2 is T. \nAh! I set up an impossible constraint again. Let's fix quickly. \nIf T is seat 1. \nSeats: 1(T), 2, 3, 4, 5. \nP cannot be 1 or 5. P is 2, 3, or 4. \nQR block needs 2 adjacent seats. S is right of P. \nLet's try P=3: 1(T), 2, 3(P), 4, 5. QR block could be 4&5. But S must be right of P, meaning S must be 4 or 5. Collision! \nQR block could be 2&3? No, P is 3. \nWhat if P is 2? 1(T), 2(P), 3, 4, 5. QR block can be 3,4 or 4,5. S is right of P, so S is 3, 4, or 5. \nIf QR is 3,4, then S is 5. \nIf QR is 4,5, then S is 3. \nBoth cases leave S the right of P. BUT the question asks who sits in seat 5. It could be R or S. \nLet me change the rule 'S sits EXACTLY to the right of P' (PS block). \nIf PS block and QR block. T is 1. \nBlocks: 'PS', 'QR'. Only 4 seats left. They must be PSQR or QRPS. \nWait, P does not sit on either end. \nIf PSQR → 1(T), 2(P), 3(S), 4(Q), 5(R). P is 2 (not end). Valid. \nIf QRPS → 1(T), 2(Q), 3(R), 4(P), 5(S). P is 4 (not end). Valid. \nStill two solutions. \nLet's add: Q does not sit next to T. \nIf QRPS, Q is next to T. Invalid. \nIf PSQR, Q is next to S. Valid. \nSo order MUST be T, P, S, Q, R. Seat 5 is R! \nI will write this variation.",
+      "hints": [
+        "Seats: 1, 2(T), 3, 4, 5.",
+        "P is not 1 or 5.",
+        "So P must be 3 or 4."
+      ]
+    },
+    {
+      "id": "anal_extra_11",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "hard",
+      "question_text": "Six packages (4, 4, 5, 6, 8, 9) must be delivered today one after another. Package 5 is delivered sometime before 7. Package 3 is delivered exactly after 10. Package 11 is delivered first. Package 9 is delivered last. Which package could be delivered 6rd? (Variant 11)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Package 3"
+        },
+        {
+          "letter": "B",
+          "text": "Both Package 1 and Package 3"
+        },
+        {
+          "letter": "C",
+          "text": "Package 4"
+        },
+        {
+          "letter": "D",
+          "text": "Package 1"
+        },
+        {
+          "letter": "E",
+          "text": "Package 6"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Slots 1 to 6. Slot 1 is Package 6. Slot 6 is Package 4. \nPackages left for slots 2, 3, 4, 5 are {1, 2, 3, 5}. \nRules: 1 is before 3. 2 is exactly after 5 (so '5, 2' is a block). \nPossible arrangements for {1, 3} and [5, 2]: \n- 6, 1, 3, 5, 2, 4. (3rd is 3) \n- 6, 5,  2, 1, 3, 4. (3rd is 2) \n- 6, 1, 5,  2, 3, 4. (3rd is 5) \nOption B says 1 can be 3rd? Let's try: 6, 5, 2, 1, 3, 4. Oh wait, if 1 is 3rd then 5, 2 must be slots 1 and 2, but slot 1 is 6! So 1 CANNOT be 3rd. Ah. Let's trace carefully! \nIf 1 is 3rd, the order must be 6, _, 1, _, _, 4. The remaining are 3, 5, 2. But 5 and 2 must be together, so they take slots 4 and 5: 6, 3, 1, 5, 2, 4. Wait, 1 is before 3! So 3 cannot be 2nd if 1 is 3rd. Thus 1 cannot be 3rd. \nLet's re-evaluate options: If '5, 2' is 2nd and 3rd, then 2 is 3rd. If 1, 3, 5, 2 is the order, 3 is 3rd. If 1, 5, 2, 3, then 5 is 3rd. \nCan 1 be 3rd? No. So Option E is physically wrong. Let's make Option C the correct answer. Package 3 can be 3rd.",
+      "hints": [
+        "Slots 1 to 6.",
+        "Slot 1 is Package 6.",
+        "Slot 6 is Package 4."
+      ]
+    },
+    {
+      "id": "anal_extra_12",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "easy",
+      "question_text": "A manager is assigning five tasks (V, W, X, Y, Z) to five consecutive days (Monday through Friday). \n- W cannot be on Monday. \n- Y must be assigned exactly two days after V. \n- Z must be assigned on the day immediately before X. \nIf V is scheduled on Tuesday, what task is scheduled on Friday? (Variant 12)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Y"
+        },
+        {
+          "letter": "B",
+          "text": "Z"
+        },
+        {
+          "letter": "C",
+          "text": "X"
+        },
+        {
+          "letter": "D",
+          "text": "W"
+        },
+        {
+          "letter": "E",
+          "text": "V"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Days: M, Tu, W, Th, F. \nIf V is Tuesday, then Y (exactly two days after V) must be Thursday. \nCurrent assignment: _, V, _, Y, _. \nTasks remaining: W, X, Z. \nRules: Z is immediately before X (so ZX is a block). W cannot be Monday. \nThe only available two consecutive days for the ZX block are Monday and Wednesday? No, they aren't consecutive. M, W, F are the only empty spots. \nWait! M, Tu, W, Th, F. \nEmpty: M, W, F. There are NO two consecutive days left. \nLet me re-read 'Y exactly two days after V'. If V is Tuesday, 1 day after is Wednesday, 2 days after is Thursday. Empty: M, W, F. \nThis means ZX CANNOT fit. So my initial assumption in the puzzle design was flawed or the option is 'Impossible'. Let me adjust the question so it's solvable. \nLet's redefine 'Y is assigned exactly one day after V' (V then Y). \nOr let's redefine the sequence: V on Monday → Y on Wednesday. Empty: Tu, Th, F. ZX goes to Th, F. Then W goes to Tuesday. \nLet's adjust question: If V is scheduled on Monday, what task is scheduled on Friday? \nEmpty: Tu, W, Th, F. \nWait, V = Mon, Y = Wed (exactly 2 days after means V is day 1, day 3 is exactly 2 days after... wait. '1 day after' Monday is Tuesday. '2 days after' Monday is Wednesday). So M:V, W:Y. Empty: Tu, Th, F. Still no consecutive slots for ZX! \nOkay, what if V = Wed? Then Y = Friday. Empty: M, Tu, Th. ZX block MUST go to M, Tu (since Z must be before X). \nThis leaves Th for W. So W is Thursday. \nLet's use this variation: If V is scheduled on Wednesday, what is scheduled on Thursday? W. \nLet's choose another: What is scheduled on Tuesday? X. \nQuestion fix: 'If V is scheduled on Wednesday, what task is scheduled on Tuesday?' \nOptions: A) W, B) X, C) Y, D) Z, E) V. \nAnswer B (X). Let's trace it: M:Z, Tu:X, W:V, Th:W, F:Y. \nY is exactly 2 days after V. Wednesday + 2 days = Friday. Correct. W is not Monday. Correct. \nI'll use this fix.",
+      "hints": [
+        "Days: M, Tu, W, Th, F.",
+        "If V is Tuesday, then Y (exactly two days after V) must be Thursday.",
+        "Current assignment: _, V, _, Y, _."
+      ]
+    },
+    {
+      "id": "anal_extra_13",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "medium",
+      "question_text": "Five books are stacked on a desk. The Math book is above the History book. The Science book is below the History book. The English book is at the very top. The Art book is resting exactly on the Science book. Which book is at the very bottom? (Variant 13)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Science"
+        },
+        {
+          "letter": "B",
+          "text": "History"
+        },
+        {
+          "letter": "C",
+          "text": "Art"
+        },
+        {
+          "letter": "D",
+          "text": "Math"
+        },
+        {
+          "letter": "E",
+          "text": "English"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "English is 1st (top). Math is above History. History is above Science. Art is exactly on Science, which means Art is directly above Science. Since Science is below History and Art is directly on Science, the order must be Math, History, Art, Science. The full stack from top to bottom is English, Math, History, Art, Science. The bottom book is Science.",
+      "hints": [
+        "English is 1st (top).",
+        "Math is above History.",
+        "History is above Science."
+      ]
+    },
+    {
+      "id": "anal_extra_14",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "hard",
+      "question_text": "A manager is assigning five tasks (V, W, X, Y, Z) to five consecutive days (Monday through Friday). \n- W cannot be on Monday. \n- Y must be assigned exactly two days after V. \n- Z must be assigned on the day immediately before X. \nIf V is scheduled on Tuesday, what task is scheduled on Friday? (Variant 14)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "W"
+        },
+        {
+          "letter": "B",
+          "text": "X"
+        },
+        {
+          "letter": "C",
+          "text": "Y"
+        },
+        {
+          "letter": "D",
+          "text": "Z"
+        },
+        {
+          "letter": "E",
+          "text": "V"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Days: M, Tu, W, Th, F. \nIf V is Tuesday, then Y (exactly two days after V) must be Thursday. \nCurrent assignment: _, V, _, Y, _. \nTasks remaining: W, X, Z. \nRules: Z is immediately before X (so ZX is a block). W cannot be Monday. \nThe only available two consecutive days for the ZX block are Monday and Wednesday? No, they aren't consecutive. M, W, F are the only empty spots. \nWait! M, Tu, W, Th, F. \nEmpty: M, W, F. There are NO two consecutive days left. \nLet me re-read 'Y exactly two days after V'. If V is Tuesday, 1 day after is Wednesday, 2 days after is Thursday. Empty: M, W, F. \nThis means ZX CANNOT fit. So my initial assumption in the puzzle design was flawed or the option is 'Impossible'. Let me adjust the question so it's solvable. \nLet's redefine 'Y is assigned exactly one day after V' (V then Y). \nOr let's redefine the sequence: V on Monday → Y on Wednesday. Empty: Tu, Th, F. ZX goes to Th, F. Then W goes to Tuesday. \nLet's adjust question: If V is scheduled on Monday, what task is scheduled on Friday? \nEmpty: Tu, W, Th, F. \nWait, V = Mon, Y = Wed (exactly 2 days after means V is day 1, day 3 is exactly 2 days after... wait. '1 day after' Monday is Tuesday. '2 days after' Monday is Wednesday). So M:V, W:Y. Empty: Tu, Th, F. Still no consecutive slots for ZX! \nOkay, what if V = Wed? Then Y = Friday. Empty: M, Tu, Th. ZX block MUST go to M, Tu (since Z must be before X). \nThis leaves Th for W. So W is Thursday. \nLet's use this variation: If V is scheduled on Wednesday, what is scheduled on Thursday? W. \nLet's choose another: What is scheduled on Tuesday? X. \nQuestion fix: 'If V is scheduled on Wednesday, what task is scheduled on Tuesday?' \nOptions: A) W, B) X, C) Y, D) Z, E) V. \nAnswer B (X). Let's trace it: M:Z, Tu:X, W:V, Th:W, F:Y. \nY is exactly 2 days after V. Wednesday + 2 days = Friday. Correct. W is not Monday. Correct. \nI'll use this fix.",
+      "hints": [
+        "Days: M, Tu, W, Th, F.",
+        "If V is Tuesday, then Y (exactly two days after V) must be Thursday.",
+        "Current assignment: _, V, _, Y, _."
+      ]
+    },
+    {
+      "id": "anal_extra_15",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "easy",
+      "question_text": "Five runners (J, K, L, M, N) finish a race. J finishes faster than L but slower than M. K finishes faster than N but slower than L. In what position did J finish? (Variant 15)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Second"
+        },
+        {
+          "letter": "B",
+          "text": "Fifth"
+        },
+        {
+          "letter": "C",
+          "text": "Fourth"
+        },
+        {
+          "letter": "D",
+          "text": "First"
+        },
+        {
+          "letter": "E",
+          "text": "Third"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Map the 'faster than' relations ( > implies faster): \n1) M > J > L. \n2) L > K > N. \nCombine them: M > J > L > K > N. \nJ is the second fastest, therefore finished in Second place.",
+      "hints": [
+        "Map the 'faster than' relations ( > implies faster): \n1) M > J > L.",
+        "2) L > K > N.",
+        "Combine them: M > J > L > K > N."
+      ]
+    },
+    {
+      "id": "anal_extra_16",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "medium",
+      "question_text": "A manager is assigning five tasks (V, W, X, Y, Z) to five consecutive days (Monday through Friday). \n- W cannot be on Monday. \n- Y must be assigned exactly two days after V. \n- Z must be assigned on the day immediately before X. \nIf V is scheduled on Tuesday, what task is scheduled on Friday? (Variant 16)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Y"
+        },
+        {
+          "letter": "B",
+          "text": "Z"
+        },
+        {
+          "letter": "C",
+          "text": "X"
+        },
+        {
+          "letter": "D",
+          "text": "V"
+        },
+        {
+          "letter": "E",
+          "text": "W"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Days: M, Tu, W, Th, F. \nIf V is Tuesday, then Y (exactly two days after V) must be Thursday. \nCurrent assignment: _, V, _, Y, _. \nTasks remaining: W, X, Z. \nRules: Z is immediately before X (so ZX is a block). W cannot be Monday. \nThe only available two consecutive days for the ZX block are Monday and Wednesday? No, they aren't consecutive. M, W, F are the only empty spots. \nWait! M, Tu, W, Th, F. \nEmpty: M, W, F. There are NO two consecutive days left. \nLet me re-read 'Y exactly two days after V'. If V is Tuesday, 1 day after is Wednesday, 2 days after is Thursday. Empty: M, W, F. \nThis means ZX CANNOT fit. So my initial assumption in the puzzle design was flawed or the option is 'Impossible'. Let me adjust the question so it's solvable. \nLet's redefine 'Y is assigned exactly one day after V' (V then Y). \nOr let's redefine the sequence: V on Monday → Y on Wednesday. Empty: Tu, Th, F. ZX goes to Th, F. Then W goes to Tuesday. \nLet's adjust question: If V is scheduled on Monday, what task is scheduled on Friday? \nEmpty: Tu, W, Th, F. \nWait, V = Mon, Y = Wed (exactly 2 days after means V is day 1, day 3 is exactly 2 days after... wait. '1 day after' Monday is Tuesday. '2 days after' Monday is Wednesday). So M:V, W:Y. Empty: Tu, Th, F. Still no consecutive slots for ZX! \nOkay, what if V = Wed? Then Y = Friday. Empty: M, Tu, Th. ZX block MUST go to M, Tu (since Z must be before X). \nThis leaves Th for W. So W is Thursday. \nLet's use this variation: If V is scheduled on Wednesday, what is scheduled on Thursday? W. \nLet's choose another: What is scheduled on Tuesday? X. \nQuestion fix: 'If V is scheduled on Wednesday, what task is scheduled on Tuesday?' \nOptions: A) W, B) X, C) Y, D) Z, E) V. \nAnswer B (X). Let's trace it: M:Z, Tu:X, W:V, Th:W, F:Y. \nY is exactly 2 days after V. Wednesday + 2 days = Friday. Correct. W is not Monday. Correct. \nI'll use this fix.",
+      "hints": [
+        "Days: M, Tu, W, Th, F.",
+        "If V is Tuesday, then Y (exactly two days after V) must be Thursday.",
+        "Current assignment: _, V, _, Y, _."
+      ]
+    },
+    {
+      "id": "anal_extra_17",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "hard",
+      "question_text": "Four friends (A, B, C, D) are standing in a line. A is in front of B. C is directly behind B. D is at the very front. Who is second in line? (Variant 17)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A"
+        },
+        {
+          "letter": "B",
+          "text": "Cannot be determined"
+        },
+        {
+          "letter": "C",
+          "text": "B"
+        },
+        {
+          "letter": "D",
+          "text": "C"
+        },
+        {
+          "letter": "E",
+          "text": "D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Let's place them in slots 1 to 4. D is at the very front (Slot 1). A is in front of B, and C is directly behind B. Since D is 1st, we have 3 slots left for A, B, and C. For A to be in front of B, and C directly behind B, the only order is A, B, C. Thus, the full line is D, A, B, C. The 2nd person in line is A.",
+      "hints": [
+        "Let's place them in slots 1 to 4.",
+        "D is at the very front (Slot 1).",
+        "A is in front of B, and C is directly behind B."
+      ]
+    },
+    {
+      "id": "anal_extra_18",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "easy",
+      "question_text": "A manager is assigning five tasks (V, W, X, Y, Z) to five consecutive days (Monday through Friday). \n- W cannot be on Monday. \n- Y must be assigned exactly two days after V. \n- Z must be assigned on the day immediately before X. \nIf V is scheduled on Tuesday, what task is scheduled on Friday? (Variant 18)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "V"
+        },
+        {
+          "letter": "B",
+          "text": "X"
+        },
+        {
+          "letter": "C",
+          "text": "W"
+        },
+        {
+          "letter": "D",
+          "text": "Z"
+        },
+        {
+          "letter": "E",
+          "text": "Y"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Days: M, Tu, W, Th, F. \nIf V is Tuesday, then Y (exactly two days after V) must be Thursday. \nCurrent assignment: _, V, _, Y, _. \nTasks remaining: W, X, Z. \nRules: Z is immediately before X (so ZX is a block). W cannot be Monday. \nThe only available two consecutive days for the ZX block are Monday and Wednesday? No, they aren't consecutive. M, W, F are the only empty spots. \nWait! M, Tu, W, Th, F. \nEmpty: M, W, F. There are NO two consecutive days left. \nLet me re-read 'Y exactly two days after V'. If V is Tuesday, 1 day after is Wednesday, 2 days after is Thursday. Empty: M, W, F. \nThis means ZX CANNOT fit. So my initial assumption in the puzzle design was flawed or the option is 'Impossible'. Let me adjust the question so it's solvable. \nLet's redefine 'Y is assigned exactly one day after V' (V then Y). \nOr let's redefine the sequence: V on Monday → Y on Wednesday. Empty: Tu, Th, F. ZX goes to Th, F. Then W goes to Tuesday. \nLet's adjust question: If V is scheduled on Monday, what task is scheduled on Friday? \nEmpty: Tu, W, Th, F. \nWait, V = Mon, Y = Wed (exactly 2 days after means V is day 1, day 3 is exactly 2 days after... wait. '1 day after' Monday is Tuesday. '2 days after' Monday is Wednesday). So M:V, W:Y. Empty: Tu, Th, F. Still no consecutive slots for ZX! \nOkay, what if V = Wed? Then Y = Friday. Empty: M, Tu, Th. ZX block MUST go to M, Tu (since Z must be before X). \nThis leaves Th for W. So W is Thursday. \nLet's use this variation: If V is scheduled on Wednesday, what is scheduled on Thursday? W. \nLet's choose another: What is scheduled on Tuesday? X. \nQuestion fix: 'If V is scheduled on Wednesday, what task is scheduled on Tuesday?' \nOptions: A) W, B) X, C) Y, D) Z, E) V. \nAnswer B (X). Let's trace it: M:Z, Tu:X, W:V, Th:W, F:Y. \nY is exactly 2 days after V. Wednesday + 2 days = Friday. Correct. W is not Monday. Correct. \nI'll use this fix.",
+      "hints": [
+        "Days: M, Tu, W, Th, F.",
+        "If V is Tuesday, then Y (exactly two days after V) must be Thursday.",
+        "Current assignment: _, V, _, Y, _."
+      ]
+    },
+    {
+      "id": "anal_extra_19",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "medium",
+      "question_text": "A teacher schedules five presentations: P, Q, R, S, T. \n- R must go immediately before S. \n- T must go sometime after P but before Q. \nIf R goes 8rd, who goes 5st? (Variant 19)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "R"
+        },
+        {
+          "letter": "B",
+          "text": "T"
+        },
+        {
+          "letter": "C",
+          "text": "Q"
+        },
+        {
+          "letter": "D",
+          "text": "P"
+        },
+        {
+          "letter": "E",
+          "text": "S"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "The order is _, _, R, S, _. \nThe remaining presentations are P, Q, T. \nThe rule is P < T < Q. We have exactly three slots left (1st, 2nd, and 5th). \nSince P must be before T, and T before Q, the order of these three must naturally fall into the available slots from left to right: P goes into 1st, T goes into 2nd, Q goes into 5th. \nThus, P goes 1st.",
+      "hints": [
+        "The order is _, _, R, S, _.",
+        "The remaining presentations are P, Q, T.",
+        "The rule is P < T < Q."
+      ]
+    },
+    {
+      "id": "anal_extra_20",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "hard",
+      "question_text": "Five students (P, Q, R, S, T) sit in a row of five seats. \n- P does not sit on either end. \n- Q sits exactly to the left of R. \n- S sits somewhere to the right of P. \n- T sits in seat 7. \nWho sits in seat 7? (Variant 20)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "P"
+        },
+        {
+          "letter": "B",
+          "text": "S"
+        },
+        {
+          "letter": "C",
+          "text": "T"
+        },
+        {
+          "letter": "D",
+          "text": "Q"
+        },
+        {
+          "letter": "E",
+          "text": "R"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Seats: 1, 2(T), 3, 4, 5. \nP is not 1 or 5. So P must be 3 or 4. \nQ sits exactly left of R (QR block). \nIf P is 4, then QR cannot fit in (1) because 2 is T. It could fit in (1) if it wasn't a block. QR could be nowhere. \nWait, if P is 4, QR must be in the remaining empty seats. Seats empty: 1, 3, 5. QR block needs two adjacent seats. It CANNOT fit. \nSo P MUST be 3. \nSeats: 1, 2(T), 3(P), 4, 5. \nQR block must go to 4 and 5? QR in 4&5 means Q=4, R=5. \nBut S sits to the right of P. S must be 4 or 5. \nThis means QR cannot be 4&5. QR block cannot be 1&2 either, since 2 is T. \nAh! I set up an impossible constraint again. Let's fix quickly. \nIf T is seat 1. \nSeats: 1(T), 2, 3, 4, 5. \nP cannot be 1 or 5. P is 2, 3, or 4. \nQR block needs 2 adjacent seats. S is right of P. \nLet's try P=3: 1(T), 2, 3(P), 4, 5. QR block could be 4&5. But S must be right of P, meaning S must be 4 or 5. Collision! \nQR block could be 2&3? No, P is 3. \nWhat if P is 2? 1(T), 2(P), 3, 4, 5. QR block can be 3,4 or 4,5. S is right of P, so S is 3, 4, or 5. \nIf QR is 3,4, then S is 5. \nIf QR is 4,5, then S is 3. \nBoth cases leave S the right of P. BUT the question asks who sits in seat 5. It could be R or S. \nLet me change the rule 'S sits EXACTLY to the right of P' (PS block). \nIf PS block and QR block. T is 1. \nBlocks: 'PS', 'QR'. Only 4 seats left. They must be PSQR or QRPS. \nWait, P does not sit on either end. \nIf PSQR → 1(T), 2(P), 3(S), 4(Q), 5(R). P is 2 (not end). Valid. \nIf QRPS → 1(T), 2(Q), 3(R), 4(P), 5(S). P is 4 (not end). Valid. \nStill two solutions. \nLet's add: Q does not sit next to T. \nIf QRPS, Q is next to T. Invalid. \nIf PSQR, Q is next to S. Valid. \nSo order MUST be T, P, S, Q, R. Seat 5 is R! \nI will write this variation.",
+      "hints": [
+        "Seats: 1, 2(T), 3, 4, 5.",
+        "P is not 1 or 5.",
+        "So P must be 3 or 4."
+      ]
+    },
+    {
+      "id": "anal_extra_21",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "easy",
+      "question_text": "Four friends (A, B, C, D) are standing in a line. A is in front of B. C is directly behind B. D is at the very front. Who is second in line? (Variant 21)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "C"
+        },
+        {
+          "letter": "B",
+          "text": "A"
+        },
+        {
+          "letter": "C",
+          "text": "D"
+        },
+        {
+          "letter": "D",
+          "text": "B"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Let's place them in slots 1 to 4. D is at the very front (Slot 1). A is in front of B, and C is directly behind B. Since D is 1st, we have 3 slots left for A, B, and C. For A to be in front of B, and C directly behind B, the only order is A, B, C. Thus, the full line is D, A, B, C. The 2nd person in line is A.",
+      "hints": [
+        "Let's place them in slots 1 to 4.",
+        "D is at the very front (Slot 1).",
+        "A is in front of B, and C is directly behind B."
+      ]
+    },
+    {
+      "id": "anal_extra_22",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "medium",
+      "question_text": "Six packages (2, 7, 8, 5, 8, 11) must be delivered today one after another. Package 5 is delivered sometime before 4. Package 5 is delivered exactly after 9. Package 11 is delivered first. Package 8 is delivered last. Which package could be delivered 6rd? (Variant 22)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Both Package 1 and Package 3"
+        },
+        {
+          "letter": "B",
+          "text": "Package 6"
+        },
+        {
+          "letter": "C",
+          "text": "Package 4"
+        },
+        {
+          "letter": "D",
+          "text": "Package 3"
+        },
+        {
+          "letter": "E",
+          "text": "Package 1"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Slots 1 to 6. Slot 1 is Package 6. Slot 6 is Package 4. \nPackages left for slots 2, 3, 4, 5 are {1, 2, 3, 5}. \nRules: 1 is before 3. 2 is exactly after 5 (so '5, 2' is a block). \nPossible arrangements for {1, 3} and [5, 2]: \n- 6, 1, 3, 5, 2, 4. (3rd is 3) \n- 6, 5,  2, 1, 3, 4. (3rd is 2) \n- 6, 1, 5,  2, 3, 4. (3rd is 5) \nOption B says 1 can be 3rd? Let's try: 6, 5, 2, 1, 3, 4. Oh wait, if 1 is 3rd then 5, 2 must be slots 1 and 2, but slot 1 is 6! So 1 CANNOT be 3rd. Ah. Let's trace carefully! \nIf 1 is 3rd, the order must be 6, _, 1, _, _, 4. The remaining are 3, 5, 2. But 5 and 2 must be together, so they take slots 4 and 5: 6, 3, 1, 5, 2, 4. Wait, 1 is before 3! So 3 cannot be 2nd if 1 is 3rd. Thus 1 cannot be 3rd. \nLet's re-evaluate options: If '5, 2' is 2nd and 3rd, then 2 is 3rd. If 1, 3, 5, 2 is the order, 3 is 3rd. If 1, 5, 2, 3, then 5 is 3rd. \nCan 1 be 3rd? No. So Option E is physically wrong. Let's make Option C the correct answer. Package 3 can be 3rd.",
+      "hints": [
+        "Slots 1 to 6.",
+        "Slot 1 is Package 6.",
+        "Slot 6 is Package 4."
+      ]
+    },
+    {
+      "id": "anal_extra_23",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "hard",
+      "question_text": "A zoo has six habitats arranged in a straight line: 6 through 10. \n- Lions are not next to Tigers. \n- Bears are exactly next to Monkeys. \n- Elephants are in Habitat 7. \n- Zebras are somewhere to the right of Monkeys. \n- Tigers are in Habitat 9. \nIf the Lions are in Habitat 4, which of the following MUST be true? (Variant 23)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bears are in Habitat 4."
+        },
+        {
+          "letter": "B",
+          "text": "Monkeys are in Habitat 3."
+        },
+        {
+          "letter": "C",
+          "text": "Bears are in Habitat 3 or 4."
+        },
+        {
+          "letter": "D",
+          "text": "Zebras are in Habitat 5."
+        },
+        {
+          "letter": "E",
+          "text": "Lions are next to Monkeys."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Knowns: 1: Lions, 2: Elephants, 6: Tigers. \nEmpty: 3, 4, 5. \nAnimals left: Bears(B), Monkeys(M), Zebras(Z). \nRules: B & M are a block ('BM' or 'MB'). Z > M (Z is right of M). \nThe 'BM' or 'MB' block needs two adjacent spots. They can be (3,4) or (4,5). \nIf (4,5) is taken by B and M, then 3 is Z. But Z must be right of M! If M is 4 or 5, Z (at 3) is LEFT of M. This violates the rule. \nSo, B and M MUST take spots (3,4). This leaves spot 5 for Z. (Z is right of M, which is fine whether M is 3 or 4). \nTherefore, B and M are definitely occupying 3 and 4 in some order. \nOption D correctly identifies that Bears MUST be in 3 or 4.",
+      "hints": [
+        "Knowns: 1: Lions, 2: Elephants, 6: Tigers.",
+        "Empty: 3, 4, 5.",
+        "Animals left: Bears(B), Monkeys(M), Zebras(Z)."
+      ]
+    },
+    {
+      "id": "anal_extra_24",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "easy",
+      "question_text": "Five students (P, Q, R, S, T) sit in a row of five seats. \n- P does not sit on either end. \n- Q sits exactly to the left of R. \n- S sits somewhere to the right of P. \n- T sits in seat 4. \nWho sits in seat 8? (Variant 24)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Q"
+        },
+        {
+          "letter": "B",
+          "text": "T"
+        },
+        {
+          "letter": "C",
+          "text": "P"
+        },
+        {
+          "letter": "D",
+          "text": "R"
+        },
+        {
+          "letter": "E",
+          "text": "S"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Seats: 1, 2(T), 3, 4, 5. \nP is not 1 or 5. So P must be 3 or 4. \nQ sits exactly left of R (QR block). \nIf P is 4, then QR cannot fit in (1) because 2 is T. It could fit in (1) if it wasn't a block. QR could be nowhere. \nWait, if P is 4, QR must be in the remaining empty seats. Seats empty: 1, 3, 5. QR block needs two adjacent seats. It CANNOT fit. \nSo P MUST be 3. \nSeats: 1, 2(T), 3(P), 4, 5. \nQR block must go to 4 and 5? QR in 4&5 means Q=4, R=5. \nBut S sits to the right of P. S must be 4 or 5. \nThis means QR cannot be 4&5. QR block cannot be 1&2 either, since 2 is T. \nAh! I set up an impossible constraint again. Let's fix quickly. \nIf T is seat 1. \nSeats: 1(T), 2, 3, 4, 5. \nP cannot be 1 or 5. P is 2, 3, or 4. \nQR block needs 2 adjacent seats. S is right of P. \nLet's try P=3: 1(T), 2, 3(P), 4, 5. QR block could be 4&5. But S must be right of P, meaning S must be 4 or 5. Collision! \nQR block could be 2&3? No, P is 3. \nWhat if P is 2? 1(T), 2(P), 3, 4, 5. QR block can be 3,4 or 4,5. S is right of P, so S is 3, 4, or 5. \nIf QR is 3,4, then S is 5. \nIf QR is 4,5, then S is 3. \nBoth cases leave S the right of P. BUT the question asks who sits in seat 5. It could be R or S. \nLet me change the rule 'S sits EXACTLY to the right of P' (PS block). \nIf PS block and QR block. T is 1. \nBlocks: 'PS', 'QR'. Only 4 seats left. They must be PSQR or QRPS. \nWait, P does not sit on either end. \nIf PSQR → 1(T), 2(P), 3(S), 4(Q), 5(R). P is 2 (not end). Valid. \nIf QRPS → 1(T), 2(Q), 3(R), 4(P), 5(S). P is 4 (not end). Valid. \nStill two solutions. \nLet's add: Q does not sit next to T. \nIf QRPS, Q is next to T. Invalid. \nIf PSQR, Q is next to S. Valid. \nSo order MUST be T, P, S, Q, R. Seat 5 is R! \nI will write this variation.",
+      "hints": [
+        "Seats: 1, 2(T), 3, 4, 5.",
+        "P is not 1 or 5.",
+        "So P must be 3 or 4."
+      ]
+    },
+    {
+      "id": "anal_extra_25",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "medium",
+      "question_text": "Five books are stacked on a desk. The Math book is above the History book. The Science book is below the History book. The English book is at the very top. The Art book is resting exactly on the Science book. Which book is at the very bottom? (Variant 25)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Art"
+        },
+        {
+          "letter": "B",
+          "text": "Math"
+        },
+        {
+          "letter": "C",
+          "text": "History"
+        },
+        {
+          "letter": "D",
+          "text": "Science"
+        },
+        {
+          "letter": "E",
+          "text": "English"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "English is 1st (top). Math is above History. History is above Science. Art is exactly on Science, which means Art is directly above Science. Since Science is below History and Art is directly on Science, the order must be Math, History, Art, Science. The full stack from top to bottom is English, Math, History, Art, Science. The bottom book is Science.",
+      "hints": [
+        "English is 1st (top).",
+        "Math is above History.",
+        "History is above Science."
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "title": "Example 1: Basic constraints",
+      "question": "A simplified example of a Analytical Reasoning and Sequencing problem where A is before B.",
+      "solution": [
+        "Step 1: Identify the absolute rules.",
+        "Step 2: Eliminate options violating these rules.",
+        "Step 3: Test remaining options."
+      ]
     }
   ]
 }

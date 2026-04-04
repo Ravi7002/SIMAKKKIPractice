@@ -3,13 +3,34 @@
   "topic": "Vectors",
   "introduction": "Vectors have both magnitude and direction. In SIMAK, vector problems typically involve expressing a point's position using vector equations (like area ratios), dot products, cross products, and projections. Mastering how vector coefficients relate to area ratios is essential.",
   "key_formulas": [
-    {"name": "Vector magnitude", "formula": "|\\vec{a}| = \\sqrt{a_x^2 + a_y^2}"},
-    {"name": "Dot product", "formula": "\\vec{a}\\cdot\\vec{b} = |\\vec{a}||\\vec{b}|\\cos\\theta = a_x b_x + a_y b_y"},
-    {"name": "Cross product (2D)", "formula": "|\\vec{a}\\times\\vec{b}| = |a_x b_y - a_y b_x|"},
-    {"name": "Area of parallelogram", "formula": "A = |\\vec{a}\\times\\vec{b}|"},
-    {"name": "Area of triangle", "formula": "A = \\frac{1}{2}|\\vec{a}\\times\\vec{b}|"},
-    {"name": "Unit vector", "formula": "\\hat{a} = \\frac{\\vec{a}}{|\\vec{a}|}"},
-    {"name": "Projection", "formula": "\\text{proj}_{\\vec{b}}\\vec{a} = \\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{b}|^2}\\vec{b}"}
+    {
+      "name": "Vector magnitude",
+      "formula": "|\\vec{a}| = \\sqrt{a_x^2 + a_y^2}"
+    },
+    {
+      "name": "Dot product",
+      "formula": "\\vec{a}\\cdot\\vec{b} = |\\vec{a}||\\vec{b}|\\cos\\theta = a_x b_x + a_y b_y"
+    },
+    {
+      "name": "Cross product (2D)",
+      "formula": "|\\vec{a}\\times\\vec{b}| = |a_x b_y - a_y b_x|"
+    },
+    {
+      "name": "Area of parallelogram",
+      "formula": "A = |\\vec{a}\\times\\vec{b}|"
+    },
+    {
+      "name": "Area of triangle",
+      "formula": "A = \\frac{1}{2}|\\vec{a}\\times\\vec{b}|"
+    },
+    {
+      "name": "Unit vector",
+      "formula": "\\hat{a} = \\frac{\\vec{a}}{|\\vec{a}|}"
+    },
+    {
+      "name": "Projection",
+      "formula": "\\text{proj}_{\\vec{b}}\\vec{a} = \\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{b}|^2}\\vec{b}"
+    }
   ],
   "tips_and_tricks": [
     "If point P divides AB in ratio m:n, then OP = (n×OA + m×OB)/(m+n).",
@@ -44,172 +65,904 @@
   ],
   "questions": [
     {
-      "id": "vec_easy_1", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "easy",
+      "id": "vec_easy_1",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "easy",
       "question_text": "Find the magnitude of vector a = (3, 4).",
-      "options": [{"letter":"A","text":"5"},{"letter":"B","text":"7"},{"letter":"C","text":"25"},{"letter":"D","text":"√7"},{"letter":"E","text":"3.5"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "5"
+        },
+        {
+          "letter": "B",
+          "text": "7"
+        },
+        {
+          "letter": "C",
+          "text": "25"
+        },
+        {
+          "letter": "D",
+          "text": "√7"
+        },
+        {
+          "letter": "E",
+          "text": "3.5"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "|a| = √(3²+4²) = √(9+16) = √25 = **5**",
-      "hints": ["|a| = √(x²+y²).", "√(9+16) = √25.", "= 5."]
+      "hints": [
+        "|a| = √(x²+y²).",
+        "√(9+16) = √25.",
+        "= 5."
+      ]
     },
     {
-      "id": "vec_easy_2", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "easy",
+      "id": "vec_easy_2",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "easy",
       "question_text": "a = (2, 3) and b = (1, -1). Find a + b.",
-      "options": [{"letter":"A","text":"(3, 2)"},{"letter":"B","text":"(1, 4)"},{"letter":"C","text":"(3, -1)"},{"letter":"D","text":"(2, 3)"},{"letter":"E","text":"(1, 2)"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "(3, 2)"
+        },
+        {
+          "letter": "B",
+          "text": "(1, 4)"
+        },
+        {
+          "letter": "C",
+          "text": "(3, -1)"
+        },
+        {
+          "letter": "D",
+          "text": "(2, 3)"
+        },
+        {
+          "letter": "E",
+          "text": "(1, 2)"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "a+b = (2+1, 3+(-1)) = **(3, 2)**",
-      "hints": ["Add component-wise.", "(2+1, 3-1).", "= (3, 2)."]
+      "hints": [
+        "Add component-wise.",
+        "(2+1, 3-1).",
+        "= (3, 2)."
+      ]
     },
     {
-      "id": "vec_easy_3", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "easy",
+      "id": "vec_easy_3",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "easy",
       "question_text": "Find a·b (dot product) if a = (1, 2) and b = (3, 4).",
-      "options": [{"letter":"A","text":"11"},{"letter":"B","text":"14"},{"letter":"C","text":"5"},{"letter":"D","text":"8"},{"letter":"E","text":"10"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "11"
+        },
+        {
+          "letter": "B",
+          "text": "14"
+        },
+        {
+          "letter": "C",
+          "text": "5"
+        },
+        {
+          "letter": "D",
+          "text": "8"
+        },
+        {
+          "letter": "E",
+          "text": "10"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "a·b = 1(3)+2(4) = 3+8 = **11**",
-      "hints": ["Dot product: multiply components and add.", "1×3 + 2×4.", "= 3+8 = 11."]
+      "hints": [
+        "Dot product: multiply components and add.",
+        "1×3 + 2×4.",
+        "= 3+8 = 11."
+      ]
     },
     {
-      "id": "vec_easy_4", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "easy",
+      "id": "vec_easy_4",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "easy",
       "question_text": "Are vectors a=(2,4) and b=(1,2) parallel?",
-      "options": [{"letter":"A","text":"Yes"},{"letter":"B","text":"No"},{"letter":"C","text":"Perpendicular"},{"letter":"D","text":"Cannot determine"},{"letter":"E","text":"Only if scaled"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        },
+        {
+          "letter": "C",
+          "text": "Perpendicular"
+        },
+        {
+          "letter": "D",
+          "text": "Cannot determine"
+        },
+        {
+          "letter": "E",
+          "text": "Only if scaled"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "b = (1/2)a → they are parallel (scalar multiples).\na×b (cross product) = 2(2)-4(1) = 0 → **parallel** ✓",
-      "hints": ["Parallel: one is scalar multiple of other.", "a=2b. Yes, b=(1,2)=(1/2)(2,4)=a/2.", "Parallel."]
+      "hints": [
+        "Parallel: one is scalar multiple of other.",
+        "a=2b. Yes, b=(1,2)=(1/2)(2,4)=a/2.",
+        "Parallel."
+      ]
     },
     {
-      "id": "vec_easy_5", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "easy",
+      "id": "vec_easy_5",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "easy",
       "question_text": "Are a=(3,-4) and b=(4,3) perpendicular?",
-      "options": [{"letter":"A","text":"Yes"},{"letter":"B","text":"No"},{"letter":"C","text":"Parallel"},{"letter":"D","text":"Anti-parallel"},{"letter":"E","text":"Cannot determine"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        },
+        {
+          "letter": "C",
+          "text": "Parallel"
+        },
+        {
+          "letter": "D",
+          "text": "Anti-parallel"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot determine"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "a·b = 3(4)+(-4)(3) = 12-12 = 0\nDot product = 0 → **perpendicular** ✓",
-      "hints": ["Perpendicular: dot product = 0.", "a·b = 3(4)+(-4)(3) = 12-12 = 0.", "Yes, perpendicular."]
+      "hints": [
+        "Perpendicular: dot product = 0.",
+        "a·b = 3(4)+(-4)(3) = 12-12 = 0.",
+        "Yes, perpendicular."
+      ]
     },
     {
-      "id": "vec_easy_6", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "easy",
+      "id": "vec_easy_6",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "easy",
       "question_text": "If a = (6, 8), find the unit vector â.",
-      "options": [{"letter":"A","text":"(0.6, 0.8)"},{"letter":"B","text":"(6, 8)"},{"letter":"C","text":"(3, 4)"},{"letter":"D","text":"(0.8, 0.6)"},{"letter":"E","text":"(1, 1)"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "(0.6, 0.8)"
+        },
+        {
+          "letter": "B",
+          "text": "(6, 8)"
+        },
+        {
+          "letter": "C",
+          "text": "(3, 4)"
+        },
+        {
+          "letter": "D",
+          "text": "(0.8, 0.6)"
+        },
+        {
+          "letter": "E",
+          "text": "(1, 1)"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "|a| = √(36+64) = 10\nâ = a/|a| = (6/10, 8/10) = **(0.6, 0.8)**",
-      "hints": ["|a| = √(36+64) = 10.", "Divide each component by 10.", "(0.6, 0.8)."]
+      "hints": [
+        "|a| = √(36+64) = 10.",
+        "Divide each component by 10.",
+        "(0.6, 0.8)."
+      ]
     },
     {
-      "id": "vec_easy_7", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "easy",
+      "id": "vec_easy_7",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "easy",
       "question_text": "Find 3a - 2b if a=(1,2) and b=(3,1).",
-      "options": [{"letter":"A","text":"(-3, 4)"},{"letter":"B","text":"(3, 4)"},{"letter":"C","text":"(-3, -4)"},{"letter":"D","text":"(9, 4)"},{"letter":"E","text":"(0, 4)"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "(-3, 4)"
+        },
+        {
+          "letter": "B",
+          "text": "(3, 4)"
+        },
+        {
+          "letter": "C",
+          "text": "(-3, -4)"
+        },
+        {
+          "letter": "D",
+          "text": "(9, 4)"
+        },
+        {
+          "letter": "E",
+          "text": "(0, 4)"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "3a = (3,6), 2b = (6,2)\n3a-2b = (3-6, 6-2) = **(-3, 4)**",
-      "hints": ["Compute 3a = (3,6) and 2b = (6,2).", "Subtract: (3-6, 6-2).", "= (-3, 4)."]
+      "hints": [
+        "Compute 3a = (3,6) and 2b = (6,2).",
+        "Subtract: (3-6, 6-2).",
+        "= (-3, 4)."
+      ]
     },
     {
-      "id": "vec_easy_8", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "easy",
+      "id": "vec_easy_8",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "easy",
       "question_text": "The area of the triangle with vertices O(0,0), A(4,0), B(0,3) is:",
-      "options": [{"letter":"A","text":"6"},{"letter":"B","text":"12"},{"letter":"C","text":"7"},{"letter":"D","text":"5"},{"letter":"E","text":"3"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "6"
+        },
+        {
+          "letter": "B",
+          "text": "12"
+        },
+        {
+          "letter": "C",
+          "text": "7"
+        },
+        {
+          "letter": "D",
+          "text": "5"
+        },
+        {
+          "letter": "E",
+          "text": "3"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Area = (1/2)|base×height| = (1/2)(4)(3) = **6**\n\nAlternatively: (1/2)|OA×OB| = (1/2)|4(3)-0(0)| = 6",
-      "hints": ["Area of triangle with base along x-axis: (1/2)×base×height.", "Base=4, height=3.", "Area = 1/2×4×3 = 6."]
+      "hints": [
+        "Area of triangle with base along x-axis: (1/2)×base×height.",
+        "Base=4, height=3.",
+        "Area = 1/2×4×3 = 6."
+      ]
     },
     {
-      "id": "vec_medium_1", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "medium",
+      "id": "vec_medium_1",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
       "question_text": "In triangle OAB, point P satisfies OP = (3/7)OA + (2/7)OB. Find [OAP]/[OAB].",
-      "options": [{"letter":"A","text":"2/7"},{"letter":"B","text":"3/7"},{"letter":"C","text":"5/7"},{"letter":"D","text":"1/7"},{"letter":"E","text":"6/7"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "2/7"
+        },
+        {
+          "letter": "B",
+          "text": "3/7"
+        },
+        {
+          "letter": "C",
+          "text": "5/7"
+        },
+        {
+          "letter": "D",
+          "text": "1/7"
+        },
+        {
+          "letter": "E",
+          "text": "6/7"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "For OP = αOA + βOB: [OBP]/[OAB] = α = 3/7, and [OAP]/[OAB] = β = **2/7**",
-      "hints": ["For OP=αOA+βOB: [OAP]/[OAB] = β (the coefficient of OB).", "β = 2/7.", "Answer: 2/7."]
+      "hints": [
+        "For OP=αOA+βOB: [OAP]/[OAB] = β (the coefficient of OB).",
+        "β = 2/7.",
+        "Answer: 2/7."
+      ]
     },
     {
-      "id": "vec_medium_2", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "medium",
+      "id": "vec_medium_2",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
       "question_text": "Find the angle between a=(1,√3) and b=(1,0).",
-      "options": [{"letter":"A","text":"60°"},{"letter":"B","text":"30°"},{"letter":"C","text":"45°"},{"letter":"D","text":"90°"},{"letter":"E","text":"120°"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "60°"
+        },
+        {
+          "letter": "B",
+          "text": "30°"
+        },
+        {
+          "letter": "C",
+          "text": "45°"
+        },
+        {
+          "letter": "D",
+          "text": "90°"
+        },
+        {
+          "letter": "E",
+          "text": "120°"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "a·b = 1(1)+√3(0) = 1\n|a|=√(1+3)=2, |b|=1\ncosθ = 1/(2×1) = 1/2\nθ = **60°**",
-      "hints": ["cosθ = (a·b)/(|a||b|).", "a·b=1, |a|=2, |b|=1.", "cosθ=1/2 → θ=60°."]
+      "hints": [
+        "cosθ = (a·b)/(|a||b|).",
+        "a·b=1, |a|=2, |b|=1.",
+        "cosθ=1/2 → θ=60°."
+      ]
     },
     {
-      "id": "vec_medium_3", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "medium",
+      "id": "vec_medium_3",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
       "question_text": "Find the projection of a=(3,4) onto b=(1,0).",
-      "options": [{"letter":"A","text":"(3,0)"},{"letter":"B","text":"(4,0)"},{"letter":"C","text":"(3,4)"},{"letter":"D","text":"(0,4)"},{"letter":"E","text":"(5,0)"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "(3,0)"
+        },
+        {
+          "letter": "B",
+          "text": "(4,0)"
+        },
+        {
+          "letter": "C",
+          "text": "(3,4)"
+        },
+        {
+          "letter": "D",
+          "text": "(0,4)"
+        },
+        {
+          "letter": "E",
+          "text": "(5,0)"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "proj_b(a) = (a·b/|b|²)b = (3/1)(1,0) = **(3,0)**",
-      "hints": ["Projection = (a·b/|b|²)×b.", "a·b=3, |b|²=1.", "Projection = 3×(1,0) = (3,0)."]
+      "hints": [
+        "Projection = (a·b/|b|²)×b.",
+        "a·b=3, |b|²=1.",
+        "Projection = 3×(1,0) = (3,0)."
+      ]
     },
     {
-      "id": "vec_medium_4", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "medium",
+      "id": "vec_medium_4",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
       "question_text": "Find the area of the parallelogram with sides a=(2,3) and b=(1,4).",
-      "options": [{"letter":"A","text":"5"},{"letter":"B","text":"11"},{"letter":"C","text":"14"},{"letter":"D","text":"7"},{"letter":"E","text":"8"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "5"
+        },
+        {
+          "letter": "B",
+          "text": "11"
+        },
+        {
+          "letter": "C",
+          "text": "14"
+        },
+        {
+          "letter": "D",
+          "text": "7"
+        },
+        {
+          "letter": "E",
+          "text": "8"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Area = |a×b| = |2(4)-3(1)| = |8-3| = **5**",
-      "hints": ["Area of parallelogram = |a×b| = |a₁b₂-a₂b₁|.", "= |2(4)-3(1)| = |8-3|.", "= 5."]
+      "hints": [
+        "Area of parallelogram = |a×b| = |a₁b₂-a₂b₁|.",
+        "= |2(4)-3(1)| = |8-3|.",
+        "= 5."
+      ]
     },
     {
-      "id": "vec_medium_5", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "medium",
+      "id": "vec_medium_5",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
       "question_text": "If |a+b| = |a-b|, what is the angle between a and b?",
-      "options": [{"letter":"A","text":"90°"},{"letter":"B","text":"60°"},{"letter":"C","text":"45°"},{"letter":"D","text":"180°"},{"letter":"E","text":"0°"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "90°"
+        },
+        {
+          "letter": "B",
+          "text": "60°"
+        },
+        {
+          "letter": "C",
+          "text": "45°"
+        },
+        {
+          "letter": "D",
+          "text": "180°"
+        },
+        {
+          "letter": "E",
+          "text": "0°"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "|a+b|² = |a|²+2a·b+|b|²\n|a-b|² = |a|²-2a·b+|b|²\n\nIf equal: 4a·b=0 → a·b=0 → **θ=90°**",
-      "hints": ["|a+b|²=|a|²+2a·b+|b|² and |a-b|²=|a|²-2a·b+|b|².", "Setting equal: 4a·b=0.", "a·b=0 → perpendicular."]
+      "hints": [
+        "|a+b|²=|a|²+2a·b+|b|² and |a-b|²=|a|²-2a·b+|b|².",
+        "Setting equal: 4a·b=0.",
+        "a·b=0 → perpendicular."
+      ]
     },
     {
-      "id": "vec_medium_6", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "medium",
+      "id": "vec_medium_6",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
       "question_text": "Point M is the midpoint of AB. If OA=a and OB=b, find OM.",
-      "options": [{"letter":"A","text":"(a+b)/2"},{"letter":"B","text":"(a-b)/2"},{"letter":"C","text":"a+b"},{"letter":"D","text":"b-a"},{"letter":"E","text":"(a+b)"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "(a+b)/2"
+        },
+        {
+          "letter": "B",
+          "text": "(a-b)/2"
+        },
+        {
+          "letter": "C",
+          "text": "a+b"
+        },
+        {
+          "letter": "D",
+          "text": "b-a"
+        },
+        {
+          "letter": "E",
+          "text": "(a+b)"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Midpoint: OM = (OA+OB)/2 = **(a+b)/2**",
-      "hints": ["Midpoint formula: OM = (OA+OB)/2.", "= (a+b)/2.", "Answer: (a+b)/2."]
+      "hints": [
+        "Midpoint formula: OM = (OA+OB)/2.",
+        "= (a+b)/2.",
+        "Answer: (a+b)/2."
+      ]
     },
     {
-      "id": "vec_medium_7", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "medium",
+      "id": "vec_medium_7",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
       "question_text": "Find a vector perpendicular to (3, -2).",
-      "options": [{"letter":"A","text":"(2, 3)"},{"letter":"B","text":"(-3, 2)"},{"letter":"C","text":"(3, 2)"},{"letter":"D","text":"(-2, -3)"},{"letter":"E","text":"(6, -4)"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "(2, 3)"
+        },
+        {
+          "letter": "B",
+          "text": "(-3, 2)"
+        },
+        {
+          "letter": "C",
+          "text": "(3, 2)"
+        },
+        {
+          "letter": "D",
+          "text": "(-2, -3)"
+        },
+        {
+          "letter": "E",
+          "text": "(6, -4)"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "A perpendicular to (a,b) is (b,-a) or (-b,a).\nPerpendicular to (3,-2): check (2,3): 3(2)+(-2)(3)=6-6=0 ✓\nAnswer: **(2,3)**",
-      "hints": ["Perpendicular to (a,b) can be (b,-a) or (-b,a).", "Perpendicular to (3,-2): try (2,3).", "Dot product: 3(2)+(-2)(3)=0 ✓."]
+      "hints": [
+        "Perpendicular to (a,b) can be (b,-a) or (-b,a).",
+        "Perpendicular to (3,-2): try (2,3).",
+        "Dot product: 3(2)+(-2)(3)=0 ✓."
+      ]
     },
     {
-      "id": "vec_medium_8", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "medium",
+      "id": "vec_medium_8",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
       "question_text": "3D: a=(1,2,2). Find |a|.",
-      "options": [{"letter":"A","text":"3"},{"letter":"B","text":"5"},{"letter":"C","text":"√9"},{"letter":"D","text":"4"},{"letter":"E","text":"√5"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "3"
+        },
+        {
+          "letter": "B",
+          "text": "5"
+        },
+        {
+          "letter": "C",
+          "text": "√9"
+        },
+        {
+          "letter": "D",
+          "text": "4"
+        },
+        {
+          "letter": "E",
+          "text": "√5"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "|a| = √(1+4+4) = √9 = **3**",
-      "hints": ["3D magnitude: √(x²+y²+z²).", "√(1+4+4) = √9.", "= 3."]
+      "hints": [
+        "3D magnitude: √(x²+y²+z²).",
+        "√(1+4+4) = √9.",
+        "= 3."
+      ]
     },
     {
-      "id": "vec_hard_1", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "hard",
+      "id": "vec_hard_1",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "hard",
       "question_text": "In triangle OAB, point P inside satisfies 2OP = OA + 3OB. Find [OAP]/[OBP].",
-      "options": [{"letter":"A","text":"3"},{"letter":"B","text":"1/3"},{"letter":"C","text":"2"},{"letter":"D","text":"1/2"},{"letter":"E","text":"4"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "3"
+        },
+        {
+          "letter": "B",
+          "text": "1/3"
+        },
+        {
+          "letter": "C",
+          "text": "2"
+        },
+        {
+          "letter": "D",
+          "text": "1/2"
+        },
+        {
+          "letter": "E",
+          "text": "4"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "2OP = OA + 3OB → OP = (1/2)OA + (3/2)OB\n\nFor OP = αOA + βOB:\n[OAP]/[OAB] = β = 3/2... but coefficients > 1 means P is outside. Let's reconsider.\n\nUsing section formula: [OAP]/[OBP] = β/α = (3/2)/(1/2) = **3**",
-      "hints": ["OP = (1/2)OA + (3/2)OB. Coefficients α=1/2 and β=3/2.", "[OAP] relates to β, [OBP] relates to α.", "[OAP]/[OBP] = β/α = (3/2)/(1/2) = 3."]
+      "hints": [
+        "OP = (1/2)OA + (3/2)OB. Coefficients α=1/2 and β=3/2.",
+        "[OAP] relates to β, [OBP] relates to α.",
+        "[OAP]/[OBP] = β/α = (3/2)/(1/2) = 3."
+      ]
     },
     {
-      "id": "vec_hard_2", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "hard",
+      "id": "vec_hard_2",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "hard",
       "question_text": "If |a|=2, |b|=3, and |a+b|=4, find a·b.",
-      "options": [{"letter":"A","text":"3/2"},{"letter":"B","text":"2"},{"letter":"C","text":"5/2"},{"letter":"D","text":"1"},{"letter":"E","text":"4"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "3/2"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "5/2"
+        },
+        {
+          "letter": "D",
+          "text": "1"
+        },
+        {
+          "letter": "E",
+          "text": "4"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "|a+b|² = |a|²+2a·b+|b|²\n16 = 4+2a·b+9\n2a·b = 3\na·b = **3/2**",
-      "hints": ["|a+b|² = |a|²+2a·b+|b|².", "16 = 4+2(a·b)+9.", "2(a·b)=3 → a·b=3/2."]
+      "hints": [
+        "|a+b|² = |a|²+2a·b+|b|².",
+        "16 = 4+2(a·b)+9.",
+        "2(a·b)=3 → a·b=3/2."
+      ]
     },
     {
-      "id": "vec_hard_3", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "hard",
+      "id": "vec_hard_3",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "hard",
       "question_text": "Points A, B, C have position vectors a, b, c. If G is the centroid, find OG.",
-      "options": [{"letter":"A","text":"(a+b+c)/3"},{"letter":"B","text":"(a+b+c)/2"},{"letter":"C","text":"a+b+c"},{"letter":"D","text":"(a+b)/2"},{"letter":"E","text":"(a+c)/2"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "(a+b+c)/3"
+        },
+        {
+          "letter": "B",
+          "text": "(a+b+c)/2"
+        },
+        {
+          "letter": "C",
+          "text": "a+b+c"
+        },
+        {
+          "letter": "D",
+          "text": "(a+b)/2"
+        },
+        {
+          "letter": "E",
+          "text": "(a+c)/2"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Centroid = average of vertices: OG = **(a+b+c)/3**",
-      "hints": ["Centroid divides each median in 2:1.", "OG = (OA+OB+OC)/3.", "= (a+b+c)/3."]
+      "hints": [
+        "Centroid divides each median in 2:1.",
+        "OG = (OA+OB+OC)/3.",
+        "= (a+b+c)/3."
+      ]
     },
     {
-      "id": "vec_hard_4", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "hard",
+      "id": "vec_hard_4",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "hard",
       "question_text": "In triangle OAB, let C be on OA with OC:CA=1:2, and D be on OB with OD:DB=1:3. If OA=a, OB=b, express CD in terms of a and b.",
-      "options": [{"letter":"A","text":"b/4 - a/3"},{"letter":"B","text":"b/4 + a/3"},{"letter":"C","text":"3a - 4b"},{"letter":"D","text":"a/3 - b/4"},{"letter":"E","text":"a - b"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "b/4 - a/3"
+        },
+        {
+          "letter": "B",
+          "text": "b/4 + a/3"
+        },
+        {
+          "letter": "C",
+          "text": "3a - 4b"
+        },
+        {
+          "letter": "D",
+          "text": "a/3 - b/4"
+        },
+        {
+          "letter": "E",
+          "text": "a - b"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "OC = (1/3)OA = a/3\nOD = (1/4)OB = b/4\n\nCD = OD - OC = b/4 - a/3",
-      "hints": ["C is at 1/3 of OA: OC = a/3.", "D is at 1/4 of OB: OD = b/4.", "CD = OD - OC = b/4 - a/3."]
+      "hints": [
+        "C is at 1/3 of OA: OC = a/3.",
+        "D is at 1/4 of OB: OD = b/4.",
+        "CD = OD - OC = b/4 - a/3."
+      ]
     },
     {
-      "id": "vec_hard_5", "subject": "Basic Mathematics", "topic": "Vectors", "difficulty": "hard",
+      "id": "vec_hard_5",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "hard",
       "question_text": "Find all values of t such that vectors a=(1,t,2) and b=(t,1,-1) are perpendicular.",
-      "options": [{"letter":"A","text":"t = -1"},{"letter":"B","text":"t = 1"},{"letter":"C","text":"t = 2"},{"letter":"D","text":"t = 0"},{"letter":"E","text":"t = -2"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "t = -1"
+        },
+        {
+          "letter": "B",
+          "text": "t = 1"
+        },
+        {
+          "letter": "C",
+          "text": "t = 2"
+        },
+        {
+          "letter": "D",
+          "text": "t = 0"
+        },
+        {
+          "letter": "E",
+          "text": "t = -2"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Perpendicular: a·b = 0\n1(t)+t(1)+2(-1)=0\nt+t-2=0\n2t=2\nt=**1**\n\n*Hmm answer B (t=1). Let me verify: a=(1,1,2), b=(1,1,-1). a·b=1+1-2=0 ✓. Answer: t=1.*",
-      "hints": ["Perpendicular: a·b = 0.", "a·b = t + t - 2 = 2t - 2.", "2t-2=0 → t=1."]
+      "hints": [
+        "Perpendicular: a·b = 0.",
+        "a·b = t + t - 2 = 2t - 2.",
+        "2t-2=0 → t=1."
+      ]
+    },
+    {
+      "id": "vect_extra_22",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "question_text": "Find the magnitude of vector a = (5, 6). (Variant 22)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "25"
+        },
+        {
+          "letter": "B",
+          "text": "3.5"
+        },
+        {
+          "letter": "C",
+          "text": "√7"
+        },
+        {
+          "letter": "D",
+          "text": "7"
+        },
+        {
+          "letter": "E",
+          "text": "5"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "|a| = √(3²+4²) = √(9+16) = √25 = **5**",
+      "hints": [
+        "|a| = √(x²+y²).",
+        "√(9+16) = √25.",
+        "= 5."
+      ]
+    },
+    {
+      "id": "vect_extra_23",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "hard",
+      "question_text": "If a = (8, 13), find the unit vector â. (Variant 23)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(0.8, 0.6)"
+        },
+        {
+          "letter": "B",
+          "text": "(6, 8)"
+        },
+        {
+          "letter": "C",
+          "text": "(0.6, 0.8)"
+        },
+        {
+          "letter": "D",
+          "text": "(1, 1)"
+        },
+        {
+          "letter": "E",
+          "text": "(3, 4)"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "|a| = √(36+64) = 10\nâ = a/|a| = (6/10, 8/10) = **(0.6, 0.8)**",
+      "hints": [
+        "|a| = √(36+64) = 10.",
+        "Divide each component by 10.",
+        "(0.6, 0.8)."
+      ]
+    },
+    {
+      "id": "vect_extra_24",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "easy",
+      "question_text": "Are vectors a=(5,8) and b=(3,4) parallel? (Variant 24)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Only if scaled"
+        },
+        {
+          "letter": "B",
+          "text": "Yes"
+        },
+        {
+          "letter": "C",
+          "text": "Cannot determine"
+        },
+        {
+          "letter": "D",
+          "text": "No"
+        },
+        {
+          "letter": "E",
+          "text": "Perpendicular"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "b = (1/2)a → they are parallel (scalar multiples).\na×b (cross product) = 2(2)-4(1) = 0 → **parallel** ✓",
+      "hints": [
+        "Parallel: one is scalar multiple of other.",
+        "a=2b. Yes, b=(1,2)=(1/2)(2,4)=a/2.",
+        "Parallel."
+      ]
+    },
+    {
+      "id": "vect_extra_25",
+      "subject": "Basic Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "question_text": "Find the angle between a=(6,√5) and b=(4,1). (Variant 25)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "90°"
+        },
+        {
+          "letter": "B",
+          "text": "60°"
+        },
+        {
+          "letter": "C",
+          "text": "30°"
+        },
+        {
+          "letter": "D",
+          "text": "120°"
+        },
+        {
+          "letter": "E",
+          "text": "45°"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "a·b = 1(1)+√3(0) = 1\n|a|=√(1+3)=2, |b|=1\ncosθ = 1/(2×1) = 1/2\nθ = **60°**",
+      "hints": [
+        "cosθ = (a·b)/(|a||b|).",
+        "a·b=1, |a|=2, |b|=1.",
+        "cosθ=1/2 → θ=60°."
+      ]
     }
   ]
 }

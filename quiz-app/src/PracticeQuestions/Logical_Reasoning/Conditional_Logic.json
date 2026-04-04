@@ -15,14 +15,33 @@
       "difficulty": "easy",
       "question_text": "To get a discount, a customer must buy at least 3 items AND have a club card. Mark bought 4 items but forgot his club card. Does he get a discount?",
       "options": [
-        {"letter": "A", "text": "Yes, because he bought more than 3 items."},
-        {"letter": "B", "text": "Yes, but a smaller one."},
-        {"letter": "C", "text": "No, because the conditions are connected by AND."},
-        {"letter": "D", "text": "Maybe, if the manager approves."},
-        {"letter": "E", "text": "No, because he didn't buy enough items either."}
+        {
+          "letter": "A",
+          "text": "Yes, because he bought more than 3 items."
+        },
+        {
+          "letter": "B",
+          "text": "Yes, but a smaller one."
+        },
+        {
+          "letter": "C",
+          "text": "No, because the conditions are connected by AND."
+        },
+        {
+          "letter": "D",
+          "text": "Maybe, if the manager approves."
+        },
+        {
+          "letter": "E",
+          "text": "No, because he didn't buy enough items either."
+        }
       ],
       "correct_answer": "C",
-      "explanation": "The 'AND' logical operator mandates that ALL listed conditions must be met. Since he failed the club card condition, the entire premise evaluates to false."
+      "explanation": "The 'AND' logical operator mandates that ALL listed conditions must be met. Since he failed the club card condition, the entire premise evaluates to false.",
+      "hints": [
+        "The 'AND' logical operator mandates that ALL listed conditions must be met.",
+        "Since he failed the club card condition, the entire premise evaluates to false."
+      ]
     },
     {
       "id": "cl_easy_2",
@@ -31,14 +50,33 @@
       "difficulty": "easy",
       "question_text": "A door opens only if switch A is ON OR switch B is ON. Currently, switch A is OFF and switch B is ON. What is the state of the door?",
       "options": [
-        {"letter": "A", "text": "Open"},
-        {"letter": "B", "text": "Closed"},
-        {"letter": "C", "text": "Jammed"},
-        {"letter": "D", "text": "Opening slowly"},
-        {"letter": "E", "text": "Cannot be determined"}
+        {
+          "letter": "A",
+          "text": "Open"
+        },
+        {
+          "letter": "B",
+          "text": "Closed"
+        },
+        {
+          "letter": "C",
+          "text": "Jammed"
+        },
+        {
+          "letter": "D",
+          "text": "Opening slowly"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "The 'OR' logical operator means only one of the conditions needs to be true. Since Switch B is ON, the condition is met and the door opens."
+      "explanation": "The 'OR' logical operator means only one of the conditions needs to be true. Since Switch B is ON, the condition is met and the door opens.",
+      "hints": [
+        "The 'OR' logical operator means only one of the conditions needs to be true.",
+        "Since Switch B is ON, the condition is met and the door opens."
+      ]
     },
     {
       "id": "cl_medium_1",
@@ -47,14 +85,34 @@
       "difficulty": "medium",
       "question_text": "Rule: To be eligible for the scholarship, a student must have a GPA of 3.5 or higher AND either 50 hours of volunteering OR play a varsity sport. \nSarah has a 3.8 GPA, 20 hours of volunteering, and plays Varsity Tennis. Is she eligible?",
       "options": [
-        {"letter": "A", "text": "No, she needs 30 more volunteer hours."},
-        {"letter": "B", "text": "Yes, she meets the GPA requirement and the sport alternative."},
-        {"letter": "C", "text": "No, tennis is not a sport."},
-        {"letter": "D", "text": "No, she must have all three."},
-        {"letter": "E", "text": "Cannot be determined without knowing her grade level."}
+        {
+          "letter": "A",
+          "text": "No, she needs 30 more volunteer hours."
+        },
+        {
+          "letter": "B",
+          "text": "Yes, she meets the GPA requirement and the sport alternative."
+        },
+        {
+          "letter": "C",
+          "text": "No, tennis is not a sport."
+        },
+        {
+          "letter": "D",
+          "text": "No, she must have all three."
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined without knowing her grade level."
+        }
       ],
       "correct_answer": "B",
-      "explanation": "Evaluate the logic: (GPA \u2265 3.5) AND (Volunteering \u2265 50 OR Varsity Sport). \nSarah: (True) AND (False OR True) \u2192 True AND True \u2192 True. She is eligible."
+      "explanation": "Evaluate the logic: (GPA ≥ 3.5) AND (Volunteering ≥ 50 OR Varsity Sport). \nSarah: (True) AND (False OR True) → True AND True → True. She is eligible.",
+      "hints": [
+        "Evaluate the logic: (GPA ≥ 3.",
+        "5) AND (Volunteering ≥ 50 OR Varsity Sport).",
+        "Sarah: (True) AND (False OR True) → True AND True → True."
+      ]
     },
     {
       "id": "cl_medium_2",
@@ -63,14 +121,34 @@
       "difficulty": "medium",
       "question_text": "Security Protocol: \n- If Threat Level is Red, doors lock automatically. \n- If Threat Level is Orange, doors lock ONLY IF it is past 8 PM. \n- At 9 PM, the Threat Level was raised to Orange. What happened to the doors?",
       "options": [
-        {"letter": "A", "text": "They remained unlocked."},
-        {"letter": "B", "text": "They locked automatically."},
-        {"letter": "C", "text": "They triggered an alarm."},
-        {"letter": "D", "text": "They unlocked."},
-        {"letter": "E", "text": "They locked then unlocked."}
+        {
+          "letter": "A",
+          "text": "They remained unlocked."
+        },
+        {
+          "letter": "B",
+          "text": "They locked automatically."
+        },
+        {
+          "letter": "C",
+          "text": "They triggered an alarm."
+        },
+        {
+          "letter": "D",
+          "text": "They unlocked."
+        },
+        {
+          "letter": "E",
+          "text": "They locked then unlocked."
+        }
       ],
       "correct_answer": "B",
-      "explanation": "Check Orange conditions: Level is Orange AND Time > 8 PM. Time is 9 PM, so condition (Time > 8 PM) is True. Since both are satisfied, the doors lock."
+      "explanation": "Check Orange conditions: Level is Orange AND Time > 8 PM. Time is 9 PM, so condition (Time > 8 PM) is True. Since both are satisfied, the doors lock.",
+      "hints": [
+        "Check Orange conditions: Level is Orange AND Time > 8 PM.",
+        "Time is 9 PM, so condition (Time > 8 PM) is True.",
+        "Since both are satisfied, the doors lock."
+      ]
     },
     {
       "id": "cl_medium_3",
@@ -79,14 +157,34 @@
       "difficulty": "medium",
       "question_text": "Job requirements: Applicant must have a Degree AND (3 years experience OR pass an Entrance Exam). An applicant with no degree but 10 years of experience applies. Do they get the job?",
       "options": [
-        {"letter": "A", "text": "Yes, their experience is high enough."},
-        {"letter": "B", "text": "Yes, they can just pass the Entrance Exam."},
-        {"letter": "C", "text": "No, the Degree is an absolute mandatory condition."},
-        {"letter": "D", "text": "No, they failed both the experience and exam conditions."},
-        {"letter": "E", "text": "Yes, 10 years experience overrides the degree."}
+        {
+          "letter": "A",
+          "text": "Yes, their experience is high enough."
+        },
+        {
+          "letter": "B",
+          "text": "Yes, they can just pass the Entrance Exam."
+        },
+        {
+          "letter": "C",
+          "text": "No, the Degree is an absolute mandatory condition."
+        },
+        {
+          "letter": "D",
+          "text": "No, they failed both the experience and exam conditions."
+        },
+        {
+          "letter": "E",
+          "text": "Yes, 10 years experience overrides the degree."
+        }
       ],
       "correct_answer": "C",
-      "explanation": "Logic formula: Degree AND (Exp \u2265 3 OR Exam). The applicant has False AND (True OR False) \u2192 False AND True \u2192 False. A degree is non-negotiable."
+      "explanation": "Logic formula: Degree AND (Exp ≥ 3 OR Exam). The applicant has False AND (True OR False) → False AND True → False. A degree is non-negotiable.",
+      "hints": [
+        "Logic formula: Degree AND (Exp ≥ 3 OR Exam).",
+        "The applicant has False AND (True OR False) → False AND True → False.",
+        "A degree is non-negotiable."
+      ]
     },
     {
       "id": "cl_hard_1",
@@ -95,14 +193,34 @@
       "difficulty": "hard",
       "question_text": "System Rules: \n1) If Module A activates, Module B must shut down. \n2) If Module C activates, Module B must activate. \n3) Module D activates only if both A and C are active. \nWhat happens if someone tries to activate Module D?",
       "options": [
-        {"letter": "A", "text": "Module D activates successfully."},
-        {"letter": "B", "text": "It causes a system crash because A and C cannot be active at the same time."},
-        {"letter": "C", "text": "Module B activates and forces A to shut down."},
-        {"letter": "D", "text": "Module A fails to start."},
-        {"letter": "E", "text": "Module B flickers on and off."}
+        {
+          "letter": "A",
+          "text": "Module D activates successfully."
+        },
+        {
+          "letter": "B",
+          "text": "It causes a system crash because A and C cannot be active at the same time."
+        },
+        {
+          "letter": "C",
+          "text": "Module B activates and forces A to shut down."
+        },
+        {
+          "letter": "D",
+          "text": "Module A fails to start."
+        },
+        {
+          "letter": "E",
+          "text": "Module B flickers on and off."
+        }
       ],
       "correct_answer": "B",
-      "explanation": "To activate D, both A and C must activate. If A is active, B = OFF. If C is active, B = ON. This creates an unresolvable logic paradox (B must be both ON and OFF simultaneously). Hence, A and C cannot be active together, making D impossible to activate."
+      "explanation": "To activate D, both A and C must activate. If A is active, B = OFF. If C is active, B = ON. This creates an unresolvable logic paradox (B must be both ON and OFF simultaneously). Hence, A and C cannot be active together, making D impossible to activate.",
+      "hints": [
+        "To activate D, both A and C must activate.",
+        "If A is active, B = OFF.",
+        "If C is active, B = ON."
+      ]
     },
     {
       "id": "cl_hard_2",
@@ -111,14 +229,34 @@
       "difficulty": "hard",
       "question_text": "Loan Approval Logic: \n- Approve if (Credit > 700 AND Income > $50k). \n- If Credit is between 600-700, Approve ONLY IF Income > $80k AND no existing debt. \n- Automatic Denial if existing debt is > $10k, regardless of anything else. \nJohn: Credit 650, Income $90k, Existing Debt $5k. Is he approved?",
       "options": [
-        {"letter": "A", "text": "Yes, his income is high enough to bypass the credit check."},
-        {"letter": "B", "text": "No, because his debt is under $10k."},
-        {"letter": "C", "text": "No, because he has existing debt and his credit is under 700."},
-        {"letter": "D", "text": "Yes, he meets the secondary condition."},
-        {"letter": "E", "text": "No, his credit is too low."}
+        {
+          "letter": "A",
+          "text": "Yes, his income is high enough to bypass the credit check."
+        },
+        {
+          "letter": "B",
+          "text": "No, because his debt is under $10k."
+        },
+        {
+          "letter": "C",
+          "text": "No, because he has existing debt and his credit is under 700."
+        },
+        {
+          "letter": "D",
+          "text": "Yes, he meets the secondary condition."
+        },
+        {
+          "letter": "E",
+          "text": "No, his credit is too low."
+        }
       ],
       "correct_answer": "C",
-      "explanation": "John falls into category 2 (Credit 650). Therefore, he needs Income > $80k (True) AND NO existing debt (False, he has $5k). Therefore, he is denied. The automatic denial rule for >$10k doesn't save him; it's a separate fast-fail condition."
+      "explanation": "John falls into category 2 (Credit 650). Therefore, he needs Income > $80k (True) AND NO existing debt (False, he has $5k). Therefore, he is denied. The automatic denial rule for >$10k doesn't save him; it's a separate fast-fail condition.",
+      "hints": [
+        "John falls into category 2 (Credit 650).",
+        "Therefore, he needs Income > $80k (True) AND NO existing debt (False, he has $5k).",
+        "Therefore, he is denied."
+      ]
     },
     {
       "id": "cl_hard_3",
@@ -127,14 +265,34 @@
       "difficulty": "hard",
       "question_text": "A game has the following leveling rules: \n- To reach Level 2, you must collect 100 gold. \n- To reach Level 3, you must be Level 2 AND defeat the Boss OR pay 500 gold. \n- Player X has 600 gold and has never fought a Boss. Can they reach Level 3?",
       "options": [
-        {"letter": "A", "text": "Yes, they can pay 100 to get to Level 2, then 500 to get to Level 3."},
-        {"letter": "B", "text": "No, they must defeat the boss no matter what."},
-        {"letter": "C", "text": "No, they don't have enough gold."},
-        {"letter": "D", "text": "Yes, they skip Level 2 entirely."},
-        {"letter": "E", "text": "Maybe, if the boss is easy."}
+        {
+          "letter": "A",
+          "text": "Yes, they can pay 100 to get to Level 2, then 500 to get to Level 3."
+        },
+        {
+          "letter": "B",
+          "text": "No, they must defeat the boss no matter what."
+        },
+        {
+          "letter": "C",
+          "text": "No, they don't have enough gold."
+        },
+        {
+          "letter": "D",
+          "text": "Yes, they skip Level 2 entirely."
+        },
+        {
+          "letter": "E",
+          "text": "Maybe, if the boss is easy."
+        }
       ],
       "correct_answer": "A",
-      "explanation": "The player spends 100 gold to reach Level 2. They now have 500 gold left. To reach Level 3, the requirement is (Level 2) AND (Defeat Boss OR Pay 500). They meet 'Level 2', and they meet the 'Pay 500' alternative. So they successfully reach Level 3."
+      "explanation": "The player spends 100 gold to reach Level 2. They now have 500 gold left. To reach Level 3, the requirement is (Level 2) AND (Defeat Boss OR Pay 500). They meet 'Level 2', and they meet the 'Pay 500' alternative. So they successfully reach Level 3.",
+      "hints": [
+        "The player spends 100 gold to reach Level 2.",
+        "They now have 500 gold left.",
+        "To reach Level 3, the requirement is (Level 2) AND (Defeat Boss OR Pay 500)."
+      ]
     },
     {
       "id": "cl_hard_4",
@@ -143,14 +301,34 @@
       "difficulty": "hard",
       "question_text": "Promotion Rules: \n- Track A: 5 years tenure AND (Sales Target Met OR Management Training). \n- Track B: 2 years tenure AND Sales Target Met AND Management Training. \n- Exception: If an employee speaks two languages, reduce tenure requirements by 3 years. \nLucy speaks English and Spanish, has 0 years tenure, met her Sales Target, but has no Management Training. Which track can she be promoted on?",
       "options": [
-        {"letter": "A", "text": "Track A only"},
-        {"letter": "B", "text": "Track B only"},
-        {"letter": "C", "text": "Both Track A and Track B"},
-        {"letter": "D", "text": "Neither track"},
-        {"letter": "E", "text": "She requires a special vote."}
+        {
+          "letter": "A",
+          "text": "Track A only"
+        },
+        {
+          "letter": "B",
+          "text": "Track B only"
+        },
+        {
+          "letter": "C",
+          "text": "Both Track A and Track B"
+        },
+        {
+          "letter": "D",
+          "text": "Neither track"
+        },
+        {
+          "letter": "E",
+          "text": "She requires a special vote."
+        }
       ],
       "correct_answer": "D",
-      "explanation": "Lucy is bilingual, so tenure requirements drop by 3 years. Track A now requires 2 years tenure. Track B now requires 0 years tenure (originally 2). \nLucy has 0 years tenure. So she fails Track A immediately. \nFor Track B, she meets the 0 years tenure requirement, AND met her Sales Target, but she does NOT have Management Training. Track B uses AND for all three. So she fails Track B as well."
+      "explanation": "Lucy is bilingual, so tenure requirements drop by 3 years. Track A now requires 2 years tenure. Track B now requires 0 years tenure (originally 2). \nLucy has 0 years tenure. So she fails Track A immediately. \nFor Track B, she meets the 0 years tenure requirement, AND met her Sales Target, but she does NOT have Management Training. Track B uses AND for all three. So she fails Track B as well.",
+      "hints": [
+        "Lucy is bilingual, so tenure requirements drop by 3 years.",
+        "Track A now requires 2 years tenure.",
+        "Track B now requires 0 years tenure (originally 2)."
+      ]
     },
     {
       "id": "cl_hard_5",
@@ -159,14 +337,580 @@
       "difficulty": "hard",
       "question_text": "Event Registration: \n- Rule 1: Attendees must be 18+ UNLESS accompanied by a parent. \n- Rule 2: All attendees must pay a $10 fee. \n- Rule 3: If an attendee is a student, the fee is waived (requires Student ID). \n- Rule 4: Parents accompanying minors must pay double the fee. \nAlex is 16, brought his mom (not a student), and has his Student ID. His mom forgot her wallet. How much must they pay total to enter?",
       "options": [
-        {"letter": "A", "text": "$10"},
-        {"letter": "B", "text": "$0"},
-        {"letter": "C", "text": "$20"},
-        {"letter": "D", "text": "$30"},
-        {"letter": "E", "text": "They cannot enter because the mom cannot pay."}
+        {
+          "letter": "A",
+          "text": "$10"
+        },
+        {
+          "letter": "B",
+          "text": "$0"
+        },
+        {
+          "letter": "C",
+          "text": "$20"
+        },
+        {
+          "letter": "D",
+          "text": "$30"
+        },
+        {
+          "letter": "E",
+          "text": "They cannot enter because the mom cannot pay."
+        }
       ],
       "correct_answer": "C",
-      "explanation": "Alex is 16. Rule 1: Needs parent. Mom is present. \nAlex's Fee: He is a student with an ID (Rule 3), so his fee is waived ($0). \nMom's Fee: She is a parent accompanying a minor (Rule 4), so she must pay double the base fee of $10. 2 * 10 = $20. \nTotal cost = $0 + $20 = $20. The prompt states she forgot her wallet, but asks 'How much must they pay', not 'Can they enter'. The required payment is $20."
+      "explanation": "Alex is 16. Rule 1: Needs parent. Mom is present. \nAlex's Fee: He is a student with an ID (Rule 3), so his fee is waived ($0). \nMom's Fee: She is a parent accompanying a minor (Rule 4), so she must pay double the base fee of $10. 2 * 10 = $20. \nTotal cost = $0 + $20 = $20. The prompt states she forgot her wallet, but asks 'How much must they pay', not 'Can they enter'. The required payment is $20.",
+      "hints": [
+        "Alex is 16.",
+        "Rule 1: Needs parent.",
+        "Mom is present."
+      ]
+    },
+    {
+      "id": "cond_extra_11",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "hard",
+      "question_text": "Event Registration: \n- Rule 5: Attendees must be 20+ UNLESS accompanied by a parent. \n- Rule 7: All attendees must pay a $11 fee. \n- Rule 8: If an attendee is a student, the fee is waived (requires Student ID). \n- Rule 9: Parents accompanying minors must pay double the fee. \nAlex is 18, brought his mom (not a student), and has his Student ID. His mom forgot her wallet. How much must they pay total to enter? (Variant 11)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "$20"
+        },
+        {
+          "letter": "B",
+          "text": "They cannot enter because the mom cannot pay."
+        },
+        {
+          "letter": "C",
+          "text": "$10"
+        },
+        {
+          "letter": "D",
+          "text": "$30"
+        },
+        {
+          "letter": "E",
+          "text": "$0"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Alex is 16. Rule 1: Needs parent. Mom is present. \nAlex's Fee: He is a student with an ID (Rule 3), so his fee is waived ($0). \nMom's Fee: She is a parent accompanying a minor (Rule 4), so she must pay double the base fee of $10. 2 * 10 = $20. \nTotal cost = $0 + $20 = $20. The prompt states she forgot her wallet, but asks 'How much must they pay', not 'Can they enter'. The required payment is $20.",
+      "hints": [
+        "Alex is 16.",
+        "Rule 1: Needs parent.",
+        "Mom is present."
+      ]
+    },
+    {
+      "id": "cond_extra_12",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "easy",
+      "question_text": "Job requirements: Applicant must have a Degree AND (7 years experience OR pass an Entrance Exam). An applicant with no degree but 12 years of experience applies. Do they get the job? (Variant 12)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No, the Degree is an absolute mandatory condition."
+        },
+        {
+          "letter": "B",
+          "text": "Yes, 10 years experience overrides the degree."
+        },
+        {
+          "letter": "C",
+          "text": "Yes, they can just pass the Entrance Exam."
+        },
+        {
+          "letter": "D",
+          "text": "No, they failed both the experience and exam conditions."
+        },
+        {
+          "letter": "E",
+          "text": "Yes, their experience is high enough."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Logic formula: Degree AND (Exp ≥ 3 OR Exam). The applicant has False AND (True OR False) → False AND True → False. A degree is non-negotiable.",
+      "hints": [
+        "Logic formula: Degree AND (Exp ≥ 3 OR Exam).",
+        "The applicant has False AND (True OR False) → False AND True → False.",
+        "A degree is non-negotiable."
+      ]
+    },
+    {
+      "id": "cond_extra_13",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "medium",
+      "question_text": "Promotion Rules: \n- Track A: 8 years tenure AND (Sales Target Met OR Management Training). \n- Track B: 4 years tenure AND Sales Target Met AND Management Training. \n- Exception: If an employee speaks two languages, reduce tenure requirements by 7 years. \nLucy speaks English and Spanish, has 5 years tenure, met her Sales Target, but has no Management Training. Which track can she be promoted on? (Variant 13)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "She requires a special vote."
+        },
+        {
+          "letter": "B",
+          "text": "Both Track A and Track B"
+        },
+        {
+          "letter": "C",
+          "text": "Track A only"
+        },
+        {
+          "letter": "D",
+          "text": "Track B only"
+        },
+        {
+          "letter": "E",
+          "text": "Neither track"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Lucy is bilingual, so tenure requirements drop by 3 years. Track A now requires 2 years tenure. Track B now requires 0 years tenure (originally 2). \nLucy has 0 years tenure. So she fails Track A immediately. \nFor Track B, she meets the 0 years tenure requirement, AND met her Sales Target, but she does NOT have Management Training. Track B uses AND for all three. So she fails Track B as well.",
+      "hints": [
+        "Lucy is bilingual, so tenure requirements drop by 3 years.",
+        "Track A now requires 2 years tenure.",
+        "Track B now requires 0 years tenure (originally 2)."
+      ]
+    },
+    {
+      "id": "cond_extra_14",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "hard",
+      "question_text": "A door opens only if switch A is ON OR switch B is ON. Currently, switch A is OFF and switch B is ON. What is the state of the door? (Variant 14)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Opening slowly"
+        },
+        {
+          "letter": "B",
+          "text": "Closed"
+        },
+        {
+          "letter": "C",
+          "text": "Open"
+        },
+        {
+          "letter": "D",
+          "text": "Cannot be determined"
+        },
+        {
+          "letter": "E",
+          "text": "Jammed"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The 'OR' logical operator means only one of the conditions needs to be true. Since Switch B is ON, the condition is met and the door opens.",
+      "hints": [
+        "The 'OR' logical operator means only one of the conditions needs to be true.",
+        "Since Switch B is ON, the condition is met and the door opens."
+      ]
+    },
+    {
+      "id": "cond_extra_15",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "easy",
+      "question_text": "Job requirements: Applicant must have a Degree AND (8 years experience OR pass an Entrance Exam). An applicant with no degree but 14 years of experience applies. Do they get the job? (Variant 15)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes, 10 years experience overrides the degree."
+        },
+        {
+          "letter": "B",
+          "text": "No, they failed both the experience and exam conditions."
+        },
+        {
+          "letter": "C",
+          "text": "No, the Degree is an absolute mandatory condition."
+        },
+        {
+          "letter": "D",
+          "text": "Yes, they can just pass the Entrance Exam."
+        },
+        {
+          "letter": "E",
+          "text": "Yes, their experience is high enough."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Logic formula: Degree AND (Exp ≥ 3 OR Exam). The applicant has False AND (True OR False) → False AND True → False. A degree is non-negotiable.",
+      "hints": [
+        "Logic formula: Degree AND (Exp ≥ 3 OR Exam).",
+        "The applicant has False AND (True OR False) → False AND True → False.",
+        "A degree is non-negotiable."
+      ]
+    },
+    {
+      "id": "cond_extra_16",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "medium",
+      "question_text": "Security Protocol: \n- If Threat Level is Red, doors lock automatically. \n- If Threat Level is Orange, doors lock ONLY IF it is past 9 PM. \n- At 11 PM, the Threat Level was raised to Orange. What happened to the doors? (Variant 16)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They remained unlocked."
+        },
+        {
+          "letter": "B",
+          "text": "They locked automatically."
+        },
+        {
+          "letter": "C",
+          "text": "They unlocked."
+        },
+        {
+          "letter": "D",
+          "text": "They locked then unlocked."
+        },
+        {
+          "letter": "E",
+          "text": "They triggered an alarm."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Check Orange conditions: Level is Orange AND Time > 8 PM. Time is 9 PM, so condition (Time > 8 PM) is True. Since both are satisfied, the doors lock.",
+      "hints": [
+        "Check Orange conditions: Level is Orange AND Time > 8 PM.",
+        "Time is 9 PM, so condition (Time > 8 PM) is True.",
+        "Since both are satisfied, the doors lock."
+      ]
+    },
+    {
+      "id": "cond_extra_17",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "hard",
+      "question_text": "A game has the following leveling rules: \n- To reach Level 6, you must collect 102 gold. \n- To reach Level 4, you must be Level 7 AND defeat the Boss OR pay 502 gold. \n- Player X has 604 gold and has never fought a Boss. Can they reach Level 7? (Variant 17)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No, they must defeat the boss no matter what."
+        },
+        {
+          "letter": "B",
+          "text": "Yes, they skip Level 2 entirely."
+        },
+        {
+          "letter": "C",
+          "text": "Yes, they can pay 100 to get to Level 2, then 500 to get to Level 3."
+        },
+        {
+          "letter": "D",
+          "text": "Maybe, if the boss is easy."
+        },
+        {
+          "letter": "E",
+          "text": "No, they don't have enough gold."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The player spends 100 gold to reach Level 2. They now have 500 gold left. To reach Level 3, the requirement is (Level 2) AND (Defeat Boss OR Pay 500). They meet 'Level 2', and they meet the 'Pay 500' alternative. So they successfully reach Level 3.",
+      "hints": [
+        "The player spends 100 gold to reach Level 2.",
+        "They now have 500 gold left.",
+        "To reach Level 3, the requirement is (Level 2) AND (Defeat Boss OR Pay 500)."
+      ]
+    },
+    {
+      "id": "cond_extra_18",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "easy",
+      "question_text": "A door opens only if switch A is ON OR switch B is ON. Currently, switch A is OFF and switch B is ON. What is the state of the door? (Variant 18)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Opening slowly"
+        },
+        {
+          "letter": "B",
+          "text": "Closed"
+        },
+        {
+          "letter": "C",
+          "text": "Cannot be determined"
+        },
+        {
+          "letter": "D",
+          "text": "Open"
+        },
+        {
+          "letter": "E",
+          "text": "Jammed"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "The 'OR' logical operator means only one of the conditions needs to be true. Since Switch B is ON, the condition is met and the door opens.",
+      "hints": [
+        "The 'OR' logical operator means only one of the conditions needs to be true.",
+        "Since Switch B is ON, the condition is met and the door opens."
+      ]
+    },
+    {
+      "id": "cond_extra_19",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "medium",
+      "question_text": "A door opens only if switch A is ON OR switch B is ON. Currently, switch A is OFF and switch B is ON. What is the state of the door? (Variant 19)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Closed"
+        },
+        {
+          "letter": "B",
+          "text": "Opening slowly"
+        },
+        {
+          "letter": "C",
+          "text": "Open"
+        },
+        {
+          "letter": "D",
+          "text": "Jammed"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The 'OR' logical operator means only one of the conditions needs to be true. Since Switch B is ON, the condition is met and the door opens.",
+      "hints": [
+        "The 'OR' logical operator means only one of the conditions needs to be true.",
+        "Since Switch B is ON, the condition is met and the door opens."
+      ]
+    },
+    {
+      "id": "cond_extra_20",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "hard",
+      "question_text": "Security Protocol: \n- If Threat Level is Red, doors lock automatically. \n- If Threat Level is Orange, doors lock ONLY IF it is past 11 PM. \n- At 13 PM, the Threat Level was raised to Orange. What happened to the doors? (Variant 20)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They remained unlocked."
+        },
+        {
+          "letter": "B",
+          "text": "They unlocked."
+        },
+        {
+          "letter": "C",
+          "text": "They locked then unlocked."
+        },
+        {
+          "letter": "D",
+          "text": "They locked automatically."
+        },
+        {
+          "letter": "E",
+          "text": "They triggered an alarm."
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Check Orange conditions: Level is Orange AND Time > 8 PM. Time is 9 PM, so condition (Time > 8 PM) is True. Since both are satisfied, the doors lock.",
+      "hints": [
+        "Check Orange conditions: Level is Orange AND Time > 8 PM.",
+        "Time is 9 PM, so condition (Time > 8 PM) is True.",
+        "Since both are satisfied, the doors lock."
+      ]
+    },
+    {
+      "id": "cond_extra_21",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "easy",
+      "question_text": "A door opens only if switch A is ON OR switch B is ON. Currently, switch A is OFF and switch B is ON. What is the state of the door? (Variant 21)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Opening slowly"
+        },
+        {
+          "letter": "B",
+          "text": "Jammed"
+        },
+        {
+          "letter": "C",
+          "text": "Open"
+        },
+        {
+          "letter": "D",
+          "text": "Closed"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The 'OR' logical operator means only one of the conditions needs to be true. Since Switch B is ON, the condition is met and the door opens.",
+      "hints": [
+        "The 'OR' logical operator means only one of the conditions needs to be true.",
+        "Since Switch B is ON, the condition is met and the door opens."
+      ]
+    },
+    {
+      "id": "cond_extra_22",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "medium",
+      "question_text": "A door opens only if switch A is ON OR switch B is ON. Currently, switch A is OFF and switch B is ON. What is the state of the door? (Variant 22)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jammed"
+        },
+        {
+          "letter": "B",
+          "text": "Open"
+        },
+        {
+          "letter": "C",
+          "text": "Cannot be determined"
+        },
+        {
+          "letter": "D",
+          "text": "Opening slowly"
+        },
+        {
+          "letter": "E",
+          "text": "Closed"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The 'OR' logical operator means only one of the conditions needs to be true. Since Switch B is ON, the condition is met and the door opens.",
+      "hints": [
+        "The 'OR' logical operator means only one of the conditions needs to be true.",
+        "Since Switch B is ON, the condition is met and the door opens."
+      ]
+    },
+    {
+      "id": "cond_extra_23",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "hard",
+      "question_text": "Event Registration: \n- Rule 5: Attendees must be 20+ UNLESS accompanied by a parent. \n- Rule 3: All attendees must pay a $12 fee. \n- Rule 7: If an attendee is a student, the fee is waived (requires Student ID). \n- Rule 7: Parents accompanying minors must pay double the fee. \nAlex is 20, brought his mom (not a student), and has his Student ID. His mom forgot her wallet. How much must they pay total to enter? (Variant 23)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "$0"
+        },
+        {
+          "letter": "B",
+          "text": "$10"
+        },
+        {
+          "letter": "C",
+          "text": "$20"
+        },
+        {
+          "letter": "D",
+          "text": "$30"
+        },
+        {
+          "letter": "E",
+          "text": "They cannot enter because the mom cannot pay."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Alex is 16. Rule 1: Needs parent. Mom is present. \nAlex's Fee: He is a student with an ID (Rule 3), so his fee is waived ($0). \nMom's Fee: She is a parent accompanying a minor (Rule 4), so she must pay double the base fee of $10. 2 * 10 = $20. \nTotal cost = $0 + $20 = $20. The prompt states she forgot her wallet, but asks 'How much must they pay', not 'Can they enter'. The required payment is $20.",
+      "hints": [
+        "Alex is 16.",
+        "Rule 1: Needs parent.",
+        "Mom is present."
+      ]
+    },
+    {
+      "id": "cond_extra_24",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "easy",
+      "question_text": "Security Protocol: \n- If Threat Level is Red, doors lock automatically. \n- If Threat Level is Orange, doors lock ONLY IF it is past 10 PM. \n- At 14 PM, the Threat Level was raised to Orange. What happened to the doors? (Variant 24)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They triggered an alarm."
+        },
+        {
+          "letter": "B",
+          "text": "They remained unlocked."
+        },
+        {
+          "letter": "C",
+          "text": "They locked automatically."
+        },
+        {
+          "letter": "D",
+          "text": "They locked then unlocked."
+        },
+        {
+          "letter": "E",
+          "text": "They unlocked."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Check Orange conditions: Level is Orange AND Time > 8 PM. Time is 9 PM, so condition (Time > 8 PM) is True. Since both are satisfied, the doors lock.",
+      "hints": [
+        "Check Orange conditions: Level is Orange AND Time > 8 PM.",
+        "Time is 9 PM, so condition (Time > 8 PM) is True.",
+        "Since both are satisfied, the doors lock."
+      ]
+    },
+    {
+      "id": "cond_extra_25",
+      "subject": "Logical Reasoning",
+      "topic": "Conditional Logic",
+      "difficulty": "medium",
+      "question_text": "Security Protocol: \n- If Threat Level is Red, doors lock automatically. \n- If Threat Level is Orange, doors lock ONLY IF it is past 13 PM. \n- At 14 PM, the Threat Level was raised to Orange. What happened to the doors? (Variant 25)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They triggered an alarm."
+        },
+        {
+          "letter": "B",
+          "text": "They unlocked."
+        },
+        {
+          "letter": "C",
+          "text": "They locked then unlocked."
+        },
+        {
+          "letter": "D",
+          "text": "They remained unlocked."
+        },
+        {
+          "letter": "E",
+          "text": "They locked automatically."
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Check Orange conditions: Level is Orange AND Time > 8 PM. Time is 9 PM, so condition (Time > 8 PM) is True. Since both are satisfied, the doors lock.",
+      "hints": [
+        "Check Orange conditions: Level is Orange AND Time > 8 PM.",
+        "Time is 9 PM, so condition (Time > 8 PM) is True.",
+        "Since both are satisfied, the doors lock."
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "title": "Example 1: Basic constraints",
+      "question": "A simplified example of a Conditional Logic problem where A is before B.",
+      "solution": [
+        "Step 1: Identify the absolute rules.",
+        "Step 2: Eliminate options violating these rules.",
+        "Step 3: Test remaining options."
+      ]
     }
   ]
 }

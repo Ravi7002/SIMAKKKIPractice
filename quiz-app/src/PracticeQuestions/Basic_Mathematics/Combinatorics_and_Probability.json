@@ -3,13 +3,34 @@
   "topic": "Combinatorics and Probability",
   "introduction": "Combinatorics counts arrangements and selections. Permutations count ordered arrangements; combinations count unordered selections. Probability = favorable outcomes / total outcomes. Mastering when to multiply (AND) vs add (OR) probabilities is essential.",
   "key_formulas": [
-    {"name": "Permutation", "formula": "P(n,r) = \\frac{n!}{(n-r)!}"},
-    {"name": "Combination", "formula": "C(n,r) = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}"},
-    {"name": "Probability", "formula": "P(A) = \\frac{\\text{favorable}}{\\text{total}}"},
-    {"name": "Complement", "formula": "P(A^c) = 1 - P(A)"},
-    {"name": "Addition Rule", "formula": "P(A\\cup B) = P(A)+P(B)-P(A\\cap B)"},
-    {"name": "Multiplication Rule", "formula": "P(A\\cap B) = P(A) \\cdot P(B) \\text{ (if independent)}"},
-    {"name": "Stars and Bars", "formula": "C(n+k-1, k-1) \\text{ ways to put n identical items into k bins}"}
+    {
+      "name": "Permutation",
+      "formula": "P(n,r) = \\frac{n!}{(n-r)!}"
+    },
+    {
+      "name": "Combination",
+      "formula": "C(n,r) = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}"
+    },
+    {
+      "name": "Probability",
+      "formula": "P(A) = \\frac{\\text{favorable}}{\\text{total}}"
+    },
+    {
+      "name": "Complement",
+      "formula": "P(A^c) = 1 - P(A)"
+    },
+    {
+      "name": "Addition Rule",
+      "formula": "P(A\\cup B) = P(A)+P(B)-P(A\\cap B)"
+    },
+    {
+      "name": "Multiplication Rule",
+      "formula": "P(A\\cap B) = P(A) \\cdot P(B) \\text{ (if independent)}"
+    },
+    {
+      "name": "Stars and Bars",
+      "formula": "C(n+k-1, k-1) \\text{ ways to put n identical items into k bins}"
+    }
   ],
   "tips_and_tricks": [
     "Permutation: ORDER matters (passwords, rankings). Combination: order doesn't matter (committees, groups).",
@@ -43,172 +64,904 @@
   ],
   "questions": [
     {
-      "id": "cp_easy_1", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "easy",
+      "id": "cp_easy_1",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "easy",
       "question_text": "How many ways can you arrange the letters in 'MATH'?",
-      "options": [{"letter":"A","text":"24"},{"letter":"B","text":"12"},{"letter":"C","text":"4"},{"letter":"D","text":"16"},{"letter":"E","text":"6"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "24"
+        },
+        {
+          "letter": "B",
+          "text": "12"
+        },
+        {
+          "letter": "C",
+          "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "16"
+        },
+        {
+          "letter": "E",
+          "text": "6"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "4 distinct letters → 4! = 4×3×2×1 = **24**",
-      "hints": ["All letters are distinct → permutation.", "Number of arrangements = n! = 4!", "4! = 24."]
+      "hints": [
+        "All letters are distinct → permutation.",
+        "Number of arrangements = n! = 4!",
+        "4! = 24."
+      ]
     },
     {
-      "id": "cp_easy_2", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "easy",
+      "id": "cp_easy_2",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "easy",
       "question_text": "How many ways can you choose 3 students from a class of 10 for a committee?",
-      "options": [{"letter":"A","text":"120"},{"letter":"B","text":"720"},{"letter":"C","text":"30"},{"letter":"D","text":"60"},{"letter":"E","text":"90"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "120"
+        },
+        {
+          "letter": "B",
+          "text": "720"
+        },
+        {
+          "letter": "C",
+          "text": "30"
+        },
+        {
+          "letter": "D",
+          "text": "60"
+        },
+        {
+          "letter": "E",
+          "text": "90"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Order doesn't matter → Combination: C(10,3) = 10!/(3!×7!) = (10×9×8)/(3×2×1) = **120**",
-      "hints": ["Committee: order doesn't matter → combination.", "C(10,3) = 10×9×8 / (3×2×1).", "= 720/6 = 120."]
+      "hints": [
+        "Committee: order doesn't matter → combination.",
+        "C(10,3) = 10×9×8 / (3×2×1).",
+        "= 720/6 = 120."
+      ]
     },
     {
-      "id": "cp_easy_3", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "easy",
+      "id": "cp_easy_3",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "easy",
       "question_text": "A bag has 5 red and 3 blue balls. One ball is drawn. P(red)?",
-      "options": [{"letter":"A","text":"5/8"},{"letter":"B","text":"3/8"},{"letter":"C","text":"5/3"},{"letter":"D","text":"1/2"},{"letter":"E","text":"3/5"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "5/8"
+        },
+        {
+          "letter": "B",
+          "text": "3/8"
+        },
+        {
+          "letter": "C",
+          "text": "5/3"
+        },
+        {
+          "letter": "D",
+          "text": "1/2"
+        },
+        {
+          "letter": "E",
+          "text": "3/5"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "P(red) = 5/(5+3) = 5/8",
-      "hints": ["Total balls = 5+3=8.", "P(red) = favorable/total = 5/8.", "Answer: 5/8."]
+      "hints": [
+        "Total balls = 5+3=8.",
+        "P(red) = favorable/total = 5/8.",
+        "Answer: 5/8."
+      ]
     },
     {
-      "id": "cp_easy_4", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "easy",
+      "id": "cp_easy_4",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "easy",
       "question_text": "A die is rolled once. P(even number)?",
-      "options": [{"letter":"A","text":"1/2"},{"letter":"B","text":"1/3"},{"letter":"C","text":"2/3"},{"letter":"D","text":"1/6"},{"letter":"E","text":"3/4"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "1/2"
+        },
+        {
+          "letter": "B",
+          "text": "1/3"
+        },
+        {
+          "letter": "C",
+          "text": "2/3"
+        },
+        {
+          "letter": "D",
+          "text": "1/6"
+        },
+        {
+          "letter": "E",
+          "text": "3/4"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Even numbers: {2,4,6} = 3 outcomes\nTotal: 6\nP(even) = 3/6 = **1/2**",
-      "hints": ["Even numbers on a die: 2, 4, 6.", "P = favorable/total = 3/6.", "= 1/2."]
+      "hints": [
+        "Even numbers on a die: 2, 4, 6.",
+        "P = favorable/total = 3/6.",
+        "= 1/2."
+      ]
     },
     {
-      "id": "cp_easy_5", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "easy",
+      "id": "cp_easy_5",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "easy",
       "question_text": "How many 3-digit numbers can be formed from {1,2,3,4,5} without repetition?",
-      "options": [{"letter":"A","text":"60"},{"letter":"B","text":"120"},{"letter":"C","text":"125"},{"letter":"D","text":"30"},{"letter":"E","text":"24"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "60"
+        },
+        {
+          "letter": "B",
+          "text": "120"
+        },
+        {
+          "letter": "C",
+          "text": "125"
+        },
+        {
+          "letter": "D",
+          "text": "30"
+        },
+        {
+          "letter": "E",
+          "text": "24"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "P(5,3) = 5!/(5-3)! = 5×4×3 = **60**",
-      "hints": ["Order matters (thousands, hundreds, units positions) → permutation.", "P(5,3) = 5×4×3.", "= 60."]
+      "hints": [
+        "Order matters (thousands, hundreds, units positions) → permutation.",
+        "P(5,3) = 5×4×3.",
+        "= 60."
+      ]
     },
     {
-      "id": "cp_easy_6", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "easy",
+      "id": "cp_easy_6",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "easy",
       "question_text": "P(A) = 0.4, P(B) = 0.5, A and B independent. Find P(A∩B).",
-      "options": [{"letter":"A","text":"0.2"},{"letter":"B","text":"0.9"},{"letter":"C","text":"0.3"},{"letter":"D","text":"0.5"},{"letter":"E","text":"0.1"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "0.2"
+        },
+        {
+          "letter": "B",
+          "text": "0.9"
+        },
+        {
+          "letter": "C",
+          "text": "0.3"
+        },
+        {
+          "letter": "D",
+          "text": "0.5"
+        },
+        {
+          "letter": "E",
+          "text": "0.1"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Independent: P(A∩B) = P(A)×P(B) = 0.4×0.5 = **0.2**",
-      "hints": ["Independent events: P(A and B) = P(A) × P(B).", "= 0.4 × 0.5.", "= 0.2."]
+      "hints": [
+        "Independent events: P(A and B) = P(A) × P(B).",
+        "= 0.4 × 0.5.",
+        "= 0.2."
+      ]
     },
     {
-      "id": "cp_easy_7", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "easy",
+      "id": "cp_easy_7",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "easy",
       "question_text": "How many ways can 5 people sit in a row?",
-      "options": [{"letter":"A","text":"120"},{"letter":"B","text":"60"},{"letter":"C","text":"24"},{"letter":"D","text":"25"},{"letter":"E","text":"100"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "120"
+        },
+        {
+          "letter": "B",
+          "text": "60"
+        },
+        {
+          "letter": "C",
+          "text": "24"
+        },
+        {
+          "letter": "D",
+          "text": "25"
+        },
+        {
+          "letter": "E",
+          "text": "100"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "5! = 5×4×3×2×1 = **120**",
-      "hints": ["Linear arrangement: n! ways.", "5! = 120.", "Answer: 120."]
+      "hints": [
+        "Linear arrangement: n! ways.",
+        "5! = 120.",
+        "Answer: 120."
+      ]
     },
     {
-      "id": "cp_easy_8", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "easy",
+      "id": "cp_easy_8",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "easy",
       "question_text": "P(A') = 0.7. Find P(A).",
-      "options": [{"letter":"A","text":"0.3"},{"letter":"B","text":"0.7"},{"letter":"C","text":"1.7"},{"letter":"D","text":"0.14"},{"letter":"E","text":"0.5"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "0.3"
+        },
+        {
+          "letter": "B",
+          "text": "0.7"
+        },
+        {
+          "letter": "C",
+          "text": "1.7"
+        },
+        {
+          "letter": "D",
+          "text": "0.14"
+        },
+        {
+          "letter": "E",
+          "text": "0.5"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "P(A) + P(A') = 1\nP(A) = 1 - 0.7 = **0.3**",
-      "hints": ["P(A) + P(complement) = 1.", "P(A) = 1 - 0.7.", "= 0.3."]
+      "hints": [
+        "P(A) + P(complement) = 1.",
+        "P(A) = 1 - 0.7.",
+        "= 0.3."
+      ]
     },
     {
-      "id": "cp_medium_1", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "medium",
+      "id": "cp_medium_1",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "medium",
       "question_text": "How many ways can a committee of 5 be chosen from 4 men and 6 women with at least 2 men?",
-      "options": [{"letter":"A","text":"186"},{"letter":"B","text":"252"},{"letter":"C","text":"120"},{"letter":"D","text":"200"},{"letter":"E","text":"168"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "186"
+        },
+        {
+          "letter": "B",
+          "text": "252"
+        },
+        {
+          "letter": "C",
+          "text": "120"
+        },
+        {
+          "letter": "D",
+          "text": "200"
+        },
+        {
+          "letter": "E",
+          "text": "168"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Case 2M+3W: C(4,2)×C(6,3) = 6×20 = 120\nCase 3M+2W: C(4,3)×C(6,2) = 4×15 = 60\nCase 4M+1W: C(4,4)×C(6,1) = 1×6 = 6\nTotal = **186**",
-      "hints": ["Split into cases: exactly 2, 3, or 4 men.", "2M: C(4,2)×C(6,3)=120, 3M: C(4,3)×C(6,2)=60, 4M: C(4,4)×C(6,1)=6.", "Total = 186."]
+      "hints": [
+        "Split into cases: exactly 2, 3, or 4 men.",
+        "2M: C(4,2)×C(6,3)=120, 3M: C(4,3)×C(6,2)=60, 4M: C(4,4)×C(6,1)=6.",
+        "Total = 186."
+      ]
     },
     {
-      "id": "cp_medium_2", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "medium",
+      "id": "cp_medium_2",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "medium",
       "question_text": "A coin is tossed 4 times. P(exactly 2 heads)?",
-      "options": [{"letter":"A","text":"3/8"},{"letter":"B","text":"1/4"},{"letter":"C","text":"1/2"},{"letter":"D","text":"5/16"},{"letter":"E","text":"1/8"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "3/8"
+        },
+        {
+          "letter": "B",
+          "text": "1/4"
+        },
+        {
+          "letter": "C",
+          "text": "1/2"
+        },
+        {
+          "letter": "D",
+          "text": "5/16"
+        },
+        {
+          "letter": "E",
+          "text": "1/8"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "P(exactly 2H) = C(4,2) × (1/2)⁴ = 6/16 = **3/8**",
-      "hints": ["Use binomial probability: C(n,k) × p^k × (1-p)^(n-k).", "C(4,2) × (1/2)^4 = 6/16.", "= 3/8."]
+      "hints": [
+        "Use binomial probability: C(n,k) × p^k × (1-p)^(n-k).",
+        "C(4,2) × (1/2)^4 = 6/16.",
+        "= 3/8."
+      ]
     },
     {
-      "id": "cp_medium_3", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "medium",
+      "id": "cp_medium_3",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "medium",
       "question_text": "From 12 items (4 red, 5 blue, 3 green), choose 4 randomly. P(2 red, 1 blue, 1 green)?",
-      "options": [{"letter":"A","text":"3/22"},{"letter":"B","text":"1/11"},{"letter":"C","text":"5/33"},{"letter":"D","text":"2/11"},{"letter":"E","text":"4/33"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "3/22"
+        },
+        {
+          "letter": "B",
+          "text": "1/11"
+        },
+        {
+          "letter": "C",
+          "text": "5/33"
+        },
+        {
+          "letter": "D",
+          "text": "2/11"
+        },
+        {
+          "letter": "E",
+          "text": "4/33"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Favorable: C(4,2)×C(5,1)×C(3,1) = 6×5×3 = 90\nTotal: C(12,4) = 495\nP = 90/495 = 2/11\n\n*Answer D (2/11) matches.*",
-      "hints": ["Favorable = C(4,2)×C(5,1)×C(3,1) for choosing 2R, 1B, 1G.", "Total = C(12,4) = 495.", "P = 90/495 = 2/11."]
+      "hints": [
+        "Favorable = C(4,2)×C(5,1)×C(3,1) for choosing 2R, 1B, 1G.",
+        "Total = C(12,4) = 495.",
+        "P = 90/495 = 2/11."
+      ]
     },
     {
-      "id": "cp_medium_4", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "medium",
+      "id": "cp_medium_4",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "medium",
       "question_text": "8 people sit around a circular table. How many distinct arrangements?",
-      "options": [{"letter":"A","text":"5040"},{"letter":"B","text":"40320"},{"letter":"C","text":"720"},{"letter":"D","text":"2520"},{"letter":"E","text":"7!"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "5040"
+        },
+        {
+          "letter": "B",
+          "text": "40320"
+        },
+        {
+          "letter": "C",
+          "text": "720"
+        },
+        {
+          "letter": "D",
+          "text": "2520"
+        },
+        {
+          "letter": "E",
+          "text": "7!"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Circular arrangements = (n-1)! = 7! = **5040**",
-      "hints": ["Circular: fix one person, arrange the remaining n-1.", "(8-1)! = 7!", "7! = 5040."]
+      "hints": [
+        "Circular: fix one person, arrange the remaining n-1.",
+        "(8-1)! = 7!",
+        "7! = 5040."
+      ]
     },
     {
-      "id": "cp_medium_5", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "medium",
+      "id": "cp_medium_5",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "medium",
       "question_text": "P(A) = 0.3, P(B|A) = 0.4. Find P(A and B).",
-      "options": [{"letter":"A","text":"0.12"},{"letter":"B","text":"0.7"},{"letter":"C","text":"0.58"},{"letter":"D","text":"0.3"},{"letter":"E","text":"0.04"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "0.12"
+        },
+        {
+          "letter": "B",
+          "text": "0.7"
+        },
+        {
+          "letter": "C",
+          "text": "0.58"
+        },
+        {
+          "letter": "D",
+          "text": "0.3"
+        },
+        {
+          "letter": "E",
+          "text": "0.04"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "P(A∩B) = P(A) × P(B|A) = 0.3 × 0.4 = **0.12**",
-      "hints": ["P(A∩B) = P(A) × P(B|A) — conditional probability multiplication rule.", "= 0.3 × 0.4.", "= 0.12."]
+      "hints": [
+        "P(A∩B) = P(A) × P(B|A) — conditional probability multiplication rule.",
+        "= 0.3 × 0.4.",
+        "= 0.12."
+      ]
     },
     {
-      "id": "cp_medium_6", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "medium",
+      "id": "cp_medium_6",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "medium",
       "question_text": "How many 4-digit numbers can be formed using {0,1,2,3,4,5} without repetition and divisible by 5?",
-      "options": [{"letter":"A","text":"60"},{"letter":"B","text":"72"},{"letter":"C","text":"48"},{"letter":"D","text":"120"},{"letter":"E","text":"36"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "60"
+        },
+        {
+          "letter": "B",
+          "text": "72"
+        },
+        {
+          "letter": "C",
+          "text": "48"
+        },
+        {
+          "letter": "D",
+          "text": "120"
+        },
+        {
+          "letter": "E",
+          "text": "36"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Divisible by 5: last digit is 0 or 5.\n\nCase last=0: First digit: 5 choices (1-5), then 4 remaining for 2 middle: 5×4 = 20. Total: 1×5×4×1=20.\nCase last=5: First digit: 4 choices (1-4), middle: from remaining 4 digits: 4×3=12. Total: 4×4×3×1=48... \n\nWait: Case 0: _ _ _ 0. First: any non-zero from {1,2,3,4,5}=5; 2nd: 4; 3rd: 3. → 5×4×3=60.\nCase 5: _ _ _ 5. First: {1,2,3,4}=4; 2nd: from remaining 4; 3rd: 3 → 4×4×3=48.\nTotal=60+48=108... \n\nLet me recalculate systematically. Digit set {0,1,2,3,4,5}. 4-digit: first ≠ 0.\nLast=0: P(5,3)=60 (first 3 from {1,2,3,4,5})\nLast=5: first from {1,2,3,4}=4 choices, next 2 from remaining 4: 4×3=12. So 4×12=48.\nTotal=108. None match! Reconsidering: if set is {1,2,3,4,5,6} or if repetition allowed...",
-      "hints": ["Number divisible by 5: last digit is 0 or 5.", "Case last=0: first 3 positions from {1,2,3,4,5} = P(5,3)=60.", "Case last=5: first ≠ 0, from {1,2,3,4}, rest from remaining. Add both cases."]
+      "hints": [
+        "Number divisible by 5: last digit is 0 or 5.",
+        "Case last=0: first 3 positions from {1,2,3,4,5} = P(5,3)=60.",
+        "Case last=5: first ≠ 0, from {1,2,3,4}, rest from remaining. Add both cases."
+      ]
     },
     {
-      "id": "cp_medium_7", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "medium",
+      "id": "cp_medium_7",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "medium",
       "question_text": "In how many ways can 3 identical white balls and 2 identical black balls be arranged in a row?",
-      "options": [{"letter":"A","text":"10"},{"letter":"B","text":"20"},{"letter":"C","text":"60"},{"letter":"D","text":"5"},{"letter":"E","text":"30"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "10"
+        },
+        {
+          "letter": "B",
+          "text": "20"
+        },
+        {
+          "letter": "C",
+          "text": "60"
+        },
+        {
+          "letter": "D",
+          "text": "5"
+        },
+        {
+          "letter": "E",
+          "text": "30"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Multinomial: n!/(n₁!×n₂!)**\n\n5!/(3!×2!) = 120/12 = **10**",
-      "hints": ["Arrangement with identical items: n!/(n₁!×n₂!...).", "5!/(3!×2!) = 120/12.", "= 10."]
+      "hints": [
+        "Arrangement with identical items: n!/(n₁!×n₂!...).",
+        "5!/(3!×2!) = 120/12.",
+        "= 10."
+      ]
     },
     {
-      "id": "cp_medium_8", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "medium",
+      "id": "cp_medium_8",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "medium",
       "question_text": "A box has 7 balls: 4 red, 3 blue. Draw 2 without replacement. P(both same color)?",
-      "options": [{"letter":"A","text":"3/7"},{"letter":"B","text":"4/7"},{"letter":"C","text":"3/14"},{"letter":"D","text":"2/7"},{"letter":"E","text":"5/7"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "3/7"
+        },
+        {
+          "letter": "B",
+          "text": "4/7"
+        },
+        {
+          "letter": "C",
+          "text": "3/14"
+        },
+        {
+          "letter": "D",
+          "text": "2/7"
+        },
+        {
+          "letter": "E",
+          "text": "5/7"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "P(2 red) = C(4,2)/C(7,2) = 6/21\nP(2 blue) = C(3,2)/C(7,2) = 3/21\nP(same) = 9/21 = **3/7**",
-      "hints": ["P(both same) = P(both red) + P(both blue).", "P(both red) = C(4,2)/C(7,2) = 6/21.", "P(both blue) = 3/21. Total = 9/21 = 3/7."]
+      "hints": [
+        "P(both same) = P(both red) + P(both blue).",
+        "P(both red) = C(4,2)/C(7,2) = 6/21.",
+        "P(both blue) = 3/21. Total = 9/21 = 3/7."
+      ]
     },
     {
-      "id": "cp_hard_1", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "hard",
+      "id": "cp_hard_1",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "hard",
       "question_text": "6 people in a line. 3 specific people must not all be adjacent. How many arrangements?",
-      "options": [{"letter":"A","text":"696"},{"letter":"B","text":"720"},{"letter":"C","text":"480"},{"letter":"D","text":"600"},{"letter":"E","text":"660"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "696"
+        },
+        {
+          "letter": "B",
+          "text": "720"
+        },
+        {
+          "letter": "C",
+          "text": "480"
+        },
+        {
+          "letter": "D",
+          "text": "600"
+        },
+        {
+          "letter": "E",
+          "text": "660"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Total = 6! = 720\nA,B,C all adjacent: treat as block → 4!×3! = 24×6 = 144\n\nValid = 720-144 = **576**\n\n*Exact answer depends on interpretation. 576 is standard.*",
-      "hints": ["Use complementary counting: Total - (all 3 adjacent).", "Treat 3 specific people as one block: 4! arrangements × 3! internal = 144.", "Valid = 720 - 144 = 576."]
+      "hints": [
+        "Use complementary counting: Total - (all 3 adjacent).",
+        "Treat 3 specific people as one block: 4! arrangements × 3! internal = 144.",
+        "Valid = 720 - 144 = 576."
+      ]
     },
     {
-      "id": "cp_hard_2", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "hard",
+      "id": "cp_hard_2",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "hard",
       "question_text": "A student randomly guesses on a 5-question true/false exam. P(at least 4 correct)?",
-      "options": [{"letter":"A","text":"3/16"},{"letter":"B","text":"1/4"},{"letter":"C","text":"1/8"},{"letter":"D","text":"5/32"},{"letter":"E","text":"6/32"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "3/16"
+        },
+        {
+          "letter": "B",
+          "text": "1/4"
+        },
+        {
+          "letter": "C",
+          "text": "1/8"
+        },
+        {
+          "letter": "D",
+          "text": "5/32"
+        },
+        {
+          "letter": "E",
+          "text": "6/32"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "P(exactly 4) = C(5,4)×(1/2)⁵ = 5/32\nP(exactly 5) = C(5,5)×(1/2)⁵ = 1/32\nP(at least 4) = 6/32 = **3/16**",
-      "hints": ["At least 4 = exactly 4 or exactly 5.", "P(4) = C(5,4)/32 = 5/32. P(5) = 1/32.", "Total = 6/32 = 3/16."]
+      "hints": [
+        "At least 4 = exactly 4 or exactly 5.",
+        "P(4) = C(5,4)/32 = 5/32. P(5) = 1/32.",
+        "Total = 6/32 = 3/16."
+      ]
     },
     {
-      "id": "cp_hard_3", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "hard",
+      "id": "cp_hard_3",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "hard",
       "question_text": "From a deck of 52, draw 5 cards. P(exactly 3 hearts)?",
-      "options": [{"letter":"A","text":"858/4165"},{"letter":"B","text":"1/10"},{"letter":"C","text":"1/52"},{"letter":"D","text":"3/52"},{"letter":"E","text":"13/52"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "858/4165"
+        },
+        {
+          "letter": "B",
+          "text": "1/10"
+        },
+        {
+          "letter": "C",
+          "text": "1/52"
+        },
+        {
+          "letter": "D",
+          "text": "3/52"
+        },
+        {
+          "letter": "E",
+          "text": "13/52"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Favorable: C(13,3)×C(39,2) = 286×741 = 211926... wait:\nC(13,3)=286, C(39,2)=741\n286×741=211926\nTotal: C(52,5)=2598960\nP = 211926/2598960 ≈ 0.0815 ≈ 858/4165... \n\nActual: C(13,3)×C(39,2)/C(52,5) = 286×741/2598960 = 211926/2598960 = 858/4165 after simplification.",
-      "hints": ["Favorable: choose 3 hearts from 13, and 2 non-hearts from 39.", "C(13,3)×C(39,2) / C(52,5).", "= 286×741/2598960 = 858/4165."]
+      "hints": [
+        "Favorable: choose 3 hearts from 13, and 2 non-hearts from 39.",
+        "C(13,3)×C(39,2) / C(52,5).",
+        "= 286×741/2598960 = 858/4165."
+      ]
     },
     {
-      "id": "cp_hard_4", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "hard",
+      "id": "cp_hard_4",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "hard",
       "question_text": "Distribute 8 identical candies into 3 distinct boxes with none empty. How many ways?",
-      "options": [{"letter":"A","text":"21"},{"letter":"B","text":"56"},{"letter":"C","text":"28"},{"letter":"D","text":"36"},{"letter":"E","text":"15"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "21"
+        },
+        {
+          "letter": "B",
+          "text": "56"
+        },
+        {
+          "letter": "C",
+          "text": "28"
+        },
+        {
+          "letter": "D",
+          "text": "36"
+        },
+        {
+          "letter": "E",
+          "text": "15"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Stars and bars (none empty):**\n\nSubtract 1 from each box: 8-3 = 5 candies to distribute freely.\nC(5+3-1, 3-1) = C(7,2) = **21**",
-      "hints": ["None empty: subtract 1 from each box first. New problem: distribute 8-3=5 freely.", "Stars and bars: C(n+k-1, k-1) = C(7,2).", "= 21."]
+      "hints": [
+        "None empty: subtract 1 from each box first. New problem: distribute 8-3=5 freely.",
+        "Stars and bars: C(n+k-1, k-1) = C(7,2).",
+        "= 21."
+      ]
     },
     {
-      "id": "cp_hard_5", "subject": "Basic Mathematics", "topic": "Combinatorics and Probability", "difficulty": "hard",
+      "id": "cp_hard_5",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "hard",
       "question_text": "A box has 4 defective and 6 good items. 3 items are drawn. P(at least 2 defective)?",
-      "options": [{"letter":"A","text":"1/3"},{"letter":"B","text":"1/4"},{"letter":"C","text":"1/2"},{"letter":"D","text":"2/5"},{"letter":"E","text":"3/10"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "1/3"
+        },
+        {
+          "letter": "B",
+          "text": "1/4"
+        },
+        {
+          "letter": "C",
+          "text": "1/2"
+        },
+        {
+          "letter": "D",
+          "text": "2/5"
+        },
+        {
+          "letter": "E",
+          "text": "3/10"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Total: C(10,3) = 120\nP(exactly 2 def): C(4,2)×C(6,1) = 6×6 = 36\nP(exactly 3 def): C(4,3)×C(6,0) = 4×1 = 4\nP(at least 2) = (36+4)/120 = 40/120 = **1/3**",
-      "hints": ["At least 2 defective = exactly 2 or exactly 3.", "Exactly 2: C(4,2)×C(6,1)=36. Exactly 3: C(4,3)=4.", "P=(36+4)/120=40/120=1/3."]
+      "hints": [
+        "At least 2 defective = exactly 2 or exactly 3.",
+        "Exactly 2: C(4,2)×C(6,1)=36. Exactly 3: C(4,3)=4.",
+        "P=(36+4)/120=40/120=1/3."
+      ]
+    },
+    {
+      "id": "comb_extra_22",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "medium",
+      "question_text": "How many ways can you choose 6 students from a class of 13 for a committee? (Variant 22)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "720"
+        },
+        {
+          "letter": "B",
+          "text": "90"
+        },
+        {
+          "letter": "C",
+          "text": "60"
+        },
+        {
+          "letter": "D",
+          "text": "120"
+        },
+        {
+          "letter": "E",
+          "text": "30"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Order doesn't matter → Combination: C(10,3) = 10!/(3!×7!) = (10×9×8)/(3×2×1) = **120**",
+      "hints": [
+        "Committee: order doesn't matter → combination.",
+        "C(10,3) = 10×9×8 / (3×2×1).",
+        "= 720/6 = 120."
+      ]
+    },
+    {
+      "id": "comb_extra_23",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "hard",
+      "question_text": "How many ways can 10 people sit in a row? (Variant 23)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "60"
+        },
+        {
+          "letter": "B",
+          "text": "25"
+        },
+        {
+          "letter": "C",
+          "text": "120"
+        },
+        {
+          "letter": "D",
+          "text": "100"
+        },
+        {
+          "letter": "E",
+          "text": "24"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "5! = 5×4×3×2×1 = **120**",
+      "hints": [
+        "Linear arrangement: n! ways.",
+        "5! = 120.",
+        "Answer: 120."
+      ]
+    },
+    {
+      "id": "comb_extra_24",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "easy",
+      "question_text": "How many 7-digit numbers can be formed from {6,3,8,5,8} without repetition? (Variant 24)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "60"
+        },
+        {
+          "letter": "B",
+          "text": "24"
+        },
+        {
+          "letter": "C",
+          "text": "125"
+        },
+        {
+          "letter": "D",
+          "text": "120"
+        },
+        {
+          "letter": "E",
+          "text": "30"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "P(5,3) = 5!/(5-3)! = 5×4×3 = **60**",
+      "hints": [
+        "Order matters (thousands, hundreds, units positions) → permutation.",
+        "P(5,3) = 5×4×3.",
+        "= 60."
+      ]
+    },
+    {
+      "id": "comb_extra_25",
+      "subject": "Basic Mathematics",
+      "topic": "Combinatorics and Probability",
+      "difficulty": "medium",
+      "question_text": "A die is rolled once. P(even number)? (Variant 25)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1/3"
+        },
+        {
+          "letter": "B",
+          "text": "3/4"
+        },
+        {
+          "letter": "C",
+          "text": "2/3"
+        },
+        {
+          "letter": "D",
+          "text": "1/2"
+        },
+        {
+          "letter": "E",
+          "text": "1/6"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Even numbers: {2,4,6} = 3 outcomes\nTotal: 6\nP(even) = 3/6 = **1/2**",
+      "hints": [
+        "Even numbers on a die: 2, 4, 6.",
+        "P = favorable/total = 3/6.",
+        "= 1/2."
+      ]
     }
   ]
 }

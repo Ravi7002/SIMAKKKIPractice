@@ -3,14 +3,38 @@
   "topic": "Grammar and Tenses",
   "introduction": "English tenses express time relationships between events. SIMAK tests correct verb forms in context — especially perfect tenses, conditionals, and modal verbs. The key is understanding the timeline of events in a sentence and choosing the form that matches that timeline precisely.",
   "key_formulas": [
-    {"name": "Simple Past", "formula": "\\text{Subject + V2 (e.g., } went, studied\\text{)}"},
-    {"name": "Present Perfect", "formula": "\\text{Subject + have/has + V3}"},
-    {"name": "Past Perfect", "formula": "\\text{Subject + had + V3 (action before another past action)}"},
-    {"name": "Future Perfect", "formula": "\\text{Subject + will have + V3}"},
-    {"name": "Conditional Type 1", "formula": "\\text{If + present, will + base verb}"},
-    {"name": "Conditional Type 2", "formula": "\\text{If + past simple, would + base verb}"},
-    {"name": "Conditional Type 3", "formula": "\\text{If + past perfect, would have + V3}"},
-    {"name": "Modal verbs", "formula": "\\text{can/could/should/must/may/might + base verb}"}
+    {
+      "name": "Simple Past",
+      "formula": "\\text{Subject + V2 (e.g., } went, studied\\text{)}"
+    },
+    {
+      "name": "Present Perfect",
+      "formula": "\\text{Subject + have/has + V3}"
+    },
+    {
+      "name": "Past Perfect",
+      "formula": "\\text{Subject + had + V3 (action before another past action)}"
+    },
+    {
+      "name": "Future Perfect",
+      "formula": "\\text{Subject + will have + V3}"
+    },
+    {
+      "name": "Conditional Type 1",
+      "formula": "\\text{If + present, will + base verb}"
+    },
+    {
+      "name": "Conditional Type 2",
+      "formula": "\\text{If + past simple, would + base verb}"
+    },
+    {
+      "name": "Conditional Type 3",
+      "formula": "\\text{If + past perfect, would have + V3}"
+    },
+    {
+      "name": "Modal verbs",
+      "formula": "\\text{can/could/should/must/may/might + base verb}"
+    }
   ],
   "tips_and_tricks": [
     "Past Perfect (had + V3) = action that happened BEFORE another past action.",
@@ -46,194 +70,904 @@
   ],
   "questions": [
     {
-      "id": "gt_easy_1", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "easy",
+      "id": "gt_easy_1",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "easy",
       "question_text": "She _____ to school every day.\nA. go  B. goes  C. went  D. gone  E. is going",
-      "options": [{"letter":"A","text":"go"},{"letter":"B","text":"goes"},{"letter":"C","text":"went"},{"letter":"D","text":"gone"},{"letter":"E","text":"going"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "go"
+        },
+        {
+          "letter": "B",
+          "text": "goes"
+        },
+        {
+          "letter": "C",
+          "text": "went"
+        },
+        {
+          "letter": "D",
+          "text": "gone"
+        },
+        {
+          "letter": "E",
+          "text": "going"
+        }
+      ],
       "correct_answer": "B",
       "explanation": "**Simple Present for habits/routines.**\nSubject 'she' is 3rd person singular → add -s: **goes**.\nSignal word: 'every day' confirms a routine.",
-      "hints": ["'Every day' signals a habitual action → use Simple Present.", "Subject 'she' = 3rd person singular.", "3rd person singular: add -s to verb → goes."]
+      "hints": [
+        "'Every day' signals a habitual action → use Simple Present.",
+        "Subject 'she' = 3rd person singular.",
+        "3rd person singular: add -s to verb → goes."
+      ]
     },
     {
-      "id": "gt_easy_2", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "easy",
+      "id": "gt_easy_2",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "easy",
       "question_text": "I _____ this book since last Monday.",
-      "options": [{"letter":"A","text":"read"},{"letter":"B","text":"have been reading"},{"letter":"C","text":"was reading"},{"letter":"D","text":"had read"},{"letter":"E","text":"am reading"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "read"
+        },
+        {
+          "letter": "B",
+          "text": "have been reading"
+        },
+        {
+          "letter": "C",
+          "text": "was reading"
+        },
+        {
+          "letter": "D",
+          "text": "had read"
+        },
+        {
+          "letter": "E",
+          "text": "am reading"
+        }
+      ],
       "correct_answer": "B",
       "explanation": "**Present Perfect Continuous for ongoing action from past to now.**\n'Since last Monday' signals duration from a past point to now.\n**'have been reading'** correctly shows an action that started in the past and continues.",
-      "hints": ["'Since' signals an action starting in the past and continuing now.", "Use Present Perfect Continuous: have/has + been + V-ing.", "Answer: have been reading."]
+      "hints": [
+        "'Since' signals an action starting in the past and continuing now.",
+        "Use Present Perfect Continuous: have/has + been + V-ing.",
+        "Answer: have been reading."
+      ]
     },
     {
-      "id": "gt_easy_3", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "easy",
+      "id": "gt_easy_3",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "easy",
       "question_text": "If I were you, I _____ apologize immediately.",
-      "options": [{"letter":"A","text":"would"},{"letter":"B","text":"will"},{"letter":"C","text":"shall"},{"letter":"D","text":"can"},{"letter":"E","text":"have to"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "would"
+        },
+        {
+          "letter": "B",
+          "text": "will"
+        },
+        {
+          "letter": "C",
+          "text": "shall"
+        },
+        {
+          "letter": "D",
+          "text": "can"
+        },
+        {
+          "letter": "E",
+          "text": "have to"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Conditional Type 2: If + past simple, would + base verb.**\n'If I were you' uses past simple → result clause needs **'would'**.\nThis expresses hypothetical advice.",
-      "hints": ["'If I were you' = Conditional Type 2 (hypothetical).", "Type 2 pattern: If + past, would + base verb.", "Answer: would."]
+      "hints": [
+        "'If I were you' = Conditional Type 2 (hypothetical).",
+        "Type 2 pattern: If + past, would + base verb.",
+        "Answer: would."
+      ]
     },
     {
-      "id": "gt_easy_4", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "easy",
+      "id": "gt_easy_4",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "easy",
       "question_text": "The students _____ their test when the bell rang.",
-      "options": [{"letter":"A","text":"were finishing"},{"letter":"B","text":"have finished"},{"letter":"C","text":"finished"},{"letter":"D","text":"had finished"},{"letter":"E","text":"finish"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "were finishing"
+        },
+        {
+          "letter": "B",
+          "text": "have finished"
+        },
+        {
+          "letter": "C",
+          "text": "finished"
+        },
+        {
+          "letter": "D",
+          "text": "had finished"
+        },
+        {
+          "letter": "E",
+          "text": "finish"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Past Continuous for an action in progress when another occurred.**\nThe bell rang (simple past) = interrupting action.\nThe students were in the middle of finishing → **were finishing** (Past Continuous).",
-      "hints": ["Two past events: one was ongoing, one interrupted it.", "Ongoing action → Past Continuous: was/were + V-ing.", "Answer: were finishing."]
+      "hints": [
+        "Two past events: one was ongoing, one interrupted it.",
+        "Ongoing action → Past Continuous: was/were + V-ing.",
+        "Answer: were finishing."
+      ]
     },
     {
-      "id": "gt_easy_5", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "easy",
+      "id": "gt_easy_5",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "easy",
       "question_text": "She _____ never seen snow before the trip.",
-      "options": [{"letter":"A","text":"had"},{"letter":"B","text":"has"},{"letter":"C","text":"have"},{"letter":"D","text":"did"},{"letter":"E","text":"was"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "had"
+        },
+        {
+          "letter": "B",
+          "text": "has"
+        },
+        {
+          "letter": "C",
+          "text": "have"
+        },
+        {
+          "letter": "D",
+          "text": "did"
+        },
+        {
+          "letter": "E",
+          "text": "was"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Past Perfect for an experience before a past moment.**\nThe trip is a past reference point. 'Never seen before the trip' → **had** (past perfect: had + V3).",
-      "hints": ["'Before the trip' = a past reference point.", "For actions before a past point: use Past Perfect.", "had + never + seen."]
+      "hints": [
+        "'Before the trip' = a past reference point.",
+        "For actions before a past point: use Past Perfect.",
+        "had + never + seen."
+      ]
     },
     {
-      "id": "gt_easy_6", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "easy",
+      "id": "gt_easy_6",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "easy",
       "question_text": "You _____ smoke in this hospital. It's strictly prohibited.",
-      "options": [{"letter":"A","text":"must not"},{"letter":"B","text":"don't have to"},{"letter":"C","text":"couldn't"},{"letter":"D","text":"shouldn't have"},{"letter":"E","text":"won't"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "must not"
+        },
+        {
+          "letter": "B",
+          "text": "don't have to"
+        },
+        {
+          "letter": "C",
+          "text": "couldn't"
+        },
+        {
+          "letter": "D",
+          "text": "shouldn't have"
+        },
+        {
+          "letter": "E",
+          "text": "won't"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**'Must not' = prohibition (not allowed).**\n'Don't have to' means it's not necessary (but allowed).\nHere it's prohibited → **must not**.",
-      "hints": ["'must not' = forbidden/prohibited.", "'don't have to' = not necessary but allowed.", "Answer: must not."]
+      "hints": [
+        "'must not' = forbidden/prohibited.",
+        "'don't have to' = not necessary but allowed.",
+        "Answer: must not."
+      ]
     },
     {
-      "id": "gt_easy_7", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "easy",
+      "id": "gt_easy_7",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "easy",
       "question_text": "By next year, Andi _____ at this company for ten years.",
-      "options": [{"letter":"A","text":"will have worked"},{"letter":"B","text":"will work"},{"letter":"C","text":"has worked"},{"letter":"D","text":"had worked"},{"letter":"E","text":"is working"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "will have worked"
+        },
+        {
+          "letter": "B",
+          "text": "will work"
+        },
+        {
+          "letter": "C",
+          "text": "has worked"
+        },
+        {
+          "letter": "D",
+          "text": "had worked"
+        },
+        {
+          "letter": "E",
+          "text": "is working"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Future Perfect for an action completed by a future time.**\n'By next year' = a future deadline → **will have worked** (future perfect).",
-      "hints": ["'By next year' signals a future deadline.", "Future Perfect: will have + V3.", "Answer: will have worked."]
+      "hints": [
+        "'By next year' signals a future deadline.",
+        "Future Perfect: will have + V3.",
+        "Answer: will have worked."
+      ]
     },
     {
-      "id": "gt_easy_8", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "easy",
+      "id": "gt_easy_8",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "easy",
       "question_text": "The cake _____ delicious when I tasted it.",
-      "options": [{"letter":"A","text":"tasted"},{"letter":"B","text":"tastes"},{"letter":"C","text":"was tasting"},{"letter":"D","text":"had tasted"},{"letter":"E","text":"is tasting"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "tasted"
+        },
+        {
+          "letter": "B",
+          "text": "tastes"
+        },
+        {
+          "letter": "C",
+          "text": "was tasting"
+        },
+        {
+          "letter": "D",
+          "text": "had tasted"
+        },
+        {
+          "letter": "E",
+          "text": "is tasting"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Simple Past for a completed past action/state.**\nWith sensory link verbs (taste, smell, feel), use simple past for a past state.\n'When I tasted it' confirms past → **tasted**.",
-      "hints": ["'When I tasted it' = past context.", "Sensory link verbs don't use continuous forms.", "Simple past: tasted."]
+      "hints": [
+        "'When I tasted it' = past context.",
+        "Sensory link verbs don't use continuous forms.",
+        "Simple past: tasted."
+      ]
     },
     {
-      "id": "gt_medium_1", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "medium",
+      "id": "gt_medium_1",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "medium",
       "question_text": "By the time she arrived at the party, most of the guests _____.",
-      "options": [{"letter":"A","text":"had already left"},{"letter":"B","text":"already left"},{"letter":"C","text":"have already left"},{"letter":"D","text":"were already leaving"},{"letter":"E","text":"left already"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "had already left"
+        },
+        {
+          "letter": "B",
+          "text": "already left"
+        },
+        {
+          "letter": "C",
+          "text": "have already left"
+        },
+        {
+          "letter": "D",
+          "text": "were already leaving"
+        },
+        {
+          "letter": "E",
+          "text": "left already"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Past Perfect for earlier of two past actions.**\nTimeline: guests left → she arrived.\n'By the time she arrived' → the leaving happened first → **had already left**.",
-      "hints": ["'By the time' + past tense → use Past Perfect for the earlier action.", "Guests left BEFORE she arrived.", "had already left."]
+      "hints": [
+        "'By the time' + past tense → use Past Perfect for the earlier action.",
+        "Guests left BEFORE she arrived.",
+        "had already left."
+      ]
     },
     {
-      "id": "gt_medium_2", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "medium",
+      "id": "gt_medium_2",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "medium",
       "question_text": "If the company _____ more in R&D last year, it would be more competitive now.",
-      "options": [{"letter":"A","text":"had invested"},{"letter":"B","text":"invested"},{"letter":"C","text":"would invest"},{"letter":"D","text":"has invested"},{"letter":"E","text":"invests"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "had invested"
+        },
+        {
+          "letter": "B",
+          "text": "invested"
+        },
+        {
+          "letter": "C",
+          "text": "would invest"
+        },
+        {
+          "letter": "D",
+          "text": "has invested"
+        },
+        {
+          "letter": "E",
+          "text": "invests"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Mixed Conditional: past condition + present result.**\nThe 'if' clause refers to a past action (last year) → Past Perfect: **had invested**.\nThe result 'would be more competitive now' is present → present result form.",
-      "hints": ["'Last year' in the if-clause = past event → Past Perfect.", "'Would be now' in result = present consequence.", "Mixed conditional: if + past perfect, would + base verb."]
+      "hints": [
+        "'Last year' in the if-clause = past event → Past Perfect.",
+        "'Would be now' in result = present consequence.",
+        "Mixed conditional: if + past perfect, would + base verb."
+      ]
     },
     {
-      "id": "gt_medium_3", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "medium",
+      "id": "gt_medium_3",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "medium",
       "question_text": "She wishes she _____ harder for the exam last week.",
-      "options": [{"letter":"A","text":"had studied"},{"letter":"B","text":"studied"},{"letter":"C","text":"would study"},{"letter":"D","text":"has studied"},{"letter":"E","text":"could study"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "had studied"
+        },
+        {
+          "letter": "B",
+          "text": "studied"
+        },
+        {
+          "letter": "C",
+          "text": "would study"
+        },
+        {
+          "letter": "D",
+          "text": "has studied"
+        },
+        {
+          "letter": "E",
+          "text": "could study"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**'Wish' + Past Perfect for regret about the past.**\n'Last week' = past. After 'wish' for a past situation we want to change → past perfect: **had studied**.",
-      "hints": ["'Wish' about a past event uses Past Perfect.", "'Last week' confirms it's past.", "wish + had + studied."]
+      "hints": [
+        "'Wish' about a past event uses Past Perfect.",
+        "'Last week' confirms it's past.",
+        "wish + had + studied."
+      ]
     },
     {
-      "id": "gt_medium_4", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "medium",
+      "id": "gt_medium_4",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "medium",
       "question_text": "The report _____ before the meeting begins, or the board won't have time to review it.",
-      "options": [{"letter":"A","text":"must be submitted"},{"letter":"B","text":"must submit"},{"letter":"C","text":"should submit"},{"letter":"D","text":"will be submitting"},{"letter":"E","text":"is submitted"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "must be submitted"
+        },
+        {
+          "letter": "B",
+          "text": "must submit"
+        },
+        {
+          "letter": "C",
+          "text": "should submit"
+        },
+        {
+          "letter": "D",
+          "text": "will be submitting"
+        },
+        {
+          "letter": "E",
+          "text": "is submitted"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Passive voice with modal verb.**\nThe subject 'report' is the object of the action (it is submitted by someone).\nModal + be + V3 (passive): **must be submitted**.",
-      "hints": ["The report doesn't submit itself → passive voice needed.", "Modal passive: modal + be + past participle (V3).", "must be submitted."]
+      "hints": [
+        "The report doesn't submit itself → passive voice needed.",
+        "Modal passive: modal + be + past participle (V3).",
+        "must be submitted."
+      ]
     },
     {
-      "id": "gt_medium_5", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "medium",
+      "id": "gt_medium_5",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "medium",
       "question_text": "Not until he opened the package _____ how expensive the gift was.",
-      "options": [{"letter":"A","text":"did he realize"},{"letter":"B","text":"he realized"},{"letter":"C","text":"had he realized"},{"letter":"D","text":"he did realize"},{"letter":"E","text":"he has realized"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "did he realize"
+        },
+        {
+          "letter": "B",
+          "text": "he realized"
+        },
+        {
+          "letter": "C",
+          "text": "had he realized"
+        },
+        {
+          "letter": "D",
+          "text": "he did realize"
+        },
+        {
+          "letter": "E",
+          "text": "he has realized"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Inversion after negative adverbials.**\nWhen 'Not until' opens a sentence, the subject and auxiliary verb are inverted:\n→ **did he realize** (inverted question form in a statement).",
-      "hints": ["Negative adverbials at the start (Not until, Never, Rarely) trigger inversion.", "Normal: he realized. Inverted: did he realize.", "Answer: did he realize."]
+      "hints": [
+        "Negative adverbials at the start (Not until, Never, Rarely) trigger inversion.",
+        "Normal: he realized. Inverted: did he realize.",
+        "Answer: did he realize."
+      ]
     },
     {
-      "id": "gt_medium_6", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "medium",
+      "id": "gt_medium_6",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "medium",
       "question_text": "He _____ the letter three times before he was satisfied with it.",
-      "options": [{"letter":"A","text":"had rewritten"},{"letter":"B","text":"has rewritten"},{"letter":"C","text":"rewrote"},{"letter":"D","text":"was rewriting"},{"letter":"E","text":"rewrite"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "had rewritten"
+        },
+        {
+          "letter": "B",
+          "text": "has rewritten"
+        },
+        {
+          "letter": "C",
+          "text": "rewrote"
+        },
+        {
+          "letter": "D",
+          "text": "was rewriting"
+        },
+        {
+          "letter": "E",
+          "text": "rewrite"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Past Perfect for multiple completed actions before another past event.**\n'Before he was satisfied' = the past reference point.\nRewriting happened before that → **had rewritten** (past perfect).",
-      "hints": ["'Before he was satisfied' = past reference point.", "Rewriting happened before satisfaction → Past Perfect.", "had rewritten."]
+      "hints": [
+        "'Before he was satisfied' = past reference point.",
+        "Rewriting happened before satisfaction → Past Perfect.",
+        "had rewritten."
+      ]
     },
     {
-      "id": "gt_medium_7", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "medium",
+      "id": "gt_medium_7",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "medium",
       "question_text": "The phenomenon of students _____ their phones in class has become a widespread concern.",
-      "options": [{"letter":"A","text":"using"},{"letter":"B","text":"use"},{"letter":"C","text":"used"},{"letter":"D","text":"have used"},{"letter":"E","text":"to use"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "using"
+        },
+        {
+          "letter": "B",
+          "text": "use"
+        },
+        {
+          "letter": "C",
+          "text": "used"
+        },
+        {
+          "letter": "D",
+          "text": "have used"
+        },
+        {
+          "letter": "E",
+          "text": "to use"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Gerund after 'of' (preposition).**\nAfter a preposition, a verb must be in gerund form (-ing).\n'The phenomenon of ___ing' → **using**.",
-      "hints": ["After a preposition ('of'), use gerund (-ing form).", "'The phenomenon of ___ing students' → gerund.", "Answer: using."]
+      "hints": [
+        "After a preposition ('of'), use gerund (-ing form).",
+        "'The phenomenon of ___ing students' → gerund.",
+        "Answer: using."
+      ]
     },
     {
-      "id": "gt_medium_8", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "medium",
+      "id": "gt_medium_8",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "medium",
       "question_text": "She _____ in Jakarta for five years before she moved to Surabaya.",
-      "options": [{"letter":"A","text":"had lived"},{"letter":"B","text":"lived"},{"letter":"C","text":"has lived"},{"letter":"D","text":"was living"},{"letter":"E","text":"lives"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "had lived"
+        },
+        {
+          "letter": "B",
+          "text": "lived"
+        },
+        {
+          "letter": "C",
+          "text": "has lived"
+        },
+        {
+          "letter": "D",
+          "text": "was living"
+        },
+        {
+          "letter": "E",
+          "text": "lives"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Past Perfect for duration before a past event.**\n'Before she moved' = past reference point. Living in Jakarta happened before → **had lived** (past perfect).",
-      "hints": ["'Before she moved' = past reference point.", "Duration before a past event → Past Perfect.", "had lived."]
+      "hints": [
+        "'Before she moved' = past reference point.",
+        "Duration before a past event → Past Perfect.",
+        "had lived."
+      ]
     },
     {
-      "id": "gt_hard_1", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "hard",
+      "id": "gt_hard_1",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "hard",
       "question_text": "Had the manager informed the staff earlier, the misunderstanding _____ avoided.",
-      "options": [{"letter":"A","text":"could have been"},{"letter":"B","text":"could be"},{"letter":"C","text":"can be"},{"letter":"D","text":"would be"},{"letter":"E","text":"had been"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "could have been"
+        },
+        {
+          "letter": "B",
+          "text": "could be"
+        },
+        {
+          "letter": "C",
+          "text": "can be"
+        },
+        {
+          "letter": "D",
+          "text": "would be"
+        },
+        {
+          "letter": "E",
+          "text": "had been"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Inverted Conditional Type 3 (passive).**\n'Had the manager informed...' = 'If the manager had informed...' (omitting 'if', inverting).\nType 3 result (passive): **could have been avoided**.",
-      "hints": ["'Had + subject + V3...' = inverted Conditional Type 3.", "The result uses: could/would + have + been + V3 (passive).", "could have been avoided."]
+      "hints": [
+        "'Had + subject + V3...' = inverted Conditional Type 3.",
+        "The result uses: could/would + have + been + V3 (passive).",
+        "could have been avoided."
+      ]
     },
     {
-      "id": "gt_hard_2", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "hard",
+      "id": "gt_hard_2",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "hard",
       "question_text": "Which sentence is grammatically CORRECT?",
       "options": [
-        {"letter":"A","text":"Despite of the rain, they continued the event."},
-        {"letter":"B","text":"Although it was raining, but they continued the event."},
-        {"letter":"C","text":"Despite the rain, they continued the event."},
-        {"letter":"D","text":"In spite of it rained, they continued."},
-        {"letter":"E","text":"Even though of the rain, they continued."}
+        {
+          "letter": "A",
+          "text": "Despite of the rain, they continued the event."
+        },
+        {
+          "letter": "B",
+          "text": "Although it was raining, but they continued the event."
+        },
+        {
+          "letter": "C",
+          "text": "Despite the rain, they continued the event."
+        },
+        {
+          "letter": "D",
+          "text": "In spite of it rained, they continued."
+        },
+        {
+          "letter": "E",
+          "text": "Even though of the rain, they continued."
+        }
       ],
       "correct_answer": "C",
       "explanation": "**'Despite' vs 'Although' usage:**\n- Despite/In spite of + noun/noun phrase (NOT 'of' after 'despite')\n- Although/Even though + subject + verb (clause)\n\nCorrect: 'Despite the rain' ✓ (noun phrase, no 'of' after despite)\nA: 'Despite of' — WRONG\nB: 'Although... but' — WRONG (can't use both)\nD: 'In spite of it rained' — WRONG (needs noun phrase, not clause)",
-      "hints": ["'Despite' and 'in spite of' are followed by a noun/noun phrase, NOT 'of'.", "'Although' and 'even though' are followed by a full clause.", "Check each option: 'Despite of' is wrong; 'Although...but' is wrong."]
+      "hints": [
+        "'Despite' and 'in spite of' are followed by a noun/noun phrase, NOT 'of'.",
+        "'Although' and 'even though' are followed by a full clause.",
+        "Check each option: 'Despite of' is wrong; 'Although...but' is wrong."
+      ]
     },
     {
-      "id": "gt_hard_3", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "hard",
+      "id": "gt_hard_3",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "hard",
       "question_text": "The scientist realized that the experiment _____ contaminated long before he noticed the error.",
-      "options": [{"letter":"A","text":"had been"},{"letter":"B","text":"was"},{"letter":"C","text":"has been"},{"letter":"D","text":"would have been"},{"letter":"E","text":"had become"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "had been"
+        },
+        {
+          "letter": "B",
+          "text": "was"
+        },
+        {
+          "letter": "C",
+          "text": "has been"
+        },
+        {
+          "letter": "D",
+          "text": "would have been"
+        },
+        {
+          "letter": "E",
+          "text": "had become"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Past Perfect Passive for an earlier completed past action.**\nTimeline: contamination happened → long before → he noticed → he realized.\n'Long before he noticed' = contamination is the earliest action → Past Perfect Passive: **had been contaminated**.",
-      "hints": ["Three time points: contamination → noticed → realized.", "Contamination is the earliest → Past Perfect.", "Passive voice: had been + V3."]
+      "hints": [
+        "Three time points: contamination → noticed → realized.",
+        "Contamination is the earliest → Past Perfect.",
+        "Passive voice: had been + V3."
+      ]
     },
     {
-      "id": "gt_hard_4", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "hard",
+      "id": "gt_hard_4",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "hard",
       "question_text": "The professor insisted that every student _____ the assignment by Friday.",
-      "options": [{"letter":"A","text":"submit"},{"letter":"B","text":"submits"},{"letter":"C","text":"submitted"},{"letter":"D","text":"would submit"},{"letter":"E","text":"has submitted"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "submit"
+        },
+        {
+          "letter": "B",
+          "text": "submits"
+        },
+        {
+          "letter": "C",
+          "text": "submitted"
+        },
+        {
+          "letter": "D",
+          "text": "would submit"
+        },
+        {
+          "letter": "E",
+          "text": "has submitted"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Subjunctive mood after verbs of demand/insistence.**\nAfter 'insist (that)', 'recommend', 'demand', 'suggest' → use bare infinitive (base form), regardless of person:\n→ **submit** (not submits, not submitted).\nThis is the subjunctive: 'he do', 'she be', 'every student submit'.",
-      "hints": ["After 'insist that', 'demand that', 'suggest that' → use bare infinitive (subjunctive).", "No -s even for 3rd person singular: 'every student submit' not 'submits'.", "Answer: submit."]
+      "hints": [
+        "After 'insist that', 'demand that', 'suggest that' → use bare infinitive (subjunctive).",
+        "No -s even for 3rd person singular: 'every student submit' not 'submits'.",
+        "Answer: submit."
+      ]
     },
     {
-      "id": "gt_hard_5", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "hard",
+      "id": "gt_hard_5",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "hard",
       "question_text": "Only after completing all requirements _____ eligible to graduate.",
-      "options": [{"letter":"A","text":"will students be"},{"letter":"B","text":"students will be"},{"letter":"C","text":"are students"},{"letter":"D","text":"students are"},{"letter":"E","text":"do students be"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "will students be"
+        },
+        {
+          "letter": "B",
+          "text": "students will be"
+        },
+        {
+          "letter": "C",
+          "text": "are students"
+        },
+        {
+          "letter": "D",
+          "text": "students are"
+        },
+        {
+          "letter": "E",
+          "text": "do students be"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Inversion after restrictive adverbials.**\n'Only after + clause/phrase' at the start requires subject-auxiliary inversion:\n→ **will students be** (not 'students will be').\nThis is a formal inversion pattern common in academic English.",
-      "hints": ["'Only after...' at the start triggers subject-auxiliary inversion.", "Normal: students will be eligible. Inverted: will students be eligible.", "Answer: will students be."]
+      "hints": [
+        "'Only after...' at the start triggers subject-auxiliary inversion.",
+        "Normal: students will be eligible. Inverted: will students be eligible.",
+        "Answer: will students be."
+      ]
     },
     {
-      "id": "gt_hard_6", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "hard",
+      "id": "gt_hard_6",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "hard",
       "question_text": "The data _____ to suggest that the hypothesis was incorrect.",
-      "options": [{"letter":"A","text":"appears"},{"letter":"B","text":"appear"},{"letter":"C","text":"are appearing"},{"letter":"D","text":"were appearing"},{"letter":"E","text":"have appeared"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "appears"
+        },
+        {
+          "letter": "B",
+          "text": "appear"
+        },
+        {
+          "letter": "C",
+          "text": "are appearing"
+        },
+        {
+          "letter": "D",
+          "text": "were appearing"
+        },
+        {
+          "letter": "E",
+          "text": "have appeared"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Subject-verb agreement with 'data'.**\nIn academic/formal English, 'data' is increasingly treated as singular. 'The data appears' is acceptable in formal SIMAK context.\nHowever, strictly, 'data' is plural of 'datum' → 'appear'.\n\nIn SIMAK tests, option A (appears) is the standard expected answer in formal academic writing.",
-      "hints": ["'Data' is the subject. Is it singular or plural?", "In formal/academic context, 'data' is often treated as singular.", "appears (singular agreement)."]
+      "hints": [
+        "'Data' is the subject. Is it singular or plural?",
+        "In formal/academic context, 'data' is often treated as singular.",
+        "appears (singular agreement)."
+      ]
     },
     {
-      "id": "gt_hard_7", "subject": "English", "topic": "Grammar and Tenses", "difficulty": "hard",
+      "id": "gt_hard_7",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "hard",
       "question_text": "No sooner _____ than the fire alarm went off.",
-      "options": [{"letter":"A","text":"had she sat down"},{"letter":"B","text":"she had sat down"},{"letter":"C","text":"she sat down"},{"letter":"D","text":"did she sit down"},{"letter":"E","text":"she sits down"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "had she sat down"
+        },
+        {
+          "letter": "B",
+          "text": "she had sat down"
+        },
+        {
+          "letter": "C",
+          "text": "she sat down"
+        },
+        {
+          "letter": "D",
+          "text": "did she sit down"
+        },
+        {
+          "letter": "E",
+          "text": "she sits down"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Inversion after 'No sooner'.**\n'No sooner' triggers inversion with past perfect: **had she sat down**.\nPattern: No sooner + had + subject + V3 + than + simple past.",
-      "hints": ["'No sooner' triggers inversion.", "Pattern: No sooner + had + subject + V3 + than...", "had she sat down."]
+      "hints": [
+        "'No sooner' triggers inversion.",
+        "Pattern: No sooner + had + subject + V3 + than...",
+        "had she sat down."
+      ]
+    },
+    {
+      "id": "gram_extra_24",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "easy",
+      "question_text": "I _____ this book since last Monday. (Variant 24)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "had read"
+        },
+        {
+          "letter": "B",
+          "text": "was reading"
+        },
+        {
+          "letter": "C",
+          "text": "am reading"
+        },
+        {
+          "letter": "D",
+          "text": "have been reading"
+        },
+        {
+          "letter": "E",
+          "text": "read"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "**Present Perfect Continuous for ongoing action from past to now.**\n'Since last Monday' signals duration from a past point to now.\n**'have been reading'** correctly shows an action that started in the past and continues.",
+      "hints": [
+        "'Since' signals an action starting in the past and continuing now.",
+        "Use Present Perfect Continuous: have/has + been + V-ing.",
+        "Answer: have been reading."
+      ]
+    },
+    {
+      "id": "gram_extra_25",
+      "subject": "English",
+      "topic": "Grammar and Tenses",
+      "difficulty": "medium",
+      "question_text": "By next year, Andi _____ at this company for ten years. (Variant 25)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "had worked"
+        },
+        {
+          "letter": "B",
+          "text": "will have worked"
+        },
+        {
+          "letter": "C",
+          "text": "is working"
+        },
+        {
+          "letter": "D",
+          "text": "has worked"
+        },
+        {
+          "letter": "E",
+          "text": "will work"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "**Future Perfect for an action completed by a future time.**\n'By next year' = a future deadline → **will have worked** (future perfect).",
+      "hints": [
+        "'By next year' signals a future deadline.",
+        "Future Perfect: will have + V3.",
+        "Answer: will have worked."
+      ]
     }
   ]
 }

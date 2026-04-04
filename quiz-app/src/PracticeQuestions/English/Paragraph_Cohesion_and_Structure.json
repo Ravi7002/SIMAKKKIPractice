@@ -3,13 +3,34 @@
   "topic": "Paragraph Cohesion and Structure",
   "introduction": "Paragraph cohesion questions test your ability to organize ideas logically, choose the right transition words, identify where sentences belong, and spot structural weaknesses. A well-organized paragraph has unity (one main idea), coherence (logical flow), and cohesion (grammatical/lexical connections between sentences).",
   "key_formulas": [
-    {"name": "Paragraph structure", "formula": "\\text{Topic sentence → Supporting details → (Counter) → Concluding sentence}"},
-    {"name": "Adding info", "formula": "\\text{furthermore, moreover, in addition, also, besides}"},
-    {"name": "Contrasting", "formula": "\\text{however, nevertheless, on the other hand, yet, although, despite}"},
-    {"name": "Cause-Effect", "formula": "\\text{therefore, consequently, as a result, thus, hence, because}"},
-    {"name": "Sequence", "formula": "\\text{first, then, subsequently, finally, having done X}"},
-    {"name": "Exemplification", "formula": "\\text{for example, for instance, such as, namely, to illustrate}"},
-    {"name": "Concession", "formula": "\\text{admittedly, although it is true that, granted that}"}
+    {
+      "name": "Paragraph structure",
+      "formula": "\\text{Topic sentence → Supporting details → (Counter) → Concluding sentence}"
+    },
+    {
+      "name": "Adding info",
+      "formula": "\\text{furthermore, moreover, in addition, also, besides}"
+    },
+    {
+      "name": "Contrasting",
+      "formula": "\\text{however, nevertheless, on the other hand, yet, although, despite}"
+    },
+    {
+      "name": "Cause-Effect",
+      "formula": "\\text{therefore, consequently, as a result, thus, hence, because}"
+    },
+    {
+      "name": "Sequence",
+      "formula": "\\text{first, then, subsequently, finally, having done X}"
+    },
+    {
+      "name": "Exemplification",
+      "formula": "\\text{for example, for instance, such as, namely, to illustrate}"
+    },
+    {
+      "name": "Concession",
+      "formula": "\\text{admittedly, although it is true that, granted that}"
+    }
   ],
   "tips_and_tricks": [
     "The topic sentence is usually first — it introduces the paragraph's main idea.",
@@ -45,278 +66,904 @@
   ],
   "questions": [
     {
-      "id": "pcs_easy_1", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "easy",
+      "id": "pcs_easy_1",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "easy",
       "question_text": "Choose the best transition: 'Eating vegetables is essential for good health. _____, many people fail to meet the daily recommended intake.'",
-      "options": [{"letter":"A","text":"However"},{"letter":"B","text":"Therefore"},{"letter":"C","text":"Furthermore"},{"letter":"D","text":"As a result"},{"letter":"E","text":"Similarly"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "However"
+        },
+        {
+          "letter": "B",
+          "text": "Therefore"
+        },
+        {
+          "letter": "C",
+          "text": "Furthermore"
+        },
+        {
+          "letter": "D",
+          "text": "As a result"
+        },
+        {
+          "letter": "E",
+          "text": "Similarly"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Sentence 1: vegetables are essential. Sentence 2: people don't eat enough. This is a **contrast** — despite knowing vegetables are important, many don't eat enough. → **However** (contrast connector) ✓.",
-      "hints": ["What's the relationship? S1=important, S2=people don't follow it.", "This is a contrast (expectation vs. reality).", "However = contrast connector."]
+      "hints": [
+        "What's the relationship? S1=important, S2=people don't follow it.",
+        "This is a contrast (expectation vs. reality).",
+        "However = contrast connector."
+      ]
     },
     {
-      "id": "pcs_easy_2", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "easy",
+      "id": "pcs_easy_2",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "easy",
       "question_text": "Which transition best fills the blank? 'The experiment failed twice. _____, the team decided to revise their approach.'",
-      "options": [{"letter":"A","text":"Consequently"},{"letter":"B","text":"However"},{"letter":"C","text":"For example"},{"letter":"D","text":"In addition"},{"letter":"E","text":"Nevertheless"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "Consequently"
+        },
+        {
+          "letter": "B",
+          "text": "However"
+        },
+        {
+          "letter": "C",
+          "text": "For example"
+        },
+        {
+          "letter": "D",
+          "text": "In addition"
+        },
+        {
+          "letter": "E",
+          "text": "Nevertheless"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Experiment failed → team decided to revise. This is **cause → effect**. → **Consequently** ✓.",
-      "hints": ["The experiment failing CAUSED the team to change. What connects causes and effects?", "Consequently = as a result/effect.", "Answer: Consequently."]
+      "hints": [
+        "The experiment failing CAUSED the team to change. What connects causes and effects?",
+        "Consequently = as a result/effect.",
+        "Answer: Consequently."
+      ]
     },
     {
-      "id": "pcs_easy_3", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "easy",
+      "id": "pcs_easy_3",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "easy",
       "question_text": "Which word best fills the blank: 'She is skilled in Python, Java, and, _____, SQL.'",
-      "options": [{"letter":"A","text":"furthermore"},{"letter":"B","text":"however"},{"letter":"C","text":"as a result"},{"letter":"D","text":"despite"},{"letter":"E","text":"unless"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "furthermore"
+        },
+        {
+          "letter": "B",
+          "text": "however"
+        },
+        {
+          "letter": "C",
+          "text": "as a result"
+        },
+        {
+          "letter": "D",
+          "text": "despite"
+        },
+        {
+          "letter": "E",
+          "text": "unless"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "The sentence is listing skills. 'Furthermore' adds another item in the same direction → fits a listing context. **Furthermore** ✓.",
-      "hints": ["The sentence lists skills — it's adding more items.", "Which connector adds to a list?", "Furthermore = in addition to that."]
+      "hints": [
+        "The sentence lists skills — it's adding more items.",
+        "Which connector adds to a list?",
+        "Furthermore = in addition to that."
+      ]
     },
     {
-      "id": "pcs_easy_4", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "easy",
+      "id": "pcs_easy_4",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "easy",
       "question_text": "The topic sentence of a paragraph is typically:",
       "options": [
-        {"letter":"A","text":"The first sentence that introduces the main idea"},
-        {"letter":"B","text":"The last sentence that summarizes details"},
-        {"letter":"C","text":"A sentence with a specific example"},
-        {"letter":"D","text":"Any sentence that uses a transition word"},
-        {"letter":"E","text":"A question to engage the reader"}
+        {
+          "letter": "A",
+          "text": "The first sentence that introduces the main idea"
+        },
+        {
+          "letter": "B",
+          "text": "The last sentence that summarizes details"
+        },
+        {
+          "letter": "C",
+          "text": "A sentence with a specific example"
+        },
+        {
+          "letter": "D",
+          "text": "Any sentence that uses a transition word"
+        },
+        {
+          "letter": "E",
+          "text": "A question to engage the reader"
+        }
       ],
       "correct_answer": "A",
       "explanation": "The **topic sentence** introduces the paragraph's main idea and is usually (but not always) first. It sets the direction for the rest of the paragraph.",
-      "hints": ["The topic sentence tells readers what the paragraph is about.", "It's usually (but not always) at the beginning.", "Answer: first sentence introducing the main idea."]
+      "hints": [
+        "The topic sentence tells readers what the paragraph is about.",
+        "It's usually (but not always) at the beginning.",
+        "Answer: first sentence introducing the main idea."
+      ]
     },
     {
-      "id": "pcs_easy_5", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "easy",
+      "id": "pcs_easy_5",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "easy",
       "question_text": "Which sentence does NOT belong in a paragraph about the benefits of reading?\n1. Reading improves vocabulary.\n2. It enhances critical thinking.\n3. The library will close early on Sundays.\n4. Regular reading reduces stress.\n5. It also broadens one's world view.",
-      "options": [{"letter":"A","text":"Sentence 3"},{"letter":"B","text":"Sentence 1"},{"letter":"C","text":"Sentence 2"},{"letter":"D","text":"Sentence 4"},{"letter":"E","text":"Sentence 5"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "D",
+          "text": "Sentence 4"
+        },
+        {
+          "letter": "E",
+          "text": "Sentence 5"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "All sentences except #3 relate to **benefits of reading**. Sentence 3 about library closing hours is a completely off-topic detail → **Sentence 3** should be removed.",
-      "hints": ["Find the sentence that doesn't relate to 'benefits of reading'.", "Library closing hours have nothing to do with benefits.", "Sentence 3."]
+      "hints": [
+        "Find the sentence that doesn't relate to 'benefits of reading'.",
+        "Library closing hours have nothing to do with benefits.",
+        "Sentence 3."
+      ]
     },
     {
-      "id": "pcs_easy_6", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "easy",
+      "id": "pcs_easy_6",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "easy",
       "question_text": "Choose the connector: 'He trained for six months. _____, he won the competition.'",
-      "options": [{"letter":"A","text":"As a result"},{"letter":"B","text":"Nevertheless"},{"letter":"C","text":"In contrast"},{"letter":"D","text":"Although"},{"letter":"E","text":"On the other hand"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "As a result"
+        },
+        {
+          "letter": "B",
+          "text": "Nevertheless"
+        },
+        {
+          "letter": "C",
+          "text": "In contrast"
+        },
+        {
+          "letter": "D",
+          "text": "Although"
+        },
+        {
+          "letter": "E",
+          "text": "On the other hand"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Training → winning = cause → effect. **As a result** shows the effect of the training → ✓.",
-      "hints": ["Training caused him to win — cause → effect relationship.", "As a result = showing effect/consequence.", "Answer: As a result."]
+      "hints": [
+        "Training caused him to win — cause → effect relationship.",
+        "As a result = showing effect/consequence.",
+        "Answer: As a result."
+      ]
     },
     {
-      "id": "pcs_easy_7", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "easy",
+      "id": "pcs_easy_7",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "easy",
       "question_text": "The word 'this' in sentence 2 of a paragraph refers to:",
       "options": [
-        {"letter":"A","text":"Something mentioned in the previous sentence"},
-        {"letter":"B","text":"Something that will be mentioned later"},
-        {"letter":"C","text":"The author's personal opinion"},
-        {"letter":"D","text":"An unknown concept"},
-        {"letter":"E","text":"A new idea being introduced"}
+        {
+          "letter": "A",
+          "text": "Something mentioned in the previous sentence"
+        },
+        {
+          "letter": "B",
+          "text": "Something that will be mentioned later"
+        },
+        {
+          "letter": "C",
+          "text": "The author's personal opinion"
+        },
+        {
+          "letter": "D",
+          "text": "An unknown concept"
+        },
+        {
+          "letter": "E",
+          "text": "A new idea being introduced"
+        }
       ],
       "correct_answer": "A",
       "explanation": "Pronouns like 'this', 'it', 'they', 'these' are **anaphoric** — they refer back to something already mentioned (antecedent). Sentence 2's 'this' refers to something in Sentence 1.",
-      "hints": ["'This' is a demonstrative pronoun used to refer back to something.", "Anaphoric reference = pointing back to a previously mentioned idea.", "Answer: something mentioned in the previous sentence."]
+      "hints": [
+        "'This' is a demonstrative pronoun used to refer back to something.",
+        "Anaphoric reference = pointing back to a previously mentioned idea.",
+        "Answer: something mentioned in the previous sentence."
+      ]
     },
     {
-      "id": "pcs_easy_8", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "easy",
+      "id": "pcs_easy_8",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "easy",
       "question_text": "'He studied all night. _____, he passed the exam.' Which is MOST logical?",
-      "options": [{"letter":"A","text":"Consequently"},{"letter":"B","text":"However"},{"letter":"C","text":"In contrast"},{"letter":"D","text":"On the other hand"},{"letter":"E","text":"Despite this"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "Consequently"
+        },
+        {
+          "letter": "B",
+          "text": "However"
+        },
+        {
+          "letter": "C",
+          "text": "In contrast"
+        },
+        {
+          "letter": "D",
+          "text": "On the other hand"
+        },
+        {
+          "letter": "E",
+          "text": "Despite this"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Studying → passing exam = cause → expected positive result. **Consequently** ✓.\n\n(Note: 'However' would work if the result was unexpected — he studied but FAILED. Since he passed, it's a natural consequence.)",
-      "hints": ["Studying all night logically leads to passing — what kind of relationship?", "Cause → effect = consequently/as a result.", "Consequently."]
+      "hints": [
+        "Studying all night logically leads to passing — what kind of relationship?",
+        "Cause → effect = consequently/as a result.",
+        "Consequently."
+      ]
     },
     {
-      "id": "pcs_medium_1", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "medium",
+      "id": "pcs_medium_1",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "medium",
       "question_text": "Which sentence best completes the paragraph? 'The rise of electric vehicles promises a cleaner future. Battery technology has improved dramatically over the past decade. Charging infrastructure is rapidly expanding across major cities. _____.'",
       "options": [
-        {"letter":"A","text":"Gasoline prices have fluctuated significantly this year."},
-        {"letter":"B","text":"These developments suggest that electric vehicles may soon become the mainstream mode of transport."},
-        {"letter":"C","text":"However, some consumers still prefer SUVs over sedans."},
-        {"letter":"D","text":"The first car was invented in the late 19th century."},
-        {"letter":"E","text":"Solar panels can also reduce household energy costs."}
+        {
+          "letter": "A",
+          "text": "Gasoline prices have fluctuated significantly this year."
+        },
+        {
+          "letter": "B",
+          "text": "These developments suggest that electric vehicles may soon become the mainstream mode of transport."
+        },
+        {
+          "letter": "C",
+          "text": "However, some consumers still prefer SUVs over sedans."
+        },
+        {
+          "letter": "D",
+          "text": "The first car was invented in the late 19th century."
+        },
+        {
+          "letter": "E",
+          "text": "Solar panels can also reduce household energy costs."
+        }
       ],
       "correct_answer": "B",
       "explanation": "The paragraph describes multiple positive trends for EVs (battery, infrastructure). The concluding sentence should synthesize these points and state the main implication → **B: 'These developments suggest EVs may become mainstream'** ✓.",
-      "hints": ["The paragraph ends — what kind of sentence usually closes a paragraph?", "'These developments' refers to all points mentioned before.", "A concluding sentence synthesizes the supporting details."]
+      "hints": [
+        "The paragraph ends — what kind of sentence usually closes a paragraph?",
+        "'These developments' refers to all points mentioned before.",
+        "A concluding sentence synthesizes the supporting details."
+      ]
     },
     {
-      "id": "pcs_medium_2", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "medium",
+      "id": "pcs_medium_2",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "medium",
       "question_text": "Paragraph: '(1) Air pollution poses serious health risks. (2) It can lead to respiratory diseases, cardiovascular complications, and premature death. (3) Children and the elderly are particularly vulnerable to its effects. (4) _____ (5) Governments must therefore implement stricter emission controls.'\n\nWhich sentence best fills blank (4)?",
       "options": [
-        {"letter":"A","text":"For instance, particulate matter from vehicle emissions penetrates deep into lung tissue."},
-        {"letter":"B","text":"However, outdoor activities are still popular in most cities."},
-        {"letter":"C","text":"On the other hand, indoor air quality has improved."},
-        {"letter":"D","text":"The invention of the automobile transformed urban planning."},
-        {"letter":"E","text":"Nevertheless, many people continue to drive gasoline cars."}
+        {
+          "letter": "A",
+          "text": "For instance, particulate matter from vehicle emissions penetrates deep into lung tissue."
+        },
+        {
+          "letter": "B",
+          "text": "However, outdoor activities are still popular in most cities."
+        },
+        {
+          "letter": "C",
+          "text": "On the other hand, indoor air quality has improved."
+        },
+        {
+          "letter": "D",
+          "text": "The invention of the automobile transformed urban planning."
+        },
+        {
+          "letter": "E",
+          "text": "Nevertheless, many people continue to drive gasoline cars."
+        }
       ],
       "correct_answer": "A",
       "explanation": "Sentences 2&3 describe health effects generally. Sentence 5 calls for policy action. Sentence 4 should provide a **specific example supporting the health risks** before the conclusion. **A provides a specific example** of how pollution harms health ✓.",
-      "hints": ["What's between general-effects (S2,S3) and the conclusion (S5)?", "A specific example (for instance) supports the general claims.", "Option A: 'For instance...' provides a specific supporting example."]
+      "hints": [
+        "What's between general-effects (S2,S3) and the conclusion (S5)?",
+        "A specific example (for instance) supports the general claims.",
+        "Option A: 'For instance...' provides a specific supporting example."
+      ]
     },
     {
-      "id": "pcs_medium_3", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "medium",
+      "id": "pcs_medium_3",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "medium",
       "question_text": "Which transition correctly completes: 'Online education offers flexibility and cost savings; _____, critics argue it lacks the engagement and social interaction of traditional classrooms.'",
-      "options": [{"letter":"A","text":"nevertheless"},{"letter":"B","text":"therefore"},{"letter":"C","text":"consequently"},{"letter":"D","text":"furthermore"},{"letter":"E","text":"similarly"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "nevertheless"
+        },
+        {
+          "letter": "B",
+          "text": "therefore"
+        },
+        {
+          "letter": "C",
+          "text": "consequently"
+        },
+        {
+          "letter": "D",
+          "text": "furthermore"
+        },
+        {
+          "letter": "E",
+          "text": "similarly"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "The first clause describes advantages. After the semicolon, the sentence switches to critics' objections — a contrast. **Nevertheless** (= despite this) introduces the opposing point ✓.",
-      "hints": ["First part: benefits. Second part: critics' objections = opposite direction.", "A contrast connector is needed after the semicolon.", "Nevertheless = despite those benefits, critics argue..."]
+      "hints": [
+        "First part: benefits. Second part: critics' objections = opposite direction.",
+        "A contrast connector is needed after the semicolon.",
+        "Nevertheless = despite those benefits, critics argue..."
+      ]
     },
     {
-      "id": "pcs_medium_4", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "medium",
+      "id": "pcs_medium_4",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "medium",
       "question_text": "Which ordering is most logical? \nA. Studies have confirmed its health benefits. \nB. For centuries, green tea has been popular in Asian cultures. \nC. It contains antioxidants that protect cells from damage. \nD. Furthermore, regular consumption is linked to reduced risk of heart disease. \nE. As a result, green tea is increasingly recommended by nutritionists worldwide.",
       "options": [
-        {"letter":"A","text":"B → A → C → D → E"},
-        {"letter":"B","text":"A → B → C → D → E"},
-        {"letter":"C","text":"C → B → A → E → D"},
-        {"letter":"D","text":"E → D → C → A → B"},
-        {"letter":"E","text":"B → C → A → D → E"}
+        {
+          "letter": "A",
+          "text": "B → A → C → D → E"
+        },
+        {
+          "letter": "B",
+          "text": "A → B → C → D → E"
+        },
+        {
+          "letter": "C",
+          "text": "C → B → A → E → D"
+        },
+        {
+          "letter": "D",
+          "text": "E → D → C → A → B"
+        },
+        {
+          "letter": "E",
+          "text": "B → C → A → D → E"
+        }
       ],
       "correct_answer": "A",
       "explanation": "Logical flow:\nB: introduce topic (history/context) → A: studies confirm benefits (general) → C: specific benefit (antioxidants) → D: additional benefit (heart disease) using 'furthermore' → E: conclusion using 'as a result'.\nOrder: **B → A → C → D → E** ✓",
-      "hints": ["Start with background/introduction (B: centuries of history).", "'Furthermore' (D) adds to antioxidant point (C).", "'As a result' (E) concludes from all the evidence."]
+      "hints": [
+        "Start with background/introduction (B: centuries of history).",
+        "'Furthermore' (D) adds to antioxidant point (C).",
+        "'As a result' (E) concludes from all the evidence."
+      ]
     },
     {
-      "id": "pcs_medium_5", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "medium",
+      "id": "pcs_medium_5",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "medium",
       "question_text": "Choose the MOST appropriate concluding sentence for: 'Social media has revolutionized communication by enabling real-time information sharing globally. It has also empowered marginalized communities to amplify their voices. Despite these benefits, concerns about privacy and mental health continue to grow.'",
       "options": [
-        {"letter":"A","text":"Social media platforms earn billions in annual revenue."},
-        {"letter":"B","text":"Balanced regulation may be necessary to preserve social media's benefits while mitigating its harms."},
-        {"letter":"C","text":"Mark Zuckerberg founded Facebook in 2004."},
-        {"letter":"D","text":"Many people use social media for entertainment purposes."},
-        {"letter":"E","text":"Therefore, social media should be banned immediately."}
+        {
+          "letter": "A",
+          "text": "Social media platforms earn billions in annual revenue."
+        },
+        {
+          "letter": "B",
+          "text": "Balanced regulation may be necessary to preserve social media's benefits while mitigating its harms."
+        },
+        {
+          "letter": "C",
+          "text": "Mark Zuckerberg founded Facebook in 2004."
+        },
+        {
+          "letter": "D",
+          "text": "Many people use social media for entertainment purposes."
+        },
+        {
+          "letter": "E",
+          "text": "Therefore, social media should be banned immediately."
+        }
       ],
       "correct_answer": "B",
       "explanation": "The paragraph presents both benefits and concerns of social media. A balanced conclusion should **address both aspects** and suggest a reasonable path forward. **B: 'Balanced regulation...'** directly synthesizes both sides ✓.\n\nE is too extreme. A, C, D don't address the paragraph's content.",
-      "hints": ["The paragraph covers benefits AND concerns — a good conclusion addresses both.", "A concluding sentence should synthesize, not introduce new info.", "Balanced regulation addresses both the benefits and the harms."]
+      "hints": [
+        "The paragraph covers benefits AND concerns — a good conclusion addresses both.",
+        "A concluding sentence should synthesize, not introduce new info.",
+        "Balanced regulation addresses both the benefits and the harms."
+      ]
     },
     {
-      "id": "pcs_medium_6", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "medium",
+      "id": "pcs_medium_6",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "medium",
       "question_text": "Identify the transition error: 'The company's sales dropped by 30%. Furthermore, it decided to expand its marketing budget to address the decline.'",
       "options": [
-        {"letter":"A","text":"'Furthermore' should be 'Therefore' — the decision is a RESULT of the drop, not an addition."},
-        {"letter":"B","text":"'Furthermore' is correct because it adds information."},
-        {"letter":"C","text":"The sentence needs 'However' to show contrast."},
-        {"letter":"D","text":"No error — the paragraph is logically sound."},
-        {"letter":"E","text":"'Consequently' should replace 'marketing budget'."}
+        {
+          "letter": "A",
+          "text": "'Furthermore' should be 'Therefore' — the decision is a RESULT of the drop, not an addition."
+        },
+        {
+          "letter": "B",
+          "text": "'Furthermore' is correct because it adds information."
+        },
+        {
+          "letter": "C",
+          "text": "The sentence needs 'However' to show contrast."
+        },
+        {
+          "letter": "D",
+          "text": "No error — the paragraph is logically sound."
+        },
+        {
+          "letter": "E",
+          "text": "'Consequently' should replace 'marketing budget'."
+        }
       ],
       "correct_answer": "A",
       "explanation": "'Furthermore' adds more similar information. But here, the second sentence is a **response/effect** of the first (sales dropped → they expanded marketing). The correct connector is **Therefore** (cause-effect). 'Furthermore' implies both are similar additions — they're not.",
-      "hints": ["Does sentence 2 ADD to sentence 1, or is it a RESULT of sentence 1?", "Sales drop → expand marketing = cause → response/result.", "Therefore is the correct connector. Furthermore is wrong here."]
+      "hints": [
+        "Does sentence 2 ADD to sentence 1, or is it a RESULT of sentence 1?",
+        "Sales drop → expand marketing = cause → response/result.",
+        "Therefore is the correct connector. Furthermore is wrong here."
+      ]
     },
     {
-      "id": "pcs_medium_7", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "medium",
+      "id": "pcs_medium_7",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "medium",
       "question_text": "A paragraph about climate change contains this sentence: 'My brother-in-law drives a red pickup truck.' This sentence is problematic because:",
       "options": [
-        {"letter":"A","text":"It uses first-person perspective"},
-        {"letter":"B","text":"It is irrelevant to the topic and disrupts cohesion"},
-        {"letter":"C","text":"It is too specific to be included"},
-        {"letter":"D","text":"It should be the topic sentence"},
-        {"letter":"E","text":"It introduces a counter-argument"}
+        {
+          "letter": "A",
+          "text": "It uses first-person perspective"
+        },
+        {
+          "letter": "B",
+          "text": "It is irrelevant to the topic and disrupts cohesion"
+        },
+        {
+          "letter": "C",
+          "text": "It is too specific to be included"
+        },
+        {
+          "letter": "D",
+          "text": "It should be the topic sentence"
+        },
+        {
+          "letter": "E",
+          "text": "It introduces a counter-argument"
+        }
       ],
       "correct_answer": "B",
       "explanation": "The sentence has no connection to climate change — it's a personal detail about an unrelated topic. It **violates unity** (one main idea per paragraph) and disrupts coherence. → **Irrelevant and disrupts cohesion** ✓.",
-      "hints": ["Is a red pickup truck relevant to a climate change paragraph?", "A paragraph must have unity — one main idea.", "The sentence is completely off-topic."]
+      "hints": [
+        "Is a red pickup truck relevant to a climate change paragraph?",
+        "A paragraph must have unity — one main idea.",
+        "The sentence is completely off-topic."
+      ]
     },
     {
-      "id": "pcs_medium_8", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "medium",
+      "id": "pcs_medium_8",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "medium",
       "question_text": "Which connector correctly links these ideas: 'The research was conducted over several years. _____, the sample size remained small.'",
-      "options": [{"letter":"A","text":"Nevertheless"},{"letter":"B","text":"Moreover"},{"letter":"C","text":"As a result"},{"letter":"D","text":"For instance"},{"letter":"E","text":"Subsequently"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nevertheless"
+        },
+        {
+          "letter": "B",
+          "text": "Moreover"
+        },
+        {
+          "letter": "C",
+          "text": "As a result"
+        },
+        {
+          "letter": "D",
+          "text": "For instance"
+        },
+        {
+          "letter": "E",
+          "text": "Subsequently"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "'Conducted over several years' = significant effort/time. 'Sample size remained small' = a limitation. Despite the long duration, the sample was small — this is a contrast/concession. → **Nevertheless** ✓.",
-      "hints": ["Long research time vs. small sample = contrast.", "Despite X (years of research), Y (small sample) = concession/contrast.", "Nevertheless = despite this."]
+      "hints": [
+        "Long research time vs. small sample = contrast.",
+        "Despite X (years of research), Y (small sample) = concession/contrast.",
+        "Nevertheless = despite this."
+      ]
     },
     {
-      "id": "pcs_hard_1", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "hard",
+      "id": "pcs_hard_1",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "hard",
       "question_text": "Paragraph: '(1) The debate over nuclear energy is intensifying. (2) _____ (3) Opponents cite the risk of accidents and unresolved nuclear waste disposal. (4) Proponents, however, emphasize its low carbon emissions and high energy density. (5) A comprehensive energy policy must weigh these competing concerns.'\n\nWhich sentence BEST fills blank (2)?",
       "options": [
-        {"letter":"A","text":"Nuclear energy was first used during World War II."},
-        {"letter":"B","text":"Some countries, such as Germany, have chosen to phase it out entirely."},
-        {"letter":"C","text":"While some see it as a vital low-carbon energy source, others view it as an unacceptable risk."},
-        {"letter":"D","text":"Coal remains the most widely used energy source globally."},
-        {"letter":"E","text":"Furthermore, renewable energy is growing rapidly."}
+        {
+          "letter": "A",
+          "text": "Nuclear energy was first used during World War II."
+        },
+        {
+          "letter": "B",
+          "text": "Some countries, such as Germany, have chosen to phase it out entirely."
+        },
+        {
+          "letter": "C",
+          "text": "While some see it as a vital low-carbon energy source, others view it as an unacceptable risk."
+        },
+        {
+          "letter": "D",
+          "text": "Coal remains the most widely used energy source globally."
+        },
+        {
+          "letter": "E",
+          "text": "Furthermore, renewable energy is growing rapidly."
+        }
       ],
       "correct_answer": "C",
       "explanation": "Sentence 2 must bridge 'The debate is intensifying' (S1) and 'Opponents cite... Proponents emphasize...' (S3, S4). It should SET UP the two-sided debate. **C: 'While some see it as vital, others view it as a risk'** introduces both sides and logically connects S1 to S3/S4 ✓.",
-      "hints": ["S1=debate is intensifying. S3=opponents' view. S4=proponents' view.", "S2 should introduce BOTH sides before S3 and S4 detail them.", "C sets up the two-sided debate structure."]
+      "hints": [
+        "S1=debate is intensifying. S3=opponents' view. S4=proponents' view.",
+        "S2 should introduce BOTH sides before S3 and S4 detail them.",
+        "C sets up the two-sided debate structure."
+      ]
     },
     {
-      "id": "pcs_hard_2", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "hard",
+      "id": "pcs_hard_2",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "hard",
       "question_text": "Which of the following improvements would MOST strengthen the coherence of this paragraph? 'Digital literacy is increasingly important. Schools should teach it. Students need to know how to use computers. The internet is widely used.'",
       "options": [
-        {"letter":"A","text":"Add transition words connecting the sentences logically"},
-        {"letter":"B","text":"Replace 'computers' with 'laptops'"},
-        {"letter":"C","text":"Add more factual statistics about internet usage"},
-        {"letter":"D","text":"Move the last sentence to the beginning"},
-        {"letter":"E","text":"Remove sentence 3 about computers"}
+        {
+          "letter": "A",
+          "text": "Add transition words connecting the sentences logically"
+        },
+        {
+          "letter": "B",
+          "text": "Replace 'computers' with 'laptops'"
+        },
+        {
+          "letter": "C",
+          "text": "Add more factual statistics about internet usage"
+        },
+        {
+          "letter": "D",
+          "text": "Move the last sentence to the beginning"
+        },
+        {
+          "letter": "E",
+          "text": "Remove sentence 3 about computers"
+        }
       ],
       "correct_answer": "A",
       "explanation": "The paragraph has relevant content but no connective tissue — sentences are abruptly juxtaposed. Adding transitions (therefore, for example, moreover) would logically link the ideas and create coherence ✓.",
-      "hints": ["The ideas are related but abruptly placed. What links sentences together?", "Coherence = sentences flow logically into each other.", "Adding transition words is the most direct fix."]
+      "hints": [
+        "The ideas are related but abruptly placed. What links sentences together?",
+        "Coherence = sentences flow logically into each other.",
+        "Adding transition words is the most direct fix."
+      ]
     },
     {
-      "id": "pcs_hard_3", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "hard",
+      "id": "pcs_hard_3",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "hard",
       "question_text": "Identify which TWO transitions can be combined in this blank: 'The product initially failed to attract consumers. _____, after an aggressive rebranding campaign, sales improved significantly.'\n\nWhich options BOTH work?",
       "options": [
-        {"letter":"A","text":"However and Nevertheless"},
-        {"letter":"B","text":"Furthermore and Moreover"},
-        {"letter":"C","text":"Therefore and Consequently"},
-        {"letter":"D","text":"For example and For instance"},
-        {"letter":"E","text":"Similarly and Likewise"}
+        {
+          "letter": "A",
+          "text": "However and Nevertheless"
+        },
+        {
+          "letter": "B",
+          "text": "Furthermore and Moreover"
+        },
+        {
+          "letter": "C",
+          "text": "Therefore and Consequently"
+        },
+        {
+          "letter": "D",
+          "text": "For example and For instance"
+        },
+        {
+          "letter": "E",
+          "text": "Similarly and Likewise"
+        }
       ],
       "correct_answer": "A",
       "explanation": "Initial failure → after rebranding → improved = unexpected positive result AFTER initial failure. Both **However** (contrast) and **Nevertheless** (concession) work here to signal the unexpected turnaround.\n\n'However / Nevertheless,...after rebranding, sales improved.' Both correctly signal reversal ✓.",
-      "hints": ["Initial failure then success = a reversal/unexpected result.", "Which connectors signal reversal or contrast?", "However and Nevertheless both signal contrast/concession."]
+      "hints": [
+        "Initial failure then success = a reversal/unexpected result.",
+        "Which connectors signal reversal or contrast?",
+        "However and Nevertheless both signal contrast/concession."
+      ]
     },
     {
-      "id": "pcs_hard_4", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "hard",
+      "id": "pcs_hard_4",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "hard",
       "question_text": "Analyze the following and choose the answer that correctly describes the paragraph's structure:\n\n'Microplastics have been detected in virtually every ecosystem on Earth. They originate from the breakdown of larger plastic products and from microbeads in cosmetics. These particles are consumed by marine organisms, entering the food chain. Scientists are increasingly concerned about the implications for human health.'\n",
       "options": [
-        {"letter":"A","text":"Problem → Causes → Effect → Concern/implication"},
-        {"letter":"B","text":"Cause → Problem → Solution → Recommendation"},
-        {"letter":"C","text":"Claim → Counter-claim → Evidence → Conclusion"},
-        {"letter":"D","text":"History → Present state → Prediction → Warning"},
-        {"letter":"E","text":"Definition → Example → Analysis → Conclusion"}
+        {
+          "letter": "A",
+          "text": "Problem → Causes → Effect → Concern/implication"
+        },
+        {
+          "letter": "B",
+          "text": "Cause → Problem → Solution → Recommendation"
+        },
+        {
+          "letter": "C",
+          "text": "Claim → Counter-claim → Evidence → Conclusion"
+        },
+        {
+          "letter": "D",
+          "text": "History → Present state → Prediction → Warning"
+        },
+        {
+          "letter": "E",
+          "text": "Definition → Example → Analysis → Conclusion"
+        }
       ],
       "correct_answer": "A",
       "explanation": "S1: Problem (microplastics everywhere)\nS2: Causes (plastic breakdown + microbeads)\nS3: Effect (consumed by organisms, enter food chain)\nS4: Concern/implication (health concerns)\n\nStructure: **Problem → Causes → Effect → Concern** ✓",
-      "hints": ["Map each sentence: what role does it play?", "S1=problem, S2=causes, S3=effect, S4=implication.", "Problem → Causes → Effect → Concern/Implication."]
+      "hints": [
+        "Map each sentence: what role does it play?",
+        "S1=problem, S2=causes, S3=effect, S4=implication.",
+        "Problem → Causes → Effect → Concern/Implication."
+      ]
     },
     {
-      "id": "pcs_hard_5", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "hard",
+      "id": "pcs_hard_5",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "hard",
       "question_text": "An academic paragraph begins with 'Contrary to popular belief...' This signals that the paragraph will:",
       "options": [
-        {"letter":"A","text":"First state a common misconception, then correct it with evidence"},
-        {"letter":"B","text":"Summarize a well-accepted scientific fact"},
-        {"letter":"C","text":"Present two equally valid competing theories"},
-        {"letter":"D","text":"Begin with a definition before offering examples"},
-        {"letter":"E","text":"Provide historical background before modern analysis"}
+        {
+          "letter": "A",
+          "text": "First state a common misconception, then correct it with evidence"
+        },
+        {
+          "letter": "B",
+          "text": "Summarize a well-accepted scientific fact"
+        },
+        {
+          "letter": "C",
+          "text": "Present two equally valid competing theories"
+        },
+        {
+          "letter": "D",
+          "text": "Begin with a definition before offering examples"
+        },
+        {
+          "letter": "E",
+          "text": "Provide historical background before modern analysis"
+        }
       ],
       "correct_answer": "A",
       "explanation": "'Contrary to popular belief' = a rhetorical device signaling that what follows challenges a commonly held assumption. The paragraph will: (1) acknowledge the popular belief, (2) present evidence contradicting it, (3) conclude with the corrected understanding → **A** ✓.",
-      "hints": ["'Contrary to popular belief' = what most people think is WRONG.", "The paragraph will set up a misconception and then correct it.", "Answer: state a misconception, then correct it with evidence."]
+      "hints": [
+        "'Contrary to popular belief' = what most people think is WRONG.",
+        "The paragraph will set up a misconception and then correct it.",
+        "Answer: state a misconception, then correct it with evidence."
+      ]
     },
     {
-      "id": "pcs_hard_6", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "hard",
+      "id": "pcs_hard_6",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "hard",
       "question_text": "Which sentence BEST replaces the underlined one to improve cohesion? \n\nParagraph: 'Renewable energy adoption is accelerating. Solar panel efficiency has tripled since 2000. Wind energy capacity has grown exponentially in coastal regions. [**Many people enjoy outdoor activities in these regions.**] These technological gains have made renewables increasingly cost-competitive with fossil fuels.'",
       "options": [
-        {"letter":"A","text":"Meanwhile, battery storage technology has made intermittent energy sources more reliable."},
-        {"letter":"B","text":"In addition, solar energy is popular in tropical countries."},
-        {"letter":"C","text":"However, some regions still rely heavily on coal."},
-        {"letter":"D","text":"Renewable energy companies are headquartered in major cities."},
-        {"letter":"E","text":"Furthermore, wind turbines are now taller than ever before."}
+        {
+          "letter": "A",
+          "text": "Meanwhile, battery storage technology has made intermittent energy sources more reliable."
+        },
+        {
+          "letter": "B",
+          "text": "In addition, solar energy is popular in tropical countries."
+        },
+        {
+          "letter": "C",
+          "text": "However, some regions still rely heavily on coal."
+        },
+        {
+          "letter": "D",
+          "text": "Renewable energy companies are headquartered in major cities."
+        },
+        {
+          "letter": "E",
+          "text": "Furthermore, wind turbines are now taller than ever before."
+        }
       ],
       "correct_answer": "A",
       "explanation": "The bracketed sentence (about outdoor activities) is irrelevant. The paragraph discusses renewable energy technology improvements. The replacement should maintain that focus. **A: 'battery storage technology has made intermittent sources more reliable'** adds another relevant technological advancement ✓.",
-      "hints": ["The underlined sentence is off-topic. Replace with something relevant.", "The paragraph lists technology improvements.", "Battery storage is another renewable energy technology development — fits perfectly."]
+      "hints": [
+        "The underlined sentence is off-topic. Replace with something relevant.",
+        "The paragraph lists technology improvements.",
+        "Battery storage is another renewable energy technology development — fits perfectly."
+      ]
     },
     {
-      "id": "pcs_hard_7", "subject": "English", "topic": "Paragraph Cohesion and Structure", "difficulty": "hard",
+      "id": "pcs_hard_7",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "hard",
       "question_text": "In an argumentative essay, a 'concession-refutation' structure means:",
       "options": [
-        {"letter":"A","text":"The author agrees with the opposing view and abandons their argument"},
-        {"letter":"B","text":"The author acknowledges a point against their argument but then refutes it"},
-        {"letter":"C","text":"The author gives examples before stating the main claim"},
-        {"letter":"D","text":"The author concedes defeat at the end of the essay"},
-        {"letter":"E","text":"The author uses only statistics to support their argument"}
+        {
+          "letter": "A",
+          "text": "The author agrees with the opposing view and abandons their argument"
+        },
+        {
+          "letter": "B",
+          "text": "The author acknowledges a point against their argument but then refutes it"
+        },
+        {
+          "letter": "C",
+          "text": "The author gives examples before stating the main claim"
+        },
+        {
+          "letter": "D",
+          "text": "The author concedes defeat at the end of the essay"
+        },
+        {
+          "letter": "E",
+          "text": "The author uses only statistics to support their argument"
+        }
       ],
       "correct_answer": "B",
       "explanation": "Concession-refutation = first acknowledge that the opposing side has a valid point ('Admittedly, X is true...'), then respond with a stronger counter-point ('However, this does not account for...'). This structure strengthens the argument by showing the author knows the other side but has a better response ✓.",
-      "hints": ["Concession = admitting something is true. Refutation = proving it doesn't undermine your argument.", "Pattern: 'Admittedly X... However Y is stronger.'", "Answer: acknowledge opposing point, then refute it."]
+      "hints": [
+        "Concession = admitting something is true. Refutation = proving it doesn't undermine your argument.",
+        "Pattern: 'Admittedly X... However Y is stronger.'",
+        "Answer: acknowledge opposing point, then refute it."
+      ]
+    },
+    {
+      "id": "para_extra_24",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "easy",
+      "question_text": "Choose the connector: 'He trained for six months. _____, he won the competition.' (Variant 24)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "On the other hand"
+        },
+        {
+          "letter": "B",
+          "text": "In contrast"
+        },
+        {
+          "letter": "C",
+          "text": "Nevertheless"
+        },
+        {
+          "letter": "D",
+          "text": "As a result"
+        },
+        {
+          "letter": "E",
+          "text": "Although"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Training → winning = cause → effect. **As a result** shows the effect of the training → ✓.",
+      "hints": [
+        "Training caused him to win — cause → effect relationship.",
+        "As a result = showing effect/consequence.",
+        "Answer: As a result."
+      ]
+    },
+    {
+      "id": "para_extra_25",
+      "subject": "English",
+      "topic": "Paragraph Cohesion and Structure",
+      "difficulty": "medium",
+      "question_text": "Which sentence does NOT belong in a paragraph about the benefits of reading?\n5. Reading improves vocabulary.\n5. It enhances critical thinking.\n8. The library will close early on Sundays.\n5. Regular reading reduces stress.\n6. It also broadens one's world view. (Variant 25)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 4"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "D",
+          "text": "Sentence 5"
+        },
+        {
+          "letter": "E",
+          "text": "Sentence 3"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "All sentences except #3 relate to **benefits of reading**. Sentence 3 about library closing hours is a completely off-topic detail → **Sentence 3** should be removed.",
+      "hints": [
+        "Find the sentence that doesn't relate to 'benefits of reading'.",
+        "Library closing hours have nothing to do with benefits.",
+        "Sentence 3."
+      ]
     }
   ]
 }

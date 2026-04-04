@@ -3,13 +3,34 @@
   "topic": "Sequences and Series",
   "introduction": "A sequence is an ordered list of numbers following a rule. An arithmetic sequence has a constant difference (d) between terms; a geometric sequence has a constant ratio (r). Series are the sums of sequences. Mastering the formulas for the nth term and sum of n terms is essential for SIMAK.",
   "key_formulas": [
-    {"name": "Arithmetic nth term", "formula": "a_n = a_1 + (n-1)d"},
-    {"name": "Arithmetic Sum", "formula": "S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{n}{2}(2a_1 + (n-1)d)"},
-    {"name": "Geometric nth term", "formula": "a_n = a_1 \\cdot r^{n-1}"},
-    {"name": "Geometric Sum (r≠1)", "formula": "S_n = a_1 \\cdot \\frac{r^n - 1}{r - 1}"},
-    {"name": "Infinite Geometric Sum (|r|<1)", "formula": "S_\\infty = \\frac{a_1}{1 - r}"},
-    {"name": "Arithmetic Mean", "formula": "b = \\frac{a + c}{2} \\text{ (middle term)}"},
-    {"name": "Geometric Mean", "formula": "b = \\sqrt{ac} \\text{ (middle term)}"}
+    {
+      "name": "Arithmetic nth term",
+      "formula": "a_n = a_1 + (n-1)d"
+    },
+    {
+      "name": "Arithmetic Sum",
+      "formula": "S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{n}{2}(2a_1 + (n-1)d)"
+    },
+    {
+      "name": "Geometric nth term",
+      "formula": "a_n = a_1 \\cdot r^{n-1}"
+    },
+    {
+      "name": "Geometric Sum (r≠1)",
+      "formula": "S_n = a_1 \\cdot \\frac{r^n - 1}{r - 1}"
+    },
+    {
+      "name": "Infinite Geometric Sum (|r|<1)",
+      "formula": "S_\\infty = \\frac{a_1}{1 - r}"
+    },
+    {
+      "name": "Arithmetic Mean",
+      "formula": "b = \\frac{a + c}{2} \\text{ (middle term)}"
+    },
+    {
+      "name": "Geometric Mean",
+      "formula": "b = \\sqrt{ac} \\text{ (middle term)}"
+    }
   ],
   "tips_and_tricks": [
     "For arithmetic: common difference d = a₂ - a₁ = a₃ - a₂ (constant difference).",
@@ -46,196 +67,904 @@
   ],
   "questions": [
     {
-      "id": "ss_easy_1", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "easy",
+      "id": "ss_easy_1",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "easy",
       "question_text": "Find the 10th term of the arithmetic sequence: 3, 7, 11, 15, ...",
-      "options": [{"letter":"A","text":"39"},{"letter":"B","text":"41"},{"letter":"C","text":"43"},{"letter":"D","text":"37"},{"letter":"E","text":"45"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "39"
+        },
+        {
+          "letter": "B",
+          "text": "41"
+        },
+        {
+          "letter": "C",
+          "text": "43"
+        },
+        {
+          "letter": "D",
+          "text": "37"
+        },
+        {
+          "letter": "E",
+          "text": "45"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Formula: aₙ = a₁ + (n-1)d**\n\na₁ = 3, d = 7-3 = 4, n = 10\na₁₀ = 3 + (10-1)×4 = 3 + 36 = **39**",
-      "hints": ["Identify d = difference between consecutive terms.", "d = 7 - 3 = 4. Use aₙ = a₁ + (n-1)d.", "a₁₀ = 3 + 9×4 = 3 + 36 = 39."]
+      "hints": [
+        "Identify d = difference between consecutive terms.",
+        "d = 7 - 3 = 4. Use aₙ = a₁ + (n-1)d.",
+        "a₁₀ = 3 + 9×4 = 3 + 36 = 39."
+      ]
     },
     {
-      "id": "ss_easy_2", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "easy",
+      "id": "ss_easy_2",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "easy",
       "question_text": "What is the sum of the first 10 terms of 2 + 5 + 8 + 11 + ...?",
-      "options": [{"letter":"A","text":"155"},{"letter":"B","text":"145"},{"letter":"C","text":"160"},{"letter":"D","text":"150"},{"letter":"E","text":"140"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "155"
+        },
+        {
+          "letter": "B",
+          "text": "145"
+        },
+        {
+          "letter": "C",
+          "text": "160"
+        },
+        {
+          "letter": "D",
+          "text": "150"
+        },
+        {
+          "letter": "E",
+          "text": "140"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Arithmetic Sum: Sₙ = n/2 × (2a₁ + (n-1)d)**\n\na₁=2, d=3, n=10\nS₁₀ = 10/2 × (2(2) + 9(3)) = 5 × (4+27) = 5 × 31 = **155**",
-      "hints": ["Identify a₁=2, d=3, n=10.", "Use Sₙ = n/2 × (2a₁ + (n-1)d).", "S₁₀ = 5 × (4 + 27) = 5 × 31 = 155."]
+      "hints": [
+        "Identify a₁=2, d=3, n=10.",
+        "Use Sₙ = n/2 × (2a₁ + (n-1)d).",
+        "S₁₀ = 5 × (4 + 27) = 5 × 31 = 155."
+      ]
     },
     {
-      "id": "ss_easy_3", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "easy",
+      "id": "ss_easy_3",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "easy",
       "question_text": "Find the 6th term of the geometric sequence: 3, 6, 12, 24, ...",
-      "options": [{"letter":"A","text":"96"},{"letter":"B","text":"64"},{"letter":"C","text":"128"},{"letter":"D","text":"48"},{"letter":"E","text":"192"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "96"
+        },
+        {
+          "letter": "B",
+          "text": "64"
+        },
+        {
+          "letter": "C",
+          "text": "128"
+        },
+        {
+          "letter": "D",
+          "text": "48"
+        },
+        {
+          "letter": "E",
+          "text": "192"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Formula: aₙ = a₁ × rⁿ⁻¹**\n\na₁=3, r = 6/3 = 2, n=6\na₆ = 3 × 2⁵ = 3 × 32 = **96**",
-      "hints": ["Find r = second term / first term = 6/3 = 2.", "Formula: aₙ = a₁ × rⁿ⁻¹.", "a₆ = 3 × 2⁵ = 3 × 32 = 96."]
+      "hints": [
+        "Find r = second term / first term = 6/3 = 2.",
+        "Formula: aₙ = a₁ × rⁿ⁻¹.",
+        "a₆ = 3 × 2⁵ = 3 × 32 = 96."
+      ]
     },
     {
-      "id": "ss_easy_4", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "easy",
+      "id": "ss_easy_4",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "easy",
       "question_text": "An arithmetic sequence has a₁ = 5 and a₅ = 17. Find the common difference d.",
-      "options": [{"letter":"A","text":"2"},{"letter":"B","text":"3"},{"letter":"C","text":"4"},{"letter":"D","text":"12"},{"letter":"E","text":"6"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "2"
+        },
+        {
+          "letter": "B",
+          "text": "3"
+        },
+        {
+          "letter": "C",
+          "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "12"
+        },
+        {
+          "letter": "E",
+          "text": "6"
+        }
+      ],
       "correct_answer": "B",
       "explanation": "**Using aₙ = a₁ + (n-1)d:**\n\na₅ = a₁ + 4d\n17 = 5 + 4d\n4d = 12\n**d = 3**",
-      "hints": ["Use a₅ = a₁ + 4d.", "17 = 5 + 4d → 4d = 12.", "d = 3."]
+      "hints": [
+        "Use a₅ = a₁ + 4d.",
+        "17 = 5 + 4d → 4d = 12.",
+        "d = 3."
+      ]
     },
     {
-      "id": "ss_easy_5", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "easy",
+      "id": "ss_easy_5",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "easy",
       "question_text": "Find the infinite sum of: 1 + 1/2 + 1/4 + 1/8 + ...",
-      "options": [{"letter":"A","text":"2"},{"letter":"B","text":"1"},{"letter":"C","text":"3"},{"letter":"D","text":"1/2"},{"letter":"E","text":"4"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "2"
+        },
+        {
+          "letter": "B",
+          "text": "1"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "1/2"
+        },
+        {
+          "letter": "E",
+          "text": "4"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Infinite Geometric Sum: S∞ = a₁/(1-r)**\n\na₁=1, r=1/2 (since |r|<1, converges)\nS∞ = 1/(1-1/2) = 1/(1/2) = **2**",
-      "hints": ["Identify a₁=1 and r=1/2.", "Since |r|=1/2 < 1, the series converges.", "S∞ = 1/(1-1/2) = 2."]
+      "hints": [
+        "Identify a₁=1 and r=1/2.",
+        "Since |r|=1/2 < 1, the series converges.",
+        "S∞ = 1/(1-1/2) = 2."
+      ]
     },
     {
-      "id": "ss_easy_6", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "easy",
+      "id": "ss_easy_6",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "easy",
       "question_text": "What is the 20th term of the arithmetic sequence with a₁ = 100 and d = -3?",
-      "options": [{"letter":"A","text":"43"},{"letter":"B","text":"40"},{"letter":"C","text":"46"},{"letter":"D","text":"37"},{"letter":"E","text":"55"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "43"
+        },
+        {
+          "letter": "B",
+          "text": "40"
+        },
+        {
+          "letter": "C",
+          "text": "46"
+        },
+        {
+          "letter": "D",
+          "text": "37"
+        },
+        {
+          "letter": "E",
+          "text": "55"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**aₙ = a₁ + (n-1)d**\n\na₂₀ = 100 + (19)(-3) = 100 - 57 = **43**",
-      "hints": ["d is negative (-3), so the sequence is decreasing.", "a₂₀ = 100 + 19 × (-3).", "100 - 57 = 43."]
+      "hints": [
+        "d is negative (-3), so the sequence is decreasing.",
+        "a₂₀ = 100 + 19 × (-3).",
+        "100 - 57 = 43."
+      ]
     },
     {
-      "id": "ss_easy_7", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "easy",
+      "id": "ss_easy_7",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "easy",
       "question_text": "The sum of the first n natural numbers is 190. Find n.",
-      "options": [{"letter":"A","text":"19"},{"letter":"B","text":"20"},{"letter":"C","text":"18"},{"letter":"D","text":"21"},{"letter":"E","text":"15"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "19"
+        },
+        {
+          "letter": "B",
+          "text": "20"
+        },
+        {
+          "letter": "C",
+          "text": "18"
+        },
+        {
+          "letter": "D",
+          "text": "21"
+        },
+        {
+          "letter": "E",
+          "text": "15"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Sum of first n naturals: n(n+1)/2 = 190**\n\nn(n+1) = 380\nn² + n - 380 = 0\n(n-19)(n+20) = 0\n**n = 19** (taking positive)",
-      "hints": ["Formula: S = n(n+1)/2. Set equal to 190.", "n(n+1) = 380. Factor or use quadratic formula.", "(n-19)(n+20) = 0 → n = 19."]
+      "hints": [
+        "Formula: S = n(n+1)/2. Set equal to 190.",
+        "n(n+1) = 380. Factor or use quadratic formula.",
+        "(n-19)(n+20) = 0 → n = 19."
+      ]
     },
     {
-      "id": "ss_easy_8", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "easy",
+      "id": "ss_easy_8",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "easy",
       "question_text": "Insert 3 arithmetic means between 4 and 20. What is the second inserted term?",
-      "options": [{"letter":"A","text":"8"},{"letter":"B","text":"12"},{"letter":"C","text":"16"},{"letter":"D","text":"10"},{"letter":"E","text":"14"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "8"
+        },
+        {
+          "letter": "B",
+          "text": "12"
+        },
+        {
+          "letter": "C",
+          "text": "16"
+        },
+        {
+          "letter": "D",
+          "text": "10"
+        },
+        {
+          "letter": "E",
+          "text": "14"
+        }
+      ],
       "correct_answer": "B",
       "explanation": "**Inserting n means creates n+2 terms total.**\n\nSequence: 4, _, _, _, 20 (5 terms)\na₁=4, a₅=20, n=5\nd = (20-4)/(5-1) = 16/4 = 4\n\nTerms: 4, 8, **12**, 16, 20\nSecond inserted term = **12**",
-      "hints": ["3 means + 2 endpoints = 5 terms. Find d.", "d = (20-4)/(5-1) = 4.", "Sequence: 4, 8, 12, 16, 20. Second inserted is 12."]
+      "hints": [
+        "3 means + 2 endpoints = 5 terms. Find d.",
+        "d = (20-4)/(5-1) = 4.",
+        "Sequence: 4, 8, 12, 16, 20. Second inserted is 12."
+      ]
     },
     {
-      "id": "ss_medium_1", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "medium",
+      "id": "ss_medium_1",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
       "question_text": "In an arithmetic sequence, S₁₀ = 145 and S₅ = 35. Find a₆.",
-      "options": [{"letter":"A","text":"22"},{"letter":"B","text":"25"},{"letter":"C","text":"19"},{"letter":"D","text":"18"},{"letter":"E","text":"21"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "22"
+        },
+        {
+          "letter": "B",
+          "text": "25"
+        },
+        {
+          "letter": "C",
+          "text": "19"
+        },
+        {
+          "letter": "D",
+          "text": "18"
+        },
+        {
+          "letter": "E",
+          "text": "21"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Key insight: a₆ + a₇ + ... + a₁₀ = S₁₀ - S₅**\n\nS₁₀ - S₅ = 145 - 35 = 110\nThis is 5 terms from a₆ to a₁₀.\nAverage = 110/5 = 22\nThe middle term of a₆ to a₁₀ is a₈. But we need a₆.\n\nS₅ = 35 = 5/2(2a₁+4d) → 2a₁+4d = 14 → a₁+2d = 7 → a₃ = 7\nS₁₀ = 145 = 10/2(2a₁+9d) → 2a₁+9d = 29\nSubtract: 5d = 15 → d = 3, a₁ = 1\na₆ = 1 + 5(3) = **16**... let me recompute. a₆ = a₁ + 5d = 1 + 15 = 16. Hmm answer A is 22. Let me recheck S₅=35: 5/2(2+9×3... no. With a₁=1 d=3: S₅ = 5/2(2+16)=5/2×18=45≠35. Retry: 2a₁+4d=14, 2a₁+9d=29, so 5d=15, d=3, a₁=(14-12)/2=1. a₆=1+15=16.",
-      "hints": ["Set up two equations using Sₙ = n/2(2a₁+(n-1)d).", "From S₅=35: 2a₁+4d=14. From S₁₀=145: 2a₁+9d=29.", "Solve: d=3, a₁=1. Then a₆ = 1+5(3) = 16."]
+      "hints": [
+        "Set up two equations using Sₙ = n/2(2a₁+(n-1)d).",
+        "From S₅=35: 2a₁+4d=14. From S₁₀=145: 2a₁+9d=29.",
+        "Solve: d=3, a₁=1. Then a₆ = 1+5(3) = 16."
+      ]
     },
     {
-      "id": "ss_medium_2", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "medium",
+      "id": "ss_medium_2",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
       "question_text": "The sum of first n terms of a series is Sₙ = 3n² + 2n. Find the 10th term.",
-      "options": [{"letter":"A","text":"59"},{"letter":"B","text":"62"},{"letter":"C","text":"57"},{"letter":"D","text":"61"},{"letter":"E","text":"55"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "59"
+        },
+        {
+          "letter": "B",
+          "text": "62"
+        },
+        {
+          "letter": "C",
+          "text": "57"
+        },
+        {
+          "letter": "D",
+          "text": "61"
+        },
+        {
+          "letter": "E",
+          "text": "55"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**aₙ = Sₙ - Sₙ₋₁ (for n ≥ 2)**\n\nS₁₀ = 3(100) + 2(10) = 320\nS₉ = 3(81) + 2(9) = 243 + 18 = 261\na₁₀ = S₁₀ - S₉ = 320 - 261 = **59**",
-      "hints": ["The nth term = Sₙ - Sₙ₋₁.", "Calculate S₁₀ = 3(100) + 20 = 320 and S₉ = 3(81) + 18 = 261.", "a₁₀ = 320 - 261 = 59."]
+      "hints": [
+        "The nth term = Sₙ - Sₙ₋₁.",
+        "Calculate S₁₀ = 3(100) + 20 = 320 and S₉ = 3(81) + 18 = 261.",
+        "a₁₀ = 320 - 261 = 59."
+      ]
     },
     {
-      "id": "ss_medium_3", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "medium",
+      "id": "ss_medium_3",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
       "question_text": "How many terms of the arithmetic sequence 4, 11, 18, ... must be taken to give a sum of 1092?",
-      "options": [{"letter":"A","text":"16"},{"letter":"B","text":"14"},{"letter":"C","text":"18"},{"letter":"D","text":"12"},{"letter":"E","text":"20"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "16"
+        },
+        {
+          "letter": "B",
+          "text": "14"
+        },
+        {
+          "letter": "C",
+          "text": "18"
+        },
+        {
+          "letter": "D",
+          "text": "12"
+        },
+        {
+          "letter": "E",
+          "text": "20"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Sₙ = n/2(2a₁ + (n-1)d) = 1092**\n\na₁=4, d=7\nn/2(8 + 7(n-1)) = 1092\nn(7n + 1) = 2184\n7n² + n - 2184 = 0\nn = (-1 ± √(1 + 4×7×2184)) / 14 = (-1 ± √61153) / 14 ≈ (-1 + 247.3)/14 ≈ 17.6\n\nTesting n=16: S₁₆ = 8(8 + 105) = 8×113 = 904. Testing n=17: S₁₇ = 17/2(8+112) = 17/2×120=1020.\nS₁₆ = 8(8+7×15)= 8×113=904. S₁₇=17/2×(8+112)=1020. S₁₈=9(8+119)=9×127=1143. None give 1092 exactly. n=16 is closest.",
-      "hints": ["Set up Sₙ = n/2(2a₁+(n-1)d) = 1092 and solve for n.", "With a₁=4, d=7: n/2(8+7n-7) = n/2(7n+1) = 1092.", "Solving 7n²+n-2184=0 gives n≈16."]
+      "hints": [
+        "Set up Sₙ = n/2(2a₁+(n-1)d) = 1092 and solve for n.",
+        "With a₁=4, d=7: n/2(8+7n-7) = n/2(7n+1) = 1092.",
+        "Solving 7n²+n-2184=0 gives n≈16."
+      ]
     },
     {
-      "id": "ss_medium_4", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "medium",
+      "id": "ss_medium_4",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
       "question_text": "Three numbers are in arithmetic sequence. Their sum is 18 and their product is 162. Find the largest number.",
-      "options": [{"letter":"A","text":"9"},{"letter":"B","text":"6"},{"letter":"C","text":"12"},{"letter":"D","text":"15"},{"letter":"E","text":"3"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "9"
+        },
+        {
+          "letter": "B",
+          "text": "6"
+        },
+        {
+          "letter": "C",
+          "text": "12"
+        },
+        {
+          "letter": "D",
+          "text": "15"
+        },
+        {
+          "letter": "E",
+          "text": "3"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Let three terms be (a-d), a, (a+d)**\n\nSum: (a-d) + a + (a+d) = 3a = 18 → **a = 6**\nProduct: (a-d)(a)(a+d) = a(a²-d²) = 162\n6(36-d²) = 162\n36-d² = 27 → d² = 9 → d = 3\n\nThe three numbers are 3, 6, 9. Largest is **9**.",
-      "hints": ["Let the three terms be a-d, a, a+d. Their sum simplifies nicely.", "Sum = 3a = 18 → a = 6.", "Product: 6(36-d²) = 162 → d² = 9 → d = ±3. Largest = 6+3 = 9."]
+      "hints": [
+        "Let the three terms be a-d, a, a+d. Their sum simplifies nicely.",
+        "Sum = 3a = 18 → a = 6.",
+        "Product: 6(36-d²) = 162 → d² = 9 → d = ±3. Largest = 6+3 = 9."
+      ]
     },
     {
-      "id": "ss_medium_5", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "medium",
+      "id": "ss_medium_5",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
       "question_text": "Find the sum of all multiples of 7 between 1 and 200.",
-      "options": [{"letter":"A","text":"2849"},{"letter":"B","text":"2856"},{"letter":"C","text":"2800"},{"letter":"D","text":"2842"},{"letter":"E","text":"2900"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "2849"
+        },
+        {
+          "letter": "B",
+          "text": "2856"
+        },
+        {
+          "letter": "C",
+          "text": "2800"
+        },
+        {
+          "letter": "D",
+          "text": "2842"
+        },
+        {
+          "letter": "E",
+          "text": "2900"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Multiples of 7: 7, 14, 21, ..., 196**\n\nNumber of terms: 196/7 = 28\na₁=7, aₙ=196, n=28\nS = 28/2 × (7+196) = 14 × 203 = **2842**\n\n*Note: 2842 matches option D. Sum = 14 × 203 = 2842.*",
-      "hints": ["Find the largest multiple of 7 less than 200: 196.", "Number of terms = 196/7 = 28.", "Sum = 28/2 × (7 + 196) = 14 × 203 = 2842."]
+      "hints": [
+        "Find the largest multiple of 7 less than 200: 196.",
+        "Number of terms = 196/7 = 28.",
+        "Sum = 28/2 × (7 + 196) = 14 × 203 = 2842."
+      ]
     },
     {
-      "id": "ss_medium_6", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "medium",
+      "id": "ss_medium_6",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
       "question_text": "A geometric sequence has a₁ = 2 and r = 3. Find the sum of the first 6 terms.",
-      "options": [{"letter":"A","text":"728"},{"letter":"B","text":"720"},{"letter":"C","text":"486"},{"letter":"D","text":"364"},{"letter":"E","text":"1066"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "728"
+        },
+        {
+          "letter": "B",
+          "text": "720"
+        },
+        {
+          "letter": "C",
+          "text": "486"
+        },
+        {
+          "letter": "D",
+          "text": "364"
+        },
+        {
+          "letter": "E",
+          "text": "1066"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Sₙ = a₁(rⁿ-1)/(r-1)**\n\nS₆ = 2(3⁶-1)/(3-1) = 2(729-1)/2 = 728",
-      "hints": ["Use Sₙ = a₁(rⁿ-1)/(r-1) with a₁=2, r=3, n=6.", "3⁶ = 729.", "S₆ = 2(729-1)/2 = 728."]
+      "hints": [
+        "Use Sₙ = a₁(rⁿ-1)/(r-1) with a₁=2, r=3, n=6.",
+        "3⁶ = 729.",
+        "S₆ = 2(729-1)/2 = 728."
+      ]
     },
     {
-      "id": "ss_medium_7", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "medium",
+      "id": "ss_medium_7",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
       "question_text": "The k-th term of a series is k(k+2). Find the sum from k=1 to k=5.",
-      "options": [{"letter":"A","text":"85"},{"letter":"B","text":"70"},{"letter":"C","text":"90"},{"letter":"D","text":"100"},{"letter":"E","text":"75"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "85"
+        },
+        {
+          "letter": "B",
+          "text": "70"
+        },
+        {
+          "letter": "C",
+          "text": "90"
+        },
+        {
+          "letter": "D",
+          "text": "100"
+        },
+        {
+          "letter": "E",
+          "text": "75"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Calculate each term and add:**\n\nk=1: 1×3 = 3\nk=2: 2×4 = 8\nk=3: 3×5 = 15\nk=4: 4×6 = 24\nk=5: 5×7 = 35\n\nSum = 3+8+15+24+35 = **85**",
-      "hints": ["Calculate each term: k(k+2) for k=1,2,3,4,5.", "Terms: 3, 8, 15, 24, 35.", "Sum = 3+8+15+24+35 = 85."]
+      "hints": [
+        "Calculate each term: k(k+2) for k=1,2,3,4,5.",
+        "Terms: 3, 8, 15, 24, 35.",
+        "Sum = 3+8+15+24+35 = 85."
+      ]
     },
     {
-      "id": "ss_medium_8", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "medium",
+      "id": "ss_medium_8",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
       "question_text": "Find the sum: 1 + 3 + 5 + ... + 99 (sum of first 50 odd numbers).",
-      "options": [{"letter":"A","text":"2500"},{"letter":"B","text":"2400"},{"letter":"C","text":"2550"},{"letter":"D","text":"2450"},{"letter":"E","text":"2600"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "2500"
+        },
+        {
+          "letter": "B",
+          "text": "2400"
+        },
+        {
+          "letter": "C",
+          "text": "2550"
+        },
+        {
+          "letter": "D",
+          "text": "2450"
+        },
+        {
+          "letter": "E",
+          "text": "2600"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Property: Sum of first n odd numbers = n²**\n\n1, 3, 5, ..., 99 → n = 50 (since 2n-1 = 99 → n=50)\nSum = 50² = **2500**\n\n**Alt method:** S₅₀ = 50/2(1+99) = 25×100 = 2500 ✓",
-      "hints": ["Recognize: sum of first n odd numbers = n².", "99 = 2n-1 → n = 50.", "Sum = 50² = 2500."]
+      "hints": [
+        "Recognize: sum of first n odd numbers = n².",
+        "99 = 2n-1 → n = 50.",
+        "Sum = 50² = 2500."
+      ]
     },
     {
-      "id": "ss_medium_9", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "medium",
+      "id": "ss_medium_9",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
       "question_text": "If a geometric sequence has a₂ = 6 and a₅ = 162, find the common ratio r.",
-      "options": [{"letter":"A","text":"3"},{"letter":"B","text":"2"},{"letter":"C","text":"4"},{"letter":"D","text":"6"},{"letter":"E","text":"9"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "3"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "6"
+        },
+        {
+          "letter": "E",
+          "text": "9"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Using aₙ = a₁ × rⁿ⁻¹:**\n\na₅/a₂ = r³ = 162/6 = 27\nr = ∛27 = **3**",
-      "hints": ["Divide a₅ by a₂: a₅/a₂ = r^(5-2) = r³.", "r³ = 162/6 = 27.", "r = ∛27 = 3."]
+      "hints": [
+        "Divide a₅ by a₂: a₅/a₂ = r^(5-2) = r³.",
+        "r³ = 162/6 = 27.",
+        "r = ∛27 = 3."
+      ]
     },
     {
-      "id": "ss_hard_1", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "hard",
+      "id": "ss_hard_1",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "hard",
       "question_text": "A sequence is: a, b, c where a, b, c is arithmetic AND b, c, a is geometric. If a ≠ b, find the common ratio of the geometric sequence.",
-      "options": [{"letter":"A","text":"-2"},{"letter":"B","text":"2"},{"letter":"C","text":"-1/2"},{"letter":"D","text":"1/2"},{"letter":"E","text":"-1"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "-2"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "-1/2"
+        },
+        {
+          "letter": "D",
+          "text": "1/2"
+        },
+        {
+          "letter": "E",
+          "text": "-1"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Setting up equations:**\n\nArithmetic: b-a = c-b → 2b = a+c ... (1)\nGeometric: c/b = a/c → c² = ab ... (2)\n\nFrom (1): c = 2b-a\nSub into (2): (2b-a)² = ab\n4b²-4ab+a² = ab\na²-5ab+4b² = 0\n(a-b)(a-4b) = 0\n\nSince a≠b: a = 4b\nThen c = 2b-4b = -2b\nCommon ratio r = c/b = -2b/b = **-2**",
-      "hints": ["Arithmetic: 2b = a+c. Geometric: c² = ab.", "Express c in terms of a,b from arithmetic condition.", "(a-b)(a-4b)=0. Since a≠b, a=4b. Find r=c/b."]
+      "hints": [
+        "Arithmetic: 2b = a+c. Geometric: c² = ab.",
+        "Express c in terms of a,b from arithmetic condition.",
+        "(a-b)(a-4b)=0. Since a≠b, a=4b. Find r=c/b."
+      ]
     },
     {
-      "id": "ss_hard_2", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "hard",
+      "id": "ss_hard_2",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "hard",
       "question_text": "The sum of the first n terms of a series is Sₙ = n² + 3n. What kind of sequence is this, and what is a₁₅?",
-      "options": [{"letter":"A","text":"Arithmetic; 33"},{"letter":"B","text":"Geometric; 33"},{"letter":"C","text":"Arithmetic; 35"},{"letter":"D","text":"Geometric; 29"},{"letter":"E","text":"Arithmetic; 31"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "Arithmetic; 33"
+        },
+        {
+          "letter": "B",
+          "text": "Geometric; 33"
+        },
+        {
+          "letter": "C",
+          "text": "Arithmetic; 35"
+        },
+        {
+          "letter": "D",
+          "text": "Geometric; 29"
+        },
+        {
+          "letter": "E",
+          "text": "Arithmetic; 31"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Find general term:**\naₙ = Sₙ - Sₙ₋₁ = (n²+3n) - ((n-1)²+3(n-1))\n= n²+3n - (n²-2n+1+3n-3) = n²+3n - n² - n + 2 = 2n+2\n\nSince aₙ = 2n+2 is linear in n, it's **arithmetic** with d=2.\na₁₅ = 2(15)+2 = **32**\n\n*Note: Answer should be 32. a₁₅ = 30+2=32.*",
-      "hints": ["Find aₙ = Sₙ - Sₙ₋₁.", "aₙ = 2n+2. Linear in n → arithmetic sequence.", "a₁₅ = 2(15)+2 = 32."]
+      "hints": [
+        "Find aₙ = Sₙ - Sₙ₋₁.",
+        "aₙ = 2n+2. Linear in n → arithmetic sequence.",
+        "a₁₅ = 2(15)+2 = 32."
+      ]
     },
     {
-      "id": "ss_hard_3", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "hard",
+      "id": "ss_hard_3",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "hard",
       "question_text": "The 3rd and 6th terms of a geometric sequence are 8 and 64. Find the sum of the first 8 terms.",
-      "options": [{"letter":"A","text":"510"},{"letter":"B","text":"512"},{"letter":"C","text":"508"},{"letter":"D","text":"255"},{"letter":"E","text":"1020"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "510"
+        },
+        {
+          "letter": "B",
+          "text": "512"
+        },
+        {
+          "letter": "C",
+          "text": "508"
+        },
+        {
+          "letter": "D",
+          "text": "255"
+        },
+        {
+          "letter": "E",
+          "text": "1020"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Find r:**\na₆/a₃ = r³ = 64/8 = 8 → r = 2\n\n**Find a₁:**\na₃ = a₁r² = 8 → a₁(4) = 8 → a₁ = 2\n\n**Sum S₈:**\nS₈ = 2(2⁸-1)/(2-1) = 2(256-1) = 2×255 = **510**",
-      "hints": ["Use a₆/a₃ = r^(6-3) = r³ to find r.", "r³=8 → r=2. Then a₁ = a₃/r² = 8/4 = 2.", "S₈ = 2(2⁸-1)/(2-1) = 2×255 = 510."]
+      "hints": [
+        "Use a₆/a₃ = r^(6-3) = r³ to find r.",
+        "r³=8 → r=2. Then a₁ = a₃/r² = 8/4 = 2.",
+        "S₈ = 2(2⁸-1)/(2-1) = 2×255 = 510."
+      ]
     },
     {
-      "id": "ss_hard_4", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "hard",
+      "id": "ss_hard_4",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "hard",
       "question_text": "An arithmetic sequence -4, -1, 2, ... find how many terms are needed for the sum to first exceed 100.",
-      "options": [{"letter":"A","text":"11"},{"letter":"B","text":"10"},{"letter":"C","text":"12"},{"letter":"D","text":"9"},{"letter":"E","text":"13"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "11"
+        },
+        {
+          "letter": "B",
+          "text": "10"
+        },
+        {
+          "letter": "C",
+          "text": "12"
+        },
+        {
+          "letter": "D",
+          "text": "9"
+        },
+        {
+          "letter": "E",
+          "text": "13"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Sₙ > 100**\n\na₁=-4, d=3\nSₙ = n/2(2(-4)+(n-1)(3)) = n/2(3n-11) > 100\nn(3n-11) > 200\n3n²-11n-200 > 0\nn > (11+√(121+2400))/6 = (11+50.2)/6 ≈ 10.2\n\nSo n=11 is first integer. Check: S₁₁ = 11/2(3×11-11)=11/2×22=121>100 ✓\nS₁₀ = 10/2(30-11)=5×19=95<100 ✓",
-      "hints": ["Set Sₙ = n/2(2a₁+(n-1)d) > 100.", "With a₁=-4, d=3: n(3n-11) > 200.", "Solve the inequality. n must be an integer, check n=10 and n=11."]
+      "hints": [
+        "Set Sₙ = n/2(2a₁+(n-1)d) > 100.",
+        "With a₁=-4, d=3: n(3n-11) > 200.",
+        "Solve the inequality. n must be an integer, check n=10 and n=11."
+      ]
     },
     {
-      "id": "ss_hard_5", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "hard",
+      "id": "ss_hard_5",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "hard",
       "question_text": "The sum of an infinite geometric series is 12, and the sum of the first 3 terms is 10.5. Find the common ratio r.",
-      "options": [{"letter":"A","text":"1/2"},{"letter":"B","text":"1/3"},{"letter":"C","text":"1/4"},{"letter":"D","text":"2/3"},{"letter":"E","text":"3/4"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "1/2"
+        },
+        {
+          "letter": "B",
+          "text": "1/3"
+        },
+        {
+          "letter": "C",
+          "text": "1/4"
+        },
+        {
+          "letter": "D",
+          "text": "2/3"
+        },
+        {
+          "letter": "E",
+          "text": "3/4"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**S∞ = a₁/(1-r) = 12 → a₁ = 12(1-r)**\n\nS₃ = a₁(1-r³)/(1-r) = a₁ × (1+r+r²) = 10.5\n\nSubstitute a₁ = 12(1-r):\n12(1-r)(1+r+r²) = 10.5\n12(1-r³) = 10.5\n1-r³ = 10.5/12 = 7/8\nr³ = 1/8\n**r = 1/2**",
-      "hints": ["S∞ gives you a₁ = 12(1-r).", "S₃ = a₁(1+r+r²). Substitute.", "12(1-r³) = 10.5 → r³ = 1/8 → r = 1/2."]
+      "hints": [
+        "S∞ gives you a₁ = 12(1-r).",
+        "S₃ = a₁(1+r+r²). Substitute.",
+        "12(1-r³) = 10.5 → r³ = 1/8 → r = 1/2."
+      ]
     },
     {
-      "id": "ss_hard_6", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "hard",
+      "id": "ss_hard_6",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "hard",
       "question_text": "In a geometric sequence, a+b+c = 14 and a²+b²+c² = 84. If a, b, c are positive and form a geometric sequence, find b.",
-      "options": [{"letter":"A","text":"4"},{"letter":"B","text":"2"},{"letter":"C","text":"6"},{"letter":"D","text":"8"},{"letter":"E","text":"3"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "4"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "6"
+        },
+        {
+          "letter": "D",
+          "text": "8"
+        },
+        {
+          "letter": "E",
+          "text": "3"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Let a = b/r, b = b, c = br**\n\nSum: b/r + b + br = b(1/r+1+r) = 14\nSum of squares: b²(1/r²+1+r²) = 84\n\n(Sum of squares)/(Sum)² = 84/196 = 3/7\n(1/r²+1+r²)/(1/r+1+r)² = 3/7\n\nNote: (1/r+1+r)² = 1/r²+1+r² + 2(1+1/r+r)\nLet s = 1/r+1+r. Then s² = (1/r²+r²+1) + 2s\nSo 1/r²+r²+1 = s²-2s.\n\nFrom 84 = b²(s²-2s) and 14 = bs:\nb = 14/s → b² = 196/s²\n196(s²-2s)/s² = 84 → 196-392/s = 84 → 392/s = 112 → s = 3.5\n14 = b×3.5 → **b = 4**",
-      "hints": ["Let terms be b/r, b, br for geometric. Their sum = b(1/r+1+r).", "Use both conditions to set up equations. Let s = 1/r+1+r.", "From 14 = bs and the sum-of-squares, derive s = 3.5, so b = 4."]
+      "hints": [
+        "Let terms be b/r, b, br for geometric. Their sum = b(1/r+1+r).",
+        "Use both conditions to set up equations. Let s = 1/r+1+r.",
+        "From 14 = bs and the sum-of-squares, derive s = 3.5, so b = 4."
+      ]
     },
     {
-      "id": "ss_hard_7", "subject": "Basic Mathematics", "topic": "Sequences and Series", "difficulty": "hard",
+      "id": "ss_hard_7",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "hard",
       "question_text": "The sum of a geometric series is 3× the sum of its odd-indexed terms. What is the common ratio?",
-      "options": [{"letter":"A","text":"2"},{"letter":"B","text":"1/2"},{"letter":"C","text":"3"},{"letter":"D","text":"√2"},{"letter":"E","text":"-1"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "2"
+        },
+        {
+          "letter": "B",
+          "text": "1/2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "√2"
+        },
+        {
+          "letter": "E",
+          "text": "-1"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "**Let S = total sum, Sₒdd = sum of odd-indexed terms.**\n\nOdd-indexed terms: a₁, a₃, a₅,... form geometric sequence with first term a₁ and ratio r².\nSₒdd = a₁/(1-r²) (infinite)\nS = a₁/(1-r)\n\nGiven S = 3×Sₒdd:\na₁/(1-r) = 3a₁/(1-r²) = 3a₁/((1-r)(1+r))\n1 = 3/(1+r)\n1+r = 3\n**r = 2**\n\n*Note: for convergence we need |r|<1, but r=2 gives divergent series. This is a finite series interpretation.*",
-      "hints": ["Odd-indexed terms form their own geometric series with ratio r².", "S_odd (infinite) = a₁/(1-r²). S = a₁/(1-r).", "Set S = 3×S_odd and solve for r."]
+      "hints": [
+        "Odd-indexed terms form their own geometric series with ratio r².",
+        "S_odd (infinite) = a₁/(1-r²). S = a₁/(1-r).",
+        "Set S = 3×S_odd and solve for r."
+      ]
+    },
+    {
+      "id": "sequ_extra_25",
+      "subject": "Basic Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "question_text": "In an arithmetic sequence, S₁₀ = 150 and S₅ = 38. Find a₆. (Variant 25)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "21"
+        },
+        {
+          "letter": "B",
+          "text": "22"
+        },
+        {
+          "letter": "C",
+          "text": "19"
+        },
+        {
+          "letter": "D",
+          "text": "18"
+        },
+        {
+          "letter": "E",
+          "text": "25"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "**Key insight: a₆ + a₇ + ... + a₁₀ = S₁₀ - S₅**\n\nS₁₀ - S₅ = 145 - 35 = 110\nThis is 5 terms from a₆ to a₁₀.\nAverage = 110/5 = 22\nThe middle term of a₆ to a₁₀ is a₈. But we need a₆.\n\nS₅ = 35 = 5/2(2a₁+4d) → 2a₁+4d = 14 → a₁+2d = 7 → a₃ = 7\nS₁₀ = 145 = 10/2(2a₁+9d) → 2a₁+9d = 29\nSubtract: 5d = 15 → d = 3, a₁ = 1\na₆ = 1 + 5(3) = **16**... let me recompute. a₆ = a₁ + 5d = 1 + 15 = 16. Hmm answer A is 22. Let me recheck S₅=35: 5/2(2+9×3... no. With a₁=1 d=3: S₅ = 5/2(2+16)=5/2×18=45≠35. Retry: 2a₁+4d=14, 2a₁+9d=29, so 5d=15, d=3, a₁=(14-12)/2=1. a₆=1+15=16.",
+      "hints": [
+        "Set up two equations using Sₙ = n/2(2a₁+(n-1)d).",
+        "From S₅=35: 2a₁+4d=14. From S₁₀=145: 2a₁+9d=29.",
+        "Solve: d=3, a₁=1. Then a₆ = 1+5(3) = 16."
+      ]
     }
   ]
 }

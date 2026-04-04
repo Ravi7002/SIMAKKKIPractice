@@ -3,7 +3,7 @@
   "topic": "Coordinate Geometry",
   "introduction": "This topic involves standard formulas for lines, circles, and parabolas on an x-y coordinate plane. Difficulty increases by combining multiple transformations such as reflections, translations, or determining intersection points.",
   "tips_and_tricks": [
-    "The standard equation of a circle is (x - h)\u00b2 + (y - k)\u00b2 = r\u00b2, where the center is (h, k) and radius is r.",
+    "The standard equation of a circle is (x - h)² + (y - k)² = r², where the center is (h, k) and radius is r.",
     "When a shape is translated +a units in the x-direction, replace x with (x - a) in the equation.",
     "Reflecting a shape across the y-axis replaces x with -x. Reflecting across the x-axis replaces y with -y."
   ],
@@ -13,16 +13,36 @@
       "subject": "Quantitative Reasoning",
       "topic": "Coordinate Geometry",
       "difficulty": "easy",
-      "question_text": "What are the coordinates of the center and the radius of the circle defined by (x - 4)\u00b2 + (y + 2)\u00b2 = 25?",
+      "question_text": "What are the coordinates of the center and the radius of the circle defined by (x - 4)² + (y + 2)² = 25?",
       "options": [
-        {"letter": "A", "text": "Center: (4, -2), Radius: 5"},
-        {"letter": "B", "text": "Center: (-4, 2), Radius: 25"},
-        {"letter": "C", "text": "Center: (-4, -2), Radius: 5"},
-        {"letter": "D", "text": "Center: (4, 2), Radius: 5"},
-        {"letter": "E", "text": "Center: (4, -2), Radius: 25"}
+        {
+          "letter": "A",
+          "text": "Center: (4, -2), Radius: 5"
+        },
+        {
+          "letter": "B",
+          "text": "Center: (-4, 2), Radius: 25"
+        },
+        {
+          "letter": "C",
+          "text": "Center: (-4, -2), Radius: 5"
+        },
+        {
+          "letter": "D",
+          "text": "Center: (4, 2), Radius: 5"
+        },
+        {
+          "letter": "E",
+          "text": "Center: (4, -2), Radius: 25"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "Compare the given equation to the standard form: (x - h)\u00b2 + (y - k)\u00b2 = r\u00b2. Here, h = 4 and k = -2, so the center is (4, -2). Since r\u00b2 = 25, the radius is r = 5."
+      "explanation": "Compare the given equation to the standard form: (x - h)² + (y - k)² = r². Here, h = 4 and k = -2, so the center is (4, -2). Since r² = 25, the radius is r = 5.",
+      "hints": [
+        "Compare the given equation to the standard form: (x - h)² + (y - k)² = r².",
+        "Here, h = 4 and k = -2, so the center is (4, -2).",
+        "Since r² = 25, the radius is r = 5."
+      ]
     },
     {
       "id": "cg_easy_2",
@@ -31,46 +51,105 @@
       "difficulty": "easy",
       "question_text": "Find the distance between the points P(-2, 3) and Q(4, -5).",
       "options": [
-        {"letter": "A", "text": "2"},
-        {"letter": "B", "text": "14"},
-        {"letter": "C", "text": "10"},
-        {"letter": "D", "text": "100"},
-        {"letter": "E", "text": "8"}
+        {
+          "letter": "A",
+          "text": "2"
+        },
+        {
+          "letter": "B",
+          "text": "14"
+        },
+        {
+          "letter": "C",
+          "text": "10"
+        },
+        {
+          "letter": "D",
+          "text": "100"
+        },
+        {
+          "letter": "E",
+          "text": "8"
+        }
       ],
       "correct_answer": "C",
-      "explanation": "Use the distance formula: d = \u221a((x2 - x1)\u00b2 + (y2 - y1)\u00b2). \nd = \u221a((4 - (-2))\u00b2 + (-5 - 3)\u00b2) = \u221a(6\u00b2 + (-8)\u00b2) = \u221a(36 + 64) = \u221a100 = 10."
+      "explanation": "Use the distance formula: d = √((x2 - x1)² + (y2 - y1)²). \nd = √((4 - (-2))² + (-5 - 3)²) = √(6² + (-8)²) = √(36 + 64) = √100 = 10.",
+      "hints": [
+        "Use the distance formula: d = √((x2 - x1)² + (y2 - y1)²).",
+        "d = √((4 - (-2))² + (-5 - 3)²) = √(6² + (-8)²) = √(36 + 64) = √100 = 10."
+      ]
     },
     {
       "id": "cg_medium_1",
       "subject": "Quantitative Reasoning",
       "topic": "Coordinate Geometry",
       "difficulty": "medium",
-      "question_text": "The circle x\u00b2 + y\u00b2 = 9 is translated 2 units right and 3 units down. What is the new equation?",
+      "question_text": "The circle x² + y² = 9 is translated 2 units right and 3 units down. What is the new equation?",
       "options": [
-        {"letter": "A", "text": "(x + 2)\u00b2 + (y - 3)\u00b2 = 9"},
-        {"letter": "B", "text": "(x - 2)\u00b2 + (y + 3)\u00b2 = 9"},
-        {"letter": "C", "text": "x\u00b2 + y\u00b2 = 4"},
-        {"letter": "D", "text": "(x - 2)\u00b2 + (y + 3)\u00b2 = 3"},
-        {"letter": "E", "text": "(x + 2)\u00b2 + (y + 3)\u00b2 = 9"}
+        {
+          "letter": "A",
+          "text": "(x + 2)² + (y - 3)² = 9"
+        },
+        {
+          "letter": "B",
+          "text": "(x - 2)² + (y + 3)² = 9"
+        },
+        {
+          "letter": "C",
+          "text": "x² + y² = 4"
+        },
+        {
+          "letter": "D",
+          "text": "(x - 2)² + (y + 3)² = 3"
+        },
+        {
+          "letter": "E",
+          "text": "(x + 2)² + (y + 3)² = 9"
+        }
       ],
       "correct_answer": "B",
-      "explanation": "Translating 2 units right means replacing x with (x - 2). Translating 3 units down means replacing y with (y + 3). The new equation is (x - 2)\u00b2 + (y + 3)\u00b2 = 9."
+      "explanation": "Translating 2 units right means replacing x with (x - 2). Translating 3 units down means replacing y with (y + 3). The new equation is (x - 2)² + (y + 3)² = 9.",
+      "hints": [
+        "Translating 2 units right means replacing x with (x - 2).",
+        "Translating 3 units down means replacing y with (y + 3).",
+        "The new equation is (x - 2)² + (y + 3)² = 9."
+      ]
     },
     {
       "id": "cg_medium_2",
       "subject": "Quantitative Reasoning",
       "topic": "Coordinate Geometry",
       "difficulty": "medium",
-      "question_text": "What is the equation of the line that passes through the vertex of the parabola y = x\u00b2 - 6x + 5 and is parallel to the line y = 2x - 7?",
+      "question_text": "What is the equation of the line that passes through the vertex of the parabola y = x² - 6x + 5 and is parallel to the line y = 2x - 7?",
       "options": [
-        {"letter": "A", "text": "y = 2x - 1"},
-        {"letter": "B", "text": "y = 2x - 4"},
-        {"letter": "C", "text": "y = 2x - 10"},
-        {"letter": "D", "text": "y = -1/2x - 4"},
-        {"letter": "E", "text": "y = 2x - 2"}
+        {
+          "letter": "A",
+          "text": "y = 2x - 1"
+        },
+        {
+          "letter": "B",
+          "text": "y = 2x - 4"
+        },
+        {
+          "letter": "C",
+          "text": "y = 2x - 10"
+        },
+        {
+          "letter": "D",
+          "text": "y = -1/2x - 4"
+        },
+        {
+          "letter": "E",
+          "text": "y = 2x - 2"
+        }
       ],
       "correct_answer": "C",
-      "explanation": "First, find the vertex of the parabola using x = -b/(2a) = -(-6)/2 = 3. \nSubstitute x=3 back in: y = 3\u00b2 - 6(3) + 5 = 9 - 18 + 5 = -4. The vertex is (3, -4). \nA parallel line to y = 2x - 7 must have slope m=2. \nUsing point-slope form: y - y1 = m(x - x1) \u2192 y - (-4) = 2(x - 3) \u2192 y + 4 = 2x - 6 \u2192 y = 2x - 10."
+      "explanation": "First, find the vertex of the parabola using x = -b/(2a) = -(-6)/2 = 3. \nSubstitute x=3 back in: y = 3² - 6(3) + 5 = 9 - 18 + 5 = -4. The vertex is (3, -4). \nA parallel line to y = 2x - 7 must have slope m=2. \nUsing point-slope form: y - y1 = m(x - x1) → y - (-4) = 2(x - 3) → y + 4 = 2x - 6 → y = 2x - 10.",
+      "hints": [
+        "First, find the vertex of the parabola using x = -b/(2a) = -(-6)/2 = 3.",
+        "Substitute x=3 back in: y = 3² - 6(3) + 5 = 9 - 18 + 5 = -4.",
+        "The vertex is (3, -4)."
+      ]
     },
     {
       "id": "cg_medium_3",
@@ -79,30 +158,70 @@
       "difficulty": "medium",
       "question_text": "Find the expanded polynomial equation of a circle with center (-1, 4) and radius 3.",
       "options": [
-        {"letter": "A", "text": "x\u00b2 + y\u00b2 + 2x - 8y + 8 = 0"},
-        {"letter": "B", "text": "x\u00b2 + y\u00b2 - 2x + 8y - 8 = 0"},
-        {"letter": "C", "text": "x\u00b2 + y\u00b2 + 2x - 8y + 17 = 0"},
-        {"letter": "D", "text": "x\u00b2 + y\u00b2 + 2x - 8y + 14 = 0"},
-        {"letter": "E", "text": "x\u00b2 + y\u00b2 - 2x - 8y + 10 = 0"}
+        {
+          "letter": "A",
+          "text": "x² + y² + 2x - 8y + 8 = 0"
+        },
+        {
+          "letter": "B",
+          "text": "x² + y² - 2x + 8y - 8 = 0"
+        },
+        {
+          "letter": "C",
+          "text": "x² + y² + 2x - 8y + 17 = 0"
+        },
+        {
+          "letter": "D",
+          "text": "x² + y² + 2x - 8y + 14 = 0"
+        },
+        {
+          "letter": "E",
+          "text": "x² + y² - 2x - 8y + 10 = 0"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "Standard form: (x - h)\u00b2 + (y - k)\u00b2 = r\u00b2 \u2192 (x + 1)\u00b2 + (y - 4)\u00b2 = 9. \nExpand: (x\u00b2 + 2x + 1) + (y\u00b2 - 8y + 16) = 9. \nCombine constants: x\u00b2 + y\u00b2 + 2x - 8y + 17 = 9 \u2192 x\u00b2 + y\u00b2 + 2x - 8y + 8 = 0."
+      "explanation": "Standard form: (x - h)² + (y - k)² = r² → (x + 1)² + (y - 4)² = 9. \nExpand: (x² + 2x + 1) + (y² - 8y + 16) = 9. \nCombine constants: x² + y² + 2x - 8y + 17 = 9 → x² + y² + 2x - 8y + 8 = 0.",
+      "hints": [
+        "Standard form: (x - h)² + (y - k)² = r² → (x + 1)² + (y - 4)² = 9.",
+        "Expand: (x² + 2x + 1) + (y² - 8y + 16) = 9.",
+        "Combine constants: x² + y² + 2x - 8y + 17 = 9 → x² + y² + 2x - 8y + 8 = 0."
+      ]
     },
     {
       "id": "cg_hard_1",
       "subject": "Quantitative Reasoning",
       "topic": "Coordinate Geometry",
       "difficulty": "hard",
-      "question_text": "A circle C is given by x\u00b2 + y\u00b2 - 4x + 6y - 12 = 0. The circle is reflected across the y-axis, then translated 1 unit up. What is the new expanded equation?",
+      "question_text": "A circle C is given by x² + y² - 4x + 6y - 12 = 0. The circle is reflected across the y-axis, then translated 1 unit up. What is the new expanded equation?",
       "options": [
-        {"letter": "A", "text": "x\u00b2 + y\u00b2 + 4x + 4y - 17 = 0"},
-        {"letter": "B", "text": "x\u00b2 + y\u00b2 + 4x + 4y = 0"},
-        {"letter": "C", "text": "x\u00b2 + y\u00b2 + 4x - 6y - 12 = 0"},
-        {"letter": "D", "text": "x\u00b2 + y\u00b2 - 4x + 4y - 17 = 0"},
-        {"letter": "E", "text": "x\u00b2 + y\u00b2 + 4x + 8y - 19 = 0"}
+        {
+          "letter": "A",
+          "text": "x² + y² + 4x + 4y - 17 = 0"
+        },
+        {
+          "letter": "B",
+          "text": "x² + y² + 4x + 4y = 0"
+        },
+        {
+          "letter": "C",
+          "text": "x² + y² + 4x - 6y - 12 = 0"
+        },
+        {
+          "letter": "D",
+          "text": "x² + y² - 4x + 4y - 17 = 0"
+        },
+        {
+          "letter": "E",
+          "text": "x² + y² + 4x + 8y - 19 = 0"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "First, complete the square to find center and radius. \nx\u00b2 - 4x + 4 + y\u00b2 + 6y + 9 = 12 + 4 + 9 \u2192 (x - 2)\u00b2 + (y + 3)\u00b2 = 25. \nCenter is (2, -3) and R=5. \nReflect across y-axis: the new x is negated. Center moves to (-2, -3). \nTranslate 1 unit up: Center moves to (-2, -2). \nThe new equation in standard form is (x + 2)\u00b2 + (y + 2)\u00b2 = 25. \nExpand this: x\u00b2 + 4x + 4 + y\u00b2 + 4y + 4 = 25 \u2192 x\u00b2 + y\u00b2 + 4x + 4y - 17 = 0."
+      "explanation": "First, complete the square to find center and radius. \nx² - 4x + 4 + y² + 6y + 9 = 12 + 4 + 9 → (x - 2)² + (y + 3)² = 25. \nCenter is (2, -3) and R=5. \nReflect across y-axis: the new x is negated. Center moves to (-2, -3). \nTranslate 1 unit up: Center moves to (-2, -2). \nThe new equation in standard form is (x + 2)² + (y + 2)² = 25. \nExpand this: x² + 4x + 4 + y² + 4y + 4 = 25 → x² + y² + 4x + 4y - 17 = 0.",
+      "hints": [
+        "First, complete the square to find center and radius.",
+        "x² - 4x + 4 + y² + 6y + 9 = 12 + 4 + 9 → (x - 2)² + (y + 3)² = 25.",
+        "Center is (2, -3) and R=5."
+      ]
     },
     {
       "id": "cg_hard_2",
@@ -111,30 +230,70 @@
       "difficulty": "hard",
       "question_text": "Line L1 is y = 3x + 1. It is rotated 90 degrees counter-clockwise around the point (1, 4) to form line L2. What is the x-intercept of L2?",
       "options": [
-        {"letter": "A", "text": "13"},
-        {"letter": "B", "text": "10"},
-        {"letter": "C", "text": "-11"},
-        {"letter": "D", "text": "13/3"},
-        {"letter": "E", "text": "4"}
+        {
+          "letter": "A",
+          "text": "13"
+        },
+        {
+          "letter": "B",
+          "text": "10"
+        },
+        {
+          "letter": "C",
+          "text": "-11"
+        },
+        {
+          "letter": "D",
+          "text": "13/3"
+        },
+        {
+          "letter": "E",
+          "text": "4"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "L1 has a slope of 3. A 90-degree rotation makes the new slope m = -1/3. \nL2 passes through the center of rotation (1, 4). \nEquation of L2: y - 4 = -1/3(x - 1) \u2192 y = -1/3*x + 1/3 + 4 = -1/3*x + 13/3. \nTo find the x-intercept, set y = 0: 0 = -1/3*x + 13/3 \u2192 1/3*x = 13/3 \u2192 x = 13."
+      "explanation": "L1 has a slope of 3. A 90-degree rotation makes the new slope m = -1/3. \nL2 passes through the center of rotation (1, 4). \nEquation of L2: y - 4 = -1/3(x - 1) → y = -1/3*x + 1/3 + 4 = -1/3*x + 13/3. \nTo find the x-intercept, set y = 0: 0 = -1/3*x + 13/3 → 1/3*x = 13/3 → x = 13.",
+      "hints": [
+        "L1 has a slope of 3.",
+        "A 90-degree rotation makes the new slope m = -1/3.",
+        "L2 passes through the center of rotation (1, 4)."
+      ]
     },
     {
       "id": "cg_hard_3",
       "subject": "Quantitative Reasoning",
       "topic": "Coordinate Geometry",
       "difficulty": "hard",
-      "question_text": "Find the area of the region bounded by the curves y = x\u00b2 and y = 4.",
+      "question_text": "Find the area of the region bounded by the curves y = x² and y = 4.",
       "options": [
-        {"letter": "A", "text": "16/3"},
-        {"letter": "B", "text": "8/3"},
-        {"letter": "C", "text": "32/3"},
-        {"letter": "D", "text": "16"},
-        {"letter": "E", "text": "4"}
+        {
+          "letter": "A",
+          "text": "16/3"
+        },
+        {
+          "letter": "B",
+          "text": "8/3"
+        },
+        {
+          "letter": "C",
+          "text": "32/3"
+        },
+        {
+          "letter": "D",
+          "text": "16"
+        },
+        {
+          "letter": "E",
+          "text": "4"
+        }
       ],
       "correct_answer": "C",
-      "explanation": "The intersections are at x\u00b2 = 4, so x = -2 and x = 2. \nThe area is the integral from -2 to 2 of (4 - x\u00b2) dx. \nIntegral of 4 is 4x. Integral of -x\u00b2 is -x\u00b3/3. \nEval at 2: 8 - 8/3 = 16/3. \nEval at -2: -8 - (-8/3) = -8 + 8/3 = -16/3. \nDifference: 16/3 - (-16/3) = 32/3."
+      "explanation": "The intersections are at x² = 4, so x = -2 and x = 2. \nThe area is the integral from -2 to 2 of (4 - x²) dx. \nIntegral of 4 is 4x. Integral of -x² is -x³/3. \nEval at 2: 8 - 8/3 = 16/3. \nEval at -2: -8 - (-8/3) = -8 + 8/3 = -16/3. \nDifference: 16/3 - (-16/3) = 32/3.",
+      "hints": [
+        "The intersections are at x² = 4, so x = -2 and x = 2.",
+        "The area is the integral from -2 to 2 of (4 - x²) dx.",
+        "Integral of 4 is 4x."
+      ]
     },
     {
       "id": "cg_hard_4",
@@ -143,14 +302,34 @@
       "difficulty": "hard",
       "question_text": "Let A(1, 2) and B(5, 6) be two points. If a circle is drawn such that AB is its diameter, what is the length of the tangent segment from the origin (0, 0) to this circle?",
       "options": [
-        {"letter": "A", "text": "\u221a17"},
-        {"letter": "B", "text": "\u221a20"},
-        {"letter": "C", "text": "4"},
-        {"letter": "D", "text": "5"},
-        {"letter": "E", "text": "3"}
+        {
+          "letter": "A",
+          "text": "√17"
+        },
+        {
+          "letter": "B",
+          "text": "√20"
+        },
+        {
+          "letter": "C",
+          "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "5"
+        },
+        {
+          "letter": "E",
+          "text": "3"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "By Power of a Point theorem, length of tangent T squared is equal to the power of the origin relative to the circle. T\u00b2 = (x - h)\u00b2 + (y - k)\u00b2 - R\u00b2 evaluated at (0,0), which equals h\u00b2 + k\u00b2 - R\u00b2. Or more simply, if the circle is (x - x1)(x - x2) + (y - y1)(y - y2) = 0. \nThe circle with diameter AB is (x - 1)(x - 5) + (y - 2)(y - 6) = 0. \nThe tangent length squared from origin is evaluating that expression at (0,0): \nT\u00b2 = (0 - 1)(0 - 5) + (0 - 2)(0 - 6) = (1*5) + (2*6) = 5 + 12 = 17. \nTherefore, the length of the tangent is \u221a17."
+      "explanation": "By Power of a Point theorem, length of tangent T squared is equal to the power of the origin relative to the circle. T² = (x - h)² + (y - k)² - R² evaluated at (0,0), which equals h² + k² - R². Or more simply, if the circle is (x - x1)(x - x2) + (y - y1)(y - y2) = 0. \nThe circle with diameter AB is (x - 1)(x - 5) + (y - 2)(y - 6) = 0. \nThe tangent length squared from origin is evaluating that expression at (0,0): \nT² = (0 - 1)(0 - 5) + (0 - 2)(0 - 6) = (1*5) + (2*6) = 5 + 12 = 17. \nTherefore, the length of the tangent is √17.",
+      "hints": [
+        "By Power of a Point theorem, length of tangent T squared is equal to the power of the origin relative to the circle.",
+        "T² = (x - h)² + (y - k)² - R² evaluated at (0,0), which equals h² + k² - R².",
+        "Or more simply, if the circle is (x - x1)(x - x2) + (y - y1)(y - y2) = 0."
+      ]
     },
     {
       "id": "cg_hard_5",
@@ -159,14 +338,555 @@
       "difficulty": "hard",
       "question_text": "What is the shortest distance from the point (-1, 2) to the line 3x + 4y - 15 = 0?",
       "options": [
-        {"letter": "A", "text": "2"},
-        {"letter": "B", "text": "3"},
-        {"letter": "C", "text": "4"},
-        {"letter": "D", "text": "5"},
-        {"letter": "E", "text": "6"}
+        {
+          "letter": "A",
+          "text": "2"
+        },
+        {
+          "letter": "B",
+          "text": "3"
+        },
+        {
+          "letter": "C",
+          "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "5"
+        },
+        {
+          "letter": "E",
+          "text": "6"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "Use the distance from a point to a line formula: D = |Ax0 + By0 + C| / \u221a(A\u00b2 + B\u00b2). \nHere A=3, B=4, C=-15. x0=-1, y0=2. \nD = |3(-1) + 4(2) - 15| / \u221a(3\u00b2 + 4\u00b2) = |-3 + 8 - 15| / \u221a25 \nD = |-10| / 5 = 10 / 5 = 2. Distractors involve forgetting absolute value, or dividing by individual squared values."
+      "explanation": "Use the distance from a point to a line formula: D = |Ax0 + By0 + C| / √(A² + B²). \nHere A=3, B=4, C=-15. x0=-1, y0=2. \nD = |3(-1) + 4(2) - 15| / √(3² + 4²) = |-3 + 8 - 15| / √25 \nD = |-10| / 5 = 10 / 5 = 2. Distractors involve forgetting absolute value, or dividing by individual squared values.",
+      "hints": [
+        "Use the distance from a point to a line formula: D = |Ax0 + By0 + C| / √(A² + B²).",
+        "Here A=3, B=4, C=-15.",
+        "x0=-1, y0=2."
+      ]
+    },
+    {
+      "id": "coo_easy_11",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "easy",
+      "question_text": "What is the squared distance between the points (0, 2) and (3, 7)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "35"
+        },
+        {
+          "letter": "B",
+          "text": "38"
+        },
+        {
+          "letter": "C",
+          "text": "34"
+        },
+        {
+          "letter": "D",
+          "text": "30"
+        },
+        {
+          "letter": "E",
+          "text": "33"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (3-0)² + (7-2)² = 34.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (3-0)² + (7-2)² = 34."
+      ]
+    },
+    {
+      "id": "coo_medium_12",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "question_text": "What is the squared distance between the points (2, -5) and (7, 0)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "50"
+        },
+        {
+          "letter": "B",
+          "text": "54"
+        },
+        {
+          "letter": "C",
+          "text": "49"
+        },
+        {
+          "letter": "D",
+          "text": "51"
+        },
+        {
+          "letter": "E",
+          "text": "46"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (7-2)² + (0--5)² = 50.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (7-2)² + (0--5)² = 50."
+      ]
+    },
+    {
+      "id": "coo_hard_13",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "hard",
+      "question_text": "What is the squared distance between the points (-3, 5) and (-2, 8)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "9"
+        },
+        {
+          "letter": "B",
+          "text": "6"
+        },
+        {
+          "letter": "C",
+          "text": "10"
+        },
+        {
+          "letter": "D",
+          "text": "14"
+        },
+        {
+          "letter": "E",
+          "text": "11"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (-2--3)² + (8-5)² = 10.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (-2--3)² + (8-5)² = 10."
+      ]
+    },
+    {
+      "id": "coo_easy_14",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "easy",
+      "question_text": "What is the squared distance between the points (2, -2) and (6, 1)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "26"
+        },
+        {
+          "letter": "B",
+          "text": "21"
+        },
+        {
+          "letter": "C",
+          "text": "25"
+        },
+        {
+          "letter": "D",
+          "text": "29"
+        },
+        {
+          "letter": "E",
+          "text": "24"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (6-2)² + (1--2)² = 25.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (6-2)² + (1--2)² = 25."
+      ]
+    },
+    {
+      "id": "coo_hard_15",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "hard",
+      "question_text": "What is the squared distance between the points (-4, 1) and (1, 2)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "26"
+        },
+        {
+          "letter": "B",
+          "text": "25"
+        },
+        {
+          "letter": "C",
+          "text": "27"
+        },
+        {
+          "letter": "D",
+          "text": "30"
+        },
+        {
+          "letter": "E",
+          "text": "22"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (1--4)² + (2-1)² = 26.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (1--4)² + (2-1)² = 26."
+      ]
+    },
+    {
+      "id": "coo_medium_16",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "question_text": "What is the squared distance between the points (2, 4) and (5, 6)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "13"
+        },
+        {
+          "letter": "B",
+          "text": "14"
+        },
+        {
+          "letter": "C",
+          "text": "9"
+        },
+        {
+          "letter": "D",
+          "text": "17"
+        },
+        {
+          "letter": "E",
+          "text": "12"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (5-2)² + (6-4)² = 13.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (5-2)² + (6-4)² = 13."
+      ]
+    },
+    {
+      "id": "coo_medium_17",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "question_text": "What is the squared distance between the points (-1, 3) and (2, 4)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "9"
+        },
+        {
+          "letter": "B",
+          "text": "14"
+        },
+        {
+          "letter": "C",
+          "text": "10"
+        },
+        {
+          "letter": "D",
+          "text": "11"
+        },
+        {
+          "letter": "E",
+          "text": "6"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (2--1)² + (4-3)² = 10.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (2--1)² + (4-3)² = 10."
+      ]
+    },
+    {
+      "id": "coo_easy_18",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "easy",
+      "question_text": "What is the squared distance between the points (-3, 1) and (-2, 2)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "-2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "6"
+        },
+        {
+          "letter": "E",
+          "text": "2"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (-2--3)² + (2-1)² = 2.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (-2--3)² + (2-1)² = 2."
+      ]
+    },
+    {
+      "id": "coo_easy_19",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "easy",
+      "question_text": "What is the squared distance between the points (-2, 4) and (1, 7)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "17"
+        },
+        {
+          "letter": "B",
+          "text": "19"
+        },
+        {
+          "letter": "C",
+          "text": "18"
+        },
+        {
+          "letter": "D",
+          "text": "14"
+        },
+        {
+          "letter": "E",
+          "text": "22"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (1--2)² + (7-4)² = 18.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (1--2)² + (7-4)² = 18."
+      ]
+    },
+    {
+      "id": "coo_easy_20",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "easy",
+      "question_text": "What is the squared distance between the points (-3, -2) and (2, 1)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "34"
+        },
+        {
+          "letter": "B",
+          "text": "30"
+        },
+        {
+          "letter": "C",
+          "text": "38"
+        },
+        {
+          "letter": "D",
+          "text": "33"
+        },
+        {
+          "letter": "E",
+          "text": "35"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (2--3)² + (1--2)² = 34.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (2--3)² + (1--2)² = 34."
+      ]
+    },
+    {
+      "id": "coo_hard_21",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "hard",
+      "question_text": "What is the squared distance between the points (1, -1) and (2, 0)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2"
+        },
+        {
+          "letter": "B",
+          "text": "6"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "1"
+        },
+        {
+          "letter": "E",
+          "text": "-2"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (2-1)² + (0--1)² = 2.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (2-1)² + (0--1)² = 2."
+      ]
+    },
+    {
+      "id": "coo_easy_22",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "easy",
+      "question_text": "What is the squared distance between the points (0, 5) and (1, 10)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "25"
+        },
+        {
+          "letter": "B",
+          "text": "30"
+        },
+        {
+          "letter": "C",
+          "text": "22"
+        },
+        {
+          "letter": "D",
+          "text": "27"
+        },
+        {
+          "letter": "E",
+          "text": "26"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (1-0)² + (10-5)² = 26.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (1-0)² + (10-5)² = 26."
+      ]
+    },
+    {
+      "id": "coo_hard_23",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "hard",
+      "question_text": "What is the squared distance between the points (1, 1) and (4, 5)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "25"
+        },
+        {
+          "letter": "B",
+          "text": "21"
+        },
+        {
+          "letter": "C",
+          "text": "29"
+        },
+        {
+          "letter": "D",
+          "text": "24"
+        },
+        {
+          "letter": "E",
+          "text": "26"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (4-1)² + (5-1)² = 25.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (4-1)² + (5-1)² = 25."
+      ]
+    },
+    {
+      "id": "coo_easy_24",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "easy",
+      "question_text": "What is the squared distance between the points (5, 3) and (7, 7)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "19"
+        },
+        {
+          "letter": "B",
+          "text": "16"
+        },
+        {
+          "letter": "C",
+          "text": "20"
+        },
+        {
+          "letter": "D",
+          "text": "24"
+        },
+        {
+          "letter": "E",
+          "text": "21"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (7-5)² + (7-3)² = 20.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (7-5)² + (7-3)² = 20."
+      ]
+    },
+    {
+      "id": "coo_easy_25",
+      "subject": "Quantitative Reasoning",
+      "topic": "Coordinate Geometry",
+      "difficulty": "easy",
+      "question_text": "What is the squared distance between the points (-4, 1) and (0, 2)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "18"
+        },
+        {
+          "letter": "B",
+          "text": "17"
+        },
+        {
+          "letter": "C",
+          "text": "13"
+        },
+        {
+          "letter": "D",
+          "text": "21"
+        },
+        {
+          "letter": "E",
+          "text": "16"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (0--4)² + (2-1)² = 17.",
+      "hints": [
+        "Distance squared = (x2-x1)² + (y2-y1)² = (0--4)² + (2-1)² = 17."
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "title": "Example for Coordinate Geometry",
+      "question": "A sample real-exam structure for Coordinate Geometry.",
+      "solution": [
+        "Step 1: Read carefully.",
+        "Step 2: Apply the correct logical rule.",
+        "Step 3: Solve."
+      ]
     }
   ]
 }

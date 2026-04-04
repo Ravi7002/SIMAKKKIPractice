@@ -3,10 +3,10 @@
   "topic": "Word Problems",
   "introduction": "Word problems abstract algebraic expressions into real-world scenarios. This module focuses heavily on rates of work, multi-person pooled resources, distance, and item costs.",
   "tips_and_tricks": [
-    "Work = Rate \u00d7 Time. Therefore Rate = Work / Time.",
+    "Work = Rate × Time. Therefore Rate = Work / Time.",
     "When two people work together, their RATES add up, NOT their times.",
     "Draw a table for Rate, Time, and Distance to avoid substituting units incorrectly.",
-    "Distance = Speed \u00d7 Time. For head-on travel, speeds add up."
+    "Distance = Speed × Time. For head-on travel, speeds add up."
   ],
   "questions": [
     {
@@ -16,14 +16,34 @@
       "difficulty": "easy",
       "question_text": "A car travels at a constant speed of 60 miles per hour. How many minutes will it take to travel 45 miles?",
       "options": [
-        {"letter": "A", "text": "45 minutes"},
-        {"letter": "B", "text": "60 minutes"},
-        {"letter": "C", "text": "30 minutes"},
-        {"letter": "D", "text": "40 minutes"},
-        {"letter": "E", "text": "50 minutes"}
+        {
+          "letter": "A",
+          "text": "45 minutes"
+        },
+        {
+          "letter": "B",
+          "text": "60 minutes"
+        },
+        {
+          "letter": "C",
+          "text": "30 minutes"
+        },
+        {
+          "letter": "D",
+          "text": "40 minutes"
+        },
+        {
+          "letter": "E",
+          "text": "50 minutes"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "Time = Distance / Speed = 45 / 60 hours. To convert to minutes, multiply by 60: (45 / 60) * 60 = 45 minutes. Basically, at 60 mph, you go 1 mile a minute."
+      "explanation": "Time = Distance / Speed = 45 / 60 hours. To convert to minutes, multiply by 60: (45 / 60) * 60 = 45 minutes. Basically, at 60 mph, you go 1 mile a minute.",
+      "hints": [
+        "Time = Distance / Speed = 45 / 60 hours.",
+        "To convert to minutes, multiply by 60: (45 / 60) * 60 = 45 minutes.",
+        "Basically, at 60 mph, you go 1 mile a minute."
+      ]
     },
     {
       "id": "wp_easy_2",
@@ -32,14 +52,34 @@
       "difficulty": "easy",
       "question_text": "John has twice as many apples as Mary. If they have 24 apples together, how many does John have?",
       "options": [
-        {"letter": "A", "text": "8"},
-        {"letter": "B", "text": "12"},
-        {"letter": "C", "text": "16"},
-        {"letter": "D", "text": "18"},
-        {"letter": "E", "text": "6"}
+        {
+          "letter": "A",
+          "text": "8"
+        },
+        {
+          "letter": "B",
+          "text": "12"
+        },
+        {
+          "letter": "C",
+          "text": "16"
+        },
+        {
+          "letter": "D",
+          "text": "18"
+        },
+        {
+          "letter": "E",
+          "text": "6"
+        }
       ],
       "correct_answer": "C",
-      "explanation": "Let Mary = M, John = 2M. Total = M + 2M = 3M = 24.  M = 8. John has 2 * 8 = 16 apples."
+      "explanation": "Let Mary = M, John = 2M. Total = M + 2M = 3M = 24.  M = 8. John has 2 * 8 = 16 apples.",
+      "hints": [
+        "Let Mary = M, John = 2M.",
+        "Total = M + 2M = 3M = 24.",
+        "M = 8."
+      ]
     },
     {
       "id": "wp_medium_1",
@@ -48,14 +88,34 @@
       "difficulty": "medium",
       "question_text": "Machine A can produce 100 parts in 4 hours. Machine B can produce 100 parts in 5 hours. If both machines run at the same time, how many hours will it take them to produce exactly 450 parts?",
       "options": [
-        {"letter": "A", "text": "9 hours"},
-        {"letter": "B", "text": "10 hours"},
-        {"letter": "C", "text": "4.5 hours"},
-        {"letter": "D", "text": "5 hours"},
-        {"letter": "E", "text": "12 hours"}
+        {
+          "letter": "A",
+          "text": "9 hours"
+        },
+        {
+          "letter": "B",
+          "text": "10 hours"
+        },
+        {
+          "letter": "C",
+          "text": "4.5 hours"
+        },
+        {
+          "letter": "D",
+          "text": "5 hours"
+        },
+        {
+          "letter": "E",
+          "text": "12 hours"
+        }
       ],
       "correct_answer": "B",
-      "explanation": "Rate of A = 100 / 4 = 25 parts/hour. \nRate of B = 100 / 5 = 20 parts/hour. \nCombined Rate = 25 + 20 = 45 parts/hour. \nTime = Total Parts / Combined Rate = 450 / 45 = 10 hours."
+      "explanation": "Rate of A = 100 / 4 = 25 parts/hour. \nRate of B = 100 / 5 = 20 parts/hour. \nCombined Rate = 25 + 20 = 45 parts/hour. \nTime = Total Parts / Combined Rate = 450 / 45 = 10 hours.",
+      "hints": [
+        "Rate of A = 100 / 4 = 25 parts/hour.",
+        "Rate of B = 100 / 5 = 20 parts/hour.",
+        "Combined Rate = 25 + 20 = 45 parts/hour."
+      ]
     },
     {
       "id": "wp_medium_2",
@@ -64,14 +124,34 @@
       "difficulty": "medium",
       "question_text": "A train X leaves New York at 1:00 PM traveling at 50 mph towards Boston. Train Y leaves Boston at 2:00 PM traveling at 70 mph towards New York. If the cities are 290 miles apart, at what time will they pass each other?",
       "options": [
-        {"letter": "A", "text": "4:00 PM"},
-        {"letter": "B", "text": "3:30 PM"},
-        {"letter": "C", "text": "4:30 PM"},
-        {"letter": "D", "text": "5:00 PM"},
-        {"letter": "E", "text": "3:45 PM"}
+        {
+          "letter": "A",
+          "text": "4:00 PM"
+        },
+        {
+          "letter": "B",
+          "text": "3:30 PM"
+        },
+        {
+          "letter": "C",
+          "text": "4:30 PM"
+        },
+        {
+          "letter": "D",
+          "text": "5:00 PM"
+        },
+        {
+          "letter": "E",
+          "text": "3:45 PM"
+        }
       ],
       "correct_answer": "A",
-      "explanation": "Train X runs for 1 hour alone before Y starts. In this hour, X travels 50 miles. \nRemaining distance at 2:00 PM = 290 - 50 = 240 miles. \nWhen moving head-on, their relative speed is 50 + 70 = 120 mph. \nTime to meet = Distance / Relative Speed = 240 / 120 = 2 hours after 2:00 PM. \n2 hours after 2:00 PM is 4:00 PM."
+      "explanation": "Train X runs for 1 hour alone before Y starts. In this hour, X travels 50 miles. \nRemaining distance at 2:00 PM = 290 - 50 = 240 miles. \nWhen moving head-on, their relative speed is 50 + 70 = 120 mph. \nTime to meet = Distance / Relative Speed = 240 / 120 = 2 hours after 2:00 PM. \n2 hours after 2:00 PM is 4:00 PM.",
+      "hints": [
+        "Train X runs for 1 hour alone before Y starts.",
+        "In this hour, X travels 50 miles.",
+        "Remaining distance at 2:00 PM = 290 - 50 = 240 miles."
+      ]
     },
     {
       "id": "wp_medium_3",
@@ -80,14 +160,33 @@
       "difficulty": "medium",
       "question_text": "If a man works 10 hours a day, he can complete a job in 12 days. If he wants to finish the job in 8 days, how many hours a day must he work?",
       "options": [
-        {"letter": "A", "text": "14 hours"},
-        {"letter": "B", "text": "15 hours"},
-        {"letter": "C", "text": "16 hours"},
-        {"letter": "D", "text": "18 hours"},
-        {"letter": "E", "text": "12.5 hours"}
+        {
+          "letter": "A",
+          "text": "14 hours"
+        },
+        {
+          "letter": "B",
+          "text": "15 hours"
+        },
+        {
+          "letter": "C",
+          "text": "16 hours"
+        },
+        {
+          "letter": "D",
+          "text": "18 hours"
+        },
+        {
+          "letter": "E",
+          "text": "12.5 hours"
+        }
       ],
       "correct_answer": "B",
-      "explanation": "Total work is measured in man-hours: 10 hours/day * 12 days = 120 hours. \nTo finish the same 120 hours of work in 8 days, he needs: 120 / 8 = 15 hours a day."
+      "explanation": "Total work is measured in man-hours: 10 hours/day * 12 days = 120 hours. \nTo finish the same 120 hours of work in 8 days, he needs: 120 / 8 = 15 hours a day.",
+      "hints": [
+        "Total work is measured in man-hours: 10 hours/day * 12 days = 120 hours.",
+        "To finish the same 120 hours of work in 8 days, he needs: 120 / 8 = 15 hours a day."
+      ]
     },
     {
       "id": "wp_hard_1",
@@ -96,14 +195,34 @@
       "difficulty": "hard",
       "question_text": "Pipe A can fill a pool in 3 hours. Pipe B can fill it in 4 hours. Pipe C can DRAIN the pool in 6 hours. If all three pipes are opened simultaneously on an empty pool, how long will it take to fill the pool exactly?",
       "options": [
-        {"letter": "A", "text": "2 hours"},
-        {"letter": "B", "text": "2.4 hours"},
-        {"letter": "C", "text": "12/5 hours"},
-        {"letter": "D", "text": "4 hours"},
-        {"letter": "E", "text": "Both B and C are correct"}
+        {
+          "letter": "A",
+          "text": "2 hours"
+        },
+        {
+          "letter": "B",
+          "text": "2.4 hours"
+        },
+        {
+          "letter": "C",
+          "text": "12/5 hours"
+        },
+        {
+          "letter": "D",
+          "text": "4 hours"
+        },
+        {
+          "letter": "E",
+          "text": "Both B and C are correct"
+        }
       ],
       "correct_answer": "E",
-      "explanation": "Rates per hour: A = 1/3, B = 1/4, C = -1/6. \nCombined rate = 1/3 + 1/4 - 1/6. \nCommon denominator 12: 4/12 + 3/12 - 2/12 = 5/12 of the pool per hour. \nTime to fill = 1 / (5/12) = 12/5 hours. 12/5 = 2.4. So both B and C formats represent the exact correct value."
+      "explanation": "Rates per hour: A = 1/3, B = 1/4, C = -1/6. \nCombined rate = 1/3 + 1/4 - 1/6. \nCommon denominator 12: 4/12 + 3/12 - 2/12 = 5/12 of the pool per hour. \nTime to fill = 1 / (5/12) = 12/5 hours. 12/5 = 2.4. So both B and C formats represent the exact correct value.",
+      "hints": [
+        "Rates per hour: A = 1/3, B = 1/4, C = -1/6.",
+        "Combined rate = 1/3 + 1/4 - 1/6.",
+        "Common denominator 12: 4/12 + 3/12 - 2/12 = 5/12 of the pool per hour."
+      ]
     },
     {
       "id": "wp_hard_2",
@@ -112,14 +231,34 @@
       "difficulty": "hard",
       "question_text": "A contractor estimated a house would take 30 workers 60 days to build. After 20 days, 10 workers quit. How many TOTAL days will it take to build the house from the very beginning to completion?",
       "options": [
-        {"letter": "A", "text": "60 days"},
-        {"letter": "B", "text": "80 days"},
-        {"letter": "C", "text": "100 days"},
-        {"letter": "D", "text": "75 days"},
-        {"letter": "E", "text": "90 days"}
+        {
+          "letter": "A",
+          "text": "60 days"
+        },
+        {
+          "letter": "B",
+          "text": "80 days"
+        },
+        {
+          "letter": "C",
+          "text": "100 days"
+        },
+        {
+          "letter": "D",
+          "text": "75 days"
+        },
+        {
+          "letter": "E",
+          "text": "90 days"
+        }
       ],
       "correct_answer": "B",
-      "explanation": "Total job requires = 30 workers * 60 days = 1800 worker-days. \nWork done in first 20 days: 30 workers * 20 days = 600 worker-days. \nWork remaining: 1800 - 600 = 1200 worker-days. \nRemaining workers: 30 - 10 = 20 workers. \nTime for remaining work: 1200 / 20 = 60 days. \nTotal time from start = 20 (initial) + 60 (remaining) = 80 days."
+      "explanation": "Total job requires = 30 workers * 60 days = 1800 worker-days. \nWork done in first 20 days: 30 workers * 20 days = 600 worker-days. \nWork remaining: 1800 - 600 = 1200 worker-days. \nRemaining workers: 30 - 10 = 20 workers. \nTime for remaining work: 1200 / 20 = 60 days. \nTotal time from start = 20 (initial) + 60 (remaining) = 80 days.",
+      "hints": [
+        "Total job requires = 30 workers * 60 days = 1800 worker-days.",
+        "Work done in first 20 days: 30 workers * 20 days = 600 worker-days.",
+        "Work remaining: 1800 - 600 = 1200 worker-days."
+      ]
     },
     {
       "id": "wp_hard_3",
@@ -128,14 +267,34 @@
       "difficulty": "hard",
       "question_text": "A boat can travel 30 miles downstream in 2 hours, and 15 miles upstream in 3 hours. What is the speed of the current?",
       "options": [
-        {"letter": "A", "text": "10 mph"},
-        {"letter": "B", "text": "5 mph"},
-        {"letter": "C", "text": "8 mph"},
-        {"letter": "D", "text": "7.5 mph"},
-        {"letter": "E", "text": "2 mph"}
+        {
+          "letter": "A",
+          "text": "10 mph"
+        },
+        {
+          "letter": "B",
+          "text": "5 mph"
+        },
+        {
+          "letter": "C",
+          "text": "8 mph"
+        },
+        {
+          "letter": "D",
+          "text": "7.5 mph"
+        },
+        {
+          "letter": "E",
+          "text": "2 mph"
+        }
       ],
       "correct_answer": "B",
-      "explanation": "Let B = boat speed in still water, C = current speed. \nDownstream speed: B + C = 30 / 2 = 15 mph. \nUpstream speed: B - C = 15 / 3 = 5 mph. \nSubtract equations: (B + C) - (B - C) = 15 - 5 \u2192 2C = 10 \u2192 C = 5 mph."
+      "explanation": "Let B = boat speed in still water, C = current speed. \nDownstream speed: B + C = 30 / 2 = 15 mph. \nUpstream speed: B - C = 15 / 3 = 5 mph. \nSubtract equations: (B + C) - (B - C) = 15 - 5 → 2C = 10 → C = 5 mph.",
+      "hints": [
+        "Let B = boat speed in still water, C = current speed.",
+        "Downstream speed: B + C = 30 / 2 = 15 mph.",
+        "Upstream speed: B - C = 15 / 3 = 5 mph."
+      ]
     },
     {
       "id": "wp_hard_4",
@@ -144,14 +303,34 @@
       "difficulty": "hard",
       "question_text": "Tom is twice as old as his son. Ten years ago, he was three times as old as his son. How old will the son be in 5 years?",
       "options": [
-        {"letter": "A", "text": "20"},
-        {"letter": "B", "text": "25"},
-        {"letter": "C", "text": "40"},
-        {"letter": "D", "text": "45"},
-        {"letter": "E", "text": "15"}
+        {
+          "letter": "A",
+          "text": "20"
+        },
+        {
+          "letter": "B",
+          "text": "25"
+        },
+        {
+          "letter": "C",
+          "text": "40"
+        },
+        {
+          "letter": "D",
+          "text": "45"
+        },
+        {
+          "letter": "E",
+          "text": "15"
+        }
       ],
       "correct_answer": "B",
-      "explanation": "Let Tom's standard age = T, Son's age = S. \n1) T = 2S \n2) T - 10 = 3(S - 10) \nSubstitute T: 2S - 10 = 3S - 30 \u2192 -10 + 30 = S \u2192 S = 20. \nTom is currently 40, Son is 20. \nIn 5 years, the son will be 20 + 5 = 25 years old."
+      "explanation": "Let Tom's standard age = T, Son's age = S. \n1) T = 2S \n2) T - 10 = 3(S - 10) \nSubstitute T: 2S - 10 = 3S - 30 → -10 + 30 = S → S = 20. \nTom is currently 40, Son is 20. \nIn 5 years, the son will be 20 + 5 = 25 years old.",
+      "hints": [
+        "Let Tom's standard age = T, Son's age = S.",
+        "1) T = 2S  2) T - 10 = 3(S - 10)  Substitute T: 2S - 10 = 3S - 30 → -10 + 30 = S → S = 20.",
+        "Tom is currently 40, Son is 20."
+      ]
     },
     {
       "id": "wp_hard_5",
@@ -160,14 +339,570 @@
       "difficulty": "hard",
       "question_text": "A vendor sells two types of coffee blends. Blend A costs $12 per kg and Blend B costs $20 per kg. He wants to make exactly 50 kg of a mixture that he can sell at exactly $18 per kg with a 20% profit margin over his cost. How many kg of Blend A must he use?",
       "options": [
-        {"letter": "A", "text": "25.0 kg"},
-        {"letter": "B", "text": "12.5 kg"},
-        {"letter": "C", "text": "37.5 kg"},
-        {"letter": "D", "text": "31.25 kg"},
-        {"letter": "E", "text": "15.0 kg"}
+        {
+          "letter": "A",
+          "text": "25.0 kg"
+        },
+        {
+          "letter": "B",
+          "text": "12.5 kg"
+        },
+        {
+          "letter": "C",
+          "text": "37.5 kg"
+        },
+        {
+          "letter": "D",
+          "text": "31.25 kg"
+        },
+        {
+          "letter": "E",
+          "text": "15.0 kg"
+        }
       ],
       "correct_answer": "D",
-      "explanation": "If selling price is $18 representing a 20% profit over cost, then: Cost * 1.20 = 18 \u2192 Cost = 18 / 1.2 = $15 per kg. \nHe needs 50 kg of cost $15. Let A be amount of Blend A. Blend B = 50 - A. \nValue equation: 12A + 20(50 - A) = 15(50) \n12A + 1000 - 20A = 750 \n-8A = -250 \u2192 A = 250 / 8 = 31.25 kg."
+      "explanation": "If selling price is $18 representing a 20% profit over cost, then: Cost * 1.20 = 18 → Cost = 18 / 1.2 = $15 per kg. \nHe needs 50 kg of cost $15. Let A be amount of Blend A. Blend B = 50 - A. \nValue equation: 12A + 20(50 - A) = 15(50) \n12A + 1000 - 20A = 750 \n-8A = -250 → A = 250 / 8 = 31.25 kg.",
+      "hints": [
+        "If selling price is $18 representing a 20% profit over cost, then: Cost * 1.",
+        "20 = 18 → Cost = 18 / 1.",
+        "2 = $15 per kg."
+      ]
+    },
+    {
+      "id": "wor_hard_11",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "hard",
+      "question_text": "Worker A finishes 3 tasks per hour. Worker B finishes 2 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "17"
+        },
+        {
+          "letter": "B",
+          "text": "12"
+        },
+        {
+          "letter": "C",
+          "text": "13"
+        },
+        {
+          "letter": "D",
+          "text": "15"
+        },
+        {
+          "letter": "E",
+          "text": "18"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Combined rate = 3 + 2 = 5 tasks/hr. In 3 hours: 3 * 5 = 15.",
+      "hints": [
+        "Combined rate = 3 + 2 = 5 tasks/hr.",
+        "In 3 hours: 3 * 5 = 15."
+      ]
+    },
+    {
+      "id": "wor_medium_12",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "medium",
+      "question_text": "Worker A finishes 3 tasks per hour. Worker B finishes 4 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "18"
+        },
+        {
+          "letter": "B",
+          "text": "19"
+        },
+        {
+          "letter": "C",
+          "text": "24"
+        },
+        {
+          "letter": "D",
+          "text": "23"
+        },
+        {
+          "letter": "E",
+          "text": "21"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Combined rate = 3 + 4 = 7 tasks/hr. In 3 hours: 3 * 7 = 21.",
+      "hints": [
+        "Combined rate = 3 + 4 = 7 tasks/hr.",
+        "In 3 hours: 3 * 7 = 21."
+      ]
+    },
+    {
+      "id": "wor_medium_13",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "medium",
+      "question_text": "Worker A finishes 5 tasks per hour. Worker B finishes 3 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "24"
+        },
+        {
+          "letter": "B",
+          "text": "27"
+        },
+        {
+          "letter": "C",
+          "text": "21"
+        },
+        {
+          "letter": "D",
+          "text": "26"
+        },
+        {
+          "letter": "E",
+          "text": "22"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Combined rate = 5 + 3 = 8 tasks/hr. In 3 hours: 3 * 8 = 24.",
+      "hints": [
+        "Combined rate = 5 + 3 = 8 tasks/hr.",
+        "In 3 hours: 3 * 8 = 24."
+      ]
+    },
+    {
+      "id": "wor_medium_14",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "medium",
+      "question_text": "Worker A finishes 4 tasks per hour. Worker B finishes 4 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "21"
+        },
+        {
+          "letter": "B",
+          "text": "27"
+        },
+        {
+          "letter": "C",
+          "text": "22"
+        },
+        {
+          "letter": "D",
+          "text": "24"
+        },
+        {
+          "letter": "E",
+          "text": "26"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Combined rate = 4 + 4 = 8 tasks/hr. In 3 hours: 3 * 8 = 24.",
+      "hints": [
+        "Combined rate = 4 + 4 = 8 tasks/hr.",
+        "In 3 hours: 3 * 8 = 24."
+      ]
+    },
+    {
+      "id": "wor_easy_15",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "easy",
+      "question_text": "Worker A finishes 3 tasks per hour. Worker B finishes 4 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "21"
+        },
+        {
+          "letter": "B",
+          "text": "24"
+        },
+        {
+          "letter": "C",
+          "text": "18"
+        },
+        {
+          "letter": "D",
+          "text": "23"
+        },
+        {
+          "letter": "E",
+          "text": "19"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Combined rate = 3 + 4 = 7 tasks/hr. In 3 hours: 3 * 7 = 21.",
+      "hints": [
+        "Combined rate = 3 + 4 = 7 tasks/hr.",
+        "In 3 hours: 3 * 7 = 21."
+      ]
+    },
+    {
+      "id": "wor_easy_16",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "easy",
+      "question_text": "Worker A finishes 2 tasks per hour. Worker B finishes 3 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "13"
+        },
+        {
+          "letter": "B",
+          "text": "17"
+        },
+        {
+          "letter": "C",
+          "text": "15"
+        },
+        {
+          "letter": "D",
+          "text": "12"
+        },
+        {
+          "letter": "E",
+          "text": "18"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Combined rate = 2 + 3 = 5 tasks/hr. In 3 hours: 3 * 5 = 15.",
+      "hints": [
+        "Combined rate = 2 + 3 = 5 tasks/hr.",
+        "In 3 hours: 3 * 5 = 15."
+      ]
+    },
+    {
+      "id": "wor_medium_17",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "medium",
+      "question_text": "Worker A finishes 2 tasks per hour. Worker B finishes 3 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "13"
+        },
+        {
+          "letter": "B",
+          "text": "12"
+        },
+        {
+          "letter": "C",
+          "text": "15"
+        },
+        {
+          "letter": "D",
+          "text": "18"
+        },
+        {
+          "letter": "E",
+          "text": "17"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Combined rate = 2 + 3 = 5 tasks/hr. In 3 hours: 3 * 5 = 15.",
+      "hints": [
+        "Combined rate = 2 + 3 = 5 tasks/hr.",
+        "In 3 hours: 3 * 5 = 15."
+      ]
+    },
+    {
+      "id": "wor_hard_18",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "hard",
+      "question_text": "Worker A finishes 5 tasks per hour. Worker B finishes 3 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "26"
+        },
+        {
+          "letter": "B",
+          "text": "27"
+        },
+        {
+          "letter": "C",
+          "text": "24"
+        },
+        {
+          "letter": "D",
+          "text": "21"
+        },
+        {
+          "letter": "E",
+          "text": "22"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Combined rate = 5 + 3 = 8 tasks/hr. In 3 hours: 3 * 8 = 24.",
+      "hints": [
+        "Combined rate = 5 + 3 = 8 tasks/hr.",
+        "In 3 hours: 3 * 8 = 24."
+      ]
+    },
+    {
+      "id": "wor_easy_19",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "easy",
+      "question_text": "Worker A finishes 5 tasks per hour. Worker B finishes 2 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "18"
+        },
+        {
+          "letter": "B",
+          "text": "24"
+        },
+        {
+          "letter": "C",
+          "text": "21"
+        },
+        {
+          "letter": "D",
+          "text": "23"
+        },
+        {
+          "letter": "E",
+          "text": "19"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Combined rate = 5 + 2 = 7 tasks/hr. In 3 hours: 3 * 7 = 21.",
+      "hints": [
+        "Combined rate = 5 + 2 = 7 tasks/hr.",
+        "In 3 hours: 3 * 7 = 21."
+      ]
+    },
+    {
+      "id": "wor_medium_20",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "medium",
+      "question_text": "Worker A finishes 4 tasks per hour. Worker B finishes 5 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "29"
+        },
+        {
+          "letter": "B",
+          "text": "27"
+        },
+        {
+          "letter": "C",
+          "text": "24"
+        },
+        {
+          "letter": "D",
+          "text": "30"
+        },
+        {
+          "letter": "E",
+          "text": "25"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Combined rate = 4 + 5 = 9 tasks/hr. In 3 hours: 3 * 9 = 27.",
+      "hints": [
+        "Combined rate = 4 + 5 = 9 tasks/hr.",
+        "In 3 hours: 3 * 9 = 27."
+      ]
+    },
+    {
+      "id": "wor_easy_21",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "easy",
+      "question_text": "Worker A finishes 3 tasks per hour. Worker B finishes 4 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "18"
+        },
+        {
+          "letter": "B",
+          "text": "19"
+        },
+        {
+          "letter": "C",
+          "text": "24"
+        },
+        {
+          "letter": "D",
+          "text": "21"
+        },
+        {
+          "letter": "E",
+          "text": "23"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Combined rate = 3 + 4 = 7 tasks/hr. In 3 hours: 3 * 7 = 21.",
+      "hints": [
+        "Combined rate = 3 + 4 = 7 tasks/hr.",
+        "In 3 hours: 3 * 7 = 21."
+      ]
+    },
+    {
+      "id": "wor_hard_22",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "hard",
+      "question_text": "Worker A finishes 4 tasks per hour. Worker B finishes 3 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "19"
+        },
+        {
+          "letter": "B",
+          "text": "23"
+        },
+        {
+          "letter": "C",
+          "text": "24"
+        },
+        {
+          "letter": "D",
+          "text": "18"
+        },
+        {
+          "letter": "E",
+          "text": "21"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Combined rate = 4 + 3 = 7 tasks/hr. In 3 hours: 3 * 7 = 21.",
+      "hints": [
+        "Combined rate = 4 + 3 = 7 tasks/hr.",
+        "In 3 hours: 3 * 7 = 21."
+      ]
+    },
+    {
+      "id": "wor_easy_23",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "easy",
+      "question_text": "Worker A finishes 4 tasks per hour. Worker B finishes 4 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "22"
+        },
+        {
+          "letter": "B",
+          "text": "27"
+        },
+        {
+          "letter": "C",
+          "text": "26"
+        },
+        {
+          "letter": "D",
+          "text": "24"
+        },
+        {
+          "letter": "E",
+          "text": "21"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Combined rate = 4 + 4 = 8 tasks/hr. In 3 hours: 3 * 8 = 24.",
+      "hints": [
+        "Combined rate = 4 + 4 = 8 tasks/hr.",
+        "In 3 hours: 3 * 8 = 24."
+      ]
+    },
+    {
+      "id": "wor_hard_24",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "hard",
+      "question_text": "Worker A finishes 4 tasks per hour. Worker B finishes 2 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "16"
+        },
+        {
+          "letter": "B",
+          "text": "20"
+        },
+        {
+          "letter": "C",
+          "text": "21"
+        },
+        {
+          "letter": "D",
+          "text": "15"
+        },
+        {
+          "letter": "E",
+          "text": "18"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Combined rate = 4 + 2 = 6 tasks/hr. In 3 hours: 3 * 6 = 18.",
+      "hints": [
+        "Combined rate = 4 + 2 = 6 tasks/hr.",
+        "In 3 hours: 3 * 6 = 18."
+      ]
+    },
+    {
+      "id": "wor_easy_25",
+      "subject": "Quantitative Reasoning",
+      "topic": "Word Problems",
+      "difficulty": "easy",
+      "question_text": "Worker A finishes 4 tasks per hour. Worker B finishes 2 tasks per hour. How many tasks do they finish together in 3 hours?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "15"
+        },
+        {
+          "letter": "B",
+          "text": "18"
+        },
+        {
+          "letter": "C",
+          "text": "16"
+        },
+        {
+          "letter": "D",
+          "text": "20"
+        },
+        {
+          "letter": "E",
+          "text": "21"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Combined rate = 4 + 2 = 6 tasks/hr. In 3 hours: 3 * 6 = 18.",
+      "hints": [
+        "Combined rate = 4 + 2 = 6 tasks/hr.",
+        "In 3 hours: 3 * 6 = 18."
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "title": "Example for Word Problems",
+      "question": "A sample real-exam structure for Word Problems.",
+      "solution": [
+        "Step 1: Read carefully.",
+        "Step 2: Apply the correct logical rule.",
+        "Step 3: Solve."
+      ]
     }
   ]
 }

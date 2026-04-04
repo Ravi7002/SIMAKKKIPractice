@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Clock, ShieldAlert, CheckCircle, XCircle, ArrowRight, ArrowLeft, Activity } from 'lucide-react';
 import MathText from './MathText';
+import ChartDisplay from './ChartDisplay';
 
 const AbilityTest = ({ allTopicsData, onFinish }) => {
   const [phase, setPhase] = useState('intro'); // 'intro', 'stage1', 'stage2', 'review'
@@ -167,6 +168,7 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
         </div>
 
         <div style={{ fontSize: '1.2rem', lineHeight: '1.6', marginBottom: '2rem' }}>
+          {q.chart_data && <ChartDisplay chartData={q.chart_data} />}
           <MathText text={q.question_text} />
         </div>
 

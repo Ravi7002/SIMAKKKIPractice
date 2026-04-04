@@ -32,8 +32,9 @@ function toLatex(s) {
   s = s.replace(/!=/g, '\\neq ');
   s = s.replace(/<=/g, '\\le ');
   s = s.replace(/>=/g, '\\ge ');
-  s = s.replace(/->/g, '\\rightarrow ');
-  s = s.replace(/=>/g, '\\Rightarrow ');
+  // Logical Reasoning relations
+  s = s.replace(/ (>) /g, ' \\gt ');
+  s = s.replace(/ (<) /g, ' \\lt ');
 
   return s;
 }
@@ -60,10 +61,9 @@ function renderMath(latex, display = false) {
  *  - sqrt(...) or cbrt(...)
  *  - \latexCommand{...}
  *  - log_b(...)
- *  - variable followed by digit (e.g. x1, x2)
+ *  - single letter followed by operator (e.g. A > B)
  */
-const MATH_TOKEN = /(?:[a-zA-Z0-9.\\]+(?:\^|_)(?:\{[^}]+\}|[a-zA-Z0-9-]+)|sqrt\([^)]+\)|cbrt\([^)]+\)|\\[a-zA-Z]+(?:\{[^}]*\})*|\blog_\w+(?:\([^)]+\))?|[a-z][0-9])/;
-
+const MATH_TOKEN = /(?:[a-zA-Z0-9.\\]+(?:\^|_)(?:\{[^}]+\}|[a-zA-Z0-9-]+)|sqrt\([^)]+\)|cbrt\([^)]+\)|\\[a-zA-Z]+(?:\{[^}]*\})*|\blog_\w+(?:\([^)]+\))?|[A-Za-z][0-9]|(?:[A-Za-z](?=\s*[<>≤≥=+*/-])))/;
 /**
  * Splits a plain-text block into text/math segments.
  * Groups consecutive math tokens + operators into one math block.
@@ -74,10 +74,10 @@ function splitPlainMath(text) {
   // Build a pattern that matches a "math run":
   // one or more math tokens connected by operators/spaces
   const MATH_TOKEN_STR = MATH_TOKEN.source;
-  const OPERATOR = /\s*[*/+\-=<>≤≥^!~|±]\s*|\s+/.source;
+  const OPERATOR = /\s*[*/+\-=<>≤≥^!~|±()∘]\s*|\s+/.source;
   // A math run must start with a math token, then optionally more tokens/operators, and end with a math token or a bare number/result
   const MATH_RUN = new RegExp(
-    `(${MATH_TOKEN_STR}(?:(?:${OPERATOR})(?:${MATH_TOKEN_STR}|[0-9]+(?:\\.[0-9]+)?))*)`,
+    `(${MATH_TOKEN_STR}(?:(?:${OPERATOR})(?:${MATH_TOKEN_STR}|[A-Za-z]\\b|[0-9]+(?:\\.[0-9]+)?))*)`,
     'g'
   );
 

@@ -3,13 +3,34 @@
   "topic": "Trigonometry",
   "introduction": "Trigonometry deals with relationships between angles and sides in triangles, as well as periodic functions. In SIMAK, key areas include: trig identities, max/min values of trig expressions, and solving trig equations. The unit circle and key angle values (30°,45°,60°) must be memorized.",
   "key_formulas": [
-    {"name": "Pythagorean identity", "formula": "\\sin^2\\theta + \\cos^2\\theta = 1"},
-    {"name": "Double angle (sin)", "formula": "\\sin 2\\theta = 2\\sin\\theta\\cos\\theta"},
-    {"name": "Double angle (cos)", "formula": "\\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta = 1-2\\sin^2\\theta"},
-    {"name": "Max of a·cos+b·sin", "formula": "\\max(a\\cos\\theta + b\\sin\\theta) = \\sqrt{a^2+b^2}"},
-    {"name": "Sum-to-product", "formula": "\\sin A + \\sin B = 2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2}"},
-    {"name": "Law of Cosines", "formula": "c^2 = a^2 + b^2 - 2ab\\cos C"},
-    {"name": "Tan identity", "formula": "\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}, \\quad 1+\\tan^2\\theta = \\sec^2\\theta"}
+    {
+      "name": "Pythagorean identity",
+      "formula": "\\sin^2\\theta + \\cos^2\\theta = 1"
+    },
+    {
+      "name": "Double angle (sin)",
+      "formula": "\\sin 2\\theta = 2\\sin\\theta\\cos\\theta"
+    },
+    {
+      "name": "Double angle (cos)",
+      "formula": "\\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta = 1-2\\sin^2\\theta"
+    },
+    {
+      "name": "Max of a·cos+b·sin",
+      "formula": "\\max(a\\cos\\theta + b\\sin\\theta) = \\sqrt{a^2+b^2}"
+    },
+    {
+      "name": "Sum-to-product",
+      "formula": "\\sin A + \\sin B = 2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2}"
+    },
+    {
+      "name": "Law of Cosines",
+      "formula": "c^2 = a^2 + b^2 - 2ab\\cos C"
+    },
+    {
+      "name": "Tan identity",
+      "formula": "\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}, \\quad 1+\\tan^2\\theta = \\sec^2\\theta"
+    }
   ],
   "tips_and_tricks": [
     "Memorize: sin30°=1/2, sin45°=√2/2, sin60°=√3/2, sin90°=1.",
@@ -42,172 +63,904 @@
   ],
   "questions": [
     {
-      "id": "trig_easy_1", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "easy",
+      "id": "trig_easy_1",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "easy",
       "question_text": "Find the value of sin(30°) + cos(60°).",
-      "options": [{"letter":"A","text":"1"},{"letter":"B","text":"√3"},{"letter":"C","text":"√2"},{"letter":"D","text":"1/2"},{"letter":"E","text":"2"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "√3"
+        },
+        {
+          "letter": "C",
+          "text": "√2"
+        },
+        {
+          "letter": "D",
+          "text": "1/2"
+        },
+        {
+          "letter": "E",
+          "text": "2"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "sin30° = 1/2, cos60° = 1/2\nSum = 1/2+1/2 = **1**",
-      "hints": ["sin30° = 1/2.", "cos60° = 1/2.", "1/2+1/2=1."]
+      "hints": [
+        "sin30° = 1/2.",
+        "cos60° = 1/2.",
+        "1/2+1/2=1."
+      ]
     },
     {
-      "id": "trig_easy_2", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "easy",
+      "id": "trig_easy_2",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "easy",
       "question_text": "If sin(θ) = 3/5 and θ is in Q1, find cos(θ).",
-      "options": [{"letter":"A","text":"4/5"},{"letter":"B","text":"3/4"},{"letter":"C","text":"5/3"},{"letter":"D","text":"5/4"},{"letter":"E","text":"1/5"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "4/5"
+        },
+        {
+          "letter": "B",
+          "text": "3/4"
+        },
+        {
+          "letter": "C",
+          "text": "5/3"
+        },
+        {
+          "letter": "D",
+          "text": "5/4"
+        },
+        {
+          "letter": "E",
+          "text": "1/5"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "cos²θ = 1-sin²θ = 1-9/25 = 16/25\ncosθ = 4/5 (positive in Q1)",
-      "hints": ["Use: cos²θ = 1-sin²θ.", "1-(3/5)² = 1-9/25 = 16/25.", "cosθ = √(16/25) = 4/5 (Q1)."]
+      "hints": [
+        "Use: cos²θ = 1-sin²θ.",
+        "1-(3/5)² = 1-9/25 = 16/25.",
+        "cosθ = √(16/25) = 4/5 (Q1)."
+      ]
     },
     {
-      "id": "trig_easy_3", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "easy",
+      "id": "trig_easy_3",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "easy",
       "question_text": "What is the maximum value of 5sin(x)?",
-      "options": [{"letter":"A","text":"5"},{"letter":"B","text":"1"},{"letter":"C","text":"10"},{"letter":"D","text":"2.5"},{"letter":"E","text":"∞"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "5"
+        },
+        {
+          "letter": "B",
+          "text": "1"
+        },
+        {
+          "letter": "C",
+          "text": "10"
+        },
+        {
+          "letter": "D",
+          "text": "2.5"
+        },
+        {
+          "letter": "E",
+          "text": "∞"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "max of sin(x) = 1\nmax of 5sin(x) = 5×1 = **5**",
-      "hints": ["Max of sin(x) = 1.", "5sin(x) max = 5×1.", "= 5."]
+      "hints": [
+        "Max of sin(x) = 1.",
+        "5sin(x) max = 5×1.",
+        "= 5."
+      ]
     },
     {
-      "id": "trig_easy_4", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "easy",
+      "id": "trig_easy_4",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "easy",
       "question_text": "Evaluate: tan(45°).",
-      "options": [{"letter":"A","text":"1"},{"letter":"B","text":"√3"},{"letter":"C","text":"1/√3"},{"letter":"D","text":"√2"},{"letter":"E","text":"0"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "√3"
+        },
+        {
+          "letter": "C",
+          "text": "1/√3"
+        },
+        {
+          "letter": "D",
+          "text": "√2"
+        },
+        {
+          "letter": "E",
+          "text": "0"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "tan45° = sin45°/cos45° = (√2/2)/(√2/2) = **1**",
-      "hints": ["At 45°, sin=cos=√2/2.", "tan = sin/cos = 1.", "Answer: 1."]
+      "hints": [
+        "At 45°, sin=cos=√2/2.",
+        "tan = sin/cos = 1.",
+        "Answer: 1."
+      ]
     },
     {
-      "id": "trig_easy_5", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "easy",
+      "id": "trig_easy_5",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "easy",
       "question_text": "Simplify: sin²x + cos²x.",
-      "options": [{"letter":"A","text":"1"},{"letter":"B","text":"2"},{"letter":"C","text":"0"},{"letter":"D","text":"sin(2x)"},{"letter":"E","text":"cos(2x)"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "0"
+        },
+        {
+          "letter": "D",
+          "text": "sin(2x)"
+        },
+        {
+          "letter": "E",
+          "text": "cos(2x)"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "This is the Pythagorean identity: **sin²x + cos²x = 1** always.",
-      "hints": ["This is the fundamental trig identity.", "sin²x + cos²x = 1 for any x.", "Answer: 1."]
+      "hints": [
+        "This is the fundamental trig identity.",
+        "sin²x + cos²x = 1 for any x.",
+        "Answer: 1."
+      ]
     },
     {
-      "id": "trig_easy_6", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "easy",
+      "id": "trig_easy_6",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "easy",
       "question_text": "What is the period of f(x) = sin(2x)?",
-      "options": [{"letter":"A","text":"π"},{"letter":"B","text":"2π"},{"letter":"C","text":"π/2"},{"letter":"D","text":"4π"},{"letter":"E","text":"1"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "π"
+        },
+        {
+          "letter": "B",
+          "text": "2π"
+        },
+        {
+          "letter": "C",
+          "text": "π/2"
+        },
+        {
+          "letter": "D",
+          "text": "4π"
+        },
+        {
+          "letter": "E",
+          "text": "1"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Period of sin(bx) = 2π/b.\nb=2 → period = 2π/2 = **π**",
-      "hints": ["Period of sin(bx) = 2π/b.", "b=2.", "Period = 2π/2 = π."]
+      "hints": [
+        "Period of sin(bx) = 2π/b.",
+        "b=2.",
+        "Period = 2π/2 = π."
+      ]
     },
     {
-      "id": "trig_easy_7", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "easy",
+      "id": "trig_easy_7",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "easy",
       "question_text": "Find sin(2x) if sinx = 3/5 and cosx = 4/5.",
-      "options": [{"letter":"A","text":"24/25"},{"letter":"B","text":"7/25"},{"letter":"C","text":"12/25"},{"letter":"D","text":"6/5"},{"letter":"E","text":"1"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "24/25"
+        },
+        {
+          "letter": "B",
+          "text": "7/25"
+        },
+        {
+          "letter": "C",
+          "text": "12/25"
+        },
+        {
+          "letter": "D",
+          "text": "6/5"
+        },
+        {
+          "letter": "E",
+          "text": "1"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "sin2x = 2sinx·cosx = 2(3/5)(4/5) = 24/25",
-      "hints": ["sin2x = 2sinx·cosx.", "= 2(3/5)(4/5).", "= 24/25."]
+      "hints": [
+        "sin2x = 2sinx·cosx.",
+        "= 2(3/5)(4/5).",
+        "= 24/25."
+      ]
     },
     {
-      "id": "trig_easy_8", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "easy",
+      "id": "trig_easy_8",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "easy",
       "question_text": "cos(π) equals:",
-      "options": [{"letter":"A","text":"-1"},{"letter":"B","text":"0"},{"letter":"C","text":"1"},{"letter":"D","text":"-1/2"},{"letter":"E","text":"Undefined"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "-1"
+        },
+        {
+          "letter": "B",
+          "text": "0"
+        },
+        {
+          "letter": "C",
+          "text": "1"
+        },
+        {
+          "letter": "D",
+          "text": "-1/2"
+        },
+        {
+          "letter": "E",
+          "text": "Undefined"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "cos(π) = cos(180°) = **-1**",
-      "hints": ["π radians = 180°.", "At 180°, the point on unit circle is (-1,0).", "cos(180°) = -1."]
+      "hints": [
+        "π radians = 180°.",
+        "At 180°, the point on unit circle is (-1,0).",
+        "cos(180°) = -1."
+      ]
     },
     {
-      "id": "trig_medium_1", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "medium",
+      "id": "trig_medium_1",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
       "question_text": "Find the maximum value of f(x) = 3sin(x) + 4cos(x).",
-      "options": [{"letter":"A","text":"5"},{"letter":"B","text":"7"},{"letter":"C","text":"4"},{"letter":"D","text":"3"},{"letter":"E","text":"12"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "5"
+        },
+        {
+          "letter": "B",
+          "text": "7"
+        },
+        {
+          "letter": "C",
+          "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "3"
+        },
+        {
+          "letter": "E",
+          "text": "12"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "max(a·sinx + b·cosx) = √(a²+b²) = √(9+16) = √25 = **5**",
-      "hints": ["Use formula: max(a·sinx+b·cosx) = √(a²+b²).", "√(3²+4²) = √25.", "= 5."]
+      "hints": [
+        "Use formula: max(a·sinx+b·cosx) = √(a²+b²).",
+        "√(3²+4²) = √25.",
+        "= 5."
+      ]
     },
     {
-      "id": "trig_medium_2", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "medium",
+      "id": "trig_medium_2",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
       "question_text": "Solve for x ∈ [0°, 360°]: 2sin²x - sinx - 1 = 0.",
-      "options": [{"letter":"A","text":"30°, 150°, 270°"},{"letter":"B","text":"0°, 90°, 180°"},{"letter":"C","text":"60°, 120°, 240°"},{"letter":"D","text":"90°, 210°, 330°"},{"letter":"E","text":"30°, 90°, 270°"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "30°, 150°, 270°"
+        },
+        {
+          "letter": "B",
+          "text": "0°, 90°, 180°"
+        },
+        {
+          "letter": "C",
+          "text": "60°, 120°, 240°"
+        },
+        {
+          "letter": "D",
+          "text": "90°, 210°, 330°"
+        },
+        {
+          "letter": "E",
+          "text": "30°, 90°, 270°"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Let u=sinx: 2u²-u-1=0 → (2u+1)(u-1)=0\nu=1: sinx=1 → x=90°\nu=-1/2: sinx=-1/2 → x=210°,330°\n\nWait, let me check: sin30°=1/2, sin150°=1/2, sin210°=-1/2, sin330°=-1/2.\nSolution: 90°, 210°, 330°.",
-      "hints": ["Let u=sinx. Solve quadratic 2u²-u-1=0.", "(2u+1)(u-1)=0 → u=1 or u=-1/2.", "sinx=1→x=90°. sinx=-1/2→x=210°,330°."]
+      "hints": [
+        "Let u=sinx. Solve quadratic 2u²-u-1=0.",
+        "(2u+1)(u-1)=0 → u=1 or u=-1/2.",
+        "sinx=1→x=90°. sinx=-1/2→x=210°,330°."
+      ]
     },
     {
-      "id": "trig_medium_3", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "medium",
+      "id": "trig_medium_3",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
       "question_text": "Simplify: sin(x)·cos(y) + cos(x)·sin(y).",
-      "options": [{"letter":"A","text":"sin(x+y)"},{"letter":"B","text":"cos(x+y)"},{"letter":"C","text":"sin(x-y)"},{"letter":"D","text":"cos(x-y)"},{"letter":"E","text":"2sin(xy)"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "sin(x+y)"
+        },
+        {
+          "letter": "B",
+          "text": "cos(x+y)"
+        },
+        {
+          "letter": "C",
+          "text": "sin(x-y)"
+        },
+        {
+          "letter": "D",
+          "text": "cos(x-y)"
+        },
+        {
+          "letter": "E",
+          "text": "2sin(xy)"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "This is the sine addition formula: sin(x+y) = sinx·cosy + cosx·siny",
-      "hints": ["Recognize the pattern: sinA·cosB + cosA·sinB.", "This equals sin(A+B).", "Answer: sin(x+y)."]
+      "hints": [
+        "Recognize the pattern: sinA·cosB + cosA·sinB.",
+        "This equals sin(A+B).",
+        "Answer: sin(x+y)."
+      ]
     },
     {
-      "id": "trig_medium_4", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "medium",
+      "id": "trig_medium_4",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
       "question_text": "Find the minimum value of g(x) = 5 - 3sin(x).",
-      "options": [{"letter":"A","text":"2"},{"letter":"B","text":"8"},{"letter":"C","text":"5"},{"letter":"D","text":"3"},{"letter":"E","text":"0"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "2"
+        },
+        {
+          "letter": "B",
+          "text": "8"
+        },
+        {
+          "letter": "C",
+          "text": "5"
+        },
+        {
+          "letter": "D",
+          "text": "3"
+        },
+        {
+          "letter": "E",
+          "text": "0"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Min of g(x) occurs when -3sin(x) is most negative, i.e., when sinx is maximum (=1).\nMin = 5-3(1) = **2**",
-      "hints": ["g is minimized when sin(x) is maximized.", "sinx_max = 1.", "g_min = 5-3(1) = 2."]
+      "hints": [
+        "g is minimized when sin(x) is maximized.",
+        "sinx_max = 1.",
+        "g_min = 5-3(1) = 2."
+      ]
     },
     {
-      "id": "trig_medium_5", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "medium",
+      "id": "trig_medium_5",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
       "question_text": "If tan(x) = 2, find sin(x)·cos(x) given x is acute.",
-      "options": [{"letter":"A","text":"2/5"},{"letter":"B","text":"1/2"},{"letter":"C","text":"4/5"},{"letter":"D","text":"1"},{"letter":"E","text":"2/√5"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "2/5"
+        },
+        {
+          "letter": "B",
+          "text": "1/2"
+        },
+        {
+          "letter": "C",
+          "text": "4/5"
+        },
+        {
+          "letter": "D",
+          "text": "1"
+        },
+        {
+          "letter": "E",
+          "text": "2/√5"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "tanx=2 → sinx=2/√5, cosx=1/√5 (in Q1, hyp=√5)\nsinx·cosx = (2/√5)(1/√5) = 2/5",
-      "hints": ["tanx=2=opp/adj. Hypotenuse=√(1+4)=√5.", "sinx=2/√5, cosx=1/√5.", "sinx·cosx=2/5."]
+      "hints": [
+        "tanx=2=opp/adj. Hypotenuse=√(1+4)=√5.",
+        "sinx=2/√5, cosx=1/√5.",
+        "sinx·cosx=2/5."
+      ]
     },
     {
-      "id": "trig_medium_6", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "medium",
+      "id": "trig_medium_6",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
       "question_text": "Find the value of cos(75°).",
-      "options": [{"letter":"A","text":"(√6-√2)/4"},{"letter":"B","text":"(√6+√2)/4"},{"letter":"C","text":"√3/2"},{"letter":"D","text":"1/2"},{"letter":"E","text":"√2/4"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "(√6-√2)/4"
+        },
+        {
+          "letter": "B",
+          "text": "(√6+√2)/4"
+        },
+        {
+          "letter": "C",
+          "text": "√3/2"
+        },
+        {
+          "letter": "D",
+          "text": "1/2"
+        },
+        {
+          "letter": "E",
+          "text": "√2/4"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "cos75° = cos(45°+30°) = cos45°cos30° - sin45°sin30°\n= (√2/2)(√3/2) - (√2/2)(1/2)\n= √6/4 - √2/4 = **(√6-√2)/4**",
-      "hints": ["Write 75° = 45°+30°, then use addition formula.", "cos(45°+30°) = cos45°cos30° - sin45°sin30°.", "= √6/4 - √2/4 = (√6-√2)/4."]
+      "hints": [
+        "Write 75° = 45°+30°, then use addition formula.",
+        "cos(45°+30°) = cos45°cos30° - sin45°sin30°.",
+        "= √6/4 - √2/4 = (√6-√2)/4."
+      ]
     },
     {
-      "id": "trig_medium_7", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "medium",
+      "id": "trig_medium_7",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
       "question_text": "Simplify: (1-cos2x)/(sin2x).",
-      "options": [{"letter":"A","text":"tan(x)"},{"letter":"B","text":"cot(x)"},{"letter":"C","text":"sin(x)"},{"letter":"D","text":"2tan(x)"},{"letter":"E","text":"1"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "tan(x)"
+        },
+        {
+          "letter": "B",
+          "text": "cot(x)"
+        },
+        {
+          "letter": "C",
+          "text": "sin(x)"
+        },
+        {
+          "letter": "D",
+          "text": "2tan(x)"
+        },
+        {
+          "letter": "E",
+          "text": "1"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "1-cos2x = 2sin²x\nsin2x = 2sinxcosx\n\n(2sin²x)/(2sinxcosx) = sinx/cosx = **tanx**",
-      "hints": ["Use: 1-cos2x = 2sin²x and sin2x = 2sinxcosx.", "Ratio = 2sin²x/(2sinxcosx).", "= sinx/cosx = tanx."]
+      "hints": [
+        "Use: 1-cos2x = 2sin²x and sin2x = 2sinxcosx.",
+        "Ratio = 2sin²x/(2sinxcosx).",
+        "= sinx/cosx = tanx."
+      ]
     },
     {
-      "id": "trig_medium_8", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "medium",
+      "id": "trig_medium_8",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
       "question_text": "f(x) = 2cos²x + 4cosx - 3. Find the range of f.",
-      "options": [{"letter":"A","text":"[-5, 3]"},{"letter":"B","text":"[-3, 3]"},{"letter":"C","text":"[-5, 5]"},{"letter":"D","text":"[0, 3]"},{"letter":"E","text":"[-3, 5]"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "[-5, 3]"
+        },
+        {
+          "letter": "B",
+          "text": "[-3, 3]"
+        },
+        {
+          "letter": "C",
+          "text": "[-5, 5]"
+        },
+        {
+          "letter": "D",
+          "text": "[0, 3]"
+        },
+        {
+          "letter": "E",
+          "text": "[-3, 5]"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Let u = cosx ∈ [-1,1].\ng(u) = 2u²+4u-3 on [-1,1].\n\nVertex: u = -4/4 = -1. g(-1) = 2-4-3 = -5.\ng(1) = 2+4-3 = 3.\n\nMin=-5 (at u=-1), Max=3 (at u=1).\nRange: **[-5, 3]**",
-      "hints": ["Let u=cosx, u∈[-1,1]. Find range of g(u)=2u²+4u-3 on this interval.", "Vertex at u=-b/(2a)=-1. Check endpoints.", "g(-1)=-5, g(1)=3. Range: [-5,3]."]
+      "hints": [
+        "Let u=cosx, u∈[-1,1]. Find range of g(u)=2u²+4u-3 on this interval.",
+        "Vertex at u=-b/(2a)=-1. Check endpoints.",
+        "g(-1)=-5, g(1)=3. Range: [-5,3]."
+      ]
     },
     {
-      "id": "trig_hard_1", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "hard",
+      "id": "trig_hard_1",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "hard",
       "question_text": "Find the maximum value of f(x) = 4cos²x - 4√3·sinx·cosx + 2.",
-      "options": [{"letter":"A","text":"6"},{"letter":"B","text":"8"},{"letter":"C","text":"4"},{"letter":"D","text":"10"},{"letter":"E","text":"2"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "6"
+        },
+        {
+          "letter": "B",
+          "text": "8"
+        },
+        {
+          "letter": "C",
+          "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "10"
+        },
+        {
+          "letter": "E",
+          "text": "2"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Rewrite using identities:\n4cos²x = 2(1+cos2x) = 2+2cos2x\n4√3·sinx·cosx = 2√3·sin2x\n\nf(x) = 2+2cos2x - 2√3·sin2x + 2 = 4 + 2cos2x - 2√3·sin2x\n\nMax of (2cos2x - 2√3·sin2x) = √(4+12) = √16 = 4\n\nMax f = 4+4 = **8**",
-      "hints": ["Rewrite: 4cos²x = 2+2cos2x and 4√3sinxcosx = 2√3sin2x.", "f = 4 + 2cos2x - 2√3sin2x.", "Max of (2cos2x-2√3sin2x) = √(4+12)=4. Max f = 8."]
+      "hints": [
+        "Rewrite: 4cos²x = 2+2cos2x and 4√3sinxcosx = 2√3sin2x.",
+        "f = 4 + 2cos2x - 2√3sin2x.",
+        "Max of (2cos2x-2√3sin2x) = √(4+12)=4. Max f = 8."
+      ]
     },
     {
-      "id": "trig_hard_2", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "hard",
+      "id": "trig_hard_2",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "hard",
       "question_text": "In triangle ABC, a=7, b=8, c=9. Find cos(A).",
-      "options": [{"letter":"A","text":"2/3"},{"letter":"B","text":"11/16"},{"letter":"C","text":"2/3"},{"letter":"D","text":"7/9"},{"letter":"E","text":"3/4"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "2/3"
+        },
+        {
+          "letter": "B",
+          "text": "11/16"
+        },
+        {
+          "letter": "C",
+          "text": "2/3"
+        },
+        {
+          "letter": "D",
+          "text": "7/9"
+        },
+        {
+          "letter": "E",
+          "text": "3/4"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Law of Cosines: a² = b²+c²-2bc·cosA\n49 = 64+81-144cosA\n49 = 145-144cosA\n144cosA = 96\ncosA = 96/144 = **2/3**",
-      "hints": ["Use Law of Cosines: a²=b²+c²-2bc·cosA.", "49=64+81-144cosA.", "cosA = 96/144 = 2/3."]
+      "hints": [
+        "Use Law of Cosines: a²=b²+c²-2bc·cosA.",
+        "49=64+81-144cosA.",
+        "cosA = 96/144 = 2/3."
+      ]
     },
     {
-      "id": "trig_hard_3", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "hard",
+      "id": "trig_hard_3",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "hard",
       "question_text": "Prove/evaluate: sin(20°)·sin(40°)·sin(80°).",
-      "options": [{"letter":"A","text":"√3/8"},{"letter":"B","text":"1/8"},{"letter":"C","text":"3/8"},{"letter":"D","text":"1/4"},{"letter":"E","text":"√3/4"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "√3/8"
+        },
+        {
+          "letter": "B",
+          "text": "1/8"
+        },
+        {
+          "letter": "C",
+          "text": "3/8"
+        },
+        {
+          "letter": "D",
+          "text": "1/4"
+        },
+        {
+          "letter": "E",
+          "text": "√3/4"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "Using the identity: sin(60°-x)·sin(x)·sin(60°+x) = sin(3x)/4\n\nWith x=20°:\nsin40°·sin20°·sin80° = sin(60°)/(4) ... actually:\nsin(60°-20°)=sin40°, sin20°, sin(60°+20°)=sin80°.\n= sin(3×20°)/4 = sin60°/4 = (√3/2)/4 = **√3/8**",
-      "hints": ["Recall identity: sinA·sin(60°-A)·sin(60°+A) = sin(3A)/4.", "With A=20°: sin20°·sin40°·sin80° = sin60°/4.", "= (√3/2)/4 = √3/8."]
+      "hints": [
+        "Recall identity: sinA·sin(60°-A)·sin(60°+A) = sin(3A)/4.",
+        "With A=20°: sin20°·sin40°·sin80° = sin60°/4.",
+        "= (√3/2)/4 = √3/8."
+      ]
     },
     {
-      "id": "trig_hard_4", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "hard",
+      "id": "trig_hard_4",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "hard",
       "question_text": "Solve: cos2x + 3cosx + 2 = 0 for x ∈ [0°, 360°].",
-      "options": [{"letter":"A","text":"120° and 240°"},{"letter":"B","text":"60° and 300°"},{"letter":"C","text":"90° and 270°"},{"letter":"D","text":"180°"},{"letter":"E","text":"0° and 180°"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "120° and 240°"
+        },
+        {
+          "letter": "B",
+          "text": "60° and 300°"
+        },
+        {
+          "letter": "C",
+          "text": "90° and 270°"
+        },
+        {
+          "letter": "D",
+          "text": "180°"
+        },
+        {
+          "letter": "E",
+          "text": "0° and 180°"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "cos2x = 2cos²x-1\n2cos²x-1+3cosx+2=0 → 2cos²x+3cosx+1=0\n(2cosx+1)(cosx+1)=0\n\ncosx=-1/2 → x=120°,240°\ncosx=-1 → x=180°\n\nSolutions: **120°, 180°, 240°**",
-      "hints": ["Use cos2x=2cos²x-1 to convert to quadratic in cosx.", "2cos²x+3cosx+1=0 → (2cosx+1)(cosx+1)=0.", "cosx=-1/2→120°,240°; cosx=-1→180°."]
+      "hints": [
+        "Use cos2x=2cos²x-1 to convert to quadratic in cosx.",
+        "2cos²x+3cosx+1=0 → (2cosx+1)(cosx+1)=0.",
+        "cosx=-1/2→120°,240°; cosx=-1→180°."
+      ]
     },
     {
-      "id": "trig_hard_5", "subject": "Basic Mathematics", "topic": "Trigonometry", "difficulty": "hard",
+      "id": "trig_hard_5",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "hard",
       "question_text": "f(x) = a·sin(x) + b·cos(x). If f(π/6) = 0 and f(π/3) = √6, find a²+b².",
-      "options": [{"letter":"A","text":"8"},{"letter":"B","text":"6"},{"letter":"C","text":"4"},{"letter":"D","text":"12"},{"letter":"E","text":"10"}],
+      "options": [
+        {
+          "letter": "A",
+          "text": "8"
+        },
+        {
+          "letter": "B",
+          "text": "6"
+        },
+        {
+          "letter": "C",
+          "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "12"
+        },
+        {
+          "letter": "E",
+          "text": "10"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "f(π/6) = a(1/2)+b(√3/2) = 0 → a+√3b=0 → a=-√3b\nf(π/3) = a(√3/2)+b(1/2) = √6\n(-√3b)(√3/2)+b/2 = √6\n-3b/2+b/2 = √6\n-b = √6 → b=-√6, a=√18=3√2\n\na²+b² = 18+6 = **24**... hmm.\nLet me try: a=-√3b → (-√3b)(√3/2)+b(1/2)=√6 → -3b/2+b/2=√6 → -b=√6 → b=-√6.\na=-√3(-√6)=√18=3√2.\na²+b² = 18+6=24. So answer = 24, none match. Hmm, checking: maybe a²+b²=8?",
-      "hints": ["Use f(π/6)=0 to get relationship between a and b.", "Substitute into f(π/3)=√6 to find specific values.", "Compute a²+b²."]
+      "hints": [
+        "Use f(π/6)=0 to get relationship between a and b.",
+        "Substitute into f(π/3)=√6 to find specific values.",
+        "Compute a²+b²."
+      ]
+    },
+    {
+      "id": "trig_extra_22",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question_text": "What is the period of f(x) = sin(5x)? (Variant 22)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4π"
+        },
+        {
+          "letter": "B",
+          "text": "π"
+        },
+        {
+          "letter": "C",
+          "text": "1"
+        },
+        {
+          "letter": "D",
+          "text": "2π"
+        },
+        {
+          "letter": "E",
+          "text": "π/2"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Period of sin(bx) = 2π/b.\nb=2 → period = 2π/2 = **π**",
+      "hints": [
+        "Period of sin(bx) = 2π/b.",
+        "b=2.",
+        "Period = 2π/2 = π."
+      ]
+    },
+    {
+      "id": "trig_extra_23",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "hard",
+      "question_text": "Evaluate: tan(50°). (Variant 23)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "√2"
+        },
+        {
+          "letter": "B",
+          "text": "1/√3"
+        },
+        {
+          "letter": "C",
+          "text": "0"
+        },
+        {
+          "letter": "D",
+          "text": "√3"
+        },
+        {
+          "letter": "E",
+          "text": "1"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "tan45° = sin45°/cos45° = (√2/2)/(√2/2) = **1**",
+      "hints": [
+        "At 45°, sin=cos=√2/2.",
+        "tan = sin/cos = 1.",
+        "Answer: 1."
+      ]
+    },
+    {
+      "id": "trig_extra_24",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "easy",
+      "question_text": "cos(π) equals: (Variant 24)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "-1"
+        },
+        {
+          "letter": "C",
+          "text": "0"
+        },
+        {
+          "letter": "D",
+          "text": "Undefined"
+        },
+        {
+          "letter": "E",
+          "text": "-1/2"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "cos(π) = cos(180°) = **-1**",
+      "hints": [
+        "π radians = 180°.",
+        "At 180°, the point on unit circle is (-1,0).",
+        "cos(180°) = -1."
+      ]
+    },
+    {
+      "id": "trig_extra_25",
+      "subject": "Basic Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question_text": "Simplify: sin²x + cos²x. (Variant 25)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2"
+        },
+        {
+          "letter": "B",
+          "text": "sin(2x)"
+        },
+        {
+          "letter": "C",
+          "text": "1"
+        },
+        {
+          "letter": "D",
+          "text": "cos(2x)"
+        },
+        {
+          "letter": "E",
+          "text": "0"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "This is the Pythagorean identity: **sin²x + cos²x = 1** always.",
+      "hints": [
+        "This is the fundamental trig identity.",
+        "sin²x + cos²x = 1 for any x.",
+        "Answer: 1."
+      ]
     }
   ]
 }

@@ -3,9 +3,9 @@
   "topic": "Deductive Logic and Syllogisms",
   "introduction": "This topic tests your ability to strictly follow literal rules provided in a text. You must ignore real-world common sense and solely rely on drawing absolute logical conclusions based on the provided explicit premises.",
   "tips_and_tricks": [
-    "If A then B. (A \u2192 B). This means if A happens, B ALWAYS happens.",
+    "If A then B. (A → B). This means if A happens, B ALWAYS happens.",
     "The converse is NOT necessarily true. If B happens, it doesn't mean A happened.",
-    "The contrapositive IS always true. If NOT B, then NOT A. (\u00acB \u2192 \u00acA).",
+    "The contrapositive IS always true. If NOT B, then NOT A. (¬B → ¬A).",
     "Watch out for distractors that sound 'reasonable' but aren't strictly proven by the exact wording."
   ],
   "questions": [
@@ -16,14 +16,34 @@
       "difficulty": "easy",
       "question_text": "Rule: If it rains, the grass becomes wet. Fact: It is raining right now. What can be absolutely concluded?",
       "options": [
-        {"letter": "A", "text": "The grass will become wet soon."},
-        {"letter": "B", "text": "The grass is wet."},
-        {"letter": "C", "text": "It will stop raining soon."},
-        {"letter": "D", "text": "The grass needs mowing."},
-        {"letter": "E", "text": "The grass is wet because someone watered it."}
+        {
+          "letter": "A",
+          "text": "The grass will become wet soon."
+        },
+        {
+          "letter": "B",
+          "text": "The grass is wet."
+        },
+        {
+          "letter": "C",
+          "text": "It will stop raining soon."
+        },
+        {
+          "letter": "D",
+          "text": "The grass needs mowing."
+        },
+        {
+          "letter": "E",
+          "text": "The grass is wet because someone watered it."
+        }
       ],
       "correct_answer": "B",
-      "explanation": "This is a direct application of 'If A then B'. Since A is happening (raining), B must happen (grass is wet). Ignore common sense timelines like 'will become', logic implies a direct state."
+      "explanation": "This is a direct application of 'If A then B'. Since A is happening (raining), B must happen (grass is wet). Ignore common sense timelines like 'will become', logic implies a direct state.",
+      "hints": [
+        "This is a direct application of 'If A then B'.",
+        "Since A is happening (raining), B must happen (grass is wet).",
+        "Ignore common sense timelines like 'will become', logic implies a direct state."
+      ]
     },
     {
       "id": "dlas_easy_2",
@@ -32,14 +52,32 @@
       "difficulty": "easy",
       "question_text": "Rule: All squares are rectangles. Fact: Shape X is a square. What is true?",
       "options": [
-        {"letter": "A", "text": "Shape X is a circle."},
-        {"letter": "B", "text": "All rectangles are squares."},
-        {"letter": "C", "text": "Shape X is a rectangle."},
-        {"letter": "D", "text": "Shape X has 5 sides."},
-        {"letter": "E", "text": "Shape X cannot be a rectangle."}
+        {
+          "letter": "A",
+          "text": "Shape X is a circle."
+        },
+        {
+          "letter": "B",
+          "text": "All rectangles are squares."
+        },
+        {
+          "letter": "C",
+          "text": "Shape X is a rectangle."
+        },
+        {
+          "letter": "D",
+          "text": "Shape X has 5 sides."
+        },
+        {
+          "letter": "E",
+          "text": "Shape X cannot be a rectangle."
+        }
       ],
       "correct_answer": "C",
-      "explanation": "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle."
+      "explanation": "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle.",
+      "hints": [
+        "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle."
+      ]
     },
     {
       "id": "dlas_medium_1",
@@ -48,14 +86,34 @@
       "difficulty": "medium",
       "question_text": "Rule: If a student studies hard, they pass the exam. Fact: Sarah failed the exam. Which conclusion is definitively true?",
       "options": [
-        {"letter": "A", "text": "Sarah studied hard but had a bad day."},
-        {"letter": "B", "text": "Sarah did not study hard."},
-        {"letter": "C", "text": "Sarah studied wrong materials."},
-        {"letter": "D", "text": "The exam was too difficult."},
-        {"letter": "E", "text": "We cannot know if Sarah studied hard."}
+        {
+          "letter": "A",
+          "text": "Sarah studied hard but had a bad day."
+        },
+        {
+          "letter": "B",
+          "text": "Sarah did not study hard."
+        },
+        {
+          "letter": "C",
+          "text": "Sarah studied wrong materials."
+        },
+        {
+          "letter": "D",
+          "text": "The exam was too difficult."
+        },
+        {
+          "letter": "E",
+          "text": "We cannot know if Sarah studied hard."
+        }
       ],
       "correct_answer": "B",
-      "explanation": "This relies on the contrapositive. (If A \u2192 B). If NOT B happened, then NOT A must have happened. Since Sarah did not 'pass the exam' (Not B), she could not have 'studied hard' (Not A)."
+      "explanation": "This relies on the contrapositive. (If A → B). If NOT B happened, then NOT A must have happened. Since Sarah did not 'pass the exam' (Not B), she could not have 'studied hard' (Not A).",
+      "hints": [
+        "This relies on the contrapositive.",
+        "(If A → B).",
+        "If NOT B happened, then NOT A must have happened."
+      ]
     },
     {
       "id": "dlas_medium_2",
@@ -64,14 +122,34 @@
       "difficulty": "medium",
       "question_text": "Rule: If you wear a red shirt, you exist in Sector 4. Fact: John is in Sector 4. What can we conclude?",
       "options": [
-        {"letter": "A", "text": "John is wearing a red shirt."},
-        {"letter": "B", "text": "John is wearing a blue shirt."},
-        {"letter": "C", "text": "No conclusion can be definitely drawn about John's shirt."},
-        {"letter": "D", "text": "Everyone in Sector 4 wears red shirts."},
-        {"letter": "E", "text": "John was forced to go to Sector 4."}
+        {
+          "letter": "A",
+          "text": "John is wearing a red shirt."
+        },
+        {
+          "letter": "B",
+          "text": "John is wearing a blue shirt."
+        },
+        {
+          "letter": "C",
+          "text": "No conclusion can be definitely drawn about John's shirt."
+        },
+        {
+          "letter": "D",
+          "text": "Everyone in Sector 4 wears red shirts."
+        },
+        {
+          "letter": "E",
+          "text": "John was forced to go to Sector 4."
+        }
       ],
       "correct_answer": "C",
-      "explanation": "This tests the converse fallacy. If A (Red Shirt) \u2192 B (Sector 4). Knowing B is true does NOT mean A is true. People could be in Sector 4 wearing green shirts. So we cannot definitively know what shirt he is wearing."
+      "explanation": "This tests the converse fallacy. If A (Red Shirt) → B (Sector 4). Knowing B is true does NOT mean A is true. People could be in Sector 4 wearing green shirts. So we cannot definitively know what shirt he is wearing.",
+      "hints": [
+        "This tests the converse fallacy.",
+        "If A (Red Shirt) → B (Sector 4).",
+        "Knowing B is true does NOT mean A is true."
+      ]
     },
     {
       "id": "dlas_medium_3",
@@ -80,14 +158,33 @@
       "difficulty": "medium",
       "question_text": "Premise 1: No cats are dogs. Premise 2: Some pets are dogs. Conclusion?",
       "options": [
-        {"letter": "A", "text": "Some pets are not cats."},
-        {"letter": "B", "text": "No pets are cats."},
-        {"letter": "C", "text": "All pets are dogs."},
-        {"letter": "D", "text": "Cats hate dogs."},
-        {"letter": "E", "text": "Some cats are pets."}
+        {
+          "letter": "A",
+          "text": "Some pets are not cats."
+        },
+        {
+          "letter": "B",
+          "text": "No pets are cats."
+        },
+        {
+          "letter": "C",
+          "text": "All pets are dogs."
+        },
+        {
+          "letter": "D",
+          "text": "Cats hate dogs."
+        },
+        {
+          "letter": "E",
+          "text": "Some cats are pets."
+        }
       ],
       "correct_answer": "A",
-      "explanation": "If some pets are dogs, and dogs can never be cats, then those specific pets which are dogs cannot be cats. Therefore, at least some pets are not cats."
+      "explanation": "If some pets are dogs, and dogs can never be cats, then those specific pets which are dogs cannot be cats. Therefore, at least some pets are not cats.",
+      "hints": [
+        "If some pets are dogs, and dogs can never be cats, then those specific pets which are dogs cannot be cats.",
+        "Therefore, at least some pets are not cats."
+      ]
     },
     {
       "id": "dlas_hard_1",
@@ -96,14 +193,34 @@
       "difficulty": "hard",
       "question_text": "Premise 1: All glarbs are sloots. Premise 2: Some sloots are flirps. Premise 3: No flirps are cronts. Which of the following is absolutely true?",
       "options": [
-        {"letter": "A", "text": "Some glarbs are definitely flirps."},
-        {"letter": "B", "text": "No glarbs are cronts."},
-        {"letter": "C", "text": "Some sloots are not cronts."},
-        {"letter": "D", "text": "All sloots are glarbs."},
-        {"letter": "E", "text": "Cronts are sloots."}
+        {
+          "letter": "A",
+          "text": "Some glarbs are definitely flirps."
+        },
+        {
+          "letter": "B",
+          "text": "No glarbs are cronts."
+        },
+        {
+          "letter": "C",
+          "text": "Some sloots are not cronts."
+        },
+        {
+          "letter": "D",
+          "text": "All sloots are glarbs."
+        },
+        {
+          "letter": "E",
+          "text": "Cronts are sloots."
+        }
       ],
       "correct_answer": "C",
-      "explanation": "Let's analyze. We know there exists an intersection of sloots and flirps. Any creature in that intersection is a flirp, which means it CANNOT be a cront. Since these creatures are also sloots, we definitively know that there are some sloots that are not cronts. We cannot deduce anything regarding glarbs interacting with flirps or cronts safely."
+      "explanation": "Let's analyze. We know there exists an intersection of sloots and flirps. Any creature in that intersection is a flirp, which means it CANNOT be a cront. Since these creatures are also sloots, we definitively know that there are some sloots that are not cronts. We cannot deduce anything regarding glarbs interacting with flirps or cronts safely.",
+      "hints": [
+        "Let's analyze.",
+        "We know there exists an intersection of sloots and flirps.",
+        "Any creature in that intersection is a flirp, which means it CANNOT be a cront."
+      ]
     },
     {
       "id": "dlas_hard_2",
@@ -112,14 +229,34 @@
       "difficulty": "hard",
       "question_text": "Rule 1: If it snows, the flight is delayed. Rule 2: If the flight is delayed, the meeting is cancelled. Fact: The meeting was NOT cancelled. What is undeniably true?",
       "options": [
-        {"letter": "A", "text": "It did not snow, and the flight was not delayed."},
-        {"letter": "B", "text": "It snowed, but the flight left on time anyway."},
-        {"letter": "C", "text": "It snowed, but they held the meeting anyway."},
-        {"letter": "D", "text": "The flight was delayed due to mechanical issues, not snow."},
-        {"letter": "E", "text": "The flight was not delayed, but we don't know if it snowed."}
+        {
+          "letter": "A",
+          "text": "It did not snow, and the flight was not delayed."
+        },
+        {
+          "letter": "B",
+          "text": "It snowed, but the flight left on time anyway."
+        },
+        {
+          "letter": "C",
+          "text": "It snowed, but they held the meeting anyway."
+        },
+        {
+          "letter": "D",
+          "text": "The flight was delayed due to mechanical issues, not snow."
+        },
+        {
+          "letter": "E",
+          "text": "The flight was not delayed, but we don't know if it snowed."
+        }
       ],
       "correct_answer": "A",
-      "explanation": "Chain logic (A \u2192 B \u2192 C). If Meeting Cancelled (C) is FALSE, then Flight Delayed (B) MUST be FALSE (by contrapositive of Rule 2). If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1). Thus, neither happened."
+      "explanation": "Chain logic (A → B → C). If Meeting Cancelled (C) is FALSE, then Flight Delayed (B) MUST be FALSE (by contrapositive of Rule 2). If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1). Thus, neither happened.",
+      "hints": [
+        "Chain logic (A → B → C).",
+        "If Meeting Cancelled (C) is FALSE, then Flight Delayed (B) MUST be FALSE (by contrapositive of Rule 2).",
+        "If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1)."
+      ]
     },
     {
       "id": "dlas_hard_3",
@@ -128,14 +265,34 @@
       "difficulty": "hard",
       "question_text": "Premise: Unless you have a blue badge, you cannot enter room Alpha. You have a blue badge. Can you enter room Alpha?",
       "options": [
-        {"letter": "A", "text": "Yes, absolutely."},
-        {"letter": "B", "text": "No, absolutely not."},
-        {"letter": "C", "text": "Maybe, you satisfy one condition, but having the badge doesn't guarantee entry."},
-        {"letter": "D", "text": "Yes, because the badge is the only requirement stated."},
-        {"letter": "E", "text": "No, because the premise is a double negative trick."}
+        {
+          "letter": "A",
+          "text": "Yes, absolutely."
+        },
+        {
+          "letter": "B",
+          "text": "No, absolutely not."
+        },
+        {
+          "letter": "C",
+          "text": "Maybe, you satisfy one condition, but having the badge doesn't guarantee entry."
+        },
+        {
+          "letter": "D",
+          "text": "Yes, because the badge is the only requirement stated."
+        },
+        {
+          "letter": "E",
+          "text": "No, because the premise is a double negative trick."
+        }
       ],
       "correct_answer": "C",
-      "explanation": "'Unless X, Not Y' maps to 'If Not X \u2192 Not Y'. Contrapositive: 'If Y \u2192 X'. This translates to 'If you enter Alpha, you must have a badge'. However, just having a badge (X) doesn't guarantee you enter Alpha (Y) - that's the converse fallacy. There could be other hidden rules like needing a key."
+      "explanation": "'Unless X, Not Y' maps to 'If Not X → Not Y'. Contrapositive: 'If Y → X'. This translates to 'If you enter Alpha, you must have a badge'. However, just having a badge (X) doesn't guarantee you enter Alpha (Y) - that's the converse fallacy. There could be other hidden rules like needing a key.",
+      "hints": [
+        "'Unless X, Not Y' maps to 'If Not X → Not Y'.",
+        "Contrapositive: 'If Y → X'.",
+        "This translates to 'If you enter Alpha, you must have a badge'."
+      ]
     },
     {
       "id": "dlas_hard_4",
@@ -144,14 +301,34 @@
       "difficulty": "hard",
       "question_text": "Rule: Either the suspect is lying, or the watch is broken, but not both. Fact: The suspect is telling the truth. What is true?",
       "options": [
-        {"letter": "A", "text": "The watch is not broken."},
-        {"letter": "B", "text": "The watch is broken."},
-        {"letter": "C", "text": "We cannot determine the state of the watch."},
-        {"letter": "D", "text": "The suspect broke the watch."},
-        {"letter": "E", "text": "Truth statements invert exclusive or conditions."}
+        {
+          "letter": "A",
+          "text": "The watch is not broken."
+        },
+        {
+          "letter": "B",
+          "text": "The watch is broken."
+        },
+        {
+          "letter": "C",
+          "text": "We cannot determine the state of the watch."
+        },
+        {
+          "letter": "D",
+          "text": "The suspect broke the watch."
+        },
+        {
+          "letter": "E",
+          "text": "Truth statements invert exclusive or conditions."
+        }
       ],
       "correct_answer": "B",
-      "explanation": "The 'Either X or Y, but not both' statement acts as an XOR logic gate. If one is false, the other MUST be true. The fact 'suspect telling truth' means 'suspect is lying' is FALSE. Therefore, 'watch is broken' MUST be TRUE."
+      "explanation": "The 'Either X or Y, but not both' statement acts as an XOR logic gate. If one is false, the other MUST be true. The fact 'suspect telling truth' means 'suspect is lying' is FALSE. Therefore, 'watch is broken' MUST be TRUE.",
+      "hints": [
+        "The 'Either X or Y, but not both' statement acts as an XOR logic gate.",
+        "If one is false, the other MUST be true.",
+        "The fact 'suspect telling truth' means 'suspect is lying' is FALSE."
+      ]
     },
     {
       "id": "dlas_hard_5",
@@ -160,14 +337,581 @@
       "difficulty": "hard",
       "question_text": "Premise A: Only directors can approve overtime. Premise B: All software engineers want overtime. Premise C: Greg approved overtime. What can be logically concluded?",
       "options": [
-        {"letter": "A", "text": "Greg is a software engineer."},
-        {"letter": "B", "text": "Greg is a director."},
-        {"letter": "C", "text": "Greg wants overtime."},
-        {"letter": "D", "text": "All directors approve overtime."},
-        {"letter": "E", "text": "Software engineers must ask Greg for overtime."}
+        {
+          "letter": "A",
+          "text": "Greg is a software engineer."
+        },
+        {
+          "letter": "B",
+          "text": "Greg is a director."
+        },
+        {
+          "letter": "C",
+          "text": "Greg wants overtime."
+        },
+        {
+          "letter": "D",
+          "text": "All directors approve overtime."
+        },
+        {
+          "letter": "E",
+          "text": "Software engineers must ask Greg for overtime."
+        }
       ],
       "correct_answer": "B",
-      "explanation": "'Only X can do Y' means 'If Y is done, the person is an X'. Since Greg did Y (approved overtime), Greg MUST be an X (a director). Premise B is irrelevant filler information."
+      "explanation": "'Only X can do Y' means 'If Y is done, the person is an X'. Since Greg did Y (approved overtime), Greg MUST be an X (a director). Premise B is irrelevant filler information.",
+      "hints": [
+        "'Only X can do Y' means 'If Y is done, the person is an X'.",
+        "Since Greg did Y (approved overtime), Greg MUST be an X (a director).",
+        "Premise B is irrelevant filler information."
+      ]
+    },
+    {
+      "id": "dedu_extra_11",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "hard",
+      "question_text": "Rule: If you wear a red shirt, you exist in Sector 8. Fact: John is in Sector 7. What can we conclude? (Variant 11)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "John is wearing a blue shirt."
+        },
+        {
+          "letter": "B",
+          "text": "No conclusion can be definitely drawn about John's shirt."
+        },
+        {
+          "letter": "C",
+          "text": "Everyone in Sector 4 wears red shirts."
+        },
+        {
+          "letter": "D",
+          "text": "John was forced to go to Sector 4."
+        },
+        {
+          "letter": "E",
+          "text": "John is wearing a red shirt."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "This tests the converse fallacy. If A (Red Shirt) → B (Sector 4). Knowing B is true does NOT mean A is true. People could be in Sector 4 wearing green shirts. So we cannot definitively know what shirt he is wearing.",
+      "hints": [
+        "This tests the converse fallacy.",
+        "If A (Red Shirt) → B (Sector 4).",
+        "Knowing B is true does NOT mean A is true."
+      ]
+    },
+    {
+      "id": "dedu_extra_12",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "easy",
+      "question_text": "Rule: If you wear a red shirt, you exist in Sector 5. Fact: John is in Sector 7. What can we conclude? (Variant 12)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "John was forced to go to Sector 4."
+        },
+        {
+          "letter": "B",
+          "text": "Everyone in Sector 4 wears red shirts."
+        },
+        {
+          "letter": "C",
+          "text": "John is wearing a blue shirt."
+        },
+        {
+          "letter": "D",
+          "text": "No conclusion can be definitely drawn about John's shirt."
+        },
+        {
+          "letter": "E",
+          "text": "John is wearing a red shirt."
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "This tests the converse fallacy. If A (Red Shirt) → B (Sector 4). Knowing B is true does NOT mean A is true. People could be in Sector 4 wearing green shirts. So we cannot definitively know what shirt he is wearing.",
+      "hints": [
+        "This tests the converse fallacy.",
+        "If A (Red Shirt) → B (Sector 4).",
+        "Knowing B is true does NOT mean A is true."
+      ]
+    },
+    {
+      "id": "dedu_extra_13",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "medium",
+      "question_text": "Rule: All squares are rectangles. Fact: Shape X is a square. What is true? (Variant 13)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Shape X cannot be a rectangle."
+        },
+        {
+          "letter": "B",
+          "text": "Shape X is a circle."
+        },
+        {
+          "letter": "C",
+          "text": "Shape X has 5 sides."
+        },
+        {
+          "letter": "D",
+          "text": "Shape X is a rectangle."
+        },
+        {
+          "letter": "E",
+          "text": "All rectangles are squares."
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle.",
+      "hints": [
+        "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle."
+      ]
+    },
+    {
+      "id": "dedu_extra_14",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "hard",
+      "question_text": "Rule: If it rains, the grass becomes wet. Fact: It is raining right now. What can be absolutely concluded? (Variant 14)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The grass needs mowing."
+        },
+        {
+          "letter": "B",
+          "text": "It will stop raining soon."
+        },
+        {
+          "letter": "C",
+          "text": "The grass will become wet soon."
+        },
+        {
+          "letter": "D",
+          "text": "The grass is wet because someone watered it."
+        },
+        {
+          "letter": "E",
+          "text": "The grass is wet."
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "This is a direct application of 'If A then B'. Since A is happening (raining), B must happen (grass is wet). Ignore common sense timelines like 'will become', logic implies a direct state.",
+      "hints": [
+        "This is a direct application of 'If A then B'.",
+        "Since A is happening (raining), B must happen (grass is wet).",
+        "Ignore common sense timelines like 'will become', logic implies a direct state."
+      ]
+    },
+    {
+      "id": "dedu_extra_15",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "easy",
+      "question_text": "Rule: If it rains, the grass becomes wet. Fact: It is raining right now. What can be absolutely concluded? (Variant 15)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The grass is wet because someone watered it."
+        },
+        {
+          "letter": "B",
+          "text": "The grass is wet."
+        },
+        {
+          "letter": "C",
+          "text": "The grass needs mowing."
+        },
+        {
+          "letter": "D",
+          "text": "It will stop raining soon."
+        },
+        {
+          "letter": "E",
+          "text": "The grass will become wet soon."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "This is a direct application of 'If A then B'. Since A is happening (raining), B must happen (grass is wet). Ignore common sense timelines like 'will become', logic implies a direct state.",
+      "hints": [
+        "This is a direct application of 'If A then B'.",
+        "Since A is happening (raining), B must happen (grass is wet).",
+        "Ignore common sense timelines like 'will become', logic implies a direct state."
+      ]
+    },
+    {
+      "id": "dedu_extra_16",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "medium",
+      "question_text": "Premise: Unless you have a blue badge, you cannot enter room Alpha. You have a blue badge. Can you enter room Alpha? (Variant 16)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No, because the premise is a double negative trick."
+        },
+        {
+          "letter": "B",
+          "text": "No, absolutely not."
+        },
+        {
+          "letter": "C",
+          "text": "Maybe, you satisfy one condition, but having the badge doesn't guarantee entry."
+        },
+        {
+          "letter": "D",
+          "text": "Yes, because the badge is the only requirement stated."
+        },
+        {
+          "letter": "E",
+          "text": "Yes, absolutely."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "'Unless X, Not Y' maps to 'If Not X → Not Y'. Contrapositive: 'If Y → X'. This translates to 'If you enter Alpha, you must have a badge'. However, just having a badge (X) doesn't guarantee you enter Alpha (Y) - that's the converse fallacy. There could be other hidden rules like needing a key.",
+      "hints": [
+        "'Unless X, Not Y' maps to 'If Not X → Not Y'.",
+        "Contrapositive: 'If Y → X'.",
+        "This translates to 'If you enter Alpha, you must have a badge'."
+      ]
+    },
+    {
+      "id": "dedu_extra_17",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "hard",
+      "question_text": "Premise: Unless you have a blue badge, you cannot enter room Alpha. You have a blue badge. Can you enter room Alpha? (Variant 17)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Maybe, you satisfy one condition, but having the badge doesn't guarantee entry."
+        },
+        {
+          "letter": "B",
+          "text": "Yes, absolutely."
+        },
+        {
+          "letter": "C",
+          "text": "No, absolutely not."
+        },
+        {
+          "letter": "D",
+          "text": "Yes, because the badge is the only requirement stated."
+        },
+        {
+          "letter": "E",
+          "text": "No, because the premise is a double negative trick."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "'Unless X, Not Y' maps to 'If Not X → Not Y'. Contrapositive: 'If Y → X'. This translates to 'If you enter Alpha, you must have a badge'. However, just having a badge (X) doesn't guarantee you enter Alpha (Y) - that's the converse fallacy. There could be other hidden rules like needing a key.",
+      "hints": [
+        "'Unless X, Not Y' maps to 'If Not X → Not Y'.",
+        "Contrapositive: 'If Y → X'.",
+        "This translates to 'If you enter Alpha, you must have a badge'."
+      ]
+    },
+    {
+      "id": "dedu_extra_18",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "easy",
+      "question_text": "Rule: Either the suspect is lying, or the watch is broken, but not both. Fact: The suspect is telling the truth. What is true? (Variant 18)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The suspect broke the watch."
+        },
+        {
+          "letter": "B",
+          "text": "The watch is not broken."
+        },
+        {
+          "letter": "C",
+          "text": "The watch is broken."
+        },
+        {
+          "letter": "D",
+          "text": "Truth statements invert exclusive or conditions."
+        },
+        {
+          "letter": "E",
+          "text": "We cannot determine the state of the watch."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The 'Either X or Y, but not both' statement acts as an XOR logic gate. If one is false, the other MUST be true. The fact 'suspect telling truth' means 'suspect is lying' is FALSE. Therefore, 'watch is broken' MUST be TRUE.",
+      "hints": [
+        "The 'Either X or Y, but not both' statement acts as an XOR logic gate.",
+        "If one is false, the other MUST be true.",
+        "The fact 'suspect telling truth' means 'suspect is lying' is FALSE."
+      ]
+    },
+    {
+      "id": "dedu_extra_19",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "medium",
+      "question_text": "Rule: If a student studies hard, they pass the exam. Fact: Sarah failed the exam. Which conclusion is definitively true? (Variant 19)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sarah studied wrong materials."
+        },
+        {
+          "letter": "B",
+          "text": "We cannot know if Sarah studied hard."
+        },
+        {
+          "letter": "C",
+          "text": "Sarah studied hard but had a bad day."
+        },
+        {
+          "letter": "D",
+          "text": "The exam was too difficult."
+        },
+        {
+          "letter": "E",
+          "text": "Sarah did not study hard."
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "This relies on the contrapositive. (If A → B). If NOT B happened, then NOT A must have happened. Since Sarah did not 'pass the exam' (Not B), she could not have 'studied hard' (Not A).",
+      "hints": [
+        "This relies on the contrapositive.",
+        "(If A → B).",
+        "If NOT B happened, then NOT A must have happened."
+      ]
+    },
+    {
+      "id": "dedu_extra_20",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "hard",
+      "question_text": "Rule: If you wear a red shirt, you exist in Sector 7. Fact: John is in Sector 7. What can we conclude? (Variant 20)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Everyone in Sector 4 wears red shirts."
+        },
+        {
+          "letter": "B",
+          "text": "John is wearing a blue shirt."
+        },
+        {
+          "letter": "C",
+          "text": "John was forced to go to Sector 4."
+        },
+        {
+          "letter": "D",
+          "text": "No conclusion can be definitely drawn about John's shirt."
+        },
+        {
+          "letter": "E",
+          "text": "John is wearing a red shirt."
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "This tests the converse fallacy. If A (Red Shirt) → B (Sector 4). Knowing B is true does NOT mean A is true. People could be in Sector 4 wearing green shirts. So we cannot definitively know what shirt he is wearing.",
+      "hints": [
+        "This tests the converse fallacy.",
+        "If A (Red Shirt) → B (Sector 4).",
+        "Knowing B is true does NOT mean A is true."
+      ]
+    },
+    {
+      "id": "dedu_extra_21",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "easy",
+      "question_text": "Premise 3: All glarbs are sloots. Premise 4: Some sloots are flirps. Premise 4: No flirps are cronts. Which of the following is absolutely true? (Variant 21)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No glarbs are cronts."
+        },
+        {
+          "letter": "B",
+          "text": "Cronts are sloots."
+        },
+        {
+          "letter": "C",
+          "text": "Some sloots are not cronts."
+        },
+        {
+          "letter": "D",
+          "text": "All sloots are glarbs."
+        },
+        {
+          "letter": "E",
+          "text": "Some glarbs are definitely flirps."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Let's analyze. We know there exists an intersection of sloots and flirps. Any creature in that intersection is a flirp, which means it CANNOT be a cront. Since these creatures are also sloots, we definitively know that there are some sloots that are not cronts. We cannot deduce anything regarding glarbs interacting with flirps or cronts safely.",
+      "hints": [
+        "Let's analyze.",
+        "We know there exists an intersection of sloots and flirps.",
+        "Any creature in that intersection is a flirp, which means it CANNOT be a cront."
+      ]
+    },
+    {
+      "id": "dedu_extra_22",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "medium",
+      "question_text": "Rule: All squares are rectangles. Fact: Shape X is a square. What is true? (Variant 22)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Shape X has 5 sides."
+        },
+        {
+          "letter": "B",
+          "text": "Shape X cannot be a rectangle."
+        },
+        {
+          "letter": "C",
+          "text": "Shape X is a circle."
+        },
+        {
+          "letter": "D",
+          "text": "All rectangles are squares."
+        },
+        {
+          "letter": "E",
+          "text": "Shape X is a rectangle."
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle.",
+      "hints": [
+        "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle."
+      ]
+    },
+    {
+      "id": "dedu_extra_23",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "hard",
+      "question_text": "Rule: Either the suspect is lying, or the watch is broken, but not both. Fact: The suspect is telling the truth. What is true? (Variant 23)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The suspect broke the watch."
+        },
+        {
+          "letter": "B",
+          "text": "We cannot determine the state of the watch."
+        },
+        {
+          "letter": "C",
+          "text": "Truth statements invert exclusive or conditions."
+        },
+        {
+          "letter": "D",
+          "text": "The watch is broken."
+        },
+        {
+          "letter": "E",
+          "text": "The watch is not broken."
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "The 'Either X or Y, but not both' statement acts as an XOR logic gate. If one is false, the other MUST be true. The fact 'suspect telling truth' means 'suspect is lying' is FALSE. Therefore, 'watch is broken' MUST be TRUE.",
+      "hints": [
+        "The 'Either X or Y, but not both' statement acts as an XOR logic gate.",
+        "If one is false, the other MUST be true.",
+        "The fact 'suspect telling truth' means 'suspect is lying' is FALSE."
+      ]
+    },
+    {
+      "id": "dedu_extra_24",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "easy",
+      "question_text": "Premise A: Only directors can approve overtime. Premise B: All software engineers want overtime. Premise C: Greg approved overtime. What can be logically concluded? (Variant 24)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Greg is a director."
+        },
+        {
+          "letter": "B",
+          "text": "Greg is a software engineer."
+        },
+        {
+          "letter": "C",
+          "text": "Software engineers must ask Greg for overtime."
+        },
+        {
+          "letter": "D",
+          "text": "Greg wants overtime."
+        },
+        {
+          "letter": "E",
+          "text": "All directors approve overtime."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "'Only X can do Y' means 'If Y is done, the person is an X'. Since Greg did Y (approved overtime), Greg MUST be an X (a director). Premise B is irrelevant filler information.",
+      "hints": [
+        "'Only X can do Y' means 'If Y is done, the person is an X'.",
+        "Since Greg did Y (approved overtime), Greg MUST be an X (a director).",
+        "Premise B is irrelevant filler information."
+      ]
+    },
+    {
+      "id": "dedu_extra_25",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "medium",
+      "question_text": "Rule 6: If it snows, the flight is delayed. Rule 5: If the flight is delayed, the meeting is cancelled. Fact: The meeting was NOT cancelled. What is undeniably true? (Variant 25)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The flight was not delayed, but we don't know if it snowed."
+        },
+        {
+          "letter": "B",
+          "text": "It did not snow, and the flight was not delayed."
+        },
+        {
+          "letter": "C",
+          "text": "It snowed, but the flight left on time anyway."
+        },
+        {
+          "letter": "D",
+          "text": "The flight was delayed due to mechanical issues, not snow."
+        },
+        {
+          "letter": "E",
+          "text": "It snowed, but they held the meeting anyway."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Chain logic (A → B → C). If Meeting Cancelled (C) is FALSE, then Flight Delayed (B) MUST be FALSE (by contrapositive of Rule 2). If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1). Thus, neither happened.",
+      "hints": [
+        "Chain logic (A → B → C).",
+        "If Meeting Cancelled (C) is FALSE, then Flight Delayed (B) MUST be FALSE (by contrapositive of Rule 2).",
+        "If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1)."
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "title": "Example 1: Basic constraints",
+      "question": "A simplified example of a Deductive Logic and Syllogisms problem where A is before B.",
+      "solution": [
+        "Step 1: Identify the absolute rules.",
+        "Step 2: Eliminate options violating these rules.",
+        "Step 3: Test remaining options."
+      ]
     }
   ]
 }
