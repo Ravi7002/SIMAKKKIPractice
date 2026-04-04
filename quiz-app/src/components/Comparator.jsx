@@ -4,8 +4,9 @@ import MathText from './MathText';
 import QuestionChart from './QuestionChart';
 import ChartDisplay from './ChartDisplay';
 
-const Comparator = ({ allTopicsData, realQ1, onBack }) => {
+const Comparator = ({ allTopicsData, realQ1, generatedTryouts = [], onBack }) => {
   const [selectedTopic, setSelectedTopic] = useState('');
+  const [rightSource, setRightSource] = useState('practice'); // 'practice' | 'generated'
 
   // Extract all unique topics present in realQ1
   const realTopics = useMemo(() => {
@@ -22,12 +23,17 @@ const Comparator = ({ allTopicsData, realQ1, onBack }) => {
     return realQ1.filter(q => q.topic === selectedTopic);
   }, [realQ1, selectedTopic]);
 
-  const practiceQuestions = useMemo(() => {
+  const displayQuestions = useMemo(() => {
     if (!selectedTopic) return [];
-    // Find the corresponding topic in allTopicsData
-    const topicData = allTopicsData.find(t => t.topic === selectedTopic);
-    return topicData ? (topicData.questions || []) : [];
-  }, [allTopicsData, selectedTopic]);
+    
+    if (rightSource === 'practice') {
+      const topicData = allTopicsData.find(t => t.topic === selectedTopic);
+      return topicData ? (topicData.questions || []) : [];
+    } else {
+      const allGen = generatedTryouts.flat();
+      return allGen.filter(q => q.topic === selectedTopic);
+    }
+  }, [allTopicsData, generatedTryouts, selectedTopic, rightSource]);
 
   // Option renderer helper
   const renderOptions = (options, correctAnswer) => {
@@ -117,25 +123,34 @@ const Comparator = ({ allTopicsData, realQ1, onBack }) => {
           </div>
         </div>
 
-        {/* Right Side: Practice Test */}
+        {/* Right Side: Compare Output */}
         <div className="glass-card" style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', padding: 0 }}>
-          <div style={{ padding: '1rem', background: 'rgba(59, 130, 246, 0.1)', borderBottom: '1px solid rgba(59, 130, 246, 0.2)', textAlign: 'center', flexShrink: 0 }}>
-            <h3 style={{ color: 'var(--accent-blue)', margin: 0 }}>Practice Bank</h3>
-            <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{practiceQuestions.length} questions found</span>
+          <div style={{ padding: '0.8rem 1rem', background: rightSource === 'practice' ? 'rgba(59, 130, 246, 0.1)' : 'rgba(139, 92, 246, 0.1)', borderBottom: `1px solid ${rightSource === 'practice' ? 'rgba(59, 130, 246, 0.2)' : 'rgba(139, 92, 246, 0.2)'}`, display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexShrink: 0 }}>
+            <div>
+              <select 
+                value={rightSource}
+                onChange={(e) => setRightSource(e.target.value)}
+                style={{ background: 'rgba(255,255,255,0.1)', border: 'none', color: 'white', padding: '0.3rem 0.6rem', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold' }}
+              >
+                <option value="practice" style={{color: 'black'}}>Practice Bank</option>
+                <option value="generated" style={{color: 'black'}}>Generated Tryouts (Clones)</option>
+              </select>
+            </div>
+            <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{displayQuestions.length} questions found</span>
           </div>
           <div style={{ overflowY: 'auto', padding: '1.5rem', flex: 1 }}>
             {!selectedTopic ? (
                <div style={{ textAlign: 'center', color: 'var(--text-muted)', marginTop: '4rem' }}>Please select a topic from the dropdown.</div>
-            ) : practiceQuestions.length === 0 ? (
-               <div style={{ textAlign: 'center', color: 'var(--text-muted)', marginTop: '4rem' }}>No practice counterpart found for this topic.</div>
+            ) : displayQuestions.length === 0 ? (
+               <div style={{ textAlign: 'center', color: 'var(--text-muted)', marginTop: '4rem' }}>No counterpart found for this topic.</div>
             ) : (
-              practiceQuestions.map((q, idx) => (
+              displayQuestions.map((q, idx) => (
                 <div key={q.id || idx} style={{ marginBottom: '2.5rem', paddingBottom: '2.5rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
-                     <span className="text-muted" style={{ fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Variant {idx + 1}</span>
-                     <span style={{ fontSize: '0.8rem', background: q.difficulty === 'easy' ? 'rgba(16,185,129,0.2)' : q.difficulty === 'medium' ? 'rgba(245,158,11,0.2)' : 'rgba(239,68,68,0.2)', color: q.difficulty === 'easy' ? 'var(--accent-green)' : q.difficulty === 'medium' ? '#f59e0b' : 'var(--accent-red)', padding: '2px 8px', borderRadius: '12px', textTransform: 'capitalize' }}>{q.difficulty}</span>
+                     <span className="text-muted" style={{ fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Variant {idx + 1} {rightSource === 'generated' && `(${q.id})`}</span>
+                     {q.difficulty && <span style={{ fontSize: '0.8rem', background: q.difficulty === 'easy' ? 'rgba(16,185,129,0.2)' : q.difficulty === 'medium' ? 'rgba(245,158,11,0.2)' : 'rgba(239,68,68,0.2)', color: q.difficulty === 'easy' ? 'var(--accent-green)' : q.difficulty === 'medium' ? '#f59e0b' : 'var(--accent-red)', padding: '2px 8px', borderRadius: '12px', textTransform: 'capitalize' }}>{q.difficulty}</span>}
                   </div>
-                  {q.chart_data && <ChartDisplay chartData={q.chart_data} />}
+                  {(q.chart_data || q.chart) && (q.chart_data ? <ChartDisplay chartData={q.chart_data} /> : <QuestionChart chart={q.chart} />)}
                   <div style={{ fontSize: '1.1rem', lineHeight: '1.6', marginBottom: '1.5rem', whiteSpace: 'pre-wrap' }}>
                     <MathText text={q.question_text} />
                   </div>

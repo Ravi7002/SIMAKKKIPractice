@@ -1,0 +1,82 @@
+import json
+import random
+import re
+import os
+import copy
+
+with open('realQ1.json', 'r', encoding='utf-8') as f:
+    q1 = json.load(f)
+with open('realQ2.json', 'r', encoding='utf-8') as f:
+    q2 = json.load(f)
+
+bases = [q1, q2]
+
+os.makedirs(os.path.join('quiz-app', 'src', 'GeneratedTryouts'), exist_ok=True)
+
+def mutate_text(text):
+    if not isinstance(text, str):
+        return text
+    
+    # Identify basic numbers
+    def rep_num(m):
+        n = int(m.group(0))
+        if n == 0: return "0"
+        if n < 10: return str(n + random.randint(1, 3))
+        if n < 100: return str(n + random.randint(1, 10))
+        return str(n + random.randint(10, 100))
+    
+    text = re.sub(r'\b\d+\b', rep_num, text)
+    
+    # Simple word swaps
+    swaps = {
+        "John": "Michael", "Mary": "Sarah", "apples": "oranges", "cars": "bicycles",
+        "red": "blue", "blue": "green", "green": "yellow", "company": "corporation",
+        "profit": "revenue", "loss": "deficit", "increase": "change", "decrease": "drop",
+        "x": "y", "a": "p", "f(x)": "g(x)", "Rp": "$"
+    }
+    for k, v in swaps.items():
+        # don't blindly replace single letters unless surrounded by non-alpha, but keep it simple
+        text = re.sub(rf'\b{k}\b', v, text)
+    
+    return text
+
+for i in range(1, 6):
+    base = copy.deepcopy(bases[i % 2])
+    for q in base:
+        q['id'] = f"{q.get('id', 'q')}_gen_{i}"
+        q['question_text'] = mutate_text(q.get('question_text', ''))
+        
+        for opt in q.get('options', []):
+            opt['text'] = mutate_text(opt.get('text', ''))
+            
+        if 'explanation' in q:
+            q['explanation'] = mutate_text(q['explanation'])
+            
+        if 'chart' in q:
+            # Also mutate chart data slightly if possible
+            chart = q['chart']
+            if 'bar' in chart:
+                for ds in chart['bar'].get('datasets', []):
+                    ds['values'] = [v + random.randint(1, 10) for v in ds.get('values', [])]
+            if 'pie' in chart:
+                for ds in chart['pie'].get('segments', []):
+                    ds['value'] = ds.get('value', 0) + random.randint(1, 5)
+            
+        # Shuffle options
+        if 'options' in q and 'correct_answer' in q:
+            correct_opt = next((o for o in q['options'] if o['letter'] == q['correct_answer']), None)
+            if correct_opt:
+                correct_text = correct_opt['text']
+                opts_text = [o['text'] for o in q['options']]
+                random.shuffle(opts_text)
+                
+                letters = ["A", "B", "C", "D", "E"]
+                for j, opt in enumerate(q['options']):
+                    opt['text'] = opts_text[j]
+                    if opts_text[j] == correct_text:
+                        q['correct_answer'] = letters[j]
+    
+    with open(f'quiz-app/src/GeneratedTryouts/tryout_{i}.json', 'w', encoding='utf-8') as f:
+        json.dump(base, f, indent=2, ensure_ascii=False)
+
+print("Generated 5 tryouts.")

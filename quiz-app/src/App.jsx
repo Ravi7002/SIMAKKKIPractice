@@ -14,6 +14,9 @@ import realQ2 from './realQ2.json';
 const practiceModules = import.meta.glob('./PracticeQuestions/**/*.json', { eager: true });
 export const allTopicsData = Object.values(practiceModules).map(mod => mod.default || mod);
 
+const tryoutModules = import.meta.glob('./GeneratedTryouts/**/*.json', { eager: true });
+export const generatedTryoutsData = Object.values(tryoutModules).map(mod => mod.default || mod);
+
 function App() {
   const [phase, setPhase] = useState('intro'); // 'intro', 'practice', 'ability', 'tryout', 'results'
   const [answers, setAnswers] = useState({});
@@ -95,6 +98,7 @@ function App() {
         <Comparator 
           allTopicsData={allTopicsData} 
           realQ1={realQ1} 
+          generatedTryouts={generatedTryoutsData}
           onBack={() => setPhase('intro')} 
         />
       )}
