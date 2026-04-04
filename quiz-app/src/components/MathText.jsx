@@ -12,8 +12,8 @@ function toLatex(s) {
   // sqrt(x) → \sqrt{x}
   s = s.replace(/\bsqrt\(([^)]+)\)/g, (_, inner) => `\\sqrt{${inner}}`);
 
-  // log_base(x) → \log_{base}(x)
-  s = s.replace(/log_(\w+)\(([^)]+)\)/g, (_, base, arg) => `\\log_{${base}}(${arg})`);
+  // log_base(x) → \log_{base}(x) or log_base → \log_{base}
+  s = s.replace(/log_(\w+)(?:\(([^)]+)\))?/g, (_, base, arg) => arg ? `\\log_{${base}}(${arg})` : `\\log_{${base}}`);
 
   // x^{...} → already fine, leave
   // x^word or x^digit → x^{word}  (handles 3^x, x^2, 3^{xy})
@@ -27,11 +27,13 @@ function toLatex(s) {
   s = s.replace(/(?<![*])\*(?![*/])/g, ' \\cdot ');
 
   // Common symbols
-  s = s.replace(/\+\-/g, '\\pm');
-  s = s.replace(/~=/g, '\\approx');
-  s = s.replace(/!=/g, '\\neq');
-  s = s.replace(/<=/g, '\\le');
-  s = s.replace(/>=/g, '\\ge');
+  s = s.replace(/\+\/?\-/g, '\\pm ');
+  s = s.replace(/~=/g, '\\approx ');
+  s = s.replace(/!=/g, '\\neq ');
+  s = s.replace(/<=/g, '\\le ');
+  s = s.replace(/>=/g, '\\ge ');
+  s = s.replace(/->/g, '\\rightarrow ');
+  s = s.replace(/=>/g, '\\Rightarrow ');
 
   return s;
 }
@@ -54,13 +56,13 @@ function renderMath(latex, display = false) {
 /**
  * A "math token" is any of:
  *  - something^something  (e.g. 3^x, x^2, x^{10})
- *  - something_something  (e.g. a_n, x_1)
+ *  - something_something  (e.g. a_n, x_1, S_21)
  *  - sqrt(...) or cbrt(...)
  *  - \latexCommand{...}
  *  - log_b(...)
  *  - variable followed by digit (e.g. x1, x2)
  */
-const MATH_TOKEN = /(?:[a-zA-Z0-9.]+\^(?:\{[^}]+\}|[a-zA-Z0-9-]+)|[a-zA-Z0-9.]+_\{[^}]+\}|[a-zA-Z0-9.]+_(-?[a-zA-Z0-9]+)|sqrt\([^)]+\)|cbrt\([^)]+\)|\\[a-zA-Z]+(?:\{[^}]*\})*|\blog_\w+\([^)]+\)|[a-z][0-9])/;
+const MATH_TOKEN = /(?:[a-zA-Z0-9.\\]+(?:\^|_)(?:\{[^}]+\}|[a-zA-Z0-9-]+)|sqrt\([^)]+\)|cbrt\([^)]+\)|\\[a-zA-Z]+(?:\{[^}]*\})*|\blog_\w+(?:\([^)]+\))?|[a-z][0-9])/;
 
 /**
  * Splits a plain-text block into text/math segments.
@@ -122,7 +124,11 @@ function splitIntoSegments(text) {
     }
     const raw = match[0];
     const isDisplay = raw.startsWith('$$');
-    const inner = isDisplay ? raw.slice(2, -2) : raw.slice(1, -1);
+    let inner = isDisplay ? raw.slice(2, -2) : raw.slice(1, -1);
+    
+    // Convert plain-text notations inside $...$ as well
+    inner = toLatex(inner);
+
     segments.push({ type: isDisplay ? 'display' : 'inline', value: inner });
     lastIndex = match.index + raw.length;
   }
