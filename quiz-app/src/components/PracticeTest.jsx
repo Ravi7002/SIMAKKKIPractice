@@ -15,6 +15,16 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
   const question = questions[currentIndex];
   const isLast = currentIndex === questions.length - 1;
 
+  const groupedQuestions = useMemo(() => {
+    const groups = {};
+    questions.forEach((q, idx) => {
+      const subject = q.subject || 'Practice';
+      if (!groups[subject]) groups[subject] = [];
+      groups[subject].push({ q, idx });
+    });
+    return groups;
+  }, [questions]);
+
   const handleOption = (letter) => {
     if (showExplanation) return;
     if (guessedOptions.includes(letter)) return;
@@ -47,7 +57,10 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
   if (!question) return null;
 
   return (
-    <div className="fade-in" style={{ maxWidth: '800px', margin: '0 auto' }}>
+    <div className="fade-in" style={{ display: 'flex', gap: '2rem', maxWidth: '1200px', margin: '0 auto', alignItems: 'flex-start' }}>
+      
+      {/* MAIN CONTENT AREA */}
+      <div style={{ flex: 1, minWidth: 0 }}>
       {/* Progress & Header */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
         <button onClick={onBackToBank} className="btn" style={{ padding: '0.4rem 0.8rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', fontSize: '0.9rem' }}>
@@ -143,7 +156,7 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
       {showExplanation && (
         <div className="glass-card fade-in mb-4" style={{ background: 'rgba(16,185,129,0.05)', border: '1px solid rgba(16,185,129,0.2)' }}>
           <h4 style={{ color: 'var(--accent-green)', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <CheckCircle size={18} /> Correct! Here's the full solution:
+            <CheckCircle size={18} /> Correct! Step-by-Step Explanation:
           </h4>
           <div style={{ lineHeight: '1.7', whiteSpace: 'pre-wrap', color: 'var(--text-muted)' }}>
             <MathText text={question.explanation} />
@@ -159,6 +172,48 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
           </button>
         </div>
       )}
+      </div> {/* END MAIN CONTENT AREA */}
+
+      {/* SIDEBAR FOR QUESTION NAVIGATION */}
+      <div className="glass-card" style={{ width: '320px', flexShrink: 0, padding: '1.2rem' }}>
+        <h3 style={{ marginBottom: '1.5rem', color: 'var(--text-muted)' }}>Navigator</h3>
+        {Object.entries(groupedQuestions).map(([subject, list]) => (
+          <div key={subject} style={{ marginBottom: '1.5rem' }}>
+            <h4 style={{ fontSize: '0.8rem', color: 'var(--accent-blue)', marginBottom: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{subject}</h4>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '8px' }}>
+              {list.map(item => {
+                 const isActive = item.idx === currentIndex;
+                 return (
+                   <button 
+                     key={item.idx} 
+                     onClick={() => {
+                        setCurrentIndex(item.idx);
+                        setGuessedOptions([]);
+                        setShowExplanation(false);
+                        setHintsRevealed(0);
+                     }}
+                     style={{
+                        padding: '0.5rem 0',
+                        textAlign: 'center',
+                        fontSize: '0.9rem',
+                        fontWeight: 'bold',
+                        borderRadius: '6px',
+                        background: isActive ? 'var(--accent-purple)' : 'rgba(255,255,255,0.05)',
+                        border: `1px solid ${isActive ? 'var(--accent-purple)' : 'rgba(255,255,255,0.1)'}`,
+                        color: isActive ? 'white' : 'var(--text-muted)',
+                        cursor: 'pointer',
+                        transition: 'all 0.2s'
+                     }}
+                   >
+                     {item.idx + 1}
+                   </button>
+                 );
+              })}
+            </div>
+          </div>
+        ))}
+      </div>
+
     </div>
   );
 };
