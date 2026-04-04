@@ -17,26 +17,33 @@ def mutate_text(text):
     if not isinstance(text, str):
         return text
     
-    # Identify basic numbers
+    # Only replace standalone integers (not decimals, not inside words, not inside currency like 50.000)
     def rep_num(m):
+        # Skip if preceded or followed by . or , (decimal/thousands separator)
+        start = m.start()
+        end = m.end()
+        if start > 0 and text[start-1] in '.,':
+            return m.group(0)
+        if end < len(text) and text[end] in '.,':
+            return m.group(0)
         n = int(m.group(0))
         if n == 0: return "0"
         if n < 10: return str(n + random.randint(1, 3))
         if n < 100: return str(n + random.randint(1, 10))
         return str(n + random.randint(10, 100))
     
-    text = re.sub(r'\b\d+\b', rep_num, text)
+    text = re.sub(r'(?<![.,])\b(\d+)\b(?![.,])', lambda m: rep_num(m), text)
     
-    # Simple word swaps
+    # Safe whole-word-only swaps - only multi-character words to avoid corrupting text
     swaps = {
-        "John": "Michael", "Mary": "Sarah", "apples": "oranges", "cars": "bicycles",
-        "red": "blue", "blue": "green", "green": "yellow", "company": "corporation",
-        "profit": "revenue", "loss": "deficit", "increase": "change", "decrease": "drop",
-        "x": "y", "a": "p", "f(x)": "g(x)", "Rp": "$"
+        "John": "Michael", "Mary": "Sarah",
+        "apples": "oranges", "cars": "bicycles",
+        "company": "corporation",
+        "profit": "revenue", "loss": "deficit",
+        "increase": "change", "decrease": "drop",
     }
     for k, v in swaps.items():
-        # don't blindly replace single letters unless surrounded by non-alpha, but keep it simple
-        text = re.sub(rf'\b{k}\b', v, text)
+        text = re.sub(rf'\b{re.escape(k)}\b', v, text)
     
     return text
 
