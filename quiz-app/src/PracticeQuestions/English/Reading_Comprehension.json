@@ -69,7 +69,7 @@
         },
         {
           "letter": "B",
-          "text": "How rainforests produce oxygen"
+          "text": "Climate change and its causes"
         },
         {
           "letter": "C",
@@ -81,7 +81,7 @@
         },
         {
           "letter": "E",
-          "text": "Climate change and its causes"
+          "text": "How rainforests produce oxygen"
         }
       ],
       "correct_answer": "A",
@@ -101,26 +101,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Exercise can cure diabetes"
-        },
-        {
-          "letter": "B",
-          "text": "Exercise reduces the risk of heart disease"
-        },
-        {
-          "letter": "C",
           "text": "Daily exercise is required for good health"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "Exercise is only useful for weight loss"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "Stress cannot be managed without exercise"
+        },
+        {
+          "letter": "D",
+          "text": "Exercise reduces the risk of heart disease"
+        },
+        {
+          "letter": "E",
+          "text": "Exercise can cure diabetes"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "The passage explicitly states 'reduces the risk of chronic diseases such as diabetes and heart disease.'\n\nOption A says 'cure' — the text says 'reduce risk' only.\nOptions C, D, E are not stated in the passage.",
       "hints": [
         "'Explicitly stated' = directly written in the text.",
@@ -137,26 +137,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Lack of proper sleep"
-        },
-        {
-          "letter": "B",
-          "text": "Poor diet"
-        },
-        {
-          "letter": "C",
-          "text": "Emotional instability"
-        },
-        {
-          "letter": "D",
           "text": "Memory problems"
         },
         {
-          "letter": "E",
+          "letter": "B",
           "text": "Lack of studying"
+        },
+        {
+          "letter": "C",
+          "text": "Poor diet"
+        },
+        {
+          "letter": "D",
+          "text": "Emotional instability"
+        },
+        {
+          "letter": "E",
+          "text": "Lack of proper sleep"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "The passage directly states: 'because they lack proper sleep' — **lack of proper sleep** is given as the primary cause. Emotional instability and memory problems are effects, not causes.",
       "hints": [
         "Find the cause-effect relationship in the passage.",
@@ -173,26 +173,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Indonesia has over 17,000 islands"
-        },
-        {
-          "letter": "B",
           "text": "Indonesia is the fourth most populous country"
         },
         {
-          "letter": "C",
-          "text": "Indonesia is an archipelago"
-        },
-        {
-          "letter": "D",
+          "letter": "B",
           "text": "Indonesia's capital is Jakarta"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "Indonesia is one of the largest democracies"
+        },
+        {
+          "letter": "D",
+          "text": "Indonesia is an archipelago"
+        },
+        {
+          "letter": "E",
+          "text": "Indonesia has over 17,000 islands"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B",
       "explanation": "Jakarta as capital is **NOT mentioned** in the passage. The passage mentions: number of islands, population rank, and democracy status only.",
       "hints": [
         "Find which option is NOT in the passage.",
@@ -209,11 +209,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "Alarmed and urgent"
+          "text": "Indifferent"
         },
         {
           "letter": "B",
-          "text": "Neutral and objective"
+          "text": "Humorous"
         },
         {
           "letter": "C",
@@ -221,14 +221,14 @@
         },
         {
           "letter": "D",
-          "text": "Humorous"
+          "text": "Neutral and objective"
         },
         {
           "letter": "E",
-          "text": "Indifferent"
+          "text": "Alarmed and urgent"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Words like 'most urgent', 'threatening', and 'Immediate global action required' express alarm and urgency. The tone is clearly **alarmed and urgent**.",
       "hints": [
         "Look for emotional/evaluative words.",
@@ -245,11 +245,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "It prepares the immune system to fight diseases"
+          "text": "It immediately cures infections"
         },
         {
           "letter": "B",
-          "text": "It immediately cures infections"
+          "text": "It is only needed once in a lifetime"
         },
         {
           "letter": "C",
@@ -257,14 +257,14 @@
         },
         {
           "letter": "D",
-          "text": "It eliminates all bacteria"
+          "text": "It prepares the immune system to fight diseases"
         },
         {
           "letter": "E",
-          "text": "It is only needed once in a lifetime"
+          "text": "It eliminates all bacteria"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "The passage states: 'The purpose of vaccination is to prepare the immune system to fight specific diseases.' This is directly stated → **A**.",
       "hints": [
         "Find the stated purpose of vaccination in the passage.",
@@ -281,26 +281,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Technological advances and environmental awareness"
-        },
-        {
-          "letter": "B",
-          "text": "Government mandates only"
-        },
-        {
-          "letter": "C",
           "text": "The disappearance of fossil fuels"
         },
         {
+          "letter": "B",
+          "text": "Technological advances and environmental awareness"
+        },
+        {
+          "letter": "C",
+          "text": "International trade agreements"
+        },
+        {
           "letter": "D",
-          "text": "Lower energy demand globally"
+          "text": "Government mandates only"
         },
         {
           "letter": "E",
-          "text": "International trade agreements"
+          "text": "Lower energy demand globally"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Directly stated: 'driven by technological advances and growing environmental awareness' → **A**.",
       "hints": [
         "Find 'driven by' in the passage.",
@@ -317,7 +317,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Better mathematical skills"
+          "text": "Better critical thinking"
         },
         {
           "letter": "B",
@@ -325,18 +325,18 @@
         },
         {
           "letter": "C",
-          "text": "Greater empathy"
+          "text": "Comparative advantage over non-readers"
         },
         {
           "letter": "D",
-          "text": "Better critical thinking"
+          "text": "Greater empathy"
         },
         {
           "letter": "E",
-          "text": "Comparative advantage over non-readers"
+          "text": "Better mathematical skills"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "The passage mentions vocabulary, critical thinking, and empathy. **Mathematical skills** are NOT mentioned → A is the 'EXCEPT' answer.",
       "hints": [
         "EXCEPT question: find what is NOT in the passage.",
@@ -353,7 +353,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "To argue that urbanization should be stopped"
+          "text": "To celebrate the economic benefits of city life"
         },
         {
           "letter": "B",
@@ -361,15 +361,15 @@
         },
         {
           "letter": "C",
-          "text": "To celebrate the economic benefits of city life"
-        },
-        {
-          "letter": "D",
           "text": "To criticize wealthy urban residents"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "To demand specific policy changes"
+        },
+        {
+          "letter": "E",
+          "text": "To argue that urbanization should be stopped"
         }
       ],
       "correct_answer": "B",
@@ -389,26 +389,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Fleming intentionally researched mold as an antibacterial agent"
-        },
-        {
-          "letter": "B",
-          "text": "Before 1928, there was no effective treatment for infections"
-        },
-        {
-          "letter": "C",
           "text": "Antibiotics were developed in the 1920s from a chance observation"
         },
         {
+          "letter": "B",
+          "text": "All antibiotics are derived from mold"
+        },
+        {
+          "letter": "C",
+          "text": "Before 1928, there was no effective treatment for infections"
+        },
+        {
           "letter": "D",
-          "text": "Modern medicine would not exist without Fleming"
+          "text": "Fleming intentionally researched mold as an antibacterial agent"
         },
         {
           "letter": "E",
-          "text": "All antibiotics are derived from mold"
+          "text": "Modern medicine would not exist without Fleming"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "The passage says penicillin was an 'accidental discovery' in 1928 → antibiotics came from a **chance observation in the 1920s** ✓.\n\nA: Wrong — it was 'accidental'.\nB: Extreme — the passage says infections 'could be' fatal, not that there was NO treatment.\nD: Extreme — 'laid the foundation', not 'without him, modern medicine wouldn't exist'.",
       "hints": [
         "Inference = supported by the text but not literally stated.",
@@ -429,11 +429,11 @@
         },
         {
           "letter": "B",
-          "text": "Social media should be banned for its negative effects"
+          "text": "The author presents multiple perspectives without taking a stance"
         },
         {
           "letter": "C",
-          "text": "The author presents multiple perspectives without taking a stance"
+          "text": "The author believes misinformation is the biggest threat today"
         },
         {
           "letter": "D",
@@ -441,10 +441,10 @@
         },
         {
           "letter": "E",
-          "text": "The author believes misinformation is the biggest threat today"
+          "text": "Social media should be banned for its negative effects"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "The passage uses 'proponents argue... critics contend...' — it presents both sides without the author personally endorsing either. The author remains **neutral/objective**, presenting multiple perspectives.",
       "hints": [
         "Look for 'I believe', 'we must', 'clearly' — signals of taking a side.",
@@ -465,19 +465,19 @@
         },
         {
           "letter": "B",
-          "text": "Cause → effect → recommendation"
-        },
-        {
-          "letter": "C",
           "text": "Comparison between developed and developing countries"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "Argument → counter-argument → conclusion"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "Historical background → current status → future prediction"
+        },
+        {
+          "letter": "E",
+          "text": "Cause → effect → recommendation"
         }
       ],
       "correct_answer": "A",
@@ -497,26 +497,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Children learning about technology"
-        },
-        {
-          "letter": "B",
-          "text": "Economists and policymakers"
-        },
-        {
-          "letter": "C",
-          "text": "AI software engineers"
-        },
-        {
-          "letter": "D",
           "text": "Factory workers"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "Children learning about technology"
+        },
+        {
+          "letter": "C",
           "text": "General educated readers interested in current issues"
+        },
+        {
+          "letter": "D",
+          "text": "Economists and policymakers"
+        },
+        {
+          "letter": "E",
+          "text": "AI software engineers"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "C",
       "explanation": "The passage uses formal but accessible language, discusses economic and social implications, and references economists without being highly technical. This is written for **general educated readers** interested in current affairs.",
       "hints": [
         "Who would benefit from reading this passage?",
@@ -533,15 +533,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "Decreased gradually"
-        },
-        {
-          "letter": "B",
           "text": "Increased rapidly"
         },
         {
+          "letter": "B",
+          "text": "Divided into groups"
+        },
+        {
           "letter": "C",
-          "text": "Remained stable"
+          "text": "Decreased gradually"
         },
         {
           "letter": "D",
@@ -549,10 +549,10 @@
         },
         {
           "letter": "E",
-          "text": "Divided into groups"
+          "text": "Remained stable"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "'Dwindled' means to become progressively smaller or fewer. Context: tiger population reaching 'critically low levels' → **decreased gradually** ✓.",
       "hints": [
         "Use context: tiger population is now critically low → it must have gone down.",
@@ -573,7 +573,7 @@
         },
         {
           "letter": "B",
-          "text": "Moderate coffee consumption has some health benefits"
+          "text": "Coffee should be consumed daily for maximum benefit"
         },
         {
           "letter": "C",
@@ -585,10 +585,10 @@
         },
         {
           "letter": "E",
-          "text": "Coffee should be consumed daily for maximum benefit"
+          "text": "Moderate coffee consumption has some health benefits"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "E",
       "explanation": "The passage says 'moderate consumption MAY reduce the risk' of certain diseases → reasonable conclusion: **moderate consumption has some potential health benefits** ✓.\n\nOption A: extreme and not stated. C: not stated. D, E: not supported.",
       "hints": [
         "'May reduce' = a possibility, not a certainty.",
@@ -605,26 +605,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Smartphones should be banned from schools"
-        },
-        {
-          "letter": "B",
-          "text": "Digital communication has both advantages and potential drawbacks"
-        },
-        {
-          "letter": "C",
-          "text": "Face-to-face communication is now obsolete"
-        },
-        {
-          "letter": "D",
           "text": "Psychologists are incorrect in their concerns"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "Face-to-face communication is now obsolete"
+        },
+        {
+          "letter": "C",
           "text": "Text messaging is superior to phone calls"
+        },
+        {
+          "letter": "D",
+          "text": "Digital communication has both advantages and potential drawbacks"
+        },
+        {
+          "letter": "E",
+          "text": "Smartphones should be banned from schools"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "The passage presents convenience as a positive, but also the concern about declining deep relationships as a negative. The implication: **digital communication has both advantages (convenience) and potential drawbacks (relationship quality)**.",
       "hints": [
         "The passage gives a benefit ('increases convenience') and a concern ('decline of meaningful relationships').",
@@ -641,7 +641,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Talent and hard work are meaningless in modern society"
+          "text": "Educational access is the sole determinant of success"
         },
         {
           "letter": "B",
@@ -657,7 +657,7 @@
         },
         {
           "letter": "E",
-          "text": "Educational access is the sole determinant of success"
+          "text": "Talent and hard work are meaningless in modern society"
         }
       ],
       "correct_answer": "C",
@@ -677,15 +677,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "Traditional education is superior because it ensures knowledge mastery"
-        },
-        {
-          "letter": "B",
           "text": "Progressive pedagogy is rigorously proven to be more effective"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "The debate between traditional and progressive education has valid points on both sides"
+        },
+        {
+          "letter": "C",
+          "text": "Schools should only use collaborative learning methods"
         },
         {
           "letter": "D",
@@ -693,10 +693,10 @@
         },
         {
           "letter": "E",
-          "text": "Schools should only use collaborative learning methods"
+          "text": "Traditional education is superior because it ensures knowledge mastery"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "The author presents critics' view AND proponents' view without endorsing either. The balanced presentation suggests the author sees **valid points on both sides** — the most defensible interpretation of an objective, informative passage.",
       "hints": [
         "Does the author explicitly favor one side?",
@@ -721,11 +721,11 @@
         },
         {
           "letter": "C",
-          "text": "Disruption"
+          "text": "Suppression"
         },
         {
           "letter": "D",
-          "text": "Suppression"
+          "text": "Disruption"
         },
         {
           "letter": "E",
@@ -749,26 +749,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "All psychological research is invalid"
-        },
-        {
-          "letter": "B",
-          "text": "Bias can affect even trained scientists"
-        },
-        {
-          "letter": "C",
-          "text": "The replication crisis is primarily caused by fraud"
-        },
-        {
-          "letter": "D",
           "text": "Confirmation bias only affects non-scientists"
         },
         {
-          "letter": "E",
+          "letter": "B",
           "text": "Psychology as a field should be abandoned"
+        },
+        {
+          "letter": "C",
+          "text": "All psychological research is invalid"
+        },
+        {
+          "letter": "D",
+          "text": "Bias can affect even trained scientists"
+        },
+        {
+          "letter": "E",
+          "text": "The replication crisis is primarily caused by fraud"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "'Researchers unconsciously designing bias-confirming studies' implies that even trained scientists are subject to confirmation bias. This supports inference **B: bias can affect even trained scientists** ✓.\n\nA, E: Extreme. C: The passage says 'unconsciously' not fraudulently. D: Opposite of what the passage implies.",
       "hints": [
         "'Unconsciously designing' = even trained researchers are affected.",
@@ -785,7 +785,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Celebratory of market-based education"
+          "text": "Statistically analytical"
         },
         {
           "letter": "B",
@@ -793,18 +793,18 @@
         },
         {
           "letter": "C",
-          "text": "Critically concerned about education's commercialization"
-        },
-        {
-          "letter": "D",
           "text": "Ambivalent about both approaches"
         },
         {
+          "letter": "D",
+          "text": "Celebratory of market-based education"
+        },
+        {
           "letter": "E",
-          "text": "Statistically analytical"
+          "text": "Critically concerned about education's commercialization"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "The author uses loaded language: 'transforms' (implies a negative change), 'becomes consumers' (dehumanizing), 'value is measured in employment outcomes rather than intellectual depth' (lamenting the reduction). The tone is clearly **critically concerned**.",
       "hints": [
         "What does 'transforms' here imply — positive or negative change?",
@@ -825,11 +825,11 @@
         },
         {
           "letter": "B",
-          "text": "Personalized medicine is not yet effective"
+          "text": "Unequal access may limit precision medicine to wealthy populations"
         },
         {
           "letter": "C",
-          "text": "Unequal access may limit precision medicine to wealthy populations"
+          "text": "Genomic sequencing causes more harm than good"
         },
         {
           "letter": "D",
@@ -837,10 +837,10 @@
         },
         {
           "letter": "E",
-          "text": "Genomic sequencing causes more harm than good"
+          "text": "Personalized medicine is not yet effective"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "'Benefits of precision medicine risk being limited to affluent populations, further entrenching global health inequities' = the central concern is **unequal access based on wealth**. Options A, B, D, E are not stated or are extreme.",
       "hints": [
         "'Hindered by prohibitive costs' and 'limited to affluent' = access problem.",
@@ -857,7 +857,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Scientists should make all government decisions"
+          "text": "Democracy has failed because of poor scientific education"
         },
         {
           "letter": "B",
@@ -865,11 +865,11 @@
         },
         {
           "letter": "C",
-          "text": "Scientific claims are always more reliable than political opinions"
+          "text": "Scientists should make all government decisions"
         },
         {
           "letter": "D",
-          "text": "Democracy has failed because of poor scientific education"
+          "text": "Scientific claims are always more reliable than political opinions"
         },
         {
           "letter": "E",
@@ -893,26 +893,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Lower energy demand globally"
+          "text": "The disappearance of fossil fuels"
         },
         {
           "letter": "B",
-          "text": "Technological advances and environmental awareness"
-        },
-        {
-          "letter": "C",
-          "text": "International trade agreements"
-        },
-        {
-          "letter": "D",
           "text": "Government mandates only"
         },
         {
+          "letter": "C",
+          "text": "Lower energy demand globally"
+        },
+        {
+          "letter": "D",
+          "text": "International trade agreements"
+        },
+        {
           "letter": "E",
-          "text": "The disappearance of fossil fuels"
+          "text": "Technological advances and environmental awareness"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "E",
       "explanation": "Directly stated: 'driven by technological advances and growing environmental awareness' → **A**.",
       "hints": [
         "Find 'driven by' in the passage.",
@@ -929,7 +929,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Stress cannot be managed without exercise"
+          "text": "Exercise is only useful for weight loss"
         },
         {
           "letter": "B",
@@ -937,18 +937,18 @@
         },
         {
           "letter": "C",
-          "text": "Exercise reduces the risk of heart disease"
-        },
-        {
-          "letter": "D",
           "text": "Daily exercise is required for good health"
         },
         {
+          "letter": "D",
+          "text": "Exercise reduces the risk of heart disease"
+        },
+        {
           "letter": "E",
-          "text": "Exercise is only useful for weight loss"
+          "text": "Stress cannot be managed without exercise"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "The passage explicitly states 'reduces the risk of chronic diseases such as diabetes and heart disease.'\n\nOption A says 'cure' — the text says 'reduce risk' only.\nOptions C, D, E are not stated in the passage.",
       "hints": [
         "'Explicitly stated' = directly written in the text.",

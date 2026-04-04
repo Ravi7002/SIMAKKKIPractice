@@ -1,1343 +1,2017 @@
 {
   "subject": "Quantitative Reasoning",
   "topic": "Data Interpretation and Charts",
-  "introduction": "This topic tests your ability to quickly analyze grouped data distributions, overlapping survey percentages, and visual representations of statistics to extract core insights without falling for visual illusions.",
+  "introduction": "This topic tests your ability to extract relevant information, perform calculations, and draw conclusions from complex datasets presented in tables, bar charts, line graphs, and pie charts. You will encounter multi-variable data reflecting real-world scenarios.",
+  "key_formulas": [
+    {
+      "name": "Percentage Growth",
+      "formula": "\\frac{\\text{New} - \\text{Old}}{\\text{Old}} \\times 100\\%"
+    },
+    {
+      "name": "Average",
+      "formula": "\\frac{\\text{Sum of Terms}}{\\text{Number of Terms}}"
+    }
+  ],
   "tips_and_tricks": [
-    "Always check the baseline when dealing with percentages (Percentage of what?).",
-    "Absolute numbers cannot be derived solely from percentage charts unless a total absolute population is provided.",
-    "Verify every single word in a statement before marking it as true; one swapped category flips the meaning."
+    "Scan the axes and legends of charts carefully before attempting the question.",
+    "Pay attention to units (e.g., thousands, millions) to avoid decimal errors.",
+    "Estimate calculations when exact values are difficult to read from a graph."
+  ],
+  "worked_examples": [
+    {
+      "title": "Complex Table Analysis Strategy",
+      "question": "Based on the table of 5 companies' annual expenditures (in millions USD), which company experienced the highest percentage growth in R&D between Year 1 and Year 5?",
+      "solution": [
+        "First, locate the R&D column for each company in Year 1 and Year 5.",
+        "Calculate the absolute growth: Year 5 - Year 1.",
+        "Divide by the Year 1 base value and multiply by 100.",
+        "Compare the percentages rather than the absolute growth."
+      ]
+    }
   ],
   "questions": [
     {
-      "id": "dic_easy_1",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
+      "id": "data_q_1",
       "difficulty": "easy",
-      "question_text": "A pie chart shows a total budget of $2000. Rent takes up 40% and Food takes up 20%. How much money is allocated to Rent and Food combined?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "$1200"
-        },
-        {
-          "letter": "B",
-          "text": "$800"
-        },
-        {
-          "letter": "C",
-          "text": "$400"
-        },
-        {
-          "letter": "D",
-          "text": "$1000"
-        },
-        {
-          "letter": "E",
-          "text": "$600"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "Total percentage for Rent and Food = 40% + 20% = 60%. \n60% of $2000 = 0.60 * 2000 = $1200.",
+      "question_text": "The line graph shows the monthly sales volume for three competing products over an 8-month period. In which month was the combined sales volume of all three products the lowest?",
       "chart_data": {
-        "type": "pie",
-        "title": "Distribution",
+        "type": "line",
+        "title": "Monthly Sales Volume (Units)",
+        "x_label": "Month",
+        "y_label": "Sales Volume",
         "labels": [
-          "Category A",
-          "Category B",
-          "Category C"
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug"
         ],
         "datasets": [
           {
-            "label": "Amount",
+            "label": "Product A",
             "values": [
-              40,
-              20,
-              40
+              160,
+              340,
+              129,
+              105,
+              113,
+              368,
+              182,
+              428
+            ]
+          },
+          {
+            "label": "Product B",
+            "values": [
+              260,
+              334,
+              445,
+              379,
+              400,
+              240,
+              252,
+              420
+            ]
+          },
+          {
+            "label": "Product C",
+            "values": [
+              76,
+              80,
+              142,
+              205,
+              285,
+              166,
+              90,
+              54
             ]
           }
         ]
       },
-      "hints": [
-        "Total percentage for Rent and Food = 40% + 20% = 60%.",
-        "60% of $2000 = 0.",
-        "60 * 2000 = $1200."
-      ]
-    },
-    {
-      "id": "dic_easy_2",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "easy",
-      "question_text": "In a bar chart, Product A sold 150 units, Product B sold 250 units, and Product C sold 100 units. What percentage of total sales does Product B represent?",
       "options": [
         {
           "letter": "A",
-          "text": "40%"
+          "text": "April"
         },
         {
           "letter": "B",
-          "text": "25%"
+          "text": "June"
         },
         {
           "letter": "C",
-          "text": "30%"
+          "text": "July"
         },
         {
           "letter": "D",
-          "text": "50%"
+          "text": "May"
         },
         {
           "letter": "E",
-          "text": "60%"
+          "text": "February"
         }
       ],
       "correct_answer": "D",
-      "explanation": "Total sales = 150 + 250 + 100 = 500 units. \nProduct B percentage = (250 / 500) * 100% = 50%.",
+      "explanation": "By adding the values of the three lines for each month, you can determine the total sales volume. May had the lowest combined total.",
+      "hints": [
+        "Estimate the total height of all three points in each month.",
+        "Calculate exactly if two months look close."
+      ]
+    },
+    {
+      "id": "data_q_2",
+      "difficulty": "easy",
+      "question_text": "The stacked bar chart represents the quarterly revenue (in $ millions) of a tech corporation across four main divisions. What was the approximate total revenue for the corporation in Q3?",
       "chart_data": {
         "type": "bar",
-        "title": "Sales",
+        "title": "Quarterly Revenue Breakdown ($ Millions)",
+        "x_label": "Quarter",
+        "y_label": "Revenue ($M)",
         "labels": [
-          "Prod A",
-          "Prod B",
-          "Prod C"
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q1 (Next Yr)"
         ],
         "datasets": [
           {
-            "label": "Units",
+            "label": "Software",
             "values": [
-              150,
-              250,
-              100
+              41,
+              24,
+              28,
+              20,
+              41
+            ]
+          },
+          {
+            "label": "Hardware",
+            "values": [
+              35,
+              58,
+              51,
+              62,
+              89
+            ]
+          },
+          {
+            "label": "Services",
+            "values": [
+              19,
+              11,
+              19,
+              11,
+              50
+            ]
+          },
+          {
+            "label": "Consulting",
+            "values": [
+              45,
+              27,
+              33,
+              20,
+              34
             ]
           }
         ]
       },
-      "hints": [
-        "Total sales = 150 + 250 + 100 = 500 units.",
-        "Product B percentage = (250 / 500) * 100% = 50%."
-      ]
-    },
-    {
-      "id": "dic_medium_1",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "medium",
-      "question_text": "In a survey of 400 people, 30% are adults over 50. Of these older adults, 40% exercise regularly. How many older adults in the survey DO NOT exercise regularly?",
       "options": [
         {
           "letter": "A",
-          "text": "48"
+          "text": "131"
         },
         {
           "letter": "B",
-          "text": "72"
+          "text": "121"
         },
         {
           "letter": "C",
-          "text": "120"
+          "text": "156"
         },
         {
           "letter": "D",
-          "text": "168"
+          "text": "Cannot be determined"
         },
         {
           "letter": "E",
-          "text": "100"
+          "text": "146"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "Number of older adults = 30% of 400 = 0.3 * 400 = 120. \nPercentage of older adults who DO NOT exercise = 100% - 40% = 60%. \nOlder adults not exercising = 60% of 120 = 0.6 * 120 = 72.",
+      "correct_answer": "A",
+      "explanation": "Sum all 4 categories for Q3: 28 + 51 + 19 + 33 = 131.",
+      "hints": [
+        "Look specifically at the Q3 bar.",
+        "Add the values of all segments in that bar."
+      ]
+    },
+    {
+      "id": "data_q_3",
+      "difficulty": "easy",
+      "question_text": "The pie chart illustrates the global market share distribution for a multinational retailer. If the total global market value is $250 Billion, what is the approximate value (in billions) of the Asia-Pacific market?",
       "chart_data": {
-        "type": "bar",
-        "title": "Variable Comparison",
+        "type": "pie",
+        "title": "Global Market Share 2024",
         "labels": [
-          "Var 1",
-          "Var 2"
+          "North America",
+          "Europe",
+          "Asia-Pacific",
+          "Latin America",
+          "Middle East & Africa"
         ],
         "datasets": [
           {
-            "label": "Metric",
+            "label": "Regions",
+            "values": [
+              9,
+              19,
+              29,
+              24,
+              19
+            ]
+          }
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "$87B"
+        },
+        {
+          "letter": "B",
+          "text": "$82B"
+        },
+        {
+          "letter": "C",
+          "text": "$67B"
+        },
+        {
+          "letter": "D",
+          "text": "$72B"
+        },
+        {
+          "letter": "E",
+          "text": "None of the above"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "The Asia-Pacific market holds 29%. 250 * 0.29 = 72.",
+      "hints": [
+        "Find the percentage for the region.",
+        "Multiply percentage by the total value."
+      ]
+    },
+    {
+      "id": "data_q_4",
+      "difficulty": "easy",
+      "question_text": "The table below shows the population (in thousands) of 6 different cities from 2010 to 2025. Based on this data, which city had the highest absolute population growth from 2010 to 2025?",
+      "chart_data": {
+        "type": "table",
+        "title": "City Population Growth (Thousands)",
+        "headers": [
+          "City / Year",
+          "2010",
+          "2015",
+          "2020",
+          "2025"
+        ],
+        "rows": [
+          [
+            "Metropolis",
+            "2903",
+            "3193",
+            "3628",
+            "4064"
+          ],
+          [
+            "Gotham",
+            "2113",
+            "2324",
+            "2641",
+            "2958"
+          ],
+          [
+            "Star City",
+            "4798",
+            "5277",
+            "5997",
+            "6717"
+          ],
+          [
+            "Central",
+            "1914",
+            "2105",
+            "2392",
+            "2679"
+          ],
+          [
+            "Coast City",
+            "2592",
+            "2851",
+            "3240",
+            "3628"
+          ],
+          [
+            "Bludhaven",
+            "1774",
+            "1951",
+            "2217",
+            "2483"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "Central"
+        },
+        {
+          "letter": "B",
+          "text": "Metropolis"
+        },
+        {
+          "letter": "C",
+          "text": "Gotham"
+        },
+        {
+          "letter": "D",
+          "text": "Coast City"
+        },
+        {
+          "letter": "E",
+          "text": "Star City"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "You must subtract the 2010 population from the 2025 population for each city to find the absolute growth. Central had the highest absolute growth.",
+      "hints": [
+        "Look at the first and last columns.",
+        "Subtract 2010 from 2025 values."
+      ]
+    },
+    {
+      "id": "data_q_5",
+      "difficulty": "easy",
+      "question_text": "The table below shows the population (in thousands) of 6 different cities from 2010 to 2025. Based on this data, which city had the highest absolute population growth from 2010 to 2025?",
+      "chart_data": {
+        "type": "table",
+        "title": "City Population Growth (Thousands)",
+        "headers": [
+          "City / Year",
+          "2010",
+          "2015",
+          "2020",
+          "2025"
+        ],
+        "rows": [
+          [
+            "Metropolis",
+            "4254",
+            "4679",
+            "5317",
+            "5955"
+          ],
+          [
+            "Gotham",
+            "1054",
+            "1159",
+            "1317",
+            "1475"
+          ],
+          [
+            "Star City",
+            "1273",
+            "1400",
+            "1591",
+            "1782"
+          ],
+          [
+            "Central",
+            "3598",
+            "3957",
+            "4497",
+            "5037"
+          ],
+          [
+            "Coast City",
+            "4452",
+            "4897",
+            "5565",
+            "6232"
+          ],
+          [
+            "Bludhaven",
+            "2713",
+            "2984",
+            "3391",
+            "3798"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "Metropolis"
+        },
+        {
+          "letter": "B",
+          "text": "Gotham"
+        },
+        {
+          "letter": "C",
+          "text": "Star City"
+        },
+        {
+          "letter": "D",
+          "text": "Coast City"
+        },
+        {
+          "letter": "E",
+          "text": "Central"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "You must subtract the 2010 population from the 2025 population for each city to find the absolute growth. Central had the highest absolute growth.",
+      "hints": [
+        "Look at the first and last columns.",
+        "Subtract 2010 from 2025 values."
+      ]
+    },
+    {
+      "id": "data_q_6",
+      "difficulty": "easy",
+      "question_text": "The table below shows the population (in thousands) of 6 different cities from 2010 to 2025. Based on this data, which city had the highest absolute population growth from 2010 to 2025?",
+      "chart_data": {
+        "type": "table",
+        "title": "City Population Growth (Thousands)",
+        "headers": [
+          "City / Year",
+          "2010",
+          "2015",
+          "2020",
+          "2025"
+        ],
+        "rows": [
+          [
+            "Metropolis",
+            "4860",
+            "5346",
+            "6075",
+            "6804"
+          ],
+          [
+            "Gotham",
+            "3627",
+            "3989",
+            "4533",
+            "5077"
+          ],
+          [
+            "Star City",
+            "3851",
+            "4236",
+            "4813",
+            "5391"
+          ],
+          [
+            "Central",
+            "3828",
+            "4210",
+            "4785",
+            "5359"
+          ],
+          [
+            "Coast City",
+            "2669",
+            "2935",
+            "3336",
+            "3736"
+          ],
+          [
+            "Bludhaven",
+            "3485",
+            "3833",
+            "4356",
+            "4879"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "Metropolis"
+        },
+        {
+          "letter": "B",
+          "text": "Central"
+        },
+        {
+          "letter": "C",
+          "text": "Star City"
+        },
+        {
+          "letter": "D",
+          "text": "Coast City"
+        },
+        {
+          "letter": "E",
+          "text": "Gotham"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "You must subtract the 2010 population from the 2025 population for each city to find the absolute growth. Central had the highest absolute growth.",
+      "hints": [
+        "Look at the first and last columns.",
+        "Subtract 2010 from 2025 values."
+      ]
+    },
+    {
+      "id": "data_q_7",
+      "difficulty": "easy",
+      "question_text": "The table below shows the population (in thousands) of 6 different cities from 2010 to 2025. Based on this data, which city had the highest absolute population growth from 2010 to 2025?",
+      "chart_data": {
+        "type": "table",
+        "title": "City Population Growth (Thousands)",
+        "headers": [
+          "City / Year",
+          "2010",
+          "2015",
+          "2020",
+          "2025"
+        ],
+        "rows": [
+          [
+            "Metropolis",
+            "4732",
+            "5205",
+            "5915",
+            "6624"
+          ],
+          [
+            "Gotham",
+            "2278",
+            "2505",
+            "2847",
+            "3189"
+          ],
+          [
+            "Star City",
+            "3238",
+            "3561",
+            "4047",
+            "4533"
+          ],
+          [
+            "Central",
+            "1078",
+            "1185",
+            "1347",
+            "1509"
+          ],
+          [
+            "Coast City",
+            "2479",
+            "2726",
+            "3098",
+            "3470"
+          ],
+          [
+            "Bludhaven",
+            "2422",
+            "2664",
+            "3027",
+            "3390"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "Metropolis"
+        },
+        {
+          "letter": "B",
+          "text": "Gotham"
+        },
+        {
+          "letter": "C",
+          "text": "Coast City"
+        },
+        {
+          "letter": "D",
+          "text": "Central"
+        },
+        {
+          "letter": "E",
+          "text": "Star City"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "You must subtract the 2010 population from the 2025 population for each city to find the absolute growth. Central had the highest absolute growth.",
+      "hints": [
+        "Look at the first and last columns.",
+        "Subtract 2010 from 2025 values."
+      ]
+    },
+    {
+      "id": "data_q_8",
+      "difficulty": "easy",
+      "question_text": "The pie chart illustrates the global market share distribution for a multinational retailer. If the total global market value is $250 Billion, what is the approximate value (in billions) of the Asia-Pacific market?",
+      "chart_data": {
+        "type": "pie",
+        "title": "Global Market Share 2024",
+        "labels": [
+          "North America",
+          "Europe",
+          "Asia-Pacific",
+          "Latin America",
+          "Middle East & Africa"
+        ],
+        "datasets": [
+          {
+            "label": "Regions",
+            "values": [
+              17,
+              10,
+              27,
+              20,
+              26
+            ]
+          }
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "$62B"
+        },
+        {
+          "letter": "B",
+          "text": "None of the above"
+        },
+        {
+          "letter": "C",
+          "text": "$77B"
+        },
+        {
+          "letter": "D",
+          "text": "$67B"
+        },
+        {
+          "letter": "E",
+          "text": "$82B"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "The Asia-Pacific market holds 27%. 250 * 0.27 = 67.",
+      "hints": [
+        "Find the percentage for the region.",
+        "Multiply percentage by the total value."
+      ]
+    },
+    {
+      "id": "data_q_9",
+      "difficulty": "medium",
+      "question_text": "The pie chart illustrates the global market share distribution for a multinational retailer. If the total global market value is $250 Billion, what is the approximate value (in billions) of the Asia-Pacific market?",
+      "chart_data": {
+        "type": "pie",
+        "title": "Global Market Share 2024",
+        "labels": [
+          "North America",
+          "Europe",
+          "Asia-Pacific",
+          "Latin America",
+          "Middle East & Africa"
+        ],
+        "datasets": [
+          {
+            "label": "Regions",
+            "values": [
+              24,
+              12,
+              26,
+              25,
+              13
+            ]
+          }
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "$65B"
+        },
+        {
+          "letter": "B",
+          "text": "None of the above"
+        },
+        {
+          "letter": "C",
+          "text": "$60B"
+        },
+        {
+          "letter": "D",
+          "text": "$80B"
+        },
+        {
+          "letter": "E",
+          "text": "$75B"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The Asia-Pacific market holds 26%. 250 * 0.26 = 65.",
+      "hints": [
+        "Find the percentage for the region.",
+        "Multiply percentage by the total value."
+      ]
+    },
+    {
+      "id": "data_q_10",
+      "difficulty": "medium",
+      "question_text": "The stacked bar chart represents the quarterly revenue (in $ millions) of a tech corporation across four main divisions. What was the approximate total revenue for the corporation in Q3?",
+      "chart_data": {
+        "type": "bar",
+        "title": "Quarterly Revenue Breakdown ($ Millions)",
+        "x_label": "Quarter",
+        "y_label": "Revenue ($M)",
+        "labels": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q1 (Next Yr)"
+        ],
+        "datasets": [
+          {
+            "label": "Software",
+            "values": [
+              73,
+              66,
+              66,
+              63,
+              57
+            ]
+          },
+          {
+            "label": "Hardware",
+            "values": [
+              37,
+              51,
+              45,
+              87,
+              35
+            ]
+          },
+          {
+            "label": "Services",
+            "values": [
+              46,
+              20,
+              42,
+              34,
+              21
+            ]
+          },
+          {
+            "label": "Consulting",
+            "values": [
+              33,
+              41,
+              15,
+              37,
+              28
+            ]
+          }
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "158"
+        },
+        {
+          "letter": "B",
+          "text": "Cannot be determined"
+        },
+        {
+          "letter": "C",
+          "text": "168"
+        },
+        {
+          "letter": "D",
+          "text": "193"
+        },
+        {
+          "letter": "E",
+          "text": "183"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Sum all 4 categories for Q3: 66 + 45 + 42 + 15 = 168.",
+      "hints": [
+        "Look specifically at the Q3 bar.",
+        "Add the values of all segments in that bar."
+      ]
+    },
+    {
+      "id": "data_q_11",
+      "difficulty": "medium",
+      "question_text": "The line graph shows the monthly sales volume for three competing products over an 8-month period. In which month was the combined sales volume of all three products the lowest?",
+      "chart_data": {
+        "type": "line",
+        "title": "Monthly Sales Volume (Units)",
+        "x_label": "Month",
+        "y_label": "Sales Volume",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug"
+        ],
+        "datasets": [
+          {
+            "label": "Product A",
+            "values": [
+              496,
+              382,
+              310,
+              195,
+              280,
+              493,
+              372,
+              202
+            ]
+          },
+          {
+            "label": "Product B",
+            "values": [
+              188,
+              294,
+              254,
+              400,
+              405,
+              345,
+              282,
+              403
+            ]
+          },
+          {
+            "label": "Product C",
+            "values": [
+              207,
+              111,
+              249,
+              165,
+              207,
+              52,
+              237,
+              106
+            ]
+          }
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "April"
+        },
+        {
+          "letter": "B",
+          "text": "July"
+        },
+        {
+          "letter": "C",
+          "text": "June"
+        },
+        {
+          "letter": "D",
+          "text": "February"
+        },
+        {
+          "letter": "E",
+          "text": "May"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "By adding the values of the three lines for each month, you can determine the total sales volume. May had the lowest combined total.",
+      "hints": [
+        "Estimate the total height of all three points in each month.",
+        "Calculate exactly if two months look close."
+      ]
+    },
+    {
+      "id": "data_q_12",
+      "difficulty": "medium",
+      "question_text": "The line graph shows the monthly sales volume for three competing products over an 8-month period. In which month was the combined sales volume of all three products the lowest?",
+      "chart_data": {
+        "type": "line",
+        "title": "Monthly Sales Volume (Units)",
+        "x_label": "Month",
+        "y_label": "Sales Volume",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug"
+        ],
+        "datasets": [
+          {
+            "label": "Product A",
+            "values": [
+              353,
+              163,
+              434,
+              179,
+              159,
+              140,
+              307,
+              398
+            ]
+          },
+          {
+            "label": "Product B",
+            "values": [
+              202,
+              157,
+              262,
+              256,
+              441,
+              324,
+              227,
+              384
+            ]
+          },
+          {
+            "label": "Product C",
+            "values": [
+              117,
+              204,
+              226,
+              120,
+              268,
+              121,
+              265,
+              260
+            ]
+          }
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "April"
+        },
+        {
+          "letter": "B",
+          "text": "May"
+        },
+        {
+          "letter": "C",
+          "text": "July"
+        },
+        {
+          "letter": "D",
+          "text": "February"
+        },
+        {
+          "letter": "E",
+          "text": "June"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "By adding the values of the three lines for each month, you can determine the total sales volume. May had the lowest combined total.",
+      "hints": [
+        "Estimate the total height of all three points in each month.",
+        "Calculate exactly if two months look close."
+      ]
+    },
+    {
+      "id": "data_q_13",
+      "difficulty": "medium",
+      "question_text": "The stacked bar chart represents the quarterly revenue (in $ millions) of a tech corporation across four main divisions. What was the approximate total revenue for the corporation in Q3?",
+      "chart_data": {
+        "type": "bar",
+        "title": "Quarterly Revenue Breakdown ($ Millions)",
+        "x_label": "Quarter",
+        "y_label": "Revenue ($M)",
+        "labels": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q1 (Next Yr)"
+        ],
+        "datasets": [
+          {
+            "label": "Software",
+            "values": [
+              40,
+              41,
+              52,
+              63,
+              47
+            ]
+          },
+          {
+            "label": "Hardware",
+            "values": [
+              30,
+              90,
+              43,
+              85,
+              54
+            ]
+          },
+          {
+            "label": "Services",
             "values": [
               22,
+              22,
+              12,
+              37,
+              19
+            ]
+          },
+          {
+            "label": "Consulting",
+            "values": [
+              29,
+              24,
+              45,
+              21,
+              24
+            ]
+          }
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "152"
+        },
+        {
+          "letter": "B",
+          "text": "177"
+        },
+        {
+          "letter": "C",
+          "text": "142"
+        },
+        {
+          "letter": "D",
+          "text": "167"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Sum all 4 categories for Q3: 52 + 43 + 12 + 45 = 152.",
+      "hints": [
+        "Look specifically at the Q3 bar.",
+        "Add the values of all segments in that bar."
+      ]
+    },
+    {
+      "id": "data_q_14",
+      "difficulty": "medium",
+      "question_text": "The table below shows the population (in thousands) of 6 different cities from 2010 to 2025. Based on this data, which city had the highest absolute population growth from 2010 to 2025?",
+      "chart_data": {
+        "type": "table",
+        "title": "City Population Growth (Thousands)",
+        "headers": [
+          "City / Year",
+          "2010",
+          "2015",
+          "2020",
+          "2025"
+        ],
+        "rows": [
+          [
+            "Metropolis",
+            "3249",
+            "3573",
+            "4061",
+            "4548"
+          ],
+          [
+            "Gotham",
+            "4910",
+            "5401",
+            "6137",
+            "6874"
+          ],
+          [
+            "Star City",
+            "3922",
+            "4314",
+            "4902",
+            "5490"
+          ],
+          [
+            "Central",
+            "2785",
+            "3063",
+            "3481",
+            "3898"
+          ],
+          [
+            "Coast City",
+            "4785",
+            "5263",
+            "5981",
+            "6699"
+          ],
+          [
+            "Bludhaven",
+            "3987",
+            "4385",
+            "4983",
+            "5581"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "Star City"
+        },
+        {
+          "letter": "B",
+          "text": "Gotham"
+        },
+        {
+          "letter": "C",
+          "text": "Coast City"
+        },
+        {
+          "letter": "D",
+          "text": "Central"
+        },
+        {
+          "letter": "E",
+          "text": "Metropolis"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "You must subtract the 2010 population from the 2025 population for each city to find the absolute growth. Central had the highest absolute growth.",
+      "hints": [
+        "Look at the first and last columns.",
+        "Subtract 2010 from 2025 values."
+      ]
+    },
+    {
+      "id": "data_q_15",
+      "difficulty": "medium",
+      "question_text": "The table below shows the population (in thousands) of 6 different cities from 2010 to 2025. Based on this data, which city had the highest absolute population growth from 2010 to 2025?",
+      "chart_data": {
+        "type": "table",
+        "title": "City Population Growth (Thousands)",
+        "headers": [
+          "City / Year",
+          "2010",
+          "2015",
+          "2020",
+          "2025"
+        ],
+        "rows": [
+          [
+            "Metropolis",
+            "2686",
+            "2954",
+            "3357",
+            "3760"
+          ],
+          [
+            "Gotham",
+            "4995",
+            "5494",
+            "6243",
+            "6993"
+          ],
+          [
+            "Star City",
+            "1764",
+            "1940",
+            "2205",
+            "2469"
+          ],
+          [
+            "Central",
+            "4674",
+            "5141",
+            "5842",
+            "6543"
+          ],
+          [
+            "Coast City",
+            "3069",
+            "3375",
+            "3836",
+            "4296"
+          ],
+          [
+            "Bludhaven",
+            "3699",
+            "4068",
+            "4623",
+            "5178"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "Central"
+        },
+        {
+          "letter": "B",
+          "text": "Metropolis"
+        },
+        {
+          "letter": "C",
+          "text": "Star City"
+        },
+        {
+          "letter": "D",
+          "text": "Coast City"
+        },
+        {
+          "letter": "E",
+          "text": "Gotham"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "You must subtract the 2010 population from the 2025 population for each city to find the absolute growth. Central had the highest absolute growth.",
+      "hints": [
+        "Look at the first and last columns.",
+        "Subtract 2010 from 2025 values."
+      ]
+    },
+    {
+      "id": "data_q_16",
+      "difficulty": "medium",
+      "question_text": "The stacked bar chart represents the quarterly revenue (in $ millions) of a tech corporation across four main divisions. What was the approximate total revenue for the corporation in Q3?",
+      "chart_data": {
+        "type": "bar",
+        "title": "Quarterly Revenue Breakdown ($ Millions)",
+        "x_label": "Quarter",
+        "y_label": "Revenue ($M)",
+        "labels": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q1 (Next Yr)"
+        ],
+        "datasets": [
+          {
+            "label": "Software",
+            "values": [
+              61,
+              80,
+              36,
+              48,
+              55
+            ]
+          },
+          {
+            "label": "Hardware",
+            "values": [
+              42,
+              60,
+              53,
+              39,
+              41
+            ]
+          },
+          {
+            "label": "Services",
+            "values": [
+              38,
+              26,
+              47,
+              14,
+              48
+            ]
+          },
+          {
+            "label": "Consulting",
+            "values": [
+              30,
+              22,
+              43,
+              20,
               36
             ]
           }
         ]
       },
-      "hints": [
-        "Number of older adults = 30% of 400 = 0.",
-        "3 * 400 = 120.",
-        "Percentage of older adults who DO NOT exercise = 100% - 40% = 60%."
-      ]
-    },
-    {
-      "id": "dic_medium_2",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "medium",
-      "question_text": "Company X's profit increased by 20% from 2020 to 2021, and decreased by 10% from 2021 to 2022. What was the overall percentage change from 2020 to 2022?",
       "options": [
         {
           "letter": "A",
-          "text": "10% increase"
+          "text": "204"
         },
         {
           "letter": "B",
-          "text": "12% increase"
+          "text": "179"
         },
         {
           "letter": "C",
-          "text": "8% increase"
+          "text": "194"
         },
         {
           "letter": "D",
-          "text": "8% decrease"
+          "text": "169"
         },
         {
           "letter": "E",
-          "text": "15% increase"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "Let initial profit be 100. \nIn 2021: 100 * 1.20 = 120. \nIn 2022: Decrease by 10% → 120 * 0.90 = 108. \nOverall change from 100 to 108 is an 8% increase.",
-      "chart_data": {
-        "type": "bar",
-        "title": "Variable Comparison",
-        "labels": [
-          "Var 1",
-          "Var 2"
-        ],
-        "datasets": [
-          {
-            "label": "Metric",
-            "values": [
-              48,
-              50
-            ]
-          }
-        ]
-      },
-      "hints": [
-        "Let initial profit be 100.",
-        "In 2021: 100 * 1.",
-        "20 = 120."
-      ]
-    },
-    {
-      "id": "dic_medium_3",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "medium",
-      "question_text": "A stacked bar chart shows the population of two cities broken into M (Male) and F (Female). City 1 total is 50,000 (60% M, 40% F). City 2 total is 80,000 (45% M, 55% F). What is the total female percentage across both cities combined?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "47.5%"
-        },
-        {
-          "letter": "B",
-          "text": "49.2%"
-        },
-        {
-          "letter": "C",
-          "text": "55%"
-        },
-        {
-          "letter": "D",
-          "text": "52.3%"
-        },
-        {
-          "letter": "E",
-          "text": "45%"
+          "text": "Cannot be determined"
         }
       ],
       "correct_answer": "B",
-      "explanation": "Females in City 1 = 40% of 50,000 = 20,000. \nFemales in City 2 = 55% of 80,000 = 44,000. \nTotal Females = 20,000 + 44,000 = 64,000. \nTotal Population = 50,000 + 80,000 = 130,000. \nPercentage = (64,000 / 130,000) * 100% ≈ 49.23%. Distractors just average 40 and 55.",
+      "explanation": "Sum all 4 categories for Q3: 36 + 53 + 47 + 43 = 179.",
+      "hints": [
+        "Look specifically at the Q3 bar.",
+        "Add the values of all segments in that bar."
+      ]
+    },
+    {
+      "id": "data_q_17",
+      "difficulty": "medium",
+      "question_text": "The pie chart illustrates the global market share distribution for a multinational retailer. If the total global market value is $250 Billion, what is the approximate value (in billions) of the Asia-Pacific market?",
       "chart_data": {
-        "type": "bar",
-        "title": "Sales",
+        "type": "pie",
+        "title": "Global Market Share 2024",
         "labels": [
-          "Prod A",
-          "Prod B",
-          "Prod C"
+          "North America",
+          "Europe",
+          "Asia-Pacific",
+          "Latin America",
+          "Middle East & Africa"
         ],
         "datasets": [
           {
-            "label": "Units",
+            "label": "Regions",
             "values": [
-              150,
-              250,
-              100
+              8,
+              14,
+              17,
+              34,
+              27
             ]
           }
         ]
       },
-      "hints": [
-        "Females in City 1 = 40% of 50,000 = 20,000.",
-        "Females in City 2 = 55% of 80,000 = 44,000.",
-        "Total Females = 20,000 + 44,000 = 64,000."
-      ]
-    },
-    {
-      "id": "dic_hard_1",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "hard",
-      "question_text": "In a survey table for school activities, 20% of Club A members are seniors, while 50% of Club B members are seniors. Together, the two clubs have 200 members in total, and 32% of all completely pooled members are seniors. Assuming nobody is in both clubs, how many members are in Club A?",
       "options": [
         {
           "letter": "A",
-          "text": "120"
+          "text": "$37B"
         },
         {
           "letter": "B",
-          "text": "100"
+          "text": "$52B"
         },
         {
           "letter": "C",
-          "text": "60"
+          "text": "None of the above"
         },
         {
           "letter": "D",
-          "text": "80"
+          "text": "$57B"
         },
         {
           "letter": "E",
-          "text": "150"
+          "text": "$42B"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "Let A be the members in Club A and B be members in Club B. \nA + B = 200 → B = 200 - A. \nSeniors in A + Seniors in B = Total Seniors. \n0.20*A + 0.50*(200 - A) = 0.32 * 200. \n0.20A + 100 - 0.50A = 64 → -0.30A = -36 → A = 36 / 0.30 = 120.",
+      "correct_answer": "E",
+      "explanation": "The Asia-Pacific market holds 17%. 250 * 0.17 = 42.",
+      "hints": [
+        "Find the percentage for the region.",
+        "Multiply percentage by the total value."
+      ]
+    },
+    {
+      "id": "data_q_18",
+      "difficulty": "hard",
+      "question_text": "The pie chart illustrates the global market share distribution for a multinational retailer. If the total global market value is $250 Billion, what is the approximate value (in billions) of the Asia-Pacific market?",
+      "chart_data": {
+        "type": "pie",
+        "title": "Global Market Share 2024",
+        "labels": [
+          "North America",
+          "Europe",
+          "Asia-Pacific",
+          "Latin America",
+          "Middle East & Africa"
+        ],
+        "datasets": [
+          {
+            "label": "Regions",
+            "values": [
+              20,
+              12,
+              25,
+              27,
+              16
+            ]
+          }
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "None of the above"
+        },
+        {
+          "letter": "B",
+          "text": "$72B"
+        },
+        {
+          "letter": "C",
+          "text": "$77B"
+        },
+        {
+          "letter": "D",
+          "text": "$57B"
+        },
+        {
+          "letter": "E",
+          "text": "$62B"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "The Asia-Pacific market holds 25%. 250 * 0.25 = 62.",
+      "hints": [
+        "Find the percentage for the region.",
+        "Multiply percentage by the total value."
+      ]
+    },
+    {
+      "id": "data_q_19",
+      "difficulty": "hard",
+      "question_text": "The table below shows the population (in thousands) of 6 different cities from 2010 to 2025. Based on this data, which city had the highest absolute population growth from 2010 to 2025?",
       "chart_data": {
         "type": "table",
-        "title": "Survey Data",
+        "title": "City Population Growth (Thousands)",
         "headers": [
-          "Group",
-          "Members",
-          "Seniors%"
+          "City / Year",
+          "2010",
+          "2015",
+          "2020",
+          "2025"
         ],
         "rows": [
           [
-            "Club A",
-            "120",
-            "20%"
+            "Metropolis",
+            "4002",
+            "4402",
+            "5002",
+            "5602"
           ],
           [
-            "Club B",
-            "80",
-            "50%"
+            "Gotham",
+            "2808",
+            "3088",
+            "3510",
+            "3931"
+          ],
+          [
+            "Star City",
+            "3584",
+            "3942",
+            "4480",
+            "5017"
+          ],
+          [
+            "Central",
+            "1583",
+            "1741",
+            "1978",
+            "2216"
+          ],
+          [
+            "Coast City",
+            "1807",
+            "1987",
+            "2258",
+            "2529"
+          ],
+          [
+            "Bludhaven",
+            "1780",
+            "1958",
+            "2225",
+            "2492"
           ]
         ]
       },
-      "hints": [
-        "Let A be the members in Club A and B be members in Club B.",
-        "A + B = 200 → B = 200 - A.",
-        "Seniors in A + Seniors in B = Total Seniors."
-      ]
-    },
-    {
-      "id": "dic_hard_2",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "hard",
-      "question_text": "A chart gives data on 500 cars. 40% are sedans, 35% are SUVs, 25% are trucks. 20% of ALL cars are silver, and exactly half of the silver cars are SUVs. If 15% of sedans are silver, how many trucks are silver?",
       "options": [
         {
           "letter": "A",
-          "text": "10"
+          "text": "Central"
         },
         {
           "letter": "B",
-          "text": "15"
+          "text": "Star City"
         },
         {
           "letter": "C",
-          "text": "20"
+          "text": "Coast City"
         },
         {
           "letter": "D",
-          "text": "25"
+          "text": "Gotham"
         },
         {
           "letter": "E",
-          "text": "5"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "Total silver cars = 20% of 500 = 100. \nHalf are SUVs → Silver SUVs = 50. \nNumber of sedans = 40% of 500 = 200. \nSilver sedans = 15% of sedans = 15% of 200 = 30. \nSilver trucks = Total Silver - Silver SUVs - Silver sedans = 100 - 50 - 30 = 20.",
-      "chart_data": {
-        "type": "bar",
-        "title": "Variable Comparison",
-        "labels": [
-          "Var 1",
-          "Var 2"
-        ],
-        "datasets": [
-          {
-            "label": "Metric",
-            "values": [
-              48,
-              17
-            ]
-          }
-        ]
-      },
-      "hints": [
-        "Total silver cars = 20% of 500 = 100.",
-        "Half are SUVs → Silver SUVs = 50.",
-        "Number of sedans = 40% of 500 = 200."
-      ]
-    },
-    {
-      "id": "dic_hard_3",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "hard",
-      "question_text": "An investment chart shows stock values over 3 years. Stock X grew by 150%, then lost 40%, then gained 25%. Stock Y grew by a steady continuous rate. Both ended at exactly 1.875 times their original value. What is the false statement below?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "During year 2, Stock X fell back down to exactly 1.5 times its entry value."
-        },
-        {
-          "letter": "B",
-          "text": "Stock X grew by an overall 87.5% from year 0 to year 3."
-        },
-        {
-          "letter": "C",
-          "text": "If Stock Y grew purely by simple interest, its annual rate would be 29.17%."
-        },
-        {
-          "letter": "D",
-          "text": "The end-of-year 1 value for Stock X was 2.5 times its starting value."
-        },
-        {
-          "letter": "E",
-          "text": "Stock Y grew at an exact 25% compound annual growth rate."
-        }
-      ],
-      "correct_answer": "E",
-      "explanation": "Let initial value = 100. \nYr1 X = 100 + 150% = 250 (which is 2.5 times - D is True). \nYr2 X = 250 * 0.60 = 150 (which is 1.5 times - A is True). \nYr3 X = 150 * 1.25 = 187.5 (overall 87.5% growth - B is True). \nFor simple interest Y: 87.5 / 3 = 29.166% per year (C is basically True). \nFor compound interest Y: rate r = (1.875)^(1/3) - 1. 1.25^3 = 1.953125, not 1.875! Thus, an exact 25% compound rate is False. E is the false statement.",
-      "chart_data": {
-        "type": "line",
-        "title": "Stock Values",
-        "labels": [
-          "Yr 0",
-          "Yr 1",
-          "Yr 2",
-          "Yr 3"
-        ],
-        "datasets": [
-          {
-            "label": "Stock X",
-            "values": [
-              100,
-              250,
-              150,
-              187.5
-            ]
-          },
-          {
-            "label": "Stock Y",
-            "values": [
-              100,
-              125,
-              150,
-              187.5
-            ]
-          }
-        ]
-      },
-      "hints": [
-        "Let initial value = 100.",
-        "Yr1 X = 100 + 150% = 250 (which is 2.",
-        "5 times - D is True)."
-      ]
-    },
-    {
-      "id": "dic_hard_4",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "hard",
-      "question_text": "An incomplete table of male/female test performance reveals that 60% of females passed and 40% of males passed. If the overall pass rate for the entire group was 45%, what is the ratio of males to females in the group?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "3:1"
-        },
-        {
-          "letter": "B",
-          "text": "2:3"
-        },
-        {
-          "letter": "C",
-          "text": "1:3"
-        },
-        {
-          "letter": "D",
-          "text": "3:2"
-        },
-        {
-          "letter": "E",
-          "text": "4:1"
+          "text": "Metropolis"
         }
       ],
       "correct_answer": "A",
-      "explanation": "Let F = number of females, M = number of males. \nTotal passed = 0.6F + 0.4M. \nAlso, Total passed = 0.45 * (F + M). \nEquating: 0.6F + 0.4M = 0.45F + 0.45M → 0.15F = 0.05M. \nDivide by 0.05: 3F = M. \nTherefore, the ratio of Males to Females (M : F) is 3 : 1.",
+      "explanation": "You must subtract the 2010 population from the 2025 population for each city to find the absolute growth. Central had the highest absolute growth.",
+      "hints": [
+        "Look at the first and last columns.",
+        "Subtract 2010 from 2025 values."
+      ]
+    },
+    {
+      "id": "data_q_20",
+      "difficulty": "hard",
+      "question_text": "The table below shows the population (in thousands) of 6 different cities from 2010 to 2025. Based on this data, which city had the highest absolute population growth from 2010 to 2025?",
       "chart_data": {
         "type": "table",
-        "title": "Survey Data",
+        "title": "City Population Growth (Thousands)",
         "headers": [
-          "Group",
-          "Members",
-          "Seniors%"
+          "City / Year",
+          "2010",
+          "2015",
+          "2020",
+          "2025"
         ],
         "rows": [
           [
-            "Club A",
-            "120",
-            "20%"
+            "Metropolis",
+            "3550",
+            "3905",
+            "4437",
+            "4970"
           ],
           [
-            "Club B",
-            "80",
-            "50%"
+            "Gotham",
+            "4511",
+            "4962",
+            "5638",
+            "6315"
+          ],
+          [
+            "Star City",
+            "3323",
+            "3655",
+            "4153",
+            "4652"
+          ],
+          [
+            "Central",
+            "1691",
+            "1860",
+            "2113",
+            "2367"
+          ],
+          [
+            "Coast City",
+            "4010",
+            "4411",
+            "5012",
+            "5614"
+          ],
+          [
+            "Bludhaven",
+            "3550",
+            "3905",
+            "4437",
+            "4970"
           ]
         ]
       },
-      "hints": [
-        "Let F = number of females, M = number of males.",
-        "Total passed = 0.",
-        "6F + 0."
-      ]
-    },
-    {
-      "id": "dic_hard_5",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "hard",
-      "question_text": "A poll indicated 70% support for policy A and 80% support for policy B. If 'x' represents the percentage of people who supported BOTH policies, what is the full range of possible values for x?",
       "options": [
         {
           "letter": "A",
-          "text": "70% ≤ x ≤ 80%"
+          "text": "Star City"
         },
         {
           "letter": "B",
-          "text": "50% ≤ x ≤ 70%"
+          "text": "Coast City"
         },
         {
           "letter": "C",
-          "text": "50% ≤ x ≤ 80%"
+          "text": "Gotham"
         },
         {
           "letter": "D",
-          "text": "30% ≤ x ≤ 70%"
+          "text": "Central"
         },
         {
           "letter": "E",
-          "text": "0% ≤ x ≤ 50%"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "The maximum overlap happens if everyone who supported A also supported B. So max(x) = min(70, 80) = 70%. \nThe minimum overlap happens if the sets are pushed apart as far as possible: P(A) + P(B) - 100% = 70% + 80% - 100% = 50%. \nThus, 50% ≤ x ≤ 70%.",
-      "chart_data": {
-        "type": "bar",
-        "title": "Policy Support",
-        "labels": [
-          "Policy A",
-          "Policy B"
-        ],
-        "datasets": [
-          {
-            "label": "Support %",
-            "values": [
-              70,
-              80
-            ]
-          }
-        ]
-      },
-      "hints": [
-        "The maximum overlap happens if everyone who supported A also supported B.",
-        "So max(x) = min(70, 80) = 70%.",
-        "The minimum overlap happens if the sets are pushed apart as far as possible: P(A) + P(B) - 100% = 70% + 80% - 100% = 50%."
-      ]
-    },
-    {
-      "id": "dat_hard_11",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "hard",
-      "question_text": "A pie chart shows 60% of a 200 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "130"
-        },
-        {
-          "letter": "B",
-          "text": "120"
-        },
-        {
-          "letter": "C",
-          "text": "140"
-        },
-        {
-          "letter": "D",
-          "text": "110"
-        },
-        {
-          "letter": "E",
-          "text": "100"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "60% of 200 = (60/100) * 200 = 120.",
-      "hints": [
-        "60% of 200 = (60/100) * 200 = 120."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              60,
-              40
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_easy_12",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "easy",
-      "question_text": "A pie chart shows 20% of a 200 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "20"
-        },
-        {
-          "letter": "B",
-          "text": "40"
-        },
-        {
-          "letter": "C",
-          "text": "30"
-        },
-        {
-          "letter": "D",
-          "text": "50"
-        },
-        {
-          "letter": "E",
-          "text": "60"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "20% of 200 = (20/100) * 200 = 40.",
-      "hints": [
-        "20% of 200 = (20/100) * 200 = 40."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              20,
-              80
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_hard_13",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "hard",
-      "question_text": "A pie chart shows 30% of a 500 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "170"
-        },
-        {
-          "letter": "B",
-          "text": "150"
-        },
-        {
-          "letter": "C",
-          "text": "140"
-        },
-        {
-          "letter": "D",
-          "text": "130"
-        },
-        {
-          "letter": "E",
-          "text": "160"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "30% of 500 = (30/100) * 500 = 150.",
-      "hints": [
-        "30% of 500 = (30/100) * 500 = 150."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              30,
-              70
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_hard_14",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "hard",
-      "question_text": "A pie chart shows 20% of a 300 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "60"
-        },
-        {
-          "letter": "B",
-          "text": "50"
-        },
-        {
-          "letter": "C",
-          "text": "40"
-        },
-        {
-          "letter": "D",
-          "text": "70"
-        },
-        {
-          "letter": "E",
-          "text": "80"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "20% of 300 = (20/100) * 300 = 60.",
-      "hints": [
-        "20% of 300 = (20/100) * 300 = 60."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              20,
-              80
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_easy_15",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "easy",
-      "question_text": "A pie chart shows 40% of a 300 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "120"
-        },
-        {
-          "letter": "B",
-          "text": "130"
-        },
-        {
-          "letter": "C",
-          "text": "110"
-        },
-        {
-          "letter": "D",
-          "text": "100"
-        },
-        {
-          "letter": "E",
-          "text": "140"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "40% of 300 = (40/100) * 300 = 120.",
-      "hints": [
-        "40% of 300 = (40/100) * 300 = 120."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              40,
-              60
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_medium_16",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "medium",
-      "question_text": "A pie chart shows 60% of a 500 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "320"
-        },
-        {
-          "letter": "B",
-          "text": "310"
-        },
-        {
-          "letter": "C",
-          "text": "300"
-        },
-        {
-          "letter": "D",
-          "text": "280"
-        },
-        {
-          "letter": "E",
-          "text": "290"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "60% of 500 = (60/100) * 500 = 300.",
-      "hints": [
-        "60% of 500 = (60/100) * 500 = 300."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              60,
-              40
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_hard_17",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "hard",
-      "question_text": "A pie chart shows 20% of a 500 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "100"
-        },
-        {
-          "letter": "B",
-          "text": "110"
-        },
-        {
-          "letter": "C",
-          "text": "90"
-        },
-        {
-          "letter": "D",
-          "text": "80"
-        },
-        {
-          "letter": "E",
-          "text": "120"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "20% of 500 = (20/100) * 500 = 100.",
-      "hints": [
-        "20% of 500 = (20/100) * 500 = 100."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              20,
-              80
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_medium_18",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "medium",
-      "question_text": "A pie chart shows 50% of a 400 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "190"
-        },
-        {
-          "letter": "B",
-          "text": "180"
-        },
-        {
-          "letter": "C",
-          "text": "200"
-        },
-        {
-          "letter": "D",
-          "text": "220"
-        },
-        {
-          "letter": "E",
-          "text": "210"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "50% of 400 = (50/100) * 400 = 200.",
-      "hints": [
-        "50% of 400 = (50/100) * 400 = 200."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              50,
-              50
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_medium_19",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "medium",
-      "question_text": "A pie chart shows 50% of a 300 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "160"
-        },
-        {
-          "letter": "B",
-          "text": "130"
-        },
-        {
-          "letter": "C",
-          "text": "170"
-        },
-        {
-          "letter": "D",
-          "text": "140"
-        },
-        {
-          "letter": "E",
-          "text": "150"
-        }
-      ],
-      "correct_answer": "E",
-      "explanation": "50% of 300 = (50/100) * 300 = 150.",
-      "hints": [
-        "50% of 300 = (50/100) * 300 = 150."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              50,
-              50
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_hard_20",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "hard",
-      "question_text": "A pie chart shows 30% of a 300 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "100"
-        },
-        {
-          "letter": "B",
-          "text": "110"
-        },
-        {
-          "letter": "C",
-          "text": "70"
-        },
-        {
-          "letter": "D",
-          "text": "80"
-        },
-        {
-          "letter": "E",
-          "text": "90"
-        }
-      ],
-      "correct_answer": "E",
-      "explanation": "30% of 300 = (30/100) * 300 = 90.",
-      "hints": [
-        "30% of 300 = (30/100) * 300 = 90."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              30,
-              70
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_medium_21",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "medium",
-      "question_text": "A pie chart shows 70% of a 300 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "190"
-        },
-        {
-          "letter": "B",
-          "text": "220"
-        },
-        {
-          "letter": "C",
-          "text": "210"
-        },
-        {
-          "letter": "D",
-          "text": "200"
-        },
-        {
-          "letter": "E",
-          "text": "230"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "70% of 300 = (70/100) * 300 = 210.",
-      "hints": [
-        "70% of 300 = (70/100) * 300 = 210."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              70,
-              30
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_hard_22",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "hard",
-      "question_text": "A pie chart shows 80% of a 300 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "230"
-        },
-        {
-          "letter": "B",
-          "text": "260"
-        },
-        {
-          "letter": "C",
-          "text": "240"
-        },
-        {
-          "letter": "D",
-          "text": "250"
-        },
-        {
-          "letter": "E",
-          "text": "220"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "80% of 300 = (80/100) * 300 = 240.",
-      "hints": [
-        "80% of 300 = (80/100) * 300 = 240."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              80,
-              20
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_medium_23",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "medium",
-      "question_text": "A pie chart shows 50% of a 300 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "140"
-        },
-        {
-          "letter": "B",
-          "text": "160"
-        },
-        {
-          "letter": "C",
-          "text": "150"
-        },
-        {
-          "letter": "D",
-          "text": "170"
-        },
-        {
-          "letter": "E",
-          "text": "130"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "50% of 300 = (50/100) * 300 = 150.",
-      "hints": [
-        "50% of 300 = (50/100) * 300 = 150."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              50,
-              50
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_easy_24",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "easy",
-      "question_text": "A pie chart shows 30% of a 400 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "130"
-        },
-        {
-          "letter": "B",
-          "text": "110"
-        },
-        {
-          "letter": "C",
-          "text": "120"
-        },
-        {
-          "letter": "D",
-          "text": "100"
-        },
-        {
-          "letter": "E",
-          "text": "140"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "30% of 400 = (30/100) * 400 = 120.",
-      "hints": [
-        "30% of 400 = (30/100) * 400 = 120."
-      ],
-      "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
-        "labels": [
-          "Housing",
-          "Other"
-        ],
-        "datasets": [
-          {
-            "label": "Amount",
-            "values": [
-              30,
-              70
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "dat_hard_25",
-      "subject": "Quantitative Reasoning",
-      "topic": "Data Interpretation and Charts",
-      "difficulty": "hard",
-      "question_text": "A pie chart shows 40% of a 500 budget went to Housing. How much was allocated to Housing?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "210"
-        },
-        {
-          "letter": "B",
-          "text": "180"
-        },
-        {
-          "letter": "C",
-          "text": "220"
-        },
-        {
-          "letter": "D",
-          "text": "200"
-        },
-        {
-          "letter": "E",
-          "text": "190"
+          "text": "Metropolis"
         }
       ],
       "correct_answer": "D",
-      "explanation": "40% of 500 = (40/100) * 500 = 200.",
+      "explanation": "You must subtract the 2010 population from the 2025 population for each city to find the absolute growth. Central had the highest absolute growth.",
       "hints": [
-        "40% of 500 = (40/100) * 500 = 200."
-      ],
+        "Look at the first and last columns.",
+        "Subtract 2010 from 2025 values."
+      ]
+    },
+    {
+      "id": "data_q_21",
+      "difficulty": "hard",
+      "question_text": "The stacked bar chart represents the quarterly revenue (in $ millions) of a tech corporation across four main divisions. What was the approximate total revenue for the corporation in Q3?",
       "chart_data": {
-        "type": "pie",
-        "title": "Budget Breakdown",
+        "type": "bar",
+        "title": "Quarterly Revenue Breakdown ($ Millions)",
+        "x_label": "Quarter",
+        "y_label": "Revenue ($M)",
         "labels": [
-          "Housing",
-          "Other"
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q1 (Next Yr)"
         ],
         "datasets": [
           {
-            "label": "Amount",
+            "label": "Software",
             "values": [
-              40,
-              60
+              28,
+              51,
+              28,
+              30,
+              35
+            ]
+          },
+          {
+            "label": "Hardware",
+            "values": [
+              49,
+              57,
+              65,
+              47,
+              40
+            ]
+          },
+          {
+            "label": "Services",
+            "values": [
+              43,
+              34,
+              25,
+              39,
+              35
+            ]
+          },
+          {
+            "label": "Consulting",
+            "values": [
+              34,
+              43,
+              19,
+              37,
+              27
             ]
           }
         ]
-      }
-    }
-  ],
-  "worked_examples": [
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "137"
+        },
+        {
+          "letter": "B",
+          "text": "127"
+        },
+        {
+          "letter": "C",
+          "text": "152"
+        },
+        {
+          "letter": "D",
+          "text": "162"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Sum all 4 categories for Q3: 28 + 65 + 25 + 19 = 137.",
+      "hints": [
+        "Look specifically at the Q3 bar.",
+        "Add the values of all segments in that bar."
+      ]
+    },
     {
-      "title": "Example for Data Interpretation and Charts",
-      "question": "A sample real-exam structure for Data Interpretation and Charts.",
-      "solution": [
-        "Step 1: Read carefully.",
-        "Step 2: Apply the correct logical rule.",
-        "Step 3: Solve."
+      "id": "data_q_22",
+      "difficulty": "hard",
+      "question_text": "The pie chart illustrates the global market share distribution for a multinational retailer. If the total global market value is $250 Billion, what is the approximate value (in billions) of the Asia-Pacific market?",
+      "chart_data": {
+        "type": "pie",
+        "title": "Global Market Share 2024",
+        "labels": [
+          "North America",
+          "Europe",
+          "Asia-Pacific",
+          "Latin America",
+          "Middle East & Africa"
+        ],
+        "datasets": [
+          {
+            "label": "Regions",
+            "values": [
+              21,
+              20,
+              34,
+              9,
+              16
+            ]
+          }
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "$95B"
+        },
+        {
+          "letter": "B",
+          "text": "None of the above"
+        },
+        {
+          "letter": "C",
+          "text": "$80B"
+        },
+        {
+          "letter": "D",
+          "text": "$100B"
+        },
+        {
+          "letter": "E",
+          "text": "$85B"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "The Asia-Pacific market holds 34%. 250 * 0.34 = 85.",
+      "hints": [
+        "Find the percentage for the region.",
+        "Multiply percentage by the total value."
+      ]
+    },
+    {
+      "id": "data_q_23",
+      "difficulty": "hard",
+      "question_text": "The stacked bar chart represents the quarterly revenue (in $ millions) of a tech corporation across four main divisions. What was the approximate total revenue for the corporation in Q3?",
+      "chart_data": {
+        "type": "bar",
+        "title": "Quarterly Revenue Breakdown ($ Millions)",
+        "x_label": "Quarter",
+        "y_label": "Revenue ($M)",
+        "labels": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q1 (Next Yr)"
+        ],
+        "datasets": [
+          {
+            "label": "Software",
+            "values": [
+              78,
+              23,
+              27,
+              52,
+              65
+            ]
+          },
+          {
+            "label": "Hardware",
+            "values": [
+              41,
+              87,
+              74,
+              55,
+              31
+            ]
+          },
+          {
+            "label": "Services",
+            "values": [
+              43,
+              15,
+              49,
+              23,
+              13
+            ]
+          },
+          {
+            "label": "Consulting",
+            "values": [
+              25,
+              43,
+              41,
+              44,
+              28
+            ]
+          }
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "181"
+        },
+        {
+          "letter": "B",
+          "text": "206"
+        },
+        {
+          "letter": "C",
+          "text": "216"
+        },
+        {
+          "letter": "D",
+          "text": "191"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Sum all 4 categories for Q3: 27 + 74 + 49 + 41 = 191.",
+      "hints": [
+        "Look specifically at the Q3 bar.",
+        "Add the values of all segments in that bar."
+      ]
+    },
+    {
+      "id": "data_q_24",
+      "difficulty": "hard",
+      "question_text": "The pie chart illustrates the global market share distribution for a multinational retailer. If the total global market value is $250 Billion, what is the approximate value (in billions) of the Asia-Pacific market?",
+      "chart_data": {
+        "type": "pie",
+        "title": "Global Market Share 2024",
+        "labels": [
+          "North America",
+          "Europe",
+          "Asia-Pacific",
+          "Latin America",
+          "Middle East & Africa"
+        ],
+        "datasets": [
+          {
+            "label": "Regions",
+            "values": [
+              13,
+              21,
+              22,
+              31,
+              13
+            ]
+          }
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "$65B"
+        },
+        {
+          "letter": "B",
+          "text": "$55B"
+        },
+        {
+          "letter": "C",
+          "text": "None of the above"
+        },
+        {
+          "letter": "D",
+          "text": "$70B"
+        },
+        {
+          "letter": "E",
+          "text": "$50B"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The Asia-Pacific market holds 22%. 250 * 0.22 = 55.",
+      "hints": [
+        "Find the percentage for the region.",
+        "Multiply percentage by the total value."
+      ]
+    },
+    {
+      "id": "data_q_25",
+      "difficulty": "hard",
+      "question_text": "The line graph shows the monthly sales volume for three competing products over an 8-month period. In which month was the combined sales volume of all three products the lowest?",
+      "chart_data": {
+        "type": "line",
+        "title": "Monthly Sales Volume (Units)",
+        "x_label": "Month",
+        "y_label": "Sales Volume",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug"
+        ],
+        "datasets": [
+          {
+            "label": "Product A",
+            "values": [
+              318,
+              268,
+              362,
+              361,
+              429,
+              135,
+              498,
+              341
+            ]
+          },
+          {
+            "label": "Product B",
+            "values": [
+              442,
+              444,
+              185,
+              278,
+              171,
+              385,
+              415,
+              344
+            ]
+          },
+          {
+            "label": "Product C",
+            "values": [
+              87,
+              247,
+              84,
+              242,
+              259,
+              115,
+              98,
+              93
+            ]
+          }
+        ]
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text": "February"
+        },
+        {
+          "letter": "B",
+          "text": "May"
+        },
+        {
+          "letter": "C",
+          "text": "April"
+        },
+        {
+          "letter": "D",
+          "text": "July"
+        },
+        {
+          "letter": "E",
+          "text": "June"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "By adding the values of the three lines for each month, you can determine the total sales volume. May had the lowest combined total.",
+      "hints": [
+        "Estimate the total height of all three points in each month.",
+        "Calculate exactly if two months look close."
       ]
     }
   ]

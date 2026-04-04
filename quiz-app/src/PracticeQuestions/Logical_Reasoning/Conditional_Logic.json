@@ -21,22 +21,22 @@
         },
         {
           "letter": "B",
-          "text": "Yes, but a smaller one."
+          "text": "No, because he didn't buy enough items either."
         },
         {
           "letter": "C",
-          "text": "No, because the conditions are connected by AND."
+          "text": "Yes, but a smaller one."
         },
         {
           "letter": "D",
-          "text": "Maybe, if the manager approves."
+          "text": "No, because the conditions are connected by AND."
         },
         {
           "letter": "E",
-          "text": "No, because he didn't buy enough items either."
+          "text": "Maybe, if the manager approves."
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "The 'AND' logical operator mandates that ALL listed conditions must be met. Since he failed the club card condition, the entire premise evaluates to false.",
       "hints": [
         "The 'AND' logical operator mandates that ALL listed conditions must be met.",
@@ -64,11 +64,11 @@
         },
         {
           "letter": "D",
-          "text": "Opening slowly"
+          "text": "Cannot be determined"
         },
         {
           "letter": "E",
-          "text": "Cannot be determined"
+          "text": "Opening slowly"
         }
       ],
       "correct_answer": "A",
@@ -87,15 +87,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "No, she needs 30 more volunteer hours."
-        },
-        {
-          "letter": "B",
           "text": "Yes, she meets the GPA requirement and the sport alternative."
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "No, tennis is not a sport."
+        },
+        {
+          "letter": "C",
+          "text": "Cannot be determined without knowing her grade level."
         },
         {
           "letter": "D",
@@ -103,10 +103,10 @@
         },
         {
           "letter": "E",
-          "text": "Cannot be determined without knowing her grade level."
+          "text": "No, she needs 30 more volunteer hours."
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "Evaluate the logic: (GPA ≥ 3.5) AND (Volunteering ≥ 50 OR Varsity Sport). \nSarah: (True) AND (False OR True) → True AND True → True. She is eligible.",
       "hints": [
         "Evaluate the logic: (GPA ≥ 3.",
@@ -123,26 +123,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "They remained unlocked."
-        },
-        {
-          "letter": "B",
           "text": "They locked automatically."
         },
         {
+          "letter": "B",
+          "text": "They remained unlocked."
+        },
+        {
           "letter": "C",
-          "text": "They triggered an alarm."
+          "text": "They locked then unlocked."
         },
         {
           "letter": "D",
-          "text": "They unlocked."
+          "text": "They triggered an alarm."
         },
         {
           "letter": "E",
-          "text": "They locked then unlocked."
+          "text": "They unlocked."
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "Check Orange conditions: Level is Orange AND Time > 8 PM. Time is 9 PM, so condition (Time > 8 PM) is True. Since both are satisfied, the doors lock.",
       "hints": [
         "Check Orange conditions: Level is Orange AND Time > 8 PM.",
@@ -167,7 +167,7 @@
         },
         {
           "letter": "C",
-          "text": "No, the Degree is an absolute mandatory condition."
+          "text": "Yes, 10 years experience overrides the degree."
         },
         {
           "letter": "D",
@@ -175,10 +175,10 @@
         },
         {
           "letter": "E",
-          "text": "Yes, 10 years experience overrides the degree."
+          "text": "No, the Degree is an absolute mandatory condition."
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "Logic formula: Degree AND (Exp ≥ 3 OR Exam). The applicant has False AND (True OR False) → False AND True → False. A degree is non-negotiable.",
       "hints": [
         "Logic formula: Degree AND (Exp ≥ 3 OR Exam).",
@@ -195,26 +195,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Module D activates successfully."
-        },
-        {
-          "letter": "B",
           "text": "It causes a system crash because A and C cannot be active at the same time."
         },
         {
-          "letter": "C",
-          "text": "Module B activates and forces A to shut down."
+          "letter": "B",
+          "text": "Module B flickers on and off."
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "Module A fails to start."
         },
         {
+          "letter": "D",
+          "text": "Module B activates and forces A to shut down."
+        },
+        {
           "letter": "E",
-          "text": "Module B flickers on and off."
+          "text": "Module D activates successfully."
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "To activate D, both A and C must activate. If A is active, B = OFF. If C is active, B = ON. This creates an unresolvable logic paradox (B must be both ON and OFF simultaneously). Hence, A and C cannot be active together, making D impossible to activate.",
       "hints": [
         "To activate D, both A and C must activate.",
@@ -231,15 +231,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "Yes, his income is high enough to bypass the credit check."
+          "text": "No, his credit is too low."
         },
         {
           "letter": "B",
-          "text": "No, because his debt is under $10k."
+          "text": "No, because he has existing debt and his credit is under 700."
         },
         {
           "letter": "C",
-          "text": "No, because he has existing debt and his credit is under 700."
+          "text": "No, because his debt is under $10k."
         },
         {
           "letter": "D",
@@ -247,10 +247,10 @@
         },
         {
           "letter": "E",
-          "text": "No, his credit is too low."
+          "text": "Yes, his income is high enough to bypass the credit check."
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "John falls into category 2 (Credit 650). Therefore, he needs Income > $80k (True) AND NO existing debt (False, he has $5k). Therefore, he is denied. The automatic denial rule for >$10k doesn't save him; it's a separate fast-fail condition.",
       "hints": [
         "John falls into category 2 (Credit 650).",
@@ -267,26 +267,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Yes, they can pay 100 to get to Level 2, then 500 to get to Level 3."
+          "text": "Maybe, if the boss is easy."
         },
         {
           "letter": "B",
-          "text": "No, they must defeat the boss no matter what."
+          "text": "Yes, they can pay 100 to get to Level 2, then 500 to get to Level 3."
         },
         {
           "letter": "C",
-          "text": "No, they don't have enough gold."
-        },
-        {
-          "letter": "D",
           "text": "Yes, they skip Level 2 entirely."
         },
         {
+          "letter": "D",
+          "text": "No, they must defeat the boss no matter what."
+        },
+        {
           "letter": "E",
-          "text": "Maybe, if the boss is easy."
+          "text": "No, they don't have enough gold."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "The player spends 100 gold to reach Level 2. They now have 500 gold left. To reach Level 3, the requirement is (Level 2) AND (Defeat Boss OR Pay 500). They meet 'Level 2', and they meet the 'Pay 500' alternative. So they successfully reach Level 3.",
       "hints": [
         "The player spends 100 gold to reach Level 2.",
@@ -307,22 +307,22 @@
         },
         {
           "letter": "B",
-          "text": "Track B only"
-        },
-        {
-          "letter": "C",
           "text": "Both Track A and Track B"
         },
         {
+          "letter": "C",
+          "text": "Track B only"
+        },
+        {
           "letter": "D",
-          "text": "Neither track"
+          "text": "She requires a special vote."
         },
         {
           "letter": "E",
-          "text": "She requires a special vote."
+          "text": "Neither track"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "E",
       "explanation": "Lucy is bilingual, so tenure requirements drop by 3 years. Track A now requires 2 years tenure. Track B now requires 0 years tenure (originally 2). \nLucy has 0 years tenure. So she fails Track A immediately. \nFor Track B, she meets the 0 years tenure requirement, AND met her Sales Target, but she does NOT have Management Training. Track B uses AND for all three. So she fails Track B as well.",
       "hints": [
         "Lucy is bilingual, so tenure requirements drop by 3 years.",
@@ -339,26 +339,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "$10"
-        },
-        {
-          "letter": "B",
           "text": "$0"
         },
         {
-          "letter": "C",
-          "text": "$20"
+          "letter": "B",
+          "text": "$10"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "$30"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "They cannot enter because the mom cannot pay."
+        },
+        {
+          "letter": "E",
+          "text": "$20"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "Alex is 16. Rule 1: Needs parent. Mom is present. \nAlex's Fee: He is a student with an ID (Rule 3), so his fee is waived ($0). \nMom's Fee: She is a parent accompanying a minor (Rule 4), so she must pay double the base fee of $10. 2 * 10 = $20. \nTotal cost = $0 + $20 = $20. The prompt states she forgot her wallet, but asks 'How much must they pay', not 'Can they enter'. The required payment is $20.",
       "hints": [
         "Alex is 16.",
@@ -375,7 +375,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "$20"
+          "text": "$30"
         },
         {
           "letter": "B",
@@ -387,14 +387,14 @@
         },
         {
           "letter": "D",
-          "text": "$30"
+          "text": "$0"
         },
         {
           "letter": "E",
-          "text": "$0"
+          "text": "$20"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Alex is 16. Rule 1: Needs parent. Mom is present. \nAlex's Fee: He is a student with an ID (Rule 3), so his fee is waived ($0). \nMom's Fee: She is a parent accompanying a minor (Rule 4), so she must pay double the base fee of $10. 2 * 10 = $20. \nTotal cost = $0 + $20 = $20. The prompt states she forgot her wallet, but asks 'How much must they pay', not 'Can they enter'. The required payment is $20.",
       "hints": [
         "Alex is 16.",
@@ -415,7 +415,7 @@
         },
         {
           "letter": "B",
-          "text": "Yes, 10 years experience overrides the degree."
+          "text": "No, they failed both the experience and exam conditions."
         },
         {
           "letter": "C",
@@ -423,11 +423,11 @@
         },
         {
           "letter": "D",
-          "text": "No, they failed both the experience and exam conditions."
+          "text": "Yes, their experience is high enough."
         },
         {
           "letter": "E",
-          "text": "Yes, their experience is high enough."
+          "text": "Yes, 10 years experience overrides the degree."
         }
       ],
       "correct_answer": "A",
@@ -447,26 +447,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "She requires a special vote."
-        },
-        {
-          "letter": "B",
-          "text": "Both Track A and Track B"
-        },
-        {
-          "letter": "C",
           "text": "Track A only"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "Neither track"
+        },
+        {
+          "letter": "C",
           "text": "Track B only"
         },
         {
+          "letter": "D",
+          "text": "Both Track A and Track B"
+        },
+        {
           "letter": "E",
-          "text": "Neither track"
+          "text": "She requires a special vote."
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B",
       "explanation": "Lucy is bilingual, so tenure requirements drop by 3 years. Track A now requires 2 years tenure. Track B now requires 0 years tenure (originally 2). \nLucy has 0 years tenure. So she fails Track A immediately. \nFor Track B, she meets the 0 years tenure requirement, AND met her Sales Target, but she does NOT have Management Training. Track B uses AND for all three. So she fails Track B as well.",
       "hints": [
         "Lucy is bilingual, so tenure requirements drop by 3 years.",
@@ -483,26 +483,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Opening slowly"
-        },
-        {
-          "letter": "B",
-          "text": "Closed"
-        },
-        {
-          "letter": "C",
           "text": "Open"
         },
         {
+          "letter": "B",
+          "text": "Opening slowly"
+        },
+        {
+          "letter": "C",
+          "text": "Closed"
+        },
+        {
           "letter": "D",
-          "text": "Cannot be determined"
+          "text": "Jammed"
         },
         {
           "letter": "E",
-          "text": "Jammed"
+          "text": "Cannot be determined"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "The 'OR' logical operator means only one of the conditions needs to be true. Since Switch B is ON, the condition is met and the door opens.",
       "hints": [
         "The 'OR' logical operator means only one of the conditions needs to be true.",
@@ -522,22 +522,22 @@
         },
         {
           "letter": "B",
-          "text": "No, they failed both the experience and exam conditions."
-        },
-        {
-          "letter": "C",
-          "text": "No, the Degree is an absolute mandatory condition."
-        },
-        {
-          "letter": "D",
           "text": "Yes, they can just pass the Entrance Exam."
         },
         {
-          "letter": "E",
+          "letter": "C",
+          "text": "No, they failed both the experience and exam conditions."
+        },
+        {
+          "letter": "D",
           "text": "Yes, their experience is high enough."
+        },
+        {
+          "letter": "E",
+          "text": "No, the Degree is an absolute mandatory condition."
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "Logic formula: Degree AND (Exp ≥ 3 OR Exam). The applicant has False AND (True OR False) → False AND True → False. A degree is non-negotiable.",
       "hints": [
         "Logic formula: Degree AND (Exp ≥ 3 OR Exam).",
@@ -554,15 +554,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "They remained unlocked."
-        },
-        {
-          "letter": "B",
           "text": "They locked automatically."
         },
         {
+          "letter": "B",
+          "text": "They remained unlocked."
+        },
+        {
           "letter": "C",
-          "text": "They unlocked."
+          "text": "They triggered an alarm."
         },
         {
           "letter": "D",
@@ -570,10 +570,10 @@
         },
         {
           "letter": "E",
-          "text": "They triggered an alarm."
+          "text": "They unlocked."
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "Check Orange conditions: Level is Orange AND Time > 8 PM. Time is 9 PM, so condition (Time > 8 PM) is True. Since both are satisfied, the doors lock.",
       "hints": [
         "Check Orange conditions: Level is Orange AND Time > 8 PM.",
@@ -590,26 +590,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "No, they must defeat the boss no matter what."
-        },
-        {
-          "letter": "B",
-          "text": "Yes, they skip Level 2 entirely."
-        },
-        {
-          "letter": "C",
-          "text": "Yes, they can pay 100 to get to Level 2, then 500 to get to Level 3."
-        },
-        {
-          "letter": "D",
           "text": "Maybe, if the boss is easy."
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "Yes, they can pay 100 to get to Level 2, then 500 to get to Level 3."
+        },
+        {
+          "letter": "C",
+          "text": "No, they must defeat the boss no matter what."
+        },
+        {
+          "letter": "D",
           "text": "No, they don't have enough gold."
+        },
+        {
+          "letter": "E",
+          "text": "Yes, they skip Level 2 entirely."
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "The player spends 100 gold to reach Level 2. They now have 500 gold left. To reach Level 3, the requirement is (Level 2) AND (Defeat Boss OR Pay 500). They meet 'Level 2', and they meet the 'Pay 500' alternative. So they successfully reach Level 3.",
       "hints": [
         "The player spends 100 gold to reach Level 2.",
@@ -626,26 +626,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Opening slowly"
-        },
-        {
-          "letter": "B",
           "text": "Closed"
         },
         {
-          "letter": "C",
-          "text": "Cannot be determined"
+          "letter": "B",
+          "text": "Jammed"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "Open"
         },
         {
+          "letter": "D",
+          "text": "Cannot be determined"
+        },
+        {
           "letter": "E",
-          "text": "Jammed"
+          "text": "Opening slowly"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C",
       "explanation": "The 'OR' logical operator means only one of the conditions needs to be true. Since Switch B is ON, the condition is met and the door opens.",
       "hints": [
         "The 'OR' logical operator means only one of the conditions needs to be true.",
@@ -665,7 +665,7 @@
         },
         {
           "letter": "B",
-          "text": "Opening slowly"
+          "text": "Jammed"
         },
         {
           "letter": "C",
@@ -673,11 +673,11 @@
         },
         {
           "letter": "D",
-          "text": "Jammed"
+          "text": "Cannot be determined"
         },
         {
           "letter": "E",
-          "text": "Cannot be determined"
+          "text": "Opening slowly"
         }
       ],
       "correct_answer": "C",
@@ -696,26 +696,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "They remained unlocked."
-        },
-        {
-          "letter": "B",
-          "text": "They unlocked."
-        },
-        {
-          "letter": "C",
           "text": "They locked then unlocked."
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "They remained unlocked."
+        },
+        {
+          "letter": "C",
           "text": "They locked automatically."
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "They triggered an alarm."
+        },
+        {
+          "letter": "E",
+          "text": "They unlocked."
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C",
       "explanation": "Check Orange conditions: Level is Orange AND Time > 8 PM. Time is 9 PM, so condition (Time > 8 PM) is True. Since both are satisfied, the doors lock.",
       "hints": [
         "Check Orange conditions: Level is Orange AND Time > 8 PM.",
@@ -732,26 +732,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Opening slowly"
+          "text": "Cannot be determined"
         },
         {
           "letter": "B",
-          "text": "Jammed"
-        },
-        {
-          "letter": "C",
           "text": "Open"
         },
         {
+          "letter": "C",
+          "text": "Opening slowly"
+        },
+        {
           "letter": "D",
-          "text": "Closed"
+          "text": "Jammed"
         },
         {
           "letter": "E",
-          "text": "Cannot be determined"
+          "text": "Closed"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "The 'OR' logical operator means only one of the conditions needs to be true. Since Switch B is ON, the condition is met and the door opens.",
       "hints": [
         "The 'OR' logical operator means only one of the conditions needs to be true.",
@@ -767,7 +767,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Jammed"
+          "text": "Cannot be determined"
         },
         {
           "letter": "B",
@@ -775,11 +775,11 @@
         },
         {
           "letter": "C",
-          "text": "Cannot be determined"
+          "text": "Opening slowly"
         },
         {
           "letter": "D",
-          "text": "Opening slowly"
+          "text": "Jammed"
         },
         {
           "letter": "E",
@@ -802,7 +802,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "$0"
+          "text": "They cannot enter because the mom cannot pay."
         },
         {
           "letter": "B",
@@ -814,11 +814,11 @@
         },
         {
           "letter": "D",
-          "text": "$30"
+          "text": "$0"
         },
         {
           "letter": "E",
-          "text": "They cannot enter because the mom cannot pay."
+          "text": "$30"
         }
       ],
       "correct_answer": "C",
@@ -838,26 +838,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "They triggered an alarm."
-        },
-        {
-          "letter": "B",
-          "text": "They remained unlocked."
-        },
-        {
-          "letter": "C",
-          "text": "They locked automatically."
-        },
-        {
-          "letter": "D",
           "text": "They locked then unlocked."
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "They triggered an alarm."
+        },
+        {
+          "letter": "C",
+          "text": "They remained unlocked."
+        },
+        {
+          "letter": "D",
           "text": "They unlocked."
+        },
+        {
+          "letter": "E",
+          "text": "They locked automatically."
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "Check Orange conditions: Level is Orange AND Time > 8 PM. Time is 9 PM, so condition (Time > 8 PM) is True. Since both are satisfied, the doors lock.",
       "hints": [
         "Check Orange conditions: Level is Orange AND Time > 8 PM.",
@@ -874,26 +874,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "They triggered an alarm."
-        },
-        {
-          "letter": "B",
-          "text": "They unlocked."
-        },
-        {
-          "letter": "C",
-          "text": "They locked then unlocked."
-        },
-        {
-          "letter": "D",
           "text": "They remained unlocked."
         },
         {
-          "letter": "E",
+          "letter": "B",
           "text": "They locked automatically."
+        },
+        {
+          "letter": "C",
+          "text": "They triggered an alarm."
+        },
+        {
+          "letter": "D",
+          "text": "They locked then unlocked."
+        },
+        {
+          "letter": "E",
+          "text": "They unlocked."
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B",
       "explanation": "Check Orange conditions: Level is Orange AND Time > 8 PM. Time is 9 PM, so condition (Time > 8 PM) is True. Since both are satisfied, the doors lock.",
       "hints": [
         "Check Orange conditions: Level is Orange AND Time > 8 PM.",

@@ -74,26 +74,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "However"
-        },
-        {
-          "letter": "B",
           "text": "Therefore"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "Furthermore"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "As a result"
+        },
+        {
+          "letter": "D",
+          "text": "However"
         },
         {
           "letter": "E",
           "text": "Similarly"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Sentence 1: vegetables are essential. Sentence 2: people don't eat enough. This is a **contrast** — despite knowing vegetables are important, many don't eat enough. → **However** (contrast connector) ✓.",
       "hints": [
         "What's the relationship? S1=important, S2=people don't follow it.",
@@ -110,7 +110,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Consequently"
+          "text": "Nevertheless"
         },
         {
           "letter": "B",
@@ -122,14 +122,14 @@
         },
         {
           "letter": "D",
-          "text": "In addition"
+          "text": "Consequently"
         },
         {
           "letter": "E",
-          "text": "Nevertheless"
+          "text": "In addition"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Experiment failed → team decided to revise. This is **cause → effect**. → **Consequently** ✓.",
       "hints": [
         "The experiment failing CAUSED the team to change. What connects causes and effects?",
@@ -150,7 +150,7 @@
         },
         {
           "letter": "B",
-          "text": "however"
+          "text": "unless"
         },
         {
           "letter": "C",
@@ -162,7 +162,7 @@
         },
         {
           "letter": "E",
-          "text": "unless"
+          "text": "however"
         }
       ],
       "correct_answer": "A",
@@ -182,26 +182,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "The first sentence that introduces the main idea"
+          "text": "A question to engage the reader"
         },
         {
           "letter": "B",
-          "text": "The last sentence that summarizes details"
+          "text": "The first sentence that introduces the main idea"
         },
         {
           "letter": "C",
-          "text": "A sentence with a specific example"
-        },
-        {
-          "letter": "D",
           "text": "Any sentence that uses a transition word"
         },
         {
+          "letter": "D",
+          "text": "The last sentence that summarizes details"
+        },
+        {
           "letter": "E",
-          "text": "A question to engage the reader"
+          "text": "A sentence with a specific example"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "The **topic sentence** introduces the paragraph's main idea and is usually (but not always) first. It sets the direction for the rest of the paragraph.",
       "hints": [
         "The topic sentence tells readers what the paragraph is about.",
@@ -218,26 +218,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Sentence 3"
-        },
-        {
-          "letter": "B",
-          "text": "Sentence 1"
-        },
-        {
-          "letter": "C",
           "text": "Sentence 2"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "Sentence 4"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "Sentence 5"
+        },
+        {
+          "letter": "D",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "E",
+          "text": "Sentence 3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "All sentences except #3 relate to **benefits of reading**. Sentence 3 about library closing hours is a completely off-topic detail → **Sentence 3** should be removed.",
       "hints": [
         "Find the sentence that doesn't relate to 'benefits of reading'.",
@@ -254,7 +254,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "As a result"
+          "text": "Although"
         },
         {
           "letter": "B",
@@ -262,18 +262,18 @@
         },
         {
           "letter": "C",
-          "text": "In contrast"
+          "text": "On the other hand"
         },
         {
           "letter": "D",
-          "text": "Although"
+          "text": "As a result"
         },
         {
           "letter": "E",
-          "text": "On the other hand"
+          "text": "In contrast"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Training → winning = cause → effect. **As a result** shows the effect of the training → ✓.",
       "hints": [
         "Training caused him to win — cause → effect relationship.",
@@ -290,26 +290,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Something mentioned in the previous sentence"
-        },
-        {
-          "letter": "B",
           "text": "Something that will be mentioned later"
         },
         {
-          "letter": "C",
-          "text": "The author's personal opinion"
+          "letter": "B",
+          "text": "Something mentioned in the previous sentence"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "An unknown concept"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "A new idea being introduced"
+        },
+        {
+          "letter": "E",
+          "text": "The author's personal opinion"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Pronouns like 'this', 'it', 'they', 'these' are **anaphoric** — they refer back to something already mentioned (antecedent). Sentence 2's 'this' refers to something in Sentence 1.",
       "hints": [
         "'This' is a demonstrative pronoun used to refer back to something.",
@@ -326,26 +326,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Consequently"
-        },
-        {
-          "letter": "B",
           "text": "However"
         },
         {
+          "letter": "B",
+          "text": "Consequently"
+        },
+        {
           "letter": "C",
-          "text": "In contrast"
+          "text": "Despite this"
         },
         {
           "letter": "D",
-          "text": "On the other hand"
+          "text": "In contrast"
         },
         {
           "letter": "E",
-          "text": "Despite this"
+          "text": "On the other hand"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Studying → passing exam = cause → expected positive result. **Consequently** ✓.\n\n(Note: 'However' would work if the result was unexpected — he studied but FAILED. Since he passed, it's a natural consequence.)",
       "hints": [
         "Studying all night logically leads to passing — what kind of relationship?",
@@ -362,15 +362,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "Gasoline prices have fluctuated significantly this year."
-        },
-        {
-          "letter": "B",
           "text": "These developments suggest that electric vehicles may soon become the mainstream mode of transport."
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "However, some consumers still prefer SUVs over sedans."
+        },
+        {
+          "letter": "C",
+          "text": "Gasoline prices have fluctuated significantly this year."
         },
         {
           "letter": "D",
@@ -381,7 +381,7 @@
           "text": "Solar panels can also reduce household energy costs."
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "The paragraph describes multiple positive trends for EVs (battery, infrastructure). The concluding sentence should synthesize these points and state the main implication → **B: 'These developments suggest EVs may become mainstream'** ✓.",
       "hints": [
         "The paragraph ends — what kind of sentence usually closes a paragraph?",
@@ -398,26 +398,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "For instance, particulate matter from vehicle emissions penetrates deep into lung tissue."
-        },
-        {
-          "letter": "B",
           "text": "However, outdoor activities are still popular in most cities."
         },
         {
+          "letter": "B",
+          "text": "For instance, particulate matter from vehicle emissions penetrates deep into lung tissue."
+        },
+        {
           "letter": "C",
-          "text": "On the other hand, indoor air quality has improved."
+          "text": "The invention of the automobile transformed urban planning."
         },
         {
           "letter": "D",
-          "text": "The invention of the automobile transformed urban planning."
+          "text": "On the other hand, indoor air quality has improved."
         },
         {
           "letter": "E",
           "text": "Nevertheless, many people continue to drive gasoline cars."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Sentences 2&3 describe health effects generally. Sentence 5 calls for policy action. Sentence 4 should provide a **specific example supporting the health risks** before the conclusion. **A provides a specific example** of how pollution harms health ✓.",
       "hints": [
         "What's between general-effects (S2,S3) and the conclusion (S5)?",
@@ -434,26 +434,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "nevertheless"
+          "text": "similarly"
         },
         {
           "letter": "B",
-          "text": "therefore"
-        },
-        {
-          "letter": "C",
           "text": "consequently"
         },
         {
+          "letter": "C",
+          "text": "nevertheless"
+        },
+        {
           "letter": "D",
-          "text": "furthermore"
+          "text": "therefore"
         },
         {
           "letter": "E",
-          "text": "similarly"
+          "text": "furthermore"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "The first clause describes advantages. After the semicolon, the sentence switches to critics' objections — a contrast. **Nevertheless** (= despite this) introduces the opposing point ✓.",
       "hints": [
         "First part: benefits. Second part: critics' objections = opposite direction.",
@@ -474,11 +474,11 @@
         },
         {
           "letter": "B",
-          "text": "A → B → C → D → E"
+          "text": "B → C → A → D → E"
         },
         {
           "letter": "C",
-          "text": "C → B → A → E → D"
+          "text": "A → B → C → D → E"
         },
         {
           "letter": "D",
@@ -486,7 +486,7 @@
         },
         {
           "letter": "E",
-          "text": "B → C → A → D → E"
+          "text": "C → B → A → E → D"
         }
       ],
       "correct_answer": "A",
@@ -506,26 +506,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Social media platforms earn billions in annual revenue."
-        },
-        {
-          "letter": "B",
-          "text": "Balanced regulation may be necessary to preserve social media's benefits while mitigating its harms."
-        },
-        {
-          "letter": "C",
           "text": "Mark Zuckerberg founded Facebook in 2004."
         },
         {
+          "letter": "B",
+          "text": "Therefore, social media should be banned immediately."
+        },
+        {
+          "letter": "C",
+          "text": "Balanced regulation may be necessary to preserve social media's benefits while mitigating its harms."
+        },
+        {
           "letter": "D",
-          "text": "Many people use social media for entertainment purposes."
+          "text": "Social media platforms earn billions in annual revenue."
         },
         {
           "letter": "E",
-          "text": "Therefore, social media should be banned immediately."
+          "text": "Many people use social media for entertainment purposes."
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "The paragraph presents both benefits and concerns of social media. A balanced conclusion should **address both aspects** and suggest a reasonable path forward. **B: 'Balanced regulation...'** directly synthesizes both sides ✓.\n\nE is too extreme. A, C, D don't address the paragraph's content.",
       "hints": [
         "The paragraph covers benefits AND concerns — a good conclusion addresses both.",
@@ -542,7 +542,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "'Furthermore' should be 'Therefore' — the decision is a RESULT of the drop, not an addition."
+          "text": "The sentence needs 'However' to show contrast."
         },
         {
           "letter": "B",
@@ -550,7 +550,7 @@
         },
         {
           "letter": "C",
-          "text": "The sentence needs 'However' to show contrast."
+          "text": "'Furthermore' should be 'Therefore' — the decision is a RESULT of the drop, not an addition."
         },
         {
           "letter": "D",
@@ -561,7 +561,7 @@
           "text": "'Consequently' should replace 'marketing budget'."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "'Furthermore' adds more similar information. But here, the second sentence is a **response/effect** of the first (sales dropped → they expanded marketing). The correct connector is **Therefore** (cause-effect). 'Furthermore' implies both are similar additions — they're not.",
       "hints": [
         "Does sentence 2 ADD to sentence 1, or is it a RESULT of sentence 1?",
@@ -578,26 +578,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "It uses first-person perspective"
-        },
-        {
-          "letter": "B",
           "text": "It is irrelevant to the topic and disrupts cohesion"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "It is too specific to be included"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "It should be the topic sentence"
+        },
+        {
+          "letter": "D",
+          "text": "It uses first-person perspective"
         },
         {
           "letter": "E",
           "text": "It introduces a counter-argument"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "The sentence has no connection to climate change — it's a personal detail about an unrelated topic. It **violates unity** (one main idea per paragraph) and disrupts coherence. → **Irrelevant and disrupts cohesion** ✓.",
       "hints": [
         "Is a red pickup truck relevant to a climate change paragraph?",
@@ -614,11 +614,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "Nevertheless"
+          "text": "Moreover"
         },
         {
           "letter": "B",
-          "text": "Moreover"
+          "text": "For instance"
         },
         {
           "letter": "C",
@@ -626,14 +626,14 @@
         },
         {
           "letter": "D",
-          "text": "For instance"
+          "text": "Nevertheless"
         },
         {
           "letter": "E",
           "text": "Subsequently"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "'Conducted over several years' = significant effort/time. 'Sample size remained small' = a limitation. Despite the long duration, the sample was small — this is a contrast/concession. → **Nevertheless** ✓.",
       "hints": [
         "Long research time vs. small sample = contrast.",
@@ -654,22 +654,22 @@
         },
         {
           "letter": "B",
-          "text": "Some countries, such as Germany, have chosen to phase it out entirely."
-        },
-        {
-          "letter": "C",
           "text": "While some see it as a vital low-carbon energy source, others view it as an unacceptable risk."
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "Coal remains the most widely used energy source globally."
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "Furthermore, renewable energy is growing rapidly."
+        },
+        {
+          "letter": "E",
+          "text": "Some countries, such as Germany, have chosen to phase it out entirely."
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "Sentence 2 must bridge 'The debate is intensifying' (S1) and 'Opponents cite... Proponents emphasize...' (S3, S4). It should SET UP the two-sided debate. **C: 'While some see it as vital, others view it as a risk'** introduces both sides and logically connects S1 to S3/S4 ✓.",
       "hints": [
         "S1=debate is intensifying. S3=opponents' view. S4=proponents' view.",
@@ -690,7 +690,7 @@
         },
         {
           "letter": "B",
-          "text": "Replace 'computers' with 'laptops'"
+          "text": "Move the last sentence to the beginning"
         },
         {
           "letter": "C",
@@ -698,7 +698,7 @@
         },
         {
           "letter": "D",
-          "text": "Move the last sentence to the beginning"
+          "text": "Replace 'computers' with 'laptops'"
         },
         {
           "letter": "E",
@@ -722,26 +722,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "However and Nevertheless"
-        },
-        {
-          "letter": "B",
           "text": "Furthermore and Moreover"
         },
         {
-          "letter": "C",
-          "text": "Therefore and Consequently"
+          "letter": "B",
+          "text": "However and Nevertheless"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "For example and For instance"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "Similarly and Likewise"
+        },
+        {
+          "letter": "E",
+          "text": "Therefore and Consequently"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Initial failure → after rebranding → improved = unexpected positive result AFTER initial failure. Both **However** (contrast) and **Nevertheless** (concession) work here to signal the unexpected turnaround.\n\n'However / Nevertheless,...after rebranding, sales improved.' Both correctly signal reversal ✓.",
       "hints": [
         "Initial failure then success = a reversal/unexpected result.",
@@ -762,7 +762,7 @@
         },
         {
           "letter": "B",
-          "text": "Cause → Problem → Solution → Recommendation"
+          "text": "History → Present state → Prediction → Warning"
         },
         {
           "letter": "C",
@@ -770,11 +770,11 @@
         },
         {
           "letter": "D",
-          "text": "History → Present state → Prediction → Warning"
+          "text": "Definition → Example → Analysis → Conclusion"
         },
         {
           "letter": "E",
-          "text": "Definition → Example → Analysis → Conclusion"
+          "text": "Cause → Problem → Solution → Recommendation"
         }
       ],
       "correct_answer": "A",
@@ -794,26 +794,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "First state a common misconception, then correct it with evidence"
-        },
-        {
-          "letter": "B",
           "text": "Summarize a well-accepted scientific fact"
         },
         {
-          "letter": "C",
-          "text": "Present two equally valid competing theories"
+          "letter": "B",
+          "text": "First state a common misconception, then correct it with evidence"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "Begin with a definition before offering examples"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "Provide historical background before modern analysis"
+        },
+        {
+          "letter": "E",
+          "text": "Present two equally valid competing theories"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "'Contrary to popular belief' = a rhetorical device signaling that what follows challenges a commonly held assumption. The paragraph will: (1) acknowledge the popular belief, (2) present evidence contradicting it, (3) conclude with the corrected understanding → **A** ✓.",
       "hints": [
         "'Contrary to popular belief' = what most people think is WRONG.",
@@ -830,7 +830,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Meanwhile, battery storage technology has made intermittent energy sources more reliable."
+          "text": "However, some regions still rely heavily on coal."
         },
         {
           "letter": "B",
@@ -838,7 +838,7 @@
         },
         {
           "letter": "C",
-          "text": "However, some regions still rely heavily on coal."
+          "text": "Meanwhile, battery storage technology has made intermittent energy sources more reliable."
         },
         {
           "letter": "D",
@@ -849,7 +849,7 @@
           "text": "Furthermore, wind turbines are now taller than ever before."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "The bracketed sentence (about outdoor activities) is irrelevant. The paragraph discusses renewable energy technology improvements. The replacement should maintain that focus. **A: 'battery storage technology has made intermittent sources more reliable'** adds another relevant technological advancement ✓.",
       "hints": [
         "The underlined sentence is off-topic. Replace with something relevant.",
@@ -866,7 +866,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "The author agrees with the opposing view and abandons their argument"
+          "text": "The author gives examples before stating the main claim"
         },
         {
           "letter": "B",
@@ -874,7 +874,7 @@
         },
         {
           "letter": "C",
-          "text": "The author gives examples before stating the main claim"
+          "text": "The author uses only statistics to support their argument"
         },
         {
           "letter": "D",
@@ -882,7 +882,7 @@
         },
         {
           "letter": "E",
-          "text": "The author uses only statistics to support their argument"
+          "text": "The author agrees with the opposing view and abandons their argument"
         }
       ],
       "correct_answer": "B",
@@ -902,7 +902,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "On the other hand"
+          "text": "Although"
         },
         {
           "letter": "B",
@@ -910,18 +910,18 @@
         },
         {
           "letter": "C",
-          "text": "Nevertheless"
-        },
-        {
-          "letter": "D",
           "text": "As a result"
         },
         {
+          "letter": "D",
+          "text": "On the other hand"
+        },
+        {
           "letter": "E",
-          "text": "Although"
+          "text": "Nevertheless"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C",
       "explanation": "Training → winning = cause → effect. **As a result** shows the effect of the training → ✓.",
       "hints": [
         "Training caused him to win — cause → effect relationship.",
@@ -938,7 +938,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Sentence 1"
+          "text": "Sentence 3"
         },
         {
           "letter": "B",
@@ -946,18 +946,18 @@
         },
         {
           "letter": "C",
-          "text": "Sentence 2"
-        },
-        {
-          "letter": "D",
           "text": "Sentence 5"
         },
         {
+          "letter": "D",
+          "text": "Sentence 2"
+        },
+        {
           "letter": "E",
-          "text": "Sentence 3"
+          "text": "Sentence 1"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A",
       "explanation": "All sentences except #3 relate to **benefits of reading**. Sentence 3 about library closing hours is a completely off-topic detail → **Sentence 3** should be removed.",
       "hints": [
         "Find the sentence that doesn't relate to 'benefits of reading'.",

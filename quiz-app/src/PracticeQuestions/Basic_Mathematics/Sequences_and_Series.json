@@ -75,11 +75,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "39"
+          "text": "45"
         },
         {
           "letter": "B",
-          "text": "41"
+          "text": "39"
         },
         {
           "letter": "C",
@@ -91,10 +91,10 @@
         },
         {
           "letter": "E",
-          "text": "45"
+          "text": "41"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "**Formula: aₙ = a₁ + (n-1)d**\n\na₁ = 3, d = 7-3 = 4, n = 10\na₁₀ = 3 + (10-1)×4 = 3 + 36 = **39**",
       "hints": [
         "Identify d = difference between consecutive terms.",
@@ -111,11 +111,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "155"
+          "text": "145"
         },
         {
           "letter": "B",
-          "text": "145"
+          "text": "155"
         },
         {
           "letter": "C",
@@ -130,7 +130,7 @@
           "text": "140"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "**Arithmetic Sum: Sₙ = n/2 × (2a₁ + (n-1)d)**\n\na₁=2, d=3, n=10\nS₁₀ = 10/2 × (2(2) + 9(3)) = 5 × (4+27) = 5 × 31 = **155**",
       "hints": [
         "Identify a₁=2, d=3, n=10.",
@@ -147,26 +147,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "96"
+          "text": "192"
         },
         {
           "letter": "B",
-          "text": "64"
-        },
-        {
-          "letter": "C",
           "text": "128"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "48"
         },
         {
+          "letter": "D",
+          "text": "64"
+        },
+        {
           "letter": "E",
-          "text": "192"
+          "text": "96"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Formula: aₙ = a₁ × rⁿ⁻¹**\n\na₁=3, r = 6/3 = 2, n=6\na₆ = 3 × 2⁵ = 3 × 32 = **96**",
       "hints": [
         "Find r = second term / first term = 6/3 = 2.",
@@ -183,26 +183,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
-        },
-        {
-          "letter": "B",
-          "text": "3"
-        },
-        {
-          "letter": "C",
           "text": "4"
         },
         {
+          "letter": "B",
+          "text": "6"
+        },
+        {
+          "letter": "C",
+          "text": "2"
+        },
+        {
           "letter": "D",
-          "text": "12"
+          "text": "3"
         },
         {
           "letter": "E",
-          "text": "6"
+          "text": "12"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "**Using aₙ = a₁ + (n-1)d:**\n\na₅ = a₁ + 4d\n17 = 5 + 4d\n4d = 12\n**d = 3**",
       "hints": [
         "Use a₅ = a₁ + 4d.",
@@ -219,15 +219,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
+          "text": "3"
         },
         {
           "letter": "B",
-          "text": "1"
+          "text": "2"
         },
         {
           "letter": "C",
-          "text": "3"
+          "text": "4"
         },
         {
           "letter": "D",
@@ -235,10 +235,10 @@
         },
         {
           "letter": "E",
-          "text": "4"
+          "text": "1"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "**Infinite Geometric Sum: S∞ = a₁/(1-r)**\n\na₁=1, r=1/2 (since |r|<1, converges)\nS∞ = 1/(1-1/2) = 1/(1/2) = **2**",
       "hints": [
         "Identify a₁=1 and r=1/2.",
@@ -255,26 +255,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "43"
-        },
-        {
-          "letter": "B",
-          "text": "40"
-        },
-        {
-          "letter": "C",
           "text": "46"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "37"
         },
         {
-          "letter": "E",
+          "letter": "C",
+          "text": "43"
+        },
+        {
+          "letter": "D",
           "text": "55"
+        },
+        {
+          "letter": "E",
+          "text": "40"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "**aₙ = a₁ + (n-1)d**\n\na₂₀ = 100 + (19)(-3) = 100 - 57 = **43**",
       "hints": [
         "d is negative (-3), so the sequence is decreasing.",
@@ -291,26 +291,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "19"
-        },
-        {
-          "letter": "B",
-          "text": "20"
-        },
-        {
-          "letter": "C",
           "text": "18"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "21"
+        },
+        {
+          "letter": "C",
+          "text": "20"
+        },
+        {
+          "letter": "D",
+          "text": "19"
         },
         {
           "letter": "E",
           "text": "15"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**Sum of first n naturals: n(n+1)/2 = 190**\n\nn(n+1) = 380\nn² + n - 380 = 0\n(n-19)(n+20) = 0\n**n = 19** (taking positive)",
       "hints": [
         "Formula: S = n(n+1)/2. Set equal to 190.",
@@ -327,26 +327,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "8"
+          "text": "10"
         },
         {
           "letter": "B",
-          "text": "12"
-        },
-        {
-          "letter": "C",
           "text": "16"
         },
         {
+          "letter": "C",
+          "text": "8"
+        },
+        {
           "letter": "D",
-          "text": "10"
+          "text": "12"
         },
         {
           "letter": "E",
           "text": "14"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "**Inserting n means creates n+2 terms total.**\n\nSequence: 4, _, _, _, 20 (5 terms)\na₁=4, a₅=20, n=5\nd = (20-4)/(5-1) = 16/4 = 4\n\nTerms: 4, 8, **12**, 16, 20\nSecond inserted term = **12**",
       "hints": [
         "3 means + 2 endpoints = 5 terms. Find d.",
@@ -363,26 +363,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "22"
-        },
-        {
-          "letter": "B",
-          "text": "25"
-        },
-        {
-          "letter": "C",
-          "text": "19"
-        },
-        {
-          "letter": "D",
           "text": "18"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "22"
+        },
+        {
+          "letter": "C",
           "text": "21"
+        },
+        {
+          "letter": "D",
+          "text": "19"
+        },
+        {
+          "letter": "E",
+          "text": "25"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "**Key insight: a₆ + a₇ + ... + a₁₀ = S₁₀ - S₅**\n\nS₁₀ - S₅ = 145 - 35 = 110\nThis is 5 terms from a₆ to a₁₀.\nAverage = 110/5 = 22\nThe middle term of a₆ to a₁₀ is a₈. But we need a₆.\n\nS₅ = 35 = 5/2(2a₁+4d) → 2a₁+4d = 14 → a₁+2d = 7 → a₃ = 7\nS₁₀ = 145 = 10/2(2a₁+9d) → 2a₁+9d = 29\nSubtract: 5d = 15 → d = 3, a₁ = 1\na₆ = 1 + 5(3) = **16**... let me recompute. a₆ = a₁ + 5d = 1 + 15 = 16. Hmm answer A is 22. Let me recheck S₅=35: 5/2(2+9×3... no. With a₁=1 d=3: S₅ = 5/2(2+16)=5/2×18=45≠35. Retry: 2a₁+4d=14, 2a₁+9d=29, so 5d=15, d=3, a₁=(14-12)/2=1. a₆=1+15=16.",
       "hints": [
         "Set up two equations using Sₙ = n/2(2a₁+(n-1)d).",
@@ -399,26 +399,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "59"
-        },
-        {
-          "letter": "B",
           "text": "62"
         },
         {
+          "letter": "B",
+          "text": "59"
+        },
+        {
           "letter": "C",
-          "text": "57"
+          "text": "61"
         },
         {
           "letter": "D",
-          "text": "61"
+          "text": "57"
         },
         {
           "letter": "E",
           "text": "55"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "**aₙ = Sₙ - Sₙ₋₁ (for n ≥ 2)**\n\nS₁₀ = 3(100) + 2(10) = 320\nS₉ = 3(81) + 2(9) = 243 + 18 = 261\na₁₀ = S₁₀ - S₉ = 320 - 261 = **59**",
       "hints": [
         "The nth term = Sₙ - Sₙ₋₁.",
@@ -435,26 +435,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "16"
-        },
-        {
-          "letter": "B",
-          "text": "14"
-        },
-        {
-          "letter": "C",
-          "text": "18"
-        },
-        {
-          "letter": "D",
           "text": "12"
         },
         {
-          "letter": "E",
+          "letter": "B",
           "text": "20"
+        },
+        {
+          "letter": "C",
+          "text": "14"
+        },
+        {
+          "letter": "D",
+          "text": "18"
+        },
+        {
+          "letter": "E",
+          "text": "16"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Sₙ = n/2(2a₁ + (n-1)d) = 1092**\n\na₁=4, d=7\nn/2(8 + 7(n-1)) = 1092\nn(7n + 1) = 2184\n7n² + n - 2184 = 0\nn = (-1 ± √(1 + 4×7×2184)) / 14 = (-1 ± √61153) / 14 ≈ (-1 + 247.3)/14 ≈ 17.6\n\nTesting n=16: S₁₆ = 8(8 + 105) = 8×113 = 904. Testing n=17: S₁₇ = 17/2(8+112) = 17/2×120=1020.\nS₁₆ = 8(8+7×15)= 8×113=904. S₁₇=17/2×(8+112)=1020. S₁₈=9(8+119)=9×127=1143. None give 1092 exactly. n=16 is closest.",
       "hints": [
         "Set up Sₙ = n/2(2a₁+(n-1)d) = 1092 and solve for n.",
@@ -471,7 +471,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "9"
+          "text": "12"
         },
         {
           "letter": "B",
@@ -479,7 +479,7 @@
         },
         {
           "letter": "C",
-          "text": "12"
+          "text": "3"
         },
         {
           "letter": "D",
@@ -487,10 +487,10 @@
         },
         {
           "letter": "E",
-          "text": "3"
+          "text": "9"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Let three terms be (a-d), a, (a+d)**\n\nSum: (a-d) + a + (a+d) = 3a = 18 → **a = 6**\nProduct: (a-d)(a)(a+d) = a(a²-d²) = 162\n6(36-d²) = 162\n36-d² = 27 → d² = 9 → d = 3\n\nThe three numbers are 3, 6, 9. Largest is **9**.",
       "hints": [
         "Let the three terms be a-d, a, a+d. Their sum simplifies nicely.",
@@ -507,26 +507,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "2849"
-        },
-        {
-          "letter": "B",
           "text": "2856"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "2800"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "2842"
+        },
+        {
+          "letter": "D",
+          "text": "2849"
         },
         {
           "letter": "E",
           "text": "2900"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**Multiples of 7: 7, 14, 21, ..., 196**\n\nNumber of terms: 196/7 = 28\na₁=7, aₙ=196, n=28\nS = 28/2 × (7+196) = 14 × 203 = **2842**\n\n*Note: 2842 matches option D. Sum = 14 × 203 = 2842.*",
       "hints": [
         "Find the largest multiple of 7 less than 200: 196.",
@@ -547,19 +547,19 @@
         },
         {
           "letter": "B",
-          "text": "720"
-        },
-        {
-          "letter": "C",
           "text": "486"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "364"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "1066"
+        },
+        {
+          "letter": "E",
+          "text": "720"
         }
       ],
       "correct_answer": "A",
@@ -579,26 +579,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "85"
-        },
-        {
-          "letter": "B",
-          "text": "70"
-        },
-        {
-          "letter": "C",
-          "text": "90"
-        },
-        {
-          "letter": "D",
           "text": "100"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "90"
+        },
+        {
+          "letter": "C",
+          "text": "70"
+        },
+        {
+          "letter": "D",
           "text": "75"
+        },
+        {
+          "letter": "E",
+          "text": "85"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Calculate each term and add:**\n\nk=1: 1×3 = 3\nk=2: 2×4 = 8\nk=3: 3×5 = 15\nk=4: 4×6 = 24\nk=5: 5×7 = 35\n\nSum = 3+8+15+24+35 = **85**",
       "hints": [
         "Calculate each term: k(k+2) for k=1,2,3,4,5.",
@@ -619,19 +619,19 @@
         },
         {
           "letter": "B",
-          "text": "2400"
-        },
-        {
-          "letter": "C",
-          "text": "2550"
-        },
-        {
-          "letter": "D",
           "text": "2450"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "2600"
+        },
+        {
+          "letter": "D",
+          "text": "2550"
+        },
+        {
+          "letter": "E",
+          "text": "2400"
         }
       ],
       "correct_answer": "A",
@@ -651,7 +651,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "3"
+          "text": "4"
         },
         {
           "letter": "B",
@@ -659,18 +659,18 @@
         },
         {
           "letter": "C",
-          "text": "4"
-        },
-        {
-          "letter": "D",
           "text": "6"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "9"
+        },
+        {
+          "letter": "E",
+          "text": "3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Using aₙ = a₁ × rⁿ⁻¹:**\n\na₅/a₂ = r³ = 162/6 = 27\nr = ∛27 = **3**",
       "hints": [
         "Divide a₅ by a₂: a₅/a₂ = r^(5-2) = r³.",
@@ -687,26 +687,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "-2"
-        },
-        {
-          "letter": "B",
           "text": "2"
         },
         {
-          "letter": "C",
-          "text": "-1/2"
-        },
-        {
-          "letter": "D",
+          "letter": "B",
           "text": "1/2"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "-1"
+        },
+        {
+          "letter": "D",
+          "text": "-1/2"
+        },
+        {
+          "letter": "E",
+          "text": "-2"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Setting up equations:**\n\nArithmetic: b-a = c-b → 2b = a+c ... (1)\nGeometric: c/b = a/c → c² = ab ... (2)\n\nFrom (1): c = 2b-a\nSub into (2): (2b-a)² = ab\n4b²-4ab+a² = ab\na²-5ab+4b² = 0\n(a-b)(a-4b) = 0\n\nSince a≠b: a = 4b\nThen c = 2b-4b = -2b\nCommon ratio r = c/b = -2b/b = **-2**",
       "hints": [
         "Arithmetic: 2b = a+c. Geometric: c² = ab.",
@@ -723,26 +723,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Arithmetic; 33"
-        },
-        {
-          "letter": "B",
-          "text": "Geometric; 33"
-        },
-        {
-          "letter": "C",
           "text": "Arithmetic; 35"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "Geometric; 29"
         },
         {
-          "letter": "E",
+          "letter": "C",
+          "text": "Geometric; 33"
+        },
+        {
+          "letter": "D",
           "text": "Arithmetic; 31"
+        },
+        {
+          "letter": "E",
+          "text": "Arithmetic; 33"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Find general term:**\naₙ = Sₙ - Sₙ₋₁ = (n²+3n) - ((n-1)²+3(n-1))\n= n²+3n - (n²-2n+1+3n-3) = n²+3n - n² - n + 2 = 2n+2\n\nSince aₙ = 2n+2 is linear in n, it's **arithmetic** with d=2.\na₁₅ = 2(15)+2 = **32**\n\n*Note: Answer should be 32. a₁₅ = 30+2=32.*",
       "hints": [
         "Find aₙ = Sₙ - Sₙ₋₁.",
@@ -759,26 +759,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "510"
+          "text": "1020"
         },
         {
           "letter": "B",
-          "text": "512"
-        },
-        {
-          "letter": "C",
           "text": "508"
         },
         {
+          "letter": "C",
+          "text": "510"
+        },
+        {
           "letter": "D",
-          "text": "255"
+          "text": "512"
         },
         {
           "letter": "E",
-          "text": "1020"
+          "text": "255"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "**Find r:**\na₆/a₃ = r³ = 64/8 = 8 → r = 2\n\n**Find a₁:**\na₃ = a₁r² = 8 → a₁(4) = 8 → a₁ = 2\n\n**Sum S₈:**\nS₈ = 2(2⁸-1)/(2-1) = 2(256-1) = 2×255 = **510**",
       "hints": [
         "Use a₆/a₃ = r^(6-3) = r³ to find r.",
@@ -795,26 +795,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "11"
+          "text": "13"
         },
         {
           "letter": "B",
-          "text": "10"
-        },
-        {
-          "letter": "C",
           "text": "12"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "9"
         },
         {
+          "letter": "D",
+          "text": "11"
+        },
+        {
           "letter": "E",
-          "text": "13"
+          "text": "10"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**Sₙ > 100**\n\na₁=-4, d=3\nSₙ = n/2(2(-4)+(n-1)(3)) = n/2(3n-11) > 100\nn(3n-11) > 200\n3n²-11n-200 > 0\nn > (11+√(121+2400))/6 = (11+50.2)/6 ≈ 10.2\n\nSo n=11 is first integer. Check: S₁₁ = 11/2(3×11-11)=11/2×22=121>100 ✓\nS₁₀ = 10/2(30-11)=5×19=95<100 ✓",
       "hints": [
         "Set Sₙ = n/2(2a₁+(n-1)d) > 100.",
@@ -831,26 +831,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "1/2"
-        },
-        {
-          "letter": "B",
-          "text": "1/3"
-        },
-        {
-          "letter": "C",
           "text": "1/4"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "3/4"
+        },
+        {
+          "letter": "C",
           "text": "2/3"
         },
         {
+          "letter": "D",
+          "text": "1/2"
+        },
+        {
           "letter": "E",
-          "text": "3/4"
+          "text": "1/3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**S∞ = a₁/(1-r) = 12 → a₁ = 12(1-r)**\n\nS₃ = a₁(1-r³)/(1-r) = a₁ × (1+r+r²) = 10.5\n\nSubstitute a₁ = 12(1-r):\n12(1-r)(1+r+r²) = 10.5\n12(1-r³) = 10.5\n1-r³ = 10.5/12 = 7/8\nr³ = 1/8\n**r = 1/2**",
       "hints": [
         "S∞ gives you a₁ = 12(1-r).",
@@ -867,26 +867,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "4"
-        },
-        {
-          "letter": "B",
           "text": "2"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "6"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "8"
+        },
+        {
+          "letter": "D",
+          "text": "4"
         },
         {
           "letter": "E",
           "text": "3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**Let a = b/r, b = b, c = br**\n\nSum: b/r + b + br = b(1/r+1+r) = 14\nSum of squares: b²(1/r²+1+r²) = 84\n\n(Sum of squares)/(Sum)² = 84/196 = 3/7\n(1/r²+1+r²)/(1/r+1+r)² = 3/7\n\nNote: (1/r+1+r)² = 1/r²+1+r² + 2(1+1/r+r)\nLet s = 1/r+1+r. Then s² = (1/r²+r²+1) + 2s\nSo 1/r²+r²+1 = s²-2s.\n\nFrom 84 = b²(s²-2s) and 14 = bs:\nb = 14/s → b² = 196/s²\n196(s²-2s)/s² = 84 → 196-392/s = 84 → 392/s = 112 → s = 3.5\n14 = b×3.5 → **b = 4**",
       "hints": [
         "Let terms be b/r, b, br for geometric. Their sum = b(1/r+1+r).",
@@ -907,7 +907,7 @@
         },
         {
           "letter": "B",
-          "text": "1/2"
+          "text": "-1"
         },
         {
           "letter": "C",
@@ -915,11 +915,11 @@
         },
         {
           "letter": "D",
-          "text": "√2"
+          "text": "1/2"
         },
         {
           "letter": "E",
-          "text": "-1"
+          "text": "√2"
         }
       ],
       "correct_answer": "A",
@@ -939,15 +939,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "21"
+          "text": "25"
         },
         {
           "letter": "B",
-          "text": "22"
+          "text": "19"
         },
         {
           "letter": "C",
-          "text": "19"
+          "text": "22"
         },
         {
           "letter": "D",
@@ -955,10 +955,10 @@
         },
         {
           "letter": "E",
-          "text": "25"
+          "text": "21"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "**Key insight: a₆ + a₇ + ... + a₁₀ = S₁₀ - S₅**\n\nS₁₀ - S₅ = 145 - 35 = 110\nThis is 5 terms from a₆ to a₁₀.\nAverage = 110/5 = 22\nThe middle term of a₆ to a₁₀ is a₈. But we need a₆.\n\nS₅ = 35 = 5/2(2a₁+4d) → 2a₁+4d = 14 → a₁+2d = 7 → a₃ = 7\nS₁₀ = 145 = 10/2(2a₁+9d) → 2a₁+9d = 29\nSubtract: 5d = 15 → d = 3, a₁ = 1\na₆ = 1 + 5(3) = **16**... let me recompute. a₆ = a₁ + 5d = 1 + 15 = 16. Hmm answer A is 22. Let me recheck S₅=35: 5/2(2+9×3... no. With a₁=1 d=3: S₅ = 5/2(2+16)=5/2×18=45≠35. Retry: 2a₁+4d=14, 2a₁+9d=29, so 5d=15, d=3, a₁=(14-12)/2=1. a₆=1+15=16.",
       "hints": [
         "Set up two equations using Sₙ = n/2(2a₁+(n-1)d).",

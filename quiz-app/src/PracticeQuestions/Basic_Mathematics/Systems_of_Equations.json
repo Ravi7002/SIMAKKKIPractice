@@ -62,19 +62,19 @@
         },
         {
           "letter": "B",
-          "text": "5"
-        },
-        {
-          "letter": "C",
-          "text": "7"
-        },
-        {
-          "letter": "D",
           "text": "8"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "7"
+        },
+        {
+          "letter": "E",
+          "text": "5"
         }
       ],
       "correct_answer": "A",
@@ -94,15 +94,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "x=7, y=3"
+          "text": "x=8, y=2"
         },
         {
           "letter": "B",
-          "text": "x=6, y=4"
+          "text": "x=7, y=3"
         },
         {
           "letter": "C",
-          "text": "x=8, y=2"
+          "text": "x=6, y=4"
         },
         {
           "letter": "D",
@@ -113,7 +113,7 @@
           "text": "x=9, y=1"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Add: 2x=14 → x=7\nSubtract: 2y=6 → y=3",
       "hints": [
         "Add both equations to get 2x.",
@@ -130,26 +130,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "2.5"
-        },
-        {
-          "letter": "B",
           "text": "3"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "2"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "2.5"
         },
         {
           "letter": "E",
           "text": "1.5"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Add: 4x = 12 → x=3\n3-2y=... wait: x+2y=8 → 3+2y=8 → 2y=5 → y=2.5",
       "hints": [
         "Add equations to eliminate y terms? No, add to eliminate: 3x-2y+x+2y=4+8=12.",
@@ -178,11 +178,11 @@
         },
         {
           "letter": "D",
-          "text": "49"
+          "text": "40"
         },
         {
           "letter": "E",
-          "text": "40"
+          "text": "49"
         }
       ],
       "correct_answer": "A",
@@ -202,7 +202,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
+          "text": "1"
         },
         {
           "letter": "B",
@@ -210,18 +210,18 @@
         },
         {
           "letter": "C",
-          "text": "3"
-        },
-        {
-          "letter": "D",
           "text": "2.5"
         },
         {
+          "letter": "D",
+          "text": "3"
+        },
+        {
           "letter": "E",
-          "text": "1"
+          "text": "2"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "2a+3b=7 ...(1)\n4a+b=9 ...(2)\n\n(2)×3: 12a+3b=27\n(27)-(1): 10a=20 → **a=2**",
       "hints": [
         "Let a=apple, b=banana. Set up two equations.",
@@ -242,19 +242,19 @@
         },
         {
           "letter": "B",
-          "text": "3"
-        },
-        {
-          "letter": "C",
-          "text": "-1"
-        },
-        {
-          "letter": "D",
           "text": "2"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "-1"
+        },
+        {
+          "letter": "E",
+          "text": "3"
         }
       ],
       "correct_answer": "A",
@@ -278,11 +278,11 @@
         },
         {
           "letter": "B",
-          "text": "14"
+          "text": "12"
         },
         {
           "letter": "C",
-          "text": "12"
+          "text": "14"
         },
         {
           "letter": "D",
@@ -310,26 +310,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
-        },
-        {
-          "letter": "B",
-          "text": "1"
-        },
-        {
-          "letter": "C",
-          "text": "3"
-        },
-        {
-          "letter": "D",
           "text": "0"
         },
         {
-          "letter": "E",
+          "letter": "B",
           "text": "4"
+        },
+        {
+          "letter": "C",
+          "text": "2"
+        },
+        {
+          "letter": "D",
+          "text": "1"
+        },
+        {
+          "letter": "E",
+          "text": "3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "2x+1 = -x+7\n3x=6 → **x=2**",
       "hints": [
         "Set the two expressions for y equal.",
@@ -350,15 +350,15 @@
         },
         {
           "letter": "B",
-          "text": "18"
-        },
-        {
-          "letter": "C",
           "text": "10"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "8"
+        },
+        {
+          "letter": "D",
+          "text": "18"
         },
         {
           "letter": "E",
@@ -382,26 +382,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "49"
+          "text": "60"
         },
         {
           "letter": "B",
-          "text": "25"
-        },
-        {
-          "letter": "C",
           "text": "144"
         },
         {
+          "letter": "C",
+          "text": "25"
+        },
+        {
           "letter": "D",
-          "text": "60"
+          "text": "49"
         },
         {
           "letter": "E",
           "text": "37"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "(x+y)² = x²+2xy+y² = 25+24 = **49**",
       "hints": [
         "(x+y)² = x²+y²+2xy.",
@@ -422,11 +422,11 @@
         },
         {
           "letter": "B",
-          "text": "4"
+          "text": "8"
         },
         {
           "letter": "C",
-          "text": "8"
+          "text": "4"
         },
         {
           "letter": "D",
@@ -454,7 +454,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "C = 80"
+          "text": "C = 70"
         },
         {
           "letter": "B",
@@ -462,7 +462,7 @@
         },
         {
           "letter": "C",
-          "text": "A = 60"
+          "text": "C = 80"
         },
         {
           "letter": "D",
@@ -470,10 +470,10 @@
         },
         {
           "letter": "E",
-          "text": "C = 70"
+          "text": "A = 60"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Sum: 2(A+B+C)=420 → A+B+C=210\nC=210-140=70\nA=210-150=60\nB=210-130=80\n\nMost paid: **B=80**\n\n*Recalculate: B=80 (option D). But C=70 (option E). So B paid most.*",
       "hints": [
         "Add all: 2(A+B+C) = 420 → A+B+C = 210.",
@@ -490,7 +490,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "3"
+          "text": "5"
         },
         {
           "letter": "B",
@@ -498,7 +498,7 @@
         },
         {
           "letter": "C",
-          "text": "5"
+          "text": "3"
         },
         {
           "letter": "D",
@@ -509,7 +509,7 @@
           "text": "2"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "x²-y² = (x+y)(x-y)\n21 = 7(x-y)\nx-y = **3**",
       "hints": [
         "Factor: x²-y² = (x+y)(x-y).",
@@ -530,11 +530,11 @@
         },
         {
           "letter": "B",
-          "text": "6"
+          "text": "3"
         },
         {
           "letter": "C",
-          "text": "3"
+          "text": "7"
         },
         {
           "letter": "D",
@@ -542,7 +542,7 @@
         },
         {
           "letter": "E",
-          "text": "7"
+          "text": "6"
         }
       ],
       "correct_answer": "A",
@@ -562,26 +562,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "3"
+          "text": "12"
         },
         {
           "letter": "B",
-          "text": "4"
-        },
-        {
-          "letter": "C",
-          "text": "6"
-        },
-        {
-          "letter": "D",
           "text": "2"
         },
         {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "4"
+        },
+        {
           "letter": "E",
-          "text": "12"
+          "text": "6"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Let u=1/x, v=1/y.\nu+v=1/2, u-v=1/6\n2u = 1/2+1/6 = 3/6+1/6 = 4/6 = 2/3\nu = 1/3\n1/x = 1/3 → **x=3**",
       "hints": [
         "Let u=1/x, v=1/y. Add the two equations.",
@@ -598,26 +598,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "1"
+          "text": "2"
         },
         {
           "letter": "B",
-          "text": "-1"
-        },
-        {
-          "letter": "C",
-          "text": "5"
-        },
-        {
-          "letter": "D",
           "text": "0"
         },
         {
+          "letter": "C",
+          "text": "-1"
+        },
+        {
+          "letter": "D",
+          "text": "5"
+        },
+        {
           "letter": "E",
-          "text": "2"
+          "text": "1"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "Subtract eq1-eq2: x²-y²+y-x=0\n(x-y)(x+y)-(x-y)=0\n(x-y)(x+y-1)=0\n\nSince x≠y: x+y-1=0 → **x+y=1**\n\n*Wait: (x²+y)-(y²+x)=0 → x²-y²-(x-y)=0 → (x-y)(x+y)-(x-y)=0 → (x-y)(x+y-1)=0. Since x≠y: x+y=1.*",
       "hints": [
         "Subtract the two equations: x²-y²-(x-y)=0.",
@@ -634,26 +634,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "81"
+          "text": "162"
         },
         {
           "letter": "B",
-          "text": "18"
+          "text": "81"
         },
         {
           "letter": "C",
-          "text": "36"
-        },
-        {
-          "letter": "D",
           "text": "54"
         },
         {
+          "letter": "D",
+          "text": "36"
+        },
+        {
           "letter": "E",
-          "text": "162"
+          "text": "18"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "E",
       "explanation": "These are elementary symmetric polynomials.\nx,y,z are roots of t³-6t²+11t-6=0 → (t-1)(t-2)(t-3)=0\nx,y,z = 1,2,3\n\nx³+y³+z³ = 1+8+27 = **36**\n\n*So answer C (36).*",
       "hints": [
         "The three values are roots of t³-(x+y+z)t²+(xy+yz+zx)t-xyz=0.",
@@ -670,7 +670,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "a²+b²≥1"
+          "text": "No restriction"
         },
         {
           "letter": "B",
@@ -682,14 +682,14 @@
         },
         {
           "letter": "D",
-          "text": "a=b"
+          "text": "a²+b²≥1"
         },
         {
           "letter": "E",
-          "text": "No restriction"
+          "text": "a=b"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "The line ax+by=1 intersects the unit circle x²+y²=1.\nFor real intersection: distance from origin to line ≤ radius.\nDistance = |1|/√(a²+b²) ≤ 1\n→ **a²+b² ≥ 1**",
       "hints": [
         "The line ax+by=1 must intersect the unit circle x²+y²=1.",
@@ -706,11 +706,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "(a²-2b)/b"
+          "text": "(a-2b)/b"
         },
         {
           "letter": "B",
-          "text": "a²/b-2"
+          "text": "(a²-2b)/b"
         },
         {
           "letter": "C",
@@ -718,14 +718,14 @@
         },
         {
           "letter": "D",
-          "text": "(a-2b)/b"
+          "text": "a/b-2"
         },
         {
           "letter": "E",
-          "text": "a/b-2"
+          "text": "a²/b-2"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "p/q+q/p = (p²+q²)/(pq)\np²+q² = (p+q)²-2pq = a²-2b\n\nc = (a²-2b)/b = **(a²-2b)/b**",
       "hints": [
         "p/q+q/p = (p²+q²)/(pq).",
@@ -742,26 +742,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "k=2"
-        },
-        {
-          "letter": "B",
-          "text": "k=-2"
-        },
-        {
-          "letter": "C",
           "text": "k=3"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "k=0"
+        },
+        {
+          "letter": "C",
+          "text": "k=2"
+        },
+        {
+          "letter": "D",
+          "text": "k=-2"
         },
         {
           "letter": "E",
           "text": "k=6"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "No solution: parallel lines (same slope, different intercepts).\nMatrix determinant = 0 AND lines are not identical.\n\nDeterminant: k×k - 2×2 = k²-4 = 0 → k=±2.\n\nFor k=2: k/2=1=2/k → slopes equal. Check intercepts: 3/2 vs 6/2=3. Not equal → no solution!\nFor k=-2: slopes also equal. Intercepts: 3/(-2) vs 6/(-2). Not equal → no solution!\n\nBoth k=2 and k=-2 give no solution.\nBut option A (k=2) is more specific check.",
       "hints": [
         "No solution: det=0 but lines aren't identical.",
@@ -778,26 +778,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "x=y=2 and x=y=-1"
-        },
-        {
-          "letter": "B",
-          "text": "x=y=1 only"
-        },
-        {
-          "letter": "C",
           "text": "x=y=2 only"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "x=y=2 and x=y=-1"
+        },
+        {
+          "letter": "C",
           "text": "No real solution"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "x=y=0"
+        },
+        {
+          "letter": "E",
+          "text": "x=y=1 only"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "If x=y: x²-x=2 → x²-x-2=0 → (x-2)(x+1)=0\n→ **x=2 or x=-1**\n\nSolutions: (2,2) and (-1,-1)",
       "hints": [
         "Substitute y=x (since x=y).",
@@ -814,15 +814,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "8"
-        },
-        {
-          "letter": "B",
           "text": "7"
         },
         {
+          "letter": "B",
+          "text": "5"
+        },
+        {
           "letter": "C",
-          "text": "6"
+          "text": "8"
         },
         {
           "letter": "D",
@@ -830,10 +830,10 @@
         },
         {
           "letter": "E",
-          "text": "5"
+          "text": "6"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "Add equations: 3x = 9 → x = 3\ny = 7-2(3) = 1\nx+y = **4**\n\n*Note: x=3,y=1 gives x+y=4. Answer E.*",
       "hints": [
         "Add the two equations to eliminate y.",
@@ -850,11 +850,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "12"
+          "text": "15"
         },
         {
           "letter": "B",
-          "text": "13"
+          "text": "12"
         },
         {
           "letter": "C",
@@ -862,14 +862,14 @@
         },
         {
           "letter": "D",
-          "text": "15"
+          "text": "11"
         },
         {
           "letter": "E",
-          "text": "11"
+          "text": "13"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "E",
       "explanation": "x+y=20, x-y=6 (x>y)\nAdding: 2x=26 → x=**13**",
       "hints": [
         "Let x be the larger. x+y=20, x-y=6.",
@@ -886,26 +886,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "x=5, y=5"
+          "text": "x=7, y=3"
         },
         {
           "letter": "B",
-          "text": "x=8, y=2"
-        },
-        {
-          "letter": "C",
-          "text": "x=9, y=1"
-        },
-        {
-          "letter": "D",
           "text": "x=6, y=4"
         },
         {
+          "letter": "C",
+          "text": "x=8, y=2"
+        },
+        {
+          "letter": "D",
+          "text": "x=9, y=1"
+        },
+        {
           "letter": "E",
-          "text": "x=7, y=3"
+          "text": "x=5, y=5"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A",
       "explanation": "Add: 2x=14 → x=7\nSubtract: 2y=6 → y=3",
       "hints": [
         "Add both equations to get 2x.",
@@ -922,26 +922,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "8"
-        },
-        {
-          "letter": "B",
-          "text": "5"
-        },
-        {
-          "letter": "C",
           "text": "4"
         },
         {
+          "letter": "B",
+          "text": "6"
+        },
+        {
+          "letter": "C",
+          "text": "8"
+        },
+        {
           "letter": "D",
-          "text": "7"
+          "text": "5"
         },
         {
           "letter": "E",
-          "text": "6"
+          "text": "7"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B",
       "explanation": "Add equations: 3x = 9 → x = 3\ny = 7-2(3) = 1\nx+y = **4**\n\n*Note: x=3,y=1 gives x+y=4. Answer E.*",
       "hints": [
         "Add the two equations to eliminate y.",

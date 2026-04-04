@@ -73,15 +73,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "5"
-        },
-        {
-          "letter": "B",
           "text": "7"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "25"
+        },
+        {
+          "letter": "C",
+          "text": "5"
         },
         {
           "letter": "D",
@@ -92,7 +92,7 @@
           "text": "3.5"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "|a| = √(3²+4²) = √(9+16) = √25 = **5**",
       "hints": [
         "|a| = √(x²+y²).",
@@ -109,15 +109,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "(3, 2)"
+          "text": "(3, -1)"
         },
         {
           "letter": "B",
-          "text": "(1, 4)"
+          "text": "(3, 2)"
         },
         {
           "letter": "C",
-          "text": "(3, -1)"
+          "text": "(1, 4)"
         },
         {
           "letter": "D",
@@ -128,7 +128,7 @@
           "text": "(1, 2)"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "a+b = (2+1, 3+(-1)) = **(3, 2)**",
       "hints": [
         "Add component-wise.",
@@ -145,11 +145,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "11"
+          "text": "8"
         },
         {
           "letter": "B",
-          "text": "14"
+          "text": "10"
         },
         {
           "letter": "C",
@@ -157,14 +157,14 @@
         },
         {
           "letter": "D",
-          "text": "8"
+          "text": "11"
         },
         {
           "letter": "E",
-          "text": "10"
+          "text": "14"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "a·b = 1(3)+2(4) = 3+8 = **11**",
       "hints": [
         "Dot product: multiply components and add.",
@@ -189,7 +189,7 @@
         },
         {
           "letter": "C",
-          "text": "Perpendicular"
+          "text": "Only if scaled"
         },
         {
           "letter": "D",
@@ -197,7 +197,7 @@
         },
         {
           "letter": "E",
-          "text": "Only if scaled"
+          "text": "Perpendicular"
         }
       ],
       "correct_answer": "A",
@@ -217,7 +217,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Yes"
+          "text": "Parallel"
         },
         {
           "letter": "B",
@@ -225,7 +225,7 @@
         },
         {
           "letter": "C",
-          "text": "Parallel"
+          "text": "Cannot determine"
         },
         {
           "letter": "D",
@@ -233,10 +233,10 @@
         },
         {
           "letter": "E",
-          "text": "Cannot determine"
+          "text": "Yes"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "a·b = 3(4)+(-4)(3) = 12-12 = 0\nDot product = 0 → **perpendicular** ✓",
       "hints": [
         "Perpendicular: dot product = 0.",
@@ -253,11 +253,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "(0.6, 0.8)"
+          "text": "(6, 8)"
         },
         {
           "letter": "B",
-          "text": "(6, 8)"
+          "text": "(0.8, 0.6)"
         },
         {
           "letter": "C",
@@ -265,14 +265,14 @@
         },
         {
           "letter": "D",
-          "text": "(0.8, 0.6)"
+          "text": "(1, 1)"
         },
         {
           "letter": "E",
-          "text": "(1, 1)"
+          "text": "(0.6, 0.8)"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "|a| = √(36+64) = 10\nâ = a/|a| = (6/10, 8/10) = **(0.6, 0.8)**",
       "hints": [
         "|a| = √(36+64) = 10.",
@@ -289,7 +289,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "(-3, 4)"
+          "text": "(0, 4)"
         },
         {
           "letter": "B",
@@ -297,18 +297,18 @@
         },
         {
           "letter": "C",
-          "text": "(-3, -4)"
+          "text": "(-3, 4)"
         },
         {
           "letter": "D",
-          "text": "(9, 4)"
+          "text": "(-3, -4)"
         },
         {
           "letter": "E",
-          "text": "(0, 4)"
+          "text": "(9, 4)"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "3a = (3,6), 2b = (6,2)\n3a-2b = (3-6, 6-2) = **(-3, 4)**",
       "hints": [
         "Compute 3a = (3,6) and 2b = (6,2).",
@@ -325,26 +325,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "6"
+          "text": "3"
         },
         {
           "letter": "B",
-          "text": "12"
-        },
-        {
-          "letter": "C",
           "text": "7"
         },
         {
+          "letter": "C",
+          "text": "12"
+        },
+        {
           "letter": "D",
-          "text": "5"
+          "text": "6"
         },
         {
           "letter": "E",
-          "text": "3"
+          "text": "5"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Area = (1/2)|base×height| = (1/2)(4)(3) = **6**\n\nAlternatively: (1/2)|OA×OB| = (1/2)|4(3)-0(0)| = 6",
       "hints": [
         "Area of triangle with base along x-axis: (1/2)×base×height.",
@@ -361,11 +361,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "2/7"
+          "text": "6/7"
         },
         {
           "letter": "B",
-          "text": "3/7"
+          "text": "1/7"
         },
         {
           "letter": "C",
@@ -373,14 +373,14 @@
         },
         {
           "letter": "D",
-          "text": "1/7"
+          "text": "3/7"
         },
         {
           "letter": "E",
-          "text": "6/7"
+          "text": "2/7"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "For OP = αOA + βOB: [OBP]/[OAB] = α = 3/7, and [OAP]/[OAB] = β = **2/7**",
       "hints": [
         "For OP=αOA+βOB: [OAP]/[OAB] = β (the coefficient of OB).",
@@ -397,7 +397,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "60°"
+          "text": "120°"
         },
         {
           "letter": "B",
@@ -409,14 +409,14 @@
         },
         {
           "letter": "D",
-          "text": "90°"
+          "text": "60°"
         },
         {
           "letter": "E",
-          "text": "120°"
+          "text": "90°"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "a·b = 1(1)+√3(0) = 1\n|a|=√(1+3)=2, |b|=1\ncosθ = 1/(2×1) = 1/2\nθ = **60°**",
       "hints": [
         "cosθ = (a·b)/(|a||b|).",
@@ -433,26 +433,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "(3,0)"
+          "text": "(5,0)"
         },
         {
           "letter": "B",
-          "text": "(4,0)"
-        },
-        {
-          "letter": "C",
-          "text": "(3,4)"
-        },
-        {
-          "letter": "D",
           "text": "(0,4)"
         },
         {
+          "letter": "C",
+          "text": "(4,0)"
+        },
+        {
+          "letter": "D",
+          "text": "(3,0)"
+        },
+        {
           "letter": "E",
-          "text": "(5,0)"
+          "text": "(3,4)"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "proj_b(a) = (a·b/|b|²)b = (3/1)(1,0) = **(3,0)**",
       "hints": [
         "Projection = (a·b/|b|²)×b.",
@@ -469,26 +469,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "5"
+          "text": "8"
         },
         {
           "letter": "B",
-          "text": "11"
-        },
-        {
-          "letter": "C",
-          "text": "14"
-        },
-        {
-          "letter": "D",
           "text": "7"
         },
         {
+          "letter": "C",
+          "text": "5"
+        },
+        {
+          "letter": "D",
+          "text": "14"
+        },
+        {
           "letter": "E",
-          "text": "8"
+          "text": "11"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Area = |a×b| = |2(4)-3(1)| = |8-3| = **5**",
       "hints": [
         "Area of parallelogram = |a×b| = |a₁b₂-a₂b₁|.",
@@ -509,11 +509,11 @@
         },
         {
           "letter": "B",
-          "text": "60°"
+          "text": "45°"
         },
         {
           "letter": "C",
-          "text": "45°"
+          "text": "0°"
         },
         {
           "letter": "D",
@@ -521,7 +521,7 @@
         },
         {
           "letter": "E",
-          "text": "0°"
+          "text": "60°"
         }
       ],
       "correct_answer": "A",
@@ -549,15 +549,15 @@
         },
         {
           "letter": "C",
-          "text": "a+b"
-        },
-        {
-          "letter": "D",
           "text": "b-a"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "(a+b)"
+        },
+        {
+          "letter": "E",
+          "text": "a+b"
         }
       ],
       "correct_answer": "A",
@@ -581,7 +581,7 @@
         },
         {
           "letter": "B",
-          "text": "(-3, 2)"
+          "text": "(-2, -3)"
         },
         {
           "letter": "C",
@@ -589,7 +589,7 @@
         },
         {
           "letter": "D",
-          "text": "(-2, -3)"
+          "text": "(-3, 2)"
         },
         {
           "letter": "E",
@@ -613,15 +613,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "3"
-        },
-        {
-          "letter": "B",
           "text": "5"
         },
         {
+          "letter": "B",
+          "text": "3"
+        },
+        {
           "letter": "C",
-          "text": "√9"
+          "text": "√5"
         },
         {
           "letter": "D",
@@ -629,10 +629,10 @@
         },
         {
           "letter": "E",
-          "text": "√5"
+          "text": "√9"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "|a| = √(1+4+4) = √9 = **3**",
       "hints": [
         "3D magnitude: √(x²+y²+z²).",
@@ -649,26 +649,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "3"
-        },
-        {
-          "letter": "B",
-          "text": "1/3"
-        },
-        {
-          "letter": "C",
           "text": "2"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "1/2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "1/3"
         },
         {
           "letter": "E",
           "text": "4"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "2OP = OA + 3OB → OP = (1/2)OA + (3/2)OB\n\nFor OP = αOA + βOB:\n[OAP]/[OAB] = β = 3/2... but coefficients > 1 means P is outside. Let's reconsider.\n\nUsing section formula: [OAP]/[OBP] = β/α = (3/2)/(1/2) = **3**",
       "hints": [
         "OP = (1/2)OA + (3/2)OB. Coefficients α=1/2 and β=3/2.",
@@ -685,26 +685,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "3/2"
-        },
-        {
-          "letter": "B",
           "text": "2"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "5/2"
         },
         {
+          "letter": "C",
+          "text": "4"
+        },
+        {
           "letter": "D",
-          "text": "1"
+          "text": "3/2"
         },
         {
           "letter": "E",
-          "text": "4"
+          "text": "1"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "|a+b|² = |a|²+2a·b+|b|²\n16 = 4+2a·b+9\n2a·b = 3\na·b = **3/2**",
       "hints": [
         "|a+b|² = |a|²+2a·b+|b|².",
@@ -721,26 +721,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "(a+b+c)/3"
-        },
-        {
-          "letter": "B",
-          "text": "(a+b+c)/2"
-        },
-        {
-          "letter": "C",
-          "text": "a+b+c"
-        },
-        {
-          "letter": "D",
           "text": "(a+b)/2"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "a+b+c"
+        },
+        {
+          "letter": "C",
           "text": "(a+c)/2"
+        },
+        {
+          "letter": "D",
+          "text": "(a+b+c)/2"
+        },
+        {
+          "letter": "E",
+          "text": "(a+b+c)/3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Centroid = average of vertices: OG = **(a+b+c)/3**",
       "hints": [
         "Centroid divides each median in 2:1.",
@@ -757,11 +757,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "b/4 - a/3"
+          "text": "b/4 + a/3"
         },
         {
           "letter": "B",
-          "text": "b/4 + a/3"
+          "text": "a/3 - b/4"
         },
         {
           "letter": "C",
@@ -769,14 +769,14 @@
         },
         {
           "letter": "D",
-          "text": "a/3 - b/4"
+          "text": "a - b"
         },
         {
           "letter": "E",
-          "text": "a - b"
+          "text": "b/4 - a/3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "OC = (1/3)OA = a/3\nOD = (1/4)OB = b/4\n\nCD = OD - OC = b/4 - a/3",
       "hints": [
         "C is at 1/3 of OA: OC = a/3.",
@@ -797,19 +797,19 @@
         },
         {
           "letter": "B",
-          "text": "t = 1"
-        },
-        {
-          "letter": "C",
-          "text": "t = 2"
-        },
-        {
-          "letter": "D",
           "text": "t = 0"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "t = -2"
+        },
+        {
+          "letter": "D",
+          "text": "t = 2"
+        },
+        {
+          "letter": "E",
+          "text": "t = 1"
         }
       ],
       "correct_answer": "A",
@@ -829,26 +829,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "25"
-        },
-        {
-          "letter": "B",
-          "text": "3.5"
-        },
-        {
-          "letter": "C",
-          "text": "√7"
-        },
-        {
-          "letter": "D",
           "text": "7"
         },
         {
-          "letter": "E",
+          "letter": "B",
           "text": "5"
+        },
+        {
+          "letter": "C",
+          "text": "3.5"
+        },
+        {
+          "letter": "D",
+          "text": "√7"
+        },
+        {
+          "letter": "E",
+          "text": "25"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B",
       "explanation": "|a| = √(3²+4²) = √(9+16) = √25 = **5**",
       "hints": [
         "|a| = √(x²+y²).",
@@ -865,26 +865,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "(0.8, 0.6)"
+          "text": "(3, 4)"
         },
         {
           "letter": "B",
-          "text": "(6, 8)"
+          "text": "(0.8, 0.6)"
         },
         {
           "letter": "C",
-          "text": "(0.6, 0.8)"
+          "text": "(6, 8)"
         },
         {
           "letter": "D",
-          "text": "(1, 1)"
+          "text": "(0.6, 0.8)"
         },
         {
           "letter": "E",
-          "text": "(3, 4)"
+          "text": "(1, 1)"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "|a| = √(36+64) = 10\nâ = a/|a| = (6/10, 8/10) = **(0.6, 0.8)**",
       "hints": [
         "|a| = √(36+64) = 10.",
@@ -901,26 +901,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Only if scaled"
-        },
-        {
-          "letter": "B",
-          "text": "Yes"
-        },
-        {
-          "letter": "C",
           "text": "Cannot determine"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "No"
+        },
+        {
+          "letter": "C",
+          "text": "Yes"
+        },
+        {
+          "letter": "D",
+          "text": "Only if scaled"
         },
         {
           "letter": "E",
           "text": "Perpendicular"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "b = (1/2)a → they are parallel (scalar multiples).\na×b (cross product) = 2(2)-4(1) = 0 → **parallel** ✓",
       "hints": [
         "Parallel: one is scalar multiple of other.",
@@ -941,22 +941,22 @@
         },
         {
           "letter": "B",
-          "text": "60°"
+          "text": "45°"
         },
         {
           "letter": "C",
-          "text": "30°"
-        },
-        {
-          "letter": "D",
           "text": "120°"
         },
         {
+          "letter": "D",
+          "text": "60°"
+        },
+        {
           "letter": "E",
-          "text": "45°"
+          "text": "30°"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "a·b = 1(1)+√3(0) = 1\n|a|=√(1+3)=2, |b|=1\ncosθ = 1/(2×1) = 1/2\nθ = **60°**",
       "hints": [
         "cosθ = (a·b)/(|a||b|).",

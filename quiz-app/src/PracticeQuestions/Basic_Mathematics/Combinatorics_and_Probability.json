@@ -72,7 +72,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "24"
+          "text": "6"
         },
         {
           "letter": "B",
@@ -80,7 +80,7 @@
         },
         {
           "letter": "C",
-          "text": "4"
+          "text": "24"
         },
         {
           "letter": "D",
@@ -88,10 +88,10 @@
         },
         {
           "letter": "E",
-          "text": "6"
+          "text": "4"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "4 distinct letters → 4! = 4×3×2×1 = **24**",
       "hints": [
         "All letters are distinct → permutation.",
@@ -112,19 +112,19 @@
         },
         {
           "letter": "B",
-          "text": "720"
-        },
-        {
-          "letter": "C",
           "text": "30"
         },
         {
+          "letter": "C",
+          "text": "90"
+        },
+        {
           "letter": "D",
-          "text": "60"
+          "text": "720"
         },
         {
           "letter": "E",
-          "text": "90"
+          "text": "60"
         }
       ],
       "correct_answer": "A",
@@ -144,26 +144,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "5/8"
-        },
-        {
-          "letter": "B",
-          "text": "3/8"
-        },
-        {
-          "letter": "C",
           "text": "5/3"
         },
         {
+          "letter": "B",
+          "text": "3/5"
+        },
+        {
+          "letter": "C",
+          "text": "3/8"
+        },
+        {
           "letter": "D",
-          "text": "1/2"
+          "text": "5/8"
         },
         {
           "letter": "E",
-          "text": "3/5"
+          "text": "1/2"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "P(red) = 5/(5+3) = 5/8",
       "hints": [
         "Total balls = 5+3=8.",
@@ -180,11 +180,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "1/2"
+          "text": "1/6"
         },
         {
           "letter": "B",
-          "text": "1/3"
+          "text": "3/4"
         },
         {
           "letter": "C",
@@ -192,14 +192,14 @@
         },
         {
           "letter": "D",
-          "text": "1/6"
+          "text": "1/2"
         },
         {
           "letter": "E",
-          "text": "3/4"
+          "text": "1/3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Even numbers: {2,4,6} = 3 outcomes\nTotal: 6\nP(even) = 3/6 = **1/2**",
       "hints": [
         "Even numbers on a die: 2, 4, 6.",
@@ -216,11 +216,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "60"
+          "text": "120"
         },
         {
           "letter": "B",
-          "text": "120"
+          "text": "60"
         },
         {
           "letter": "C",
@@ -228,14 +228,14 @@
         },
         {
           "letter": "D",
-          "text": "30"
+          "text": "24"
         },
         {
           "letter": "E",
-          "text": "24"
+          "text": "30"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "P(5,3) = 5!/(5-3)! = 5×4×3 = **60**",
       "hints": [
         "Order matters (thousands, hundreds, units positions) → permutation.",
@@ -252,26 +252,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "0.2"
+          "text": "0.5"
         },
         {
           "letter": "B",
-          "text": "0.9"
-        },
-        {
-          "letter": "C",
           "text": "0.3"
         },
         {
+          "letter": "C",
+          "text": "0.9"
+        },
+        {
           "letter": "D",
-          "text": "0.5"
+          "text": "0.2"
         },
         {
           "letter": "E",
           "text": "0.1"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Independent: P(A∩B) = P(A)×P(B) = 0.4×0.5 = **0.2**",
       "hints": [
         "Independent events: P(A and B) = P(A) × P(B).",
@@ -288,26 +288,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "120"
-        },
-        {
-          "letter": "B",
-          "text": "60"
-        },
-        {
-          "letter": "C",
-          "text": "24"
-        },
-        {
-          "letter": "D",
           "text": "25"
         },
         {
-          "letter": "E",
+          "letter": "B",
           "text": "100"
+        },
+        {
+          "letter": "C",
+          "text": "60"
+        },
+        {
+          "letter": "D",
+          "text": "120"
+        },
+        {
+          "letter": "E",
+          "text": "24"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "5! = 5×4×3×2×1 = **120**",
       "hints": [
         "Linear arrangement: n! ways.",
@@ -324,26 +324,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "0.3"
-        },
-        {
-          "letter": "B",
-          "text": "0.7"
-        },
-        {
-          "letter": "C",
           "text": "1.7"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "0.5"
+        },
+        {
+          "letter": "C",
           "text": "0.14"
         },
         {
+          "letter": "D",
+          "text": "0.7"
+        },
+        {
           "letter": "E",
-          "text": "0.5"
+          "text": "0.3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "P(A) + P(A') = 1\nP(A) = 1 - 0.7 = **0.3**",
       "hints": [
         "P(A) + P(complement) = 1.",
@@ -360,7 +360,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "186"
+          "text": "120"
         },
         {
           "letter": "B",
@@ -368,18 +368,18 @@
         },
         {
           "letter": "C",
-          "text": "120"
+          "text": "168"
         },
         {
           "letter": "D",
-          "text": "200"
+          "text": "186"
         },
         {
           "letter": "E",
-          "text": "168"
+          "text": "200"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Case 2M+3W: C(4,2)×C(6,3) = 6×20 = 120\nCase 3M+2W: C(4,3)×C(6,2) = 4×15 = 60\nCase 4M+1W: C(4,4)×C(6,1) = 1×6 = 6\nTotal = **186**",
       "hints": [
         "Split into cases: exactly 2, 3, or 4 men.",
@@ -396,26 +396,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "3/8"
-        },
-        {
-          "letter": "B",
           "text": "1/4"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "1/2"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "5/16"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "1/8"
+        },
+        {
+          "letter": "E",
+          "text": "3/8"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "P(exactly 2H) = C(4,2) × (1/2)⁴ = 6/16 = **3/8**",
       "hints": [
         "Use binomial probability: C(n,k) × p^k × (1-p)^(n-k).",
@@ -432,7 +432,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "3/22"
+          "text": "4/33"
         },
         {
           "letter": "B",
@@ -448,10 +448,10 @@
         },
         {
           "letter": "E",
-          "text": "4/33"
+          "text": "3/22"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Favorable: C(4,2)×C(5,1)×C(3,1) = 6×5×3 = 90\nTotal: C(12,4) = 495\nP = 90/495 = 2/11\n\n*Answer D (2/11) matches.*",
       "hints": [
         "Favorable = C(4,2)×C(5,1)×C(3,1) for choosing 2R, 1B, 1G.",
@@ -468,26 +468,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "5040"
-        },
-        {
-          "letter": "B",
           "text": "40320"
         },
         {
-          "letter": "C",
-          "text": "720"
-        },
-        {
-          "letter": "D",
+          "letter": "B",
           "text": "2520"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "7!"
+        },
+        {
+          "letter": "D",
+          "text": "5040"
+        },
+        {
+          "letter": "E",
+          "text": "720"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Circular arrangements = (n-1)! = 7! = **5040**",
       "hints": [
         "Circular: fix one person, arrange the remaining n-1.",
@@ -512,15 +512,15 @@
         },
         {
           "letter": "C",
-          "text": "0.58"
+          "text": "0.04"
         },
         {
           "letter": "D",
-          "text": "0.3"
+          "text": "0.58"
         },
         {
           "letter": "E",
-          "text": "0.04"
+          "text": "0.3"
         }
       ],
       "correct_answer": "A",
@@ -544,7 +544,7 @@
         },
         {
           "letter": "B",
-          "text": "72"
+          "text": "120"
         },
         {
           "letter": "C",
@@ -552,7 +552,7 @@
         },
         {
           "letter": "D",
-          "text": "120"
+          "text": "72"
         },
         {
           "letter": "E",
@@ -580,7 +580,7 @@
         },
         {
           "letter": "B",
-          "text": "20"
+          "text": "30"
         },
         {
           "letter": "C",
@@ -592,7 +592,7 @@
         },
         {
           "letter": "E",
-          "text": "30"
+          "text": "20"
         }
       ],
       "correct_answer": "A",
@@ -612,11 +612,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "3/7"
+          "text": "5/7"
         },
         {
           "letter": "B",
-          "text": "4/7"
+          "text": "3/7"
         },
         {
           "letter": "C",
@@ -624,14 +624,14 @@
         },
         {
           "letter": "D",
-          "text": "2/7"
+          "text": "4/7"
         },
         {
           "letter": "E",
-          "text": "5/7"
+          "text": "2/7"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "P(2 red) = C(4,2)/C(7,2) = 6/21\nP(2 blue) = C(3,2)/C(7,2) = 3/21\nP(same) = 9/21 = **3/7**",
       "hints": [
         "P(both same) = P(both red) + P(both blue).",
@@ -648,26 +648,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "696"
-        },
-        {
-          "letter": "B",
-          "text": "720"
-        },
-        {
-          "letter": "C",
-          "text": "480"
-        },
-        {
-          "letter": "D",
           "text": "600"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "480"
+        },
+        {
+          "letter": "C",
+          "text": "720"
+        },
+        {
+          "letter": "D",
           "text": "660"
+        },
+        {
+          "letter": "E",
+          "text": "696"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Total = 6! = 720\nA,B,C all adjacent: treat as block → 4!×3! = 24×6 = 144\n\nValid = 720-144 = **576**\n\n*Exact answer depends on interpretation. 576 is standard.*",
       "hints": [
         "Use complementary counting: Total - (all 3 adjacent).",
@@ -684,7 +684,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "3/16"
+          "text": "5/32"
         },
         {
           "letter": "B",
@@ -692,18 +692,18 @@
         },
         {
           "letter": "C",
-          "text": "1/8"
+          "text": "6/32"
         },
         {
           "letter": "D",
-          "text": "5/32"
+          "text": "3/16"
         },
         {
           "letter": "E",
-          "text": "6/32"
+          "text": "1/8"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "P(exactly 4) = C(5,4)×(1/2)⁵ = 5/32\nP(exactly 5) = C(5,5)×(1/2)⁵ = 1/32\nP(at least 4) = 6/32 = **3/16**",
       "hints": [
         "At least 4 = exactly 4 or exactly 5.",
@@ -720,26 +720,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "858/4165"
-        },
-        {
-          "letter": "B",
-          "text": "1/10"
-        },
-        {
-          "letter": "C",
-          "text": "1/52"
-        },
-        {
-          "letter": "D",
           "text": "3/52"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "1/52"
+        },
+        {
+          "letter": "C",
+          "text": "858/4165"
+        },
+        {
+          "letter": "D",
           "text": "13/52"
+        },
+        {
+          "letter": "E",
+          "text": "1/10"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Favorable: C(13,3)×C(39,2) = 286×741 = 211926... wait:\nC(13,3)=286, C(39,2)=741\n286×741=211926\nTotal: C(52,5)=2598960\nP = 211926/2598960 ≈ 0.0815 ≈ 858/4165... \n\nActual: C(13,3)×C(39,2)/C(52,5) = 286×741/2598960 = 211926/2598960 = 858/4165 after simplification.",
       "hints": [
         "Favorable: choose 3 hearts from 13, and 2 non-hearts from 39.",
@@ -756,11 +756,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "21"
+          "text": "15"
         },
         {
           "letter": "B",
-          "text": "56"
+          "text": "36"
         },
         {
           "letter": "C",
@@ -768,14 +768,14 @@
         },
         {
           "letter": "D",
-          "text": "36"
+          "text": "21"
         },
         {
           "letter": "E",
-          "text": "15"
+          "text": "56"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**Stars and bars (none empty):**\n\nSubtract 1 from each box: 8-3 = 5 candies to distribute freely.\nC(5+3-1, 3-1) = C(7,2) = **21**",
       "hints": [
         "None empty: subtract 1 from each box first. New problem: distribute 8-3=5 freely.",
@@ -792,26 +792,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "1/3"
+          "text": "2/5"
         },
         {
           "letter": "B",
-          "text": "1/4"
-        },
-        {
-          "letter": "C",
           "text": "1/2"
         },
         {
+          "letter": "C",
+          "text": "1/3"
+        },
+        {
           "letter": "D",
-          "text": "2/5"
+          "text": "1/4"
         },
         {
           "letter": "E",
           "text": "3/10"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Total: C(10,3) = 120\nP(exactly 2 def): C(4,2)×C(6,1) = 6×6 = 36\nP(exactly 3 def): C(4,3)×C(6,0) = 4×1 = 4\nP(at least 2) = (36+4)/120 = 40/120 = **1/3**",
       "hints": [
         "At least 2 defective = exactly 2 or exactly 3.",
@@ -828,26 +828,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "720"
-        },
-        {
-          "letter": "B",
           "text": "90"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "60"
         },
         {
+          "letter": "C",
+          "text": "30"
+        },
+        {
           "letter": "D",
-          "text": "120"
+          "text": "720"
         },
         {
           "letter": "E",
-          "text": "30"
+          "text": "120"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "E",
       "explanation": "Order doesn't matter → Combination: C(10,3) = 10!/(3!×7!) = (10×9×8)/(3×2×1) = **120**",
       "hints": [
         "Committee: order doesn't matter → combination.",
@@ -868,22 +868,22 @@
         },
         {
           "letter": "B",
-          "text": "25"
+          "text": "100"
         },
         {
           "letter": "C",
-          "text": "120"
+          "text": "25"
         },
         {
           "letter": "D",
-          "text": "100"
+          "text": "120"
         },
         {
           "letter": "E",
           "text": "24"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "5! = 5×4×3×2×1 = **120**",
       "hints": [
         "Linear arrangement: n! ways.",
@@ -900,7 +900,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "60"
+          "text": "120"
         },
         {
           "letter": "B",
@@ -908,18 +908,18 @@
         },
         {
           "letter": "C",
-          "text": "125"
+          "text": "60"
         },
         {
           "letter": "D",
-          "text": "120"
+          "text": "125"
         },
         {
           "letter": "E",
           "text": "30"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "P(5,3) = 5!/(5-3)! = 5×4×3 = **60**",
       "hints": [
         "Order matters (thousands, hundreds, units positions) → permutation.",
@@ -936,7 +936,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "1/3"
+          "text": "1/6"
         },
         {
           "letter": "B",
@@ -944,18 +944,18 @@
         },
         {
           "letter": "C",
-          "text": "2/3"
+          "text": "1/3"
         },
         {
           "letter": "D",
-          "text": "1/2"
+          "text": "2/3"
         },
         {
           "letter": "E",
-          "text": "1/6"
+          "text": "1/2"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "E",
       "explanation": "Even numbers: {2,4,6} = 3 outcomes\nTotal: 6\nP(even) = 3/6 = **1/2**",
       "hints": [
         "Even numbers on a die: 2, 4, 6.",

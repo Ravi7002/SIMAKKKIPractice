@@ -78,26 +78,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "go"
+          "text": "going"
         },
         {
           "letter": "B",
-          "text": "goes"
-        },
-        {
-          "letter": "C",
-          "text": "went"
-        },
-        {
-          "letter": "D",
           "text": "gone"
         },
         {
+          "letter": "C",
+          "text": "goes"
+        },
+        {
+          "letter": "D",
+          "text": "go"
+        },
+        {
           "letter": "E",
-          "text": "going"
+          "text": "went"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "**Simple Present for habits/routines.**\nSubject 'she' is 3rd person singular → add -s: **goes**.\nSignal word: 'every day' confirms a routine.",
       "hints": [
         "'Every day' signals a habitual action → use Simple Present.",
@@ -114,15 +114,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "read"
-        },
-        {
-          "letter": "B",
           "text": "have been reading"
         },
         {
+          "letter": "B",
+          "text": "am reading"
+        },
+        {
           "letter": "C",
-          "text": "was reading"
+          "text": "read"
         },
         {
           "letter": "D",
@@ -130,10 +130,10 @@
         },
         {
           "letter": "E",
-          "text": "am reading"
+          "text": "was reading"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "**Present Perfect Continuous for ongoing action from past to now.**\n'Since last Monday' signals duration from a past point to now.\n**'have been reading'** correctly shows an action that started in the past and continues.",
       "hints": [
         "'Since' signals an action starting in the past and continuing now.",
@@ -154,19 +154,19 @@
         },
         {
           "letter": "B",
-          "text": "will"
-        },
-        {
-          "letter": "C",
-          "text": "shall"
-        },
-        {
-          "letter": "D",
           "text": "can"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "have to"
+        },
+        {
+          "letter": "D",
+          "text": "will"
+        },
+        {
+          "letter": "E",
+          "text": "shall"
         }
       ],
       "correct_answer": "A",
@@ -186,11 +186,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "were finishing"
+          "text": "finish"
         },
         {
           "letter": "B",
-          "text": "have finished"
+          "text": "were finishing"
         },
         {
           "letter": "C",
@@ -202,10 +202,10 @@
         },
         {
           "letter": "E",
-          "text": "finish"
+          "text": "have finished"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "**Past Continuous for an action in progress when another occurred.**\nThe bell rang (simple past) = interrupting action.\nThe students were in the middle of finishing → **were finishing** (Past Continuous).",
       "hints": [
         "Two past events: one was ongoing, one interrupted it.",
@@ -222,26 +222,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "had"
+          "text": "did"
         },
         {
           "letter": "B",
-          "text": "has"
-        },
-        {
-          "letter": "C",
           "text": "have"
         },
         {
+          "letter": "C",
+          "text": "has"
+        },
+        {
           "letter": "D",
-          "text": "did"
+          "text": "had"
         },
         {
           "letter": "E",
           "text": "was"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**Past Perfect for an experience before a past moment.**\nThe trip is a past reference point. 'Never seen before the trip' → **had** (past perfect: had + V3).",
       "hints": [
         "'Before the trip' = a past reference point.",
@@ -258,26 +258,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "must not"
-        },
-        {
-          "letter": "B",
-          "text": "don't have to"
-        },
-        {
-          "letter": "C",
-          "text": "couldn't"
-        },
-        {
-          "letter": "D",
           "text": "shouldn't have"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "couldn't"
+        },
+        {
+          "letter": "C",
+          "text": "don't have to"
+        },
+        {
+          "letter": "D",
           "text": "won't"
+        },
+        {
+          "letter": "E",
+          "text": "must not"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**'Must not' = prohibition (not allowed).**\n'Don't have to' means it's not necessary (but allowed).\nHere it's prohibited → **must not**.",
       "hints": [
         "'must not' = forbidden/prohibited.",
@@ -294,7 +294,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "will have worked"
+          "text": "has worked"
         },
         {
           "letter": "B",
@@ -302,18 +302,18 @@
         },
         {
           "letter": "C",
-          "text": "has worked"
-        },
-        {
-          "letter": "D",
           "text": "had worked"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "is working"
+        },
+        {
+          "letter": "E",
+          "text": "will have worked"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Future Perfect for an action completed by a future time.**\n'By next year' = a future deadline → **will have worked** (future perfect).",
       "hints": [
         "'By next year' signals a future deadline.",
@@ -330,7 +330,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "tasted"
+          "text": "was tasting"
         },
         {
           "letter": "B",
@@ -338,18 +338,18 @@
         },
         {
           "letter": "C",
-          "text": "was tasting"
+          "text": "had tasted"
         },
         {
           "letter": "D",
-          "text": "had tasted"
+          "text": "tasted"
         },
         {
           "letter": "E",
           "text": "is tasting"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**Simple Past for a completed past action/state.**\nWith sensory link verbs (taste, smell, feel), use simple past for a past state.\n'When I tasted it' confirms past → **tasted**.",
       "hints": [
         "'When I tasted it' = past context.",
@@ -366,7 +366,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "had already left"
+          "text": "were already leaving"
         },
         {
           "letter": "B",
@@ -374,18 +374,18 @@
         },
         {
           "letter": "C",
-          "text": "have already left"
+          "text": "left already"
         },
         {
           "letter": "D",
-          "text": "were already leaving"
+          "text": "have already left"
         },
         {
           "letter": "E",
-          "text": "left already"
+          "text": "had already left"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Past Perfect for earlier of two past actions.**\nTimeline: guests left → she arrived.\n'By the time she arrived' → the leaving happened first → **had already left**.",
       "hints": [
         "'By the time' + past tense → use Past Perfect for the earlier action.",
@@ -402,15 +402,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "had invested"
+          "text": "would invest"
         },
         {
           "letter": "B",
-          "text": "invested"
+          "text": "invests"
         },
         {
           "letter": "C",
-          "text": "would invest"
+          "text": "invested"
         },
         {
           "letter": "D",
@@ -418,10 +418,10 @@
         },
         {
           "letter": "E",
-          "text": "invests"
+          "text": "had invested"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Mixed Conditional: past condition + present result.**\nThe 'if' clause refers to a past action (last year) → Past Perfect: **had invested**.\nThe result 'would be more competitive now' is present → present result form.",
       "hints": [
         "'Last year' in the if-clause = past event → Past Perfect.",
@@ -438,26 +438,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "had studied"
-        },
-        {
-          "letter": "B",
-          "text": "studied"
-        },
-        {
-          "letter": "C",
-          "text": "would study"
-        },
-        {
-          "letter": "D",
           "text": "has studied"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "would study"
+        },
+        {
+          "letter": "C",
           "text": "could study"
+        },
+        {
+          "letter": "D",
+          "text": "had studied"
+        },
+        {
+          "letter": "E",
+          "text": "studied"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**'Wish' + Past Perfect for regret about the past.**\n'Last week' = past. After 'wish' for a past situation we want to change → past perfect: **had studied**.",
       "hints": [
         "'Wish' about a past event uses Past Perfect.",
@@ -474,26 +474,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "must be submitted"
-        },
-        {
-          "letter": "B",
-          "text": "must submit"
-        },
-        {
-          "letter": "C",
           "text": "should submit"
         },
         {
+          "letter": "B",
+          "text": "is submitted"
+        },
+        {
+          "letter": "C",
+          "text": "must submit"
+        },
+        {
           "letter": "D",
-          "text": "will be submitting"
+          "text": "must be submitted"
         },
         {
           "letter": "E",
-          "text": "is submitted"
+          "text": "will be submitting"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**Passive voice with modal verb.**\nThe subject 'report' is the object of the action (it is submitted by someone).\nModal + be + V3 (passive): **must be submitted**.",
       "hints": [
         "The report doesn't submit itself → passive voice needed.",
@@ -510,7 +510,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "did he realize"
+          "text": "he did realize"
         },
         {
           "letter": "B",
@@ -518,18 +518,18 @@
         },
         {
           "letter": "C",
-          "text": "had he realized"
+          "text": "he has realized"
         },
         {
           "letter": "D",
-          "text": "he did realize"
+          "text": "did he realize"
         },
         {
           "letter": "E",
-          "text": "he has realized"
+          "text": "had he realized"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**Inversion after negative adverbials.**\nWhen 'Not until' opens a sentence, the subject and auxiliary verb are inverted:\n→ **did he realize** (inverted question form in a statement).",
       "hints": [
         "Negative adverbials at the start (Not until, Never, Rarely) trigger inversion.",
@@ -546,7 +546,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "had rewritten"
+          "text": "was rewriting"
         },
         {
           "letter": "B",
@@ -554,18 +554,18 @@
         },
         {
           "letter": "C",
-          "text": "rewrote"
+          "text": "rewrite"
         },
         {
           "letter": "D",
-          "text": "was rewriting"
+          "text": "rewrote"
         },
         {
           "letter": "E",
-          "text": "rewrite"
+          "text": "had rewritten"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Past Perfect for multiple completed actions before another past event.**\n'Before he was satisfied' = the past reference point.\nRewriting happened before that → **had rewritten** (past perfect).",
       "hints": [
         "'Before he was satisfied' = past reference point.",
@@ -582,26 +582,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "using"
-        },
-        {
-          "letter": "B",
           "text": "use"
         },
         {
+          "letter": "B",
+          "text": "have used"
+        },
+        {
           "letter": "C",
-          "text": "used"
+          "text": "using"
         },
         {
           "letter": "D",
-          "text": "have used"
+          "text": "used"
         },
         {
           "letter": "E",
           "text": "to use"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "**Gerund after 'of' (preposition).**\nAfter a preposition, a verb must be in gerund form (-ing).\n'The phenomenon of ___ing' → **using**.",
       "hints": [
         "After a preposition ('of'), use gerund (-ing form).",
@@ -618,26 +618,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "had lived"
-        },
-        {
-          "letter": "B",
           "text": "lived"
         },
         {
-          "letter": "C",
-          "text": "has lived"
+          "letter": "B",
+          "text": "lives"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "was living"
         },
         {
+          "letter": "D",
+          "text": "had lived"
+        },
+        {
           "letter": "E",
-          "text": "lives"
+          "text": "has lived"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**Past Perfect for duration before a past event.**\n'Before she moved' = past reference point. Living in Jakarta happened before → **had lived** (past perfect).",
       "hints": [
         "'Before she moved' = past reference point.",
@@ -658,19 +658,19 @@
         },
         {
           "letter": "B",
-          "text": "could be"
-        },
-        {
-          "letter": "C",
-          "text": "can be"
-        },
-        {
-          "letter": "D",
           "text": "would be"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "had been"
+        },
+        {
+          "letter": "D",
+          "text": "could be"
+        },
+        {
+          "letter": "E",
+          "text": "can be"
         }
       ],
       "correct_answer": "A",
@@ -690,26 +690,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Despite of the rain, they continued the event."
-        },
-        {
-          "letter": "B",
-          "text": "Although it was raining, but they continued the event."
-        },
-        {
-          "letter": "C",
           "text": "Despite the rain, they continued the event."
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "In spite of it rained, they continued."
         },
         {
-          "letter": "E",
+          "letter": "C",
+          "text": "Although it was raining, but they continued the event."
+        },
+        {
+          "letter": "D",
           "text": "Even though of the rain, they continued."
+        },
+        {
+          "letter": "E",
+          "text": "Despite of the rain, they continued the event."
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "**'Despite' vs 'Although' usage:**\n- Despite/In spite of + noun/noun phrase (NOT 'of' after 'despite')\n- Although/Even though + subject + verb (clause)\n\nCorrect: 'Despite the rain' ✓ (noun phrase, no 'of' after despite)\nA: 'Despite of' — WRONG\nB: 'Although... but' — WRONG (can't use both)\nD: 'In spite of it rained' — WRONG (needs noun phrase, not clause)",
       "hints": [
         "'Despite' and 'in spite of' are followed by a noun/noun phrase, NOT 'of'.",
@@ -726,11 +726,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "had been"
+          "text": "had become"
         },
         {
           "letter": "B",
-          "text": "was"
+          "text": "would have been"
         },
         {
           "letter": "C",
@@ -738,14 +738,14 @@
         },
         {
           "letter": "D",
-          "text": "would have been"
+          "text": "was"
         },
         {
           "letter": "E",
-          "text": "had become"
+          "text": "had been"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Past Perfect Passive for an earlier completed past action.**\nTimeline: contamination happened → long before → he noticed → he realized.\n'Long before he noticed' = contamination is the earliest action → Past Perfect Passive: **had been contaminated**.",
       "hints": [
         "Three time points: contamination → noticed → realized.",
@@ -762,26 +762,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "submit"
-        },
-        {
-          "letter": "B",
           "text": "submits"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "submitted"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "would submit"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "has submitted"
+        },
+        {
+          "letter": "E",
+          "text": "submit"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Subjunctive mood after verbs of demand/insistence.**\nAfter 'insist (that)', 'recommend', 'demand', 'suggest' → use bare infinitive (base form), regardless of person:\n→ **submit** (not submits, not submitted).\nThis is the subjunctive: 'he do', 'she be', 'every student submit'.",
       "hints": [
         "After 'insist that', 'demand that', 'suggest that' → use bare infinitive (subjunctive).",
@@ -798,26 +798,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "will students be"
-        },
-        {
-          "letter": "B",
           "text": "students will be"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "are students"
         },
         {
+          "letter": "C",
+          "text": "will students be"
+        },
+        {
           "letter": "D",
-          "text": "students are"
+          "text": "do students be"
         },
         {
           "letter": "E",
-          "text": "do students be"
+          "text": "students are"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "**Inversion after restrictive adverbials.**\n'Only after + clause/phrase' at the start requires subject-auxiliary inversion:\n→ **will students be** (not 'students will be').\nThis is a formal inversion pattern common in academic English.",
       "hints": [
         "'Only after...' at the start triggers subject-auxiliary inversion.",
@@ -834,26 +834,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "appears"
-        },
-        {
-          "letter": "B",
-          "text": "appear"
-        },
-        {
-          "letter": "C",
-          "text": "are appearing"
-        },
-        {
-          "letter": "D",
           "text": "were appearing"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "are appearing"
+        },
+        {
+          "letter": "C",
+          "text": "appears"
+        },
+        {
+          "letter": "D",
           "text": "have appeared"
+        },
+        {
+          "letter": "E",
+          "text": "appear"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "**Subject-verb agreement with 'data'.**\nIn academic/formal English, 'data' is increasingly treated as singular. 'The data appears' is acceptable in formal SIMAK context.\nHowever, strictly, 'data' is plural of 'datum' → 'appear'.\n\nIn SIMAK tests, option A (appears) is the standard expected answer in formal academic writing.",
       "hints": [
         "'Data' is the subject. Is it singular or plural?",
@@ -870,7 +870,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "had she sat down"
+          "text": "did she sit down"
         },
         {
           "letter": "B",
@@ -882,14 +882,14 @@
         },
         {
           "letter": "D",
-          "text": "did she sit down"
+          "text": "had she sat down"
         },
         {
           "letter": "E",
           "text": "she sits down"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "**Inversion after 'No sooner'.**\n'No sooner' triggers inversion with past perfect: **had she sat down**.\nPattern: No sooner + had + subject + V3 + than + simple past.",
       "hints": [
         "'No sooner' triggers inversion.",
@@ -906,26 +906,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "had read"
+          "text": "have been reading"
         },
         {
           "letter": "B",
-          "text": "was reading"
-        },
-        {
-          "letter": "C",
           "text": "am reading"
         },
         {
+          "letter": "C",
+          "text": "had read"
+        },
+        {
           "letter": "D",
-          "text": "have been reading"
+          "text": "was reading"
         },
         {
           "letter": "E",
           "text": "read"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A",
       "explanation": "**Present Perfect Continuous for ongoing action from past to now.**\n'Since last Monday' signals duration from a past point to now.\n**'have been reading'** correctly shows an action that started in the past and continues.",
       "hints": [
         "'Since' signals an action starting in the past and continuing now.",
@@ -946,22 +946,22 @@
         },
         {
           "letter": "B",
-          "text": "will have worked"
-        },
-        {
-          "letter": "C",
           "text": "is working"
         },
         {
+          "letter": "C",
+          "text": "will have worked"
+        },
+        {
           "letter": "D",
-          "text": "has worked"
+          "text": "will work"
         },
         {
           "letter": "E",
-          "text": "will work"
+          "text": "has worked"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "**Future Perfect for an action completed by a future time.**\n'By next year' = a future deadline → **will have worked** (future perfect).",
       "hints": [
         "'By next year' signals a future deadline.",

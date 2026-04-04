@@ -18,26 +18,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "45 minutes"
+          "text": "50 minutes"
         },
         {
           "letter": "B",
-          "text": "60 minutes"
-        },
-        {
-          "letter": "C",
           "text": "30 minutes"
         },
         {
+          "letter": "C",
+          "text": "45 minutes"
+        },
+        {
           "letter": "D",
-          "text": "40 minutes"
+          "text": "60 minutes"
         },
         {
           "letter": "E",
-          "text": "50 minutes"
+          "text": "40 minutes"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Time = Distance / Speed = 45 / 60 hours. To convert to minutes, multiply by 60: (45 / 60) * 60 = 45 minutes. Basically, at 60 mph, you go 1 mile a minute.",
       "hints": [
         "Time = Distance / Speed = 45 / 60 hours.",
@@ -54,26 +54,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "8"
-        },
-        {
-          "letter": "B",
-          "text": "12"
-        },
-        {
-          "letter": "C",
           "text": "16"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "6"
+        },
+        {
+          "letter": "C",
           "text": "18"
         },
         {
+          "letter": "D",
+          "text": "8"
+        },
+        {
           "letter": "E",
-          "text": "6"
+          "text": "12"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "Let Mary = M, John = 2M. Total = M + 2M = 3M = 24.  M = 8. John has 2 * 8 = 16 apples.",
       "hints": [
         "Let Mary = M, John = 2M.",
@@ -98,15 +98,15 @@
         },
         {
           "letter": "C",
-          "text": "4.5 hours"
-        },
-        {
-          "letter": "D",
           "text": "5 hours"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "12 hours"
+        },
+        {
+          "letter": "E",
+          "text": "4.5 hours"
         }
       ],
       "correct_answer": "B",
@@ -126,26 +126,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "4:00 PM"
-        },
-        {
-          "letter": "B",
-          "text": "3:30 PM"
-        },
-        {
-          "letter": "C",
-          "text": "4:30 PM"
-        },
-        {
-          "letter": "D",
           "text": "5:00 PM"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "4:30 PM"
+        },
+        {
+          "letter": "C",
           "text": "3:45 PM"
+        },
+        {
+          "letter": "D",
+          "text": "4:00 PM"
+        },
+        {
+          "letter": "E",
+          "text": "3:30 PM"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Train X runs for 1 hour alone before Y starts. In this hour, X travels 50 miles. \nRemaining distance at 2:00 PM = 290 - 50 = 240 miles. \nWhen moving head-on, their relative speed is 50 + 70 = 120 mph. \nTime to meet = Distance / Relative Speed = 240 / 120 = 2 hours after 2:00 PM. \n2 hours after 2:00 PM is 4:00 PM.",
       "hints": [
         "Train X runs for 1 hour alone before Y starts.",
@@ -162,26 +162,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "14 hours"
+          "text": "12.5 hours"
         },
         {
           "letter": "B",
-          "text": "15 hours"
+          "text": "14 hours"
         },
         {
           "letter": "C",
-          "text": "16 hours"
-        },
-        {
-          "letter": "D",
           "text": "18 hours"
         },
         {
+          "letter": "D",
+          "text": "16 hours"
+        },
+        {
           "letter": "E",
-          "text": "12.5 hours"
+          "text": "15 hours"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "E",
       "explanation": "Total work is measured in man-hours: 10 hours/day * 12 days = 120 hours. \nTo finish the same 120 hours of work in 8 days, he needs: 120 / 8 = 15 hours a day.",
       "hints": [
         "Total work is measured in man-hours: 10 hours/day * 12 days = 120 hours.",
@@ -197,26 +197,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "2 hours"
-        },
-        {
-          "letter": "B",
-          "text": "2.4 hours"
-        },
-        {
-          "letter": "C",
           "text": "12/5 hours"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "4 hours"
         },
         {
-          "letter": "E",
+          "letter": "C",
+          "text": "2.4 hours"
+        },
+        {
+          "letter": "D",
           "text": "Both B and C are correct"
+        },
+        {
+          "letter": "E",
+          "text": "2 hours"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "D",
       "explanation": "Rates per hour: A = 1/3, B = 1/4, C = -1/6. \nCombined rate = 1/3 + 1/4 - 1/6. \nCommon denominator 12: 4/12 + 3/12 - 2/12 = 5/12 of the pool per hour. \nTime to fill = 1 / (5/12) = 12/5 hours. 12/5 = 2.4. So both B and C formats represent the exact correct value.",
       "hints": [
         "Rates per hour: A = 1/3, B = 1/4, C = -1/6.",
@@ -233,26 +233,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "60 days"
-        },
-        {
-          "letter": "B",
-          "text": "80 days"
-        },
-        {
-          "letter": "C",
           "text": "100 days"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "75 days"
+        },
+        {
+          "letter": "C",
+          "text": "60 days"
+        },
+        {
+          "letter": "D",
+          "text": "80 days"
         },
         {
           "letter": "E",
           "text": "90 days"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "Total job requires = 30 workers * 60 days = 1800 worker-days. \nWork done in first 20 days: 30 workers * 20 days = 600 worker-days. \nWork remaining: 1800 - 600 = 1200 worker-days. \nRemaining workers: 30 - 10 = 20 workers. \nTime for remaining work: 1200 / 20 = 60 days. \nTotal time from start = 20 (initial) + 60 (remaining) = 80 days.",
       "hints": [
         "Total job requires = 30 workers * 60 days = 1800 worker-days.",
@@ -269,26 +269,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "10 mph"
-        },
-        {
-          "letter": "B",
-          "text": "5 mph"
-        },
-        {
-          "letter": "C",
           "text": "8 mph"
         },
         {
+          "letter": "B",
+          "text": "2 mph"
+        },
+        {
+          "letter": "C",
+          "text": "10 mph"
+        },
+        {
           "letter": "D",
-          "text": "7.5 mph"
+          "text": "5 mph"
         },
         {
           "letter": "E",
-          "text": "2 mph"
+          "text": "7.5 mph"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "Let B = boat speed in still water, C = current speed. \nDownstream speed: B + C = 30 / 2 = 15 mph. \nUpstream speed: B - C = 15 / 3 = 5 mph. \nSubtract equations: (B + C) - (B - C) = 15 - 5 → 2C = 10 → C = 5 mph.",
       "hints": [
         "Let B = boat speed in still water, C = current speed.",
@@ -305,26 +305,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "20"
+          "text": "15"
         },
         {
           "letter": "B",
-          "text": "25"
-        },
-        {
-          "letter": "C",
-          "text": "40"
-        },
-        {
-          "letter": "D",
           "text": "45"
         },
         {
+          "letter": "C",
+          "text": "25"
+        },
+        {
+          "letter": "D",
+          "text": "40"
+        },
+        {
           "letter": "E",
-          "text": "15"
+          "text": "20"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "Let Tom's standard age = T, Son's age = S. \n1) T = 2S \n2) T - 10 = 3(S - 10) \nSubstitute T: 2S - 10 = 3S - 30 → -10 + 30 = S → S = 20. \nTom is currently 40, Son is 20. \nIn 5 years, the son will be 20 + 5 = 25 years old.",
       "hints": [
         "Let Tom's standard age = T, Son's age = S.",
@@ -349,18 +349,18 @@
         },
         {
           "letter": "C",
-          "text": "37.5 kg"
+          "text": "15.0 kg"
         },
         {
           "letter": "D",
-          "text": "31.25 kg"
+          "text": "37.5 kg"
         },
         {
           "letter": "E",
-          "text": "15.0 kg"
+          "text": "31.25 kg"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "E",
       "explanation": "If selling price is $18 representing a 20% profit over cost, then: Cost * 1.20 = 18 → Cost = 18 / 1.2 = $15 per kg. \nHe needs 50 kg of cost $15. Let A be amount of Blend A. Blend B = 50 - A. \nValue equation: 12A + 20(50 - A) = 15(50) \n12A + 1000 - 20A = 750 \n-8A = -250 → A = 250 / 8 = 31.25 kg.",
       "hints": [
         "If selling price is $18 representing a 20% profit over cost, then: Cost * 1.",
@@ -377,26 +377,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "17"
+          "text": "15"
         },
         {
           "letter": "B",
-          "text": "12"
-        },
-        {
-          "letter": "C",
           "text": "13"
         },
         {
+          "letter": "C",
+          "text": "12"
+        },
+        {
           "letter": "D",
-          "text": "15"
+          "text": "17"
         },
         {
           "letter": "E",
           "text": "18"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A",
       "explanation": "Combined rate = 3 + 2 = 5 tasks/hr. In 3 hours: 3 * 5 = 15.",
       "hints": [
         "Combined rate = 3 + 2 = 5 tasks/hr.",
@@ -416,7 +416,7 @@
         },
         {
           "letter": "B",
-          "text": "19"
+          "text": "21"
         },
         {
           "letter": "C",
@@ -428,10 +428,10 @@
         },
         {
           "letter": "E",
-          "text": "21"
+          "text": "19"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B",
       "explanation": "Combined rate = 3 + 4 = 7 tasks/hr. In 3 hours: 3 * 7 = 21.",
       "hints": [
         "Combined rate = 3 + 4 = 7 tasks/hr.",
@@ -447,26 +447,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "24"
+          "text": "22"
         },
         {
           "letter": "B",
-          "text": "27"
-        },
-        {
-          "letter": "C",
-          "text": "21"
-        },
-        {
-          "letter": "D",
           "text": "26"
         },
         {
+          "letter": "C",
+          "text": "24"
+        },
+        {
+          "letter": "D",
+          "text": "21"
+        },
+        {
           "letter": "E",
-          "text": "22"
+          "text": "27"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Combined rate = 5 + 3 = 8 tasks/hr. In 3 hours: 3 * 8 = 24.",
       "hints": [
         "Combined rate = 5 + 3 = 8 tasks/hr.",
@@ -482,26 +482,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "21"
-        },
-        {
-          "letter": "B",
-          "text": "27"
-        },
-        {
-          "letter": "C",
-          "text": "22"
-        },
-        {
-          "letter": "D",
           "text": "24"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "22"
+        },
+        {
+          "letter": "C",
+          "text": "21"
+        },
+        {
+          "letter": "D",
           "text": "26"
+        },
+        {
+          "letter": "E",
+          "text": "27"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A",
       "explanation": "Combined rate = 4 + 4 = 8 tasks/hr. In 3 hours: 3 * 8 = 24.",
       "hints": [
         "Combined rate = 4 + 4 = 8 tasks/hr.",
@@ -517,26 +517,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "21"
-        },
-        {
-          "letter": "B",
           "text": "24"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "18"
         },
         {
+          "letter": "C",
+          "text": "19"
+        },
+        {
           "letter": "D",
-          "text": "23"
+          "text": "21"
         },
         {
           "letter": "E",
-          "text": "19"
+          "text": "23"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Combined rate = 3 + 4 = 7 tasks/hr. In 3 hours: 3 * 7 = 21.",
       "hints": [
         "Combined rate = 3 + 4 = 7 tasks/hr.",
@@ -556,22 +556,22 @@
         },
         {
           "letter": "B",
-          "text": "17"
-        },
-        {
-          "letter": "C",
           "text": "15"
         },
         {
+          "letter": "C",
+          "text": "18"
+        },
+        {
           "letter": "D",
-          "text": "12"
+          "text": "17"
         },
         {
           "letter": "E",
-          "text": "18"
+          "text": "12"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "Combined rate = 2 + 3 = 5 tasks/hr. In 3 hours: 3 * 5 = 15.",
       "hints": [
         "Combined rate = 2 + 3 = 5 tasks/hr.",
@@ -587,11 +587,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "13"
+          "text": "12"
         },
         {
           "letter": "B",
-          "text": "12"
+          "text": "17"
         },
         {
           "letter": "C",
@@ -603,7 +603,7 @@
         },
         {
           "letter": "E",
-          "text": "17"
+          "text": "13"
         }
       ],
       "correct_answer": "C",
@@ -657,26 +657,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "18"
-        },
-        {
-          "letter": "B",
-          "text": "24"
-        },
-        {
-          "letter": "C",
-          "text": "21"
-        },
-        {
-          "letter": "D",
           "text": "23"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "18"
+        },
+        {
+          "letter": "C",
           "text": "19"
+        },
+        {
+          "letter": "D",
+          "text": "21"
+        },
+        {
+          "letter": "E",
+          "text": "24"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "Combined rate = 5 + 2 = 7 tasks/hr. In 3 hours: 3 * 7 = 21.",
       "hints": [
         "Combined rate = 5 + 2 = 7 tasks/hr.",
@@ -692,26 +692,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "29"
+          "text": "25"
         },
         {
           "letter": "B",
-          "text": "27"
-        },
-        {
-          "letter": "C",
           "text": "24"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "30"
         },
         {
+          "letter": "D",
+          "text": "29"
+        },
+        {
           "letter": "E",
-          "text": "25"
+          "text": "27"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "E",
       "explanation": "Combined rate = 4 + 5 = 9 tasks/hr. In 3 hours: 3 * 9 = 27.",
       "hints": [
         "Combined rate = 4 + 5 = 9 tasks/hr.",
@@ -727,26 +727,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "18"
+          "text": "23"
         },
         {
           "letter": "B",
-          "text": "19"
-        },
-        {
-          "letter": "C",
-          "text": "24"
-        },
-        {
-          "letter": "D",
           "text": "21"
         },
         {
+          "letter": "C",
+          "text": "18"
+        },
+        {
+          "letter": "D",
+          "text": "24"
+        },
+        {
           "letter": "E",
-          "text": "23"
+          "text": "19"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B",
       "explanation": "Combined rate = 3 + 4 = 7 tasks/hr. In 3 hours: 3 * 7 = 21.",
       "hints": [
         "Combined rate = 3 + 4 = 7 tasks/hr.",
@@ -762,11 +762,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "19"
+          "text": "21"
         },
         {
           "letter": "B",
-          "text": "23"
+          "text": "19"
         },
         {
           "letter": "C",
@@ -774,14 +774,14 @@
         },
         {
           "letter": "D",
-          "text": "18"
+          "text": "23"
         },
         {
           "letter": "E",
-          "text": "21"
+          "text": "18"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A",
       "explanation": "Combined rate = 4 + 3 = 7 tasks/hr. In 3 hours: 3 * 7 = 21.",
       "hints": [
         "Combined rate = 4 + 3 = 7 tasks/hr.",
@@ -797,26 +797,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "22"
-        },
-        {
-          "letter": "B",
           "text": "27"
         },
         {
+          "letter": "B",
+          "text": "22"
+        },
+        {
           "letter": "C",
-          "text": "26"
+          "text": "24"
         },
         {
           "letter": "D",
-          "text": "24"
+          "text": "26"
         },
         {
           "letter": "E",
           "text": "21"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C",
       "explanation": "Combined rate = 4 + 4 = 8 tasks/hr. In 3 hours: 3 * 8 = 24.",
       "hints": [
         "Combined rate = 4 + 4 = 8 tasks/hr.",
@@ -832,26 +832,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "16"
+          "text": "18"
         },
         {
           "letter": "B",
-          "text": "20"
+          "text": "16"
         },
         {
           "letter": "C",
-          "text": "21"
-        },
-        {
-          "letter": "D",
           "text": "15"
         },
         {
+          "letter": "D",
+          "text": "21"
+        },
+        {
           "letter": "E",
-          "text": "18"
+          "text": "20"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A",
       "explanation": "Combined rate = 4 + 2 = 6 tasks/hr. In 3 hours: 3 * 6 = 18.",
       "hints": [
         "Combined rate = 4 + 2 = 6 tasks/hr.",
@@ -867,26 +867,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "15"
-        },
-        {
-          "letter": "B",
-          "text": "18"
-        },
-        {
-          "letter": "C",
           "text": "16"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "15"
+        },
+        {
+          "letter": "C",
           "text": "20"
+        },
+        {
+          "letter": "D",
+          "text": "18"
         },
         {
           "letter": "E",
           "text": "21"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "Combined rate = 4 + 2 = 6 tasks/hr. In 3 hours: 3 * 6 = 18.",
       "hints": [
         "Combined rate = 4 + 2 = 6 tasks/hr.",

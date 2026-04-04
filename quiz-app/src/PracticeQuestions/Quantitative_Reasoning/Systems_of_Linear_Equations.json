@@ -17,11 +17,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "$2.50"
+          "text": "$1.50"
         },
         {
           "letter": "B",
-          "text": "$1.50"
+          "text": "$0.50"
         },
         {
           "letter": "C",
@@ -29,14 +29,14 @@
         },
         {
           "letter": "D",
-          "text": "$3.00"
+          "text": "$2.50"
         },
         {
           "letter": "E",
-          "text": "$0.50"
+          "text": "$3.00"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "Equation 1: 4a + 3b = 10. Equation 2: 2a + 3b = 7. Subtract Equation 2 from Equation 1 to eliminate the bananas: (4a - 2a) + (3b - 3b) = 10 - 7 → 2a = 3 → a = 1.50.",
       "hints": [
         "Equation 1: 4a + 3b = 10.",
@@ -53,26 +53,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "25"
-        },
-        {
-          "letter": "B",
-          "text": "30"
-        },
-        {
-          "letter": "C",
-          "text": "35"
-        },
-        {
-          "letter": "D",
           "text": "15"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "25"
+        },
+        {
+          "letter": "C",
+          "text": "30"
+        },
+        {
+          "letter": "D",
           "text": "40"
+        },
+        {
+          "letter": "E",
+          "text": "35"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "x + y = 45 and x - y = 15. Add them together: 2x = 60 → x = 30. The smaller is y = 15. The larger is 30.",
       "hints": [
         "x + y = 45 and x - y = 15.",
@@ -89,26 +89,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "15"
-        },
-        {
-          "letter": "B",
-          "text": "25"
-        },
-        {
-          "letter": "C",
           "text": "30"
         },
         {
+          "letter": "B",
+          "text": "15"
+        },
+        {
+          "letter": "C",
+          "text": "35"
+        },
+        {
           "letter": "D",
-          "text": "20"
+          "text": "25"
         },
         {
           "letter": "E",
-          "text": "35"
+          "text": "20"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "Let a = adults, c = children. \n1) a + c = 50 → a = 50 - c \n2) 12a + 8c = 500 \nSubstitute a: 12(50 - c) + 8c = 500 → 600 - 12c + 8c = 500 → 600 - 4c = 500 → 100 = 4c → c = 25. Thus, 25 child tickets were sold.",
       "hints": [
         "Let a = adults, c = children.",
@@ -125,7 +125,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "$8"
+          "text": "$7"
         },
         {
           "letter": "B",
@@ -133,18 +133,18 @@
         },
         {
           "letter": "C",
-          "text": "$10"
+          "text": "$8"
         },
         {
           "letter": "D",
-          "text": "$7"
+          "text": "$9"
         },
         {
           "letter": "E",
-          "text": "$9"
+          "text": "$10"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "1) 5a + 3w = 54 \n2) 2a + 6w = 60 (divide by 2: a + 3w = 30 → a = 30 - 3w). \nSubstitute into 1: 5(30 - 3w) + 3w = 54 → 150 - 15w + 3w = 54 → 150 - 12w = 54 → 12w = 96 → w = 8.",
       "hints": [
         "1) 5a + 3w = 54  2) 2a + 6w = 60 (divide by 2: a + 3w = 30 → a = 30 - 3w).",
@@ -160,26 +160,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "1"
+          "text": "3"
         },
         {
           "letter": "B",
-          "text": "2"
-        },
-        {
-          "letter": "C",
-          "text": "0"
-        },
-        {
-          "letter": "D",
           "text": "-1"
         },
         {
+          "letter": "C",
+          "text": "1"
+        },
+        {
+          "letter": "D",
+          "text": "0"
+        },
+        {
           "letter": "E",
-          "text": "3"
+          "text": "2"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B",
       "explanation": "From the third equation: x = y + 2. \nSubstitute into the second: (y + 2) + y + z = 6 → 2y + z = 4 → z = 4 - 2y. \nSubstitute x and z into the first: 3(y + 2) + 2y - (4 - 2y) = 12 → 3y + 6 + 2y - 4 + 2y = 12 → 7y + 2 = 12 → 7y = 10 → y = 10/7. \nWait, let's re-eval carefully! 3x+2y-z=12. x+y+z=6, x-y=2. \nAdd first two: 4x + 3y = 18. \nx - y = 2 → multiply by 3 → 3x - 3y = 6. \nAdd them: 7x = 24. This makes decimals. \nLet's redefine the first equation so z is an integer. Let's make the answer clean: if x=3, y=1, z=2. \nx-y=2 (works). x+y+z = 3+1+2=6 (works). \n3x + 2y - z = 3(3)+2(1)-2 = 9+2-2 = 9. So the first Eq is 9! Let me fix the question to 3x+2y-z = 9. Then z=2. \nLet me change the option B.",
       "hints": [
         "From the third equation: x = y + 2.",
@@ -200,7 +200,7 @@
         },
         {
           "letter": "B",
-          "text": "$4,000"
+          "text": "$6,000"
         },
         {
           "letter": "C",
@@ -208,14 +208,14 @@
         },
         {
           "letter": "D",
-          "text": "$6,000"
+          "text": "$2,000"
         },
         {
           "letter": "E",
-          "text": "$2,000"
+          "text": "$4,000"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "E",
       "explanation": "Let x, y, z be amounts at 4%, 5%, and 6%. \n1) x + y + z = 10000 \n2) 0.04x + 0.05y + 0.06z = 520 \n3) y = x + 2000. \nSubstitute y into 1: x + (x + 2000) + z = 10000 → 2x + z = 8000 → z = 8000 - 2x. \nSubstitute y and z into 2: 0.04x + 0.05(x + 2000) + 0.06(8000 - 2x) = 520 \n0.04x + 0.05x + 100 + 480 - 0.12x = 520 \n-0.03x + 580 = 520 → -0.03x = -60 → x = 2000. \nIf x = 2000, then z = 8000 - 2(2000) = 4000.",
       "hints": [
         "Let x, y, z be amounts at 4%, 5%, and 6%.",
@@ -232,7 +232,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "275"
+          "text": "464"
         },
         {
           "letter": "B",
@@ -240,18 +240,18 @@
         },
         {
           "letter": "C",
-          "text": "572"
-        },
-        {
-          "letter": "D",
           "text": "167"
         },
         {
+          "letter": "D",
+          "text": "572"
+        },
+        {
           "letter": "E",
-          "text": "464"
+          "text": "275"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "1) h + t + u = 14 \n2) t = h + u (Substitute into 1 → (h + u) + t = 14 → t + t = 14 → t = 7. So h + u = 7). \n3) Value reversed = 100u + 10t + h. Original value = 100h + 10t + u. \nReversed = Original + 198 → 100u + 10t + h - (100h + 10t + u) = 198 → 99u - 99h = 198 → u - h = 2. \nWe have h + u = 7 and u - h = 2. Add them: 2u = 9. This means u is not an integer! \nAh wait, h+t+u=14, let's fix the question numbers: sum = 14 → t=7, h+u=7. u-h=2 gives u=4.5. \nLet's change sum of digits to 18 → t=9, h+u=9. u-h=2 doesn't work. sum=14, let u-h=3 → 99(3)=297. \nLet's redefine the question with integer constraints: 374 → 3+7+4=14. Reversed: 473. 473-374 = 99. So u-h=1. \nQuestion fix: The new number is 99 greater. Then u-h=1. So u=4, h=3. Number is 374. \nOption B matches 374.",
       "hints": [
         "1) h + t + u = 14  2) t = h + u (Substitute into 1 → (h + u) + t = 14 → t + t = 14 → t = 7.",
@@ -268,26 +268,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "$1520"
-        },
-        {
-          "letter": "B",
-          "text": "$1600"
-        },
-        {
-          "letter": "C",
-          "text": "$1680"
-        },
-        {
-          "letter": "D",
           "text": "$1440"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "$1680"
+        },
+        {
+          "letter": "C",
           "text": "$1720"
+        },
+        {
+          "letter": "D",
+          "text": "$1600"
+        },
+        {
+          "letter": "E",
+          "text": "$1520"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Let c = chairs, t = tables. \n1) c + t = 100 → c = 100 - t \n2) 10c + 25t = 1600 \nSubstitute c: 10(100 - t) + 25t = 1600 → 1000 - 10t + 25t = 1600 → 15t = 600 → t = 40. \nSo c = 60. \nCost from Company B = 12c + 20t = 12(60) + 20(40) = 720 + 800 = 1520.",
       "hints": [
         "Let c = chairs, t = tables.",
@@ -304,7 +304,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "10"
+          "text": "15"
         },
         {
           "letter": "B",
@@ -312,7 +312,7 @@
         },
         {
           "letter": "C",
-          "text": "15"
+          "text": "30"
         },
         {
           "letter": "D",
@@ -320,10 +320,10 @@
         },
         {
           "letter": "E",
-          "text": "30"
+          "text": "10"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "Let a be the rate of Pipe A, b be the rate of Pipe B. \n1) 6a + 6b = 1  (they complete 1 tank in 6 hours) \n2) 4a + 6b = 0.8 \nSubtract equation 2 from equation 1: 2a = 0.2 → a = 0.1 \nSubstitute a back into 1: 6(0.1) + 6b = 1 → 0.6 + 6b = 1 → 6b = 0.4 → b = 0.4 / 6 = 4 / 60 = 1/15. \nSince B fills at 1/15 tanks per hour, it takes 15 hours to fill the tank.",
       "hints": [
         "Let a be the rate of Pipe A, b be the rate of Pipe B.",
@@ -344,22 +344,22 @@
         },
         {
           "letter": "B",
-          "text": "(a - b + c)/2"
+          "text": "a - b - c"
         },
         {
           "letter": "C",
-          "text": "(-a + b + c)/2"
+          "text": "(a - b + c)/2"
         },
         {
           "letter": "D",
-          "text": "(a + b + c)/2"
+          "text": "(-a + b + c)/2"
         },
         {
           "letter": "E",
-          "text": "a - b - c"
+          "text": "(a + b + c)/2"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "Add all three equations: (x + y) + (y + z) + (z + x) = a + b + c \n2x + 2y + 2z = a + b + c → x + y + z = (a + b + c) / 2. \nSubstitute y + z = b from the second equation: \nx + b = (a + b + c) / 2 → x = (a + b + c)/2 - b = (a + b + c - 2b) / 2 = (a - b + c) / 2.",
       "hints": [
         "Add all three equations: (x + y) + (y + z) + (z + x) = a + b + c  2x + 2y + 2z = a + b + c → x + y + z = (a + b + c) / 2.",
@@ -375,26 +375,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "11"
+          "text": "12"
         },
         {
           "letter": "B",
-          "text": "8"
-        },
-        {
-          "letter": "C",
-          "text": "9"
-        },
-        {
-          "letter": "D",
           "text": "10"
         },
         {
+          "letter": "C",
+          "text": "8"
+        },
+        {
+          "letter": "D",
+          "text": "9"
+        },
+        {
           "letter": "E",
-          "text": "12"
+          "text": "11"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B",
       "explanation": "Adding equations: 2x = 4 -> x = 2. Subtracting: 2y = 10 -> y = 5. Product = 10 = 10.",
       "hints": [
         "Adding equations: 2x = 4 -> x = 2.",
@@ -411,26 +411,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "11"
-        },
-        {
-          "letter": "B",
           "text": "12"
         },
         {
+          "letter": "B",
+          "text": "11"
+        },
+        {
           "letter": "C",
-          "text": "10"
+          "text": "13"
         },
         {
           "letter": "D",
-          "text": "13"
+          "text": "10"
         },
         {
           "letter": "E",
           "text": "14"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "Adding equations: 2x = 6 -> x = 3. Subtracting: 2y = 8 -> y = 4. Product = 12 = 12.",
       "hints": [
         "Adding equations: 2x = 6 -> x = 3.",
@@ -447,26 +447,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
-        },
-        {
-          "letter": "B",
           "text": "4"
         },
         {
+          "letter": "B",
+          "text": "2"
+        },
+        {
           "letter": "C",
-          "text": "6"
+          "text": "3"
         },
         {
           "letter": "D",
-          "text": "5"
+          "text": "6"
         },
         {
           "letter": "E",
-          "text": "3"
+          "text": "5"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "Adding equations: 2x = 8 -> x = 4. Subtracting: 2y = 2 -> y = 1. Product = 4 = 4.",
       "hints": [
         "Adding equations: 2x = 8 -> x = 4.",
@@ -483,26 +483,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "15"
+          "text": "14"
         },
         {
           "letter": "B",
-          "text": "13"
-        },
-        {
-          "letter": "C",
           "text": "17"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "16"
         },
         {
+          "letter": "D",
+          "text": "13"
+        },
+        {
           "letter": "E",
-          "text": "14"
+          "text": "15"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Adding equations: 2x = 6 -> x = 3. Subtracting: 2y = 10 -> y = 5. Product = 15 = 15.",
       "hints": [
         "Adding equations: 2x = 6 -> x = 3.",
@@ -519,26 +519,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "3"
+          "text": "2"
         },
         {
           "letter": "B",
-          "text": "4"
+          "text": "3"
         },
         {
           "letter": "C",
-          "text": "1"
-        },
-        {
-          "letter": "D",
           "text": "5"
         },
         {
+          "letter": "D",
+          "text": "1"
+        },
+        {
           "letter": "E",
-          "text": "2"
+          "text": "4"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Adding equations: 2x = 6 -> x = 3. Subtracting: 2y = 2 -> y = 1. Product = 3 = 3.",
       "hints": [
         "Adding equations: 2x = 6 -> x = 3.",
@@ -555,26 +555,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
-        },
-        {
-          "letter": "B",
-          "text": "5"
-        },
-        {
-          "letter": "C",
           "text": "4"
         },
         {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "5"
+        },
+        {
           "letter": "D",
-          "text": "3"
+          "text": "6"
         },
         {
           "letter": "E",
-          "text": "6"
+          "text": "3"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "Adding equations: 2x = 4 -> x = 2. Subtracting: 2y = 4 -> y = 2. Product = 4 = 4.",
       "hints": [
         "Adding equations: 2x = 4 -> x = 2.",
@@ -591,26 +591,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "11"
-        },
-        {
-          "letter": "B",
-          "text": "12"
-        },
-        {
-          "letter": "C",
-          "text": "10"
-        },
-        {
-          "letter": "D",
           "text": "8"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "11"
+        },
+        {
+          "letter": "C",
           "text": "9"
+        },
+        {
+          "letter": "D",
+          "text": "10"
+        },
+        {
+          "letter": "E",
+          "text": "12"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "Adding equations: 2x = 4 -> x = 2. Subtracting: 2y = 10 -> y = 5. Product = 10 = 10.",
       "hints": [
         "Adding equations: 2x = 4 -> x = 2.",
@@ -627,26 +627,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "7"
-        },
-        {
-          "letter": "B",
-          "text": "6"
-        },
-        {
-          "letter": "C",
           "text": "4"
         },
         {
+          "letter": "B",
+          "text": "7"
+        },
+        {
+          "letter": "C",
+          "text": "6"
+        },
+        {
           "letter": "D",
-          "text": "3"
+          "text": "5"
         },
         {
           "letter": "E",
-          "text": "5"
+          "text": "3"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "D",
       "explanation": "Adding equations: 2x = 2 -> x = 1. Subtracting: 2y = 10 -> y = 5. Product = 5 = 5.",
       "hints": [
         "Adding equations: 2x = 2 -> x = 1.",
@@ -663,26 +663,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "18"
+          "text": "17"
         },
         {
           "letter": "B",
-          "text": "14"
-        },
-        {
-          "letter": "C",
           "text": "15"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "16"
         },
         {
+          "letter": "D",
+          "text": "18"
+        },
+        {
           "letter": "E",
-          "text": "17"
+          "text": "14"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C",
       "explanation": "Adding equations: 2x = 8 -> x = 4. Subtracting: 2y = 8 -> y = 4. Product = 16 = 16.",
       "hints": [
         "Adding equations: 2x = 8 -> x = 4.",
@@ -735,26 +735,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "21"
-        },
-        {
-          "letter": "B",
-          "text": "22"
-        },
-        {
-          "letter": "C",
-          "text": "18"
-        },
-        {
-          "letter": "D",
           "text": "19"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "18"
+        },
+        {
+          "letter": "C",
+          "text": "21"
+        },
+        {
+          "letter": "D",
           "text": "20"
+        },
+        {
+          "letter": "E",
+          "text": "22"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "D",
       "explanation": "Adding equations: 2x = 10 -> x = 5. Subtracting: 2y = 8 -> y = 4. Product = 20 = 20.",
       "hints": [
         "Adding equations: 2x = 10 -> x = 5.",
@@ -771,15 +771,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "25"
+          "text": "27"
         },
         {
           "letter": "B",
-          "text": "26"
+          "text": "25"
         },
         {
           "letter": "C",
-          "text": "24"
+          "text": "26"
         },
         {
           "letter": "D",
@@ -787,10 +787,10 @@
         },
         {
           "letter": "E",
-          "text": "27"
+          "text": "24"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Adding equations: 2x = 10 -> x = 5. Subtracting: 2y = 10 -> y = 5. Product = 25 = 25.",
       "hints": [
         "Adding equations: 2x = 10 -> x = 5.",
@@ -807,15 +807,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "6"
+          "text": "3"
         },
         {
           "letter": "B",
-          "text": "7"
+          "text": "6"
         },
         {
           "letter": "C",
-          "text": "5"
+          "text": "7"
         },
         {
           "letter": "D",
@@ -823,10 +823,10 @@
         },
         {
           "letter": "E",
-          "text": "3"
+          "text": "5"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "Adding equations: 2x = 10 -> x = 5. Subtracting: 2y = 2 -> y = 1. Product = 5 = 5.",
       "hints": [
         "Adding equations: 2x = 10 -> x = 5.",
@@ -847,22 +847,22 @@
         },
         {
           "letter": "B",
-          "text": "18"
-        },
-        {
-          "letter": "C",
           "text": "17"
         },
         {
+          "letter": "C",
+          "text": "16"
+        },
+        {
           "letter": "D",
-          "text": "14"
+          "text": "18"
         },
         {
           "letter": "E",
-          "text": "16"
+          "text": "14"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "C",
       "explanation": "Adding equations: 2x = 8 -> x = 4. Subtracting: 2y = 8 -> y = 4. Product = 16 = 16.",
       "hints": [
         "Adding equations: 2x = 8 -> x = 4.",
@@ -879,7 +879,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "9"
+          "text": "10"
         },
         {
           "letter": "B",
@@ -887,18 +887,18 @@
         },
         {
           "letter": "C",
-          "text": "10"
+          "text": "6"
         },
         {
           "letter": "D",
-          "text": "8"
+          "text": "9"
         },
         {
           "letter": "E",
-          "text": "6"
+          "text": "8"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "E",
       "explanation": "Adding equations: 2x = 8 -> x = 4. Subtracting: 2y = 4 -> y = 2. Product = 8 = 8.",
       "hints": [
         "Adding equations: 2x = 8 -> x = 4.",

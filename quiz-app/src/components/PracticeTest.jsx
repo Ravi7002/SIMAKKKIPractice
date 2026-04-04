@@ -4,9 +4,9 @@ import MathText from './MathText';
 
 import ChartDisplay from './ChartDisplay';
 
-/* ─── Topic Quiz (no back, no timer, pick until correct, hints) ─── */
-const TopicQuiz = ({ questions, onFinish }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+/* ─── Topic Quiz ─── */
+const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
+  const [currentIndex, setCurrentIndex] = useState(startIndex);
   const [guessedOptions, setGuessedOptions] = useState([]);
   const [showExplanation, setShowExplanation] = useState(false);
   const [hintsRevealed, setHintsRevealed] = useState(0);
@@ -47,9 +47,12 @@ const TopicQuiz = ({ questions, onFinish }) => {
 
   return (
     <div className="fade-in" style={{ maxWidth: '800px', margin: '0 auto' }}>
-      {/* Progress */}
+      {/* Progress & Header */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
-        <div>
+        <button onClick={onBackToBank} className="btn" style={{ padding: '0.4rem 0.8rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', fontSize: '0.9rem' }}>
+          <ArrowLeft size={16} /> Back to Bank
+        </button>
+        <div style={{ flex: 1, textAlign: 'center' }}>
           <span className="text-muted">Question </span>
           <strong>{currentIndex + 1}</strong>
           <span className="text-muted"> / {questions.length}</span>
@@ -247,12 +250,31 @@ const LearnView = ({ topicData, onStartQuiz }) => {
         </div>
       )}
 
-      {/* Start Quiz CTA */}
-      <div style={{ textAlign: 'center', padding: '2rem 0' }}>
-        <p className="text-muted mb-4">Ready to test your understanding?</p>
-        <button onClick={onStartQuiz} className="btn btn-primary" style={{ fontSize: '1.2rem', padding: '1rem 3rem' }}>
-          <FlaskConical size={22} /> Start Practice Quiz (3 Questions)
-        </button>
+      {/* Question Bank Grid */}
+      <div className="glass-card mb-6" style={{ background: 'rgba(59,130,246,0.03)', border: '1px solid rgba(59,130,246,0.15)' }}>
+        <h3 style={{ color: '#60a5fa', marginBottom: '1.2rem', textAlign: 'center' }}>🗃️ Question Bank ({topicData.questions?.length || 0})</h3>
+        <p className="text-muted mb-4" style={{ textAlign: 'center', fontSize: '0.95rem' }}>Select any question to practice at your own pace. Options are fully shuffled.</p>
+        
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(60px, 1fr))', gap: '8px' }}>
+          {topicData.questions?.map((q, i) => {
+             const color = q.difficulty === 'easy' ? 'var(--accent-green)' : q.difficulty === 'medium' ? '#f59e0b' : 'var(--accent-red)';
+             return (
+               <button
+                 key={q.id || i}
+                 onClick={() => onStartQuiz(i)}
+                 className="btn glass-card"
+                 style={{ 
+                   padding: '0.8rem 0', fontWeight: 'bold', fontSize: '1.1rem', 
+                   border: `1px solid ${color}40`, background: `color-mix(in srgb, ${color} 10%, transparent)`,
+                   transition: 'all 0.2s', display: 'flex', flexDirection: 'column', alignItems: 'center'
+                 }}
+               >
+                 <span>{i + 1}</span>
+                 <span style={{ fontSize: '0.65rem', fontWeight: 'normal', color: color, opacity: 0.8, textTransform: 'uppercase', marginTop: '2px' }}>{q.difficulty}</span>
+               </button>
+             );
+          })}
+        </div>
       </div>
     </div>
   );
@@ -294,11 +316,11 @@ const PracticeTest = ({ allTopicsData, onBack }) => {
     setView('learn');
   };
 
-  const startQuiz = () => {
-    // Randomly pick 3 questions from the topic
-    const pool = [...(selectedTopic.questions || [])];
-    const shuffled = pool.sort(() => Math.random() - 0.5);
-    setQuizQuestions(shuffled.slice(0, 3));
+  const [quizStartIndex, setQuizStartIndex] = useState(0);
+
+  const startQuiz = (startIndex = 0) => {
+    setQuizStartIndex(startIndex);
+    setQuizQuestions(selectedTopic.questions || []);
     setView('quiz');
   };
 
@@ -424,7 +446,12 @@ const PracticeTest = ({ allTopicsData, onBack }) => {
 
       {/* Quiz */}
       {view === 'quiz' && quizQuestions.length > 0 && (
-        <TopicQuiz questions={quizQuestions} onFinish={() => setView('done')} />
+        <TopicQuiz 
+          questions={quizQuestions} 
+          startIndex={quizStartIndex}
+          onFinish={() => setView('done')} 
+          onBackToBank={() => setView('learn')}
+        />
       )}
 
       {/* Done */}

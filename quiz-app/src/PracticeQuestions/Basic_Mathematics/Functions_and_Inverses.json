@@ -63,15 +63,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "(x-3)/2"
-        },
-        {
-          "letter": "B",
           "text": "(x+3)/2"
         },
         {
+          "letter": "B",
+          "text": "x/2 - 3"
+        },
+        {
           "letter": "C",
-          "text": "2x-3"
+          "text": "(x-3)/2"
         },
         {
           "letter": "D",
@@ -79,10 +79,10 @@
         },
         {
           "letter": "E",
-          "text": "x/2 - 3"
+          "text": "2x-3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "y = 2x+3\nSwap: x = 2y+3\ny = (x-3)/2 = **f⁻¹(x)**",
       "hints": [
         "Replace f(x) with y: y=2x+3.",
@@ -99,26 +99,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "16"
-        },
-        {
-          "letter": "B",
-          "text": "10"
-        },
-        {
-          "letter": "C",
           "text": "13"
         },
         {
+          "letter": "B",
+          "text": "16"
+        },
+        {
+          "letter": "C",
+          "text": "10"
+        },
+        {
           "letter": "D",
-          "text": "9"
+          "text": "17"
         },
         {
           "letter": "E",
-          "text": "17"
+          "text": "9"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "(f∘g)(3) = f(g(3)) = f(3+1) = f(4) = **16**",
       "hints": [
         "Apply g first: g(3) = 3+1 = 4.",
@@ -135,7 +135,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "x ≥ 4"
+          "text": "x ≥ 0"
         },
         {
           "letter": "B",
@@ -143,18 +143,18 @@
         },
         {
           "letter": "C",
-          "text": "x ≥ 0"
+          "text": "x ≥ 4"
         },
         {
           "letter": "D",
-          "text": "All real"
+          "text": "x ≤ 4"
         },
         {
           "letter": "E",
-          "text": "x ≤ 4"
+          "text": "All real"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "For √: argument ≥ 0\nx-4 ≥ 0 → **x ≥ 4**",
       "hints": [
         "Square root requires non-negative argument.",
@@ -171,11 +171,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
+          "text": "3"
         },
         {
           "letter": "B",
-          "text": "3"
+          "text": "1"
         },
         {
           "letter": "C",
@@ -183,14 +183,14 @@
         },
         {
           "letter": "D",
-          "text": "1"
+          "text": "2"
         },
         {
           "letter": "E",
           "text": "4"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "f⁻¹(x) = (x+1)/3\nf⁻¹(5) = (5+1)/3 = **2**",
       "hints": [
         "Find f⁻¹: y=3x-1 → x=(y+1)/3.",
@@ -207,26 +207,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "2x+10"
-        },
-        {
-          "letter": "B",
-          "text": "2x+5"
-        },
-        {
-          "letter": "C",
-          "text": "x+10"
-        },
-        {
-          "letter": "D",
           "text": "2x²+10"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "x+10"
+        },
+        {
+          "letter": "C",
           "text": "2(x+5)²"
+        },
+        {
+          "letter": "D",
+          "text": "2x+10"
+        },
+        {
+          "letter": "E",
+          "text": "2x+5"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "(g∘f)(x) = g(f(x)) = g(x+5) = 2(x+5) = **2x+10**",
       "hints": [
         "g∘f means apply f first, then g.",
@@ -243,7 +243,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "y ≥ 1"
+          "text": "y ≤ 1"
         },
         {
           "letter": "B",
@@ -251,18 +251,18 @@
         },
         {
           "letter": "C",
-          "text": "y > 0"
+          "text": "y ≥ 1"
         },
         {
           "letter": "D",
-          "text": "y ≥ 0"
+          "text": "y > 0"
         },
         {
           "letter": "E",
-          "text": "y ≤ 1"
+          "text": "y ≥ 0"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "x² ≥ 0 for all x, so x²+1 ≥ 1.\nRange = **y ≥ 1**",
       "hints": [
         "Since x²≥0, the minimum of x²+1 is 1.",
@@ -283,19 +283,19 @@
         },
         {
           "letter": "B",
-          "text": "f(7)"
+          "text": "Depends on f"
         },
         {
           "letter": "C",
-          "text": "f⁻¹(7)"
-        },
-        {
-          "letter": "D",
           "text": "1"
         },
         {
+          "letter": "D",
+          "text": "f(7)"
+        },
+        {
           "letter": "E",
-          "text": "Depends on f"
+          "text": "f⁻¹(7)"
         }
       ],
       "correct_answer": "A",
@@ -315,26 +315,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "4"
-        },
-        {
-          "letter": "B",
           "text": "3"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "5"
         },
         {
+          "letter": "C",
+          "text": "6"
+        },
+        {
           "letter": "D",
-          "text": "12"
+          "text": "4"
         },
         {
           "letter": "E",
-          "text": "6"
+          "text": "12"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "f(10) = (10+2)/3 = 12/3 = **4**",
       "hints": [
         "Substitute x=10 directly.",
@@ -351,15 +351,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "(x+7)/3"
+          "text": "(x+1)/3"
         },
         {
           "letter": "B",
-          "text": "(x-7)/3"
+          "text": "(x+7)/3"
         },
         {
           "letter": "C",
-          "text": "(x+1)/3"
+          "text": "(x-1)3"
         },
         {
           "letter": "D",
@@ -367,10 +367,10 @@
         },
         {
           "letter": "E",
-          "text": "(x-1)3"
+          "text": "(x-7)/3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Let u = x+2, so x = u-2.\nf(u) = 3(u-2)-1 = 3u-7\n\nSo f(x) = 3x-7.\nInverse: y=3x-7 → x=(y+7)/3\nf⁻¹(x) = **(x+7)/3**",
       "hints": [
         "First find f(x): substitute x→x-2 into f(x+2).",
@@ -387,7 +387,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "(3x+1)/(x-2)"
+          "text": "(2x-1)/(x+3)"
         },
         {
           "letter": "B",
@@ -395,18 +395,18 @@
         },
         {
           "letter": "C",
-          "text": "(3x-1)/(x+2)"
+          "text": "(3x+1)/(x-2)"
         },
         {
           "letter": "D",
-          "text": "(2x-1)/(x+3)"
+          "text": "(3x-1)/(x+2)"
         },
         {
           "letter": "E",
           "text": "(x+3)/(2-x)"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "y = (2x+1)/(x-3)\ny(x-3) = 2x+1\nxy-3y = 2x+1\nxy-2x = 3y+1\nx(y-2) = 3y+1\nx = (3y+1)/(y-2)\nf⁻¹(x) = **(3x+1)/(x-2)**",
       "hints": [
         "Set y=(2x+1)/(x-3), then solve for x.",
@@ -427,7 +427,7 @@
         },
         {
           "letter": "B",
-          "text": "3x+4"
+          "text": "2x-3"
         },
         {
           "letter": "C",
@@ -435,11 +435,11 @@
         },
         {
           "letter": "D",
-          "text": "3x-7"
+          "text": "3x+4"
         },
         {
           "letter": "E",
-          "text": "2x-3"
+          "text": "3x-7"
         }
       ],
       "correct_answer": "A",
@@ -459,26 +459,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "x < -3 or x > 3"
+          "text": "All real"
         },
         {
           "letter": "B",
-          "text": "x > 3"
-        },
-        {
-          "letter": "C",
           "text": "x > 0"
         },
         {
+          "letter": "C",
+          "text": "x < -3 or x > 3"
+        },
+        {
           "letter": "D",
-          "text": "All real"
+          "text": "x > 3"
         },
         {
           "letter": "E",
           "text": "-3 ≤ x ≤ 3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "log is defined for positive arguments:\nx²-9 > 0 → x² > 9 → |x| > 3\n**x < -3 or x > 3**",
       "hints": [
         "Log requires positive argument: x²-9 > 0.",
@@ -495,26 +495,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "4x+4"
-        },
-        {
-          "letter": "B",
           "text": "4"
         },
         {
-          "letter": "C",
-          "text": "4x"
-        },
-        {
-          "letter": "D",
+          "letter": "B",
           "text": "0"
         },
         {
-          "letter": "E",
+          "letter": "C",
+          "text": "4x+4"
+        },
+        {
+          "letter": "D",
           "text": "2x+4"
+        },
+        {
+          "letter": "E",
+          "text": "4x"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "h∘g: h(g(x)) = h(x+2) = (x+2)² = x²+4x+4\ng∘h: g(h(x)) = g(x²) = x²+2\n\nDifference: (x²+4x+4)-(x²+2) = **4x+2**\n\n*Note: 4x+2 closest to option A (4x+4). Check: (x+2)²=x²+4x+4. x²+2. Diff=4x+2.*",
       "hints": [
         "h∘g(x) = h(g(x)) = (x+2)² = x²+4x+4.",
@@ -531,26 +531,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "|x|"
-        },
-        {
-          "letter": "B",
-          "text": "x"
-        },
-        {
-          "letter": "C",
           "text": "x²"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "√(x²)"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "x+2"
+        },
+        {
+          "letter": "D",
+          "text": "|x|"
+        },
+        {
+          "letter": "E",
+          "text": "x"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "(f∘g)(x) = f(g(x)) = f(x²+2) = √(x²+2-2) = √(x²) = **|x|**",
       "hints": [
         "Apply g first, then f.",
@@ -567,11 +567,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
+          "text": "3"
         },
         {
           "letter": "B",
-          "text": "3"
+          "text": "5"
         },
         {
           "letter": "C",
@@ -583,10 +583,10 @@
         },
         {
           "letter": "E",
-          "text": "5"
+          "text": "2"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Let u=x+1, x=u-1: f(u) = 2(u-1)+5 = 2u+3.\nf⁻¹(7): 2u+3=7 → 2u=4 → u=2\nf⁻¹(7) = **2**",
       "hints": [
         "Find f(x): let u=x+1, x=u-1. f(u)=2(u-1)+5=2u+3.",
@@ -603,15 +603,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "f(x) = 3x+2"
+          "text": "f(x) = sin(x)"
         },
         {
           "letter": "B",
-          "text": "f(x) = x²"
+          "text": "f(x) = |x|"
         },
         {
           "letter": "C",
-          "text": "f(x) = |x|"
+          "text": "f(x) = x²"
         },
         {
           "letter": "D",
@@ -619,10 +619,10 @@
         },
         {
           "letter": "E",
-          "text": "f(x) = sin(x)"
+          "text": "f(x) = 3x+2"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "A function has an inverse that is also a function iff it is **one-to-one** (injective).\n\nf(x)=3x+2 is strictly increasing (one-to-one) ✓\nf(x)=x², |x|, x²-1 are not one-to-one (fail horizontal line test)\nsin(x) is periodic (not one-to-one on ℝ)",
       "hints": [
         "A function must be one-to-one (pass horizontal line test) for its inverse to be a function.",
@@ -639,26 +639,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "17/2"
-        },
-        {
-          "letter": "B",
-          "text": "5"
-        },
-        {
-          "letter": "C",
-          "text": "7"
-        },
-        {
-          "letter": "D",
           "text": "9/2"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "7"
+        },
+        {
+          "letter": "C",
           "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "17/2"
+        },
+        {
+          "letter": "E",
+          "text": "5"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Find f(x): let u=2x-1, x=(u+1)/2.\nf(u) = (u+1)/2 + 3 = (u+7)/2\n\nf(1) = (1+7)/2 = 4\nf(f(1)) = f(4) = (4+7)/2 = **11/2**\n\n*Exact: 11/2. Closest option: 17/2 if calculation differs. Let me recheck: f(u)=(u+7)/2. f(1)=8/2=4. f(4)=11/2=5.5. Hmm, option A=17/2=8.5.*\n\nLet me redo: if f(2x-1)=x+3, let 2x-1=t → x=(t+1)/2. f(t)=(t+1)/2+3=(t+1+6)/2=(t+7)/2.\nf(1)=(1+7)/2=4. f(4)=(4+7)/2=11/2.",
       "hints": [
         "First find f(x): let substitution u=2x-1.",
@@ -679,19 +679,19 @@
         },
         {
           "letter": "B",
-          "text": "a = d"
+          "text": "a = -d and b = c"
         },
         {
           "letter": "C",
-          "text": "b = c"
-        },
-        {
-          "letter": "D",
           "text": "ad = bc"
         },
         {
+          "letter": "D",
+          "text": "a = d"
+        },
+        {
           "letter": "E",
-          "text": "a = -d and b = c"
+          "text": "b = c"
         }
       ],
       "correct_answer": "A",
@@ -711,26 +711,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "x²-4"
+          "text": "x²-9"
         },
         {
           "letter": "B",
-          "text": "x²+4"
-        },
-        {
-          "letter": "C",
           "text": "4x-4"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "(x-3)²-4"
         },
         {
+          "letter": "D",
+          "text": "x²+4"
+        },
+        {
           "letter": "E",
-          "text": "x²-9"
+          "text": "x²-4"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "g(f(x)) = 4x²+12x+5 and f(x)=2x+3.\n\nLet u = f(x) = 2x+3 → x = (u-3)/2.\ng(u) = 4((u-3)/2)² + 12((u-3)/2) + 5\n= (u-3)² + 6(u-3) + 5\n= u²-6u+9 + 6u-18 + 5\n= u² - 4\n\ng(x) = **x² - 4**",
       "hints": [
         "Let u=f(x)=2x+3. Express x in terms of u: x=(u-3)/2.",
@@ -747,26 +747,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "x/(2026x+1)"
+          "text": "x/(x+1)^2026"
         },
         {
           "letter": "B",
-          "text": "x/(x+2026)"
-        },
-        {
-          "letter": "C",
           "text": "2026x/(x+1)"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "x^2026"
         },
         {
+          "letter": "D",
+          "text": "x/(x+2026)"
+        },
+        {
           "letter": "E",
-          "text": "x/(x+1)^2026"
+          "text": "x/(2026x+1)"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Pattern:** f¹(x) = x/(x+1), f²(x) = x/(2x+1), f³(x) = x/(3x+1)\n\nGeneral: fⁿ(x) = x/(nx+1)\n\nf^2026(x) = **x/(2026x+1)**",
       "hints": [
         "Compute f(f(x)) to find the pattern.",
@@ -791,7 +791,7 @@
         },
         {
           "letter": "C",
-          "text": "x = 1 only"
+          "text": "No solution"
         },
         {
           "letter": "D",
@@ -799,7 +799,7 @@
         },
         {
           "letter": "E",
-          "text": "No solution"
+          "text": "x = 1 only"
         }
       ],
       "correct_answer": "A",
@@ -819,11 +819,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "4"
+          "text": "3"
         },
         {
           "letter": "B",
-          "text": "2"
+          "text": "1"
         },
         {
           "letter": "C",
@@ -831,14 +831,14 @@
         },
         {
           "letter": "D",
-          "text": "1"
+          "text": "2"
         },
         {
           "letter": "E",
-          "text": "3"
+          "text": "4"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "f⁻¹(x) = (x+1)/3\nf⁻¹(5) = (5+1)/3 = **2**",
       "hints": [
         "Find f⁻¹: y=3x-1 → x=(y+1)/3.",
@@ -855,26 +855,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "y > 0"
-        },
-        {
-          "letter": "B",
           "text": "y ≥ 1"
         },
         {
-          "letter": "C",
-          "text": "All real"
-        },
-        {
-          "letter": "D",
+          "letter": "B",
           "text": "y ≤ 1"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "y ≥ 0"
+        },
+        {
+          "letter": "D",
+          "text": "All real"
+        },
+        {
+          "letter": "E",
+          "text": "y > 0"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "x² ≥ 0 for all x, so x²+1 ≥ 1.\nRange = **y ≥ 1**",
       "hints": [
         "Since x²≥0, the minimum of x²+1 is 1.",
@@ -895,11 +895,11 @@
         },
         {
           "letter": "B",
-          "text": "(x-1)3"
+          "text": "(x+7)/3"
         },
         {
           "letter": "C",
-          "text": "(x+7)/3"
+          "text": "3x-7"
         },
         {
           "letter": "D",
@@ -907,10 +907,10 @@
         },
         {
           "letter": "E",
-          "text": "3x-7"
+          "text": "(x-1)3"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "Let u = x+2, so x = u-2.\nf(u) = 3(u-2)-1 = 3u-7\n\nSo f(x) = 3x-7.\nInverse: y=3x-7 → x=(y+7)/3\nf⁻¹(x) = **(x+7)/3**",
       "hints": [
         "First find f(x): substitute x→x-2 into f(x+2).",
@@ -927,15 +927,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "y ≥ 0"
-        },
-        {
-          "letter": "B",
           "text": "y ≤ 1"
         },
         {
+          "letter": "B",
+          "text": "y ≥ 1"
+        },
+        {
           "letter": "C",
-          "text": "y > 0"
+          "text": "y ≥ 0"
         },
         {
           "letter": "D",
@@ -943,10 +943,10 @@
         },
         {
           "letter": "E",
-          "text": "y ≥ 1"
+          "text": "y > 0"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B",
       "explanation": "x² ≥ 0 for all x, so x²+1 ≥ 1.\nRange = **y ≥ 1**",
       "hints": [
         "Since x²≥0, the minimum of x²+1 is 1.",

@@ -17,26 +17,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Center: (4, -2), Radius: 5"
-        },
-        {
-          "letter": "B",
           "text": "Center: (-4, 2), Radius: 25"
         },
         {
+          "letter": "B",
+          "text": "Center: (4, -2), Radius: 5"
+        },
+        {
           "letter": "C",
-          "text": "Center: (-4, -2), Radius: 5"
+          "text": "Center: (4, 2), Radius: 5"
         },
         {
           "letter": "D",
-          "text": "Center: (4, 2), Radius: 5"
+          "text": "Center: (-4, -2), Radius: 5"
         },
         {
           "letter": "E",
           "text": "Center: (4, -2), Radius: 25"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Compare the given equation to the standard form: (x - h)² + (y - k)² = r². Here, h = 4 and k = -2, so the center is (4, -2). Since r² = 25, the radius is r = 5.",
       "hints": [
         "Compare the given equation to the standard form: (x - h)² + (y - k)² = r².",
@@ -53,7 +53,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
+          "text": "8"
         },
         {
           "letter": "B",
@@ -61,18 +61,18 @@
         },
         {
           "letter": "C",
-          "text": "10"
-        },
-        {
-          "letter": "D",
           "text": "100"
         },
         {
+          "letter": "D",
+          "text": "10"
+        },
+        {
           "letter": "E",
-          "text": "8"
+          "text": "2"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "Use the distance formula: d = √((x2 - x1)² + (y2 - y1)²). \nd = √((4 - (-2))² + (-5 - 3)²) = √(6² + (-8)²) = √(36 + 64) = √100 = 10.",
       "hints": [
         "Use the distance formula: d = √((x2 - x1)² + (y2 - y1)²).",
@@ -88,7 +88,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "(x + 2)² + (y - 3)² = 9"
+          "text": "(x + 2)² + (y + 3)² = 9"
         },
         {
           "letter": "B",
@@ -100,11 +100,11 @@
         },
         {
           "letter": "D",
-          "text": "(x - 2)² + (y + 3)² = 3"
+          "text": "(x + 2)² + (y - 3)² = 9"
         },
         {
           "letter": "E",
-          "text": "(x + 2)² + (y + 3)² = 9"
+          "text": "(x - 2)² + (y + 3)² = 3"
         }
       ],
       "correct_answer": "B",
@@ -124,26 +124,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "y = 2x - 1"
-        },
-        {
-          "letter": "B",
-          "text": "y = 2x - 4"
-        },
-        {
-          "letter": "C",
           "text": "y = 2x - 10"
         },
         {
+          "letter": "B",
+          "text": "y = 2x - 2"
+        },
+        {
+          "letter": "C",
+          "text": "y = 2x - 1"
+        },
+        {
           "letter": "D",
-          "text": "y = -1/2x - 4"
+          "text": "y = 2x - 4"
         },
         {
           "letter": "E",
-          "text": "y = 2x - 2"
+          "text": "y = -1/2x - 4"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "First, find the vertex of the parabola using x = -b/(2a) = -(-6)/2 = 3. \nSubstitute x=3 back in: y = 3² - 6(3) + 5 = 9 - 18 + 5 = -4. The vertex is (3, -4). \nA parallel line to y = 2x - 7 must have slope m=2. \nUsing point-slope form: y - y1 = m(x - x1) → y - (-4) = 2(x - 3) → y + 4 = 2x - 6 → y = 2x - 10.",
       "hints": [
         "First, find the vertex of the parabola using x = -b/(2a) = -(-6)/2 = 3.",
@@ -164,15 +164,15 @@
         },
         {
           "letter": "B",
-          "text": "x² + y² - 2x + 8y - 8 = 0"
+          "text": "x² + y² + 2x - 8y + 14 = 0"
         },
         {
           "letter": "C",
-          "text": "x² + y² + 2x - 8y + 17 = 0"
+          "text": "x² + y² - 2x + 8y - 8 = 0"
         },
         {
           "letter": "D",
-          "text": "x² + y² + 2x - 8y + 14 = 0"
+          "text": "x² + y² + 2x - 8y + 17 = 0"
         },
         {
           "letter": "E",
@@ -196,7 +196,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "x² + y² + 4x + 4y - 17 = 0"
+          "text": "x² + y² - 4x + 4y - 17 = 0"
         },
         {
           "letter": "B",
@@ -208,14 +208,14 @@
         },
         {
           "letter": "D",
-          "text": "x² + y² - 4x + 4y - 17 = 0"
+          "text": "x² + y² + 4x + 4y - 17 = 0"
         },
         {
           "letter": "E",
           "text": "x² + y² + 4x + 8y - 19 = 0"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "First, complete the square to find center and radius. \nx² - 4x + 4 + y² + 6y + 9 = 12 + 4 + 9 → (x - 2)² + (y + 3)² = 25. \nCenter is (2, -3) and R=5. \nReflect across y-axis: the new x is negated. Center moves to (-2, -3). \nTranslate 1 unit up: Center moves to (-2, -2). \nThe new equation in standard form is (x + 2)² + (y + 2)² = 25. \nExpand this: x² + 4x + 4 + y² + 4y + 4 = 25 → x² + y² + 4x + 4y - 17 = 0.",
       "hints": [
         "First, complete the square to find center and radius.",
@@ -232,7 +232,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "13"
+          "text": "-11"
         },
         {
           "letter": "B",
@@ -240,7 +240,7 @@
         },
         {
           "letter": "C",
-          "text": "-11"
+          "text": "4"
         },
         {
           "letter": "D",
@@ -248,10 +248,10 @@
         },
         {
           "letter": "E",
-          "text": "4"
+          "text": "13"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "L1 has a slope of 3. A 90-degree rotation makes the new slope m = -1/3. \nL2 passes through the center of rotation (1, 4). \nEquation of L2: y - 4 = -1/3(x - 1) → y = -1/3*x + 1/3 + 4 = -1/3*x + 13/3. \nTo find the x-intercept, set y = 0: 0 = -1/3*x + 13/3 → 1/3*x = 13/3 → x = 13.",
       "hints": [
         "L1 has a slope of 3.",
@@ -268,26 +268,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "16/3"
-        },
-        {
-          "letter": "B",
           "text": "8/3"
         },
         {
+          "letter": "B",
+          "text": "4"
+        },
+        {
           "letter": "C",
-          "text": "32/3"
+          "text": "16/3"
         },
         {
           "letter": "D",
-          "text": "16"
+          "text": "32/3"
         },
         {
           "letter": "E",
-          "text": "4"
+          "text": "16"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "The intersections are at x² = 4, so x = -2 and x = 2. \nThe area is the integral from -2 to 2 of (4 - x²) dx. \nIntegral of 4 is 4x. Integral of -x² is -x³/3. \nEval at 2: 8 - 8/3 = 16/3. \nEval at -2: -8 - (-8/3) = -8 + 8/3 = -16/3. \nDifference: 16/3 - (-16/3) = 32/3.",
       "hints": [
         "The intersections are at x² = 4, so x = -2 and x = 2.",
@@ -304,7 +304,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "√17"
+          "text": "4"
         },
         {
           "letter": "B",
@@ -312,18 +312,18 @@
         },
         {
           "letter": "C",
-          "text": "4"
-        },
-        {
-          "letter": "D",
           "text": "5"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "3"
+        },
+        {
+          "letter": "E",
+          "text": "√17"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "By Power of a Point theorem, length of tangent T squared is equal to the power of the origin relative to the circle. T² = (x - h)² + (y - k)² - R² evaluated at (0,0), which equals h² + k² - R². Or more simply, if the circle is (x - x1)(x - x2) + (y - y1)(y - y2) = 0. \nThe circle with diameter AB is (x - 1)(x - 5) + (y - 2)(y - 6) = 0. \nThe tangent length squared from origin is evaluating that expression at (0,0): \nT² = (0 - 1)(0 - 5) + (0 - 2)(0 - 6) = (1*5) + (2*6) = 5 + 12 = 17. \nTherefore, the length of the tangent is √17.",
       "hints": [
         "By Power of a Point theorem, length of tangent T squared is equal to the power of the origin relative to the circle.",
@@ -344,7 +344,7 @@
         },
         {
           "letter": "B",
-          "text": "3"
+          "text": "6"
         },
         {
           "letter": "C",
@@ -352,11 +352,11 @@
         },
         {
           "letter": "D",
-          "text": "5"
+          "text": "3"
         },
         {
           "letter": "E",
-          "text": "6"
+          "text": "5"
         }
       ],
       "correct_answer": "A",
@@ -376,26 +376,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "35"
-        },
-        {
-          "letter": "B",
-          "text": "38"
-        },
-        {
-          "letter": "C",
           "text": "34"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "30"
+        },
+        {
+          "letter": "C",
+          "text": "38"
+        },
+        {
+          "letter": "D",
+          "text": "35"
         },
         {
           "letter": "E",
           "text": "33"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (3-0)² + (7-2)² = 34.",
       "hints": [
         "Distance squared = (x2-x1)² + (y2-y1)² = (3-0)² + (7-2)² = 34."
@@ -410,26 +410,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "50"
+          "text": "46"
         },
         {
           "letter": "B",
-          "text": "54"
-        },
-        {
-          "letter": "C",
-          "text": "49"
-        },
-        {
-          "letter": "D",
           "text": "51"
         },
         {
+          "letter": "C",
+          "text": "50"
+        },
+        {
+          "letter": "D",
+          "text": "54"
+        },
+        {
           "letter": "E",
-          "text": "46"
+          "text": "49"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (7-2)² + (0--5)² = 50.",
       "hints": [
         "Distance squared = (x2-x1)² + (y2-y1)² = (7-2)² + (0--5)² = 50."
@@ -444,26 +444,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "9"
+          "text": "11"
         },
         {
           "letter": "B",
-          "text": "6"
-        },
-        {
-          "letter": "C",
-          "text": "10"
-        },
-        {
-          "letter": "D",
           "text": "14"
         },
         {
+          "letter": "C",
+          "text": "9"
+        },
+        {
+          "letter": "D",
+          "text": "6"
+        },
+        {
           "letter": "E",
-          "text": "11"
+          "text": "10"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (-2--3)² + (8-5)² = 10.",
       "hints": [
         "Distance squared = (x2-x1)² + (y2-y1)² = (-2--3)² + (8-5)² = 10."
@@ -482,7 +482,7 @@
         },
         {
           "letter": "B",
-          "text": "21"
+          "text": "24"
         },
         {
           "letter": "C",
@@ -494,7 +494,7 @@
         },
         {
           "letter": "E",
-          "text": "24"
+          "text": "21"
         }
       ],
       "correct_answer": "C",
@@ -516,11 +516,11 @@
         },
         {
           "letter": "B",
-          "text": "25"
+          "text": "27"
         },
         {
           "letter": "C",
-          "text": "27"
+          "text": "22"
         },
         {
           "letter": "D",
@@ -528,7 +528,7 @@
         },
         {
           "letter": "E",
-          "text": "22"
+          "text": "25"
         }
       ],
       "correct_answer": "A",
@@ -546,26 +546,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "13"
-        },
-        {
-          "letter": "B",
-          "text": "14"
-        },
-        {
-          "letter": "C",
           "text": "9"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "12"
+        },
+        {
+          "letter": "C",
           "text": "17"
         },
         {
+          "letter": "D",
+          "text": "14"
+        },
+        {
           "letter": "E",
-          "text": "12"
+          "text": "13"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (5-2)² + (6-4)² = 13.",
       "hints": [
         "Distance squared = (x2-x1)² + (y2-y1)² = (5-2)² + (6-4)² = 13."
@@ -584,22 +584,22 @@
         },
         {
           "letter": "B",
-          "text": "14"
-        },
-        {
-          "letter": "C",
           "text": "10"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "11"
+        },
+        {
+          "letter": "D",
+          "text": "14"
         },
         {
           "letter": "E",
           "text": "6"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (2--1)² + (4-3)² = 10.",
       "hints": [
         "Distance squared = (x2-x1)² + (y2-y1)² = (2--1)² + (4-3)² = 10."
@@ -618,11 +618,11 @@
         },
         {
           "letter": "B",
-          "text": "-2"
+          "text": "3"
         },
         {
           "letter": "C",
-          "text": "3"
+          "text": "2"
         },
         {
           "letter": "D",
@@ -630,10 +630,10 @@
         },
         {
           "letter": "E",
-          "text": "2"
+          "text": "-2"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "C",
       "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (-2--3)² + (2-1)² = 2.",
       "hints": [
         "Distance squared = (x2-x1)² + (y2-y1)² = (-2--3)² + (2-1)² = 2."
@@ -648,11 +648,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "17"
+          "text": "19"
         },
         {
           "letter": "B",
-          "text": "19"
+          "text": "22"
         },
         {
           "letter": "C",
@@ -660,11 +660,11 @@
         },
         {
           "letter": "D",
-          "text": "14"
+          "text": "17"
         },
         {
           "letter": "E",
-          "text": "22"
+          "text": "14"
         }
       ],
       "correct_answer": "C",
@@ -682,11 +682,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "34"
+          "text": "30"
         },
         {
           "letter": "B",
-          "text": "30"
+          "text": "35"
         },
         {
           "letter": "C",
@@ -694,14 +694,14 @@
         },
         {
           "letter": "D",
-          "text": "33"
+          "text": "34"
         },
         {
           "letter": "E",
-          "text": "35"
+          "text": "33"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (2--3)² + (1--2)² = 34.",
       "hints": [
         "Distance squared = (x2-x1)² + (y2-y1)² = (2--3)² + (1--2)² = 34."
@@ -716,26 +716,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
-        },
-        {
-          "letter": "B",
           "text": "6"
         },
         {
+          "letter": "B",
+          "text": "1"
+        },
+        {
           "letter": "C",
-          "text": "3"
+          "text": "2"
         },
         {
           "letter": "D",
-          "text": "1"
+          "text": "3"
         },
         {
           "letter": "E",
           "text": "-2"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (2-1)² + (0--1)² = 2.",
       "hints": [
         "Distance squared = (x2-x1)² + (y2-y1)² = (2-1)² + (0--1)² = 2."
@@ -754,22 +754,22 @@
         },
         {
           "letter": "B",
-          "text": "30"
-        },
-        {
-          "letter": "C",
-          "text": "22"
-        },
-        {
-          "letter": "D",
           "text": "27"
         },
         {
-          "letter": "E",
+          "letter": "C",
+          "text": "30"
+        },
+        {
+          "letter": "D",
           "text": "26"
+        },
+        {
+          "letter": "E",
+          "text": "22"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "D",
       "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (1-0)² + (10-5)² = 26.",
       "hints": [
         "Distance squared = (x2-x1)² + (y2-y1)² = (1-0)² + (10-5)² = 26."
@@ -784,26 +784,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "25"
-        },
-        {
-          "letter": "B",
-          "text": "21"
-        },
-        {
-          "letter": "C",
           "text": "29"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "25"
+        },
+        {
+          "letter": "C",
           "text": "24"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "26"
+        },
+        {
+          "letter": "E",
+          "text": "21"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (4-1)² + (5-1)² = 25.",
       "hints": [
         "Distance squared = (x2-x1)² + (y2-y1)² = (4-1)² + (5-1)² = 25."
@@ -818,26 +818,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "19"
-        },
-        {
-          "letter": "B",
-          "text": "16"
-        },
-        {
-          "letter": "C",
           "text": "20"
         },
         {
+          "letter": "B",
+          "text": "21"
+        },
+        {
+          "letter": "C",
+          "text": "16"
+        },
+        {
           "letter": "D",
-          "text": "24"
+          "text": "19"
         },
         {
           "letter": "E",
-          "text": "21"
+          "text": "24"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (7-5)² + (7-3)² = 20.",
       "hints": [
         "Distance squared = (x2-x1)² + (y2-y1)² = (7-5)² + (7-3)² = 20."
@@ -852,26 +852,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "18"
-        },
-        {
-          "letter": "B",
-          "text": "17"
-        },
-        {
-          "letter": "C",
-          "text": "13"
-        },
-        {
-          "letter": "D",
           "text": "21"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "18"
+        },
+        {
+          "letter": "C",
           "text": "16"
+        },
+        {
+          "letter": "D",
+          "text": "17"
+        },
+        {
+          "letter": "E",
+          "text": "13"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (0--4)² + (2-1)² = 17.",
       "hints": [
         "Distance squared = (x2-x1)² + (y2-y1)² = (0--4)² + (2-1)² = 17."

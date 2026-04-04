@@ -69,15 +69,15 @@
         },
         {
           "letter": "B",
-          "text": "Careless"
-        },
-        {
-          "letter": "C",
           "text": "Intelligent"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "Lazy"
+        },
+        {
+          "letter": "D",
+          "text": "Careless"
         },
         {
           "letter": "E",
@@ -101,26 +101,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Given"
-        },
-        {
-          "letter": "B",
-          "text": "Prescribed"
-        },
-        {
-          "letter": "C",
-          "text": "Dissolved"
-        },
-        {
-          "letter": "D",
           "text": "Tested"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "Given"
+        },
+        {
+          "letter": "C",
           "text": "Rejected"
+        },
+        {
+          "letter": "D",
+          "text": "Prescribed"
+        },
+        {
+          "letter": "E",
+          "text": "Dissolved"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "In a medical context, administer = to give medicine to a patient. The sentence describes the dosing routine → **given** ✓.",
       "hints": [
         "Medical context: 'administered to the patient'.",
@@ -149,11 +149,11 @@
         },
         {
           "letter": "D",
-          "text": "Emotional"
+          "text": "Unprepared"
         },
         {
           "letter": "E",
-          "text": "Unprepared"
+          "text": "Emotional"
         }
       ],
       "correct_answer": "A",
@@ -173,15 +173,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "Put into effect"
+          "text": "Violated"
         },
         {
           "letter": "B",
-          "text": "Cancelled"
+          "text": "Proposed"
         },
         {
           "letter": "C",
-          "text": "Proposed"
+          "text": "Put into effect"
         },
         {
           "letter": "D",
@@ -189,10 +189,10 @@
         },
         {
           "letter": "E",
-          "text": "Violated"
+          "text": "Cancelled"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "A law that is 'enacted' is officially made into law. Context: it was made to protect rights (a completed action). → **put into effect** ✓.",
       "hints": [
         "'Enacted' describes what happened to the law — it became official.",
@@ -209,26 +209,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Seemingly reasonable or probable"
+          "text": "Dangerous"
         },
         {
           "letter": "B",
-          "text": "Certainly true"
+          "text": "Seemingly reasonable or probable"
         },
         {
           "letter": "C",
-          "text": "Impossible"
-        },
-        {
-          "letter": "D",
           "text": "Confusing"
         },
         {
+          "letter": "D",
+          "text": "Certainly true"
+        },
+        {
           "letter": "E",
-          "text": "Dangerous"
+          "text": "Impossible"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "'Plausible' = appearing likely to be true or valid, but not proven. Context: 'supported by preliminary (early) data' — not proven, but reasonable → **seemingly reasonable or probable** ✓.",
       "hints": [
         "Not fully proven but supported by data — how would you describe that?",
@@ -245,26 +245,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Plentiful"
-        },
-        {
-          "letter": "B",
           "text": "Limited"
         },
         {
-          "letter": "C",
-          "text": "Wasted"
-        },
-        {
-          "letter": "D",
+          "letter": "B",
           "text": "Borrowed"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "Hidden"
+        },
+        {
+          "letter": "D",
+          "text": "Wasted"
+        },
+        {
+          "letter": "E",
+          "text": "Plentiful"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Context: enough resources for 'multiple projects simultaneously' → there's a lot. 'Abundant' = present in large quantities → **plentiful** ✓.",
       "hints": [
         "Multiple projects at once — suggests plenty of resources.",
@@ -281,15 +281,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "Not serious"
+          "text": "Unexpected"
         },
         {
           "letter": "B",
-          "text": "Severe"
+          "text": "Not serious"
         },
         {
           "letter": "C",
-          "text": "Unexpected"
+          "text": "Complex"
         },
         {
           "letter": "D",
@@ -297,10 +297,10 @@
         },
         {
           "letter": "E",
-          "text": "Complex"
+          "text": "Severe"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Recovery within a week suggests it wasn't serious. 'Minor' = small in importance or seriousness → **not serious** ✓.",
       "hints": [
         "'Within a week' = quick recovery → not a serious injury.",
@@ -317,26 +317,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Introducing new ideas"
-        },
-        {
-          "letter": "B",
-          "text": "Traditional"
-        },
-        {
-          "letter": "C",
           "text": "Expensive"
         },
         {
+          "letter": "B",
+          "text": "Introducing new ideas"
+        },
+        {
+          "letter": "C",
+          "text": "Copied"
+        },
+        {
           "letter": "D",
-          "text": "Simple"
+          "text": "Traditional"
         },
         {
           "letter": "E",
-          "text": "Copied"
+          "text": "Simple"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Context: wins a competition → the design stood out. 'Innovative' = featuring new methods or ideas → **introducing new ideas** ✓.",
       "hints": [
         "Won a competition — the design must have been special/original.",
@@ -353,26 +353,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Portrayed"
-        },
-        {
-          "letter": "B",
-          "text": "Criticized"
-        },
-        {
-          "letter": "C",
           "text": "Simplified"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "Fabricated"
+        },
+        {
+          "letter": "C",
+          "text": "Criticized"
+        },
+        {
+          "letter": "D",
+          "text": "Portrayed"
         },
         {
           "letter": "E",
           "text": "Ignored"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "'Depicted' = represented or showed in a picture/film/description. Context: the documentary captured life accurately → **portrayed** ✓.",
       "hints": [
         "A documentary 'depicts' what it shows.",
@@ -389,15 +389,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "Unstable and chaotic"
+          "text": "Global"
         },
         {
           "letter": "B",
-          "text": "Favorable"
+          "text": "Predictable"
         },
         {
           "letter": "C",
-          "text": "Predictable"
+          "text": "Unstable and chaotic"
         },
         {
           "letter": "D",
@@ -405,10 +405,10 @@
         },
         {
           "letter": "E",
-          "text": "Global"
+          "text": "Favorable"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "'Despite' signals a contrast — growing revenue was difficult despite the conditions. 'Turbulent' = characterized by confusion and disorder → **unstable and chaotic** ✓.",
       "hints": [
         "'Despite' = the conditions were against growth.",
@@ -425,26 +425,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Intended for only a small number of specialists"
-        },
-        {
-          "letter": "B",
-          "text": "Simple and clear"
-        },
-        {
-          "letter": "C",
-          "text": "Long and boring"
-        },
-        {
-          "letter": "D",
           "text": "Widely accessible"
         },
         {
-          "letter": "E",
+          "letter": "B",
           "text": "Inspiring"
+        },
+        {
+          "letter": "C",
+          "text": "Intended for only a small number of specialists"
+        },
+        {
+          "letter": "D",
+          "text": "Long and boring"
+        },
+        {
+          "letter": "E",
+          "text": "Simple and clear"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Context: 'most students confused' + 'highly specialized jargon' → the content was only understandable to experts. 'Esoteric' = understood by only a small group with specialized knowledge → **intended for only a small number of specialists** ✓.",
       "hints": [
         "Most students were confused — who could understand it?",
@@ -465,7 +465,7 @@
         },
         {
           "letter": "B",
-          "text": "Lenient"
+          "text": "Popular"
         },
         {
           "letter": "C",
@@ -473,11 +473,11 @@
         },
         {
           "letter": "D",
-          "text": "Financial"
+          "text": "Lenient"
         },
         {
           "letter": "E",
-          "text": "Popular"
+          "text": "Financial"
         }
       ],
       "correct_answer": "A",
@@ -501,19 +501,19 @@
         },
         {
           "letter": "B",
-          "text": "Mildly positive"
+          "text": "Detailed but fair"
         },
         {
           "letter": "C",
-          "text": "Objective and neutral"
+          "text": "Mildly positive"
         },
         {
           "letter": "D",
-          "text": "Enthusiastic"
+          "text": "Objective and neutral"
         },
         {
           "letter": "E",
-          "text": "Detailed but fair"
+          "text": "Enthusiastic"
         }
       ],
       "correct_answer": "A",
@@ -533,15 +533,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "Practical and focused on real-world outcomes"
+          "text": "Aggressive"
         },
         {
           "letter": "B",
-          "text": "Idealistic"
+          "text": "Practical and focused on real-world outcomes"
         },
         {
           "letter": "C",
-          "text": "Aggressive"
+          "text": "Rigid"
         },
         {
           "letter": "D",
@@ -549,10 +549,10 @@
         },
         {
           "letter": "E",
-          "text": "Rigid"
+          "text": "Idealistic"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "The sentence contrasts 'practical results' with 'theoretical ideals' — pragmatic is on the practical side. 'Pragmatic' = dealing with things realistically → **practical and focused on real-world outcomes** ✓.",
       "hints": [
         "'Rather than theoretical' = the word is the opposite of theoretical.",
@@ -569,26 +569,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Put at risk"
-        },
-        {
-          "letter": "B",
-          "text": "Improved"
-        },
-        {
-          "letter": "C",
           "text": "Completed"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "Publicized"
+        },
+        {
+          "letter": "C",
           "text": "Extended"
         },
         {
+          "letter": "D",
+          "text": "Put at risk"
+        },
+        {
           "letter": "E",
-          "text": "Publicized"
+          "text": "Improved"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "Withdrawal of funding is a threat → the project's success was endangered. 'Jeopardize' = to endanger/put at risk → **put at risk** ✓.",
       "hints": [
         "Losing funding is bad for a project — what happened to it?",
@@ -605,15 +605,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "Sell off or dispose of"
-        },
-        {
-          "letter": "B",
           "text": "Acquire"
         },
         {
+          "letter": "B",
+          "text": "Insure"
+        },
+        {
           "letter": "C",
-          "text": "Develop"
+          "text": "Sell off or dispose of"
         },
         {
           "letter": "D",
@@ -621,10 +621,10 @@
         },
         {
           "letter": "E",
-          "text": "Insure"
+          "text": "Develop"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Context: after divesting petroleum assets, they shifted to renewable investment. They moved AWAY from petroleum → they got rid of those assets. 'Divest' = to sell off holdings → **sell off or dispose of** ✓.",
       "hints": [
         "The company shifted AWAY from petroleum → they must have removed those assets.",
@@ -641,26 +641,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Clear and direct"
+          "text": "Surprisingly positive"
         },
         {
           "letter": "B",
-          "text": "Deliberately ambiguous"
-        },
-        {
-          "letter": "C",
           "text": "Emotionally charged"
         },
         {
+          "letter": "C",
+          "text": "Deliberately ambiguous"
+        },
+        {
           "letter": "D",
-          "text": "Surprisingly positive"
+          "text": "Clear and direct"
         },
         {
           "letter": "E",
           "text": "Completely evasive"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "Context: 'neither confirmed nor denied' — the response went both ways, pleasing neither side. 'Equivocal' = open to interpretation; ambiguous on purpose → **deliberately ambiguous** ✓.",
       "hints": [
         "'Neither confirmed nor denied' = the answer was unclear by design.",
@@ -677,11 +677,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "Occasional"
+          "text": "Negative"
         },
         {
           "letter": "B",
-          "text": "Negative"
+          "text": "Underestimated"
         },
         {
           "letter": "C",
@@ -689,11 +689,11 @@
         },
         {
           "letter": "D",
-          "text": "Underestimated"
+          "text": "Temporary"
         },
         {
           "letter": "E",
-          "text": "Temporary"
+          "text": "Occasional"
         }
       ],
       "correct_answer": "C",
@@ -713,11 +713,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "Responding diplomatically"
+          "text": "Arguing against"
         },
         {
           "letter": "B",
-          "text": "Yielding or surrendering"
+          "text": "Consulting with"
         },
         {
           "letter": "C",
@@ -725,14 +725,14 @@
         },
         {
           "letter": "D",
-          "text": "Arguing against"
+          "text": "Responding diplomatically"
         },
         {
           "letter": "E",
-          "text": "Consulting with"
+          "text": "Yielding or surrendering"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "E",
       "explanation": "'Rather than capitulating' = she DIDN'T do it, and instead 'maintained her stance'. The sentence contrasts doing X with maintaining her position. 'Capitulate' = to give in/surrender → **yielding or surrendering** ✓.",
       "hints": [
         "'Rather than' = she chose NOT to do this, instead maintaining her stance.",
@@ -749,7 +749,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Productive and structured"
+          "text": "Occasional and minor"
         },
         {
           "letter": "B",
@@ -761,11 +761,11 @@
         },
         {
           "letter": "D",
-          "text": "Occasional and minor"
+          "text": "Technical and complex"
         },
         {
           "letter": "E",
-          "text": "Technical and complex"
+          "text": "Productive and structured"
         }
       ],
       "correct_answer": "B",
@@ -785,7 +785,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Hidden"
+          "text": "Well-communicated"
         },
         {
           "letter": "B",
@@ -797,11 +797,11 @@
         },
         {
           "letter": "D",
-          "text": "Financially motivated"
+          "text": "Hidden"
         },
         {
           "letter": "E",
-          "text": "Well-communicated"
+          "text": "Financially motivated"
         }
       ],
       "correct_answer": "B",
@@ -821,26 +821,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Showing good judgment"
-        },
-        {
-          "letter": "B",
           "text": "Equal"
         },
         {
-          "letter": "C",
-          "text": "Generous"
-        },
-        {
-          "letter": "D",
+          "letter": "B",
           "text": "Legally binding"
         },
         {
-          "letter": "E",
+          "letter": "C",
+          "text": "Showing good judgment"
+        },
+        {
+          "letter": "D",
           "text": "Arbitrary"
+        },
+        {
+          "letter": "E",
+          "text": "Generous"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "'Every department received adequate funding without waste' = the right amount for each → careful, sensible decision-making. 'Judicious' = having or showing good judgment → **showing good judgment** ✓.",
       "hints": [
         "'No waste but adequate funding' = a smart, carefully considered decision.",
@@ -857,15 +857,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "Contradicted"
+          "text": "Summarized"
         },
         {
           "letter": "B",
-          "text": "Replaced"
+          "text": "Contradicted"
         },
         {
           "letter": "C",
-          "text": "Confirmed and supported"
+          "text": "Replaced"
         },
         {
           "letter": "D",
@@ -873,10 +873,10 @@
         },
         {
           "letter": "E",
-          "text": "Summarized"
+          "text": "Confirmed and supported"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "'Strengthening confidence in the conclusions' = the new findings agreed with earlier studies. 'Corroborate' = to confirm or support with evidence → **confirmed and supported** ✓.",
       "hints": [
         "'Strengthening confidence' = the findings agreed with what was before.",
@@ -893,26 +893,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Unexpected"
-        },
-        {
-          "letter": "B",
           "text": "Complex"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "Severe"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "Not serious"
+        },
+        {
+          "letter": "D",
+          "text": "Unexpected"
         },
         {
           "letter": "E",
           "text": "Permanent"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C",
       "explanation": "Recovery within a week suggests it wasn't serious. 'Minor' = small in importance or seriousness → **not serious** ✓.",
       "hints": [
         "'Within a week' = quick recovery → not a serious injury.",
@@ -929,7 +929,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Rejected"
+          "text": "Dissolved"
         },
         {
           "letter": "B",
@@ -937,11 +937,11 @@
         },
         {
           "letter": "C",
-          "text": "Dissolved"
+          "text": "Tested"
         },
         {
           "letter": "D",
-          "text": "Tested"
+          "text": "Rejected"
         },
         {
           "letter": "E",

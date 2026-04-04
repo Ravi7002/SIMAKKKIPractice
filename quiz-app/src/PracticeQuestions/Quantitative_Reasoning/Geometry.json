@@ -18,15 +18,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "200 cm³"
+          "text": "19 cm³"
         },
         {
           "letter": "B",
-          "text": "100 cm³"
+          "text": "20 cm³"
         },
         {
           "letter": "C",
-          "text": "19 cm³"
+          "text": "100 cm³"
         },
         {
           "letter": "D",
@@ -34,10 +34,10 @@
         },
         {
           "letter": "E",
-          "text": "20 cm³"
+          "text": "200 cm³"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Volume is simply Length × Width × Height. So, 4 × 5 × 10 = 200 cm³.",
       "hints": [
         "Volume is simply Length × Width × Height.",
@@ -53,26 +53,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "8 inches"
-        },
-        {
-          "letter": "B",
           "text": "6 inches"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "4 inches"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "16 inches"
+        },
+        {
+          "letter": "D",
+          "text": "8 inches"
         },
         {
           "letter": "E",
           "text": "2 inches"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "The volume of a cube is s³. Since s³ = 64, we take the cube root of 64, which is 4.",
       "hints": [
         "The volume of a cube is s³.",
@@ -88,26 +88,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "74"
-        },
-        {
-          "letter": "B",
-          "text": "120"
-        },
-        {
-          "letter": "C",
           "text": "14400"
         },
         {
+          "letter": "B",
+          "text": "74"
+        },
+        {
+          "letter": "C",
+          "text": "120"
+        },
+        {
           "letter": "D",
-          "text": "240"
+          "text": "864"
         },
         {
           "letter": "E",
-          "text": "864"
+          "text": "240"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "The areas are xy=20, yz=30, xz=24. If we multiply them together: (xy)(yz)(xz) = x²y²z² = 20 × 30 × 24 = 14400. Since Volume V = xyz, we take the square root. V = √14400 = 120. Don't pick 14400, that is V²!",
       "hints": [
         "The areas are xy=20, yz=30, xz=24.",
@@ -124,15 +124,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "25"
+          "text": "150"
         },
         {
           "letter": "B",
-          "text": "100"
+          "text": "25"
         },
         {
           "letter": "C",
-          "text": "150"
+          "text": "625"
         },
         {
           "letter": "D",
@@ -140,7 +140,7 @@
         },
         {
           "letter": "E",
-          "text": "625"
+          "text": "100"
         }
       ],
       "correct_answer": "D",
@@ -164,7 +164,7 @@
         },
         {
           "letter": "B",
-          "text": "8 : 27"
+          "text": "16 : 81"
         },
         {
           "letter": "C",
@@ -172,14 +172,14 @@
         },
         {
           "letter": "D",
-          "text": "16 : 81"
+          "text": "8 : 27"
         },
         {
           "letter": "E",
           "text": "6 : 9"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "When a 1D length ratio is A : B, the 3D volume ratio becomes A³ : B³. Here, 2³ : 3³ equals 8 : 27.",
       "hints": [
         "When a 1D length ratio is A : B, the 3D volume ratio becomes A³ : B³.",
@@ -199,22 +199,22 @@
         },
         {
           "letter": "B",
-          "text": "10 cm"
-        },
-        {
-          "letter": "C",
-          "text": "5 cm"
-        },
-        {
-          "letter": "D",
           "text": "15 cm"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "25 cm"
+        },
+        {
+          "letter": "D",
+          "text": "10 cm"
+        },
+        {
+          "letter": "E",
+          "text": "5 cm"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "If the base is a square with side s, its diagonal is s√2. Since s√2 = 10√2, s = 10 cm. The area of the square base is 10 × 10 = 100 cm². Volume = Base_Area × Height. So, 1000 = 100 × H → H = 10 cm.",
       "hints": [
         "If the base is a square with side s, its diagonal is s√2.",
@@ -231,7 +231,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "66π"
+          "text": "60π"
         },
         {
           "letter": "B",
@@ -247,10 +247,10 @@
         },
         {
           "letter": "E",
-          "text": "60π"
+          "text": "66π"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Volume V = πr²h. So 72π = πr²(8) → 72 = 8r² → r² = 9 → r = 3. \nTotal surface area = 2πr² (bases) + 2πrh (lateral area). \nArea = 2π(3²) + 2π(3)(8) = 18π + 48π = 66π.",
       "hints": [
         "Volume V = πr²h.",
@@ -267,7 +267,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "18"
+          "text": "54"
         },
         {
           "letter": "B",
@@ -275,15 +275,15 @@
         },
         {
           "letter": "C",
-          "text": "36"
+          "text": "18"
         },
         {
           "letter": "D",
-          "text": "24"
+          "text": "36"
         },
         {
           "letter": "E",
-          "text": "54"
+          "text": "24"
         }
       ],
       "correct_answer": "B",
@@ -303,7 +303,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "25π"
+          "text": "33.3π"
         },
         {
           "letter": "B",
@@ -311,15 +311,15 @@
         },
         {
           "letter": "C",
-          "text": "50π"
+          "text": "80π"
         },
         {
           "letter": "D",
-          "text": "33.3π"
+          "text": "50π"
         },
         {
           "letter": "E",
-          "text": "80π"
+          "text": "25π"
         }
       ],
       "correct_answer": "B",
@@ -339,26 +339,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "13 cm"
-        },
-        {
-          "letter": "B",
-          "text": "14.4 cm"
-        },
-        {
-          "letter": "C",
-          "text": "15 cm"
-        },
-        {
-          "letter": "D",
           "text": "√193 cm"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "13 cm"
+        },
+        {
+          "letter": "C",
+          "text": "14.4 cm"
+        },
+        {
+          "letter": "D",
           "text": "√225 cm"
+        },
+        {
+          "letter": "E",
+          "text": "15 cm"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A",
       "explanation": "To find the shortest walking path on the surface, we conceptually unbox or 'unfold' the box into a flat 2D shape. The ant can take 3 distinct unfolded paths involving the sides: \nPath 1 (fold 3 and 4 together against 12): √((3+4)² + 12²) = √(7² + 12²) = √(49 + 144) = √193. \nPath 2 (fold 3 and 12 together against 4): √((3+12)² + 4²) = √(15² + 16) = √(225 + 16) = √241. \nPath 3 (fold 4 and 12 together against 3): √((4+12)² + 3²) = √(16² + 9) = √(256 + 9) = √265. \nThe shortest of these 2D distances is √193.",
       "hints": [
         "To find the shortest walking path on the surface, we conceptually unbox or 'unfold' the box into a flat 2D shape.",
@@ -375,11 +375,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "60"
+          "text": "66"
         },
         {
           "letter": "B",
-          "text": "66"
+          "text": "62"
         },
         {
           "letter": "C",
@@ -387,7 +387,7 @@
         },
         {
           "letter": "D",
-          "text": "62"
+          "text": "60"
         },
         {
           "letter": "E",
@@ -409,26 +409,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "36"
-        },
-        {
-          "letter": "B",
-          "text": "34"
-        },
-        {
-          "letter": "C",
           "text": "28"
         },
         {
+          "letter": "B",
+          "text": "36"
+        },
+        {
+          "letter": "C",
+          "text": "34"
+        },
+        {
           "letter": "D",
-          "text": "30"
+          "text": "32"
         },
         {
           "letter": "E",
-          "text": "32"
+          "text": "30"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "D",
       "explanation": "Volume = l * w * h = 2 * 4 * 4 = 32.",
       "hints": [
         "Volume = l * w * h = 2 * 4 * 4 = 32."
@@ -443,15 +443,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "28"
+          "text": "22"
         },
         {
           "letter": "B",
-          "text": "20"
+          "text": "26"
         },
         {
           "letter": "C",
-          "text": "26"
+          "text": "20"
         },
         {
           "letter": "D",
@@ -459,7 +459,7 @@
         },
         {
           "letter": "E",
-          "text": "22"
+          "text": "28"
         }
       ],
       "correct_answer": "D",
@@ -485,15 +485,15 @@
         },
         {
           "letter": "C",
-          "text": "22"
+          "text": "28"
         },
         {
           "letter": "D",
-          "text": "26"
+          "text": "22"
         },
         {
           "letter": "E",
-          "text": "28"
+          "text": "26"
         }
       ],
       "correct_answer": "A",
@@ -511,26 +511,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "82"
-        },
-        {
-          "letter": "B",
-          "text": "84"
-        },
-        {
-          "letter": "C",
           "text": "76"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "82"
+        },
+        {
+          "letter": "C",
           "text": "80"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "78"
+        },
+        {
+          "letter": "E",
+          "text": "84"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C",
       "explanation": "Volume = l * w * h = 4 * 4 * 5 = 80.",
       "hints": [
         "Volume = l * w * h = 4 * 4 * 5 = 80."
@@ -545,26 +545,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "14"
-        },
-        {
-          "letter": "B",
-          "text": "16"
-        },
-        {
-          "letter": "C",
           "text": "18"
         },
         {
+          "letter": "B",
+          "text": "20"
+        },
+        {
+          "letter": "C",
+          "text": "14"
+        },
+        {
           "letter": "D",
-          "text": "12"
+          "text": "16"
         },
         {
           "letter": "E",
-          "text": "20"
+          "text": "12"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "Volume = l * w * h = 2 * 2 * 4 = 16.",
       "hints": [
         "Volume = l * w * h = 2 * 2 * 4 = 16."
@@ -579,7 +579,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "100"
+          "text": "96"
         },
         {
           "letter": "B",
@@ -587,7 +587,7 @@
         },
         {
           "letter": "C",
-          "text": "96"
+          "text": "98"
         },
         {
           "letter": "D",
@@ -595,10 +595,10 @@
         },
         {
           "letter": "E",
-          "text": "98"
+          "text": "100"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Volume = l * w * h = 5 * 4 * 5 = 100.",
       "hints": [
         "Volume = l * w * h = 5 * 4 * 5 = 100."
@@ -613,26 +613,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "44"
-        },
-        {
-          "letter": "B",
           "text": "40"
         },
         {
-          "letter": "C",
-          "text": "36"
+          "letter": "B",
+          "text": "44"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "42"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "38"
+        },
+        {
+          "letter": "E",
+          "text": "36"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "Volume = l * w * h = 5 * 2 * 4 = 40.",
       "hints": [
         "Volume = l * w * h = 5 * 2 * 4 = 40."
@@ -647,26 +647,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "80"
-        },
-        {
-          "letter": "B",
-          "text": "84"
-        },
-        {
-          "letter": "C",
           "text": "78"
         },
         {
+          "letter": "B",
+          "text": "80"
+        },
+        {
+          "letter": "C",
+          "text": "84"
+        },
+        {
           "letter": "D",
-          "text": "76"
+          "text": "82"
         },
         {
           "letter": "E",
-          "text": "82"
+          "text": "76"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Volume = l * w * h = 5 * 4 * 4 = 80.",
       "hints": [
         "Volume = l * w * h = 5 * 4 * 4 = 80."
@@ -681,26 +681,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "30"
-        },
-        {
-          "letter": "B",
           "text": "34"
         },
         {
+          "letter": "B",
+          "text": "30"
+        },
+        {
           "letter": "C",
-          "text": "32"
+          "text": "26"
         },
         {
           "letter": "D",
-          "text": "26"
+          "text": "32"
         },
         {
           "letter": "E",
           "text": "28"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Volume = l * w * h = 3 * 2 * 5 = 30.",
       "hints": [
         "Volume = l * w * h = 3 * 2 * 5 = 30."
@@ -719,7 +719,7 @@
         },
         {
           "letter": "B",
-          "text": "20"
+          "text": "16"
         },
         {
           "letter": "C",
@@ -727,14 +727,14 @@
         },
         {
           "letter": "D",
-          "text": "14"
+          "text": "20"
         },
         {
           "letter": "E",
-          "text": "16"
+          "text": "14"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B",
       "explanation": "Volume = l * w * h = 2 * 2 * 4 = 16.",
       "hints": [
         "Volume = l * w * h = 2 * 2 * 4 = 16."
@@ -753,15 +753,15 @@
         },
         {
           "letter": "B",
-          "text": "26"
-        },
-        {
-          "letter": "C",
           "text": "34"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "32"
+        },
+        {
+          "letter": "D",
+          "text": "26"
         },
         {
           "letter": "E",
@@ -783,26 +783,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "62"
-        },
-        {
-          "letter": "B",
-          "text": "60"
-        },
-        {
-          "letter": "C",
           "text": "64"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "62"
+        },
+        {
+          "letter": "C",
           "text": "58"
+        },
+        {
+          "letter": "D",
+          "text": "60"
         },
         {
           "letter": "E",
           "text": "56"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "Volume = l * w * h = 3 * 4 * 5 = 60.",
       "hints": [
         "Volume = l * w * h = 3 * 4 * 5 = 60."
@@ -821,22 +821,22 @@
         },
         {
           "letter": "B",
-          "text": "102"
-        },
-        {
-          "letter": "C",
           "text": "100"
         },
         {
+          "letter": "C",
+          "text": "96"
+        },
+        {
           "letter": "D",
-          "text": "104"
+          "text": "102"
         },
         {
           "letter": "E",
-          "text": "96"
+          "text": "104"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "Volume = l * w * h = 4 * 5 * 5 = 100.",
       "hints": [
         "Volume = l * w * h = 4 * 5 * 5 = 100."
@@ -851,26 +851,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "44"
-        },
-        {
-          "letter": "B",
-          "text": "38"
-        },
-        {
-          "letter": "C",
           "text": "40"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "36"
         },
         {
-          "letter": "E",
+          "letter": "C",
+          "text": "44"
+        },
+        {
+          "letter": "D",
           "text": "42"
+        },
+        {
+          "letter": "E",
+          "text": "38"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "Volume = l * w * h = 5 * 4 * 2 = 40.",
       "hints": [
         "Volume = l * w * h = 5 * 4 * 2 = 40."

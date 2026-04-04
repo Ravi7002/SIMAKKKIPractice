@@ -78,26 +78,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "5"
-        },
-        {
-          "letter": "B",
-          "text": "4"
-        },
-        {
-          "letter": "C",
-          "text": "6"
-        },
-        {
-          "letter": "D",
           "text": "3"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "6"
+        },
+        {
+          "letter": "C",
+          "text": "5"
+        },
+        {
+          "letter": "D",
           "text": "7"
+        },
+        {
+          "letter": "E",
+          "text": "4"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "log₂(32) = log₂(2⁵) = **5**",
       "hints": [
         "Express 32 as a power of 2.",
@@ -114,7 +114,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "1"
+          "text": "7"
         },
         {
           "letter": "B",
@@ -122,18 +122,18 @@
         },
         {
           "letter": "C",
-          "text": "7"
+          "text": "0"
         },
         {
           "letter": "D",
-          "text": "log 7"
+          "text": "1"
         },
         {
           "letter": "E",
-          "text": "0"
+          "text": "log 7"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "log 5 + log 2 = log(5×2) = log(10) = **1**",
       "hints": [
         "Product rule: log a + log b = log(ab).",
@@ -150,15 +150,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "4"
+          "text": "8"
         },
         {
           "letter": "B",
-          "text": "3"
+          "text": "5"
         },
         {
           "letter": "C",
-          "text": "8"
+          "text": "4"
         },
         {
           "letter": "D",
@@ -166,10 +166,10 @@
         },
         {
           "letter": "E",
-          "text": "5"
+          "text": "3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "2^x = 16 = 2⁴ → x = **4**",
       "hints": [
         "Express 16 as a power of 2.",
@@ -190,15 +190,15 @@
         },
         {
           "letter": "B",
-          "text": "3"
+          "text": "27"
         },
         {
           "letter": "C",
-          "text": "9"
+          "text": "3"
         },
         {
           "letter": "D",
-          "text": "27"
+          "text": "9"
         },
         {
           "letter": "E",
@@ -222,26 +222,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "0"
-        },
-        {
-          "letter": "B",
-          "text": "1"
-        },
-        {
-          "letter": "C",
-          "text": "5"
-        },
-        {
-          "letter": "D",
           "text": "-1"
         },
         {
-          "letter": "E",
+          "letter": "B",
           "text": "Undefined"
+        },
+        {
+          "letter": "C",
+          "text": "1"
+        },
+        {
+          "letter": "D",
+          "text": "5"
+        },
+        {
+          "letter": "E",
+          "text": "0"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "log_a(1) = 0 for any base a > 0, a ≠ 1 (since a⁰=1).",
       "hints": [
         "log_a(1) = ? Think: a^? = 1.",
@@ -258,7 +258,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "6"
+          "text": "4"
         },
         {
           "letter": "B",
@@ -270,14 +270,14 @@
         },
         {
           "letter": "D",
-          "text": "8"
+          "text": "6"
         },
         {
           "letter": "E",
-          "text": "4"
+          "text": "8"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "log₂(4) = log₂(2²) = 2\n3 × 2 = **6**",
       "hints": [
         "First evaluate log₂(4): 4=2², so log₂(4)=2.",
@@ -294,26 +294,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "100"
-        },
-        {
-          "letter": "B",
-          "text": "10"
-        },
-        {
-          "letter": "C",
-          "text": "20"
-        },
-        {
-          "letter": "D",
           "text": "1000"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "100"
+        },
+        {
+          "letter": "C",
           "text": "200"
+        },
+        {
+          "letter": "D",
+          "text": "10"
+        },
+        {
+          "letter": "E",
+          "text": "20"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "log x = 2 means log₁₀(x) = 2 → x = 10² = **100**",
       "hints": [
         "'log' without base means log base 10.",
@@ -330,26 +330,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "3"
-        },
-        {
-          "letter": "B",
-          "text": "2"
-        },
-        {
-          "letter": "C",
-          "text": "4"
-        },
-        {
-          "letter": "D",
           "text": "7"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "3"
+        },
+        {
+          "letter": "C",
+          "text": "2"
+        },
+        {
+          "letter": "D",
           "text": "1"
+        },
+        {
+          "letter": "E",
+          "text": "4"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "log₆(36) = log₆(6²) = 2\nlog₆(6) = 1\nSum = **3**",
       "hints": [
         "log₆(36) = log₆(6²) = 2.",
@@ -366,15 +366,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "4"
-        },
-        {
-          "letter": "B",
           "text": "6"
         },
         {
+          "letter": "B",
+          "text": "4"
+        },
+        {
           "letter": "C",
-          "text": "2"
+          "text": "-2"
         },
         {
           "letter": "D",
@@ -382,10 +382,10 @@
         },
         {
           "letter": "E",
-          "text": "-2"
+          "text": "2"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "log₂(x(x-2)) = 3 → x(x-2) = 8\nx²-2x-8=0 → (x-4)(x+2)=0\nx=4 or x=-2. But x>2 for domain → x = **4**",
       "hints": [
         "Combine: log₂(x(x-2)) = 3 → x(x-2)=2³=8.",
@@ -402,7 +402,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "3"
+          "text": "log 8"
         },
         {
           "letter": "B",
@@ -410,7 +410,7 @@
         },
         {
           "letter": "C",
-          "text": "log 8"
+          "text": "6"
         },
         {
           "letter": "D",
@@ -418,10 +418,10 @@
         },
         {
           "letter": "E",
-          "text": "6"
+          "text": "3"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Chain of change of base:**\n\nlog₂3 × log₃4 × log₄5 × log₅8\n= (log3/log2) × (log4/log3) × (log5/log4) × (log8/log5)\n= log8/log2 = log₂8 = log₂(2³) = **3**",
       "hints": [
         "Apply change of base: each logₐb = log(b)/log(a).",
@@ -438,7 +438,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "1.857"
+          "text": "2.0"
         },
         {
           "letter": "B",
@@ -446,18 +446,18 @@
         },
         {
           "letter": "C",
-          "text": "1.7"
+          "text": "1.857"
         },
         {
           "letter": "D",
-          "text": "2.0"
+          "text": "1.7"
         },
         {
           "letter": "E",
           "text": "1.9"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "72 = 8 × 9 = 2³ × 3²\nlog 72 = 3 log 2 + 2 log 3 = 3(0.301) + 2(0.477) = 0.903 + 0.954 = **1.857**",
       "hints": [
         "Factorize 72 into primes: 72 = 2³ × 3².",
@@ -474,15 +474,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "1 and 2"
-        },
-        {
-          "letter": "B",
           "text": "2 and 3"
         },
         {
+          "letter": "B",
+          "text": "-1 and 2"
+        },
+        {
           "letter": "C",
-          "text": "0 and 1"
+          "text": "1 and 2"
         },
         {
           "letter": "D",
@@ -490,10 +490,10 @@
         },
         {
           "letter": "E",
-          "text": "-1 and 2"
+          "text": "0 and 1"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Let u = 2^x. Then 4^x = u².\nu² - 6u + 8 = 0 → (u-2)(u-4) = 0\nu=2: 2^x=2 → x=1\nu=4: 2^x=4 → x=2\nAnswer: **x=1 or x=2**",
       "hints": [
         "Let u = 2^x. Then 4^x = (2^x)² = u².",
@@ -510,15 +510,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "1/2"
-        },
-        {
-          "letter": "B",
           "text": "1"
         },
         {
+          "letter": "B",
+          "text": "3/4"
+        },
+        {
           "letter": "C",
-          "text": "2"
+          "text": "1/2"
         },
         {
           "letter": "D",
@@ -526,10 +526,10 @@
         },
         {
           "letter": "E",
-          "text": "3/4"
+          "text": "2"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "= (log3/log2)(log4/log3)(log2/log4)\n= 1\n\nWait: log₄2 = log2/log4 = 1/2.\n(log₂3)(log₃4) = log₂4 = 2 (chain rule).\n2 × (1/2) = **1**\n\nHmm, that gives 1. Let me verify: log₄2 = 1/2 since 4^(1/2)=2. And log₂3×log₃4 = log₂4=2. So 2×1/2=1. But checking: actually result is 1/2 depending on grouping. With correct calculation: **1**.",
       "hints": [
         "Use chain rule for logs: log_a(b) × log_b(c) = log_a(c).",
@@ -546,7 +546,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "7.5"
+          "text": "6"
         },
         {
           "letter": "B",
@@ -554,7 +554,7 @@
         },
         {
           "letter": "C",
-          "text": "15"
+          "text": "7.5"
         },
         {
           "letter": "D",
@@ -562,10 +562,10 @@
         },
         {
           "letter": "E",
-          "text": "6"
+          "text": "15"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "log₄(2x+1) = 2 → 2x+1 = 4² = 16\n2x = 15 → x = **7.5**",
       "hints": [
         "Convert log to exponential form: 2x+1 = 4².",
@@ -582,26 +582,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
-        },
-        {
-          "letter": "B",
-          "text": "1"
-        },
-        {
-          "letter": "C",
           "text": "3"
         },
         {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "0"
+        },
+        {
           "letter": "D",
-          "text": "4"
+          "text": "1"
         },
         {
           "letter": "E",
-          "text": "0"
+          "text": "4"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "243 = 3⁵\n3^(2x+1) = 3⁵ → 2x+1=5 → 2x=4 → x=**2**",
       "hints": [
         "Express 243 as power of 3: 243=3⁵.",
@@ -618,26 +618,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "2a - b/2"
-        },
-        {
-          "letter": "B",
-          "text": "2a + b/2"
-        },
-        {
-          "letter": "C",
           "text": "a/2 - 2b"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "2a - b"
         },
         {
-          "letter": "E",
+          "letter": "C",
+          "text": "2a + b/2"
+        },
+        {
+          "letter": "D",
           "text": "a + b"
+        },
+        {
+          "letter": "E",
+          "text": "2a - b/2"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "log₂(x²/√y) = log₂(x²) - log₂(y^(1/2))\n= 2log₂x - (1/2)log₂y\n= **2a - b/2**",
       "hints": [
         "Split: log₂(x²) - log₂(√y).",
@@ -654,7 +654,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "6"
+          "text": "18"
         },
         {
           "letter": "B",
@@ -662,7 +662,7 @@
         },
         {
           "letter": "C",
-          "text": "18"
+          "text": "3"
         },
         {
           "letter": "D",
@@ -670,10 +670,10 @@
         },
         {
           "letter": "E",
-          "text": "3"
+          "text": "6"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Let a=3^x, b=2^x.\n6/b - 6/a = 1 → 6(a-b)/(ab) = 1\nFrom a-b=1: 6/(ab)=1 → ab=6\n6^x = 3^x × 2^x = a×b = **6**",
       "hints": [
         "Let a=3^x, b=2^x. The equations become a-b=1 and 6(a-b)/(ab)=1.",
@@ -690,7 +690,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "4⁹"
+          "text": "64^4"
         },
         {
           "letter": "B",
@@ -706,10 +706,10 @@
         },
         {
           "letter": "E",
-          "text": "64^4"
+          "text": "4⁹"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "log₂(log₃(log₄(x))) = 1\n→ log₃(log₄(x)) = 2^1 = 2\n→ log₄(x) = 3^2 = 9\n→ x = 4^9\n= **(4⁹)**",
       "hints": [
         "Work from outside in: log₂(□)=1 → □=2.",
@@ -726,26 +726,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "(p+2)/(p+1)"
-        },
-        {
-          "letter": "B",
           "text": "(2p+1)/(p+1)"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "p/(p+1)"
         },
         {
+          "letter": "C",
+          "text": "(p+2)/(p+1)"
+        },
+        {
           "letter": "D",
-          "text": "(p+1)/p"
+          "text": "2p/(p+1)"
         },
         {
           "letter": "E",
-          "text": "2p/(p+1)"
+          "text": "(p+1)/p"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "log₆ 12 = log₆(4×3) = log₆4 + log₆3\n= log₆(2²) + log₆3\n= 2log₆2 + log₆3\n\nUsing change of base: log₆2 = 1/(log₂6) = 1/(1+p), log₆3 = p/(1+p)\n= 2/(1+p) + p/(1+p) = (p+2)/(p+1)",
       "hints": [
         "Express 12 = 4×3 = 2²×3. log₆12 = 2log₆2 + log₆3.",
@@ -762,26 +762,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "1"
-        },
-        {
-          "letter": "B",
-          "text": "2"
-        },
-        {
-          "letter": "C",
           "text": "0"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "3"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "Infinitely many"
+        },
+        {
+          "letter": "D",
+          "text": "2"
+        },
+        {
+          "letter": "E",
+          "text": "1"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "log(x²-x-2) = log(x+2)\n→ x²-x-2 = x+2\n→ x²-2x-4 = 0\n→ x = (2±√(4+16))/2 = 1±√5\n\nDomain: x+2>0 → x>-2; x²-x-2>0 → x>2 or x<-1.\nCheck x=1+√5≈3.24: x>2 ✓\nCheck x=1-√5≈-1.24: x<-2? No, x≈-1.24>-2 ✓ but also need x<-1 ✓\n\nBoth solutions qualify. Answer: **2** solutions.",
       "hints": [
         "Set arguments equal: x²-x-2 = x+2. Solve quadratic.",
@@ -802,7 +802,7 @@
         },
         {
           "letter": "B",
-          "text": "2"
+          "text": "log₃ 45"
         },
         {
           "letter": "C",
@@ -810,14 +810,14 @@
         },
         {
           "letter": "D",
-          "text": "log₃ 5"
+          "text": "2"
         },
         {
           "letter": "E",
-          "text": "log₃ 45"
+          "text": "log₃ 5"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "Let u = 3^x. Then 9^x = u².\nu² - 4u - 45 = 0\n(u-9)(u+5) = 0\nu=9 (u=-5 invalid, as 3^x>0)\n3^x = 9 = 3² → x = **2**",
       "hints": [
         "Let u=3^x, so 9^x=u².",
@@ -834,26 +834,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "-2"
-        },
-        {
-          "letter": "B",
-          "text": "8"
-        },
-        {
-          "letter": "C",
           "text": "2"
         },
         {
+          "letter": "B",
+          "text": "4"
+        },
+        {
+          "letter": "C",
+          "text": "8"
+        },
+        {
           "letter": "D",
-          "text": "6"
+          "text": "-2"
         },
         {
           "letter": "E",
-          "text": "4"
+          "text": "6"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B",
       "explanation": "log₂(x(x-2)) = 3 → x(x-2) = 8\nx²-2x-8=0 → (x-4)(x+2)=0\nx=4 or x=-2. But x>2 for domain → x = **4**",
       "hints": [
         "Combine: log₂(x(x-2)) = 3 → x(x-2)=2³=8.",
@@ -870,26 +870,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
-        },
-        {
-          "letter": "B",
-          "text": "7"
-        },
-        {
-          "letter": "C",
           "text": "3"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "1"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "7"
+        },
+        {
+          "letter": "E",
+          "text": "2"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "log₆(36) = log₆(6²) = 2\nlog₆(6) = 1\nSum = **3**",
       "hints": [
         "log₆(36) = log₆(6²) = 2.",
@@ -910,7 +910,7 @@
         },
         {
           "letter": "B",
-          "text": "2"
+          "text": "7"
         },
         {
           "letter": "C",
@@ -918,11 +918,11 @@
         },
         {
           "letter": "D",
-          "text": "7"
+          "text": "4"
         },
         {
           "letter": "E",
-          "text": "4"
+          "text": "2"
         }
       ],
       "correct_answer": "A",
@@ -942,26 +942,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "1"
-        },
-        {
-          "letter": "B",
-          "text": "3"
-        },
-        {
-          "letter": "C",
-          "text": "7"
-        },
-        {
-          "letter": "D",
           "text": "4"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "7"
+        },
+        {
+          "letter": "C",
           "text": "2"
+        },
+        {
+          "letter": "D",
+          "text": "1"
+        },
+        {
+          "letter": "E",
+          "text": "3"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "E",
       "explanation": "log₆(36) = log₆(6²) = 2\nlog₆(6) = 1\nSum = **3**",
       "hints": [
         "log₆(36) = log₆(6²) = 2.",

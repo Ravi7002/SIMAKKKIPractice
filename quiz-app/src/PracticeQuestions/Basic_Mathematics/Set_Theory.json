@@ -65,11 +65,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "27"
+          "text": "35"
         },
         {
           "letter": "B",
-          "text": "35"
+          "text": "27"
         },
         {
           "letter": "C",
@@ -77,14 +77,14 @@
         },
         {
           "letter": "D",
-          "text": "28"
+          "text": "20"
         },
         {
           "letter": "E",
-          "text": "20"
+          "text": "28"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "**|A∪B| = |A| + |B| - |A∩B|**\n= 20 + 15 - 8 = **27**",
       "hints": [
         "Use the inclusion-exclusion principle.",
@@ -101,26 +101,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "7"
-        },
-        {
-          "letter": "B",
-          "text": "5"
-        },
-        {
-          "letter": "C",
-          "text": "10"
-        },
-        {
-          "letter": "D",
           "text": "3"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "7"
+        },
+        {
+          "letter": "C",
+          "text": "5"
+        },
+        {
+          "letter": "D",
           "text": "8"
+        },
+        {
+          "letter": "E",
+          "text": "10"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "|F∪B| = 18+10-5 = 23\nNeither = 30-23 = **7**",
       "hints": [
         "Find those who play at least one: |F∪B| = 18+10-5 = 23.",
@@ -137,26 +137,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "3"
-        },
-        {
-          "letter": "B",
-          "text": "2"
-        },
-        {
-          "letter": "C",
           "text": "5"
         },
         {
-          "letter": "D",
+          "letter": "B",
           "text": "7"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "2"
         },
         {
           "letter": "E",
           "text": "4"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "A∩B = {3,4,5}\n|A∩B| = **3**",
       "hints": [
         "A∩B contains elements in both A and B.",
@@ -173,11 +173,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "60"
+          "text": "140"
         },
         {
           "letter": "B",
-          "text": "40"
+          "text": "50"
         },
         {
           "letter": "C",
@@ -185,14 +185,14 @@
         },
         {
           "letter": "D",
-          "text": "140"
+          "text": "40"
         },
         {
           "letter": "E",
-          "text": "50"
+          "text": "60"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "|Aᶜ| = |U| - |A| = 100 - 40 = **60**",
       "hints": [
         "Complement = everything in U but not in A.",
@@ -213,19 +213,19 @@
         },
         {
           "letter": "B",
-          "text": "{2,4}"
-        },
-        {
-          "letter": "C",
-          "text": "{1,3,6,8}"
-        },
-        {
-          "letter": "D",
           "text": "{1,2,3,4,5,6,8}"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "{2,4,6,8}"
+        },
+        {
+          "letter": "D",
+          "text": "{1,3,6,8}"
+        },
+        {
+          "letter": "E",
+          "text": "{2,4}"
         }
       ],
       "correct_answer": "A",
@@ -249,11 +249,11 @@
         },
         {
           "letter": "B",
-          "text": "B"
+          "text": "Empty set"
         },
         {
           "letter": "C",
-          "text": "Empty set"
+          "text": "Cannot determine"
         },
         {
           "letter": "D",
@@ -261,7 +261,7 @@
         },
         {
           "letter": "E",
-          "text": "Cannot determine"
+          "text": "B"
         }
       ],
       "correct_answer": "A",
@@ -281,26 +281,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "40"
-        },
-        {
-          "letter": "B",
-          "text": "50"
-        },
-        {
-          "letter": "C",
           "text": "30"
         },
         {
+          "letter": "B",
+          "text": "35"
+        },
+        {
+          "letter": "C",
+          "text": "50"
+        },
+        {
           "letter": "D",
-          "text": "45"
+          "text": "40"
         },
         {
           "letter": "E",
-          "text": "35"
+          "text": "45"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "|C∪B| = 30+20-10 = **40**",
       "hints": [
         "At least one = |C∪B| = |C|+|B|-|C∩B|.",
@@ -321,19 +321,19 @@
         },
         {
           "letter": "B",
-          "text": "8"
+          "text": "32"
         },
         {
           "letter": "C",
-          "text": "12"
+          "text": "8"
         },
         {
           "letter": "D",
-          "text": "4"
+          "text": "12"
         },
         {
           "letter": "E",
-          "text": "32"
+          "text": "4"
         }
       ],
       "correct_answer": "A",
@@ -353,15 +353,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "19"
-        },
-        {
-          "letter": "B",
           "text": "24"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "28"
+        },
+        {
+          "letter": "C",
+          "text": "19"
         },
         {
           "letter": "D",
@@ -372,7 +372,7 @@
           "text": "22"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "**Find each 'only' region:**\n\nMath only = 25-10-6+3 = 12\nEnglish only = 20-10-8+3 = 5\nScience only = 15-8-6+3 = 4\n\nExactly one = 12+5+4 = **21**\n\n*Note: answer 19 would be if only = 10+5+4=19. Using the formula: exactly one = 21.*",
       "hints": [
         "Only Math = |M| - |M∩E| - |M∩S| + |M∩E∩S|.",
@@ -393,19 +393,19 @@
         },
         {
           "letter": "B",
-          "text": "10"
+          "text": "50"
         },
         {
           "letter": "C",
-          "text": "30"
-        },
-        {
-          "letter": "D",
           "text": "40"
         },
         {
+          "letter": "D",
+          "text": "10"
+        },
+        {
           "letter": "E",
-          "text": "50"
+          "text": "30"
         }
       ],
       "correct_answer": "A",
@@ -425,11 +425,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "40"
+          "text": "60"
         },
         {
           "letter": "B",
-          "text": "60"
+          "text": "40"
         },
         {
           "letter": "C",
@@ -444,7 +444,7 @@
           "text": "20"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "|B∪C∪P| = 120+80+60 - 40-30-20 + 10 = 260-90+10 = 180\nNone = 200-180 = **20**\n\n*Recalculate: |∪| = 260-90+10=180. None=200-180=20. Closest to option A (40) or E (20). Answer is 20.*",
       "hints": [
         "Use three-set inclusion-exclusion.",
@@ -461,7 +461,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "2"
+          "text": "1"
         },
         {
           "letter": "B",
@@ -469,18 +469,18 @@
         },
         {
           "letter": "C",
-          "text": "5"
+          "text": "4"
         },
         {
           "letter": "D",
-          "text": "1"
+          "text": "2"
         },
         {
           "letter": "E",
-          "text": "4"
+          "text": "5"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "A∩B = multiples of 15 (both 3 and 5) from 1 to 30.\nMultiples of 15: 15, 30 → **2 elements**",
       "hints": [
         "A∩B = numbers divisible by both 3 and 5, so divisible by 15.",
@@ -497,26 +497,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "13"
-        },
-        {
-          "letter": "B",
-          "text": "15"
-        },
-        {
-          "letter": "C",
           "text": "7"
         },
         {
+          "letter": "B",
+          "text": "13"
+        },
+        {
+          "letter": "C",
+          "text": "10"
+        },
+        {
           "letter": "D",
-          "text": "22"
+          "text": "15"
         },
         {
           "letter": "E",
-          "text": "10"
+          "text": "22"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "n(A∩B) = n(A)+n(B)-n(A∪B) = 35+28-50 = **13**",
       "hints": [
         "Rearrange: n(A∩B) = n(A)+n(B)-n(A∪B).",
@@ -533,26 +533,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "33"
+          "text": "40"
         },
         {
           "letter": "B",
-          "text": "25"
+          "text": "33"
         },
         {
           "letter": "C",
-          "text": "18"
+          "text": "25"
         },
         {
           "letter": "D",
-          "text": "40"
+          "text": "18"
         },
         {
           "letter": "E",
           "text": "30"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "n(A∪B) = n(A-B) + n(B-A) + n(A∩B) = 15+10+8 = **33**",
       "hints": [
         "n(A∪B) = n(only A) + n(only B) + n(A∩B).",
@@ -569,26 +569,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "10"
-        },
-        {
-          "letter": "B",
-          "text": "0"
-        },
-        {
-          "letter": "C",
-          "text": "30"
-        },
-        {
-          "letter": "D",
           "text": "40"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "30"
+        },
+        {
+          "letter": "C",
           "text": "20"
+        },
+        {
+          "letter": "D",
+          "text": "0"
+        },
+        {
+          "letter": "E",
+          "text": "10"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Minimum n(A∩B) = max(0, n(A)+n(B)-n(U))**\n= max(0, 30+40-60) = max(0, 10) = **10**\n\nThis is because n(A∪B) ≤ n(U) = 60. Since n(A∩B) = n(A)+n(B)-n(A∪B) ≥ 30+40-60 = 10.",
       "hints": [
         "Minimum overlap: max(0, n(A)+n(B)-n(U)).",
@@ -605,15 +605,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "200"
-        },
-        {
-          "letter": "B",
           "text": "180"
         },
         {
-          "letter": "C",
+          "letter": "B",
           "text": "220"
+        },
+        {
+          "letter": "C",
+          "text": "160"
         },
         {
           "letter": "D",
@@ -621,10 +621,10 @@
         },
         {
           "letter": "E",
-          "text": "160"
+          "text": "200"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Total = only1 + only2 + only3**\n300 = exactly1 + 60 + 10\nexactly1 = **230**\n\n*Note: Also using inclusion-exclusion:*\n450-Σ|pairwise|+10 = 300\nΣ|pairwise|=160. Exactly two = 160-3×10=130. Exactly one = 300-130-10=160.\n\nThis varies by interpretation. Using total = E1+E2+E3: 300=E1+60+10 → E1=230.",
       "hints": [
         "Total = exactly-one + exactly-two + all-three.",
@@ -641,26 +641,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "10"
-        },
-        {
-          "letter": "B",
-          "text": "5"
-        },
-        {
-          "letter": "C",
           "text": "15"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "10"
+        },
+        {
+          "letter": "C",
           "text": "8"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "12"
+        },
+        {
+          "letter": "E",
+          "text": "5"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "Using inclusion-exclusion:\n|A∪B∪C| = |A|+|B|+|C| - |A∩B| - |A∩C| - |B∩C| + |A∩B∩C|\n100 = 40+50+45 - 15-12-18 + x\n100 = 135-45 + x = 90 + x\nx = **10**",
       "hints": [
         "Use three-set inclusion-exclusion formula: |A∪B∪C| = |A|+|B|+|C|-|A∩B|-|A∩C|-|B∩C|+|A∩B∩C|.",
@@ -681,7 +681,7 @@
         },
         {
           "letter": "B",
-          "text": "8"
+          "text": "2"
         },
         {
           "letter": "C",
@@ -693,7 +693,7 @@
         },
         {
           "letter": "E",
-          "text": "2"
+          "text": "8"
         }
       ],
       "correct_answer": "A",
@@ -713,26 +713,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "60"
-        },
-        {
-          "letter": "B",
-          "text": "40"
-        },
-        {
-          "letter": "C",
-          "text": "80"
-        },
-        {
-          "letter": "D",
           "text": "50"
         },
         {
-          "letter": "E",
+          "letter": "B",
           "text": "70"
+        },
+        {
+          "letter": "C",
+          "text": "40"
+        },
+        {
+          "letter": "D",
+          "text": "60"
+        },
+        {
+          "letter": "E",
+          "text": "80"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "|A∪B∪C| = 100+80+50-40-20-30+10 = 150\nNone = 200-150 = **50**\n\n*Note: the actual none = 50. Answer closest matching is B (40) or... let me recalculate: 230-90+10=150. None=50.*",
       "hints": [
         "Calculate |A∪B∪C| first using inclusion-exclusion.",
@@ -749,15 +749,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "7.5"
+          "text": "10"
         },
         {
           "letter": "B",
-          "text": "15"
+          "text": "7.5"
         },
         {
           "letter": "C",
-          "text": "10"
+          "text": "15"
         },
         {
           "letter": "D",
@@ -768,7 +768,7 @@
           "text": "12"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "**'In A or B but not both' = Symmetric Difference = n(A) + n(B) - 2n(A∩B)**\n\n30 = 20+25 - 2n(A∩B)\n30 = 45 - 2x\n2x = 15\nx = **7.5**\n\n*Since n must be integer, likely n=8 or rounding occurs in this problem.*",
       "hints": [
         "'In A or B but not both' = symmetric difference = n(A)+n(B)-2n(A∩B).",
@@ -797,11 +797,11 @@
         },
         {
           "letter": "D",
-          "text": "32"
+          "text": "28"
         },
         {
           "letter": "E",
-          "text": "28"
+          "text": "32"
         }
       ],
       "correct_answer": "A",
@@ -821,26 +821,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "16"
+          "text": "4"
         },
         {
           "letter": "B",
-          "text": "8"
-        },
-        {
-          "letter": "C",
           "text": "12"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "32"
         },
         {
+          "letter": "D",
+          "text": "8"
+        },
+        {
           "letter": "E",
-          "text": "4"
+          "text": "16"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "**Number of subsets = 2ⁿ**\n\n2⁴ = **16**\n\n(Includes empty set and the set itself)",
       "hints": [
         "Formula: number of subsets = 2ⁿ where n = number of elements.",
@@ -865,15 +865,15 @@
         },
         {
           "letter": "C",
-          "text": "{1,2,3,4,5,6,8}"
+          "text": "{2,4}"
         },
         {
           "letter": "D",
-          "text": "{1,3,6,8}"
+          "text": "{1,2,3,4,5,6,8}"
         },
         {
           "letter": "E",
-          "text": "{2,4}"
+          "text": "{1,3,6,8}"
         }
       ],
       "correct_answer": "B",
@@ -893,26 +893,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "24"
-        },
-        {
-          "letter": "B",
           "text": "28"
         },
         {
-          "letter": "C",
-          "text": "19"
-        },
-        {
-          "letter": "D",
+          "letter": "B",
           "text": "22"
         },
         {
-          "letter": "E",
+          "letter": "C",
           "text": "15"
+        },
+        {
+          "letter": "D",
+          "text": "19"
+        },
+        {
+          "letter": "E",
+          "text": "24"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "**Find each 'only' region:**\n\nMath only = 25-10-6+3 = 12\nEnglish only = 20-10-8+3 = 5\nScience only = 15-8-6+3 = 4\n\nExactly one = 12+5+4 = **21**\n\n*Note: answer 19 would be if only = 10+5+4=19. Using the formula: exactly one = 21.*",
       "hints": [
         "Only Math = |M| - |M∩E| - |M∩S| + |M∩E∩S|.",
@@ -937,7 +937,7 @@
         },
         {
           "letter": "C",
-          "text": "12"
+          "text": "32"
         },
         {
           "letter": "D",
@@ -945,7 +945,7 @@
         },
         {
           "letter": "E",
-          "text": "32"
+          "text": "12"
         }
       ],
       "correct_answer": "A",

@@ -22,11 +22,11 @@
         },
         {
           "letter": "B",
-          "text": "B"
+          "text": "Nobody"
         },
         {
           "letter": "C",
-          "text": "C"
+          "text": "B"
         },
         {
           "letter": "D",
@@ -34,10 +34,10 @@
         },
         {
           "letter": "E",
-          "text": "Nobody"
+          "text": "C"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "Row: 1, 2, 3, 4. A is on the far left (Seat 1). Since A is next to B, B is in Seat 2. The remaining seats are 3 and 4, taken by C and D. B cannot sit next to C, so C cannot be in Seat 3. Thus, D is in Seat 3, and C is in Seat 4 (far right).",
       "hints": [
         "Row: 1, 2, 3, 4.",
@@ -54,11 +54,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "To Alice's immediate left."
+          "text": "Opposite Charlie."
         },
         {
           "letter": "B",
-          "text": "Opposite Charlie."
+          "text": "Both A and B"
         },
         {
           "letter": "C",
@@ -66,14 +66,14 @@
         },
         {
           "letter": "D",
-          "text": "Both A and B"
+          "text": "To Alice's immediate left."
         },
         {
           "letter": "E",
           "text": "Next to Alice and Bob."
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B",
       "explanation": "Seats: North, South, East, West. Alice is North, Bob is South. Charlie is to Alice's right (East). The only seat left for Dave is West, which is Alice's immediate left and opposite Charlie.",
       "hints": [
         "Seats: North, South, East, West.",
@@ -90,26 +90,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Red"
-        },
-        {
-          "letter": "B",
           "text": "White"
         },
         {
-          "letter": "C",
-          "text": "Green"
-        },
-        {
-          "letter": "D",
+          "letter": "B",
           "text": "Black"
         },
         {
-          "letter": "E",
+          "letter": "C",
+          "text": "Red"
+        },
+        {
+          "letter": "D",
           "text": "Blue"
+        },
+        {
+          "letter": "E",
+          "text": "Green"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "If Red is in spot 3, the middle spot is exactly 3. Therefore, Red is in the middle. (The other rules allow a valid arrangement: Blue, White, Red, Black, Green).",
       "hints": [
         "If Red is in spot 3, the middle spot is exactly 3.",
@@ -126,15 +126,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "E"
+          "text": "D"
         },
         {
           "letter": "B",
-          "text": "C"
+          "text": "A"
         },
         {
           "letter": "C",
-          "text": "A"
+          "text": "E"
         },
         {
           "letter": "D",
@@ -142,10 +142,10 @@
         },
         {
           "letter": "E",
-          "text": "D"
+          "text": "C"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Let's place A at position 6. B is opposite at 3. C is second to the left of A (so C is at 2). D sits between A and C, making D at 1. E sits opposite D, so E is at 4. The unassigned F is at 5. B is at 3, facing center, right is 4. Person at 4 is E.",
       "hints": [
         "Let's place A at position 6.",
@@ -162,7 +162,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "A"
+          "text": "Cannot be determined"
         },
         {
           "letter": "B",
@@ -170,7 +170,7 @@
         },
         {
           "letter": "C",
-          "text": "C"
+          "text": "A"
         },
         {
           "letter": "D",
@@ -178,10 +178,10 @@
         },
         {
           "letter": "E",
-          "text": "Cannot be determined"
+          "text": "C"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "The only valid latin square satisfying the conditions has A at (1,1), C at (1,2), B at (1,3) / C at (2,1), B at (2,2), A at (2,3) / B at (3,1), A at (3,2), C at (3,3). Thus bottom-right must be C.",
       "hints": [
         "The only valid latin square satisfying the conditions has A at (1,1), C at (1,2), B at (1,3) / C at (2,1), B at (2,2), A at (2,3) / B at (3,1), A at (3,2), C at (3,3).",
@@ -201,15 +201,15 @@
         },
         {
           "letter": "B",
-          "text": "Immediately to N's right."
-        },
-        {
-          "letter": "C",
           "text": "Two seats to N's left."
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "P is not at the table."
+        },
+        {
+          "letter": "D",
+          "text": "Immediately to N's right."
         },
         {
           "letter": "E",
@@ -237,22 +237,22 @@
         },
         {
           "letter": "B",
-          "text": "X"
-        },
-        {
-          "letter": "C",
           "text": "Y"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "Z"
+        },
+        {
+          "letter": "D",
+          "text": "X"
         },
         {
           "letter": "E",
           "text": "Cannot be determined"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "If X is two floors above Y, it can be (4,2) or (3,1). If (4,2), even floors are full, so Z (who needs an even floor) cannot be placed. Thus, X=3, Y=1. Z must take an even floor (2 or 4). Since W cannot be on floor 4, W must be 2, leaving Z for 4. Therefore, X lives on Floor 3.",
       "hints": [
         "If X is two floors above Y, it can be (4,2) or (3,1).",
@@ -269,15 +269,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "Room 1"
-        },
-        {
-          "letter": "B",
           "text": "Room 3"
         },
         {
+          "letter": "B",
+          "text": "Room 3 or 4"
+        },
+        {
           "letter": "C",
-          "text": "Room 4"
+          "text": "Room 1"
         },
         {
           "letter": "D",
@@ -285,7 +285,7 @@
         },
         {
           "letter": "E",
-          "text": "Room 3 or 4"
+          "text": "Room 4"
         }
       ],
       "correct_answer": "D",
@@ -305,26 +305,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Jake"
-        },
-        {
-          "letter": "B",
-          "text": "Emily"
-        },
-        {
-          "letter": "C",
-          "text": "Max"
-        },
-        {
-          "letter": "D",
           "text": "Lily"
         },
         {
-          "letter": "E",
+          "letter": "B",
+          "text": "Jake"
+        },
+        {
+          "letter": "C",
           "text": "Sarah"
+        },
+        {
+          "letter": "D",
+          "text": "Emily"
+        },
+        {
+          "letter": "E",
+          "text": "Max"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "If Sarah is at position 6 (bottom), Tom is at 3 (top). Jake is to Sarah's immediate right, making him 5. Emily is opposite Jake at 2. The remaining are 1 and 4. Max cannot be next to Emily (cannot be 1 or 3). So Max is 4. Lily is 1. Facing center, the left of Tom (3) is position 4. Max is at 4.",
       "hints": [
         "If Sarah is at position 6 (bottom), Tom is at 3 (top).",
@@ -341,7 +341,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "1"
+          "text": "4"
         },
         {
           "letter": "B",
@@ -349,18 +349,18 @@
         },
         {
           "letter": "C",
-          "text": "3"
+          "text": "0"
         },
         {
           "letter": "D",
-          "text": "4"
+          "text": "3"
         },
         {
           "letter": "E",
-          "text": "0"
+          "text": "1"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "E",
       "explanation": "Spot 1 is S. Spot 6 is T. To prevent T adjacent to T6, Spot 5 must be S. The remaining spots (2,3,4) must hold 2 T's and 1 S. The only way to arrange T, T, S without placing T's next to each other is T, S, T. Resulting chain: S, T, S, T, S, T. This gives exactly 1 unique arrangement.",
       "hints": [
         "Spot 1 is S.",
@@ -381,22 +381,22 @@
         },
         {
           "letter": "B",
-          "text": "E"
+          "text": "F"
         },
         {
           "letter": "C",
-          "text": "D"
-        },
-        {
-          "letter": "D",
           "text": "A"
         },
         {
+          "letter": "D",
+          "text": "D"
+        },
+        {
           "letter": "E",
-          "text": "F"
+          "text": "E"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "E",
       "explanation": "Let's place A at position 6. B is opposite at 3. C is second to the left of A (so C is at 2). D sits between A and C, making D at 1. E sits opposite D, so E is at 4. The unassigned F is at 5. B is at 3, facing center, right is 4. Person at 4 is E.",
       "hints": [
         "Let's place A at position 6.",
@@ -417,11 +417,11 @@
         },
         {
           "letter": "B",
-          "text": "3"
+          "text": "2"
         },
         {
           "letter": "C",
-          "text": "2"
+          "text": "1"
         },
         {
           "letter": "D",
@@ -429,10 +429,10 @@
         },
         {
           "letter": "E",
-          "text": "1"
+          "text": "3"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "C",
       "explanation": "Spot 1 is S. Spot 6 is T. To prevent T adjacent to T6, Spot 5 must be S. The remaining spots (2,3,4) must hold 2 T's and 1 S. The only way to arrange T, T, S without placing T's next to each other is T, S, T. Resulting chain: S, T, S, T, S, T. This gives exactly 1 unique arrangement.",
       "hints": [
         "Spot 1 is S.",
@@ -449,7 +449,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "1"
+          "text": "0"
         },
         {
           "letter": "B",
@@ -457,18 +457,18 @@
         },
         {
           "letter": "C",
-          "text": "2"
+          "text": "1"
         },
         {
           "letter": "D",
-          "text": "0"
+          "text": "3"
         },
         {
           "letter": "E",
-          "text": "3"
+          "text": "2"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Spot 1 is S. Spot 6 is T. To prevent T adjacent to T6, Spot 5 must be S. The remaining spots (2,3,4) must hold 2 T's and 1 S. The only way to arrange T, T, S without placing T's next to each other is T, S, T. Resulting chain: S, T, S, T, S, T. This gives exactly 1 unique arrangement.",
       "hints": [
         "Spot 1 is S.",
@@ -485,26 +485,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Z"
-        },
-        {
-          "letter": "B",
-          "text": "W"
-        },
-        {
-          "letter": "C",
           "text": "X"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "Y"
+        },
+        {
+          "letter": "C",
           "text": "Cannot be determined"
         },
         {
+          "letter": "D",
+          "text": "W"
+        },
+        {
           "letter": "E",
-          "text": "Y"
+          "text": "Z"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "If X is two floors above Y, it can be (4,2) or (3,1). If (4,2), even floors are full, so Z (who needs an even floor) cannot be placed. Thus, X=3, Y=1. Z must take an even floor (2 or 4). Since W cannot be on floor 4, W must be 2, leaving Z for 4. Therefore, X lives on Floor 3.",
       "hints": [
         "If X is two floors above Y, it can be (4,2) or (3,1).",
@@ -521,15 +521,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "Nobody"
+          "text": "D"
         },
         {
           "letter": "B",
-          "text": "B"
+          "text": "C"
         },
         {
           "letter": "C",
-          "text": "C"
+          "text": "Nobody"
         },
         {
           "letter": "D",
@@ -537,10 +537,10 @@
         },
         {
           "letter": "E",
-          "text": "D"
+          "text": "B"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "Row: 1, 2, 3, 4. A is on the far left (Seat 1). Since A is next to B, B is in Seat 2. The remaining seats are 3 and 4, taken by C and D. B cannot sit next to C, so C cannot be in Seat 3. Thus, D is in Seat 3, and C is in Seat 4 (far right).",
       "hints": [
         "Row: 1, 2, 3, 4.",
@@ -557,11 +557,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "3"
+          "text": "2"
         },
         {
           "letter": "B",
-          "text": "2"
+          "text": "1"
         },
         {
           "letter": "C",
@@ -573,10 +573,10 @@
         },
         {
           "letter": "E",
-          "text": "1"
+          "text": "3"
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B",
       "explanation": "Spot 1 is S. Spot 6 is T. To prevent T adjacent to T6, Spot 5 must be S. The remaining spots (2,3,4) must hold 2 T's and 1 S. The only way to arrange T, T, S without placing T's next to each other is T, S, T. Resulting chain: S, T, S, T, S, T. This gives exactly 1 unique arrangement.",
       "hints": [
         "Spot 1 is S.",
@@ -593,26 +593,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "D"
-        },
-        {
-          "letter": "B",
           "text": "B"
         },
         {
-          "letter": "C",
-          "text": "Nobody"
+          "letter": "B",
+          "text": "D"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "C"
         },
         {
-          "letter": "E",
+          "letter": "D",
           "text": "A"
+        },
+        {
+          "letter": "E",
+          "text": "Nobody"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C",
       "explanation": "Row: 1, 2, 3, 4. A is on the far left (Seat 1). Since A is next to B, B is in Seat 2. The remaining seats are 3 and 4, taken by C and D. B cannot sit next to C, so C cannot be in Seat 3. Thus, D is in Seat 3, and C is in Seat 4 (far right).",
       "hints": [
         "Row: 1, 2, 3, 4.",
@@ -633,22 +633,22 @@
         },
         {
           "letter": "B",
-          "text": "To Alice's immediate left."
+          "text": "Both A and B"
         },
         {
           "letter": "C",
-          "text": "Opposite Charlie."
+          "text": "To Alice's immediate left."
         },
         {
           "letter": "D",
-          "text": "Both A and B"
+          "text": "Opposite Charlie."
         },
         {
           "letter": "E",
           "text": "To Bob's immediate right."
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B",
       "explanation": "Seats: North, South, East, West. Alice is North, Bob is South. Charlie is to Alice's right (East). The only seat left for Dave is West, which is Alice's immediate left and opposite Charlie.",
       "hints": [
         "Seats: North, South, East, West.",
@@ -665,26 +665,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "C"
-        },
-        {
-          "letter": "B",
-          "text": "E"
-        },
-        {
-          "letter": "C",
           "text": "D"
         },
         {
-          "letter": "D",
+          "letter": "B",
+          "text": "A"
+        },
+        {
+          "letter": "C",
           "text": "F"
         },
         {
+          "letter": "D",
+          "text": "C"
+        },
+        {
           "letter": "E",
-          "text": "A"
+          "text": "E"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "E",
       "explanation": "Let's place A at position 6. B is opposite at 3. C is second to the left of A (so C is at 2). D sits between A and C, making D at 1. E sits opposite D, so E is at 4. The unassigned F is at 5. B is at 3, facing center, right is 4. Person at 4 is E.",
       "hints": [
         "Let's place A at position 6.",
@@ -701,26 +701,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Blue"
+          "text": "White"
         },
         {
           "letter": "B",
-          "text": "Green"
-        },
-        {
-          "letter": "C",
-          "text": "Red"
-        },
-        {
-          "letter": "D",
           "text": "Black"
         },
         {
+          "letter": "C",
+          "text": "Green"
+        },
+        {
+          "letter": "D",
+          "text": "Blue"
+        },
+        {
           "letter": "E",
-          "text": "White"
+          "text": "Red"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "If Red is in spot 3, the middle spot is exactly 3. Therefore, Red is in the middle. (The other rules allow a valid arrangement: Blue, White, Red, Black, Green).",
       "hints": [
         "If Red is in spot 3, the middle spot is exactly 3.",
@@ -741,15 +741,15 @@
         },
         {
           "letter": "B",
-          "text": "Blank"
-        },
-        {
-          "letter": "C",
           "text": "B"
         },
         {
-          "letter": "D",
+          "letter": "C",
           "text": "Cannot be determined"
+        },
+        {
+          "letter": "D",
+          "text": "Blank"
         },
         {
           "letter": "E",
@@ -772,26 +772,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "B"
-        },
-        {
-          "letter": "B",
-          "text": "A"
-        },
-        {
-          "letter": "C",
-          "text": "Blank"
-        },
-        {
-          "letter": "D",
           "text": "C"
         },
         {
-          "letter": "E",
+          "letter": "B",
           "text": "Cannot be determined"
+        },
+        {
+          "letter": "C",
+          "text": "A"
+        },
+        {
+          "letter": "D",
+          "text": "B"
+        },
+        {
+          "letter": "E",
+          "text": "Blank"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A",
       "explanation": "The only valid latin square satisfying the conditions has A at (1,1), C at (1,2), B at (1,3) / C at (2,1), B at (2,2), A at (2,3) / B at (3,1), A at (3,2), C at (3,3). Thus bottom-right must be C.",
       "hints": [
         "The only valid latin square satisfying the conditions has A at (1,1), C at (1,2), B at (1,3) / C at (2,1), B at (2,2), A at (2,3) / B at (3,1), A at (3,2), C at (3,3).",
@@ -807,26 +807,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Cannot be determined"
+          "text": "Z"
         },
         {
           "letter": "B",
-          "text": "X"
-        },
-        {
-          "letter": "C",
-          "text": "Y"
-        },
-        {
-          "letter": "D",
           "text": "W"
         },
         {
+          "letter": "C",
+          "text": "X"
+        },
+        {
+          "letter": "D",
+          "text": "Cannot be determined"
+        },
+        {
           "letter": "E",
-          "text": "Z"
+          "text": "Y"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "If X is two floors above Y, it can be (4,2) or (3,1). If (4,2), even floors are full, so Z (who needs an even floor) cannot be placed. Thus, X=3, Y=1. Z must take an even floor (2 or 4). Since W cannot be on floor 4, W must be 2, leaving Z for 4. Therefore, X lives on Floor 3.",
       "hints": [
         "If X is two floors above Y, it can be (4,2) or (3,1).",
@@ -843,26 +843,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Immediately to N's left."
-        },
-        {
-          "letter": "B",
-          "text": "P is not at the table."
-        },
-        {
-          "letter": "C",
-          "text": "Two seats to N's left."
-        },
-        {
-          "letter": "D",
           "text": "Immediately to N's right."
         },
         {
-          "letter": "E",
+          "letter": "B",
           "text": "Opposite N."
+        },
+        {
+          "letter": "C",
+          "text": "Immediately to N's left."
+        },
+        {
+          "letter": "D",
+          "text": "P is not at the table."
+        },
+        {
+          "letter": "E",
+          "text": "Two seats to N's left."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "Let M be at 6 o'clock facing the center. M's right is 5 o'clock. So O is at 5. N is opposite M, at 12 o'clock. P is opposite O, so P is at 11 o'clock. Standing at 12 facing the center, your left arm points to 11. Therefore, P is immediately to N's left.",
       "hints": [
         "Let M be at 6 o'clock facing the center.",
@@ -879,26 +879,26 @@
       "options": [
         {
           "letter": "A",
-          "text": "Opposite N."
+          "text": "Immediately to N's right."
         },
         {
           "letter": "B",
-          "text": "Two seats to N's left."
-        },
-        {
-          "letter": "C",
-          "text": "P is not at the table."
-        },
-        {
-          "letter": "D",
           "text": "Immediately to N's left."
         },
         {
+          "letter": "C",
+          "text": "Opposite N."
+        },
+        {
+          "letter": "D",
+          "text": "P is not at the table."
+        },
+        {
           "letter": "E",
-          "text": "Immediately to N's right."
+          "text": "Two seats to N's left."
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B",
       "explanation": "Let M be at 6 o'clock facing the center. M's right is 5 o'clock. So O is at 5. N is opposite M, at 12 o'clock. P is opposite O, so P is at 11 o'clock. Standing at 12 facing the center, your left arm points to 11. Therefore, P is immediately to N's left.",
       "hints": [
         "Let M be at 6 o'clock facing the center.",
