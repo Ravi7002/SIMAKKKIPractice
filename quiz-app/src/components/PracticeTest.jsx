@@ -78,6 +78,16 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
         <div className="progress-fill" style={{ width: `${(currentIndex / questions.length) * 100}%` }} />
       </div>
 
+      {/* Passage Component */}
+      {question.passage && (
+        <div className="glass-card mb-4 fade-in" style={{ background: 'rgba(255,255,255,0.02)', borderLeft: '4px solid var(--accent-purple)' }}>
+          <h4 style={{ color: 'var(--accent-purple)', marginBottom: '0.8rem', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reading Passage</h4>
+          <div style={{ maxHeight: '200px', overflowY: 'auto', paddingRight: '10px', fontSize: '1.05rem', lineHeight: '1.7', color: 'var(--text-muted)' }}>
+            <MathText text={question.passage} />
+          </div>
+        </div>
+      )}
+
       {/* Question card */}
       <div className="glass-card mb-4">
         {(question.chart_data || question.chart) && (question.chart_data ? <ChartDisplay chartData={question.chart_data} /> : <QuestionChart chart={question.chart} />)}

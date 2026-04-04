@@ -132,6 +132,15 @@ const TryoutQuiz = ({ questions, answers, setAnswers, onFinish }) => {
         )}
       </div>
 
+      {question.passage && (
+        <div className="glass-card mb-4 fade-in" style={{ background: 'rgba(255,255,255,0.02)', borderLeft: '4px solid var(--accent-purple)' }}>
+          <h4 style={{ color: 'var(--accent-purple)', marginBottom: '0.8rem', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reading Passage</h4>
+          <div style={{ maxHeight: '180px', overflowY: 'auto', paddingRight: '10px', fontSize: '1.05rem', lineHeight: '1.7', color: 'var(--text-muted)' }}>
+            <MathText text={question.passage} />
+          </div>
+        </div>
+      )}
+
       <div className="glass-card mb-8">
         {question.chart && <QuestionChart chart={question.chart} />}
         <h2 className="mb-8" style={{ fontSize: '1.5rem', lineHeight: '1.6', whiteSpace: 'pre-wrap' }}>

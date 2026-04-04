@@ -36,6 +36,18 @@ function toLatex(s) {
   s = s.replace(/ (>) /g, ' \\gt ');
   s = s.replace(/ (<) /g, ' \\lt ');
 
+  // 2x2 Matrix: [[a,b], [c,d]] -> \begin{pmatrix} a & b \\ c & d \end{pmatrix}
+  s = s.replace(/\[\[(.*?)\]\s*,\s*\[(.*?)\]\]/g, (_, row1, row2) => {
+    return `\\begin{pmatrix} ${row1.replace(/,/g, ' & ')} \\\\ ${row2.replace(/,/g, ' & ')} \\end{pmatrix}`;
+  });
+
+  // Vector / 1D Matrix: [a, b] or [a, b, c] -> stacked matrix. Ignore intervals with ° or similar.
+  s = s.replace(/(?<!\d)\[\s*(-?[\w\d]+)\s*,\s*(-?[\w\d]+)\s*(?:,\s*(-?[\w\d]+))?\s*\](?!\s*°)/g, (match, v1, v2, v3) => {
+     if (match.includes('°') || match.includes('.')) return match;
+     if (v3) return `\\begin{pmatrix} ${v1} \\\\ ${v2} \\\\ ${v3} \\end{pmatrix}`;
+     return `\\begin{pmatrix} ${v1} \\\\ ${v2} \\end{pmatrix}`;
+  });
+
   return s;
 }
 
