@@ -1268,9 +1268,10 @@
   },
   {
     "id": "eng_01",
+    "passage_id": "passage_01",
     "subject": "English",
     "topic": "Reading Comprehension",
-    "question_text": "Which of the following is the best title for the text? (Text discusses Sarah Mitchell's trip to Tokyo, her expectations to use cash, and her subsequent challenges with widespread digital/contactless payments in Japan).",
+    "question_text": "Which of the following is the best title for the text?",
     "options": [
       {
         "letter": "A",
@@ -1294,13 +1295,12 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "The text focuses primarily on Sarah's experience as a tourist expecting to use cash, only to find that Japan is heavily transitioning toward digital payments, causing her challenges like foreign transaction fees and inability to pay at smaller shops.",
-    "passage_id": "passage_1",
-    "passage": "The COVID-19 pandemic accelerated a workplace transformation that had been quietly building for years: the shift to remote work. Almost overnight, millions of employees transitioned from shared offices to home workspaces, forcing companies to rapidly adopt digital collaboration tools and rethink fundamental assumptions about productivity and management.\n\nProponents of remote work argue that eliminating daily commutes returns precious hours to workers, reduces stress, and allows for a better work-life balance. Studies from Stanford University suggest that remote workers are roughly 13% more productive than their in-office counterparts, partly because they take shorter breaks and call in sick less frequently. Furthermore, companies can access global talent pools rather than limiting their search radius to commuting distance from a physical office.\n\nCritics, however, raise compelling concerns. The boundaries between professional and personal life can dissolve, leading to longer working hours and burnout. Junior employees may struggle without informal mentorship opportunities that arise naturally in shared physical spaces. Additionally, spontaneous collaboration—the kind that often sparks innovation—is harder to replicate through a video screen. A 2023 Microsoft survey found that while productivity metrics often remained stable, many workers reported feeling less connected to their company's culture and mission.\n\nOrganizations navigating this tension have largely settled on hybrid models as a compromise: employees spend part of the week in the office and part working remotely. This approach attempts to capture the focused productivity of remote work while preserving the collaborative energy of in-person interaction. Whether this equilibrium proves stable in the long run, or whether the pendulum swings back toward mandatory in-office attendance, remains one of the defining organizational questions of the decade.",
-    "passage_title": "The Rise of Remote Work"
+    "explanation": "The text focuses primarily on Sarah's experience as a tourist expecting to use cash, only to find that Japan is heavily transitioning toward digital payments, causing her challenges like foreign transaction fees and an inability to pay at smaller shops.",
+    "passage": "Sarah Mitchell carefully planned her trip to Tokyo, expecting to use cash for most of her expenses such as food, transportation, and shopping. However, upon arrival, she quickly realized that many places, especially in urban areas, preferred digital payments. From train stations to small cafes, contactless payment systems were widely used. Although Sarah had brought enough cash, she often found herself unable to use it. In several instances, she had to rely on her credit card, which resulted in additional foreign transaction fees. Moreover, some smaller shops accepted only mobile payment applications, which she had not installed prior to her trip.\n\nJapan has been gradually transitioning toward a cashless society, particularly in preparation for international events and increasing tourism. While this shift offers convenience and efficiency, it also presents challenges for visitors unfamiliar with digital payment systems.\n\nSome experts argue that a balanced system, allowing both cash and digital payments, would better accommodate a wider range of consumers."
   },
   {
     "id": "eng_02",
+    "passage_id": "passage_01",
     "subject": "English",
     "topic": "Grammar and Tenses",
     "question_text": "In the sentence: 'she had not installed prior to her trip,' the phrase 'had not installed' indicates that the action:",
@@ -1327,10 +1327,12 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "The phrase 'had not installed' uses the past perfect tense. The past perfect tense is specifically used to describe an action that was completed (or not completed, in this negative case) before another event that also happened in the past (her trip to Japan)."
+    "explanation": "The phrase 'had not installed' uses the past perfect tense. The past perfect tense is specifically used to describe an action that was completed (or not completed, in this negative case) before another event that also happened in the past (her trip to Japan).",
+    "passage": "Sarah Mitchell carefully planned her trip to Tokyo, expecting to use cash for most of her expenses such as food, transportation, and shopping. However, upon arrival, she quickly realized that many places, especially in urban areas, preferred digital payments. From train stations to small cafes, contactless payment systems were widely used. Although Sarah had brought enough cash, she often found herself unable to use it. In several instances, she had to rely on her credit card, which resulted in additional foreign transaction fees. Moreover, some smaller shops accepted only mobile payment applications, which she had not installed prior to her trip.\n\nJapan has been gradually transitioning toward a cashless society, particularly in preparation for international events and increasing tourism. While this shift offers convenience and efficiency, it also presents challenges for visitors unfamiliar with digital payment systems.\n\nSome experts argue that a balanced system, allowing both cash and digital payments, would better accommodate a wider range of consumers."
   },
   {
     "id": "eng_03",
+    "passage_id": "passage_01",
     "subject": "English",
     "topic": "Paragraph Cohesion and Structure",
     "question_text": "The author discusses the growing adoption of digital payment systems in Japan in paragraph...",
@@ -1356,11 +1358,13 @@
         "text": "5"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Paragraph 1 introduces Sarah's plan. Paragraph 2 details her specific struggles with payment. Paragraph 3 broadens the scope, explicitly stating, 'Japan has been gradually transitioning toward a cashless society, particularly in preparation for international events and increasing tourism.'"
+    "correct_answer": "B",
+    "explanation": "Paragraph 1 introduces Sarah's personal struggle with payments. Paragraph 2 broadens the scope and explicitly states the overarching shift, noting that 'Japan has been gradually transitioning toward a cashless society'.",
+    "passage": "Sarah Mitchell carefully planned her trip to Tokyo, expecting to use cash for most of her expenses such as food, transportation, and shopping. However, upon arrival, she quickly realized that many places, especially in urban areas, preferred digital payments. From train stations to small cafes, contactless payment systems were widely used. Although Sarah had brought enough cash, she often found herself unable to use it. In several instances, she had to rely on her credit card, which resulted in additional foreign transaction fees. Moreover, some smaller shops accepted only mobile payment applications, which she had not installed prior to her trip.\n\nJapan has been gradually transitioning toward a cashless society, particularly in preparation for international events and increasing tourism. While this shift offers convenience and efficiency, it also presents challenges for visitors unfamiliar with digital payment systems.\n\nSome experts argue that a balanced system, allowing both cash and digital payments, would better accommodate a wider range of consumers."
   },
   {
     "id": "eng_04",
+    "passage_id": "passage_01",
     "subject": "English",
     "topic": "Paragraph Cohesion and Structure",
     "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
@@ -1387,13 +1391,15 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Paragraph 2 details the specific situation (Sarah finding digital payments everywhere). Paragraph 3 explains the overarching cause behind this situation: Japan is transitioning to a cashless society to prepare for international events and tourism."
+    "explanation": "By recognizing the structural flow, Paragraph 2 outlines the shift toward digital payments. Paragraph 3 explains the overarching reasoning behind it: preparing for international events and accommodating growing tourism.",
+    "passage": "Sarah Mitchell carefully planned her trip to Tokyo, expecting to use cash for most of her expenses such as food, transportation, and shopping. However, upon arrival, she quickly realized that many places, especially in urban areas, preferred digital payments. From train stations to small cafes, contactless payment systems were widely used. Although Sarah had brought enough cash, she often found herself unable to use it. In several instances, she had to rely on her credit card, which resulted in additional foreign transaction fees. Moreover, some smaller shops accepted only mobile payment applications, which she had not installed prior to her trip.\n\nJapan has been gradually transitioning toward a cashless society, particularly in preparation for international events and increasing tourism. While this shift offers convenience and efficiency, it also presents challenges for visitors unfamiliar with digital payment systems.\n\nSome experts argue that a balanced system, allowing both cash and digital payments, would better accommodate a wider range of consumers."
   },
   {
     "id": "eng_05",
+    "passage_id": "passage_02",
     "subject": "English",
     "topic": "Vocabulary in Context",
-    "question_text": "A recent report by climate scientists suggests that rising sea levels could significantly reshape coastal regions within the next few centuries. Advanced simulations indicate that melting ice caps and thermal expansion of seawater will accelerate flooding in low-lying areas. In (a) ________ entire cities may face relocation if preventative measures are not taken.",
+    "question_text": "In (a) ________ entire cities may face relocation if preventative measures are not taken.",
     "options": [
       {
         "letter": "A",
@@ -1417,11 +1423,12 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "The context implies an inevitable event caused by the accelerating flooding. 'In a matter of time' is an idiom meaning that something is certain to happen eventually, which perfectly fits the warning that cities will face relocation if nothing is done.",
-    "passage": "The scientist was incredibly fastidious when observing the cultures in the petri dishes. Every minor change in color, no matter how ephemeral, was catalogued with meticulous care."
+    "explanation": "The context implies an inevitable event caused by the accelerating flooding. 'In a matter of time' is an idiom meaning that something is certain to happen eventually, fitting the warning that cities will face relocation if nothing is done.",
+    "passage": "A recent report by climate scientists suggests that rising sea levels could significantly reshape coastal regions within the next few centuries. Advanced simulations indicate that melting ice caps and thermal expansion of seawater will accelerate flooding in low-lying areas. In (a) ________ entire cities may face relocation if preventative measures are not taken.\n\nResearchers explain that as global temperatures continue to rise, polar ice melts at a faster rate, contributing to higher ocean levels. This process is further intensified by changing weather patterns, which bring stronger storms and increased rainfall. These conditions make coastal erosion more severe and threaten infrastructure.\n\nIn the past, communities living near coastlines (b) ________ by building protective barriers such as sea walls or by relocating to safer areas. However, the speed of current climate change may exceed the ability of societies to respond effectively. Without immediate action, many regions could experience irreversible damage."
   },
   {
     "id": "eng_06",
+    "passage_id": "passage_02",
     "subject": "English",
     "topic": "Paragraph Cohesion and Structure",
     "question_text": "The sentence: 'Human societies have historically shown resilience in adapting to environmental changes, but the current rate of change presents unprecedented challenges.' Should be placed as the...",
@@ -1448,10 +1455,12 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Paragraph 2 ends with a description of how climate conditions threaten infrastructure. Paragraph 3 begins with 'In the past, communities living near coastlines...'. Placing the target sentence at the end of Paragraph 2 creates a perfect logical bridge: it introduces the concept of human adaptation and contrasts historical resilience with current unprecedented challenges, directly setting up the historical examples in Paragraph 3."
+    "explanation": "Paragraph 2 ends with a description of how climate conditions threaten infrastructure. Paragraph 3 begins with 'In the past, communities living near coastlines...'. Placing the target sentence at the end of Paragraph 2 creates a logical bridge: it introduces the concept of human adaptation and contrasts historical resilience with current unprecedented challenges, setting up the historical examples in Paragraph 3.",
+    "passage": "A recent report by climate scientists suggests that rising sea levels could significantly reshape coastal regions within the next few centuries. Advanced simulations indicate that melting ice caps and thermal expansion of seawater will accelerate flooding in low-lying areas. In (a) ________ entire cities may face relocation if preventative measures are not taken.\n\nResearchers explain that as global temperatures continue to rise, polar ice melts at a faster rate, contributing to higher ocean levels. This process is further intensified by changing weather patterns, which bring stronger storms and increased rainfall. These conditions make coastal erosion more severe and threaten infrastructure.\n\nIn the past, communities living near coastlines (b) ________ by building protective barriers such as sea walls or by relocating to safer areas. However, the speed of current climate change may exceed the ability of societies to respond effectively. Without immediate action, many regions could experience irreversible damage."
   },
   {
     "id": "eng_07",
+    "passage_id": "passage_02",
     "subject": "English",
     "topic": "Grammar and Tenses",
     "question_text": "In the past, communities living near coastlines (b) ________ by building protective barriers such as sea walls or by relocating to safer areas.",
@@ -1478,13 +1487,15 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "The subject 'communities' is plural, eliminating B and E. The context refers to a historical action that holds relevance to the present discussion of climate change adaptation. The present perfect 'have adapted' correctly links these past actions to the current ongoing situation described in the text."
+    "explanation": "The subject 'communities' is plural, eliminating B and E. The context refers to a historical action that holds relevance to the present discussion of climate change adaptation. The present perfect 'have adapted' correctly links these past actions to the current ongoing situation described in the text.",
+    "passage": "A recent report by climate scientists suggests that rising sea levels could significantly reshape coastal regions within the next few centuries. Advanced simulations indicate that melting ice caps and thermal expansion of seawater will accelerate flooding in low-lying areas. In (a) ________ entire cities may face relocation if preventative measures are not taken.\n\nResearchers explain that as global temperatures continue to rise, polar ice melts at a faster rate, contributing to higher ocean levels. This process is further intensified by changing weather patterns, which bring stronger storms and increased rainfall. These conditions make coastal erosion more severe and threaten infrastructure.\n\nIn the past, communities living near coastlines (b) ________ by building protective barriers such as sea walls or by relocating to safer areas. However, the speed of current climate change may exceed the ability of societies to respond effectively. Without immediate action, many regions could experience irreversible damage."
   },
   {
     "id": "eng_08",
+    "passage_id": "passage_02",
     "subject": "English",
     "topic": "Reading Comprehension",
-    "question_text": "Which of the following best expresses the author's message? (Regarding the text on climate scientists, rising sea levels, and human adaptation).",
+    "question_text": "Which of the following best expresses the author's message?",
     "options": [
       {
         "letter": "A",
@@ -1508,16 +1519,15 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "The text highlights the severe threats of rising sea levels and explicitly states, 'However, the speed of current climate change may exceed the ability of societies to respond effectively,' which aligns with option B.",
-    "passage_id": "passage_1",
-    "passage": "The COVID-19 pandemic accelerated a workplace transformation that had been quietly building for years: the shift to remote work. Almost overnight, millions of employees transitioned from shared offices to home workspaces, forcing companies to rapidly adopt digital collaboration tools and rethink fundamental assumptions about productivity and management.\n\nProponents of remote work argue that eliminating daily commutes returns precious hours to workers, reduces stress, and allows for a better work-life balance. Studies from Stanford University suggest that remote workers are roughly 13% more productive than their in-office counterparts, partly because they take shorter breaks and call in sick less frequently. Furthermore, companies can access global talent pools rather than limiting their search radius to commuting distance from a physical office.\n\nCritics, however, raise compelling concerns. The boundaries between professional and personal life can dissolve, leading to longer working hours and burnout. Junior employees may struggle without informal mentorship opportunities that arise naturally in shared physical spaces. Additionally, spontaneous collaboration—the kind that often sparks innovation—is harder to replicate through a video screen. A 2023 Microsoft survey found that while productivity metrics often remained stable, many workers reported feeling less connected to their company's culture and mission.\n\nOrganizations navigating this tension have largely settled on hybrid models as a compromise: employees spend part of the week in the office and part working remotely. This approach attempts to capture the focused productivity of remote work while preserving the collaborative energy of in-person interaction. Whether this equilibrium proves stable in the long run, or whether the pendulum swings back toward mandatory in-office attendance, remains one of the defining organizational questions of the decade.",
-    "passage_title": "The Rise of Remote Work"
+    "explanation": "The text highlights the severe threats of rising sea levels and explicitly states that the speed of current climate change may exceed the ability of societies to respond effectively, aligning tightly with option B.",
+    "passage": "A recent report by climate scientists suggests that rising sea levels could significantly reshape coastal regions within the next few centuries. Advanced simulations indicate that melting ice caps and thermal expansion of seawater will accelerate flooding in low-lying areas. In (a) ________ entire cities may face relocation if preventative measures are not taken.\n\nResearchers explain that as global temperatures continue to rise, polar ice melts at a faster rate, contributing to higher ocean levels. This process is further intensified by changing weather patterns, which bring stronger storms and increased rainfall. These conditions make coastal erosion more severe and threaten infrastructure.\n\nIn the past, communities living near coastlines (b) ________ by building protective barriers such as sea walls or by relocating to safer areas. However, the speed of current climate change may exceed the ability of societies to respond effectively. Without immediate action, many regions could experience irreversible damage."
   },
   {
     "id": "eng_09",
+    "passage_id": "passage_03",
     "subject": "English",
     "topic": "Reading Comprehension",
-    "question_text": "Start by managing your finances wisely. Before making any major purchases, it is important to understand your income and expenses... The text is addressed especially to...",
+    "question_text": "The text is addressed especially to...",
     "options": [
       {
         "letter": "A",
@@ -1541,13 +1551,12 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "The text offers very foundational and basic financial advice, such as creating a simple budget, distinguishing between needs and wants, and developing habits early. This introductory level of advice is best suited for teenagers and young adults who are just beginning to manage their own money.",
-    "passage_id": "passage_1",
-    "passage": "The COVID-19 pandemic accelerated a workplace transformation that had been quietly building for years: the shift to remote work. Almost overnight, millions of employees transitioned from shared offices to home workspaces, forcing companies to rapidly adopt digital collaboration tools and rethink fundamental assumptions about productivity and management.\n\nProponents of remote work argue that eliminating daily commutes returns precious hours to workers, reduces stress, and allows for a better work-life balance. Studies from Stanford University suggest that remote workers are roughly 13% more productive than their in-office counterparts, partly because they take shorter breaks and call in sick less frequently. Furthermore, companies can access global talent pools rather than limiting their search radius to commuting distance from a physical office.\n\nCritics, however, raise compelling concerns. The boundaries between professional and personal life can dissolve, leading to longer working hours and burnout. Junior employees may struggle without informal mentorship opportunities that arise naturally in shared physical spaces. Additionally, spontaneous collaboration—the kind that often sparks innovation—is harder to replicate through a video screen. A 2023 Microsoft survey found that while productivity metrics often remained stable, many workers reported feeling less connected to their company's culture and mission.\n\nOrganizations navigating this tension have largely settled on hybrid models as a compromise: employees spend part of the week in the office and part working remotely. This approach attempts to capture the focused productivity of remote work while preserving the collaborative energy of in-person interaction. Whether this equilibrium proves stable in the long run, or whether the pendulum swings back toward mandatory in-office attendance, remains one of the defining organizational questions of the decade.",
-    "passage_title": "The Rise of Remote Work"
+    "explanation": "The text offers foundational financial advice, such as creating a simple budget, distinguishing between needs and wants, and developing habits early. This introductory level of advice is best suited for teenagers and young adults who are just beginning to manage their own money.",
+    "passage": "Start by managing your finances wisely. Before making any major purchases, it is important to understand your income and expenses. Creating a simple budget can help you track where your money goes and identify unnecessary spending. By doing this, you can begin to save more effectively.\n\nNext, focus on building good financial habits. This includes setting aside a portion of your income regularly, even if the amount is small. Over time, consistent saving can grow into a significant amount. It is also helpful to avoid impulsive buying and prioritize essential needs over wants.\n\nFinally, consider planning for the future. Setting clear financial goals will give you direction and motivation. Whether it is saving for education, starting a business, or preparing for emergencies, having a plan will make it easier to stay disciplined. Developing these habits early can lead to long-term financial stability."
   },
   {
     "id": "eng_10",
+    "passage_id": "passage_03",
     "subject": "English",
     "topic": "Reading Comprehension",
     "question_text": "What is the first step in managing personal finances according to the text?",
@@ -1574,16 +1583,15 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "The text explicitly states: 'Before making any major purchases, it is important to understand your income and expenses. Creating a simple budget can help you track where your money goes...'. Therefore, creating a budget is the first actionable step mentioned.",
-    "passage_id": "passage_1",
-    "passage": "The COVID-19 pandemic accelerated a workplace transformation that had been quietly building for years: the shift to remote work. Almost overnight, millions of employees transitioned from shared offices to home workspaces, forcing companies to rapidly adopt digital collaboration tools and rethink fundamental assumptions about productivity and management.\n\nProponents of remote work argue that eliminating daily commutes returns precious hours to workers, reduces stress, and allows for a better work-life balance. Studies from Stanford University suggest that remote workers are roughly 13% more productive than their in-office counterparts, partly because they take shorter breaks and call in sick less frequently. Furthermore, companies can access global talent pools rather than limiting their search radius to commuting distance from a physical office.\n\nCritics, however, raise compelling concerns. The boundaries between professional and personal life can dissolve, leading to longer working hours and burnout. Junior employees may struggle without informal mentorship opportunities that arise naturally in shared physical spaces. Additionally, spontaneous collaboration—the kind that often sparks innovation—is harder to replicate through a video screen. A 2023 Microsoft survey found that while productivity metrics often remained stable, many workers reported feeling less connected to their company's culture and mission.\n\nOrganizations navigating this tension have largely settled on hybrid models as a compromise: employees spend part of the week in the office and part working remotely. This approach attempts to capture the focused productivity of remote work while preserving the collaborative energy of in-person interaction. Whether this equilibrium proves stable in the long run, or whether the pendulum swings back toward mandatory in-office attendance, remains one of the defining organizational questions of the decade.",
-    "passage_title": "The Rise of Remote Work"
+    "explanation": "The text states: 'Before making any major purchases, it is important to understand your income and expenses. Creating a simple budget can help you track where your money goes...'. Therefore, creating a budget is the first actionable step mentioned.",
+    "passage": "Start by managing your finances wisely. Before making any major purchases, it is important to understand your income and expenses. Creating a simple budget can help you track where your money goes and identify unnecessary spending. By doing this, you can begin to save more effectively.\n\nNext, focus on building good financial habits. This includes setting aside a portion of your income regularly, even if the amount is small. Over time, consistent saving can grow into a significant amount. It is also helpful to avoid impulsive buying and prioritize essential needs over wants.\n\nFinally, consider planning for the future. Setting clear financial goals will give you direction and motivation. Whether it is saving for education, starting a business, or preparing for emergencies, having a plan will make it easier to stay disciplined. Developing these habits early can lead to long-term financial stability."
   },
   {
     "id": "eng_11",
+    "passage_id": "passage_04",
     "subject": "English",
     "topic": "Reading Comprehension",
-    "question_text": "Managing time effectively is an essential skill... Despite these challenges, individuals can still take steps to improve how they use their time. The author's attitude regarding time management challenges is...",
+    "question_text": "The author's attitude regarding time management challenges is...",
     "options": [
       {
         "letter": "A",
@@ -1607,16 +1615,15 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "The author acknowledges that 'not all aspects of time management are within a person's control' (unexpected events), but immediately follows up with actionable, practical steps to improve efficiency anyway. This balanced view of acknowledging limitations while offering practical solutions is the definition of a realistic attitude.",
-    "passage_id": "passage_1",
-    "passage": "The COVID-19 pandemic accelerated a workplace transformation that had been quietly building for years: the shift to remote work. Almost overnight, millions of employees transitioned from shared offices to home workspaces, forcing companies to rapidly adopt digital collaboration tools and rethink fundamental assumptions about productivity and management.\n\nProponents of remote work argue that eliminating daily commutes returns precious hours to workers, reduces stress, and allows for a better work-life balance. Studies from Stanford University suggest that remote workers are roughly 13% more productive than their in-office counterparts, partly because they take shorter breaks and call in sick less frequently. Furthermore, companies can access global talent pools rather than limiting their search radius to commuting distance from a physical office.\n\nCritics, however, raise compelling concerns. The boundaries between professional and personal life can dissolve, leading to longer working hours and burnout. Junior employees may struggle without informal mentorship opportunities that arise naturally in shared physical spaces. Additionally, spontaneous collaboration—the kind that often sparks innovation—is harder to replicate through a video screen. A 2023 Microsoft survey found that while productivity metrics often remained stable, many workers reported feeling less connected to their company's culture and mission.\n\nOrganizations navigating this tension have largely settled on hybrid models as a compromise: employees spend part of the week in the office and part working remotely. This approach attempts to capture the focused productivity of remote work while preserving the collaborative energy of in-person interaction. Whether this equilibrium proves stable in the long run, or whether the pendulum swings back toward mandatory in-office attendance, remains one of the defining organizational questions of the decade.",
-    "passage_title": "The Rise of Remote Work"
+    "explanation": "The author acknowledges that not all aspects of time management are within a person's control (like unexpected events), but follows up with actionable, practical steps to improve efficiency anyway. This balanced view of acknowledging limitations while offering practical solutions is the definition of a realistic attitude.",
+    "passage": "Managing time effectively is an essential skill in both academic and professional life. However, not all aspects of time management are within a person's control. Unexpected events, such as urgent tasks or sudden changes in schedule, can disrupt even the most carefully planned routines.\n\nDespite these challenges, individuals can still take steps to improve how they use their time. For instance, prioritizing important tasks and setting realistic deadlines can help maintain focus. While you cannot control every interruption, you can control how you respond to it.\n\nIn addition, developing consistent habits plays a key role in effective time management. Regular planning, such as creating daily or weekly schedules, allows individuals to stay organized. However, it is important to remain flexible, as rigid plans may not always work in dynamic situations.\n\nFinally, balancing responsibilities is crucial. Overloading yourself with too many commitments can lead to stress and decreased efficiency. By recognizing your limits and making thoughtful choices, you can manage your time more effectively and achieve better results."
   },
   {
     "id": "eng_12",
+    "passage_id": "passage_04",
     "subject": "English",
     "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3? (Paragraph 2 discusses prioritizing tasks and setting deadlines; Paragraph 3 discusses developing consistent habits and regular planning).",
+    "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
     "options": [
       {
         "letter": "A",
@@ -1640,10 +1647,12 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "Paragraph 2 introduces the overarching idea that individuals can take steps/strategies to improve time management (like prioritizing). Paragraph 3 builds directly on this by providing further concrete examples of these strategies, such as developing consistent habits and regular planning."
+    "explanation": "Paragraph 2 introduces the overarching idea that individuals can take steps and strategies to improve time management (like prioritizing). Paragraph 3 builds directly on this by providing further concrete examples of these strategies, such as developing consistent habits and regular planning.",
+    "passage": "Managing time effectively is an essential skill in both academic and professional life. However, not all aspects of time management are within a person's control. Unexpected events, such as urgent tasks or sudden changes in schedule, can disrupt even the most carefully planned routines.\n\nDespite these challenges, individuals can still take steps to improve how they use their time. For instance, prioritizing important tasks and setting realistic deadlines can help maintain focus. While you cannot control every interruption, you can control how you respond to it.\n\nIn addition, developing consistent habits plays a key role in effective time management. Regular planning, such as creating daily or weekly schedules, allows individuals to stay organized. However, it is important to remain flexible, as rigid plans may not always work in dynamic situations.\n\nFinally, balancing responsibilities is crucial. Overloading yourself with too many commitments can lead to stress and decreased efficiency. By recognizing your limits and making thoughtful choices, you can manage your time more effectively and achieve better results."
   },
   {
     "id": "eng_13",
+    "passage_id": "passage_04",
     "subject": "English",
     "topic": "Vocabulary in Context",
     "question_text": "You cannot always predict unexpected events, but you can ________ how you respond to them.",
@@ -1670,14 +1679,15 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "The blank follows the modal verb 'can'. In English grammar, modal verbs are always followed by the base form of the main verb without 'to'. Therefore, the base form 'control' is the only grammatically correct choice.",
-    "passage": "The scientist was incredibly fastidious when observing the cultures in the petri dishes. Every minor change in color, no matter how ephemeral, was catalogued with meticulous care."
+    "explanation": "The blank follows the modal verb 'can'. In English grammar, modal verbs are always followed by the base form of the main verb without 'to'. The base form 'control' is the only grammatically correct choice.",
+    "passage": "Managing time effectively is an essential skill in both academic and professional life. However, not all aspects of time management are within a person's control. Unexpected events, such as urgent tasks or sudden changes in schedule, can disrupt even the most carefully planned routines.\n\nDespite these challenges, individuals can still take steps to improve how they use their time. For instance, prioritizing important tasks and setting realistic deadlines can help maintain focus. While you cannot control every interruption, you can control how you respond to it.\n\nIn addition, developing consistent habits plays a key role in effective time management. Regular planning, such as creating daily or weekly schedules, allows individuals to stay organized. However, it is important to remain flexible, as rigid plans may not always work in dynamic situations.\n\nFinally, balancing responsibilities is crucial. Overloading yourself with too many commitments can lead to stress and decreased efficiency. By recognizing your limits and making thoughtful choices, you can manage your time more effectively and achieve better results."
   },
   {
     "id": "eng_14",
+    "passage_id": "passage_05",
     "subject": "English",
     "topic": "Paragraph Cohesion and Structure",
-    "question_text": "(1) Solar energy is becoming an increasingly popular source of renewable energy worldwide... (5) However, some people prefer using public transportation instead of private cars... The sentence which is irrelevant to the topic of paragraph is",
+    "question_text": "The sentence which is irrelevant to the topic of paragraph is",
     "options": [
       {
         "letter": "A",
@@ -1701,13 +1711,15 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "The entire paragraph is focused on the mechanics, adoption, efficiency, and future of solar energy technology. Sentence 5 discusses personal preferences for public transportation over private cars, which is entirely unrelated to solar power."
+    "explanation": "The entire paragraph focuses on the mechanics, adoption, efficiency, and future of solar energy technology. Sentence 5 discusses personal preferences for public transportation over private cars, which is entirely unrelated to solar power.",
+    "passage": "(1) Solar energy is becoming an increasingly popular source of renewable energy worldwide. (2) It is generated by capturing sunlight and converting it into electricity using solar panels. (3) Many countries are investing in solar technology to reduce their dependence on fossil fuels. (4) Solar panels are most effective in areas that receive a high amount of sunlight throughout the year. (5) However, some people prefer using public transportation instead of private cars. (6) Weather conditions, such as cloudy days, can reduce the efficiency of solar energy systems. (7) Advances in technology continue to improve the performance and affordability of solar panels. (8) As a result, solar energy is expected to play a major role in the future of global energy production."
   },
   {
     "id": "eng_15",
+    "passage_id": "passage_05",
     "subject": "English",
     "topic": "Reading Comprehension",
-    "question_text": "What is the topic of the paragraph? (Referring to the paragraph about solar energy).",
+    "question_text": "What is the topic of the paragraph?",
     "options": [
       {
         "letter": "A",
@@ -1732,15 +1744,14 @@
     ],
     "correct_answer": "B",
     "explanation": "The paragraph explains what solar energy is, how it is captured, the factors affecting its efficiency, and its expected major role in the future of global energy production. This broadly covers its development and use.",
-    "passage_id": "passage_1",
-    "passage": "The COVID-19 pandemic accelerated a workplace transformation that had been quietly building for years: the shift to remote work. Almost overnight, millions of employees transitioned from shared offices to home workspaces, forcing companies to rapidly adopt digital collaboration tools and rethink fundamental assumptions about productivity and management.\n\nProponents of remote work argue that eliminating daily commutes returns precious hours to workers, reduces stress, and allows for a better work-life balance. Studies from Stanford University suggest that remote workers are roughly 13% more productive than their in-office counterparts, partly because they take shorter breaks and call in sick less frequently. Furthermore, companies can access global talent pools rather than limiting their search radius to commuting distance from a physical office.\n\nCritics, however, raise compelling concerns. The boundaries between professional and personal life can dissolve, leading to longer working hours and burnout. Junior employees may struggle without informal mentorship opportunities that arise naturally in shared physical spaces. Additionally, spontaneous collaboration—the kind that often sparks innovation—is harder to replicate through a video screen. A 2023 Microsoft survey found that while productivity metrics often remained stable, many workers reported feeling less connected to their company's culture and mission.\n\nOrganizations navigating this tension have largely settled on hybrid models as a compromise: employees spend part of the week in the office and part working remotely. This approach attempts to capture the focused productivity of remote work while preserving the collaborative energy of in-person interaction. Whether this equilibrium proves stable in the long run, or whether the pendulum swings back toward mandatory in-office attendance, remains one of the defining organizational questions of the decade.",
-    "passage_title": "The Rise of Remote Work"
+    "passage": "(1) Solar energy is becoming an increasingly popular source of renewable energy worldwide. (2) It is generated by capturing sunlight and converting it into electricity using solar panels. (3) Many countries are investing in solar technology to reduce their dependence on fossil fuels. (4) Solar panels are most effective in areas that receive a high amount of sunlight throughout the year. (5) However, some people prefer using public transportation instead of private cars. (6) Weather conditions, such as cloudy days, can reduce the efficiency of solar energy systems. (7) Advances in technology continue to improve the performance and affordability of solar panels. (8) As a result, solar energy is expected to play a major role in the future of global energy production."
   },
   {
     "id": "eng_16",
+    "passage_id": "passage_06",
     "subject": "English",
     "topic": "Reading Comprehension",
-    "question_text": "Contrary to the common belief that animals behave peacefully in nature, survival often depends on competition and adaptation... What can be inferred from paragraph 1?",
+    "question_text": "What can be inferred from paragraph 1?",
     "options": [
       {
         "letter": "A",
@@ -1765,15 +1776,14 @@
     ],
     "correct_answer": "B",
     "explanation": "Paragraph 1 explicitly states that survival depends on intense competition for limited resources. It gives the extreme example of fish eating their own offspring when food is scarce to increase the parent's chances of survival, directly supporting inference B.",
-    "passage_id": "passage_1",
-    "passage": "The COVID-19 pandemic accelerated a workplace transformation that had been quietly building for years: the shift to remote work. Almost overnight, millions of employees transitioned from shared offices to home workspaces, forcing companies to rapidly adopt digital collaboration tools and rethink fundamental assumptions about productivity and management.\n\nProponents of remote work argue that eliminating daily commutes returns precious hours to workers, reduces stress, and allows for a better work-life balance. Studies from Stanford University suggest that remote workers are roughly 13% more productive than their in-office counterparts, partly because they take shorter breaks and call in sick less frequently. Furthermore, companies can access global talent pools rather than limiting their search radius to commuting distance from a physical office.\n\nCritics, however, raise compelling concerns. The boundaries between professional and personal life can dissolve, leading to longer working hours and burnout. Junior employees may struggle without informal mentorship opportunities that arise naturally in shared physical spaces. Additionally, spontaneous collaboration—the kind that often sparks innovation—is harder to replicate through a video screen. A 2023 Microsoft survey found that while productivity metrics often remained stable, many workers reported feeling less connected to their company's culture and mission.\n\nOrganizations navigating this tension have largely settled on hybrid models as a compromise: employees spend part of the week in the office and part working remotely. This approach attempts to capture the focused productivity of remote work while preserving the collaborative energy of in-person interaction. Whether this equilibrium proves stable in the long run, or whether the pendulum swings back toward mandatory in-office attendance, remains one of the defining organizational questions of the decade.",
-    "passage_title": "The Rise of Remote Work"
+    "passage": "Contrary to the common belief that animals behave peacefully in nature, survival often depends on competition and adaptation. In some environments, animals must compete intensely for limited resources such as food, territory, and mates. For example, certain fish species have been observed eating their own offspring when food is scarce. This behavior, while shocking, increases the chances of survival for the parent.\n\nIn addition, some animals adapt in unusual ways to survive harsh conditions. Certain insects can mimic the appearance of leaves or sticks to avoid predators, while others develop toxic substances to deter attacks.\n\nThese survival strategies highlight how nature is driven by necessity rather than morality. Researchers continue to study these behaviors to better understand how ecosystems function. While such actions may seem cruel from a human perspective, they are often essential for maintaining balance within the environment. Survival, in many cases, requires difficult and extreme adaptations."
   },
   {
     "id": "eng_17",
+    "passage_id": "passage_06",
     "subject": "English",
     "topic": "Reading Comprehension",
-    "question_text": "The purpose of this passage is to (Regarding the text on animal survival strategies, mimicry, and toxic substances)",
+    "question_text": "The purpose of this passage is to",
     "options": [
       {
         "letter": "A",
@@ -1797,16 +1807,15 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "The passage details extreme adaptations (eating offspring, toxic substances) and concludes by stating, 'While such actions may seem cruel from a human perspective, they are often essential for maintaining balance within the environment. Survival, in many cases, requires difficult and extreme adaptations.'",
-    "passage_id": "passage_1",
-    "passage": "The COVID-19 pandemic accelerated a workplace transformation that had been quietly building for years: the shift to remote work. Almost overnight, millions of employees transitioned from shared offices to home workspaces, forcing companies to rapidly adopt digital collaboration tools and rethink fundamental assumptions about productivity and management.\n\nProponents of remote work argue that eliminating daily commutes returns precious hours to workers, reduces stress, and allows for a better work-life balance. Studies from Stanford University suggest that remote workers are roughly 13% more productive than their in-office counterparts, partly because they take shorter breaks and call in sick less frequently. Furthermore, companies can access global talent pools rather than limiting their search radius to commuting distance from a physical office.\n\nCritics, however, raise compelling concerns. The boundaries between professional and personal life can dissolve, leading to longer working hours and burnout. Junior employees may struggle without informal mentorship opportunities that arise naturally in shared physical spaces. Additionally, spontaneous collaboration—the kind that often sparks innovation—is harder to replicate through a video screen. A 2023 Microsoft survey found that while productivity metrics often remained stable, many workers reported feeling less connected to their company's culture and mission.\n\nOrganizations navigating this tension have largely settled on hybrid models as a compromise: employees spend part of the week in the office and part working remotely. This approach attempts to capture the focused productivity of remote work while preserving the collaborative energy of in-person interaction. Whether this equilibrium proves stable in the long run, or whether the pendulum swings back toward mandatory in-office attendance, remains one of the defining organizational questions of the decade.",
-    "passage_title": "The Rise of Remote Work"
+    "explanation": "The passage details extreme adaptations (eating offspring, toxic substances) and concludes by stating that while such actions may seem cruel from a human perspective, they are often essential for maintaining balance within the environment.",
+    "passage": "Contrary to the common belief that animals behave peacefully in nature, survival often depends on competition and adaptation. In some environments, animals must compete intensely for limited resources such as food, territory, and mates. For example, certain fish species have been observed eating their own offspring when food is scarce. This behavior, while shocking, increases the chances of survival for the parent.\n\nIn addition, some animals adapt in unusual ways to survive harsh conditions. Certain insects can mimic the appearance of leaves or sticks to avoid predators, while others develop toxic substances to deter attacks.\n\nThese survival strategies highlight how nature is driven by necessity rather than morality. Researchers continue to study these behaviors to better understand how ecosystems function. While such actions may seem cruel from a human perspective, they are often essential for maintaining balance within the environment. Survival, in many cases, requires difficult and extreme adaptations."
   },
   {
     "id": "eng_18",
+    "passage_id": "passage_06",
     "subject": "English",
     "topic": "Reading Comprehension",
-    "question_text": "What is the tone of the text? (Regarding the animal adaptation passage).",
+    "question_text": "What is the tone of the text?",
     "options": [
       {
         "letter": "A",
@@ -1831,15 +1840,14 @@
     ],
     "correct_answer": "B",
     "explanation": "The author presents biological phenomena (resource competition, mimicking, developing toxins) objectively. Even when discussing 'cruel' behaviors, the author explains them scientifically as 'necessity rather than morality,' maintaining an educational and informative tone.",
-    "passage_id": "passage_1",
-    "passage": "The COVID-19 pandemic accelerated a workplace transformation that had been quietly building for years: the shift to remote work. Almost overnight, millions of employees transitioned from shared offices to home workspaces, forcing companies to rapidly adopt digital collaboration tools and rethink fundamental assumptions about productivity and management.\n\nProponents of remote work argue that eliminating daily commutes returns precious hours to workers, reduces stress, and allows for a better work-life balance. Studies from Stanford University suggest that remote workers are roughly 13% more productive than their in-office counterparts, partly because they take shorter breaks and call in sick less frequently. Furthermore, companies can access global talent pools rather than limiting their search radius to commuting distance from a physical office.\n\nCritics, however, raise compelling concerns. The boundaries between professional and personal life can dissolve, leading to longer working hours and burnout. Junior employees may struggle without informal mentorship opportunities that arise naturally in shared physical spaces. Additionally, spontaneous collaboration—the kind that often sparks innovation—is harder to replicate through a video screen. A 2023 Microsoft survey found that while productivity metrics often remained stable, many workers reported feeling less connected to their company's culture and mission.\n\nOrganizations navigating this tension have largely settled on hybrid models as a compromise: employees spend part of the week in the office and part working remotely. This approach attempts to capture the focused productivity of remote work while preserving the collaborative energy of in-person interaction. Whether this equilibrium proves stable in the long run, or whether the pendulum swings back toward mandatory in-office attendance, remains one of the defining organizational questions of the decade.",
-    "passage_title": "The Rise of Remote Work"
+    "passage": "Contrary to the common belief that animals behave peacefully in nature, survival often depends on competition and adaptation. In some environments, animals must compete intensely for limited resources such as food, territory, and mates. For example, certain fish species have been observed eating their own offspring when food is scarce. This behavior, while shocking, increases the chances of survival for the parent.\n\nIn addition, some animals adapt in unusual ways to survive harsh conditions. Certain insects can mimic the appearance of leaves or sticks to avoid predators, while others develop toxic substances to deter attacks.\n\nThese survival strategies highlight how nature is driven by necessity rather than morality. Researchers continue to study these behaviors to better understand how ecosystems function. While such actions may seem cruel from a human perspective, they are often essential for maintaining balance within the environment. Survival, in many cases, requires difficult and extreme adaptations."
   },
   {
     "id": "eng_19",
+    "passage_id": "passage_07",
     "subject": "English",
     "topic": "Reading Comprehension",
-    "question_text": "Improving education in low-income regions is a complex challenge... By reallocating resources based on these findings, schools were able to improve their performance... The most appropriate title for the text is.",
+    "question_text": "The most appropriate title for the text is.",
     "options": [
       {
         "letter": "A",
@@ -1864,15 +1872,14 @@
     ],
     "correct_answer": "C",
     "explanation": "The entire text serves as a case study showing that simply providing equal funds wasn't enough; assessing actual needs and distributing funds based on those specific needs (efficient resource allocation) was the key driver in increasing test scores and lowering dropout rates.",
-    "passage_id": "passage_1",
-    "passage": "The COVID-19 pandemic accelerated a workplace transformation that had been quietly building for years: the shift to remote work. Almost overnight, millions of employees transitioned from shared offices to home workspaces, forcing companies to rapidly adopt digital collaboration tools and rethink fundamental assumptions about productivity and management.\n\nProponents of remote work argue that eliminating daily commutes returns precious hours to workers, reduces stress, and allows for a better work-life balance. Studies from Stanford University suggest that remote workers are roughly 13% more productive than their in-office counterparts, partly because they take shorter breaks and call in sick less frequently. Furthermore, companies can access global talent pools rather than limiting their search radius to commuting distance from a physical office.\n\nCritics, however, raise compelling concerns. The boundaries between professional and personal life can dissolve, leading to longer working hours and burnout. Junior employees may struggle without informal mentorship opportunities that arise naturally in shared physical spaces. Additionally, spontaneous collaboration—the kind that often sparks innovation—is harder to replicate through a video screen. A 2023 Microsoft survey found that while productivity metrics often remained stable, many workers reported feeling less connected to their company's culture and mission.\n\nOrganizations navigating this tension have largely settled on hybrid models as a compromise: employees spend part of the week in the office and part working remotely. This approach attempts to capture the focused productivity of remote work while preserving the collaborative energy of in-person interaction. Whether this equilibrium proves stable in the long run, or whether the pendulum swings back toward mandatory in-office attendance, remains one of the defining organizational questions of the decade.",
-    "passage_title": "The Rise of Remote Work"
+    "passage": "Improving education in low-income regions is a complex challenge. Many rural schools lack basic facilities such as books, trained teachers, and proper classrooms. As a result, students often struggle to achieve academic success, which limits their future opportunities.\n\nHowever, recent initiatives have shown that even small improvements can lead to significant progress. In one region, a non-profit organization provided additional funding to schools, but with a specific condition: the money had to be used efficiently. Instead of distributing resources equally, schools were encouraged to focus on the areas with the greatest need, such as teacher training and essential learning materials.\n\nTo identify these needs, researchers conducted surveys and assessments in various schools. They evaluated student performance, teacher qualifications, and available resources. The results revealed that some schools were receiving funds that did not match their actual needs, while others were severely underfunded.\n\nBy reallocating resources based on these findings, schools were able to improve their performance. Within a few years, student test scores increased, and dropout rates decreased significantly. This demonstrates that careful planning and targeted spending can make a substantial difference, even with limited budgets."
   },
   {
     "id": "eng_20",
+    "passage_id": "passage_07",
     "subject": "English",
     "topic": "Reading Comprehension",
-    "question_text": "The purpose of the writer in writing this article is probably to (Regarding the text on education funding).",
+    "question_text": "The purpose of the writer in writing this article is probably to",
     "options": [
       {
         "letter": "A",
@@ -1897,9 +1904,7 @@
     ],
     "correct_answer": "C",
     "explanation": "The final sentence encapsulates the author's primary goal: 'This demonstrates that careful planning and targeted spending can make a substantial difference, even with limited budgets.' This directly mirrors option C.",
-    "passage_id": "passage_1",
-    "passage": "The COVID-19 pandemic accelerated a workplace transformation that had been quietly building for years: the shift to remote work. Almost overnight, millions of employees transitioned from shared offices to home workspaces, forcing companies to rapidly adopt digital collaboration tools and rethink fundamental assumptions about productivity and management.\n\nProponents of remote work argue that eliminating daily commutes returns precious hours to workers, reduces stress, and allows for a better work-life balance. Studies from Stanford University suggest that remote workers are roughly 13% more productive than their in-office counterparts, partly because they take shorter breaks and call in sick less frequently. Furthermore, companies can access global talent pools rather than limiting their search radius to commuting distance from a physical office.\n\nCritics, however, raise compelling concerns. The boundaries between professional and personal life can dissolve, leading to longer working hours and burnout. Junior employees may struggle without informal mentorship opportunities that arise naturally in shared physical spaces. Additionally, spontaneous collaboration—the kind that often sparks innovation—is harder to replicate through a video screen. A 2023 Microsoft survey found that while productivity metrics often remained stable, many workers reported feeling less connected to their company's culture and mission.\n\nOrganizations navigating this tension have largely settled on hybrid models as a compromise: employees spend part of the week in the office and part working remotely. This approach attempts to capture the focused productivity of remote work while preserving the collaborative energy of in-person interaction. Whether this equilibrium proves stable in the long run, or whether the pendulum swings back toward mandatory in-office attendance, remains one of the defining organizational questions of the decade.",
-    "passage_title": "The Rise of Remote Work"
+    "passage": "Improving education in low-income regions is a complex challenge. Many rural schools lack basic facilities such as books, trained teachers, and proper classrooms. As a result, students often struggle to achieve academic success, which limits their future opportunities.\n\nHowever, recent initiatives have shown that even small improvements can lead to significant progress. In one region, a non-profit organization provided additional funding to schools, but with a specific condition: the money had to be used efficiently. Instead of distributing resources equally, schools were encouraged to focus on the areas with the greatest need, such as teacher training and essential learning materials.\n\nTo identify these needs, researchers conducted surveys and assessments in various schools. They evaluated student performance, teacher qualifications, and available resources. The results revealed that some schools were receiving funds that did not match their actual needs, while others were severely underfunded.\n\nBy reallocating resources based on these findings, schools were able to improve their performance. Within a few years, student test scores increased, and dropout rates decreased significantly. This demonstrates that careful planning and targeted spending can make a substantial difference, even with limited budgets."
   },
   {
     "id": "lr_01",
