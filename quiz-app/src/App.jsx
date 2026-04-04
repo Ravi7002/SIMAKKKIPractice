@@ -66,6 +66,7 @@ function App() {
       {phase === 'practice' && (
         <PracticeTest 
           allTopicsData={allTopicsData} 
+          generatedTryouts={generatedTryoutsData}
           onBack={() => setPhase('intro')}
         />
       )}

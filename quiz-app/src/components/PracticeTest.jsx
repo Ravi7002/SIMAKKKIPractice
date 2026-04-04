@@ -1,8 +1,9 @@
 import React, { useState, useMemo } from 'react';
-import { ArrowLeft, Book, Grid, ChevronRight, ChevronDown, Lightbulb, CheckCircle, XCircle, FlaskConical } from 'lucide-react';
+import { ArrowLeft, Book, Grid, ChevronRight, ChevronDown, Lightbulb, CheckCircle, XCircle, FlaskConical, Sparkles } from 'lucide-react';
 import MathText from './MathText';
 
 import ChartDisplay from './ChartDisplay';
+import QuestionChart from './QuestionChart';
 
 /* ─── Topic Quiz ─── */
 const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
@@ -66,7 +67,7 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
 
       {/* Question card */}
       <div className="glass-card mb-4">
-        {question.chart_data && <ChartDisplay chartData={question.chart_data} />}
+        {(question.chart_data || question.chart) && (question.chart_data ? <ChartDisplay chartData={question.chart_data} /> : <QuestionChart chart={question.chart} />)}
         <div style={{ fontSize: '1.2rem', lineHeight: '1.7', marginBottom: '1.5rem', whiteSpace: 'pre-wrap' }}>
           <MathText text={question.question_text} />
         </div>
@@ -294,7 +295,7 @@ const QuizComplete = ({ onRetry, onBack }) => (
 );
 
 /* ─── Main PracticeTest Component ────────────────────── */
-const PracticeTest = ({ allTopicsData, onBack }) => {
+const PracticeTest = ({ allTopicsData, generatedTryouts = [], onBack }) => {
   const [view, setView] = useState('subjects'); // 'subjects', 'topics', 'learn', 'quiz', 'done'
   const [selectedSubject, setSelectedSubject] = useState(null);
   const [selectedTopic, setSelectedTopic] = useState(null);
@@ -321,6 +322,26 @@ const PracticeTest = ({ allTopicsData, onBack }) => {
   const startQuiz = (startIndex = 0) => {
     setQuizStartIndex(startIndex);
     setQuizQuestions(selectedTopic.questions || []);
+    setView('quiz');
+  };
+
+  const startFullMock = () => {
+    // Generate an 80-question test from generated clones, maintaining 20 per section.
+    const allGen = generatedTryouts.flat();
+    const subjectsList = ['Basic Mathematics', 'English', 'Quantitative Reasoning', 'Logical Reasoning'];
+    const mockQuestions = [];
+    
+    subjectsList.forEach(sub => {
+       const qs = allGen.filter(q => q.subject === sub).sort(() => Math.random() - 0.5);
+       if (qs.length >= 20) {
+         mockQuestions.push(...qs.slice(0, 20));
+       } else {
+         mockQuestions.push(...qs);
+       }
+    });
+    
+    setQuizStartIndex(0);
+    setQuizQuestions(mockQuestions);
     setView('quiz');
   };
 
@@ -361,10 +382,18 @@ const PracticeTest = ({ allTopicsData, onBack }) => {
         <div className="fade-in">
           <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
             <h2 className="text-gradient" style={{ fontSize: '2.5rem' }}>
-              <Book size={36} style={{ verticalAlign: 'middle', marginRight: '12px' }} /> Practice Test
+              <Book size={36} style={{ verticalAlign: 'middle', marginRight: '12px' }} /> Practice Section
             </h2>
-            <p className="text-muted">Select a subject to begin learning</p>
+            <p className="text-muted">Select a subject to begin learning or take a full test</p>
           </div>
+
+          {/* Full Mock Test CTA */}
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '3rem' }}>
+            <button onClick={startFullMock} className="btn btn-primary" style={{ padding: '1rem 2rem', fontSize: '1.2rem', background: 'var(--accent-pink)', boxShadow: '0 0 20px rgba(244, 63, 94, 0.4)' }}>
+              <Sparkles size={20} style={{ verticalAlign: 'middle', marginRight: '8px' }} /> Take Full Untimed Mock (80 Questions)
+            </button>
+          </div>
+
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1.2rem' }}>
             {subjects.map(sub => {
               const color = subjectColors[sub] || 'var(--accent-blue)';
@@ -450,7 +479,7 @@ const PracticeTest = ({ allTopicsData, onBack }) => {
           questions={quizQuestions} 
           startIndex={quizStartIndex}
           onFinish={() => setView('done')} 
-          onBackToBank={() => setView('learn')}
+          onBackToBank={() => setView(selectedTopic ? 'learn' : 'subjects')}
         />
       )}
 
