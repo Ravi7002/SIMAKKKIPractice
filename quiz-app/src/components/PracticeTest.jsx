@@ -376,11 +376,27 @@ const QuizComplete = ({ onRetry, onBack }) => (
 );
 
 /* ─── Main PracticeTest Component ────────────────────── */
-const PracticeTest = ({ allTopicsData, generatedTryouts = [], onBack }) => {
+const PracticeTest = ({ allTopicsData, generatedTryouts = [], initialTryoutIndex = null, onBack }) => {
   const [view, setView] = useState('subjects'); // 'subjects', 'topics', 'learn', 'quiz', 'done'
   const [selectedSubject, setSelectedSubject] = useState(null);
   const [selectedTopic, setSelectedTopic] = useState(null);
   const [quizQuestions, setQuizQuestions] = useState([]);
+
+  // If a specific tryout was selected from the menu, launch it immediately
+  React.useEffect(() => {
+    if (initialTryoutIndex !== null && generatedTryouts.length > 0) {
+      const tryout = generatedTryouts[initialTryoutIndex] || generatedTryouts[0];
+      // Sort by subject order
+      const subjectOrder = ['Basic Mathematics', 'English', 'Quantitative Reasoning', 'Logical Reasoning'];
+      const sorted = [...tryout].sort((a, b) => {
+        const ai = subjectOrder.indexOf(a.subject);
+        const bi = subjectOrder.indexOf(b.subject);
+        return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+      });
+      setQuizQuestions(sorted);
+      setView('quiz');
+    }
+  }, [initialTryoutIndex, generatedTryouts]);
 
   const subjects = [...new Set(allTopicsData.map(t => t.subject))];
 
@@ -430,7 +446,11 @@ const PracticeTest = ({ allTopicsData, generatedTryouts = [], onBack }) => {
     if (view === 'subjects') onBack();
     else if (view === 'topics') { setSelectedSubject(null); setView('subjects'); }
     else if (view === 'learn') setView('topics');
-    else if (view === 'quiz') setView('learn');
+    else if (view === 'quiz') {
+      // If launched from tryout selector directly, go back to intro
+      if (initialTryoutIndex !== null) onBack();
+      else setView(selectedTopic ? 'learn' : 'subjects');
+    }
     else if (view === 'done') setView('topics');
   };
 
@@ -554,13 +574,12 @@ const PracticeTest = ({ allTopicsData, generatedTryouts = [], onBack }) => {
         <LearnView topicData={selectedTopic} onStartQuiz={startQuiz} />
       )}
 
-      {/* Quiz */}
       {view === 'quiz' && quizQuestions.length > 0 && (
-        <TopicQuiz 
-          questions={quizQuestions} 
+        <TopicQuiz
+          questions={quizQuestions}
           startIndex={quizStartIndex}
-          onFinish={() => setView('done')} 
-          onBackToBank={() => setView(selectedTopic ? 'learn' : 'subjects')}
+          onFinish={() => setView('done')}
+          onBackToBank={initialTryoutIndex !== null ? onBack : () => setView(selectedTopic ? 'learn' : 'subjects')}
         />
       )}
 

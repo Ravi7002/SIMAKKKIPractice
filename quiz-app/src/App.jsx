@@ -18,11 +18,18 @@ const tryoutModules = import.meta.glob('./GeneratedTryouts/**/*.json', { eager: 
 export const generatedTryoutsData = Object.values(tryoutModules).map(mod => mod.default || mod);
 
 function App() {
-  const [phase, setPhase] = useState('intro'); // 'intro', 'practice', 'ability', 'tryout', 'results'
+  const [phase, setPhase] = useState('intro'); // 'intro', 'practice', 'ability', 'tryout', 'practice-tryout', 'results'
   const [answers, setAnswers] = useState({});
   const [activeDataset, setActiveDataset] = useState(null);
+  const [activeTryoutIndex, setActiveTryoutIndex] = useState(null);
+
+  const startPracticeTryout = (idx) => {
+    setActiveTryoutIndex(idx);
+    setPhase('practice-tryout');
+  };
 
   const startPractice = () => {
+    setActiveTryoutIndex(null);
     setPhase('practice');
   };
 
@@ -48,6 +55,7 @@ function App() {
     setPhase('intro');
     setAnswers({});
     setActiveDataset(null);
+    setActiveTryoutIndex(null);
   };
 
   return (
@@ -55,18 +63,20 @@ function App() {
       <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '100%', pointerEvents: 'none', background: 'radial-gradient(circle at 50% -20%, rgba(139, 92, 246, 0.15), transparent 60%)', zIndex: -1 }} />
       
       {phase === 'intro' && (
-        <Intro 
-          onStartPractice={startPractice} 
+        <Intro
+          onStartPractice={startPractice}
           onStartAbility={startAbility}
-          onStartTryout={startTryout} 
+          onStartTryout={startTryout}
           onStartCompare={startCompare}
+          onStartPracticeTryout={startPracticeTryout}
         />
       )}
       
-      {phase === 'practice' && (
-        <PracticeTest 
-          allTopicsData={allTopicsData} 
+      {(phase === 'practice' || phase === 'practice-tryout') && (
+        <PracticeTest
+          allTopicsData={allTopicsData}
           generatedTryouts={generatedTryoutsData}
+          initialTryoutIndex={phase === 'practice-tryout' ? activeTryoutIndex : null}
           onBack={() => setPhase('intro')}
         />
       )}

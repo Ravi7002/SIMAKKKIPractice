@@ -600,6 +600,646 @@
     "explanation": "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 154]. Because $b, c, a$ are geometric, we know $c^2 = ab$. If we substitute $a = 2b - c$ into the geometric equation, we get $c^2 = b(2b - c)$. Rearranging this gives $c^2 + bc - 2b^2 = 0$, which factors beautifully into $(c - b)(c + 2b) = 0$. So either $c = b$ or $c = -2b$. If $c = b$, then all three numbers are identical, violating the rule that $a < b < c$. So $c = -2b$ is the only valid path. This implies $a = 4b$. For the inequality $4b < b < -2b$ to be true, $b$ must be a negative integer. Looking at the provided options, the smallest negative integer choice available is -2."
   },
   {
+    "id": "english_01",
+    "passage_id": "passage_q2_01",
+    "passage": "Artificial intelligence (AI) is rapidly transforming the healthcare industry, promising more accurate diagnoses and personalized treatments. Machine learning algorithms can now analyze medical images, such as X-rays and MRI scans, with a level of precision that often matches or even exceeds human experts. (a) ________, these systems can detect early signs of diseases like cancer before they become visible to the naked eye.\n\nDespite these advancements, experts warn that AI should not replace doctors but rather serve as a powerful tool to assist them. The human element, including empathy, ethical considerations, and complex decision-making, remains irreplaceable in patient care.\n\nWhile the integration of AI in medicine holds great promise, it also raises concerns about data privacy. Training these algorithms requires massive amounts of patient data, sparking debates about consent and the security of sensitive medical records.",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "question_text": "What is the primary theme of the passage?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The replacement of doctors by AI"
+      },
+      {
+        "letter": "B",
+        "text": "The benefits and challenges of AI in healthcare"
+      },
+      {
+        "letter": "C",
+        "text": "The history of medical imaging technology"
+      },
+      {
+        "letter": "D",
+        "text": "Data privacy laws in hospitals"
+      },
+      {
+        "letter": "E",
+        "text": "The cost of implementing new healthcare technologies"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The passage discusses both the positive impacts of AI (accurate diagnoses) and the challenges (data privacy, ethical concerns), making B the correct answer."
+  },
+  {
+    "id": "english_02",
+    "passage_id": "passage_q2_01",
+    "passage": "Artificial intelligence (AI) is rapidly transforming the healthcare industry, promising more accurate diagnoses and personalized treatments. Machine learning algorithms can now analyze medical images, such as X-rays and MRI scans, with a level of precision that often matches or even exceeds human experts. (a) ________, these systems can detect early signs of diseases like cancer before they become visible to the naked eye.\n\nDespite these advancements, experts warn that AI should not replace doctors but rather serve as a powerful tool to assist them. The human element, including empathy, ethical considerations, and complex decision-making, remains irreplaceable in patient care.\n\nWhile the integration of AI in medicine holds great promise, it also raises concerns about data privacy. Training these algorithms requires massive amounts of patient data, sparking debates about consent and the security of sensitive medical records.",
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "question_text": "Fill in the blank space (a) ________ with the most appropriate transition.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "However"
+      },
+      {
+        "letter": "B",
+        "text": "In contrast"
+      },
+      {
+        "letter": "C",
+        "text": "Furthermore"
+      },
+      {
+        "letter": "D",
+        "text": "Nevertheless"
+      },
+      {
+        "letter": "E",
+        "text": "Otherwise"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "'Furthermore' is used to add to the point already made. Here it adds an extra benefit of AI analyzing medical images."
+  },
+  {
+    "id": "english_03",
+    "passage_id": "passage_q2_01",
+    "passage": "Artificial intelligence (AI) is rapidly transforming the healthcare industry, promising more accurate diagnoses and personalized treatments. Machine learning algorithms can now analyze medical images, such as X-rays and MRI scans, with a level of precision that often matches or even exceeds human experts. (a) ________, these systems can detect early signs of diseases like cancer before they become visible to the naked eye.\n\nDespite these advancements, experts warn that AI should not replace doctors but rather serve as a powerful tool to assist them. The human element, including empathy, ethical considerations, and complex decision-making, remains irreplaceable in patient care.\n\nWhile the integration of AI in medicine holds great promise, it also raises concerns about data privacy. Training these algorithms requires massive amounts of patient data, sparking debates about consent and the security of sensitive medical records.",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "question_text": "According to the passage, why is the human element in medicine irreplaceable?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Because patients refuse to be diagnosed by machines"
+      },
+      {
+        "letter": "B",
+        "text": "Because AI cannot analyze MRI scans efficiently"
+      },
+      {
+        "letter": "C",
+        "text": "Because medical imaging requires manual calibration"
+      },
+      {
+        "letter": "D",
+        "text": "Because it involves empathy and complex decision-making"
+      },
+      {
+        "letter": "E",
+        "text": "Because doctors must manually input patient data"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "The second paragraph explicitly states that 'The human element, including empathy, ethical considerations, and complex decision-making, remains irreplaceable...'"
+  },
+  {
+    "id": "english_04",
+    "passage_id": "passage_q2_01",
+    "passage": "Artificial intelligence (AI) is rapidly transforming the healthcare industry, promising more accurate diagnoses and personalized treatments. Machine learning algorithms can now analyze medical images, such as X-rays and MRI scans, with a level of precision that often matches or even exceeds human experts. (a) ________, these systems can detect early signs of diseases like cancer before they become visible to the naked eye.\n\nDespite these advancements, experts warn that AI should not replace doctors but rather serve as a powerful tool to assist them. The human element, including empathy, ethical considerations, and complex decision-making, remains irreplaceable in patient care.\n\nWhile the integration of AI in medicine holds great promise, it also raises concerns about data privacy. Training these algorithms requires massive amounts of patient data, sparking debates about consent and the security of sensitive medical records.",
+    "subject": "English",
+    "topic": "Paragraph Cohesion and Structure",
+    "question_text": "The relationship between paragraph 1 and paragraph 3 is best described as:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Paragraph 3 completely contradicts paragraph 1"
+      },
+      {
+        "letter": "B",
+        "text": "Paragraph 3 outlines a negative implication of the technology introduced in paragraph 1"
+      },
+      {
+        "letter": "C",
+        "text": "Paragraph 3 summarizes the findings of paragraph 1"
+      },
+      {
+        "letter": "D",
+        "text": "Paragraph 3 provides specific examples of the success mentioned in paragraph 1"
+      },
+      {
+        "letter": "E",
+        "text": "Paragraph 3 is irrelevant to paragraph 1"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Paragraph 1 introduces the benefits of AI. Paragraph 3 discusses the data privacy concerns that arise from these technologies, acting as a caveat or implication."
+  },
+  {
+    "id": "english_05",
+    "passage_id": "passage_q2_02",
+    "passage": "The deep ocean remains one of the most mysterious and unexplored frontiers on Earth. Due to extreme pressure, freezing temperatures, and absolute darkness, human exploration of the abyssal zones has been highly restricted. However, recent developments in autonomous underwater vehicles (AUVs) have allowed marine biologists to study these harsh environments safely.\n\nThese robotic submersibles have uncovered entirely new ecosystems near hydrothermal vents. Here, completely independent of sunlight, life thrives on chemical energy through a process known as chemosynthesis. Giant tube worms and blind crabs are among the bizarre species that call these deep-sea chimneys home.\n\nDiscovering these ecosystems has profound implications for biology. It forces scientists to reconsider the conditions necessary for life. If organisms can flourish in such extreme terrestrial environments, the likelihood of finding extraterrestrial life on icy moons, like Jupiter's Europa, dramatically increases.",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "question_text": "What enables life to exist near hydrothermal vents?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Photosynthesis from filtered sunlight"
+      },
+      {
+        "letter": "B",
+        "text": "Geothermal heat trapped by ocean currents"
+      },
+      {
+        "letter": "C",
+        "text": "Chemical energy via chemosynthesis"
+      },
+      {
+        "letter": "D",
+        "text": "Nutrients dropped by surface-dwelling animals"
+      },
+      {
+        "letter": "E",
+        "text": "Oxygen pockets trapped in underwater caves"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Paragraph 2 explicitly states that life thrives there 'on chemical energy through a process known as chemosynthesis.'"
+  },
+  {
+    "id": "english_06",
+    "passage_id": "passage_q2_02",
+    "passage": "The deep ocean remains one of the most mysterious and unexplored frontiers on Earth. Due to extreme pressure, freezing temperatures, and absolute darkness, human exploration of the abyssal zones has been highly restricted. However, recent developments in autonomous underwater vehicles (AUVs) have allowed marine biologists to study these harsh environments safely.\n\nThese robotic submersibles have uncovered entirely new ecosystems near hydrothermal vents. Here, completely independent of sunlight, life thrives on chemical energy through a process known as chemosynthesis. Giant tube worms and blind crabs are among the bizarre species that call these deep-sea chimneys home.\n\nDiscovering these ecosystems has profound implications for biology. It forces scientists to reconsider the conditions necessary for life. If organisms can flourish in such extreme terrestrial environments, the likelihood of finding extraterrestrial life on icy moons, like Jupiter's Europa, dramatically increases.",
+    "subject": "English",
+    "topic": "Grammar and Tenses",
+    "question_text": "In the sentence 'human exploration of the abyssal zones has been highly restricted', the verb tense used is:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Simple Past"
+      },
+      {
+        "letter": "B",
+        "text": "Present Continuous"
+      },
+      {
+        "letter": "C",
+        "text": "Present Perfect Passive"
+      },
+      {
+        "letter": "D",
+        "text": "Past Perfect Passive"
+      },
+      {
+        "letter": "E",
+        "text": "Future Perfect"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "'has been restricted' comprises 'has' (present tense auxiliary), 'been' (past participle of be), and 'restricted' (past participle), forming the Present Perfect in the passive voice."
+  },
+  {
+    "id": "english_07",
+    "passage_id": "passage_q2_02",
+    "passage": "The deep ocean remains one of the most mysterious and unexplored frontiers on Earth. Due to extreme pressure, freezing temperatures, and absolute darkness, human exploration of the abyssal zones has been highly restricted. However, recent developments in autonomous underwater vehicles (AUVs) have allowed marine biologists to study these harsh environments safely.\n\nThese robotic submersibles have uncovered entirely new ecosystems near hydrothermal vents. Here, completely independent of sunlight, life thrives on chemical energy through a process known as chemosynthesis. Giant tube worms and blind crabs are among the bizarre species that call these deep-sea chimneys home.\n\nDiscovering these ecosystems has profound implications for biology. It forces scientists to reconsider the conditions necessary for life. If organisms can flourish in such extreme terrestrial environments, the likelihood of finding extraterrestrial life on icy moons, like Jupiter's Europa, dramatically increases.",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "question_text": "Why does deep-sea exploration increase the likelihood of finding extraterrestrial life?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Because AUV technology is also used in space exploration"
+      },
+      {
+        "letter": "B",
+        "text": "Because it proves that life can exist without sunlight in extreme environments"
+      },
+      {
+        "letter": "C",
+        "text": "Because deep-sea marine life originated from meteorites"
+      },
+      {
+        "letter": "D",
+        "text": "Because oceans on Earth and Europa share the exact same chemical makeup"
+      },
+      {
+        "letter": "E",
+        "text": "Because tube worms can survive in the vacuum of space"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Paragraph 3 notes that if organisms can flourish without sunlight in extreme conditions, it increases the likelihood of extraterrestrial life on icy moons."
+  },
+  {
+    "id": "english_08",
+    "passage_id": "passage_q2_03",
+    "passage": "Habits form the invisible architecture of daily life. Research indicates that approximately 40 percent of our daily actions are automatically driven by habit rather than conscious decision-making. The neurological loop at the core of all habits consists of three parts: a cue, a routine, and a reward.\n\nUnderstanding this loop is key to breaking bad habits. Merely relying on willpower is rarely effective long-term. Instead, psychologists suggest identifying the underlying cue that triggers the behavior and the reward it provides. By keeping the cue and reward the same but altering the routine, individuals can successfully rewire their behavior.\n\nFor instance, if stress (the cue) leads to unhealthy snacking (the routine) to gain temporary relief (the reward), one could substitute the snacking with an alternative stress-relieving activity, such as deep breathing or walking. Eventually, this new routine overrides the old habit.",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "question_text": "Which of the following is NOT a component of the habit loop mentioned in the text?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A cue"
+      },
+      {
+        "letter": "B",
+        "text": "A routine"
+      },
+      {
+        "letter": "C",
+        "text": "A reward"
+      },
+      {
+        "letter": "D",
+        "text": "A punishment"
+      },
+      {
+        "letter": "E",
+        "text": "These are all components"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "The text lists three parts: a cue, a routine, and a reward. Punishment is not mentioned as part of the loop."
+  },
+  {
+    "id": "english_09",
+    "passage_id": "passage_q2_03",
+    "passage": "Habits form the invisible architecture of daily life. Research indicates that approximately 40 percent of our daily actions are automatically driven by habit rather than conscious decision-making. The neurological loop at the core of all habits consists of three parts: a cue, a routine, and a reward.\n\nUnderstanding this loop is key to breaking bad habits. Merely relying on willpower is rarely effective long-term. Instead, psychologists suggest identifying the underlying cue that triggers the behavior and the reward it provides. By keeping the cue and reward the same but altering the routine, individuals can successfully rewire their behavior.\n\nFor instance, if stress (the cue) leads to unhealthy snacking (the routine) to gain temporary relief (the reward), one could substitute the snacking with an alternative stress-relieving activity, such as deep breathing or walking. Eventually, this new routine overrides the old habit.",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "question_text": "According to psychologists referenced in the text, what is the best way to change a bad habit?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Avoid all cues entirely"
+      },
+      {
+        "letter": "B",
+        "text": "Rely heavily on strong willpower"
+      },
+      {
+        "letter": "C",
+        "text": "Alter the reward while keeping the routine consistent"
+      },
+      {
+        "letter": "D",
+        "text": "Substitute the routine while maintaining the same cue and reward"
+      },
+      {
+        "letter": "E",
+        "text": "Suppress the desire for the reward"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "The text advises 'keeping the cue and reward the same but altering the routine'."
+  },
+  {
+    "id": "english_10",
+    "passage_id": "passage_q2_03",
+    "passage": "Habits form the invisible architecture of daily life. Research indicates that approximately 40 percent of our daily actions are automatically driven by habit rather than conscious decision-making. The neurological loop at the core of all habits consists of three parts: a cue, a routine, and a reward.\n\nUnderstanding this loop is key to breaking bad habits. Merely relying on willpower is rarely effective long-term. Instead, psychologists suggest identifying the underlying cue that triggers the behavior and the reward it provides. By keeping the cue and reward the same but altering the routine, individuals can successfully rewire their behavior.\n\nFor instance, if stress (the cue) leads to unhealthy snacking (the routine) to gain temporary relief (the reward), one could substitute the snacking with an alternative stress-relieving activity, such as deep breathing or walking. Eventually, this new routine overrides the old habit.",
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "question_text": "The word 'overrides' in the last sentence is closest in meaning to:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Supports"
+      },
+      {
+        "letter": "B",
+        "text": "Replaces"
+      },
+      {
+        "letter": "C",
+        "text": "Complicates"
+      },
+      {
+        "letter": "D",
+        "text": "Highlights"
+      },
+      {
+        "letter": "E",
+        "text": "Ignores"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "In this context, when a new routine 'overrides' the old one, it takes its place or supersedes it, making 'Replaces' the best fit."
+  },
+  {
+    "id": "english_11",
+    "passage_id": "passage_q2_04",
+    "passage": "For decades, the high cost of implementation hindered the widespread adoption of renewable energy sources such as solar and wind power. However, economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape. Over the last ten years, the cost of generating electricity from solar panels has plummeted by nearly 80 percent.\n\nToday, in many parts of the world, building new renewable energy plants is actually cheaper than maintaining existing coal or gas-fired power stations. This economic tipping point is forcing utility companies to reevaluate their long-term infrastructure investments. Investors are increasingly diverting capital away from fossil fuels.\n\nDespite this momentum, transitioning to a fully renewable grid poses logistical hurdles. The intermittent nature of wind and solar requires robust energy storage solutions, such as massive lithium-ion battery farms, to ensure consistent power supply during calm or cloudy days.",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "question_text": "What has been the primary driver in reducing the cost of solar energy over the last decade?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Strict environmental regulations"
+      },
+      {
+        "letter": "B",
+        "text": "Subsidies provided by international banks"
+      },
+      {
+        "letter": "C",
+        "text": "Economies of scale and advancements in engineering"
+      },
+      {
+        "letter": "D",
+        "text": "The depletion of global coal reserves"
+      },
+      {
+        "letter": "E",
+        "text": "Decreased global demand for electricity"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Paragraph 1 states that 'economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape'."
+  },
+  {
+    "id": "english_12",
+    "passage_id": "passage_q2_04",
+    "passage": "For decades, the high cost of implementation hindered the widespread adoption of renewable energy sources such as solar and wind power. However, economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape. Over the last ten years, the cost of generating electricity from solar panels has plummeted by nearly 80 percent.\n\nToday, in many parts of the world, building new renewable energy plants is actually cheaper than maintaining existing coal or gas-fired power stations. This economic tipping point is forcing utility companies to reevaluate their long-term infrastructure investments. Investors are increasingly diverting capital away from fossil fuels.\n\nDespite this momentum, transitioning to a fully renewable grid poses logistical hurdles. The intermittent nature of wind and solar requires robust energy storage solutions, such as massive lithium-ion battery farms, to ensure consistent power supply during calm or cloudy days.",
+    "subject": "English",
+    "topic": "Paragraph Cohesion and Structure",
+    "question_text": "The phrase 'This economic tipping point' in paragraph 2 refers directly to:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The 80 percent drop in solar energy costs"
+      },
+      {
+        "letter": "B",
+        "text": "The fact that new renewables are now cheaper than maintaining existing fossil fuel plants"
+      },
+      {
+        "letter": "C",
+        "text": "The decrease in capital investments"
+      },
+      {
+        "letter": "D",
+        "text": "The logistical hurdles of energy storage"
+      },
+      {
+        "letter": "E",
+        "text": "The rising prices of natural gas"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The immediately preceding sentence explains that building new renewable plants is cheaper than maintaining old fossil fuel plants, identifying the specific 'tipping point'."
+  },
+  {
+    "id": "english_13",
+    "passage_id": "passage_q2_04",
+    "passage": "For decades, the high cost of implementation hindered the widespread adoption of renewable energy sources such as solar and wind power. However, economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape. Over the last ten years, the cost of generating electricity from solar panels has plummeted by nearly 80 percent.\n\nToday, in many parts of the world, building new renewable energy plants is actually cheaper than maintaining existing coal or gas-fired power stations. This economic tipping point is forcing utility companies to reevaluate their long-term infrastructure investments. Investors are increasingly diverting capital away from fossil fuels.\n\nDespite this momentum, transitioning to a fully renewable grid poses logistical hurdles. The intermittent nature of wind and solar requires robust energy storage solutions, such as massive lithium-ion battery farms, to ensure consistent power supply during calm or cloudy days.",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "question_text": "According to the passage, why are robust energy storage solutions necessary?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To increase the efficiency of coal-fired stations"
+      },
+      {
+        "letter": "B",
+        "text": "To reduce the physical footprint of solar panels"
+      },
+      {
+        "letter": "C",
+        "text": "To power electric utility vehicles"
+      },
+      {
+        "letter": "D",
+        "text": "To compensate for the intermittent nature of solar and wind power"
+      },
+      {
+        "letter": "E",
+        "text": "To lower the manufacturing cost of lithium-ion batteries"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "The text states that energy storage is required 'to ensure consistent power supply during calm or cloudy days' due to the 'intermittent nature of wind and solar'."
+  },
+  {
+    "id": "english_14",
+    "passage_id": "passage_q2_05",
+    "passage": "The durability of Ancient Roman architecture is a source of fascination for modern engineers. While many modern concrete structures show signs of significant degradation within a century, iconic Roman buildings like the Pantheon have stood intact for over two millennia. The secret to this longevity lies primarily in the unique recipe of Roman concrete, known as opus caementicium.\n\nUnlike modern concrete, which often relies on Portland cement, the Romans mixed volcanic ash, quicklime, and seawater. This mixture induced a chemical reaction called a pozzolanic reaction. When microscopic cracks formed in the material, rainwater seeping in would react with the unreacted lime to create new crystals, effectively self-healing the fractures.\n\nUnderstanding and replicating these ancient techniques holds immense potential for the future. By incorporating similar self-healing properties into modern construction materials, the building industry could drastically reduce maintenance costs and lower the environmental impact of frequent concrete replacement.",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "question_text": "What is the main topic of the passage?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The decline of the Roman Empire"
+      },
+      {
+        "letter": "B",
+        "text": "The environmental impact of modern construction"
+      },
+      {
+        "letter": "C",
+        "text": "The history of the Pantheon in Rome"
+      },
+      {
+        "letter": "D",
+        "text": "The composition and durability of Roman concrete"
+      },
+      {
+        "letter": "E",
+        "text": "A comparison between Greek and Roman architecture"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "The passage primarily discusses how the unique recipe of Roman concrete allows structures to last for millennia."
+  },
+  {
+    "id": "english_15",
+    "passage_id": "passage_q2_05",
+    "passage": "The durability of Ancient Roman architecture is a source of fascination for modern engineers. While many modern concrete structures show signs of significant degradation within a century, iconic Roman buildings like the Pantheon have stood intact for over two millennia. The secret to this longevity lies primarily in the unique recipe of Roman concrete, known as opus caementicium.\n\nUnlike modern concrete, which often relies on Portland cement, the Romans mixed volcanic ash, quicklime, and seawater. This mixture induced a chemical reaction called a pozzolanic reaction. When microscopic cracks formed in the material, rainwater seeping in would react with the unreacted lime to create new crystals, effectively self-healing the fractures.\n\nUnderstanding and replicating these ancient techniques holds immense potential for the future. By incorporating similar self-healing properties into modern construction materials, the building industry could drastically reduce maintenance costs and lower the environmental impact of frequent concrete replacement.",
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "question_text": "Based on the passage, what does the term 'self-healing' imply regarding Roman concrete?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It requires frequent manual repair by engineers"
+      },
+      {
+        "letter": "B",
+        "text": "It actively repels rainwater entirely"
+      },
+      {
+        "letter": "C",
+        "text": "It can naturally patch its own microscopic fractures over time"
+      },
+      {
+        "letter": "D",
+        "text": "It becomes softer when exposed to the elements"
+      },
+      {
+        "letter": "E",
+        "text": "It purifies seawater as it passes through the walls"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The text explains that returning rainwater reacts with lime to 'create new crystals, effectively self-healing the fractures.'"
+  },
+  {
+    "id": "english_16",
+    "passage_id": "passage_q2_05",
+    "passage": "The durability of Ancient Roman architecture is a source of fascination for modern engineers. While many modern concrete structures show signs of significant degradation within a century, iconic Roman buildings like the Pantheon have stood intact for over two millennia. The secret to this longevity lies primarily in the unique recipe of Roman concrete, known as opus caementicium.\n\nUnlike modern concrete, which often relies on Portland cement, the Romans mixed volcanic ash, quicklime, and seawater. This mixture induced a chemical reaction called a pozzolanic reaction. When microscopic cracks formed in the material, rainwater seeping in would react with the unreacted lime to create new crystals, effectively self-healing the fractures.\n\nUnderstanding and replicating these ancient techniques holds immense potential for the future. By incorporating similar self-healing properties into modern construction materials, the building industry could drastically reduce maintenance costs and lower the environmental impact of frequent concrete replacement.",
+    "subject": "English",
+    "topic": "Grammar and Tenses",
+    "question_text": "In the sentence 'While many modern concrete structures show signs of significant degradation within a century, iconic Roman buildings like the Pantheon have stood intact for over two millennia', what purpose does the word 'While' serve?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To indicate a sequence of events"
+      },
+      {
+        "letter": "B",
+        "text": "To introduce a direct contradiction or contrast between two subjects"
+      },
+      {
+        "letter": "C",
+        "text": "To show cause and effect"
+      },
+      {
+        "letter": "D",
+        "text": "To illustrate a condition that must be met"
+      },
+      {
+        "letter": "E",
+        "text": "To define an exact period of time"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "'While' acts as a subordinating conjunction introducing a contrast between the short lifespan of modern concrete and the extreme longevity of Roman buildings."
+  },
+  {
+    "id": "english_17",
+    "passage_id": "passage_q2_05",
+    "passage": "The durability of Ancient Roman architecture is a source of fascination for modern engineers. While many modern concrete structures show signs of significant degradation within a century, iconic Roman buildings like the Pantheon have stood intact for over two millennia. The secret to this longevity lies primarily in the unique recipe of Roman concrete, known as opus caementicium.\n\nUnlike modern concrete, which often relies on Portland cement, the Romans mixed volcanic ash, quicklime, and seawater. This mixture induced a chemical reaction called a pozzolanic reaction. When microscopic cracks formed in the material, rainwater seeping in would react with the unreacted lime to create new crystals, effectively self-healing the fractures.\n\nUnderstanding and replicating these ancient techniques holds immense potential for the future. By incorporating similar self-healing properties into modern construction materials, the building industry could drastically reduce maintenance costs and lower the environmental impact of frequent concrete replacement.",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "question_text": "How could applying Roman concrete techniques benefit modern society?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "By increasing the speed of construction projects"
+      },
+      {
+        "letter": "B",
+        "text": "By completely eliminating the need for architectural design"
+      },
+      {
+        "letter": "C",
+        "text": "By reducing maintenance costs and environmental impact"
+      },
+      {
+        "letter": "D",
+        "text": "By making buildings highly resistant to severe earthquakes"
+      },
+      {
+        "letter": "E",
+        "text": "By lowering the price of volcanic ash"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Paragraph 3 explicitly states that using these techniques 'could drastically reduce maintenance costs and lower the environmental impact'."
+  },
+  {
+    "id": "english_18",
+    "passage_id": "passage_q2_06",
+    "passage": "Since the launch of Sputnik in 1957, humanity has sent thousands of satellites into orbit. While these technological marvels have revolutionized global communication and navigation, they have also created a hazardous byproduct: space debris. Millions of fragments, ranging from defunct satellites to tiny paint flecks, currently circle the Earth at immense speeds.\n\nThe danger of this orbital litter is severe. Because objects in low Earth orbit travel at roughly 17,500 miles per hour, even a collision with a bolt size piece of debris can cause catastrophic damage to active spacecraft. This risk is compounded by the Kessler Syndrome, a theoretical scenario where a single collision creates a cascade of debris, triggering further collisions until orbit becomes unusable.\n\nSeveral space agencies are currently designing initiatives to clean up the orbit. Proposed solutions include deploying large magnetic nets, utilizing robotic arms to capture dead satellites, and using lasers to push fragments into the atmosphere where they will safely burn up. Addressing the space debris issue is crucial for the future viability of space exploration.",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "question_text": "What is the primary danger associated with space debris according to the text?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It blocks communication signals from active satellites"
+      },
+      {
+        "letter": "B",
+        "text": "It travels at high speeds and can cause catastrophic damage"
+      },
+      {
+        "letter": "C",
+        "text": "It frequently re-enters the atmosphere, endangering populated areas"
+      },
+      {
+        "letter": "D",
+        "text": "It increases the cost of launching new satellites"
+      },
+      {
+        "letter": "E",
+        "text": "It reflects sunlight, altering Earth's climate"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Paragraph 2 notes that because debris travels 'at roughly 17,500 miles per hour, even a collision with a bolt size piece... can cause catastrophic damage'."
+  },
+  {
+    "id": "english_19",
+    "passage_id": "passage_q2_06",
+    "passage": "Since the launch of Sputnik in 1957, humanity has sent thousands of satellites into orbit. While these technological marvels have revolutionized global communication and navigation, they have also created a hazardous byproduct: space debris. Millions of fragments, ranging from defunct satellites to tiny paint flecks, currently circle the Earth at immense speeds.\n\nThe danger of this orbital litter is severe. Because objects in low Earth orbit travel at roughly 17,500 miles per hour, even a collision with a bolt size piece of debris can cause catastrophic damage to active spacecraft. This risk is compounded by the Kessler Syndrome, a theoretical scenario where a single collision creates a cascade of debris, triggering further collisions until orbit becomes unusable.\n\nSeveral space agencies are currently designing initiatives to clean up the orbit. Proposed solutions include deploying large magnetic nets, utilizing robotic arms to capture dead satellites, and using lasers to push fragments into the atmosphere where they will safely burn up. Addressing the space debris issue is crucial for the future viability of space exploration.",
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "question_text": "What does the term 'Kessler Syndrome' refer to?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A physical illness experienced by astronauts in zero gravity"
+      },
+      {
+        "letter": "B",
+        "text": "The malfunction of navigation equipment caused by solar radiation"
+      },
+      {
+        "letter": "C",
+        "text": "A cascade of collisions where one impact creates debris that triggers further impacts"
+      },
+      {
+        "letter": "D",
+        "text": "The process of a satellite safely burning up in the atmosphere"
+      },
+      {
+        "letter": "E",
+        "text": "The political failure to implement space cleanup initiatives"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Paragraph 2 defines the Kessler Syndrome as 'a cascade of debris, triggering further collisions until orbit becomes unusable'."
+  },
+  {
+    "id": "english_20",
+    "passage_id": "passage_q2_06",
+    "passage": "Since the launch of Sputnik in 1957, humanity has sent thousands of satellites into orbit. While these technological marvels have revolutionized global communication and navigation, they have also created a hazardous byproduct: space debris. Millions of fragments, ranging from defunct satellites to tiny paint flecks, currently circle the Earth at immense speeds.\n\nThe danger of this orbital litter is severe. Because objects in low Earth orbit travel at roughly 17,500 miles per hour, even a collision with a bolt size piece of debris can cause catastrophic damage to active spacecraft. This risk is compounded by the Kessler Syndrome, a theoretical scenario where a single collision creates a cascade of debris, triggering further collisions until orbit becomes unusable.\n\nSeveral space agencies are currently designing initiatives to clean up the orbit. Proposed solutions include deploying large magnetic nets, utilizing robotic arms to capture dead satellites, and using lasers to push fragments into the atmosphere where they will safely burn up. Addressing the space debris issue is crucial for the future viability of space exploration.",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "question_text": "Which of the following is NOT mentioned as a proposed solution to clean up space debris?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Deploying large magnetic nets"
+      },
+      {
+        "letter": "B",
+        "text": "Using robotic arms to capture dead satellites"
+      },
+      {
+        "letter": "C",
+        "text": "Launching black hole simulators to absorb fragments"
+      },
+      {
+        "letter": "D",
+        "text": "Using lasers to push fragments into the atmosphere"
+      },
+      {
+        "letter": "E",
+        "text": "All of these are mentioned"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Paragraph 3 lists magnetic nets, robotic arms, and lasers. Black hole simulators are not mentioned."
+  },
+  {
     "id": "quant_01",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
@@ -1198,640 +1838,6 @@
     ],
     "correct_answer": "A",
     "explanation": "First, we can rewrite the constant 2 as a logarithm with base 2: $2 = \\log_2(4)$. Substituting this into the equation gives $\\log_2(x+6) = \\log_2(4) + \\log_2(x)$. Using logarithm addition rules, we combine the right side to get $\\log_2(x+6) = \\log_2(4x)$. Since the bases are the same, we can drop the logs and set the insides equal: $x + 6 = 4x$. Subtracting $x$ from both sides gives $3x = 6$, so $x = 2$."
-  },
-  {
-    "id": "english_01",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "Which of the following is the best title for the text?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "The History of Rail Travel in Germany"
-      },
-      {
-        "letter": "B",
-        "text": "Challenges of Digital Transit Systems for Travelers"
-      },
-      {
-        "letter": "C",
-        "text": "How to Save Money on Roaming Charges"
-      },
-      {
-        "letter": "D",
-        "text": "The Decline of Urban Planning in Berlin"
-      },
-      {
-        "letter": "E",
-        "text": "Berlin's Economic Policies on Transportation"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The text focuses entirely on Marcus Reed's difficulties adapting to Berlin's modern, app-heavy transit system compared to the physical tickets he prepared for. Option B perfectly encapsulates this main idea and narrative arc.",
-    "passage_id": "passage_2",
-    "passage": "Since the Industrial Revolution, the world's oceans have absorbed approximately 30% of all carbon dioxide (CO₂) emitted by human activity. While this has slowed the rate of atmospheric warming, it has triggered a parallel crisis largely invisible to public awareness: ocean acidification. When CO₂ dissolves in seawater, it forms carbonic acid, which gradually lowers the ocean's pH. Surface ocean pH has already dropped from a pre-industrial level of 8.2 to approximately 8.1—a change that, on the logarithmic pH scale, represents a 26% increase in acidity.\n\nThe ecological consequences are profound. Marine organisms that build shells or skeletons from calcium carbonate—including oysters, mussels, sea urchins, and corals—find it increasingly difficult to calcify in more acidic waters. Research published in the journal Nature has demonstrated that oyster larvae in the Pacific Northwest have suffered massive die-offs linked directly to acidification. Coral reefs, already stressed by rising water temperatures, face a compounded threat: not only does bleaching occur when symbiotic algae are expelled due to heat stress, but acidic water also weakens the coral's calcium carbonate structure, making recovery from bleaching events less likely.\n\nThe consequences extend beyond marine invertebrates. Pteropods—tiny free-swimming sea snails that serve as a critical food source for salmon, herring, and even some whale species—have been documented dissolving in waters already acidified near Antarctica. Disruptions at such a foundational level of the marine food web send cascading effects upward through entire ocean ecosystems.\n\nAddressing ocean acidification requires reducing global carbon emissions at a scale and pace that current international commitments have not yet achieved. In the interim, some researchers explore more localized interventions, such as adding alkaline minerals to coastal waters to neutralize acidity, but these approaches remain experimental and ecologically controversial.",
-    "passage_title": "Ocean Acidification and Marine Ecosystems"
-  },
-  {
-    "id": "english_02",
-    "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "In the sentence: 'which he had not secured prior to his trip,' the phrase 'had not secured' indicates that the action:",
-    "options": [
-      {
-        "letter": "A",
-        "text": "is happening now"
-      },
-      {
-        "letter": "B",
-        "text": "happened after he arrived"
-      },
-      {
-        "letter": "C",
-        "text": "happened before another past event"
-      },
-      {
-        "letter": "D",
-        "text": "will happen in the future"
-      },
-      {
-        "letter": "E",
-        "text": "is a general truth"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The phrase uses the past perfect tense ('had secured'), which is specifically used in English grammar to describe an action that was completed (or in this negative case, failed to be completed) before another specific event in the past (his arrival on the trip)."
-  },
-  {
-    "id": "english_03",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "The author discusses the modernization of transit infrastructure in...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 1"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 2"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 3"
-      },
-      {
-        "letter": "D",
-        "text": "Both 1 and 2"
-      },
-      {
-        "letter": "E",
-        "text": "The whole text"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "While paragraphs 1 and 2 describe Marcus's personal experiences with the digital elements, the explicit discussion of Germany's broader national efforts to 'modernize its transit infrastructure' to streamline mobility occurs entirely in the third paragraph."
-  },
-  {
-    "id": "english_04",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 3 provides examples of situations described in paragraph 2"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 3 explains the causes of the situation discussed in paragraph 2"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 3 describes the effects of the situation discussed in paragraph 2"
-      },
-      {
-        "letter": "D",
-        "text": "Paragraph 3 contradicts the ideas presented in paragraph 2"
-      },
-      {
-        "letter": "E",
-        "text": "Paragraph 3 summarizes the main idea of paragraph 2"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 2 describes Marcus's specific negative experiences with the transit system apps. Paragraph 3 zooms out to explain the broader national policy (modernization to reduce waste) that is the underlying cause for the digital shift Marcus is experiencing."
-  },
-  {
-    "id": "english_05",
-    "subject": "English",
-    "topic": "Vocabulary in Context",
-    "question_text": "Fill in the blank for (a): In (a), entire ecosystems may face collapse if protective strategies are not implemented.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "the distant future"
-      },
-      {
-        "letter": "B",
-        "text": "a matter of time"
-      },
-      {
-        "letter": "C",
-        "text": "a sign of the time"
-      },
-      {
-        "letter": "D",
-        "text": "the blink of an eye"
-      },
-      {
-        "letter": "E",
-        "text": "a whale of a time"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The idiom 'a matter of time' fits the context of an impending, inevitable consequence. The sentence implies that if we do nothing, it is only a matter of time before ecosystems collapse due to the accelerated decrease of bee colonies.",
-    "passage": "The scientist was incredibly fastidious when observing the cultures in the petri dishes. Every minor change in color, no matter how ephemeral, was catalogued with meticulous care."
-  },
-  {
-    "id": "english_06",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "The sentence: 'Humanity has historically relied on the stability of natural cycles, but the current rate of ecological shift presents unprecedented challenges.' should be placed as the...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "First sentence of paragraph 1"
-      },
-      {
-        "letter": "B",
-        "text": "Last sentence of paragraph 1"
-      },
-      {
-        "letter": "C",
-        "text": "Last sentence of paragraph 2"
-      },
-      {
-        "letter": "D",
-        "text": "Second sentence of paragraph 1"
-      },
-      {
-        "letter": "E",
-        "text": "Last sentence of paragraph 3"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "This sentence acts as a perfect introductory hook. It establishes the broad historical context of humanity's reliance on nature and introduces the 'unprecedented challenges', setting the stage perfectly for the specific study on pollinators mentioned in paragraph 1."
-  },
-  {
-    "id": "english_07",
-    "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in the blank for (b): In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "adapted"
-      },
-      {
-        "letter": "B",
-        "text": "has"
-      },
-      {
-        "letter": "C",
-        "text": "had adapted"
-      },
-      {
-        "letter": "D",
-        "text": "have been adapting"
-      },
-      {
-        "letter": "E",
-        "text": "has been adapted"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The sentence refers to actions completed in a historical period ('In the past...') that contrast with modern industrial farming. The past perfect tense 'had adapted' correctly indicates proactive strategies that were firmly established and utilized in earlier eras."
-  },
-  {
-    "id": "english_08",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "Which of the following best expresses the author's message?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Bee populations will disappear by next year"
-      },
-      {
-        "letter": "B",
-        "text": "Ecological threats are serious, and nature may not recover fast enough"
-      },
-      {
-        "letter": "C",
-        "text": "Technology will fully replace the role of natural pollinators"
-      },
-      {
-        "letter": "D",
-        "text": "Pesticides only affect insects and not the human food supply"
-      },
-      {
-        "letter": "E",
-        "text": "Modern farming has successfully solved all biodiversity issues"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The text heavily focuses on the severe threat of pollinator decline due to habitat loss and pesticides, explicitly warning that 'the speed of modern industrial farming may exceed the ability of nature to recover.'",
-    "passage_id": "passage_2",
-    "passage": "Since the Industrial Revolution, the world's oceans have absorbed approximately 30% of all carbon dioxide (CO₂) emitted by human activity. While this has slowed the rate of atmospheric warming, it has triggered a parallel crisis largely invisible to public awareness: ocean acidification. When CO₂ dissolves in seawater, it forms carbonic acid, which gradually lowers the ocean's pH. Surface ocean pH has already dropped from a pre-industrial level of 8.2 to approximately 8.1—a change that, on the logarithmic pH scale, represents a 26% increase in acidity.\n\nThe ecological consequences are profound. Marine organisms that build shells or skeletons from calcium carbonate—including oysters, mussels, sea urchins, and corals—find it increasingly difficult to calcify in more acidic waters. Research published in the journal Nature has demonstrated that oyster larvae in the Pacific Northwest have suffered massive die-offs linked directly to acidification. Coral reefs, already stressed by rising water temperatures, face a compounded threat: not only does bleaching occur when symbiotic algae are expelled due to heat stress, but acidic water also weakens the coral's calcium carbonate structure, making recovery from bleaching events less likely.\n\nThe consequences extend beyond marine invertebrates. Pteropods—tiny free-swimming sea snails that serve as a critical food source for salmon, herring, and even some whale species—have been documented dissolving in waters already acidified near Antarctica. Disruptions at such a foundational level of the marine food web send cascading effects upward through entire ocean ecosystems.\n\nAddressing ocean acidification requires reducing global carbon emissions at a scale and pace that current international commitments have not yet achieved. In the interim, some researchers explore more localized interventions, such as adding alkaline minerals to coastal waters to neutralize acidity, but these approaches remain experimental and ecologically controversial.",
-    "passage_title": "Ocean Acidification and Marine Ecosystems"
-  },
-  {
-    "id": "english_09",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The text is addressed especially to...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "professional hackers"
-      },
-      {
-        "letter": "B",
-        "text": "software developers"
-      },
-      {
-        "letter": "C",
-        "text": "general internet users"
-      },
-      {
-        "letter": "D",
-        "text": "database administrators"
-      },
-      {
-        "letter": "E",
-        "text": "retired hardware engineers"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The advice given—such as using unique passwords, enabling multi-factor authentication, avoiding suspicious links, and keeping devices updated—is standard, fundamental cybersecurity hygiene intended for everyday, general internet users rather than IT specialists.",
-    "passage_id": "passage_2",
-    "passage": "Since the Industrial Revolution, the world's oceans have absorbed approximately 30% of all carbon dioxide (CO₂) emitted by human activity. While this has slowed the rate of atmospheric warming, it has triggered a parallel crisis largely invisible to public awareness: ocean acidification. When CO₂ dissolves in seawater, it forms carbonic acid, which gradually lowers the ocean's pH. Surface ocean pH has already dropped from a pre-industrial level of 8.2 to approximately 8.1—a change that, on the logarithmic pH scale, represents a 26% increase in acidity.\n\nThe ecological consequences are profound. Marine organisms that build shells or skeletons from calcium carbonate—including oysters, mussels, sea urchins, and corals—find it increasingly difficult to calcify in more acidic waters. Research published in the journal Nature has demonstrated that oyster larvae in the Pacific Northwest have suffered massive die-offs linked directly to acidification. Coral reefs, already stressed by rising water temperatures, face a compounded threat: not only does bleaching occur when symbiotic algae are expelled due to heat stress, but acidic water also weakens the coral's calcium carbonate structure, making recovery from bleaching events less likely.\n\nThe consequences extend beyond marine invertebrates. Pteropods—tiny free-swimming sea snails that serve as a critical food source for salmon, herring, and even some whale species—have been documented dissolving in waters already acidified near Antarctica. Disruptions at such a foundational level of the marine food web send cascading effects upward through entire ocean ecosystems.\n\nAddressing ocean acidification requires reducing global carbon emissions at a scale and pace that current international commitments have not yet achieved. In the interim, some researchers explore more localized interventions, such as adding alkaline minerals to coastal waters to neutralize acidity, but these approaches remain experimental and ecologically controversial.",
-    "passage_title": "Ocean Acidification and Marine Ecosystems"
-  },
-  {
-    "id": "english_10",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What is the first step in securing digital identity according to the text?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Buying a new computer"
-      },
-      {
-        "letter": "B",
-        "text": "Creating complex passwords"
-      },
-      {
-        "letter": "C",
-        "text": "Understanding data usage"
-      },
-      {
-        "letter": "D",
-        "text": "Deleting all social media"
-      },
-      {
-        "letter": "E",
-        "text": "Hiring a security expert"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The passage explicitly outlines this in the opening sequence: 'Start by securing your digital identity wisely. Before signing up for any online services, it is important to understand how your data is used.'",
-    "passage_id": "passage_2",
-    "passage": "Since the Industrial Revolution, the world's oceans have absorbed approximately 30% of all carbon dioxide (CO₂) emitted by human activity. While this has slowed the rate of atmospheric warming, it has triggered a parallel crisis largely invisible to public awareness: ocean acidification. When CO₂ dissolves in seawater, it forms carbonic acid, which gradually lowers the ocean's pH. Surface ocean pH has already dropped from a pre-industrial level of 8.2 to approximately 8.1—a change that, on the logarithmic pH scale, represents a 26% increase in acidity.\n\nThe ecological consequences are profound. Marine organisms that build shells or skeletons from calcium carbonate—including oysters, mussels, sea urchins, and corals—find it increasingly difficult to calcify in more acidic waters. Research published in the journal Nature has demonstrated that oyster larvae in the Pacific Northwest have suffered massive die-offs linked directly to acidification. Coral reefs, already stressed by rising water temperatures, face a compounded threat: not only does bleaching occur when symbiotic algae are expelled due to heat stress, but acidic water also weakens the coral's calcium carbonate structure, making recovery from bleaching events less likely.\n\nThe consequences extend beyond marine invertebrates. Pteropods—tiny free-swimming sea snails that serve as a critical food source for salmon, herring, and even some whale species—have been documented dissolving in waters already acidified near Antarctica. Disruptions at such a foundational level of the marine food web send cascading effects upward through entire ocean ecosystems.\n\nAddressing ocean acidification requires reducing global carbon emissions at a scale and pace that current international commitments have not yet achieved. In the interim, some researchers explore more localized interventions, such as adding alkaline minerals to coastal waters to neutralize acidity, but these approaches remain experimental and ecologically controversial.",
-    "passage_title": "Ocean Acidification and Marine Ecosystems"
-  },
-  {
-    "id": "english_11",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The author's attitude regarding communication challenges is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "pessimistic"
-      },
-      {
-        "letter": "B",
-        "text": "realistic"
-      },
-      {
-        "letter": "C",
-        "text": "indifferent"
-      },
-      {
-        "letter": "D",
-        "text": "critical"
-      },
-      {
-        "letter": "E",
-        "text": "doubtful"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The author realistically acknowledges that some elements of communication are out of a person's control (like technical glitches) but maintains a practical, proactive stance on what *can* be controlled (such as your own response and empathy).",
-    "passage_id": "passage_2",
-    "passage": "Since the Industrial Revolution, the world's oceans have absorbed approximately 30% of all carbon dioxide (CO₂) emitted by human activity. While this has slowed the rate of atmospheric warming, it has triggered a parallel crisis largely invisible to public awareness: ocean acidification. When CO₂ dissolves in seawater, it forms carbonic acid, which gradually lowers the ocean's pH. Surface ocean pH has already dropped from a pre-industrial level of 8.2 to approximately 8.1—a change that, on the logarithmic pH scale, represents a 26% increase in acidity.\n\nThe ecological consequences are profound. Marine organisms that build shells or skeletons from calcium carbonate—including oysters, mussels, sea urchins, and corals—find it increasingly difficult to calcify in more acidic waters. Research published in the journal Nature has demonstrated that oyster larvae in the Pacific Northwest have suffered massive die-offs linked directly to acidification. Coral reefs, already stressed by rising water temperatures, face a compounded threat: not only does bleaching occur when symbiotic algae are expelled due to heat stress, but acidic water also weakens the coral's calcium carbonate structure, making recovery from bleaching events less likely.\n\nThe consequences extend beyond marine invertebrates. Pteropods—tiny free-swimming sea snails that serve as a critical food source for salmon, herring, and even some whale species—have been documented dissolving in waters already acidified near Antarctica. Disruptions at such a foundational level of the marine food web send cascading effects upward through entire ocean ecosystems.\n\nAddressing ocean acidification requires reducing global carbon emissions at a scale and pace that current international commitments have not yet achieved. In the interim, some researchers explore more localized interventions, such as adding alkaline minerals to coastal waters to neutralize acidity, but these approaches remain experimental and ecologically controversial.",
-    "passage_title": "Ocean Acidification and Marine Ecosystems"
-  },
-  {
-    "id": "english_12",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 3 provides examples of strategies mentioned in paragraph 2"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 3 contradicts the ideas presented in paragraph 2"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 3 introduces a completely different topic"
-      },
-      {
-        "letter": "D",
-        "text": "Paragraph 3 explains negative consequences"
-      },
-      {
-        "letter": "E",
-        "text": "Paragraph 3 summarizes the main idea of paragraph 2"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "Paragraph 2 introduces the idea that individuals can take proactive steps/strategies to improve communication despite challenges. Paragraph 3 builds directly on this theme by detailing an additional strategy (developing empathy) to further enhance interaction."
-  },
-  {
-    "id": "english_13",
-    "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in the blank: ...you can control how you (13) to them.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "respond"
-      },
-      {
-        "letter": "B",
-        "text": "responds"
-      },
-      {
-        "letter": "C",
-        "text": "responding"
-      },
-      {
-        "letter": "D",
-        "text": "responded"
-      },
-      {
-        "letter": "E",
-        "text": "be respond"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "The subject is 'you,' which pairs with the base form of the verb in present tense. Since the sentence expresses a general, ongoing truth about personal control, the simple present tense 'respond' is grammatically correct."
-  },
-  {
-    "id": "english_14",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "The sentence which is irrelevant to the topic of the paragraph is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Sentence 2"
-      },
-      {
-        "letter": "B",
-        "text": "Sentence 4"
-      },
-      {
-        "letter": "C",
-        "text": "Sentence 5"
-      },
-      {
-        "letter": "D",
-        "text": "Sentence 6"
-      },
-      {
-        "letter": "E",
-        "text": "Sentence 7"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The entire paragraph is strictly focused on Electric Vehicles (EVs), their technology, and adoption. Sentence 5, which discusses people enjoying traditional fast food while traveling, completely breaks the thematic cohesion of the passage."
-  },
-  {
-    "id": "english_15",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What is the topic of the paragraph?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "The history of gasoline engines"
-      },
-      {
-        "letter": "B",
-        "text": "The development and adoption of electric vehicles"
-      },
-      {
-        "letter": "C",
-        "text": "The benefits of fast food during road trips"
-      },
-      {
-        "letter": "D",
-        "text": "The causes of urban traffic congestion"
-      },
-      {
-        "letter": "E",
-        "text": "The impact of public transportation on the environment"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Aside from the one irrelevant sentence, every line in the paragraph details the shift toward electric vehicles, how their batteries work, government incentives to adopt them, and charging infrastructure.",
-    "passage_id": "passage_2",
-    "passage": "Since the Industrial Revolution, the world's oceans have absorbed approximately 30% of all carbon dioxide (CO₂) emitted by human activity. While this has slowed the rate of atmospheric warming, it has triggered a parallel crisis largely invisible to public awareness: ocean acidification. When CO₂ dissolves in seawater, it forms carbonic acid, which gradually lowers the ocean's pH. Surface ocean pH has already dropped from a pre-industrial level of 8.2 to approximately 8.1—a change that, on the logarithmic pH scale, represents a 26% increase in acidity.\n\nThe ecological consequences are profound. Marine organisms that build shells or skeletons from calcium carbonate—including oysters, mussels, sea urchins, and corals—find it increasingly difficult to calcify in more acidic waters. Research published in the journal Nature has demonstrated that oyster larvae in the Pacific Northwest have suffered massive die-offs linked directly to acidification. Coral reefs, already stressed by rising water temperatures, face a compounded threat: not only does bleaching occur when symbiotic algae are expelled due to heat stress, but acidic water also weakens the coral's calcium carbonate structure, making recovery from bleaching events less likely.\n\nThe consequences extend beyond marine invertebrates. Pteropods—tiny free-swimming sea snails that serve as a critical food source for salmon, herring, and even some whale species—have been documented dissolving in waters already acidified near Antarctica. Disruptions at such a foundational level of the marine food web send cascading effects upward through entire ocean ecosystems.\n\nAddressing ocean acidification requires reducing global carbon emissions at a scale and pace that current international commitments have not yet achieved. In the interim, some researchers explore more localized interventions, such as adding alkaline minerals to coastal waters to neutralize acidity, but these approaches remain experimental and ecologically controversial.",
-    "passage_title": "Ocean Acidification and Marine Ecosystems"
-  },
-  {
-    "id": "english_16",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 1?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Plants always share resources with their neighbors"
-      },
-      {
-        "letter": "B",
-        "text": "Competition for light can lead to growth-inhibiting behaviors"
-      },
-      {
-        "letter": "C",
-        "text": "All plants grow at the same rate in nature"
-      },
-      {
-        "letter": "D",
-        "text": "Soil nutrients are always unlimited in forests"
-      },
-      {
-        "letter": "E",
-        "text": "Plants do not react to environmental challenges"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The paragraph notes that plants 'compete fiercely' and details how taller trees will intentionally 'shade out smaller competitors, effectively starving them of light.' This proves that competition directly leads to behaviors that inhibit the growth of rivals.",
-    "passage_id": "passage_2",
-    "passage": "Since the Industrial Revolution, the world's oceans have absorbed approximately 30% of all carbon dioxide (CO₂) emitted by human activity. While this has slowed the rate of atmospheric warming, it has triggered a parallel crisis largely invisible to public awareness: ocean acidification. When CO₂ dissolves in seawater, it forms carbonic acid, which gradually lowers the ocean's pH. Surface ocean pH has already dropped from a pre-industrial level of 8.2 to approximately 8.1—a change that, on the logarithmic pH scale, represents a 26% increase in acidity.\n\nThe ecological consequences are profound. Marine organisms that build shells or skeletons from calcium carbonate—including oysters, mussels, sea urchins, and corals—find it increasingly difficult to calcify in more acidic waters. Research published in the journal Nature has demonstrated that oyster larvae in the Pacific Northwest have suffered massive die-offs linked directly to acidification. Coral reefs, already stressed by rising water temperatures, face a compounded threat: not only does bleaching occur when symbiotic algae are expelled due to heat stress, but acidic water also weakens the coral's calcium carbonate structure, making recovery from bleaching events less likely.\n\nThe consequences extend beyond marine invertebrates. Pteropods—tiny free-swimming sea snails that serve as a critical food source for salmon, herring, and even some whale species—have been documented dissolving in waters already acidified near Antarctica. Disruptions at such a foundational level of the marine food web send cascading effects upward through entire ocean ecosystems.\n\nAddressing ocean acidification requires reducing global carbon emissions at a scale and pace that current international commitments have not yet achieved. In the interim, some researchers explore more localized interventions, such as adding alkaline minerals to coastal waters to neutralize acidity, but these approaches remain experimental and ecologically controversial.",
-    "passage_title": "Ocean Acidification and Marine Ecosystems"
-  },
-  {
-    "id": "english_17",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The purpose of this passage is to...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "criticize the way plants grow"
-      },
-      {
-        "letter": "B",
-        "text": "explain that plant survival strategies are active and necessary"
-      },
-      {
-        "letter": "C",
-        "text": "persuade readers to stop cutting down trees"
-      },
-      {
-        "letter": "D",
-        "text": "describe only the physical appearance of flowers"
-      },
-      {
-        "letter": "E",
-        "text": "compare different types of garden fertilizers"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The passage immediately refutes the idea that plants are 'passive' and then spends the text listing various active survival mechanisms (like shading out competitors and releasing chemical defenses) to show how dynamically they fight to survive.",
-    "passage_id": "passage_2",
-    "passage": "Since the Industrial Revolution, the world's oceans have absorbed approximately 30% of all carbon dioxide (CO₂) emitted by human activity. While this has slowed the rate of atmospheric warming, it has triggered a parallel crisis largely invisible to public awareness: ocean acidification. When CO₂ dissolves in seawater, it forms carbonic acid, which gradually lowers the ocean's pH. Surface ocean pH has already dropped from a pre-industrial level of 8.2 to approximately 8.1—a change that, on the logarithmic pH scale, represents a 26% increase in acidity.\n\nThe ecological consequences are profound. Marine organisms that build shells or skeletons from calcium carbonate—including oysters, mussels, sea urchins, and corals—find it increasingly difficult to calcify in more acidic waters. Research published in the journal Nature has demonstrated that oyster larvae in the Pacific Northwest have suffered massive die-offs linked directly to acidification. Coral reefs, already stressed by rising water temperatures, face a compounded threat: not only does bleaching occur when symbiotic algae are expelled due to heat stress, but acidic water also weakens the coral's calcium carbonate structure, making recovery from bleaching events less likely.\n\nThe consequences extend beyond marine invertebrates. Pteropods—tiny free-swimming sea snails that serve as a critical food source for salmon, herring, and even some whale species—have been documented dissolving in waters already acidified near Antarctica. Disruptions at such a foundational level of the marine food web send cascading effects upward through entire ocean ecosystems.\n\nAddressing ocean acidification requires reducing global carbon emissions at a scale and pace that current international commitments have not yet achieved. In the interim, some researchers explore more localized interventions, such as adding alkaline minerals to coastal waters to neutralize acidity, but these approaches remain experimental and ecologically controversial.",
-    "passage_title": "Ocean Acidification and Marine Ecosystems"
-  },
-  {
-    "id": "english_18",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What is the tone of the text?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Emotional"
-      },
-      {
-        "letter": "B",
-        "text": "Informative"
-      },
-      {
-        "letter": "C",
-        "text": "Humorous"
-      },
-      {
-        "letter": "D",
-        "text": "Critical"
-      },
-      {
-        "letter": "E",
-        "text": "Doubtful"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The author uses an objective, educational tone to present biological facts about plant competition and chemical defenses. The text is straightforward and lacks emotional language, humor, or explicit judgment.",
-    "passage_id": "passage_2",
-    "passage": "Since the Industrial Revolution, the world's oceans have absorbed approximately 30% of all carbon dioxide (CO₂) emitted by human activity. While this has slowed the rate of atmospheric warming, it has triggered a parallel crisis largely invisible to public awareness: ocean acidification. When CO₂ dissolves in seawater, it forms carbonic acid, which gradually lowers the ocean's pH. Surface ocean pH has already dropped from a pre-industrial level of 8.2 to approximately 8.1—a change that, on the logarithmic pH scale, represents a 26% increase in acidity.\n\nThe ecological consequences are profound. Marine organisms that build shells or skeletons from calcium carbonate—including oysters, mussels, sea urchins, and corals—find it increasingly difficult to calcify in more acidic waters. Research published in the journal Nature has demonstrated that oyster larvae in the Pacific Northwest have suffered massive die-offs linked directly to acidification. Coral reefs, already stressed by rising water temperatures, face a compounded threat: not only does bleaching occur when symbiotic algae are expelled due to heat stress, but acidic water also weakens the coral's calcium carbonate structure, making recovery from bleaching events less likely.\n\nThe consequences extend beyond marine invertebrates. Pteropods—tiny free-swimming sea snails that serve as a critical food source for salmon, herring, and even some whale species—have been documented dissolving in waters already acidified near Antarctica. Disruptions at such a foundational level of the marine food web send cascading effects upward through entire ocean ecosystems.\n\nAddressing ocean acidification requires reducing global carbon emissions at a scale and pace that current international commitments have not yet achieved. In the interim, some researchers explore more localized interventions, such as adding alkaline minerals to coastal waters to neutralize acidity, but these approaches remain experimental and ecologically controversial.",
-    "passage_title": "Ocean Acidification and Marine Ecosystems"
-  },
-  {
-    "id": "english_19",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The most appropriate title for the text is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "The Failure of Local Clinics in Modern Times"
-      },
-      {
-        "letter": "B",
-        "text": "The Cost of Building Large Hospitals"
-      },
-      {
-        "letter": "C",
-        "text": "The Impact of Telemedicine in Remote Healthcare"
-      },
-      {
-        "letter": "D",
-        "text": "A Study on Medical Salaries in Developing Countries"
-      },
-      {
-        "letter": "E",
-        "text": "The Role of Traditional Medicine in Rural Areas"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The text focuses specifically on the physical hurdles of providing medical care in rural areas and explains how implementing digital connectivity ('telemedicine initiatives') successfully provides high-level specialist care.",
-    "passage_id": "passage_2",
-    "passage": "Since the Industrial Revolution, the world's oceans have absorbed approximately 30% of all carbon dioxide (CO₂) emitted by human activity. While this has slowed the rate of atmospheric warming, it has triggered a parallel crisis largely invisible to public awareness: ocean acidification. When CO₂ dissolves in seawater, it forms carbonic acid, which gradually lowers the ocean's pH. Surface ocean pH has already dropped from a pre-industrial level of 8.2 to approximately 8.1—a change that, on the logarithmic pH scale, represents a 26% increase in acidity.\n\nThe ecological consequences are profound. Marine organisms that build shells or skeletons from calcium carbonate—including oysters, mussels, sea urchins, and corals—find it increasingly difficult to calcify in more acidic waters. Research published in the journal Nature has demonstrated that oyster larvae in the Pacific Northwest have suffered massive die-offs linked directly to acidification. Coral reefs, already stressed by rising water temperatures, face a compounded threat: not only does bleaching occur when symbiotic algae are expelled due to heat stress, but acidic water also weakens the coral's calcium carbonate structure, making recovery from bleaching events less likely.\n\nThe consequences extend beyond marine invertebrates. Pteropods—tiny free-swimming sea snails that serve as a critical food source for salmon, herring, and even some whale species—have been documented dissolving in waters already acidified near Antarctica. Disruptions at such a foundational level of the marine food web send cascading effects upward through entire ocean ecosystems.\n\nAddressing ocean acidification requires reducing global carbon emissions at a scale and pace that current international commitments have not yet achieved. In the interim, some researchers explore more localized interventions, such as adding alkaline minerals to coastal waters to neutralize acidity, but these approaches remain experimental and ecologically controversial.",
-    "passage_title": "Ocean Acidification and Marine Ecosystems"
-  },
-  {
-    "id": "english_20",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The purpose of the writer in writing this article is probably to...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "criticize doctors for staying in big cities"
-      },
-      {
-        "letter": "B",
-        "text": "persuade readers to move to remote areas"
-      },
-      {
-        "letter": "C",
-        "text": "explain that the right application of technology can solve resource gaps"
-      },
-      {
-        "letter": "D",
-        "text": "describe the daily routine of a rural nurse"
-      },
-      {
-        "letter": "E",
-        "text": "compare healthcare systems of different continents"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The author outlines how a specific, targeted use of satellite internet for specialist consultations led to life-saving outcomes. The final sentence wraps up this thesis: 'This proves that smart technology and targeted usage can bridge the gap in healthcare.'",
-    "passage_id": "passage_2",
-    "passage": "Since the Industrial Revolution, the world's oceans have absorbed approximately 30% of all carbon dioxide (CO₂) emitted by human activity. While this has slowed the rate of atmospheric warming, it has triggered a parallel crisis largely invisible to public awareness: ocean acidification. When CO₂ dissolves in seawater, it forms carbonic acid, which gradually lowers the ocean's pH. Surface ocean pH has already dropped from a pre-industrial level of 8.2 to approximately 8.1—a change that, on the logarithmic pH scale, represents a 26% increase in acidity.\n\nThe ecological consequences are profound. Marine organisms that build shells or skeletons from calcium carbonate—including oysters, mussels, sea urchins, and corals—find it increasingly difficult to calcify in more acidic waters. Research published in the journal Nature has demonstrated that oyster larvae in the Pacific Northwest have suffered massive die-offs linked directly to acidification. Coral reefs, already stressed by rising water temperatures, face a compounded threat: not only does bleaching occur when symbiotic algae are expelled due to heat stress, but acidic water also weakens the coral's calcium carbonate structure, making recovery from bleaching events less likely.\n\nThe consequences extend beyond marine invertebrates. Pteropods—tiny free-swimming sea snails that serve as a critical food source for salmon, herring, and even some whale species—have been documented dissolving in waters already acidified near Antarctica. Disruptions at such a foundational level of the marine food web send cascading effects upward through entire ocean ecosystems.\n\nAddressing ocean acidification requires reducing global carbon emissions at a scale and pace that current international commitments have not yet achieved. In the interim, some researchers explore more localized interventions, such as adding alkaline minerals to coastal waters to neutralize acidity, but these approaches remain experimental and ecologically controversial.",
-    "passage_title": "Ocean Acidification and Marine Ecosystems"
   },
   {
     "id": "logic_01",

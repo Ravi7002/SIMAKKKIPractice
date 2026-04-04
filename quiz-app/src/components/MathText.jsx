@@ -75,7 +75,8 @@ function renderMath(latex, display = false) {
  *  - log_b(...)
  *  - single letter followed by operator (e.g. A > B)
  */
-const MATH_TOKEN = /(?:[a-zA-Z0-9.\\]+(?:\^|_)(?:\{[^}]+\}|[a-zA-Z0-9-]+)|sqrt\([^)]+\)|cbrt\([^)]+\)|\\[a-zA-Z]+(?:\{[^}]*\})*|\blog_\w+(?:\([^)]+\))?|[A-Za-z][0-9]|(?:[A-Za-z](?=\s*[<>≤≥=+*/-])))/;
+// Matches LaTeX commands (with optionally nested braces), plain-text sqrt/cbrt, superscripts, subscripts, log, etc.
+const MATH_TOKEN = /(?:\\[a-zA-Z]+(?:\[[^\]]*\])?(?:\{(?:[^{}]|\{[^{}]*\})*\})*|sqrt\([^)]+\)|cbrt\([^)]+\)|[a-zA-Z0-9.\\]+(?:\^|_)(?:\{[^}]+\}|[a-zA-Z0-9-]+)|\blog_\w+(?:\([^)]+\))?|[A-Za-z][0-9]|(?:[A-Za-z](?=\s*[<>≤≥=+\-*/])))/
 /**
  * Splits a plain-text block into text/math segments.
  * Groups consecutive math tokens + operators into one math block.
