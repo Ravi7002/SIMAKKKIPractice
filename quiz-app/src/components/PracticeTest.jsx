@@ -485,15 +485,9 @@ const PracticeTest = ({ allTopicsData, generatedTryouts = [], initialTryoutIndex
             <h2 className="text-gradient" style={{ fontSize: '2.5rem' }}>
               <Book size={36} style={{ verticalAlign: 'middle', marginRight: '12px' }} /> Practice Section
             </h2>
-            <p className="text-muted">Select a subject to begin learning or take a full test</p>
+            <p className="text-muted">Select a subject to explore its topics and questions</p>
           </div>
 
-          {/* Full Mock Test CTA */}
-          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '3rem' }}>
-            <button onClick={startFullMock} className="btn btn-primary" style={{ padding: '1rem 2rem', fontSize: '1.2rem', background: 'var(--accent-pink)', boxShadow: '0 0 20px rgba(244, 63, 94, 0.4)' }}>
-              <Sparkles size={20} style={{ verticalAlign: 'middle', marginRight: '8px' }} /> Take Full Untimed Mock (80 Questions)
-            </button>
-          </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1.2rem' }}>
             {subjects.map(sub => {

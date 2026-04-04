@@ -41,7 +41,7 @@ const Intro = ({ onStartPractice, onStartAbility, onStartTryout, onStartCompare,
             className="btn btn-primary"
             style={{ fontSize: '1.2rem', padding: '1rem', background: 'linear-gradient(135deg, #7c3aed, #db2777)', boxShadow: '0 0 24px rgba(139,92,246,0.4)' }}
           >
-            <FlaskConical size={24} /> Practice Tryout (80Q, No Timer)
+            <FlaskConical size={24} /> Practice Tryout (80Q · No Timer · Hints · Explanation)
           </button>
 
           <button
