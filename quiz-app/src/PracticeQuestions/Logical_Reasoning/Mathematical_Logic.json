@@ -182,7 +182,9 @@
       "hints": [
         "Part 1: circle(3) = 3² = 9.",
         "square(9) = 2(9) = 18.",
-        "Part 2: square(2) = 2(2) = 4."
+        "Part 2: square(2) = 2(2) = 4.",
+        "circle(4) = 4² = 16.",
+        "Difference: 18 - 16 = 2."
       ]
     },
     {
@@ -253,7 +255,8 @@
       "hints": [
         "Evaluate (2 △ 3) = 2³ - 3² = 8 - 9 = -1.",
         "Evaluate (3 △ 2) = 3² - 2³ = 9 - 8 = 1.",
-        "Absolute difference = |(-1) - (1)| = |-2| = 2."
+        "Absolute difference = |(-1) - (1)| = |-2| = 2.",
+        "Note that x△y is equal to -(y△x), so the difference is simply 2*(value)."
       ]
     },
     {
@@ -323,9 +326,15 @@
       "correct_answer": "C",
       "explanation": "The @ symbol is a custom definition of the factorial function! \n1@ = 1. 2@ = 2*1@ = 2. 3@ = 3*2@ = 6. 4@ = 24. 5@ = 120. \nNumerator: 120 - 24 = 96. \nDenominator: 6. \nResult = 96 / 6 = 16.",
       "hints": [
-        "The @ symbol is a custom definition of the factorial function! \n1@ = 1.",
+        "The @ symbol is a custom definition of the factorial function!",
+        "1@ = 1.",
         "2@ = 2*1@ = 2.",
-        "3@ = 3*2@ = 6."
+        "3@ = 3*2@ = 6.",
+        "4@ = 24.",
+        "5@ = 120.",
+        "Numerator: 120 - 24 = 96.",
+        "Denominator: 6.",
+        "Result = 96 / 6 = 16."
       ]
     },
     {
@@ -361,7 +370,22 @@
       "hints": [
         "List the sequence manually by taking absolute differences of the past two terms: \nA_1 = 5 \nA_2 = 12 \nA_3 = |12 - 5| = 7 \nA_4 = |7 - 12| = 5 \nA_5 = |5 - 7| = 2 \nA_6 = |2 - 5| = 3 \nA_7 = |3 - 2| = 1 \nA_8 = |1 - 3| = 2 \nA_9 = |2 - 1| = 1 \nA_10 = |1 - 2| = 1 \nWait, let me recalculate carefully.",
         "1: 5.",
-        "2: 12."
+        "2: 12.",
+        "3: 7.",
+        "4: 5.",
+        "5: 2.",
+        "6: 3.",
+        "7: 1.",
+        "8: 2.",
+        "9: 1.",
+        "10: 1.",
+        "Option B is 7?",
+        "That matches A_3.",
+        "Option C=5, D=2.",
+        "Let me replace Option B with 1.",
+        "Ah wait, I should write the JSON carefully.",
+        "I am in string mode.",
+        "I'll make correct_answer = D, and change D to exactly '1'."
       ]
     },
     {
@@ -395,9 +419,15 @@
       "correct_answer": "D",
       "explanation": "The @ symbol is a custom definition of the factorial function! \n1@ = 1. 2@ = 2*1@ = 2. 3@ = 3*2@ = 6. 4@ = 24. 5@ = 120. \nNumerator: 120 - 24 = 96. \nDenominator: 6. \nResult = 96 / 6 = 16.",
       "hints": [
-        "The @ symbol is a custom definition of the factorial function! \n1@ = 1.",
+        "The @ symbol is a custom definition of the factorial function!",
+        "1@ = 1.",
         "2@ = 2*1@ = 2.",
-        "3@ = 3*2@ = 6."
+        "3@ = 3*2@ = 6.",
+        "4@ = 24.",
+        "5@ = 120.",
+        "Numerator: 120 - 24 = 96.",
+        "Denominator: 6.",
+        "Result = 96 / 6 = 16."
       ]
     },
     {
@@ -503,7 +533,22 @@
       "hints": [
         "List the sequence manually by taking absolute differences of the past two terms: \nA_1 = 5 \nA_2 = 12 \nA_3 = |12 - 5| = 7 \nA_4 = |7 - 12| = 5 \nA_5 = |5 - 7| = 2 \nA_6 = |2 - 5| = 3 \nA_7 = |3 - 2| = 1 \nA_8 = |1 - 3| = 2 \nA_9 = |2 - 1| = 1 \nA_10 = |1 - 2| = 1 \nWait, let me recalculate carefully.",
         "1: 5.",
-        "2: 12."
+        "2: 12.",
+        "3: 7.",
+        "4: 5.",
+        "5: 2.",
+        "6: 3.",
+        "7: 1.",
+        "8: 2.",
+        "9: 1.",
+        "10: 1.",
+        "Option B is 7?",
+        "That matches A_3.",
+        "Option C=5, D=2.",
+        "Let me replace Option B with 1.",
+        "Ah wait, I should write the JSON carefully.",
+        "I am in string mode.",
+        "I'll make correct_answer = D, and change D to exactly '1'."
       ]
     },
     {
@@ -539,7 +584,9 @@
       "hints": [
         "Part 1: circle(3) = 3² = 9.",
         "square(9) = 2(9) = 18.",
-        "Part 2: square(2) = 2(2) = 4."
+        "Part 2: square(2) = 2(2) = 4.",
+        "circle(4) = 4² = 16.",
+        "Difference: 18 - 16 = 2."
       ]
     },
     {
@@ -575,7 +622,9 @@
       "hints": [
         "Part 1: circle(3) = 3² = 9.",
         "square(9) = 2(9) = 18.",
-        "Part 2: square(2) = 2(2) = 4."
+        "Part 2: square(2) = 2(2) = 4.",
+        "circle(4) = 4² = 16.",
+        "Difference: 18 - 16 = 2."
       ]
     },
     {
@@ -679,9 +728,15 @@
       "correct_answer": "B",
       "explanation": "The @ symbol is a custom definition of the factorial function! \n1@ = 1. 2@ = 2*1@ = 2. 3@ = 3*2@ = 6. 4@ = 24. 5@ = 120. \nNumerator: 120 - 24 = 96. \nDenominator: 6. \nResult = 96 / 6 = 16.",
       "hints": [
-        "The @ symbol is a custom definition of the factorial function! \n1@ = 1.",
+        "The @ symbol is a custom definition of the factorial function!",
+        "1@ = 1.",
         "2@ = 2*1@ = 2.",
-        "3@ = 3*2@ = 6."
+        "3@ = 3*2@ = 6.",
+        "4@ = 24.",
+        "5@ = 120.",
+        "Numerator: 120 - 24 = 96.",
+        "Denominator: 6.",
+        "Result = 96 / 6 = 16."
       ]
     },
     {
@@ -787,7 +842,9 @@
       "hints": [
         "Part 1: circle(3) = 3² = 9.",
         "square(9) = 2(9) = 18.",
-        "Part 2: square(2) = 2(2) = 4."
+        "Part 2: square(2) = 2(2) = 4.",
+        "circle(4) = 4² = 16.",
+        "Difference: 18 - 16 = 2."
       ]
     },
     {
@@ -823,7 +880,22 @@
       "hints": [
         "List the sequence manually by taking absolute differences of the past two terms: \nA_1 = 5 \nA_2 = 12 \nA_3 = |12 - 5| = 7 \nA_4 = |7 - 12| = 5 \nA_5 = |5 - 7| = 2 \nA_6 = |2 - 5| = 3 \nA_7 = |3 - 2| = 1 \nA_8 = |1 - 3| = 2 \nA_9 = |2 - 1| = 1 \nA_10 = |1 - 2| = 1 \nWait, let me recalculate carefully.",
         "1: 5.",
-        "2: 12."
+        "2: 12.",
+        "3: 7.",
+        "4: 5.",
+        "5: 2.",
+        "6: 3.",
+        "7: 1.",
+        "8: 2.",
+        "9: 1.",
+        "10: 1.",
+        "Option B is 7?",
+        "That matches A_3.",
+        "Option C=5, D=2.",
+        "Let me replace Option B with 1.",
+        "Ah wait, I should write the JSON carefully.",
+        "I am in string mode.",
+        "I'll make correct_answer = D, and change D to exactly '1'."
       ]
     },
     {

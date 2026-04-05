@@ -729,542 +729,156 @@
   },
   {
     "subject": "English",
-    "topic": "Grammar",
-    "question_text": "Fill in blank (a): 'It (a) ________ CO2 from the water...'",
+    "topic": "Vocabulary",
+    "question_text": "Choose the best word for (a): '...it provided the key to (a) ________ the long-lost meaning...' ",
     "options": [
       {
         "letter": "A",
-        "text": "absorb"
+        "text": "hiding"
       },
       {
         "letter": "B",
-        "text": "absorbs"
+        "text": "ignoring"
       },
       {
         "letter": "C",
-        "text": "absorbing"
+        "text": "deciphering"
       },
       {
         "letter": "D",
-        "text": "absorbed"
+        "text": "forgetting"
       },
       {
         "letter": "E",
-        "text": "to absorb"
+        "text": "stagnating"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Singular subject 'It' takes singular verb 'absorbs'.",
-    "passage": "Seaweed farming is being hailed as a major climate solution. Unlike land crops, seaweed requires no fertilizer, no freshwater, and no land. It (a) ________ CO2 from the water as it grows, helping to reduce ocean acidification. Future applications include biodegradable plastics and low-carbon livestock feed.",
-    "passage_id": "t4_p1",
+    "correct_answer": "C",
+    "explanation": "'Deciphering' (interpreting or solving) is the correct term for unlocking a code or language.",
+    "passage": "The discovery of the Rosetta Stone in 1814 was a turning point in the field of Egyptology. Because it contained the same royal decree written in three different scripts—Ancient Greek, Demotic, and Hieroglyphic—it provided the key to (a) ________ the long-lost meaning of Egyptian symbols. Before this discovery, the world's understanding of ancient Egyptian history was based largely on myth and speculation.\n\nDeciphering the stone was a painstaking process that took decades. Scholars like Thomas Young and Jean-François Champollion compared the known Greek text with the unknown hieroglyphs to identify the names of Pharaohs. By 1822, Champollion had successfully cracked the code, allowing historians to read thousands of years of recorded history that had been silent for over a millennium.\n\nToday, the Rosetta Stone remains one of the British Museum's most famous artifacts, though it is also a subject of international debate. (2) The Egyptian government has repeatedly called for its return, arguing that it is a piece of cultural heritage that was illegally removed and belongs in its country of origin. (3) Museum guards wear dark uniforms. (4) Regardless of its location, the stone continues to represent the power of linguistic comparison to unlock the secrets of the past.",
+    "passage_id": "t4_p2",
     "id": "eng_01_gen_4",
     "hints": [
-      "Singular subject 'It' takes singular verb 'absorbs'."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Reading",
-    "question_text": "What is one benefit of seaweed farming mentioned?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "It requires more fertilizer than corn"
-      },
-      {
-        "letter": "B",
-        "text": "It helps reduce ocean acidification"
-      },
-      {
-        "letter": "C",
-        "text": "It grows only in freshwater"
-      },
-      {
-        "letter": "D",
-        "text": "It is currently used to build houses"
-      },
-      {
-        "letter": "E",
-        "text": "It increases CO2 levels"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The text says it helps 'reduce ocean acidification' by absorbing CO2.",
-    "passage": "Seaweed farming is being hailed as a major climate solution. Unlike land crops, seaweed requires no fertilizer, no freshwater, and no land. It (a) ________ CO2 from the water as it grows, helping to reduce ocean acidification. Future applications include biodegradable plastics and low-carbon livestock feed.",
-    "passage_id": "t4_p1",
-    "id": "eng_02_gen_4",
-    "hints": [
-      "The text says it helps 'reduce ocean acidification' by absorbing CO2."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Reading",
-    "question_text": "Identify one future application of seaweed mentioned.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "High-speed rocket fuel"
-      },
-      {
-        "letter": "B",
-        "text": "Biodegradable plastics"
-      },
-      {
-        "letter": "C",
-        "text": "Construction materials for cars"
-      },
-      {
-        "letter": "D",
-        "text": "Advanced glass manufacturing"
-      },
-      {
-        "letter": "E",
-        "text": "Artificial silk production"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The text lists 'biodegradable plastics' as a future application.",
-    "passage": "Seaweed farming is being hailed as a major climate solution. Unlike land crops, seaweed requires no fertilizer, no freshwater, and no land. It (a) ________ CO2 from the water as it grows, helping to reduce ocean acidification. Future applications include biodegradable plastics and low-carbon livestock feed.",
-    "passage_id": "t4_p1",
-    "id": "eng_03_gen_4",
-    "hints": [
-      "The text lists 'biodegradable plastics' as a future application."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Grammar",
-    "question_text": "Fill in blank (a): 'Because scholars (a) ________ read Ancient Greek...'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "can"
-      },
-      {
-        "letter": "B",
-        "text": "could"
-      },
-      {
-        "letter": "C",
-        "text": "must"
-      },
-      {
-        "letter": "D",
-        "text": "should"
-      },
-      {
-        "letter": "E",
-        "text": "will"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "'Could' is the past ability of 'can'.",
-    "passage": "Discovered in 1799, the Rosetta Stone was the key to unlocking Egyptian hieroglyphs. It contains the same decree written in three different scripts: Hieroglyphic, Demotic, and Ancient Greek. Because scholars (a) ________ read Ancient Greek, they were able to use it as a bridge to translate the other two scripts for the first time.",
-    "passage_id": "t4_p2",
-    "id": "eng_04_gen_4",
-    "hints": [
-      "'Could' is the past ability of 'can'."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Reading",
-    "question_text": "Why was the Rosetta Stone important for historians?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "It was made of rare gold"
-      },
-      {
-        "letter": "B",
-        "text": "It allowed the translation of Egyptian hieroglyphs"
-      },
-      {
-        "letter": "C",
-        "text": "It contained a map to a hidden pyramid"
-      },
-      {
-        "letter": "D",
-        "text": "It proved the Greeks conquered Egypt"
-      },
-      {
-        "letter": "E",
-        "text": "It was the first stone ever found"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The text says it was 'the key to unlocking Egyptian hieroglyphs'.",
-    "passage": "Discovered in 1799, the Rosetta Stone was the key to unlocking Egyptian hieroglyphs. It contains the same decree written in three different scripts: Hieroglyphic, Demotic, and Ancient Greek. Because scholars (a) ________ read Ancient Greek, they were able to use it as a bridge to translate the other two scripts for the first time.",
-    "passage_id": "t4_p2",
-    "id": "eng_05_gen_4",
-    "hints": [
-      "The text says it was 'the key to unlocking Egyptian hieroglyphs'."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Reading",
-    "question_text": "How many different scripts were on the Rosetta Stone?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "One"
-      },
-      {
-        "letter": "B",
-        "text": "Two"
-      },
-      {
-        "letter": "C",
-        "text": "Three"
-      },
-      {
-        "letter": "D",
-        "text": "Four"
-      },
-      {
-        "letter": "E",
-        "text": "Five"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The text names three: Hieroglyphic, Demotic, and Ancient Greek.",
-    "passage": "Discovered in 1799, the Rosetta Stone was the key to unlocking Egyptian hieroglyphs. It contains the same decree written in three different scripts: Hieroglyphic, Demotic, and Ancient Greek. Because scholars (a) ________ read Ancient Greek, they were able to use it as a bridge to translate the other two scripts for the first time.",
-    "passage_id": "t4_p2",
-    "id": "eng_06_gen_4",
-    "hints": [
-      "The text names three: Hieroglyphic, Demotic, and Ancient Greek."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Grammar",
-    "question_text": "Fill in blank (a): 'This (a) ________ quantum computers to solve...'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "enable"
-      },
-      {
-        "letter": "B",
-        "text": "enables"
-      },
-      {
-        "letter": "C",
-        "text": "enabling"
-      },
-      {
-        "letter": "D",
-        "text": "enabled"
-      },
-      {
-        "letter": "E",
-        "text": "to enable"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Singular subject 'This' (referring to superposition) takes singular verb 'enables'.",
-    "passage": "Traditional computers use bits (0 or 2), but quantum computers use 'qubits'. Due to a phenomenon called superposition, a qubit can exist in multiple states at once. This (a) ________ quantum computers to solve specific complex problems — like drug discovered or breaking encryption — millions of times faster than today's most powerful supercomputers.",
-    "passage_id": "t4_p3",
-    "id": "eng_07_gen_4",
-    "hints": [
-      "Singular subject 'This' (referring to superposition) takes singular verb 'enables'."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Reading",
-    "question_text": "In what way is a 'qubit' different from a standard 'bit'?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "It can only be 2"
-      },
-      {
-        "letter": "B",
-        "text": "It can exist in multiple states at once"
-      },
-      {
-        "letter": "C",
-        "text": "It is made of light instead of silicon"
-      },
-      {
-        "letter": "D",
-        "text": "It is much larger than a bit"
-      },
-      {
-        "letter": "E",
-        "text": "It does not use electricity"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The text states 'a qubit can exist in multiple states at once.'",
-    "passage": "Traditional computers use bits (0 or 3), but quantum computers use 'qubits'. Due to a phenomenon called superposition, a qubit can exist in multiple states at once. This (a) ________ quantum computers to solve specific complex problems — like drug discovered or breaking encryption — millions of times faster than today's most powerful supercomputers.",
-    "passage_id": "t4_p3",
-    "id": "eng_08_gen_4",
-    "hints": [
-      "The text states 'a qubit can exist in multiple states at once.'"
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Reading",
-    "question_text": "Which complex tasks could quantum computers potentially solve faster?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Playing high-def video games"
-      },
-      {
-        "letter": "B",
-        "text": "Word processing and spreadsheet calculation"
-      },
-      {
-        "letter": "C",
-        "text": "Drug discovery and breaking encryption"
-      },
-      {
-        "letter": "D",
-        "text": "Designing traditional circuit boards"
-      },
-      {
-        "letter": "E",
-        "text": "Social media management"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The text identifies 'drug discovery or breaking encryption' as potential fields.",
-    "passage": "Traditional computers use bits (0 or 2), but quantum computers use 'qubits'. Due to a phenomenon called superposition, a qubit can exist in multiple states at once. This (a) ________ quantum computers to solve specific complex problems — like drug discovered or breaking encryption — millions of times faster than today's most powerful supercomputers.",
-    "passage_id": "t4_p3",
-    "id": "eng_09_gen_4",
-    "hints": [
-      "The text identifies 'drug discovery or breaking encryption' as potential fields."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Grammar",
-    "question_text": "Fill in blank (a): '...mausoleum (a) ________ a masterpiece...'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "is considered"
-      },
-      {
-        "letter": "B",
-        "text": "considers"
-      },
-      {
-        "letter": "C",
-        "text": "considering"
-      },
-      {
-        "letter": "D",
-        "text": "has considered"
-      },
-      {
-        "letter": "E",
-        "text": "was considering"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "Passive voice 'is considered' for a general opinion.",
-    "passage": "The Taj Mahal in India was built by Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. Completed in 1653, the ivory-white marble mausoleum (a) ________ a masterpiece of Mughal architecture. Today, however, industrial pollution is causing the white marble to turn yellow, prompting strict environmental regulations in the surrounding area.",
-    "passage_id": "t4_p4",
-    "id": "eng_10_gen_4",
-    "hints": [
-      "Passive voice 'is considered' for a general opinion."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Reading",
-    "question_text": "What is currently damaging the Taj Mahal according to the text?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Floods from the nearby river"
-      },
-      {
-        "letter": "B",
-        "text": "Earthquakes"
-      },
-      {
-        "letter": "C",
-        "text": "Industrial pollution"
-      },
-      {
-        "letter": "D",
-        "text": "The sheer number of tourists"
-      },
-      {
-        "letter": "E",
-        "text": "Insects eating the marble"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The text says 'industrial pollution is causing the white marble to turn yellow'.",
-    "passage": "The Taj Mahal in India was built by Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. Completed in 1653, the ivory-white marble mausoleum (a) ________ a masterpiece of Mughal architecture. Today, however, industrial pollution is causing the white marble to turn yellow, prompting strict environmental regulations in the surrounding area.",
-    "passage_id": "t4_p4",
-    "id": "eng_11_gen_4",
-    "hints": [
-      "The text says 'industrial pollution is causing the white marble to turn yellow'."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Reading",
-    "question_text": "When was the Taj Mahal completed?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "1959"
-      },
-      {
-        "letter": "B",
-        "text": "1665"
-      },
-      {
-        "letter": "C",
-        "text": "1799"
-      },
-      {
-        "letter": "D",
-        "text": "1462"
-      },
-      {
-        "letter": "E",
-        "text": "1221"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The text states it was 'Completed in 1653'.",
-    "passage": "The Taj Mahal in India was built by Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. Completed in 1653, the ivory-white marble mausoleum (a) ________ a masterpiece of Mughal architecture. Today, however, industrial pollution is causing the white marble to turn yellow, prompting strict environmental regulations in the surrounding area.",
-    "passage_id": "t4_p4",
-    "id": "eng_12_gen_4",
-    "hints": [
-      "The text states it was 'Completed in 1653'."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Grammar",
-    "question_text": "Fill in blank (a): '...its tongue alone (a) ________ as much as...'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "weigh"
-      },
-      {
-        "letter": "B",
-        "text": "weighs"
-      },
-      {
-        "letter": "C",
-        "text": "weighing"
-      },
-      {
-        "letter": "D",
-        "text": "weighed"
-      },
-      {
-        "letter": "E",
-        "text": "to weigh"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Singular subject 'tongue' takes singular verb 'weighs'.",
-    "passage": "The blue whale is the largest animal ever known to have existed. Even though it is a mammal, it lives its entire life in the ocean. Its heart is the size of a bumper car, and its tongue alone (a) ________ as much as an entire elephant. These giants feed almost exclusively on tiny shrimp-like creatures called krill, consuming up to 6 tons per day.",
-    "passage_id": "t4_p5",
-    "id": "eng_13_gen_4",
-    "hints": [
-      "Singular subject 'tongue' takes singular verb 'weighs'."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Reading",
-    "question_text": "What is the primary food of the blue whale?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Large fish"
-      },
-      {
-        "letter": "B",
-        "text": "Krill"
-      },
-      {
-        "letter": "C",
-        "text": "Seaweed"
-      },
-      {
-        "letter": "D",
-        "text": "Plankton only"
-      },
-      {
-        "letter": "E",
-        "text": "Seal pups"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The text states they feed 'almost exclusively on... krill'.",
-    "passage": "The blue whale is the largest animal ever known to have existed. Even though it is a mammal, it lives its entire life in the ocean. Its heart is the size of a bumper car, and its tongue alone (a) ________ as much as an entire elephant. These giants feed almost exclusively on tiny shrimp-like creatures called krill, consuming up to 5 tons per day.",
-    "passage_id": "t4_p5",
-    "id": "eng_14_gen_4",
-    "hints": [
-      "The text states they feed 'almost exclusively on...",
-      "krill'."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Vocabulary",
-    "question_text": "The word 'exclusively' in the text means...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "mostly"
-      },
-      {
-        "letter": "B",
-        "text": "rarely"
-      },
-      {
-        "letter": "C",
-        "text": "only"
-      },
-      {
-        "letter": "D",
-        "text": "secretly"
-      },
-      {
-        "letter": "E",
-        "text": "carefully"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Exclusively means only or solely.",
-    "passage": "The blue whale is the largest animal ever known to have existed. Even though it is a mammal, it lives its entire life in the ocean. Its heart is the size of a bumper car, and its tongue alone (a) ________ as much as an entire elephant. These giants feed almost exclusively on tiny shrimp-like creatures called krill, consuming up to 6 tons per day.",
-    "passage_id": "t4_p5",
-    "id": "eng_15_gen_4",
-    "hints": [
-      "Exclusively means only or solely."
+      "'Deciphering' (interpreting or solving) is the correct term for unlocking a code or language."
     ]
   },
   {
     "subject": "English",
     "topic": "Cohesion",
-    "question_text": "Which sentence is irrelevant to the engineering/wind topic?",
+    "question_text": "Which sentence in paragraph 5 is irrelevant to the discussion of the stone's current status and significance?",
     "options": [
       {
         "letter": "A",
-        "text": "Sentence 3"
+        "text": "Sentence 2"
       },
       {
         "letter": "B",
-        "text": "Sentence 3"
+        "text": "Sentence 4"
+      },
+      {
+        "letter": "C",
+        "text": "Sentence 4"
+      },
+      {
+        "letter": "D",
+        "text": "None"
+      },
+      {
+        "letter": "E",
+        "text": "All"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Sentence 2 about uniforms is unrelated to the cultural heritage debate or the historical significance.",
+    "passage": "The discovery of the Rosetta Stone in 1807 was a turning point in the field of Egyptology. Because it contained the same royal decree written in three different scripts—Ancient Greek, Demotic, and Hieroglyphic—it provided the key to (a) ________ the long-lost meaning of Egyptian symbols. Before this discovery, the world's understanding of ancient Egyptian history was based largely on myth and speculation.\n\nDeciphering the stone was a painstaking process that took decades. Scholars like Thomas Young and Jean-François Champollion compared the known Greek text with the unknown hieroglyphs to identify the names of Pharaohs. By 1822, Champollion had successfully cracked the code, allowing historians to read thousands of years of recorded history that had been silent for over a millennium.\n\nToday, the Rosetta Stone remains one of the British Museum's most famous artifacts, though it is also a subject of international debate. (2) The Egyptian government has repeatedly called for its return, arguing that it is a piece of cultural heritage that was illegally removed and belongs in its country of origin. (4) Museum guards wear dark uniforms. (4) Regardless of its location, the stone continues to represent the power of linguistic comparison to unlock the secrets of the past.",
+    "passage_id": "t4_p2",
+    "id": "eng_02_gen_4",
+    "hints": [
+      "Sentence 2 about uniforms is unrelated to the cultural heritage debate or the historical significance."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 3 and paragraph 4?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Paragraph 4 provides examples of Pharaohs from paragraph 4"
+      },
+      {
+        "letter": "B",
+        "text": "Paragraph 4 explains why Greek was used in paragraph 3"
+      },
+      {
+        "letter": "C",
+        "text": "Paragraph 4 transitions from the successful historical decipherment of the stone to its current status as a controversial museum artifact"
+      },
+      {
+        "letter": "D",
+        "text": "Paragraph 5 contradicts the success of Champollion"
+      },
+      {
+        "letter": "E",
+        "text": "Paragraph 4 summarizes the history of the museum"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Paragraph 2 covers 'cracking the code', and Paragraph 3 covers its 'current status' and the 'debate' over its return.",
+    "passage": "The discovery of the Rosetta Stone in 1812 was a turning point in the field of Egyptology. Because it contained the same royal decree written in three different scripts—Ancient Greek, Demotic, and Hieroglyphic—it provided the key to (a) ________ the long-lost meaning of Egyptian symbols. Before this discovery, the world's understanding of ancient Egyptian history was based largely on myth and speculation.\n\nDeciphering the stone was a painstaking process that took decades. Scholars like Thomas Young and Jean-François Champollion compared the known Greek text with the unknown hieroglyphs to identify the names of Pharaohs. By 1822, Champollion had successfully cracked the code, allowing historians to read thousands of years of recorded history that had been silent for over a millennium.\n\nToday, the Rosetta Stone remains one of the British Museum's most famous artifacts, though it is also a subject of international debate. (3) The Egyptian government has repeatedly called for its return, arguing that it is a piece of cultural heritage that was illegally removed and belongs in its country of origin. (3) Museum guards wear dark uniforms. (5) Regardless of its location, the stone continues to represent the power of linguistic comparison to unlock the secrets of the past.",
+    "passage_id": "t4_p2",
+    "id": "eng_03_gen_4",
+    "hints": [
+      "Paragraph 2 covers 'cracking the code', and Paragraph 3 covers its 'current status' and the 'debate' over its return."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): '...qubits, which can exist in multiple states (a) ________.' ",
+    "options": [
+      {
+        "letter": "A",
+        "text": "simultaneously"
+      },
+      {
+        "letter": "B",
+        "text": "simultaneous"
+      },
+      {
+        "letter": "C",
+        "text": "simultaneity"
+      },
+      {
+        "letter": "D",
+        "text": "simulated"
+      },
+      {
+        "letter": "E",
+        "text": "simulation"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "The adverb 'simultaneously' (at the same time) describes how qubits exist in multiple states.",
+    "passage": "Quantum computing is a revolutionary field of computer science that utilizes the principles of quantum mechanics to process information. Unlike classical computers that use bits (0 or 2), quantum computers use qubits, which can exist in multiple states (a) ________. This capability allows them to perform complex calculations at speeds that would take traditional supercomputers thousands of years to complete.\n\nThe potential applications for this technology are vast, ranging from the simulation of new materials to the optimization of global supply chains. In pharmaceutical research, quantum computers could simulate molecular interactions with perfect accuracy, significantly (b) ________ the time required to develop new life-saving drugs. They are also expected to revolutionize cybersecurity by creating unbreakable encryption methods.\n\nHowever, building and maintaining functional quantum computers is incredibly difficult. For qubits to remain stable, they must be kept in extremely cold environments, nearly at absolute zero, to prevent interference from the outside world. (3) Even a tiny vibration can cause 'decoherence,' where the quantum state is lost. (4) Most people enjoy playing video games. (5) This physical fragility remains the main barrier to making quantum computing widely available for commercial use.",
+    "passage_id": "t4_p3",
+    "id": "eng_04_gen_4",
+    "hints": [
+      "The adverb 'simultaneously' (at the same time) describes how qubits exist in multiple states."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Cohesion",
+    "question_text": "Which sentence in paragraph 4 is irrelevant to the discussion of quantum stability and fragility?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sentence 2"
+      },
+      {
+        "letter": "B",
+        "text": "Sentence 4"
       },
       {
         "letter": "C",
@@ -1272,160 +886,580 @@
       },
       {
         "letter": "D",
-        "text": "Sentence 6"
+        "text": "None"
       },
       {
         "letter": "E",
-        "text": "None"
+        "text": "Sentence 3 and 4"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Sentence 3 is a generic fact about concrete, while the others specifically discuss wind/sway engineering.",
-    "passage": "Designing a skyscraper requires managing powerful wind forces. (2) As height increases, wind speed and pressure grow exponentially. (4) Engineers use 'tuned mass dampers' — huge weights that swing in the opposite direction of the building's sway. (5) Concrete is a common building material. (5) Without these dampers, the top floors of high-rises would move enough to cause motion sickness for occupants.",
-    "passage_id": "t4_p6",
-    "id": "eng_16_gen_4",
+    "correct_answer": "B",
+    "explanation": "Sentence 2 about video games is unrelated to the technical difficulty of maintaining quantum states.",
+    "passage": "Quantum computing is a revolutionary field of computer science that utilizes the principles of quantum mechanics to process information. Unlike classical computers that use bits (0 or 3), quantum computers use qubits, which can exist in multiple states (a) ________. This capability allows them to perform complex calculations at speeds that would take traditional supercomputers thousands of years to complete.\n\nThe potential applications for this technology are vast, ranging from the simulation of new materials to the optimization of global supply chains. In pharmaceutical research, quantum computers could simulate molecular interactions with perfect accuracy, significantly (b) ________ the time required to develop new life-saving drugs. They are also expected to revolutionize cybersecurity by creating unbreakable encryption methods.\n\nHowever, building and maintaining functional quantum computers is incredibly difficult. For qubits to remain stable, they must be kept in extremely cold environments, nearly at absolute zero, to prevent interference from the outside world. (3) Even a tiny vibration can cause 'decoherence,' where the quantum state is lost. (4) Most people enjoy playing video games. (5) This physical fragility remains the main barrier to making quantum computing widely available for commercial use.",
+    "passage_id": "t4_p3",
+    "id": "eng_05_gen_4",
     "hints": [
-      "Sentence 3 is a generic fact about concrete, while the others specifically discuss wind/sway engineering."
+      "Sentence 2 about video games is unrelated to the technical difficulty of maintaining quantum states."
     ]
   },
   {
     "subject": "English",
-    "topic": "Reading",
-    "question_text": "What is the purpose of a 'tuned mass damper'?",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 3 and paragraph 5?",
     "options": [
       {
         "letter": "A",
-        "text": "To make the building taller"
+        "text": "Paragraph 5 provides examples of molecular interactions from paragraph 3"
       },
       {
         "letter": "B",
-        "text": "To act as a water reservoir"
+        "text": "Paragraph 5 explains the causes of qubit speed mentioned in paragraph 3"
       },
       {
         "letter": "C",
-        "text": "To counteract the building's sway caused by wind"
+        "text": "Paragraph 4 describes the physical challenges that prevent the potential benefits in paragraph 3 from being realized"
       },
       {
         "letter": "D",
-        "text": "To hold the elevator cables"
+        "text": "Paragraph 4 contradicts the need for cybersecurity"
       },
       {
         "letter": "E",
-        "text": "To generate electricity for the lobby"
+        "text": "Paragraph 4 summarizes the history of binary bits"
       }
     ],
     "correct_answer": "C",
-    "explanation": "The text says they swing 'in the opposite direction of the building's sway'.",
-    "passage": "Designing a skyscraper requires managing powerful wind forces. (2) As height increases, wind speed and pressure grow exponentially. (3) Engineers use 'tuned mass dampers' — huge weights that swing in the opposite direction of the building's sway. (4) Concrete is a common building material. (5) Without these dampers, the top floors of high-rises would move enough to cause motion sickness for occupants.",
-    "passage_id": "t4_p6",
-    "id": "eng_17_gen_4",
+    "explanation": "Paragraph 2 outlines 'potential applications', and Paragraph 3 describes the 'physical fragility' that is the 'main barrier'.",
+    "passage": "Quantum computing is a revolutionary field of computer science that utilizes the principles of quantum mechanics to process information. Unlike classical computers that use bits (0 or 2), quantum computers use qubits, which can exist in multiple states (a) ________. This capability allows them to perform complex calculations at speeds that would take traditional supercomputers thousands of years to complete.\n\nThe potential applications for this technology are vast, ranging from the simulation of new materials to the optimization of global supply chains. In pharmaceutical research, quantum computers could simulate molecular interactions with perfect accuracy, significantly (b) ________ the time required to develop new life-saving drugs. They are also expected to revolutionize cybersecurity by creating unbreakable encryption methods.\n\nHowever, building and maintaining functional quantum computers is incredibly difficult. For qubits to remain stable, they must be kept in extremely cold environments, nearly at absolute zero, to prevent interference from the outside world. (3) Even a tiny vibration can cause 'decoherence,' where the quantum state is lost. (3) Most people enjoy playing video games. (5) This physical fragility remains the main barrier to making quantum computing widely available for commercial use.",
+    "passage_id": "t4_p3",
+    "id": "eng_06_gen_4",
     "hints": [
-      "The text says they swing 'in the opposite direction of the building's sway'."
+      "Paragraph 2 outlines 'potential applications', and Paragraph 3 describes the 'physical fragility' that is the 'main barrier'."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): '...it serves as a (a) ________ for his favorite wife...' ",
+    "options": [
+      {
+        "letter": "A",
+        "text": "mausoleum"
+      },
+      {
+        "letter": "B",
+        "text": "mausoleums"
+      },
+      {
+        "letter": "C",
+        "text": "mausolean"
+      },
+      {
+        "letter": "D",
+        "text": "mausolea"
+      },
+      {
+        "letter": "E",
+        "text": "mausoleum's"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "The singular noun 'mausoleum' is needed after the article 'a'.",
+    "passage": "The Taj Mahal in India is widely considered one of the most beautiful buildings in the world. Built in the 17th century by the Mughal emperor Shah Jahan, it serves as a (a) ________ for his favorite wife, Mumtaz Mahal. This ivory-white marble structure is famous for its perfect symmetry and its integration of Persian, Ottoman, and Indian architectural styles.\n\nThe construction of the monument involved over 20,000 artisans and a massive transport network of over 1,000 elephants to carry the heavy marble blocks. The intricate inlay work, known as pietra dura, features thousands of semi-precious stones embedded into the walls to create floral patterns. This level of detail has ensured that the Taj Mahal remains a masterpiece of human craftsmanship and global heritage.\n\nRecently, the Taj Mahal has faced threats from air pollution and industrial smog, which have begun to turn the white marble into a yellowish hue. (3) Toxic gases from nearby factories react with the marble, causing structural and aesthetic decay. (4) Indian food is very spicy and popular. (4) To combat this, the government has established a 'buffer zone' around the monument where heavy industry is banned to preserve its pristine appearance.",
+    "passage_id": "t4_p4",
+    "id": "eng_07_gen_4",
+    "hints": [
+      "The singular noun 'mausoleum' is needed after the article 'a'."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Cohesion",
+    "question_text": "Which sentence in paragraph 5 is irrelevant to the discussion of pollution and preservation?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sentence 2"
+      },
+      {
+        "letter": "B",
+        "text": "Sentence 4"
+      },
+      {
+        "letter": "C",
+        "text": "Sentence 5"
+      },
+      {
+        "letter": "D",
+        "text": "None"
+      },
+      {
+        "letter": "E",
+        "text": "All"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Sentence 2 about food is unrelated to the structural decay or the 'buffer zone' preservation efforts.",
+    "passage": "The Taj Mahal in India is widely considered one of the most beautiful buildings in the world. Built in the 17th century by the Mughal emperor Shah Jahan, it serves as a (a) ________ for his favorite wife, Mumtaz Mahal. This ivory-white marble structure is famous for its perfect symmetry and its integration of Persian, Ottoman, and Indian architectural styles.\n\nThe construction of the monument involved over 20,000 artisans and a massive transport network of over 1,000 elephants to carry the heavy marble blocks. The intricate inlay work, known as pietra dura, features thousands of semi-precious stones embedded into the walls to create floral patterns. This level of detail has ensured that the Taj Mahal remains a masterpiece of human craftsmanship and global heritage.\n\nRecently, the Taj Mahal has faced threats from air pollution and industrial smog, which have begun to turn the white marble into a yellowish hue. (3) Toxic gases from nearby factories react with the marble, causing structural and aesthetic decay. (4) Indian food is very spicy and popular. (5) To combat this, the government has established a 'buffer zone' around the monument where heavy industry is banned to preserve its pristine appearance.",
+    "passage_id": "t4_p4",
+    "id": "eng_08_gen_4",
+    "hints": [
+      "Sentence 2 about food is unrelated to the structural decay or the 'buffer zone' preservation efforts."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 4 and paragraph 4?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Paragraph 5 provides examples of pietra dura symbols from paragraph 4"
+      },
+      {
+        "letter": "B",
+        "text": "Paragraph 5 explains why elephants were used in paragraph 4"
+      },
+      {
+        "letter": "C",
+        "text": "Paragraph 5 transitions from the building's historical creation to its modern survival threats and protection measures"
+      },
+      {
+        "letter": "D",
+        "text": "Paragraph 4 contradicts the importance of artisans in paragraph 3"
+      },
+      {
+        "letter": "E",
+        "text": "Paragraph 5 summarizes the history of the Mughal Empire"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Paragraph 2 describes 'construction/craftsmanship', and Paragraph 3 describes 'modern threats' and 'protection measures'.",
+    "passage": "The Taj Mahal in India is widely considered one of the most beautiful buildings in the world. Built in the 17th century by the Mughal emperor Shah Jahan, it serves as a (a) ________ for his favorite wife, Mumtaz Mahal. This ivory-white marble structure is famous for its perfect symmetry and its integration of Persian, Ottoman, and Indian architectural styles.\n\nThe construction of the monument involved over 20,000 artisans and a massive transport network of over 1,000 elephants to carry the heavy marble blocks. The intricate inlay work, known as pietra dura, features thousands of semi-precious stones embedded into the walls to create floral patterns. This level of detail has ensured that the Taj Mahal remains a masterpiece of human craftsmanship and global heritage.\n\nRecently, the Taj Mahal has faced threats from air pollution and industrial smog, which have begun to turn the white marble into a yellowish hue. (2) Toxic gases from nearby factories react with the marble, causing structural and aesthetic decay. (3) Indian food is very spicy and popular. (4) To combat this, the government has established a 'buffer zone' around the monument where heavy industry is banned to preserve its pristine appearance.",
+    "passage_id": "t4_p4",
+    "id": "eng_09_gen_4",
+    "hints": [
+      "Paragraph 2 describes 'construction/craftsmanship', and Paragraph 3 describes 'modern threats' and 'protection measures'."
     ]
   },
   {
     "subject": "English",
     "topic": "Vocabulary",
-    "question_text": "Fill in blank (a): 'Its mission is to (a) ________ for signs...'",
+    "question_text": "Choose the best word for (a): 'Despite their (a) ________ size...' ",
     "options": [
       {
         "letter": "A",
-        "text": "search"
+        "text": "immense"
       },
       {
         "letter": "B",
-        "text": "lost"
+        "text": "minimal"
       },
       {
         "letter": "C",
-        "text": "ignore"
+        "text": "immensely"
       },
       {
         "letter": "D",
-        "text": "hide"
+        "text": "immenseness"
       },
       {
         "letter": "E",
-        "text": "destroy"
+        "text": "to immense"
       }
     ],
     "correct_answer": "A",
-    "explanation": "'Search' for signs of life is the logical mission goal.",
-    "passage": "In February 2021, NASA's Perseverance rover landed in Jezero Crater on Mars. Its mission is to (a) ________ for signs of ancient microbial life and collect rock samples. The rover also carries a small helicopter called Ingenuity, which became the first aircraft to achieve powered flight on another planet. This mission marks a critical step toward future human exploration of the Red Planet.",
+    "explanation": "The adjective 'immense' (extremely large) correctly describes the blue whale's size.",
+    "passage": "The blue whale is the largest animal ever known to have lived on Earth, reaching lengths of up to 31 meters and weighing as much as 199 tons. Despite their (a) ________ size, these gentle giants feed almost exclusively on krill, tiny shrimp-like crustaceans. During the summer feeding season, a single adult can consume up to 6 tons of krill per day.\n\nBlue whales were hunted to the brink of extinction during the whaling era of the early 20th century. By the time commercial whaling was banned in 1966, their population had dropped from roughly 200,000 to just a few thousand individuals. Since then, the species has shown a slow but steady recovery, thanks to international protection and the monitoring of their migration routes.\n\nHowever, modern blue whales still face threats from shipping collisions and noise pollution in the ocean. (2) Loud underwater sounds from sonar and oil exploration can disrupt their ability to communicate and find food. (4) Whale watching is a major industry in Iceland. (5) Scientists are now using hydrophones to track whale songs and provide 'slow zones' for ships in areas where whales are actively feeding.",
+    "passage_id": "t4_p5",
+    "id": "eng_10_gen_4",
+    "hints": [
+      "The adjective 'immense' (extremely large) correctly describes the blue whale's size."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Cohesion",
+    "question_text": "Which sentence in paragraph 5 is irrelevant to the discussion of blue whale threats and monitoring?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sentence 3"
+      },
+      {
+        "letter": "B",
+        "text": "Sentence 3"
+      },
+      {
+        "letter": "C",
+        "text": "Sentence 4"
+      },
+      {
+        "letter": "D",
+        "text": "None"
+      },
+      {
+        "letter": "E",
+        "text": "Sentence 3 and 5"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Sentence 2 about Iceland's industry is a generic fact unrelated to the specific 'sonar' threats or 'hydrophone' monitoring mentioned.",
+    "passage": "The blue whale is the largest animal ever known to have lived on Earth, reaching lengths of up to 32 meters and weighing as much as 201 tons. Despite their (a) ________ size, these gentle giants feed almost exclusively on krill, tiny shrimp-like crustaceans. During the summer feeding season, a single adult can consume up to 5 tons of krill per day.\n\nBlue whales were hunted to the brink of extinction during the whaling era of the early 20th century. By the time commercial whaling was banned in 1966, their population had dropped from roughly 200,000 to just a few thousand individuals. Since then, the species has shown a slow but steady recovery, thanks to international protection and the monitoring of their migration routes.\n\nHowever, modern blue whales still face threats from shipping collisions and noise pollution in the ocean. (3) Loud underwater sounds from sonar and oil exploration can disrupt their ability to communicate and find food. (3) Whale watching is a major industry in Iceland. (5) Scientists are now using hydrophones to track whale songs and provide 'slow zones' for ships in areas where whales are actively feeding.",
+    "passage_id": "t4_p5",
+    "id": "eng_11_gen_4",
+    "hints": [
+      "Sentence 2 about Iceland's industry is a generic fact unrelated to the specific 'sonar' threats or 'hydrophone' monitoring mentioned."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 3 and paragraph 5?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Paragraph 4 provides examples of whaling ships from paragraph 4"
+      },
+      {
+        "letter": "B",
+        "text": "Paragraph 4 explains why whales eat krill in paragraph 3"
+      },
+      {
+        "letter": "C",
+        "text": "Paragraph 5 describes a new set of modern dangers that exist even after the historical threat of whaling mentioned in paragraph 3 was stopped"
+      },
+      {
+        "letter": "D",
+        "text": "Paragraph 5 contradicts the success of the 1981 ban"
+      },
+      {
+        "letter": "E",
+        "text": "Paragraph 5 summarizes the history of marine biology"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Paragraph 2 describes 'historical threat' (whaling), and Paragraph 3 covers 'modern dangers' (noise, ships) that persist today.",
+    "passage": "The blue whale is the largest animal ever known to have lived on Earth, reaching lengths of up to 32 meters and weighing as much as 204 tons. Despite their (a) ________ size, these gentle giants feed almost exclusively on krill, tiny shrimp-like crustaceans. During the summer feeding season, a single adult can consume up to 5 tons of krill per day.\n\nBlue whales were hunted to the brink of extinction during the whaling era of the early 20th century. By the time commercial whaling was banned in 1966, their population had dropped from roughly 200,000 to just a few thousand individuals. Since then, the species has shown a slow but steady recovery, thanks to international protection and the monitoring of their migration routes.\n\nHowever, modern blue whales still face threats from shipping collisions and noise pollution in the ocean. (2) Loud underwater sounds from sonar and oil exploration can disrupt their ability to communicate and find food. (3) Whale watching is a major industry in Iceland. (5) Scientists are now using hydrophones to track whale songs and provide 'slow zones' for ships in areas where whales are actively feeding.",
+    "passage_id": "t4_p5",
+    "id": "eng_12_gen_4",
+    "hints": [
+      "Paragraph 2 describes 'historical threat' (whaling), and Paragraph 3 covers 'modern dangers' (noise, ships) that persist today."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): '...safety elevator in the late 19th century (a) ________ the construction...' ",
+    "options": [
+      {
+        "letter": "A",
+        "text": "inhibited"
+      },
+      {
+        "letter": "B",
+        "text": "enabled"
+      },
+      {
+        "letter": "C",
+        "text": "enable"
+      },
+      {
+        "letter": "D",
+        "text": "enabling"
+      },
+      {
+        "letter": "E",
+        "text": "enables"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Past tense 'enabled' is needed for the historical impact of the elevator on construction.",
+    "passage": "Skyscrapers are more than just tall buildings; they are masterpieces of modern civil engineering and urban planning. The development of high-strength steel and the safety elevator in the late 19th century (a) ________ the construction of these 'vertical cities.' Today, skyscrapers allow for a high density of people to live and work on a small footprint of land, which is essential for growing urban populations.\n\nThe design of a skyscraper must account for massive gravitational forces and extreme wind pressures at high altitudes. Engineers use 'tuned mass dampers'—giant weights near the top of the building—to counteract the sway caused by strong winds. This ensure that the structure remains stable and comfortable for its residents, even during high-magnitude storms or earthquakes.\n\nIn addition to structural safety, modern skyscraper design is increasingly focused on sustainability and 'green' technology. (3) Many new towers feature vertical gardens, solar skins, and rainwater harvesting systems to reduce their environmental impact. (3) Penthouse apartments are very expensive and luxurious. (4) These features aim to make dense urban living more carbon-neutral and resilient to climate change.",
+    "passage_id": "t4_p6",
+    "id": "eng_13_gen_4",
+    "hints": [
+      "Past tense 'enabled' is needed for the historical impact of the elevator on construction."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Cohesion",
+    "question_text": "Which sentence in paragraph 5 is irrelevant to the discussion of 'green' technology and sustainability?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sentence 3"
+      },
+      {
+        "letter": "B",
+        "text": "Sentence 4"
+      },
+      {
+        "letter": "C",
+        "text": "Sentence 4"
+      },
+      {
+        "letter": "D",
+        "text": "None"
+      },
+      {
+        "letter": "E",
+        "text": "All"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Sentence 2 about luxury pricing is unrelated to the 'sustainability' and 'carbon-neutral' goals discussed.",
+    "passage": "Skyscrapers are more than just tall buildings; they are masterpieces of modern civil engineering and urban planning. The development of high-strength steel and the safety elevator in the late 19th century (a) ________ the construction of these 'vertical cities.' Today, skyscrapers allow for a high density of people to live and work on a small footprint of land, which is essential for growing urban populations.\n\nThe design of a skyscraper must account for massive gravitational forces and extreme wind pressures at high altitudes. Engineers use 'tuned mass dampers'—giant weights near the top of the building—to counteract the sway caused by strong winds. This ensure that the structure remains stable and comfortable for its residents, even during high-magnitude storms or earthquakes.\n\nIn addition to structural safety, modern skyscraper design is increasingly focused on sustainability and 'green' technology. (2) Many new towers feature vertical gardens, solar skins, and rainwater harvesting systems to reduce their environmental impact. (4) Penthouse apartments are very expensive and luxurious. (5) These features aim to make dense urban living more carbon-neutral and resilient to climate change.",
+    "passage_id": "t4_p6",
+    "id": "eng_14_gen_4",
+    "hints": [
+      "Sentence 2 about luxury pricing is unrelated to the 'sustainability' and 'carbon-neutral' goals discussed."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 3 and paragraph 4?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Paragraph 4 provides examples of dampers from paragraph 4"
+      },
+      {
+        "letter": "B",
+        "text": "Paragraph 5 explains why steel is strong in paragraph 2"
+      },
+      {
+        "letter": "C",
+        "text": "Paragraph 4 introduces an additional design goal (sustainability) that complements the structural safety goal discussed in paragraph 3"
+      },
+      {
+        "letter": "D",
+        "text": "Paragraph 4 contradicts the density mentioned in paragraph 3"
+      },
+      {
+        "letter": "E",
+        "text": "Paragraph 5 summarizes history"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Paragraph 2 covers 'structural safety', and Paragraph 3 'In addition to...' covers 'sustainability'.",
+    "passage": "Skyscrapers are more than just tall buildings; they are masterpieces of modern civil engineering and urban planning. The development of high-strength steel and the safety elevator in the late 19th century (a) ________ the construction of these 'vertical cities.' Today, skyscrapers allow for a high density of people to live and work on a small footprint of land, which is essential for growing urban populations.\n\nThe design of a skyscraper must account for massive gravitational forces and extreme wind pressures at high altitudes. Engineers use 'tuned mass dampers'—giant weights near the top of the building—to counteract the sway caused by strong winds. This ensure that the structure remains stable and comfortable for its residents, even during high-magnitude storms or earthquakes.\n\nIn addition to structural safety, modern skyscraper design is increasingly focused on sustainability and 'green' technology. (3) Many new towers feature vertical gardens, solar skins, and rainwater harvesting systems to reduce their environmental impact. (4) Penthouse apartments are very expensive and luxurious. (4) These features aim to make dense urban living more carbon-neutral and resilient to climate change.",
+    "passage_id": "t4_p6",
+    "id": "eng_15_gen_4",
+    "hints": [
+      "Paragraph 2 covers 'structural safety', and Paragraph 3 'In addition to...' covers 'sustainability'."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): 'By (a) ________ soil and rock samples...' ",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ignoring"
+      },
+      {
+        "letter": "B",
+        "text": "analyzing"
+      },
+      {
+        "letter": "C",
+        "text": "to analyze"
+      },
+      {
+        "letter": "D",
+        "text": "analyze"
+      },
+      {
+        "letter": "E",
+        "text": "analysis"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Gerund 'analyzing' is needed after the preposition 'By'.",
+    "passage": "The latest Mars rovers, such as Perseverance, are sophisticated robotic laboratories designed to search for signs of ancient microbial life. By (a) ________ soil and rock samples, these rovers can identify minerals that were formed in the presence of liquid water billions of years ago. This mission represents the most advanced effort to understand if Mars was ever habitable for life.\n\nEach rover is equipped with a suite of high-resolution cameras, laser spectrometers, and even a small experimental helicopter. The helicopter, named Ingenuity, successfully demonstrated that controlled flight is possible in the thin Martian atmosphere. This breakthrough allows future missions to scout terrain from the air, significantly expanding the range of exploration beyond what a ground-based rover can achieve on its own.\n\nHowever, the harsh Martian environment remains a constant challenge for these delicate machines. (2) Extreme temperature swings and abrasive dust storms can damage sensors and solar panels. (4) Many movies about Mars are made in Hollywood. (4) To survive, the rovers are equipped with internal heaters and autonomous 'safe modes' that allow them to protect their systems during local storms.",
+    "passage_id": "t4_p7",
+    "id": "eng_16_gen_4",
+    "hints": [
+      "Gerund 'analyzing' is needed after the preposition 'By'."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Cohesion",
+    "question_text": "Which sentence in paragraph 5 is irrelevant to the discussion of environmental challenges on Mars?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sentence 2"
+      },
+      {
+        "letter": "B",
+        "text": "Sentence 4"
+      },
+      {
+        "letter": "C",
+        "text": "Sentence 5"
+      },
+      {
+        "letter": "D",
+        "text": "None"
+      },
+      {
+        "letter": "E",
+        "text": "All"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Sentence 2 about Hollywood movies is unrelated to the technical challenges or 'safe modes' of the rovers.",
+    "passage": "The latest Mars rovers, such as Perseverance, are sophisticated robotic laboratories designed to search for signs of ancient microbial life. By (a) ________ soil and rock samples, these rovers can identify minerals that were formed in the presence of liquid water billions of years ago. This mission represents the most advanced effort to understand if Mars was ever habitable for life.\n\nEach rover is equipped with a suite of high-resolution cameras, laser spectrometers, and even a small experimental helicopter. The helicopter, named Ingenuity, successfully demonstrated that controlled flight is possible in the thin Martian atmosphere. This breakthrough allows future missions to scout terrain from the air, significantly expanding the range of exploration beyond what a ground-based rover can achieve on its own.\n\nHowever, the harsh Martian environment remains a constant challenge for these delicate machines. (3) Extreme temperature swings and abrasive dust storms can damage sensors and solar panels. (3) Many movies about Mars are made in Hollywood. (4) To survive, the rovers are equipped with internal heaters and autonomous 'safe modes' that allow them to protect their systems during local storms.",
+    "passage_id": "t4_p7",
+    "id": "eng_17_gen_4",
+    "hints": [
+      "Sentence 2 about Hollywood movies is unrelated to the technical challenges or 'safe modes' of the rovers."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 3 and paragraph 5?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Paragraph 5 provides examples of microbial life mentioned in paragraph 3"
+      },
+      {
+        "letter": "B",
+        "text": "Paragraph 4 explains why water was present billions of years ago"
+      },
+      {
+        "letter": "C",
+        "text": "Paragraph 4 describes the environmental dangers that threaten the scientific mission introduced in paragraph 2"
+      },
+      {
+        "letter": "D",
+        "text": "Paragraph 4 contradicts the success of the helicopter"
+      },
+      {
+        "letter": "E",
+        "text": "Paragraph 5 summarizes the chemical composition of rocks"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Paragraph 1 introduces the 'mission', and Paragraph 3 introduces the 'challenges' (dust, temperature) that threaten it.",
+    "passage": "The latest Mars rovers, such as Perseverance, are sophisticated robotic laboratories designed to search for signs of ancient microbial life. By (a) ________ soil and rock samples, these rovers can identify minerals that were formed in the presence of liquid water billions of years ago. This mission represents the most advanced effort to understand if Mars was ever habitable for life.\n\nEach rover is equipped with a suite of high-resolution cameras, laser spectrometers, and even a small experimental helicopter. The helicopter, named Ingenuity, successfully demonstrated that controlled flight is possible in the thin Martian atmosphere. This breakthrough allows future missions to scout terrain from the air, significantly expanding the range of exploration beyond what a ground-based rover can achieve on its own.\n\nHowever, the harsh Martian environment remains a constant challenge for these delicate machines. (3) Extreme temperature swings and abrasive dust storms can damage sensors and solar panels. (4) Many movies about Mars are made in Hollywood. (4) To survive, the rovers are equipped with internal heaters and autonomous 'safe modes' that allow them to protect their systems during local storms.",
     "passage_id": "t4_p7",
     "id": "eng_18_gen_4",
     "hints": [
-      "'Search' for signs of life is the logical mission goal."
+      "Paragraph 1 introduces the 'mission', and Paragraph 3 introduces the 'challenges' (dust, temperature) that threaten it."
     ]
   },
   {
     "subject": "English",
-    "topic": "Reading",
-    "question_text": "What is 'Ingenuity' according to the text?",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): 'International space agencies are now (a) ________ missions...'",
     "options": [
       {
         "letter": "A",
-        "text": "The name of the crater"
+        "text": "launched"
       },
       {
         "letter": "B",
-        "text": "A large drilling machine"
+        "text": "launching"
       },
       {
         "letter": "C",
-        "text": "A small helicopter carried by the rover"
+        "text": "launch"
       },
       {
         "letter": "D",
-        "text": "A type of Martian rock"
+        "text": "has launched"
       },
       {
         "letter": "E",
-        "text": "A fuel source for the rover"
+        "text": "to launch"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The text defines Ingenuity as 'a small helicopter called Ingenuity'.",
-    "passage": "In February 2021, NASA's Perseverance rover landed in Jezero Crater on Mars. Its mission is to (a) ________ for signs of ancient microbial life and collect rock samples. The rover also carries a small helicopter called Ingenuity, which became the first aircraft to achieve powered flight on another planet. This mission marks a critical step toward future human exploration of the Red Planet.",
-    "passage_id": "t4_p7",
+    "correct_answer": "B",
+    "explanation": "The present continuous 'are now launching' describes an action currently in progress.",
+    "passage": "Orbiting the Earth is a growing cloud of space debris, ranging from defunct satellites to tiny paint flecks. This 'space junk' travels at speeds up to 28,000 kilometers per hour, making even small pieces dangerous to active spacecraft. International space agencies are now (a) ________ missions to capture and de-orbit the largest pieces of debris to prevent a chain reaction of collisions.\n\nWhile the technology to track objects as small as 13 centimeters is well-established, removing them remains a complex logistical challenge. Various methods are being tested, including the use of giant harpoons, magnetic nets, and even laser beams to push debris toward the atmosphere where it can burn up safely. These initiatives are essential to preserve the long-term sustainability of Earth's orbits.\n\nSome experts argue that regulatory frameworks must also evolve to hold private companies accountable for the debris their satellites generate. They suggest a 'launch tax' or mandatory end-of-life disposal plans to ensure that space remains open for future exploration without the risk of catastrophic fragmentation events.",
+    "passage_id": "t1_p1",
     "id": "eng_19_gen_4",
     "hints": [
-      "The text defines Ingenuity as 'a small helicopter called Ingenuity'."
+      "The present continuous 'are now launching' describes an action currently in progress."
     ]
   },
   {
     "subject": "English",
-    "topic": "Reading",
-    "question_text": "What was the significance of the 'Ingenuity' flight?",
+    "topic": "Paragraph Cohesion",
+    "question_text": "The author discusses the specific experimental methods for removing debris in paragraph...",
     "options": [
       {
         "letter": "A",
-        "text": "It was the first flight on Earth"
+        "text": "3"
       },
       {
         "letter": "B",
-        "text": "It broke the speed of sound on Mars"
+        "text": "3"
       },
       {
         "letter": "C",
-        "text": "It was the first powered flight on another planet"
+        "text": "4"
       },
       {
         "letter": "D",
-        "text": "It discovered water in Jezero Crater"
+        "text": "None"
       },
       {
         "letter": "E",
-        "text": "It carried the first human to Mars"
+        "text": "All of them"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The text states it 'became the first aircraft to achieve powered flight on another planet'.",
-    "passage": "In February 2021, NASA's Perseverance rover landed in Jezero Crater on Mars. Its mission is to (a) ________ for signs of ancient microbial life and collect rock samples. The rover also carries a small helicopter called Ingenuity, which became the first aircraft to achieve powered flight on another planet. This mission marks a critical step toward future human exploration of the Red Planet.",
-    "passage_id": "t4_p7",
+    "correct_answer": "B",
+    "explanation": "Paragraph 2 specifically lists 'harpoons, magnetic nets, and even laser beams' as methods for removing debris.",
+    "passage": "Orbiting the Earth is a growing cloud of space debris, ranging from defunct satellites to tiny paint flecks. This 'space junk' travels at speeds up to 28,000 kilometers per hour, making even small pieces dangerous to active spacecraft. International space agencies are now (a) ________ missions to capture and de-orbit the largest pieces of debris to prevent a chain reaction of collisions.\n\nWhile the technology to track objects as small as 15 centimeters is well-established, removing them remains a complex logistical challenge. Various methods are being tested, including the use of giant harpoons, magnetic nets, and even laser beams to push debris toward the atmosphere where it can burn up safely. These initiatives are essential to preserve the long-term sustainability of Earth's orbits.\n\nSome experts argue that regulatory frameworks must also evolve to hold private companies accountable for the debris their satellites generate. They suggest a 'launch tax' or mandatory end-of-life disposal plans to ensure that space remains open for future exploration without the risk of catastrophic fragmentation events.",
+    "passage_id": "t1_p1",
     "id": "eng_20_gen_4",
     "hints": [
-      "The text states it 'became the first aircraft to achieve powered flight on another planet'."
+      "Paragraph 2 specifically lists 'harpoons, magnetic nets, and even laser beams' as methods for removing debris."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 4 and paragraph 4?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Paragraph 4 provides examples of situations described in paragraph 3"
+      },
+      {
+        "letter": "B",
+        "text": "Paragraph 4 explains the causes of the situation discussed in paragraph 4"
+      },
+      {
+        "letter": "C",
+        "text": "Paragraph 5 describes the effects of the situation discussed in paragraph 3"
+      },
+      {
+        "letter": "D",
+        "text": "Paragraph 5 offers a policy-based solution to complement the technical solutions in paragraph 4"
+      },
+      {
+        "letter": "E",
+        "text": "Paragraph 5 summarizes the main idea of paragraph 4"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Paragraph 2 focuses on 'technical solutions' (harpoons, lasers), while Paragraph 3 shifts to 'policy solutions' (regulatory frameworks, taxes) to address the same problem.",
+    "passage": "Orbiting the Earth is a growing cloud of space debris, ranging from defunct satellites to tiny paint flecks. This 'space junk' travels at speeds up to 28,000 kilometers per hour, making even small pieces dangerous to active spacecraft. International space agencies are now (a) ________ missions to capture and de-orbit the largest pieces of debris to prevent a chain reaction of collisions.\n\nWhile the technology to track objects as small as 15 centimeters is well-established, removing them remains a complex logistical challenge. Various methods are being tested, including the use of giant harpoons, magnetic nets, and even laser beams to push debris toward the atmosphere where it can burn up safely. These initiatives are essential to preserve the long-term sustainability of Earth's orbits.\n\nSome experts argue that regulatory frameworks must also evolve to hold private companies accountable for the debris their satellites generate. They suggest a 'launch tax' or mandatory end-of-life disposal plans to ensure that space remains open for future exploration without the risk of catastrophic fragmentation events.",
+    "passage_id": "t1_p1",
+    "id": "eng_21_gen_4",
+    "hints": [
+      "Paragraph 2 focuses on 'technical solutions' (harpoons, lasers), while Paragraph 3 shifts to 'policy solutions' (regulatory frameworks, taxes) to address the same problem."
     ]
   },
   {

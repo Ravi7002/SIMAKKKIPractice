@@ -66,903 +66,1806 @@
   ],
   "questions": [
     {
-      "id": "pcs_easy_1",
       "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "easy",
-      "question_text": "Choose the best transition: 'Eating vegetables is essential for good health. _____, many people fail to meet the daily recommended intake.'",
+      "topic": "Paragraph Cohesion",
+      "question_text": "The author discusses the specific experimental methods for removing debris in paragraph...",
       "options": [
         {
           "letter": "A",
-          "text": "Therefore"
+          "text": "1"
         },
         {
           "letter": "B",
-          "text": "Furthermore"
+          "text": "2"
         },
         {
           "letter": "C",
-          "text": "As a result"
+          "text": "3"
         },
         {
           "letter": "D",
-          "text": "However"
+          "text": "None"
         },
         {
           "letter": "E",
-          "text": "Similarly"
-        }
-      ],
-      "correct_answer": "D",
-      "explanation": "Sentence 1: vegetables are essential. Sentence 2: people don't eat enough. This is a **contrast** — despite knowing vegetables are important, many don't eat enough. → **However** (contrast connector) ✓.",
-      "hints": [
-        "What's the relationship? S1=important, S2=people don't follow it.",
-        "This is a contrast (expectation vs. reality).",
-        "However = contrast connector."
-      ]
-    },
-    {
-      "id": "pcs_easy_2",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "easy",
-      "question_text": "Which transition best fills the blank? 'The experiment failed twice. _____, the team decided to revise their approach.'",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Nevertheless"
-        },
-        {
-          "letter": "B",
-          "text": "However"
-        },
-        {
-          "letter": "C",
-          "text": "For example"
-        },
-        {
-          "letter": "D",
-          "text": "Consequently"
-        },
-        {
-          "letter": "E",
-          "text": "In addition"
-        }
-      ],
-      "correct_answer": "D",
-      "explanation": "Experiment failed → team decided to revise. This is **cause → effect**. → **Consequently** ✓.",
-      "hints": [
-        "The experiment failing CAUSED the team to change. What connects causes and effects?",
-        "Consequently = as a result/effect.",
-        "Answer: Consequently."
-      ]
-    },
-    {
-      "id": "pcs_easy_3",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "easy",
-      "question_text": "Which word best fills the blank: 'She is skilled in Python, Java, and, _____, SQL.'",
-      "options": [
-        {
-          "letter": "A",
-          "text": "furthermore"
-        },
-        {
-          "letter": "B",
-          "text": "unless"
-        },
-        {
-          "letter": "C",
-          "text": "as a result"
-        },
-        {
-          "letter": "D",
-          "text": "despite"
-        },
-        {
-          "letter": "E",
-          "text": "however"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "The sentence is listing skills. 'Furthermore' adds another item in the same direction → fits a listing context. **Furthermore** ✓.",
-      "hints": [
-        "The sentence lists skills — it's adding more items.",
-        "Which connector adds to a list?",
-        "Furthermore = in addition to that."
-      ]
-    },
-    {
-      "id": "pcs_easy_4",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "easy",
-      "question_text": "The topic sentence of a paragraph is typically:",
-      "options": [
-        {
-          "letter": "A",
-          "text": "A question to engage the reader"
-        },
-        {
-          "letter": "B",
-          "text": "The first sentence that introduces the main idea"
-        },
-        {
-          "letter": "C",
-          "text": "Any sentence that uses a transition word"
-        },
-        {
-          "letter": "D",
-          "text": "The last sentence that summarizes details"
-        },
-        {
-          "letter": "E",
-          "text": "A sentence with a specific example"
+          "text": "All of them"
         }
       ],
       "correct_answer": "B",
-      "explanation": "The **topic sentence** introduces the paragraph's main idea and is usually (but not always) first. It sets the direction for the rest of the paragraph.",
+      "explanation": "Paragraph 2 specifically lists 'harpoons, magnetic nets, and even laser beams' as methods for removing debris.",
+      "passage": "Orbiting the Earth is a growing cloud of space debris, ranging from defunct satellites to tiny paint flecks. This 'space junk' travels at speeds up to 28,000 kilometers per hour, making even small pieces dangerous to active spacecraft. International space agencies are now (a) ________ missions to capture and de-orbit the largest pieces of debris to prevent a chain reaction of collisions.\n\nWhile the technology to track objects as small as 10 centimeters is well-established, removing them remains a complex logistical challenge. Various methods are being tested, including the use of giant harpoons, magnetic nets, and even laser beams to push debris toward the atmosphere where it can burn up safely. These initiatives are essential to preserve the long-term sustainability of Earth's orbits.\n\nSome experts argue that regulatory frameworks must also evolve to hold private companies accountable for the debris their satellites generate. They suggest a 'launch tax' or mandatory end-of-life disposal plans to ensure that space remains open for future exploration without the risk of catastrophic fragmentation events.",
+      "passage_id": "t1_p1",
       "hints": [
-        "The topic sentence tells readers what the paragraph is about.",
-        "It's usually (but not always) at the beginning.",
-        "Answer: first sentence introducing the main idea."
+        "Paragraph 2 specifically lists 'harpoons, magnetic nets, and even laser beams' as methods for removing debris."
       ]
     },
     {
-      "id": "pcs_easy_5",
       "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "easy",
-      "question_text": "Which sentence does NOT belong in a paragraph about the benefits of reading?\n1. Reading improves vocabulary.\n2. It enhances critical thinking.\n3. The library will close early on Sundays.\n4. Regular reading reduces stress.\n5. It also broadens one's world view.",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
       "options": [
         {
           "letter": "A",
-          "text": "Sentence 2"
+          "text": "Paragraph 3 provides examples of situations described in paragraph 2"
         },
         {
           "letter": "B",
-          "text": "Sentence 4"
+          "text": "Paragraph 3 explains the causes of the situation discussed in paragraph 2"
         },
         {
           "letter": "C",
-          "text": "Sentence 5"
+          "text": "Paragraph 3 describes the effects of the situation discussed in paragraph 2"
         },
         {
           "letter": "D",
+          "text": "Paragraph 3 offers a policy-based solution to complement the technical solutions in paragraph 2"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the main idea of paragraph 2"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Paragraph 2 focuses on 'technical solutions' (harpoons, lasers), while Paragraph 3 shifts to 'policy solutions' (regulatory frameworks, taxes) to address the same problem.",
+      "passage": "Orbiting the Earth is a growing cloud of space debris, ranging from defunct satellites to tiny paint flecks. This 'space junk' travels at speeds up to 28,000 kilometers per hour, making even small pieces dangerous to active spacecraft. International space agencies are now (a) ________ missions to capture and de-orbit the largest pieces of debris to prevent a chain reaction of collisions.\n\nWhile the technology to track objects as small as 10 centimeters is well-established, removing them remains a complex logistical challenge. Various methods are being tested, including the use of giant harpoons, magnetic nets, and even laser beams to push debris toward the atmosphere where it can burn up safely. These initiatives are essential to preserve the long-term sustainability of Earth's orbits.\n\nSome experts argue that regulatory frameworks must also evolve to hold private companies accountable for the debris their satellites generate. They suggest a 'launch tax' or mandatory end-of-life disposal plans to ensure that space remains open for future exploration without the risk of catastrophic fragmentation events.",
+      "passage_id": "t1_p1",
+      "hints": [
+        "Paragraph 2 focuses on 'technical solutions' (harpoons, lasers), while Paragraph 3 shifts to 'policy solutions' (regulatory frameworks, taxes) to address the same problem."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Paragraph Cohesion",
+      "question_text": "Which paragraph focuses on laboratory-based interventions and restoration efforts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 1"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 2"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3"
+        },
+        {
+          "letter": "D",
+          "text": "Both 1 and 2"
+        },
+        {
+          "letter": "E",
+          "text": "None"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Paragraph 2 discusses 'nurturing resilient coral fragments in laboratories' and 'transplanting them back'.",
+      "passage": "Coral reefs are often called the rainforests of the sea because of their immense biodiversity. However, rising ocean temperatures have led to widespread coral bleaching. When water is too warm, corals expel the algae living in their tissues, causing them to turn completely white. (a) This process weakens the coral and makes them more susceptible to disease, threatening the entire marine food chain.\n\nTo combat this, scientists are experimenting with 'coral gardening' and selective breeding of more heat-resistant species. By nurturing resilient coral fragments in laboratories and then transplanting them back into the ocean, researchers hope to restore damaged reefs. These local efforts provide a temporary buffer against the accelerating impacts of climate change.\n\nNevertheless, global climate action remains the only long-term solution to save the world's reefs. Without a significant reduction in greenhouse gas emissions, even the most resilient corals will eventually (b) ________ to the relentless heat of the warming oceans. Collective international effort is required to prevent an irreversible ecological collapse.",
+      "passage_id": "t1_p2",
+      "hints": [
+        "Paragraph 2 discusses 'nurturing resilient coral fragments in laboratories' and 'transplanting them back'."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of situations described in paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the causes of the situation discussed in paragraph 2"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 describes the limitations of the local interventions mentioned in paragraph 2"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the success of the scientists in paragraph 2"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the main idea of paragraph 2"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 describes 'local efforts' (gardening), but Paragraph 3 notes that these are only temporary and have 'limitations' compared to the 'long-term solution' of global climate action.",
+      "passage": "Coral reefs are often called the rainforests of the sea because of their immense biodiversity. However, rising ocean temperatures have led to widespread coral bleaching. When water is too warm, corals expel the algae living in their tissues, causing them to turn completely white. (a) This process weakens the coral and makes them more susceptible to disease, threatening the entire marine food chain.\n\nTo combat this, scientists are experimenting with 'coral gardening' and selective breeding of more heat-resistant species. By nurturing resilient coral fragments in laboratories and then transplanting them back into the ocean, researchers hope to restore damaged reefs. These local efforts provide a temporary buffer against the accelerating impacts of climate change.\n\nNevertheless, global climate action remains the only long-term solution to save the world's reefs. Without a significant reduction in greenhouse gas emissions, even the most resilient corals will eventually (b) ________ to the relentless heat of the warming oceans. Collective international effort is required to prevent an irreversible ecological collapse.",
+      "passage_id": "t1_p2",
+      "hints": [
+        "Paragraph 2 describes 'local efforts' (gardening), but Paragraph 3 notes that these are only temporary and have 'limitations' compared to the 'long-term solution' of global climate action."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Paragraph Cohesion",
+      "question_text": "The author discusses the changing responsibilities of managers in paragraph...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "1 and 2"
+        },
+        {
+          "letter": "E",
+          "text": "None"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Paragraph 2 explicitly mentions that 'Managers must now rely on output-based metrics'.",
+      "passage": "The conceptualization of 'the office' has fundamentally shifted over the past few years. Before 2020, remote work was primarily a perk for a small minority of freelancers and tech employees. Today, it is a structural reality for millions of workers worldwide, enabled by (a) ________ advances in cloud computing and digital communication tools.\n\nWhile this flexibility allows employees to better balance professional duties with personal health, it presents new challenges for management and team cohesion. Managers must now rely on output-based metrics rather than 'face time' to evaluate performance. Furthermore, maintaining a strong company culture in a decentralized environment requires deliberate effort and frequent virtual interaction.\n\nLooking ahead, the hybrid model appears to be the most viable middle ground for many corporations. This approach combines the flexibility of working from home with the collaborative benefits of in-person office days. It aims to maximize productivity while minimizing the (b) ________ that often accompanies full-time remote isolation.",
+      "passage_id": "t1_p3",
+      "hints": [
+        "Paragraph 2 explicitly mentions that 'Managers must now rely on output-based metrics'."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides a specific example of a manager mentioned in paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the causes of the remote work shift discussed in paragraph 1"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 describes a solution that addresses the challenges mentioned in paragraph 2"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the idea of team cohesion in paragraph 2"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the main idea of paragraph 1"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 outlines challenges (management, cohesion), and Paragraph 3 proposes the 'hybrid model' as a solution that balances these issues.",
+      "passage": "The conceptualization of 'the office' has fundamentally shifted over the past few years. Before 2020, remote work was primarily a perk for a small minority of freelancers and tech employees. Today, it is a structural reality for millions of workers worldwide, enabled by (a) ________ advances in cloud computing and digital communication tools.\n\nWhile this flexibility allows employees to better balance professional duties with personal health, it presents new challenges for management and team cohesion. Managers must now rely on output-based metrics rather than 'face time' to evaluate performance. Furthermore, maintaining a strong company culture in a decentralized environment requires deliberate effort and frequent virtual interaction.\n\nLooking ahead, the hybrid model appears to be the most viable middle ground for many corporations. This approach combines the flexibility of working from home with the collaborative benefits of in-person office days. It aims to maximize productivity while minimizing the (b) ________ that often accompanies full-time remote isolation.",
+      "passage_id": "t1_p3",
+      "hints": [
+        "Paragraph 2 outlines challenges (management, cohesion), and Paragraph 3 proposes the 'hybrid model' as a solution that balances these issues."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Paragraph Cohesion",
+      "question_text": "In which paragraph does the author discuss the economic and environmental costs of artificial lighting?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 1"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 2"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3"
+        },
+        {
+          "letter": "D",
+          "text": "All of them"
+        },
+        {
+          "letter": "E",
+          "text": "None"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Paragraph 2 is dedicated to the 'high energy cost associated with artificial lighting'.",
+      "passage": "As the global population nears 10 billion, traditional agriculture faces mounting pressure from land scarcity and changing weather patterns. Vertical farming offers a solution by growing crops in stacked layers, often in controlled indoor environments. This method uses (a) ________ less water and eliminates the need for chemical pesticides, making it highly efficient for urban centers.\n\nHowever, the high energy cost associated with artificial lighting remains a significant hurdle for large-scale adoption. Unlike traditional farms that rely on free sunlight, vertical farms must power thousands of LED lights to mimic optimal growing conditions. For the industry to be truly sustainable, it must integrate more affordable renewable energy sources.\n\nDespite these costs, supporters argue that vertical farming significantly reduces 'food miles' and the risk of supply chain disruptions. By producing food locally within cities, these farms can provide fresh produce year-round, regardless of external climate conditions. This reliability could be the key to ensuring food security in an increasingly (b) ________ world.",
+      "passage_id": "t1_p4",
+      "hints": [
+        "Paragraph 2 is dedicated to the 'high energy cost associated with artificial lighting'."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of renewable energy mentioned in paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains why vertical farming is still worth pursuing despite the drawbacks in paragraph 2"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 describes the negative effects of the LED lights discussed in paragraph 2"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the idea of sustainability in paragraph 2"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the history of traditional agriculture"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Paragraph 2 discusses drawbacks (costs), and Paragraph 3 presents 'Despite these costs' arguments for why the method is still beneficial.",
+      "passage": "As the global population nears 10 billion, traditional agriculture faces mounting pressure from land scarcity and changing weather patterns. Vertical farming offers a solution by growing crops in stacked layers, often in controlled indoor environments. This method uses (a) ________ less water and eliminates the need for chemical pesticides, making it highly efficient for urban centers.\n\nHowever, the high energy cost associated with artificial lighting remains a significant hurdle for large-scale adoption. Unlike traditional farms that rely on free sunlight, vertical farms must power thousands of LED lights to mimic optimal growing conditions. For the industry to be truly sustainable, it must integrate more affordable renewable energy sources.\n\nDespite these costs, supporters argue that vertical farming significantly reduces 'food miles' and the risk of supply chain disruptions. By producing food locally within cities, these farms can provide fresh produce year-round, regardless of external climate conditions. This reliability could be the key to ensuring food security in an increasingly (b) ________ world.",
+      "passage_id": "t1_p4",
+      "hints": [
+        "Paragraph 2 discusses drawbacks (costs), and Paragraph 3 presents 'Despite these costs' arguments for why the method is still beneficial."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Paragraph Cohesion",
+      "question_text": "Which paragraph discusses the historical competition between the British and the Chinese for tea control?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 1"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 2"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "All paragraphs"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Paragraph 2 details the 'British East India Company' efforts to 'break the Chinese monopoly'.",
+      "passage": "Legend has it that tea was discovered by Emperor Shen Nong in 2737 BC when leaves from a wild tree accidentally blew into his pot of boiling water. From its ancient origins in China, tea spread to Japan through monks and eventually to Europe via Dutch traders in the 17th century. Today, it remains the most (a) ________ beverage in the world after water.\n\nThe global tea trade has had a profound impact on history, fueling both economic growth and colonial conflict. In the 18th century, the British East India Company established massive plantations in India to break the Chinese monopoly on tea production. This shift not only globalized tea consumption but also reshaped the demographics and economies of entire regions.\n\nIn modern times, the focus has shifted toward the health benefits and artisanal qualities of different tea varieties. From green tea's antioxidants to the complex fermentation of puerh, consumers are now willing to pay premiums for (b) ________. This 'specialty tea' movement mirrors the growth of the craft coffee industry, emphasizing ethics and origin transparency.",
+      "passage_id": "t1_p5",
+      "hints": [
+        "Paragraph 2 details the 'British East India Company' efforts to 'break the Chinese monopoly'."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 1 and paragraph 2?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 2 provides a specific legend to explain paragraph 1"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 2 transitions from the discovery/origins of tea to its later historical/economic impact"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 2 describes the health benefits mentioned in paragraph 3"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 2 contradicts the discovery of tea in paragraph 1"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 2 summarizes the fermentation process"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Paragraph 1 covers origins, and Paragraph 2 moves forward in time to discuss the trade and impact.",
+      "passage": "Legend has it that tea was discovered by Emperor Shen Nong in 2737 BC when leaves from a wild tree accidentally blew into his pot of boiling water. From its ancient origins in China, tea spread to Japan through monks and eventually to Europe via Dutch traders in the 17th century. Today, it remains the most (a) ________ beverage in the world after water.\n\nThe global tea trade has had a profound impact on history, fueling both economic growth and colonial conflict. In the 18th century, the British East India Company established massive plantations in India to break the Chinese monopoly on tea production. This shift not only globalized tea consumption but also reshaped the demographics and economies of entire regions.\n\nIn modern times, the focus has shifted toward the health benefits and artisanal qualities of different tea varieties. From green tea's antioxidants to the complex fermentation of puerh, consumers are now willing to pay premiums for (b) ________. This 'specialty tea' movement mirrors the growth of the craft coffee industry, emphasizing ethics and origin transparency.",
+      "passage_id": "t1_p5",
+      "hints": [
+        "Paragraph 1 covers origins, and Paragraph 2 moves forward in time to discuss the trade and impact."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Paragraph Cohesion",
+      "question_text": "The author discusses the potential and limitations of 'short-haul' flights specifically in paragraph...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "Both 2 and 3"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Paragraph 2 is specifically about 'Short-haul electric regional flights'.",
+      "passage": "Aviation contributes roughly 2% of global CO2 emissions, but decarbonizing the industry remains a daunting task. While electric cars are (a) ________ mainstream, electric planes face a massive physical hurdle: the energy density of batteries. Currently, jet fuel contains roughly 40 times more energy per kilogram than the most advanced lithium-ion batteries.\n\nShort-haul electric regional flights are becoming increasingly possible as battery weights decrease. Several companies are testing 9-seat aircraft for routes under 500 kilometers, aiming to replace noisy, carbon-intensive turboprops. These electric designs produce zero direct emissions and operate at significantly lower costs than traditional fuel-burning engines.\n\nHowever, for long-distance travel, electric power is currently unviable due to the massive weight of the batteries required. For a large passenger jet to fly across the ocean, the batteries alone (b) ________ as much as the entire plane. As a result, industry leaders are also exploring hydrogen fuel cells and sustainable aviation fuels as potential alternatives for the future.",
+      "passage_id": "t1_p6",
+      "hints": [
+        "Paragraph 2 is specifically about 'Short-haul electric regional flights'."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of short-haul planes from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the weight problems mentioned in paragraph 1 with more detail"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 describes a contrast between possible short-haul progress and current long-haul limitations"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the sustainability claims in paragraph 2"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the chemical composition of jet fuel"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 discusses what *is* becoming possible (short-haul), while Paragraph 3 contrasts it with what is *not* currently via (long-haul) and offers alternatives.",
+      "passage": "Aviation contributes roughly 2% of global CO2 emissions, but decarbonizing the industry remains a daunting task. While electric cars are (a) ________ mainstream, electric planes face a massive physical hurdle: the energy density of batteries. Currently, jet fuel contains roughly 40 times more energy per kilogram than the most advanced lithium-ion batteries.\n\nShort-haul electric regional flights are becoming increasingly possible as battery weights decrease. Several companies are testing 9-seat aircraft for routes under 500 kilometers, aiming to replace noisy, carbon-intensive turboprops. These electric designs produce zero direct emissions and operate at significantly lower costs than traditional fuel-burning engines.\n\nHowever, for long-distance travel, electric power is currently unviable due to the massive weight of the batteries required. For a large passenger jet to fly across the ocean, the batteries alone (b) ________ as much as the entire plane. As a result, industry leaders are also exploring hydrogen fuel cells and sustainable aviation fuels as potential alternatives for the future.",
+      "passage_id": "t1_p6",
+      "hints": [
+        "Paragraph 2 discusses what *is* becoming possible (short-haul), while Paragraph 3 contrasts it with what is *not* currently via (long-haul) and offers alternatives."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence is irrelevant to the discussion of 'Zero Trust' architecture in paragraph 2?",
+      "options": [
+        {
+          "letter": "A",
           "text": "Sentence 1"
         },
         {
-          "letter": "E",
-          "text": "Sentence 3"
-        }
-      ],
-      "correct_answer": "E",
-      "explanation": "All sentences except #3 relate to **benefits of reading**. Sentence 3 about library closing hours is a completely off-topic detail → **Sentence 3** should be removed.",
-      "hints": [
-        "Find the sentence that doesn't relate to 'benefits of reading'.",
-        "Library closing hours have nothing to do with benefits.",
-        "Sentence 3."
-      ]
-    },
-    {
-      "id": "pcs_easy_6",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "easy",
-      "question_text": "Choose the connector: 'He trained for six months. _____, he won the competition.'",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Although"
-        },
-        {
           "letter": "B",
-          "text": "Nevertheless"
-        },
-        {
-          "letter": "C",
-          "text": "On the other hand"
-        },
-        {
-          "letter": "D",
-          "text": "As a result"
-        },
-        {
-          "letter": "E",
-          "text": "In contrast"
-        }
-      ],
-      "correct_answer": "D",
-      "explanation": "Training → winning = cause → effect. **As a result** shows the effect of the training → ✓.",
-      "hints": [
-        "Training caused him to win — cause → effect relationship.",
-        "As a result = showing effect/consequence.",
-        "Answer: As a result."
-      ]
-    },
-    {
-      "id": "pcs_easy_7",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "easy",
-      "question_text": "The word 'this' in sentence 2 of a paragraph refers to:",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Something that will be mentioned later"
-        },
-        {
-          "letter": "B",
-          "text": "Something mentioned in the previous sentence"
-        },
-        {
-          "letter": "C",
-          "text": "An unknown concept"
-        },
-        {
-          "letter": "D",
-          "text": "A new idea being introduced"
-        },
-        {
-          "letter": "E",
-          "text": "The author's personal opinion"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "Pronouns like 'this', 'it', 'they', 'these' are **anaphoric** — they refer back to something already mentioned (antecedent). Sentence 2's 'this' refers to something in Sentence 1.",
-      "hints": [
-        "'This' is a demonstrative pronoun used to refer back to something.",
-        "Anaphoric reference = pointing back to a previously mentioned idea.",
-        "Answer: something mentioned in the previous sentence."
-      ]
-    },
-    {
-      "id": "pcs_easy_8",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "easy",
-      "question_text": "'He studied all night. _____, he passed the exam.' Which is MOST logical?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "However"
-        },
-        {
-          "letter": "B",
-          "text": "Consequently"
-        },
-        {
-          "letter": "C",
-          "text": "Despite this"
-        },
-        {
-          "letter": "D",
-          "text": "In contrast"
-        },
-        {
-          "letter": "E",
-          "text": "On the other hand"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "Studying → passing exam = cause → expected positive result. **Consequently** ✓.\n\n(Note: 'However' would work if the result was unexpected — he studied but FAILED. Since he passed, it's a natural consequence.)",
-      "hints": [
-        "Studying all night logically leads to passing — what kind of relationship?",
-        "Cause → effect = consequently/as a result.",
-        "Consequently."
-      ]
-    },
-    {
-      "id": "pcs_medium_1",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "medium",
-      "question_text": "Which sentence best completes the paragraph? 'The rise of electric vehicles promises a cleaner future. Battery technology has improved dramatically over the past decade. Charging infrastructure is rapidly expanding across major cities. _____.'",
-      "options": [
-        {
-          "letter": "A",
-          "text": "These developments suggest that electric vehicles may soon become the mainstream mode of transport."
-        },
-        {
-          "letter": "B",
-          "text": "However, some consumers still prefer SUVs over sedans."
-        },
-        {
-          "letter": "C",
-          "text": "Gasoline prices have fluctuated significantly this year."
-        },
-        {
-          "letter": "D",
-          "text": "The first car was invented in the late 19th century."
-        },
-        {
-          "letter": "E",
-          "text": "Solar panels can also reduce household energy costs."
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "The paragraph describes multiple positive trends for EVs (battery, infrastructure). The concluding sentence should synthesize these points and state the main implication → **B: 'These developments suggest EVs may become mainstream'** ✓.",
-      "hints": [
-        "The paragraph ends — what kind of sentence usually closes a paragraph?",
-        "'These developments' refers to all points mentioned before.",
-        "A concluding sentence synthesizes the supporting details."
-      ]
-    },
-    {
-      "id": "pcs_medium_2",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "medium",
-      "question_text": "Paragraph: '(1) Air pollution poses serious health risks. (2) It can lead to respiratory diseases, cardiovascular complications, and premature death. (3) Children and the elderly are particularly vulnerable to its effects. (4) _____ (5) Governments must therefore implement stricter emission controls.'\n\nWhich sentence best fills blank (4)?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "However, outdoor activities are still popular in most cities."
-        },
-        {
-          "letter": "B",
-          "text": "For instance, particulate matter from vehicle emissions penetrates deep into lung tissue."
-        },
-        {
-          "letter": "C",
-          "text": "The invention of the automobile transformed urban planning."
-        },
-        {
-          "letter": "D",
-          "text": "On the other hand, indoor air quality has improved."
-        },
-        {
-          "letter": "E",
-          "text": "Nevertheless, many people continue to drive gasoline cars."
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "Sentences 2&3 describe health effects generally. Sentence 5 calls for policy action. Sentence 4 should provide a **specific example supporting the health risks** before the conclusion. **A provides a specific example** of how pollution harms health ✓.",
-      "hints": [
-        "What's between general-effects (S2,S3) and the conclusion (S5)?",
-        "A specific example (for instance) supports the general claims.",
-        "Option A: 'For instance...' provides a specific supporting example."
-      ]
-    },
-    {
-      "id": "pcs_medium_3",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "medium",
-      "question_text": "Which transition correctly completes: 'Online education offers flexibility and cost savings; _____, critics argue it lacks the engagement and social interaction of traditional classrooms.'",
-      "options": [
-        {
-          "letter": "A",
-          "text": "similarly"
-        },
-        {
-          "letter": "B",
-          "text": "consequently"
-        },
-        {
-          "letter": "C",
-          "text": "nevertheless"
-        },
-        {
-          "letter": "D",
-          "text": "therefore"
-        },
-        {
-          "letter": "E",
-          "text": "furthermore"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "The first clause describes advantages. After the semicolon, the sentence switches to critics' objections — a contrast. **Nevertheless** (= despite this) introduces the opposing point ✓.",
-      "hints": [
-        "First part: benefits. Second part: critics' objections = opposite direction.",
-        "A contrast connector is needed after the semicolon.",
-        "Nevertheless = despite those benefits, critics argue..."
-      ]
-    },
-    {
-      "id": "pcs_medium_4",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "medium",
-      "question_text": "Which ordering is most logical? \nA. Studies have confirmed its health benefits. \nB. For centuries, green tea has been popular in Asian cultures. \nC. It contains antioxidants that protect cells from damage. \nD. Furthermore, regular consumption is linked to reduced risk of heart disease. \nE. As a result, green tea is increasingly recommended by nutritionists worldwide.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "B → A → C → D → E"
-        },
-        {
-          "letter": "B",
-          "text": "B → C → A → D → E"
-        },
-        {
-          "letter": "C",
-          "text": "A → B → C → D → E"
-        },
-        {
-          "letter": "D",
-          "text": "E → D → C → A → B"
-        },
-        {
-          "letter": "E",
-          "text": "C → B → A → E → D"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "Logical flow:\nB: introduce topic (history/context) → A: studies confirm benefits (general) → C: specific benefit (antioxidants) → D: additional benefit (heart disease) using 'furthermore' → E: conclusion using 'as a result'.\nOrder: **B → A → C → D → E** ✓",
-      "hints": [
-        "Start with background/introduction (B: centuries of history).",
-        "'Furthermore' (D) adds to antioxidant point (C).",
-        "'As a result' (E) concludes from all the evidence."
-      ]
-    },
-    {
-      "id": "pcs_medium_5",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "medium",
-      "question_text": "Choose the MOST appropriate concluding sentence for: 'Social media has revolutionized communication by enabling real-time information sharing globally. It has also empowered marginalized communities to amplify their voices. Despite these benefits, concerns about privacy and mental health continue to grow.'",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Mark Zuckerberg founded Facebook in 2004."
-        },
-        {
-          "letter": "B",
-          "text": "Therefore, social media should be banned immediately."
-        },
-        {
-          "letter": "C",
-          "text": "Balanced regulation may be necessary to preserve social media's benefits while mitigating its harms."
-        },
-        {
-          "letter": "D",
-          "text": "Social media platforms earn billions in annual revenue."
-        },
-        {
-          "letter": "E",
-          "text": "Many people use social media for entertainment purposes."
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "The paragraph presents both benefits and concerns of social media. A balanced conclusion should **address both aspects** and suggest a reasonable path forward. **B: 'Balanced regulation...'** directly synthesizes both sides ✓.\n\nE is too extreme. A, C, D don't address the paragraph's content.",
-      "hints": [
-        "The paragraph covers benefits AND concerns — a good conclusion addresses both.",
-        "A concluding sentence should synthesize, not introduce new info.",
-        "Balanced regulation addresses both the benefits and the harms."
-      ]
-    },
-    {
-      "id": "pcs_medium_6",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "medium",
-      "question_text": "Identify the transition error: 'The company's sales dropped by 30%. Furthermore, it decided to expand its marketing budget to address the decline.'",
-      "options": [
-        {
-          "letter": "A",
-          "text": "The sentence needs 'However' to show contrast."
-        },
-        {
-          "letter": "B",
-          "text": "'Furthermore' is correct because it adds information."
-        },
-        {
-          "letter": "C",
-          "text": "'Furthermore' should be 'Therefore' — the decision is a RESULT of the drop, not an addition."
-        },
-        {
-          "letter": "D",
-          "text": "No error — the paragraph is logically sound."
-        },
-        {
-          "letter": "E",
-          "text": "'Consequently' should replace 'marketing budget'."
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "'Furthermore' adds more similar information. But here, the second sentence is a **response/effect** of the first (sales dropped → they expanded marketing). The correct connector is **Therefore** (cause-effect). 'Furthermore' implies both are similar additions — they're not.",
-      "hints": [
-        "Does sentence 2 ADD to sentence 1, or is it a RESULT of sentence 1?",
-        "Sales drop → expand marketing = cause → response/result.",
-        "Therefore is the correct connector. Furthermore is wrong here."
-      ]
-    },
-    {
-      "id": "pcs_medium_7",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "medium",
-      "question_text": "A paragraph about climate change contains this sentence: 'My brother-in-law drives a red pickup truck.' This sentence is problematic because:",
-      "options": [
-        {
-          "letter": "A",
-          "text": "It is irrelevant to the topic and disrupts cohesion"
-        },
-        {
-          "letter": "B",
-          "text": "It is too specific to be included"
-        },
-        {
-          "letter": "C",
-          "text": "It should be the topic sentence"
-        },
-        {
-          "letter": "D",
-          "text": "It uses first-person perspective"
-        },
-        {
-          "letter": "E",
-          "text": "It introduces a counter-argument"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "The sentence has no connection to climate change — it's a personal detail about an unrelated topic. It **violates unity** (one main idea per paragraph) and disrupts coherence. → **Irrelevant and disrupts cohesion** ✓.",
-      "hints": [
-        "Is a red pickup truck relevant to a climate change paragraph?",
-        "A paragraph must have unity — one main idea.",
-        "The sentence is completely off-topic."
-      ]
-    },
-    {
-      "id": "pcs_medium_8",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "medium",
-      "question_text": "Which connector correctly links these ideas: 'The research was conducted over several years. _____, the sample size remained small.'",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Moreover"
-        },
-        {
-          "letter": "B",
-          "text": "For instance"
-        },
-        {
-          "letter": "C",
-          "text": "As a result"
-        },
-        {
-          "letter": "D",
-          "text": "Nevertheless"
-        },
-        {
-          "letter": "E",
-          "text": "Subsequently"
-        }
-      ],
-      "correct_answer": "D",
-      "explanation": "'Conducted over several years' = significant effort/time. 'Sample size remained small' = a limitation. Despite the long duration, the sample was small — this is a contrast/concession. → **Nevertheless** ✓.",
-      "hints": [
-        "Long research time vs. small sample = contrast.",
-        "Despite X (years of research), Y (small sample) = concession/contrast.",
-        "Nevertheless = despite this."
-      ]
-    },
-    {
-      "id": "pcs_hard_1",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "hard",
-      "question_text": "Paragraph: '(1) The debate over nuclear energy is intensifying. (2) _____ (3) Opponents cite the risk of accidents and unresolved nuclear waste disposal. (4) Proponents, however, emphasize its low carbon emissions and high energy density. (5) A comprehensive energy policy must weigh these competing concerns.'\n\nWhich sentence BEST fills blank (2)?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Nuclear energy was first used during World War II."
-        },
-        {
-          "letter": "B",
-          "text": "While some see it as a vital low-carbon energy source, others view it as an unacceptable risk."
-        },
-        {
-          "letter": "C",
-          "text": "Coal remains the most widely used energy source globally."
-        },
-        {
-          "letter": "D",
-          "text": "Furthermore, renewable energy is growing rapidly."
-        },
-        {
-          "letter": "E",
-          "text": "Some countries, such as Germany, have chosen to phase it out entirely."
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "Sentence 2 must bridge 'The debate is intensifying' (S1) and 'Opponents cite... Proponents emphasize...' (S3, S4). It should SET UP the two-sided debate. **C: 'While some see it as vital, others view it as a risk'** introduces both sides and logically connects S1 to S3/S4 ✓.",
-      "hints": [
-        "S1=debate is intensifying. S3=opponents' view. S4=proponents' view.",
-        "S2 should introduce BOTH sides before S3 and S4 detail them.",
-        "C sets up the two-sided debate structure."
-      ]
-    },
-    {
-      "id": "pcs_hard_2",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "hard",
-      "question_text": "Which of the following improvements would MOST strengthen the coherence of this paragraph? 'Digital literacy is increasingly important. Schools should teach it. Students need to know how to use computers. The internet is widely used.'",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Add transition words connecting the sentences logically"
-        },
-        {
-          "letter": "B",
-          "text": "Move the last sentence to the beginning"
-        },
-        {
-          "letter": "C",
-          "text": "Add more factual statistics about internet usage"
-        },
-        {
-          "letter": "D",
-          "text": "Replace 'computers' with 'laptops'"
-        },
-        {
-          "letter": "E",
-          "text": "Remove sentence 3 about computers"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "The paragraph has relevant content but no connective tissue — sentences are abruptly juxtaposed. Adding transitions (therefore, for example, moreover) would logically link the ideas and create coherence ✓.",
-      "hints": [
-        "The ideas are related but abruptly placed. What links sentences together?",
-        "Coherence = sentences flow logically into each other.",
-        "Adding transition words is the most direct fix."
-      ]
-    },
-    {
-      "id": "pcs_hard_3",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "hard",
-      "question_text": "Identify which TWO transitions can be combined in this blank: 'The product initially failed to attract consumers. _____, after an aggressive rebranding campaign, sales improved significantly.'\n\nWhich options BOTH work?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Furthermore and Moreover"
-        },
-        {
-          "letter": "B",
-          "text": "However and Nevertheless"
-        },
-        {
-          "letter": "C",
-          "text": "For example and For instance"
-        },
-        {
-          "letter": "D",
-          "text": "Similarly and Likewise"
-        },
-        {
-          "letter": "E",
-          "text": "Therefore and Consequently"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "Initial failure → after rebranding → improved = unexpected positive result AFTER initial failure. Both **However** (contrast) and **Nevertheless** (concession) work here to signal the unexpected turnaround.\n\n'However / Nevertheless,...after rebranding, sales improved.' Both correctly signal reversal ✓.",
-      "hints": [
-        "Initial failure then success = a reversal/unexpected result.",
-        "Which connectors signal reversal or contrast?",
-        "However and Nevertheless both signal contrast/concession."
-      ]
-    },
-    {
-      "id": "pcs_hard_4",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "hard",
-      "question_text": "Analyze the following and choose the answer that correctly describes the paragraph's structure:\n\n'Microplastics have been detected in virtually every ecosystem on Earth. They originate from the breakdown of larger plastic products and from microbeads in cosmetics. These particles are consumed by marine organisms, entering the food chain. Scientists are increasingly concerned about the implications for human health.'\n",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Problem → Causes → Effect → Concern/implication"
-        },
-        {
-          "letter": "B",
-          "text": "History → Present state → Prediction → Warning"
-        },
-        {
-          "letter": "C",
-          "text": "Claim → Counter-claim → Evidence → Conclusion"
-        },
-        {
-          "letter": "D",
-          "text": "Definition → Example → Analysis → Conclusion"
-        },
-        {
-          "letter": "E",
-          "text": "Cause → Problem → Solution → Recommendation"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "S1: Problem (microplastics everywhere)\nS2: Causes (plastic breakdown + microbeads)\nS3: Effect (consumed by organisms, enter food chain)\nS4: Concern/implication (health concerns)\n\nStructure: **Problem → Causes → Effect → Concern** ✓",
-      "hints": [
-        "Map each sentence: what role does it play?",
-        "S1=problem, S2=causes, S3=effect, S4=implication.",
-        "Problem → Causes → Effect → Concern/Implication."
-      ]
-    },
-    {
-      "id": "pcs_hard_5",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "hard",
-      "question_text": "An academic paragraph begins with 'Contrary to popular belief...' This signals that the paragraph will:",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Summarize a well-accepted scientific fact"
-        },
-        {
-          "letter": "B",
-          "text": "First state a common misconception, then correct it with evidence"
-        },
-        {
-          "letter": "C",
-          "text": "Begin with a definition before offering examples"
-        },
-        {
-          "letter": "D",
-          "text": "Provide historical background before modern analysis"
-        },
-        {
-          "letter": "E",
-          "text": "Present two equally valid competing theories"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "'Contrary to popular belief' = a rhetorical device signaling that what follows challenges a commonly held assumption. The paragraph will: (1) acknowledge the popular belief, (2) present evidence contradicting it, (3) conclude with the corrected understanding → **A** ✓.",
-      "hints": [
-        "'Contrary to popular belief' = what most people think is WRONG.",
-        "The paragraph will set up a misconception and then correct it.",
-        "Answer: state a misconception, then correct it with evidence."
-      ]
-    },
-    {
-      "id": "pcs_hard_6",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "hard",
-      "question_text": "Which sentence BEST replaces the underlined one to improve cohesion? \n\nParagraph: 'Renewable energy adoption is accelerating. Solar panel efficiency has tripled since 2000. Wind energy capacity has grown exponentially in coastal regions. [**Many people enjoy outdoor activities in these regions.**] These technological gains have made renewables increasingly cost-competitive with fossil fuels.'",
-      "options": [
-        {
-          "letter": "A",
-          "text": "However, some regions still rely heavily on coal."
-        },
-        {
-          "letter": "B",
-          "text": "In addition, solar energy is popular in tropical countries."
-        },
-        {
-          "letter": "C",
-          "text": "Meanwhile, battery storage technology has made intermittent energy sources more reliable."
-        },
-        {
-          "letter": "D",
-          "text": "Renewable energy companies are headquartered in major cities."
-        },
-        {
-          "letter": "E",
-          "text": "Furthermore, wind turbines are now taller than ever before."
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "The bracketed sentence (about outdoor activities) is irrelevant. The paragraph discusses renewable energy technology improvements. The replacement should maintain that focus. **A: 'battery storage technology has made intermittent sources more reliable'** adds another relevant technological advancement ✓.",
-      "hints": [
-        "The underlined sentence is off-topic. Replace with something relevant.",
-        "The paragraph lists technology improvements.",
-        "Battery storage is another renewable energy technology development — fits perfectly."
-      ]
-    },
-    {
-      "id": "pcs_hard_7",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "hard",
-      "question_text": "In an argumentative essay, a 'concession-refutation' structure means:",
-      "options": [
-        {
-          "letter": "A",
-          "text": "The author gives examples before stating the main claim"
-        },
-        {
-          "letter": "B",
-          "text": "The author acknowledges a point against their argument but then refutes it"
-        },
-        {
-          "letter": "C",
-          "text": "The author uses only statistics to support their argument"
-        },
-        {
-          "letter": "D",
-          "text": "The author concedes defeat at the end of the essay"
-        },
-        {
-          "letter": "E",
-          "text": "The author agrees with the opposing view and abandons their argument"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "Concession-refutation = first acknowledge that the opposing side has a valid point ('Admittedly, X is true...'), then respond with a stronger counter-point ('However, this does not account for...'). This structure strengthens the argument by showing the author knows the other side but has a better response ✓.",
-      "hints": [
-        "Concession = admitting something is true. Refutation = proving it doesn't undermine your argument.",
-        "Pattern: 'Admittedly X... However Y is stronger.'",
-        "Answer: acknowledge opposing point, then refute it."
-      ]
-    },
-    {
-      "id": "para_extra_24",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "easy",
-      "question_text": "Choose the connector: 'He trained for six months. _____, he won the competition.' (Variant 24)",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Although"
-        },
-        {
-          "letter": "B",
-          "text": "In contrast"
-        },
-        {
-          "letter": "C",
-          "text": "As a result"
-        },
-        {
-          "letter": "D",
-          "text": "On the other hand"
-        },
-        {
-          "letter": "E",
-          "text": "Nevertheless"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "Training → winning = cause → effect. **As a result** shows the effect of the training → ✓.",
-      "hints": [
-        "Training caused him to win — cause → effect relationship.",
-        "As a result = showing effect/consequence.",
-        "Answer: As a result."
-      ]
-    },
-    {
-      "id": "para_extra_25",
-      "subject": "English",
-      "topic": "Paragraph Cohesion and Structure",
-      "difficulty": "medium",
-      "question_text": "Which sentence does NOT belong in a paragraph about the benefits of reading?\n5. Reading improves vocabulary.\n5. It enhances critical thinking.\n8. The library will close early on Sundays.\n5. Regular reading reduces stress.\n6. It also broadens one's world view. (Variant 25)",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Sentence 3"
-        },
-        {
-          "letter": "B",
-          "text": "Sentence 4"
-        },
-        {
-          "letter": "C",
-          "text": "Sentence 5"
-        },
-        {
-          "letter": "D",
           "text": "Sentence 2"
         },
         {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "All are relevant"
+        },
+        {
           "letter": "E",
+          "text": "Sentence 1 and 3"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about hackers' working hours is a generic speculation unrelated to the technical 'Zero Trust' architecture.",
+      "passage": "In the digital age, cybersecurity is no longer an optional investment for businesses. Hackers use increasingly sophisticated phishing emails and ransomware to (a) ________ sensitive corporate data. Training employees to recognize suspicious links and multi-factor authentication (MFA) are now considered the first line of defense in modern IT strategy.\n\nCompanies are also shifting toward a 'Zero Trust' architecture, where no user or device is trusted by default, regardless of their location on the network. This approach requires continuous verification through every stage of digital interaction. (1) It prevents a single compromised account from granting access to the entire server. (2) Most hackers prefer working at night. (3) This strategy has significantly reduced the scale of large data breaches.\n\nDespite these internal measures, the rise of the 'Internet of Things' (IoT) has expanded the (b) ________ area for potential attacks. Thousands of unsecured smart devices, from office cameras to industrial sensors, provide fresh entry points for malicious actors. A single overlooked vulnerability can cost a company millions in damages and lost reputation.",
+      "passage_id": "t1_p7",
+      "hints": [
+        "Sentence 2 about hackers' working hours is a generic speculation unrelated to the technical 'Zero Trust' architecture."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of 'Zero Trust' devices from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the causes of phishing mentioned in paragraph 1"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 introduces a new set of external risks that exist despite the internal defenses in paragraph 2"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the effectiveness of cybersecurity training"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the costs of data breaches"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 discusses internal 'Zero Trust' architecture, while Paragraph 3 notes that 'Despite these internal measures', external risks like IoT are expanding the attack surface.",
+      "passage": "In the digital age, cybersecurity is no longer an optional investment for businesses. Hackers use increasingly sophisticated phishing emails and ransomware to (a) ________ sensitive corporate data. Training employees to recognize suspicious links and multi-factor authentication (MFA) are now considered the first line of defense in modern IT strategy.\n\nCompanies are also shifting toward a 'Zero Trust' architecture, where no user or device is trusted by default, regardless of their location on the network. This approach requires continuous verification through every stage of digital interaction. (1) It prevents a single compromised account from granting access to the entire server. (2) Most hackers prefer working at night. (3) This strategy has significantly reduced the scale of large data breaches.\n\nDespite these internal measures, the rise of the 'Internet of Things' (IoT) has expanded the (b) ________ area for potential attacks. Thousands of unsecured smart devices, from office cameras to industrial sensors, provide fresh entry points for malicious actors. A single overlooked vulnerability can cost a company millions in damages and lost reputation.",
+      "passage_id": "t1_p7",
+      "hints": [
+        "Paragraph 2 discusses internal 'Zero Trust' architecture, while Paragraph 3 notes that 'Despite these internal measures', external risks like IoT are expanding the attack surface."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Paragraph Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the topic of environmental regulation?",
+      "options": [
+        {
+          "letter": "A",
           "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "Sentence 1 and 3"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about glass bottles is unrelated to the regulation of microplastics.",
+      "passage": "Microplastics have been found in the deepest parts of the ocean and at the top of Mt. Everest. These tiny particles, defined as being less than 5mm in length, come from the breakdown of larger plastics or are (a) ________ in cosmetic products. They enter the food chain when small organisms ingest them, eventually reaching humans who consume seafood.\n\nRecent research indicates that microplastics can also be transported through the air, settling in remote areas far from urban centers. This airborne transmission means that inhalation is now considered a significant secondary path of human exposure. The presence of these particles in agricultural soil also raises concerns about potential contamination of ground-grown crops and livestock feed.\n\nTo address this, some governments are banning the production of microbeads and implementing stricter filtration requirements for wastewater treatment plants. (1) These facilities can capture up to 99% of plastic fragments before they enter rivers. (2) Most people enjoy drinking from glass bottles. (3) However, the lack of standardized global testing methods makes it difficult to track the overall effectiveness of these local policies.",
+      "passage_id": "t2_p1",
+      "hints": [
+        "Sentence 2 about glass bottles is unrelated to the regulation of microplastics."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of airborne microplastics from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the causes of the pollution discussed in paragraph 2"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 describes a policy-based reaction to the multi-level contamination risks described in paragraph 2"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the existence of agricultural microplastics"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the chemical structure of plastic"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 covers new risks (air, soil), and Paragraph 3 covers 'addressing this' via policy and technology.",
+      "passage": "Microplastics have been found in the deepest parts of the ocean and at the top of Mt. Everest. These tiny particles, defined as being less than 5mm in length, come from the breakdown of larger plastics or are (a) ________ in cosmetic products. They enter the food chain when small organisms ingest them, eventually reaching humans who consume seafood.\n\nRecent research indicates that microplastics can also be transported through the air, settling in remote areas far from urban centers. This airborne transmission means that inhalation is now considered a significant secondary path of human exposure. The presence of these particles in agricultural soil also raises concerns about potential contamination of ground-grown crops and livestock feed.\n\nTo address this, some governments are banning the production of microbeads and implementing stricter filtration requirements for wastewater treatment plants. (1) These facilities can capture up to 99% of plastic fragments before they enter rivers. (2) Most people enjoy drinking from glass bottles. (3) However, the lack of standardized global testing methods makes it difficult to track the overall effectiveness of these local policies.",
+      "passage_id": "t2_p1",
+      "hints": [
+        "Paragraph 2 covers new risks (air, soil), and Paragraph 3 covers 'addressing this' via policy and technology."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Paragraph Cohesion",
+      "question_text": "The author discusses the influence of the Medici family in paragraph...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "All of them"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Paragraph 2 specifically mentions the Medici family and their patronage.",
+      "passage": "The Renaissance was a period of 'rebirth' in European culture, moving away from medieval styles toward realism. Artists such as Leonardo da Vinci (a) ________ techniques like chiaroscuro to create the illusion of three-dimensional depth. This era emphasized humanism, focusing on human potential and achievements rather than purely religious subjects.\n\nThe shift was supported by the wealth of powerful patrons, such as the Medici family in Florence, who funded the construction of massive cathedrals and private galleries. This patronage allowed artists to spend decades perfecting anatomical accuracy through the study of dissected cadavers. As a result, the art of this period reached levels of accuracy that were previously unknown in Western history.\n\nDespite its focus on realism, Renaissance art often retained deep allegorical meanings. Symbols were frequently hidden within landscapes and portraits to convey complex philosophical or political messages to the viewer. This layer of depth ensured that the works remained (b) ________ for centuries, serving as both aesthetic masterworks and intellectual puzzles.",
+      "passage_id": "t2_p2",
+      "hints": [
+        "Paragraph 2 specifically mentions the Medici family and their patronage."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of anatomical realism mentioned in paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the causes of the realism movement in paragraph 1"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 introduces an intellectual dimension that complements the physical realism discussed in paragraph 2"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the influence of the Medici family"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the medieval tradition"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 describes physical/anatomical realism, and Paragraph 3 introduces the 'symbolic/allegorical layer' that existed alongside it.",
+      "passage": "The Renaissance was a period of 'rebirth' in European culture, moving away from medieval styles toward realism. Artists such as Leonardo da Vinci (a) ________ techniques like chiaroscuro to create the illusion of three-dimensional depth. This era emphasized humanism, focusing on human potential and achievements rather than purely religious subjects.\n\nThe shift was supported by the wealth of powerful patrons, such as the Medici family in Florence, who funded the construction of massive cathedrals and private galleries. This patronage allowed artists to spend decades perfecting anatomical accuracy through the study of dissected cadavers. As a result, the art of this period reached levels of accuracy that were previously unknown in Western history.\n\nDespite its focus on realism, Renaissance art often retained deep allegorical meanings. Symbols were frequently hidden within landscapes and portraits to convey complex philosophical or political messages to the viewer. This layer of depth ensured that the works remained (b) ________ for centuries, serving as both aesthetic masterworks and intellectual puzzles.",
+      "passage_id": "t2_p2",
+      "hints": [
+        "Paragraph 2 describes physical/anatomical realism, and Paragraph 3 introduces the 'symbolic/allegorical layer' that existed alongside it."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the discussion of threats and conservation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "All are relevant"
+        },
+        {
+          "letter": "E",
+          "text": "None are relevant"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about tourism is unrelated to the biological threats or the specific conservation efforts for the electric eel.",
+      "passage": "The electric eel is not actually a true eel, but a specialized type of knifefish. It can (a) ________ massive electrical shocks of up to 600 volts to stun its prey or deter potential predators in the murky waters of the Amazon. These shocks come from thousands of specialized cells called electroocytes, which act like tiny organic batteries.\n\nScientists are currently studying the molecular mechanisms of these cells to develop better bio-inspired batteries for medical implants. By understanding how the eel manages to store and release such large amounts of energy without harming itself, researchers hope to create more efficient power sources for pacemakers and tiny sensors. This research represents a bridge between evolutionary biology and advanced materials science.\n\nHowever, the electric eel's habitat is increasingly threatened by hydroelectric dams and pollution. Changes in water conductivity and physical barriers can disrupt their ability to hunt and navigate effectively. (1) This decline in population could have cascading effects on the Amazonian food web. (2) Many tourists enjoy boat tours in South America. (3) Conservation efforts are now focused on protecting critical river corridors to ensure the species' survival.",
+      "passage_id": "t2_p3",
+      "hints": [
+        "Sentence 2 about tourism is unrelated to the biological threats or the specific conservation efforts for the electric eel."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of medical implants mentioned in paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the causes of the eel's high voltage"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 transitions from the scientific benefits of the species to the environmental threats that jeopardize those benefits"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the effectiveness of eel batteries"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the chemical structure of electroocytes"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 describes how we benefit from studying eels ('bio-inspired batteries'), and Paragraph 3 warns about the 'threats' ('dams, pollution') facing them.",
+      "passage": "The electric eel is not actually a true eel, but a specialized type of knifefish. It can (a) ________ massive electrical shocks of up to 600 volts to stun its prey or deter potential predators in the murky waters of the Amazon. These shocks come from thousands of specialized cells called electroocytes, which act like tiny organic batteries.\n\nScientists are currently studying the molecular mechanisms of these cells to develop better bio-inspired batteries for medical implants. By understanding how the eel manages to store and release such large amounts of energy without harming itself, researchers hope to create more efficient power sources for pacemakers and tiny sensors. This research represents a bridge between evolutionary biology and advanced materials science.\n\nHowever, the electric eel's habitat is increasingly threatened by hydroelectric dams and pollution. Changes in water conductivity and physical barriers can disrupt their ability to hunt and navigate effectively. (1) This decline in population could have cascading effects on the Amazonian food web. (2) Many tourists enjoy boat tours in South America. (3) Conservation efforts are now focused on protecting critical river corridors to ensure the species' survival.",
+      "passage_id": "t2_p3",
+      "hints": [
+        "Paragraph 2 describes how we benefit from studying eels ('bio-inspired batteries'), and Paragraph 3 warns about the 'threats' ('dams, pollution') facing them."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Paragraph Cohesion",
+      "question_text": "In which paragraph does the author discuss the use of modern technology in archaeology?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 1"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 2"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "All paragraphs"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Paragraph 2 discusses 'laser scanning and DNA analysis'.",
+      "passage": "The eruption of Mt. Vesuvius in 79 AD buried the thriving Roman city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a specific moment in history for future archaeologists to discover. Unlike other ruins that decayed slowly over time, Pompeii offers a complete snapshot of daily Roman life, from public baths to residential mosaics.\n\nToday, excavations at the site continue to reveal new details about Roman engineering and social hierarchies. Archaeologists have used advanced laser scanning and DNA analysis of victims to reconstruct family structures and health patterns. These modern technologies have provided a deeper understanding of the socio-economic disparities that existed within the city before the disaster.\n\nHowever, the site now faces a modern crisis: 'over-tourism' and natural erosion. Millions of visitors each year contribute to the wear and tear of delicate frescoes, while rain and sunlight degrade exposed stonework. (1) Preserving the site requires a careful balance between public access and aggressive conservation. (2) Pizza was originally invented in Naples. (3) Italy is now investing heavily in digital archives to preserve the city's data if the physical site continues to deteriorate.",
+      "passage_id": "t2_p4",
+      "hints": [
+        "Paragraph 2 discusses 'laser scanning and DNA analysis'."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of DNA results from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the causes of the eruption mentioned in paragraph 1"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 describes the modern challenges that threaten the historical site discussed in paragraph 2"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the importance of Roman engineering"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the history of pizza"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 describes 'modern discoveries', and Paragraph 3 describes 'modern crises' (tourism, erosion) that threaten those discoveries.",
+      "passage": "The eruption of Mt. Vesuvius in 79 AD buried the thriving Roman city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a specific moment in history for future archaeologists to discover. Unlike other ruins that decayed slowly over time, Pompeii offers a complete snapshot of daily Roman life, from public baths to residential mosaics.\n\nToday, excavations at the site continue to reveal new details about Roman engineering and social hierarchies. Archaeologists have used advanced laser scanning and DNA analysis of victims to reconstruct family structures and health patterns. These modern technologies have provided a deeper understanding of the socio-economic disparities that existed within the city before the disaster.\n\nHowever, the site now faces a modern crisis: 'over-tourism' and natural erosion. Millions of visitors each year contribute to the wear and tear of delicate frescoes, while rain and sunlight degrade exposed stonework. (1) Preserving the site requires a careful balance between public access and aggressive conservation. (2) Pizza was originally invented in Naples. (3) Italy is now investing heavily in digital archives to preserve the city's data if the physical site continues to deteriorate.",
+      "passage_id": "t2_p4",
+      "hints": [
+        "Paragraph 2 describes 'modern discoveries', and Paragraph 3 describes 'modern crises' (tourism, erosion) that threaten those discoveries."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Paragraph Cohesion",
+      "question_text": "The author discusses the 'black box' and transparency issues in paragraph...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "1 and 3"
+        },
+        {
+          "letter": "E",
+          "text": "None"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Paragraph 2 specifically addresses the 'black box' problem and the lack of transparency.",
+      "passage": "Machine learning is a subset of AI where computers learn from data (a) ________ being explicitly programmed for every possible scenario. By identifying patterns in massive datasets, these systems can name objects in photos, translate languages, or even predict medical outcomes. This capability has revolutionized industries from finance to healthcare in a remarkably short time.\n\nWhile AI offers immense efficiency and speed, it also introduces the 'black box' problem—we don't always understand exactly *why* a complex algorithm reached a specific decision. This lack of transparency is particularly concerning in high-stakes areas like legal sentencing or mortgage approvals. For AI to be trusted, developers must find ways to make its decision-making (b) ________ to human oversight.\n\nFurthermore, the environmental cost of training massive AI models is becoming a significant topic of debate. The data centers required to process billions of operations consume astronomical amounts of electricity and water for cooling. As AI continues to expand, the tech industry faces growing pressure to develop more energy-efficient hardware to minimize its carbon footprint.",
+      "passage_id": "t2_p5",
+      "hints": [
+        "Paragraph 2 specifically addresses the 'black box' problem and the lack of transparency."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of mortgage approvals from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the causes of the 'black box' problem"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 introduces a different type of concern (environmental) that exists alongside the ethical concerns in paragraph 2"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the efficiency mentioned in paragraph 1"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the future of finance"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 covers 'algorithmic/ethical concerns', and Paragraph 3 moves to 'environmental concerns'.",
+      "passage": "Machine learning is a subset of AI where computers learn from data (a) ________ being explicitly programmed for every possible scenario. By identifying patterns in massive datasets, these systems can name objects in photos, translate languages, or even predict medical outcomes. This capability has revolutionized industries from finance to healthcare in a remarkably short time.\n\nWhile AI offers immense efficiency and speed, it also introduces the 'black box' problem—we don't always understand exactly *why* a complex algorithm reached a specific decision. This lack of transparency is particularly concerning in high-stakes areas like legal sentencing or mortgage approvals. For AI to be trusted, developers must find ways to make its decision-making (b) ________ to human oversight.\n\nFurthermore, the environmental cost of training massive AI models is becoming a significant topic of debate. The data centers required to process billions of operations consume astronomical amounts of electricity and water for cooling. As AI continues to expand, the tech industry faces growing pressure to develop more energy-efficient hardware to minimize its carbon footprint.",
+      "passage_id": "t2_p5",
+      "hints": [
+        "Paragraph 2 covers 'algorithmic/ethical concerns', and Paragraph 3 moves to 'environmental concerns'."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the discussion of manufacturing challenges?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "Sentence 1 and 3"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about diamonds is a generic fact unrelated to the mass-production of graphene.",
+      "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice, often described as 'the wonder material.' It is 200 times stronger than steel, yet incredibly flexible and lightweight. Furthermore, it conducts electricity (a) ________ than copper, making it a revolutionary candidate for the next generation of electronics.\n\nThese unique properties make graphene ideal for a variety of applications, from flexible smartphone screens to more efficient water filtration systems. Because it is only one atom thick, it is nearly transparent, allowing it to be used in advanced touchscreens without adding bulk. Its high surface-area-to-weight ratio also makes it an excellent candidate for the next generation of solar cells.\n\nDespite its immense potential, mass-producing high-quality graphene at a low cost remains a significant obstacle. (1) Current production methods are either too expensive or produce graphene with too many defects for high-end use. (2) Diamonds are also made of carbon. (3) Until a scalable manufacturing breakthrough occurs, this material will likely remain restricted to niche research and aerospace projects.",
+      "passage_id": "t2_p6",
+      "hints": [
+        "Sentence 2 about diamonds is a generic fact unrelated to the mass-production of graphene."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of smartphone screens from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the physical causes of graphene's strength"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 describes the practical limitations that prevent the applications in paragraph 2 from being widely used"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the conductivity claims in paragraph 1"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the history of aerospace engineering"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 lists 'potential applications', and Paragraph 3 explains the 'significant obstacle' (mass-production) preventing them.",
+      "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice, often described as 'the wonder material.' It is 200 times stronger than steel, yet incredibly flexible and lightweight. Furthermore, it conducts electricity (a) ________ than copper, making it a revolutionary candidate for the next generation of electronics.\n\nThese unique properties make graphene ideal for a variety of applications, from flexible smartphone screens to more efficient water filtration systems. Because it is only one atom thick, it is nearly transparent, allowing it to be used in advanced touchscreens without adding bulk. Its high surface-area-to-weight ratio also makes it an excellent candidate for the next generation of solar cells.\n\nDespite its immense potential, mass-producing high-quality graphene at a low cost remains a significant obstacle. (1) Current production methods are either too expensive or produce graphene with too many defects for high-end use. (2) Diamonds are also made of carbon. (3) Until a scalable manufacturing breakthrough occurs, this material will likely remain restricted to niche research and aerospace projects.",
+      "passage_id": "t2_p6",
+      "hints": [
+        "Paragraph 2 lists 'potential applications', and Paragraph 3 explains the 'significant obstacle' (mass-production) preventing them."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Paragraph Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the discussion of mineral potential and mining?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "All"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about fishing is unrelated to deep-sea mineral extraction or its environmental risks.",
+      "passage": "Hydrothermal vents are cracks in the ocean floor that release superheated, mineral-rich water. Discovered in 1977, these vents support unique ecosystems that do not rely on sunlight for energy. Instead, bacteria perform (a) ________, converting chemical energy from minerals into food for larger creatures like giant tube worms and ghost crabs.\n\nThese environments are extreme, with temperatures reaching up to 400 degrees Celsius and crushing pressures thousands of meters below the surface. Despite these conditions, life thrives in high density around the vents, suggesting that such chemical-based systems could have been the origin of life on Earth. The minerals released also create massive 'black smoker' chimneys that can rise dozens of meters high.\n\nScientists are currently interested in the commercial potential of the mineral deposits found at vent sites. (1) These 'seafloor massive sulfides' contain rich concentrations of copper, gold, and zinc. (2) Deep-sea fishing is a popular activity. (3) However, environmentalists warn that deep-sea mining could cause irreversible damage to these fragile and largely unexplored ecosystems.",
+      "passage_id": "t3_p1",
+      "hints": [
+        "Sentence 2 about fishing is unrelated to deep-sea mineral extraction or its environmental risks."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of tube worms mentioned in paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains why the vents are superheated"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 transitions from the biological uniqueness mentioned in paragraph 2 to the commercial interest and risks discussed in paragraph 3"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the temperature in paragraph 2"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the chemical energy process"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 focuses on biological thriving in extreme conditions, while Paragraph 3 shifts to 'commercial potential' and 'environmental risk'.",
+      "passage": "Hydrothermal vents are cracks in the ocean floor that release superheated, mineral-rich water. Discovered in 1977, these vents support unique ecosystems that do not rely on sunlight for energy. Instead, bacteria perform (a) ________, converting chemical energy from minerals into food for larger creatures like giant tube worms and ghost crabs.\n\nThese environments are extreme, with temperatures reaching up to 400 degrees Celsius and crushing pressures thousands of meters below the surface. Despite these conditions, life thrives in high density around the vents, suggesting that such chemical-based systems could have been the origin of life on Earth. The minerals released also create massive 'black smoker' chimneys that can rise dozens of meters high.\n\nScientists are currently interested in the commercial potential of the mineral deposits found at vent sites. (1) These 'seafloor massive sulfides' contain rich concentrations of copper, gold, and zinc. (2) Deep-sea fishing is a popular activity. (3) However, environmentalists warn that deep-sea mining could cause irreversible damage to these fragile and largely unexplored ecosystems.",
+      "passage_id": "t3_p1",
+      "hints": [
+        "Paragraph 2 focuses on biological thriving in extreme conditions, while Paragraph 3 shifts to 'commercial potential' and 'environmental risk'."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the discussion of digital media's impact?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "Sentence 1 and 3"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about reading habits is a generic positive statement that does not address the comparative impact of media transitions.",
+      "passage": "Johannes Gutenberg's invention of the movable-type printing press in the 15th century revolutionized communication. Before its (a) ________, books were hand-copied by monks and were extremely rare and expensive. The press allowed for the rapid production of identical copies, making knowledge accessible to a much broader audience for the first time in history.\n\nThis technological shift fueled the spread of ideas during the Reformation and the Scientific Revolution. Maps, religious texts, and scientific diagrams could be distributed across Europe in weeks, challenging the monopoly of traditional institutions over information. As literacy rates began to rise, the document demand for vernacular languages—languages spoken by ordinary people—also increased, gradually displacing Latin as the language of scholarship.\n\nToday, the transition from print to digital media mirrors the impact of Gutenberg's press in the 15th century. While digital platforms offer even greater speed and reach, they also present challenges like information overload and the spread of misinformation. (1) Determining the reliability of a source is now a critical modern skill. (2) Reading books is a healthy habit. (3) Just as the printing press transformed medieval society, the internet is fundamentally reshaping our current cultural and political landscapes.",
+      "passage_id": "t3_p2",
+      "hints": [
+        "Sentence 2 about reading habits is a generic positive statement that does not address the comparative impact of media transitions."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of Reformation texts mentioned in paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the causes of the Scientific Revolution"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 compares the historical impact mentioned in paragraph 2 with the modern impact of digital media"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the importance of Latin"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes history"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 describes 'historical impact' (Scientific Revolution, Reformation), and Paragraph 3 'mirrors the impact' by comparing it to the 'digital media' transition.",
+      "passage": "Johannes Gutenberg's invention of the movable-type printing press in the 15th century revolutionized communication. Before its (a) ________, books were hand-copied by monks and were extremely rare and expensive. The press allowed for the rapid production of identical copies, making knowledge accessible to a much broader audience for the first time in history.\n\nThis technological shift fueled the spread of ideas during the Reformation and the Scientific Revolution. Maps, religious texts, and scientific diagrams could be distributed across Europe in weeks, challenging the monopoly of traditional institutions over information. As literacy rates began to rise, the document demand for vernacular languages—languages spoken by ordinary people—also increased, gradually displacing Latin as the language of scholarship.\n\nToday, the transition from print to digital media mirrors the impact of Gutenberg's press in the 15th century. While digital platforms offer even greater speed and reach, they also present challenges like information overload and the spread of misinformation. (1) Determining the reliability of a source is now a critical modern skill. (2) Reading books is a healthy habit. (3) Just as the printing press transformed medieval society, the internet is fundamentally reshaping our current cultural and political landscapes.",
+      "passage_id": "t3_p2",
+      "hints": [
+        "Paragraph 2 describes 'historical impact' (Scientific Revolution, Reformation), and Paragraph 3 'mirrors the impact' by comparing it to the 'digital media' transition."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 2 is irrelevant to the discussion of ethical and legal hurdles?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "Sentence 1 and 3"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about the speed/cost of cars is a generic observation unrelated to the 'moral' or 'legal liability' hurdles discussed.",
+      "passage": "Self-driving cars use a combination of LIDAR, radar, and cameras to perceive their surroundings and navigate without human intervention. By (a) ________ sensors and AI algorithms, these vehicles can make split-second decisions to avoid collisions. Supporters argue that eliminating human error—the leading cause of accidents—will eventually save millions of lives.\n\nHowever, the transition to fully autonomous roads faces significant ethical and legal hurdles. (1) One major dilemma is 'the moral machine' problem, where the software must choose between two unavoidable accidents. (2) Some cars are very expensive and fast. (3) There is also the question of liability: if an autonomous vehicle crashes, is the owner, the manufacturer, or the software engineer responsible?\n\nFor these reasons, many experts suggest a phased approach where humans remain at the wheel in a supportive capacity. Currently, Level 2 and Level 3 systems still require a driver to be ready to take control at any moment. As the technology matures and regulatory frameworks evolve, we may see the gradual removal of steering wheels entirely in dedicated 'smart city' zones.",
+      "passage_id": "t3_p3",
+      "hints": [
+        "Sentence 2 about the speed/cost of cars is a generic observation unrelated to the 'moral' or 'legal liability' hurdles discussed."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of the moral machine problem from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the causes of computer vision errors"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 proposes a cautious, multi-phase solution for the hurdles mentioned in paragraph 2"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the importance of tech"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes costs"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 outlines 'hurdles', and Paragraph 3 proposes a 'phased approach' to navigate them.",
+      "passage": "Self-driving cars use a combination of LIDAR, radar, and cameras to perceive their surroundings and navigate without human intervention. By (a) ________ sensors and AI algorithms, these vehicles can make split-second decisions to avoid collisions. Supporters argue that eliminating human error—the leading cause of accidents—will eventually save millions of lives.\n\nHowever, the transition to fully autonomous roads faces significant ethical and legal hurdles. (1) One major dilemma is 'the moral machine' problem, where the software must choose between two unavoidable accidents. (2) Some cars are very expensive and fast. (3) There is also the question of liability: if an autonomous vehicle crashes, is the owner, the manufacturer, or the software engineer responsible?\n\nFor these reasons, many experts suggest a phased approach where humans remain at the wheel in a supportive capacity. Currently, Level 2 and Level 3 systems still require a driver to be ready to take control at any moment. As the technology matures and regulatory frameworks evolve, we may see the gradual removal of steering wheels entirely in dedicated 'smart city' zones.",
+      "passage_id": "t3_p3",
+      "hints": [
+        "Paragraph 2 outlines 'hurdles', and Paragraph 3 proposes a 'phased approach' to navigate them."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of papyrus scrolls mentioned in paragraph 1"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains why fire is dangerous for paper"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 describes a modern effort to recreate the same goal described in paragraph 1 while avoiding the vulnerabilities mentioned in paragraph 2"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the story of the library's destruction"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the history of Ancient Egypt"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 1 gives the goal, Paragraph 2 gives the vulnerability (fire/loss), and Paragraph 3 gives the modern digital solution.",
+      "passage": "The Great Library of Alexandria in Egypt was once the world's largest repository of knowledge, housing hundreds of thousands of papyrus scrolls. Founded in the 3rd century BC, it attracted the greatest scholars of the ancient world. Many (a) ________ texts, from early mathematical proofs to geographical maps, were stored and studied within its massive halls.\n\nTragically, much of the library was lost through centuries of neglect, conflict, and fire. Historical accounts differ on whether the library was destroyed in a single catastrophic event or through a slow process of decline. However, the result was the same: the permanent loss of countless works by ancient philosophers and scientists, which significantly set back the progress of Western and Middle Eastern thought.\n\nToday, the spirit of the library lives on in projects like the Internet Archive and the new Bibliotheca Alexandrina. These modern initiatives aim to create 'universal libraries' that are accessible to anyone with an internet connection. (1) They use digital preservation to ensure that knowledge is never again lost to physical decay or fire. (2) Most people enjoy reading in the sun. (3) This modern revival emphasizes that global access to information is a fundamental right of humanity.",
+      "passage_id": "t3_p4",
+      "hints": [
+        "Paragraph 1 gives the goal, Paragraph 2 gives the vulnerability (fire/loss), and Paragraph 3 gives the modern digital solution."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 2 is irrelevant to the discussion of consumer privacy and security risks?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "Sentence 1 and 3"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about light switches is unrelated to 'privacy' and 'security' risks.",
+      "passage": "The Internet of Things (IoT) refers to the network of everyday objects that connect to the internet and exchange data. From smart thermostats to biometric heart monitors, these devices allow for real-time (a) ________ and automation. By collecting data on user habits, they can optimize energy use and even alert doctors to potential health crises before they happen.\n\nHowever, this widespread connectivity also introduces significant privacy concerns for the average consumer. (1) Companies often collect massive amounts of user data without providing clear transparency on how that information is sold or protected. (2) Some people prefer to use manual light switches. (3) A single security vulnerability in a smart camera or door lock could provide hackers with a backdoor into a user's entire home network.\n\nAs the industry grows, many experts are calling for a 'security-by-design' approach where manufacturers prioritize safety from the earliest stages of development. Stricter data regulations and mandatory security patches are also seen as essential steps to maintain trust. Until these measures are firmly in place, many users remain hesitant to fully integrate 'smart' systems into their private residences.",
+      "passage_id": "t3_p5",
+      "hints": [
+        "Sentence 2 about light switches is unrelated to 'privacy' and 'security' risks."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of smart cameras mentioned in paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains why light switches are better than sensors"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 proposes solutions for the risks mentioned in paragraph 2"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the benefits of automation in paragraph 1"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the history of the house"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 outlines 'concerns/risks', and Paragraph 3 'calls for... approach' to solve them.",
+      "passage": "The Internet of Things (IoT) refers to the network of everyday objects that connect to the internet and exchange data. From smart thermostats to biometric heart monitors, these devices allow for real-time (a) ________ and automation. By collecting data on user habits, they can optimize energy use and even alert doctors to potential health crises before they happen.\n\nHowever, this widespread connectivity also introduces significant privacy concerns for the average consumer. (1) Companies often collect massive amounts of user data without providing clear transparency on how that information is sold or protected. (2) Some people prefer to use manual light switches. (3) A single security vulnerability in a smart camera or door lock could provide hackers with a backdoor into a user's entire home network.\n\nAs the industry grows, many experts are calling for a 'security-by-design' approach where manufacturers prioritize safety from the earliest stages of development. Stricter data regulations and mandatory security patches are also seen as essential steps to maintain trust. Until these measures are firmly in place, many users remain hesitant to fully integrate 'smart' systems into their private residences.",
+      "passage_id": "t3_p5",
+      "hints": [
+        "Paragraph 2 outlines 'concerns/risks', and Paragraph 3 'calls for...",
+        "approach' to solve them."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the discussion of medical origami specifically?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "All"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about the origin of paper is unrelated to medical engineering applications.",
+      "passage": "Origami, the ancient Japanese art of paper folding, is finding unexpected applications in modern engineering and aerospace design. By applying complex mathematical principles, researchers can create structures that fold down (a) ________ and then expand into massive arrays. This 'origami-inspired' engineering allows for the transport of large objects in the limited storage bays of space rockets.\n\nOne notable application is the deployment of massive solar panels for space stations and satellites. These panels can be folded into intricate, compact shapes for launch and then unfolded to their full size once in orbit. This reduces the risk of mechanical failure during the complex unfolding process and allows for a higher 'packing density' of equipment within a single mission.\n\nFurthermore, the same principles are being used in medical science to create tiny surgical robots and heart stents. (1) These 'origami robots' can be swallowed or injected into the body in a folded state and then 'deploy' once they reach their destination. (2) Paper is usually made from wood pulp. (3) This technique allows for less invasive surgeries and faster recovery times for patients, showcasing how an ancient art form can solve modern medical problems.",
+      "passage_id": "t3_p6",
+      "hints": [
+        "Sentence 2 about the origin of paper is unrelated to medical engineering applications."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 1 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 1 introduces a general field and Paragraph 3 provides a specific medical example of the application mentioned"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the mathematical proofs discussed in paragraph 1"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 contradicts the success of the projects"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 1 provides examples of heart stents"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes space travel"
         }
       ],
       "correct_answer": "A",
-      "explanation": "All sentences except #3 relate to **benefits of reading**. Sentence 3 about library closing hours is a completely off-topic detail → **Sentence 3** should be removed.",
+      "explanation": "Paragraph 1 introduces the field, and Paragraph 3 gives a specific medical example.",
+      "passage": "Origami, the ancient Japanese art of paper folding, is finding unexpected applications in modern engineering and aerospace design. By applying complex mathematical principles, researchers can create structures that fold down (a) ________ and then expand into massive arrays. This 'origami-inspired' engineering allows for the transport of large objects in the limited storage bays of space rockets.\n\nOne notable application is the deployment of massive solar panels for space stations and satellites. These panels can be folded into intricate, compact shapes for launch and then unfolded to their full size once in orbit. This reduces the risk of mechanical failure during the complex unfolding process and allows for a higher 'packing density' of equipment within a single mission.\n\nFurthermore, the same principles are being used in medical science to create tiny surgical robots and heart stents. (1) These 'origami robots' can be swallowed or injected into the body in a folded state and then 'deploy' once they reach their destination. (2) Paper is usually made from wood pulp. (3) This technique allows for less invasive surgeries and faster recovery times for patients, showcasing how an ancient art form can solve modern medical problems.",
+      "passage_id": "t3_p6",
       "hints": [
-        "Find the sentence that doesn't relate to 'benefits of reading'.",
-        "Library closing hours have nothing to do with benefits.",
-        "Sentence 3."
+        "Paragraph 1 introduces the field, and Paragraph 3 gives a specific medical example."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the topic of squid biology and conservation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "All"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about food is unrelated to the biological study or threats discussed.",
+      "passage": "The giant squid (Architeuthis dux) remains one of the most (a) ________ creatures in the ocean due to its deep-sea habitat. Reaching lengths of up to 13 meters, it was once thought to be a mythical sea monster, as it was only seen when dead carcasses washed ashore. It was not until 2004 that researchers finally captured the first live images of an adult squid in the wild.\n\nThese creatures have evolved specialized features for survival in the dark, high-pressure depths. They possess the largest eyes of any living animal—roughly the size of dinner plates—which allow them to detect the faint bioluminescent glow of their prey and potential predators. This biological adaptation is essential for a 'sit-and-wait' predator that lives up to 1,000 meters below the surface.\n\nDespite its massive size, the giant squid face significant threats from deep-sea trawling and shifting ocean temperatures. (1) As currents change, their traditional hunting grounds may move or become less productive. (2) Fried calamari is a popular dish in many countries. (3) Understanding the role of this apex predator is crucial for the management of deep-sea ecosystems and the conservation of marine biodiversity.",
+      "passage_id": "t3_p7",
+      "hints": [
+        "Sentence 2 about food is unrelated to the biological study or threats discussed."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of bioluminescence from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains why the squid eyes are large"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 transitions from the squid's successful adaptations mentioned in paragraph 2 to the environmental vulnerabilities it faces in paragraph 3"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the depth in paragraph 2"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the chemical composition of skin"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 describes adaptations for survival, and Paragraph 3 covers the modern threats facing the species.",
+      "passage": "The giant squid (Architeuthis dux) remains one of the most (a) ________ creatures in the ocean due to its deep-sea habitat. Reaching lengths of up to 13 meters, it was once thought to be a mythical sea monster, as it was only seen when dead carcasses washed ashore. It was not until 2004 that researchers finally captured the first live images of an adult squid in the wild.\n\nThese creatures have evolved specialized features for survival in the dark, high-pressure depths. They possess the largest eyes of any living animal—roughly the size of dinner plates—which allow them to detect the faint bioluminescent glow of their prey and potential predators. This biological adaptation is essential for a 'sit-and-wait' predator that lives up to 1,000 meters below the surface.\n\nDespite its massive size, the giant squid face significant threats from deep-sea trawling and shifting ocean temperatures. (1) As currents change, their traditional hunting grounds may move or become less productive. (2) Fried calamari is a popular dish in many countries. (3) Understanding the role of this apex predator is crucial for the management of deep-sea ecosystems and the conservation of marine biodiversity.",
+      "passage_id": "t3_p7",
+      "hints": [
+        "Paragraph 2 describes adaptations for survival, and Paragraph 3 covers the modern threats facing the species."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Paragraph Cohesion",
+      "question_text": "In which paragraph does the author discuss the economic potential and 'blue economy' products of seaweed?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 1"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 2"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "All"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Paragraph 2 specifically covers seaweed as an 'economic resource' and 'blue economy' sector.",
+      "passage": "Seaweed farming is emerging as a powerful tool for carbon sequestration and marine ecosystem restoration. Unlike land-based crops, seaweed requires no fresh water, fertilizers, or pesticides to grow. By (a) ________ carbon dioxide from the water, it helps combat ocean acidification and provides habitat for many juvenile fish species.\n\nIn addition to its environmental benefits, seaweed is becoming a significant economic resource for coastal communities. It can be processed into a variety of products, from nutritious food supplements to biodegradable packaging and even biofuels. This 'blue economy' sector offers a sustainable alternative to overfishing and provides stable income for thousands of small-scale farmers worldwide.\n\nHowever, the industry faces challenges related to global warming itself. (1) Rising water temperatures can stress seaweed crops, making them more vulnerable to disease and pests. (2) Most people enjoy eating sushi. (3) To ensure long-term viability, researchers are now focusing on breeding more heat-tolerant seaweed strains and developing better deep-water cultivation techniques.",
+      "passage_id": "t4_p1",
+      "hints": [
+        "Paragraph 2 specifically covers seaweed as an 'economic resource' and 'blue economy' sector."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of seaweed packaging mentioned in paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the chemical causes of ocean acidification"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 describes the environmental threats that jeopardize the economic and ecological benefits mentioned in earlier paragraphs"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the use of biofuels"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes history"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 outlines benefits/potential, and Paragraph 3 warns that 'the industry faces challenges' from warming.",
+      "passage": "Seaweed farming is emerging as a powerful tool for carbon sequestration and marine ecosystem restoration. Unlike land-based crops, seaweed requires no fresh water, fertilizers, or pesticides to grow. By (a) ________ carbon dioxide from the water, it helps combat ocean acidification and provides habitat for many juvenile fish species.\n\nIn addition to its environmental benefits, seaweed is becoming a significant economic resource for coastal communities. It can be processed into a variety of products, from nutritious food supplements to biodegradable packaging and even biofuels. This 'blue economy' sector offers a sustainable alternative to overfishing and provides stable income for thousands of small-scale farmers worldwide.\n\nHowever, the industry faces challenges related to global warming itself. (1) Rising water temperatures can stress seaweed crops, making them more vulnerable to disease and pests. (2) Most people enjoy eating sushi. (3) To ensure long-term viability, researchers are now focusing on breeding more heat-tolerant seaweed strains and developing better deep-water cultivation techniques.",
+      "passage_id": "t4_p1",
+      "hints": [
+        "Paragraph 2 outlines benefits/potential, and Paragraph 3 warns that 'the industry faces challenges' from warming."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the discussion of the stone's current status and significance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "All"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about uniforms is unrelated to the cultural heritage debate or the historical significance.",
+      "passage": "The discovery of the Rosetta Stone in 1799 was a turning point in the field of Egyptology. Because it contained the same royal decree written in three different scripts—Ancient Greek, Demotic, and Hieroglyphic—it provided the key to (a) ________ the long-lost meaning of Egyptian symbols. Before this discovery, the world's understanding of ancient Egyptian history was based largely on myth and speculation.\n\nDeciphering the stone was a painstaking process that took decades. Scholars like Thomas Young and Jean-François Champollion compared the known Greek text with the unknown hieroglyphs to identify the names of Pharaohs. By 1822, Champollion had successfully cracked the code, allowing historians to read thousands of years of recorded history that had been silent for over a millennium.\n\nToday, the Rosetta Stone remains one of the British Museum's most famous artifacts, though it is also a subject of international debate. (1) The Egyptian government has repeatedly called for its return, arguing that it is a piece of cultural heritage that was illegally removed and belongs in its country of origin. (2) Museum guards wear dark uniforms. (3) Regardless of its location, the stone continues to represent the power of linguistic comparison to unlock the secrets of the past.",
+      "passage_id": "t4_p2",
+      "hints": [
+        "Sentence 2 about uniforms is unrelated to the cultural heritage debate or the historical significance."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of Pharaohs from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains why Greek was used in paragraph 1"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 transitions from the successful historical decipherment of the stone to its current status as a controversial museum artifact"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the success of Champollion"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the history of the museum"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 covers 'cracking the code', and Paragraph 3 covers its 'current status' and the 'debate' over its return.",
+      "passage": "The discovery of the Rosetta Stone in 1799 was a turning point in the field of Egyptology. Because it contained the same royal decree written in three different scripts—Ancient Greek, Demotic, and Hieroglyphic—it provided the key to (a) ________ the long-lost meaning of Egyptian symbols. Before this discovery, the world's understanding of ancient Egyptian history was based largely on myth and speculation.\n\nDeciphering the stone was a painstaking process that took decades. Scholars like Thomas Young and Jean-François Champollion compared the known Greek text with the unknown hieroglyphs to identify the names of Pharaohs. By 1822, Champollion had successfully cracked the code, allowing historians to read thousands of years of recorded history that had been silent for over a millennium.\n\nToday, the Rosetta Stone remains one of the British Museum's most famous artifacts, though it is also a subject of international debate. (1) The Egyptian government has repeatedly called for its return, arguing that it is a piece of cultural heritage that was illegally removed and belongs in its country of origin. (2) Museum guards wear dark uniforms. (3) Regardless of its location, the stone continues to represent the power of linguistic comparison to unlock the secrets of the past.",
+      "passage_id": "t4_p2",
+      "hints": [
+        "Paragraph 2 covers 'cracking the code', and Paragraph 3 covers its 'current status' and the 'debate' over its return."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the discussion of quantum stability and fragility?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "Sentence 1 and 3"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about video games is unrelated to the technical difficulty of maintaining quantum states.",
+      "passage": "Quantum computing is a revolutionary field of computer science that utilizes the principles of quantum mechanics to process information. Unlike classical computers that use bits (0 or 1), quantum computers use qubits, which can exist in multiple states (a) ________. This capability allows them to perform complex calculations at speeds that would take traditional supercomputers thousands of years to complete.\n\nThe potential applications for this technology are vast, ranging from the simulation of new materials to the optimization of global supply chains. In pharmaceutical research, quantum computers could simulate molecular interactions with perfect accuracy, significantly (b) ________ the time required to develop new life-saving drugs. They are also expected to revolutionize cybersecurity by creating unbreakable encryption methods.\n\nHowever, building and maintaining functional quantum computers is incredibly difficult. For qubits to remain stable, they must be kept in extremely cold environments, nearly at absolute zero, to prevent interference from the outside world. (1) Even a tiny vibration can cause 'decoherence,' where the quantum state is lost. (2) Most people enjoy playing video games. (3) This physical fragility remains the main barrier to making quantum computing widely available for commercial use.",
+      "passage_id": "t4_p3",
+      "hints": [
+        "Sentence 2 about video games is unrelated to the technical difficulty of maintaining quantum states."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of molecular interactions from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains the causes of qubit speed mentioned in paragraph 1"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 describes the physical challenges that prevent the potential benefits in paragraph 2 from being realized"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the need for cybersecurity"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the history of binary bits"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 outlines 'potential applications', and Paragraph 3 describes the 'physical fragility' that is the 'main barrier'.",
+      "passage": "Quantum computing is a revolutionary field of computer science that utilizes the principles of quantum mechanics to process information. Unlike classical computers that use bits (0 or 1), quantum computers use qubits, which can exist in multiple states (a) ________. This capability allows them to perform complex calculations at speeds that would take traditional supercomputers thousands of years to complete.\n\nThe potential applications for this technology are vast, ranging from the simulation of new materials to the optimization of global supply chains. In pharmaceutical research, quantum computers could simulate molecular interactions with perfect accuracy, significantly (b) ________ the time required to develop new life-saving drugs. They are also expected to revolutionize cybersecurity by creating unbreakable encryption methods.\n\nHowever, building and maintaining functional quantum computers is incredibly difficult. For qubits to remain stable, they must be kept in extremely cold environments, nearly at absolute zero, to prevent interference from the outside world. (1) Even a tiny vibration can cause 'decoherence,' where the quantum state is lost. (2) Most people enjoy playing video games. (3) This physical fragility remains the main barrier to making quantum computing widely available for commercial use.",
+      "passage_id": "t4_p3",
+      "hints": [
+        "Paragraph 2 outlines 'potential applications', and Paragraph 3 describes the 'physical fragility' that is the 'main barrier'."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the discussion of pollution and preservation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "All"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about food is unrelated to the structural decay or the 'buffer zone' preservation efforts.",
+      "passage": "The Taj Mahal in India is widely considered one of the most beautiful buildings in the world. Built in the 17th century by the Mughal emperor Shah Jahan, it serves as a (a) ________ for his favorite wife, Mumtaz Mahal. This ivory-white marble structure is famous for its perfect symmetry and its integration of Persian, Ottoman, and Indian architectural styles.\n\nThe construction of the monument involved over 20,000 artisans and a massive transport network of over 1,000 elephants to carry the heavy marble blocks. The intricate inlay work, known as pietra dura, features thousands of semi-precious stones embedded into the walls to create floral patterns. This level of detail has ensured that the Taj Mahal remains a masterpiece of human craftsmanship and global heritage.\n\nRecently, the Taj Mahal has faced threats from air pollution and industrial smog, which have begun to turn the white marble into a yellowish hue. (1) Toxic gases from nearby factories react with the marble, causing structural and aesthetic decay. (2) Indian food is very spicy and popular. (3) To combat this, the government has established a 'buffer zone' around the monument where heavy industry is banned to preserve its pristine appearance.",
+      "passage_id": "t4_p4",
+      "hints": [
+        "Sentence 2 about food is unrelated to the structural decay or the 'buffer zone' preservation efforts."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of pietra dura symbols from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains why elephants were used in paragraph 2"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 transitions from the building's historical creation to its modern survival threats and protection measures"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the importance of artisans in paragraph 2"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the history of the Mughal Empire"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 describes 'construction/craftsmanship', and Paragraph 3 describes 'modern threats' and 'protection measures'.",
+      "passage": "The Taj Mahal in India is widely considered one of the most beautiful buildings in the world. Built in the 17th century by the Mughal emperor Shah Jahan, it serves as a (a) ________ for his favorite wife, Mumtaz Mahal. This ivory-white marble structure is famous for its perfect symmetry and its integration of Persian, Ottoman, and Indian architectural styles.\n\nThe construction of the monument involved over 20,000 artisans and a massive transport network of over 1,000 elephants to carry the heavy marble blocks. The intricate inlay work, known as pietra dura, features thousands of semi-precious stones embedded into the walls to create floral patterns. This level of detail has ensured that the Taj Mahal remains a masterpiece of human craftsmanship and global heritage.\n\nRecently, the Taj Mahal has faced threats from air pollution and industrial smog, which have begun to turn the white marble into a yellowish hue. (1) Toxic gases from nearby factories react with the marble, causing structural and aesthetic decay. (2) Indian food is very spicy and popular. (3) To combat this, the government has established a 'buffer zone' around the monument where heavy industry is banned to preserve its pristine appearance.",
+      "passage_id": "t4_p4",
+      "hints": [
+        "Paragraph 2 describes 'construction/craftsmanship', and Paragraph 3 describes 'modern threats' and 'protection measures'."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the discussion of blue whale threats and monitoring?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "Sentence 1 and 3"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about Iceland's industry is a generic fact unrelated to the specific 'sonar' threats or 'hydrophone' monitoring mentioned.",
+      "passage": "The blue whale is the largest animal ever known to have lived on Earth, reaching lengths of up to 30 meters and weighing as much as 190 tons. Despite their (a) ________ size, these gentle giants feed almost exclusively on krill, tiny shrimp-like crustaceans. During the summer feeding season, a single adult can consume up to 4 tons of krill per day.\n\nBlue whales were hunted to the brink of extinction during the whaling era of the early 20th century. By the time commercial whaling was banned in 1966, their population had dropped from roughly 200,000 to just a few thousand individuals. Since then, the species has shown a slow but steady recovery, thanks to international protection and the monitoring of their migration routes.\n\nHowever, modern blue whales still face threats from shipping collisions and noise pollution in the ocean. (1) Loud underwater sounds from sonar and oil exploration can disrupt their ability to communicate and find food. (2) Whale watching is a major industry in Iceland. (3) Scientists are now using hydrophones to track whale songs and provide 'slow zones' for ships in areas where whales are actively feeding.",
+      "passage_id": "t4_p5",
+      "hints": [
+        "Sentence 2 about Iceland's industry is a generic fact unrelated to the specific 'sonar' threats or 'hydrophone' monitoring mentioned."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of whaling ships from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains why whales eat krill in paragraph 1"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 describes a new set of modern dangers that exist even after the historical threat of whaling mentioned in paragraph 2 was stopped"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the success of the 1966 ban"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the history of marine biology"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 describes 'historical threat' (whaling), and Paragraph 3 covers 'modern dangers' (noise, ships) that persist today.",
+      "passage": "The blue whale is the largest animal ever known to have lived on Earth, reaching lengths of up to 30 meters and weighing as much as 190 tons. Despite their (a) ________ size, these gentle giants feed almost exclusively on krill, tiny shrimp-like crustaceans. During the summer feeding season, a single adult can consume up to 4 tons of krill per day.\n\nBlue whales were hunted to the brink of extinction during the whaling era of the early 20th century. By the time commercial whaling was banned in 1966, their population had dropped from roughly 200,000 to just a few thousand individuals. Since then, the species has shown a slow but steady recovery, thanks to international protection and the monitoring of their migration routes.\n\nHowever, modern blue whales still face threats from shipping collisions and noise pollution in the ocean. (1) Loud underwater sounds from sonar and oil exploration can disrupt their ability to communicate and find food. (2) Whale watching is a major industry in Iceland. (3) Scientists are now using hydrophones to track whale songs and provide 'slow zones' for ships in areas where whales are actively feeding.",
+      "passage_id": "t4_p5",
+      "hints": [
+        "Paragraph 2 describes 'historical threat' (whaling), and Paragraph 3 covers 'modern dangers' (noise, ships) that persist today."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the discussion of 'green' technology and sustainability?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "All"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about luxury pricing is unrelated to the 'sustainability' and 'carbon-neutral' goals discussed.",
+      "passage": "Skyscrapers are more than just tall buildings; they are masterpieces of modern civil engineering and urban planning. The development of high-strength steel and the safety elevator in the late 19th century (a) ________ the construction of these 'vertical cities.' Today, skyscrapers allow for a high density of people to live and work on a small footprint of land, which is essential for growing urban populations.\n\nThe design of a skyscraper must account for massive gravitational forces and extreme wind pressures at high altitudes. Engineers use 'tuned mass dampers'—giant weights near the top of the building—to counteract the sway caused by strong winds. This ensure that the structure remains stable and comfortable for its residents, even during high-magnitude storms or earthquakes.\n\nIn addition to structural safety, modern skyscraper design is increasingly focused on sustainability and 'green' technology. (1) Many new towers feature vertical gardens, solar skins, and rainwater harvesting systems to reduce their environmental impact. (2) Penthouse apartments are very expensive and luxurious. (3) These features aim to make dense urban living more carbon-neutral and resilient to climate change.",
+      "passage_id": "t4_p6",
+      "hints": [
+        "Sentence 2 about luxury pricing is unrelated to the 'sustainability' and 'carbon-neutral' goals discussed."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of dampers from paragraph 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains why steel is strong in paragraph 1"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 introduces an additional design goal (sustainability) that complements the structural safety goal discussed in paragraph 2"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the density mentioned in paragraph 1"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes history"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 2 covers 'structural safety', and Paragraph 3 'In addition to...' covers 'sustainability'.",
+      "passage": "Skyscrapers are more than just tall buildings; they are masterpieces of modern civil engineering and urban planning. The development of high-strength steel and the safety elevator in the late 19th century (a) ________ the construction of these 'vertical cities.' Today, skyscrapers allow for a high density of people to live and work on a small footprint of land, which is essential for growing urban populations.\n\nThe design of a skyscraper must account for massive gravitational forces and extreme wind pressures at high altitudes. Engineers use 'tuned mass dampers'—giant weights near the top of the building—to counteract the sway caused by strong winds. This ensure that the structure remains stable and comfortable for its residents, even during high-magnitude storms or earthquakes.\n\nIn addition to structural safety, modern skyscraper design is increasingly focused on sustainability and 'green' technology. (1) Many new towers feature vertical gardens, solar skins, and rainwater harvesting systems to reduce their environmental impact. (2) Penthouse apartments are very expensive and luxurious. (3) These features aim to make dense urban living more carbon-neutral and resilient to climate change.",
+      "passage_id": "t4_p6",
+      "hints": [
+        "Paragraph 2 covers 'structural safety', and Paragraph 3 'In addition to...' covers 'sustainability'."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Cohesion",
+      "question_text": "Which sentence in paragraph 3 is irrelevant to the discussion of environmental challenges on Mars?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "letter": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "letter": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "letter": "D",
+          "text": "None"
+        },
+        {
+          "letter": "E",
+          "text": "All"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sentence 2 about Hollywood movies is unrelated to the technical challenges or 'safe modes' of the rovers.",
+      "passage": "The latest Mars rovers, such as Perseverance, are sophisticated robotic laboratories designed to search for signs of ancient microbial life. By (a) ________ soil and rock samples, these rovers can identify minerals that were formed in the presence of liquid water billions of years ago. This mission represents the most advanced effort to understand if Mars was ever habitable for life.\n\nEach rover is equipped with a suite of high-resolution cameras, laser spectrometers, and even a small experimental helicopter. The helicopter, named Ingenuity, successfully demonstrated that controlled flight is possible in the thin Martian atmosphere. This breakthrough allows future missions to scout terrain from the air, significantly expanding the range of exploration beyond what a ground-based rover can achieve on its own.\n\nHowever, the harsh Martian environment remains a constant challenge for these delicate machines. (1) Extreme temperature swings and abrasive dust storms can damage sensors and solar panels. (2) Many movies about Mars are made in Hollywood. (3) To survive, the rovers are equipped with internal heaters and autonomous 'safe modes' that allow them to protect their systems during local storms.",
+      "passage_id": "t4_p7",
+      "hints": [
+        "Sentence 2 about Hollywood movies is unrelated to the technical challenges or 'safe modes' of the rovers."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Structure",
+      "question_text": "What is the relationship between the ideas in paragraph 1 and paragraph 3?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paragraph 3 provides examples of microbial life mentioned in paragraph 1"
+        },
+        {
+          "letter": "B",
+          "text": "Paragraph 3 explains why water was present billions of years ago"
+        },
+        {
+          "letter": "C",
+          "text": "Paragraph 3 describes the environmental dangers that threaten the scientific mission introduced in paragraph 1"
+        },
+        {
+          "letter": "D",
+          "text": "Paragraph 3 contradicts the success of the helicopter"
+        },
+        {
+          "letter": "E",
+          "text": "Paragraph 3 summarizes the chemical composition of rocks"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph 1 introduces the 'mission', and Paragraph 3 introduces the 'challenges' (dust, temperature) that threaten it.",
+      "passage": "The latest Mars rovers, such as Perseverance, are sophisticated robotic laboratories designed to search for signs of ancient microbial life. By (a) ________ soil and rock samples, these rovers can identify minerals that were formed in the presence of liquid water billions of years ago. This mission represents the most advanced effort to understand if Mars was ever habitable for life.\n\nEach rover is equipped with a suite of high-resolution cameras, laser spectrometers, and even a small experimental helicopter. The helicopter, named Ingenuity, successfully demonstrated that controlled flight is possible in the thin Martian atmosphere. This breakthrough allows future missions to scout terrain from the air, significantly expanding the range of exploration beyond what a ground-based rover can achieve on its own.\n\nHowever, the harsh Martian environment remains a constant challenge for these delicate machines. (1) Extreme temperature swings and abrasive dust storms can damage sensors and solar panels. (2) Many movies about Mars are made in Hollywood. (3) To survive, the rovers are equipped with internal heaters and autonomous 'safe modes' that allow them to protect their systems during local storms.",
+      "passage_id": "t4_p7",
+      "hints": [
+        "Paragraph 1 introduces the 'mission', and Paragraph 3 introduces the 'challenges' (dust, temperature) that threaten it."
       ]
     }
   ]

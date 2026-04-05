@@ -87,9 +87,7 @@
       "correct_answer": "D",
       "explanation": "3x > 12 → x > **4**",
       "hints": [
-        "Add 7 to both sides: 3x > 12.",
-        "Divide by 3 (positive, no flip).",
-        "x > 4."
+        "3x > 12 → x > **4**"
       ]
     },
     {
@@ -123,9 +121,7 @@
       "correct_answer": "B",
       "explanation": "-2x ≥ 4 → x ≤ -2 (flip because dividing by negative!)",
       "hints": [
-        "Subtract 3: -2x ≥ 4.",
-        "Divide by -2: flip the inequality sign!",
-        "x ≤ -2."
+        "-2x ≥ 4 → x ≤ -2 (flip because dividing by negative!)"
       ]
     },
     {
@@ -159,9 +155,7 @@
       "correct_answer": "B",
       "explanation": "|x-3| < 5 means -5 < x-3 < 5\nx-3 > -5 → x > -2\nx-3 < 5 → x < 8\n**-2 < x < 8**",
       "hints": [
-        "|x-a| < b means -b < x-a < b.",
-        "-5 < x-3 < 5.",
-        "Add 3: -2 < x < 8."
+        "|x-3| < 5 means -5 < x-3 < 5\nx-3 > -5 → x > -2\nx-3 < 5 → x < 8\n**-2 < x < 8**"
       ]
     },
     {
@@ -195,9 +189,7 @@
       "correct_answer": "B",
       "explanation": "x²<9 → |x|<3 → **-3<x<3**",
       "hints": [
-        "x² < 9 means |x| < 3.",
-        "This gives -3 < x < 3.",
-        "Answer: -3 < x < 3."
+        "x²<9 → |x|<3 → **-3<x<3**"
       ]
     },
     {
@@ -231,9 +223,9 @@
       "correct_answer": "C",
       "explanation": "Critical points: x=-3 and x=2.\nPositive outside the roots (coefficient of x² is +1).\n**x < -3 or x > 2**",
       "hints": [
-        "Find critical points: x=-3 and x=2.",
-        "Sign of (x-2)(x+3): positive outside roots for positive leading coefficient.",
-        "Solution: x<-3 or x>2."
+        "Critical points: x=-3 and x=2.",
+        "Positive outside the roots (coefficient of x² is +1).",
+        "**x < -3 or x > 2**"
       ]
     },
     {
@@ -267,9 +259,7 @@
       "correct_answer": "E",
       "explanation": "2 < 3x-1 → 3 < 3x → x > 1\n3x-1 ≤ 8 → 3x ≤ 9 → x ≤ 3\n**1 < x ≤ 3**",
       "hints": [
-        "Split into two: 2<3x-1 and 3x-1≤8.",
-        "First: x>1. Second: x≤3.",
-        "Combined: 1<x≤3."
+        "2 < 3x-1 → 3 < 3x → x > 1\n3x-1 ≤ 8 → 3x ≤ 9 → x ≤ 3\n**1 < x ≤ 3**"
       ]
     },
     {
@@ -303,9 +293,7 @@
       "correct_answer": "C",
       "explanation": "-x²+4x-3 > 0 → x²-4x+3 < 0 → (x-1)(x-3) < 0\nNegative between roots: **1 < x < 3**",
       "hints": [
-        "Flip signs: x²-4x+3 < 0.",
-        "Factor: (x-1)(x-3) < 0.",
-        "Negative between roots: 1 < x < 3."
+        "-x²+4x-3 > 0 → x²-4x+3 < 0 → (x-1)(x-3) < 0\nNegative between roots: **1 < x < 3**"
       ]
     },
     {
@@ -339,9 +327,7 @@
       "correct_answer": "C",
       "explanation": "|2x+1| ≥ 5 means 2x+1 ≥ 5 or 2x+1 ≤ -5\n2x ≥ 4 → x ≥ 2\n2x ≤ -6 → x ≤ -3\n**x ≥ 2 or x ≤ -3**",
       "hints": [
-        "|A| ≥ b means A ≥ b OR A ≤ -b.",
-        "Case 1: 2x+1≥5 → x≥2. Case 2: 2x+1≤-5 → x≤-3.",
-        "Answer: x≥2 or x≤-3."
+        "|2x+1| ≥ 5 means 2x+1 ≥ 5 or 2x+1 ≤ -5\n2x ≥ 4 → x ≥ 2\n2x ≤ -6 → x ≤ -3\n**x ≥ 2 or x ≤ -3**"
       ]
     },
     {
@@ -375,9 +361,7 @@
       "correct_answer": "B",
       "explanation": "(x+2)/(x-1)-1>0 → (x+2-x+1)/(x-1)>0 → 3/(x-1)>0\n3>0 always, so x-1>0 → **x>1**",
       "hints": [
-        "Move 1 to the left: (x+2)/(x-1)-1>0.",
-        "Combine fractions: 3/(x-1)>0.",
-        "3>0, so need x-1>0, i.e., x>1."
+        "(x+2)/(x-1)-1>0 → (x+2-x+1)/(x-1)>0 → 3/(x-1)>0\n3>0 always, so x-1>0 → **x>1**"
       ]
     },
     {
@@ -411,9 +395,8 @@
       "correct_answer": "C",
       "explanation": "Critical points: x=-2, x=1, x=3.\nSign chart:\nx<-2: (-)(-)/(-)= - ✓\n-2<x<1: (+)(-)/(-)= + ✗\n1<x<3: (+)(+)/(-)= - ✓\nx>3: (+)(+)/(+)= + ✗\n\nSolution: x<-2 or 1<x<3 (x≠3)",
       "hints": [
-        "Find critical points: x=-2,1,3. Create sign chart.",
-        "Test each interval's sign.",
-        "Negative intervals: x<-2 or 1<x<3."
+        "Critical points: x=-2, x=1, x=3.",
+        "Sign chart:\nx<-2: (-)(-)/(-)= - ✓\n-2<x<1: (+)(-)/(-)= + ✗\n1<x<3: (+)(+)/(-)= - ✓\nx>3: (+)(+)/(+)= + ✗\n\nSolution: x<-2 or 1<x<3 (x≠3)"
       ]
     },
     {
@@ -447,9 +430,7 @@
       "correct_answer": "B",
       "explanation": "x²-5x+6 > 0 → (x-2)(x-3) > 0 → x<2 or x>3\n\nIntegers in [-10,10] with x<2: -10,-9,...,1 → 12 integers\nIntegers in [-10,10] with x>3: 4,5,...,10 → 7 integers\nTotal = **19**",
       "hints": [
-        "Factor: (x-2)(x-3)>0 → x<2 or x>3.",
-        "Integers from -10 to 1: 12. Integers from 4 to 10: 7.",
-        "Total = 19."
+        "x²-5x+6 > 0 → (x-2)(x-3) > 0 → x<2 or x>3\n\nIntegers in [-10,10] with x<2: -10,-9,...,1 → 12 integers\nIntegers in [-10,10] with x>3: 4,5,...,10 → 7 integers\nTotal = **19**"
       ]
     },
     {
@@ -483,9 +464,8 @@
       "correct_answer": "C",
       "explanation": "For quadratic > 0 for ALL x: discriminant < 0 and a > 0.\na=1>0 ✓\nΔ = k²-16 < 0 → k²<16 → **-4<k<4**",
       "hints": [
-        "For ax²+bx+c > 0 for all x: need a>0 and Δ<0.",
-        "a=1>0. Δ=k²-16<0.",
-        "k²<16 → -4<k<4."
+        "For quadratic > 0 for ALL x: discriminant < 0 and a > 0.",
+        "a=1>0 ✓\nΔ = k²-16 < 0 → k²<16 → **-4<k<4**"
       ]
     },
     {
@@ -519,9 +499,7 @@
       "correct_answer": "E",
       "explanation": "x/(x-2)(x+2) ≥ 0\nCritical points: x=-2,0,2\nSign chart:\nx<-2: (-)/(-)(-)= (-) ✗\n-2<x<0: (-)/(-)(+)= (+) ✓\nx=0: 0 ✓\n0<x<2: (+)/(-)(+)= (-) ✗\nx>2: (+)/(+)(+)= (+) ✓\n\nSolution: -2<x≤0 or x>2",
       "hints": [
-        "Factor denominator: x²-4=(x-2)(x+2). Critical points: -2,0,2.",
-        "Build sign chart for x/(x-2)(x+2).",
-        "Positive regions: -2<x≤0 or x>2."
+        "x/(x-2)(x+2) ≥ 0\nCritical points: x=-2,0,2\nSign chart:\nx<-2: (-)/(-)(-)= (-) ✗\n-2<x<0: (-)/(-)(+)= (+) ✓\nx=0: 0 ✓\n0<x<2: (+)/(-)(+)= (-) ✗\nx>2: (+)/(+)(+)= (+) ✓\n\nSolution: -2<x≤0 or x>2"
       ]
     },
     {
@@ -555,9 +533,9 @@
       "correct_answer": "E",
       "explanation": "Need: m>0 (opens upward) AND Δ<0.\nΔ = 36-4m² < 0 → m² > 9 → m>3 or m<-3.\nCombining m>0 with m>3: **m>3**",
       "hints": [
-        "For ax²+bx+c>0 for all x: a>0 and Δ<0.",
-        "Δ=36-4m²<0 → m²>9 → |m|>3.",
-        "Since m>0 required: m>3."
+        "Need: m>0 (opens upward) AND Δ<0.",
+        "Δ = 36-4m² < 0 → m² > 9 → m>3 or m<-3.",
+        "Combining m>0 with m>3: **m>3**"
       ]
     },
     {
@@ -591,9 +569,8 @@
       "correct_answer": "A",
       "explanation": "By triangle inequality: |x-2|+|x-5| ≥ |(x-2)-(x-5)| = |3| = 3\nBut we need ≥ 5... Let's analyze:\n- x<2: (2-x)+(5-x)=7-2x ≥ 5 → x≤1\n- 2≤x≤5: (x-2)+(5-x)=3 — always 3, never ≥5\n- x>5: (x-2)+(x-5)=2x-7 ≥ 5 → x≥6\n\nSolution: x≤1 or x≥6.",
       "hints": [
-        "Split into three cases based on critical points x=2 and x=5.",
-        "For 2≤x≤5: |x-2|+|x-5|=3 (constant). 3≥5 is false.",
-        "For x≤1: sum=7-2x≥5. For x≥6: sum=2x-7≥5. Solution: x≤1 or x≥6."
+        "By triangle inequality: |x-2|+|x-5| ≥ |(x-2)-(x-5)| = |3| = 3\nBut we need ≥ 5...",
+        "Let's analyze:\n- x<2: (2-x)+(5-x)=7-2x ≥ 5 → x≤1\n- 2≤x≤5: (x-2)+(5-x)=3 — always 3, never ≥5\n- x>5: (x-2)+(x-5)=2x-7 ≥ 5 → x≥6\n\nSolution: x≤1 or x≥6."
       ]
     },
     {
@@ -627,9 +604,7 @@
       "correct_answer": "E",
       "explanation": "Check (4,1): 4-1=3>2 ✓; 4+2=6<7 ✓ → **(4,1) is a solution**",
       "hints": [
-        "Test each point in both inequalities.",
-        "(4,1): 4-1=3>2 ✓ and 4+2(1)=6<7 ✓.",
-        "Answer: (4,1)."
+        "Check (4,1): 4-1=3>2 ✓; 4+2=6<7 ✓ → **(4,1) is a solution**"
       ]
     },
     {
@@ -663,9 +638,8 @@
       "correct_answer": "B",
       "explanation": "(x-1)/(x+2) - (x+3)/(x-4) < 0\n= [(x-1)(x-4)-(x+3)(x+2)] / [(x+2)(x-4)] < 0\nNumerator: (x²-5x+4)-(x²+5x+6) = -10x-2 = -2(5x+1)\n\n-2(5x+1)/[(x+2)(x-4)] < 0\n→ (5x+1)/[(x+2)(x-4)] > 0\n\nCritical: x=-1/5, -2, 4\nSign chart confirms: x<-2 or x>4 and also between -1/5 and 4... requires careful checking.",
       "hints": [
-        "Bring all to one side and combine fractions.",
-        "Numerator simplifies to -2(5x+1). Flip inequality direction.",
-        "Sign chart with critical points x=-2, -1/5, and 4."
+        "(x-1)/(x+2) - (x+3)/(x-4) < 0\n= [(x-1)(x-4)-(x+3)(x+2)] / [(x+2)(x-4)] < 0\nNumerator: (x²-5x+4)-(x²+5x+6) = -10x-2 = -2(5x+1)\n\n-2(5x+1)/[(x+2)(x-4)] < 0\n→ (5x+1)/[(x+2)(x-4)] > 0\n\nCritical: x=-1/5, -2, 4\nSign chart confirms: x<-2 or x>4 and also between -1/5 and 4...",
+        "requires careful checking."
       ]
     },
     {
@@ -699,9 +673,10 @@
       "correct_answer": "E",
       "explanation": "Roots of x²+bx+c=0 are x=1 and x=3 (boundary of solution).\nSum of roots = 1+3 = 4 = -b → b=-4\nProduct = 1×3 = 3 = c\nb+c = -4+3 = **-1**\n\n*Hmm, none match exactly. Let me recheck: -b=4 → b=-4, c=3. b+c=-1.*",
       "hints": [
-        "The solution 1<x<3 means x=1 and x=3 are roots of the quadratic.",
-        "Sum of roots = 4 = -b → b=-4. Product = 3 = c.",
-        "b+c = -4+3 = -1."
+        "Roots of x²+bx+c=0 are x=1 and x=3 (boundary of solution).",
+        "Sum of roots = 1+3 = 4 = -b → b=-4\nProduct = 1×3 = 3 = c\nb+c = -4+3 = **-1**\n\n*Hmm, none match exactly.",
+        "Let me recheck: -b=4 → b=-4, c=3.",
+        "b+c=-1.*"
       ]
     },
     {
@@ -735,9 +710,7 @@
       "correct_answer": "E",
       "explanation": "k(k-3)/(k+1) < 0\nCritical: k=0, k=3, k=-1\n\nSign chart:\nk<-1: (-)(-)/(-)= - ✓\n-1<k<0: (-)(-)/(+)= + ✗\n0<k<3: (+)(-)/(+)= - ✓\nk>3: (+)(+)/(+)= + ✗\n\nSolution: k<-1 or 0<k<3\nInteger solutions: ..., -3,-2 and 1,2\nLargest integer: **k=2**",
       "hints": [
-        "Factor numerator: k(k-3). Critical points: 0, 3, -1.",
-        "Sign chart: negative for k<-1 and 0<k<3.",
-        "Integers in 0<k<3: 1 and 2. Largest = 2."
+        "k(k-3)/(k+1) < 0\nCritical: k=0, k=3, k=-1\n\nSign chart:\nk<-1: (-)(-)/(-)= - ✓\n-1<k<0: (-)(-)/(+)= + ✗\n0<k<3: (+)(-)/(+)= - ✓\nk>3: (+)(+)/(+)= + ✗\n\nSolution: k<-1 or 0<k<3\nInteger solutions: ..., -3,-2 and 1,2\nLargest integer: **k=2**"
       ]
     },
     {
@@ -771,9 +744,11 @@
       "correct_answer": "D",
       "explanation": "Domain: x ≥ -3.\n\nCase 1: x-1 < 0 (i.e., x<1): √(x+3) ≥ 0 > x-1 always true. So -3≤x<1 all work.\n\nCase 2: x-1 ≥ 0 (x≥1): square both sides:\nx+3 > (x-1)² = x²-2x+1\n0 > x²-3x-2\nx²-3x-2 < 0\nRoots: x=(3±√17)/2 ≈ (-0.56, 3.56)\nSince x≥1: 1≤x<(3+√17)/2 ≈ 3.56.\n\nSolution: -3≤x<1 OR 1≤x<(3+√17)/2 = -3≤x<(3+√17)/2.",
       "hints": [
-        "Domain: x≥-3. Split into x<1 and x≥1.",
-        "For x<1: RHS is negative, LHS≥0, inequality always holds.",
-        "For x≥1: square both sides (safe since both sides ≥0)."
+        "Domain: x ≥ -3.",
+        "Case 1: x-1 < 0 (i.e., x<1): √(x+3) ≥ 0 > x-1 always true.",
+        "So -3≤x<1 all work.",
+        "Case 2: x-1 ≥ 0 (x≥1): square both sides:\nx+3 > (x-1)² = x²-2x+1\n0 > x²-3x-2\nx²-3x-2 < 0\nRoots: x=(3±√17)/2 ≈ (-0.56, 3.56)\nSince x≥1: 1≤x<(3+√17)/2 ≈ 3.56.",
+        "Solution: -3≤x<1 OR 1≤x<(3+√17)/2 = -3≤x<(3+√17)/2."
       ]
     },
     {
@@ -807,9 +782,11 @@
       "correct_answer": "B",
       "explanation": "The constraints define a region. x+y ≥ 4 means we're above the line x+y=4. 2x-y≤8 means y≥2x-8. With x≥0 and y≥0, there's no upper bound on x+y — the feasible region extends to infinity.\n\nSo x+y is **unbounded** (no maximum).",
       "hints": [
-        "Sketch the feasible region defined by all constraints.",
-        "The constraint x+y≥4 means the region is above the line.",
-        "There's no upper bound on x+y in this region — it's unbounded."
+        "The constraints define a region.",
+        "x+y ≥ 4 means we're above the line x+y=4.",
+        "2x-y≤8 means y≥2x-8.",
+        "With x≥0 and y≥0, there's no upper bound on x+y — the feasible region extends to infinity.",
+        "So x+y is **unbounded** (no maximum)."
       ]
     },
     {
@@ -843,9 +820,7 @@
       "correct_answer": "A",
       "explanation": "x²<9 → |x|<3 → **-3<x<3**",
       "hints": [
-        "x² < 9 means |x| < 3.",
-        "This gives -3 < x < 3.",
-        "Answer: -3 < x < 3."
+        "x²<9 → |x|<3 → **-3<x<3**"
       ]
     },
     {
@@ -879,9 +854,7 @@
       "correct_answer": "E",
       "explanation": "|x-3| < 5 means -5 < x-3 < 5\nx-3 > -5 → x > -2\nx-3 < 5 → x < 8\n**-2 < x < 8**",
       "hints": [
-        "|x-a| < b means -b < x-a < b.",
-        "-5 < x-3 < 5.",
-        "Add 3: -2 < x < 8."
+        "|x-3| < 5 means -5 < x-3 < 5\nx-3 > -5 → x > -2\nx-3 < 5 → x < 8\n**-2 < x < 8**"
       ]
     },
     {
@@ -915,9 +888,7 @@
       "correct_answer": "B",
       "explanation": "|2x+1| ≥ 5 means 2x+1 ≥ 5 or 2x+1 ≤ -5\n2x ≥ 4 → x ≥ 2\n2x ≤ -6 → x ≤ -3\n**x ≥ 2 or x ≤ -3**",
       "hints": [
-        "|A| ≥ b means A ≥ b OR A ≤ -b.",
-        "Case 1: 2x+1≥5 → x≥2. Case 2: 2x+1≤-5 → x≤-3.",
-        "Answer: x≥2 or x≤-3."
+        "|2x+1| ≥ 5 means 2x+1 ≥ 5 or 2x+1 ≤ -5\n2x ≥ 4 → x ≥ 2\n2x ≤ -6 → x ≤ -3\n**x ≥ 2 or x ≤ -3**"
       ]
     },
     {
@@ -951,9 +922,7 @@
       "correct_answer": "D",
       "explanation": "-2x ≥ 4 → x ≤ -2 (flip because dividing by negative!)",
       "hints": [
-        "Subtract 3: -2x ≥ 4.",
-        "Divide by -2: flip the inequality sign!",
-        "x ≤ -2."
+        "-2x ≥ 4 → x ≤ -2 (flip because dividing by negative!)"
       ]
     }
   ]

@@ -112,7 +112,9 @@
       "hints": [
         "The areas are xy=20, yz=30, xz=24.",
         "If we multiply them together: (xy)(yz)(xz) = x²y²z² = 20 × 30 × 24 = 14400.",
-        "Since Volume V = xyz, we take the square root."
+        "Since Volume V = xyz, we take the square root.",
+        "V = √14400 = 120.",
+        "Don't pick 14400, that is V²!"
       ]
     },
     {
@@ -219,7 +221,9 @@
       "hints": [
         "If the base is a square with side s, its diagonal is s√2.",
         "Since s√2 = 10√2, s = 10 cm.",
-        "The area of the square base is 10 × 10 = 100 cm²."
+        "The area of the square base is 10 × 10 = 100 cm².",
+        "Volume = Base_Area × Height.",
+        "So, 1000 = 100 × H → H = 10 cm."
       ]
     },
     {
@@ -255,7 +259,8 @@
       "hints": [
         "Volume V = πr²h.",
         "So 72π = πr²(8) → 72 = 8r² → r² = 9 → r = 3.",
-        "Total surface area = 2πr² (bases) + 2πrh (lateral area)."
+        "Total surface area = 2πr² (bases) + 2πrh (lateral area).",
+        "Area = 2π(3²) + 2π(3)(8) = 18π + 48π = 66π."
       ]
     },
     {
@@ -291,7 +296,8 @@
       "hints": [
         "Volume of original steel block = 4 × 6 × 9 = 216.",
         "The volume of each target cube = 2³ = 8.",
-        "Since it is melted, shape orientation does not matter, only total volume."
+        "Since it is melted, shape orientation does not matter, only total volume.",
+        "216 / 8 = 27 cubes."
       ]
     },
     {
@@ -327,7 +333,10 @@
       "hints": [
         "Volume of cylinder = πr²h.",
         "Volume of cone = (1/3)πr²h.",
-        "For the exact same radius and height, the cylinder is exactly 3 times larger than the cone."
+        "For the exact same radius and height, the cylinder is exactly 3 times larger than the cone.",
+        "Let cone volume = C, so cylinder volume = 3C.",
+        "Total volume = C + 3C = 4C = 100π → C = 25π.",
+        "The cylinder volume is 3C = 75π."
       ]
     },
     {
@@ -362,8 +371,10 @@
       "explanation": "To find the shortest walking path on the surface, we conceptually unbox or 'unfold' the box into a flat 2D shape. The ant can take 3 distinct unfolded paths involving the sides: \nPath 1 (fold 3 and 4 together against 12): √((3+4)² + 12²) = √(7² + 12²) = √(49 + 144) = √193. \nPath 2 (fold 3 and 12 together against 4): √((3+12)² + 4²) = √(15² + 16) = √(225 + 16) = √241. \nPath 3 (fold 4 and 12 together against 3): √((4+12)² + 3²) = √(16² + 9) = √(256 + 9) = √265. \nThe shortest of these 2D distances is √193.",
       "hints": [
         "To find the shortest walking path on the surface, we conceptually unbox or 'unfold' the box into a flat 2D shape.",
-        "The ant can take 3 distinct unfolded paths involving the sides:  Path 1 (fold 3 and 4 together against 12): √((3+4)² + 12²) = √(7² + 12²) = √(49 + 144) = √193.",
-        "Path 2 (fold 3 and 12 together against 4): √((3+12)² + 4²) = √(15² + 16) = √(225 + 16) = √241."
+        "The ant can take 3 distinct unfolded paths involving the sides: \nPath 1 (fold 3 and 4 together against 12): √((3+4)² + 12²) = √(7² + 12²) = √(49 + 144) = √193.",
+        "Path 2 (fold 3 and 12 together against 4): √((3+12)² + 4²) = √(15² + 16) = √(225 + 16) = √241.",
+        "Path 3 (fold 4 and 12 together against 3): √((4+12)² + 3²) = √(16² + 9) = √(256 + 9) = √265.",
+        "The shortest of these 2D distances is √193."
       ]
     },
     {

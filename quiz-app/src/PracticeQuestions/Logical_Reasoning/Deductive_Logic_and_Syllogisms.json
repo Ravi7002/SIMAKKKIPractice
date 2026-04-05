@@ -112,7 +112,8 @@
       "hints": [
         "This relies on the contrapositive.",
         "(If A → B).",
-        "If NOT B happened, then NOT A must have happened."
+        "If NOT B happened, then NOT A must have happened.",
+        "Since Sarah did not 'pass the exam' (Not B), she could not have 'studied hard' (Not A)."
       ]
     },
     {
@@ -148,7 +149,9 @@
       "hints": [
         "This tests the converse fallacy.",
         "If A (Red Shirt) → B (Sector 4).",
-        "Knowing B is true does NOT mean A is true."
+        "Knowing B is true does NOT mean A is true.",
+        "People could be in Sector 4 wearing green shirts.",
+        "So we cannot definitively know what shirt he is wearing."
       ]
     },
     {
@@ -219,7 +222,9 @@
       "hints": [
         "Let's analyze.",
         "We know there exists an intersection of sloots and flirps.",
-        "Any creature in that intersection is a flirp, which means it CANNOT be a cront."
+        "Any creature in that intersection is a flirp, which means it CANNOT be a cront.",
+        "Since these creatures are also sloots, we definitively know that there are some sloots that are not cronts.",
+        "We cannot deduce anything regarding glarbs interacting with flirps or cronts safely."
       ]
     },
     {
@@ -255,7 +260,8 @@
       "hints": [
         "Chain logic (A → B → C).",
         "If Meeting Cancelled (C) is FALSE, then Flight Delayed (B) MUST be FALSE (by contrapositive of Rule 2).",
-        "If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1)."
+        "If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1).",
+        "Thus, neither happened."
       ]
     },
     {
@@ -291,7 +297,9 @@
       "hints": [
         "'Unless X, Not Y' maps to 'If Not X → Not Y'.",
         "Contrapositive: 'If Y → X'.",
-        "This translates to 'If you enter Alpha, you must have a badge'."
+        "This translates to 'If you enter Alpha, you must have a badge'.",
+        "However, just having a badge (X) doesn't guarantee you enter Alpha (Y) - that's the converse fallacy.",
+        "There could be other hidden rules like needing a key."
       ]
     },
     {
@@ -327,7 +335,8 @@
       "hints": [
         "The 'Either X or Y, but not both' statement acts as an XOR logic gate.",
         "If one is false, the other MUST be true.",
-        "The fact 'suspect telling truth' means 'suspect is lying' is FALSE."
+        "The fact 'suspect telling truth' means 'suspect is lying' is FALSE.",
+        "Therefore, 'watch is broken' MUST be TRUE."
       ]
     },
     {
@@ -399,7 +408,9 @@
       "hints": [
         "This tests the converse fallacy.",
         "If A (Red Shirt) → B (Sector 4).",
-        "Knowing B is true does NOT mean A is true."
+        "Knowing B is true does NOT mean A is true.",
+        "People could be in Sector 4 wearing green shirts.",
+        "So we cannot definitively know what shirt he is wearing."
       ]
     },
     {
@@ -435,7 +446,9 @@
       "hints": [
         "This tests the converse fallacy.",
         "If A (Red Shirt) → B (Sector 4).",
-        "Knowing B is true does NOT mean A is true."
+        "Knowing B is true does NOT mean A is true.",
+        "People could be in Sector 4 wearing green shirts.",
+        "So we cannot definitively know what shirt he is wearing."
       ]
     },
     {
@@ -577,7 +590,9 @@
       "hints": [
         "'Unless X, Not Y' maps to 'If Not X → Not Y'.",
         "Contrapositive: 'If Y → X'.",
-        "This translates to 'If you enter Alpha, you must have a badge'."
+        "This translates to 'If you enter Alpha, you must have a badge'.",
+        "However, just having a badge (X) doesn't guarantee you enter Alpha (Y) - that's the converse fallacy.",
+        "There could be other hidden rules like needing a key."
       ]
     },
     {
@@ -613,7 +628,9 @@
       "hints": [
         "'Unless X, Not Y' maps to 'If Not X → Not Y'.",
         "Contrapositive: 'If Y → X'.",
-        "This translates to 'If you enter Alpha, you must have a badge'."
+        "This translates to 'If you enter Alpha, you must have a badge'.",
+        "However, just having a badge (X) doesn't guarantee you enter Alpha (Y) - that's the converse fallacy.",
+        "There could be other hidden rules like needing a key."
       ]
     },
     {
@@ -649,7 +666,8 @@
       "hints": [
         "The 'Either X or Y, but not both' statement acts as an XOR logic gate.",
         "If one is false, the other MUST be true.",
-        "The fact 'suspect telling truth' means 'suspect is lying' is FALSE."
+        "The fact 'suspect telling truth' means 'suspect is lying' is FALSE.",
+        "Therefore, 'watch is broken' MUST be TRUE."
       ]
     },
     {
@@ -685,7 +703,8 @@
       "hints": [
         "This relies on the contrapositive.",
         "(If A → B).",
-        "If NOT B happened, then NOT A must have happened."
+        "If NOT B happened, then NOT A must have happened.",
+        "Since Sarah did not 'pass the exam' (Not B), she could not have 'studied hard' (Not A)."
       ]
     },
     {
@@ -721,7 +740,9 @@
       "hints": [
         "This tests the converse fallacy.",
         "If A (Red Shirt) → B (Sector 4).",
-        "Knowing B is true does NOT mean A is true."
+        "Knowing B is true does NOT mean A is true.",
+        "People could be in Sector 4 wearing green shirts.",
+        "So we cannot definitively know what shirt he is wearing."
       ]
     },
     {
@@ -757,7 +778,9 @@
       "hints": [
         "Let's analyze.",
         "We know there exists an intersection of sloots and flirps.",
-        "Any creature in that intersection is a flirp, which means it CANNOT be a cront."
+        "Any creature in that intersection is a flirp, which means it CANNOT be a cront.",
+        "Since these creatures are also sloots, we definitively know that there are some sloots that are not cronts.",
+        "We cannot deduce anything regarding glarbs interacting with flirps or cronts safely."
       ]
     },
     {
@@ -827,7 +850,8 @@
       "hints": [
         "The 'Either X or Y, but not both' statement acts as an XOR logic gate.",
         "If one is false, the other MUST be true.",
-        "The fact 'suspect telling truth' means 'suspect is lying' is FALSE."
+        "The fact 'suspect telling truth' means 'suspect is lying' is FALSE.",
+        "Therefore, 'watch is broken' MUST be TRUE."
       ]
     },
     {
@@ -899,7 +923,8 @@
       "hints": [
         "Chain logic (A → B → C).",
         "If Meeting Cancelled (C) is FALSE, then Flight Delayed (B) MUST be FALSE (by contrapositive of Rule 2).",
-        "If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1)."
+        "If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1).",
+        "Thus, neither happened."
       ]
     }
   ],

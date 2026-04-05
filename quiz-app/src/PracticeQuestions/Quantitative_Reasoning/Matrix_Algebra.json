@@ -41,7 +41,10 @@
       "hints": [
         "Matrix addition is performed element by element.",
         "Top-left: 2 + 1 = 3.",
-        "Top-right: 1 + 4 = 5."
+        "Top-right: 1 + 4 = 5.",
+        "Bottom-left: 0 + 2 = 2.",
+        "Bottom-right: 3 + 1 = 4.",
+        "Result is [[3, 5], [2, 4]]."
       ]
     },
     {
@@ -112,7 +115,10 @@
       "hints": [
         "Matrix multiplication involves dotting the rows of the first matrix across the columns of the second.",
         "Top-Left: (1*2) + (2*1) = 4.",
-        "Top-Right: (1*0) + (2*2) = 4."
+        "Top-Right: (1*0) + (2*2) = 4.",
+        "Bottom-Left: (3*2) + (4*1) = 10.",
+        "Bottom-Right: (3*0) + (4*2) = 8.",
+        "Result is [[4, 4], [10, 8]]."
       ]
     },
     {
@@ -183,8 +189,7 @@
       "explanation": "A matrix has no inverse if its determinant equals 0. \nDet = (x*4) - (2*3) = 4x - 6 = 0 → 4x = 6 → x = 6/4 = 3/2 = 1.5.",
       "hints": [
         "A matrix has no inverse if its determinant equals 0.",
-        "Det = (x*4) - (2*3) = 4x - 6 = 0 → 4x = 6 → x = 6/4 = 3/2 = 1.",
-        "5."
+        "Det = (x*4) - (2*3) = 4x - 6 = 0 → 4x = 6 → x = 6/4 = 3/2 = 1.5."
       ]
     },
     {
@@ -220,7 +225,11 @@
       "hints": [
         "The equations are: 2x + y = 5, and -x + y = 2.",
         "Subtract the second from the first: (2x - (-x)) + (y - y) = 5 - 2 → 3x = 3 → x = 1.",
-        "Substitute x = 1 into -x + y = 2 → -1 + y = 2 → y = 3."
+        "Substitute x = 1 into -x + y = 2 → -1 + y = 2 → y = 3.",
+        "We need to find x - y = 1 - 3 = -2.",
+        "Wait, option C says -2/3.",
+        "Let me replace option C with -2, but E is already -2.",
+        "I'll mark E as correct."
       ]
     },
     {
@@ -292,7 +301,8 @@
       "hints": [
         "When a matrix of size n x n is multiplied by a scalar k, the determinant is multiplied by k^n.",
         "Here, M is 3x3 and k = 2.",
-        "So Det(2M) = 2³ * Det(M) = 8 * 5 = 40."
+        "So Det(2M) = 2³ * Det(M) = 8 * 5 = 40.",
+        "Distractor trap A is 10 (just 5*2)."
       ]
     },
     {
@@ -364,7 +374,9 @@
       "hints": [
         "Start from the equation: A² - 4A = 5I.",
         "Factor out A on the left: A(A - 4I) = 5I.",
-        "Multiply both sides by A⁻¹: (A - 4I) = 5(A⁻¹ * I)."
+        "Multiply both sides by A⁻¹: (A - 4I) = 5(A⁻¹ * I).",
+        "(A - 4I) = 5A⁻¹.",
+        "Divide by 5: A⁻¹ = (1/5)(A - 4I)."
       ]
     },
     {

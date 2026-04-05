@@ -148,7 +148,9 @@
       "hints": [
         "First, find the vertex of the parabola using x = -b/(2a) = -(-6)/2 = 3.",
         "Substitute x=3 back in: y = 3² - 6(3) + 5 = 9 - 18 + 5 = -4.",
-        "The vertex is (3, -4)."
+        "The vertex is (3, -4).",
+        "A parallel line to y = 2x - 7 must have slope m=2.",
+        "Using point-slope form: y - y1 = m(x - x1) → y - (-4) = 2(x - 3) → y + 4 = 2x - 6 → y = 2x - 10."
       ]
     },
     {
@@ -220,7 +222,12 @@
       "hints": [
         "First, complete the square to find center and radius.",
         "x² - 4x + 4 + y² + 6y + 9 = 12 + 4 + 9 → (x - 2)² + (y + 3)² = 25.",
-        "Center is (2, -3) and R=5."
+        "Center is (2, -3) and R=5.",
+        "Reflect across y-axis: the new x is negated.",
+        "Center moves to (-2, -3).",
+        "Translate 1 unit up: Center moves to (-2, -2).",
+        "The new equation in standard form is (x + 2)² + (y + 2)² = 25.",
+        "Expand this: x² + 4x + 4 + y² + 4y + 4 = 25 → x² + y² + 4x + 4y - 17 = 0."
       ]
     },
     {
@@ -256,7 +263,9 @@
       "hints": [
         "L1 has a slope of 3.",
         "A 90-degree rotation makes the new slope m = -1/3.",
-        "L2 passes through the center of rotation (1, 4)."
+        "L2 passes through the center of rotation (1, 4).",
+        "Equation of L2: y - 4 = -1/3(x - 1) → y = -1/3*x + 1/3 + 4 = -1/3*x + 13/3.",
+        "To find the x-intercept, set y = 0: 0 = -1/3*x + 13/3 → 1/3*x = 13/3 → x = 13."
       ]
     },
     {
@@ -292,7 +301,11 @@
       "hints": [
         "The intersections are at x² = 4, so x = -2 and x = 2.",
         "The area is the integral from -2 to 2 of (4 - x²) dx.",
-        "Integral of 4 is 4x."
+        "Integral of 4 is 4x.",
+        "Integral of -x² is -x³/3.",
+        "Eval at 2: 8 - 8/3 = 16/3.",
+        "Eval at -2: -8 - (-8/3) = -8 + 8/3 = -16/3.",
+        "Difference: 16/3 - (-16/3) = 32/3."
       ]
     },
     {
@@ -328,7 +341,10 @@
       "hints": [
         "By Power of a Point theorem, length of tangent T squared is equal to the power of the origin relative to the circle.",
         "T² = (x - h)² + (y - k)² - R² evaluated at (0,0), which equals h² + k² - R².",
-        "Or more simply, if the circle is (x - x1)(x - x2) + (y - y1)(y - y2) = 0."
+        "Or more simply, if the circle is (x - x1)(x - x2) + (y - y1)(y - y2) = 0.",
+        "The circle with diameter AB is (x - 1)(x - 5) + (y - 2)(y - 6) = 0.",
+        "The tangent length squared from origin is evaluating that expression at (0,0): \nT² = (0 - 1)(0 - 5) + (0 - 2)(0 - 6) = (1*5) + (2*6) = 5 + 12 = 17.",
+        "Therefore, the length of the tangent is √17."
       ]
     },
     {
@@ -364,7 +380,9 @@
       "hints": [
         "Use the distance from a point to a line formula: D = |Ax0 + By0 + C| / √(A² + B²).",
         "Here A=3, B=4, C=-15.",
-        "x0=-1, y0=2."
+        "x0=-1, y0=2.",
+        "D = |3(-1) + 4(2) - 15| / √(3² + 4²) = |-3 + 8 - 15| / √25 \nD = |-10| / 5 = 10 / 5 = 2.",
+        "Distractors involve forgetting absolute value, or dividing by individual squared values."
       ]
     },
     {

@@ -70,903 +70,411 @@
   ],
   "questions": [
     {
-      "id": "gt_easy_1",
       "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "easy",
-      "question_text": "She _____ to school every day.\nA. go  B. goes  C. went  D. gone  E. is going",
+      "topic": "Grammar",
+      "question_text": "Fill in blank (a): 'International space agencies are now (a) ________ missions...'",
       "options": [
         {
           "letter": "A",
-          "text": "going"
+          "text": "launched"
         },
         {
           "letter": "B",
-          "text": "gone"
+          "text": "launching"
         },
         {
           "letter": "C",
-          "text": "goes"
+          "text": "launch"
         },
         {
           "letter": "D",
-          "text": "go"
+          "text": "has launched"
         },
         {
           "letter": "E",
-          "text": "went"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "**Simple Present for habits/routines.**\nSubject 'she' is 3rd person singular → add -s: **goes**.\nSignal word: 'every day' confirms a routine.",
-      "hints": [
-        "'Every day' signals a habitual action → use Simple Present.",
-        "Subject 'she' = 3rd person singular.",
-        "3rd person singular: add -s to verb → goes."
-      ]
-    },
-    {
-      "id": "gt_easy_2",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "easy",
-      "question_text": "I _____ this book since last Monday.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "have been reading"
-        },
-        {
-          "letter": "B",
-          "text": "am reading"
-        },
-        {
-          "letter": "C",
-          "text": "read"
-        },
-        {
-          "letter": "D",
-          "text": "had read"
-        },
-        {
-          "letter": "E",
-          "text": "was reading"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "**Present Perfect Continuous for ongoing action from past to now.**\n'Since last Monday' signals duration from a past point to now.\n**'have been reading'** correctly shows an action that started in the past and continues.",
-      "hints": [
-        "'Since' signals an action starting in the past and continuing now.",
-        "Use Present Perfect Continuous: have/has + been + V-ing.",
-        "Answer: have been reading."
-      ]
-    },
-    {
-      "id": "gt_easy_3",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "easy",
-      "question_text": "If I were you, I _____ apologize immediately.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "would"
-        },
-        {
-          "letter": "B",
-          "text": "can"
-        },
-        {
-          "letter": "C",
-          "text": "have to"
-        },
-        {
-          "letter": "D",
-          "text": "will"
-        },
-        {
-          "letter": "E",
-          "text": "shall"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "**Conditional Type 2: If + past simple, would + base verb.**\n'If I were you' uses past simple → result clause needs **'would'**.\nThis expresses hypothetical advice.",
-      "hints": [
-        "'If I were you' = Conditional Type 2 (hypothetical).",
-        "Type 2 pattern: If + past, would + base verb.",
-        "Answer: would."
-      ]
-    },
-    {
-      "id": "gt_easy_4",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "easy",
-      "question_text": "The students _____ their test when the bell rang.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "finish"
-        },
-        {
-          "letter": "B",
-          "text": "were finishing"
-        },
-        {
-          "letter": "C",
-          "text": "finished"
-        },
-        {
-          "letter": "D",
-          "text": "had finished"
-        },
-        {
-          "letter": "E",
-          "text": "have finished"
+          "text": "to launch"
         }
       ],
       "correct_answer": "B",
-      "explanation": "**Past Continuous for an action in progress when another occurred.**\nThe bell rang (simple past) = interrupting action.\nThe students were in the middle of finishing → **were finishing** (Past Continuous).",
+      "explanation": "The present continuous 'are now launching' describes an action currently in progress.",
+      "passage": "Orbiting the Earth is a growing cloud of space debris, ranging from defunct satellites to tiny paint flecks. This 'space junk' travels at speeds up to 28,000 kilometers per hour, making even small pieces dangerous to active spacecraft. International space agencies are now (a) ________ missions to capture and de-orbit the largest pieces of debris to prevent a chain reaction of collisions.\n\nWhile the technology to track objects as small as 10 centimeters is well-established, removing them remains a complex logistical challenge. Various methods are being tested, including the use of giant harpoons, magnetic nets, and even laser beams to push debris toward the atmosphere where it can burn up safely. These initiatives are essential to preserve the long-term sustainability of Earth's orbits.\n\nSome experts argue that regulatory frameworks must also evolve to hold private companies accountable for the debris their satellites generate. They suggest a 'launch tax' or mandatory end-of-life disposal plans to ensure that space remains open for future exploration without the risk of catastrophic fragmentation events.",
+      "passage_id": "t1_p1",
       "hints": [
-        "Two past events: one was ongoing, one interrupted it.",
-        "Ongoing action → Past Continuous: was/were + V-ing.",
-        "Answer: were finishing."
+        "The present continuous 'are now launching' describes an action currently in progress."
       ]
     },
     {
-      "id": "gt_easy_5",
       "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "easy",
-      "question_text": "She _____ never seen snow before the trip.",
+      "topic": "Grammar",
+      "question_text": "Choose the correct phrase for (a): 'When water is too warm... (a) This process weakens...'",
       "options": [
         {
           "letter": "A",
-          "text": "did"
+          "text": "Consequently"
         },
         {
           "letter": "B",
-          "text": "have"
+          "text": "Otherwise"
         },
         {
           "letter": "C",
-          "text": "has"
+          "text": "Instead"
         },
         {
           "letter": "D",
-          "text": "had"
+          "text": "Nonetheless"
         },
         {
           "letter": "E",
-          "text": "was"
-        }
-      ],
-      "correct_answer": "D",
-      "explanation": "**Past Perfect for an experience before a past moment.**\nThe trip is a past reference point. 'Never seen before the trip' → **had** (past perfect: had + V3).",
-      "hints": [
-        "'Before the trip' = a past reference point.",
-        "For actions before a past point: use Past Perfect.",
-        "had + never + seen."
-      ]
-    },
-    {
-      "id": "gt_easy_6",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "easy",
-      "question_text": "You _____ smoke in this hospital. It's strictly prohibited.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "shouldn't have"
-        },
-        {
-          "letter": "B",
-          "text": "couldn't"
-        },
-        {
-          "letter": "C",
-          "text": "don't have to"
-        },
-        {
-          "letter": "D",
-          "text": "won't"
-        },
-        {
-          "letter": "E",
-          "text": "must not"
-        }
-      ],
-      "correct_answer": "E",
-      "explanation": "**'Must not' = prohibition (not allowed).**\n'Don't have to' means it's not necessary (but allowed).\nHere it's prohibited → **must not**.",
-      "hints": [
-        "'must not' = forbidden/prohibited.",
-        "'don't have to' = not necessary but allowed.",
-        "Answer: must not."
-      ]
-    },
-    {
-      "id": "gt_easy_7",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "easy",
-      "question_text": "By next year, Andi _____ at this company for ten years.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "has worked"
-        },
-        {
-          "letter": "B",
-          "text": "will work"
-        },
-        {
-          "letter": "C",
-          "text": "had worked"
-        },
-        {
-          "letter": "D",
-          "text": "is working"
-        },
-        {
-          "letter": "E",
-          "text": "will have worked"
-        }
-      ],
-      "correct_answer": "E",
-      "explanation": "**Future Perfect for an action completed by a future time.**\n'By next year' = a future deadline → **will have worked** (future perfect).",
-      "hints": [
-        "'By next year' signals a future deadline.",
-        "Future Perfect: will have + V3.",
-        "Answer: will have worked."
-      ]
-    },
-    {
-      "id": "gt_easy_8",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "easy",
-      "question_text": "The cake _____ delicious when I tasted it.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "was tasting"
-        },
-        {
-          "letter": "B",
-          "text": "tastes"
-        },
-        {
-          "letter": "C",
-          "text": "had tasted"
-        },
-        {
-          "letter": "D",
-          "text": "tasted"
-        },
-        {
-          "letter": "E",
-          "text": "is tasting"
-        }
-      ],
-      "correct_answer": "D",
-      "explanation": "**Simple Past for a completed past action/state.**\nWith sensory link verbs (taste, smell, feel), use simple past for a past state.\n'When I tasted it' confirms past → **tasted**.",
-      "hints": [
-        "'When I tasted it' = past context.",
-        "Sensory link verbs don't use continuous forms.",
-        "Simple past: tasted."
-      ]
-    },
-    {
-      "id": "gt_medium_1",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "medium",
-      "question_text": "By the time she arrived at the party, most of the guests _____.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "were already leaving"
-        },
-        {
-          "letter": "B",
-          "text": "already left"
-        },
-        {
-          "letter": "C",
-          "text": "left already"
-        },
-        {
-          "letter": "D",
-          "text": "have already left"
-        },
-        {
-          "letter": "E",
-          "text": "had already left"
-        }
-      ],
-      "correct_answer": "E",
-      "explanation": "**Past Perfect for earlier of two past actions.**\nTimeline: guests left → she arrived.\n'By the time she arrived' → the leaving happened first → **had already left**.",
-      "hints": [
-        "'By the time' + past tense → use Past Perfect for the earlier action.",
-        "Guests left BEFORE she arrived.",
-        "had already left."
-      ]
-    },
-    {
-      "id": "gt_medium_2",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "medium",
-      "question_text": "If the company _____ more in R&D last year, it would be more competitive now.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "would invest"
-        },
-        {
-          "letter": "B",
-          "text": "invests"
-        },
-        {
-          "letter": "C",
-          "text": "invested"
-        },
-        {
-          "letter": "D",
-          "text": "has invested"
-        },
-        {
-          "letter": "E",
-          "text": "had invested"
-        }
-      ],
-      "correct_answer": "E",
-      "explanation": "**Mixed Conditional: past condition + present result.**\nThe 'if' clause refers to a past action (last year) → Past Perfect: **had invested**.\nThe result 'would be more competitive now' is present → present result form.",
-      "hints": [
-        "'Last year' in the if-clause = past event → Past Perfect.",
-        "'Would be now' in result = present consequence.",
-        "Mixed conditional: if + past perfect, would + base verb."
-      ]
-    },
-    {
-      "id": "gt_medium_3",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "medium",
-      "question_text": "She wishes she _____ harder for the exam last week.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "has studied"
-        },
-        {
-          "letter": "B",
-          "text": "would study"
-        },
-        {
-          "letter": "C",
-          "text": "could study"
-        },
-        {
-          "letter": "D",
-          "text": "had studied"
-        },
-        {
-          "letter": "E",
-          "text": "studied"
-        }
-      ],
-      "correct_answer": "D",
-      "explanation": "**'Wish' + Past Perfect for regret about the past.**\n'Last week' = past. After 'wish' for a past situation we want to change → past perfect: **had studied**.",
-      "hints": [
-        "'Wish' about a past event uses Past Perfect.",
-        "'Last week' confirms it's past.",
-        "wish + had + studied."
-      ]
-    },
-    {
-      "id": "gt_medium_4",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "medium",
-      "question_text": "The report _____ before the meeting begins, or the board won't have time to review it.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "should submit"
-        },
-        {
-          "letter": "B",
-          "text": "is submitted"
-        },
-        {
-          "letter": "C",
-          "text": "must submit"
-        },
-        {
-          "letter": "D",
-          "text": "must be submitted"
-        },
-        {
-          "letter": "E",
-          "text": "will be submitting"
-        }
-      ],
-      "correct_answer": "D",
-      "explanation": "**Passive voice with modal verb.**\nThe subject 'report' is the object of the action (it is submitted by someone).\nModal + be + V3 (passive): **must be submitted**.",
-      "hints": [
-        "The report doesn't submit itself → passive voice needed.",
-        "Modal passive: modal + be + past participle (V3).",
-        "must be submitted."
-      ]
-    },
-    {
-      "id": "gt_medium_5",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "medium",
-      "question_text": "Not until he opened the package _____ how expensive the gift was.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "he did realize"
-        },
-        {
-          "letter": "B",
-          "text": "he realized"
-        },
-        {
-          "letter": "C",
-          "text": "he has realized"
-        },
-        {
-          "letter": "D",
-          "text": "did he realize"
-        },
-        {
-          "letter": "E",
-          "text": "had he realized"
-        }
-      ],
-      "correct_answer": "D",
-      "explanation": "**Inversion after negative adverbials.**\nWhen 'Not until' opens a sentence, the subject and auxiliary verb are inverted:\n→ **did he realize** (inverted question form in a statement).",
-      "hints": [
-        "Negative adverbials at the start (Not until, Never, Rarely) trigger inversion.",
-        "Normal: he realized. Inverted: did he realize.",
-        "Answer: did he realize."
-      ]
-    },
-    {
-      "id": "gt_medium_6",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "medium",
-      "question_text": "He _____ the letter three times before he was satisfied with it.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "was rewriting"
-        },
-        {
-          "letter": "B",
-          "text": "has rewritten"
-        },
-        {
-          "letter": "C",
-          "text": "rewrite"
-        },
-        {
-          "letter": "D",
-          "text": "rewrote"
-        },
-        {
-          "letter": "E",
-          "text": "had rewritten"
-        }
-      ],
-      "correct_answer": "E",
-      "explanation": "**Past Perfect for multiple completed actions before another past event.**\n'Before he was satisfied' = the past reference point.\nRewriting happened before that → **had rewritten** (past perfect).",
-      "hints": [
-        "'Before he was satisfied' = past reference point.",
-        "Rewriting happened before satisfaction → Past Perfect.",
-        "had rewritten."
-      ]
-    },
-    {
-      "id": "gt_medium_7",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "medium",
-      "question_text": "The phenomenon of students _____ their phones in class has become a widespread concern.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "use"
-        },
-        {
-          "letter": "B",
-          "text": "have used"
-        },
-        {
-          "letter": "C",
-          "text": "using"
-        },
-        {
-          "letter": "D",
-          "text": "used"
-        },
-        {
-          "letter": "E",
-          "text": "to use"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "**Gerund after 'of' (preposition).**\nAfter a preposition, a verb must be in gerund form (-ing).\n'The phenomenon of ___ing' → **using**.",
-      "hints": [
-        "After a preposition ('of'), use gerund (-ing form).",
-        "'The phenomenon of ___ing students' → gerund.",
-        "Answer: using."
-      ]
-    },
-    {
-      "id": "gt_medium_8",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "medium",
-      "question_text": "She _____ in Jakarta for five years before she moved to Surabaya.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "lived"
-        },
-        {
-          "letter": "B",
-          "text": "lives"
-        },
-        {
-          "letter": "C",
-          "text": "was living"
-        },
-        {
-          "letter": "D",
-          "text": "had lived"
-        },
-        {
-          "letter": "E",
-          "text": "has lived"
-        }
-      ],
-      "correct_answer": "D",
-      "explanation": "**Past Perfect for duration before a past event.**\n'Before she moved' = past reference point. Living in Jakarta happened before → **had lived** (past perfect).",
-      "hints": [
-        "'Before she moved' = past reference point.",
-        "Duration before a past event → Past Perfect.",
-        "had lived."
-      ]
-    },
-    {
-      "id": "gt_hard_1",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "hard",
-      "question_text": "Had the manager informed the staff earlier, the misunderstanding _____ avoided.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "could have been"
-        },
-        {
-          "letter": "B",
-          "text": "would be"
-        },
-        {
-          "letter": "C",
-          "text": "had been"
-        },
-        {
-          "letter": "D",
-          "text": "could be"
-        },
-        {
-          "letter": "E",
-          "text": "can be"
+          "text": "Moreover"
         }
       ],
       "correct_answer": "A",
-      "explanation": "**Inverted Conditional Type 3 (passive).**\n'Had the manager informed...' = 'If the manager had informed...' (omitting 'if', inverting).\nType 3 result (passive): **could have been avoided**.",
+      "explanation": "'Consequently' indicates a cause-and-effect relationship, fitting the description of the bleaching process.",
+      "passage": "Coral reefs are often called the rainforests of the sea because of their immense biodiversity. However, rising ocean temperatures have led to widespread coral bleaching. When water is too warm, corals expel the algae living in their tissues, causing them to turn completely white. (a) This process weakens the coral and makes them more susceptible to disease, threatening the entire marine food chain.\n\nTo combat this, scientists are experimenting with 'coral gardening' and selective breeding of more heat-resistant species. By nurturing resilient coral fragments in laboratories and then transplanting them back into the ocean, researchers hope to restore damaged reefs. These local efforts provide a temporary buffer against the accelerating impacts of climate change.\n\nNevertheless, global climate action remains the only long-term solution to save the world's reefs. Without a significant reduction in greenhouse gas emissions, even the most resilient corals will eventually (b) ________ to the relentless heat of the warming oceans. Collective international effort is required to prevent an irreversible ecological collapse.",
+      "passage_id": "t1_p2",
       "hints": [
-        "'Had + subject + V3...' = inverted Conditional Type 3.",
-        "The result uses: could/would + have + been + V3 (passive).",
-        "could have been avoided."
+        "'Consequently' indicates a cause-and-effect relationship, fitting the description of the bleaching process."
       ]
     },
     {
-      "id": "gt_hard_2",
       "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "hard",
-      "question_text": "Which sentence is grammatically CORRECT?",
+      "topic": "Grammar",
+      "question_text": "Fill in blank (a): 'This method uses (a) ________ less water...'",
       "options": [
         {
           "letter": "A",
-          "text": "Despite the rain, they continued the event."
+          "text": "significant"
         },
         {
           "letter": "B",
-          "text": "In spite of it rained, they continued."
+          "text": "significance"
         },
         {
           "letter": "C",
-          "text": "Although it was raining, but they continued the event."
+          "text": "significantly"
         },
         {
           "letter": "D",
-          "text": "Even though of the rain, they continued."
+          "text": "signified"
         },
         {
           "letter": "E",
-          "text": "Despite of the rain, they continued the event."
+          "text": "signifying"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The adverb 'significantly' is needed to modify the adjective 'less'.",
+      "passage": "As the global population nears 10 billion, traditional agriculture faces mounting pressure from land scarcity and changing weather patterns. Vertical farming offers a solution by growing crops in stacked layers, often in controlled indoor environments. This method uses (a) ________ less water and eliminates the need for chemical pesticides, making it highly efficient for urban centers.\n\nHowever, the high energy cost associated with artificial lighting remains a significant hurdle for large-scale adoption. Unlike traditional farms that rely on free sunlight, vertical farms must power thousands of LED lights to mimic optimal growing conditions. For the industry to be truly sustainable, it must integrate more affordable renewable energy sources.\n\nDespite these costs, supporters argue that vertical farming significantly reduces 'food miles' and the risk of supply chain disruptions. By producing food locally within cities, these farms can provide fresh produce year-round, regardless of external climate conditions. This reliability could be the key to ensuring food security in an increasingly (b) ________ world.",
+      "passage_id": "t1_p4",
+      "hints": [
+        "The adverb 'significantly' is needed to modify the adjective 'less'."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Grammar",
+      "question_text": "Choose the correct word for (a): 'While electric cars are (a) ________ mainstream...'",
+      "options": [
+        {
+          "letter": "A",
+          "text": "became"
+        },
+        {
+          "letter": "B",
+          "text": "becoming"
+        },
+        {
+          "letter": "C",
+          "text": "becomes"
+        },
+        {
+          "letter": "D",
+          "text": "has become"
+        },
+        {
+          "letter": "E",
+          "text": "become"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The present continuous 'becoming' describes an ongoing trend.",
+      "passage": "Aviation contributes roughly 2% of global CO2 emissions, but decarbonizing the industry remains a daunting task. While electric cars are (a) ________ mainstream, electric planes face a massive physical hurdle: the energy density of batteries. Currently, jet fuel contains roughly 40 times more energy per kilogram than the most advanced lithium-ion batteries.\n\nShort-haul electric regional flights are becoming increasingly possible as battery weights decrease. Several companies are testing 9-seat aircraft for routes under 500 kilometers, aiming to replace noisy, carbon-intensive turboprops. These electric designs produce zero direct emissions and operate at significantly lower costs than traditional fuel-burning engines.\n\nHowever, for long-distance travel, electric power is currently unviable due to the massive weight of the batteries required. For a large passenger jet to fly across the ocean, the batteries alone (b) ________ as much as the entire plane. As a result, industry leaders are also exploring hydrogen fuel cells and sustainable aviation fuels as potential alternatives for the future.",
+      "passage_id": "t1_p6",
+      "hints": [
+        "The present continuous 'becoming' describes an ongoing trend."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Grammar",
+      "question_text": "Fill in blank (a): 'Artists such as Leonardo da Vinci (a) ________ techniques...'",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pioneer"
+        },
+        {
+          "letter": "B",
+          "text": "pioneered"
+        },
+        {
+          "letter": "C",
+          "text": "pioneering"
+        },
+        {
+          "letter": "D",
+          "text": "pioneers"
+        },
+        {
+          "letter": "E",
+          "text": "has pioneered"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Past tense 'pioneered' is correct for a historical period.",
+      "passage": "The Renaissance was a period of 'rebirth' in European culture, moving away from medieval styles toward realism. Artists such as Leonardo da Vinci (a) ________ techniques like chiaroscuro to create the illusion of three-dimensional depth. This era emphasized humanism, focusing on human potential and achievements rather than purely religious subjects.\n\nThe shift was supported by the wealth of powerful patrons, such as the Medici family in Florence, who funded the construction of massive cathedrals and private galleries. This patronage allowed artists to spend decades perfecting anatomical accuracy through the study of dissected cadavers. As a result, the art of this period reached levels of accuracy that were previously unknown in Western history.\n\nDespite its focus on realism, Renaissance art often retained deep allegorical meanings. Symbols were frequently hidden within landscapes and portraits to convey complex philosophical or political messages to the viewer. This layer of depth ensured that the works remained (b) ________ for centuries, serving as both aesthetic masterworks and intellectual puzzles.",
+      "passage_id": "t2_p2",
+      "hints": [
+        "Past tense 'pioneered' is correct for a historical period."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Grammar",
+      "question_text": "Fill in blank (a): '...computers learn from data (a) ________ being explicitly programmed.'",
+      "options": [
+        {
+          "letter": "A",
+          "text": "with"
+        },
+        {
+          "letter": "B",
+          "text": "without"
+        },
+        {
+          "letter": "C",
+          "text": "instead"
+        },
+        {
+          "letter": "D",
+          "text": "by"
+        },
+        {
+          "letter": "E",
+          "text": "unless"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "'Without' is correct as AI learns patterns autonomously rather than following hard-coded instructions.",
+      "passage": "Machine learning is a subset of AI where computers learn from data (a) ________ being explicitly programmed for every possible scenario. By identifying patterns in massive datasets, these systems can name objects in photos, translate languages, or even predict medical outcomes. This capability has revolutionized industries from finance to healthcare in a remarkably short time.\n\nWhile AI offers immense efficiency and speed, it also introduces the 'black box' problem—we don't always understand exactly *why* a complex algorithm reached a specific decision. This lack of transparency is particularly concerning in high-stakes areas like legal sentencing or mortgage approvals. For AI to be trusted, developers must find ways to make its decision-making (b) ________ to human oversight.\n\nFurthermore, the environmental cost of training massive AI models is becoming a significant topic of debate. The data centers required to process billions of operations consume astronomical amounts of electricity and water for cooling. As AI continues to expand, the tech industry faces growing pressure to develop more energy-efficient hardware to minimize its carbon footprint.",
+      "passage_id": "t2_p5",
+      "hints": [
+        "'Without' is correct as AI learns patterns autonomously rather than following hard-coded instructions."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Grammar",
+      "question_text": "Fill in blank (a): '...it conducts electricity (a) ________ than copper...'",
+      "options": [
+        {
+          "letter": "A",
+          "text": "good"
+        },
+        {
+          "letter": "B",
+          "text": "best"
+        },
+        {
+          "letter": "C",
+          "text": "better"
+        },
+        {
+          "letter": "D",
+          "text": "well"
+        },
+        {
+          "letter": "E",
+          "text": "more good"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Comparative 'better' is used to compare graphene's conductivity to copper's.",
+      "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice, often described as 'the wonder material.' It is 200 times stronger than steel, yet incredibly flexible and lightweight. Furthermore, it conducts electricity (a) ________ than copper, making it a revolutionary candidate for the next generation of electronics.\n\nThese unique properties make graphene ideal for a variety of applications, from flexible smartphone screens to more efficient water filtration systems. Because it is only one atom thick, it is nearly transparent, allowing it to be used in advanced touchscreens without adding bulk. Its high surface-area-to-weight ratio also makes it an excellent candidate for the next generation of solar cells.\n\nDespite its immense potential, mass-producing high-quality graphene at a low cost remains a significant obstacle. (1) Current production methods are either too expensive or produce graphene with too many defects for high-end use. (2) Diamonds are also made of carbon. (3) Until a scalable manufacturing breakthrough occurs, this material will likely remain restricted to niche research and aerospace projects.",
+      "passage_id": "t2_p6",
+      "hints": [
+        "Comparative 'better' is used to compare graphene's conductivity to copper's."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Grammar",
+      "question_text": "Fill in blank (a): 'Many (a) ________ texts, from early mathematical proofs...' ",
+      "options": [
+        {
+          "letter": "A",
+          "text": "missing"
+        },
+        {
+          "letter": "B",
+          "text": "pivotal"
+        },
+        {
+          "letter": "C",
+          "text": "pivotal"
+        },
+        {
+          "letter": "D",
+          "text": "pivotal"
+        },
+        {
+          "letter": "E",
+          "text": "pivotal"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "'Pivotal' (of crucial importance) describes the value of the lost ancient texts.",
+      "passage": "The Great Library of Alexandria in Egypt was once the world's largest repository of knowledge, housing hundreds of thousands of papyrus scrolls. Founded in the 3rd century BC, it attracted the greatest scholars of the ancient world. Many (a) ________ texts, from early mathematical proofs to geographical maps, were stored and studied within its massive halls.\n\nTragically, much of the library was lost through centuries of neglect, conflict, and fire. Historical accounts differ on whether the library was destroyed in a single catastrophic event or through a slow process of decline. However, the result was the same: the permanent loss of countless works by ancient philosophers and scientists, which significantly set back the progress of Western and Middle Eastern thought.\n\nToday, the spirit of the library lives on in projects like the Internet Archive and the new Bibliotheca Alexandrina. These modern initiatives aim to create 'universal libraries' that are accessible to anyone with an internet connection. (1) They use digital preservation to ensure that knowledge is never again lost to physical decay or fire. (2) Most people enjoy reading in the sun. (3) This modern revival emphasizes that global access to information is a fundamental right of humanity.",
+      "passage_id": "t3_p4",
+      "hints": [
+        "'Pivotal' (of crucial importance) describes the value of the lost ancient texts."
+      ]
+    },
+    {
+      "subject": "English",
+      "topic": "Grammar",
+      "question_text": "Fill in blank (a): '...structures that fold down (a) ________ and then expand...' ",
+      "options": [
+        {
+          "letter": "A",
+          "text": "compactly"
+        },
+        {
+          "letter": "B",
+          "text": "compact"
+        },
+        {
+          "letter": "C",
+          "text": "compactness"
+        },
+        {
+          "letter": "D",
+          "text": "compacted"
+        },
+        {
+          "letter": "E",
+          "text": "to compact"
         }
       ],
       "correct_answer": "A",
-      "explanation": "**'Despite' vs 'Although' usage:**\n- Despite/In spite of + noun/noun phrase (NOT 'of' after 'despite')\n- Although/Even though + subject + verb (clause)\n\nCorrect: 'Despite the rain' ✓ (noun phrase, no 'of' after despite)\nA: 'Despite of' — WRONG\nB: 'Although... but' — WRONG (can't use both)\nD: 'In spite of it rained' — WRONG (needs noun phrase, not clause)",
+      "explanation": "The adverb 'compactly' modifies the verb 'fold down'.",
+      "passage": "Origami, the ancient Japanese art of paper folding, is finding unexpected applications in modern engineering and aerospace design. By applying complex mathematical principles, researchers can create structures that fold down (a) ________ and then expand into massive arrays. This 'origami-inspired' engineering allows for the transport of large objects in the limited storage bays of space rockets.\n\nOne notable application is the deployment of massive solar panels for space stations and satellites. These panels can be folded into intricate, compact shapes for launch and then unfolded to their full size once in orbit. This reduces the risk of mechanical failure during the complex unfolding process and allows for a higher 'packing density' of equipment within a single mission.\n\nFurthermore, the same principles are being used in medical science to create tiny surgical robots and heart stents. (1) These 'origami robots' can be swallowed or injected into the body in a folded state and then 'deploy' once they reach their destination. (2) Paper is usually made from wood pulp. (3) This technique allows for less invasive surgeries and faster recovery times for patients, showcasing how an ancient art form can solve modern medical problems.",
+      "passage_id": "t3_p6",
       "hints": [
-        "'Despite' and 'in spite of' are followed by a noun/noun phrase, NOT 'of'.",
-        "'Although' and 'even though' are followed by a full clause.",
-        "Check each option: 'Despite of' is wrong; 'Although...but' is wrong."
+        "The adverb 'compactly' modifies the verb 'fold down'."
       ]
     },
     {
-      "id": "gt_hard_3",
       "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "hard",
-      "question_text": "The scientist realized that the experiment _____ contaminated long before he noticed the error.",
+      "topic": "Grammar",
+      "question_text": "Fill in blank (a): 'By (a) ________ carbon dioxide from the water...' ",
       "options": [
         {
           "letter": "A",
-          "text": "had become"
+          "text": "absorb"
         },
         {
           "letter": "B",
-          "text": "would have been"
+          "text": "absorbing"
         },
         {
           "letter": "C",
-          "text": "has been"
+          "text": "absorbs"
         },
         {
           "letter": "D",
-          "text": "was"
+          "text": "absorbed"
         },
         {
           "letter": "E",
-          "text": "had been"
+          "text": "to absorb"
         }
       ],
-      "correct_answer": "E",
-      "explanation": "**Past Perfect Passive for an earlier completed past action.**\nTimeline: contamination happened → long before → he noticed → he realized.\n'Long before he noticed' = contamination is the earliest action → Past Perfect Passive: **had been contaminated**.",
+      "correct_answer": "B",
+      "explanation": "The gerund 'absorbing' is needed after the preposition 'By'.",
+      "passage": "Seaweed farming is emerging as a powerful tool for carbon sequestration and marine ecosystem restoration. Unlike land-based crops, seaweed requires no fresh water, fertilizers, or pesticides to grow. By (a) ________ carbon dioxide from the water, it helps combat ocean acidification and provides habitat for many juvenile fish species.\n\nIn addition to its environmental benefits, seaweed is becoming a significant economic resource for coastal communities. It can be processed into a variety of products, from nutritious food supplements to biodegradable packaging and even biofuels. This 'blue economy' sector offers a sustainable alternative to overfishing and provides stable income for thousands of small-scale farmers worldwide.\n\nHowever, the industry faces challenges related to global warming itself. (1) Rising water temperatures can stress seaweed crops, making them more vulnerable to disease and pests. (2) Most people enjoy eating sushi. (3) To ensure long-term viability, researchers are now focusing on breeding more heat-tolerant seaweed strains and developing better deep-water cultivation techniques.",
+      "passage_id": "t4_p1",
       "hints": [
-        "Three time points: contamination → noticed → realized.",
-        "Contamination is the earliest → Past Perfect.",
-        "Passive voice: had been + V3."
+        "The gerund 'absorbing' is needed after the preposition 'By'."
       ]
     },
     {
-      "id": "gt_hard_4",
       "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "hard",
-      "question_text": "The professor insisted that every student _____ the assignment by Friday.",
+      "topic": "Grammar",
+      "question_text": "Fill in blank (a): '...qubits, which can exist in multiple states (a) ________.' ",
       "options": [
         {
           "letter": "A",
-          "text": "submits"
+          "text": "simultaneously"
         },
         {
           "letter": "B",
-          "text": "submitted"
+          "text": "simultaneous"
         },
         {
           "letter": "C",
-          "text": "would submit"
+          "text": "simultaneity"
         },
         {
           "letter": "D",
-          "text": "has submitted"
+          "text": "simulated"
         },
         {
           "letter": "E",
-          "text": "submit"
-        }
-      ],
-      "correct_answer": "E",
-      "explanation": "**Subjunctive mood after verbs of demand/insistence.**\nAfter 'insist (that)', 'recommend', 'demand', 'suggest' → use bare infinitive (base form), regardless of person:\n→ **submit** (not submits, not submitted).\nThis is the subjunctive: 'he do', 'she be', 'every student submit'.",
-      "hints": [
-        "After 'insist that', 'demand that', 'suggest that' → use bare infinitive (subjunctive).",
-        "No -s even for 3rd person singular: 'every student submit' not 'submits'.",
-        "Answer: submit."
-      ]
-    },
-    {
-      "id": "gt_hard_5",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "hard",
-      "question_text": "Only after completing all requirements _____ eligible to graduate.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "students will be"
-        },
-        {
-          "letter": "B",
-          "text": "are students"
-        },
-        {
-          "letter": "C",
-          "text": "will students be"
-        },
-        {
-          "letter": "D",
-          "text": "do students be"
-        },
-        {
-          "letter": "E",
-          "text": "students are"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "**Inversion after restrictive adverbials.**\n'Only after + clause/phrase' at the start requires subject-auxiliary inversion:\n→ **will students be** (not 'students will be').\nThis is a formal inversion pattern common in academic English.",
-      "hints": [
-        "'Only after...' at the start triggers subject-auxiliary inversion.",
-        "Normal: students will be eligible. Inverted: will students be eligible.",
-        "Answer: will students be."
-      ]
-    },
-    {
-      "id": "gt_hard_6",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "hard",
-      "question_text": "The data _____ to suggest that the hypothesis was incorrect.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "were appearing"
-        },
-        {
-          "letter": "B",
-          "text": "are appearing"
-        },
-        {
-          "letter": "C",
-          "text": "appears"
-        },
-        {
-          "letter": "D",
-          "text": "have appeared"
-        },
-        {
-          "letter": "E",
-          "text": "appear"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "**Subject-verb agreement with 'data'.**\nIn academic/formal English, 'data' is increasingly treated as singular. 'The data appears' is acceptable in formal SIMAK context.\nHowever, strictly, 'data' is plural of 'datum' → 'appear'.\n\nIn SIMAK tests, option A (appears) is the standard expected answer in formal academic writing.",
-      "hints": [
-        "'Data' is the subject. Is it singular or plural?",
-        "In formal/academic context, 'data' is often treated as singular.",
-        "appears (singular agreement)."
-      ]
-    },
-    {
-      "id": "gt_hard_7",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "hard",
-      "question_text": "No sooner _____ than the fire alarm went off.",
-      "options": [
-        {
-          "letter": "A",
-          "text": "did she sit down"
-        },
-        {
-          "letter": "B",
-          "text": "she had sat down"
-        },
-        {
-          "letter": "C",
-          "text": "she sat down"
-        },
-        {
-          "letter": "D",
-          "text": "had she sat down"
-        },
-        {
-          "letter": "E",
-          "text": "she sits down"
-        }
-      ],
-      "correct_answer": "D",
-      "explanation": "**Inversion after 'No sooner'.**\n'No sooner' triggers inversion with past perfect: **had she sat down**.\nPattern: No sooner + had + subject + V3 + than + simple past.",
-      "hints": [
-        "'No sooner' triggers inversion.",
-        "Pattern: No sooner + had + subject + V3 + than...",
-        "had she sat down."
-      ]
-    },
-    {
-      "id": "gram_extra_24",
-      "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "easy",
-      "question_text": "I _____ this book since last Monday. (Variant 24)",
-      "options": [
-        {
-          "letter": "A",
-          "text": "have been reading"
-        },
-        {
-          "letter": "B",
-          "text": "am reading"
-        },
-        {
-          "letter": "C",
-          "text": "had read"
-        },
-        {
-          "letter": "D",
-          "text": "was reading"
-        },
-        {
-          "letter": "E",
-          "text": "read"
+          "text": "simulation"
         }
       ],
       "correct_answer": "A",
-      "explanation": "**Present Perfect Continuous for ongoing action from past to now.**\n'Since last Monday' signals duration from a past point to now.\n**'have been reading'** correctly shows an action that started in the past and continues.",
+      "explanation": "The adverb 'simultaneously' (at the same time) describes how qubits exist in multiple states.",
+      "passage": "Quantum computing is a revolutionary field of computer science that utilizes the principles of quantum mechanics to process information. Unlike classical computers that use bits (0 or 1), quantum computers use qubits, which can exist in multiple states (a) ________. This capability allows them to perform complex calculations at speeds that would take traditional supercomputers thousands of years to complete.\n\nThe potential applications for this technology are vast, ranging from the simulation of new materials to the optimization of global supply chains. In pharmaceutical research, quantum computers could simulate molecular interactions with perfect accuracy, significantly (b) ________ the time required to develop new life-saving drugs. They are also expected to revolutionize cybersecurity by creating unbreakable encryption methods.\n\nHowever, building and maintaining functional quantum computers is incredibly difficult. For qubits to remain stable, they must be kept in extremely cold environments, nearly at absolute zero, to prevent interference from the outside world. (1) Even a tiny vibration can cause 'decoherence,' where the quantum state is lost. (2) Most people enjoy playing video games. (3) This physical fragility remains the main barrier to making quantum computing widely available for commercial use.",
+      "passage_id": "t4_p3",
       "hints": [
-        "'Since' signals an action starting in the past and continuing now.",
-        "Use Present Perfect Continuous: have/has + been + V-ing.",
-        "Answer: have been reading."
+        "The adverb 'simultaneously' (at the same time) describes how qubits exist in multiple states."
       ]
     },
     {
-      "id": "gram_extra_25",
       "subject": "English",
-      "topic": "Grammar and Tenses",
-      "difficulty": "medium",
-      "question_text": "By next year, Andi _____ at this company for ten years. (Variant 25)",
+      "topic": "Grammar",
+      "question_text": "Fill in blank (a): '...it serves as a (a) ________ for his favorite wife...' ",
       "options": [
         {
           "letter": "A",
-          "text": "had worked"
+          "text": "mausoleum"
         },
         {
           "letter": "B",
-          "text": "is working"
+          "text": "mausoleums"
         },
         {
           "letter": "C",
-          "text": "will have worked"
+          "text": "mausolean"
         },
         {
           "letter": "D",
-          "text": "will work"
+          "text": "mausolea"
         },
         {
           "letter": "E",
-          "text": "has worked"
+          "text": "mausoleum's"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "**Future Perfect for an action completed by a future time.**\n'By next year' = a future deadline → **will have worked** (future perfect).",
+      "correct_answer": "A",
+      "explanation": "The singular noun 'mausoleum' is needed after the article 'a'.",
+      "passage": "The Taj Mahal in India is widely considered one of the most beautiful buildings in the world. Built in the 17th century by the Mughal emperor Shah Jahan, it serves as a (a) ________ for his favorite wife, Mumtaz Mahal. This ivory-white marble structure is famous for its perfect symmetry and its integration of Persian, Ottoman, and Indian architectural styles.\n\nThe construction of the monument involved over 20,000 artisans and a massive transport network of over 1,000 elephants to carry the heavy marble blocks. The intricate inlay work, known as pietra dura, features thousands of semi-precious stones embedded into the walls to create floral patterns. This level of detail has ensured that the Taj Mahal remains a masterpiece of human craftsmanship and global heritage.\n\nRecently, the Taj Mahal has faced threats from air pollution and industrial smog, which have begun to turn the white marble into a yellowish hue. (1) Toxic gases from nearby factories react with the marble, causing structural and aesthetic decay. (2) Indian food is very spicy and popular. (3) To combat this, the government has established a 'buffer zone' around the monument where heavy industry is banned to preserve its pristine appearance.",
+      "passage_id": "t4_p4",
       "hints": [
-        "'By next year' signals a future deadline.",
-        "Future Perfect: will have + V3.",
-        "Answer: will have worked."
+        "The singular noun 'mausoleum' is needed after the article 'a'."
       ]
     }
   ]

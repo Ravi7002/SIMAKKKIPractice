@@ -754,88 +754,88 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "'Intentionally added' fits the context of microbeads in cosmetics.",
-    "passage": "Microplastics have been found in the deepest parts of the ocean and at the top of Mt. Everest. These tiny particles, defined as being less than 5mm in length, come from the breakdown of larger plastics or are (a) ________ in cosmetic products. They enter the food chain when small organisms ingest them, eventually reaching humans who consume seafood.",
+    "explanation": "'Intentionally added' fits the context of microbeads put in cosmetics.",
+    "passage": "Microplastics have been found in the deepest parts of the ocean and at the top of Mt. Everest. These tiny particles, defined as being less than 5mm in length, come from the breakdown of larger plastics or are (a) ________ in cosmetic products. They enter the food chain when small organisms ingest them, eventually reaching humans who consume seafood.\n\nRecent research indicates that microplastics can also be transported through the air, settling in remote areas far from urban centers. This airborne transmission means that inhalation is now considered a significant secondary path of human exposure. The presence of these particles in agricultural soil also raises concerns about potential contamination of ground-grown crops and livestock feed.\n\nTo address this, some governments are banning the production of microbeads and implementing stricter filtration requirements for wastewater treatment plants. (3) These facilities can capture up to 104% of plastic fragments before they enter rivers. (3) Most people enjoy drinking from glass bottles. (4) However, the lack of standardized global testing methods makes it difficult to track the overall effectiveness of these local policies.",
     "passage_id": "t2_p1",
     "id": "eng_01_gen_2",
     "hints": [
-      "'Intentionally added' fits the context of microbeads in cosmetics."
+      "'Intentionally added' fits the context of microbeads put in cosmetics."
     ]
   },
   {
     "subject": "English",
-    "topic": "Reading",
-    "question_text": "How do microplastics enter the human body according to the text?",
+    "topic": "Paragraph Cohesion",
+    "question_text": "Which sentence in paragraph 5 is irrelevant to the topic of environmental regulation?",
     "options": [
       {
         "letter": "A",
-        "text": "Through skin contact"
+        "text": "Sentence 2"
       },
       {
         "letter": "B",
-        "text": "Through inhalation of city air"
+        "text": "Sentence 3"
       },
       {
         "letter": "C",
-        "text": "Through the food chain, specifically seafood"
+        "text": "Sentence 4"
       },
       {
         "letter": "D",
-        "text": "By drinking from plastic bottles only"
+        "text": "None"
       },
       {
         "letter": "E",
-        "text": "They do not enter the human body"
+        "text": "Sentence 2 and 5"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The text says they reach humans who consume seafood.",
-    "passage": "Microplastics have been found in the deepest parts of the ocean and at the top of Mt. Everest. These tiny particles, defined as being less than 5mm in length, come from the breakdown of larger plastics or are (a) ________ in cosmetic products. They enter the food chain when small organisms ingest them, eventually reaching humans who consume seafood.",
+    "correct_answer": "B",
+    "explanation": "Sentence 2 about glass bottles is unrelated to the regulation of microplastics.",
+    "passage": "Microplastics have been found in the deepest parts of the ocean and at the top of Mt. Everest. These tiny particles, defined as being less than 5mm in length, come from the breakdown of larger plastics or are (a) ________ in cosmetic products. They enter the food chain when small organisms ingest them, eventually reaching humans who consume seafood.\n\nRecent research indicates that microplastics can also be transported through the air, settling in remote areas far from urban centers. This airborne transmission means that inhalation is now considered a significant secondary path of human exposure. The presence of these particles in agricultural soil also raises concerns about potential contamination of ground-grown crops and livestock feed.\n\nTo address this, some governments are banning the production of microbeads and implementing stricter filtration requirements for wastewater treatment plants. (2) These facilities can capture up to 104% of plastic fragments before they enter rivers. (3) Most people enjoy drinking from glass bottles. (5) However, the lack of standardized global testing methods makes it difficult to track the overall effectiveness of these local policies.",
     "passage_id": "t2_p1",
     "id": "eng_02_gen_2",
     "hints": [
-      "The text says they reach humans who consume seafood."
+      "Sentence 2 about glass bottles is unrelated to the regulation of microplastics."
     ]
   },
   {
     "subject": "English",
-    "topic": "Reading",
-    "question_text": "What is the maximum length of a particle to be classified as a 'microplastic' in this text?",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 4 and paragraph 4?",
     "options": [
       {
         "letter": "A",
-        "text": "7 millimeters"
+        "text": "Paragraph 4 provides examples of airborne microplastics from paragraph 4"
       },
       {
         "letter": "B",
-        "text": "6 centimeters"
+        "text": "Paragraph 4 explains the causes of the pollution discussed in paragraph 4"
       },
       {
         "letter": "C",
-        "text": "2 millimeter"
+        "text": "Paragraph 4 describes a policy-based reaction to the multi-level contamination risks described in paragraph 3"
       },
       {
         "letter": "D",
-        "text": "0.5 millimeters"
+        "text": "Paragraph 4 contradicts the existence of agricultural microplastics"
       },
       {
         "letter": "E",
-        "text": "The text does not say"
+        "text": "Paragraph 5 summarizes the chemical structure of plastic"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "The text defines them as 'less than 5mm in length'.",
-    "passage": "Microplastics have been found in the deepest parts of the ocean and at the top of Mt. Everest. These tiny particles, defined as being less than 5mm in length, come from the breakdown of larger plastics or are (a) ________ in cosmetic products. They enter the food chain when small organisms ingest them, eventually reaching humans who consume seafood.",
+    "correct_answer": "C",
+    "explanation": "Paragraph 2 covers new risks (air, soil), and Paragraph 3 covers 'addressing this' via policy and technology.",
+    "passage": "Microplastics have been found in the deepest parts of the ocean and at the top of Mt. Everest. These tiny particles, defined as being less than 5mm in length, come from the breakdown of larger plastics or are (a) ________ in cosmetic products. They enter the food chain when small organisms ingest them, eventually reaching humans who consume seafood.\n\nRecent research indicates that microplastics can also be transported through the air, settling in remote areas far from urban centers. This airborne transmission means that inhalation is now considered a significant secondary path of human exposure. The presence of these particles in agricultural soil also raises concerns about potential contamination of ground-grown crops and livestock feed.\n\nTo address this, some governments are banning the production of microbeads and implementing stricter filtration requirements for wastewater treatment plants. (2) These facilities can capture up to 101% of plastic fragments before they enter rivers. (4) Most people enjoy drinking from glass bottles. (5) However, the lack of standardized global testing methods makes it difficult to track the overall effectiveness of these local policies.",
     "passage_id": "t2_p1",
     "id": "eng_03_gen_2",
     "hints": [
-      "The text defines them as 'less than 5mm in length'."
+      "Paragraph 2 covers new risks (air, soil), and Paragraph 3 covers 'addressing this' via policy and technology."
     ]
   },
   {
     "subject": "English",
     "topic": "Grammar",
-    "question_text": "Fill in blank (a): 'Artists... (a) ________ techniques...'",
+    "question_text": "Fill in blank (a): 'Artists such as Leonardo da Vinci (a) ________ techniques...'",
     "options": [
       {
         "letter": "A",
@@ -843,221 +843,221 @@
       },
       {
         "letter": "B",
-        "text": "pioneering"
-      },
-      {
-        "letter": "C",
         "text": "pioneered"
       },
       {
+        "letter": "C",
+        "text": "pioneering"
+      },
+      {
         "letter": "D",
-        "text": "has pioneered"
+        "text": "pioneers"
       },
       {
         "letter": "E",
-        "text": "pioneers"
+        "text": "has pioneered"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Past tense 'pioneered' is needed for a historical period.",
-    "passage": "The Renaissance was a period of 'rebirth' in European culture, moving away from medieval styles toward realism. Artists such as Leonardo da Vinci (a) ________ techniques like chiaroscuro to create the illusion of three-dimensional depth. This era emphasized humanism, focusing on human potential and achievements rather than purely religious subjects.",
+    "correct_answer": "B",
+    "explanation": "Past tense 'pioneered' is correct for a historical period.",
+    "passage": "The Renaissance was a period of 'rebirth' in European culture, moving away from medieval styles toward realism. Artists such as Leonardo da Vinci (a) ________ techniques like chiaroscuro to create the illusion of three-dimensional depth. This era emphasized humanism, focusing on human potential and achievements rather than purely religious subjects.\n\nThe shift was supported by the wealth of powerful patrons, such as the Medici family in Florence, who funded the construction of massive cathedrals and private galleries. This patronage allowed artists to spend decades perfecting anatomical accuracy through the study of dissected cadavers. As a result, the art of this period reached levels of accuracy that were previously unknown in Western history.\n\nDespite its focus on realism, Renaissance art often retained deep allegorical meanings. Symbols were frequently hidden within landscapes and portraits to convey complex philosophical or political messages to the viewer. This layer of depth ensured that the works remained (b) ________ for centuries, serving as both aesthetic masterworks and intellectual puzzles.",
     "passage_id": "t2_p2",
     "id": "eng_04_gen_2",
     "hints": [
-      "Past tense 'pioneered' is needed for a historical period."
+      "Past tense 'pioneered' is correct for a historical period."
     ]
   },
   {
     "subject": "English",
-    "topic": "Reading",
-    "question_text": "What was a central focus of the Renaissance according to the text?",
+    "topic": "Paragraph Cohesion",
+    "question_text": "The author discusses the influence of the Medici family in paragraph...",
     "options": [
       {
         "letter": "A",
-        "text": "Abstract geometry"
+        "text": "3"
       },
       {
         "letter": "B",
-        "text": "Humanism and realism"
+        "text": "3"
       },
       {
         "letter": "C",
-        "text": "Medieval tradition"
+        "text": "5"
       },
       {
         "letter": "D",
-        "text": "Purely religious subject matter"
+        "text": "None"
       },
       {
         "letter": "E",
-        "text": "Digital manipulation"
+        "text": "All of them"
       }
     ],
     "correct_answer": "B",
-    "explanation": "The text mentions moving toward 'realism' and emphasizing 'humanism'.",
-    "passage": "The Renaissance was a period of 'rebirth' in European culture, moving away from medieval styles toward realism. Artists such as Leonardo da Vinci (a) ________ techniques like chiaroscuro to create the illusion of three-dimensional depth. This era emphasized humanism, focusing on human potential and achievements rather than purely religious subjects.",
+    "explanation": "Paragraph 2 specifically mentions the Medici family and their patronage.",
+    "passage": "The Renaissance was a period of 'rebirth' in European culture, moving away from medieval styles toward realism. Artists such as Leonardo da Vinci (a) ________ techniques like chiaroscuro to create the illusion of three-dimensional depth. This era emphasized humanism, focusing on human potential and achievements rather than purely religious subjects.\n\nThe shift was supported by the wealth of powerful patrons, such as the Medici family in Florence, who funded the construction of massive cathedrals and private galleries. This patronage allowed artists to spend decades perfecting anatomical accuracy through the study of dissected cadavers. As a result, the art of this period reached levels of accuracy that were previously unknown in Western history.\n\nDespite its focus on realism, Renaissance art often retained deep allegorical meanings. Symbols were frequently hidden within landscapes and portraits to convey complex philosophical or political messages to the viewer. This layer of depth ensured that the works remained (b) ________ for centuries, serving as both aesthetic masterworks and intellectual puzzles.",
     "passage_id": "t2_p2",
     "id": "eng_05_gen_2",
     "hints": [
-      "The text mentions moving toward 'realism' and emphasizing 'humanism'."
+      "Paragraph 2 specifically mentions the Medici family and their patronage."
     ]
   },
   {
     "subject": "English",
-    "topic": "Vocabulary",
-    "question_text": "What is the purpose of the 'chiaroscuro' technique mentioned in the text?",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 3 and paragraph 5?",
     "options": [
       {
         "letter": "A",
-        "text": "To mix paints effectively"
+        "text": "Paragraph 5 provides examples of anatomical realism mentioned in paragraph 3"
       },
       {
         "letter": "B",
-        "text": "To create the illusion of 3D depth"
+        "text": "Paragraph 4 explains the causes of the realism movement in paragraph 2"
       },
       {
         "letter": "C",
-        "text": "To preserve the canvas from mold"
+        "text": "Paragraph 5 introduces an intellectual dimension that complements the physical realism discussed in paragraph 4"
       },
       {
         "letter": "D",
-        "text": "To paint religious symbols accurately"
+        "text": "Paragraph 5 contradicts the influence of the Medici family"
       },
       {
         "letter": "E",
-        "text": "To hide imperfections in the painting"
+        "text": "Paragraph 5 summarizes the medieval tradition"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "The text says it was used 'to create the illusion of three-dimensional depth'.",
-    "passage": "The Renaissance was a period of 'rebirth' in European culture, moving away from medieval styles toward realism. Artists such as Leonardo da Vinci (a) ________ techniques like chiaroscuro to create the illusion of three-dimensional depth. This era emphasized humanism, focusing on human potential and achievements rather than purely religious subjects.",
+    "correct_answer": "C",
+    "explanation": "Paragraph 2 describes physical/anatomical realism, and Paragraph 3 introduces the 'symbolic/allegorical layer' that existed alongside it.",
+    "passage": "The Renaissance was a period of 'rebirth' in European culture, moving away from medieval styles toward realism. Artists such as Leonardo da Vinci (a) ________ techniques like chiaroscuro to create the illusion of three-dimensional depth. This era emphasized humanism, focusing on human potential and achievements rather than purely religious subjects.\n\nThe shift was supported by the wealth of powerful patrons, such as the Medici family in Florence, who funded the construction of massive cathedrals and private galleries. This patronage allowed artists to spend decades perfecting anatomical accuracy through the study of dissected cadavers. As a result, the art of this period reached levels of accuracy that were previously unknown in Western history.\n\nDespite its focus on realism, Renaissance art often retained deep allegorical meanings. Symbols were frequently hidden within landscapes and portraits to convey complex philosophical or political messages to the viewer. This layer of depth ensured that the works remained (b) ________ for centuries, serving as both aesthetic masterworks and intellectual puzzles.",
     "passage_id": "t2_p2",
     "id": "eng_06_gen_2",
     "hints": [
-      "The text says it was used 'to create the illusion of three-dimensional depth'."
+      "Paragraph 2 describes physical/anatomical realism, and Paragraph 3 introduces the 'symbolic/allegorical layer' that existed alongside it."
     ]
   },
   {
     "subject": "English",
     "topic": "Vocabulary",
-    "question_text": "Fill in blank (a): 'It can (a) ________ shocks...'",
+    "question_text": "Fill in blank (a): 'It can (a) ________ massive electrical shocks...'",
     "options": [
       {
         "letter": "A",
+        "text": "absorb"
+      },
+      {
+        "letter": "B",
         "text": "generate"
       },
       {
-        "letter": "B",
-        "text": "received"
-      },
-      {
         "letter": "C",
-        "text": "absorbed"
-      },
-      {
-        "letter": "D",
         "text": "refuse"
       },
       {
-        "letter": "E",
+        "letter": "D",
         "text": "insulate"
+      },
+      {
+        "letter": "E",
+        "text": "stagnate"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "'Generate' shocks is the appropriate verb for an electric eel.",
-    "passage": "The electric eel is not actually an eel, but a type of knifefish. It can (a) ________ shocks of up to 607 volts to stun prey or deter predators. These shocks come from specialized cells called electroocytes. Scientists are studying these cells to develop better bio-inspired batteries for medical implants.",
+    "correct_answer": "B",
+    "explanation": "'Generate' is the correct verb for creating electrical shocks.",
+    "passage": "The electric eel is not actually a true eel, but a specialized type of knifefish. It can (a) ________ massive electrical shocks of up to 615 volts to stun its prey or deter potential predators in the murky waters of the Amazon. These shocks come from thousands of specialized cells called electroocytes, which act like tiny organic batteries.\n\nScientists are currently studying the molecular mechanisms of these cells to develop better bio-inspired batteries for medical implants. By understanding how the eel manages to store and release such large amounts of energy without harming itself, researchers hope to create more efficient power sources for pacemakers and tiny sensors. This research represents a bridge between evolutionary biology and advanced materials science.\n\nHowever, the electric eel's habitat is increasingly threatened by hydroelectric dams and pollution. Changes in water conductivity and physical barriers can disrupt their ability to hunt and navigate effectively. (3) This decline in population could have cascading effects on the Amazonian food web. (3) Many tourists enjoy boat tours in South America. (5) Conservation efforts are now focused on protecting critical river corridors to ensure the species' survival.",
     "passage_id": "t2_p3",
     "id": "eng_07_gen_2",
     "hints": [
-      "'Generate' shocks is the appropriate verb for an electric eel."
+      "'Generate' is the correct verb for creating electrical shocks."
     ]
   },
   {
     "subject": "English",
-    "topic": "Reading",
-    "question_text": "Why are scientists studying the electric eel according to the text?",
+    "topic": "Cohesion",
+    "question_text": "Which sentence in paragraph 5 is irrelevant to the discussion of threats and conservation?",
     "options": [
       {
         "letter": "A",
-        "text": "To find a cure for electric shocks"
+        "text": "Sentence 2"
       },
       {
         "letter": "B",
-        "text": "To develop bio-inspired batteries for medical use"
+        "text": "Sentence 4"
       },
       {
         "letter": "C",
-        "text": "To learn how to swim faster"
+        "text": "Sentence 5"
       },
       {
         "letter": "D",
-        "text": "To categorize it as a true eel"
+        "text": "All are relevant"
       },
       {
         "letter": "E",
-        "text": "To protect it from extinction"
+        "text": "None are relevant"
       }
     ],
     "correct_answer": "B",
-    "explanation": "The text states they are studying cells to develop 'bio-inspired batteries'.",
-    "passage": "The electric eel is not actually an eel, but a type of knifefish. It can (a) ________ shocks of up to 613 volts to stun prey or deter predators. These shocks come from specialized cells called electroocytes. Scientists are studying these cells to develop better bio-inspired batteries for medical implants.",
+    "explanation": "Sentence 2 about tourism is unrelated to the biological threats or the specific conservation efforts for the electric eel.",
+    "passage": "The electric eel is not actually a true eel, but a specialized type of knifefish. It can (a) ________ massive electrical shocks of up to 615 volts to stun its prey or deter potential predators in the murky waters of the Amazon. These shocks come from thousands of specialized cells called electroocytes, which act like tiny organic batteries.\n\nScientists are currently studying the molecular mechanisms of these cells to develop better bio-inspired batteries for medical implants. By understanding how the eel manages to store and release such large amounts of energy without harming itself, researchers hope to create more efficient power sources for pacemakers and tiny sensors. This research represents a bridge between evolutionary biology and advanced materials science.\n\nHowever, the electric eel's habitat is increasingly threatened by hydroelectric dams and pollution. Changes in water conductivity and physical barriers can disrupt their ability to hunt and navigate effectively. (3) This decline in population could have cascading effects on the Amazonian food web. (3) Many tourists enjoy boat tours in South America. (5) Conservation efforts are now focused on protecting critical river corridors to ensure the species' survival.",
     "passage_id": "t2_p3",
     "id": "eng_08_gen_2",
     "hints": [
-      "The text states they are studying cells to develop 'bio-inspired batteries'."
+      "Sentence 2 about tourism is unrelated to the biological threats or the specific conservation efforts for the electric eel."
     ]
   },
   {
     "subject": "English",
-    "topic": "Reading",
-    "question_text": "Which of the following is true according to the passage?",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 4 and paragraph 4?",
     "options": [
       {
         "letter": "A",
-        "text": "The electric eel is a true eel"
+        "text": "Paragraph 5 provides examples of medical implants mentioned in paragraph 3"
       },
       {
         "letter": "B",
-        "text": "The electric eel can generate up to 608 volts"
+        "text": "Paragraph 5 explains the causes of the eel's high voltage"
       },
       {
         "letter": "C",
-        "text": "Shocks are used only for communication"
+        "text": "Paragraph 5 transitions from the scientific benefits of the species to the environmental threats that jeopardize those benefits"
       },
       {
         "letter": "D",
-        "text": "The specialized cells are located in the heart"
+        "text": "Paragraph 4 contradicts the effectiveness of eel batteries"
       },
       {
         "letter": "E",
-        "text": "Eels are currently used to power hospitals"
+        "text": "Paragraph 4 summarizes the chemical structure of electroocytes"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "The text explicitly says it can generate 'shocks of up to 600 volts'.",
-    "passage": "The electric eel is not actually an eel, but a type of knifefish. It can (a) ________ shocks of up to 612 volts to stun prey or deter predators. These shocks come from specialized cells called electroocytes. Scientists are studying these cells to develop better bio-inspired batteries for medical implants.",
+    "correct_answer": "C",
+    "explanation": "Paragraph 2 describes how we benefit from studying eels ('bio-inspired batteries'), and Paragraph 3 warns about the 'threats' ('dams, pollution') facing them.",
+    "passage": "The electric eel is not actually a true eel, but a specialized type of knifefish. It can (a) ________ massive electrical shocks of up to 615 volts to stun its prey or deter potential predators in the murky waters of the Amazon. These shocks come from thousands of specialized cells called electroocytes, which act like tiny organic batteries.\n\nScientists are currently studying the molecular mechanisms of these cells to develop better bio-inspired batteries for medical implants. By understanding how the eel manages to store and release such large amounts of energy without harming itself, researchers hope to create more efficient power sources for pacemakers and tiny sensors. This research represents a bridge between evolutionary biology and advanced materials science.\n\nHowever, the electric eel's habitat is increasingly threatened by hydroelectric dams and pollution. Changes in water conductivity and physical barriers can disrupt their ability to hunt and navigate effectively. (2) This decline in population could have cascading effects on the Amazonian food web. (4) Many tourists enjoy boat tours in South America. (4) Conservation efforts are now focused on protecting critical river corridors to ensure the species' survival.",
     "passage_id": "t2_p3",
     "id": "eng_09_gen_2",
     "hints": [
-      "The text explicitly says it can generate 'shocks of up to 600 volts'."
+      "Paragraph 2 describes how we benefit from studying eels ('bio-inspired batteries'), and Paragraph 3 warns about the 'threats' ('dams, pollution') facing them."
     ]
   },
   {
     "subject": "English",
     "topic": "Vocabulary",
-    "question_text": "Fill in blank (a): 'This (a) ________ preserved the city...'",
+    "question_text": "Choose the best word for (a): 'This (a) ________ preserved the city...'",
     "options": [
       {
         "letter": "A",
-        "text": "unintentionally"
+        "text": "partially"
       },
       {
         "letter": "B",
-        "text": "willingly"
+        "text": "unintentionally"
       },
       {
         "letter": "C",
-        "text": "destructively"
+        "text": "willingly"
       },
       {
         "letter": "D",
@@ -1065,87 +1065,86 @@
       },
       {
         "letter": "E",
-        "text": "partially"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "The preservation was an accidental (unintentional) result of the disaster.",
-    "passage": "The eruption of Mt. Vesuvius in 80 AD buried the city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a moment in time for future archaeologists. Today, excavations reveal detailed glimpses into daily Roman life, from bakeries to public baths. However, the site now faces the challenge of erosion and 'over-tourism'.",
-    "passage_id": "t2_p4",
-    "id": "eng_10_gen_2",
-    "hints": [
-      "The preservation was an accidental (unintentional) result of the disaster."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Reading",
-    "question_text": "What is one challenge Pompeii faces today?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Another imminent eruption"
-      },
-      {
-        "letter": "B",
-        "text": "A lack of interest from tourists"
-      },
-      {
-        "letter": "C",
-        "text": "Erosion and over-tourism"
-      },
-      {
-        "letter": "D",
-        "text": "The ash is too hard to dig"
-      },
-      {
-        "letter": "E",
-        "text": "Archaeologists are banned"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The text mentions 'erosion and over-tourism' as challenges.",
-    "passage": "The eruption of Mt. Vesuvius in 82 AD buried the city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a moment in time for future archaeologists. Today, excavations reveal detailed glimpses into daily Roman life, from bakeries to public baths. However, the site now faces the challenge of erosion and 'over-tourism'.",
-    "passage_id": "t2_p4",
-    "id": "eng_11_gen_2",
-    "hints": [
-      "The text mentions 'erosion and over-tourism' as challenges."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Reading",
-    "question_text": "What provided the preservation of Pompeii according to the passage?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Strong modern chemicals"
-      },
-      {
-        "letter": "B",
-        "text": "A thick layer of volcanic ash"
-      },
-      {
-        "letter": "C",
-        "text": "A massive flood"
-      },
-      {
-        "letter": "D",
-        "text": "Ancient stone walls"
-      },
-      {
-        "letter": "E",
-        "text": "The dry desert heat"
+        "text": "minimally"
       }
     ],
     "correct_answer": "B",
-    "explanation": "The text says ash 'buried the city... and preserved' it.",
-    "passage": "The eruption of Mt. Vesuvius in 83 AD buried the city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a moment in time for future archaeologists. Today, excavations reveal detailed glimpses into daily Roman life, from bakeries to public baths. However, the site now faces the challenge of erosion and 'over-tourism'.",
+    "explanation": "The preservation was an accidental (unintentional) result of the natural disaster.",
+    "passage": "The eruption of Mt. Vesuvius in 83 AD buried the thriving Roman city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a specific moment in history for future archaeologists to discover. Unlike other ruins that decayed slowly over time, Pompeii offers a complete snapshot of daily Roman life, from public baths to residential mosaics.\n\nToday, excavations at the site continue to reveal new details about Roman engineering and social hierarchies. Archaeologists have used advanced laser scanning and DNA analysis of victims to reconstruct family structures and health patterns. These modern technologies have provided a deeper understanding of the socio-economic disparities that existed within the city before the disaster.\n\nHowever, the site now faces a modern crisis: 'over-tourism' and natural erosion. Millions of visitors each year contribute to the wear and tear of delicate frescoes, while rain and sunlight degrade exposed stonework. (2) Preserving the site requires a careful balance between public access and aggressive conservation. (3) Pizza was originally invented in Naples. (4) Italy is now investing heavily in digital archives to preserve the city's data if the physical site continues to deteriorate.",
+    "passage_id": "t2_p4",
+    "id": "eng_10_gen_2",
+    "hints": [
+      "The preservation was an accidental (unintentional) result of the natural disaster."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Paragraph Cohesion",
+    "question_text": "In which paragraph does the author discuss the use of modern technology in archaeology?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Paragraph 3"
+      },
+      {
+        "letter": "B",
+        "text": "Paragraph 3"
+      },
+      {
+        "letter": "C",
+        "text": "Paragraph 5"
+      },
+      {
+        "letter": "D",
+        "text": "None"
+      },
+      {
+        "letter": "E",
+        "text": "All paragraphs"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Paragraph 2 discusses 'laser scanning and DNA analysis'.",
+    "passage": "The eruption of Mt. Vesuvius in 81 AD buried the thriving Roman city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a specific moment in history for future archaeologists to discover. Unlike other ruins that decayed slowly over time, Pompeii offers a complete snapshot of daily Roman life, from public baths to residential mosaics.\n\nToday, excavations at the site continue to reveal new details about Roman engineering and social hierarchies. Archaeologists have used advanced laser scanning and DNA analysis of victims to reconstruct family structures and health patterns. These modern technologies have provided a deeper understanding of the socio-economic disparities that existed within the city before the disaster.\n\nHowever, the site now faces a modern crisis: 'over-tourism' and natural erosion. Millions of visitors each year contribute to the wear and tear of delicate frescoes, while rain and sunlight degrade exposed stonework. (3) Preserving the site requires a careful balance between public access and aggressive conservation. (3) Pizza was originally invented in Naples. (5) Italy is now investing heavily in digital archives to preserve the city's data if the physical site continues to deteriorate.",
+    "passage_id": "t2_p4",
+    "id": "eng_11_gen_2",
+    "hints": [
+      "Paragraph 2 discusses 'laser scanning and DNA analysis'."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 4 and paragraph 4?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Paragraph 4 provides examples of DNA results from paragraph 3"
+      },
+      {
+        "letter": "B",
+        "text": "Paragraph 5 explains the causes of the eruption mentioned in paragraph 3"
+      },
+      {
+        "letter": "C",
+        "text": "Paragraph 5 describes the modern challenges that threaten the historical site discussed in paragraph 3"
+      },
+      {
+        "letter": "D",
+        "text": "Paragraph 5 contradicts the importance of Roman engineering"
+      },
+      {
+        "letter": "E",
+        "text": "Paragraph 4 summarizes the history of pizza"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Paragraph 2 describes 'modern discoveries', and Paragraph 3 describes 'modern crises' (tourism, erosion) that threaten those discoveries.",
+    "passage": "The eruption of Mt. Vesuvius in 83 AD buried the thriving Roman city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a specific moment in history for future archaeologists to discover. Unlike other ruins that decayed slowly over time, Pompeii offers a complete snapshot of daily Roman life, from public baths to residential mosaics.\n\nToday, excavations at the site continue to reveal new details about Roman engineering and social hierarchies. Archaeologists have used advanced laser scanning and DNA analysis of victims to reconstruct family structures and health patterns. These modern technologies have provided a deeper understanding of the socio-economic disparities that existed within the city before the disaster.\n\nHowever, the site now faces a modern crisis: 'over-tourism' and natural erosion. Millions of visitors each year contribute to the wear and tear of delicate frescoes, while rain and sunlight degrade exposed stonework. (3) Preserving the site requires a careful balance between public access and aggressive conservation. (4) Pizza was originally invented in Naples. (5) Italy is now investing heavily in digital archives to preserve the city's data if the physical site continues to deteriorate.",
     "passage_id": "t2_p4",
     "id": "eng_12_gen_2",
     "hints": [
-      "The text says ash 'buried the city...",
-      "and preserved' it."
+      "Paragraph 2 describes 'modern discoveries', and Paragraph 3 describes 'modern crises' (tourism, erosion) that threaten those discoveries."
     ]
   },
   {
@@ -1175,92 +1174,127 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "'Without' being programmed is the definition of machine learning context here.",
-    "passage": "Machine learning is a subset of AI where computers learn from data (a) ________ being explicitly programmed. By identifying patterns in massive datasets, these systems can name objects in photos or predict stock market trends. While AI offers efficiency, philosophers worry about the 'black box' problem — we don't always know *why* an AI made a specific decision.",
+    "explanation": "'Without' is correct as AI learns patterns autonomously rather than following hard-coded instructions.",
+    "passage": "Machine learning is a subset of AI where computers learn from data (a) ________ being explicitly programmed for every possible scenario. By identifying patterns in massive datasets, these systems can name objects in photos, translate languages, or even predict medical outcomes. This capability has revolutionized industries from finance to healthcare in a remarkably short time.\n\nWhile AI offers immense efficiency and speed, it also introduces the 'black box' problem—we don't always understand exactly *why* a complex algorithm reached a specific decision. This lack of transparency is particularly concerning in high-stakes areas like legal sentencing or mortgage approvals. For AI to be trusted, developers must find ways to make its decision-making (b) ________ to human oversight.\n\nFurthermore, the environmental cost of training massive AI models is becoming a significant topic of debate. The data centers required to process billions of operations consume astronomical amounts of electricity and water for cooling. As AI continues to expand, the tech industry faces growing pressure to develop more energy-efficient hardware to minimize its carbon footprint.",
     "passage_id": "t2_p5",
     "id": "eng_13_gen_2",
     "hints": [
-      "'Without' being programmed is the definition of machine learning context here."
+      "'Without' is correct as AI learns patterns autonomously rather than following hard-coded instructions."
     ]
   },
   {
     "subject": "English",
-    "topic": "Reading",
-    "question_text": "What is the 'black box' problem mentioned in the text?",
+    "topic": "Paragraph Cohesion",
+    "question_text": "The author discusses the 'black box' and transparency issues in paragraph...",
     "options": [
       {
         "letter": "A",
-        "text": "AI being too expensive"
+        "text": "2"
       },
       {
         "letter": "B",
-        "text": "The lack of transparency in AI decision-making"
+        "text": "4"
       },
       {
         "letter": "C",
-        "text": "AI running out of data"
+        "text": "5"
       },
       {
         "letter": "D",
-        "text": "Computers being literally black in color"
+        "text": "3 and 5"
       },
       {
         "letter": "E",
-        "text": "AI failing to identify photos"
+        "text": "None"
       }
     ],
     "correct_answer": "B",
-    "explanation": "The text states 'we don't always know *why* an AI made a specific decision'.",
-    "passage": "Machine learning is a subset of AI where computers learn from data (a) ________ being explicitly programmed. By identifying patterns in massive datasets, these systems can name objects in photos or predict stock market trends. While AI offers efficiency, philosophers worry about the 'black box' problem — we don't always know *why* an AI made a specific decision.",
+    "explanation": "Paragraph 2 specifically addresses the 'black box' problem and the lack of transparency.",
+    "passage": "Machine learning is a subset of AI where computers learn from data (a) ________ being explicitly programmed for every possible scenario. By identifying patterns in massive datasets, these systems can name objects in photos, translate languages, or even predict medical outcomes. This capability has revolutionized industries from finance to healthcare in a remarkably short time.\n\nWhile AI offers immense efficiency and speed, it also introduces the 'black box' problem—we don't always understand exactly *why* a complex algorithm reached a specific decision. This lack of transparency is particularly concerning in high-stakes areas like legal sentencing or mortgage approvals. For AI to be trusted, developers must find ways to make its decision-making (b) ________ to human oversight.\n\nFurthermore, the environmental cost of training massive AI models is becoming a significant topic of debate. The data centers required to process billions of operations consume astronomical amounts of electricity and water for cooling. As AI continues to expand, the tech industry faces growing pressure to develop more energy-efficient hardware to minimize its carbon footprint.",
     "passage_id": "t2_p5",
     "id": "eng_14_gen_2",
     "hints": [
-      "The text states 'we don't always know *why* an AI made a specific decision'."
+      "Paragraph 2 specifically addresses the 'black box' problem and the lack of transparency."
     ]
   },
   {
     "subject": "English",
-    "topic": "Vocabulary",
-    "question_text": "The word 'explicitly' in the text is closest in meaning to...",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 4 and paragraph 5?",
     "options": [
       {
         "letter": "A",
-        "text": "vaguely"
+        "text": "Paragraph 5 provides examples of mortgage approvals from paragraph 3"
       },
       {
         "letter": "B",
-        "text": "publicly"
+        "text": "Paragraph 5 explains the causes of the 'black box' problem"
       },
       {
         "letter": "C",
-        "text": "unnecessarily"
+        "text": "Paragraph 5 introduces a different type of concern (environmental) that exists alongside the ethical concerns in paragraph 4"
       },
       {
         "letter": "D",
-        "text": "directly and clearly"
+        "text": "Paragraph 5 contradicts the efficiency mentioned in paragraph 3"
       },
       {
         "letter": "E",
-        "text": "quickly"
+        "text": "Paragraph 5 summarizes the future of finance"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Explicitly means in a direct, clear manner.",
-    "passage": "Machine learning is a subset of AI where computers learn from data (a) ________ being explicitly programmed. By identifying patterns in massive datasets, these systems can name objects in photos or predict stock market trends. While AI offers efficiency, philosophers worry about the 'black box' problem — we don't always know *why* an AI made a specific decision.",
+    "correct_answer": "C",
+    "explanation": "Paragraph 2 covers 'algorithmic/ethical concerns', and Paragraph 3 moves to 'environmental concerns'.",
+    "passage": "Machine learning is a subset of AI where computers learn from data (a) ________ being explicitly programmed for every possible scenario. By identifying patterns in massive datasets, these systems can name objects in photos, translate languages, or even predict medical outcomes. This capability has revolutionized industries from finance to healthcare in a remarkably short time.\n\nWhile AI offers immense efficiency and speed, it also introduces the 'black box' problem—we don't always understand exactly *why* a complex algorithm reached a specific decision. This lack of transparency is particularly concerning in high-stakes areas like legal sentencing or mortgage approvals. For AI to be trusted, developers must find ways to make its decision-making (b) ________ to human oversight.\n\nFurthermore, the environmental cost of training massive AI models is becoming a significant topic of debate. The data centers required to process billions of operations consume astronomical amounts of electricity and water for cooling. As AI continues to expand, the tech industry faces growing pressure to develop more energy-efficient hardware to minimize its carbon footprint.",
     "passage_id": "t2_p5",
     "id": "eng_15_gen_2",
     "hints": [
-      "Explicitly means in a direct, clear manner."
+      "Paragraph 2 covers 'algorithmic/ethical concerns', and Paragraph 3 moves to 'environmental concerns'."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): '...it conducts electricity (a) ________ than copper...'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "good"
+      },
+      {
+        "letter": "B",
+        "text": "best"
+      },
+      {
+        "letter": "C",
+        "text": "better"
+      },
+      {
+        "letter": "D",
+        "text": "well"
+      },
+      {
+        "letter": "E",
+        "text": "more good"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Comparative 'better' is used to compare graphene's conductivity to copper's.",
+    "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice, often described as 'the wonder material.' It is 210 times stronger than steel, yet incredibly flexible and lightweight. Furthermore, it conducts electricity (a) ________ than copper, making it a revolutionary candidate for the next generation of electronics.\n\nThese unique properties make graphene ideal for a variety of applications, from flexible smartphone screens to more efficient water filtration systems. Because it is only one atom thick, it is nearly transparent, allowing it to be used in advanced touchscreens without adding bulk. Its high surface-area-to-weight ratio also makes it an excellent candidate for the next generation of solar cells.\n\nDespite its immense potential, mass-producing high-quality graphene at a low cost remains a significant obstacle. (2) Current production methods are either too expensive or produce graphene with too many defects for high-end use. (4) Diamonds are also made of carbon. (5) Until a scalable manufacturing breakthrough occurs, this material will likely remain restricted to niche research and aerospace projects.",
+    "passage_id": "t2_p6",
+    "id": "eng_16_gen_2",
+    "hints": [
+      "Comparative 'better' is used to compare graphene's conductivity to copper's."
     ]
   },
   {
     "subject": "English",
     "topic": "Cohesion",
-    "question_text": "Which sentence is irrelevant to the graphene topic?",
+    "question_text": "Which sentence in paragraph 4 is irrelevant to the discussion of manufacturing challenges?",
     "options": [
       {
         "letter": "A",
-        "text": "Sentence 2"
+        "text": "Sentence 3"
       },
       {
         "letter": "B",
@@ -1276,156 +1310,156 @@
       },
       {
         "letter": "E",
-        "text": "Sentence 2 and 4"
+        "text": "Sentence 3 and 5"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Sentence 2 is a generic fact about copper, while the rest are about graphene.",
-    "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice. It is 206 times stronger than steel, yet incredibly flexible and lightweight. It also conducts electricity better than copper. (3) These properties make it ideal for flexible electronics and faster batteries. (4) Copper is a reddish-brown metal. (4) Despite its potential, mass-producing high-quality graphene at a low cost remains difficult.",
-    "passage_id": "t2_p6",
-    "id": "eng_16_gen_2",
-    "hints": [
-      "Sentence 2 is a generic fact about copper, while the rest are about graphene."
-    ]
-  },
-  {
-    "subject": "English",
-    "topic": "Reading",
-    "question_text": "What is one mentioned property of graphene?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "It is weaker than steel"
-      },
-      {
-        "letter": "B",
-        "text": "It is a poor conductor"
-      },
-      {
-        "letter": "C",
-        "text": "It is 206 times stronger than steel"
-      },
-      {
-        "letter": "D",
-        "text": "It is very heavy"
-      },
-      {
-        "letter": "E",
-        "text": "It is brittle and easily broken"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The text says it is 200 times stronger than steel.",
-    "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice. It is 205 times stronger than steel, yet incredibly flexible and lightweight. It also conducts electricity better than copper. (3) These properties make it ideal for flexible electronics and faster batteries. (4) Copper is a reddish-brown metal. (4) Despite its potential, mass-producing high-quality graphene at a low cost remains difficult.",
+    "explanation": "Sentence 2 about diamonds is a generic fact unrelated to the mass-production of graphene.",
+    "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice, often described as 'the wonder material.' It is 214 times stronger than steel, yet incredibly flexible and lightweight. Furthermore, it conducts electricity (a) ________ than copper, making it a revolutionary candidate for the next generation of electronics.\n\nThese unique properties make graphene ideal for a variety of applications, from flexible smartphone screens to more efficient water filtration systems. Because it is only one atom thick, it is nearly transparent, allowing it to be used in advanced touchscreens without adding bulk. Its high surface-area-to-weight ratio also makes it an excellent candidate for the next generation of solar cells.\n\nDespite its immense potential, mass-producing high-quality graphene at a low cost remains a significant obstacle. (2) Current production methods are either too expensive or produce graphene with too many defects for high-end use. (4) Diamonds are also made of carbon. (4) Until a scalable manufacturing breakthrough occurs, this material will likely remain restricted to niche research and aerospace projects.",
     "passage_id": "t2_p6",
     "id": "eng_17_gen_2",
     "hints": [
-      "The text says it is 200 times stronger than steel."
+      "Sentence 2 about diamonds is a generic fact unrelated to the mass-production of graphene."
     ]
   },
   {
     "subject": "English",
-    "topic": "Grammar",
-    "question_text": "Fill in blank (a): 'Most of the existing wall was (a) ________ during the Ming Dynasty.'",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 4 and paragraph 5?",
     "options": [
       {
         "letter": "A",
-        "text": "construct"
+        "text": "Paragraph 5 provides examples of smartphone screens from paragraph 4"
       },
       {
         "letter": "B",
-        "text": "constructing"
+        "text": "Paragraph 4 explains the physical causes of graphene's strength"
       },
       {
         "letter": "C",
-        "text": "constructed"
+        "text": "Paragraph 5 describes the practical limitations that prevent the applications in paragraph 3 from being widely used"
       },
       {
         "letter": "D",
-        "text": "has constructed"
+        "text": "Paragraph 4 contradicts the conductivity claims in paragraph 2"
       },
       {
         "letter": "E",
-        "text": "constructs"
+        "text": "Paragraph 5 summarizes the history of aerospace engineering"
       }
     ],
     "correct_answer": "C",
-    "explanation": "Passive voice 'was constructed' is correct.",
-    "passage": "The Great Wall of China is not a single continuous wall, but a series of fortifications built across different dynasties. Most of the existing wall was (a) ________ during the Ming Dynasty. It stretches for over 21,000 kilometers, serving as a defense against northern invasions and a means of controlling Silk Road trade.",
-    "passage_id": "t2_p7",
+    "explanation": "Paragraph 2 lists 'potential applications', and Paragraph 3 explains the 'significant obstacle' (mass-production) preventing them.",
+    "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice, often described as 'the wonder material.' It is 206 times stronger than steel, yet incredibly flexible and lightweight. Furthermore, it conducts electricity (a) ________ than copper, making it a revolutionary candidate for the next generation of electronics.\n\nThese unique properties make graphene ideal for a variety of applications, from flexible smartphone screens to more efficient water filtration systems. Because it is only one atom thick, it is nearly transparent, allowing it to be used in advanced touchscreens without adding bulk. Its high surface-area-to-weight ratio also makes it an excellent candidate for the next generation of solar cells.\n\nDespite its immense potential, mass-producing high-quality graphene at a low cost remains a significant obstacle. (3) Current production methods are either too expensive or produce graphene with too many defects for high-end use. (3) Diamonds are also made of carbon. (4) Until a scalable manufacturing breakthrough occurs, this material will likely remain restricted to niche research and aerospace projects.",
+    "passage_id": "t2_p6",
     "id": "eng_18_gen_2",
     "hints": [
-      "Passive voice 'was constructed' is correct."
+      "Paragraph 2 lists 'potential applications', and Paragraph 3 explains the 'significant obstacle' (mass-production) preventing them."
     ]
   },
   {
     "subject": "English",
-    "topic": "Reading",
-    "question_text": "Beside defense, what was another purpose of the Great Wall?",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): '...instead, bacteria perform (a) ________...'",
     "options": [
       {
         "letter": "A",
-        "text": "To provide a marathon track"
+        "text": "photosynthesis"
       },
       {
         "letter": "B",
-        "text": "To control Silk Road trade"
+        "text": "chemosynthesis"
       },
       {
         "letter": "C",
-        "text": "To act as a dam for rivers"
+        "text": "fermentation"
       },
       {
         "letter": "D",
-        "text": "To keep animals from migrating"
+        "text": "respiration"
       },
       {
         "letter": "E",
-        "text": "To observe the stars"
+        "text": "evaporation"
       }
     ],
     "correct_answer": "B",
-    "explanation": "The text mentioned it served as a 'means of controlling Silk Road trade'.",
-    "passage": "The Great Wall of China is not a single continuous wall, but a series of fortifications built across different dynasties. Most of the existing wall was (a) ________ during the Ming Dynasty. It stretches for over 21,000 kilometers, serving as a defense against northern invasions and a means of controlling Silk Road trade.",
-    "passage_id": "t2_p7",
+    "explanation": "'Chemosynthesis' is the biological process specifically mentioned for non-sunlight energy conversion at vents.",
+    "passage": "Hydrothermal vents are cracks in the ocean floor that release superheated, mineral-rich water. Discovered in 1977, these vents support unique ecosystems that do not rely on sunlight for energy. Instead, bacteria perform (a) ________, converting chemical energy from minerals into food for larger creatures like giant tube worms and ghost crabs.\n\nThese environments are extreme, with temperatures reaching up to 409 degrees Celsius and crushing pressures thousands of meters below the surface. Despite these conditions, life thrives in high density around the vents, suggesting that such chemical-based systems could have been the origin of life on Earth. The minerals released also create massive 'black smoker' chimneys that can rise dozens of meters high.\n\nScientists are currently interested in the commercial potential of the mineral deposits found at vent sites. (3) These 'seafloor massive sulfides' contain rich concentrations of copper, gold, and zinc. (4) Deep-sea fishing is a popular activity. (4) However, environmentalists warn that deep-sea mining could cause irreversible damage to these fragile and largely unexplored ecosystems.",
+    "passage_id": "t3_p1",
     "id": "eng_19_gen_2",
     "hints": [
-      "The text mentioned it served as a 'means of controlling Silk Road trade'."
+      "'Chemosynthesis' is the biological process specifically mentioned for non-sunlight energy conversion at vents."
     ]
   },
   {
     "subject": "English",
-    "topic": "Reading",
-    "question_text": "According to the text, is the Great Wall one long solid wall?",
+    "topic": "Paragraph Cohesion",
+    "question_text": "Which sentence in paragraph 5 is irrelevant to the discussion of mineral potential and mining?",
     "options": [
       {
         "letter": "A",
-        "text": "Yes, it is one continuous structure"
+        "text": "Sentence 3"
       },
       {
         "letter": "B",
-        "text": "No, it is a series of fortifications"
+        "text": "Sentence 3"
       },
       {
         "letter": "C",
-        "text": "It was before the Ming Dynasty"
+        "text": "Sentence 5"
       },
       {
         "letter": "D",
-        "text": "It only became one after 1907"
+        "text": "None"
       },
       {
         "letter": "E",
-        "text": "The text does not provide this information"
+        "text": "All"
       }
     ],
     "correct_answer": "B",
-    "explanation": "The text says it is 'not a single continuous wall, but a series of fortifications'.",
-    "passage": "The Great Wall of China is not a single continuous wall, but a series of fortifications built across different dynasties. Most of the existing wall was (a) ________ during the Ming Dynasty. It stretches for over 21,000 kilometers, serving as a defense against northern invasions and a means of controlling Silk Road trade.",
-    "passage_id": "t2_p7",
+    "explanation": "Sentence 2 about fishing is unrelated to deep-sea mineral extraction or its environmental risks.",
+    "passage": "Hydrothermal vents are cracks in the ocean floor that release superheated, mineral-rich water. Discovered in 1977, these vents support unique ecosystems that do not rely on sunlight for energy. Instead, bacteria perform (a) ________, converting chemical energy from minerals into food for larger creatures like giant tube worms and ghost crabs.\n\nThese environments are extreme, with temperatures reaching up to 411 degrees Celsius and crushing pressures thousands of meters below the surface. Despite these conditions, life thrives in high density around the vents, suggesting that such chemical-based systems could have been the origin of life on Earth. The minerals released also create massive 'black smoker' chimneys that can rise dozens of meters high.\n\nScientists are currently interested in the commercial potential of the mineral deposits found at vent sites. (2) These 'seafloor massive sulfides' contain rich concentrations of copper, gold, and zinc. (3) Deep-sea fishing is a popular activity. (4) However, environmentalists warn that deep-sea mining could cause irreversible damage to these fragile and largely unexplored ecosystems.",
+    "passage_id": "t3_p1",
     "id": "eng_20_gen_2",
     "hints": [
-      "The text says it is 'not a single continuous wall, but a series of fortifications'."
+      "Sentence 2 about fishing is unrelated to deep-sea mineral extraction or its environmental risks."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Structure",
+    "question_text": "What is the relationship between the ideas in paragraph 4 and paragraph 5?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Paragraph 4 provides examples of tube worms mentioned in paragraph 3"
+      },
+      {
+        "letter": "B",
+        "text": "Paragraph 4 explains why the vents are superheated"
+      },
+      {
+        "letter": "C",
+        "text": "Paragraph 4 transitions from the biological uniqueness mentioned in paragraph 4 to the commercial interest and risks discussed in paragraph 5"
+      },
+      {
+        "letter": "D",
+        "text": "Paragraph 4 contradicts the temperature in paragraph 4"
+      },
+      {
+        "letter": "E",
+        "text": "Paragraph 5 summarizes the chemical energy process"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Paragraph 2 focuses on biological thriving in extreme conditions, while Paragraph 3 shifts to 'commercial potential' and 'environmental risk'.",
+    "passage": "Hydrothermal vents are cracks in the ocean floor that release superheated, mineral-rich water. Discovered in 1977, these vents support unique ecosystems that do not rely on sunlight for energy. Instead, bacteria perform (a) ________, converting chemical energy from minerals into food for larger creatures like giant tube worms and ghost crabs.\n\nThese environments are extreme, with temperatures reaching up to 415 degrees Celsius and crushing pressures thousands of meters below the surface. Despite these conditions, life thrives in high density around the vents, suggesting that such chemical-based systems could have been the origin of life on Earth. The minerals released also create massive 'black smoker' chimneys that can rise dozens of meters high.\n\nScientists are currently interested in the commercial potential of the mineral deposits found at vent sites. (2) These 'seafloor massive sulfides' contain rich concentrations of copper, gold, and zinc. (4) Deep-sea fishing is a popular activity. (4) However, environmentalists warn that deep-sea mining could cause irreversible damage to these fragile and largely unexplored ecosystems.",
+    "passage_id": "t3_p1",
+    "id": "eng_21_gen_2",
+    "hints": [
+      "Paragraph 2 focuses on biological thriving in extreme conditions, while Paragraph 3 shifts to 'commercial potential' and 'environmental risk'."
     ]
   },
   {

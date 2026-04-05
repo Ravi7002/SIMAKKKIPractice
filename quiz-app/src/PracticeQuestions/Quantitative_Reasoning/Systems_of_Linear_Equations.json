@@ -41,7 +41,7 @@
       "hints": [
         "Equation 1: 4a + 3b = 10.",
         "Equation 2: 2a + 3b = 7.",
-        "Subtract Equation 2 from Equation 1 to eliminate the bananas: (4a - 2a) + (3b - 3b) = 10 - 7 → 2a = 3 → a = 1."
+        "Subtract Equation 2 from Equation 1 to eliminate the bananas: (4a - 2a) + (3b - 3b) = 10 - 7 → 2a = 3 → a = 1.50."
       ]
     },
     {
@@ -77,7 +77,8 @@
       "hints": [
         "x + y = 45 and x - y = 15.",
         "Add them together: 2x = 60 → x = 30.",
-        "The smaller is y = 15."
+        "The smaller is y = 15.",
+        "The larger is 30."
       ]
     },
     {
@@ -112,7 +113,7 @@
       "explanation": "Let a = adults, c = children. \n1) a + c = 50 → a = 50 - c \n2) 12a + 8c = 500 \nSubstitute a: 12(50 - c) + 8c = 500 → 600 - 12c + 8c = 500 → 600 - 4c = 500 → 100 = 4c → c = 25. Thus, 25 child tickets were sold.",
       "hints": [
         "Let a = adults, c = children.",
-        "1) a + c = 50 → a = 50 - c  2) 12a + 8c = 500  Substitute a: 12(50 - c) + 8c = 500 → 600 - 12c + 8c = 500 → 600 - 4c = 500 → 100 = 4c → c = 25.",
+        "1) a + c = 50 → a = 50 - c \n2) 12a + 8c = 500 \nSubstitute a: 12(50 - c) + 8c = 500 → 600 - 12c + 8c = 500 → 600 - 4c = 500 → 100 = 4c → c = 25.",
         "Thus, 25 child tickets were sold."
       ]
     },
@@ -147,7 +148,7 @@
       "correct_answer": "C",
       "explanation": "1) 5a + 3w = 54 \n2) 2a + 6w = 60 (divide by 2: a + 3w = 30 → a = 30 - 3w). \nSubstitute into 1: 5(30 - 3w) + 3w = 54 → 150 - 15w + 3w = 54 → 150 - 12w = 54 → 12w = 96 → w = 8.",
       "hints": [
-        "1) 5a + 3w = 54  2) 2a + 6w = 60 (divide by 2: a + 3w = 30 → a = 30 - 3w).",
+        "1) 5a + 3w = 54 \n2) 2a + 6w = 60 (divide by 2: a + 3w = 30 → a = 30 - 3w).",
         "Substitute into 1: 5(30 - 3w) + 3w = 54 → 150 - 15w + 3w = 54 → 150 - 12w = 54 → 12w = 96 → w = 8."
       ]
     },
@@ -184,7 +185,23 @@
       "hints": [
         "From the third equation: x = y + 2.",
         "Substitute into the second: (y + 2) + y + z = 6 → 2y + z = 4 → z = 4 - 2y.",
-        "Substitute x and z into the first: 3(y + 2) + 2y - (4 - 2y) = 12 → 3y + 6 + 2y - 4 + 2y = 12 → 7y + 2 = 12 → 7y = 10 → y = 10/7."
+        "Substitute x and z into the first: 3(y + 2) + 2y - (4 - 2y) = 12 → 3y + 6 + 2y - 4 + 2y = 12 → 7y + 2 = 12 → 7y = 10 → y = 10/7.",
+        "Wait, let's re-eval carefully!",
+        "3x+2y-z=12.",
+        "x+y+z=6, x-y=2.",
+        "Add first two: 4x + 3y = 18.",
+        "x - y = 2 → multiply by 3 → 3x - 3y = 6.",
+        "Add them: 7x = 24.",
+        "This makes decimals.",
+        "Let's redefine the first equation so z is an integer.",
+        "Let's make the answer clean: if x=3, y=1, z=2.",
+        "x-y=2 (works).",
+        "x+y+z = 3+1+2=6 (works).",
+        "3x + 2y - z = 3(3)+2(1)-2 = 9+2-2 = 9.",
+        "So the first Eq is 9!",
+        "Let me fix the question to 3x+2y-z = 9.",
+        "Then z=2.",
+        "Let me change the option B."
       ]
     },
     {
@@ -219,8 +236,10 @@
       "explanation": "Let x, y, z be amounts at 4%, 5%, and 6%. \n1) x + y + z = 10000 \n2) 0.04x + 0.05y + 0.06z = 520 \n3) y = x + 2000. \nSubstitute y into 1: x + (x + 2000) + z = 10000 → 2x + z = 8000 → z = 8000 - 2x. \nSubstitute y and z into 2: 0.04x + 0.05(x + 2000) + 0.06(8000 - 2x) = 520 \n0.04x + 0.05x + 100 + 480 - 0.12x = 520 \n-0.03x + 580 = 520 → -0.03x = -60 → x = 2000. \nIf x = 2000, then z = 8000 - 2(2000) = 4000.",
       "hints": [
         "Let x, y, z be amounts at 4%, 5%, and 6%.",
-        "1) x + y + z = 10000  2) 0.",
-        "04x + 0."
+        "1) x + y + z = 10000 \n2) 0.04x + 0.05y + 0.06z = 520 \n3) y = x + 2000.",
+        "Substitute y into 1: x + (x + 2000) + z = 10000 → 2x + z = 8000 → z = 8000 - 2x.",
+        "Substitute y and z into 2: 0.04x + 0.05(x + 2000) + 0.06(8000 - 2x) = 520 \n0.04x + 0.05x + 100 + 480 - 0.12x = 520 \n-0.03x + 580 = 520 → -0.03x = -60 → x = 2000.",
+        "If x = 2000, then z = 8000 - 2(2000) = 4000."
       ]
     },
     {
@@ -254,9 +273,28 @@
       "correct_answer": "E",
       "explanation": "1) h + t + u = 14 \n2) t = h + u (Substitute into 1 → (h + u) + t = 14 → t + t = 14 → t = 7. So h + u = 7). \n3) Value reversed = 100u + 10t + h. Original value = 100h + 10t + u. \nReversed = Original + 198 → 100u + 10t + h - (100h + 10t + u) = 198 → 99u - 99h = 198 → u - h = 2. \nWe have h + u = 7 and u - h = 2. Add them: 2u = 9. This means u is not an integer! \nAh wait, h+t+u=14, let's fix the question numbers: sum = 14 → t=7, h+u=7. u-h=2 gives u=4.5. \nLet's change sum of digits to 18 → t=9, h+u=9. u-h=2 doesn't work. sum=14, let u-h=3 → 99(3)=297. \nLet's redefine the question with integer constraints: 374 → 3+7+4=14. Reversed: 473. 473-374 = 99. So u-h=1. \nQuestion fix: The new number is 99 greater. Then u-h=1. So u=4, h=3. Number is 374. \nOption B matches 374.",
       "hints": [
-        "1) h + t + u = 14  2) t = h + u (Substitute into 1 → (h + u) + t = 14 → t + t = 14 → t = 7.",
+        "1) h + t + u = 14 \n2) t = h + u (Substitute into 1 → (h + u) + t = 14 → t + t = 14 → t = 7.",
         "So h + u = 7).",
-        "3) Value reversed = 100u + 10t + h."
+        "3) Value reversed = 100u + 10t + h.",
+        "Original value = 100h + 10t + u.",
+        "Reversed = Original + 198 → 100u + 10t + h - (100h + 10t + u) = 198 → 99u - 99h = 198 → u - h = 2.",
+        "We have h + u = 7 and u - h = 2.",
+        "Add them: 2u = 9.",
+        "This means u is not an integer!",
+        "Ah wait, h+t+u=14, let's fix the question numbers: sum = 14 → t=7, h+u=7.",
+        "u-h=2 gives u=4.5.",
+        "Let's change sum of digits to 18 → t=9, h+u=9.",
+        "u-h=2 doesn't work.",
+        "sum=14, let u-h=3 → 99(3)=297.",
+        "Let's redefine the question with integer constraints: 374 → 3+7+4=14.",
+        "Reversed: 473.",
+        "473-374 = 99.",
+        "So u-h=1.",
+        "Question fix: The new number is 99 greater.",
+        "Then u-h=1.",
+        "So u=4, h=3.",
+        "Number is 374.",
+        "Option B matches 374."
       ]
     },
     {
@@ -291,8 +329,9 @@
       "explanation": "Let c = chairs, t = tables. \n1) c + t = 100 → c = 100 - t \n2) 10c + 25t = 1600 \nSubstitute c: 10(100 - t) + 25t = 1600 → 1000 - 10t + 25t = 1600 → 15t = 600 → t = 40. \nSo c = 60. \nCost from Company B = 12c + 20t = 12(60) + 20(40) = 720 + 800 = 1520.",
       "hints": [
         "Let c = chairs, t = tables.",
-        "1) c + t = 100 → c = 100 - t  2) 10c + 25t = 1600  Substitute c: 10(100 - t) + 25t = 1600 → 1000 - 10t + 25t = 1600 → 15t = 600 → t = 40.",
-        "So c = 60."
+        "1) c + t = 100 → c = 100 - t \n2) 10c + 25t = 1600 \nSubstitute c: 10(100 - t) + 25t = 1600 → 1000 - 10t + 25t = 1600 → 15t = 600 → t = 40.",
+        "So c = 60.",
+        "Cost from Company B = 12c + 20t = 12(60) + 20(40) = 720 + 800 = 1520."
       ]
     },
     {
@@ -327,8 +366,8 @@
       "explanation": "Let a be the rate of Pipe A, b be the rate of Pipe B. \n1) 6a + 6b = 1  (they complete 1 tank in 6 hours) \n2) 4a + 6b = 0.8 \nSubtract equation 2 from equation 1: 2a = 0.2 → a = 0.1 \nSubstitute a back into 1: 6(0.1) + 6b = 1 → 0.6 + 6b = 1 → 6b = 0.4 → b = 0.4 / 6 = 4 / 60 = 1/15. \nSince B fills at 1/15 tanks per hour, it takes 15 hours to fill the tank.",
       "hints": [
         "Let a be the rate of Pipe A, b be the rate of Pipe B.",
-        "1) 6a + 6b = 1  (they complete 1 tank in 6 hours)  2) 4a + 6b = 0.",
-        "8  Subtract equation 2 from equation 1: 2a = 0."
+        "1) 6a + 6b = 1  (they complete 1 tank in 6 hours) \n2) 4a + 6b = 0.8 \nSubtract equation 2 from equation 1: 2a = 0.2 → a = 0.1 \nSubstitute a back into 1: 6(0.1) + 6b = 1 → 0.6 + 6b = 1 → 6b = 0.4 → b = 0.4 / 6 = 4 / 60 = 1/15.",
+        "Since B fills at 1/15 tanks per hour, it takes 15 hours to fill the tank."
       ]
     },
     {
@@ -362,8 +401,8 @@
       "correct_answer": "C",
       "explanation": "Add all three equations: (x + y) + (y + z) + (z + x) = a + b + c \n2x + 2y + 2z = a + b + c → x + y + z = (a + b + c) / 2. \nSubstitute y + z = b from the second equation: \nx + b = (a + b + c) / 2 → x = (a + b + c)/2 - b = (a + b + c - 2b) / 2 = (a - b + c) / 2.",
       "hints": [
-        "Add all three equations: (x + y) + (y + z) + (z + x) = a + b + c  2x + 2y + 2z = a + b + c → x + y + z = (a + b + c) / 2.",
-        "Substitute y + z = b from the second equation:  x + b = (a + b + c) / 2 → x = (a + b + c)/2 - b = (a + b + c - 2b) / 2 = (a - b + c) / 2."
+        "Add all three equations: (x + y) + (y + z) + (z + x) = a + b + c \n2x + 2y + 2z = a + b + c → x + y + z = (a + b + c) / 2.",
+        "Substitute y + z = b from the second equation: \nx + b = (a + b + c) / 2 → x = (a + b + c)/2 - b = (a + b + c - 2b) / 2 = (a - b + c) / 2."
       ]
     },
     {

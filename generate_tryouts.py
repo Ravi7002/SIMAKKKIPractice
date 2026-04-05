@@ -11,7 +11,7 @@ os.makedirs(os.path.join('quiz-app', 'src', 'GeneratedTryouts'), exist_ok=True)
 
 # ─── Load English passage pools ──────────────────────────────────────────────
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from english_pool_v3 import POOL as LONG_PASSAGES
+from english_pool_v4 import POOL as LONG_PASSAGES
 
 # ─── Text mutation ───────────────────────────────────────────────────────────
 def mutate_text(text, skip_numbers=False):

@@ -109,9 +109,9 @@
       "correct_answer": "A",
       "explanation": "Evaluate the logic: (GPA ≥ 3.5) AND (Volunteering ≥ 50 OR Varsity Sport). \nSarah: (True) AND (False OR True) → True AND True → True. She is eligible.",
       "hints": [
-        "Evaluate the logic: (GPA ≥ 3.",
-        "5) AND (Volunteering ≥ 50 OR Varsity Sport).",
-        "Sarah: (True) AND (False OR True) → True AND True → True."
+        "Evaluate the logic: (GPA ≥ 3.5) AND (Volunteering ≥ 50 OR Varsity Sport).",
+        "Sarah: (True) AND (False OR True) → True AND True → True.",
+        "She is eligible."
       ]
     },
     {
@@ -219,7 +219,9 @@
       "hints": [
         "To activate D, both A and C must activate.",
         "If A is active, B = OFF.",
-        "If C is active, B = ON."
+        "If C is active, B = ON.",
+        "This creates an unresolvable logic paradox (B must be both ON and OFF simultaneously).",
+        "Hence, A and C cannot be active together, making D impossible to activate."
       ]
     },
     {
@@ -255,7 +257,8 @@
       "hints": [
         "John falls into category 2 (Credit 650).",
         "Therefore, he needs Income > $80k (True) AND NO existing debt (False, he has $5k).",
-        "Therefore, he is denied."
+        "Therefore, he is denied.",
+        "The automatic denial rule for >$10k doesn't save him; it's a separate fast-fail condition."
       ]
     },
     {
@@ -291,7 +294,9 @@
       "hints": [
         "The player spends 100 gold to reach Level 2.",
         "They now have 500 gold left.",
-        "To reach Level 3, the requirement is (Level 2) AND (Defeat Boss OR Pay 500)."
+        "To reach Level 3, the requirement is (Level 2) AND (Defeat Boss OR Pay 500).",
+        "They meet 'Level 2', and they meet the 'Pay 500' alternative.",
+        "So they successfully reach Level 3."
       ]
     },
     {
@@ -327,7 +332,12 @@
       "hints": [
         "Lucy is bilingual, so tenure requirements drop by 3 years.",
         "Track A now requires 2 years tenure.",
-        "Track B now requires 0 years tenure (originally 2)."
+        "Track B now requires 0 years tenure (originally 2).",
+        "Lucy has 0 years tenure.",
+        "So she fails Track A immediately.",
+        "For Track B, she meets the 0 years tenure requirement, AND met her Sales Target, but she does NOT have Management Training.",
+        "Track B uses AND for all three.",
+        "So she fails Track B as well."
       ]
     },
     {
@@ -363,7 +373,13 @@
       "hints": [
         "Alex is 16.",
         "Rule 1: Needs parent.",
-        "Mom is present."
+        "Mom is present.",
+        "Alex's Fee: He is a student with an ID (Rule 3), so his fee is waived ($0).",
+        "Mom's Fee: She is a parent accompanying a minor (Rule 4), so she must pay double the base fee of $10.",
+        "2 * 10 = $20.",
+        "Total cost = $0 + $20 = $20.",
+        "The prompt states she forgot her wallet, but asks 'How much must they pay', not 'Can they enter'.",
+        "The required payment is $20."
       ]
     },
     {
@@ -399,7 +415,13 @@
       "hints": [
         "Alex is 16.",
         "Rule 1: Needs parent.",
-        "Mom is present."
+        "Mom is present.",
+        "Alex's Fee: He is a student with an ID (Rule 3), so his fee is waived ($0).",
+        "Mom's Fee: She is a parent accompanying a minor (Rule 4), so she must pay double the base fee of $10.",
+        "2 * 10 = $20.",
+        "Total cost = $0 + $20 = $20.",
+        "The prompt states she forgot her wallet, but asks 'How much must they pay', not 'Can they enter'.",
+        "The required payment is $20."
       ]
     },
     {
@@ -471,7 +493,12 @@
       "hints": [
         "Lucy is bilingual, so tenure requirements drop by 3 years.",
         "Track A now requires 2 years tenure.",
-        "Track B now requires 0 years tenure (originally 2)."
+        "Track B now requires 0 years tenure (originally 2).",
+        "Lucy has 0 years tenure.",
+        "So she fails Track A immediately.",
+        "For Track B, she meets the 0 years tenure requirement, AND met her Sales Target, but she does NOT have Management Training.",
+        "Track B uses AND for all three.",
+        "So she fails Track B as well."
       ]
     },
     {
@@ -614,7 +641,9 @@
       "hints": [
         "The player spends 100 gold to reach Level 2.",
         "They now have 500 gold left.",
-        "To reach Level 3, the requirement is (Level 2) AND (Defeat Boss OR Pay 500)."
+        "To reach Level 3, the requirement is (Level 2) AND (Defeat Boss OR Pay 500).",
+        "They meet 'Level 2', and they meet the 'Pay 500' alternative.",
+        "So they successfully reach Level 3."
       ]
     },
     {
@@ -826,7 +855,13 @@
       "hints": [
         "Alex is 16.",
         "Rule 1: Needs parent.",
-        "Mom is present."
+        "Mom is present.",
+        "Alex's Fee: He is a student with an ID (Rule 3), so his fee is waived ($0).",
+        "Mom's Fee: She is a parent accompanying a minor (Rule 4), so she must pay double the base fee of $10.",
+        "2 * 10 = $20.",
+        "Total cost = $0 + $20 = $20.",
+        "The prompt states she forgot her wallet, but asks 'How much must they pay', not 'Can they enter'.",
+        "The required payment is $20."
       ]
     },
     {

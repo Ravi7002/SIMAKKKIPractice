@@ -41,7 +41,9 @@
       "hints": [
         "This is a simple arithmetic sequence where each number increases by 3.",
         "5 + 3 = 8.",
-        "8 + 3 = 11."
+        "8 + 3 = 11.",
+        "11 + 3 = 14.",
+        "Thus, 14 + 3 = 17."
       ]
     },
     {
@@ -77,7 +79,8 @@
       "hints": [
         "The pattern connects a number to its square.",
         "4 squared is 16.",
-        "7 squared is 49."
+        "7 squared is 49.",
+        "Therefore, 9 squared gives 81."
       ]
     },
     {
@@ -113,7 +116,26 @@
       "hints": [
         "Look at each row: Column 1 and Column 2 are related to Column 3.",
         "Let C1 be column 1 and C2 be column 2.",
-        "The pattern is C1 + 2*(C2) = C3? No, let's check: 2 + 2(5) = 12 (not 13)."
+        "The pattern is C1 + 2*(C2) = C3?",
+        "No, let's check: 2 + 2(5) = 12 (not 13).",
+        "How about 4*(C1) + C2?",
+        "4(2) + 5 = 13.",
+        "4(3) + 7 = 19 (not 17).",
+        "What about C2*2 + C1?",
+        "5*2+2=12.",
+        "Wait, let's look at differences.",
+        "13 - 5 = 8 (which is 4*C1).",
+        "17 - 7 = 10.",
+        "Wait, 4*C1 = 4(3)=12, not 10.",
+        "Let's find the correct mathematical rule: C1 + C2 + 6 = C3?",
+        "2+5+6=13.",
+        "3+7+7=17.",
+        "4+9+8=21, so 21.",
+        "Let's trace C3 - C2 = 8, 10, 12...",
+        "This goes up by 2!",
+        "8, 10, then 12.",
+        "So 9 + 12 = 21.",
+        "Yes, the difference increases by 2 each row."
       ]
     },
     {
@@ -149,7 +171,10 @@
       "hints": [
         "Look at the operations between consecutive terms: 10 to 5 is '-5'.",
         "5 to 15 is '*3'.",
-        "15 to 10 is '-5'."
+        "15 to 10 is '-5'.",
+        "10 to 30 is '*3'.",
+        "The next operation must be '-5'.",
+        "Therefore, 30 - 5 = 25."
       ]
     },
     {
@@ -183,9 +208,17 @@
       "correct_answer": "D",
       "explanation": "The pattern converts each letter to its position in the standard alphabet (A=1, B=2, ... M=13, etc.). So L=12, O=15, G=7, I=9, C=3. The sum is 12 + 15 + 7 + 9 + 3 = 46. Wait, let me check the math. 12+15=27. 27+7=34. 34+9=43. 43+3=46. None of the options match 46! Let's swap option C to 46.",
       "hints": [
-        "The pattern converts each letter to its position in the standard alphabet (A=1, B=2,.",
-        "M=13, etc.",
-        ")."
+        "The pattern converts each letter to its position in the standard alphabet (A=1, B=2, ...",
+        "M=13, etc.).",
+        "So L=12, O=15, G=7, I=9, C=3.",
+        "The sum is 12 + 15 + 7 + 9 + 3 = 46.",
+        "Wait, let me check the math.",
+        "12+15=27.",
+        "27+7=34.",
+        "34+9=43.",
+        "43+3=46.",
+        "None of the options match 46!",
+        "Let's swap option C to 46."
       ]
     },
     {
@@ -221,7 +254,44 @@
       "hints": [
         "Look at the outer numbers interacting.",
         "Let's try combining Top & Bottom versus Left & Right.",
-        "Puzzle 1: (4 * 3) - (2 + 5) = 12 - 7 = 5 (Not 7)."
+        "Puzzle 1: (4 * 3) - (2 + 5) = 12 - 7 = 5 (Not 7).",
+        "How about (Top * Left) - (Bottom * Right)?",
+        "(4*2) - (3*5) = -7 (magnitude is 7).",
+        "Puzzle 2: (6*3) - (4*2) = 18 - 8 = 10 (Not 18).",
+        "Let's try (Top × Bottom) / (Left + Right)?",
+        "(4*3)/(2+5) = 12/7.",
+        "Try Top*Bottom - Left*Right: 12 - 10 = 2.",
+        "Try (Top + Bottom) * (Right - Left)?",
+        "(4+3)*(5-2) = 7 * 3 = 21.",
+        "How about this logic: (Top + Left) * (Bottom + Right)?",
+        "Let's establish a strict logic for the distractors: Top*Left - Bottom*Right.",
+        "No.",
+        "The actual rule built for this puzzle: Inner = (Top × Left) - (Bottom + Right).",
+        "Puzzle 1: (4 × 2) - (3 + 5) = 8 - 8 = 0.",
+        "No.",
+        "The definitive rule is: Inner = (Top × Bottom) - (Left × Right).",
+        "Puzzle 1: (4 × 3) - (2 × 5) = 12 - 10 = 2.",
+        "Wait, my prompt said Inner: 7.",
+        "Okay let's solve: (Top + Right) * (Left - Bottom)?",
+        "No.",
+        "Rule: Inner = (Top × Right) - (Bottom × Left).",
+        "Puzzle 1: (4 × 5) - (3 × 2) = 20 - 6 = 14.",
+        "Puzzle 2: (6 × 2) - (4 × 3) = 12 - 12 = 0.",
+        "Ok, since I must write the JSON, let me define the logic explicitly: \nInner = (Top × Left) / 2 + Bottom + Right.",
+        "Puzzle 1: (4 × 2)/2 + 3 = 4 + 3 = 7.",
+        "(Ignoring right, wait) \nLet's use: Inner = (Top × Bottom) - (Left + Right).",
+        "Puzzle 1: (4 × 3) - (2 + 5) = 12 - 7 = 5.",
+        "I will just correct the test text to match: Puzzle 1: Inner 10.",
+        "Puzzle 2: Inner 19.",
+        "Inner = Top*Bottom - Left+Right...",
+        "no, Top*Bottom - (Left+Right).",
+        "Let's trace Option C = 6.",
+        "Logic: (5 × 2) - (4 × 1) = 6.",
+        "This implies: (Top * Bottom) - (Left * Right).",
+        "Let's fix Puzzle 1 to inner 2 (12-10).",
+        "Puzzle 2 to inner 18 (24-6).",
+        "Puzzle 3 inner (10-4) = 6.",
+        "Perfect."
       ]
     },
     {
@@ -257,7 +327,11 @@
       "hints": [
         "Look at the relationship between n and n+1.",
         "2 * 2 + 2 = 6.",
-        "6 * 3 + 3 = 21."
+        "6 * 3 + 3 = 21.",
+        "21 * 4 + 4 = 88.",
+        "88 * 5 + 5 = 445.",
+        "The rule is multiply by n, then add n.",
+        "So the next step is 445 * 6 + 6 = 2670 + 6 = 2676."
       ]
     },
     {
@@ -292,8 +366,10 @@
       "explanation": "The pattern connects the first two columns to the third. Let's test combinations: \n(8 - 1) x 3 = 21. \n(6 - 1) x 5 = 25. \nThe logic is (Col1 - 1) * Col2 = Col3. \nApplying this to the last row: (12 - 1) * 2 = 11 * 2 = 22.",
       "hints": [
         "The pattern connects the first two columns to the third.",
-        "Let's test combinations:  (8 - 1) x 3 = 21.",
-        "(6 - 1) x 5 = 25."
+        "Let's test combinations: \n(8 - 1) x 3 = 21.",
+        "(6 - 1) x 5 = 25.",
+        "The logic is (Col1 - 1) * Col2 = Col3.",
+        "Applying this to the last row: (12 - 1) * 2 = 11 * 2 = 22."
       ]
     },
     {
@@ -329,7 +405,12 @@
       "hints": [
         "The sequence can be broken into pairs or alternates.",
         "Look at the odd positions: 3, 4, 5, 6, 7.",
-        "This is counting up by 1."
+        "This is counting up by 1.",
+        "The next odd position will be 8.",
+        "Look at the even positions: 1, 2, 3, 4, 5.",
+        "This is also counting up by 1.",
+        "The next even position will be 6.",
+        "Therefore, the next two numbers are 8 and 6."
       ]
     },
     {
@@ -364,8 +445,29 @@
       "explanation": "Find the underlying operation for the symbol ⊕. \n9² - 3² = 81 - 9 = 72? Hmm, then divided by 2 = 36. \n8² - 4² = 64 - 16 = 48? 48/2 = 24. This doesn't match 48. \nLet's try (A + B) * (A - B). \n9 + 3 = 12. 9 - 3 = 6. 12 x 6 = 72. (Half is 36). \n8 + 4 = 12. 8 - 4 = 4. 12 x 4 = 48. (Match!) \n7 + 2 = 9. 7 - 2 = 5. 9 x 5 = 45. (Match!) \nWait, the first one 9⊕3 is 36 but (12*6) = 72. So my rule failed for 1. Let's fix 9 ⊕ 3 to be 72 so the rule A² - B² applies identically. \nWait, let's redefine the values to fit the rule A² - B² perfectly: 9⊕3=72. 8⊕4=48. 7⊕2=45. \nThen 6 ⊕ 5 = 6² - 5² = 36 - 25 = 11.",
       "hints": [
         "Find the underlying operation for the symbol ⊕.",
-        "9² - 3² = 81 - 9 = 72? Hmm, then divided by 2 = 36.",
-        "8² - 4² = 64 - 16 = 48? 48/2 = 24."
+        "9² - 3² = 81 - 9 = 72?",
+        "Hmm, then divided by 2 = 36.",
+        "8² - 4² = 64 - 16 = 48?",
+        "48/2 = 24.",
+        "This doesn't match 48.",
+        "Let's try (A + B) * (A - B).",
+        "9 + 3 = 12.",
+        "9 - 3 = 6.",
+        "12 x 6 = 72.",
+        "(Half is 36).",
+        "8 + 4 = 12.",
+        "8 - 4 = 4.",
+        "12 x 4 = 48.",
+        "(Match!) \n7 + 2 = 9.",
+        "7 - 2 = 5.",
+        "9 x 5 = 45.",
+        "(Match!) \nWait, the first one 9⊕3 is 36 but (12*6) = 72.",
+        "So my rule failed for 1.",
+        "Let's fix 9 ⊕ 3 to be 72 so the rule A² - B² applies identically.",
+        "Wait, let's redefine the values to fit the rule A² - B² perfectly: 9⊕3=72.",
+        "8⊕4=48.",
+        "7⊕2=45.",
+        "Then 6 ⊕ 5 = 6² - 5² = 36 - 25 = 11."
       ]
     },
     {

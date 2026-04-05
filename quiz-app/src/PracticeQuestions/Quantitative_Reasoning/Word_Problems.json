@@ -78,7 +78,8 @@
       "hints": [
         "Let Mary = M, John = 2M.",
         "Total = M + 2M = 3M = 24.",
-        "M = 8."
+        "M = 8.",
+        "John has 2 * 8 = 16 apples."
       ]
     },
     {
@@ -114,7 +115,8 @@
       "hints": [
         "Rate of A = 100 / 4 = 25 parts/hour.",
         "Rate of B = 100 / 5 = 20 parts/hour.",
-        "Combined Rate = 25 + 20 = 45 parts/hour."
+        "Combined Rate = 25 + 20 = 45 parts/hour.",
+        "Time = Total Parts / Combined Rate = 450 / 45 = 10 hours."
       ]
     },
     {
@@ -150,7 +152,10 @@
       "hints": [
         "Train X runs for 1 hour alone before Y starts.",
         "In this hour, X travels 50 miles.",
-        "Remaining distance at 2:00 PM = 290 - 50 = 240 miles."
+        "Remaining distance at 2:00 PM = 290 - 50 = 240 miles.",
+        "When moving head-on, their relative speed is 50 + 70 = 120 mph.",
+        "Time to meet = Distance / Relative Speed = 240 / 120 = 2 hours after 2:00 PM.",
+        "2 hours after 2:00 PM is 4:00 PM."
       ]
     },
     {
@@ -221,7 +226,10 @@
       "hints": [
         "Rates per hour: A = 1/3, B = 1/4, C = -1/6.",
         "Combined rate = 1/3 + 1/4 - 1/6.",
-        "Common denominator 12: 4/12 + 3/12 - 2/12 = 5/12 of the pool per hour."
+        "Common denominator 12: 4/12 + 3/12 - 2/12 = 5/12 of the pool per hour.",
+        "Time to fill = 1 / (5/12) = 12/5 hours.",
+        "12/5 = 2.4.",
+        "So both B and C formats represent the exact correct value."
       ]
     },
     {
@@ -257,7 +265,10 @@
       "hints": [
         "Total job requires = 30 workers * 60 days = 1800 worker-days.",
         "Work done in first 20 days: 30 workers * 20 days = 600 worker-days.",
-        "Work remaining: 1800 - 600 = 1200 worker-days."
+        "Work remaining: 1800 - 600 = 1200 worker-days.",
+        "Remaining workers: 30 - 10 = 20 workers.",
+        "Time for remaining work: 1200 / 20 = 60 days.",
+        "Total time from start = 20 (initial) + 60 (remaining) = 80 days."
       ]
     },
     {
@@ -293,7 +304,8 @@
       "hints": [
         "Let B = boat speed in still water, C = current speed.",
         "Downstream speed: B + C = 30 / 2 = 15 mph.",
-        "Upstream speed: B - C = 15 / 3 = 5 mph."
+        "Upstream speed: B - C = 15 / 3 = 5 mph.",
+        "Subtract equations: (B + C) - (B - C) = 15 - 5 → 2C = 10 → C = 5 mph."
       ]
     },
     {
@@ -328,8 +340,9 @@
       "explanation": "Let Tom's standard age = T, Son's age = S. \n1) T = 2S \n2) T - 10 = 3(S - 10) \nSubstitute T: 2S - 10 = 3S - 30 → -10 + 30 = S → S = 20. \nTom is currently 40, Son is 20. \nIn 5 years, the son will be 20 + 5 = 25 years old.",
       "hints": [
         "Let Tom's standard age = T, Son's age = S.",
-        "1) T = 2S  2) T - 10 = 3(S - 10)  Substitute T: 2S - 10 = 3S - 30 → -10 + 30 = S → S = 20.",
-        "Tom is currently 40, Son is 20."
+        "1) T = 2S \n2) T - 10 = 3(S - 10) \nSubstitute T: 2S - 10 = 3S - 30 → -10 + 30 = S → S = 20.",
+        "Tom is currently 40, Son is 20.",
+        "In 5 years, the son will be 20 + 5 = 25 years old."
       ]
     },
     {
@@ -363,9 +376,11 @@
       "correct_answer": "E",
       "explanation": "If selling price is $18 representing a 20% profit over cost, then: Cost * 1.20 = 18 → Cost = 18 / 1.2 = $15 per kg. \nHe needs 50 kg of cost $15. Let A be amount of Blend A. Blend B = 50 - A. \nValue equation: 12A + 20(50 - A) = 15(50) \n12A + 1000 - 20A = 750 \n-8A = -250 → A = 250 / 8 = 31.25 kg.",
       "hints": [
-        "If selling price is $18 representing a 20% profit over cost, then: Cost * 1.",
-        "20 = 18 → Cost = 18 / 1.",
-        "2 = $15 per kg."
+        "If selling price is $18 representing a 20% profit over cost, then: Cost * 1.20 = 18 → Cost = 18 / 1.2 = $15 per kg.",
+        "He needs 50 kg of cost $15.",
+        "Let A be amount of Blend A.",
+        "Blend B = 50 - A.",
+        "Value equation: 12A + 20(50 - A) = 15(50) \n12A + 1000 - 20A = 750 \n-8A = -250 → A = 250 / 8 = 31.25 kg."
       ]
     },
     {

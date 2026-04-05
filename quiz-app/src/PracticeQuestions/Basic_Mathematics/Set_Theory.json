@@ -87,9 +87,7 @@
       "correct_answer": "B",
       "explanation": "**|A∪B| = |A| + |B| - |A∩B|**\n= 20 + 15 - 8 = **27**",
       "hints": [
-        "Use the inclusion-exclusion principle.",
-        "|A∪B| = |A|+|B|-|A∩B|.",
-        "= 20+15-8 = 27."
+        "**|A∪B| = |A| + |B| - |A∩B|**\n= 20 + 15 - 8 = **27**"
       ]
     },
     {
@@ -123,9 +121,7 @@
       "correct_answer": "B",
       "explanation": "|F∪B| = 18+10-5 = 23\nNeither = 30-23 = **7**",
       "hints": [
-        "Find those who play at least one: |F∪B| = 18+10-5 = 23.",
-        "Neither = total - atleast one.",
-        "= 30 - 23 = 7."
+        "|F∪B| = 18+10-5 = 23\nNeither = 30-23 = **7**"
       ]
     },
     {
@@ -159,9 +155,7 @@
       "correct_answer": "C",
       "explanation": "A∩B = {3,4,5}\n|A∩B| = **3**",
       "hints": [
-        "A∩B contains elements in both A and B.",
-        "Common elements: 3, 4, 5.",
-        "|A∩B| = 3."
+        "A∩B = {3,4,5}\n|A∩B| = **3**"
       ]
     },
     {
@@ -195,9 +189,7 @@
       "correct_answer": "E",
       "explanation": "|Aᶜ| = |U| - |A| = 100 - 40 = **60**",
       "hints": [
-        "Complement = everything in U but not in A.",
-        "|Aᶜ| = |U| - |A|.",
-        "= 100 - 40 = 60."
+        "|Aᶜ| = |U| - |A| = 100 - 40 = **60**"
       ]
     },
     {
@@ -231,9 +223,7 @@
       "correct_answer": "A",
       "explanation": "A∪B = all elements in either A or B = {1,2,3,4,6,8}",
       "hints": [
-        "Union = all elements from both sets (no duplicates).",
-        "A = {2,4,6,8}, B = {1,2,3,4}.",
-        "A∪B = {1,2,3,4,6,8}."
+        "A∪B = all elements in either A or B = {1,2,3,4,6,8}"
       ]
     },
     {
@@ -267,9 +257,8 @@
       "correct_answer": "A",
       "explanation": "If A ⊆ B, then every element of A is also in B.\nA∩B = A",
       "hints": [
-        "If A is a subset of B, all elements of A are in B.",
-        "A∩B = elements in both A and B = A.",
-        "A∩B = A."
+        "If A ⊆ B, then every element of A is also in B.",
+        "A∩B = A"
       ]
     },
     {
@@ -303,9 +292,7 @@
       "correct_answer": "D",
       "explanation": "|C∪B| = 30+20-10 = **40**",
       "hints": [
-        "At least one = |C∪B| = |C|+|B|-|C∩B|.",
-        "= 30+20-10 = 40.",
-        "Answer: 40."
+        "|C∪B| = 30+20-10 = **40**"
       ]
     },
     {
@@ -339,9 +326,7 @@
       "correct_answer": "A",
       "explanation": "**Number of subsets = 2ⁿ**\n\n2⁴ = **16**\n\n(Includes empty set and the set itself)",
       "hints": [
-        "Formula: number of subsets = 2ⁿ where n = number of elements.",
-        "n = 4.",
-        "2⁴ = 16."
+        "**Number of subsets = 2ⁿ**\n\n2⁴ = **16**\n\n(Includes empty set and the set itself)"
       ]
     },
     {
@@ -375,9 +360,8 @@
       "correct_answer": "C",
       "explanation": "**Find each 'only' region:**\n\nMath only = 25-10-6+3 = 12\nEnglish only = 20-10-8+3 = 5\nScience only = 15-8-6+3 = 4\n\nExactly one = 12+5+4 = **21**\n\n*Note: answer 19 would be if only = 10+5+4=19. Using the formula: exactly one = 21.*",
       "hints": [
-        "Only Math = |M| - |M∩E| - |M∩S| + |M∩E∩S|.",
-        "Compute each 'only' region: Math only=12, English only=5, Science only=4.",
-        "Total exactly one = 12+5+4 = 21."
+        "**Find each 'only' region:**\n\nMath only = 25-10-6+3 = 12\nEnglish only = 20-10-8+3 = 5\nScience only = 15-8-6+3 = 4\n\nExactly one = 12+5+4 = **21**\n\n*Note: answer 19 would be if only = 10+5+4=19.",
+        "Using the formula: exactly one = 21.*"
       ]
     },
     {
@@ -411,9 +395,7 @@
       "correct_answer": "A",
       "explanation": "|F∪I| = 60+50-30 = 80\nNeither = 100-80 = **20**",
       "hints": [
-        "Find atleast one: |F∪I| = 60+50-30=80.",
-        "Neither = 100-80.",
-        "Answer: 20."
+        "|F∪I| = 60+50-30 = 80\nNeither = 100-80 = **20**"
       ]
     },
     {
@@ -447,9 +429,10 @@
       "correct_answer": "B",
       "explanation": "|B∪C∪P| = 120+80+60 - 40-30-20 + 10 = 260-90+10 = 180\nNone = 200-180 = **20**\n\n*Recalculate: |∪| = 260-90+10=180. None=200-180=20. Closest to option A (40) or E (20). Answer is 20.*",
       "hints": [
-        "Use three-set inclusion-exclusion.",
-        "|B∪C∪P| = 120+80+60-40-30-20+10 = 180.",
-        "None = 200-180 = 20."
+        "|B∪C∪P| = 120+80+60 - 40-30-20 + 10 = 260-90+10 = 180\nNone = 200-180 = **20**\n\n*Recalculate: |∪| = 260-90+10=180.",
+        "None=200-180=20.",
+        "Closest to option A (40) or E (20).",
+        "Answer is 20.*"
       ]
     },
     {
@@ -483,9 +466,8 @@
       "correct_answer": "D",
       "explanation": "A∩B = multiples of 15 (both 3 and 5) from 1 to 30.\nMultiples of 15: 15, 30 → **2 elements**",
       "hints": [
-        "A∩B = numbers divisible by both 3 and 5, so divisible by 15.",
-        "Multiples of 15 up to 30: 15, 30.",
-        "|A∩B| = 2."
+        "A∩B = multiples of 15 (both 3 and 5) from 1 to 30.",
+        "Multiples of 15: 15, 30 → **2 elements**"
       ]
     },
     {
@@ -519,9 +501,7 @@
       "correct_answer": "B",
       "explanation": "n(A∩B) = n(A)+n(B)-n(A∪B) = 35+28-50 = **13**",
       "hints": [
-        "Rearrange: n(A∩B) = n(A)+n(B)-n(A∪B).",
-        "= 35+28-50.",
-        "= 13."
+        "n(A∩B) = n(A)+n(B)-n(A∪B) = 35+28-50 = **13**"
       ]
     },
     {
@@ -555,9 +535,7 @@
       "correct_answer": "B",
       "explanation": "n(A∪B) = n(A-B) + n(B-A) + n(A∩B) = 15+10+8 = **33**",
       "hints": [
-        "n(A∪B) = n(only A) + n(only B) + n(A∩B).",
-        "A-B = only in A = 15. B-A = only in B = 10. A∩B = 8.",
-        "Total = 15+10+8 = 33."
+        "n(A∪B) = n(A-B) + n(B-A) + n(A∩B) = 15+10+8 = **33**"
       ]
     },
     {
@@ -591,9 +569,8 @@
       "correct_answer": "E",
       "explanation": "**Minimum n(A∩B) = max(0, n(A)+n(B)-n(U))**\n= max(0, 30+40-60) = max(0, 10) = **10**\n\nThis is because n(A∪B) ≤ n(U) = 60. Since n(A∩B) = n(A)+n(B)-n(A∪B) ≥ 30+40-60 = 10.",
       "hints": [
-        "Minimum overlap: max(0, n(A)+n(B)-n(U)).",
-        "= max(0, 30+40-60) = max(0,10).",
-        "Minimum n(A∩B) = 10."
+        "**Minimum n(A∩B) = max(0, n(A)+n(B)-n(U))**\n= max(0, 30+40-60) = max(0, 10) = **10**\n\nThis is because n(A∪B) ≤ n(U) = 60.",
+        "Since n(A∩B) = n(A)+n(B)-n(A∪B) ≥ 30+40-60 = 10."
       ]
     },
     {
@@ -627,9 +604,11 @@
       "correct_answer": "E",
       "explanation": "**Total = only1 + only2 + only3**\n300 = exactly1 + 60 + 10\nexactly1 = **230**\n\n*Note: Also using inclusion-exclusion:*\n450-Σ|pairwise|+10 = 300\nΣ|pairwise|=160. Exactly two = 160-3×10=130. Exactly one = 300-130-10=160.\n\nThis varies by interpretation. Using total = E1+E2+E3: 300=E1+60+10 → E1=230.",
       "hints": [
-        "Total = exactly-one + exactly-two + all-three.",
-        "300 = E1 + 60 + 10.",
-        "E1 = 230."
+        "**Total = only1 + only2 + only3**\n300 = exactly1 + 60 + 10\nexactly1 = **230**\n\n*Note: Also using inclusion-exclusion:*\n450-Σ|pairwise|+10 = 300\nΣ|pairwise|=160.",
+        "Exactly two = 160-3×10=130.",
+        "Exactly one = 300-130-10=160.",
+        "This varies by interpretation.",
+        "Using total = E1+E2+E3: 300=E1+60+10 → E1=230."
       ]
     },
     {
@@ -663,9 +642,7 @@
       "correct_answer": "B",
       "explanation": "Using inclusion-exclusion:\n|A∪B∪C| = |A|+|B|+|C| - |A∩B| - |A∩C| - |B∩C| + |A∩B∩C|\n100 = 40+50+45 - 15-12-18 + x\n100 = 135-45 + x = 90 + x\nx = **10**",
       "hints": [
-        "Use three-set inclusion-exclusion formula: |A∪B∪C| = |A|+|B|+|C|-|A∩B|-|A∩C|-|B∩C|+|A∩B∩C|.",
-        "Plug in all known values: 100 = 135-45+x.",
-        "x = 10."
+        "Using inclusion-exclusion:\n|A∪B∪C| = |A|+|B|+|C| - |A∩B| - |A∩C| - |B∩C| + |A∩B∩C|\n100 = 40+50+45 - 15-12-18 + x\n100 = 135-45 + x = 90 + x\nx = **10**"
       ]
     },
     {
@@ -699,9 +676,7 @@
       "correct_answer": "A",
       "explanation": "30 = 20+18+22 - 12-14-10 + x\n30 = 60-36+x = 24+x\nx = **6**",
       "hints": [
-        "Apply inclusion-exclusion: |U| = sum of singles - sum of pairs + all three.",
-        "30 = (20+18+22) - (12+14+10) + x.",
-        "30 = 60-36+x → x=6."
+        "30 = 20+18+22 - 12-14-10 + x\n30 = 60-36+x = 24+x\nx = **6**"
       ]
     },
     {
@@ -735,9 +710,10 @@
       "correct_answer": "D",
       "explanation": "|A∪B∪C| = 100+80+50-40-20-30+10 = 150\nNone = 200-150 = **50**\n\n*Note: the actual none = 50. Answer closest matching is B (40) or... let me recalculate: 230-90+10=150. None=50.*",
       "hints": [
-        "Calculate |A∪B∪C| first using inclusion-exclusion.",
-        "= 100+80+50-40-20-30+10 = 150.",
-        "None = 200-150 = 50."
+        "|A∪B∪C| = 100+80+50-40-20-30+10 = 150\nNone = 200-150 = **50**\n\n*Note: the actual none = 50.",
+        "Answer closest matching is B (40) or...",
+        "let me recalculate: 230-90+10=150.",
+        "None=50.*"
       ]
     },
     {
@@ -771,9 +747,7 @@
       "correct_answer": "C",
       "explanation": "**'In A or B but not both' = Symmetric Difference = n(A) + n(B) - 2n(A∩B)**\n\n30 = 20+25 - 2n(A∩B)\n30 = 45 - 2x\n2x = 15\nx = **7.5**\n\n*Since n must be integer, likely n=8 or rounding occurs in this problem.*",
       "hints": [
-        "'In A or B but not both' = symmetric difference = n(A)+n(B)-2n(A∩B).",
-        "30 = 45 - 2x.",
-        "x = 7.5."
+        "**'In A or B but not both' = Symmetric Difference = n(A) + n(B) - 2n(A∩B)**\n\n30 = 20+25 - 2n(A∩B)\n30 = 45 - 2x\n2x = 15\nx = **7.5**\n\n*Since n must be integer, likely n=8 or rounding occurs in this problem.*"
       ]
     },
     {
@@ -807,9 +781,7 @@
       "correct_answer": "A",
       "explanation": "Only Math = 20, Only English = 15\nBoth = 50-20-15 = 15\n\nn(Math) = Only Math + Both = 20+15 = **35**",
       "hints": [
-        "Find how many study both: Both = 50-20-15=15.",
-        "n(Math) = only Math + both = 20+15.",
-        "= 35."
+        "Only Math = 20, Only English = 15\nBoth = 50-20-15 = 15\n\nn(Math) = Only Math + Both = 20+15 = **35**"
       ]
     },
     {
@@ -843,9 +815,7 @@
       "correct_answer": "E",
       "explanation": "**Number of subsets = 2ⁿ**\n\n2⁴ = **16**\n\n(Includes empty set and the set itself)",
       "hints": [
-        "Formula: number of subsets = 2ⁿ where n = number of elements.",
-        "n = 4.",
-        "2⁴ = 16."
+        "**Number of subsets = 2ⁿ**\n\n2⁴ = **16**\n\n(Includes empty set and the set itself)"
       ]
     },
     {
@@ -879,9 +849,7 @@
       "correct_answer": "B",
       "explanation": "A∪B = all elements in either A or B = {1,2,3,4,6,8}",
       "hints": [
-        "Union = all elements from both sets (no duplicates).",
-        "A = {2,4,6,8}, B = {1,2,3,4}.",
-        "A∪B = {1,2,3,4,6,8}."
+        "A∪B = all elements in either A or B = {1,2,3,4,6,8}"
       ]
     },
     {
@@ -915,9 +883,8 @@
       "correct_answer": "D",
       "explanation": "**Find each 'only' region:**\n\nMath only = 25-10-6+3 = 12\nEnglish only = 20-10-8+3 = 5\nScience only = 15-8-6+3 = 4\n\nExactly one = 12+5+4 = **21**\n\n*Note: answer 19 would be if only = 10+5+4=19. Using the formula: exactly one = 21.*",
       "hints": [
-        "Only Math = |M| - |M∩E| - |M∩S| + |M∩E∩S|.",
-        "Compute each 'only' region: Math only=12, English only=5, Science only=4.",
-        "Total exactly one = 12+5+4 = 21."
+        "**Find each 'only' region:**\n\nMath only = 25-10-6+3 = 12\nEnglish only = 20-10-8+3 = 5\nScience only = 15-8-6+3 = 4\n\nExactly one = 12+5+4 = **21**\n\n*Note: answer 19 would be if only = 10+5+4=19.",
+        "Using the formula: exactly one = 21.*"
       ]
     },
     {
@@ -951,9 +918,7 @@
       "correct_answer": "A",
       "explanation": "**Number of subsets = 2ⁿ**\n\n2⁴ = **16**\n\n(Includes empty set and the set itself)",
       "hints": [
-        "Formula: number of subsets = 2ⁿ where n = number of elements.",
-        "n = 4.",
-        "2⁴ = 16."
+        "**Number of subsets = 2ⁿ**\n\n2⁴ = **16**\n\n(Includes empty set and the set itself)"
       ]
     }
   ]

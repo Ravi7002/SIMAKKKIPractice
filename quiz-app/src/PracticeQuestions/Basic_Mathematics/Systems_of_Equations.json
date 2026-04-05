@@ -80,9 +80,8 @@
       "correct_answer": "A",
       "explanation": "Add equations: 3x = 9 → x = 3\ny = 7-2(3) = 1\nx+y = **4**\n\n*Note: x=3,y=1 gives x+y=4. Answer E.*",
       "hints": [
-        "Add the two equations to eliminate y.",
-        "3x=9 → x=3.",
-        "y=7-6=1. x+y=4."
+        "Add equations: 3x = 9 → x = 3\ny = 7-2(3) = 1\nx+y = **4**\n\n*Note: x=3,y=1 gives x+y=4.",
+        "Answer E.*"
       ]
     },
     {
@@ -116,9 +115,7 @@
       "correct_answer": "B",
       "explanation": "Add: 2x=14 → x=7\nSubtract: 2y=6 → y=3",
       "hints": [
-        "Add both equations to get 2x.",
-        "Add: 2x=14 → x=7.",
-        "Subtract: 2y=6 → y=3."
+        "Add: 2x=14 → x=7\nSubtract: 2y=6 → y=3"
       ]
     },
     {
@@ -152,9 +149,8 @@
       "correct_answer": "D",
       "explanation": "Add: 4x = 12 → x=3\n3-2y=... wait: x+2y=8 → 3+2y=8 → 2y=5 → y=2.5",
       "hints": [
-        "Add equations to eliminate y terms? No, add to eliminate: 3x-2y+x+2y=4+8=12.",
-        "4x=12 → x=3.",
-        "x+2y=8 → 3+2y=8 → y=2.5."
+        "Add: 4x = 12 → x=3\n3-2y=...",
+        "wait: x+2y=8 → 3+2y=8 → 2y=5 → y=2.5"
       ]
     },
     {
@@ -188,9 +184,7 @@
       "correct_answer": "A",
       "explanation": "x²+y² = (x+y)²-2xy = 64-30 = **34**",
       "hints": [
-        "Use identity: x²+y²=(x+y)²-2xy.",
-        "(x+y)²=64, 2xy=30.",
-        "x²+y²=64-30=34."
+        "x²+y² = (x+y)²-2xy = 64-30 = **34**"
       ]
     },
     {
@@ -224,9 +218,7 @@
       "correct_answer": "E",
       "explanation": "2a+3b=7 ...(1)\n4a+b=9 ...(2)\n\n(2)×3: 12a+3b=27\n(27)-(1): 10a=20 → **a=2**",
       "hints": [
-        "Let a=apple, b=banana. Set up two equations.",
-        "Multiply eq.2 by 3 and subtract eq.1.",
-        "10a=20 → a=2."
+        "2a+3b=7 ...(1)\n4a+b=9 ...(2)\n\n(2)×3: 12a+3b=27\n(27)-(1): 10a=20 → **a=2**"
       ]
     },
     {
@@ -260,9 +252,7 @@
       "correct_answer": "A",
       "explanation": "x+y=7 → z=10-7=3\ny+z=6 → y=6-3=3\nx=7-3=4\nx-z=4-3=**1**",
       "hints": [
-        "From x+y+z=10 and x+y=7, find z=3.",
-        "From y+z=6 and z=3, find y=3.",
-        "x=7-3=4. x-z=4-3=1."
+        "x+y=7 → z=10-7=3\ny+z=6 → y=6-3=3\nx=7-3=4\nx-z=4-3=**1**"
       ]
     },
     {
@@ -296,9 +286,7 @@
       "correct_answer": "A",
       "explanation": "x+y=20, x-y=6 (x>y)\nAdding: 2x=26 → x=**13**",
       "hints": [
-        "Let x be the larger. x+y=20, x-y=6.",
-        "Add: 2x=26.",
-        "x=13."
+        "x+y=20, x-y=6 (x>y)\nAdding: 2x=26 → x=**13**"
       ]
     },
     {
@@ -332,9 +320,7 @@
       "correct_answer": "C",
       "explanation": "2x+1 = -x+7\n3x=6 → **x=2**",
       "hints": [
-        "Set the two expressions for y equal.",
-        "2x+1 = -x+7.",
-        "3x=6 → x=2."
+        "2x+1 = -x+7\n3x=6 → **x=2**"
       ]
     },
     {
@@ -368,9 +354,7 @@
       "correct_answer": "A",
       "explanation": "Add all: 2(x+y+z)=18 → x+y+z=**9**",
       "hints": [
-        "Add all three equations.",
-        "2(x+y+z) = 5+7+6 = 18.",
-        "x+y+z = 9."
+        "Add all: 2(x+y+z)=18 → x+y+z=**9**"
       ]
     },
     {
@@ -404,9 +388,7 @@
       "correct_answer": "D",
       "explanation": "(x+y)² = x²+2xy+y² = 25+24 = **49**",
       "hints": [
-        "(x+y)² = x²+y²+2xy.",
-        "= 25 + 2(12).",
-        "= 49."
+        "(x+y)² = x²+2xy+y² = 25+24 = **49**"
       ]
     },
     {
@@ -440,9 +422,11 @@
       "correct_answer": "A",
       "explanation": "From x+y=5: y=5-x\nSub into x/2+(5-x)/3=1:\n3x/6+2(5-x)/6=1 → 3x+10-2x=6 → x=-4? Let me redo:\nx/2+(5-x)/3=1 → multiply by 6: 3x+2(5-x)=6 → 3x+10-2x=6 → x=-4\ny=9\nxy=-36\n\nHm, let me recheck. Actually with x/2+y/3=1 giving 3x+2y=6 and x+y=5:\n3x+2y=6, x+y=5 → subtract: 2x+y=1... wait:\n3x+2y=6\n2x+2y=10 (multiply x+y=5 by 2)\nSubtract: x=-4. So x=-4, y=9, xy=-36.",
       "hints": [
-        "Multiply first equation by 6: 3x+2y=6.",
-        "From x+y=5: 2x+2y=10. Subtract to find x.",
-        "x=-4, y=9, xy=-36."
+        "From x+y=5: y=5-x\nSub into x/2+(5-x)/3=1:\n3x/6+2(5-x)/6=1 → 3x+10-2x=6 → x=-4?",
+        "Let me redo:\nx/2+(5-x)/3=1 → multiply by 6: 3x+2(5-x)=6 → 3x+10-2x=6 → x=-4\ny=9\nxy=-36\n\nHm, let me recheck.",
+        "Actually with x/2+y/3=1 giving 3x+2y=6 and x+y=5:\n3x+2y=6, x+y=5 → subtract: 2x+y=1...",
+        "wait:\n3x+2y=6\n2x+2y=10 (multiply x+y=5 by 2)\nSubtract: x=-4.",
+        "So x=-4, y=9, xy=-36."
       ]
     },
     {
@@ -476,9 +460,9 @@
       "correct_answer": "C",
       "explanation": "Sum: 2(A+B+C)=420 → A+B+C=210\nC=210-140=70\nA=210-150=60\nB=210-130=80\n\nMost paid: **B=80**\n\n*Recalculate: B=80 (option D). But C=70 (option E). So B paid most.*",
       "hints": [
-        "Add all: 2(A+B+C) = 420 → A+B+C = 210.",
-        "C=210-140=70, A=210-150=60, B=210-130=80.",
-        "B paid the most: 80."
+        "Sum: 2(A+B+C)=420 → A+B+C=210\nC=210-140=70\nA=210-150=60\nB=210-130=80\n\nMost paid: **B=80**\n\n*Recalculate: B=80 (option D).",
+        "But C=70 (option E).",
+        "So B paid most.*"
       ]
     },
     {
@@ -512,9 +496,7 @@
       "correct_answer": "C",
       "explanation": "x²-y² = (x+y)(x-y)\n21 = 7(x-y)\nx-y = **3**",
       "hints": [
-        "Factor: x²-y² = (x+y)(x-y).",
-        "21 = 7(x-y).",
-        "x-y = 3."
+        "x²-y² = (x+y)(x-y)\n21 = 7(x-y)\nx-y = **3**"
       ]
     },
     {
@@ -548,9 +530,13 @@
       "correct_answer": "A",
       "explanation": "Eq1: x+y+z=6\nEq2: 2x+y-z=3\nEq1-Eq2: -x+2z=3 ...(A)\nEq3: 3x+2z=12 ...(B)\n(B)-(A): 4x=9... no.\n(B)-(A): 3x+2z-(-x+2z)=12-3 → 4x=9 → x=9/4.\n\nLet me redo: Eq1-Eq2: (x+y+z)-(2x+y-z)=6-3 → -x+2z=3.\nEq3: 3x+2z=12.\nSubtract: 4x=9 → x=2.25, z=(12-3(2.25))/2=(12-6.75)/2=2.625.\nx+z≈4.875...",
       "hints": [
-        "Subtract eq1-eq2 to eliminate y: -x+2z=3.",
-        "Use eq3: 3x+2z=12. Subtract to find x.",
-        "Solve for x and z, then add."
+        "Eq1: x+y+z=6\nEq2: 2x+y-z=3\nEq1-Eq2: -x+2z=3 ...(A)\nEq3: 3x+2z=12 ...(B)\n(B)-(A): 4x=9...",
+        "no.",
+        "(B)-(A): 3x+2z-(-x+2z)=12-3 → 4x=9 → x=9/4.",
+        "Let me redo: Eq1-Eq2: (x+y+z)-(2x+y-z)=6-3 → -x+2z=3.",
+        "Eq3: 3x+2z=12.",
+        "Subtract: 4x=9 → x=2.25, z=(12-3(2.25))/2=(12-6.75)/2=2.625.",
+        "x+z≈4.875..."
       ]
     },
     {
@@ -584,9 +570,8 @@
       "correct_answer": "C",
       "explanation": "Let u=1/x, v=1/y.\nu+v=1/2, u-v=1/6\n2u = 1/2+1/6 = 3/6+1/6 = 4/6 = 2/3\nu = 1/3\n1/x = 1/3 → **x=3**",
       "hints": [
-        "Let u=1/x, v=1/y. Add the two equations.",
-        "2u = 1/2+1/6 = 2/3 → u=1/3.",
-        "1/x=1/3 → x=3."
+        "Let u=1/x, v=1/y.",
+        "u+v=1/2, u-v=1/6\n2u = 1/2+1/6 = 3/6+1/6 = 4/6 = 2/3\nu = 1/3\n1/x = 1/3 → **x=3**"
       ]
     },
     {
@@ -620,9 +605,8 @@
       "correct_answer": "C",
       "explanation": "Subtract eq1-eq2: x²-y²+y-x=0\n(x-y)(x+y)-(x-y)=0\n(x-y)(x+y-1)=0\n\nSince x≠y: x+y-1=0 → **x+y=1**\n\n*Wait: (x²+y)-(y²+x)=0 → x²-y²-(x-y)=0 → (x-y)(x+y)-(x-y)=0 → (x-y)(x+y-1)=0. Since x≠y: x+y=1.*",
       "hints": [
-        "Subtract the two equations: x²-y²-(x-y)=0.",
-        "Factor: (x-y)(x+y)-(x-y)=0 → (x-y)(x+y-1)=0.",
-        "Since x≠y: x+y=1."
+        "Subtract eq1-eq2: x²-y²+y-x=0\n(x-y)(x+y)-(x-y)=0\n(x-y)(x+y-1)=0\n\nSince x≠y: x+y-1=0 → **x+y=1**\n\n*Wait: (x²+y)-(y²+x)=0 → x²-y²-(x-y)=0 → (x-y)(x+y)-(x-y)=0 → (x-y)(x+y-1)=0.",
+        "Since x≠y: x+y=1.*"
       ]
     },
     {
@@ -656,9 +640,8 @@
       "correct_answer": "E",
       "explanation": "These are elementary symmetric polynomials.\nx,y,z are roots of t³-6t²+11t-6=0 → (t-1)(t-2)(t-3)=0\nx,y,z = 1,2,3\n\nx³+y³+z³ = 1+8+27 = **36**\n\n*So answer C (36).*",
       "hints": [
-        "The three values are roots of t³-(x+y+z)t²+(xy+yz+zx)t-xyz=0.",
-        "= t³-6t²+11t-6=0 → (t-1)(t-2)(t-3)=0. Roots: 1,2,3.",
-        "x³+y³+z³ = 1+8+27 = 36."
+        "These are elementary symmetric polynomials.",
+        "x,y,z are roots of t³-6t²+11t-6=0 → (t-1)(t-2)(t-3)=0\nx,y,z = 1,2,3\n\nx³+y³+z³ = 1+8+27 = **36**\n\n*So answer C (36).*"
       ]
     },
     {
@@ -692,9 +675,9 @@
       "correct_answer": "D",
       "explanation": "The line ax+by=1 intersects the unit circle x²+y²=1.\nFor real intersection: distance from origin to line ≤ radius.\nDistance = |1|/√(a²+b²) ≤ 1\n→ **a²+b² ≥ 1**",
       "hints": [
-        "The line ax+by=1 must intersect the unit circle x²+y²=1.",
-        "Distance from origin to line = 1/√(a²+b²) ≤ radius = 1.",
-        "→ a²+b² ≥ 1."
+        "The line ax+by=1 intersects the unit circle x²+y²=1.",
+        "For real intersection: distance from origin to line ≤ radius.",
+        "Distance = |1|/√(a²+b²) ≤ 1\n→ **a²+b² ≥ 1**"
       ]
     },
     {
@@ -728,9 +711,7 @@
       "correct_answer": "B",
       "explanation": "p/q+q/p = (p²+q²)/(pq)\np²+q² = (p+q)²-2pq = a²-2b\n\nc = (a²-2b)/b = **(a²-2b)/b**",
       "hints": [
-        "p/q+q/p = (p²+q²)/(pq).",
-        "p²+q² = (p+q)²-2pq = a²-2b.",
-        "c = (a²-2b)/b."
+        "p/q+q/p = (p²+q²)/(pq)\np²+q² = (p+q)²-2pq = a²-2b\n\nc = (a²-2b)/b = **(a²-2b)/b**"
       ]
     },
     {
@@ -764,9 +745,17 @@
       "correct_answer": "D",
       "explanation": "No solution: parallel lines (same slope, different intercepts).\nMatrix determinant = 0 AND lines are not identical.\n\nDeterminant: k×k - 2×2 = k²-4 = 0 → k=±2.\n\nFor k=2: k/2=1=2/k → slopes equal. Check intercepts: 3/2 vs 6/2=3. Not equal → no solution!\nFor k=-2: slopes also equal. Intercepts: 3/(-2) vs 6/(-2). Not equal → no solution!\n\nBoth k=2 and k=-2 give no solution.\nBut option A (k=2) is more specific check.",
       "hints": [
-        "No solution: det=0 but lines aren't identical.",
-        "det=k²-4=0 → k=±2.",
-        "Check both ±2 to see which gives inconsistent (not just parallel) system."
+        "No solution: parallel lines (same slope, different intercepts).",
+        "Matrix determinant = 0 AND lines are not identical.",
+        "Determinant: k×k - 2×2 = k²-4 = 0 → k=±2.",
+        "For k=2: k/2=1=2/k → slopes equal.",
+        "Check intercepts: 3/2 vs 6/2=3.",
+        "Not equal → no solution!",
+        "For k=-2: slopes also equal.",
+        "Intercepts: 3/(-2) vs 6/(-2).",
+        "Not equal → no solution!",
+        "Both k=2 and k=-2 give no solution.",
+        "But option A (k=2) is more specific check."
       ]
     },
     {
@@ -800,9 +789,7 @@
       "correct_answer": "B",
       "explanation": "If x=y: x²-x=2 → x²-x-2=0 → (x-2)(x+1)=0\n→ **x=2 or x=-1**\n\nSolutions: (2,2) and (-1,-1)",
       "hints": [
-        "Substitute y=x (since x=y).",
-        "x²-x=2 → x²-x-2=0.",
-        "(x-2)(x+1)=0 → x=2 or x=-1."
+        "If x=y: x²-x=2 → x²-x-2=0 → (x-2)(x+1)=0\n→ **x=2 or x=-1**\n\nSolutions: (2,2) and (-1,-1)"
       ]
     },
     {
@@ -836,9 +823,8 @@
       "correct_answer": "E",
       "explanation": "Add equations: 3x = 9 → x = 3\ny = 7-2(3) = 1\nx+y = **4**\n\n*Note: x=3,y=1 gives x+y=4. Answer E.*",
       "hints": [
-        "Add the two equations to eliminate y.",
-        "3x=9 → x=3.",
-        "y=7-6=1. x+y=4."
+        "Add equations: 3x = 9 → x = 3\ny = 7-2(3) = 1\nx+y = **4**\n\n*Note: x=3,y=1 gives x+y=4.",
+        "Answer E.*"
       ]
     },
     {
@@ -872,9 +858,7 @@
       "correct_answer": "E",
       "explanation": "x+y=20, x-y=6 (x>y)\nAdding: 2x=26 → x=**13**",
       "hints": [
-        "Let x be the larger. x+y=20, x-y=6.",
-        "Add: 2x=26.",
-        "x=13."
+        "x+y=20, x-y=6 (x>y)\nAdding: 2x=26 → x=**13**"
       ]
     },
     {
@@ -908,9 +892,7 @@
       "correct_answer": "A",
       "explanation": "Add: 2x=14 → x=7\nSubtract: 2y=6 → y=3",
       "hints": [
-        "Add both equations to get 2x.",
-        "Add: 2x=14 → x=7.",
-        "Subtract: 2y=6 → y=3."
+        "Add: 2x=14 → x=7\nSubtract: 2y=6 → y=3"
       ]
     },
     {
@@ -944,9 +926,8 @@
       "correct_answer": "B",
       "explanation": "Add equations: 3x = 9 → x = 3\ny = 7-2(3) = 1\nx+y = **4**\n\n*Note: x=3,y=1 gives x+y=4. Answer E.*",
       "hints": [
-        "Add the two equations to eliminate y.",
-        "3x=9 → x=3.",
-        "y=7-6=1. x+y=4."
+        "Add equations: 3x = 9 → x = 3\ny = 7-2(3) = 1\nx+y = **4**\n\n*Note: x=3,y=1 gives x+y=4.",
+        "Answer E.*"
       ]
     }
   ]

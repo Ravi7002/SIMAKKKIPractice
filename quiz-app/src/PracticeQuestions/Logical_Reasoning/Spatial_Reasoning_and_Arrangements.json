@@ -42,7 +42,10 @@
       "hints": [
         "Row: 1, 2, 3, 4.",
         "A is on the far left (Seat 1).",
-        "Since A is next to B, B is in Seat 2."
+        "Since A is next to B, B is in Seat 2.",
+        "The remaining seats are 3 and 4, taken by C and D.",
+        "B cannot sit next to C, so C cannot be in Seat 3.",
+        "Thus, D is in Seat 3, and C is in Seat 4 (far right)."
       ]
     },
     {
@@ -78,7 +81,8 @@
       "hints": [
         "Seats: North, South, East, West.",
         "Alice is North, Bob is South.",
-        "Charlie is to Alice's right (East)."
+        "Charlie is to Alice's right (East).",
+        "The only seat left for Dave is West, which is Alice's immediate left and opposite Charlie."
       ]
     },
     {
@@ -150,7 +154,12 @@
       "hints": [
         "Let's place A at position 6.",
         "B is opposite at 3.",
-        "C is second to the left of A (so C is at 2)."
+        "C is second to the left of A (so C is at 2).",
+        "D sits between A and C, making D at 1.",
+        "E sits opposite D, so E is at 4.",
+        "The unassigned F is at 5.",
+        "B is at 3, facing center, right is 4.",
+        "Person at 4 is E."
       ]
     },
     {
@@ -221,7 +230,11 @@
       "hints": [
         "Let M be at 6 o'clock facing the center.",
         "M's right is 5 o'clock.",
-        "So O is at 5."
+        "So O is at 5.",
+        "N is opposite M, at 12 o'clock.",
+        "P is opposite O, so P is at 11 o'clock.",
+        "Standing at 12 facing the center, your left arm points to 11.",
+        "Therefore, P is immediately to N's left."
       ]
     },
     {
@@ -257,7 +270,10 @@
       "hints": [
         "If X is two floors above Y, it can be (4,2) or (3,1).",
         "If (4,2), even floors are full, so Z (who needs an even floor) cannot be placed.",
-        "Thus, X=3, Y=1."
+        "Thus, X=3, Y=1.",
+        "Z must take an even floor (2 or 4).",
+        "Since W cannot be on floor 4, W must be 2, leaving Z for 4.",
+        "Therefore, X lives on Floor 3."
       ]
     },
     {
@@ -293,7 +309,12 @@
       "hints": [
         "E is at 5.",
         "B is at 3.",
-        "A must be next to B, so A is 2 or 4."
+        "A must be next to B, so A is 2 or 4.",
+        "Since C and D must be next to each other, they need two adjacent empty rooms.",
+        "If A is 2, spaces are 1 and 4 (not adjacent).",
+        "So A must be 4.",
+        "This leaves rooms 1 and 2 empty for C and D.",
+        "Hence, D can be 1 or 2."
       ]
     },
     {
@@ -329,7 +350,13 @@
       "hints": [
         "If Sarah is at position 6 (bottom), Tom is at 3 (top).",
         "Jake is to Sarah's immediate right, making him 5.",
-        "Emily is opposite Jake at 2."
+        "Emily is opposite Jake at 2.",
+        "The remaining are 1 and 4.",
+        "Max cannot be next to Emily (cannot be 1 or 3).",
+        "So Max is 4.",
+        "Lily is 1.",
+        "Facing center, the left of Tom (3) is position 4.",
+        "Max is at 4."
       ]
     },
     {
@@ -365,7 +392,11 @@
       "hints": [
         "Spot 1 is S.",
         "Spot 6 is T.",
-        "To prevent T adjacent to T6, Spot 5 must be S."
+        "To prevent T adjacent to T6, Spot 5 must be S.",
+        "The remaining spots (2,3,4) must hold 2 T's and 1 S.",
+        "The only way to arrange T, T, S without placing T's next to each other is T, S, T.",
+        "Resulting chain: S, T, S, T, S, T.",
+        "This gives exactly 1 unique arrangement."
       ]
     },
     {
@@ -401,7 +432,12 @@
       "hints": [
         "Let's place A at position 6.",
         "B is opposite at 3.",
-        "C is second to the left of A (so C is at 2)."
+        "C is second to the left of A (so C is at 2).",
+        "D sits between A and C, making D at 1.",
+        "E sits opposite D, so E is at 4.",
+        "The unassigned F is at 5.",
+        "B is at 3, facing center, right is 4.",
+        "Person at 4 is E."
       ]
     },
     {
@@ -437,7 +473,11 @@
       "hints": [
         "Spot 1 is S.",
         "Spot 6 is T.",
-        "To prevent T adjacent to T6, Spot 5 must be S."
+        "To prevent T adjacent to T6, Spot 5 must be S.",
+        "The remaining spots (2,3,4) must hold 2 T's and 1 S.",
+        "The only way to arrange T, T, S without placing T's next to each other is T, S, T.",
+        "Resulting chain: S, T, S, T, S, T.",
+        "This gives exactly 1 unique arrangement."
       ]
     },
     {
@@ -473,7 +513,11 @@
       "hints": [
         "Spot 1 is S.",
         "Spot 6 is T.",
-        "To prevent T adjacent to T6, Spot 5 must be S."
+        "To prevent T adjacent to T6, Spot 5 must be S.",
+        "The remaining spots (2,3,4) must hold 2 T's and 1 S.",
+        "The only way to arrange T, T, S without placing T's next to each other is T, S, T.",
+        "Resulting chain: S, T, S, T, S, T.",
+        "This gives exactly 1 unique arrangement."
       ]
     },
     {
@@ -509,7 +553,10 @@
       "hints": [
         "If X is two floors above Y, it can be (4,2) or (3,1).",
         "If (4,2), even floors are full, so Z (who needs an even floor) cannot be placed.",
-        "Thus, X=3, Y=1."
+        "Thus, X=3, Y=1.",
+        "Z must take an even floor (2 or 4).",
+        "Since W cannot be on floor 4, W must be 2, leaving Z for 4.",
+        "Therefore, X lives on Floor 3."
       ]
     },
     {
@@ -545,7 +592,10 @@
       "hints": [
         "Row: 1, 2, 3, 4.",
         "A is on the far left (Seat 1).",
-        "Since A is next to B, B is in Seat 2."
+        "Since A is next to B, B is in Seat 2.",
+        "The remaining seats are 3 and 4, taken by C and D.",
+        "B cannot sit next to C, so C cannot be in Seat 3.",
+        "Thus, D is in Seat 3, and C is in Seat 4 (far right)."
       ]
     },
     {
@@ -581,7 +631,11 @@
       "hints": [
         "Spot 1 is S.",
         "Spot 6 is T.",
-        "To prevent T adjacent to T6, Spot 5 must be S."
+        "To prevent T adjacent to T6, Spot 5 must be S.",
+        "The remaining spots (2,3,4) must hold 2 T's and 1 S.",
+        "The only way to arrange T, T, S without placing T's next to each other is T, S, T.",
+        "Resulting chain: S, T, S, T, S, T.",
+        "This gives exactly 1 unique arrangement."
       ]
     },
     {
@@ -617,7 +671,10 @@
       "hints": [
         "Row: 1, 2, 3, 4.",
         "A is on the far left (Seat 1).",
-        "Since A is next to B, B is in Seat 2."
+        "Since A is next to B, B is in Seat 2.",
+        "The remaining seats are 3 and 4, taken by C and D.",
+        "B cannot sit next to C, so C cannot be in Seat 3.",
+        "Thus, D is in Seat 3, and C is in Seat 4 (far right)."
       ]
     },
     {
@@ -653,7 +710,8 @@
       "hints": [
         "Seats: North, South, East, West.",
         "Alice is North, Bob is South.",
-        "Charlie is to Alice's right (East)."
+        "Charlie is to Alice's right (East).",
+        "The only seat left for Dave is West, which is Alice's immediate left and opposite Charlie."
       ]
     },
     {
@@ -689,7 +747,12 @@
       "hints": [
         "Let's place A at position 6.",
         "B is opposite at 3.",
-        "C is second to the left of A (so C is at 2)."
+        "C is second to the left of A (so C is at 2).",
+        "D sits between A and C, making D at 1.",
+        "E sits opposite D, so E is at 4.",
+        "The unassigned F is at 5.",
+        "B is at 3, facing center, right is 4.",
+        "Person at 4 is E."
       ]
     },
     {
@@ -831,7 +894,10 @@
       "hints": [
         "If X is two floors above Y, it can be (4,2) or (3,1).",
         "If (4,2), even floors are full, so Z (who needs an even floor) cannot be placed.",
-        "Thus, X=3, Y=1."
+        "Thus, X=3, Y=1.",
+        "Z must take an even floor (2 or 4).",
+        "Since W cannot be on floor 4, W must be 2, leaving Z for 4.",
+        "Therefore, X lives on Floor 3."
       ]
     },
     {
@@ -867,7 +933,11 @@
       "hints": [
         "Let M be at 6 o'clock facing the center.",
         "M's right is 5 o'clock.",
-        "So O is at 5."
+        "So O is at 5.",
+        "N is opposite M, at 12 o'clock.",
+        "P is opposite O, so P is at 11 o'clock.",
+        "Standing at 12 facing the center, your left arm points to 11.",
+        "Therefore, P is immediately to N's left."
       ]
     },
     {
@@ -903,7 +973,11 @@
       "hints": [
         "Let M be at 6 o'clock facing the center.",
         "M's right is 5 o'clock.",
-        "So O is at 5."
+        "So O is at 5.",
+        "N is opposite M, at 12 o'clock.",
+        "P is opposite O, so P is at 11 o'clock.",
+        "Standing at 12 facing the center, your left arm points to 11.",
+        "Therefore, P is immediately to N's left."
       ]
     }
   ],
