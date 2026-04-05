@@ -168,6 +168,23 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
         </div>
 
         <div style={{ fontSize: '1.2rem', lineHeight: '1.6', marginBottom: '2rem' }}>
+          {q.passage && (
+            <div className="glass-card mb-4 fade-in" style={{
+              background: 'rgba(139,92,246,0.04)',
+              borderLeft: '4px solid var(--accent-purple)',
+              borderRadius: '12px',
+              padding: '1.5rem'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem' }}>
+                <h4 style={{ color: 'var(--accent-purple)', margin: 0, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.07em' }}>
+                  📖 Reading Passage{q.passage_title ? ` — ${q.passage_title}` : ''}
+                </h4>
+              </div>
+              <div style={{ maxHeight: '240px', overflowY: 'auto', paddingRight: '10px', fontSize: '1rem', lineHeight: '1.75', color: 'var(--text-muted)', whiteSpace: 'pre-wrap' }}>
+                <MathText text={q.passage} />
+              </div>
+            </div>
+          )}
           {q.chart_data && <ChartDisplay chartData={q.chart_data} />}
           <MathText text={q.question_text} />
         </div>

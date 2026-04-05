@@ -71,8 +71,8 @@ const Results = ({ questions, answers, onRestart }) => {
   return (
     <div className="fade-in w-full mx-auto" style={{ maxWidth: '900px' }}>
       <div className="text-center mb-8">
-        <h1 className="text-gradient mb-2" style={{ fontSize: '3.5rem' }}>Exam Completed</h1>
-        <p className="text-muted text-lg">Here is your performance breakdown</p>
+        <h1 className="text-gradient mb-2" style={{ fontSize: '3.5rem' }}>Hayyu Done!</h1>
+        <p className="text-muted text-lg">Here is your personal performance breakdown</p>
       </div>
 
       <div className="grid-3 mb-8">

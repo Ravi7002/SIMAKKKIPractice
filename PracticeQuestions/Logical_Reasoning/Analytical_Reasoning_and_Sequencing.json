@@ -298,10 +298,12 @@
     },
     {
       "id": "aras_hard_4",
+      "passage_id": "passage_aras_1",
+      "passage": "A manager is assigning five tasks (V, W, X, Y, Z) to five consecutive days (Monday through Friday). \n- W cannot be on Monday. \n- Y must be assigned exactly two days after V. \n- Z must be assigned on the day immediately before X.",
       "subject": "Logical Reasoning",
       "topic": "Analytical Reasoning and Sequencing",
       "difficulty": "hard",
-      "question_text": "A manager is assigning five tasks (V, W, X, Y, Z) to five consecutive days (Monday through Friday). \n- W cannot be on Monday. \n- Y must be assigned exactly two days after V. \n- Z must be assigned on the day immediately before X. \nIf V is scheduled on Tuesday, what task is scheduled on Friday?",
+      "question_text": "If V is scheduled on Tuesday, what task is scheduled on Friday?",
       "options": [
         {
           "letter": "A",

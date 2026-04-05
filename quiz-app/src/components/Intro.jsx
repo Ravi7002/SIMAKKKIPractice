@@ -17,12 +17,12 @@ const Intro = ({ onStartPractice, onStartAbility, onStartTryout, onStartCompare,
         </div>
       </div>
 
-      <h1 className="text-gradient mb-4" style={{ fontSize: '3rem' }}>
-        University Entrance Exam
+      <h1 className="text-gradient mb-4" style={{ fontSize: '2.4rem' }}>
+        Hayyu's Personal SIMAK KKI UI Practice Web
       </h1>
 
       <p className="text-muted mb-8 text-lg">
-        Master your skills with this comprehensive practice suite.
+        Master your skills with Hayyu's custom-built practice suite.
       </p>
 
       {/* ── Home Menu ── */}

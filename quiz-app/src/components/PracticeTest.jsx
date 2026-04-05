@@ -483,9 +483,9 @@ const PracticeTest = ({ allTopicsData, generatedTryouts = [], initialTryoutIndex
         <div className="fade-in">
           <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
             <h2 className="text-gradient" style={{ fontSize: '2.5rem' }}>
-              <Book size={36} style={{ verticalAlign: 'middle', marginRight: '12px' }} /> Practice Section
+              <Book size={36} style={{ verticalAlign: 'middle', marginRight: '12px' }} /> Hayyu's Practice Bank
             </h2>
-            <p className="text-muted">Select a subject to explore its topics and questions</p>
+            <p className="text-muted">Master topics at your own pace, Hayyu!</p>
           </div>
 
 
