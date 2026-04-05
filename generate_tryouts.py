@@ -71,9 +71,11 @@ for i in range(1, 5):
     start_idx = (i - 1) * 7
     tryout_passages = []
     for j in range(7):
-        p_idx = (start_idx + j) % len(LONG_PASSAGES)
-        if i == 4 and j == 6:
-            p_idx = len(LONG_PASSAGES) - 1 # Ensure passage 28 (Solar Energy) is included
+        p_idx = (start_idx + j) % 28 # Rotate through main 28 passages
+        if j == 3:
+            # Force the 4th passage to be the specially structured ones (indices 28-31)
+            # This aligns exactly with questions 11 and 12 (Test #31 and #32)
+            p_idx = 28 + (i - 1)
         tryout_passages.append(copy.deepcopy(LONG_PASSAGES[p_idx]))
 
     # Flatten questions and assign passage text
