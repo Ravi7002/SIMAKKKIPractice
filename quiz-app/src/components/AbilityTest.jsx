@@ -18,6 +18,7 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
   
   // Track topic mastery
   const [masteryStatus, setMasteryStatus] = useState({}); // { topicName: 'mastered' | 'partial' | 'not' }
+  const [feedback, setFeedback] = useState(null); // 'correct' or 'wrong'
 
   // Subject order for the Ability Test
   const SUBJECT_ORDER = ['Basic Mathematics', 'English', 'Quantitative Reasoning', 'Logical Reasoning'];
@@ -126,6 +127,15 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
     
     return (
       <div className="glass-card fade-in" style={{ maxWidth: '800px', margin: '2rem auto' }}>
+        {feedback && (
+          <div className="feedback-overlay">
+            <img 
+              src={feedback === 'correct' ? '/correct.jpeg' : '/wrong.jpeg'} 
+              className="feedback-image" 
+              alt={feedback} 
+            />
+          </div>
+        )}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '1rem' }}>
           <div>
             <h2 className="text-gradient" style={{ margin: 0 }}>{stageLabel}</h2>
@@ -196,7 +206,13 @@ const AbilityTest = ({ allTopicsData, onFinish }) => {
               <button 
                 key={opt.letter} 
                 className={`btn ${isSelected ? 'btn-primary' : 'btn-outline'}`}
-                onClick={() => setAnswers({ ...answers, [q.id]: opt.letter })}
+                onClick={() => {
+                  if (answers[q.id]) return;
+                  const isCorrect = opt.letter === q.correct_answer;
+                  setFeedback(isCorrect ? 'correct' : 'wrong');
+                  setTimeout(() => setFeedback(null), 1000);
+                  setAnswers({ ...answers, [q.id]: opt.letter });
+                }}
                 style={{ textAlign: 'left', padding: '1rem', display: 'flex', gap: '1rem', fontSize: '1.1rem' }}
               >
                 <span style={{ fontWeight: 'bold', minWidth: '24px' }}>{opt.letter}.</span>

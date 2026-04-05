@@ -11,6 +11,7 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
   const [guessedOptions, setGuessedOptions] = useState([]);
   const [showExplanation, setShowExplanation] = useState(false);
   const [hintsRevealed, setHintsRevealed] = useState(0);
+  const [feedback, setFeedback] = useState(null); // 'correct' or 'wrong'
 
   const question = questions[currentIndex];
   const isLast = currentIndex === questions.length - 1;
@@ -29,10 +30,14 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
     if (showExplanation) return;
     if (guessedOptions.includes(letter)) return;
 
+    const isCorrect = letter === question.correct_answer;
+    setFeedback(isCorrect ? 'correct' : 'wrong');
+    setTimeout(() => setFeedback(null), 1000);
+
     const newGuesses = [...guessedOptions, letter];
     setGuessedOptions(newGuesses);
 
-    if (letter === question.correct_answer) {
+    if (isCorrect) {
       setShowExplanation(true);
     }
   };
@@ -59,6 +64,16 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
   return (
     <div className="fade-in" style={{ display: 'flex', gap: '2rem', maxWidth: '1200px', margin: '0 auto', alignItems: 'flex-start' }}>
       
+      {feedback && (
+        <div className="feedback-overlay">
+          <img 
+            src={feedback === 'correct' ? '/correct.jpeg' : '/wrong.jpeg'} 
+            className="feedback-image" 
+            alt={feedback} 
+          />
+        </div>
+      )}
+
       {/* MAIN CONTENT AREA */}
       <div style={{ flex: 1, minWidth: 0 }}>
       {/* Progress & Header */}
