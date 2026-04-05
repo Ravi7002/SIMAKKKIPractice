@@ -48,10 +48,25 @@ def mutate_text(text):
     return text
 
 for i in range(1, 6):
-    base = copy.deepcopy(bases[i % 2])
+    raw_base = copy.deepcopy(bases[i % 2])
+    base = []
+    for item in raw_base:
+        if isinstance(item, dict) and 'passages' in item and 'questions' in item:
+            passages_map = {p['id']: p['text'] for p in item['passages']}
+            for q in item['questions']:
+                pid = q.get('passage_id')
+                if pid and pid in passages_map and not q.get('passage'):
+                    q['passage'] = passages_map[pid]
+                base.append(q)
+        else:
+            base.append(item)
+
     for q in base:
         q['id'] = f"{q.get('id', 'q')}_gen_{i}"
         q['question_text'] = mutate_text(q.get('question_text', ''))
+        
+        if 'passage' in q:
+            q['passage'] = mutate_text(q.get('passage', ''))
         
         for opt in q.get('options', []):
             opt['text'] = mutate_text(opt.get('text', ''))

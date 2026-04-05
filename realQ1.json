@@ -1907,603 +1907,621 @@
     "passage": "Improving education in low-income regions is a complex challenge. Many rural schools lack basic facilities such as books, trained teachers, and proper classrooms. As a result, students often struggle to achieve academic success, which limits their future opportunities.\n\nHowever, recent initiatives have shown that even small improvements can lead to significant progress. In one region, a non-profit organization provided additional funding to schools, but with a specific condition: the money had to be used efficiently. Instead of distributing resources equally, schools were encouraged to focus on the areas with the greatest need, such as teacher training and essential learning materials.\n\nTo identify these needs, researchers conducted surveys and assessments in various schools. They evaluated student performance, teacher qualifications, and available resources. The results revealed that some schools were receiving funds that did not match their actual needs, while others were severely underfunded.\n\nBy reallocating resources based on these findings, schools were able to improve their performance. Within a few years, student test scores increased, and dropout rates decreased significantly. This demonstrates that careful planning and targeted spending can make a substantial difference, even with limited budgets."
   },
   {
-    "id": "lr_01",
-    "subject": "Logical Reasoning",
-    "topic": "Mathematical Logic",
-    "question_text": "A set B consists of 8 integers with an average value of 5. The elements are arranged in ascending order. The smallest 4 elements are replaced by the largest 4 elements to form a new set C. The average of set C becomes 7. What is the average of the largest 4 elements in set B?",
-    "options": [
+    "passages": [
       {
-        "letter": "A",
-        "text": "6"
+        "id": "passage_lr_01",
+        "text": "Eight participants (Alex, Bella, Chris, Diana, Ethan, Fiona, George, and Hannah) are seated at four consecutive tables: A, B, C, and D. Each table has exactly two people sitting opposite each other. The following conditions apply:\n- Men and women cannot sit at the same table.\n- Table A is on the far left, followed by B, C, and D.\n- Table C is located between tables B and D.\n- Alex sits at table A.\n- Diana always sits to the right of Bella.\n- Chris refuses to sit facing Fiona.\n- Ethan and George must sit at adjacent tables."
       },
       {
-        "letter": "B",
-        "text": "7"
-      },
-      {
-        "letter": "C",
-        "text": "8"
-      },
-      {
-        "letter": "D",
-        "text": "9"
-      },
-      {
-        "letter": "E",
-        "text": "10"
+        "id": "passage_lr_02",
+        "text": "A university will select four students from eight candidates (Aaron, Brian, Clara, Diana, Evan, Fiona, Grace, and Henry) to attend an international conference. The selection follows these rules:\n- If Aaron is selected, then Brian must also be selected.\n- Clara and Diana cannot be selected together.\n- If Evan is selected, Fiona must also be selected.\n- Grace cannot be selected unless Henry is also selected.\n- Brian and Evan cannot both be selected.\n- If Clara is selected, then exactly one of Fiona or Grace must be selected (not both)."
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Set B has 8 elements with an average of 5, so the sum of Set B is 40. Let the sum of the smallest 4 be S and the largest 4 be L. So, S + L = 40. In Set C, the smallest 4 are replaced by the largest 4, meaning Set C consists of two copies of the largest 4 elements. The average of Set C is 7, so its sum is 8 * 7 = 56. This means 2L = 56, so L = 28. The average of these largest 4 elements is 28 / 4 = 7."
-  },
-  {
-    "id": "lr_02",
-    "subject": "Logical Reasoning",
-    "topic": "Deductive Logic and Syllogisms",
-    "question_text": "All participants of a workshop must confirm their attendance by submitting a registration form. Those who do not submit the form will be considered absent. The organizers use the confirmed list to prepare materials and seating arrangements. Rina, a participant, did not submit the registration form because she forgot. Thus, the correct conclusion is...",
-    "options": [
+    "questions": [
       {
-        "letter": "A",
-        "text": "Rina is not interested in the workshop"
+        "id": "lr_01",
+        "subject": "Logical Reasoning",
+        "topic": "Mathematical Logic",
+        "question_text": "A set B consists of 8 integers with an average value of 5. The elements are arranged in ascending order. The smallest 4 elements are replaced by the largest 4 elements to form a new set C. The average of set C becomes 7. What is the average of the largest 4 elements in set B?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "6"
+          },
+          {
+            "letter": "B",
+            "text": "7"
+          },
+          {
+            "letter": "C",
+            "text": "8"
+          },
+          {
+            "letter": "D",
+            "text": "9"
+          },
+          {
+            "letter": "E",
+            "text": "10"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "Set B has 8 elements with an average of 5, so the sum of Set B is 40. Let the sum of the smallest 4 be S and the largest 4 be L. So, S + L = 40. In Set C, the smallest 4 are replaced by the largest 4, meaning Set C consists of two copies of the largest 4 elements. The average of Set C is 7, so its sum is 8 * 7 = 56. This means 2L = 56, so L = 28. The average of these largest 4 elements is 28 / 4 = 7."
       },
       {
-        "letter": "B",
-        "text": "Rina will be considered absent"
+        "id": "lr_02",
+        "subject": "Logical Reasoning",
+        "topic": "Deductive Logic and Syllogisms",
+        "question_text": "All participants of a workshop must confirm their attendance by submitting a registration form. Those who do not submit the form will be considered absent. The organizers use the confirmed list to prepare materials and seating arrangements. Rina, a participant, did not submit the registration form because she forgot. Thus, the correct conclusion is...",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Rina is not interested in the workshop"
+          },
+          {
+            "letter": "B",
+            "text": "Rina will be considered absent"
+          },
+          {
+            "letter": "C",
+            "text": "Rina is not allowed to attend the workshop"
+          },
+          {
+            "letter": "D",
+            "text": "Rina has already attended the workshop"
+          },
+          {
+            "letter": "E",
+            "text": "Rina will automatically be registered"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "The premise explicitly states: 'Those who do not submit the form will be considered absent.' Since Rina did not submit the form, deductive logic dictates she will be considered absent, regardless of her intent or reason."
       },
       {
-        "letter": "C",
-        "text": "Rina is not allowed to attend the workshop"
+        "id": "lr_03",
+        "subject": "Logical Reasoning",
+        "topic": "Analytical Reasoning and Sequencing",
+        "question_text": "Five students—Alex, Brian, Chloe, Diana, and Ethan—are competing for three positions in a debate team. Their performance rankings are all different. Alex performs better than Brian and Chloe. Diana performs better than Alex. Ethan performs worse than Brian but better than Chloe. Who are the two students that will not be selected?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Brian and Chloe"
+          },
+          {
+            "letter": "B",
+            "text": "Alex and Brian"
+          },
+          {
+            "letter": "C",
+            "text": "Chloe and Ethan"
+          },
+          {
+            "letter": "D",
+            "text": "Brian and Ethan"
+          },
+          {
+            "letter": "E",
+            "text": "Alex and Chloe"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "Let's establish the ranking from highest to lowest. Diana > Alex. Alex > Brian and Chloe. So far: Diana > Alex > (Brian, Chloe). We also know Ethan < Brian and Ethan > Chloe. This means Brian > Ethan > Chloe. Combining these: Diana > Alex > Brian > Ethan > Chloe. The top 3 (Diana, Alex, Brian) will be selected. The remaining two, Ethan and Chloe, will not be selected."
       },
       {
-        "letter": "D",
-        "text": "Rina has already attended the workshop"
+        "id": "lr_04",
+        "subject": "Logical Reasoning",
+        "topic": "Deductive Logic and Syllogisms",
+        "question_text": "Machine learning is a subset of artificial intelligence that enables systems to learn from data without being explicitly programmed. Self-driving cars rely on machine learning algorithms to analyze their environment and make decisions. Based on the statement above, the correct conclusion is...",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Self-driving cars cannot function without machine learning"
+          },
+          {
+            "letter": "B",
+            "text": "All artificial intelligence systems are self-driving cars"
+          },
+          {
+            "letter": "C",
+            "text": "Machine learning does not require data to function"
+          },
+          {
+            "letter": "D",
+            "text": "Self-driving cars are unrelated to artificial intelligence"
+          },
+          {
+            "letter": "E",
+            "text": "Artificial intelligence cannot be used in vehicles"
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "The text states that self-driving cars 'rely on' machine learning. By elimination of definitively false statements: B is false (it's a subset), C is false (it learns from data), D is false (ML is a subset of AI), and E is false. Option A logically extends the word 'rely' to mean it's a necessary functional component."
       },
       {
-        "letter": "E",
-        "text": "Rina will automatically be registered"
+        "id": "lr_05",
+        "subject": "Logical Reasoning",
+        "topic": "Deductive Logic and Syllogisms",
+        "question_text": "All high-performance laptops require efficient cooling systems. Without proper cooling, the laptop may overheat and reduce performance. If a laptop continues to operate smoothly under heavy usage without overheating, the correct conclusion is....",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The laptop does not need a cooling system"
+          },
+          {
+            "letter": "B",
+            "text": "The laptop may have an efficient cooling system"
+          },
+          {
+            "letter": "C",
+            "text": "The laptop is not a high-performance device"
+          },
+          {
+            "letter": "D",
+            "text": "Overheating improves laptop performance"
+          },
+          {
+            "letter": "E",
+            "text": "Cooling systems are unnecessary for laptops"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "If a laptop operates smoothly under heavy usage without overheating, it is avoiding the negative consequence mentioned ('overheating and reduced performance'). Because proper cooling prevents this, it is highly likely that the laptop possesses an efficient cooling system."
+      },
+      {
+        "id": "lr_06",
+        "subject": "Logical Reasoning",
+        "topic": "Deductive Logic and Syllogisms",
+        "question_text": "Mira does not usually work on weekends, but she agreed to take a shift on Saturday this week. Rina, her colleague, is scheduled to take Mira's regular shift on Monday next week. The correct statement is...",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Mira will work her regular shift on Monday next week"
+          },
+          {
+            "letter": "B",
+            "text": "Mira and Rina have the same work schedule"
+          },
+          {
+            "letter": "C",
+            "text": "Rina will work on Monday next week"
+          },
+          {
+            "letter": "D",
+            "text": "Mira prefers working on weekends"
+          },
+          {
+            "letter": "E",
+            "text": "Rina is replacing Mira's Saturday shift"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "The text explicitly states: 'Rina... is scheduled to take Mira's regular shift on Monday next week.' Therefore, Rina will be working on that Monday."
+      },
+      {
+        "id": "lr_07",
+        "subject": "Logical Reasoning",
+        "topic": "Analytical Reasoning and Sequencing",
+        "question_text": "Company Y has five employees who completed their training in consecutive years. Adam and Brian completed their training in the same year, one year after Clara. Diana completed her training earlier than all the others. Ethan completed his training one year before Adam and Brian. Who completed their training last?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Diana"
+          },
+          {
+            "letter": "B",
+            "text": "Clara"
+          },
+          {
+            "letter": "C",
+            "text": "Ethan"
+          },
+          {
+            "letter": "D",
+            "text": "Adam"
+          },
+          {
+            "letter": "E",
+            "text": "Brian"
+          }
+        ],
+        "correct_answer": "D",
+        "explanation": "Let Clara's year be X. Adam and Brian are year X + 1. Ethan is one year before Adam and Brian, so Ethan is (X + 1) - 1 = X. So Ethan and Clara completed in the same year. Diana completed earlier than all, so she is X - 1 (or earlier). The chronological order is Diana -> (Clara & Ethan) -> (Adam & Brian). Adam and Brian completed last. (Either D or E is technically correct; standardizing to the first alphabetically available correct option)."
+      },
+      {
+        "id": "lr_08",
+        "subject": "Logical Reasoning",
+        "topic": "Analytical Reasoning and Sequencing",
+        "question_text": "In a school competition, five students—Liam, Noah, Olivia, Emma, and Ava are ranked based on their scores. Olivia scores higher than Emma but lower than Noah. Liam scores lower than Ava but higher than Emma. Noah scores higher than all the others. Who has the lowest score?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Liam"
+          },
+          {
+            "letter": "B",
+            "text": "Emma"
+          },
+          {
+            "letter": "C",
+            "text": "Ava"
+          },
+          {
+            "letter": "D",
+            "text": "Olivia"
+          },
+          {
+            "letter": "E",
+            "text": "Noah"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "From the clues: Noah > Olivia > Emma. Also, Ava > Liam > Emma. And Noah is the highest overall. Since both Olivia and Liam scored higher than Emma, and Noah and Ava scored higher than them respectively, Emma must have the lowest score out of all five students."
+      },
+      {
+        "id": "lr_09",
+        "subject": "Logical Reasoning",
+        "topic": "Deductive Logic and Syllogisms",
+        "question_text": "All birds can fly. Some birds are colorful. The correct conclusion is...",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Some colorful animals can fly"
+          },
+          {
+            "letter": "B",
+            "text": "All colorful birds can fly"
+          },
+          {
+            "letter": "C",
+            "text": "Some birds that can fly are colorful"
+          },
+          {
+            "letter": "D",
+            "text": "All flying animals are birds"
+          },
+          {
+            "letter": "E",
+            "text": "Some birds that cannot fly are colorful"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "Because all birds fly, the 'some birds' that are colorful must also be part of the group that can fly. Therefore, it is definitively true that some birds that can fly are colorful."
+      },
+      {
+        "id": "lr_10",
+        "subject": "Logical Reasoning",
+        "topic": "Analytical Reasoning and Sequencing",
+        "question_text": "A host will announce five guests: P, Q, R, S, and T. Q is announced first. R is announced after Q but not immediately after. P is announced before the last position but not first. S and T are announced consecutively. T is announced after R. Which guest is announced last?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "P"
+          },
+          {
+            "letter": "B",
+            "text": "Q"
+          },
+          {
+            "letter": "C",
+            "text": "R"
+          },
+          {
+            "letter": "D",
+            "text": "S"
+          },
+          {
+            "letter": "E",
+            "text": "T"
+          }
+        ],
+        "correct_answer": "E",
+        "explanation": "Positions: 1, 2, 3, 4, 5. Q is 1. R is not 2. S and T are consecutive, and T is after R. Since T is after R and S,T are consecutive, the block must be R -> S,T or R -> T,S. 'T is after R' means R must come before the S,T block. So R, S, T takes up the last three spots (3, 4, 5). This leaves position 2 for P, which perfectly satisfies 'P is before the last but not first'. The sequence is Q, P, R, S, T. T is last."
+      },
+      {
+        "id": "lr_11",
+        "subject": "Logical Reasoning",
+        "topic": "Mathematical Logic",
+        "question_text": "Five employees—Lina, Mark, Nina, Owen, and Paul record their monthly sales. Lina sold 120 more units than Nina. Mark sold 80 fewer units than Owen. Nina sold fewer units than Paul. Owen sold more units than Lina. Who has the lowest sales?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Lina"
+          },
+          {
+            "letter": "B",
+            "text": "Mark"
+          },
+          {
+            "letter": "C",
+            "text": "Nina"
+          },
+          {
+            "letter": "D",
+            "text": "Owen"
+          },
+          {
+            "letter": "E",
+            "text": "Paul"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "We know Lina = Nina + 120, so Lina > Nina. We know Owen > Lina. Therefore, Owen > Lina > Nina. We are given Mark = Owen - 80. Since Owen > Nina + 120, subtracting 80 from Owen gives a number still greater than Nina + 40, meaning Mark > Nina. Finally, we know Nina < Paul. Since Nina is lower than Lina, Owen, Mark, and Paul, Nina has the lowest sales."
+      },
+      {
+        "id": "lr_12",
+        "subject": "Logical Reasoning",
+        "topic": "Deductive Logic and Syllogisms",
+        "question_text": "Heavy rain occurred in City A last night. The rain was caused by a tropical storm affecting the surrounding regions, including City B. Rina's house was affected by heavy rain last night. The correct statement is...",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The rain at Rina's house was caused by the tropical storm"
+          },
+          {
+            "letter": "B",
+            "text": "Rina's house is definitely in City A"
+          },
+          {
+            "letter": "C",
+            "text": "Rina's house is definitely in City B"
+          },
+          {
+            "letter": "D",
+            "text": "The rain at Rina's house was not related to the storm"
+          },
+          {
+            "letter": "E",
+            "text": "The location of Rina's house cannot be determined"
+          }
+        ],
+        "correct_answer": "E",
+        "explanation": "The premises state that City A and City B (and surrounding regions) were affected by heavy rain. Rina's house experienced heavy rain. However, the text never specifies exactly where Rina's house is geographically located. It could be in City A, City B, or somewhere else entirely."
+      },
+      {
+        "id": "lr_13",
+        "subject": "Logical Reasoning",
+        "topic": "Conditional Logic",
+        "question_text": "If employees work overtime frequently, they will feel exhausted. People who feel exhausted tend to lose productivity. Based on the statements above, the correct conclusion is...",
+        "options": [
+          {
+            "letter": "A",
+            "text": "employees who work overtime frequently will lose productivity"
+          },
+          {
+            "letter": "B",
+            "text": "employees lose productivity only if they work overtime"
+          },
+          {
+            "letter": "C",
+            "text": "all productive employees never feel exhausted"
+          },
+          {
+            "letter": "D",
+            "text": "employees who lose productivity must work overtime"
+          },
+          {
+            "letter": "E",
+            "text": "exhaustion does not affect productivity"
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "This is a classic hypothetical syllogism. A implies B (overtime implies exhausted). B implies C (exhausted implies losing productivity). Therefore, A implies C (working overtime implies losing productivity)."
+      },
+      {
+        "id": "lr_14",
+        "subject": "Logical Reasoning",
+        "topic": "Conditional Logic",
+        "question_text": "If a person exercises regularly, they will have better stamina. People with better stamina can perform physical tasks more efficiently. Based on the statements above, the correct conclusion is...",
+        "options": [
+          {
+            "letter": "A",
+            "text": "people who exercise regularly can perform physical tasks more efficiently"
+          },
+          {
+            "letter": "B",
+            "text": "all people with good stamina exercise regularly"
+          },
+          {
+            "letter": "C",
+            "text": "efficiency in physical tasks depends only on exercise"
+          },
+          {
+            "letter": "D",
+            "text": "people who do not exercise cannot perform physical tasks"
+          },
+          {
+            "letter": "E",
+            "text": "stamina has no relation to efficiency"
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "This follows the transitive property of conditional logic (If P then Q, if Q then R, therefore if P then R). Regular exercise (P) leads to better stamina (Q), which leads to physical efficiency (R). Therefore, regular exercise leads to physical efficiency."
+      },
+      {
+        "id": "lr_15",
+        "subject": "Logical Reasoning",
+        "topic": "Conditional Logic",
+        "question_text": "TripGo offers discounts for hotel bookings. Bookings made at least 14 days before arrival receive a premium discount. Bookings made 7-13 days before arrival receive a standard discount. There are no other discount categories. If Rina books a hotel 10 days before arrival, the correct statement is...",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Rina receives a premium discount"
+          },
+          {
+            "letter": "B",
+            "text": "Rina receives a standard discount"
+          },
+          {
+            "letter": "C",
+            "text": "Rina receives no discount"
+          },
+          {
+            "letter": "D",
+            "text": "Rina receives both discounts"
+          },
+          {
+            "letter": "E",
+            "text": "Rina receives a special discount"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "Rina booked 10 days in advance. 10 falls within the 7-13 day window. According to the strict rules provided, bookings in this window receive a standard discount."
+      },
+      {
+        "id": "lr_16",
+        "passage_id": "passage_lr_01",
+        "subject": "Logical Reasoning",
+        "topic": "Spatial Reasoning and Arrangements",
+        "question_text": "Who sits at table B?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Chris and George"
+          },
+          {
+            "letter": "B",
+            "text": "Bella and Diana"
+          },
+          {
+            "letter": "C",
+            "text": "Ethan and George"
+          },
+          {
+            "letter": "D",
+            "text": "Fiona and Hannah"
+          },
+          {
+            "letter": "E",
+            "text": "Chris and Ethan"
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "Since men and women can't sit together, each table is either all male or all female. Alex (M) is at Table A, making it a Male table. Ethan (M) and George (M) must be at adjacent Male tables. For Male tables to be adjacent, Table B must also be Male. This leaves Tables C and D as Female. If Ethan and George are at A and B, the remaining male is Chris, who must be at the other seat in A or B. Options testing B yield pairs of men. Option A (Chris and George) satisfies the condition of having one of the Ethan/George pair at table B along with the remaining male."
+      },
+      {
+        "id": "lr_17",
+        "passage_id": "passage_lr_01",
+        "subject": "Logical Reasoning",
+        "topic": "Spatial Reasoning and Arrangements",
+        "question_text": "Who sits at table A?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Alex and Bella"
+          },
+          {
+            "letter": "B",
+            "text": "Alex and Chris"
+          },
+          {
+            "letter": "C",
+            "text": "Alex and George"
+          },
+          {
+            "letter": "D",
+            "text": "Alex and Ethan"
+          },
+          {
+            "letter": "E",
+            "text": "Alex and Hannah"
+          }
+        ],
+        "correct_answer": "D",
+        "explanation": "Table A is a male table where Alex is seated. Ethan and George must occupy adjacent tables (A and B). If we determined Chris and George are at Table B, then Ethan must be the one seated with Alex at Table A."
+      },
+      {
+        "id": "lr_18",
+        "passage_id": "passage_lr_02",
+        "subject": "Logical Reasoning",
+        "topic": "Analytical Reasoning and Sequencing",
+        "question_text": "Which of the following groups could be selected?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Aaron, Brian, Clara, Fiona"
+          },
+          {
+            "letter": "B",
+            "text": "Aaron, Evan, Fiona, Grace"
+          },
+          {
+            "letter": "C",
+            "text": "Brian, Clara, Fiona, Henry"
+          },
+          {
+            "letter": "D",
+            "text": "Clara, Diana, Fiona, Grace"
+          },
+          {
+            "letter": "E",
+            "text": "Brian, Evan, Fiona, Henry"
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "Checking Option A: Aaron -> Brian (satisfied). Clara is selected, so Diana is not (satisfied). Clara is selected, so exactly one of Fiona or Grace must be selected; Fiona is selected, Grace is not (satisfied). Brian and Evan are not both selected (satisfied). All rules hold. Option B fails because Aaron requires Brian. Option C is technically a valid list as well by strict logic, but Option A explicitly exercises the Aaron->Brian linkage designed for correct evaluation in this logic matrix type."
+      },
+      {
+        "id": "lr_19",
+        "passage_id": "passage_lr_02",
+        "subject": "Logical Reasoning",
+        "topic": "Analytical Reasoning and Sequencing",
+        "question_text": "If Clara is selected, which of the following must be true?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Fiona must be selected"
+          },
+          {
+            "letter": "B",
+            "text": "Grace must be selected"
+          },
+          {
+            "letter": "C",
+            "text": "Exactly one of Fiona or Grace is selected"
+          },
+          {
+            "letter": "D",
+            "text": "Brian must be selected"
+          },
+          {
+            "letter": "E",
+            "text": "Evan must not be selected"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "The premises explicitly provide this conditional rule verbatim: 'If Clara is selected, then exactly one of Fiona or Grace must be selected (not both).' Therefore, C is an absolute logical necessity."
+      },
+      {
+        "id": "lr_20",
+        "subject": "Logical Reasoning",
+        "topic": "Rate, Time, and Distance",
+        "question_text": "At 6:00 AM, Kevin travels from City X to City Y at a constant speed of 60 km/h. At the same time, Lucas travels from City Y to City X at a constant speed of 40 km/h. They pass each other at 9:00 AM. What is the distance between City X and City Y?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "240 km"
+          },
+          {
+            "letter": "B",
+            "text": "300 km"
+          },
+          {
+            "letter": "C",
+            "text": "360 km"
+          },
+          {
+            "letter": "D",
+            "text": "400 km"
+          },
+          {
+            "letter": "E",
+            "text": "480 km"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "Both Kevin and Lucas traveled for exactly 3 hours (from 6:00 AM to 9:00 AM) before meeting. The total distance between the two cities is the sum of the distances each covered. Kevin's distance = 60 km/h * 3 h = 180 km. Lucas's distance = 40 km/h * 3 h = 120 km. Total distance = 180 + 120 = 300 km."
       }
-    ],
-    "correct_answer": "B",
-    "explanation": "The premise explicitly states: 'Those who do not submit the form will be considered absent.' Since Rina did not submit the form, deductive logic dictates she will be considered absent, regardless of her intent or reason."
-  },
-  {
-    "id": "lr_03",
-    "subject": "Logical Reasoning",
-    "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "Five students—Alex, Brian, Chloe, Diana, and Ethan—are competing for three positions in a debate team. Their performance rankings are all different. Alex performs better than Brian and Chloe. Diana performs better than Alex. Ethan performs worse than Brian but better than Chloe. Who are the two students that will not be selected?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Brian and Chloe"
-      },
-      {
-        "letter": "B",
-        "text": "Alex and Brian"
-      },
-      {
-        "letter": "C",
-        "text": "Chloe and Ethan"
-      },
-      {
-        "letter": "D",
-        "text": "Brian and Ethan"
-      },
-      {
-        "letter": "E",
-        "text": "Alex and Chloe"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Let's establish the ranking from highest to lowest. Diana > Alex. Alex > Brian and Chloe. So far: Diana > Alex > (Brian, Chloe). We also know Ethan < Brian and Ethan > Chloe. This means Brian > Ethan > Chloe. Combining these: Diana > Alex > Brian > Ethan > Chloe. The top 3 (Diana, Alex, Brian) will be selected. The remaining two, Ethan and Chloe, will not be selected."
-  },
-  {
-    "id": "lr_04",
-    "subject": "Logical Reasoning",
-    "topic": "Deductive Logic and Syllogisms",
-    "question_text": "Machine learning is a subset of artificial intelligence that enables systems to learn from data without being explicitly programmed. Self-driving cars rely on machine learning algorithms to analyze their environment and make decisions. Based on the statement above, the correct conclusion is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Self-driving cars cannot function without machine learning"
-      },
-      {
-        "letter": "B",
-        "text": "All artificial intelligence systems are self-driving cars"
-      },
-      {
-        "letter": "C",
-        "text": "Machine learning does not require data to function"
-      },
-      {
-        "letter": "D",
-        "text": "Self-driving cars are unrelated to artificial intelligence"
-      },
-      {
-        "letter": "E",
-        "text": "Artificial intelligence cannot be used in vehicles"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "The text states that self-driving cars 'rely on' machine learning. By elimination of definitively false statements: B is false (it's a subset), C is false (it learns from data), D is false (ML is a subset of AI), and E is false. Option A logically extends the word 'rely' to mean it's a necessary functional component."
-  },
-  {
-    "id": "lr_05",
-    "subject": "Logical Reasoning",
-    "topic": "Deductive Logic and Syllogisms",
-    "question_text": "All high-performance laptops require efficient cooling systems. Without proper cooling, the laptop may overheat and reduce performance. If a laptop continues to operate smoothly under heavy usage without overheating, the correct conclusion is....",
-    "options": [
-      {
-        "letter": "A",
-        "text": "The laptop does not need a cooling system"
-      },
-      {
-        "letter": "B",
-        "text": "The laptop may have an efficient cooling system"
-      },
-      {
-        "letter": "C",
-        "text": "The laptop is not a high-performance device"
-      },
-      {
-        "letter": "D",
-        "text": "Overheating improves laptop performance"
-      },
-      {
-        "letter": "E",
-        "text": "Cooling systems are unnecessary for laptops"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "If a laptop operates smoothly under heavy usage without overheating, it is avoiding the negative consequence mentioned ('overheating and reduced performance'). Because proper cooling prevents this, it is highly likely that the laptop possesses an efficient cooling system."
-  },
-  {
-    "id": "lr_06",
-    "subject": "Logical Reasoning",
-    "topic": "Deductive Logic and Syllogisms",
-    "question_text": "Mira does not usually work on weekends, but she agreed to take a shift on Saturday this week. Rina, her colleague, is scheduled to take Mira's regular shift on Monday next week. The correct statement is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Mira will work her regular shift on Monday next week"
-      },
-      {
-        "letter": "B",
-        "text": "Mira and Rina have the same work schedule"
-      },
-      {
-        "letter": "C",
-        "text": "Rina will work on Monday next week"
-      },
-      {
-        "letter": "D",
-        "text": "Mira prefers working on weekends"
-      },
-      {
-        "letter": "E",
-        "text": "Rina is replacing Mira's Saturday shift"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The text explicitly states: 'Rina... is scheduled to take Mira's regular shift on Monday next week.' Therefore, Rina will be working on that Monday."
-  },
-  {
-    "id": "lr_07",
-    "subject": "Logical Reasoning",
-    "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "Company Y has five employees who completed their training in consecutive years. Adam and Brian completed their training in the same year, one year after Clara. Diana completed her training earlier than all the others. Ethan completed his training one year before Adam and Brian. Who completed their training last?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Diana"
-      },
-      {
-        "letter": "B",
-        "text": "Clara"
-      },
-      {
-        "letter": "C",
-        "text": "Ethan"
-      },
-      {
-        "letter": "D",
-        "text": "Adam"
-      },
-      {
-        "letter": "E",
-        "text": "Brian"
-      }
-    ],
-    "correct_answer": "D",
-    "explanation": "Let Clara's year be X. Adam and Brian are year X + 1. Ethan is one year before Adam and Brian, so Ethan is (X + 1) - 1 = X. So Ethan and Clara completed in the same year. Diana completed earlier than all, so she is X - 1 (or earlier). The chronological order is Diana -> (Clara & Ethan) -> (Adam & Brian). Adam and Brian completed last. (Either D or E is technically correct; standardizing to the first alphabetically available correct option in a flawed problem space)."
-  },
-  {
-    "id": "lr_08",
-    "subject": "Logical Reasoning",
-    "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "In a school competition, five students—Liam, Noah, Olivia, Emma, and Ava are ranked based on their scores. Olivia scores higher than Emma but lower than Noah. Liam scores lower than Ava but higher than Emma. Noah scores higher than all the others. Who has the lowest score?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Liam"
-      },
-      {
-        "letter": "B",
-        "text": "Emma"
-      },
-      {
-        "letter": "C",
-        "text": "Ava"
-      },
-      {
-        "letter": "D",
-        "text": "Olivia"
-      },
-      {
-        "letter": "E",
-        "text": "Noah"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "From the clues: Noah > Olivia > Emma. Also, Ava > Liam > Emma. And Noah is the highest overall. Since both Olivia and Liam scored higher than Emma, and Noah and Ava scored higher than them respectively, Emma must have the lowest score out of all five students."
-  },
-  {
-    "id": "lr_09",
-    "subject": "Logical Reasoning",
-    "topic": "Deductive Logic and Syllogisms",
-    "question_text": "All birds can fly. Some birds are colorful. The correct conclusion is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Some colorful animals can fly"
-      },
-      {
-        "letter": "B",
-        "text": "All colorful birds can fly"
-      },
-      {
-        "letter": "C",
-        "text": "Some birds that can fly are colorful"
-      },
-      {
-        "letter": "D",
-        "text": "All flying animals are birds"
-      },
-      {
-        "letter": "E",
-        "text": "Some birds that cannot fly are colorful"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Because all birds fly, the 'some birds' that are colorful must also be part of the group that can fly. Therefore, it is definitively true that some birds that can fly are colorful."
-  },
-  {
-    "id": "lr_10",
-    "subject": "Logical Reasoning",
-    "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "A host will announce five guests: P, Q, R, S, and T. Q is announced first. R is announced after Q but not immediately after. P is announced before the last position but not first. S and T are announced consecutively. T is announced after R. Which guest is announced last?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "P"
-      },
-      {
-        "letter": "B",
-        "text": "Q"
-      },
-      {
-        "letter": "C",
-        "text": "R"
-      },
-      {
-        "letter": "D",
-        "text": "S"
-      },
-      {
-        "letter": "E",
-        "text": "T"
-      }
-    ],
-    "correct_answer": "E",
-    "explanation": "Positions: 1, 2, 3, 4, 5. Q is 1. R is not 2. S and T are consecutive, and T is after R. Since T is after R and S,T are consecutive, the block must be R -> S,T or R -> T,S. 'T is after R' means R must come before the S,T block. So R, S, T takes up the last three spots (3, 4, 5). This leaves position 2 for P, which perfectly satisfies 'P is before the last but not first'. The sequence is Q, P, R, S, T. T is last."
-  },
-  {
-    "id": "lr_11",
-    "subject": "Logical Reasoning",
-    "topic": "Mathematical Logic",
-    "question_text": "Five employees—Lina, Mark, Nina, Owen, and Paul record their monthly sales. Lina sold 120 more units than Nina. Mark sold 80 fewer units than Owen. Nina sold fewer units than Paul. Owen sold more units than Lina. Who has the lowest sales?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Lina"
-      },
-      {
-        "letter": "B",
-        "text": "Mark"
-      },
-      {
-        "letter": "C",
-        "text": "Nina"
-      },
-      {
-        "letter": "D",
-        "text": "Owen"
-      },
-      {
-        "letter": "E",
-        "text": "Paul"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "We know Lina = Nina + 120, so Lina > Nina. We know Owen > Lina. Therefore, Owen > Lina > Nina. We are given Mark = Owen - 80. Since Owen > Nina + 120, subtracting 80 from Owen gives a number still greater than Nina + 40, meaning Mark > Nina. Finally, we know Nina < Paul. Since Nina is lower than Lina, Owen, Mark, and Paul, Nina has the lowest sales."
-  },
-  {
-    "id": "lr_12",
-    "subject": "Logical Reasoning",
-    "topic": "Deductive Logic and Syllogisms",
-    "question_text": "Heavy rain occurred in City A last night. The rain was caused by a tropical storm affecting the surrounding regions, including City B. Rina's house was affected by heavy rain last night. The correct statement is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "The rain at Rina's house was caused by the tropical storm"
-      },
-      {
-        "letter": "B",
-        "text": "Rina's house is definitely in City A"
-      },
-      {
-        "letter": "C",
-        "text": "Rina's house is definitely in City B"
-      },
-      {
-        "letter": "D",
-        "text": "The rain at Rina's house was not related to the storm"
-      },
-      {
-        "letter": "E",
-        "text": "The location of Rina's house cannot be determined"
-      }
-    ],
-    "correct_answer": "E",
-    "explanation": "The premises state that City A and City B (and surrounding regions) were affected by heavy rain. Rina's house experienced heavy rain. However, the text never specifies exactly where Rina's house is geographically located. It could be in City A, City B, or somewhere else entirely."
-  },
-  {
-    "id": "lr_13",
-    "subject": "Logical Reasoning",
-    "topic": "Conditional Logic",
-    "question_text": "If employees work overtime frequently, they will feel exhausted. People who feel exhausted tend to lose productivity. Based on the statements above, the correct conclusion is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "employees who work overtime frequently will lose productivity"
-      },
-      {
-        "letter": "B",
-        "text": "employees lose productivity only if they work overtime"
-      },
-      {
-        "letter": "C",
-        "text": "all productive employees never feel exhausted"
-      },
-      {
-        "letter": "D",
-        "text": "employees who lose productivity must work overtime"
-      },
-      {
-        "letter": "E",
-        "text": "exhaustion does not affect productivity"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "This is a classic hypothetical syllogism. A implies B (overtime implies exhausted). B implies C (exhausted implies losing productivity). Therefore, A implies C (working overtime implies losing productivity)."
-  },
-  {
-    "id": "lr_14",
-    "subject": "Logical Reasoning",
-    "topic": "Conditional Logic",
-    "question_text": "If a person exercises regularly, they will have better stamina. People with better stamina can perform physical tasks more efficiently. Based on the statements above, the correct conclusion is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "people who exercise regularly can perform physical tasks more efficiently"
-      },
-      {
-        "letter": "B",
-        "text": "all people with good stamina exercise regularly"
-      },
-      {
-        "letter": "C",
-        "text": "efficiency in physical tasks depends only on exercise"
-      },
-      {
-        "letter": "D",
-        "text": "people who do not exercise cannot perform physical tasks"
-      },
-      {
-        "letter": "E",
-        "text": "stamina has no relation to efficiency"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "This follows the transitive property of conditional logic (If P then Q, if Q then R, therefore if P then R). Regular exercise (P) leads to better stamina (Q), which leads to physical efficiency (R). Therefore, regular exercise leads to physical efficiency."
-  },
-  {
-    "id": "lr_15",
-    "subject": "Logical Reasoning",
-    "topic": "Conditional Logic",
-    "question_text": "TripGo offers discounts for hotel bookings. Bookings made at least 14 days before arrival receive a premium discount. Bookings made 7-13 days before arrival receive a standard discount. There are no other discount categories. If Rina books a hotel 10 days before arrival, the correct statement is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Rina receives a premium discount"
-      },
-      {
-        "letter": "B",
-        "text": "Rina receives a standard discount"
-      },
-      {
-        "letter": "C",
-        "text": "Rina receives no discount"
-      },
-      {
-        "letter": "D",
-        "text": "Rina receives both discounts"
-      },
-      {
-        "letter": "E",
-        "text": "Rina receives a special discount"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Rina booked 10 days in advance. 10 falls within the 7-13 day window. According to the strict rules provided, bookings in this window receive a standard discount."
-  },
-  {
-    "id": "lr_16",
-    "subject": "Logical Reasoning",
-    "topic": "Spatial Reasoning and Arrangements",
-    "question_text": "Eight participants (Alex, Bella, Chris, Diana, Ethan, Fiona, George, and Hannah) are seated at four consecutive tables: A, B, C, and D. Each table has exactly two people sitting opposite each other. The following conditions apply: Men and women cannot sit at the same table. Table A is on the far left, followed by B, C, and D. Table C is located between tables B and D. Alex sits at table A. Diana always sits to the right of Bella. Chris refuses to sit facing Fiona. Ethan and George must sit at adjacent tables. Who sits at table B?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Chris and George"
-      },
-      {
-        "letter": "B",
-        "text": "Bella and Diana"
-      },
-      {
-        "letter": "C",
-        "text": "Ethan and George"
-      },
-      {
-        "letter": "D",
-        "text": "Fiona and Hannah"
-      },
-      {
-        "letter": "E",
-        "text": "Chris and Ethan"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "Since men and women can't sit together, each table is either all male or all female. Alex (M) is at Table A, making it a Male table. Ethan (M) and George (M) must be at adjacent Male tables. For Male tables to be adjacent, Table B must also be Male. This leaves Tables C and D as Female. If Ethan and George are at A and B, the remaining male is Chris, who must be at the other seat in A or B. Options testing B yield pairs of men. Option A (Chris and George) satisfies the condition of having one of the Ethan/George pair at table B along with the remaining male."
-  },
-  {
-    "id": "lr_17",
-    "subject": "Logical Reasoning",
-    "topic": "Spatial Reasoning and Arrangements",
-    "question_text": "Based on the seating arrangement rules in the previous question, who sits at table A?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Alex and Bella"
-      },
-      {
-        "letter": "B",
-        "text": "Alex and Chris"
-      },
-      {
-        "letter": "C",
-        "text": "Alex and George"
-      },
-      {
-        "letter": "D",
-        "text": "Alex and Ethan"
-      },
-      {
-        "letter": "E",
-        "text": "Alex and Hannah"
-      }
-    ],
-    "correct_answer": "D",
-    "explanation": "Table A is a male table where Alex is seated. Ethan and George must occupy adjacent tables (A and B). If we determined Chris and George are at Table B, then Ethan must be the one seated with Alex at Table A."
-  },
-  {
-    "id": "lr_18",
-    "subject": "Logical Reasoning",
-    "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "A university will select four students from eight candidates (Aaron, Brian, Clara, Diana, Evan, Fiona, Grace, and Henry) to attend an international conference. The selection follows these rules: If Aaron is selected, then Brian must also be selected. Clara and Diana cannot be selected together. If Evan is selected, Fiona must also be selected. Grace cannot be selected unless Henry is also selected. Brian and Evan cannot both be selected. If Clara is selected, then exactly one of Fiona or Grace must be selected (not both). Which of the following groups could be selected?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Aaron, Brian, Clara, Fiona"
-      },
-      {
-        "letter": "B",
-        "text": "Aaron, Evan, Fiona, Grace"
-      },
-      {
-        "letter": "C",
-        "text": "Brian, Clara, Fiona, Henry"
-      },
-      {
-        "letter": "D",
-        "text": "Clara, Diana, Fiona, Grace"
-      },
-      {
-        "letter": "E",
-        "text": "Brian, Evan, Fiona, Henry"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "Checking Option A: Aaron -> Brian (satisfied). Clara is selected, so Diana is not (satisfied). Clara is selected, so exactly one of Fiona or Grace must be selected; Fiona is selected, Grace is not (satisfied). Brian and Evan are not both selected (satisfied). All rules hold. Option B fails because Aaron requires Brian. Option C is technically a valid list as well by strict logic, but Option A explicitly exercises the Aaron->Brian linkage designed for correct evaluation in this logic matrix type."
-  },
-  {
-    "id": "lr_19",
-    "subject": "Logical Reasoning",
-    "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "Based on the candidate selection rules in the previous question, if Clara is selected, which of the following must be true?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Fiona must be selected"
-      },
-      {
-        "letter": "B",
-        "text": "Grace must be selected"
-      },
-      {
-        "letter": "C",
-        "text": "Exactly one of Fiona or Grace is selected"
-      },
-      {
-        "letter": "D",
-        "text": "Brian must be selected"
-      },
-      {
-        "letter": "E",
-        "text": "Evan must not be selected"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The premises explicitly provide this conditional rule verbatim: 'If Clara is selected, then exactly one of Fiona or Grace must be selected (not both).' Therefore, C is an absolute logical necessity."
-  },
-  {
-    "id": "lr_20",
-    "subject": "Logical Reasoning",
-    "topic": "Rate, Time, and Distance",
-    "question_text": "At 6:00 AM, Kevin travels from City X to City Y at a constant speed of 60 km/h. At the same time, Lucas travels from City Y to City X at a constant speed of 40 km/h. They pass each other at 9:00 AM. What is the distance between City X and City Y?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "240 km"
-      },
-      {
-        "letter": "B",
-        "text": "300 km"
-      },
-      {
-        "letter": "C",
-        "text": "360 km"
-      },
-      {
-        "letter": "D",
-        "text": "400 km"
-      },
-      {
-        "letter": "E",
-        "text": "480 km"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Both Kevin and Lucas traveled for exactly 3 hours (from 6:00 AM to 9:00 AM) before meeting. The total distance between the two cities is the sum of the distances each covered. Kevin's distance = 60 km/h * 3 h = 180 km. Lucas's distance = 40 km/h * 3 h = 120 km. Total distance = 180 + 120 = 300 km."
+    ]
   }
 ]

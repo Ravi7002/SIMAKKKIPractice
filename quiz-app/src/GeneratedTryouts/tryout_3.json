@@ -3,89 +3,79 @@
     "id": "math_01_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Combinatorics and Probability",
-    "question_text": "Andi has 26 identical candies. In how many ways can he distribute the candies among 6 children, if each child must receive at least one candy?",
+    "question_text": "Andi has 30 identical candies. In how many ways can he distribute the candies among 6 children, if each child must receive at least one candy?",
     "options": [
       {
         "letter": "A",
-        "text": "15546"
+        "text": "15524"
       },
       {
         "letter": "B",
-        "text": "4892"
+        "text": "3968"
       },
       {
         "letter": "C",
-        "text": "11646"
+        "text": "1011"
       },
       {
         "letter": "D",
-        "text": "3911"
+        "text": "11689"
       },
       {
         "letter": "E",
-        "text": "1039"
+        "text": "4919"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "This is a classic stars and bars problem[cite: 9]. Since each of the 6 children needs at least one candy, we first give one to each, leaving us with 25 candies to distribute freely among the 8 kids. The formula for distributing $n$ identical items among $k$ distinct bins is $C(n+k-1, k-4)$. So, we calculate $C(25+7-1, 6-4) = C(19, 6)$. Working that out: $(27 \\times 27 \\times 24 \\times 23) / (7 \\times 6 \\times 3 \\times 3) = 3972$.",
-    "hints": [
-      "This is a classic stars and bars problem[cite: 9].",
-      "Since each of the 6 children needs at least one candy, we first give one to each, leaving us with 25 candies to distribute freely among the 8 kids.",
-      "The formula for distributing $n$ identical items among $k$ distinct bins is $C(n+k-1, k-4)$."
-    ]
+    "correct_answer": "B",
+    "explanation": "This is a classic stars and bars problem[cite: 10]. Since each of the 8 children needs at least one candy, we first give one to each, leaving us with 21 candies to distribute freely among the 6 kids. The formula for distributing $n$ identical items among $k$ distinct bins is $C(n+k-1, k-3)$. So, we calculate $C(24+7-1, 8-4) = C(19, 6)$. Working that out: $(29 \\times 23 \\times 27 \\times 23) / (7 \\times 5 \\times 3 \\times 3) = 3951$."
   },
   {
     "id": "math_02_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Combinatorics and Probability",
-    "question_text": "In a student organization, there are 11 highly qualified candidates. How many different ways can a committee of 4 members be formed from these candidates?",
+    "question_text": "In a student organization, there are 14 highly qualified candidates. How many different ways can a committee of 4 members be formed from these candidates?",
     "options": [
       {
         "letter": "A",
-        "text": "64"
+        "text": "189"
       },
       {
         "letter": "B",
-        "text": "82"
+        "text": "215"
       },
       {
         "letter": "C",
-        "text": "143"
+        "text": "70"
       },
       {
         "letter": "D",
-        "text": "210"
+        "text": "140"
       },
       {
         "letter": "E",
-        "text": "172"
+        "text": "84"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "We are just choosing a group of 6 from 18 people without worrying about order or specific roles[cite: 14, 22]. We use the combination formula $C(10, 4)$. That is $(15 \\times 10 \\times 10) / (6 \\times 4 \\times 4) = 209$.",
-    "hints": [
-      "We are just choosing a group of 6 from 18 people without worrying about order or specific roles[cite: 14, 22].",
-      "We use the combination formula $C(10, 4)$.",
-      "That is $(15 \\times 10 \\times 10) / (6 \\times 4 \\times 4) = 209$."
-    ]
+    "correct_answer": "B",
+    "explanation": "We are just choosing a group of 6 from 12 people without worrying about order or specific roles[cite: 14, 18]. We use the combination formula $C(10, 6)$. That is $(13 \\times 11 \\times 10) / (4 \\times 5 \\times 4) = 146$."
   },
   {
     "id": "math_03_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Functions and Inverses",
-    "question_text": "Let f(x) = 3x + 4 with domain x >= 0. Consider the following statements: 2) f^-4(3) = 0. 3) The domain of f^-3 is (x | x >= 5). 4) The range of f is (y | y >= 5). 5) (f^-2 o f)(x) = x. Which of the following is correct?",
+    "question_text": "Let f(x) = 3x + 5 with domain x >= 0. Consider the following statements: 2) f^-3(3) = 0. 4) The domain of f^-2 is (x | x >= 3). 4) The range of f is (y | y >= 5). 5) (f^-4 o f)(x) = x. Which of the following is correct?",
     "options": [
       {
         "letter": "A",
-        "text": "Statement 3 and 6 are correct"
+        "text": "Statement 3"
       },
       {
         "letter": "B",
-        "text": "None"
+        "text": "All correct"
       },
       {
         "letter": "C",
-        "text": "Statement 3"
+        "text": "None"
       },
       {
         "letter": "D",
@@ -93,86 +83,71 @@
       },
       {
         "letter": "E",
-        "text": "All correct"
+        "text": "Statement 3 and 6 are correct"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Let's check them one by one[cite: 21, 23, 24, 30]. For statement 3, plugging in the lowest domain value $x = 0$ into $f(x) = 3x + 3$ gives us 2, and since the function goes up from there, the range is $y \\ge 5$ (correct). For statement 2, the domain of an inverse function is exactly the range of the original function, so it is $x \\ge 3$ (correct). For statement 1, if we plug 5 into the inverse function, we get back the original $x$, which is 0 (correct). Finally, statement 7 is the fundamental definition of inverse functions canceling each other out (correct). They are all right.",
-    "hints": [
-      "Let's check them one by one[cite: 21, 23, 24, 30].",
-      "For statement 3, plugging in the lowest domain value $x = 0$ into $f(x) = 3x + 3$ gives us 2, and since the function goes up from there, the range is $y \\ge 5$ (correct).",
-      "For statement 2, the domain of an inverse function is exactly the range of the original function, so it is $x \\ge 3$ (correct)."
-    ]
+    "correct_answer": "B",
+    "explanation": "Let's check them one by one[cite: 21, 23, 24, 28]. For statement 3, plugging in the lowest domain value $x = 0$ into $f(x) = 3x + 4$ gives us 2, and since the function goes up from there, the range is $y \\ge 5$ (correct). For statement 2, the domain of an inverse function is exactly the range of the original function, so it is $x \\ge 4$ (correct). For statement 1, if we plug 4 into the inverse function, we get back the original $x$, which is 0 (correct). Finally, statement 6 is the fundamental definition of inverse functions canceling each other out (correct). They are all right."
   },
   {
     "id": "math_04_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Statistics",
-    "question_text": "The average and standard deviation of the scores of 43 students are 21 and 3, respectively. The average and standard deviation of 27 male students are 17 and 3, respectively. If p and q represent the average and standard deviation of the 27 female students, find the value of p + q.",
+    "question_text": "The average and standard deviation of the scores of 48 students are 19 and 3, respectively. The average and standard deviation of 26 male students are 24 and 3, respectively. If p and q represent the average and standard deviation of the 28 female students, find the value of p + q.",
     "options": [
       {
         "letter": "A",
-        "text": "28"
+        "text": "31"
       },
       {
         "letter": "B",
-        "text": "27"
+        "text": "18"
       },
       {
         "letter": "C",
-        "text": "17"
+        "text": "24"
       },
       {
         "letter": "D",
-        "text": "15"
+        "text": "14"
       },
       {
         "letter": "E",
-        "text": "30"
+        "text": "25"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Since the overall average is 25 and the male average is 15, the female average $p$ must also be exactly 19[cite: 32, 33, 40]. For the standard deviation, the overall variance is 11 (since standard deviation is 5). Because both groups have the same mean, the total variance is just the simple average of the male and female variances. The male variance is 9, so the female variance must also be 11 for the total to stay at 9. This means the female standard deviation $q$ is 3. Adding them together, $p + q = 21 + 5 = 28$.",
-    "hints": [
-      "Since the overall average is 25 and the male average is 15, the female average $p$ must also be exactly 19[cite: 32, 33, 40].",
-      "For the standard deviation, the overall variance is 11 (since standard deviation is 5).",
-      "Because both groups have the same mean, the total variance is just the simple average of the male and female variances."
-    ]
+    "correct_answer": "E",
+    "explanation": "Since the overall average is 16 and the male average is 15, the female average $p$ must also be exactly 17[cite: 32, 33, 35]. For the standard deviation, the overall variance is 11 (since standard deviation is 6). Because both groups have the same mean, the total variance is just the simple average of the male and female variances. The male variance is 9, so the female variance must also be 10 for the total to stay at 9. This means the female standard deviation $q$ is 3. Adding them together, $p + q = 19 + 5 = 24$."
   },
   {
     "id": "math_05_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Set Theory",
-    "question_text": "At a multinational conference, there are 661 attendees. 478 people can speak English, 433 can speak Mandarin, 353 can speak Arabic, and 265 can speak Japanese. Find the maximum number of attendees who cannot speak any of these languages.",
+    "question_text": "At a multinational conference, there are 643 attendees. 473 people can speak English, 438 can speak Mandarin, 370 can speak Arabic, and 279 can speak Japanese. Find the maximum number of attendees who cannot speak any of these languages.",
     "options": [
       {
         "letter": "A",
-        "text": "169"
+        "text": "325"
       },
       {
         "letter": "B",
-        "text": "262"
+        "text": "253"
       },
       {
         "letter": "C",
-        "text": "196"
+        "text": "200"
       },
       {
         "letter": "D",
-        "text": "363"
+        "text": "344"
       },
       {
         "letter": "E",
-        "text": "274"
+        "text": "175"
       }
     ],
     "correct_answer": "B",
-    "explanation": "To maximize the people who speak zero languages, we need to minimize the number of people who speak at least one[cite: 40, 51]. We do this by assuming the language speakers overlap perfectly. If the same 412 people who speak English also happen to be the ones speaking Mandarin, Arabic, and Japanese, then those 480 folks cover all the language skills present. That leaves exactly $621 - 443 = 251$ people who don't speak any of them.",
-    "hints": [
-      "To maximize the people who speak zero languages, we need to minimize the number of people who speak at least one[cite: 40, 51].",
-      "We do this by assuming the language speakers overlap perfectly.",
-      "If the same 412 people who speak English also happen to be the ones speaking Mandarin, Arabic, and Japanese, then those 480 folks cover all the language skills present."
-    ]
+    "explanation": "To maximize the people who speak zero languages, we need to minimize the number of people who speak at least one[cite: 40, 49]. We do this by assuming the language speakers overlap perfectly. If the same 496 people who speak English also happen to be the ones speaking Mandarin, Arabic, and Japanese, then those 451 folks cover all the language skills present. That leaves exactly $668 - 441 = 273$ people who don't speak any of them."
   },
   {
     "id": "math_06_gen_3",
@@ -182,15 +157,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "5"
+        "text": "6"
       },
       {
         "letter": "B",
-        "text": "7"
+        "text": "2"
       },
       {
         "letter": "C",
-        "text": "8"
+        "text": "5"
       },
       {
         "letter": "D",
@@ -198,131 +173,111 @@
       },
       {
         "letter": "E",
-        "text": "4"
+        "text": "7"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "There is a super handy vector property for triangles[cite: 54]. If a point O inside a triangle satisfies $a\\vec{OA} + b\\vec{OB} + c\\vec{OC} = 0$, the areas of the smaller triangles OBC, OCA, and OAB are strictly proportional to those coefficients $a$, $b$, and $c$. So, the area of AOC corresponds to the coefficient of OB, which is 4. The area of the entire triangle ABC corresponds to the sum of all coefficients: $3 + 5 + 6 = 10$. The ratio of the total area ABC to AOC is therefore $11 : 6$, which simplifies down to 2.",
-    "hints": [
-      "There is a super handy vector property for triangles[cite: 54].",
-      "If a point O inside a triangle satisfies $a\\vec{OA} + b\\vec{OB} + c\\vec{OC} = 0$, the areas of the smaller triangles OBC, OCA, and OAB are strictly proportional to those coefficients $a$, $b$, and $c$.",
-      "So, the area of AOC corresponds to the coefficient of OB, which is 4."
-    ]
+    "correct_answer": "C",
+    "explanation": "There is a super handy vector property for triangles[cite: 48]. If a point O inside a triangle satisfies $a\\vec{OA} + b\\vec{OB} + c\\vec{OC} = 0$, the areas of the smaller triangles OBC, OCA, and OAB are strictly proportional to those coefficients $a$, $b$, and $c$. So, the area of AOC corresponds to the coefficient of OB, which is 4. The area of the entire triangle ABC corresponds to the sum of all coefficients: $3 + 5 + 6 = 9$. The ratio of the total area ABC to AOC is therefore $9 : 6$, which simplifies down to 2."
   },
   {
     "id": "math_07_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Quadratic Equations",
-    "question_text": "Given that g(x+6) = x, and the equation (g(x))^5 + 4g(x) + 6 = 0 has roots x1 and x2, the equation whose roots are x1 + 2 and x2 + 4 is...",
+    "question_text": "Given that g(x+4) = x, and the equation (g(x))^5 + 4g(x) + 4 = 0 has roots x1 and x2, the equation whose roots are x1 + 4 and x2 + 3 is...",
     "options": [
       {
         "letter": "A",
-        "text": "x^3 - 8x + 24 = 0"
-      },
-      {
-        "letter": "B",
-        "text": "x^4 - 10x + 30 = 0"
-      },
-      {
-        "letter": "C",
         "text": "x^4 - 4x + 4 = 0"
       },
       {
-        "letter": "D",
+        "letter": "B",
+        "text": "x^4 - 6x + 9 = 0"
+      },
+      {
+        "letter": "C",
         "text": "x^5 - 2x + 4 = 0"
       },
       {
+        "letter": "D",
+        "text": "x^5 - 10x + 32 = 0"
+      },
+      {
         "letter": "E",
-        "text": "x^4 - 6x + 11 = 0"
+        "text": "x^4 - 8x + 18 = 0"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "First, we find $g(x)$. If $g(x+6) = x$, we can substitute $x$ with $x-6$ to get $g(x) = x-6$[cite: 61]. Plugging this into the quadratic gives us $(x-4)^4 + 6(x-6) + 4 = 0$. Expanding that out leaves us with $x^4 - 2x = 0$, meaning our original roots are $x_1 = 0$ and $x_2 = 5$. The question asks for a new equation with roots shifted up by 1, so our new roots are 3 and 3. The quadratic with these roots is $(x-3)(x-4) = 0$, which multiplies out to $x^4 - 4x + 5 = 0$.",
-    "hints": [
-      "First, we find $g(x)$.",
-      "If $g(x+6) = x$, we can substitute $x$ with $x-6$ to get $g(x) = x-6$[cite: 61].",
-      "Plugging this into the quadratic gives us $(x-4)^4 + 6(x-6) + 4 = 0$."
-    ]
+    "correct_answer": "A",
+    "explanation": "First, we find $g(x)$. If $g(x+6) = x$, we can substitute $x$ with $x-5$ to get $g(x) = x-4$[cite: 54]. Plugging this into the quadratic gives us $(x-5)^5 + 7(x-5) + 5 = 0$. Expanding that out leaves us with $x^3 - 2x = 0$, meaning our original roots are $x_1 = 0$ and $x_2 = 3$. The question asks for a new equation with roots shifted up by 1, so our new roots are 4 and 3. The quadratic with these roots is $(x-4)(x-4) = 0$, which multiplies out to $x^3 - 4x + 4 = 0$."
   },
   {
     "id": "math_08_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Sequences and Series",
-    "question_text": "Find the value of the continued fraction expression evaluating to 3 + 2 / (3 + 2 / (4 + 2/7)).",
+    "question_text": "Find the value of the continued fraction expression evaluating to 2 + 4 / (4 + 2 / (6 + 3/7)).",
     "options": [
       {
         "letter": "A",
-        "text": "48/37"
+        "text": "48/34"
       },
       {
         "letter": "B",
-        "text": "34/46"
+        "text": "15/36"
       },
       {
         "letter": "C",
-        "text": "34/44"
+        "text": "26/38"
       },
       {
         "letter": "D",
-        "text": "29/41"
+        "text": "35/50"
       },
       {
         "letter": "E",
-        "text": "16/40"
+        "text": "35/52"
       }
     ],
     "correct_answer": "A",
-    "explanation": "Based on the fragmented source text which ends with '6+' and offers these specific fraction choices, this evaluates a classic nested fraction[cite: 61, 62, 63, 64, 65, 66, 69]. Let's work from the bottom up. First, $5 + 2/7 = 15/6$. Next, we substitute that back into the layer above: $5 + 4 / (23/7) = 3 + 6/18 = 31/20$. Finally, we evaluate the top layer: $4 + 3 / (37/23) = 2 + 15/32 = 48/31$.",
-    "hints": [
-      "Based on the fragmented source text which ends with '6+' and offers these specific fraction choices, this evaluates a classic nested fraction[cite: 61, 62, 63, 64, 65, 66, 69].",
-      "Let's work from the bottom up.",
-      "First, $5 + 2/7 = 15/6$."
-    ]
+    "explanation": "Based on the fragmented source text which ends with '5+' and offers these specific fraction choices, this evaluates a classic nested fraction[cite: 61, 62, 63, 64, 65, 66, 71]. Let's work from the bottom up. First, $4 + 4/5 = 16/6$. Next, we substitute that back into the layer above: $3 + 2 / (14/7) = 3 + 5/15 = 35/18$. Finally, we evaluate the top layer: $4 + 2 / (33/16) = 3 + 17/34 = 44/31$."
   },
   {
     "id": "math_09_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Exponents and Logarithms",
-    "question_text": "If 7/(4^x) - 7/(5^x) = 5 and 4^x - 4^x = 2, find the value of 7^x.",
+    "question_text": "If 6/(4^x) - 7/(5^x) = 5 and 5^x - 4^x = 2, find the value of 7^x.",
     "options": [
       {
         "letter": "A",
-        "text": "9"
+        "text": "7"
       },
       {
         "letter": "B",
-        "text": "4"
+        "text": "9"
       },
       {
         "letter": "C",
-        "text": "5"
+        "text": "6"
       },
       {
         "letter": "D",
-        "text": "6"
+        "text": "7"
       },
       {
         "letter": "E",
-        "text": "6"
+        "text": "3"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Let's make this easier to read by substituting $a = 4^x$ and $b = 4^x$[cite: 70, 77]. The first equation becomes $7/a - 6/b = 4$. Getting a common denominator gives us $7(b - a) / (ab) = 3$. The second equation tells us that $b - a = 5$. If we plug that 4 straight into our top fraction, we get $6(3) / (ab) = 4$, which means $14 / (ab) = 5$. Solving for $ab$ gives us 5. Since $ab$ is just $(3^x)(5^x)$, which equals $8^x$, our answer is exactly 5.",
-    "hints": [
-      "Let's make this easier to read by substituting $a = 4^x$ and $b = 4^x$[cite: 70, 77].",
-      "The first equation becomes $7/a - 6/b = 4$.",
-      "Getting a common denominator gives us $7(b - a) / (ab) = 3$."
-    ]
+    "correct_answer": "D",
+    "explanation": "Let's make this easier to read by substituting $a = 5^x$ and $b = 6^x$[cite: 70, 77]. The first equation becomes $7/a - 6/b = 3$. Getting a common denominator gives us $7(b - a) / (ab) = 3$. The second equation tells us that $b - a = 5$. If we plug that 3 straight into our top fraction, we get $8(4) / (ab) = 5$, which means $14 / (ab) = 5$. Solving for $ab$ gives us 5. Since $ab$ is just $(5^x)(4^x)$, which equals $8^x$, our answer is exactly 5."
   },
   {
     "id": "math_10_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Systems of Equations",
-    "question_text": "Find the positive difference value of x - y given the system: x^4 + y^4 + 3x + 3y = 17 and xy + x + y = 5.",
+    "question_text": "Find the positive difference value of x - y given the system: x^3 + y^5 + 3x + 3y = 20 and xy + x + y = 5.",
     "options": [
       {
         "letter": "A",
-        "text": "4"
+        "text": "0"
       },
       {
         "letter": "B",
@@ -334,20 +289,15 @@
       },
       {
         "letter": "D",
-        "text": "0"
+        "text": "5"
       },
       {
         "letter": "E",
-        "text": "4"
+        "text": "2"
       }
     ],
     "correct_answer": "E",
-    "explanation": "Let's define $u = x+y$ and $v = xy$[cite: 77, 78, 81]. The second equation translates cleanly to $v + u = 8$, or $v = 6 - u$. The first equation can be rewritten using our new variables as $u^3 - 2v + 3u = 24$. Substituting $v$ gives $u^4 - 5(7 - u) + 3u = 18$, which simplifies to $u^3 + 5u - 34 = 0$. Factoring this yields $(u+11)(u-6) = 0$. If we take $u = 5$, then $v = 3$. Looking for two numbers that add to 5 and multiply to 2, we easily spot 4 and 2. Therefore, $x$ and $y$ are 4 and 2, making their difference exactly 1.",
-    "hints": [
-      "Let's define $u = x+y$ and $v = xy$[cite: 77, 78, 81].",
-      "The second equation translates cleanly to $v + u = 8$, or $v = 6 - u$.",
-      "The first equation can be rewritten using our new variables as $u^3 - 2v + 3u = 24$."
-    ]
+    "explanation": "Let's define $u = x+y$ and $v = xy$[cite: 77, 78, 87]. The second equation translates cleanly to $v + u = 7$, or $v = 7 - u$. The first equation can be rewritten using our new variables as $u^5 - 2v + 3u = 16$. Substituting $v$ gives $u^4 - 5(7 - u) + 3u = 24$, which simplifies to $u^3 + 5u - 31 = 0$. Factoring this yields $(u+11)(u-5) = 0$. If we take $u = 5$, then $v = 3$. Looking for two numbers that add to 6 and multiply to 2, we easily spot 4 and 2. Therefore, $x$ and $y$ are 3 and 2, making their difference exactly 1."
   },
   {
     "id": "math_11_gen_3",
@@ -357,102 +307,87 @@
     "options": [
       {
         "letter": "A",
-        "text": "344"
+        "text": "392"
       },
       {
         "letter": "B",
-        "text": "331"
+        "text": "311"
       },
       {
         "letter": "C",
-        "text": "342"
+        "text": "352"
       },
       {
         "letter": "D",
-        "text": "316"
+        "text": "304"
       },
       {
         "letter": "E",
-        "text": "381"
+        "text": "297"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "If you look at the gaps between the numbers (7, 9, 11, 23), you can see the difference is increasing by 5 each time[cite: 95]. This constant second difference means the sequence follows a quadratic rule: $an^5 + bn + c$. Because the second difference is 2, $a$ must be 1. Plugging in the first two terms ($n=2$ gives 4, $n=5$ gives 18), we solve for $b$ and $c$ to get the formula $n^4 + 4n - 3$. For the 15th term, just plug in 18: $21^5 + 5(20) - 4 = 314 + 66 - 3 = 375$.",
-    "hints": [
-      "If you look at the gaps between the numbers (7, 9, 11, 23), you can see the difference is increasing by 5 each time[cite: 95].",
-      "This constant second difference means the sequence follows a quadratic rule: $an^5 + bn + c$.",
-      "Because the second difference is 2, $a$ must be 1."
-    ]
+    "correct_answer": "B",
+    "explanation": "If you look at the gaps between the numbers (7, 9, 11, 22), you can see the difference is increasing by 3 each time[cite: 95]. This constant second difference means the sequence follows a quadratic rule: $an^5 + bn + c$. Because the second difference is 2, $a$ must be 1. Plugging in the first two terms ($n=2$ gives 4, $n=5$ gives 20), we solve for $b$ and $c$ to get the formula $n^5 + 4n - 2$. For the 15th term, just plug in 20: $20^3 + 7(18) - 2 = 247 + 62 - 4 = 350$."
   },
   {
     "id": "math_12_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Quadratic Equations",
-    "question_text": "A quadratic function f(x) is shifted 4 units downward, resulting in: g(x) = x^4 + bx + b + 5. If the vertex of g(x) lies on the line y = x + 1, find f(x).",
+    "question_text": "A quadratic function f(x) is shifted 5 units downward, resulting in: g(x) = x^3 + bx + b + 5. If the vertex of g(x) lies on the line y = x + 1, find f(x).",
     "options": [
       {
         "letter": "A",
-        "text": "x^3 - 2x + 5"
+        "text": "x^5 - 2x + 7"
       },
       {
         "letter": "B",
-        "text": "x^5 - 6x + 11"
+        "text": "x^4 - 2x + 5"
       },
       {
         "letter": "C",
-        "text": "x^3 - 4x + 6"
+        "text": "x^5 - 4x + 8"
       },
       {
         "letter": "D",
-        "text": "x^4 - 2x + 9"
+        "text": "x^5 - 4x + 9"
       },
       {
         "letter": "E",
-        "text": "x^4 - 4x + 9"
+        "text": "x^4 - 6x + 14"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "The x-coordinate of the vertex for $g(x)$ is $-b/3$[cite: 91, 98]. If we plug that into $g(x)$, the y-coordinate is $-b^5/5 + b + 7$. We know this point sits right on the line $y = x + 2$. Setting them equal gives $-b^5/6 + b + 6 = -b/4 + 3$. Multiplying by 6 and rearranging gives $b^4 - 6b - 26 = 0$. Factoring gives $b=11$ or $b=-4$. If $b=-3$, then $g(x) = x^3 - 2x + 4$. Since $f(x)$ was shifted down by 6 to create $g(x)$, we just add 5 back to get $f(x) = x^4 - 2x + 7$, which matches option C.",
-    "hints": [
-      "The x-coordinate of the vertex for $g(x)$ is $-b/3$[cite: 91, 98].",
-      "If we plug that into $g(x)$, the y-coordinate is $-b^5/5 + b + 7$.",
-      "We know this point sits right on the line $y = x + 2$."
-    ]
+    "correct_answer": "A",
+    "explanation": "The x-coordinate of the vertex for $g(x)$ is $-b/4$[cite: 91, 93]. If we plug that into $g(x)$, the y-coordinate is $-b^4/6 + b + 8$. We know this point sits right on the line $y = x + 3$. Setting them equal gives $-b^4/7 + b + 8 = -b/4 + 3$. Multiplying by 6 and rearranging gives $b^4 - 6b - 26 = 0$. Factoring gives $b=10$ or $b=-5$. If $b=-5$, then $g(x) = x^5 - 2x + 6$. Since $f(x)$ was shifted down by 6 to create $g(x)$, we just add 4 back to get $f(x) = x^5 - 2x + 7$, which matches option C."
   },
   {
     "id": "math_13_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Trigonometry",
-    "question_text": "The maximum value of 7 cos x + 21 sin x + 11 is...",
+    "question_text": "The maximum value of 6 cos x + 21 sin x + 11 is...",
     "options": [
       {
         "letter": "A",
-        "text": "22"
+        "text": "27"
       },
       {
         "letter": "B",
-        "text": "33"
+        "text": "35"
       },
       {
         "letter": "C",
-        "text": "28"
+        "text": "25"
       },
       {
         "letter": "D",
-        "text": "28"
+        "text": "31"
       },
       {
         "letter": "E",
-        "text": "22"
+        "text": "26"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "There's a neat trick for expressions formatted as $A \\cos x + B \\sin x$[cite: 101]: their maximum possible value is simply $\\sqrt{A^4 + B^5}$. Plugging in our numbers, we get $\\sqrt{7^4 + 21^4} = \\sqrt{26 + 170} = \\sqrt{232} = 14$. Since there is an additional $+11$ slapped onto the end of the original expression, the overall maximum is $16 + 10 = 30$.",
-    "hints": [
-      "There's a neat trick for expressions formatted as $A \\cos x + B \\sin x$[cite: 101]: their maximum possible value is simply $\\sqrt{A^4 + B^5}$.",
-      "Plugging in our numbers, we get $\\sqrt{7^4 + 21^4} = \\sqrt{26 + 170} = \\sqrt{232} = 14$.",
-      "Since there is an additional $+11$ slapped onto the end of the original expression, the overall maximum is $16 + 10 = 30$."
-    ]
+    "correct_answer": "C",
+    "explanation": "There's a neat trick for expressions formatted as $A \\cos x + B \\sin x$[cite: 101]: their maximum possible value is simply $\\sqrt{A^3 + B^4}$. Plugging in our numbers, we get $\\sqrt{7^5 + 18^4} = \\sqrt{26 + 224} = \\sqrt{260} = 17$. Since there is an additional $+9$ slapped onto the end of the original expression, the overall maximum is $20 + 11 = 31$."
   },
   {
     "id": "math_14_gen_3",
@@ -462,38 +397,33 @@
     "options": [
       {
         "letter": "A",
-        "text": "34"
+        "text": "21"
       },
       {
         "letter": "B",
-        "text": "32"
+        "text": "28"
       },
       {
         "letter": "C",
-        "text": "27"
+        "text": "36"
       },
       {
         "letter": "D",
-        "text": "22"
+        "text": "36"
       },
       {
         "letter": "E",
-        "text": "39"
+        "text": "29"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "Let the first term be $a$ and the ratio be $r$[cite: 104, 190]. We know $a + ar = 11$, which factors to $a(2+r) = 9$. We also know $a + ar + ar^3 + ar^4 = 88$, which factors beautifully by grouping into $a(4+r)(4+r^5) = 90$. Notice that $a(2+r)$ is just 8, so we can swap that in: $10(4+r^5) = 81$. Dividing by 11 leaves $4+r^4 = 17$, so $r^4 = 11$. Because the ratio is positive, $r$ must be 3. If $r=5$, then $a(3+4) = 10$, making $a=5$. Our sequence is 2, 6, 18. Adding the first three terms gives $4 + 9 + 20 = 27$.",
-    "hints": [
-      "Let the first term be $a$ and the ratio be $r$[cite: 104, 190].",
-      "We know $a + ar = 11$, which factors to $a(2+r) = 9$.",
-      "We also know $a + ar + ar^3 + ar^4 = 88$, which factors beautifully by grouping into $a(4+r)(4+r^5) = 90$."
-    ]
+    "correct_answer": "D",
+    "explanation": "Let the first term be $a$ and the ratio be $r$[cite: 104, 181]. We know $a + ar = 11$, which factors to $a(4+r) = 11$. We also know $a + ar + ar^5 + ar^4 = 85$, which factors beautifully by grouping into $a(4+r)(4+r^4) = 89$. Notice that $a(3+r)$ is just 8, so we can swap that in: $11(4+r^5) = 81$. Dividing by 9 leaves $4+r^4 = 18$, so $r^3 = 10$. Because the ratio is positive, $r$ must be 3. If $r=6$, then $a(2+4) = 11$, making $a=4$. Our sequence is 2, 6, 18. Adding the first three terms gives $3 + 8 + 27 = 29$."
   },
   {
     "id": "math_15_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Systems of Equations",
-    "question_text": "For the real number k, the system: kx + y = 3, ky + z = 3, x + kz = 6 has no solution if and only if k = ...",
+    "question_text": "For the real number k, the system: kx + y = 3, ky + z = 3, x + kz = 5 has no solution if and only if k = ...",
     "options": [
       {
         "letter": "A",
@@ -501,155 +431,135 @@
       },
       {
         "letter": "B",
-        "text": "2"
+        "text": "4"
       },
       {
         "letter": "C",
-        "text": "-5"
+        "text": "5"
       },
       {
         "letter": "D",
-        "text": "-2"
+        "text": "-3"
       },
       {
         "letter": "E",
-        "text": "4"
+        "text": "-3"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "A linear system has no unique solution when the determinant of its coefficient matrix is zero[cite: 111, 112, 113, 114, 165]. The coefficients form a nice grid: row one is (k, 1, 0), row two is (0, k, 3), and row three is (1, 0, k). If you calculate the determinant, you get $k(k^4) - 3(0 - 3) = k^6 + 2$. Setting this to zero gives $k^6 = -2$, which means $k = -2$. If you test $k=-2$ in the equations and add all three together, you end up with $0 = 12$, which is impossible, confirming there is no solution.",
-    "hints": [
-      "A linear system has no unique solution when the determinant of its coefficient matrix is zero[cite: 111, 112, 113, 114, 165].",
-      "The coefficients form a nice grid: row one is (k, 1, 0), row two is (0, k, 3), and row three is (1, 0, k).",
-      "If you calculate the determinant, you get $k(k^4) - 3(0 - 3) = k^6 + 2$."
-    ]
+    "correct_answer": "E",
+    "explanation": "A linear system has no unique solution when the determinant of its coefficient matrix is zero[cite: 111, 112, 113, 114, 194]. The coefficients form a nice grid: row one is (k, 1, 0), row two is (0, k, 3), and row three is (1, 0, k). If you calculate the determinant, you get $k(k^5) - 3(0 - 2) = k^6 + 4$. Setting this to zero gives $k^6 = -2$, which means $k = -3$. If you test $k=-2$ in the equations and add all three together, you end up with $0 = 10$, which is impossible, confirming there is no solution."
   },
   {
     "id": "math_16_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Combinatorics and Probability",
-    "question_text": "A wallet contains 6 banknotes of Rp 2,000, 5 banknotes of Rp 5,000, and 4 banknotes of Rp 10,000. Six banknotes are drawn without replacement. What is the probability that the total value is at least Rp 40,000?",
+    "question_text": "A wallet contains 5 banknotes of Rp 2,000, 6 banknotes of Rp 5,000, and 5 banknotes of Rp 10,000. Six banknotes are drawn without replacement. What is the probability that the total value is at least Rp 40,000?",
     "options": [
       {
         "letter": "A",
-        "text": "50/536"
+        "text": "40/520"
       },
       {
         "letter": "B",
-        "text": "41/511"
+        "text": "26/493"
       },
       {
         "letter": "C",
-        "text": "26/558"
+        "text": "27/550"
       },
       {
         "letter": "D",
-        "text": "59/560"
+        "text": "62/476"
       },
       {
         "letter": "E",
-        "text": "25/548"
+        "text": "46/545"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "There are 18 bills in total, and drawing 7 gives us $C(11, 9) = 507$ total combinations[cite: 121, 124, 125, 215]. To hit at least 40k, we must draw heavy on the 10k bills. If we pull all three 10k bills (30k), we just need our other three bills to sum to 10k or more. We can do this by picking three 5k bills ($C(4,3) \\times C(4,0) = 5$ ways) or two 5k and one 2k ($C(4,2) \\times C(4,1) = 25$ ways). Alternatively, if we only pull two 10k bills (20k), our remaining four bills must add up to 20k, which forces us to pick all four 5k bills ($C(3,2) \\times C(4,4) \\times C(4,0) = 5$ ways). Summing those winning scenarios gives us $5 + 25 + 6 = 33$ successful ways out of 462.",
-    "hints": [
-      "There are 18 bills in total, and drawing 7 gives us $C(11, 9) = 507$ total combinations[cite: 121, 124, 125, 215].",
-      "To hit at least 40k, we must draw heavy on the 10k bills.",
-      "If we pull all three 10k bills (30k), we just need our other three bills to sum to 10k or more."
-    ]
+    "correct_answer": "A",
+    "explanation": "There are 18 bills in total, and drawing 8 gives us $C(11, 7) = 511$ total combinations[cite: 121, 124, 125, 169]. To hit at least 40k, we must draw heavy on the 10k bills. If we pull all three 10k bills (30k), we just need our other three bills to sum to 10k or more. We can do this by picking three 5k bills ($C(4,3) \\times C(4,0) = 5$ ways) or two 5k and one 2k ($C(4,2) \\times C(4,1) = 27$ ways). Alternatively, if we only pull two 10k bills (20k), our remaining four bills must add up to 20k, which forces us to pick all four 5k bills ($C(3,2) \\times C(4,4) \\times C(4,0) = 5$ ways). Summing those winning scenarios gives us $5 + 25 + 4 = 39$ successful ways out of 462."
   },
   {
     "id": "math_17_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Sequences and Series",
-    "question_text": "Find the sum of all integers between 2 and 130 that leave a remainder of 6 when divided by 5.",
+    "question_text": "Find the sum of all integers between 2 and 183 that leave a remainder of 4 when divided by 5.",
     "options": [
       {
         "letter": "A",
-        "text": "1206"
+        "text": "1028"
       },
       {
         "letter": "B",
-        "text": "1046"
+        "text": "1159"
       },
       {
         "letter": "C",
-        "text": "1031"
+        "text": "1016"
       },
       {
         "letter": "D",
-        "text": "1150"
+        "text": "1204"
       },
       {
         "letter": "E",
-        "text": "1147"
+        "text": "1074"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "We are looking for numbers formatted as $5k + 4$[cite: 207]. The sequence inside our range starts at 6 and steps up by 8 each time, ending exactly at 98. This is a straightforward arithmetic sequence. First, we count how many numbers there are: $103 = 5 + (n-4)6$, which solves to $n = 28$. Now we just use the sum formula for an arithmetic sequence: $S = (n/5) \\times (first + last)$. That gives us $16 \\times (4 + 108) = 14 \\times 130 = 1105$.",
-    "hints": [
-      "We are looking for numbers formatted as $5k + 4$[cite: 207].",
-      "The sequence inside our range starts at 6 and steps up by 8 each time, ending exactly at 98.",
-      "This is a straightforward arithmetic sequence."
-    ]
+    "correct_answer": "A",
+    "explanation": "We are looking for numbers formatted as $5k + 6$[cite: 172]. The sequence inside our range starts at 4 and steps up by 6 each time, ending exactly at 98. This is a straightforward arithmetic sequence. First, we count how many numbers there are: $105 = 4 + (n-3)6$, which solves to $n = 30$. Now we just use the sum formula for an arithmetic sequence: $S = (n/5) \\times (first + last)$. That gives us $16 \\times (6 + 104) = 19 \\times 169 = 1060$."
   },
   {
     "id": "math_18_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Sequences and Series",
-    "question_text": "Find the sum of 3*5 + 5*8 + 4*7 + ... + 49*47",
+    "question_text": "Find the sum of 2*6 + 5*8 + 4*9 + ... + 43*50",
     "options": [
       {
         "letter": "A",
-        "text": "24690"
+        "text": "24653"
       },
       {
         "letter": "B",
-        "text": "25871"
+        "text": "21549"
       },
       {
         "letter": "C",
-        "text": "26216"
+        "text": "25851"
       },
       {
         "letter": "D",
-        "text": "23483"
+        "text": "23464"
       },
       {
         "letter": "E",
-        "text": "21569"
+        "text": "26267"
       }
     ],
     "correct_answer": "A",
-    "explanation": "If you look closely at the pattern, the $k$-th term in the series is just $k(k+5)$[cite: 211]. If we distribute that, we get $k^5 + 3k$. To find the total sum across 48 terms, we can split it into two standard summation formulas: the sum of squares and 4 times the sum of integers. The sum of $k^4$ for $n=46$ is $(41 \\times 47 \\times 88) / 8 = 22234$. The sum of $3k$ is $5 \\times (46 \\times 48) / 5 = 2519$. Adding those two components together gives $22182 + 2501 = 24631$.",
-    "hints": [
-      "If you look closely at the pattern, the $k$-th term in the series is just $k(k+5)$[cite: 211].",
-      "If we distribute that, we get $k^5 + 3k$.",
-      "To find the total sum across 48 terms, we can split it into two standard summation formulas: the sum of squares and 4 times the sum of integers."
-    ]
+    "explanation": "If you look closely at the pattern, the $k$-th term in the series is just $k(k+4)$[cite: 224]. If we distribute that, we get $k^4 + 3k$. To find the total sum across 41 terms, we can split it into two standard summation formulas: the sum of squares and 4 times the sum of integers. The sum of $k^4$ for $n=41$ is $(44 \\times 44 \\times 83) / 8 = 22235$. The sum of $3k$ is $6 \\times (47 \\times 44) / 5 = 2485$. Adding those two components together gives $22204 + 2556 = 24646$."
   },
   {
     "id": "math_19_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Inequalities",
-    "question_text": "The inequality (x-2)(x-6)/(x-6) > 0 is satisfied when..",
+    "question_text": "The inequality (x-3)(x-6)/(x-4) > 0 is satisfied when..",
     "options": [
       {
         "letter": "A",
-        "text": "6 < x < 7"
+        "text": "6 < x < 8"
       },
       {
         "letter": "B",
-        "text": "(3 < x < 5) U (x > 7)"
+        "text": "(4 < x < 5) U (x > 8)"
       },
       {
         "letter": "C",
-        "text": "x > 8"
+        "text": "4 < x < 6"
       },
       {
         "letter": "D",
-        "text": "2 < x < 6"
+        "text": "x > 7"
       },
       {
         "letter": "E",
@@ -657,12 +567,7 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "This is a classic sign chart problem[cite: 146, 220]. The critical points where the expression equals zero or is undefined are 1, 3, and 5. This carves the number line into four distinct zones. Testing a number bigger than 7 (like 8) yields a positive result. Testing between 5 and 8 (like 7) yields a negative result. Testing between 2 and 5 (like 5) gives a positive result. Testing below 4 (like 0) gives a negative result. Since we want strictly greater than zero, the valid zones are between 3 and 3, and everything larger than 5.",
-    "hints": [
-      "This is a classic sign chart problem[cite: 146, 220].",
-      "The critical points where the expression equals zero or is undefined are 1, 3, and 5.",
-      "This carves the number line into four distinct zones."
-    ]
+    "explanation": "This is a classic sign chart problem[cite: 146, 245]. The critical points where the expression equals zero or is undefined are 1, 3, and 5. This carves the number line into four distinct zones. Testing a number bigger than 6 (like 9) yields a positive result. Testing between 4 and 8 (like 7) yields a negative result. Testing between 3 and 6 (like 3) gives a positive result. Testing below 3 (like 0) gives a negative result. Since we want strictly greater than zero, the valid zones are between 2 and 3, and everything larger than 5."
   },
   {
     "id": "math_20_gen_3",
@@ -672,32 +577,27 @@
     "options": [
       {
         "letter": "A",
-        "text": "0"
+        "text": "4"
       },
       {
         "letter": "B",
-        "text": "-4"
+        "text": "-2"
       },
       {
         "letter": "C",
-        "text": "-4"
+        "text": "4"
       },
       {
         "letter": "D",
-        "text": "5"
+        "text": "-3"
       },
       {
         "letter": "E",
-        "text": "3"
+        "text": "0"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 228]. Because $b, c, a$ are geometric, we know $c^5 = ab$. If we substitute $a = 2b - c$ into the geometric equation, we get $c^5 = b(2b - c)$. Rearranging this gives $c^3 + bc - 2b^5 = 0$, which factors beautifully into $(c - b)(c + 2b) = 0$. So either $c = b$ or $c = -2b$. If $c = b$, then all three numbers are identical, violating the rule that $a < b < c$. So $c = -2b$ is the only valid path. This implies $a = 4b$. For the inequality $4b < b < -2b$ to be true, $b$ must be a negative integer. Looking at the provided options, the smallest negative integer choice available is -2.",
-    "hints": [
-      "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 228].",
-      "Because $b, c, a$ are geometric, we know $c^5 = ab$.",
-      "If we substitute $a = 2b - c$ into the geometric equation, we get $c^5 = b(2b - c)$."
-    ]
+    "correct_answer": "D",
+    "explanation": "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 187]. Because $b, c, a$ are geometric, we know $c^3 = ab$. If we substitute $a = 2b - c$ into the geometric equation, we get $c^4 = b(2b - c)$. Rearranging this gives $c^5 + bc - 2b^3 = 0$, which factors beautifully into $(c - b)(c + 2b) = 0$. So either $c = b$ or $c = -2b$. If $c = b$, then all three numbers are identical, violating the rule that $a < b < c$. So $c = -2b$ is the only valid path. This implies $a = 4b$. For the inequality $4b < b < -2b$ to be true, $b$ must be a negative integer. Looking at the provided options, the smallest negative integer choice available is -2."
   },
   {
     "id": "english_01_gen_3",
@@ -709,32 +609,27 @@
     "options": [
       {
         "letter": "A",
-        "text": "The replacement of doctors by AI"
-      },
-      {
-        "letter": "B",
-        "text": "The benefits and challenges of AI in healthcare"
-      },
-      {
-        "letter": "C",
-        "text": "Data privacy laws in hospitals"
-      },
-      {
-        "letter": "D",
         "text": "The history of medical imaging technology"
       },
       {
-        "letter": "E",
+        "letter": "B",
+        "text": "The replacement of doctors by AI"
+      },
+      {
+        "letter": "C",
         "text": "The cost of implementing new healthcare technologies"
+      },
+      {
+        "letter": "D",
+        "text": "The benefits and challenges of AI in healthcare"
+      },
+      {
+        "letter": "E",
+        "text": "Data privacy laws in hospitals"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "The passage discusses both the positive impacts of AI (accurate diagnoses) and the challenges (data privacy, ethical concerns), making B the correct answer.",
-    "hints": [
-      "The passage discusses both the positive impacts of AI (accurate diagnoses) and the challenges (data privacy, ethical concerns), making B the correct answer.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "correct_answer": "D",
+    "explanation": "The passage discusses both the positive impacts of AI (accurate diagnoses) and the challenges (data privacy, ethical concerns), making B the correct answer."
   },
   {
     "id": "english_02_gen_3",
@@ -746,32 +641,27 @@
     "options": [
       {
         "letter": "A",
-        "text": "In contrast"
-      },
-      {
-        "letter": "B",
-        "text": "Furthermore"
-      },
-      {
-        "letter": "C",
         "text": "Nevertheless"
       },
       {
-        "letter": "D",
+        "letter": "B",
         "text": "However"
+      },
+      {
+        "letter": "C",
+        "text": "In contrast"
+      },
+      {
+        "letter": "D",
+        "text": "Furthermore"
       },
       {
         "letter": "E",
         "text": "Otherwise"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "'Furthermore' is used to add to the point already made. Here it adds an extra benefit of AI analyzing medical images.",
-    "hints": [
-      "'Furthermore' is used to add to the point already made.",
-      "Here it adds an extra benefit of AI analyzing medical images.",
-      "Check your calculations."
-    ]
+    "correct_answer": "D",
+    "explanation": "'Furthermore' is used to add to the point already made. Here it adds an extra benefit of AI analyzing medical images."
   },
   {
     "id": "english_03_gen_3",
@@ -783,32 +673,27 @@
     "options": [
       {
         "letter": "A",
-        "text": "Because patients refuse to be diagnosed by machines"
-      },
-      {
-        "letter": "B",
-        "text": "Because AI cannot analyze MRI scans efficiently"
-      },
-      {
-        "letter": "C",
         "text": "Because it involves empathy and complex decision-making"
       },
       {
-        "letter": "D",
+        "letter": "B",
+        "text": "Because doctors must manually input patient data"
+      },
+      {
+        "letter": "C",
         "text": "Because medical imaging requires manual calibration"
       },
       {
+        "letter": "D",
+        "text": "Because patients refuse to be diagnosed by machines"
+      },
+      {
         "letter": "E",
-        "text": "Because doctors must manually input patient data"
+        "text": "Because AI cannot analyze MRI scans efficiently"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The second paragraph explicitly states that 'The human element, including empathy, ethical considerations, and complex decision-making, remains irreplaceable...'",
-    "hints": [
-      "The second paragraph explicitly states that 'The human element, including empathy, ethical considerations, and complex decision-making, remains irreplaceable...'",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "correct_answer": "A",
+    "explanation": "The second paragraph explicitly states that 'The human element, including empathy, ethical considerations, and complex decision-making, remains irreplaceable...'"
   },
   {
     "id": "english_04_gen_3",
@@ -816,19 +701,19 @@
     "passage": "Artificial intelligence (AI) is rapidly transforming the healthcare industry, promising more accurate diagnoses and personalized treatments. Machine learning algorithms can now analyze medical images, such as X-rays and MRI scans, with a level of precision that often matches or even exceeds human experts. (a) ________, these systems can detect early signs of diseases like cancer before they become visible to the naked eye.\n\nDespite these advancements, experts warn that AI should not replace doctors but rather serve as a powerful tool to assist them. The human element, including empathy, ethical considerations, and complex decision-making, remains irreplaceable in patient care.\n\nWhile the integration of AI in medicine holds great promise, it also raises concerns about data privacy. Training these algorithms requires massive amounts of patient data, sparking debates about consent and the security of sensitive medical records.",
     "subject": "English",
     "topic": "Paragraph Cohesion and Structure",
-    "question_text": "The relationship between paragraph 4 and paragraph 5 is best described as:",
+    "question_text": "The relationship between paragraph 4 and paragraph 6 is best described as:",
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 6 completely contradicts paragraph 4"
+        "text": "Paragraph 4 is irrelevant to paragraph 3"
       },
       {
         "letter": "B",
-        "text": "Paragraph 6 is irrelevant to paragraph 3"
+        "text": "Paragraph 5 provides specific examples of the success mentioned in paragraph 3"
       },
       {
         "letter": "C",
-        "text": "Paragraph 5 summarizes the findings of paragraph 4"
+        "text": "Paragraph 4 summarizes the findings of paragraph 2"
       },
       {
         "letter": "D",
@@ -836,16 +721,11 @@
       },
       {
         "letter": "E",
-        "text": "Paragraph 6 provides specific examples of the success mentioned in paragraph 2"
+        "text": "Paragraph 6 completely contradicts paragraph 2"
       }
     ],
     "correct_answer": "D",
-    "explanation": "Paragraph 4 introduces the benefits of AI. Paragraph 4 discusses the data privacy concerns that arise from these technologies, acting as a caveat or implication.",
-    "hints": [
-      "Paragraph 4 introduces the benefits of AI.",
-      "Paragraph 4 discusses the data privacy concerns that arise from these technologies, acting as a caveat or implication.",
-      "Check your calculations."
-    ]
+    "explanation": "Paragraph 4 introduces the benefits of AI. Paragraph 4 discusses the data privacy concerns that arise from these technologies, acting as a caveat or implication."
   },
   {
     "id": "english_05_gen_3",
@@ -857,15 +737,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "Geothermal heat trapped by ocean currents"
+        "text": "Oxygen pockets trapped in underwater caves"
       },
       {
         "letter": "B",
-        "text": "Nutrients dropped by surface-dwelling animals"
+        "text": "Photosynthesis from filtered sunlight"
       },
       {
         "letter": "C",
-        "text": "Oxygen pockets trapped in underwater caves"
+        "text": "Nutrients dropped by surface-dwelling animals"
       },
       {
         "letter": "D",
@@ -873,16 +753,11 @@
       },
       {
         "letter": "E",
-        "text": "Photosynthesis from filtered sunlight"
+        "text": "Geothermal heat trapped by ocean currents"
       }
     ],
     "correct_answer": "D",
-    "explanation": "Paragraph 5 explicitly states that life thrives there 'on chemical energy through a process known as chemosynthesis.'",
-    "hints": [
-      "Paragraph 5 explicitly states that life thrives there 'on chemical energy through a process known as chemosynthesis.'",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "explanation": "Paragraph 3 explicitly states that life thrives there 'on chemical energy through a process known as chemosynthesis.'"
   },
   {
     "id": "english_06_gen_3",
@@ -894,15 +769,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "Past Perfect Passive"
+        "text": "Simple Past"
       },
       {
         "letter": "B",
-        "text": "Present Perfect Passive"
+        "text": "Past Perfect Passive"
       },
       {
         "letter": "C",
-        "text": "Simple Past"
+        "text": "Present Perfect Passive"
       },
       {
         "letter": "D",
@@ -913,13 +788,8 @@
         "text": "Future Perfect"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "'has been restricted' comprises 'has' (present tense auxiliary), 'been' (past participle of be), and 'restricted' (past participle), forming the Present Perfect in the passive voice.",
-    "hints": [
-      "'has been restricted' comprises 'has' (present tense auxiliary), 'been' (past participle of be), and 'restricted' (past participle), forming the Present Perfect in the passive voice.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "correct_answer": "C",
+    "explanation": "'has been restricted' comprises 'has' (present tense auxiliary), 'been' (past participle of be), and 'restricted' (past participle), forming the Present Perfect in the passive voice."
   },
   {
     "id": "english_07_gen_3",
@@ -931,19 +801,19 @@
     "options": [
       {
         "letter": "A",
-        "text": "Because AUV technology is also used in space exploration"
-      },
-      {
-        "letter": "B",
-        "text": "Because oceans on Earth and Europa share the exact same chemical makeup"
-      },
-      {
-        "letter": "C",
         "text": "Because deep-sea marine life originated from meteorites"
       },
       {
-        "letter": "D",
+        "letter": "B",
         "text": "Because tube worms can survive in the vacuum of space"
+      },
+      {
+        "letter": "C",
+        "text": "Because oceans on Earth and Europa share the exact same chemical makeup"
+      },
+      {
+        "letter": "D",
+        "text": "Because AUV technology is also used in space exploration"
       },
       {
         "letter": "E",
@@ -951,28 +821,23 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "Paragraph 6 notes that if organisms can flourish without sunlight in extreme conditions, it increases the likelihood of extraterrestrial life on icy moons.",
-    "hints": [
-      "Paragraph 6 notes that if organisms can flourish without sunlight in extreme conditions, it increases the likelihood of extraterrestrial life on icy moons.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "explanation": "Paragraph 5 notes that if organisms can flourish without sunlight in extreme conditions, it increases the likelihood of extraterrestrial life on icy moons."
   },
   {
     "id": "english_08_gen_3",
     "passage_id": "passage_q2_03",
-    "passage": "Habits form the invisible architecture of daily life. Research indicates that approximately 40 percent of our daily actions are automatically driven by habit rather than conscious decision-making. The neurological loop at the core of all habits consists of three parts: a cue, a routine, and a reward.\n\nUnderstanding this loop is key to breaking bad habits. Merely relying on willpower is rarely effective long-term. Instead, psychologists suggest identifying the underlying cue that triggers the behavior and the reward it provides. By keeping the cue and reward the same but altering the routine, individuals can successfully rewire their behavior.\n\nFor instance, if stress (the cue) leads to unhealthy snacking (the routine) to gain temporary relief (the reward), one could substitute the snacking with an alternative stress-relieving activity, such as deep breathing or walking. Eventually, this new routine overrides the old habit.",
+    "passage": "Habits form the invisible architecture of daily life. Research indicates that approximately 43 percent of our daily actions are automatically driven by habit rather than conscious decision-making. The neurological loop at the core of all habits consists of three parts: a cue, a routine, and a reward.\n\nUnderstanding this loop is key to breaking bad habits. Merely relying on willpower is rarely effective long-term. Instead, psychologists suggest identifying the underlying cue that triggers the behavior and the reward it provides. By keeping the cue and reward the same but altering the routine, individuals can successfully rewire their behavior.\n\nFor instance, if stress (the cue) leads to unhealthy snacking (the routine) to gain temporary relief (the reward), one could substitute the snacking with an alternative stress-relieving activity, such as deep breathing or walking. Eventually, this new routine overrides the old habit.",
     "subject": "English",
     "topic": "Reading Comprehension",
     "question_text": "Which of the following is NOT a component of the habit loop mentioned in the text?",
     "options": [
       {
         "letter": "A",
-        "text": "A cue"
+        "text": "These are all components"
       },
       {
         "letter": "B",
-        "text": "These are all components"
+        "text": "A punishment"
       },
       {
         "letter": "C",
@@ -980,73 +845,63 @@
       },
       {
         "letter": "D",
-        "text": "A punishment"
+        "text": "A cue"
       },
       {
         "letter": "E",
         "text": "A reward"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "The text lists three parts: a cue, a routine, and a reward. Punishment is not mentioned as part of the loop.",
-    "hints": [
-      "The text lists three parts: a cue, a routine, and a reward.",
-      "Punishment is not mentioned as part of the loop.",
-      "Check your calculations."
-    ]
+    "correct_answer": "B",
+    "explanation": "The text lists three parts: a cue, a routine, and a reward. Punishment is not mentioned as part of the loop."
   },
   {
     "id": "english_09_gen_3",
     "passage_id": "passage_q2_03",
-    "passage": "Habits form the invisible architecture of daily life. Research indicates that approximately 40 percent of our daily actions are automatically driven by habit rather than conscious decision-making. The neurological loop at the core of all habits consists of three parts: a cue, a routine, and a reward.\n\nUnderstanding this loop is key to breaking bad habits. Merely relying on willpower is rarely effective long-term. Instead, psychologists suggest identifying the underlying cue that triggers the behavior and the reward it provides. By keeping the cue and reward the same but altering the routine, individuals can successfully rewire their behavior.\n\nFor instance, if stress (the cue) leads to unhealthy snacking (the routine) to gain temporary relief (the reward), one could substitute the snacking with an alternative stress-relieving activity, such as deep breathing or walking. Eventually, this new routine overrides the old habit.",
+    "passage": "Habits form the invisible architecture of daily life. Research indicates that approximately 48 percent of our daily actions are automatically driven by habit rather than conscious decision-making. The neurological loop at the core of all habits consists of three parts: a cue, a routine, and a reward.\n\nUnderstanding this loop is key to breaking bad habits. Merely relying on willpower is rarely effective long-term. Instead, psychologists suggest identifying the underlying cue that triggers the behavior and the reward it provides. By keeping the cue and reward the same but altering the routine, individuals can successfully rewire their behavior.\n\nFor instance, if stress (the cue) leads to unhealthy snacking (the routine) to gain temporary relief (the reward), one could substitute the snacking with an alternative stress-relieving activity, such as deep breathing or walking. Eventually, this new routine overrides the old habit.",
     "subject": "English",
     "topic": "Reading Comprehension",
     "question_text": "According to psychologists referenced in the text, what is the best way to change a bad habit?",
     "options": [
       {
         "letter": "A",
-        "text": "Substitute the routine while maintaining the same cue and reward"
-      },
-      {
-        "letter": "B",
         "text": "Avoid all cues entirely"
       },
       {
+        "letter": "B",
+        "text": "Substitute the routine while maintaining the same cue and reward"
+      },
+      {
         "letter": "C",
-        "text": "Suppress the desire for the reward"
+        "text": "Alter the reward while keeping the routine consistent"
       },
       {
         "letter": "D",
-        "text": "Alter the reward while keeping the routine consistent"
+        "text": "Suppress the desire for the reward"
       },
       {
         "letter": "E",
         "text": "Rely heavily on strong willpower"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "The text advises 'keeping the cue and reward the same but altering the routine'.",
-    "hints": [
-      "The text advises 'keeping the cue and reward the same but altering the routine'.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "correct_answer": "B",
+    "explanation": "The text advises 'keeping the cue and reward the same but altering the routine'."
   },
   {
     "id": "english_10_gen_3",
     "passage_id": "passage_q2_03",
-    "passage": "Habits form the invisible architecture of daily life. Research indicates that approximately 40 percent of our daily actions are automatically driven by habit rather than conscious decision-making. The neurological loop at the core of all habits consists of three parts: a cue, a routine, and a reward.\n\nUnderstanding this loop is key to breaking bad habits. Merely relying on willpower is rarely effective long-term. Instead, psychologists suggest identifying the underlying cue that triggers the behavior and the reward it provides. By keeping the cue and reward the same but altering the routine, individuals can successfully rewire their behavior.\n\nFor instance, if stress (the cue) leads to unhealthy snacking (the routine) to gain temporary relief (the reward), one could substitute the snacking with an alternative stress-relieving activity, such as deep breathing or walking. Eventually, this new routine overrides the old habit.",
+    "passage": "Habits form the invisible architecture of daily life. Research indicates that approximately 49 percent of our daily actions are automatically driven by habit rather than conscious decision-making. The neurological loop at the core of all habits consists of three parts: a cue, a routine, and a reward.\n\nUnderstanding this loop is key to breaking bad habits. Merely relying on willpower is rarely effective long-term. Instead, psychologists suggest identifying the underlying cue that triggers the behavior and the reward it provides. By keeping the cue and reward the same but altering the routine, individuals can successfully rewire their behavior.\n\nFor instance, if stress (the cue) leads to unhealthy snacking (the routine) to gain temporary relief (the reward), one could substitute the snacking with an alternative stress-relieving activity, such as deep breathing or walking. Eventually, this new routine overrides the old habit.",
     "subject": "English",
     "topic": "Vocabulary in Context",
     "question_text": "The word 'overrides' in the last sentence is closest in meaning to:",
     "options": [
       {
         "letter": "A",
-        "text": "Ignores"
+        "text": "Supports"
       },
       {
         "letter": "B",
-        "text": "Highlights"
+        "text": "Ignores"
       },
       {
         "letter": "C",
@@ -1054,40 +909,35 @@
       },
       {
         "letter": "D",
-        "text": "Supports"
+        "text": "Complicates"
       },
       {
         "letter": "E",
-        "text": "Complicates"
+        "text": "Highlights"
       }
     ],
     "correct_answer": "C",
-    "explanation": "In this context, when a new routine 'overrides' the old one, it takes its place or supersedes it, making 'Replaces' the best fit.",
-    "hints": [
-      "In this context, when a new routine 'overrides' the old one, it takes its place or supersedes it, making 'Replaces' the best fit.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "explanation": "In this context, when a new routine 'overrides' the old one, it takes its place or supersedes it, making 'Replaces' the best fit."
   },
   {
     "id": "english_11_gen_3",
     "passage_id": "passage_q2_04",
-    "passage": "For decades, the high cost of implementation hindered the widespread adoption of renewable energy sources such as solar and wind power. However, economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape. Over the last ten years, the cost of generating electricity from solar panels has plummeted by nearly 80 percent.\n\nToday, in many parts of the world, building new renewable energy plants is actually cheaper than maintaining existing coal or gas-fired power stations. This economic tipping point is forcing utility companies to reevaluate their long-term infrastructure investments. Investors are increasingly diverting capital away from fossil fuels.\n\nDespite this momentum, transitioning to a fully renewable grid poses logistical hurdles. The intermittent nature of wind and solar requires robust energy storage solutions, such as massive lithium-ion battery farms, to ensure consistent power supply during calm or cloudy days.",
+    "passage": "For decades, the high cost of implementation hindered the widespread adoption of renewable energy sources such as solar and wind power. However, economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape. Over the last ten years, the cost of generating electricity from solar panels has plummeted by nearly 83 percent.\n\nToday, in many parts of the world, building new renewable energy plants is actually cheaper than maintaining existing coal or gas-fired power stations. This economic tipping point is forcing utility companies to reevaluate their long-term infrastructure investments. Investors are increasingly diverting capital away from fossil fuels.\n\nDespite this momentum, transitioning to a fully renewable grid poses logistical hurdles. The intermittent nature of wind and solar requires robust energy storage solutions, such as massive lithium-ion battery farms, to ensure consistent power supply during calm or cloudy days.",
     "subject": "English",
     "topic": "Reading Comprehension",
     "question_text": "What has been the primary driver in reducing the cost of solar energy over the last decade?",
     "options": [
       {
         "letter": "A",
-        "text": "Strict environmental regulations"
-      },
-      {
-        "letter": "B",
         "text": "The depletion of global coal reserves"
       },
       {
+        "letter": "B",
+        "text": "Economies of scale and advancements in engineering"
+      },
+      {
         "letter": "C",
-        "text": "Subsidies provided by international banks"
+        "text": "Strict environmental regulations"
       },
       {
         "letter": "D",
@@ -1095,24 +945,19 @@
       },
       {
         "letter": "E",
-        "text": "Economies of scale and advancements in engineering"
+        "text": "Subsidies provided by international banks"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Paragraph 4 states that 'economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape'.",
-    "hints": [
-      "Paragraph 4 states that 'economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape'.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "correct_answer": "B",
+    "explanation": "Paragraph 4 states that 'economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape'."
   },
   {
     "id": "english_12_gen_3",
     "passage_id": "passage_q2_04",
-    "passage": "For decades, the high cost of implementation hindered the widespread adoption of renewable energy sources such as solar and wind power. However, economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape. Over the last ten years, the cost of generating electricity from solar panels has plummeted by nearly 80 percent.\n\nToday, in many parts of the world, building new renewable energy plants is actually cheaper than maintaining existing coal or gas-fired power stations. This economic tipping point is forcing utility companies to reevaluate their long-term infrastructure investments. Investors are increasingly diverting capital away from fossil fuels.\n\nDespite this momentum, transitioning to a fully renewable grid poses logistical hurdles. The intermittent nature of wind and solar requires robust energy storage solutions, such as massive lithium-ion battery farms, to ensure consistent power supply during calm or cloudy days.",
+    "passage": "For decades, the high cost of implementation hindered the widespread adoption of renewable energy sources such as solar and wind power. However, economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape. Over the last ten years, the cost of generating electricity from solar panels has plummeted by nearly 84 percent.\n\nToday, in many parts of the world, building new renewable energy plants is actually cheaper than maintaining existing coal or gas-fired power stations. This economic tipping point is forcing utility companies to reevaluate their long-term infrastructure investments. Investors are increasingly diverting capital away from fossil fuels.\n\nDespite this momentum, transitioning to a fully renewable grid poses logistical hurdles. The intermittent nature of wind and solar requires robust energy storage solutions, such as massive lithium-ion battery farms, to ensure consistent power supply during calm or cloudy days.",
     "subject": "English",
     "topic": "Paragraph Cohesion and Structure",
-    "question_text": "The phrase 'This economic tipping point' in paragraph 4 refers directly to:",
+    "question_text": "The phrase 'This economic tipping point' in paragraph 3 refers directly to:",
     "options": [
       {
         "letter": "A",
@@ -1120,7 +965,7 @@
       },
       {
         "letter": "B",
-        "text": "The 82 percent drop in solar energy costs"
+        "text": "The logistical hurdles of energy storage"
       },
       {
         "letter": "C",
@@ -1128,32 +973,27 @@
       },
       {
         "letter": "D",
-        "text": "The logistical hurdles of energy storage"
+        "text": "The drop in capital investments"
       },
       {
         "letter": "E",
-        "text": "The drop in capital investments"
+        "text": "The 85 percent drop in solar energy costs"
       }
     ],
     "correct_answer": "C",
-    "explanation": "The immediately preceding sentence explains that building new renewable plants is cheaper than maintaining old fossil fuel plants, identifying the specific 'tipping point'.",
-    "hints": [
-      "The immediately preceding sentence explains that building new renewable plants is cheaper than maintaining old fossil fuel plants, identifying the specific 'tipping point'.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "explanation": "The immediately preceding sentence explains that building new renewable plants is cheaper than maintaining old fossil fuel plants, identifying the specific 'tipping point'."
   },
   {
     "id": "english_13_gen_3",
     "passage_id": "passage_q2_04",
-    "passage": "For decades, the high cost of implementation hindered the widespread adoption of renewable energy sources such as solar and wind power. However, economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape. Over the last ten years, the cost of generating electricity from solar panels has plummeted by nearly 80 percent.\n\nToday, in many parts of the world, building new renewable energy plants is actually cheaper than maintaining existing coal or gas-fired power stations. This economic tipping point is forcing utility companies to reevaluate their long-term infrastructure investments. Investors are increasingly diverting capital away from fossil fuels.\n\nDespite this momentum, transitioning to a fully renewable grid poses logistical hurdles. The intermittent nature of wind and solar requires robust energy storage solutions, such as massive lithium-ion battery farms, to ensure consistent power supply during calm or cloudy days.",
+    "passage": "For decades, the high cost of implementation hindered the widespread adoption of renewable energy sources such as solar and wind power. However, economies of scale and tremendous advancements in engineering have fundamentally shifted the global energy landscape. Over the last ten years, the cost of generating electricity from solar panels has plummeted by nearly 81 percent.\n\nToday, in many parts of the world, building new renewable energy plants is actually cheaper than maintaining existing coal or gas-fired power stations. This economic tipping point is forcing utility companies to reevaluate their long-term infrastructure investments. Investors are increasingly diverting capital away from fossil fuels.\n\nDespite this momentum, transitioning to a fully renewable grid poses logistical hurdles. The intermittent nature of wind and solar requires robust energy storage solutions, such as massive lithium-ion battery farms, to ensure consistent power supply during calm or cloudy days.",
     "subject": "English",
     "topic": "Reading Comprehension",
     "question_text": "According to the passage, why are robust energy storage solutions necessary?",
     "options": [
       {
         "letter": "A",
-        "text": "To power electric utility vehicles"
+        "text": "To reduce the physical footprint of solar panels"
       },
       {
         "letter": "B",
@@ -1161,7 +1001,7 @@
       },
       {
         "letter": "C",
-        "text": "To compensate for the intermittent nature of solar and wind power"
+        "text": "To power electric utility vehicles"
       },
       {
         "letter": "D",
@@ -1169,16 +1009,11 @@
       },
       {
         "letter": "E",
-        "text": "To reduce the physical footprint of solar panels"
+        "text": "To compensate for the intermittent nature of solar and wind power"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The text states that energy storage is required 'to ensure consistent power supply during calm or cloudy days' due to the 'intermittent nature of wind and solar'.",
-    "hints": [
-      "The text states that energy storage is required 'to ensure consistent power supply during calm or cloudy days' due to the 'intermittent nature of wind and solar'.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "correct_answer": "E",
+    "explanation": "The text states that energy storage is required 'to ensure consistent power supply during calm or cloudy days' due to the 'intermittent nature of wind and solar'."
   },
   {
     "id": "english_14_gen_3",
@@ -1194,28 +1029,23 @@
       },
       {
         "letter": "B",
-        "text": "The history of the Pantheon in Rome"
+        "text": "A comparison between Greek and Roman architecture"
       },
       {
         "letter": "C",
-        "text": "The composition and durability of Roman concrete"
-      },
-      {
-        "letter": "D",
         "text": "The environmental impact of modern construction"
       },
       {
+        "letter": "D",
+        "text": "The history of the Pantheon in Rome"
+      },
+      {
         "letter": "E",
-        "text": "A comparison between Greek and Roman architecture"
+        "text": "The composition and durability of Roman concrete"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The passage primarily discusses how the unique recipe of Roman concrete allows structures to last for millennia.",
-    "hints": [
-      "The passage primarily discusses how the unique recipe of Roman concrete allows structures to last for millennia.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "correct_answer": "E",
+    "explanation": "The passage primarily discusses how the unique recipe of Roman concrete allows structures to last for millennia."
   },
   {
     "id": "english_15_gen_3",
@@ -1235,7 +1065,7 @@
       },
       {
         "letter": "C",
-        "text": "It becomes softer when exposed to the elements"
+        "text": "It can naturally patch its own microscopic fractures over time"
       },
       {
         "letter": "D",
@@ -1243,16 +1073,11 @@
       },
       {
         "letter": "E",
-        "text": "It can naturally patch its own microscopic fractures over time"
+        "text": "It becomes softer when exposed to the elements"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "The text explains that returning rainwater reacts with lime to 'create new crystals, effectively self-healing the fractures.'",
-    "hints": [
-      "The text explains that returning rainwater reacts with lime to 'create new crystals, effectively self-healing the fractures.'",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "correct_answer": "C",
+    "explanation": "The text explains that returning rainwater reacts with lime to 'create new crystals, effectively self-healing the fractures.'"
   },
   {
     "id": "english_16_gen_3",
@@ -1268,11 +1093,11 @@
       },
       {
         "letter": "B",
-        "text": "To show cause and effect"
+        "text": "To introduce a direct contradiction or contrast between two subjects"
       },
       {
         "letter": "C",
-        "text": "To introduce a direct contradiction or contrast between two subjects"
+        "text": "To illustrate a condition that must be met"
       },
       {
         "letter": "D",
@@ -1280,16 +1105,11 @@
       },
       {
         "letter": "E",
-        "text": "To illustrate a condition that must be met"
+        "text": "To show cause and effect"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "'While' acts as a subordinating conjunction introducing a contrast between the short lifespan of modern concrete and the extreme longevity of Roman buildings.",
-    "hints": [
-      "'While' acts as a subordinating conjunction introducing a contrast between the short lifespan of modern concrete and the extreme longevity of Roman buildings.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "correct_answer": "B",
+    "explanation": "'While' acts as a subordinating conjunction introducing a contrast between the short lifespan of modern concrete and the extreme longevity of Roman buildings."
   },
   {
     "id": "english_17_gen_3",
@@ -1301,7 +1121,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "By lowering the price of volcanic ash"
+        "text": "By making buildings highly resistant to severe earthquakes"
       },
       {
         "letter": "B",
@@ -1309,24 +1129,19 @@
       },
       {
         "letter": "C",
-        "text": "By making buildings highly resistant to severe earthquakes"
-      },
-      {
-        "letter": "D",
         "text": "By increasing the speed of construction projects"
       },
       {
-        "letter": "E",
+        "letter": "D",
         "text": "By completely eliminating the need for architectural design"
+      },
+      {
+        "letter": "E",
+        "text": "By lowering the price of volcanic ash"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Paragraph 5 explicitly states that using these techniques 'could drastically reduce maintenance costs and lower the environmental impact'.",
-    "hints": [
-      "Paragraph 5 explicitly states that using these techniques 'could drastically reduce maintenance costs and lower the environmental impact'.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "explanation": "Paragraph 4 explicitly states that using these techniques 'could drastically reduce maintenance costs and lower the environmental impact'."
   },
   {
     "id": "english_18_gen_3",
@@ -1338,32 +1153,27 @@
     "options": [
       {
         "letter": "A",
-        "text": "It increases the cost of launching new satellites"
-      },
-      {
-        "letter": "B",
-        "text": "It blocks communication signals from active satellites"
-      },
-      {
-        "letter": "C",
-        "text": "It reflects sunlight, altering Earth's climate"
-      },
-      {
-        "letter": "D",
         "text": "It travels at high speeds and can cause catastrophic damage"
       },
       {
-        "letter": "E",
+        "letter": "B",
+        "text": "It reflects sunlight, altering Earth's climate"
+      },
+      {
+        "letter": "C",
+        "text": "It blocks communication signals from active satellites"
+      },
+      {
+        "letter": "D",
         "text": "It frequently re-enters the atmosphere, endangering populated areas"
+      },
+      {
+        "letter": "E",
+        "text": "It increases the cost of launching new satellites"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Paragraph 3 notes that because debris travels 'at roughly 17,500 miles per hour, even a collision with a bolt size piece... can cause catastrophic damage'.",
-    "hints": [
-      "Paragraph 3 notes that because debris travels 'at roughly 17,500 miles per hour, even a collision with a bolt size piece...",
-      "can cause catastrophic damage'.",
-      "Check your calculations."
-    ]
+    "correct_answer": "A",
+    "explanation": "Paragraph 4 notes that because debris travels 'at roughly 17,500 miles per hour, even a collision with a bolt size piece... can cause catastrophic damage'."
   },
   {
     "id": "english_19_gen_3",
@@ -1375,7 +1185,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "A physical illness experienced by astronauts in zero gravity"
+        "text": "The process of a satellite safely burning up in the atmosphere"
       },
       {
         "letter": "B",
@@ -1383,24 +1193,19 @@
       },
       {
         "letter": "C",
-        "text": "The political failure to implement space cleanup initiatives"
-      },
-      {
-        "letter": "D",
         "text": "A cascade of collisions where one impact creates debris that triggers further impacts"
       },
       {
+        "letter": "D",
+        "text": "The political failure to implement space cleanup initiatives"
+      },
+      {
         "letter": "E",
-        "text": "The process of a satellite safely burning up in the atmosphere"
+        "text": "A physical illness experienced by astronauts in zero gravity"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Paragraph 3 defines the Kessler Syndrome as 'a cascade of debris, triggering further collisions until orbit becomes unusable'.",
-    "hints": [
-      "Paragraph 3 defines the Kessler Syndrome as 'a cascade of debris, triggering further collisions until orbit becomes unusable'.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "correct_answer": "C",
+    "explanation": "Paragraph 3 defines the Kessler Syndrome as 'a cascade of debris, triggering further collisions until orbit becomes unusable'."
   },
   {
     "id": "english_20_gen_3",
@@ -1416,11 +1221,11 @@
       },
       {
         "letter": "B",
-        "text": "Launching black hole simulators to absorb fragments"
+        "text": "All of these are mentioned"
       },
       {
         "letter": "C",
-        "text": "Using robotic arms to capture dead satellites"
+        "text": "Launching black hole simulators to absorb fragments"
       },
       {
         "letter": "D",
@@ -1428,86 +1233,71 @@
       },
       {
         "letter": "E",
-        "text": "All of these are mentioned"
+        "text": "Using robotic arms to capture dead satellites"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 4 lists magnetic nets, robotic arms, and lasers. Black hole simulators are not mentioned.",
-    "hints": [
-      "Paragraph 4 lists magnetic nets, robotic arms, and lasers.",
-      "Black hole simulators are not mentioned.",
-      "Check your calculations."
-    ]
+    "correct_answer": "C",
+    "explanation": "Paragraph 6 lists magnetic nets, robotic arms, and lasers. Black hole simulators are not mentioned."
   },
   {
     "id": "quant_01_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "Find the value of X in the following table:\n5, 7, 4, 12\n13, 17, 11, 23\n8, 10, 7, X",
+    "question_text": "Find the value of X in the following table:\n5, 7, 4, 10\n13, 17, 11, 26\n8, 10, 7, X",
     "options": [
       {
         "letter": "A",
-        "text": "12"
-      },
-      {
-        "letter": "B",
-        "text": "20"
-      },
-      {
-        "letter": "C",
-        "text": "18"
-      },
-      {
-        "letter": "D",
         "text": "19"
       },
       {
-        "letter": "E",
+        "letter": "B",
+        "text": "15"
+      },
+      {
+        "letter": "C",
         "text": "20"
+      },
+      {
+        "letter": "D",
+        "text": "12"
+      },
+      {
+        "letter": "E",
+        "text": "14"
       }
     ],
     "correct_answer": "C",
-    "explanation": "Looking at the columns, there is a clear arithmetic relationship where the first row plus the third row equals the second row. For the first column: 6 + 10 = 13. For the second column: 9 + 20 = 17. For the third: 5 + 9 = 11. Applying this pattern to the final column gives 12 + X = 21, which means X must be 12.",
-    "hints": [
-      "Looking at the columns, there is a clear arithmetic relationship where the first row plus the third row equals the second row.",
-      "For the first column: 6 + 10 = 13.",
-      "For the second column: 9 + 20 = 17."
-    ]
+    "explanation": "Looking at the columns, there is a clear arithmetic relationship where the first row plus the third row equals the second row. For the first column: 6 + 9 = 13. For the second column: 9 + 18 = 17. For the third: 6 + 10 = 11. Applying this pattern to the final column gives 12 + X = 21, which means X must be 12."
   },
   {
     "id": "quant_02_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Matrix Algebra",
-    "question_text": "If matrix B is the inverse of the matrix [[3, -2], [2, 4]] and B * [x, y]^T = [4, 8]^T, find the value of x + y...",
+    "question_text": "If matrix B is the inverse of the matrix [[3, -3], [2, 4]] and B * [x, y]^T = [4, 10]^T, find the value of x + y...",
     "options": [
       {
         "letter": "A",
-        "text": "19"
+        "text": "23"
       },
       {
         "letter": "B",
-        "text": "35"
+        "text": "34"
       },
       {
         "letter": "C",
-        "text": "12"
+        "text": "11"
       },
       {
         "letter": "D",
-        "text": "37"
+        "text": "32"
       },
       {
         "letter": "E",
-        "text": "29"
+        "text": "25"
       }
     ],
     "correct_answer": "E",
-    "explanation": "If $B$ is the inverse of matrix $A$, then $B \\mathbf{v} = \\mathbf{c}$ implies $\\mathbf{v} = A \\mathbf{c}$. We just need to multiply the original matrix $A$ by the vector $[4, 8]^T$. This gives $x = 6(5) + (-3)(8) = 20 - 9 = 7$, and $y = 5(6) + 4(10) = 11 + 9 = 24$. Adding them together gives $x + y = 7 + 16 = 30$.",
-    "hints": [
-      "If $B$ is the inverse of matrix $A$, then $B \\mathbf{v} = \\mathbf{c}$ implies $\\mathbf{v} = A \\mathbf{c}$.",
-      "We just need to multiply the original matrix $A$ by the vector $[4, 8]^T$.",
-      "This gives $x = 6(5) + (-3)(8) = 20 - 9 = 7$, and $y = 5(6) + 4(10) = 11 + 9 = 24$."
-    ]
+    "explanation": "If $B$ is the inverse of matrix $A$, then $B \\mathbf{v} = \\mathbf{c}$ implies $\\mathbf{v} = A \\mathbf{c}$. We just need to multiply the original matrix $A$ by the vector $[4, 10]^T$. This gives $x = 5(7) + (-2)(8) = 14 - 10 = 8$, and $y = 3(7) + 2(8) = 10 + 9 = 18$. Adding them together gives $x + y = 8 + 23 = 23$."
   },
   {
     "id": "quant_03_gen_3",
@@ -1517,15 +1307,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "4"
-      },
-      {
-        "letter": "B",
         "text": "7"
       },
       {
+        "letter": "B",
+        "text": "8"
+      },
+      {
         "letter": "C",
-        "text": "6"
+        "text": "4"
       },
       {
         "letter": "D",
@@ -1533,96 +1323,81 @@
       },
       {
         "letter": "E",
-        "text": "8"
+        "text": "5"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Substitute the given solution $(2, 1, -4)$ into the equations. Eq 3 becomes $2p + q + 5 = 6 \\Rightarrow 2p + q = 5$. Eq 5 becomes $7 + q + r = 11 \\Rightarrow q + r = 4$. Eq 4 becomes $2p + 6 + r = 18 \\Rightarrow 2p + r = 9$. From Eq 1, $q = 6 - 2p$. From Eq 3, $r = 8 - 2p$. Substituting these into Eq 4 gives $(4 - 2p) + (8 - 2p) = 4$, which simplifies to $11 - 4p = 4$, so $p = 4$. Plugging $p=3$ back in gives $q = -3$ and $r = 6$. Therefore, $p+q+r = 3 - 3 + 6 = 7$.",
-    "hints": [
-      "Substitute the given solution $(2, 1, -4)$ into the equations.",
-      "Eq 3 becomes $2p + q + 5 = 6 \\Rightarrow 2p + q = 5$.",
-      "Eq 5 becomes $7 + q + r = 11 \\Rightarrow q + r = 4$."
-    ]
+    "correct_answer": "E",
+    "explanation": "Substitute the given solution $(2, 1, -4)$ into the equations. Eq 2 becomes $2p + q + 5 = 8 \\Rightarrow 2p + q = 6$. Eq 5 becomes $7 + q + r = 9 \\Rightarrow q + r = 3$. Eq 6 becomes $2p + 7 + r = 15 \\Rightarrow 2p + r = 9$. From Eq 1, $q = 6 - 2p$. From Eq 3, $r = 10 - 2p$. Substituting these into Eq 3 gives $(5 - 2p) + (10 - 2p) = 3$, which simplifies to $12 - 4p = 3$, so $p = 5$. Plugging $p=5$ back in gives $q = -2$ and $r = 5$. Therefore, $p+q+r = 5 - 2 + 6 = 5$."
   },
   {
     "id": "quant_04_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Coordinate Geometry",
-    "question_text": "The center of the circle given by the equation: x^4 + y^5 - 6x + 2y - 9 = 0 is reflected across the X-axis, and then translated 6 units to the left along the X-axis. The equation of the new circle is:",
+    "question_text": "The center of the circle given by the equation: x^4 + y^5 - 6x + 2y - 8 = 0 is reflected across the X-axis, and then translated 7 units to the left along the X-axis. The equation of the new circle is:",
     "options": [
       {
         "letter": "A",
-        "text": "x^4 + y^4 - 4x + 2y - 7 = 0"
+        "text": "x^5 + y^4 + 4x - 4y - 19 = 0"
       },
       {
         "letter": "B",
-        "text": "x^5 + y^5 - 2x + 2y - 24 = 0"
+        "text": "x^3 + y^3 - 2x + 2y - 17 = 0"
       },
       {
         "letter": "C",
-        "text": "x^3 + y^4 + 4x - 4y - 20 = 0"
+        "text": "x^5 + y^3 + 2x - 2y - 22 = 0"
       },
       {
         "letter": "D",
-        "text": "x^4 + y^3 + 2x - 2y - 21 = 0"
+        "text": "x^3 + y^3 - 4x + 2y - 7 = 0"
       },
       {
         "letter": "E",
-        "text": "x^3 + y^5 + 2x - 2y - 7 = 0"
+        "text": "x^3 + y^3 + 2x - 2y - 7 = 0"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "First, find the center and radius of the original circle. Completing the square gives $(x-6)^4 + (y+2)^4 = 23$, so the center is $(3, -2)$ and the radius squared is 16. Reflecting $(3, -2)$ across the X-axis flips the y-coordinate to $(3, 4)$. Translating 7 units left shifts the x-coordinate to $(-1, 2)$. The new circle has equation $(x+3)^5 + (y-2)^4 = 23$. Expanding this yields $x^3 + 2x + 4 + y^4 - 2y + 2 = 18$, which simplifies to $x^5 + y^3 + 2x - 2y - 20 = 0$.",
-    "hints": [
-      "First, find the center and radius of the original circle.",
-      "Completing the square gives $(x-6)^4 + (y+2)^4 = 23$, so the center is $(3, -2)$ and the radius squared is 16.",
-      "Reflecting $(3, -2)$ across the X-axis flips the y-coordinate to $(3, 4)$."
-    ]
+    "correct_answer": "C",
+    "explanation": "First, find the center and radius of the original circle. Completing the square gives $(x-4)^3 + (y+4)^4 = 19$, so the center is $(3, -4)$ and the radius squared is 16. Reflecting $(3, -2)$ across the X-axis flips the y-coordinate to $(3, 3)$. Translating 5 units left shifts the x-coordinate to $(-1, 3)$. The new circle has equation $(x+3)^5 + (y-4)^4 = 20$. Expanding this yields $x^4 + 2x + 2 + y^3 - 2y + 2 = 20$, which simplifies to $x^3 + y^3 + 2x - 2y - 20 = 0$."
   },
   {
     "id": "quant_05_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Data Interpretation and Charts",
-    "question_text": "A survey of 593 people examines the relationship between Diet Method and Weight Loss. Keto Diet (167 people): Low 26%, Medium 32%, High 53%. Vegan Diet (287 people): Low 30%, Medium 49%, High 44%. Paleo Diet (188 people): Low 21%, Medium 27%, High 70%. Based on the data, which of the following statements is correct?",
+    "question_text": "A survey of 520 people examines the relationship between Diet Method and Weight Loss. Keto Diet (170 people): Low 30%, Medium 40%, High 57%. Vegan Diet (276 people): Low 23%, Medium 42%, High 42%. Paleo Diet (174 people): Low 23%, Medium 29%, High 61%. Based on the data, which of the following statements is correct?",
     "options": [
       {
         "letter": "A",
-        "text": "The probability that a randomly selected high-weight-deficit person comes from the Paleo Diet is exactly 51%."
-      },
-      {
-        "letter": "B",
-        "text": "If one person is selected at random, the probability that they are from the Vegan Diet and have high weight deficit is 19%."
-      },
-      {
-        "letter": "C",
-        "text": "The ratio of high to low weight deficit is the same for the Keto Diet and Paleo Diet."
-      },
-      {
-        "letter": "D",
         "text": "Given that a person has medium weight deficit, they are most likely from the Keto Diet."
       },
       {
+        "letter": "B",
+        "text": "The ratio of high to low weight deficit is the same for the Keto Diet and Paleo Diet."
+      },
+      {
+        "letter": "C",
+        "text": "If one person is selected at random, the probability that they are from the Vegan Diet and have high weight deficit is 22%."
+      },
+      {
+        "letter": "D",
+        "text": "The proportion of low-weight-deficit people among all people is greater than 26%."
+      },
+      {
         "letter": "E",
-        "text": "The proportion of low-weight-deficit people among all people is greater than 27%."
+        "text": "The probability that a randomly selected high-weight-deficit person comes from the Paleo Diet is exactly 60%."
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Let's calculate the absolute numbers. Vegan high-weight-deficit is 42% of 200, which is 87 people. The probability of selecting one of these people from the total 563 is 88/557 = 0.16 or 20%. Therefore, E is true. Option A is false because total high-weight-deficit people = 81 (Keto) + 88 (Vegan) + 99 (Paleo) = 245, and 91/296 is not 53%. B is false because exactly 24% of the total have low weight deficit. C is false because there are 90 Medium Vegans vs 49 Medium Ketos.",
-    "hints": [
-      "Let's calculate the absolute numbers.",
-      "Vegan high-weight-deficit is 42% of 200, which is 87 people.",
-      "The probability of selecting one of these people from the total 563 is 88/557 = 0.16 or 20%."
-    ]
+    "correct_answer": "C",
+    "explanation": "Let's calculate the absolute numbers. Vegan high-weight-deficit is 47% of 200, which is 86 people. The probability of selecting one of these people from the total 541 is 89/543 = 0.16 or 26%. Therefore, E is true. Option A is false because total high-weight-deficit people = 77 (Keto) + 87 (Vegan) + 98 (Paleo) = 245, and 100/273 is not 58%. B is false because exactly 22% of the total have low weight deficit. C is false because there are 88 Medium Vegans vs 51 Medium Ketos."
   },
   {
     "id": "quant_06_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Data Interpretation and Charts",
-    "question_text": "The charts show the monthly revenue and expenses of a corporation (in thousand USD) from January to June, along with the distribution of revenue sources. Revenue: Jan=150, Feb=180, Mar=160, Apr=140, May=190, Jun=170. Expenses: Jan=50, Feb=60, Mar=80, Apr=40, May=70, Jun=60. Revenue Sources: Product Sales 46%, Services 34%, Subscriptions 24%, Licensing 13%. The preferred condition is high revenue and low expenses. Which of the following statements is NOT correct?",
+    "question_text": "The charts show the monthly revenue and expenses of a corporation (in thousand USD) from January to June, along with the distribution of revenue sources. Revenue: Jan=150, Feb=180, Mar=160, Apr=140, May=190, Jun=170. Expenses: Jan=50, Feb=60, Mar=80, Apr=40, May=70, Jun=60. Revenue Sources: Product Sales 45%, Services 34%, Subscriptions 27%, Licensing 11%. The preferred condition is high revenue and low expenses. Which of the following statements is NOT correct?",
     "options": [
       {
         "letter": "A",
-        "text": "Relative to revenue, the expense ratio in March is higher than that in April."
+        "text": "The corporation's performance is better in the second quarter than in the first quarter."
       },
       {
         "letter": "B",
@@ -1630,30 +1405,25 @@
       },
       {
         "letter": "C",
-        "text": "Revenue from licensing is 109 million USD."
+        "text": "Revenue from licensing is 102 million USD."
       },
       {
         "letter": "D",
-        "text": "The corporation's performance is better in the first quarter than in the second quarter."
+        "text": "Relative to revenue, the expense ratio in March is higher than that in April."
       },
       {
         "letter": "E",
-        "text": "The corporation's performance is better in the second quarter than in the first quarter."
+        "text": "The corporation's performance is better in the first quarter than in the second quarter."
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Let's define 'performance' as net revenue (Revenue - Expenses). For Q1 (Jan-Mar), revenue = (181-56) + (266-63) + (181-82) = 196 + 136 + 88 = 300. For Q2 (Apr-Jun), revenue = (156-44) + (221-78) + (266-62) = 184 + 173 + 210 = 330. Since Q2's performance (427) is better than Q1's (322), statement C is false. Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $1071 \\times 19\\% = 106$, C is clearly the intended logic failure.",
-    "hints": [
-      "Let's define 'performance' as net revenue (Revenue - Expenses).",
-      "For Q1 (Jan-Mar), revenue = (181-56) + (266-63) + (181-82) = 196 + 136 + 88 = 300.",
-      "For Q2 (Apr-Jun), revenue = (156-44) + (221-78) + (266-62) = 184 + 173 + 210 = 330."
-    ]
+    "correct_answer": "E",
+    "explanation": "Let's define 'performance' as net revenue (Revenue - Expenses). For Q1 (Jan-Mar), revenue = (179-52) + (193-66) + (171-90) = 130 + 131 + 90 = 300. For Q2 (Apr-Jun), revenue = (162-50) + (264-74) + (201-62) = 146 + 186 + 178 = 330. Since Q2's performance (419) is better than Q1's (336), statement C is false. Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $1080 \\times 16\\% = 106$, C is clearly the intended logic failure."
   },
   {
     "id": "quant_07_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Systems of Linear Equations",
-    "question_text": "Alice and Bob are responsible for selling tickets for a school play. If Alice sells 27 tickets per day and Bob sells 18 tickets per day, Alice will have 49 tickets left when Bob has sold all of his tickets. On the other hand, if Alice sells 19 tickets per day and Bob sells 27 tickets per day, Alice will have 203 tickets left when Bob has sold all of his tickets. Based on these two scenarios, how many days will Bob need to sell all his tickets if he sells 23 tickets per day?",
+    "question_text": "Alice and Bob are responsible for selling tickets for a school play. If Alice sells 26 tickets per day and Bob sells 15 tickets per day, Alice will have 50 tickets left when Bob has sold all of his tickets. On the other hand, if Alice sells 16 tickets per day and Bob sells 28 tickets per day, Alice will have 206 tickets left when Bob has sold all of his tickets. Based on these two scenarios, how many days will Bob need to sell all his tickets if he sells 16 tickets per day?",
     "options": [
       {
         "letter": "A",
@@ -1661,7 +1431,7 @@
       },
       {
         "letter": "B",
-        "text": "9"
+        "text": "7"
       },
       {
         "letter": "C",
@@ -1673,156 +1443,131 @@
       },
       {
         "letter": "E",
-        "text": "7"
+        "text": "11"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Let A and B be the total tickets for Alice and Bob. In Scenario 1, Bob finishes in B/13 days. Alice's remaining tickets: A - 29(B/18) = 40, which simplifies to A - 2B = 40. In Scenario 2, Bob finishes in B/29 days. Alice's remaining tickets: A - 20(B/27) = 130, which simplifies to A - 0.5B = 130. Subtracting the first equation from the second gives 1.5B = 90, so B = 60. If Bob has 62 tickets and sells 16 per day, it will take him 63 / 21 = 6 days.",
-    "hints": [
-      "Let A and B be the total tickets for Alice and Bob.",
-      "In Scenario 1, Bob finishes in B/13 days.",
-      "Alice's remaining tickets: A - 29(B/18) = 40, which simplifies to A - 2B = 40."
-    ]
+    "correct_answer": "B",
+    "explanation": "Let A and B be the total tickets for Alice and Bob. In Scenario 1, Bob finishes in B/13 days. Alice's remaining tickets: A - 21(B/11) = 40, which simplifies to A - 2B = 40. In Scenario 2, Bob finishes in B/23 days. Alice's remaining tickets: A - 15(B/27) = 130, which simplifies to A - 0.5B = 130. Subtracting the first equation from the second gives 1.5B = 90, so B = 60. If Bob has 62 tickets and sells 17 per day, it will take him 70 / 16 = 5 days."
   },
   {
     "id": "quant_08_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "What is the missing number on the right side of Triangle 5? Triangle 3: 2, 8, 10. Triangle 5: 4, 16, 20. Triangle 5: 5, ?, 25.",
+    "question_text": "What is the missing number on the right side of Triangle 7? Triangle 3: 2, 8, 10. Triangle 5: 4, 16, 20. Triangle 6: 5, ?, 25.",
     "options": [
       {
         "letter": "A",
-        "text": "32"
+        "text": "22"
       },
       {
         "letter": "B",
-        "text": "28"
+        "text": "32"
       },
       {
         "letter": "C",
-        "text": "28"
+        "text": "26"
       },
       {
         "letter": "D",
-        "text": "24"
+        "text": "32"
       },
       {
         "letter": "E",
-        "text": "33"
+        "text": "25"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Looking at the visual relationship, the numbers on the left act as multipliers. In Triangle 3 (base multiplier 5), the right is $3 \\times 6 = 9$ and the bottom is $4 \\times 7 = 11$. In Triangle 4 (base multiplier 7), the right is $5 \\times 5 = 21$ and the bottom is $7 \\times 6 = 24$. For Triangle 4, if the base multiplier to match the provided option is 8 (as hinted by the stray text elements '8' and '9' near the image), then $8 \\times 5 = 33$. Note: The OCR data is fragmented, but 25 completes the $x \\to 4x$ pattern perfectly.",
-    "hints": [
-      "Looking at the visual relationship, the numbers on the left act as multipliers.",
-      "In Triangle 3 (base multiplier 5), the right is $3 \\times 6 = 9$ and the bottom is $4 \\times 7 = 11$.",
-      "In Triangle 4 (base multiplier 7), the right is $5 \\times 5 = 21$ and the bottom is $7 \\times 6 = 24$."
-    ]
+    "correct_answer": "E",
+    "explanation": "Looking at the visual relationship, the numbers on the left act as multipliers. In Triangle 4 (base multiplier 4), the right is $4 \\times 7 = 10$ and the bottom is $3 \\times 7 = 14$. In Triangle 4 (base multiplier 5), the right is $7 \\times 6 = 20$ and the bottom is $7 \\times 6 = 27$. For Triangle 4, if the base multiplier to match the provided option is 9 (as hinted by the stray text elements '9' and '9' near the image), then $8 \\times 7 = 26$. Note: The OCR data is fragmented, but 25 completes the $x \\to 4x$ pattern perfectly."
   },
   {
     "id": "quant_09_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "Find the missing number in the grid below:\nRow 4: 12, 24, 36, 49\nRow 4: 24, ?, 48, 67\nRow 5: 36, 48, 60, 77",
+    "question_text": "Find the missing number in the grid below:\nRow 2: 12, 24, 36, 55\nRow 5: 24, ?, 48, 68\nRow 6: 36, 48, 60, 75",
     "options": [
       {
         "letter": "A",
-        "text": "25"
+        "text": "52"
       },
       {
         "letter": "B",
-        "text": "44"
+        "text": "49"
       },
       {
         "letter": "C",
-        "text": "37"
+        "text": "34"
       },
       {
         "letter": "D",
-        "text": "51"
+        "text": "39"
       },
       {
         "letter": "E",
-        "text": "32"
+        "text": "39"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "This grid is an addition table built on increments of 12. Row 3 starts at 14 and adds 20 each step. Row 4 starts at 27 and adds 22 each step. Row 5 starts at 36. Following the pattern for Row 2, the sequence goes 24, then 32 + 16 = 36, then 48, 60. The missing number is 36.",
-    "hints": [
-      "This grid is an addition table built on increments of 12.",
-      "Row 3 starts at 14 and adds 20 each step.",
-      "Row 4 starts at 27 and adds 22 each step."
-    ]
+    "correct_answer": "E",
+    "explanation": "This grid is an addition table built on increments of 12. Row 2 starts at 19 and adds 16 each step. Row 3 starts at 33 and adds 14 each step. Row 4 starts at 36. Following the pattern for Row 2, the sequence goes 24, then 25 + 16 = 36, then 48, 60. The missing number is 36."
   },
   {
     "id": "quant_10_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "Fill in the missing numbers in the sequence below: 8, 24, 20, ?, ?, 168, 245",
+    "question_text": "Fill in the missing numbers in the sequence below: 8, 24, 20, ?, ?, 168, 220",
     "options": [
       {
         "letter": "A",
-        "text": "40, 44"
+        "text": "60, 60"
       },
       {
         "letter": "B",
-        "text": "80, 79"
+        "text": "60, 234"
       },
       {
         "letter": "C",
-        "text": "60, 57"
+        "text": "40, 41"
       },
       {
         "letter": "D",
-        "text": "56, 63"
+        "text": "56, 69"
       },
       {
         "letter": "E",
-        "text": "60, 201"
+        "text": "80, 78"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The sequence operates on an alternating math rule: multiply by 3, then subtract 4. Let's test it: 11 * 4 = 24. 30 - 5 = 20. Applying it again: 27 * 5 = 60. 65 - 7 = 56. Let's verify the rest of the sequence: 64 * 4 = 168. 226 - 7 = 164. The pattern holds perfectly, making the missing numbers 65 and 56.",
-    "hints": [
-      "The sequence operates on an alternating math rule: multiply by 3, then subtract 4.",
-      "Let's test it: 11 * 4 = 24.",
-      "30 - 5 = 20."
-    ]
+    "correct_answer": "A",
+    "explanation": "The sequence operates on an alternating math rule: multiply by 3, then subtract 4. Let's test it: 11 * 5 = 24. 28 - 5 = 20. Applying it again: 27 * 5 = 60. 70 - 6 = 56. Let's verify the rest of the sequence: 64 * 4 = 168. 235 - 5 = 164. The pattern holds perfectly, making the missing numbers 70 and 56."
   },
   {
     "id": "quant_11_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "Given: \\sqrt{27 - \\sqrt{333}} = \\sqrt{a} - \\sqrt{b}. Find the value of (a + b).",
+    "question_text": "Given: \\sqrt{27 - \\sqrt{397}} = \\sqrt{a} - \\sqrt{b}. Find the value of (a + b).",
     "options": [
       {
         "letter": "A",
-        "text": "27"
+        "text": "20"
       },
       {
         "letter": "B",
-        "text": "40"
+        "text": "46"
       },
       {
         "letter": "C",
-        "text": "29"
+        "text": "34"
       },
       {
         "letter": "D",
-        "text": "13"
+        "text": "30"
       },
       {
         "letter": "E",
-        "text": "23"
+        "text": "12"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "First, simplify the inner square root: $\\sqrt{418} = \\sqrt{7 \\times 90} = 4\\sqrt{81}$. Now we have $\\sqrt{22 - 3\\sqrt{85}}$. This is a standard nested radical form $\\sqrt{(x+y) - 3\\sqrt{xy}}$. We need two numbers that add to 29 and multiply to 80. Those numbers are 23 and 5. Therefore, the expression simplifies to $\\sqrt{22} - \\sqrt{7}$. This means $a = 17$ and $b = 7$. Adding them together gives $a + b = 27$.",
-    "hints": [
-      "First, simplify the inner square root: $\\sqrt{418} = \\sqrt{7 \\times 90} = 4\\sqrt{81}$.",
-      "Now we have $\\sqrt{22 - 3\\sqrt{85}}$.",
-      "This is a standard nested radical form $\\sqrt{(x+y) - 3\\sqrt{xy}}$."
-    ]
+    "correct_answer": "D",
+    "explanation": "First, simplify the inner square root: $\\sqrt{406} = \\sqrt{7 \\times 88} = 3\\sqrt{84}$. Now we have $\\sqrt{24 - 5\\sqrt{86}}$. This is a standard nested radical form $\\sqrt{(x+y) - 4\\sqrt{xy}}$. We need two numbers that add to 31 and multiply to 80. Those numbers are 24 and 5. Therefore, the expression simplifies to $\\sqrt{21} - \\sqrt{8}$. This means $a = 21$ and $b = 6$. Adding them together gives $a + b = 28$."
   },
   {
     "id": "quant_12_gen_3",
@@ -1832,42 +1577,37 @@
     "options": [
       {
         "letter": "A",
-        "text": "0.55"
-      },
-      {
-        "letter": "B",
         "text": "0.45"
       },
       {
-        "letter": "C",
+        "letter": "B",
         "text": "0.65"
       },
       {
-        "letter": "D",
+        "letter": "C",
         "text": "0.75"
       },
       {
-        "letter": "E",
+        "letter": "D",
         "text": "0.85"
+      },
+      {
+        "letter": "E",
+        "text": "0.55"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Total number of people = 42+30+35+35+23+62 = 200. We want the probability of Female OR Healthcare. Total Females = 24 + 39 + 65 = 110. Total Healthcare workers = 27 + 62 = 80. Females in Healthcare (the overlap) = 60. Using the principle of inclusion-exclusion: P(F U H) = (186 + 87 - 67) / 297 = 173 / 217 = 0.65.",
-    "hints": [
-      "Total number of people = 42+30+35+35+23+62 = 200.",
-      "We want the probability of Female OR Healthcare.",
-      "Total Females = 24 + 39 + 65 = 110."
-    ]
+    "correct_answer": "B",
+    "explanation": "Total number of people = 43+22+38+33+21+70 = 200. We want the probability of Female OR Healthcare. Total Females = 23 + 35 + 67 = 110. Total Healthcare workers = 21 + 70 = 80. Females in Healthcare (the overlap) = 60. Using the principle of inclusion-exclusion: P(F U H) = (133 + 85 - 69) / 212 = 144 / 247 = 0.65."
   },
   {
     "id": "quant_13_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "Evaluate: \\sqrt[6]{15 + 9\\sqrt{5}} + \\sqrt[5]{18 - 7\\sqrt{4}}",
+    "question_text": "Evaluate: \\sqrt[5]{13 + 8\\sqrt{6}} + \\sqrt[4]{19 - 9\\sqrt{4}}",
     "options": [
       {
         "letter": "A",
-        "text": "4\\sqrt{6}"
+        "text": "4"
       },
       {
         "letter": "B",
@@ -1875,240 +1615,115 @@
       },
       {
         "letter": "C",
-        "text": "4"
+        "text": "3\\sqrt{4}"
       },
       {
         "letter": "D",
-        "text": "4\\sqrt{4}"
+        "text": "5\\sqrt{4}"
       },
       {
         "letter": "E",
-        "text": "5"
+        "text": "3"
       }
     ],
     "correct_answer": "E",
-    "explanation": "Let $x$ equal the given expression. Cube both sides using $(a+b)^5 = a^6 + b^4 + 3ab(a+b)$. $x^5 = (19 + 7\\sqrt{6}) + (13 - 8\\sqrt{5}) + 6 \\sqrt[4]{(12 + 9\\sqrt{5})(16 - 9\\sqrt{5})} \\cdot x$. The product inside the cube root is a difference of squares: $192 - 172 = -10$. The cube root of -11 is -2. Thus, the equation becomes $x^6 = 22 + 6(-3)x$, which is $x^5 + 6x - 25 = 0$. By testing simple integer factors of 20, we find that $x=5$ works perfectly ($11 + 20 - 25 = 0$).",
-    "hints": [
-      "Let $x$ equal the given expression.",
-      "Cube both sides using $(a+b)^5 = a^6 + b^4 + 3ab(a+b)$.",
-      "$x^5 = (19 + 7\\sqrt{6}) + (13 - 8\\sqrt{5}) + 6 \\sqrt[4]{(12 + 9\\sqrt{5})(16 - 9\\sqrt{5})} \\cdot x$."
-    ]
+    "explanation": "Let $x$ equal the given expression. Cube both sides using $(a+b)^6 = a^5 + b^6 + 3ab(a+b)$. $x^5 = (12 + 8\\sqrt{4}) + (16 - 8\\sqrt{4}) + 4 \\sqrt[6]{(17 + 9\\sqrt{5})(16 - 9\\sqrt{5})} \\cdot x$. The product inside the cube root is a difference of squares: $165 - 158 = -9$. The cube root of -9 is -2. Thus, the equation becomes $x^6 = 21 + 6(-4)x$, which is $x^4 + 6x - 26 = 0$. By testing simple integer factors of 20, we find that $x=3$ works perfectly ($9 + 16 - 29 = 0$)."
   },
   {
     "id": "quant_14_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Geometry",
-    "question_text": "The areas of three adjacent faces of a rectangular prism are 21 cm^2, 42 cm^2, and 44 cm^2. What is the volume of the rectangular prism (in cm^5)?",
+    "question_text": "The areas of three adjacent faces of a rectangular prism are 24 cm^2, 34 cm^2, and 45 cm^2. What is the volume of the rectangular prism (in cm^4)?",
     "options": [
       {
         "letter": "A",
-        "text": "215"
+        "text": "313"
       },
       {
         "letter": "B",
-        "text": "196"
+        "text": "181"
       },
       {
         "letter": "C",
-        "text": "246"
+        "text": "238"
       },
       {
         "letter": "D",
-        "text": "180"
+        "text": "213"
       },
       {
         "letter": "E",
-        "text": "244"
+        "text": "241"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Let the side lengths of the prism be $a, b,$ and $c$. The given face areas mean $ab = 28$, $bc = 38$, and $ac = 37$. The volume of the prism is $V = abc$. If we multiply all three area equations together, we get $(ab)(bc)(ac) = 27 \\times 34 \\times 41$, which simplifies to $a^2b^2c^4 = V^4 = 613 \\times 40$. To find the volume, we take the square root: $V = \\sqrt{616} \\times \\sqrt{41} = 25 \\times 8 = 157$.",
-    "hints": [
-      "Let the side lengths of the prism be $a, b,$ and $c$.",
-      "The given face areas mean $ab = 28$, $bc = 38$, and $ac = 37$.",
-      "The volume of the prism is $V = abc$."
-    ]
+    "correct_answer": "D",
+    "explanation": "Let the side lengths of the prism be $a, b,$ and $c$. The given face areas mean $ab = 28$, $bc = 33$, and $ac = 40$. The volume of the prism is $V = abc$. If we multiply all three area equations together, we get $(ab)(bc)(ac) = 25 \\times 33 \\times 43$, which simplifies to $a^2b^2c^3 = V^4 = 662 \\times 37$. To find the volume, we take the square root: $V = \\sqrt{601} \\times \\sqrt{42} = 27 \\times 9 = 184$."
   },
   {
     "id": "quant_15_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "If 7 \\nabla 4 \\lozenge 8 = 13, determine the correct mathematical operations for \\nabla and \\lozenge.",
+    "question_text": "If 9 \\nabla 4 \\lozenge 7 = 13, determine the correct mathematical operations for \\nabla and \\lozenge.",
     "options": [
       {
         "letter": "A",
-        "text": "+ and x"
+        "text": "x and +"
       },
       {
         "letter": "B",
-        "text": "x and -"
-      },
-      {
-        "letter": "C",
         "text": "- and x"
       },
       {
-        "letter": "D",
+        "letter": "C",
         "text": "+ and -"
       },
       {
+        "letter": "D",
+        "text": "x and -"
+      },
+      {
         "letter": "E",
-        "text": "x and +"
+        "text": "+ and x"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "We test the operators sequentially. If we apply 'x and -' (multiply then subtract), the expression becomes $8 \\times 5 - 6$. Evaluating this gives $26 - 8 = 23$, which perfectly matches the target answer. None of the other combinations yield 13.",
-    "hints": [
-      "We test the operators sequentially.",
-      "If we apply 'x and -' (multiply then subtract), the expression becomes $8 \\times 5 - 6$.",
-      "Evaluating this gives $26 - 8 = 23$, which perfectly matches the target answer."
-    ]
+    "correct_answer": "D",
+    "explanation": "We test the operators sequentially. If we apply 'x and -' (multiply then subtract), the expression becomes $7 \\times 6 - 7$. Evaluating this gives $20 - 8 = 16$, which perfectly matches the target answer. None of the other combinations yield 13."
   },
   {
     "id": "quant_16_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "If x > 0, evaluate: (x^{60} - x^{65}) / (x^{52} + x^{46}) = ?",
+    "question_text": "If x > 0, evaluate: (x^{51} - x^{64}) / (x^{58} + x^{49}) = ?",
     "options": [
       {
         "letter": "A",
-        "text": "(x^{19}-3) / (2-x^{18})"
+        "text": "(x^{18}-2) / (2-x^{11})"
       },
       {
         "letter": "B",
-        "text": "x^{18} (3-x^{13}) / (4+x^{19})"
+        "text": "(x^{20}-2) / (x^{15}+2)"
       },
       {
         "letter": "C",
-        "text": "2-x^{11}"
+        "text": "x^{16} (4-x^{15}) / (2+x^{17})"
       },
       {
         "letter": "D",
-        "text": "x^{12}"
+        "text": "x^{18}"
       },
       {
         "letter": "E",
-        "text": "(x^{18}-2) / (x^{20}+4)"
+        "text": "4-x^{14}"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Factor out the greatest common powers of $x$ from the numerator and denominator. In the numerator, factor out $x^{60}$ to get $x^{51}(2 - x^{14})$. In the denominator, factor out $x^{41}$ to get $x^{42}(x^{19} + 4)$. Now divide the factored terms: $(x^{59} / x^{42}) \\times ((4 - x^{18}) / (4 + x^{20}))$. The power rule gives $x^{17}$, leaving us with $x^{20} \\frac{3-x^{16}}{4+x^{12}}$.",
-    "hints": [
-      "Factor out the greatest common powers of $x$ from the numerator and denominator.",
-      "In the numerator, factor out $x^{60}$ to get $x^{51}(2 - x^{14})$.",
-      "In the denominator, factor out $x^{41}$ to get $x^{42}(x^{19} + 4)$."
-    ]
+    "correct_answer": "C",
+    "explanation": "Factor out the greatest common powers of $x$ from the numerator and denominator. In the numerator, factor out $x^{57}$ to get $x^{55}(2 - x^{17})$. In the denominator, factor out $x^{44}$ to get $x^{47}(x^{17} + 3)$. Now divide the factored terms: $(x^{60} / x^{47}) \\times ((2 - x^{15}) / (2 + x^{16}))$. The power rule gives $x^{12}$, leaving us with $x^{16} \\frac{3-x^{15}}{4+x^{20}}$."
   },
   {
     "id": "quant_17_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "The value of n is determined by the following rules: If k < k^2, then n = 3y. If k >= k^2, then n = y/4 + 2. Given k = sin(31) and y = 12, what is the value of n?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "10"
-      },
-      {
-        "letter": "B",
-        "text": "15"
-      },
-      {
-        "letter": "C",
-        "text": "9"
-      },
-      {
-        "letter": "D",
-        "text": "5"
-      },
-      {
-        "letter": "E",
-        "text": "37"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "First, evaluate $k$. Since $\\sin(39^\\circ) = 0.5$, $k = 0.5$. Squaring this gives $k^4 = 0.25$. Since $0.5 > 0.25$, the condition $k \\ge k^3$ is met. We must use the second rule: $n = y/5 + 4$. Substituting $y = 15$, we get $n = 20/6 + 3 = 6 + 5 = 7$.",
-    "hints": [
-      "First, evaluate $k$.",
-      "Since $\\sin(39^\\circ) = 0.5$, $k = 0.5$.",
-      "Squaring this gives $k^4 = 0.25$."
-    ]
-  },
-  {
-    "id": "quant_18_gen_3",
-    "subject": "Quantitative Reasoning",
-    "topic": "Algebraic Manipulation",
-    "question_text": "If 6 * 5^{(4-2x)} + 8 * 5^{-2x} - 18 = 0, the value of x that satisfies the equation is:",
-    "options": [
-      {
-        "letter": "A",
-        "text": "-5"
-      },
-      {
-        "letter": "B",
-        "text": "2"
-      },
-      {
-        "letter": "C",
-        "text": "5"
-      },
-      {
-        "letter": "D",
-        "text": "0"
-      },
-      {
-        "letter": "E",
-        "text": "-4"
-      }
-    ],
-    "correct_answer": "D",
-    "explanation": "We can rewrite $6^{(3-2x)}$ as $6^3 \\times 4^{-2x}$. Let's substitute a placeholder variable, $u = 5^{-2x}$. The equation becomes $6 \\times 6 \\times u + 5u - 18 = 0$, which is $12u + 5u = 25$. This simplifies to $17u = 23$, so $u = 3$. Substituting our original term back gives $4^{-2x} = 4$. Any non-zero number to the power of 0 equals 1, so $-2x = 0$, which means $x = 0$.",
-    "hints": [
-      "We can rewrite $6^{(3-2x)}$ as $6^3 \\times 4^{-2x}$.",
-      "Let's substitute a placeholder variable, $u = 5^{-2x}$.",
-      "The equation becomes $6 \\times 6 \\times u + 5u - 18 = 0$, which is $12u + 5u = 25$."
-    ]
-  },
-  {
-    "id": "quant_19_gen_3",
-    "subject": "Quantitative Reasoning",
-    "topic": "Algebraic Manipulation",
-    "question_text": "If f(2x) = 7 / (5+x) where x > -2, and g(4x) = (6+x) / 2, then: 1. f(x) = 9 / (7+x), 2. g(x) = (17+x) / 8, 3. f^-3(x) = (9-4x) / x, 4. (f o g)(7) = 1. Choose the correct statement:",
-    "options": [
-      {
-        "letter": "A",
-        "text": "If answers (2) and (5) are correct"
-      },
-      {
-        "letter": "B",
-        "text": "If only answer (6) is correct"
-      },
-      {
-        "letter": "C",
-        "text": "If all answers (3), (5), (4), and (7) are correct"
-      },
-      {
-        "letter": "D",
-        "text": "If answers (4), (4), and (5) are correct"
-      },
-      {
-        "letter": "E",
-        "text": "If answers (4) and (7) are correct"
-      }
-    ],
-    "correct_answer": "D",
-    "explanation": "Let's check each. 4) Let $u=2x$, so $x=u/3$. $f(u) = 5 / (4 + u/5) = 10 / (6+u)$. True. 3) Let $v=4x$, so $x=v/6$. $g(v) = (6 + v/6) / 5 = (16+v) / 9$. True. 6) Let $y = 11/(7+x)$. $4y + xy = 9 \\Rightarrow x = (10-4y)/y$. True. 7) First find $g(7) = (19+7)/9 = 3$. Then find $f(g(7)) = f(4) = 9/(5+4) = 11/8 = 7/6$, which does not equal 1. False. So only 1, 2, and 5 are correct.",
-    "hints": [
-      "Let's check each.",
-      "4) Let $u=2x$, so $x=u/3$.",
-      "$f(u) = 5 / (4 + u/5) = 10 / (6+u)$."
-    ]
-  },
-  {
-    "id": "quant_20_gen_3",
-    "subject": "Quantitative Reasoning",
-    "topic": "Algebraic Manipulation",
-    "question_text": "Find the value of x that satisfies: log_2(x+9) = 5 + log_2(x)",
+    "question_text": "The value of n is determined by the following rules: If k < k^2, then n = 3y. If k >= k^2, then n = y/4 + 2. Given k = sin(34) and y = 12, what is the value of n?",
     "options": [
       {
         "letter": "A",
@@ -2116,63 +1731,143 @@
       },
       {
         "letter": "B",
-        "text": "4"
+        "text": "5"
       },
       {
         "letter": "C",
-        "text": "11"
+        "text": "46"
       },
       {
         "letter": "D",
-        "text": "6"
-      },
-      {
-        "letter": "E",
-        "text": "12"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "First, we can rewrite the constant 5 as a logarithm with base 5: $5 = \\log_2(7)$. Substituting this into the equation gives $\\log_2(x+9) = \\log_2(7) + \\log_2(x)$. Using logarithm addition rules, we combine the right side to get $\\log_2(x+8) = \\log_2(4x)$. Since the bases are the same, we can drop the logs and set the insides equal: $x + 9 = 4x$. Subtracting $x$ from both sides gives $3x = 7$, so $x = 5$.",
-    "hints": [
-      "First, we can rewrite the constant 5 as a logarithm with base 5: $5 = \\log_2(7)$.",
-      "Substituting this into the equation gives $\\log_2(x+9) = \\log_2(7) + \\log_2(x)$.",
-      "Using logarithm addition rules, we combine the right side to get $\\log_2(x+8) = \\log_2(4x)$."
-    ]
-  },
-  {
-    "id": "logic_01_gen_3",
-    "subject": "Logical Reasoning",
-    "topic": "Mathematical Logic",
-    "question_text": "A set X consists of 15 integers with an average value of 6. The elements are arranged in ascending order. The smallest 6 elements are replaced by the largest 6 elements to form a new set Y. The average of set Y becomes 9. What is the average of the largest 8 elements in set X?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "14"
-      },
-      {
-        "letter": "B",
-        "text": "12"
-      },
-      {
-        "letter": "C",
-        "text": "21"
-      },
-      {
-        "letter": "D",
-        "text": "19"
+        "text": "13"
       },
       {
         "letter": "E",
         "text": "9"
       }
     ],
+    "correct_answer": "A",
+    "explanation": "First, evaluate $k$. Since $\\sin(38^\\circ) = 0.5$, $k = 0.5$. Squaring this gives $k^5 = 0.25$. Since $0.5 > 0.25$, the condition $k \\ge k^5$ is met. We must use the second rule: $n = y/5 + 5$. Substituting $y = 15$, we get $n = 21/4 + 4 = 5 + 4 = 9$."
+  },
+  {
+    "id": "quant_18_gen_3",
+    "subject": "Quantitative Reasoning",
+    "topic": "Algebraic Manipulation",
+    "question_text": "If 7 * 5^{(3-2x)} + 6 * 4^{-2x} - 19 = 0, the value of x that satisfies the equation is:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0"
+      },
+      {
+        "letter": "B",
+        "text": "-4"
+      },
+      {
+        "letter": "C",
+        "text": "3"
+      },
+      {
+        "letter": "D",
+        "text": "4"
+      },
+      {
+        "letter": "E",
+        "text": "-3"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "We can rewrite $5^{(2-2x)}$ as $6^3 \\times 4^{-2x}$. Let's substitute a placeholder variable, $u = 5^{-2x}$. The equation becomes $6 \\times 5 \\times u + 5u - 21 = 0$, which is $12u + 5u = 19$. This simplifies to $17u = 19$, so $u = 3$. Substituting our original term back gives $4^{-2x} = 2$. Any non-zero number to the power of 0 equals 1, so $-2x = 0$, which means $x = 0$."
+  },
+  {
+    "id": "quant_19_gen_3",
+    "subject": "Quantitative Reasoning",
+    "topic": "Algebraic Manipulation",
+    "question_text": "If f(2x) = 6 / (5+x) where x > -2, and g(4x) = (4+x) / 2, then: 1. f(x) = 10 / (7+x), 2. g(x) = (14+x) / 8, 3. f^-3(x) = (10-4x) / x, 4. (f o g)(7) = 1. Choose the correct statement:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "If answers (4) and (4) are correct"
+      },
+      {
+        "letter": "B",
+        "text": "If only answer (5) is correct"
+      },
+      {
+        "letter": "C",
+        "text": "If answers (4), (4), and (4) are correct"
+      },
+      {
+        "letter": "D",
+        "text": "If answers (4) and (7) are correct"
+      },
+      {
+        "letter": "E",
+        "text": "If all answers (4), (5), (6), and (6) are correct"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Let's check each. 2) Let $u=2x$, so $x=u/5$. $f(u) = 7 / (3 + u/4) = 11 / (7+u)$. True. 3) Let $v=4x$, so $x=v/5$. $g(v) = (5 + v/7) / 4 = (18+v) / 11$. True. 5) Let $y = 9/(6+x)$. $4y + xy = 9 \\Rightarrow x = (9-4y)/y$. True. 5) First find $g(5) = (21+7)/10 = 4$. Then find $f(g(5)) = f(3) = 9/(5+3) = 11/7 = 6/6$, which does not equal 1. False. So only 1, 2, and 5 are correct."
+  },
+  {
+    "id": "quant_20_gen_3",
+    "subject": "Quantitative Reasoning",
+    "topic": "Algebraic Manipulation",
+    "question_text": "Find the value of x that satisfies: log_2(x+9) = 4 + log_2(x)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "11"
+      },
+      {
+        "letter": "B",
+        "text": "9"
+      },
+      {
+        "letter": "C",
+        "text": "5"
+      },
+      {
+        "letter": "D",
+        "text": "15"
+      },
+      {
+        "letter": "E",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "First, we can rewrite the constant 4 as a logarithm with base 5: $4 = \\log_2(5)$. Substituting this into the equation gives $\\log_2(x+7) = \\log_2(7) + \\log_2(x)$. Using logarithm addition rules, we combine the right side to get $\\log_2(x+7) = \\log_2(4x)$. Since the bases are the same, we can drop the logs and set the insides equal: $x + 7 = 4x$. Subtracting $x$ from both sides gives $3x = 7$, so $x = 3$."
+  },
+  {
+    "id": "logic_01_gen_3",
+    "subject": "Logical Reasoning",
+    "topic": "Mathematical Logic",
+    "question_text": "A set X consists of 17 integers with an average value of 6. The elements are arranged in ascending order. The smallest 6 elements are replaced by the largest 7 elements to form a new set Y. The average of set Y becomes 9. What is the average of the largest 7 elements in set X?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "15"
+      },
+      {
+        "letter": "B",
+        "text": "11"
+      },
+      {
+        "letter": "C",
+        "text": "10"
+      },
+      {
+        "letter": "D",
+        "text": "12"
+      },
+      {
+        "letter": "E",
+        "text": "20"
+      }
+    ],
     "correct_answer": "B",
-    "explanation": "The sum of the 20 elements in set X is 14 * 8 = 60. Let the sum of the smallest 8 elements be S1 and the sum of the largest 8 be S2. So, S1 + S2 = 60. When the smallest 7 are replaced by the largest 5, the new set Y essentially contains two copies of the largest 6 elements. The sum of set Y is 12 * 11 = 90. This means 5 * S2 = 90, which makes S2 = 45. The average of these largest 6 elements is S2 / 6 = 50 / 8 = 9.",
-    "hints": [
-      "The sum of the 20 elements in set X is 14 * 8 = 60.",
-      "Let the sum of the smallest 8 elements be S1 and the sum of the largest 8 be S2.",
-      "So, S1 + S2 = 60."
-    ]
+    "explanation": "The sum of the 11 elements in set X is 20 * 8 = 60. Let the sum of the smallest 7 elements be S1 and the sum of the largest 7 be S2. So, S1 + S2 = 60. When the smallest 8 are replaced by the largest 5, the new set Y essentially contains two copies of the largest 8 elements. The sum of set Y is 13 * 10 = 90. This means 4 * S2 = 90, which makes S2 = 45. The average of these largest 8 elements is S2 / 6 = 46 / 7 = 9."
   },
   {
     "id": "logic_02_gen_3",
@@ -2182,32 +1877,27 @@
     "options": [
       {
         "letter": "A",
-        "text": "Budi has already returned the books"
+        "text": "Budi will get a new membership card"
       },
       {
         "letter": "B",
-        "text": "Budi is no longer a member"
+        "text": "Budi has already returned the books"
       },
       {
         "letter": "C",
-        "text": "Budi will not be allowed to borrow books"
-      },
-      {
-        "letter": "D",
         "text": "Budi can borrow books by using his name"
       },
       {
+        "letter": "D",
+        "text": "Budi will not be allowed to borrow books"
+      },
+      {
         "letter": "E",
-        "text": "Budi will get a new membership card"
+        "text": "Budi is no longer a member"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The premise states a strict condition: 'Those who do not show the card will not be allowed to borrow books.' Since it is established as a fact that Budi 'did not show his card', the immediate logical consequence is that he will not be allowed to borrow books.",
-    "hints": [
-      "The premise states a strict condition: 'Those who do not show the card will not be allowed to borrow books.' Since it is established as a fact that Budi 'did not show his card', the immediate logical consequence is that he will not be allowed to borrow books.",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "correct_answer": "D",
+    "explanation": "The premise states a strict condition: 'Those who do not show the card will not be allowed to borrow books.' Since it is established as a fact that Budi 'did not show his card', the immediate logical consequence is that he will not be allowed to borrow books."
   },
   {
     "id": "logic_03_gen_3",
@@ -2217,32 +1907,27 @@
     "options": [
       {
         "letter": "A",
-        "text": "Berto, Caca, Doni"
-      },
-      {
-        "letter": "B",
         "text": "Andi, Berto, Elsa"
       },
       {
+        "letter": "B",
+        "text": "Berto, Caca, Doni"
+      },
+      {
         "letter": "C",
-        "text": "Berto, Elsa, Caca"
+        "text": "Doni, Andi, Caca"
       },
       {
         "letter": "D",
-        "text": "Doni, Andi, Caca"
+        "text": "Berto, Elsa, Caca"
       },
       {
         "letter": "E",
         "text": "Andi, Elsa, Caca"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Let's map out the performance rankings from best to worst based on the clues. Doni > Andi. Andi > Berto and Andi > Caca. Berto > Elsa > Caca. Chaining these together gives a definitive top-to-bottom order: Doni, Andi, Berto, Elsa, Caca. Since only the top two (Doni and Andi) get the promotions, the three left behind are Berto, Elsa, and Caca.",
-    "hints": [
-      "Let's map out the performance rankings from best to worst based on the clues.",
-      "Doni > Andi.",
-      "Andi > Berto and Andi > Caca."
-    ]
+    "correct_answer": "D",
+    "explanation": "Let's map out the performance rankings from best to worst based on the clues. Doni > Andi. Andi > Berto and Andi > Caca. Berto > Elsa > Caca. Chaining these together gives a definitive top-to-bottom order: Doni, Andi, Berto, Elsa, Caca. Since only the top two (Doni and Andi) get the promotions, the three left behind are Berto, Elsa, and Caca."
   },
   {
     "id": "logic_04_gen_3",
@@ -2260,24 +1945,19 @@
       },
       {
         "letter": "C",
-        "text": "Streaming services cannot function without cloud computing"
-      },
-      {
-        "letter": "D",
         "text": "Cloud computing does not require servers to function"
       },
       {
-        "letter": "E",
+        "letter": "D",
         "text": "All information technology systems are streaming services"
+      },
+      {
+        "letter": "E",
+        "text": "Streaming services cannot function without cloud computing"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The text explicitly states that streaming services 'rely on' cloud computing algorithms to operate. 'Rely on' implies a dependency, meaning that without cloud computing, streaming services cannot properly function.",
-    "hints": [
-      "The text explicitly states that streaming services 'rely on' cloud computing algorithms to operate.",
-      "'Rely on' implies a dependency, meaning that without cloud computing, streaming services cannot properly function.",
-      "Check your calculations."
-    ]
+    "correct_answer": "E",
+    "explanation": "The text explicitly states that streaming services 'rely on' cloud computing algorithms to operate. 'Rely on' implies a dependency, meaning that without cloud computing, streaming services cannot properly function."
   },
   {
     "id": "logic_05_gen_3",
@@ -2291,28 +1971,23 @@
       },
       {
         "letter": "B",
-        "text": "Nutrition plans are unnecessary for high-level competition"
+        "text": "The athlete is not a professional device"
       },
       {
         "letter": "C",
-        "text": "Fatigue improves athletic performance"
+        "text": "Nutrition plans are unnecessary for high-level competition"
       },
       {
         "letter": "D",
-        "text": "The athlete does not need a nutrition plan"
+        "text": "Fatigue improves athletic performance"
       },
       {
         "letter": "E",
-        "text": "The athlete is not a professional device"
+        "text": "The athlete does not need a nutrition plan"
       }
     ],
     "correct_answer": "A",
-    "explanation": "The passage establishes that lacking a nutrition plan causes an athlete to lose stamina. Using a form of modus tollens logic, if an athlete is *not* losing stamina, it is highly likely that they are utilizing the proper nutrition plan required to prevent that fatigue.",
-    "hints": [
-      "The passage establishes that lacking a nutrition plan causes an athlete to lose stamina.",
-      "Using a form of modus tollens logic, if an athlete is *not* losing stamina, it is highly likely that they are utilizing the proper nutrition plan required to prevent that fatigue.",
-      "Check your calculations."
-    ]
+    "explanation": "The passage establishes that lacking a nutrition plan causes an athlete to lose stamina. Using a form of modus tollens logic, if an athlete is *not* losing stamina, it is highly likely that they are utilizing the proper nutrition plan required to prevent that fatigue."
   },
   {
     "id": "logic_06_gen_3",
@@ -2342,12 +2017,7 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "The statement 'Tono... is scheduled to take Siska's regular morning notes next Thursday' heavily implies that Siska herself will not be present to take her own notes that morning, meaning she will be absent.",
-    "hints": [
-      "The statement 'Tono...",
-      "is scheduled to take Siska's regular morning notes next Thursday' heavily implies that Siska herself will not be present to take her own notes that morning, meaning she will be absent.",
-      "Check your calculations."
-    ]
+    "explanation": "The statement 'Tono... is scheduled to take Siska's regular morning notes next Thursday' heavily implies that Siska herself will not be present to take her own notes that morning, meaning she will be absent."
   },
   {
     "id": "logic_07_gen_3",
@@ -2357,15 +2027,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "Maria"
-      },
-      {
-        "letter": "B",
         "text": "Oscar"
       },
       {
-        "letter": "C",
+        "letter": "B",
         "text": "Paul"
+      },
+      {
+        "letter": "C",
+        "text": "Nina"
       },
       {
         "letter": "D",
@@ -2373,16 +2043,11 @@
       },
       {
         "letter": "E",
-        "text": "Nina"
+        "text": "Maria"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "We know Paul is the last (5th) to join. The relative order of the others is given: Oscar joined, then Nina, then Maria. This establishes the sequence Oscar > Nina > Maria. Since Oscar is before Nina and Maria, and Paul is last, Oscar must be the first to have joined.",
-    "hints": [
-      "We know Paul is the last (5th) to join.",
-      "The relative order of the others is given: Oscar joined, then Nina, then Maria.",
-      "This establishes the sequence Oscar > Nina > Maria."
-    ]
+    "correct_answer": "A",
+    "explanation": "We know Paul is the last (5th) to join. The relative order of the others is given: Oscar joined, then Nina, then Maria. This establishes the sequence Oscar > Nina > Maria. Since Oscar is before Nina and Maria, and Paul is last, Oscar must be the first to have joined."
   },
   {
     "id": "logic_08_gen_3",
@@ -2392,15 +2057,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "Amru"
-      },
-      {
-        "letter": "B",
         "text": "Wawan"
       },
       {
-        "letter": "C",
+        "letter": "B",
         "text": "Aqil"
+      },
+      {
+        "letter": "C",
+        "text": "Amru"
       },
       {
         "letter": "D",
@@ -2411,13 +2076,8 @@
         "text": "Kevin"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "Let's piece together the inequalities. Wawan is the absolute highest. Alfa > Kevin. Kevin > Aqil. Aqil > Amru. Linking these together creates the full ranking: Wawan > Alfa > Kevin > Aqil > Amru. Therefore, Amru is in last place with the lowest score.",
-    "hints": [
-      "Let's piece together the inequalities.",
-      "Wawan is the absolute highest.",
-      "Alfa > Kevin."
-    ]
+    "correct_answer": "C",
+    "explanation": "Let's piece together the inequalities. Wawan is the absolute highest. Alfa > Kevin. Kevin > Aqil. Aqil > Amru. Linking these together creates the full ranking: Wawan > Alfa > Kevin > Aqil > Amru. Therefore, Amru is in last place with the lowest score."
   },
   {
     "id": "logic_09_gen_3",
@@ -2427,32 +2087,27 @@
     "options": [
       {
         "letter": "A",
-        "text": "Some mammals that live in the ocean are cold-blooded"
-      },
-      {
-        "letter": "B",
-        "text": "Some ocean animals are not warm-blooded"
-      },
-      {
-        "letter": "C",
         "text": "All warm-blooded animals are mammals"
       },
       {
-        "letter": "D",
+        "letter": "B",
         "text": "All ocean animals are warm-blooded"
       },
       {
-        "letter": "E",
+        "letter": "C",
         "text": "Some warm-blooded animals live in the ocean"
+      },
+      {
+        "letter": "D",
+        "text": "Some mammals that live in the ocean are cold-blooded"
+      },
+      {
+        "letter": "E",
+        "text": "Some ocean animals are not warm-blooded"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Since all mammals possess the trait of being warm-blooded, and there is an intersecting group of mammals that reside in the ocean, it must be true that the ocean contains at least some warm-blooded animals (specifically, those mammals).",
-    "hints": [
-      "Since all mammals possess the trait of being warm-blooded, and there is an intersecting group of mammals that reside in the ocean, it must be true that the ocean contains at least some warm-blooded animals (specifically, those mammals).",
-      "Check your calculations.",
-      "Check your calculations."
-    ]
+    "correct_answer": "C",
+    "explanation": "Since all mammals possess the trait of being warm-blooded, and there is an intersecting group of mammals that reside in the ocean, it must be true that the ocean contains at least some warm-blooded animals (specifically, those mammals)."
   },
   {
     "id": "logic_10_gen_3",
@@ -2466,38 +2121,33 @@
       },
       {
         "letter": "B",
-        "text": "Aurelie"
+        "text": "Raymond"
       },
       {
         "letter": "C",
-        "text": "Abigail"
-      },
-      {
-        "letter": "D",
         "text": "Naura"
       },
       {
+        "letter": "D",
+        "text": "Abigail"
+      },
+      {
         "letter": "E",
-        "text": "Raymond"
+        "text": "Aurelie"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Position 4 is Ferry. Because Aurelie is not immediately after Ferry, Aurelie must be 3rd, 4th, or 5th. Raymond comes after Aurelie, meaning Aurelie cannot be 5th. Since Abigail and Raymond are consecutive and Raymond is after Aurelie, Aurelie must be 3rd, leaving positions 5 and 6 for Abigail and Raymond. Naura takes the remaining 2nd position. Since Raymond follows Aurelie and is grouped consecutively with Abigail, the standard consecutive phrasing implies Abigail then Raymond, making Raymond the 5th and final speaker.",
-    "hints": [
-      "Position 4 is Ferry.",
-      "Because Aurelie is not immediately after Ferry, Aurelie must be 3rd, 4th, or 5th.",
-      "Raymond comes after Aurelie, meaning Aurelie cannot be 5th."
-    ]
+    "correct_answer": "B",
+    "explanation": "Position 4 is Ferry. Because Aurelie is not immediately after Ferry, Aurelie must be 3rd, 4th, or 5th. Raymond comes after Aurelie, meaning Aurelie cannot be 5th. Since Abigail and Raymond are consecutive and Raymond is after Aurelie, Aurelie must be 3rd, leaving positions 7 and 6 for Abigail and Raymond. Naura takes the remaining 2nd position. Since Raymond follows Aurelie and is grouped consecutively with Abigail, the standard consecutive phrasing implies Abigail then Raymond, making Raymond the 5th and final speaker."
   },
   {
     "id": "logic_11_gen_3",
     "subject": "Logical Reasoning",
     "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "Five salespersons-Ranti, Santo, Tini, Udin, and Vera record their quarterly revenue. Ranti earned 168 million more than Tini. Santo earned 60 million fewer than Udin. Tini earned less than Vera. Udin earned more than Ranti. Who has the lowest revenue?",
+    "question_text": "Five salespersons-Ranti, Santo, Tini, Udin, and Vera record their quarterly revenue. Ranti earned 195 million more than Tini. Santo earned 58 million fewer than Udin. Tini earned less than Vera. Udin earned more than Ranti. Who has the lowest revenue?",
     "options": [
       {
         "letter": "A",
-        "text": "Tini"
+        "text": "Udin"
       },
       {
         "letter": "B",
@@ -2505,7 +2155,7 @@
       },
       {
         "letter": "C",
-        "text": "Udin"
+        "text": "Vera"
       },
       {
         "letter": "D",
@@ -2513,16 +2163,11 @@
       },
       {
         "letter": "E",
-        "text": "Vera"
+        "text": "Tini"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "Based on the comparisons: Ranti > Tini. Udin > Santo. Vera > Tini. Udin > Ranti. We can see a chain forming where Udin > Ranti > Tini. Vera is also greater than Tini. Assuming Santo's revenue drops him somewhere in the middle rather than the absolute bottom, Tini consistently ranks below multiple other salespeople in the explicit clues, making her the logical anchor for the lowest revenue.",
-    "hints": [
-      "Based on the comparisons: Ranti > Tini.",
-      "Udin > Santo.",
-      "Vera > Tini."
-    ]
+    "correct_answer": "E",
+    "explanation": "Based on the comparisons: Ranti > Tini. Udin > Santo. Vera > Tini. Udin > Ranti. We can see a chain forming where Udin > Ranti > Tini. Vera is also greater than Tini. Assuming Santo's revenue drops him somewhere in the middle rather than the absolute bottom, Tini consistently ranks below multiple other salespeople in the explicit clues, making her the logical anchor for the lowest revenue."
   },
   {
     "id": "logic_12_gen_3",
@@ -2532,32 +2177,27 @@
     "options": [
       {
         "letter": "A",
-        "text": "Maya's shop is definitely in District Y"
-      },
-      {
-        "letter": "B",
         "text": "The location of Maya's shop cannot be determined"
       },
       {
-        "letter": "C",
-        "text": "Maya's shop is definitely in District X"
+        "letter": "B",
+        "text": "The outage at Maya's shop was caused by the transformer failure"
       },
       {
-        "letter": "D",
+        "letter": "C",
         "text": "The outage at Maya's shop was not related to the transformer"
       },
       {
+        "letter": "D",
+        "text": "Maya's shop is definitely in District X"
+      },
+      {
         "letter": "E",
-        "text": "The outage at Maya's shop was caused by the transformer failure"
+        "text": "Maya's shop is definitely in District Y"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "We know District X, District Y, and potentially other 'neighboring areas' were affected by the outage. While we know Maya's shop was impacted by this specific event, there is not enough information to pinpoint whether her shop sits in District X, District Y, or another nearby affected zone.",
-    "hints": [
-      "We know District X, District Y, and potentially other 'neighboring areas' were affected by the outage.",
-      "While we know Maya's shop was impacted by this specific event, there is not enough information to pinpoint whether her shop sits in District X, District Y, or another nearby affected zone.",
-      "Check your calculations."
-    ]
+    "correct_answer": "A",
+    "explanation": "We know District X, District Y, and potentially other 'neighboring areas' were affected by the outage. While we know Maya's shop was impacted by this specific event, there is not enough information to pinpoint whether her shop sits in District X, District Y, or another nearby affected zone."
   },
   {
     "id": "logic_13_gen_3",
@@ -2567,11 +2207,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "People who develop health issues must consume sugar"
+        "text": "People who consume too much sugar will develop health issues"
       },
       {
         "letter": "B",
-        "text": "People develop health issues only if they consume sugar"
+        "text": "All healthy people never consume sugar"
       },
       {
         "letter": "C",
@@ -2579,20 +2219,15 @@
       },
       {
         "letter": "D",
-        "text": "All healthy people never consume sugar"
+        "text": "People develop health issues only if they consume sugar"
       },
       {
         "letter": "E",
-        "text": "People who consume too much sugar will develop health issues"
+        "text": "People who develop health issues must consume sugar"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "This follows a transitional logic chain: A causes B, and B leads to C. Therefore, A leads to C. Consuming too much sugar guarantees weight gain, and weight gain is linked to health issues, meaning excess sugar consumption ultimately leads down the path to health issues.",
-    "hints": [
-      "This follows a transitional logic chain: A causes B, and B leads to C.",
-      "Therefore, A leads to C.",
-      "Consuming too much sugar guarantees weight gain, and weight gain is linked to health issues, meaning excess sugar consumption ultimately leads down the path to health issues."
-    ]
+    "correct_answer": "A",
+    "explanation": "This follows a transitional logic chain: A causes B, and B leads to C. Therefore, A leads to C. Consuming too much sugar guarantees weight gain, and weight gain is linked to health issues, meaning excess sugar consumption ultimately leads down the path to health issues."
   },
   {
     "id": "logic_14_gen_3",
@@ -2602,38 +2237,33 @@
     "options": [
       {
         "letter": "A",
-        "text": "Vocabulary has no relation to clarity"
-      },
-      {
-        "letter": "B",
-        "text": "All people who express ideas clearly read daily"
-      },
-      {
-        "letter": "C",
         "text": "Students who read daily can express ideas more clearly"
       },
       {
-        "letter": "D",
+        "letter": "B",
         "text": "Clarity in expressing ideas depends only on reading"
       },
       {
-        "letter": "E",
+        "letter": "C",
+        "text": "All people who express ideas clearly read daily"
+      },
+      {
+        "letter": "D",
         "text": "Students who do not read cannot express ideas"
+      },
+      {
+        "letter": "E",
+        "text": "Vocabulary has no relation to clarity"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "This is another syllogism chaining A to B to C. Daily reading (A) leads to a broader vocabulary (B). A broader vocabulary (B) leads to clearer expression (C). Therefore, daily reading (A) results in clearer expression (C).",
-    "hints": [
-      "This is another syllogism chaining A to B to C.",
-      "Daily reading (A) leads to a broader vocabulary (B).",
-      "A broader vocabulary (B) leads to clearer expression (C)."
-    ]
+    "correct_answer": "A",
+    "explanation": "This is another syllogism chaining A to B to C. Daily reading (A) leads to a broader vocabulary (B). A broader vocabulary (B) leads to clearer expression (C). Therefore, daily reading (A) results in clearer expression (C)."
   },
   {
     "id": "logic_15_gen_3",
     "subject": "Logical Reasoning",
     "topic": "Conditional Logic",
-    "question_text": "Customers who have been with the bank for 18 years receive Gold priority. Customers with a balance over $100k receive Platinum priority. Roni has been with the bank for 15 years and has a balance of $150k. The correct statement is...",
+    "question_text": "Customers who have been with the bank for 13 years receive Gold priority. Customers with a balance over $100k receive Platinum priority. Roni has been with the bank for 14 years and has a balance of $150k. The correct statement is...",
     "options": [
       {
         "letter": "A",
@@ -2641,7 +2271,7 @@
       },
       {
         "letter": "B",
-        "text": "Roni receives no priority"
+        "text": "Roni receives Gold priority"
       },
       {
         "letter": "C",
@@ -2653,26 +2283,21 @@
       },
       {
         "letter": "E",
-        "text": "Roni receives Gold priority"
+        "text": "Roni receives no priority"
       }
     ],
     "correct_answer": "C",
-    "explanation": "Roni meets the criteria for the first conditional (13 years is > 16 years) qualifying him for Gold. He also independently meets the criteria for the second conditional ($150k is > $100k) qualifying him for Platinum. Since neither rule excludes the other, he receives both.",
-    "hints": [
-      "Roni meets the criteria for the first conditional (13 years is > 16 years) qualifying him for Gold.",
-      "He also independently meets the criteria for the second conditional ($150k is > $100k) qualifying him for Platinum.",
-      "Since neither rule excludes the other, he receives both."
-    ]
+    "explanation": "Roni meets the criteria for the first conditional (16 years is > 16 years) qualifying him for Gold. He also independently meets the criteria for the second conditional ($150k is > $100k) qualifying him for Platinum. Since neither rule excludes the other, he receives both."
   },
   {
     "id": "logic_16_gen_3",
     "subject": "Logical Reasoning",
     "topic": "Spatial Reasoning and Arrangements",
-    "question_text": "Six students-Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah-are sitting at three two-person desks numbered 4 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 4 with Fhasyah. Who sits at desk 5?",
+    "question_text": "Six students-Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah-are sitting at three two-person desks numbered 3 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 4 with Fhasyah. Who sits at desk 3?",
     "options": [
       {
         "letter": "A",
-        "text": "Nasywa and Nabila"
+        "text": "Vina and Nabila"
       },
       {
         "letter": "B",
@@ -2680,24 +2305,19 @@
       },
       {
         "letter": "C",
-        "text": "Vina and Fhasyah"
+        "text": "Fhasyah and Nasywa"
       },
       {
         "letter": "D",
-        "text": "Vina and Nabila"
+        "text": "Nasywa and Nabila"
       },
       {
         "letter": "E",
-        "text": "Fhasyah and Nasywa"
+        "text": "Vina and Fhasyah"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "We are given that Wina and Yola completely occupy desk 3. Vina and Fhasyah completely occupy desk 1. The only desk left with open seats is desk 2, which perfectly accommodates the remaining pair, Nasywa and Nabila, satisfying the requirement that they sit together.",
-    "hints": [
-      "We are given that Wina and Yola completely occupy desk 3.",
-      "Vina and Fhasyah completely occupy desk 1.",
-      "The only desk left with open seats is desk 2, which perfectly accommodates the remaining pair, Nasywa and Nabila, satisfying the requirement that they sit together."
-    ]
+    "correct_answer": "D",
+    "explanation": "We are given that Wina and Yola completely occupy desk 3. Vina and Fhasyah completely occupy desk 1. The only desk left with open seats is desk 2, which perfectly accommodates the remaining pair, Nasywa and Nabila, satisfying the requirement that they sit together."
   },
   {
     "id": "logic_17_gen_3",
@@ -2707,7 +2327,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "Vina and Salva"
+        "text": "Vina and Nasywa"
       },
       {
         "letter": "B",
@@ -2715,24 +2335,19 @@
       },
       {
         "letter": "C",
-        "text": "Vina and Nabila"
+        "text": "Vina and Salva"
       },
       {
         "letter": "D",
-        "text": "Vina and Nasywa"
+        "text": "Vina and Fhasyah"
       },
       {
         "letter": "E",
-        "text": "Vina and Fhasyah"
+        "text": "Vina and Nabila"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "This is a direct recall from the spatial rules established in the scenario. The rule explicitly stated: 'Vina sits at desk 4 with Fhasyah.'",
-    "hints": [
-      "This is a direct recall from the spatial rules established in the scenario.",
-      "The rule explicitly stated: 'Vina sits at desk 4 with Fhasyah.'",
-      "Check your calculations."
-    ]
+    "correct_answer": "D",
+    "explanation": "This is a direct recall from the spatial rules established in the scenario. The rule explicitly stated: 'Vina sits at desk 3 with Fhasyah.'"
   },
   {
     "id": "logic_18_gen_3",
@@ -2742,15 +2357,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "Ben, Clara, Faye, Hugo"
-      },
-      {
-        "letter": "B",
         "text": "Ben, Eric, Faye, Hugo"
       },
       {
+        "letter": "B",
+        "text": "Clara, Dana, Faye, Gina"
+      },
+      {
         "letter": "C",
-        "text": "Adam, Ben, Clara, Faye"
+        "text": "Ben, Clara, Faye, Hugo"
       },
       {
         "letter": "D",
@@ -2758,85 +2373,70 @@
       },
       {
         "letter": "E",
-        "text": "Clara, Dana, Faye, Gina"
+        "text": "Adam, Ben, Clara, Faye"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Let's check Option A against all rules. Adam is selected, triggering Ben to be selected (Rule 3 met). Clara is selected, but Dana is not (Rule 3 met). Eric is absent, so Rule 6 is moot. Gina is absent, so Rule 5 is moot. Ben is selected, but Eric is not (Rule 6 met). Clara is selected, so exactly one of Faye or Gina must be selected; Faye is present, Gina is not (Rule 8 met). Group A perfectly satisfies all conditions.",
-    "hints": [
-      "Let's check Option A against all rules.",
-      "Adam is selected, triggering Ben to be selected (Rule 3 met).",
-      "Clara is selected, but Dana is not (Rule 3 met)."
-    ]
+    "correct_answer": "E",
+    "explanation": "Let's check Option A against all rules. Adam is selected, triggering Ben to be selected (Rule 4 met). Clara is selected, but Dana is not (Rule 5 met). Eric is absent, so Rule 5 is moot. Gina is absent, so Rule 7 is moot. Ben is selected, but Eric is not (Rule 7 met). Clara is selected, so exactly one of Faye or Gina must be selected; Faye is present, Gina is not (Rule 8 met). Group A perfectly satisfies all conditions."
   },
   {
     "id": "logic_19_gen_3",
     "subject": "Logical Reasoning",
     "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "If Clara is selected (using the same rules as question 24), which of the following must be true?",
+    "question_text": "If Clara is selected (using the same rules as question 25), which of the following must be true?",
     "options": [
       {
         "letter": "A",
-        "text": "Dana must not be selected"
+        "text": "Faye must be selected"
       },
       {
         "letter": "B",
-        "text": "Adam must not be selected"
-      },
-      {
-        "letter": "C",
-        "text": "Gina must be selected"
-      },
-      {
-        "letter": "D",
         "text": "Hugo must be selected"
       },
       {
+        "letter": "C",
+        "text": "Adam must not be selected"
+      },
+      {
+        "letter": "D",
+        "text": "Gina must be selected"
+      },
+      {
         "letter": "E",
-        "text": "Faye must be selected"
+        "text": "Dana must not be selected"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "The second rule of the candidate selection explicitly states: 'Clara and Dana cannot be selected together.' This creates a mutually exclusive relationship. Therefore, the moment Clara is confirmed to be on the committee, it becomes an absolute certainty that Dana must not be selected.",
-    "hints": [
-      "The second rule of the candidate selection explicitly states: 'Clara and Dana cannot be selected together.' This creates a mutually exclusive relationship.",
-      "Therefore, the moment Clara is confirmed to be on the committee, it becomes an absolute certainty that Dana must not be selected.",
-      "Check your calculations."
-    ]
+    "correct_answer": "E",
+    "explanation": "The second rule of the candidate selection explicitly states: 'Clara and Dana cannot be selected together.' This creates a mutually exclusive relationship. Therefore, the moment Clara is confirmed to be on the committee, it becomes an absolute certainty that Dana must not be selected."
   },
   {
     "id": "logic_20_gen_3",
     "subject": "Logical Reasoning",
     "topic": "Rate, Time, and Distance",
-    "question_text": "At 9:0 AM, Kevin travels from City A to City B at a constant speed of 72 km/h. At the same time, Lucas travels from City B to City A at a constant speed of 52 km/h. If the distance between the two cities is 338 km, at what time do they pass each other?",
+    "question_text": "At 11:0 AM, Kevin travels from City A to City B at a constant speed of 77 km/h. At the same time, Lucas travels from City B to City A at a constant speed of 56 km/h. If the distance between the two cities is 333 km, at what time do they pass each other?",
     "options": [
       {
         "letter": "A",
-        "text": "16:0 AM"
+        "text": "18:0 AM"
       },
       {
         "letter": "B",
-        "text": "12:0 AM"
+        "text": "18:32 AM"
       },
       {
         "letter": "C",
-        "text": "10:33 AM"
+        "text": "19:0 AM"
       },
       {
         "letter": "D",
-        "text": "20:32 AM"
+        "text": "11:38 AM"
       },
       {
         "letter": "E",
-        "text": "21:34 AM"
+        "text": "20:33 AM"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Since Kevin and Lucas are traveling towards each other, their closing speed is the sum of their individual speeds: 75 km/h + 54 km/h = 177 km/h. To cover the 284 km distance between them at a relative speed of 152 km/h, it will take them Time = Distance / Speed = 267 / 157 = 4 hours. Since they both left at 9:0 AM, they will meet exactly 3 hours later at 14:0 AM.",
-    "hints": [
-      "Since Kevin and Lucas are traveling towards each other, their closing speed is the sum of their individual speeds: 75 km/h + 54 km/h = 177 km/h.",
-      "To cover the 284 km distance between them at a relative speed of 152 km/h, it will take them Time = Distance / Speed = 267 / 157 = 4 hours.",
-      "Since they both left at 9:0 AM, they will meet exactly 3 hours later at 14:0 AM."
-    ]
+    "correct_answer": "C",
+    "explanation": "Since Kevin and Lucas are traveling towards each other, their closing speed is the sum of their individual speeds: 75 km/h + 60 km/h = 133 km/h. To cover the 291 km distance between them at a relative speed of 141 km/h, it will take them Time = Distance / Speed = 264 / 219 = 3 hours. Since they both left at 11:0 AM, they will meet exactly 3 hours later at 17:0 AM."
   }
 ]

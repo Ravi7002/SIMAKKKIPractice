@@ -175,9 +175,11 @@
     },
     {
         "id": "logic_01",
+        "passage_id": "passage_logic_01",
+        "passage": "All participants of a workshop must confirm their attendance by submitting a registration form. Those who do not submit the form will be considered absent. The organizers use the confirmed list to prepare materials and seating arrangements.",
         "subject": "Logical Reasoning",
         "topic": "Deductive Logic",
-        "question_text": "All participants of a workshop must confirm their attendance by submitting a registration form. Those who do not submit the form will be considered absent. The organizers use the confirmed list to prepare materials and seating arrangements. Rina, a participant, did not submit the registration form because she forgot. Thus, the correct conclusion is...",
+        "question_text": "Rina, a participant, did not submit the registration form because she forgot. Thus, the correct conclusion is...",
         "options": [
             {
                 "letter": "A",
@@ -204,9 +206,11 @@
     },
     {
         "id": "logic_02",
+        "passage_id": "passage_logic_02",
+        "passage": "Five students: Alex, Brian, Chloe, Diana, and Ethan are competing for three positions in a debate team. Their performance rankings are all different. Alex performs better than Brian and Chloe. Diana performs better than Alex. Ethan performs worse than Brian but better than Chloe.",
         "subject": "Logical Reasoning",
         "topic": "Linear Ordering",
-        "question_text": "Five students: Alex, Brian, Chloe, Diana, and Ethan are competing for three positions in a debate team. Their performance rankings are all different. Alex performs better than Brian and Chloe. Diana performs better than Alex. Ethan performs worse than Brian but better than Chloe. Who are the two students that will not be selected?",
+        "question_text": "Who are the two students that will not be selected?",
         "options": [
             {
                 "letter": "A",
@@ -233,9 +237,11 @@
     },
     {
         "id": "english_01",
+        "passage_id": "passage_english_01",
+        "passage": "Sarah Mitchell carefully planned her trip to Tokyo, expecting to use cash for most of her expenses. However, upon arrival, she quickly realized that many places preferred digital payments. In several instances, she had to rely on her credit card, which resulted in additional foreign transaction fees. Moreover, some smaller shops accepted only mobile payment applications, which she had not installed prior to her trip.",
         "subject": "English",
         "topic": "Reading Comprehension - Inference",
-        "question_text": "Sarah Mitchell carefully planned her trip to Tokyo, expecting to use cash for most of her expenses. However, upon arrival, she quickly realized that many places preferred digital payments. In several instances, she had to rely on her credit card, which resulted in additional foreign transaction fees. Moreover, some smaller shops accepted only mobile payment applications, which she had not installed prior to her trip. What is the best title for the text?",
+        "question_text": "What is the best title for the text?",
         "options": [
             {
                 "letter": "A",
@@ -262,6 +268,8 @@
     },
     {
         "id": "english_02",
+        "passage_id": "passage_english_01",
+        "passage": "Sarah Mitchell carefully planned her trip to Tokyo, expecting to use cash for most of her expenses. However, upon arrival, she quickly realized that many places preferred digital payments. In several instances, she had to rely on her credit card, which resulted in additional foreign transaction fees. Moreover, some smaller shops accepted only mobile payment applications, which she had not installed prior to her trip.",
         "subject": "English",
         "topic": "Grammar - Verb Tenses",
         "question_text": "In the sentence: 'she had not installed prior to her trip', the phrase 'had not installed' indicates that the action:",
