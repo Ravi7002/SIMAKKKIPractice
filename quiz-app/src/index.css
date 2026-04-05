@@ -178,20 +178,21 @@ h1, h2, h3 {
 }
 
   /* Feedback Overlay */
+  /* Feedback Overlay */
   .feedback-overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 100000;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    z-index: 999999;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     background: rgba(0, 0, 0, 0.4);
-    animation: fadeIn 0.1s ease-out;
+    pointer-events: none; /* Let clicks pass through if needed, though it's quick */
   }
   
   .feedback-image {
