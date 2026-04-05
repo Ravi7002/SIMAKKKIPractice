@@ -13,12 +13,14 @@ bases = [q1, q2]
 
 os.makedirs(os.path.join('quiz-app', 'src', 'GeneratedTryouts'), exist_ok=True)
 
-def mutate_text(text):
+def mutate_text(text, skip_numbers=False):
     if not isinstance(text, str):
         return text
     
     # Only replace standalone integers (not decimals, not inside words, not inside currency like 50.000)
     def rep_num(m):
+        if skip_numbers:
+            return m.group(0)
         # Skip if preceded or followed by . or , (decimal/thousands separator)
         start = m.start()
         end = m.end()
@@ -32,7 +34,8 @@ def mutate_text(text):
         if n < 100: return str(n + random.randint(1, 10))
         return str(n + random.randint(10, 100))
     
-    text = re.sub(r'(?<![.,])\b(\d+)\b(?![.,])', lambda m: rep_num(m), text)
+    if not skip_numbers:
+        text = re.sub(r'(?<![.,])\b(\d+)\b(?![.,])', lambda m: rep_num(m), text)
     
     # Safe whole-word-only swaps - only multi-character words to avoid corrupting text
     swaps = {
@@ -47,7 +50,7 @@ def mutate_text(text):
     
     return text
 
-for i in range(1, 6):
+for i in range(1, 21):
     raw_base = copy.deepcopy(bases[i % 2])
     base = []
     for item in raw_base:
@@ -63,16 +66,19 @@ for i in range(1, 6):
 
     for q in base:
         q['id'] = f"{q.get('id', 'q')}_gen_{i}"
-        q['question_text'] = mutate_text(q.get('question_text', ''))
+        subject = str(q.get('subject', '')).lower()
+        skip_nums = 'english' in subject or 'logical' in subject
+        
+        q['question_text'] = mutate_text(q.get('question_text', ''), skip_nums)
         
         if 'passage' in q:
-            q['passage'] = mutate_text(q.get('passage', ''))
+            q['passage'] = mutate_text(q.get('passage', ''), skip_nums)
         
         for opt in q.get('options', []):
-            opt['text'] = mutate_text(opt.get('text', ''))
+            opt['text'] = mutate_text(opt.get('text', ''), skip_nums)
             
         if 'explanation' in q:
-            q['explanation'] = mutate_text(q['explanation'])
+            q['explanation'] = mutate_text(q['explanation'], skip_nums)
             
         if 'chart' in q:
             # Also mutate chart data slightly if possible
@@ -101,4 +107,4 @@ for i in range(1, 6):
     with open(f'quiz-app/src/GeneratedTryouts/tryout_{i}.json', 'w', encoding='utf-8') as f:
         json.dump(base, f, indent=2, ensure_ascii=False)
 
-print("Generated 5 tryouts.")
+print("Generated 20 tryouts.")
