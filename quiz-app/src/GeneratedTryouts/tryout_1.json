@@ -600,703 +600,722 @@
     "explanation": "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 154]. Because $b, c, a$ are geometric, we know $c^2 = ab$. If we substitute $a = 2b - c$ into the geometric equation, we get $c^2 = b(2b - c)$. Rearranging this gives $c^2 + bc - 2b^2 = 0$, which factors beautifully into $(c - b)(c + 2b) = 0$. So either $c = b$ or $c = -2b$. If $c = b$, then all three numbers are identical, violating the rule that $a < b < c$. So $c = -2b$ is the only valid path. This implies $a = 4b$. For the inequality $4b < b < -2b$ to be true, $b$ must be a negative integer. Looking at the provided options, the smallest negative integer choice available is -2."
   },
   {
-    "id": "ep02_q3_gen_1",
     "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 3 and paragraph 4?",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): 'International space agencies are now (a) ________ missions...'",
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 4 extends the list of engineering solutions in paragraph 4"
+        "text": "launched"
       },
       {
         "letter": "B",
-        "text": "Paragraph 5 critiques the solutions in paragraph 3 as insufficient on their own"
+        "text": "launching"
       },
       {
         "letter": "C",
-        "text": "Paragraph 4 explains why the cities in paragraph 4 were built"
+        "text": "launch"
       },
       {
         "letter": "D",
-        "text": "Paragraph 5 contradicts the statistics mentioned in paragraph 3"
+        "text": "has launched"
       },
       {
         "letter": "E",
-        "text": "Paragraph 5 introduces flooding problems not mentioned in paragraph 3"
+        "text": "to launch"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Paragraph 2 describes adaptation measures (sea walls, relocation). Paragraph 3 then argues these are insufficient without global emission reductions — a critique of the solutions in paragraph 2.",
-    "passage": "Rising sea levels driven by climate change pose an existential threat to major coastal cities worldwide. Projections indicate that by 2113 roughly 808 million people could live in zones at severe risk of flooding. Governments and urban planners are therefore working urgently to adapt infrastructure before the situation becomes unmanageable.\n\nSeveral cities have (a) ________ innovative strategies to reduce their flood risk. Rotterdam has built water plazas that serve as public spaces in dry weather and flood reservoirs when needed. Jakarta is accelerating plans to relocate its national capital to higher inland ground, recognizing that engineering alone cannot save the sinking city. Meanwhile, elevated highways and reinforced sea walls are being constructed across vulnerable coastlines.\n\nCritics argue, however, that these engineering responses treat symptoms rather than root causes. Without aggressive global reductions in greenhouse gas emissions, sea-level rise may eventually overwhelm even the most ambitious flood-control projects. Experts therefore advocate combining local adaptation with decisive international climate policy — only this dual approach can ensure cities remain livable for future generations.",
-    "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
-    ]
-  },
-  {
-    "id": "ep06_q3_gen_1",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 3 and paragraph 5?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 5 provides more economic benefits to complement paragraph 4"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 4 presents the challenges that must be addressed alongside the benefits in paragraph 3"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 4 contradicts the energy pricing data in paragraph 3"
-      },
-      {
-        "letter": "D",
-        "text": "Paragraph 5 repeats the same ideas as paragraph 4"
-      },
-      {
-        "letter": "E",
-        "text": "Paragraph 4 focuses on a different country than paragraph 4"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 2 highlights benefits (jobs, energy independence). Paragraph 3 introduces the real challenges (grid reliability, storage, community disruption) — a benefit-challenge relationship.",
-    "passage": "The global transition from fossil fuels to renewable energy sources represents one of the most sweeping economic and technological shifts of our era. Solar and wind power have achieved price parity with — and in many regions now undercut — conventional electricity generation. Governments worldwide are setting ambitious targets: several major economies have pledged to reach net-zero carbon emissions by 2050.\n\nThe benefits extend beyond reducing pollution. Renewable energy projects create substantial local employment, particularly in manufacturing, installation, and maintenance. Countries that previously depended on costly fuel imports can (a) ________ energy independence by harnessing domestic solar or wind resources, strengthening both economic resilience and national security.\n\nNevertheless, the transition poses genuine challenges. Renewable sources are inherently variable — the sun does not always shine and the wind does not always blow — creating reliability concerns for energy grids. Massive investment in battery storage, smart grids, and intercontinental transmission lines will be required. Communities reliant on coal mining and fossil-fuel industries also face painful economic disruption unless robust retraining and support programs accompany the energy shift.",
-    "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
-    ]
-  },
-  {
-    "id": "ep01_q3_gen_1",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 4 and paragraph 5?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 4 gives additional examples supporting paragraph 3"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 4 presents the risks that counterbalance the benefits in paragraph 4"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 4 contradicts every claim made in paragraph 3"
-      },
-      {
-        "letter": "D",
-        "text": "Paragraph 4 introduces an entirely unrelated topic"
-      },
-      {
-        "letter": "E",
-        "text": "Paragraph 4 is a summary of paragraph 3"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 2 highlights positive applications (early detection, readmission prediction). Paragraph 3 then introduces downsides—bias and accountability gaps—creating a benefit-vs-risk contrast.",
-    "passage": "Artificial intelligence (AI) is increasingly being integrated into modern healthcare. Researchers now use AI algorithms to analyze medical imaging data, enabling faster and more accurate diagnoses of conditions such as cancer and cardiovascular disease. Pharmaceutical companies are also leveraging AI to (a) ________ the drug discovery process, significantly reducing the time needed to bring new treatments to market.\n\nOne celebrated application is early cancer detection, where AI systems trained on thousands of scans have identified tumors that human radiologists occasionally miss. Predictive analytics can also forecast which patients are at high risk of hospital readmission, allowing doctors to intervene before problems escalate. These capabilities are fundamentally transforming clinical decision-making and patient care.\n\nDespite its promise, AI in healthcare carries significant risks. Many training datasets do not represent diverse populations, producing biased predictions that can harm underrepresented groups. Accountability also remains unresolved: when an AI system errs critically, it is unclear who bears legal responsibility. Experts therefore argue that human oversight must remain central to any AI-assisted medical decision.",
-    "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
-    ]
-  },
-  {
-    "id": "ep05_q4_gen_1",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "According to paragraph 3, which of the following is a consequence of insufficient sleep?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Faster memory consolidation"
-      },
-      {
-        "letter": "B",
-        "text": "Reduced rates of cardiovascular disease"
-      },
-      {
-        "letter": "C",
-        "text": "Economic costs through lower productivity"
-      },
-      {
-        "letter": "D",
-        "text": "Improved immune function"
-      },
-      {
-        "letter": "E",
-        "text": "Increased workplace efficiency"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Paragraph 3 explicitly states that sleep deprivation 'costs countries billions of dollars annually through reduced productivity and heightened healthcare demands.'",
-    "passage": "Modern research has revealed that sleep is far more than a passive state of rest — it is a complex, active process essential to physical and cognitive health. During deep sleep, the brain clears metabolic waste through a system known as the glymphatic network, reducing the risk of neurodegenerative diseases. Simultaneously, the body repairs tissue, consolidates memories, and regulates hormones that control appetite and stress.\n\nDespite this evidence, chronic sleep deprivation has become a public health crisis in many industrialized nations. Adults are recommended to sleep between seven and nine hours per night, yet surveys consistently show that large proportions of the working population sleep fewer than six hours. Shift work, screen exposure before bedtime, and high-stress workplaces all (a) ________ to this widespread deficit.\n\nThe consequences extend beyond personal fatigue. Studies link insufficient sleep to increased rates of cardiovascular disease, obesity, and impaired immune function. Economically, sleep deprivation costs countries billions of dollars annually through reduced productivity and heightened healthcare demands. Public health authorities are now calling for workplace policies that treat adequate sleep as a genuine occupational health priority.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep03_q1_gen_1",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "Which of the following best expresses the main idea of the passage?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Social media is the sole cause of teenage depression"
-      },
-      {
-        "letter": "B",
-        "text": "Platforms have successfully resolved mental health concerns"
-      },
-      {
-        "letter": "C",
-        "text": "Addressing social media's mental health impact requires action from multiple parties"
-      },
-      {
-        "letter": "D",
-        "text": "Teenagers should be banned from using all social media"
-      },
-      {
-        "letter": "E",
-        "text": "Digital literacy programs are ineffective"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Paragraph 3 explicitly states that protecting mental health 'requires cooperation among individuals, platforms, and governments,' which is the central thesis across all three paragraphs.",
-    "passage": "The widespread use of social media platforms has sparked growing concern among psychologists and public health researchers. Studies increasingly link excessive social media use to elevated rates of anxiety, depression, and loneliness, particularly among teenagers. While correlation does not confirm causation, the volume and consistency of these findings have prompted serious calls for policy action.\n\nPlatforms themselves have been slow to act, often citing user autonomy and the complexity of moderating vast amounts of content. However, some companies have introduced features such as screen-time reminders, comment filters, and restrictions on recommending certain content to minors. Critics argue these measures are superficial and that the core business model — which rewards engagement above all else — remains unchanged.\n\nExperts propose a multi-pronged response. Parents and schools are encouraged to teach digital literacy, helping young people critically evaluate what they consume online. Regulators in several countries are exploring legislation that would impose stricter transparency requirements on algorithmic recommendation systems. The consensus is that protecting mental health in the digital age requires cooperation among individuals, platforms, and governments.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep04_q3_gen_1",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 4 and paragraph 4?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 4 provides the historical background for paragraph 4"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 5 presents the drawbacks that contrast with the benefits described in paragraph 4"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 5 gives more examples of the flexibility mentioned in paragraph 3"
-      },
-      {
-        "letter": "D",
-        "text": "Paragraph 5 introduces a completely different subject"
-      },
-      {
-        "letter": "E",
-        "text": "Paragraph 5 is a restatement of paragraph 3 in simpler terms"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 2 describes the advantages (flexibility, low overhead). Paragraph 3 then pivots to the downsides (no benefits, income instability) — a classic benefit-vs-drawback contrast.",
-    "passage": "The gig economy — characterized by short-term contracts and freelance work rather than permanent employment — has grown dramatically over the past decade. Platforms such as ride-sharing apps, delivery services, and freelance marketplaces have made it easier than ever to (a) ________ work on a flexible, project-by-project basis. Today, an estimated 27 percent of workers in many developed countries derive at least part of their income from gig work.\n\nProponents argue the gig model offers workers unprecedented flexibility and freedom. Individuals can set their own hours, work from multiple platforms simultaneously, and pursue passion projects alongside income-generating tasks. For businesses, the model lowers overhead costs and allows rapid scaling of workforce in response to demand fluctuations.\n\nCritics, however, highlight serious structural problems. Gig workers are typically classified as independent contractors, denying them access to benefits such as health insurance, paid leave, and retirement savings plans. Income volatility also makes financial planning difficult, particularly for those who rely solely on gig earnings. Several governments are now debating legislation to reclassify gig workers and mandate (b) ________ protections.",
-    "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
-    ]
-  },
-  {
-    "id": "ep05_q2_gen_1",
-    "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): 'Shift work, screen exposure...and high-stress workplaces all (a) ________ to this widespread deficit.'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "contributes"
-      },
-      {
-        "letter": "B",
-        "text": "contribute"
-      },
-      {
-        "letter": "C",
-        "text": "contributed"
-      },
-      {
-        "letter": "D",
-        "text": "contributing"
-      },
-      {
-        "letter": "E",
-        "text": "has contributed"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The subject is plural ('Shift work, screen exposure, and high-stress workplaces all...'), requiring the plural verb form 'contribute' without the -s ending.",
-    "passage": "Modern research has revealed that sleep is far more than a passive state of rest — it is a complex, active process essential to physical and cognitive health. During deep sleep, the brain clears metabolic waste through a system known as the glymphatic network, reducing the risk of neurodegenerative diseases. Simultaneously, the body repairs tissue, consolidates memories, and regulates hormones that control appetite and stress.\n\nDespite this evidence, chronic sleep deprivation has become a public health crisis in many industrialized nations. Adults are recommended to sleep between seven and nine hours per night, yet surveys consistently show that large proportions of the working population sleep fewer than six hours. Shift work, screen exposure before bedtime, and high-stress workplaces all (a) ________ to this widespread deficit.\n\nThe consequences extend beyond personal fatigue. Studies link insufficient sleep to increased rates of cardiovascular disease, obesity, and impaired immune function. Economically, sleep deprivation costs countries billions of dollars annually through reduced productivity and heightened healthcare demands. Public health authorities are now calling for workplace policies that treat adequate sleep as a genuine occupational health priority.",
+    "explanation": "The present continuous 'are now launching' describes an action currently in progress.",
+    "passage": "Orbiting the Earth is a growing cloud of space debris, ranging from defunct satellites to tiny paint flecks. This 'space junk' travels at speeds up to 28,000 kilometers per hour, making even small pieces dangerous to active spacecraft. International space agencies are now (a) ________ missions to capture and de-orbit the largest pieces of debris to prevent a chain reaction of collisions.",
+    "passage_id": "t1_p1",
+    "id": "eng_01_gen_1",
     "hints": [
       "Identify the subject and its number (singular or plural).",
       "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep05_q3_gen_1",
     "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 2 and paragraph 4?",
+    "topic": "Reading",
+    "question_text": "According to the text, why is space junk dangerous?",
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 3 provides scientific evidence for the claims in paragraph 2"
+        "text": "Because it is made of radioactive material"
       },
       {
         "letter": "B",
-        "text": "Paragraph 4 argues that the benefits described in paragraph 3 are unproven"
+        "text": "Because it travels at extremely high speeds"
       },
       {
         "letter": "C",
-        "text": "Paragraph 3 shows that despite the importance of sleep established in paragraph 1, many people are not getting enough"
+        "text": "Because it interferes with internet signals"
       },
       {
         "letter": "D",
-        "text": "Paragraph 4 introduces an unrelated topic about workplace stress"
+        "text": "Because it is invisible to radar"
       },
       {
         "letter": "E",
-        "text": "Paragraph 3 summarizes paragraph 3 in simpler terms"
+        "text": "Because it is falling to Earth"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text states it travels up to 28,000 km/h, making it dangerous.",
+    "passage": "Orbiting the Earth is a growing cloud of space debris, ranging from defunct satellites to tiny paint flecks. This 'space junk' travels at speeds up to 28,000 kilometers per hour, making even small pieces dangerous to active spacecraft. International space agencies are now (a) ________ missions to capture and de-orbit the largest pieces of debris to prevent a chain reaction of collisions.",
+    "passage_id": "t1_p1",
+    "id": "eng_02_gen_1",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What is the primary goal of the de-orbiting missions?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To salvage gold from old satellites"
+      },
+      {
+        "letter": "B",
+        "text": "To clean the atmosphere of CO2"
+      },
+      {
+        "letter": "C",
+        "text": "To prevent a chain reaction of collisions"
+      },
+      {
+        "letter": "D",
+        "text": "To build new space stations"
+      },
+      {
+        "letter": "E",
+        "text": "To study the effects of high-speed paint flecks"
       }
     ],
     "correct_answer": "C",
-    "explanation": "Paragraph 1 establishes how vital sleep is. Paragraph 2 then presents the paradox: despite this importance, chronic sleep deprivation is widespread — a contrast between ideal and reality.",
-    "passage": "Modern research has revealed that sleep is far more than a passive state of rest — it is a complex, active process essential to physical and cognitive health. During deep sleep, the brain clears metabolic waste through a system known as the glymphatic network, reducing the risk of neurodegenerative diseases. Simultaneously, the body repairs tissue, consolidates memories, and regulates hormones that control appetite and stress.\n\nDespite this evidence, chronic sleep deprivation has become a public health crisis in many industrialized nations. Adults are recommended to sleep between seven and nine hours per night, yet surveys consistently show that large proportions of the working population sleep fewer than six hours. Shift work, screen exposure before bedtime, and high-stress workplaces all (a) ________ to this widespread deficit.\n\nThe consequences extend beyond personal fatigue. Studies link insufficient sleep to increased rates of cardiovascular disease, obesity, and impaired immune function. Economically, sleep deprivation costs countries billions of dollars annually through reduced productivity and heightened healthcare demands. Public health authorities are now calling for workplace policies that treat adequate sleep as a genuine occupational health priority.",
+    "explanation": "The text states missions aim to 'capture and de-orbit... to prevent a chain reaction of collisions'.",
+    "passage": "Orbiting the Earth is a growing cloud of space debris, ranging from defunct satellites to tiny paint flecks. This 'space junk' travels at speeds up to 28,000 kilometers per hour, making even small pieces dangerous to active spacecraft. International space agencies are now (a) ________ missions to capture and de-orbit the largest pieces of debris to prevent a chain reaction of collisions.",
+    "passage_id": "t1_p1",
+    "id": "eng_03_gen_1",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Cohesion",
+    "question_text": "Which sentence is irrelevant to the paragraph?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sentence 3"
+      },
+      {
+        "letter": "B",
+        "text": "Sentence 3"
+      },
+      {
+        "letter": "C",
+        "text": "Both 3 and 3"
+      },
+      {
+        "letter": "D",
+        "text": "Sentence 5"
+      },
+      {
+        "letter": "E",
+        "text": "None"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Sentence 2 is about scuba diving, while the rest are about coral bleaching and survival.",
+    "passage": "Coral reefs are often called the rainforests of the sea because of their immense biodiversity. However, rising ocean temperatures have led to widespread coral bleaching. When water is too warm, corals expel the algae living in their tissues, causing them to turn completely white. (2) This process weakens the coral and makes them more susceptible to disease. (3) Many people enjoy scuba diving in tropical waters. (5) Sustainable tourism and carbon reduction are essential for reef survival.",
+    "passage_id": "t1_p2",
+    "id": "eng_04_gen_1",
     "hints": [
       "Identify the main idea of each paragraph first.",
       "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
     ]
   },
   {
-    "id": "ep05_q1_gen_1",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for the passage is...",
+    "topic": "Reading",
+    "question_text": "Under what condition does coral bleaching occur?",
     "options": [
       {
         "letter": "A",
-        "text": "Dreams and Their Psychological Meaning"
+        "text": "When the water becomes too salty"
       },
       {
         "letter": "B",
-        "text": "Sleep Deprivation Is a Modern Crisis With Serious Consequences"
+        "text": "When ocean temperatures rise too high"
       },
       {
         "letter": "C",
-        "text": "How to Fall Asleep Faster"
+        "text": "When there is a lack of sunlight"
       },
       {
         "letter": "D",
-        "text": "The History of Neuroscience"
+        "text": "When predatory fish increase"
       },
       {
         "letter": "E",
-        "text": "Workplace Stress and Its Causes"
+        "text": "When the tide is low"
       }
     ],
     "correct_answer": "B",
-    "explanation": "The passage moves from why sleep matters (paragraph 1), to why we are not getting enough (paragraph 2), to what happens as a result (paragraph 3) — the progression fits 'crisis with serious consequences'.",
-    "passage": "Modern research has revealed that sleep is far more than a passive state of rest — it is a complex, active process essential to physical and cognitive health. During deep sleep, the brain clears metabolic waste through a system known as the glymphatic network, reducing the risk of neurodegenerative diseases. Simultaneously, the body repairs tissue, consolidates memories, and regulates hormones that control appetite and stress.\n\nDespite this evidence, chronic sleep deprivation has become a public health crisis in many industrialized nations. Adults are recommended to sleep between seven and nine hours per night, yet surveys consistently show that large proportions of the working population sleep fewer than six hours. Shift work, screen exposure before bedtime, and high-stress workplaces all (a) ________ to this widespread deficit.\n\nThe consequences extend beyond personal fatigue. Studies link insufficient sleep to increased rates of cardiovascular disease, obesity, and impaired immune function. Economically, sleep deprivation costs countries billions of dollars annually through reduced productivity and heightened healthcare demands. Public health authorities are now calling for workplace policies that treat adequate sleep as a genuine occupational health priority.",
+    "explanation": "The text explicitly mentions rising ocean temperatures as the cause.",
+    "passage": "Coral reefs are often called the rainforests of the sea because of their immense biodiversity. However, rising ocean temperatures have led to widespread coral bleaching. When water is too warm, corals expel the algae living in their tissues, causing them to turn completely white. (3) This process weakens the coral and makes them more susceptible to disease. (3) Many people enjoy scuba diving in tropical waters. (4) Sustainable tourism and carbon reduction are essential for reef survival.",
+    "passage_id": "t1_p2",
+    "id": "eng_05_gen_1",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep02_q5_gen_1",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The writer's purpose in this passage is most likely to...",
+    "topic": "Vocabulary",
+    "question_text": "In the text, the word 'expel' is closest in meaning to...",
     "options": [
       {
         "letter": "A",
-        "text": "Criticize engineers for proposing flood barriers"
+        "text": "absorb"
       },
       {
         "letter": "B",
-        "text": "Persuade readers to migrate away from coastal areas"
+        "text": "protect"
       },
       {
         "letter": "C",
-        "text": "Explain both the adaptation efforts and their limitations"
+        "text": "release"
       },
       {
         "letter": "D",
-        "text": "Describe the history of sea walls"
+        "text": "consume"
       },
       {
         "letter": "E",
-        "text": "Argue that climate change is exaggerated"
+        "text": "invite"
       }
     ],
     "correct_answer": "C",
-    "explanation": "The passage describes what cities are doing (paragraph 2) and then explains why those efforts may not be enough (paragraph 3), showing a dual informative-analytical purpose.",
-    "passage": "Rising sea levels driven by climate change pose an existential threat to major coastal cities worldwide. Projections indicate that by 2115 roughly 810 million people could live in zones at severe risk of flooding. Governments and urban planners are therefore working urgently to adapt infrastructure before the situation becomes unmanageable.\n\nSeveral cities have (a) ________ innovative strategies to reduce their flood risk. Rotterdam has built water plazas that serve as public spaces in dry weather and flood reservoirs when needed. Jakarta is accelerating plans to relocate its national capital to higher inland ground, recognizing that engineering alone cannot save the sinking city. Meanwhile, elevated highways and reinforced sea walls are being constructed across vulnerable coastlines.\n\nCritics argue, however, that these engineering responses treat symptoms rather than root causes. Without aggressive global reductions in greenhouse gas emissions, sea-level rise may eventually overwhelm even the most ambitious flood-control projects. Experts therefore advocate combining local adaptation with decisive international climate policy — only this dual approach can ensure cities remain livable for future generations.",
+    "explanation": "Corals 'expel' (release/force out) the algae tissues when stressed.",
+    "passage": "Coral reefs are often called the rainforests of the sea because of their immense biodiversity. However, rising ocean temperatures have led to widespread coral bleaching. When water is too warm, corals expel the algae living in their tissues, causing them to turn completely white. (3) This process weakens the coral and makes them more susceptible to disease. (3) Many people enjoy scuba diving in tropical waters. (4) Sustainable tourism and carbon reduction are essential for reef survival.",
+    "passage_id": "t1_p2",
+    "id": "eng_06_gen_1",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "Re-read the relevant part of the passage carefully."
     ]
   },
   {
-    "id": "ep04_q5_gen_1",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "According to the passage, which group MOST benefits from the flexibility of the gig model?",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): 'This flexibility (a) ________ employees to better balance...'",
     "options": [
       {
         "letter": "A",
-        "text": "Government regulators"
+        "text": "allow"
       },
       {
         "letter": "B",
-        "text": "Both individual workers and businesses"
+        "text": "allowing"
       },
       {
         "letter": "C",
-        "text": "Only large technology corporations"
+        "text": "allows"
       },
       {
         "letter": "D",
-        "text": "Retired workers seeking part-time income"
+        "text": "allowed"
       },
       {
         "letter": "E",
-        "text": "Traditional salaried employees"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 2 explicitly states that workers gain flexibility and freedom, while businesses benefit from lower costs and workforce scalability — both groups are identified as beneficiaries.",
-    "passage": "The gig economy — characterized by short-term contracts and freelance work rather than permanent employment — has grown dramatically over the past decade. Platforms such as ride-sharing apps, delivery services, and freelance marketplaces have made it easier than ever to (a) ________ work on a flexible, project-by-project basis. Today, an estimated 28 percent of workers in many developed countries derive at least part of their income from gig work.\n\nProponents argue the gig model offers workers unprecedented flexibility and freedom. Individuals can set their own hours, work from multiple platforms simultaneously, and pursue passion projects alongside income-generating tasks. For businesses, the model lowers overhead costs and allows rapid scaling of workforce in response to demand fluctuations.\n\nCritics, however, highlight serious structural problems. Gig workers are typically classified as independent contractors, denying them access to benefits such as health insurance, paid leave, and retirement savings plans. Income volatility also makes financial planning difficult, particularly for those who rely solely on gig earnings. Several governments are now debating legislation to reclassify gig workers and mandate (b) ________ protections.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep03_q3_gen_1",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "The relationship between paragraph 3 and paragraph 4 is best described as...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 3 provides the cause of the problem identified in paragraph 2"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 4 describes the industry's partial and criticized response to the concern raised in paragraph 2"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 3 contradicts the research findings of paragraph 2"
-      },
-      {
-        "letter": "D",
-        "text": "Paragraph 3 repeats the same information as paragraph 2"
-      },
-      {
-        "letter": "E",
-        "text": "Paragraph 3 introduces an unrelated topic"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 1 establishes the mental health concern. Paragraph 2 then describes what platforms have done in response — but notes that critics find those responses insufficient.",
-    "passage": "The widespread use of social media platforms has sparked growing concern among psychologists and public health researchers. Studies increasingly link excessive social media use to elevated rates of anxiety, depression, and loneliness, particularly among teenagers. While correlation does not confirm causation, the volume and consistency of these findings have prompted serious calls for policy action.\n\nPlatforms themselves have been slow to act, often citing user autonomy and the complexity of moderating vast amounts of content. However, some companies have introduced features such as screen-time reminders, comment filters, and restrictions on recommending certain content to minors. Critics argue these measures are superficial and that the core business model — which rewards engagement above all else — remains unchanged.\n\nExperts propose a multi-pronged response. Parents and schools are encouraged to teach digital literacy, helping young people critically evaluate what they consume online. Regulators in several countries are exploring legislation that would impose stricter transparency requirements on algorithmic recommendation systems. The consensus is that protecting mental health in the digital age requires cooperation among individuals, platforms, and governments.",
-    "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
-    ]
-  },
-  {
-    "id": "ep06_q1_gen_1",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for the passage is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Why Solar Panels Are Cheaper Than Ever"
-      },
-      {
-        "letter": "B",
-        "text": "The Renewable Energy Transition: Opportunities and Challenges"
-      },
-      {
-        "letter": "C",
-        "text": "How Wind Turbines Are Built"
-      },
-      {
-        "letter": "D",
-        "text": "Net-Zero Emissions Policies Explained"
-      },
-      {
-        "letter": "E",
-        "text": "The Decline of the Coal Industry"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The passage covers the scale of the transition (paragraph 1), its benefits (paragraph 2), and its challenges (paragraph 3) — 'Opportunities and Challenges' captures this full scope.",
-    "passage": "The global transition from fossil fuels to renewable energy sources represents one of the most sweeping economic and technological shifts of our era. Solar and wind power have achieved price parity with — and in many regions now undercut — conventional electricity generation. Governments worldwide are setting ambitious targets: several major economies have pledged to reach net-zero carbon emissions by 2050.\n\nThe benefits extend beyond reducing pollution. Renewable energy projects create substantial local employment, particularly in manufacturing, installation, and maintenance. Countries that previously depended on costly fuel imports can (a) ________ energy independence by harnessing domestic solar or wind resources, strengthening both economic resilience and national security.\n\nNevertheless, the transition poses genuine challenges. Renewable sources are inherently variable — the sun does not always shine and the wind does not always blow — creating reliability concerns for energy grids. Massive investment in battery storage, smart grids, and intercontinental transmission lines will be required. Communities reliant on coal mining and fossil-fuel industries also face painful economic disruption unless robust retraining and support programs accompany the energy shift.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep07_q5_gen_1",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "'Kessler Syndrome' as described in paragraph 4 refers to...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "A disease affecting astronauts in orbit"
-      },
-      {
-        "letter": "B",
-        "text": "A treaty governing satellite communications"
-      },
-      {
-        "letter": "C",
-        "text": "A scenario where orbital debris makes certain orbital zones permanently unusable"
-      },
-      {
-        "letter": "D",
-        "text": "A type of reusable rocket engine"
-      },
-      {
-        "letter": "E",
-        "text": "The process of deorbiting old satellites safely"
+        "text": "to allow"
       }
     ],
     "correct_answer": "C",
-    "explanation": "Paragraph 3 defines Kessler Syndrome directly: collisions could 'render specific orbital shells unusable for generations' — exactly option C.",
-    "passage": "The landscape of space exploration has changed dramatically in the past two decades, driven by the emergence of private companies alongside traditional government space agencies. Firms such as SpaceX and Blue Origin have developed reusable rocket technology that has cut launch costs by an order of magnitude. This cost reduction has (a) ________ a new era of ambition: lunar bases, Mars missions, and commercial space stations are no longer confined to science fiction.\n\nThe democratization of space access brings tangible near-term benefits. Thousands of small satellites now provide high-resolution Earth observation data used for agriculture, disaster response, and climate monitoring. In addition, satellite internet constellations aim to deliver broadband connectivity to the billions of people who still lack reliable access, potentially transforming education and economic opportunity in remote areas.\n\nCritics, however, raise important concerns. The rapid proliferation of satellites is contributing to orbital debris, increasing the risk of collisions that could render specific orbital shells unusable for generations — a scenario known as Kessler Syndrome. Astronomers also report that dense satellite constellations are disrupting ground-based telescope observations. Managing these trade-offs will require international coordination and binding agreements on responsible use of orbital space.",
+    "explanation": "Singular subject 'flexibility' requires the singular verb 'allows'.",
+    "passage": "The conceptualization of 'the office' has fundamentally shifted. Before 2020, remote work was a perk for a minority. Today, it is a structural reality for millions. While some firms demand a full return to headquarters, others have embraced 'hybrid' models. This flexibility (a) ________ employees to better balance professional duties with personal health, though it can lead to feelings of isolation if not managed carefully.",
+    "passage_id": "t1_p3",
+    "id": "eng_07_gen_1",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What is mentioned as a potential downside of remote work?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Increased commuting time"
+      },
+      {
+        "letter": "B",
+        "text": "Lower productivity"
+      },
+      {
+        "letter": "C",
+        "text": "Feelings of isolation"
+      },
+      {
+        "letter": "D",
+        "text": "Higher office costs"
+      },
+      {
+        "letter": "E",
+        "text": "Lack of professional duties"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The text mentions it 'can lead to feelings of isolation'.",
+    "passage": "The conceptualization of 'the office' has fundamentally shifted. Before 2020, remote work was a perk for a minority. Today, it is a structural reality for millions. While some firms demand a full return to headquarters, others have embraced 'hybrid' models. This flexibility (a) ________ employees to better balance professional duties with personal health, though it can lead to feelings of isolation if not managed carefully.",
+    "passage_id": "t1_p3",
+    "id": "eng_08_gen_1",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep01_q2_gen_1",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): 'Pharmaceutical companies are leveraging AI to (a) ________ the drug discovery process...'",
+    "topic": "Reading",
+    "question_text": "How has the status of remote work changed since before 2029?",
     "options": [
       {
         "letter": "A",
-        "text": "accelerate"
+        "text": "It has become completely illegal"
       },
       {
         "letter": "B",
-        "text": "accelerating"
+        "text": "It moved from a rare perk to a structural reality"
       },
       {
         "letter": "C",
-        "text": "accelerated"
+        "text": "It transitioned from a requirement to an optional choice"
       },
       {
         "letter": "D",
-        "text": "has accelerated"
+        "text": "It was replaced entirely by hybrid models"
       },
       {
         "letter": "E",
-        "text": "to accelerate"
+        "text": "It is no longer considered beneficial for employees"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text states: 'Before 2020, remote work was a perk for a minority. Today, it is a structural reality for millions.'",
+    "passage": "The conceptualization of 'the office' has fundamentally shifted. Before 2020, remote work was a perk for a minority. Today, it is a structural reality for millions. While some firms demand a full return to headquarters, others have embraced 'hybrid' models. This flexibility (a) ________ employees to better balance professional duties with personal health, though it can lead to feelings of isolation if not managed carefully.",
+    "passage_id": "t1_p3",
+    "id": "eng_09_gen_1",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): 'the demand for food is (a) ________.'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "stagnating"
+      },
+      {
+        "letter": "B",
+        "text": "decreasing"
+      },
+      {
+        "letter": "C",
+        "text": "soaring"
+      },
+      {
+        "letter": "D",
+        "text": "fluctuating"
+      },
+      {
+        "letter": "E",
+        "text": "vanishing"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "'Soaring' (rising rapidly) fits the context of 10 billion people.",
+    "passage": "As the global population nears 11 billion, the demand for food is (a) ________. Vertical farming offers a solution by growing crops in stacked layers, often in controlled indoor environments. This method uses 99% less water than traditional farming and eliminates the need for chemical pesticides. However, the high energy cost of artificial lighting remains a significant hurdle for large-scale adoption.",
+    "passage_id": "t1_p4",
+    "id": "eng_10_gen_1",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What is one environmental benefit of vertical farming mentioned?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It uses no electricity"
+      },
+      {
+        "letter": "B",
+        "text": "It uses significantly less water"
+      },
+      {
+        "letter": "C",
+        "text": "It provides habitat for wildlife"
+      },
+      {
+        "letter": "D",
+        "text": "It is cheaper than traditional farming"
+      },
+      {
+        "letter": "E",
+        "text": "It encourages soil erosion"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text states it uses 95% less water than traditional farming.",
+    "passage": "As the global population nears 13 billion, the demand for food is (a) ________. Vertical farming offers a solution by growing crops in stacked layers, often in controlled indoor environments. This method uses 96% less water than traditional farming and eliminates the need for chemical pesticides. However, the high energy cost of artificial lighting remains a significant hurdle for large-scale adoption.",
+    "passage_id": "t1_p4",
+    "id": "eng_11_gen_1",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What is the main drawback to large-scale vertical farming adoption?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A lack of viable crops"
+      },
+      {
+        "letter": "B",
+        "text": "The 99% water reduction"
+      },
+      {
+        "letter": "C",
+        "text": "The high energy cost of artificial lighting"
+      },
+      {
+        "letter": "D",
+        "text": "Opposition from traditional farmers"
+      },
+      {
+        "letter": "E",
+        "text": "Insufficient global demand for food"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The text identifies 'high energy cost of artificial lighting' as a 'significant hurdle'.",
+    "passage": "As the global population nears 12 billion, the demand for food is (a) ________. Vertical farming offers a solution by growing crops in stacked layers, often in controlled indoor environments. This method uses 98% less water than traditional farming and eliminates the need for chemical pesticides. However, the high energy cost of artificial lighting remains a significant hurdle for large-scale adoption.",
+    "passage_id": "t1_p4",
+    "id": "eng_12_gen_1",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): 'Its (a) ________ is attributed to its diverse flavors...'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "popularity"
+      },
+      {
+        "letter": "B",
+        "text": "scarcity"
+      },
+      {
+        "letter": "C",
+        "text": "complexity"
+      },
+      {
+        "letter": "D",
+        "text": "bitterness"
+      },
+      {
+        "letter": "E",
+        "text": "fragility"
       }
     ],
     "correct_answer": "A",
-    "explanation": "The structure 'to (blank) the process' requires the base infinitive form. 'Accelerate' is the correct base form here.",
-    "passage": "Artificial intelligence (AI) is increasingly being integrated into modern healthcare. Researchers now use AI algorithms to analyze medical imaging data, enabling faster and more accurate diagnoses of conditions such as cancer and cardiovascular disease. Pharmaceutical companies are also leveraging AI to (a) ________ the drug discovery process, significantly reducing the time needed to bring new treatments to market.\n\nOne celebrated application is early cancer detection, where AI systems trained on thousands of scans have identified tumors that human radiologists occasionally miss. Predictive analytics can also forecast which patients are at high risk of hospital readmission, allowing doctors to intervene before problems escalate. These capabilities are fundamentally transforming clinical decision-making and patient care.\n\nDespite its promise, AI in healthcare carries significant risks. Many training datasets do not represent diverse populations, producing biased predictions that can harm underrepresented groups. Accountability also remains unresolved: when an AI system errs critically, it is unclear who bears legal responsibility. Experts therefore argue that human oversight must remain central to any AI-assisted medical decision.",
+    "explanation": "'Popularity' fits the context of being 'the most consumed beverage'.",
+    "passage": "Legend has it that tea was discovered by Emperor Shen Nong in 2748 BC when leaves from a wild tree blew into his pot of boiling water. From its origins in China, tea spread to Japan and eventually to Europe via Dutch traders. Today, it is the most consumed beverage in the world after water. Its (a) ________ is attributed to its diverse flavors and perceived health benefits.",
+    "passage_id": "t1_p5",
+    "id": "eng_13_gen_1",
     "hints": [
       "Identify the subject and its number (singular or plural).",
       "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep01_q4_gen_1",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 3?",
+    "topic": "Reading",
+    "question_text": "How did tea first reach Europe according to the text?",
     "options": [
       {
         "letter": "A",
-        "text": "AI has fully replaced radiologists in all hospitals"
+        "text": "Through Chinese explorers"
       },
       {
         "letter": "B",
-        "text": "AI is applied to both diagnosis and pharmaceutical research"
+        "text": "By Dutch traders"
       },
       {
         "letter": "C",
-        "text": "Drug discovery now takes no time due to AI"
+        "text": "Via the Silk Road"
       },
       {
         "letter": "D",
-        "text": "AI is only useful for cancer treatment"
+        "text": "Through Japanese monks"
       },
       {
         "letter": "E",
-        "text": "Medical imaging is no longer performed by humans"
+        "text": "It was grown in Europe initially"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Paragraph 1 explicitly mentions AI in medical imaging (diagnosis) and AI in pharmaceutical drug discovery (research), confirming both applications.",
-    "passage": "Artificial intelligence (AI) is increasingly being integrated into modern healthcare. Researchers now use AI algorithms to analyze medical imaging data, enabling faster and more accurate diagnoses of conditions such as cancer and cardiovascular disease. Pharmaceutical companies are also leveraging AI to (a) ________ the drug discovery process, significantly reducing the time needed to bring new treatments to market.\n\nOne celebrated application is early cancer detection, where AI systems trained on thousands of scans have identified tumors that human radiologists occasionally miss. Predictive analytics can also forecast which patients are at high risk of hospital readmission, allowing doctors to intervene before problems escalate. These capabilities are fundamentally transforming clinical decision-making and patient care.\n\nDespite its promise, AI in healthcare carries significant risks. Many training datasets do not represent diverse populations, producing biased predictions that can harm underrepresented groups. Accountability also remains unresolved: when an AI system errs critically, it is unclear who bears legal responsibility. Experts therefore argue that human oversight must remain central to any AI-assisted medical decision.",
+    "explanation": "The text states tea spread to Europe 'via Dutch traders'.",
+    "passage": "Legend has it that tea was discovered by Emperor Shen Nong in 2744 BC when leaves from a wild tree blew into his pot of boiling water. From its origins in China, tea spread to Japan and eventually to Europe via Dutch traders. Today, it is the most consumed beverage in the world after water. Its (a) ________ is attributed to its diverse flavors and perceived health benefits.",
+    "passage_id": "t1_p5",
+    "id": "eng_14_gen_1",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep02_q2_gen_1",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): 'Several cities have (a) ________ innovative strategies to reduce their flood risk.'",
+    "topic": "Reading",
+    "question_text": "According to the passage, where did tea consumption begin?",
     "options": [
       {
         "letter": "A",
-        "text": "adopting"
+        "text": "Europe"
       },
       {
         "letter": "B",
-        "text": "adopted"
+        "text": "Japan"
       },
       {
         "letter": "C",
-        "text": "adopt"
+        "text": "China"
       },
       {
         "letter": "D",
-        "text": "will adopt"
+        "text": "India"
       },
       {
         "letter": "E",
-        "text": "had adopt"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "'Have + past participle' forms the present perfect tense. 'Adopted' is the past participle of 'adopt', making 'have adopted' the grammatically correct form.",
-    "passage": "Rising sea levels driven by climate change pose an existential threat to major coastal cities worldwide. Projections indicate that by 2106 roughly 809 million people could live in zones at severe risk of flooding. Governments and urban planners are therefore working urgently to adapt infrastructure before the situation becomes unmanageable.\n\nSeveral cities have (a) ________ innovative strategies to reduce their flood risk. Rotterdam has built water plazas that serve as public spaces in dry weather and flood reservoirs when needed. Jakarta is accelerating plans to relocate its national capital to higher inland ground, recognizing that engineering alone cannot save the sinking city. Meanwhile, elevated highways and reinforced sea walls are being constructed across vulnerable coastlines.\n\nCritics argue, however, that these engineering responses treat symptoms rather than root causes. Without aggressive global reductions in greenhouse gas emissions, sea-level rise may eventually overwhelm even the most ambitious flood-control projects. Experts therefore advocate combining local adaptation with decisive international climate policy — only this dual approach can ensure cities remain livable for future generations.",
-    "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
-    ]
-  },
-  {
-    "id": "ep06_q2_gen_1",
-    "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): 'Countries...can (a) ________ energy independence by harnessing domestic solar or wind resources...'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "achieved"
-      },
-      {
-        "letter": "B",
-        "text": "achieving"
-      },
-      {
-        "letter": "C",
-        "text": "achieve"
-      },
-      {
-        "letter": "D",
-        "text": "achieves"
-      },
-      {
-        "letter": "E",
-        "text": "to achieve"
+        "text": "The Middle East"
       }
     ],
     "correct_answer": "C",
-    "explanation": "'Can + base verb' is the correct modal construction. 'Achieve' (base form) is required after the modal verb 'can'.",
-    "passage": "The global transition from fossil fuels to renewable energy sources represents one of the most sweeping economic and technological shifts of our era. Solar and wind power have achieved price parity with — and in many regions now undercut — conventional electricity generation. Governments worldwide are setting ambitious targets: several major economies have pledged to reach net-zero carbon emissions by 2050.\n\nThe benefits extend beyond reducing pollution. Renewable energy projects create substantial local employment, particularly in manufacturing, installation, and maintenance. Countries that previously depended on costly fuel imports can (a) ________ energy independence by harnessing domestic solar or wind resources, strengthening both economic resilience and national security.\n\nNevertheless, the transition poses genuine challenges. Renewable sources are inherently variable — the sun does not always shine and the wind does not always blow — creating reliability concerns for energy grids. Massive investment in battery storage, smart grids, and intercontinental transmission lines will be required. Communities reliant on coal mining and fossil-fuel industries also face painful economic disruption unless robust retraining and support programs accompany the energy shift.",
-    "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
-    ]
-  },
-  {
-    "id": "ep07_q1_gen_1",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for this passage is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "SpaceX and the Race to Mars"
-      },
-      {
-        "letter": "B",
-        "text": "The New Era of Space Exploration: Opportunities and Risks"
-      },
-      {
-        "letter": "C",
-        "text": "How Reusable Rockets Are Built"
-      },
-      {
-        "letter": "D",
-        "text": "The History of Government Space Programs"
-      },
-      {
-        "letter": "E",
-        "text": "Orbital Debris: A Growing Crisis"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The passage covers new space capabilities (paragraph 1), their benefits (paragraph 2), and associated risks (paragraph 3) — 'Opportunities and Risks' accurately captures this scope.",
-    "passage": "The landscape of space exploration has changed dramatically in the past two decades, driven by the emergence of private companies alongside traditional government space agencies. Firms such as SpaceX and Blue Origin have developed reusable rocket technology that has cut launch costs by an order of magnitude. This cost reduction has (a) ________ a new era of ambition: lunar bases, Mars missions, and commercial space stations are no longer confined to science fiction.\n\nThe democratization of space access brings tangible near-term benefits. Thousands of small satellites now provide high-resolution Earth observation data used for agriculture, disaster response, and climate monitoring. In addition, satellite internet constellations aim to deliver broadband connectivity to the billions of people who still lack reliable access, potentially transforming education and economic opportunity in remote areas.\n\nCritics, however, raise important concerns. The rapid proliferation of satellites is contributing to orbital debris, increasing the risk of collisions that could render specific orbital shells unusable for generations — a scenario known as Kessler Syndrome. Astronomers also report that dense satellite constellations are disrupting ground-based telescope observations. Managing these trade-offs will require international coordination and binding agreements on responsible use of orbital space.",
+    "explanation": "The text mentions its discovery by a Chinese emperor and its 'origins in China'.",
+    "passage": "Legend has it that tea was discovered by Emperor Shen Nong in 2748 BC when leaves from a wild tree blew into his pot of boiling water. From its origins in China, tea spread to Japan and eventually to Europe via Dutch traders. Today, it is the most consumed beverage in the world after water. Its (a) ________ is attributed to its diverse flavors and perceived health benefits.",
+    "passage_id": "t1_p5",
+    "id": "eng_15_gen_1",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep04_q2_gen_1",
     "subject": "English",
-    "topic": "Vocabulary in Context",
-    "question_text": "Fill in blank (a): 'Platforms...have made it easier than ever to (a) ________ work on a flexible, project-by-project basis.'",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): 'electric planes face a massive (a) ________: weight.'",
     "options": [
       {
         "letter": "A",
-        "text": "secure"
+        "text": "advantage"
       },
       {
         "letter": "B",
-        "text": "secured"
+        "text": "obstacle"
       },
       {
         "letter": "C",
-        "text": "securing"
+        "text": "incentive"
       },
       {
         "letter": "D",
-        "text": "secures"
+        "text": "connection"
       },
       {
         "letter": "E",
-        "text": "have secured"
+        "text": "victory"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "The phrase 'easier than ever to (blank) work' requires the base infinitive form. 'Secure' (meaning 'to obtain') is the grammatically correct base form here.",
-    "passage": "The gig economy — characterized by short-term contracts and freelance work rather than permanent employment — has grown dramatically over the past decade. Platforms such as ride-sharing apps, delivery services, and freelance marketplaces have made it easier than ever to (a) ________ work on a flexible, project-by-project basis. Today, an estimated 27 percent of workers in many developed countries derive at least part of their income from gig work.\n\nProponents argue the gig model offers workers unprecedented flexibility and freedom. Individuals can set their own hours, work from multiple platforms simultaneously, and pursue passion projects alongside income-generating tasks. For businesses, the model lowers overhead costs and allows rapid scaling of workforce in response to demand fluctuations.\n\nCritics, however, highlight serious structural problems. Gig workers are typically classified as independent contractors, denying them access to benefits such as health insurance, paid leave, and retirement savings plans. Income volatility also makes financial planning difficult, particularly for those who rely solely on gig earnings. Several governments are now debating legislation to reclassify gig workers and mandate (b) ________ protections.",
+    "correct_answer": "B",
+    "explanation": "'Obstacle' fits because weight is a problem for electric planes.",
+    "passage": "Aviation contributes roughly 4% of global CO2 emissions. While electric cars are mainstream, electric planes face a massive (a) ________: weight. Jet fuel contains 43 times more energy per kilogram than the best modern batteries. Short-haul electric flights are becoming possible, but long-distance travel still requires liquid fuels or hydrogen alternatives to be viable.",
+    "passage_id": "t1_p6",
+    "id": "eng_16_gen_1",
     "hints": [
       "Identify the subject and its number (singular or plural).",
       "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "Why is long-distance electric flight currently difficult?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Batteries have low energy density compared to jet fuel"
+      },
+      {
+        "letter": "B",
+        "text": "Electric motors are too noisy"
+      },
+      {
+        "letter": "C",
+        "text": "There are no charging stations in the sky"
+      },
+      {
+        "letter": "D",
+        "text": "Hydrogen is cheaper than batteries"
+      },
+      {
+        "letter": "E",
+        "text": "Aircraft are too small"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "The text explains jet fuel has 40x more energy per kg than batteries.",
+    "passage": "Aviation contributes roughly 3% of global CO2 emissions. While electric cars are mainstream, electric planes face a massive (a) ________: weight. Jet fuel contains 44 times more energy per kilogram than the best modern batteries. Short-haul electric flights are becoming possible, but long-distance travel still requires liquid fuels or hydrogen alternatives to be viable.",
+    "passage_id": "t1_p6",
+    "id": "eng_17_gen_1",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Cohesion",
+    "question_text": "Which sentence is irrelevant to the cybersecurity topic?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sentence 2"
+      },
+      {
+        "letter": "B",
+        "text": "Sentence 4"
+      },
+      {
+        "letter": "C",
+        "text": "Sentence 5"
+      },
+      {
+        "letter": "D",
+        "text": "None"
+      },
+      {
+        "letter": "E",
+        "text": "Sentence 2 and 5"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Sentence 2 is about lunch habits, unrelated to cybersecurity.",
+    "passage": "In the digital age, cybersecurity is no longer optional for businesses. Hackers use sophisticated phishing emails and ransomware to (a) ________ sensitive data. Training employees to recognize suspicious links is the first line of defense. (2) Companies also invest in firewalls and encryption. (4) Most employees prefer to eat lunch at their desks. (5) A single breach can cost millions in damages and lost trust.",
+    "passage_id": "t1_p7",
+    "id": "eng_18_gen_1",
+    "hints": [
+      "Identify the main idea of each paragraph first.",
+      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): 'Hackers use...to (a) ________ sensitive data.'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "stole"
+      },
+      {
+        "letter": "B",
+        "text": "stealing"
+      },
+      {
+        "letter": "C",
+        "text": "steal"
+      },
+      {
+        "letter": "D",
+        "text": "stolen"
+      },
+      {
+        "letter": "E",
+        "text": "to steal"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Infinitive 'to steal' is used for purpose.",
+    "passage": "In the digital age, cybersecurity is no longer optional for businesses. Hackers use sophisticated phishing emails and ransomware to (a) ________ sensitive data. Training employees to recognize suspicious links is the first line of defense. (3) Companies also invest in firewalls and encryption. (3) Most employees prefer to eat lunch at their desks. (4) A single breach can cost millions in damages and lost trust.",
+    "passage_id": "t1_p7",
+    "id": "eng_19_gen_1",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What does the text suggest is the 'first line of defense' in cybersecurity?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Expensive firewalls"
+      },
+      {
+        "letter": "B",
+        "text": "Encryption of all emails"
+      },
+      {
+        "letter": "C",
+        "text": "Employee training to recognize suspicious links"
+      },
+      {
+        "letter": "D",
+        "text": "Paying ransomware demands immediately"
+      },
+      {
+        "letter": "E",
+        "text": "Deleting all sensitive data from the cloud"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The text states: 'Training employees to recognize suspicious links is the first line of defense.'",
+    "passage": "In the digital age, cybersecurity is no longer optional for businesses. Hackers use sophisticated phishing emails and ransomware to (a) ________ sensitive data. Training employees to recognize suspicious links is the first line of defense. (3) Companies also invest in firewalls and encryption. (3) Most employees prefer to eat lunch at their desks. (4) A single breach can cost millions in damages and lost trust.",
+    "passage_id": "t1_p7",
+    "id": "eng_20_gen_1",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
     ]
   },
   {

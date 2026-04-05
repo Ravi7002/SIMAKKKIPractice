@@ -600,703 +600,721 @@
     "explanation": "Because a, b, c is an arithmetic sequence, 2b = a + c. Because b, c, a is a geometric sequence, c^2 = ab. Substitute a = 2b - c into the geometric sequence equation: c^2 = (2b - c)b = 2b^2 - bc. Rearranging gives c^2 + bc - 2b^2 = 0, which factors to (c + 2b)(c - b) = 0. Since a < b < c, c cannot equal b, so c = -2b. Consequently, a = 2b - (-2b) = 4b. For 4b < b < -2b to hold, b must be negative. The largest negative integer is b = -1. This yields c = -2(-1) = 2, making the sequence -4, -1, 2."
   },
   {
-    "id": "ep10_q1_gen_2",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for this passage is...",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): '...or are (a) ________ in cosmetic products.'",
     "options": [
       {
         "letter": "A",
-        "text": "New Antibiotics and How to Get Them"
+        "text": "intentional"
       },
       {
         "letter": "B",
-        "text": "Why Livestock Farming Is Harmful"
+        "text": "intentionally added"
       },
       {
         "letter": "C",
-        "text": "Antibiotic Resistance: A Growing Global Crisis"
+        "text": "unintentionally"
       },
       {
         "letter": "D",
-        "text": "The History of Penicillin and Modern Medicine"
+        "text": "intention"
       },
       {
         "letter": "E",
-        "text": "How Viruses Differ from Bacteria"
+        "text": "intend"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The passage establishes the scale of the crisis (paragraph 1), its causes (paragraph 2), and solutions (paragraph 3) — 'Growing Global Crisis' accurately reflects this comprehensive structure.",
-    "passage": "Antibiotic resistance is increasingly recognised as one of the gravest threats to global public health. Every year, drug-resistant infections claim an estimated 1.3 million lives worldwide, and projections warn this figure could exceed ten million annually by 2061 if systemic action is not taken. The World Health Organization has classified antimicrobial resistance as a priority concern, comparable in urgency to climate change.\n\nThe primary driver of resistance is the overuse and misuse of antibiotics. In many countries, patients pressure doctors for antibiotics to treat viral infections on which the drugs have no effect whatsoever. In agriculture, livestock are routinely given antibiotics not only to treat disease but also to (a) ________ growth — a practice that creates massive reservoirs of resistant bacteria across food systems. Poor sanitation allows resistant strains to spread rapidly, compounding the problem.\n\nTackling resistance requires a coordinated global strategy. Investment in new antibiotic development has stalled because the economic returns are insufficient to attract pharmaceutical companies. Meanwhile, rapid diagnostic tools that distinguish viral from bacterial infections could reduce unnecessary prescriptions significantly. Global governance frameworks must incentivise both the responsible use of existing antibiotics and the discovery of new ones — without this dual approach, medicine risks entering a post-antibiotic era.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep13_q4_gen_2",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 3?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Remote work was completely unheard of before the pandemic"
-      },
-      {
-        "letter": "B",
-        "text": "Workers generally disliked remote work and wanted to return to offices"
-      },
-      {
-        "letter": "C",
-        "text": "The pandemic dramatically accelerated a shift toward flexible working arrangements"
-      },
-      {
-        "letter": "D",
-        "text": "Only a small fraction of workers prefer location flexibility"
-      },
-      {
-        "letter": "E",
-        "text": "Remote work is only suitable for technology sector employees"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Paragraph 1 states the pandemic 'compressing years of gradual adoption into...weeks' and that a majority preferred maintaining flexibility — indicating dramatic acceleration of an existing trend.",
-    "passage": "The COVID-24 pandemic forced an unprecedented global experiment in remote work, compressing years of gradual adoption into a matter of weeks. By mid-2020, tens of millions of knowledge workers worldwide were performing their jobs entirely from home. When the immediate health crisis receded, a striking majority indicated a preference for maintaining at least some degree of location flexibility in their working lives.\n\nThe benefits for employees are well-documented. Eliminating daily commutes can (a) ________ workers an extra hour or more each day, time they redirect toward family, exercise, or personal development. Geographic flexibility allows individuals to live in lower-cost areas without sacrificing career opportunities. Studies have also found that many employees report higher concentration and productivity in home environments free from open-plan office noise.\n\nEmployers and managers, however, identify real drawbacks. Spontaneous in-person collaboration and informal knowledge-sharing — the kind that happens in hallway conversations — are difficult to replicate digitally. Junior employees in particular may miss the mentoring and professional socialization that office environments provide naturally. Many organisations are therefore moving toward hybrid models, in which teams gather in person on designated days specifically for creative and collaborative work while retaining remote flexibility for focused, individual tasks.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep11_q2_gen_2",
-    "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): '...residents...are the least likely to (a) ________ them.'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "accessed"
-      },
-      {
-        "letter": "B",
-        "text": "accessing"
-      },
-      {
-        "letter": "C",
-        "text": "access"
-      },
-      {
-        "letter": "D",
-        "text": "accesses"
-      },
-      {
-        "letter": "E",
-        "text": "have accessed"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "'Likely to (blank)' requires the base infinitive. 'Access' is the correct base form here, meaning 'to have or reach'.",
-    "passage": "As cities grow ever denser, the value of parks, gardens, and tree-lined streets has never been clearer. Research consistently links access to urban green spaces with improved mental health, reduced stress, and faster recovery from illness. Green areas also play a critical ecological role, cooling urban heat islands, absorbing rainwater, and providing habitat for pollinators essential to food production.\n\nDespite these benefits, green space is often among the first amenities sacrificed when cities face pressure to build more housing and infrastructure. Low-income neighbourhoods are disproportionately affected, frequently lacking trees and parks compared to wealthier districts. This inequity means that the residents who most need restorative environments — those experiencing overcrowding and pollution — are the least likely to (a) ________ them.\n\nForward-thinking cities are finding creative solutions. Singapore has integrated greenery into building facades and rooftops as part of its 'City in a Garden' vision. Medellín, Colombia, created 'green corridors' along major avenues, reducing temperatures by several degrees. Researchers argue that treating green space as essential infrastructure — rather than an optional amenity — and mandating equitable distribution across all districts is the most effective long-term strategy.",
+    "correct_answer": "B",
+    "explanation": "'Intentionally added' fits the context of microbeads in cosmetics.",
+    "passage": "Microplastics have been found in the deepest parts of the ocean and at the top of Mt. Everest. These tiny particles, defined as being less than 5mm in length, come from the breakdown of larger plastics or are (a) ________ in cosmetic products. They enter the food chain when small organisms ingest them, eventually reaching humans who consume seafood.",
+    "passage_id": "t2_p1",
+    "id": "eng_01_gen_2",
     "hints": [
       "Identify the subject and its number (singular or plural).",
       "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep08_q4_gen_2",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 2?",
+    "topic": "Reading",
+    "question_text": "How do microplastics enter the human body according to the text?",
     "options": [
       {
         "letter": "A",
-        "text": "The loss of a language has no significant cultural impact"
+        "text": "Through skin contact"
       },
       {
         "letter": "B",
-        "text": "Language extinction only affects spoken communication, not written culture"
+        "text": "Through inhalation of city air"
       },
       {
         "letter": "C",
-        "text": "Each language encodes unique knowledge that cannot be fully recovered once lost"
+        "text": "Through the food chain, specifically seafood"
       },
       {
         "letter": "D",
-        "text": "All 7,000 languages will survive into the next century"
+        "text": "By drinking from plastic bottles only"
       },
       {
         "letter": "E",
-        "text": "Linguists are unconcerned about the pace of language loss"
+        "text": "They do not enter the human body"
       }
     ],
     "correct_answer": "C",
-    "explanation": "Paragraph 1 states that when a language dies, it carries 'an irreplaceable body of knowledge...found nowhere else' — directly implying that unique knowledge is lost permanently.",
-    "passage": "Thousands of the world's languages are facing extinction at an unprecedented rate. Linguists estimate that roughly half of the approximately 7,000 languages spoken today will disappear by the end of this century, with one language falling silent every two weeks. When a language dies, it carries with it an irreplaceable body of knowledge: unique ecological observations, oral histories, and conceptual frameworks found nowhere else.\n\nThe causes are intertwined. Economic pressures push speakers of minority languages to adopt dominant tongues in order to access education and employment. Urbanization separates communities from the land-based contexts in which their languages flourished. Meanwhile, mass media and the internet (a) ________ the global dominance of a handful of languages, particularly English and Mandarin, accelerating the marginalisation of smaller ones.\n\nEfforts to preserve endangered languages are gaining momentum. Immersion schools and bilingual education programs have achieved notable success with languages such as Welsh and Maori. Digital archiving projects are recording spoken grammars and vocabularies before their last speakers pass away. Scholars argue, however, that true revitalization requires not just documentation but the creation of vibrant communities of speakers who use the language in everyday life.",
+    "explanation": "The text says they reach humans who consume seafood.",
+    "passage": "Microplastics have been found in the deepest parts of the ocean and at the top of Mt. Everest. These tiny particles, defined as being less than 5mm in length, come from the breakdown of larger plastics or are (a) ________ in cosmetic products. They enter the food chain when small organisms ingest them, eventually reaching humans who consume seafood.",
+    "passage_id": "t2_p1",
+    "id": "eng_02_gen_2",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep11_q5_gen_2",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The author's attitude toward treating green space as essential infrastructure is...",
+    "topic": "Reading",
+    "question_text": "What is the maximum length of a particle to be classified as a 'microplastic' in this text?",
     "options": [
       {
         "letter": "A",
-        "text": "Skeptical — there is no evidence it works"
+        "text": "6 millimeters"
       },
       {
         "letter": "B",
-        "text": "Supportive — it is presented as the most effective long-term strategy"
+        "text": "6 centimeters"
       },
       {
         "letter": "C",
-        "text": "Opposed — it is too expensive for cities"
+        "text": "2 millimeter"
       },
       {
         "letter": "D",
-        "text": "Neutral — no recommendation is made"
+        "text": "0.5 millimeters"
       },
       {
         "letter": "E",
-        "text": "Dismissive — green spaces are a luxury"
+        "text": "The text does not say"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 3 concludes that treating green space as 'essential infrastructure' and mandating equitable distribution is 'the most effective long-term strategy' — a clearly supportive stance.",
-    "passage": "As cities grow ever denser, the value of parks, gardens, and tree-lined streets has never been clearer. Research consistently links access to urban green spaces with improved mental health, reduced stress, and faster recovery from illness. Green areas also play a critical ecological role, cooling urban heat islands, absorbing rainwater, and providing habitat for pollinators essential to food production.\n\nDespite these benefits, green space is often among the first amenities sacrificed when cities face pressure to build more housing and infrastructure. Low-income neighbourhoods are disproportionately affected, frequently lacking trees and parks compared to wealthier districts. This inequity means that the residents who most need restorative environments — those experiencing overcrowding and pollution — are the least likely to (a) ________ them.\n\nForward-thinking cities are finding creative solutions. Singapore has integrated greenery into building facades and rooftops as part of its 'City in a Garden' vision. Medellín, Colombia, created 'green corridors' along major avenues, reducing temperatures by several degrees. Researchers argue that treating green space as essential infrastructure — rather than an optional amenity — and mandating equitable distribution across all districts is the most effective long-term strategy.",
+    "correct_answer": "A",
+    "explanation": "The text defines them as 'less than 5mm in length'.",
+    "passage": "Microplastics have been found in the deepest parts of the ocean and at the top of Mt. Everest. These tiny particles, defined as being less than 5mm in length, come from the breakdown of larger plastics or are (a) ________ in cosmetic products. They enter the food chain when small organisms ingest them, eventually reaching humans who consume seafood.",
+    "passage_id": "t2_p1",
+    "id": "eng_03_gen_2",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep13_q3_gen_2",
     "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 4 and paragraph 4?",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): 'Artists... (a) ________ techniques...'",
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 4 further supports the benefits described in paragraph 4"
+        "text": "pioneer"
       },
       {
         "letter": "B",
-        "text": "Paragraph 4 presents the employer-side drawbacks that contrast with the employee benefits in paragraph 4"
+        "text": "pioneering"
       },
       {
         "letter": "C",
-        "text": "Paragraph 5 contradicts the productivity claims made in paragraph 3"
+        "text": "pioneered"
       },
       {
         "letter": "D",
-        "text": "Paragraph 5 introduces historical data not found in paragraph 4"
+        "text": "has pioneered"
       },
       {
         "letter": "E",
-        "text": "Paragraph 4 focuses on a different workforce sector than paragraph 4"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 2 gives employee-perspective benefits. Paragraph 3 then gives the employer-perspective challenges — a symmetrical contrast between two different stakeholder viewpoints.",
-    "passage": "The COVID-21 pandemic forced an unprecedented global experiment in remote work, compressing years of gradual adoption into a matter of weeks. By mid-2020, tens of millions of knowledge workers worldwide were performing their jobs entirely from home. When the immediate health crisis receded, a striking majority indicated a preference for maintaining at least some degree of location flexibility in their working lives.\n\nThe benefits for employees are well-documented. Eliminating daily commutes can (a) ________ workers an extra hour or more each day, time they redirect toward family, exercise, or personal development. Geographic flexibility allows individuals to live in lower-cost areas without sacrificing career opportunities. Studies have also found that many employees report higher concentration and productivity in home environments free from open-plan office noise.\n\nEmployers and managers, however, identify real drawbacks. Spontaneous in-person collaboration and informal knowledge-sharing — the kind that happens in hallway conversations — are difficult to replicate digitally. Junior employees in particular may miss the mentoring and professional socialization that office environments provide naturally. Many organisations are therefore moving toward hybrid models, in which teams gather in person on designated days specifically for creative and collaborative work while retaining remote flexibility for focused, individual tasks.",
-    "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
-    ]
-  },
-  {
-    "id": "ep10_q5_gen_2",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The author's purpose in writing this passage is most likely to...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Persuade readers to avoid all antibiotics"
-      },
-      {
-        "letter": "B",
-        "text": "Describe a serious health crisis and argue for coordinated global action"
-      },
-      {
-        "letter": "C",
-        "text": "Promote a specific new antibiotic product"
-      },
-      {
-        "letter": "D",
-        "text": "Praise the pharmaceutical industry for its efforts"
-      },
-      {
-        "letter": "E",
-        "text": "Explain the biological mechanism of how bacteria mutate"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The passage systematically outlines the problem (paragraph 1), causes (paragraph 2), and what must be done (paragraph 3) — a classic structure for informing readers and calling for action.",
-    "passage": "Antibiotic resistance is increasingly recognised as one of the gravest threats to global public health. Every year, drug-resistant infections claim an estimated 1.3 million lives worldwide, and projections warn this figure could exceed ten million annually by 2060 if systemic action is not taken. The World Health Organization has classified antimicrobial resistance as a priority concern, comparable in urgency to climate change.\n\nThe primary driver of resistance is the overuse and misuse of antibiotics. In many countries, patients pressure doctors for antibiotics to treat viral infections on which the drugs have no effect whatsoever. In agriculture, livestock are routinely given antibiotics not only to treat disease but also to (a) ________ growth — a practice that creates massive reservoirs of resistant bacteria across food systems. Poor sanitation allows resistant strains to spread rapidly, compounding the problem.\n\nTackling resistance requires a coordinated global strategy. Investment in new antibiotic development has stalled because the economic returns are insufficient to attract pharmaceutical companies. Meanwhile, rapid diagnostic tools that distinguish viral from bacterial infections could reduce unnecessary prescriptions significantly. Global governance frameworks must incentivise both the responsible use of existing antibiotics and the discovery of new ones — without this dual approach, medicine risks entering a post-antibiotic era.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep10_q3_gen_2",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 2 and paragraph 3?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 4 questions the accuracy of the statistics in paragraph 3"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 3 identifies the causes behind the crisis described in paragraph 3"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 4 introduces a different disease from the one in paragraph 2"
-      },
-      {
-        "letter": "D",
-        "text": "Paragraph 4 provides the solutions recommended in paragraph 2"
-      },
-      {
-        "letter": "E",
-        "text": "Paragraph 4 repeats the statistics from paragraph 2 using different numbers"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 1 establishes the scale and severity of antibiotic resistance. Paragraph 2 then explains the root causes (overuse in medicine and agriculture) — a problem-to-cause progression.",
-    "passage": "Antibiotic resistance is increasingly recognised as one of the gravest threats to global public health. Every year, drug-resistant infections claim an estimated 1.3 million lives worldwide, and projections warn this figure could exceed ten million annually by 2056 if systemic action is not taken. The World Health Organization has classified antimicrobial resistance as a priority concern, comparable in urgency to climate change.\n\nThe primary driver of resistance is the overuse and misuse of antibiotics. In many countries, patients pressure doctors for antibiotics to treat viral infections on which the drugs have no effect whatsoever. In agriculture, livestock are routinely given antibiotics not only to treat disease but also to (a) ________ growth — a practice that creates massive reservoirs of resistant bacteria across food systems. Poor sanitation allows resistant strains to spread rapidly, compounding the problem.\n\nTackling resistance requires a coordinated global strategy. Investment in new antibiotic development has stalled because the economic returns are insufficient to attract pharmaceutical companies. Meanwhile, rapid diagnostic tools that distinguish viral from bacterial infections could reduce unnecessary prescriptions significantly. Global governance frameworks must incentivise both the responsible use of existing antibiotics and the discovery of new ones — without this dual approach, medicine risks entering a post-antibiotic era.",
-    "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
-    ]
-  },
-  {
-    "id": "ep10_q4_gen_2",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "According to paragraph 3, why has investment in new antibiotic development stalled?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Scientists lack the knowledge to create new antibiotics"
-      },
-      {
-        "letter": "B",
-        "text": "Governments have banned new antibiotic research"
-      },
-      {
-        "letter": "C",
-        "text": "Insufficient economic returns make it unattractive for pharmaceutical companies"
-      },
-      {
-        "letter": "D",
-        "text": "Existing antibiotics are still fully effective"
-      },
-      {
-        "letter": "E",
-        "text": "There is no demand for new antibiotics"
+        "text": "pioneers"
       }
     ],
     "correct_answer": "C",
-    "explanation": "Paragraph 3 explicitly states: 'Investment in new antibiotic development has stalled because the economic returns are insufficient to attract pharmaceutical companies.'",
-    "passage": "Antibiotic resistance is increasingly recognised as one of the gravest threats to global public health. Every year, drug-resistant infections claim an estimated 1.3 million lives worldwide, and projections warn this figure could exceed ten million annually by 2055 if systemic action is not taken. The World Health Organization has classified antimicrobial resistance as a priority concern, comparable in urgency to climate change.\n\nThe primary driver of resistance is the overuse and misuse of antibiotics. In many countries, patients pressure doctors for antibiotics to treat viral infections on which the drugs have no effect whatsoever. In agriculture, livestock are routinely given antibiotics not only to treat disease but also to (a) ________ growth — a practice that creates massive reservoirs of resistant bacteria across food systems. Poor sanitation allows resistant strains to spread rapidly, compounding the problem.\n\nTackling resistance requires a coordinated global strategy. Investment in new antibiotic development has stalled because the economic returns are insufficient to attract pharmaceutical companies. Meanwhile, rapid diagnostic tools that distinguish viral from bacterial infections could reduce unnecessary prescriptions significantly. Global governance frameworks must incentivise both the responsible use of existing antibiotics and the discovery of new ones — without this dual approach, medicine risks entering a post-antibiotic era.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep12_q5_gen_2",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "According to paragraph 3, which action does the author consider most fundamental for long-term progress?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Banning microbeads from cosmetic products"
-      },
-      {
-        "letter": "B",
-        "text": "Installing better wastewater filters"
-      },
-      {
-        "letter": "C",
-        "text": "Reducing plastic production and shifting to circular economy models"
-      },
-      {
-        "letter": "D",
-        "text": "Cleaning up existing ocean plastic deposits"
-      },
-      {
-        "letter": "E",
-        "text": "Increasing public awareness campaigns"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Paragraph 3 concludes that 'meaningful progress depends on a fundamental reduction in plastic production and a rapid global shift towards circular economy models' — surpassing all other measures.",
-    "passage": "Microplastics — plastic particles smaller than five millimetres — have permeated every corner of the planet. They have been detected in the deepest ocean trenches, Arctic ice cores, mountain rainwater, and the bloodstreams of humans and wildlife alike. Although research into their long-term health effects is still developing, accumulating evidence suggests they can (a) ________ the hormone and immune systems of various organisms.\n\nThe primary sources are the fragmentation of larger plastic waste and the deliberate inclusion of microbeads in cosmetic products. Synthetic textiles shed microscopic fibres with every wash, contributing millions of particles to wastewater systems that standard filters are not designed to remove. Single-use plastics, once discarded, break down through UV exposure and wave action into ever-smaller particles that persist for centuries.\n\nAddressing the microplastic crisis demands action at multiple levels. Manufacturers in several countries have been required to eliminate microbeads from rinse-off products. Advanced filtration systems are being installed in wastewater treatment plants. Ultimately, however, meaningful progress depends on a fundamental reduction in plastic production and a rapid global shift towards circular economy models in which materials are designed to be reused rather than discarded.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep09_q4_gen_2",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 2?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Traditional farming is completely obsolete"
-      },
-      {
-        "letter": "B",
-        "text": "Population growth is not related to food security"
-      },
-      {
-        "letter": "C",
-        "text": "Current farming methods will need technological supplements to feed a growing world"
-      },
-      {
-        "letter": "D",
-        "text": "Arable land is expanding rapidly due to new technologies"
-      },
-      {
-        "letter": "E",
-        "text": "Data analytics are already being used on all farms worldwide"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Paragraph 1 states traditional methods 'will not be sufficient on their own' given population growth and climate challenges, implying technological supplementation is necessary.",
-    "passage": "With global population expected to reach nearly ten billion by 2050, ensuring adequate food production for all is one of the defining challenges of our time. Traditional farming methods, constrained by limited arable land and increasingly erratic weather patterns, will not be sufficient on their own. Agricultural researchers are therefore turning to precision farming technologies — GPS-guided machinery, soil sensors, and data analytics — to maximize yields while minimizing resource waste.\n\nSmart farming can drastically reduce the environmental footprint of agriculture. Sensors embedded in fields transmit real-time data on soil moisture, temperature, and nutrient levels, enabling farmers to (a) ________ fertilizer and water with surgical precision rather than blanket applications. Drones spray pesticides only where needed, cutting chemical use by up to 82 percent. Such efficiencies free up resources and reduce the runoff that pollutes rivers and coastal ecosystems.\n\nAccess to these technologies remains deeply unequal, however. Small-scale farmers in developing nations, who produce roughly 72 percent of the world's food, often lack the capital, connectivity, and training required. Development organizations argue that bridging this gap is as important as the technological innovation itself. Without inclusive access, precision farming may widen the gap between industrial and subsistence agriculture rather than closing it.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep09_q5_gen_2",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The author's attitude toward smart farming is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Wholly negative — technology is harming agriculture"
-      },
-      {
-        "letter": "B",
-        "text": "Uncritically enthusiastic — all problems are solved"
-      },
-      {
-        "letter": "C",
-        "text": "Cautiously optimistic — promising but access must be inclusive"
-      },
-      {
-        "letter": "D",
-        "text": "Hostile toward small-scale farmers"
-      },
-      {
-        "letter": "E",
-        "text": "Indifferent — food security is not a real concern"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The author praises precision farming's efficiency (paragraph 2) but warns in paragraph 3 that unequal access is a serious risk — a cautiously optimistic, balanced stance.",
-    "passage": "With global population expected to reach nearly ten billion by 2050, ensuring adequate food production for all is one of the defining challenges of our time. Traditional farming methods, constrained by limited arable land and increasingly erratic weather patterns, will not be sufficient on their own. Agricultural researchers are therefore turning to precision farming technologies — GPS-guided machinery, soil sensors, and data analytics — to maximize yields while minimizing resource waste.\n\nSmart farming can drastically reduce the environmental footprint of agriculture. Sensors embedded in fields transmit real-time data on soil moisture, temperature, and nutrient levels, enabling farmers to (a) ________ fertilizer and water with surgical precision rather than blanket applications. Drones spray pesticides only where needed, cutting chemical use by up to 84 percent. Such efficiencies free up resources and reduce the runoff that pollutes rivers and coastal ecosystems.\n\nAccess to these technologies remains deeply unequal, however. Small-scale farmers in developing nations, who produce roughly 71 percent of the world's food, often lack the capital, connectivity, and training required. Development organizations argue that bridging this gap is as important as the technological innovation itself. Without inclusive access, precision farming may widen the gap between industrial and subsistence agriculture rather than closing it.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep14_q3_gen_2",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from sentences 8 and 10?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "EVs produce more emissions than petrol cars in all circumstances"
-      },
-      {
-        "letter": "B",
-        "text": "The environmental benefit of EVs is conditional on the energy source used"
-      },
-      {
-        "letter": "C",
-        "text": "EVs are already fully carbon-neutral globally"
-      },
-      {
-        "letter": "D",
-        "text": "Renewable energy stops EV adoption"
-      },
-      {
-        "letter": "E",
-        "text": "Critics believe EVs should be banned"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Sentence 7 states the benefit 'depends heavily' on grid cleanliness (conditional). Sentence 8 notes the advantage 'will continue to widen' as renewables grow — confirming conditionality.",
-    "passage": "(3) Electric vehicles (EVs) are rapidly moving from the margins to the mainstream of the global automotive market. (4) Government incentives and declining battery costs have made EVs increasingly affordable for ordinary consumers. (4) A single charge on the latest models now covers over 515 kilometres, effectively addressing the range anxiety that once deterred buyers. (6) Many people argue that eating home-cooked meals is healthier than dining in restaurants. (7) Major automakers have committed to ending production of petrol and diesel vehicles within the next two decades. (8) Charging infrastructure is expanding rapidly, with public charge points installed in car parks, motorway service areas, and urban kerb-sides. (8) Critics note that the carbon benefit of EVs depends heavily on the cleanliness of the electricity grid used to charge them. (9) Nevertheless, as renewable energy capacity grows, the lifecycle emissions advantage of EVs over combustion engines will continue to widen.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep08_q2_gen_2",
-    "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): '...mass media and the internet (a) ________ the global dominance of a handful of languages...'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "reinforcing"
-      },
-      {
-        "letter": "B",
-        "text": "reinforces"
-      },
-      {
-        "letter": "C",
-        "text": "reinforce"
-      },
-      {
-        "letter": "D",
-        "text": "reinforced"
-      },
-      {
-        "letter": "E",
-        "text": "has reinforced"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The compound subject 'mass media and the internet' is plural, requiring the base form 'reinforce' (not reinforces). Present simple is used for ongoing truths.",
-    "passage": "Thousands of the world's languages are facing extinction at an unprecedented rate. Linguists estimate that roughly half of the approximately 7,000 languages spoken today will disappear by the end of this century, with one language falling silent every two weeks. When a language dies, it carries with it an irreplaceable body of knowledge: unique ecological observations, oral histories, and conceptual frameworks found nowhere else.\n\nThe causes are intertwined. Economic pressures push speakers of minority languages to adopt dominant tongues in order to access education and employment. Urbanization separates communities from the land-based contexts in which their languages flourished. Meanwhile, mass media and the internet (a) ________ the global dominance of a handful of languages, particularly English and Mandarin, accelerating the marginalisation of smaller ones.\n\nEfforts to preserve endangered languages are gaining momentum. Immersion schools and bilingual education programs have achieved notable success with languages such as Welsh and Maori. Digital archiving projects are recording spoken grammars and vocabularies before their last speakers pass away. Scholars argue, however, that true revitalization requires not just documentation but the creation of vibrant communities of speakers who use the language in everyday life.",
+    "explanation": "Past tense 'pioneered' is needed for a historical period.",
+    "passage": "The Renaissance was a period of 'rebirth' in European culture, moving away from medieval styles toward realism. Artists such as Leonardo da Vinci (a) ________ techniques like chiaroscuro to create the illusion of three-dimensional depth. This era emphasized humanism, focusing on human potential and achievements rather than purely religious subjects.",
+    "passage_id": "t2_p2",
+    "id": "eng_04_gen_2",
     "hints": [
       "Identify the subject and its number (singular or plural).",
       "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep11_q4_gen_2",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 3?",
+    "topic": "Reading",
+    "question_text": "What was a central focus of the Renaissance according to the text?",
     "options": [
       {
         "letter": "A",
-        "text": "Green spaces have only aesthetic value"
+        "text": "Abstract geometry"
       },
       {
         "letter": "B",
-        "text": "Urban green spaces serve both human health and ecological functions"
+        "text": "Humanism and realism"
       },
       {
         "letter": "C",
-        "text": "Dense cities have more green space than suburban areas"
+        "text": "Medieval tradition"
       },
       {
         "letter": "D",
-        "text": "Pollinators are unaffected by urbanisation"
+        "text": "Purely religious subject matter"
       },
       {
         "letter": "E",
-        "text": "Parks are primarily used for economic activity"
+        "text": "Digital manipulation"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Paragraph 1 discusses both personal health benefits (mental health, stress reduction) and ecological benefits (cooling, rainwater absorption, pollinator habitat) — confirming option B.",
-    "passage": "As cities grow ever denser, the value of parks, gardens, and tree-lined streets has never been clearer. Research consistently links access to urban green spaces with improved mental health, reduced stress, and faster recovery from illness. Green areas also play a critical ecological role, cooling urban heat islands, absorbing rainwater, and providing habitat for pollinators essential to food production.\n\nDespite these benefits, green space is often among the first amenities sacrificed when cities face pressure to build more housing and infrastructure. Low-income neighbourhoods are disproportionately affected, frequently lacking trees and parks compared to wealthier districts. This inequity means that the residents who most need restorative environments — those experiencing overcrowding and pollution — are the least likely to (a) ________ them.\n\nForward-thinking cities are finding creative solutions. Singapore has integrated greenery into building facades and rooftops as part of its 'City in a Garden' vision. Medellín, Colombia, created 'green corridors' along major avenues, reducing temperatures by several degrees. Researchers argue that treating green space as essential infrastructure — rather than an optional amenity — and mandating equitable distribution across all districts is the most effective long-term strategy.",
+    "explanation": "The text mentions moving toward 'realism' and emphasizing 'humanism'.",
+    "passage": "The Renaissance was a period of 'rebirth' in European culture, moving away from medieval styles toward realism. Artists such as Leonardo da Vinci (a) ________ techniques like chiaroscuro to create the illusion of three-dimensional depth. This era emphasized humanism, focusing on human potential and achievements rather than purely religious subjects.",
+    "passage_id": "t2_p2",
+    "id": "eng_05_gen_2",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep13_q1_gen_2",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for this passage is...",
+    "topic": "Vocabulary",
+    "question_text": "What is the purpose of the 'chiaroscuro' technique mentioned in the text?",
     "options": [
       {
         "letter": "A",
-        "text": "Why Offices Are Going Out of Business"
+        "text": "To mix paints effectively"
       },
       {
         "letter": "B",
-        "text": "Remote Work: Benefits, Drawbacks, and the Hybrid Future"
+        "text": "To create the illusion of 3D depth"
       },
       {
         "letter": "C",
-        "text": "The History of Telecommuting Technology"
+        "text": "To preserve the canvas from mold"
       },
       {
         "letter": "D",
-        "text": "How COVID-23 Changed Global Healthcare"
+        "text": "To paint religious symbols accurately"
       },
       {
         "letter": "E",
-        "text": "Building Better Open-Plan Offices"
+        "text": "To hide imperfections in the painting"
       }
     ],
     "correct_answer": "B",
-    "explanation": "The passage sequentially covers adoption (paragraph 1), employee benefits (paragraph 2), employer drawbacks (paragraph 3), and the hybrid solution — 'Benefits, Drawbacks, and the Hybrid Future' maps precisely to this.",
-    "passage": "The COVID-21 pandemic forced an unprecedented global experiment in remote work, compressing years of gradual adoption into a matter of weeks. By mid-2020, tens of millions of knowledge workers worldwide were performing their jobs entirely from home. When the immediate health crisis receded, a striking majority indicated a preference for maintaining at least some degree of location flexibility in their working lives.\n\nThe benefits for employees are well-documented. Eliminating daily commutes can (a) ________ workers an extra hour or more each day, time they redirect toward family, exercise, or personal development. Geographic flexibility allows individuals to live in lower-cost areas without sacrificing career opportunities. Studies have also found that many employees report higher concentration and productivity in home environments free from open-plan office noise.\n\nEmployers and managers, however, identify real drawbacks. Spontaneous in-person collaboration and informal knowledge-sharing — the kind that happens in hallway conversations — are difficult to replicate digitally. Junior employees in particular may miss the mentoring and professional socialization that office environments provide naturally. Many organisations are therefore moving toward hybrid models, in which teams gather in person on designated days specifically for creative and collaborative work while retaining remote flexibility for focused, individual tasks.",
+    "explanation": "The text says it was used 'to create the illusion of three-dimensional depth'.",
+    "passage": "The Renaissance was a period of 'rebirth' in European culture, moving away from medieval styles toward realism. Artists such as Leonardo da Vinci (a) ________ techniques like chiaroscuro to create the illusion of three-dimensional depth. This era emphasized humanism, focusing on human potential and achievements rather than purely religious subjects.",
+    "passage_id": "t2_p2",
+    "id": "eng_06_gen_2",
+    "hints": [
+      "Re-read the relevant part of the passage carefully."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): 'It can (a) ________ shocks...'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "generate"
+      },
+      {
+        "letter": "B",
+        "text": "received"
+      },
+      {
+        "letter": "C",
+        "text": "absorbed"
+      },
+      {
+        "letter": "D",
+        "text": "refuse"
+      },
+      {
+        "letter": "E",
+        "text": "insulate"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "'Generate' shocks is the appropriate verb for an electric eel.",
+    "passage": "The electric eel is not actually an eel, but a type of knifefish. It can (a) ________ shocks of up to 607 volts to stun prey or deter predators. These shocks come from specialized cells called electroocytes. Scientists are studying these cells to develop better bio-inspired batteries for medical implants.",
+    "passage_id": "t2_p3",
+    "id": "eng_07_gen_2",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "Why are scientists studying the electric eel according to the text?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To find a cure for electric shocks"
+      },
+      {
+        "letter": "B",
+        "text": "To develop bio-inspired batteries for medical use"
+      },
+      {
+        "letter": "C",
+        "text": "To learn how to swim faster"
+      },
+      {
+        "letter": "D",
+        "text": "To categorize it as a true eel"
+      },
+      {
+        "letter": "E",
+        "text": "To protect it from extinction"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text states they are studying cells to develop 'bio-inspired batteries'.",
+    "passage": "The electric eel is not actually an eel, but a type of knifefish. It can (a) ________ shocks of up to 607 volts to stun prey or deter predators. These shocks come from specialized cells called electroocytes. Scientists are studying these cells to develop better bio-inspired batteries for medical implants.",
+    "passage_id": "t2_p3",
+    "id": "eng_08_gen_2",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep12_q2_gen_2",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): '...evidence suggests they can (a) ________ the hormone and immune systems...'",
+    "topic": "Reading",
+    "question_text": "Which of the following is true according to the passage?",
     "options": [
       {
         "letter": "A",
-        "text": "disrupts"
+        "text": "The electric eel is a true eel"
       },
       {
         "letter": "B",
-        "text": "disrupted"
+        "text": "The electric eel can generate up to 610 volts"
       },
       {
         "letter": "C",
-        "text": "disrupting"
+        "text": "Shocks are used only for communication"
       },
       {
         "letter": "D",
-        "text": "disrupt"
+        "text": "The specialized cells are located in the heart"
       },
       {
         "letter": "E",
-        "text": "has disrupted"
+        "text": "Eels are currently used to power hospitals"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text explicitly says it can generate 'shocks of up to 600 volts'.",
+    "passage": "The electric eel is not actually an eel, but a type of knifefish. It can (a) ________ shocks of up to 611 volts to stun prey or deter predators. These shocks come from specialized cells called electroocytes. Scientists are studying these cells to develop better bio-inspired batteries for medical implants.",
+    "passage_id": "t2_p3",
+    "id": "eng_09_gen_2",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): 'This (a) ________ preserved the city...'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "unintentionally"
+      },
+      {
+        "letter": "B",
+        "text": "willingly"
+      },
+      {
+        "letter": "C",
+        "text": "destructively"
+      },
+      {
+        "letter": "D",
+        "text": "rarely"
+      },
+      {
+        "letter": "E",
+        "text": "partially"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "The preservation was an accidental (unintentional) result of the disaster.",
+    "passage": "The eruption of Mt. Vesuvius in 84 AD buried the city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a moment in time for future archaeologists. Today, excavations reveal detailed glimpses into daily Roman life, from bakeries to public baths. However, the site now faces the challenge of erosion and 'over-tourism'.",
+    "passage_id": "t2_p4",
+    "id": "eng_10_gen_2",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What is one challenge Pompeii faces today?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Another imminent eruption"
+      },
+      {
+        "letter": "B",
+        "text": "A lack of interest from tourists"
+      },
+      {
+        "letter": "C",
+        "text": "Erosion and over-tourism"
+      },
+      {
+        "letter": "D",
+        "text": "The ash is too hard to dig"
+      },
+      {
+        "letter": "E",
+        "text": "Archaeologists are banned"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The text mentions 'erosion and over-tourism' as challenges.",
+    "passage": "The eruption of Mt. Vesuvius in 84 AD buried the city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a moment in time for future archaeologists. Today, excavations reveal detailed glimpses into daily Roman life, from bakeries to public baths. However, the site now faces the challenge of erosion and 'over-tourism'.",
+    "passage_id": "t2_p4",
+    "id": "eng_11_gen_2",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What provided the preservation of Pompeii according to the passage?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Strong modern chemicals"
+      },
+      {
+        "letter": "B",
+        "text": "A thick layer of volcanic ash"
+      },
+      {
+        "letter": "C",
+        "text": "A massive flood"
+      },
+      {
+        "letter": "D",
+        "text": "Ancient stone walls"
+      },
+      {
+        "letter": "E",
+        "text": "The dry desert heat"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text says ash 'buried the city... and preserved' it.",
+    "passage": "The eruption of Mt. Vesuvius in 83 AD buried the city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a moment in time for future archaeologists. Today, excavations reveal detailed glimpses into daily Roman life, from bakeries to public baths. However, the site now faces the challenge of erosion and 'over-tourism'.",
+    "passage_id": "t2_p4",
+    "id": "eng_12_gen_2",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): '...computers learn from data (a) ________ being explicitly programmed.'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "with"
+      },
+      {
+        "letter": "B",
+        "text": "without"
+      },
+      {
+        "letter": "C",
+        "text": "instead"
+      },
+      {
+        "letter": "D",
+        "text": "by"
+      },
+      {
+        "letter": "E",
+        "text": "unless"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "'Without' being programmed is the definition of machine learning context here.",
+    "passage": "Machine learning is a subset of AI where computers learn from data (a) ________ being explicitly programmed. By identifying patterns in massive datasets, these systems can name objects in photos or predict stock market trends. While AI offers efficiency, philosophers worry about the 'black box' problem — we don't always know *why* an AI made a specific decision.",
+    "passage_id": "t2_p5",
+    "id": "eng_13_gen_2",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What is the 'black box' problem mentioned in the text?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "AI being too expensive"
+      },
+      {
+        "letter": "B",
+        "text": "The lack of transparency in AI decision-making"
+      },
+      {
+        "letter": "C",
+        "text": "AI running out of data"
+      },
+      {
+        "letter": "D",
+        "text": "Computers being literally black in color"
+      },
+      {
+        "letter": "E",
+        "text": "AI failing to identify photos"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text states 'we don't always know *why* an AI made a specific decision'.",
+    "passage": "Machine learning is a subset of AI where computers learn from data (a) ________ being explicitly programmed. By identifying patterns in massive datasets, these systems can name objects in photos or predict stock market trends. While AI offers efficiency, philosophers worry about the 'black box' problem — we don't always know *why* an AI made a specific decision.",
+    "passage_id": "t2_p5",
+    "id": "eng_14_gen_2",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "question_text": "The word 'explicitly' in the text is closest in meaning to...",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vaguely"
+      },
+      {
+        "letter": "B",
+        "text": "publicly"
+      },
+      {
+        "letter": "C",
+        "text": "unnecessarily"
+      },
+      {
+        "letter": "D",
+        "text": "directly and clearly"
+      },
+      {
+        "letter": "E",
+        "text": "quickly"
       }
     ],
     "correct_answer": "D",
-    "explanation": "'Can + base verb' is the standard modal construction. 'Disrupt' (base form) correctly follows the modal 'can'.",
-    "passage": "Microplastics — plastic particles smaller than five millimetres — have permeated every corner of the planet. They have been detected in the deepest ocean trenches, Arctic ice cores, mountain rainwater, and the bloodstreams of humans and wildlife alike. Although research into their long-term health effects is still developing, accumulating evidence suggests they can (a) ________ the hormone and immune systems of various organisms.\n\nThe primary sources are the fragmentation of larger plastic waste and the deliberate inclusion of microbeads in cosmetic products. Synthetic textiles shed microscopic fibres with every wash, contributing millions of particles to wastewater systems that standard filters are not designed to remove. Single-use plastics, once discarded, break down through UV exposure and wave action into ever-smaller particles that persist for centuries.\n\nAddressing the microplastic crisis demands action at multiple levels. Manufacturers in several countries have been required to eliminate microbeads from rinse-off products. Advanced filtration systems are being installed in wastewater treatment plants. Ultimately, however, meaningful progress depends on a fundamental reduction in plastic production and a rapid global shift towards circular economy models in which materials are designed to be reused rather than discarded.",
+    "explanation": "Explicitly means in a direct, clear manner.",
+    "passage": "Machine learning is a subset of AI where computers learn from data (a) ________ being explicitly programmed. By identifying patterns in massive datasets, these systems can name objects in photos or predict stock market trends. While AI offers efficiency, philosophers worry about the 'black box' problem — we don't always know *why* an AI made a specific decision.",
+    "passage_id": "t2_p5",
+    "id": "eng_15_gen_2",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "Re-read the relevant part of the passage carefully."
     ]
   },
   {
-    "id": "ep12_q3_gen_2",
     "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 2 and paragraph 3?",
+    "topic": "Cohesion",
+    "question_text": "Which sentence is irrelevant to the graphene topic?",
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 3 contradicts the health claims in paragraph 2"
+        "text": "Sentence 2"
       },
       {
         "letter": "B",
-        "text": "Paragraph 4 explains the origins of the widespread problem described in paragraph 3"
+        "text": "Sentence 3"
       },
       {
         "letter": "C",
-        "text": "Paragraph 3 introduces solutions that reverse the issues of paragraph 2"
+        "text": "Sentence 5"
       },
       {
         "letter": "D",
-        "text": "Paragraph 3 gives new statistics about Arctic ice cores"
+        "text": "None"
       },
       {
         "letter": "E",
-        "text": "Paragraph 3 focuses on a different type of pollution"
+        "text": "Sentence 3 and 4"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Paragraph 1 establishes that microplastics are everywhere and potentially harmful. Paragraph 2 then explains where they come from — the relationship is effect preceding cause (or problem then source).",
-    "passage": "Microplastics — plastic particles smaller than five millimetres — have permeated every corner of the planet. They have been detected in the deepest ocean trenches, Arctic ice cores, mountain rainwater, and the bloodstreams of humans and wildlife alike. Although research into their long-term health effects is still developing, accumulating evidence suggests they can (a) ________ the hormone and immune systems of various organisms.\n\nThe primary sources are the fragmentation of larger plastic waste and the deliberate inclusion of microbeads in cosmetic products. Synthetic textiles shed microscopic fibres with every wash, contributing millions of particles to wastewater systems that standard filters are not designed to remove. Single-use plastics, once discarded, break down through UV exposure and wave action into ever-smaller particles that persist for centuries.\n\nAddressing the microplastic crisis demands action at multiple levels. Manufacturers in several countries have been required to eliminate microbeads from rinse-off products. Advanced filtration systems are being installed in wastewater treatment plants. Ultimately, however, meaningful progress depends on a fundamental reduction in plastic production and a rapid global shift towards circular economy models in which materials are designed to be reused rather than discarded.",
+    "explanation": "Sentence 2 is a generic fact about copper, while the rest are about graphene.",
+    "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice. It is 214 times stronger than steel, yet incredibly flexible and lightweight. It also conducts electricity better than copper. (2) These properties make it ideal for flexible electronics and faster batteries. (3) Copper is a reddish-brown metal. (4) Despite its potential, mass-producing high-quality graphene at a low cost remains difficult.",
+    "passage_id": "t2_p6",
+    "id": "eng_16_gen_2",
     "hints": [
       "Identify the main idea of each paragraph first.",
       "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
     ]
   },
   {
-    "id": "ep08_q1_gen_2",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for this passage is...",
+    "topic": "Reading",
+    "question_text": "What is one mentioned property of graphene?",
     "options": [
       {
         "letter": "A",
-        "text": "The Dominance of English in Global Communication"
+        "text": "It is weaker than steel"
       },
       {
         "letter": "B",
-        "text": "Language Extinction: Causes, Consequences, and Conservation"
+        "text": "It is a poor conductor"
       },
       {
         "letter": "C",
-        "text": "How to Learn a New Language Quickly"
+        "text": "It is 207 times stronger than steel"
       },
       {
         "letter": "D",
-        "text": "The Role of Technology in Modern Communication"
+        "text": "It is very heavy"
       },
       {
         "letter": "E",
-        "text": "Welsh and Maori Language Revival Programs"
+        "text": "It is brittle and easily broken"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 1 discusses the consequences of language loss, paragraph 2 the causes, and paragraph 3 the conservation efforts — 'Causes, Consequences, and Conservation' maps precisely to this structure.",
-    "passage": "Thousands of the world's languages are facing extinction at an unprecedented rate. Linguists estimate that roughly half of the approximately 7,000 languages spoken today will disappear by the end of this century, with one language falling silent every two weeks. When a language dies, it carries with it an irreplaceable body of knowledge: unique ecological observations, oral histories, and conceptual frameworks found nowhere else.\n\nThe causes are intertwined. Economic pressures push speakers of minority languages to adopt dominant tongues in order to access education and employment. Urbanization separates communities from the land-based contexts in which their languages flourished. Meanwhile, mass media and the internet (a) ________ the global dominance of a handful of languages, particularly English and Mandarin, accelerating the marginalisation of smaller ones.\n\nEfforts to preserve endangered languages are gaining momentum. Immersion schools and bilingual education programs have achieved notable success with languages such as Welsh and Maori. Digital archiving projects are recording spoken grammars and vocabularies before their last speakers pass away. Scholars argue, however, that true revitalization requires not just documentation but the creation of vibrant communities of speakers who use the language in everyday life.",
+    "correct_answer": "C",
+    "explanation": "The text says it is 200 times stronger than steel.",
+    "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice. It is 210 times stronger than steel, yet incredibly flexible and lightweight. It also conducts electricity better than copper. (3) These properties make it ideal for flexible electronics and faster batteries. (4) Copper is a reddish-brown metal. (5) Despite its potential, mass-producing high-quality graphene at a low cost remains difficult.",
+    "passage_id": "t2_p6",
+    "id": "eng_17_gen_2",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep14_q4_gen_2",
     "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "The sentence: 'Battery recycling programs are being developed to handle the growing volume of spent EV batteries.' should be inserted...",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): 'Most of the existing wall was (a) ________ during the Ming Dynasty.'",
     "options": [
       {
         "letter": "A",
-        "text": "Before sentence 2"
+        "text": "construct"
       },
       {
         "letter": "B",
-        "text": "After sentence 5"
+        "text": "constructing"
       },
       {
         "letter": "C",
-        "text": "After sentence 7"
+        "text": "constructed"
       },
       {
         "letter": "D",
-        "text": "After sentence 8"
+        "text": "has constructed"
       },
       {
         "letter": "E",
-        "text": "After sentence 10"
+        "text": "constructs"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Sentence 7 raises the concern about grid emissions as a remaining challenge. A sentence about battery recycling (another environmental concern) fits naturally immediately after as an additional challenge, before the optimistic conclusion in sentence 8.",
-    "passage": "(3) Electric vehicles (EVs) are rapidly moving from the margins to the mainstream of the global automotive market. (4) Government incentives and declining battery costs have made EVs increasingly affordable for ordinary consumers. (5) A single charge on the latest models now covers over 506 kilometres, effectively addressing the range anxiety that once deterred buyers. (6) Many people argue that eating home-cooked meals is healthier than dining in restaurants. (7) Major automakers have committed to ending production of petrol and diesel vehicles within the next two decades. (8) Charging infrastructure is expanding rapidly, with public charge points installed in car parks, motorway service areas, and urban kerb-sides. (9) Critics note that the carbon benefit of EVs depends heavily on the cleanliness of the electricity grid used to charge them. (10) Nevertheless, as renewable energy capacity grows, the lifecycle emissions advantage of EVs over combustion engines will continue to widen.",
+    "correct_answer": "C",
+    "explanation": "Passive voice 'was constructed' is correct.",
+    "passage": "The Great Wall of China is not a single continuous wall, but a series of fortifications built across different dynasties. Most of the existing wall was (a) ________ during the Ming Dynasty. It stretches for over 21,000 kilometers, serving as a defense against northern invasions and a means of controlling Silk Road trade.",
+    "passage_id": "t2_p7",
+    "id": "eng_18_gen_2",
     "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "Beside defense, what was another purpose of the Great Wall?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To provide a marathon track"
+      },
+      {
+        "letter": "B",
+        "text": "To control Silk Road trade"
+      },
+      {
+        "letter": "C",
+        "text": "To act as a dam for rivers"
+      },
+      {
+        "letter": "D",
+        "text": "To keep animals from migrating"
+      },
+      {
+        "letter": "E",
+        "text": "To observe the stars"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text mentioned it served as a 'means of controlling Silk Road trade'.",
+    "passage": "The Great Wall of China is not a single continuous wall, but a series of fortifications built across different dynasties. Most of the existing wall was (a) ________ during the Ming Dynasty. It stretches for over 21,000 kilometers, serving as a defense against northern invasions and a means of controlling Silk Road trade.",
+    "passage_id": "t2_p7",
+    "id": "eng_19_gen_2",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "According to the text, is the Great Wall one long solid wall?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Yes, it is one continuous structure"
+      },
+      {
+        "letter": "B",
+        "text": "No, it is a series of fortifications"
+      },
+      {
+        "letter": "C",
+        "text": "It was before the Ming Dynasty"
+      },
+      {
+        "letter": "D",
+        "text": "It only became one after 1907"
+      },
+      {
+        "letter": "E",
+        "text": "The text does not provide this information"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text says it is 'not a single continuous wall, but a series of fortifications'.",
+    "passage": "The Great Wall of China is not a single continuous wall, but a series of fortifications built across different dynasties. Most of the existing wall was (a) ________ during the Ming Dynasty. It stretches for over 21,000 kilometers, serving as a defense against northern invasions and a means of controlling Silk Road trade.",
+    "passage_id": "t2_p7",
+    "id": "eng_20_gen_2",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
     ]
   },
   {

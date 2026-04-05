@@ -600,703 +600,722 @@
     "explanation": "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 154]. Because $b, c, a$ are geometric, we know $c^2 = ab$. If we substitute $a = 2b - c$ into the geometric equation, we get $c^2 = b(2b - c)$. Rearranging this gives $c^2 + bc - 2b^2 = 0$, which factors beautifully into $(c - b)(c + 2b) = 0$. So either $c = b$ or $c = -2b$. If $c = b$, then all three numbers are identical, violating the rule that $a < b < c$. So $c = -2b$ is the only valid path. This implies $a = 4b$. For the inequality $4b < b < -2b$ to be true, $b$ must be a negative integer. Looking at the provided options, the smallest negative integer choice available is -2."
   },
   {
-    "id": "ep01_q4_gen_3",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 3?",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): '...these dark environments (a) ________ unique ecosystems...'",
     "options": [
       {
         "letter": "A",
-        "text": "AI has fully replaced radiologists in all hospitals"
+        "text": "host"
       },
       {
         "letter": "B",
-        "text": "AI is applied to both diagnosis and pharmaceutical research"
+        "text": "hosts"
       },
       {
         "letter": "C",
-        "text": "Drug discovery now takes no time due to AI"
+        "text": "hosting"
       },
       {
         "letter": "D",
-        "text": "AI is only useful for cancer treatment"
+        "text": "hosted"
       },
       {
         "letter": "E",
-        "text": "Medical imaging is no longer performed by humans"
+        "text": "has hosted"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Plural subject 'environments' takes plural verb 'host'.",
+    "passage": "Deep on the ocean floor, hydrothermal vents spew superheated, mineral-rich water. Surprisingly, these dark environments (a) ________ unique ecosystems that do not rely on sunlight. Instead of photosynthesis, bacteria use a process called chemosynthesis to create energy from chemicals. This discovery has changed our understanding of where life can exist on other planets.",
+    "passage_id": "t3_p1",
+    "id": "eng_01_gen_3",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What process do bacteria near hydrothermal vents use to create energy?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Photosynthesis"
+      },
+      {
+        "letter": "B",
+        "text": "Chemosynthesis"
+      },
+      {
+        "letter": "C",
+        "text": "Radioactivity"
+      },
+      {
+        "letter": "D",
+        "text": "Solar power"
+      },
+      {
+        "letter": "E",
+        "text": "Hydraulic pressure"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Paragraph 1 explicitly mentions AI in medical imaging (diagnosis) and AI in pharmaceutical drug discovery (research), confirming both applications.",
-    "passage": "Artificial intelligence (AI) is increasingly being integrated into modern healthcare. Researchers now use AI algorithms to analyze medical imaging data, enabling faster and more accurate diagnoses of conditions such as cancer and cardiovascular disease. Pharmaceutical companies are also leveraging AI to (a) ________ the drug discovery process, significantly reducing the time needed to bring new treatments to market.\n\nOne celebrated application is early cancer detection, where AI systems trained on thousands of scans have identified tumors that human radiologists occasionally miss. Predictive analytics can also forecast which patients are at high risk of hospital readmission, allowing doctors to intervene before problems escalate. These capabilities are fundamentally transforming clinical decision-making and patient care.\n\nDespite its promise, AI in healthcare carries significant risks. Many training datasets do not represent diverse populations, producing biased predictions that can harm underrepresented groups. Accountability also remains unresolved: when an AI system errs critically, it is unclear who bears legal responsibility. Experts therefore argue that human oversight must remain central to any AI-assisted medical decision.",
+    "explanation": "The text explicitly names 'chemosynthesis'.",
+    "passage": "Deep on the ocean floor, hydrothermal vents spew superheated, mineral-rich water. Surprisingly, these dark environments (a) ________ unique ecosystems that do not rely on sunlight. Instead of photosynthesis, bacteria use a process called chemosynthesis to create energy from chemicals. This discovery has changed our understanding of where life can exist on other planets.",
+    "passage_id": "t3_p1",
+    "id": "eng_02_gen_3",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep06_q4_gen_3",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 2?",
+    "topic": "Reading",
+    "question_text": "Why was the discovery of these vents significant for planetary science?",
     "options": [
       {
         "letter": "A",
-        "text": "Renewable energy is still far more expensive than fossil fuels"
+        "text": "It proved life needs sunlight to exist"
       },
       {
         "letter": "B",
-        "text": "Only a few small countries have set climate targets"
+        "text": "It changed our understanding of where life can exist on other planets"
       },
       {
         "letter": "C",
-        "text": "Renewable energy has become cost-competitive and is supported at the highest policy levels"
+        "text": "It found evidence of alien spacecraft"
       },
       {
         "letter": "D",
-        "text": "Most governments oppose the shift to renewables"
+        "text": "It showed the ocean is slowly heating up"
       },
       {
         "letter": "E",
-        "text": "Net-zero targets have already been achieved"
+        "text": "It discovered new types of minerals for manufacturing"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text states the discovery 'changed our understanding of where life can exist on other planets'.",
+    "passage": "Deep on the ocean floor, hydrothermal vents spew superheated, mineral-rich water. Surprisingly, these dark environments (a) ________ unique ecosystems that do not rely on sunlight. Instead of photosynthesis, bacteria use a process called chemosynthesis to create energy from chemicals. This discovery has changed our understanding of where life can exist on other planets.",
+    "passage_id": "t3_p1",
+    "id": "eng_03_gen_3",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): '...a machine that (a) ________ reading...'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "transformed"
+      },
+      {
+        "letter": "B",
+        "text": "prevented"
+      },
+      {
+        "letter": "C",
+        "text": "forgot"
+      },
+      {
+        "letter": "D",
+        "text": "resticted"
+      },
+      {
+        "letter": "E",
+        "text": "ignored"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "'Transformed' fits the shift from luxury to common habit.",
+    "passage": "Johannes Gutenberg invented the printing press in the 15th century, a machine that (a) ________ reading from a luxury for the elite to a common habit for the masses. By using movable type, books could be produced much faster and cheaper. This led to a rapid spread of ideas, fueling the Reformation and the Scientific Revolution.",
+    "passage_id": "t3_p2",
+    "id": "eng_04_gen_3",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What was one major historical effect of the printing press?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The decline of universities"
+      },
+      {
+        "letter": "B",
+        "text": "The spread of the Black Death"
+      },
+      {
+        "letter": "C",
+        "text": "Fueling the Reformation and Scientific Revolution"
+      },
+      {
+        "letter": "D",
+        "text": "The invention of the internet"
+      },
+      {
+        "letter": "E",
+        "text": "A decrease in literacy rates"
       }
     ],
     "correct_answer": "C",
-    "explanation": "Paragraph 1 states renewables have achieved price parity (cost-competitive) and that major economies are pledging net-zero by 2050 (high-level policy support).",
-    "passage": "The global transition from fossil fuels to renewable energy sources represents one of the most sweeping economic and technological shifts of our era. Solar and wind power have achieved price parity with — and in many regions now undercut — conventional electricity generation. Governments worldwide are setting ambitious targets: several major economies have pledged to reach net-zero carbon emissions by 2050.\n\nThe benefits extend beyond reducing pollution. Renewable energy projects create substantial local employment, particularly in manufacturing, installation, and maintenance. Countries that previously depended on costly fuel imports can (a) ________ energy independence by harnessing domestic solar or wind resources, strengthening both economic resilience and national security.\n\nNevertheless, the transition poses genuine challenges. Renewable sources are inherently variable — the sun does not always shine and the wind does not always blow — creating reliability concerns for energy grids. Massive investment in battery storage, smart grids, and intercontinental transmission lines will be required. Communities reliant on coal mining and fossil-fuel industries also face painful economic disruption unless robust retraining and support programs accompany the energy shift.",
+    "explanation": "The text lists those two specific historical movements.",
+    "passage": "Johannes Gutenberg invented the printing press in the 15th century, a machine that (a) ________ reading from a luxury for the elite to a common habit for the masses. By using movable type, books could be produced much faster and cheaper. This led to a rapid spread of ideas, fueling the Reformation and the Scientific Revolution.",
+    "passage_id": "t3_p2",
+    "id": "eng_05_gen_3",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep04_q5_gen_3",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "According to the passage, which group MOST benefits from the flexibility of the gig model?",
+    "topic": "Reading",
+    "question_text": "What technology did Gutenberg use to speed up book production?",
     "options": [
       {
         "letter": "A",
-        "text": "Government regulators"
+        "text": "Electric motors"
       },
       {
         "letter": "B",
-        "text": "Both individual workers and businesses"
+        "text": "Digital scanners"
       },
       {
         "letter": "C",
-        "text": "Only large technology corporations"
+        "text": "Movable type"
       },
       {
         "letter": "D",
-        "text": "Retired workers seeking part-time income"
+        "text": "Steam power"
       },
       {
         "letter": "E",
-        "text": "Traditional salaried employees"
+        "text": "Woodblock printing"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 2 explicitly states that workers gain flexibility and freedom, while businesses benefit from lower costs and workforce scalability — both groups are identified as beneficiaries.",
-    "passage": "The gig economy — characterized by short-term contracts and freelance work rather than permanent employment — has grown dramatically over the past decade. Platforms such as ride-sharing apps, delivery services, and freelance marketplaces have made it easier than ever to (a) ________ work on a flexible, project-by-project basis. Today, an estimated 26 percent of workers in many developed countries derive at least part of their income from gig work.\n\nProponents argue the gig model offers workers unprecedented flexibility and freedom. Individuals can set their own hours, work from multiple platforms simultaneously, and pursue passion projects alongside income-generating tasks. For businesses, the model lowers overhead costs and allows rapid scaling of workforce in response to demand fluctuations.\n\nCritics, however, highlight serious structural problems. Gig workers are typically classified as independent contractors, denying them access to benefits such as health insurance, paid leave, and retirement savings plans. Income volatility also makes financial planning difficult, particularly for those who rely solely on gig earnings. Several governments are now debating legislation to reclassify gig workers and mandate (b) ________ protections.",
+    "correct_answer": "C",
+    "explanation": "The text mentions 'By using movable type, books could be produced much faster'.",
+    "passage": "Johannes Gutenberg invented the printing press in the 15th century, a machine that (a) ________ reading from a luxury for the elite to a common habit for the masses. By using movable type, books could be produced much faster and cheaper. This led to a rapid spread of ideas, fueling the Reformation and the Scientific Revolution.",
+    "passage_id": "t3_p2",
+    "id": "eng_06_gen_3",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep03_q3_gen_3",
     "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "The relationship between paragraph 3 and paragraph 4 is best described as...",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): '...without human (a) ________.'",
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 3 provides the cause of the problem identified in paragraph 2"
+        "text": "intervention"
       },
       {
         "letter": "B",
-        "text": "Paragraph 3 describes the industry's partial and criticized response to the concern raised in paragraph 2"
+        "text": "invention"
       },
       {
         "letter": "C",
-        "text": "Paragraph 3 contradicts the research findings of paragraph 3"
+        "text": "intention"
       },
       {
         "letter": "D",
-        "text": "Paragraph 4 repeats the same information as paragraph 3"
+        "text": "invasion"
       },
       {
         "letter": "E",
-        "text": "Paragraph 4 introduces an unrelated topic"
+        "text": "inflation"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "'Intervention' (human action/help) best fits the context.",
+    "passage": "Autonomous vehicles use a combination of LIDAR, cameras, and AI to navigate roads without human (a) ________. Supporters claim this will drastically reduce accidents caused by human error, such as distracted driving. However, legal questions about liability in the event of a crash remain (b) ________.",
+    "passage_id": "t3_p3",
+    "id": "eng_07_gen_3",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (b): '...remain (b) ________.'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "settled"
+      },
+      {
+        "letter": "B",
+        "text": "unresolved"
+      },
+      {
+        "letter": "C",
+        "text": "solved"
+      },
+      {
+        "letter": "D",
+        "text": "perfect"
+      },
+      {
+        "letter": "E",
+        "text": "simple"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Paragraph 1 establishes the mental health concern. Paragraph 2 then describes what platforms have done in response — but notes that critics find those responses insufficient.",
-    "passage": "The widespread use of social media platforms has sparked growing concern among psychologists and public health researchers. Studies increasingly link excessive social media use to elevated rates of anxiety, depression, and loneliness, particularly among teenagers. While correlation does not confirm causation, the volume and consistency of these findings have prompted serious calls for policy action.\n\nPlatforms themselves have been slow to act, often citing user autonomy and the complexity of moderating vast amounts of content. However, some companies have introduced features such as screen-time reminders, comment filters, and restrictions on recommending certain content to minors. Critics argue these measures are superficial and that the core business model — which rewards engagement above all else — remains unchanged.\n\nExperts propose a multi-pronged response. Parents and schools are encouraged to teach digital literacy, helping young people critically evaluate what they consume online. Regulators in several countries are exploring legislation that would impose stricter transparency requirements on algorithmic recommendation systems. The consensus is that protecting mental health in the digital age requires cooperation among individuals, platforms, and governments.",
+    "explanation": "'Unresolved' fits the context of legal questions still being debated.",
+    "passage": "Autonomous vehicles use a combination of LIDAR, cameras, and AI to navigate roads without human (a) ________. Supporters claim this will drastically reduce accidents caused by human error, such as distracted driving. However, legal questions about liability in the event of a crash remain (b) ________.",
+    "passage_id": "t3_p3",
+    "id": "eng_08_gen_3",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "According to the text, what is one major selling point of self-driving cars?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "They are faster than human drivers"
+      },
+      {
+        "letter": "B",
+        "text": "Reduction in accidents caused by human error"
+      },
+      {
+        "letter": "C",
+        "text": "They do not require any fuel"
+      },
+      {
+        "letter": "D",
+        "text": "They are cheaper to buy than regular cars"
+      },
+      {
+        "letter": "E",
+        "text": "They can fly over traffic"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Supporters claim they 'reduce accidents caused by human error'.",
+    "passage": "Autonomous vehicles use a combination of LIDAR, cameras, and AI to navigate roads without human (a) ________. Supporters claim this will drastically reduce accidents caused by human error, such as distracted driving. However, legal questions about liability in the event of a crash remain (b) ________.",
+    "passage_id": "t3_p3",
+    "id": "eng_09_gen_3",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): 'It is estimated that it (a) ________ hundreds of thousands...'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "house"
+      },
+      {
+        "letter": "B",
+        "text": "housing"
+      },
+      {
+        "letter": "C",
+        "text": "housed"
+      },
+      {
+        "letter": "D",
+        "text": "has housed"
+      },
+      {
+        "letter": "E",
+        "text": "houses"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Historical past tense 'housed' is needed.",
+    "passage": "The Great Library of Alexandria in Egypt was once the largest collection of knowledge in the ancient world. It is estimated that it (a) ________ hundreds of thousands of papyrus scrolls. The library's destruction is considered a tragic loss for history, as many works of poetry, science, and philosophy burned to ash.",
+    "passage_id": "t3_p4",
+    "id": "eng_10_gen_3",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "Why is the library's destruction considered a tragic loss?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Because the building was made of gold"
+      },
+      {
+        "letter": "B",
+        "text": "Because it contained millions of modern books"
+      },
+      {
+        "letter": "C",
+        "text": "Because many unique ancient works were lost"
+      },
+      {
+        "letter": "D",
+        "text": "Because it caused a war"
+      },
+      {
+        "letter": "E",
+        "text": "Because it was the only library in Egypt"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The text says 'many works... burned to ash', losing historical knowledge.",
+    "passage": "The Great Library of Alexandria in Egypt was once the largest collection of knowledge in the ancient world. It is estimated that it (a) ________ hundreds of thousands of papyrus scrolls. The library's destruction is considered a tragic loss for history, as many works of poetry, science, and philosophy burned to ash.",
+    "passage_id": "t3_p4",
+    "id": "eng_11_gen_3",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What material were the library's 'books' made of?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Skins"
+      },
+      {
+        "letter": "B",
+        "text": "Papyrus scrolls"
+      },
+      {
+        "letter": "C",
+        "text": "Clay tablets"
+      },
+      {
+        "letter": "D",
+        "text": "Paper made of wood"
+      },
+      {
+        "letter": "E",
+        "text": "The text doesn't say"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text mentions 'papyrus scrolls'.",
+    "passage": "The Great Library of Alexandria in Egypt was once the largest collection of knowledge in the ancient world. It is estimated that it (a) ________ hundreds of thousands of papyrus scrolls. The library's destruction is considered a tragic loss for history, as many works of poetry, science, and philosophy burned to ash.",
+    "passage_id": "t3_p4",
+    "id": "eng_12_gen_3",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): '...these devices (a) ________ and share data...'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "collect"
+      },
+      {
+        "letter": "B",
+        "text": "collects"
+      },
+      {
+        "letter": "C",
+        "text": "collected"
+      },
+      {
+        "letter": "D",
+        "text": "collecting"
+      },
+      {
+        "letter": "E",
+        "text": "has collected"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Plural subject 'devices' takes plural verb 'collect'.",
+    "passage": "The Internet of Things (IoT) refers to the billion of physical devices around the world that are now connected to the internet. From smart fridges to industrial sensors, these devices (a) ________ and share data constantly. While this brings convenience, it also creates massive security vulnerabilities for personal privacy.",
+    "passage_id": "t3_p5",
+    "id": "eng_13_gen_3",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What is one concern associated with IoT according to the text?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "High electricity cost"
+      },
+      {
+        "letter": "B",
+        "text": "Security vulnerabilities for privacy"
+      },
+      {
+        "letter": "C",
+        "text": "Devices becoming smarter than humans"
+      },
+      {
+        "letter": "D",
+        "text": "The internet running out of space"
+      },
+      {
+        "letter": "E",
+        "text": "Appliances breaking faster"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text explicitly mentions 'security vulnerabilities for personal privacy'.",
+    "passage": "The Internet of Things (IoT) refers to the billion of physical devices around the world that are now connected to the internet. From smart fridges to industrial sensors, these devices (a) ________ and share data constantly. While this brings convenience, it also creates massive security vulnerabilities for personal privacy.",
+    "passage_id": "t3_p5",
+    "id": "eng_14_gen_3",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What does 'IoT' stand for in this context?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "International Online Technology"
+      },
+      {
+        "letter": "B",
+        "text": "Internet of Things"
+      },
+      {
+        "letter": "C",
+        "text": "Internal Office Telemetry"
+      },
+      {
+        "letter": "D",
+        "text": "Interconnected Operational Task"
+      },
+      {
+        "letter": "E",
+        "text": "Integrated Online Tool"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "It stands for Internet of Things.",
+    "passage": "The Internet of Things (IoT) refers to the billion of physical devices around the world that are now connected to the internet. From smart fridges to industrial sensors, these devices (a) ________ and share data constantly. While this brings convenience, it also creates massive security vulnerabilities for personal privacy.",
+    "passage_id": "t3_p5",
+    "id": "eng_15_gen_3",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Cohesion",
+    "question_text": "Which sentence is irrelevant to the engineering origami topic?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sentence 3"
+      },
+      {
+        "letter": "B",
+        "text": "Sentence 4"
+      },
+      {
+        "letter": "C",
+        "text": "Sentence 5"
+      },
+      {
+        "letter": "D",
+        "text": "None"
+      },
+      {
+        "letter": "E",
+        "text": "Sentence 3 and 4"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Sentence 2 is a generic fact about paper, while the others are about origami in engineering.",
+    "passage": "Origami is the ancient Japanese art of paper folding. Recently, engineers have (a) ________ its principles to design foldable solar panels for satellites and medical stents for arteries. These objects must be compact during transport and then deploy into a larger, functional shape. (2) This saves space and increases efficiency. (3) Paper is made from wood pulp. (5) The math behind folding is complex and precise.",
+    "passage_id": "t3_p6",
+    "id": "eng_16_gen_3",
     "hints": [
       "Identify the main idea of each paragraph first.",
       "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
     ]
   },
   {
-    "id": "ep04_q4_gen_3",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (b): 'Several governments are now debating legislation to reclassify gig workers and mandate (b) ________ protections.'",
+    "topic": "Reading",
+    "question_text": "Give one example of an engineering application of origami mentioned.",
     "options": [
       {
         "letter": "A",
-        "text": "basic"
+        "text": "Foldable cars"
       },
       {
         "letter": "B",
-        "text": "basically"
+        "text": "Solar panels for satellites"
       },
       {
         "letter": "C",
-        "text": "the basic"
+        "text": "Paper airplanes"
       },
       {
         "letter": "D",
-        "text": "more basic"
+        "text": "Foldable skyscrapers"
       },
       {
         "letter": "E",
-        "text": "as basic"
+        "text": "Origami cranes for luck"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "'Mandate (blank) protections' requires an adjective to modify 'protections'. 'Basic' is the correct attributive adjective here, meaning fundamental or minimum protections.",
-    "passage": "The gig economy — characterized by short-term contracts and freelance work rather than permanent employment — has grown dramatically over the past decade. Platforms such as ride-sharing apps, delivery services, and freelance marketplaces have made it easier than ever to (a) ________ work on a flexible, project-by-project basis. Today, an estimated 27 percent of workers in many developed countries derive at least part of their income from gig work.\n\nProponents argue the gig model offers workers unprecedented flexibility and freedom. Individuals can set their own hours, work from multiple platforms simultaneously, and pursue passion projects alongside income-generating tasks. For businesses, the model lowers overhead costs and allows rapid scaling of workforce in response to demand fluctuations.\n\nCritics, however, highlight serious structural problems. Gig workers are typically classified as independent contractors, denying them access to benefits such as health insurance, paid leave, and retirement savings plans. Income volatility also makes financial planning difficult, particularly for those who rely solely on gig earnings. Several governments are now debating legislation to reclassify gig workers and mandate (b) ________ protections.",
+    "correct_answer": "B",
+    "explanation": "The text mentions 'foldable solar panels for satellites'.",
+    "passage": "Origami is the ancient Japanese art of paper folding. Recently, engineers have (a) ________ its principles to design foldable solar panels for satellites and medical stents for arteries. These objects must be compact during transport and then deploy into a larger, functional shape. (3) This saves space and increases efficiency. (3) Paper is made from wood pulp. (5) The math behind folding is complex and precise.",
+    "passage_id": "t3_p6",
+    "id": "eng_17_gen_3",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): '...specimen was (a) ________ in 2004.'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "take"
+      },
+      {
+        "letter": "B",
+        "text": "taking"
+      },
+      {
+        "letter": "C",
+        "text": "taken"
+      },
+      {
+        "letter": "D",
+        "text": "has taken"
+      },
+      {
+        "letter": "E",
+        "text": "took"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Passive voice 'was taken' for the photograph.",
+    "passage": "The giant squid was a myth for centuries until the first photograph of a living specimen was (a) ________ in 2004. These elusive creatures live in the 'twilight zone' of the ocean, over 305 meters deep. They have eyes the size of dinner plates to detect the faint bioluminescent light of their prey in the darkness.",
+    "passage_id": "t3_p7",
+    "id": "eng_18_gen_3",
     "hints": [
       "Identify the subject and its number (singular or plural).",
       "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep05_q1_gen_3",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for the passage is...",
+    "topic": "Reading",
+    "question_text": "Why do giant squids have such large eyes according to the text?",
     "options": [
       {
         "letter": "A",
-        "text": "Dreams and Their Psychological Meaning"
+        "text": "To see perfectly in broad daylight"
       },
       {
         "letter": "B",
-        "text": "Sleep Deprivation Is a Modern Crisis With Serious Consequences"
+        "text": "To detect faint bioluminescent light of prey"
       },
       {
         "letter": "C",
-        "text": "How to Fall Asleep Faster"
+        "text": "Because they are very large animals"
       },
       {
         "letter": "D",
-        "text": "The History of Neuroscience"
+        "text": "To scare away predators"
       },
       {
         "letter": "E",
-        "text": "Workplace Stress and Its Causes"
+        "text": "To help them swim faster"
       }
     ],
     "correct_answer": "B",
-    "explanation": "The passage moves from why sleep matters (paragraph 1), to why we are not getting enough (paragraph 2), to what happens as a result (paragraph 3) — the progression fits 'crisis with serious consequences'.",
-    "passage": "Modern research has revealed that sleep is far more than a passive state of rest — it is a complex, active process essential to physical and cognitive health. During deep sleep, the brain clears metabolic waste through a system known as the glymphatic network, reducing the risk of neurodegenerative diseases. Simultaneously, the body repairs tissue, consolidates memories, and regulates hormones that control appetite and stress.\n\nDespite this evidence, chronic sleep deprivation has become a public health crisis in many industrialized nations. Adults are recommended to sleep between seven and nine hours per night, yet surveys consistently show that large proportions of the working population sleep fewer than six hours. Shift work, screen exposure before bedtime, and high-stress workplaces all (a) ________ to this widespread deficit.\n\nThe consequences extend beyond personal fatigue. Studies link insufficient sleep to increased rates of cardiovascular disease, obesity, and impaired immune function. Economically, sleep deprivation costs countries billions of dollars annually through reduced productivity and heightened healthcare demands. Public health authorities are now calling for workplace policies that treat adequate sleep as a genuine occupational health priority.",
+    "explanation": "The text says they use large eyes to 'detect the faint bioluminescent light of their prey'.",
+    "passage": "The giant squid was a myth for centuries until the first photograph of a living specimen was (a) ________ in 2004. These elusive creatures live in the 'twilight zone' of the ocean, over 307 meters deep. They have eyes the size of dinner plates to detect the faint bioluminescent light of their prey in the darkness.",
+    "passage_id": "t3_p7",
+    "id": "eng_19_gen_3",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep05_q2_gen_3",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): 'Shift work, screen exposure...and high-stress workplaces all (a) ________ to this widespread deficit.'",
+    "topic": "Vocabulary",
+    "question_text": "What does the text mean by 'twilight zone'?",
     "options": [
       {
         "letter": "A",
-        "text": "contributes"
+        "text": "A popular TV show"
       },
       {
         "letter": "B",
-        "text": "contribute"
+        "text": "The part of the ocean over 307 meters deep"
       },
       {
         "letter": "C",
-        "text": "contributed"
+        "text": "The time just after sunset"
       },
       {
         "letter": "D",
-        "text": "contributing"
+        "text": "A imaginary world"
       },
       {
         "letter": "E",
-        "text": "has contributed"
+        "text": "A specific cave on the ocean floor"
       }
     ],
     "correct_answer": "B",
-    "explanation": "The subject is plural ('Shift work, screen exposure, and high-stress workplaces all...'), requiring the plural verb form 'contribute' without the -s ending.",
-    "passage": "Modern research has revealed that sleep is far more than a passive state of rest — it is a complex, active process essential to physical and cognitive health. During deep sleep, the brain clears metabolic waste through a system known as the glymphatic network, reducing the risk of neurodegenerative diseases. Simultaneously, the body repairs tissue, consolidates memories, and regulates hormones that control appetite and stress.\n\nDespite this evidence, chronic sleep deprivation has become a public health crisis in many industrialized nations. Adults are recommended to sleep between seven and nine hours per night, yet surveys consistently show that large proportions of the working population sleep fewer than six hours. Shift work, screen exposure before bedtime, and high-stress workplaces all (a) ________ to this widespread deficit.\n\nThe consequences extend beyond personal fatigue. Studies link insufficient sleep to increased rates of cardiovascular disease, obesity, and impaired immune function. Economically, sleep deprivation costs countries billions of dollars annually through reduced productivity and heightened healthcare demands. Public health authorities are now calling for workplace policies that treat adequate sleep as a genuine occupational health priority.",
+    "explanation": "The text explains it as the region 'over 300 meters deep'.",
+    "passage": "The giant squid was a myth for centuries until the first photograph of a living specimen was (a) ________ in 2004. These elusive creatures live in the 'twilight zone' of the ocean, over 308 meters deep. They have eyes the size of dinner plates to detect the faint bioluminescent light of their prey in the darkness.",
+    "passage_id": "t3_p7",
+    "id": "eng_20_gen_3",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
-    ]
-  },
-  {
-    "id": "ep06_q5_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "According to paragraph 3, which of the following is NOT mentioned as a challenge of the energy transition?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Variability of renewable energy sources"
-      },
-      {
-        "letter": "B",
-        "text": "Need for grid modernization and battery storage"
-      },
-      {
-        "letter": "C",
-        "text": "Declining public interest in renewable energy"
-      },
-      {
-        "letter": "D",
-        "text": "Economic disruption for fossil-fuel communities"
-      },
-      {
-        "letter": "E",
-        "text": "Reliability concerns for energy grids"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Paragraph 3 mentions variability (A), battery/grid investment (B), economic disruption for coal communities (D), and grid reliability (E). Declining public interest is never mentioned.",
-    "passage": "The global transition from fossil fuels to renewable energy sources represents one of the most sweeping economic and technological shifts of our era. Solar and wind power have achieved price parity with — and in many regions now undercut — conventional electricity generation. Governments worldwide are setting ambitious targets: several major economies have pledged to reach net-zero carbon emissions by 2050.\n\nThe benefits extend beyond reducing pollution. Renewable energy projects create substantial local employment, particularly in manufacturing, installation, and maintenance. Countries that previously depended on costly fuel imports can (a) ________ energy independence by harnessing domestic solar or wind resources, strengthening both economic resilience and national security.\n\nNevertheless, the transition poses genuine challenges. Renewable sources are inherently variable — the sun does not always shine and the wind does not always blow — creating reliability concerns for energy grids. Massive investment in battery storage, smart grids, and intercontinental transmission lines will be required. Communities reliant on coal mining and fossil-fuel industries also face painful economic disruption unless robust retraining and support programs accompany the energy shift.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep15_q2_gen_3",
-    "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): '...the very popularity...is simultaneously (a) ________ them irreparable physical harm.'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "cause"
-      },
-      {
-        "letter": "B",
-        "text": "caused"
-      },
-      {
-        "letter": "C",
-        "text": "causing"
-      },
-      {
-        "letter": "D",
-        "text": "causes"
-      },
-      {
-        "letter": "E",
-        "text": "to cause"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "'Is + -ing' forms the present continuous tense, indicating an ongoing action happening now. 'Causing' is the correct present participle form.",
-    "passage": "Cultural heritage sites — from ancient temples to historic city centres — have become some of the world's most visited tourist destinations, attracting hundreds of millions of visitors annually. Tourism generates vital revenue for host countries and raises global awareness of diverse civilisations. Yet the very popularity that sustains these sites financially is simultaneously (a) ________ them irreparable physical harm.\n\nOvercrowding accelerates the deterioration of fragile materials. The constant foot traffic vibrations at sites such as the Colosseum in Rome and Angkor Wat in Cambodia erode ancient stonework far faster than natural weathering alone. Visitor respiration raises humidity levels inside enclosed spaces, promoting the growth of mould on irreplaceable frescoes and carvings. Unregulated souvenir hunting and unauthorized graffiti cause permanent damage that no restoration budget can fully reverse.\n\nHeritage management authorities are responding with a range of strategies. Timed-entry tickets distribute visitors more evenly across the day, reducing peak-hour pressure. Digital twins — detailed 3D virtual replicas — allow researchers and curious members of the public to explore sites without setting foot in them. Ultimately, sustainable heritage tourism requires visitors, governments, and private operators to treat these sites not as consumable attractions but as irreplaceable legacies held in trust for future generations.",
-    "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
-    ]
-  },
-  {
-    "id": "ep01_q3_gen_3",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 4 and paragraph 5?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 5 gives additional examples supporting paragraph 3"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 4 presents the risks that counterbalance the benefits in paragraph 3"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 4 contradicts every claim made in paragraph 4"
-      },
-      {
-        "letter": "D",
-        "text": "Paragraph 4 introduces an entirely unrelated topic"
-      },
-      {
-        "letter": "E",
-        "text": "Paragraph 4 is a summary of paragraph 3"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 2 highlights positive applications (early detection, readmission prediction). Paragraph 3 then introduces downsides—bias and accountability gaps—creating a benefit-vs-risk contrast.",
-    "passage": "Artificial intelligence (AI) is increasingly being integrated into modern healthcare. Researchers now use AI algorithms to analyze medical imaging data, enabling faster and more accurate diagnoses of conditions such as cancer and cardiovascular disease. Pharmaceutical companies are also leveraging AI to (a) ________ the drug discovery process, significantly reducing the time needed to bring new treatments to market.\n\nOne celebrated application is early cancer detection, where AI systems trained on thousands of scans have identified tumors that human radiologists occasionally miss. Predictive analytics can also forecast which patients are at high risk of hospital readmission, allowing doctors to intervene before problems escalate. These capabilities are fundamentally transforming clinical decision-making and patient care.\n\nDespite its promise, AI in healthcare carries significant risks. Many training datasets do not represent diverse populations, producing biased predictions that can harm underrepresented groups. Accountability also remains unresolved: when an AI system errs critically, it is unclear who bears legal responsibility. Experts therefore argue that human oversight must remain central to any AI-assisted medical decision.",
-    "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
-    ]
-  },
-  {
-    "id": "ep04_q2_gen_3",
-    "subject": "English",
-    "topic": "Vocabulary in Context",
-    "question_text": "Fill in blank (a): 'Platforms...have made it easier than ever to (a) ________ work on a flexible, project-by-project basis.'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "secure"
-      },
-      {
-        "letter": "B",
-        "text": "secured"
-      },
-      {
-        "letter": "C",
-        "text": "securing"
-      },
-      {
-        "letter": "D",
-        "text": "secures"
-      },
-      {
-        "letter": "E",
-        "text": "have secured"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "The phrase 'easier than ever to (blank) work' requires the base infinitive form. 'Secure' (meaning 'to obtain') is the grammatically correct base form here.",
-    "passage": "The gig economy — characterized by short-term contracts and freelance work rather than permanent employment — has grown dramatically over the past decade. Platforms such as ride-sharing apps, delivery services, and freelance marketplaces have made it easier than ever to (a) ________ work on a flexible, project-by-project basis. Today, an estimated 26 percent of workers in many developed countries derive at least part of their income from gig work.\n\nProponents argue the gig model offers workers unprecedented flexibility and freedom. Individuals can set their own hours, work from multiple platforms simultaneously, and pursue passion projects alongside income-generating tasks. For businesses, the model lowers overhead costs and allows rapid scaling of workforce in response to demand fluctuations.\n\nCritics, however, highlight serious structural problems. Gig workers are typically classified as independent contractors, denying them access to benefits such as health insurance, paid leave, and retirement savings plans. Income volatility also makes financial planning difficult, particularly for those who rely solely on gig earnings. Several governments are now debating legislation to reclassify gig workers and mandate (b) ________ protections.",
-    "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
-    ]
-  },
-  {
-    "id": "ep15_q4_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 3?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Tourism has had no significant economic impact on heritage sites"
-      },
-      {
-        "letter": "B",
-        "text": "Heritage sites benefit financially from tourism while simultaneously being harmed by it"
-      },
-      {
-        "letter": "C",
-        "text": "All ancient sites have been fully protected from tourist damage"
-      },
-      {
-        "letter": "D",
-        "text": "Host countries prefer to close heritage sites to tourists"
-      },
-      {
-        "letter": "E",
-        "text": "Heritage sites are only popular in Europe"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 1 explicitly states tourism generates 'vital revenue' and raises awareness (benefit) while the same popularity is 'causing them irreparable physical harm' — a clear dual reality.",
-    "passage": "Cultural heritage sites — from ancient temples to historic city centres — have become some of the world's most visited tourist destinations, attracting hundreds of millions of visitors annually. Tourism generates vital revenue for host countries and raises global awareness of diverse civilisations. Yet the very popularity that sustains these sites financially is simultaneously (a) ________ them irreparable physical harm.\n\nOvercrowding accelerates the deterioration of fragile materials. The constant foot traffic vibrations at sites such as the Colosseum in Rome and Angkor Wat in Cambodia erode ancient stonework far faster than natural weathering alone. Visitor respiration raises humidity levels inside enclosed spaces, promoting the growth of mould on irreplaceable frescoes and carvings. Unregulated souvenir hunting and unauthorized graffiti cause permanent damage that no restoration budget can fully reverse.\n\nHeritage management authorities are responding with a range of strategies. Timed-entry tickets distribute visitors more evenly across the day, reducing peak-hour pressure. Digital twins — detailed 3D virtual replicas — allow researchers and curious members of the public to explore sites without setting foot in them. Ultimately, sustainable heritage tourism requires visitors, governments, and private operators to treat these sites not as consumable attractions but as irreplaceable legacies held in trust for future generations.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep02_q1_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The most appropriate title for the passage is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Why Jakarta Is Moving Its Capital"
-      },
-      {
-        "letter": "B",
-        "text": "Engineering Solutions to Natural Disasters"
-      },
-      {
-        "letter": "C",
-        "text": "Coastal Cities Racing to Adapt to Rising Seas"
-      },
-      {
-        "letter": "D",
-        "text": "The Economic Cost of Climate Change"
-      },
-      {
-        "letter": "E",
-        "text": "How Rotterdam Builds Flood Barriers"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The passage spans multiple cities' flood responses (paragraph 2) and critiques their limits (paragraph 3), making the broader framing 'Coastal Cities Racing to Adapt' most accurate.",
-    "passage": "Rising sea levels driven by climate change pose an existential threat to major coastal cities worldwide. Projections indicate that by 2109 roughly 814 million people could live in zones at severe risk of flooding. Governments and urban planners are therefore working urgently to adapt infrastructure before the situation becomes unmanageable.\n\nSeveral cities have (a) ________ innovative strategies to reduce their flood risk. Rotterdam has built water plazas that serve as public spaces in dry weather and flood reservoirs when needed. Jakarta is accelerating plans to relocate its national capital to higher inland ground, recognizing that engineering alone cannot save the sinking city. Meanwhile, elevated highways and reinforced sea walls are being constructed across vulnerable coastlines.\n\nCritics argue, however, that these engineering responses treat symptoms rather than root causes. Without aggressive global reductions in greenhouse gas emissions, sea-level rise may eventually overwhelm even the most ambitious flood-control projects. Experts therefore advocate combining local adaptation with decisive international climate policy — only this dual approach can ensure cities remain livable for future generations.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep01_q2_gen_3",
-    "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): 'Pharmaceutical companies are leveraging AI to (a) ________ the drug discovery process...'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "accelerate"
-      },
-      {
-        "letter": "B",
-        "text": "accelerating"
-      },
-      {
-        "letter": "C",
-        "text": "accelerated"
-      },
-      {
-        "letter": "D",
-        "text": "has accelerated"
-      },
-      {
-        "letter": "E",
-        "text": "to accelerate"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "The structure 'to (blank) the process' requires the base infinitive form. 'Accelerate' is the correct base form here.",
-    "passage": "Artificial intelligence (AI) is increasingly being integrated into modern healthcare. Researchers now use AI algorithms to analyze medical imaging data, enabling faster and more accurate diagnoses of conditions such as cancer and cardiovascular disease. Pharmaceutical companies are also leveraging AI to (a) ________ the drug discovery process, significantly reducing the time needed to bring new treatments to market.\n\nOne celebrated application is early cancer detection, where AI systems trained on thousands of scans have identified tumors that human radiologists occasionally miss. Predictive analytics can also forecast which patients are at high risk of hospital readmission, allowing doctors to intervene before problems escalate. These capabilities are fundamentally transforming clinical decision-making and patient care.\n\nDespite its promise, AI in healthcare carries significant risks. Many training datasets do not represent diverse populations, producing biased predictions that can harm underrepresented groups. Accountability also remains unresolved: when an AI system errs critically, it is unclear who bears legal responsibility. Experts therefore argue that human oversight must remain central to any AI-assisted medical decision.",
-    "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
-    ]
-  },
-  {
-    "id": "ep03_q2_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 3?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Social media companies have fully committed to protecting user mental health"
-      },
-      {
-        "letter": "B",
-        "text": "The existing platform measures are considered largely inadequate by critics"
-      },
-      {
-        "letter": "C",
-        "text": "User autonomy is no longer a concern for platforms"
-      },
-      {
-        "letter": "D",
-        "text": "Comment filters have eliminated online harassment"
-      },
-      {
-        "letter": "E",
-        "text": "All platforms have updated their business models"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 2 notes that platforms have introduced some features but 'critics argue these measures are superficial' and the core business model is unchanged — implying the measures are seen as inadequate.",
-    "passage": "The widespread use of social media platforms has sparked growing concern among psychologists and public health researchers. Studies increasingly link excessive social media use to elevated rates of anxiety, depression, and loneliness, particularly among teenagers. While correlation does not confirm causation, the volume and consistency of these findings have prompted serious calls for policy action.\n\nPlatforms themselves have been slow to act, often citing user autonomy and the complexity of moderating vast amounts of content. However, some companies have introduced features such as screen-time reminders, comment filters, and restrictions on recommending certain content to minors. Critics argue these measures are superficial and that the core business model — which rewards engagement above all else — remains unchanged.\n\nExperts propose a multi-pronged response. Parents and schools are encouraged to teach digital literacy, helping young people critically evaluate what they consume online. Regulators in several countries are exploring legislation that would impose stricter transparency requirements on algorithmic recommendation systems. The consensus is that protecting mental health in the digital age requires cooperation among individuals, platforms, and governments.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep15_q1_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for this passage is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "The History of Ancient Rome and Angkor Wat"
-      },
-      {
-        "letter": "B",
-        "text": "Why Tourists Damage Heritage Sites"
-      },
-      {
-        "letter": "C",
-        "text": "Cultural Heritage Tourism: Its Value and the Threat It Poses to Sites"
-      },
-      {
-        "letter": "D",
-        "text": "How Digital Technology Is Replacing Tourism"
-      },
-      {
-        "letter": "E",
-        "text": "Government Revenue from Historic Attractions"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Paragraph 1 acknowledges both the value (revenue, awareness) and the physical threat of tourism, paragraphs 2–3 detail the damage and responses — 'Value and the Threat' captures the central tension.",
-    "passage": "Cultural heritage sites — from ancient temples to historic city centres — have become some of the world's most visited tourist destinations, attracting hundreds of millions of visitors annually. Tourism generates vital revenue for host countries and raises global awareness of diverse civilisations. Yet the very popularity that sustains these sites financially is simultaneously (a) ________ them irreparable physical harm.\n\nOvercrowding accelerates the deterioration of fragile materials. The constant foot traffic vibrations at sites such as the Colosseum in Rome and Angkor Wat in Cambodia erode ancient stonework far faster than natural weathering alone. Visitor respiration raises humidity levels inside enclosed spaces, promoting the growth of mould on irreplaceable frescoes and carvings. Unregulated souvenir hunting and unauthorized graffiti cause permanent damage that no restoration budget can fully reverse.\n\nHeritage management authorities are responding with a range of strategies. Timed-entry tickets distribute visitors more evenly across the day, reducing peak-hour pressure. Digital twins — detailed 3D virtual replicas — allow researchers and curious members of the public to explore sites without setting foot in them. Ultimately, sustainable heritage tourism requires visitors, governments, and private operators to treat these sites not as consumable attractions but as irreplaceable legacies held in trust for future generations.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep03_q4_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The text is most likely addressed to...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Social media software engineers"
-      },
-      {
-        "letter": "B",
-        "text": "An informed general audience interested in current social issues"
-      },
-      {
-        "letter": "C",
-        "text": "Professional clinical psychologists only"
-      },
-      {
-        "letter": "D",
-        "text": "Government regulators exclusively"
-      },
-      {
-        "letter": "E",
-        "text": "Teenagers experiencing anxiety"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "The passage uses accessible language and covers social, policy, and individual angles — hallmarks of writing aimed at an educated general audience rather than a narrow professional group.",
-    "passage": "The widespread use of social media platforms has sparked growing concern among psychologists and public health researchers. Studies increasingly link excessive social media use to elevated rates of anxiety, depression, and loneliness, particularly among teenagers. While correlation does not confirm causation, the volume and consistency of these findings have prompted serious calls for policy action.\n\nPlatforms themselves have been slow to act, often citing user autonomy and the complexity of moderating vast amounts of content. However, some companies have introduced features such as screen-time reminders, comment filters, and restrictions on recommending certain content to minors. Critics argue these measures are superficial and that the core business model — which rewards engagement above all else — remains unchanged.\n\nExperts propose a multi-pronged response. Parents and schools are encouraged to teach digital literacy, helping young people critically evaluate what they consume online. Regulators in several countries are exploring legislation that would impose stricter transparency requirements on algorithmic recommendation systems. The consensus is that protecting mental health in the digital age requires cooperation among individuals, platforms, and governments.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep06_q2_gen_3",
-    "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): 'Countries...can (a) ________ energy independence by harnessing domestic solar or wind resources...'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "achieved"
-      },
-      {
-        "letter": "B",
-        "text": "achieving"
-      },
-      {
-        "letter": "C",
-        "text": "achieve"
-      },
-      {
-        "letter": "D",
-        "text": "achieves"
-      },
-      {
-        "letter": "E",
-        "text": "to achieve"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "'Can + base verb' is the correct modal construction. 'Achieve' (base form) is required after the modal verb 'can'.",
-    "passage": "The global transition from fossil fuels to renewable energy sources represents one of the most sweeping economic and technological shifts of our era. Solar and wind power have achieved price parity with — and in many regions now undercut — conventional electricity generation. Governments worldwide are setting ambitious targets: several major economies have pledged to reach net-zero carbon emissions by 2050.\n\nThe benefits extend beyond reducing pollution. Renewable energy projects create substantial local employment, particularly in manufacturing, installation, and maintenance. Countries that previously depended on costly fuel imports can (a) ________ energy independence by harnessing domestic solar or wind resources, strengthening both economic resilience and national security.\n\nNevertheless, the transition poses genuine challenges. Renewable sources are inherently variable — the sun does not always shine and the wind does not always blow — creating reliability concerns for energy grids. Massive investment in battery storage, smart grids, and intercontinental transmission lines will be required. Communities reliant on coal mining and fossil-fuel industries also face painful economic disruption unless robust retraining and support programs accompany the energy shift.",
-    "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
-    ]
-  },
-  {
-    "id": "ep05_q4_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "According to paragraph 3, which of the following is a consequence of insufficient sleep?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Faster memory consolidation"
-      },
-      {
-        "letter": "B",
-        "text": "Reduced rates of cardiovascular disease"
-      },
-      {
-        "letter": "C",
-        "text": "Economic costs through lower productivity"
-      },
-      {
-        "letter": "D",
-        "text": "Improved immune function"
-      },
-      {
-        "letter": "E",
-        "text": "Increased workplace efficiency"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Paragraph 3 explicitly states that sleep deprivation 'costs countries billions of dollars annually through reduced productivity and heightened healthcare demands.'",
-    "passage": "Modern research has revealed that sleep is far more than a passive state of rest — it is a complex, active process essential to physical and cognitive health. During deep sleep, the brain clears metabolic waste through a system known as the glymphatic network, reducing the risk of neurodegenerative diseases. Simultaneously, the body repairs tissue, consolidates memories, and regulates hormones that control appetite and stress.\n\nDespite this evidence, chronic sleep deprivation has become a public health crisis in many industrialized nations. Adults are recommended to sleep between seven and nine hours per night, yet surveys consistently show that large proportions of the working population sleep fewer than six hours. Shift work, screen exposure before bedtime, and high-stress workplaces all (a) ________ to this widespread deficit.\n\nThe consequences extend beyond personal fatigue. Studies link insufficient sleep to increased rates of cardiovascular disease, obesity, and impaired immune function. Economically, sleep deprivation costs countries billions of dollars annually through reduced productivity and heightened healthcare demands. Public health authorities are now calling for workplace policies that treat adequate sleep as a genuine occupational health priority.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep02_q3_gen_3",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 3 and paragraph 5?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 5 extends the list of engineering solutions in paragraph 3"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 4 critiques the solutions in paragraph 4 as insufficient on their own"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 5 explains why the cities in paragraph 3 were built"
-      },
-      {
-        "letter": "D",
-        "text": "Paragraph 4 contradicts the statistics mentioned in paragraph 4"
-      },
-      {
-        "letter": "E",
-        "text": "Paragraph 5 introduces flooding problems not mentioned in paragraph 3"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 2 describes adaptation measures (sea walls, relocation). Paragraph 3 then argues these are insufficient without global emission reductions — a critique of the solutions in paragraph 2.",
-    "passage": "Rising sea levels driven by climate change pose an existential threat to major coastal cities worldwide. Projections indicate that by 2108 roughly 815 million people could live in zones at severe risk of flooding. Governments and urban planners are therefore working urgently to adapt infrastructure before the situation becomes unmanageable.\n\nSeveral cities have (a) ________ innovative strategies to reduce their flood risk. Rotterdam has built water plazas that serve as public spaces in dry weather and flood reservoirs when needed. Jakarta is accelerating plans to relocate its national capital to higher inland ground, recognizing that engineering alone cannot save the sinking city. Meanwhile, elevated highways and reinforced sea walls are being constructed across vulnerable coastlines.\n\nCritics argue, however, that these engineering responses treat symptoms rather than root causes. Without aggressive global reductions in greenhouse gas emissions, sea-level rise may eventually overwhelm even the most ambitious flood-control projects. Experts therefore advocate combining local adaptation with decisive international climate policy — only this dual approach can ensure cities remain livable for future generations.",
-    "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
+      "Re-read the relevant part of the passage carefully."
     ]
   },
   {

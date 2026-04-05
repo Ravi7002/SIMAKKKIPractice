@@ -600,700 +600,719 @@
     "explanation": "Because a, b, c is an arithmetic sequence, 2b = a + c. Because b, c, a is a geometric sequence, c^2 = ab. Substitute a = 2b - c into the geometric sequence equation: c^2 = (2b - c)b = 2b^2 - bc. Rearranging gives c^2 + bc - 2b^2 = 0, which factors to (c + 2b)(c - b) = 0. Since a < b < c, c cannot equal b, so c = -2b. Consequently, a = 2b - (-2b) = 4b. For 4b < b < -2b to hold, b must be negative. The largest negative integer is b = -1. This yields c = -2(-1) = 2, making the sequence -4, -1, 2."
   },
   {
-    "id": "ep13_q3_gen_4",
     "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 4 and paragraph 4?",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): 'It (a) ________ CO2 from the water...'",
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 5 further supports the benefits described in paragraph 4"
+        "text": "absorb"
       },
       {
         "letter": "B",
-        "text": "Paragraph 5 presents the employer-side drawbacks that contrast with the employee benefits in paragraph 3"
+        "text": "absorbs"
       },
       {
         "letter": "C",
-        "text": "Paragraph 5 contradicts the productivity claims made in paragraph 3"
+        "text": "absorbing"
       },
       {
         "letter": "D",
-        "text": "Paragraph 5 introduces historical data not found in paragraph 4"
+        "text": "absorbed"
       },
       {
         "letter": "E",
-        "text": "Paragraph 4 focuses on a different workforce sector than paragraph 4"
+        "text": "to absorb"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Paragraph 2 gives employee-perspective benefits. Paragraph 3 then gives the employer-perspective challenges — a symmetrical contrast between two different stakeholder viewpoints.",
-    "passage": "The COVID-23 pandemic forced an unprecedented global experiment in remote work, compressing years of gradual adoption into a matter of weeks. By mid-2020, tens of millions of knowledge workers worldwide were performing their jobs entirely from home. When the immediate health crisis receded, a striking majority indicated a preference for maintaining at least some degree of location flexibility in their working lives.\n\nThe benefits for employees are well-documented. Eliminating daily commutes can (a) ________ workers an extra hour or more each day, time they redirect toward family, exercise, or personal development. Geographic flexibility allows individuals to live in lower-cost areas without sacrificing career opportunities. Studies have also found that many employees report higher concentration and productivity in home environments free from open-plan office noise.\n\nEmployers and managers, however, identify real drawbacks. Spontaneous in-person collaboration and informal knowledge-sharing — the kind that happens in hallway conversations — are difficult to replicate digitally. Junior employees in particular may miss the mentoring and professional socialization that office environments provide naturally. Many organisations are therefore moving toward hybrid models, in which teams gather in person on designated days specifically for creative and collaborative work while retaining remote flexibility for focused, individual tasks.",
-    "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
-    ]
-  },
-  {
-    "id": "ep07_q5_gen_4",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "'Kessler Syndrome' as described in paragraph 5 refers to...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "A disease affecting astronauts in orbit"
-      },
-      {
-        "letter": "B",
-        "text": "A treaty governing satellite communications"
-      },
-      {
-        "letter": "C",
-        "text": "A scenario where orbital debris makes certain orbital zones permanently unusable"
-      },
-      {
-        "letter": "D",
-        "text": "A type of reusable rocket engine"
-      },
-      {
-        "letter": "E",
-        "text": "The process of deorbiting old satellites safely"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Paragraph 3 defines Kessler Syndrome directly: collisions could 'render specific orbital shells unusable for generations' — exactly option C.",
-    "passage": "The landscape of space exploration has changed dramatically in the past two decades, driven by the emergence of private companies alongside traditional government space agencies. Firms such as SpaceX and Blue Origin have developed reusable rocket technology that has cut launch costs by an order of magnitude. This cost reduction has (a) ________ a new era of ambition: lunar bases, Mars missions, and commercial space stations are no longer confined to science fiction.\n\nThe democratization of space access brings tangible near-term benefits. Thousands of small satellites now provide high-resolution Earth observation data used for agriculture, disaster response, and climate monitoring. In addition, satellite internet constellations aim to deliver broadband connectivity to the billions of people who still lack reliable access, potentially transforming education and economic opportunity in remote areas.\n\nCritics, however, raise important concerns. The rapid proliferation of satellites is contributing to orbital debris, increasing the risk of collisions that could render specific orbital shells unusable for generations — a scenario known as Kessler Syndrome. Astronomers also report that dense satellite constellations are disrupting ground-based telescope observations. Managing these trade-offs will require international coordination and binding agreements on responsible use of orbital space.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep11_q4_gen_4",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 2?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Green spaces have only aesthetic value"
-      },
-      {
-        "letter": "B",
-        "text": "Urban green spaces serve both human health and ecological functions"
-      },
-      {
-        "letter": "C",
-        "text": "Dense cities have more green space than suburban areas"
-      },
-      {
-        "letter": "D",
-        "text": "Pollinators are unaffected by urbanisation"
-      },
-      {
-        "letter": "E",
-        "text": "Parks are primarily used for economic activity"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 1 discusses both personal health benefits (mental health, stress reduction) and ecological benefits (cooling, rainwater absorption, pollinator habitat) — confirming option B.",
-    "passage": "As cities grow ever denser, the value of parks, gardens, and tree-lined streets has never been clearer. Research consistently links access to urban green spaces with improved mental health, reduced stress, and faster recovery from illness. Green areas also play a critical ecological role, cooling urban heat islands, absorbing rainwater, and providing habitat for pollinators essential to food production.\n\nDespite these benefits, green space is often among the first amenities sacrificed when cities face pressure to build more housing and infrastructure. Low-income neighbourhoods are disproportionately affected, frequently lacking trees and parks compared to wealthier districts. This inequity means that the residents who most need restorative environments — those experiencing overcrowding and pollution — are the least likely to (a) ________ them.\n\nForward-thinking cities are finding creative solutions. Singapore has integrated greenery into building facades and rooftops as part of its 'City in a Garden' vision. Medellín, Colombia, created 'green corridors' along major avenues, reducing temperatures by several degrees. Researchers argue that treating green space as essential infrastructure — rather than an optional amenity — and mandating equitable distribution across all districts is the most effective long-term strategy.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep10_q2_gen_4",
-    "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): '...livestock are routinely given antibiotics...also to (a) ________ growth...'",
-    "options": [
-      {
-        "letter": "A",
-        "text": "promoted"
-      },
-      {
-        "letter": "B",
-        "text": "promoting"
-      },
-      {
-        "letter": "C",
-        "text": "promote"
-      },
-      {
-        "letter": "D",
-        "text": "promotes"
-      },
-      {
-        "letter": "E",
-        "text": "have promoted"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "'To (blank) growth' requires the base infinitive form. 'Promote' is the correct base verb following the infinitive marker 'to'.",
-    "passage": "Antibiotic resistance is increasingly recognised as one of the gravest threats to global public health. Every year, drug-resistant infections claim an estimated 1.3 million lives worldwide, and projections warn this figure could exceed ten million annually by 2063 if systemic action is not taken. The World Health Organization has classified antimicrobial resistance as a priority concern, comparable in urgency to climate change.\n\nThe primary driver of resistance is the overuse and misuse of antibiotics. In many countries, patients pressure doctors for antibiotics to treat viral infections on which the drugs have no effect whatsoever. In agriculture, livestock are routinely given antibiotics not only to treat disease but also to (a) ________ growth — a practice that creates massive reservoirs of resistant bacteria across food systems. Poor sanitation allows resistant strains to spread rapidly, compounding the problem.\n\nTackling resistance requires a coordinated global strategy. Investment in new antibiotic development has stalled because the economic returns are insufficient to attract pharmaceutical companies. Meanwhile, rapid diagnostic tools that distinguish viral from bacterial infections could reduce unnecessary prescriptions significantly. Global governance frameworks must incentivise both the responsible use of existing antibiotics and the discovery of new ones — without this dual approach, medicine risks entering a post-antibiotic era.",
+    "explanation": "Singular subject 'It' takes singular verb 'absorbs'.",
+    "passage": "Seaweed farming is being hailed as a major climate solution. Unlike land crops, seaweed requires no fertilizer, no freshwater, and no land. It (a) ________ CO2 from the water as it grows, helping to reduce ocean acidification. Future applications include biodegradable plastics and low-carbon livestock feed.",
+    "passage_id": "t4_p1",
+    "id": "eng_01_gen_4",
     "hints": [
       "Identify the subject and its number (singular or plural).",
       "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep07_q4_gen_4",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "According to paragraph 2, which of the following is a near-term benefit of cheaper space access?",
+    "topic": "Reading",
+    "question_text": "What is one benefit of seaweed farming mentioned?",
     "options": [
       {
         "letter": "A",
-        "text": "Human settlements on Mars"
+        "text": "It requires more fertilizer than corn"
       },
       {
         "letter": "B",
-        "text": "Satellite internet for remote communities"
+        "text": "It helps reduce ocean acidification"
       },
       {
         "letter": "C",
-        "text": "Solving the orbital debris problem"
+        "text": "It grows only in freshwater"
       },
       {
         "letter": "D",
-        "text": "Replacing government space agencies"
+        "text": "It is currently used to build houses"
       },
       {
         "letter": "E",
-        "text": "Eliminating the need for ground-based telescopes"
+        "text": "It increases CO2 levels"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Paragraph 2 explicitly mentions 'satellite internet constellations aim to deliver broadband connectivity...to remote areas' as a near-term, tangible benefit.",
-    "passage": "The landscape of space exploration has changed dramatically in the past two decades, driven by the emergence of private companies alongside traditional government space agencies. Firms such as SpaceX and Blue Origin have developed reusable rocket technology that has cut launch costs by an order of magnitude. This cost reduction has (a) ________ a new era of ambition: lunar bases, Mars missions, and commercial space stations are no longer confined to science fiction.\n\nThe democratization of space access brings tangible near-term benefits. Thousands of small satellites now provide high-resolution Earth observation data used for agriculture, disaster response, and climate monitoring. In addition, satellite internet constellations aim to deliver broadband connectivity to the billions of people who still lack reliable access, potentially transforming education and economic opportunity in remote areas.\n\nCritics, however, raise important concerns. The rapid proliferation of satellites is contributing to orbital debris, increasing the risk of collisions that could render specific orbital shells unusable for generations — a scenario known as Kessler Syndrome. Astronomers also report that dense satellite constellations are disrupting ground-based telescope observations. Managing these trade-offs will require international coordination and binding agreements on responsible use of orbital space.",
+    "explanation": "The text says it helps 'reduce ocean acidification' by absorbing CO2.",
+    "passage": "Seaweed farming is being hailed as a major climate solution. Unlike land crops, seaweed requires no fertilizer, no freshwater, and no land. It (a) ________ CO2 from the water as it grows, helping to reduce ocean acidification. Future applications include biodegradable plastics and low-carbon livestock feed.",
+    "passage_id": "t4_p1",
+    "id": "eng_02_gen_4",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep12_q1_gen_4",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for this passage is...",
+    "topic": "Reading",
+    "question_text": "Identify one future application of seaweed mentioned.",
     "options": [
       {
         "letter": "A",
-        "text": "Arctic Ice and Ocean Trenches"
+        "text": "High-speed rocket fuel"
       },
       {
         "letter": "B",
-        "text": "Microplastics: A Pervasive Pollutant Demanding Global Action"
+        "text": "Biodegradable plastics"
       },
       {
         "letter": "C",
-        "text": "The History of the Plastics Industry"
+        "text": "Construction materials for cars"
       },
       {
         "letter": "D",
-        "text": "How Cosmetic Microbeads Are Made"
+        "text": "Advanced glass manufacturing"
       },
       {
         "letter": "E",
-        "text": "Circular Economy Models Explained"
+        "text": "Artificial silk production"
       }
     ],
     "correct_answer": "B",
-    "explanation": "All three paragraphs focus on microplastics: their extent (1), sources (2), and the action required (3) — 'Pervasive Pollutant Demanding Global Action' mirrors this progression.",
-    "passage": "Microplastics — plastic particles smaller than five millimetres — have permeated every corner of the planet. They have been detected in the deepest ocean trenches, Arctic ice cores, mountain rainwater, and the bloodstreams of humans and wildlife alike. Although research into their long-term health effects is still developing, accumulating evidence suggests they can (a) ________ the hormone and immune systems of various organisms.\n\nThe primary sources are the fragmentation of larger plastic waste and the deliberate inclusion of microbeads in cosmetic products. Synthetic textiles shed microscopic fibres with every wash, contributing millions of particles to wastewater systems that standard filters are not designed to remove. Single-use plastics, once discarded, break down through UV exposure and wave action into ever-smaller particles that persist for centuries.\n\nAddressing the microplastic crisis demands action at multiple levels. Manufacturers in several countries have been required to eliminate microbeads from rinse-off products. Advanced filtration systems are being installed in wastewater treatment plants. Ultimately, however, meaningful progress depends on a fundamental reduction in plastic production and a rapid global shift towards circular economy models in which materials are designed to be reused rather than discarded.",
+    "explanation": "The text lists 'biodegradable plastics' as a future application.",
+    "passage": "Seaweed farming is being hailed as a major climate solution. Unlike land crops, seaweed requires no fertilizer, no freshwater, and no land. It (a) ________ CO2 from the water as it grows, helping to reduce ocean acidification. Future applications include biodegradable plastics and low-carbon livestock feed.",
+    "passage_id": "t4_p1",
+    "id": "eng_03_gen_4",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep11_q2_gen_4",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): '...residents...are the least likely to (a) ________ them.'",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): 'Because scholars (a) ________ read Ancient Greek...'",
     "options": [
       {
         "letter": "A",
-        "text": "accessed"
+        "text": "can"
       },
       {
         "letter": "B",
-        "text": "accessing"
+        "text": "could"
       },
       {
         "letter": "C",
-        "text": "access"
+        "text": "must"
       },
       {
         "letter": "D",
-        "text": "accesses"
+        "text": "should"
       },
       {
         "letter": "E",
-        "text": "have accessed"
+        "text": "will"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "'Likely to (blank)' requires the base infinitive. 'Access' is the correct base form here, meaning 'to have or reach'.",
-    "passage": "As cities grow ever denser, the value of parks, gardens, and tree-lined streets has never been clearer. Research consistently links access to urban green spaces with improved mental health, reduced stress, and faster recovery from illness. Green areas also play a critical ecological role, cooling urban heat islands, absorbing rainwater, and providing habitat for pollinators essential to food production.\n\nDespite these benefits, green space is often among the first amenities sacrificed when cities face pressure to build more housing and infrastructure. Low-income neighbourhoods are disproportionately affected, frequently lacking trees and parks compared to wealthier districts. This inequity means that the residents who most need restorative environments — those experiencing overcrowding and pollution — are the least likely to (a) ________ them.\n\nForward-thinking cities are finding creative solutions. Singapore has integrated greenery into building facades and rooftops as part of its 'City in a Garden' vision. Medellín, Colombia, created 'green corridors' along major avenues, reducing temperatures by several degrees. Researchers argue that treating green space as essential infrastructure — rather than an optional amenity — and mandating equitable distribution across all districts is the most effective long-term strategy.",
+    "correct_answer": "B",
+    "explanation": "'Could' is the past ability of 'can'.",
+    "passage": "Discovered in 1799, the Rosetta Stone was the key to unlocking Egyptian hieroglyphs. It contains the same decree written in three different scripts: Hieroglyphic, Demotic, and Ancient Greek. Because scholars (a) ________ read Ancient Greek, they were able to use it as a bridge to translate the other two scripts for the first time.",
+    "passage_id": "t4_p2",
+    "id": "eng_04_gen_4",
     "hints": [
       "Identify the subject and its number (singular or plural).",
       "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep08_q4_gen_4",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 3?",
+    "topic": "Reading",
+    "question_text": "Why was the Rosetta Stone important for historians?",
     "options": [
       {
         "letter": "A",
-        "text": "The loss of a language has no significant cultural impact"
+        "text": "It was made of rare gold"
       },
       {
         "letter": "B",
-        "text": "Language extinction only affects spoken communication, not written culture"
+        "text": "It allowed the translation of Egyptian hieroglyphs"
       },
       {
         "letter": "C",
-        "text": "Each language encodes unique knowledge that cannot be fully recovered once lost"
+        "text": "It contained a map to a hidden pyramid"
       },
       {
         "letter": "D",
-        "text": "All 7,000 languages will survive into the next century"
+        "text": "It proved the Greeks conquered Egypt"
       },
       {
         "letter": "E",
-        "text": "Linguists are unconcerned about the pace of language loss"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Paragraph 1 states that when a language dies, it carries 'an irreplaceable body of knowledge...found nowhere else' — directly implying that unique knowledge is lost permanently.",
-    "passage": "Thousands of the world's languages are facing extinction at an unprecedented rate. Linguists estimate that roughly half of the approximately 7,000 languages spoken today will disappear by the end of this century, with one language falling silent every two weeks. When a language dies, it carries with it an irreplaceable body of knowledge: unique ecological observations, oral histories, and conceptual frameworks found nowhere else.\n\nThe causes are intertwined. Economic pressures push speakers of minority languages to adopt dominant tongues in order to access education and employment. Urbanization separates communities from the land-based contexts in which their languages flourished. Meanwhile, mass media and the internet (a) ________ the global dominance of a handful of languages, particularly English and Mandarin, accelerating the marginalisation of smaller ones.\n\nEfforts to preserve endangered languages are gaining momentum. Immersion schools and bilingual education programs have achieved notable success with languages such as Welsh and Maori. Digital archiving projects are recording spoken grammars and vocabularies before their last speakers pass away. Scholars argue, however, that true revitalization requires not just documentation but the creation of vibrant communities of speakers who use the language in everyday life.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep09_q1_gen_4",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "Which of the following best expresses the main topic of the passage?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "The environmental damage caused by modern agriculture"
-      },
-      {
-        "letter": "B",
-        "text": "How drones are replacing traditional farm workers"
-      },
-      {
-        "letter": "C",
-        "text": "Smart farming technology: its promise and unequal access"
-      },
-      {
-        "letter": "D",
-        "text": "Global population growth and its causes"
-      },
-      {
-        "letter": "E",
-        "text": "The history of GPS-guided machinery"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Paragraph 2 describes smart farming's benefits while paragraph 3 highlights the unequal access problem — 'promise and unequal access' covers both aspects of the passage.",
-    "passage": "With global population expected to reach nearly ten billion by 2050, ensuring adequate food production for all is one of the defining challenges of our time. Traditional farming methods, constrained by limited arable land and increasingly erratic weather patterns, will not be sufficient on their own. Agricultural researchers are therefore turning to precision farming technologies — GPS-guided machinery, soil sensors, and data analytics — to maximize yields while minimizing resource waste.\n\nSmart farming can drastically reduce the environmental footprint of agriculture. Sensors embedded in fields transmit real-time data on soil moisture, temperature, and nutrient levels, enabling farmers to (a) ________ fertilizer and water with surgical precision rather than blanket applications. Drones spray pesticides only where needed, cutting chemical use by up to 82 percent. Such efficiencies free up resources and reduce the runoff that pollutes rivers and coastal ecosystems.\n\nAccess to these technologies remains deeply unequal, however. Small-scale farmers in developing nations, who produce roughly 71 percent of the world's food, often lack the capital, connectivity, and training required. Development organizations argue that bridging this gap is as important as the technological innovation itself. Without inclusive access, precision farming may widen the gap between industrial and subsistence agriculture rather than closing it.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep10_q1_gen_4",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for this passage is...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "New Antibiotics and How to Get Them"
-      },
-      {
-        "letter": "B",
-        "text": "Why Livestock Farming Is Harmful"
-      },
-      {
-        "letter": "C",
-        "text": "Antibiotic Resistance: A Growing Global Crisis"
-      },
-      {
-        "letter": "D",
-        "text": "The History of Penicillin and Modern Medicine"
-      },
-      {
-        "letter": "E",
-        "text": "How Viruses Differ from Bacteria"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "The passage establishes the scale of the crisis (paragraph 1), its causes (paragraph 2), and solutions (paragraph 3) — 'Growing Global Crisis' accurately reflects this comprehensive structure.",
-    "passage": "Antibiotic resistance is increasingly recognised as one of the gravest threats to global public health. Every year, drug-resistant infections claim an estimated 1.3 million lives worldwide, and projections warn this figure could exceed ten million annually by 2056 if systemic action is not taken. The World Health Organization has classified antimicrobial resistance as a priority concern, comparable in urgency to climate change.\n\nThe primary driver of resistance is the overuse and misuse of antibiotics. In many countries, patients pressure doctors for antibiotics to treat viral infections on which the drugs have no effect whatsoever. In agriculture, livestock are routinely given antibiotics not only to treat disease but also to (a) ________ growth — a practice that creates massive reservoirs of resistant bacteria across food systems. Poor sanitation allows resistant strains to spread rapidly, compounding the problem.\n\nTackling resistance requires a coordinated global strategy. Investment in new antibiotic development has stalled because the economic returns are insufficient to attract pharmaceutical companies. Meanwhile, rapid diagnostic tools that distinguish viral from bacterial infections could reduce unnecessary prescriptions significantly. Global governance frameworks must incentivise both the responsible use of existing antibiotics and the discovery of new ones — without this dual approach, medicine risks entering a post-antibiotic era.",
-    "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
-    ]
-  },
-  {
-    "id": "ep10_q3_gen_4",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 2 and paragraph 3?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 4 questions the accuracy of the statistics in paragraph 2"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 4 identifies the causes behind the crisis described in paragraph 2"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 4 introduces a different disease from the one in paragraph 3"
-      },
-      {
-        "letter": "D",
-        "text": "Paragraph 3 provides the solutions recommended in paragraph 3"
-      },
-      {
-        "letter": "E",
-        "text": "Paragraph 4 repeats the statistics from paragraph 2 using different numbers"
+        "text": "It was the first stone ever found"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Paragraph 1 establishes the scale and severity of antibiotic resistance. Paragraph 2 then explains the root causes (overuse in medicine and agriculture) — a problem-to-cause progression.",
-    "passage": "Antibiotic resistance is increasingly recognised as one of the gravest threats to global public health. Every year, drug-resistant infections claim an estimated 1.3 million lives worldwide, and projections warn this figure could exceed ten million annually by 2063 if systemic action is not taken. The World Health Organization has classified antimicrobial resistance as a priority concern, comparable in urgency to climate change.\n\nThe primary driver of resistance is the overuse and misuse of antibiotics. In many countries, patients pressure doctors for antibiotics to treat viral infections on which the drugs have no effect whatsoever. In agriculture, livestock are routinely given antibiotics not only to treat disease but also to (a) ________ growth — a practice that creates massive reservoirs of resistant bacteria across food systems. Poor sanitation allows resistant strains to spread rapidly, compounding the problem.\n\nTackling resistance requires a coordinated global strategy. Investment in new antibiotic development has stalled because the economic returns are insufficient to attract pharmaceutical companies. Meanwhile, rapid diagnostic tools that distinguish viral from bacterial infections could reduce unnecessary prescriptions significantly. Global governance frameworks must incentivise both the responsible use of existing antibiotics and the discovery of new ones — without this dual approach, medicine risks entering a post-antibiotic era.",
+    "explanation": "The text says it was 'the key to unlocking Egyptian hieroglyphs'.",
+    "passage": "Discovered in 1799, the Rosetta Stone was the key to unlocking Egyptian hieroglyphs. It contains the same decree written in three different scripts: Hieroglyphic, Demotic, and Ancient Greek. Because scholars (a) ________ read Ancient Greek, they were able to use it as a bridge to translate the other two scripts for the first time.",
+    "passage_id": "t4_p2",
+    "id": "eng_05_gen_4",
     "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep08_q2_gen_4",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): '...mass media and the internet (a) ________ the global dominance of a handful of languages...'",
+    "topic": "Reading",
+    "question_text": "How many different scripts were on the Rosetta Stone?",
     "options": [
       {
         "letter": "A",
-        "text": "reinforcing"
+        "text": "One"
       },
       {
         "letter": "B",
-        "text": "reinforces"
+        "text": "Two"
       },
       {
         "letter": "C",
-        "text": "reinforce"
+        "text": "Three"
       },
       {
         "letter": "D",
-        "text": "reinforced"
+        "text": "Four"
       },
       {
         "letter": "E",
-        "text": "has reinforced"
+        "text": "Five"
       }
     ],
     "correct_answer": "C",
-    "explanation": "The compound subject 'mass media and the internet' is plural, requiring the base form 'reinforce' (not reinforces). Present simple is used for ongoing truths.",
-    "passage": "Thousands of the world's languages are facing extinction at an unprecedented rate. Linguists estimate that roughly half of the approximately 7,000 languages spoken today will disappear by the end of this century, with one language falling silent every two weeks. When a language dies, it carries with it an irreplaceable body of knowledge: unique ecological observations, oral histories, and conceptual frameworks found nowhere else.\n\nThe causes are intertwined. Economic pressures push speakers of minority languages to adopt dominant tongues in order to access education and employment. Urbanization separates communities from the land-based contexts in which their languages flourished. Meanwhile, mass media and the internet (a) ________ the global dominance of a handful of languages, particularly English and Mandarin, accelerating the marginalisation of smaller ones.\n\nEfforts to preserve endangered languages are gaining momentum. Immersion schools and bilingual education programs have achieved notable success with languages such as Welsh and Maori. Digital archiving projects are recording spoken grammars and vocabularies before their last speakers pass away. Scholars argue, however, that true revitalization requires not just documentation but the creation of vibrant communities of speakers who use the language in everyday life.",
+    "explanation": "The text names three: Hieroglyphic, Demotic, and Ancient Greek.",
+    "passage": "Discovered in 1799, the Rosetta Stone was the key to unlocking Egyptian hieroglyphs. It contains the same decree written in three different scripts: Hieroglyphic, Demotic, and Ancient Greek. Because scholars (a) ________ read Ancient Greek, they were able to use it as a bridge to translate the other two scripts for the first time.",
+    "passage_id": "t4_p2",
+    "id": "eng_06_gen_4",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): 'This (a) ________ quantum computers to solve...'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "enable"
+      },
+      {
+        "letter": "B",
+        "text": "enables"
+      },
+      {
+        "letter": "C",
+        "text": "enabling"
+      },
+      {
+        "letter": "D",
+        "text": "enabled"
+      },
+      {
+        "letter": "E",
+        "text": "to enable"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Singular subject 'This' (referring to superposition) takes singular verb 'enables'.",
+    "passage": "Traditional computers use bits (0 or 3), but quantum computers use 'qubits'. Due to a phenomenon called superposition, a qubit can exist in multiple states at once. This (a) ________ quantum computers to solve specific complex problems — like drug discovered or breaking encryption — millions of times faster than today's most powerful supercomputers.",
+    "passage_id": "t4_p3",
+    "id": "eng_07_gen_4",
     "hints": [
       "Identify the subject and its number (singular or plural).",
       "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep09_q3_gen_4",
     "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 4 and paragraph 5?",
+    "topic": "Reading",
+    "question_text": "In what way is a 'qubit' different from a standard 'bit'?",
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 5 gives more examples of smart farming technology"
+        "text": "It can only be 2"
       },
       {
         "letter": "B",
-        "text": "Paragraph 5 introduces a major limitation that undermines the universal benefit of paragraph 4"
+        "text": "It can exist in multiple states at once"
       },
       {
         "letter": "C",
-        "text": "Paragraph 5 contradicts the scientific data mentioned in paragraph 4"
+        "text": "It is made of light instead of silicon"
       },
       {
         "letter": "D",
-        "text": "Paragraph 5 summarizes the drone usage statistics from paragraph 4"
+        "text": "It is much larger than a bit"
       },
       {
         "letter": "E",
-        "text": "Paragraph 5 explains the historical origins of the technologies in paragraph 4"
+        "text": "It does not use electricity"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Paragraph 2 shows smart farming's impressive benefits. Paragraph 3 then reveals a critical limitation — the technology is inaccessible to most small-scale farmers who produce most of the world's food.",
-    "passage": "With global population expected to reach nearly ten billion by 2050, ensuring adequate food production for all is one of the defining challenges of our time. Traditional farming methods, constrained by limited arable land and increasingly erratic weather patterns, will not be sufficient on their own. Agricultural researchers are therefore turning to precision farming technologies — GPS-guided machinery, soil sensors, and data analytics — to maximize yields while minimizing resource waste.\n\nSmart farming can drastically reduce the environmental footprint of agriculture. Sensors embedded in fields transmit real-time data on soil moisture, temperature, and nutrient levels, enabling farmers to (a) ________ fertilizer and water with surgical precision rather than blanket applications. Drones spray pesticides only where needed, cutting chemical use by up to 84 percent. Such efficiencies free up resources and reduce the runoff that pollutes rivers and coastal ecosystems.\n\nAccess to these technologies remains deeply unequal, however. Small-scale farmers in developing nations, who produce roughly 72 percent of the world's food, often lack the capital, connectivity, and training required. Development organizations argue that bridging this gap is as important as the technological innovation itself. Without inclusive access, precision farming may widen the gap between industrial and subsistence agriculture rather than closing it.",
+    "explanation": "The text states 'a qubit can exist in multiple states at once.'",
+    "passage": "Traditional computers use bits (0 or 2), but quantum computers use 'qubits'. Due to a phenomenon called superposition, a qubit can exist in multiple states at once. This (a) ________ quantum computers to solve specific complex problems — like drug discovered or breaking encryption — millions of times faster than today's most powerful supercomputers.",
+    "passage_id": "t4_p3",
+    "id": "eng_08_gen_4",
     "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep09_q2_gen_4",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): '...enabling farmers to (a) ________ fertilizer and water with surgical precision...'",
+    "topic": "Reading",
+    "question_text": "Which complex tasks could quantum computers potentially solve faster?",
     "options": [
       {
         "letter": "A",
-        "text": "apply"
+        "text": "Playing high-def video games"
       },
       {
         "letter": "B",
-        "text": "applied"
+        "text": "Word processing and spreadsheet calculation"
       },
       {
         "letter": "C",
-        "text": "applying"
+        "text": "Drug discovery and breaking encryption"
       },
       {
         "letter": "D",
-        "text": "has applied"
+        "text": "Designing traditional circuit boards"
       },
       {
         "letter": "E",
-        "text": "applies"
+        "text": "Social media management"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The text identifies 'drug discovery or breaking encryption' as potential fields.",
+    "passage": "Traditional computers use bits (0 or 3), but quantum computers use 'qubits'. Due to a phenomenon called superposition, a qubit can exist in multiple states at once. This (a) ________ quantum computers to solve specific complex problems — like drug discovered or breaking encryption — millions of times faster than today's most powerful supercomputers.",
+    "passage_id": "t4_p3",
+    "id": "eng_09_gen_4",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): '...mausoleum (a) ________ a masterpiece...'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "is considered"
+      },
+      {
+        "letter": "B",
+        "text": "considers"
+      },
+      {
+        "letter": "C",
+        "text": "considering"
+      },
+      {
+        "letter": "D",
+        "text": "has considered"
+      },
+      {
+        "letter": "E",
+        "text": "was considering"
       }
     ],
     "correct_answer": "A",
-    "explanation": "'Enabling farmers to (blank)' requires the base infinitive form. 'Apply' is the correct base verb here.",
-    "passage": "With global population expected to reach nearly ten billion by 2050, ensuring adequate food production for all is one of the defining challenges of our time. Traditional farming methods, constrained by limited arable land and increasingly erratic weather patterns, will not be sufficient on their own. Agricultural researchers are therefore turning to precision farming technologies — GPS-guided machinery, soil sensors, and data analytics — to maximize yields while minimizing resource waste.\n\nSmart farming can drastically reduce the environmental footprint of agriculture. Sensors embedded in fields transmit real-time data on soil moisture, temperature, and nutrient levels, enabling farmers to (a) ________ fertilizer and water with surgical precision rather than blanket applications. Drones spray pesticides only where needed, cutting chemical use by up to 81 percent. Such efficiencies free up resources and reduce the runoff that pollutes rivers and coastal ecosystems.\n\nAccess to these technologies remains deeply unequal, however. Small-scale farmers in developing nations, who produce roughly 74 percent of the world's food, often lack the capital, connectivity, and training required. Development organizations argue that bridging this gap is as important as the technological innovation itself. Without inclusive access, precision farming may widen the gap between industrial and subsistence agriculture rather than closing it.",
+    "explanation": "Passive voice 'is considered' for a general opinion.",
+    "passage": "The Taj Mahal in India was built by Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. Completed in 1653, the ivory-white marble mausoleum (a) ________ a masterpiece of Mughal architecture. Today, however, industrial pollution is causing the white marble to turn yellow, prompting strict environmental regulations in the surrounding area.",
+    "passage_id": "t4_p4",
+    "id": "eng_10_gen_4",
     "hints": [
       "Identify the subject and its number (singular or plural).",
       "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep08_q1_gen_4",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for this passage is...",
+    "topic": "Reading",
+    "question_text": "What is currently damaging the Taj Mahal according to the text?",
     "options": [
       {
         "letter": "A",
-        "text": "The Dominance of English in Global Communication"
+        "text": "Floods from the nearby river"
       },
       {
         "letter": "B",
-        "text": "Language Extinction: Causes, Consequences, and Conservation"
+        "text": "Earthquakes"
       },
       {
         "letter": "C",
-        "text": "How to Learn a New Language Quickly"
+        "text": "Industrial pollution"
       },
       {
         "letter": "D",
-        "text": "The Role of Technology in Modern Communication"
+        "text": "The sheer number of tourists"
       },
       {
         "letter": "E",
-        "text": "Welsh and Maori Language Revival Programs"
+        "text": "Insects eating the marble"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 1 discusses the consequences of language loss, paragraph 2 the causes, and paragraph 3 the conservation efforts — 'Causes, Consequences, and Conservation' maps precisely to this structure.",
-    "passage": "Thousands of the world's languages are facing extinction at an unprecedented rate. Linguists estimate that roughly half of the approximately 7,000 languages spoken today will disappear by the end of this century, with one language falling silent every two weeks. When a language dies, it carries with it an irreplaceable body of knowledge: unique ecological observations, oral histories, and conceptual frameworks found nowhere else.\n\nThe causes are intertwined. Economic pressures push speakers of minority languages to adopt dominant tongues in order to access education and employment. Urbanization separates communities from the land-based contexts in which their languages flourished. Meanwhile, mass media and the internet (a) ________ the global dominance of a handful of languages, particularly English and Mandarin, accelerating the marginalisation of smaller ones.\n\nEfforts to preserve endangered languages are gaining momentum. Immersion schools and bilingual education programs have achieved notable success with languages such as Welsh and Maori. Digital archiving projects are recording spoken grammars and vocabularies before their last speakers pass away. Scholars argue, however, that true revitalization requires not just documentation but the creation of vibrant communities of speakers who use the language in everyday life.",
+    "correct_answer": "C",
+    "explanation": "The text says 'industrial pollution is causing the white marble to turn yellow'.",
+    "passage": "The Taj Mahal in India was built by Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. Completed in 1653, the ivory-white marble mausoleum (a) ________ a masterpiece of Mughal architecture. Today, however, industrial pollution is causing the white marble to turn yellow, prompting strict environmental regulations in the surrounding area.",
+    "passage_id": "t4_p4",
+    "id": "eng_11_gen_4",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep13_q2_gen_4",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): 'Eliminating daily commutes can (a) ________ workers an extra hour or more each day...'",
+    "topic": "Reading",
+    "question_text": "When was the Taj Mahal completed?",
     "options": [
       {
         "letter": "A",
-        "text": "gives"
+        "text": "1957"
       },
       {
         "letter": "B",
-        "text": "gave"
+        "text": "1659"
       },
       {
         "letter": "C",
-        "text": "give"
+        "text": "1801"
       },
       {
         "letter": "D",
-        "text": "giving"
+        "text": "1457"
       },
       {
         "letter": "E",
-        "text": "has given"
+        "text": "1215"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text states it was 'Completed in 1653'.",
+    "passage": "The Taj Mahal in India was built by Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. Completed in 1653, the ivory-white marble mausoleum (a) ________ a masterpiece of Mughal architecture. Today, however, industrial pollution is causing the white marble to turn yellow, prompting strict environmental regulations in the surrounding area.",
+    "passage_id": "t4_p4",
+    "id": "eng_12_gen_4",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): '...its tongue alone (a) ________ as much as...'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "weigh"
+      },
+      {
+        "letter": "B",
+        "text": "weighs"
+      },
+      {
+        "letter": "C",
+        "text": "weighing"
+      },
+      {
+        "letter": "D",
+        "text": "weighed"
+      },
+      {
+        "letter": "E",
+        "text": "to weigh"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Singular subject 'tongue' takes singular verb 'weighs'.",
+    "passage": "The blue whale is the largest animal ever known to have existed. Even though it is a mammal, it lives its entire life in the ocean. Its heart is the size of a bumper car, and its tongue alone (a) ________ as much as an entire elephant. These giants feed almost exclusively on tiny shrimp-like creatures called krill, consuming up to 6 tons per day.",
+    "passage_id": "t4_p5",
+    "id": "eng_13_gen_4",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What is the primary food of the blue whale?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Large fish"
+      },
+      {
+        "letter": "B",
+        "text": "Krill"
+      },
+      {
+        "letter": "C",
+        "text": "Seaweed"
+      },
+      {
+        "letter": "D",
+        "text": "Plankton only"
+      },
+      {
+        "letter": "E",
+        "text": "Seal pups"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The text states they feed 'almost exclusively on... krill'.",
+    "passage": "The blue whale is the largest animal ever known to have existed. Even though it is a mammal, it lives its entire life in the ocean. Its heart is the size of a bumper car, and its tongue alone (a) ________ as much as an entire elephant. These giants feed almost exclusively on tiny shrimp-like creatures called krill, consuming up to 6 tons per day.",
+    "passage_id": "t4_p5",
+    "id": "eng_14_gen_4",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "question_text": "The word 'exclusively' in the text means...",
+    "options": [
+      {
+        "letter": "A",
+        "text": "mostly"
+      },
+      {
+        "letter": "B",
+        "text": "rarely"
+      },
+      {
+        "letter": "C",
+        "text": "only"
+      },
+      {
+        "letter": "D",
+        "text": "secretly"
+      },
+      {
+        "letter": "E",
+        "text": "carefully"
       }
     ],
     "correct_answer": "C",
-    "explanation": "'Can + base verb' requires the base form. 'Give' (base form, not 'gives') is the correct choice following the modal 'can'.",
-    "passage": "The COVID-21 pandemic forced an unprecedented global experiment in remote work, compressing years of gradual adoption into a matter of weeks. By mid-2020, tens of millions of knowledge workers worldwide were performing their jobs entirely from home. When the immediate health crisis receded, a striking majority indicated a preference for maintaining at least some degree of location flexibility in their working lives.\n\nThe benefits for employees are well-documented. Eliminating daily commutes can (a) ________ workers an extra hour or more each day, time they redirect toward family, exercise, or personal development. Geographic flexibility allows individuals to live in lower-cost areas without sacrificing career opportunities. Studies have also found that many employees report higher concentration and productivity in home environments free from open-plan office noise.\n\nEmployers and managers, however, identify real drawbacks. Spontaneous in-person collaboration and informal knowledge-sharing — the kind that happens in hallway conversations — are difficult to replicate digitally. Junior employees in particular may miss the mentoring and professional socialization that office environments provide naturally. Many organisations are therefore moving toward hybrid models, in which teams gather in person on designated days specifically for creative and collaborative work while retaining remote flexibility for focused, individual tasks.",
+    "explanation": "Exclusively means only or solely.",
+    "passage": "The blue whale is the largest animal ever known to have existed. Even though it is a mammal, it lives its entire life in the ocean. Its heart is the size of a bumper car, and its tongue alone (a) ________ as much as an entire elephant. These giants feed almost exclusively on tiny shrimp-like creatures called krill, consuming up to 6 tons per day.",
+    "passage_id": "t4_p5",
+    "id": "eng_15_gen_4",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "Re-read the relevant part of the passage carefully."
     ]
   },
   {
-    "id": "ep12_q2_gen_4",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): '...evidence suggests they can (a) ________ the hormone and immune systems...'",
+    "topic": "Cohesion",
+    "question_text": "Which sentence is irrelevant to the engineering/wind topic?",
     "options": [
       {
         "letter": "A",
-        "text": "disrupts"
+        "text": "Sentence 2"
       },
       {
         "letter": "B",
-        "text": "disrupted"
+        "text": "Sentence 3"
       },
       {
         "letter": "C",
-        "text": "disrupting"
+        "text": "Sentence 4"
       },
       {
         "letter": "D",
-        "text": "disrupt"
+        "text": "Sentence 6"
       },
       {
         "letter": "E",
-        "text": "has disrupted"
+        "text": "None"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "'Can + base verb' is the standard modal construction. 'Disrupt' (base form) correctly follows the modal 'can'.",
-    "passage": "Microplastics — plastic particles smaller than five millimetres — have permeated every corner of the planet. They have been detected in the deepest ocean trenches, Arctic ice cores, mountain rainwater, and the bloodstreams of humans and wildlife alike. Although research into their long-term health effects is still developing, accumulating evidence suggests they can (a) ________ the hormone and immune systems of various organisms.\n\nThe primary sources are the fragmentation of larger plastic waste and the deliberate inclusion of microbeads in cosmetic products. Synthetic textiles shed microscopic fibres with every wash, contributing millions of particles to wastewater systems that standard filters are not designed to remove. Single-use plastics, once discarded, break down through UV exposure and wave action into ever-smaller particles that persist for centuries.\n\nAddressing the microplastic crisis demands action at multiple levels. Manufacturers in several countries have been required to eliminate microbeads from rinse-off products. Advanced filtration systems are being installed in wastewater treatment plants. Ultimately, however, meaningful progress depends on a fundamental reduction in plastic production and a rapid global shift towards circular economy models in which materials are designed to be reused rather than discarded.",
-    "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
-    ]
-  },
-  {
-    "id": "ep07_q3_gen_4",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 3 and paragraph 4?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 4 provides technical details about the satellites mentioned in paragraph 3"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 5 raises the environmental and practical concerns that accompany the benefits in paragraph 3"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 4 argues that the benefits described in paragraph 3 are fictional"
-      },
-      {
-        "letter": "D",
-        "text": "Paragraph 4 introduces a separate topic about telescope design"
-      },
-      {
-        "letter": "E",
-        "text": "Paragraph 5 summarizes the cost savings in paragraph 4"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 2 describes satellite benefits (Earth observation, internet access). Paragraph 3 then raises the downsides (orbital debris, telescope disruption) — a benefit-vs-risk contrast.",
-    "passage": "The landscape of space exploration has changed dramatically in the past two decades, driven by the emergence of private companies alongside traditional government space agencies. Firms such as SpaceX and Blue Origin have developed reusable rocket technology that has cut launch costs by an order of magnitude. This cost reduction has (a) ________ a new era of ambition: lunar bases, Mars missions, and commercial space stations are no longer confined to science fiction.\n\nThe democratization of space access brings tangible near-term benefits. Thousands of small satellites now provide high-resolution Earth observation data used for agriculture, disaster response, and climate monitoring. In addition, satellite internet constellations aim to deliver broadband connectivity to the billions of people who still lack reliable access, potentially transforming education and economic opportunity in remote areas.\n\nCritics, however, raise important concerns. The rapid proliferation of satellites is contributing to orbital debris, increasing the risk of collisions that could render specific orbital shells unusable for generations — a scenario known as Kessler Syndrome. Astronomers also report that dense satellite constellations are disrupting ground-based telescope observations. Managing these trade-offs will require international coordination and binding agreements on responsible use of orbital space.",
+    "correct_answer": "C",
+    "explanation": "Sentence 3 is a generic fact about concrete, while the others specifically discuss wind/sway engineering.",
+    "passage": "Designing a skyscraper requires managing powerful wind forces. (2) As height increases, wind speed and pressure grow exponentially. (3) Engineers use 'tuned mass dampers' — huge weights that swing in the opposite direction of the building's sway. (4) Concrete is a common building material. (6) Without these dampers, the top floors of high-rises would move enough to cause motion sickness for occupants.",
+    "passage_id": "t4_p6",
+    "id": "eng_16_gen_4",
     "hints": [
       "Identify the main idea of each paragraph first.",
       "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
     ]
   },
   {
-    "id": "ep12_q3_gen_4",
     "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 3 and paragraph 4?",
+    "topic": "Reading",
+    "question_text": "What is the purpose of a 'tuned mass damper'?",
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 4 contradicts the health claims in paragraph 2"
+        "text": "To make the building taller"
       },
       {
         "letter": "B",
-        "text": "Paragraph 4 explains the origins of the widespread problem described in paragraph 3"
+        "text": "To act as a water reservoir"
       },
       {
         "letter": "C",
-        "text": "Paragraph 3 introduces solutions that reverse the issues of paragraph 3"
+        "text": "To counteract the building's sway caused by wind"
       },
       {
         "letter": "D",
-        "text": "Paragraph 3 gives new statistics about Arctic ice cores"
+        "text": "To hold the elevator cables"
       },
       {
         "letter": "E",
-        "text": "Paragraph 3 focuses on a different type of pollution"
+        "text": "To generate electricity for the lobby"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 1 establishes that microplastics are everywhere and potentially harmful. Paragraph 2 then explains where they come from — the relationship is effect preceding cause (or problem then source).",
-    "passage": "Microplastics — plastic particles smaller than five millimetres — have permeated every corner of the planet. They have been detected in the deepest ocean trenches, Arctic ice cores, mountain rainwater, and the bloodstreams of humans and wildlife alike. Although research into their long-term health effects is still developing, accumulating evidence suggests they can (a) ________ the hormone and immune systems of various organisms.\n\nThe primary sources are the fragmentation of larger plastic waste and the deliberate inclusion of microbeads in cosmetic products. Synthetic textiles shed microscopic fibres with every wash, contributing millions of particles to wastewater systems that standard filters are not designed to remove. Single-use plastics, once discarded, break down through UV exposure and wave action into ever-smaller particles that persist for centuries.\n\nAddressing the microplastic crisis demands action at multiple levels. Manufacturers in several countries have been required to eliminate microbeads from rinse-off products. Advanced filtration systems are being installed in wastewater treatment plants. Ultimately, however, meaningful progress depends on a fundamental reduction in plastic production and a rapid global shift towards circular economy models in which materials are designed to be reused rather than discarded.",
+    "correct_answer": "C",
+    "explanation": "The text says they swing 'in the opposite direction of the building's sway'.",
+    "passage": "Designing a skyscraper requires managing powerful wind forces. (2) As height increases, wind speed and pressure grow exponentially. (3) Engineers use 'tuned mass dampers' — huge weights that swing in the opposite direction of the building's sway. (4) Concrete is a common building material. (5) Without these dampers, the top floors of high-rises would move enough to cause motion sickness for occupants.",
+    "passage_id": "t4_p6",
+    "id": "eng_17_gen_4",
     "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep12_q4_gen_4",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "According to paragraph 2, which of the following is a source of microplastic pollution?",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): 'Its mission is to (a) ________ for signs...'",
     "options": [
       {
         "letter": "A",
-        "text": "Advanced wastewater filtration systems"
+        "text": "search"
       },
       {
         "letter": "B",
-        "text": "The washing of synthetic clothing"
+        "text": "lost"
       },
       {
         "letter": "C",
-        "text": "Arctic ice core sampling"
+        "text": "ignore"
       },
       {
         "letter": "D",
-        "text": "Circular economy manufacturing"
+        "text": "hide"
       },
       {
         "letter": "E",
-        "text": "Industrial food packaging"
+        "text": "destroy"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Paragraph 2 explicitly states: 'Synthetic textiles shed microscopic fibres with every wash, contributing millions of particles to wastewater systems.'",
-    "passage": "Microplastics — plastic particles smaller than five millimetres — have permeated every corner of the planet. They have been detected in the deepest ocean trenches, Arctic ice cores, mountain rainwater, and the bloodstreams of humans and wildlife alike. Although research into their long-term health effects is still developing, accumulating evidence suggests they can (a) ________ the hormone and immune systems of various organisms.\n\nThe primary sources are the fragmentation of larger plastic waste and the deliberate inclusion of microbeads in cosmetic products. Synthetic textiles shed microscopic fibres with every wash, contributing millions of particles to wastewater systems that standard filters are not designed to remove. Single-use plastics, once discarded, break down through UV exposure and wave action into ever-smaller particles that persist for centuries.\n\nAddressing the microplastic crisis demands action at multiple levels. Manufacturers in several countries have been required to eliminate microbeads from rinse-off products. Advanced filtration systems are being installed in wastewater treatment plants. Ultimately, however, meaningful progress depends on a fundamental reduction in plastic production and a rapid global shift towards circular economy models in which materials are designed to be reused rather than discarded.",
+    "correct_answer": "A",
+    "explanation": "'Search' for signs of life is the logical mission goal.",
+    "passage": "In February 2021, NASA's Perseverance rover landed in Jezero Crater on Mars. Its mission is to (a) ________ for signs of ancient microbial life and collect rock samples. The rover also carries a small helicopter called Ingenuity, which became the first aircraft to achieve powered flight on another planet. This mission marks a critical step toward future human exploration of the Red Planet.",
+    "passage_id": "t4_p7",
+    "id": "eng_18_gen_4",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What is 'Ingenuity' according to the text?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The name of the crater"
+      },
+      {
+        "letter": "B",
+        "text": "A large drilling machine"
+      },
+      {
+        "letter": "C",
+        "text": "A small helicopter carried by the rover"
+      },
+      {
+        "letter": "D",
+        "text": "A type of Martian rock"
+      },
+      {
+        "letter": "E",
+        "text": "A fuel source for the rover"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The text defines Ingenuity as 'a small helicopter called Ingenuity'.",
+    "passage": "In February 2021, NASA's Perseverance rover landed in Jezero Crater on Mars. Its mission is to (a) ________ for signs of ancient microbial life and collect rock samples. The rover also carries a small helicopter called Ingenuity, which became the first aircraft to achieve powered flight on another planet. This mission marks a critical step toward future human exploration of the Red Planet.",
+    "passage_id": "t4_p7",
+    "id": "eng_19_gen_4",
+    "hints": [
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What was the significance of the 'Ingenuity' flight?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It was the first flight on Earth"
+      },
+      {
+        "letter": "B",
+        "text": "It broke the speed of sound on Mars"
+      },
+      {
+        "letter": "C",
+        "text": "It was the first powered flight on another planet"
+      },
+      {
+        "letter": "D",
+        "text": "It discovered water in Jezero Crater"
+      },
+      {
+        "letter": "E",
+        "text": "It carried the first human to Mars"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The text states it 'became the first aircraft to achieve powered flight on another planet'.",
+    "passage": "In February 2021, NASA's Perseverance rover landed in Jezero Crater on Mars. Its mission is to (a) ________ for signs of ancient microbial life and collect rock samples. The rover also carries a small helicopter called Ingenuity, which became the first aircraft to achieve powered flight on another planet. This mission marks a critical step toward future human exploration of the Red Planet.",
+    "passage_id": "t4_p7",
+    "id": "eng_20_gen_4",
     "hints": [
       "Look for the specific keywords in the passage.",
       "Eliminate answers that are not mentioned in the text."

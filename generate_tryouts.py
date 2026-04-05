@@ -11,14 +11,7 @@ os.makedirs(os.path.join('quiz-app', 'src', 'GeneratedTryouts'), exist_ok=True)
 
 # ─── Load English passage pools ──────────────────────────────────────────────
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from english_pool import POOL as POOL1
-from english_pool_part2 import POOL_PART2 as POOL2
-
-# Combine and group into 4 sets of 7
-# Each pool has sets of 7 or 8. Total here is 8 + 7 = 15.
-# We need 28 passages (7 per tryout * 4 tryouts).
-# Since we only have 15 long passages, we will cycle/reuse them but they will have mutated text.
-LONG_PASSAGES = POOL1 + POOL2 # Total 15 long, high-quality passages
+from english_pool_v3 import POOL as LONG_PASSAGES
 
 # ─── Text mutation ───────────────────────────────────────────────────────────
 def mutate_text(text, skip_numbers=False):
@@ -71,32 +64,31 @@ for i in range(1, 5):
         elif isinstance(item, dict) and str(item.get('subject','')).lower() != 'english':
             non_english.append(item)
 
-    # Process English (Exactly 20 Qs from 7 long passages)
+    # Process English (Exactly 20 Qs from 7 distinct passages per tryout)
     english_qs = []
     
-    # Select 7 passages for this tryout (using modulo to cycle through the 15 available)
+    # Select 7 distinct passages for this tryout
+    # Tryout 1 gets indices 0-6, Tryout 2 gets 7-13, Tryout 3 gets 14-20, Tryout 4 gets 21-27
+    start_idx = (i - 1) * 7
     tryout_passages = []
     for j in range(7):
-        p_idx = ((i - 1) * 7 + j) % len(LONG_PASSAGES)
+        p_idx = (start_idx + j) % len(LONG_PASSAGES)
         tryout_passages.append(copy.deepcopy(LONG_PASSAGES[p_idx]))
 
     # Flatten questions and assign passage text
     flat_questions = []
     for p in tryout_passages:
         for q in p['questions']:
-            q['passage'] = p['passage_text']
+            q['passage'] = p['text']
+            q['passage_id'] = p['id']
             flat_questions.append(q)
     
-    # Randomly select exactly 20 questions if there are more
-    if len(flat_questions) > 20:
-        random.shuffle(flat_questions)
-        english_qs = flat_questions[:20]
-    else:
-        english_qs = flat_questions
+    english_qs = flat_questions
 
     # Mutate and format
-    for q in english_qs:
-        q['id'] = f"{q.get('id','eq')}_gen_{i}"
+    for idx, q in enumerate(english_qs):
+        base_id = q.get('id', f'eng_{idx+1:02d}')
+        q['id'] = f"{base_id}_gen_{i}"
         q['passage'] = mutate_text(q['passage'])
         q['question_text'] = mutate_text(q['question_text'])
         for opt in q.get('options', []):
@@ -118,4 +110,4 @@ for i in range(5, 21):
     path = f'quiz-app/src/GeneratedTryouts/tryout_{i}.json'
     if os.path.exists(path): os.remove(path)
 
-print("\nSuccess: Generated 4 tryouts with 20 high-quality LONG passages/questions each.")
+print("\nSuccess: Generated 4 tryouts with exactly 7 distinct passages / 20 English questions each.")
