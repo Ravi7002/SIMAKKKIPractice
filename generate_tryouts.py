@@ -68,11 +68,12 @@ for i in range(1, 5):
     english_qs = []
     
     # Select 7 distinct passages for this tryout
-    # Tryout 1 gets indices 0-6, Tryout 2 gets 7-13, Tryout 3 gets 14-20, Tryout 4 gets 21-27
     start_idx = (i - 1) * 7
     tryout_passages = []
     for j in range(7):
         p_idx = (start_idx + j) % len(LONG_PASSAGES)
+        if i == 4 and j == 6:
+            p_idx = len(LONG_PASSAGES) - 1 # Ensure passage 28 (Solar Energy) is included
         tryout_passages.append(copy.deepcopy(LONG_PASSAGES[p_idx]))
 
     # Flatten questions and assign passage text
