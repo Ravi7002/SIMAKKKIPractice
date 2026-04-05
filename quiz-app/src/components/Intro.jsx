@@ -24,7 +24,7 @@ const Intro = ({ onStartPractice, onStartAbility, onStartTryout, onStartCompare,
       <p className="text-muted mb-8 text-lg">
         Master your skills with Hayyu's custom-built practice suite.
         <br/><br/>
-        <i>"You can do it Hayyu! Keep up the spirit! - Love, Ravi"</i> ❤️
+        <i>"Happy practicing sayang, cemangats - lop ravi"</i> ❤️
       </p>
 
       {/* ── Home Menu ── */}
