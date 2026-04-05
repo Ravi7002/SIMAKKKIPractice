@@ -40,6 +40,8 @@
       "correct_answer": "E",
       "explanation": "This is a direct application of 'If A then B'. Since A is happening (raining), B must happen (grass is wet). Ignore common sense timelines like 'will become', logic implies a direct state.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "This is a direct application of 'If A then B'.",
         "Since A is happening (raining), B must happen (grass is wet).",
         "Ignore common sense timelines like 'will become', logic implies a direct state."
@@ -76,6 +78,8 @@
       "correct_answer": "B",
       "explanation": "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle."
       ]
     },
@@ -110,6 +114,8 @@
       "correct_answer": "C",
       "explanation": "This relies on the contrapositive. (If A → B). If NOT B happened, then NOT A must have happened. Since Sarah did not 'pass the exam' (Not B), she could not have 'studied hard' (Not A).",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "This relies on the contrapositive.",
         "(If A → B).",
         "If NOT B happened, then NOT A must have happened.",
@@ -147,6 +153,8 @@
       "correct_answer": "C",
       "explanation": "This tests the converse fallacy. If A (Red Shirt) → B (Sector 4). Knowing B is true does NOT mean A is true. People could be in Sector 4 wearing green shirts. So we cannot definitively know what shirt he is wearing.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "This tests the converse fallacy.",
         "If A (Red Shirt) → B (Sector 4).",
         "Knowing B is true does NOT mean A is true.",
@@ -185,6 +193,8 @@
       "correct_answer": "D",
       "explanation": "If some pets are dogs, and dogs can never be cats, then those specific pets which are dogs cannot be cats. Therefore, at least some pets are not cats.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "If some pets are dogs, and dogs can never be cats, then those specific pets which are dogs cannot be cats.",
         "Therefore, at least some pets are not cats."
       ]
@@ -220,6 +230,8 @@
       "correct_answer": "B",
       "explanation": "Let's analyze. We know there exists an intersection of sloots and flirps. Any creature in that intersection is a flirp, which means it CANNOT be a cront. Since these creatures are also sloots, we definitively know that there are some sloots that are not cronts. We cannot deduce anything regarding glarbs interacting with flirps or cronts safely.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Let's analyze.",
         "We know there exists an intersection of sloots and flirps.",
         "Any creature in that intersection is a flirp, which means it CANNOT be a cront.",
@@ -258,6 +270,8 @@
       "correct_answer": "B",
       "explanation": "Chain logic (A → B → C). If Meeting Cancelled (C) is FALSE, then Flight Delayed (B) MUST be FALSE (by contrapositive of Rule 2). If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1). Thus, neither happened.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Chain logic (A → B → C).",
         "If Meeting Cancelled (C) is FALSE, then Flight Delayed (B) MUST be FALSE (by contrapositive of Rule 2).",
         "If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1).",
@@ -295,6 +309,8 @@
       "correct_answer": "C",
       "explanation": "'Unless X, Not Y' maps to 'If Not X → Not Y'. Contrapositive: 'If Y → X'. This translates to 'If you enter Alpha, you must have a badge'. However, just having a badge (X) doesn't guarantee you enter Alpha (Y) - that's the converse fallacy. There could be other hidden rules like needing a key.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "'Unless X, Not Y' maps to 'If Not X → Not Y'.",
         "Contrapositive: 'If Y → X'.",
         "This translates to 'If you enter Alpha, you must have a badge'.",
@@ -333,6 +349,8 @@
       "correct_answer": "A",
       "explanation": "The 'Either X or Y, but not both' statement acts as an XOR logic gate. If one is false, the other MUST be true. The fact 'suspect telling truth' means 'suspect is lying' is FALSE. Therefore, 'watch is broken' MUST be TRUE.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "The 'Either X or Y, but not both' statement acts as an XOR logic gate.",
         "If one is false, the other MUST be true.",
         "The fact 'suspect telling truth' means 'suspect is lying' is FALSE.",
@@ -370,6 +388,8 @@
       "correct_answer": "E",
       "explanation": "'Only X can do Y' means 'If Y is done, the person is an X'. Since Greg did Y (approved overtime), Greg MUST be an X (a director). Premise B is irrelevant filler information.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "'Only X can do Y' means 'If Y is done, the person is an X'.",
         "Since Greg did Y (approved overtime), Greg MUST be an X (a director).",
         "Premise B is irrelevant filler information."
@@ -406,6 +426,8 @@
       "correct_answer": "A",
       "explanation": "This tests the converse fallacy. If A (Red Shirt) → B (Sector 4). Knowing B is true does NOT mean A is true. People could be in Sector 4 wearing green shirts. So we cannot definitively know what shirt he is wearing.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "This tests the converse fallacy.",
         "If A (Red Shirt) → B (Sector 4).",
         "Knowing B is true does NOT mean A is true.",
@@ -444,6 +466,8 @@
       "correct_answer": "E",
       "explanation": "This tests the converse fallacy. If A (Red Shirt) → B (Sector 4). Knowing B is true does NOT mean A is true. People could be in Sector 4 wearing green shirts. So we cannot definitively know what shirt he is wearing.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "This tests the converse fallacy.",
         "If A (Red Shirt) → B (Sector 4).",
         "Knowing B is true does NOT mean A is true.",
@@ -482,6 +506,8 @@
       "correct_answer": "D",
       "explanation": "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle."
       ]
     },
@@ -516,6 +542,8 @@
       "correct_answer": "B",
       "explanation": "This is a direct application of 'If A then B'. Since A is happening (raining), B must happen (grass is wet). Ignore common sense timelines like 'will become', logic implies a direct state.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "This is a direct application of 'If A then B'.",
         "Since A is happening (raining), B must happen (grass is wet).",
         "Ignore common sense timelines like 'will become', logic implies a direct state."
@@ -552,6 +580,8 @@
       "correct_answer": "C",
       "explanation": "This is a direct application of 'If A then B'. Since A is happening (raining), B must happen (grass is wet). Ignore common sense timelines like 'will become', logic implies a direct state.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "This is a direct application of 'If A then B'.",
         "Since A is happening (raining), B must happen (grass is wet).",
         "Ignore common sense timelines like 'will become', logic implies a direct state."
@@ -588,6 +618,8 @@
       "correct_answer": "A",
       "explanation": "'Unless X, Not Y' maps to 'If Not X → Not Y'. Contrapositive: 'If Y → X'. This translates to 'If you enter Alpha, you must have a badge'. However, just having a badge (X) doesn't guarantee you enter Alpha (Y) - that's the converse fallacy. There could be other hidden rules like needing a key.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "'Unless X, Not Y' maps to 'If Not X → Not Y'.",
         "Contrapositive: 'If Y → X'.",
         "This translates to 'If you enter Alpha, you must have a badge'.",
@@ -626,6 +658,8 @@
       "correct_answer": "A",
       "explanation": "'Unless X, Not Y' maps to 'If Not X → Not Y'. Contrapositive: 'If Y → X'. This translates to 'If you enter Alpha, you must have a badge'. However, just having a badge (X) doesn't guarantee you enter Alpha (Y) - that's the converse fallacy. There could be other hidden rules like needing a key.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "'Unless X, Not Y' maps to 'If Not X → Not Y'.",
         "Contrapositive: 'If Y → X'.",
         "This translates to 'If you enter Alpha, you must have a badge'.",
@@ -664,6 +698,8 @@
       "correct_answer": "B",
       "explanation": "The 'Either X or Y, but not both' statement acts as an XOR logic gate. If one is false, the other MUST be true. The fact 'suspect telling truth' means 'suspect is lying' is FALSE. Therefore, 'watch is broken' MUST be TRUE.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "The 'Either X or Y, but not both' statement acts as an XOR logic gate.",
         "If one is false, the other MUST be true.",
         "The fact 'suspect telling truth' means 'suspect is lying' is FALSE.",
@@ -701,6 +737,8 @@
       "correct_answer": "C",
       "explanation": "This relies on the contrapositive. (If A → B). If NOT B happened, then NOT A must have happened. Since Sarah did not 'pass the exam' (Not B), she could not have 'studied hard' (Not A).",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "This relies on the contrapositive.",
         "(If A → B).",
         "If NOT B happened, then NOT A must have happened.",
@@ -738,6 +776,8 @@
       "correct_answer": "C",
       "explanation": "This tests the converse fallacy. If A (Red Shirt) → B (Sector 4). Knowing B is true does NOT mean A is true. People could be in Sector 4 wearing green shirts. So we cannot definitively know what shirt he is wearing.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "This tests the converse fallacy.",
         "If A (Red Shirt) → B (Sector 4).",
         "Knowing B is true does NOT mean A is true.",
@@ -776,6 +816,8 @@
       "correct_answer": "E",
       "explanation": "Let's analyze. We know there exists an intersection of sloots and flirps. Any creature in that intersection is a flirp, which means it CANNOT be a cront. Since these creatures are also sloots, we definitively know that there are some sloots that are not cronts. We cannot deduce anything regarding glarbs interacting with flirps or cronts safely.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Let's analyze.",
         "We know there exists an intersection of sloots and flirps.",
         "Any creature in that intersection is a flirp, which means it CANNOT be a cront.",
@@ -814,6 +856,8 @@
       "correct_answer": "B",
       "explanation": "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Since all squares inherently belong to the category of rectangles, and X is a square, it must also be a rectangle."
       ]
     },
@@ -848,6 +892,8 @@
       "correct_answer": "E",
       "explanation": "The 'Either X or Y, but not both' statement acts as an XOR logic gate. If one is false, the other MUST be true. The fact 'suspect telling truth' means 'suspect is lying' is FALSE. Therefore, 'watch is broken' MUST be TRUE.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "The 'Either X or Y, but not both' statement acts as an XOR logic gate.",
         "If one is false, the other MUST be true.",
         "The fact 'suspect telling truth' means 'suspect is lying' is FALSE.",
@@ -885,6 +931,8 @@
       "correct_answer": "B",
       "explanation": "'Only X can do Y' means 'If Y is done, the person is an X'. Since Greg did Y (approved overtime), Greg MUST be an X (a director). Premise B is irrelevant filler information.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "'Only X can do Y' means 'If Y is done, the person is an X'.",
         "Since Greg did Y (approved overtime), Greg MUST be an X (a director).",
         "Premise B is irrelevant filler information."
@@ -921,6 +969,8 @@
       "correct_answer": "D",
       "explanation": "Chain logic (A → B → C). If Meeting Cancelled (C) is FALSE, then Flight Delayed (B) MUST be FALSE (by contrapositive of Rule 2). If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1). Thus, neither happened.",
       "hints": [
+        "Break down the logical conditions provided in this Deductive Logic and Syllogisms problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Chain logic (A → B → C).",
         "If Meeting Cancelled (C) is FALSE, then Flight Delayed (B) MUST be FALSE (by contrapositive of Rule 2).",
         "If Flight Delayed (B) is FALSE, then Snows (A) MUST be FALSE (by contrapositive of Rule 1).",

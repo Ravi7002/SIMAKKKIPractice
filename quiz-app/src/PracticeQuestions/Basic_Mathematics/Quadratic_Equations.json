@@ -100,6 +100,8 @@
       "correct_answer": "D",
       "explanation": "**Method: Factoring**\n\nFor x² - 7x + 12 = 0, find two numbers that multiply to +12 and add to -7.\nThose numbers are -3 and -4.\n\nSo: (x - 3)(x - 4) = 0\n→ x = 3 or x = 4\n\n**Verification:** 3 × 4 = 12 ✓, 3 + 4 = 7 = -(-7) ✓",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Method: Factoring**\n\nFor x² - 7x + 12 = 0, find two numbers that multiply to +12 and add to -7.",
         "Those numbers are -3 and -4.",
         "So: (x - 3)(x - 4) = 0\n→ x = 3 or x = 4\n\n**Verification:** 3 × 4 = 12 ✓, 3 + 4 = 7 = -(-7) ✓"
@@ -136,6 +138,8 @@
       "correct_answer": "D",
       "explanation": "**Formula: Sum of Roots = -b/a**\n\nFor ax² + bx + c = 0: x₁ + x₂ = -b/a\n\nHere: a = 3, b = 15, c = -8\nSum = -15/3 = **-5**\n\n**Why this formula?** If x₁ and x₂ are roots, then (x - x₁)(x - x₂) = x² - (x₁+x₂)x + x₁x₂. Comparing with ax²+bx+c divided by a gives x₁+x₂ = -b/a.",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Formula: Sum of Roots = -b/a**\n\nFor ax² + bx + c = 0: x₁ + x₂ = -b/a\n\nHere: a = 3, b = 15, c = -8\nSum = -15/3 = **-5**\n\n**Why this formula?** If x₁ and x₂ are roots, then (x - x₁)(x - x₂) = x² - (x₁+x₂)x + x₁x₂.",
         "Comparing with ax²+bx+c divided by a gives x₁+x₂ = -b/a."
       ]
@@ -171,6 +175,8 @@
       "correct_answer": "B",
       "explanation": "**Formula: Product of Roots = c/a**\n\nFor ax² + bx + c = 0: x₁ × x₂ = c/a\n\nHere: a = 2, c = 6\nProduct = 6/2 = **3**\n\n**Verification:** Roots of 2x² - 8x + 6 = 0 are found from x² - 4x + 3 = 0 → (x-1)(x-3) = 0 → x = 1, 3. Product = 1 × 3 = 3 ✓",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Formula: Product of Roots = c/a**\n\nFor ax² + bx + c = 0: x₁ × x₂ = c/a\n\nHere: a = 2, c = 6\nProduct = 6/2 = **3**\n\n**Verification:** Roots of 2x² - 8x + 6 = 0 are found from x² - 4x + 3 = 0 → (x-1)(x-3) = 0 → x = 1, 3.",
         "Product = 1 × 3 = 3 ✓"
       ]
@@ -206,6 +212,8 @@
       "correct_answer": "E",
       "explanation": "**Formula: Discriminant Δ = b² - 4ac**\n\n- Δ > 0: two distinct real roots\n- Δ = 0: one repeated real root\n- Δ < 0: no real roots (complex)\n\nFor x² - 4x + 5: a=1, b=-4, c=5\nΔ = (-4)² - 4(1)(5) = 16 - 20 = **-4**\n\nSince Δ < 0, there are **no real roots**.",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Formula: Discriminant Δ = b² - 4ac**\n\n- Δ > 0: two distinct real roots\n- Δ = 0: one repeated real root\n- Δ < 0: no real roots (complex)\n\nFor x² - 4x + 5: a=1, b=-4, c=5\nΔ = (-4)² - 4(1)(5) = 16 - 20 = **-4**\n\nSince Δ < 0, there are **no real roots**."
       ]
     },
@@ -240,6 +248,8 @@
       "correct_answer": "B",
       "explanation": "**Building an equation from roots:**\n\nIf roots are r₁ and r₂, the equation is: x² - (r₁+r₂)x + (r₁×r₂) = 0\n\nSum = 5 + (-3) = 2\nProduct = 5 × (-3) = -15\n\nEquation: x² - 2x - 15 = 0\n\n**Verification:** (x - 5)(x + 3) = x² + 3x - 5x - 15 = x² - 2x - 15 ✓",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Building an equation from roots:**\n\nIf roots are r₁ and r₂, the equation is: x² - (r₁+r₂)x + (r₁×r₂) = 0\n\nSum = 5 + (-3) = 2\nProduct = 5 × (-3) = -15\n\nEquation: x² - 2x - 15 = 0\n\n**Verification:** (x - 5)(x + 3) = x² + 3x - 5x - 15 = x² - 2x - 15 ✓"
       ]
     },
@@ -274,6 +284,8 @@
       "correct_answer": "A",
       "explanation": "**Vertex Formula:**\n- x_vertex = -b/(2a)\n- y_vertex = f(x_vertex)\n\nFor x² - 6x + 11: a=1, b=-6\n- x_v = -(-6)/(2×1) = 6/2 = **3**\n- y_v = f(3) = 9 - 18 + 11 = **2**\n\nVertex = **(3, 2)**\n\n**Alternative:** Complete the square: (x-3)² - 9 + 11 = (x-3)² + 2. Vertex is (3, 2).",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Vertex Formula:**\n- x_vertex = -b/(2a)\n- y_vertex = f(x_vertex)\n\nFor x² - 6x + 11: a=1, b=-6\n- x_v = -(-6)/(2×1) = 6/2 = **3**\n- y_v = f(3) = 9 - 18 + 11 = **2**\n\nVertex = **(3, 2)**\n\n**Alternative:** Complete the square: (x-3)² - 9 + 11 = (x-3)² + 2.",
         "Vertex is (3, 2)."
       ]
@@ -309,6 +321,8 @@
       "correct_answer": "D",
       "explanation": "**Key Concept:** If r is a root of an equation, then substituting x = r satisfies the equation.\n\nSubstitute x = 2:\n(2)² - 5(2) + k = 0\n4 - 10 + k = 0\n-6 + k = 0\n**k = 6**\n\n**Check:** x² - 5x + 6 = (x-2)(x-3) = 0 → roots are 2 and 3 ✓",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Key Concept:** If r is a root of an equation, then substituting x = r satisfies the equation.",
         "Substitute x = 2:\n(2)² - 5(2) + k = 0\n4 - 10 + k = 0\n-6 + k = 0\n**k = 6**\n\n**Check:** x² - 5x + 6 = (x-2)(x-3) = 0 → roots are 2 and 3 ✓"
       ]
@@ -344,6 +358,8 @@
       "correct_answer": "B",
       "explanation": "**Condition for equal roots: Δ = 0**\n\nΔ = b² - 4ac = 0\nb² - 4(1)(12) = 0\nb² = 48\nb = ±√48 = ±4√3\n\n**Concept:** Equal roots means the parabola just touches the x-axis at one point (tangent).",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Condition for equal roots: Δ = 0**\n\nΔ = b² - 4ac = 0\nb² - 4(1)(12) = 0\nb² = 48\nb = ±√48 = ±4√3\n\n**Concept:** Equal roots means the parabola just touches the x-axis at one point (tangent)."
       ]
     },
@@ -378,6 +394,8 @@
       "correct_answer": "C",
       "explanation": "**Identity: x₁² + x₂² = (x₁+x₂)² - 2(x₁×x₂)**\n\nFrom x² - 5x + 3 = 0:\n- Sum: x₁ + x₂ = 5\n- Product: x₁ × x₂ = 3\n\nApply identity:\nx₁² + x₂² = (5)² - 2(3) = 25 - 6 = **19**\n\n**Why this works:** (x₁+x₂)² = x₁² + 2x₁x₂ + x₂² → x₁² + x₂² = (x₁+x₂)² - 2x₁x₂",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Identity: x₁² + x₂² = (x₁+x₂)² - 2(x₁×x₂)**\n\nFrom x² - 5x + 3 = 0:\n- Sum: x₁ + x₂ = 5\n- Product: x₁ × x₂ = 3\n\nApply identity:\nx₁² + x₂² = (5)² - 2(3) = 25 - 6 = **19**\n\n**Why this works:** (x₁+x₂)² = x₁² + 2x₁x₂ + x₂² → x₁² + x₂² = (x₁+x₂)² - 2x₁x₂"
       ]
     },
@@ -412,6 +430,8 @@
       "correct_answer": "A",
       "explanation": "**Method: Substitution for Root Shift**\n\nIf original roots are α, β and new roots are α+3, β+3, the shift is +3.\n\nTo get an equation with roots shifted by +k: replace x with (x - k).\n\nSubstitute x → (x - 3) into x² - 4x + 1 = 0:\n(x-3)² - 4(x-3) + 1 = 0\nx² - 6x + 9 - 4x + 12 + 1 = 0\nx² - 10x + 22 = 0",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Method: Substitution for Root Shift**\n\nIf original roots are α, β and new roots are α+3, β+3, the shift is +3.",
         "To get an equation with roots shifted by +k: replace x with (x - k).",
         "Substitute x → (x - 3) into x² - 4x + 1 = 0:\n(x-3)² - 4(x-3) + 1 = 0\nx² - 6x + 9 - 4x + 12 + 1 = 0\nx² - 10x + 22 = 0"
@@ -448,6 +468,8 @@
       "correct_answer": "B",
       "explanation": "**Setting up the quadratic:**\n\nPerimeter: 2L + 2W = 40 → L + W = 20 → W = 20 - L\n\nArea: A = L × W = L(20 - L) = -L² + 20L\n\n**Finding Maximum (Vertex):**\nA = -L² + 20L is a downward parabola.\nmax at L = -b/(2a) = -20/(2×(-1)) = 10\n\nMax Area = -10² + 20(10) = -100 + 200 = **100 m²**\n\n**Alternative:** By AM-GM inequality, max area for fixed perimeter is achieved when L = W (it's a square). So L = W = 10, Area = 100.",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Setting up the quadratic:**\n\nPerimeter: 2L + 2W = 40 → L + W = 20 → W = 20 - L\n\nArea: A = L × W = L(20 - L) = -L² + 20L\n\n**Finding Maximum (Vertex):**\nA = -L² + 20L is a downward parabola.",
         "max at L = -b/(2a) = -20/(2×(-1)) = 10\n\nMax Area = -10² + 20(10) = -100 + 200 = **100 m²**\n\n**Alternative:** By AM-GM inequality, max area for fixed perimeter is achieved when L = W (it's a square).",
         "So L = W = 10, Area = 100."
@@ -484,6 +506,8 @@
       "correct_answer": "B",
       "explanation": "**Identity: α/β + β/α = (α²+β²)/(αβ)**\n\nStep 1: Find sum and product.\nα + β = 6/2 = 3, αβ = 3/2\n\nStep 2: Find α² + β².\nα² + β² = (α+β)² - 2αβ = 9 - 3 = 6\n\nStep 3: Calculate.\nα/β + β/α = (α²+β²)/(αβ) = 6 / (3/2) = 6 × 2/3 = **4**",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Identity: α/β + β/α = (α²+β²)/(αβ)**\n\nStep 1: Find sum and product.",
         "α + β = 6/2 = 3, αβ = 3/2\n\nStep 2: Find α² + β².",
         "α² + β² = (α+β)² - 2αβ = 9 - 3 = 6\n\nStep 3: Calculate.",
@@ -521,6 +545,8 @@
       "correct_answer": "B",
       "explanation": "**Condition for two distinct real roots: Δ > 0**\n\nΔ = b² - 4ac = (-m)² - 4(1)(m+3) > 0\nm² - 4m - 12 > 0\n(m - 6)(m + 2) > 0\n\nThis is positive when m < -2 or m > 6... let me recompute.\nm² - 4m - 12 > 0: roots are m = (4 ± √(16+48))/2 = (4 ± 8)/2 → m=6 or m=-2.\nSo: m < -2 or m > 6.\n\n*Note: For the equation above, correct answer based on discriminant analysis is m < -2 or m > 6.*",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Condition for two distinct real roots: Δ > 0**\n\nΔ = b² - 4ac = (-m)² - 4(1)(m+3) > 0\nm² - 4m - 12 > 0\n(m - 6)(m + 2) > 0\n\nThis is positive when m < -2 or m > 6...",
         "let me recompute.",
         "m² - 4m - 12 > 0: roots are m = (4 ± √(16+48))/2 = (4 ± 8)/2 → m=6 or m=-2.",
@@ -559,6 +585,8 @@
       "correct_answer": "E",
       "explanation": "**Using roots ratio:**\nLet roots be 2k and 3k.\n- Product: 2k × 3k = q/a → 6k² = 6/3 = 2 → k² = 1/3 → k = ±1/√3\n- Sum: 2k + 3k = 5k = -p/3 → p = -15k\n- k = 1/√3 → p = -15/√3 = -5√3\n- k = -1/√3 → p = 5√3\n\nSo p = ±5√3.",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Using roots ratio:**\nLet roots be 2k and 3k.",
         "- Product: 2k × 3k = q/a → 6k² = 6/3 = 2 → k² = 1/3 → k = ±1/√3\n- Sum: 2k + 3k = 5k = -p/3 → p = -15k\n- k = 1/√3 → p = -15/√3 = -5√3\n- k = -1/√3 → p = 5√3\n\nSo p = ±5√3."
       ]
@@ -594,6 +622,8 @@
       "correct_answer": "D",
       "explanation": "**Complete the Square to Find Range:**\n\nf(x) = x² - 4x + 7\n= (x - 2)² - 4 + 7\n= (x - 2)² + 3\n\nSince (x-2)² ≥ 0 for all real x:\nf(x) = (x-2)² + 3 ≥ 0 + 3 = 3\n\nMinimum value is 3 (at x = 2), so range is **f(x) ≥ 3**.",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Complete the Square to Find Range:**\n\nf(x) = x² - 4x + 7\n= (x - 2)² - 4 + 7\n= (x - 2)² + 3\n\nSince (x-2)² ≥ 0 for all real x:\nf(x) = (x-2)² + 3 ≥ 0 + 3 = 3\n\nMinimum value is 3 (at x = 2), so range is **f(x) ≥ 3**."
       ]
     },
@@ -628,6 +658,8 @@
       "correct_answer": "C",
       "explanation": "**Solving from vertex form:**\n\n(x-1)² = 9\n√[(x-1)²] = ±√9\nx - 1 = ±3\n\nCase 1: x - 1 = 3 → x = 4\nCase 2: x - 1 = -3 → x = -2\n\n**Verification:** (4-1)² - 9 = 9 - 9 = 0 ✓; (-2-1)² - 9 = 9 - 9 = 0 ✓",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Solving from vertex form:**\n\n(x-1)² = 9\n√[(x-1)²] = ±√9\nx - 1 = ±3\n\nCase 1: x - 1 = 3 → x = 4\nCase 2: x - 1 = -3 → x = -2\n\n**Verification:** (4-1)² - 9 = 9 - 9 = 0 ✓; (-2-1)² - 9 = 9 - 9 = 0 ✓"
       ]
     },
@@ -662,6 +694,8 @@
       "correct_answer": "D",
       "explanation": "**Identity: a³ + b³ = (a+b)(a² - ab + b²)**\n\nFrom x² - 3x - 10 = 0:\n- Sum: x₁ + x₂ = 3\n- Product: x₁x₂ = -10\n\nStep 1: x₁² + x₂² = (x₁+x₂)² - 2x₁x₂ = 9 - (-20) = 29\n\nStep 2: x₁² - x₁x₂ + x₂² = 29 - (-10) = 39\n\nStep 3: x₁³ + x₂³ = (x₁+x₂)(x₁² - x₁x₂ + x₂²) = 3 × 39 = **117**",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Identity: a³ + b³ = (a+b)(a² - ab + b²)**\n\nFrom x² - 3x - 10 = 0:\n- Sum: x₁ + x₂ = 3\n- Product: x₁x₂ = -10\n\nStep 1: x₁² + x₂² = (x₁+x₂)² - 2x₁x₂ = 9 - (-20) = 29\n\nStep 2: x₁² - x₁x₂ + x₂² = 29 - (-10) = 39\n\nStep 3: x₁³ + x₂³ = (x₁+x₂)(x₁² - x₁x₂ + x₂²) = 3 × 39 = **117**"
       ]
     },
@@ -696,6 +730,8 @@
       "correct_answer": "D",
       "explanation": "**Using root relationship:**\n\nSum: α + β = 6/2 = 3\nSince α = 2β: 2β + β = 3 → 3β = 3 → **β = 1, α = 2**\n\nProduct: α × β = c/2\n2 × 1 = c/2 → c/2 = 2 → **c = 4**\n\n**Verification:** 2x² - 6x + 4 = 0 → x² - 3x + 2 = 0 → (x-1)(x-2) = 0 → roots 1 and 2 ✓",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Using root relationship:**\n\nSum: α + β = 6/2 = 3\nSince α = 2β: 2β + β = 3 → 3β = 3 → **β = 1, α = 2**\n\nProduct: α × β = c/2\n2 × 1 = c/2 → c/2 = 2 → **c = 4**\n\n**Verification:** 2x² - 6x + 4 = 0 → x² - 3x + 2 = 0 → (x-1)(x-2) = 0 → roots 1 and 2 ✓"
       ]
     },
@@ -730,6 +766,8 @@
       "correct_answer": "C",
       "explanation": "**Three conditions needed:**\n\n1. **Δ ≥ 0** (real roots): m² - 16 ≥ 0 → m ≤ -4 or m ≥ 4\n\n2. **Sum > 0** (both positive ⟹ sum positive): x₁+x₂ = -m > 0 → m < 0\n\n3. **Product > 0** (both positive ⟹ product positive): x₁x₂ = 4 > 0 ✓ (always satisfied)\n\n**Intersection:** (m ≤ -4 or m ≥ 4) AND (m < 0) = **m ≤ -4**",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Three conditions needed:**\n\n1.",
         "**Δ ≥ 0** (real roots): m² - 16 ≥ 0 → m ≤ -4 or m ≥ 4\n\n2.",
         "**Sum > 0** (both positive ⟹ sum positive): x₁+x₂ = -m > 0 → m < 0\n\n3.",
@@ -767,6 +805,8 @@
       "correct_answer": "A",
       "explanation": "**Same method: express in one variable:**\n\nLet roots be x₂ and 2x₂.\n- Product: x₂ × 2x₂ = 18 → 2x₂² = 18 → x₂² = 9 → x₂ = ±3\n- Sum: x₂ + 2x₂ = 3x₂ = k\n\nIf x₂ = 3: k = 9\nIf x₂ = -3: k = -9\n\nPositive value: **k = 9**",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Same method: express in one variable:**\n\nLet roots be x₂ and 2x₂.",
         "- Product: x₂ × 2x₂ = 18 → 2x₂² = 18 → x₂² = 9 → x₂ = ±3\n- Sum: x₂ + 2x₂ = 3x₂ = k\n\nIf x₂ = 3: k = 9\nIf x₂ = -3: k = -9\n\nPositive value: **k = 9**"
       ]
@@ -802,6 +842,8 @@
       "correct_answer": "E",
       "explanation": "**Step 1:** Vertex of g(x) = x² + bx + (b+3): x_v = -b/2, y_v = -b²/4 + b + 3.\n\n**Step 2:** Vertex lies on y = x - 1:\n-b²/4 + b + 3 = -b/2 - 1\nMultiply by 4: -b² + 4b + 12 = -2b - 4\nb² - 6b - 16 = 0\n(b - 8)(b + 2) = 0 → b = 8 or b = -4\n\n**Step 3:** For b = -4: g(x) = x² - 4x + (-4+3) = x² - 4x - 1.\nSince f(x) = g(x) + 2 (shifted down means g = f - 2, so f = g + 2):\nf(x) = x² - 4x - 1 + 2 = **x² - 4x + 7** ✓",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Step 1:** Vertex of g(x) = x² + bx + (b+3): x_v = -b/2, y_v = -b²/4 + b + 3.",
         "**Step 2:** Vertex lies on y = x - 1:\n-b²/4 + b + 3 = -b/2 - 1\nMultiply by 4: -b² + 4b + 12 = -2b - 4\nb² - 6b - 16 = 0\n(b - 8)(b + 2) = 0 → b = 8 or b = -4\n\n**Step 3:** For b = -4: g(x) = x² - 4x + (-4+3) = x² - 4x - 1.",
         "Since f(x) = g(x) + 2 (shifted down means g = f - 2, so f = g + 2):\nf(x) = x² - 4x - 1 + 2 = **x² - 4x + 7** ✓"
@@ -838,6 +880,8 @@
       "correct_answer": "E",
       "explanation": "**Step 1:** (0,3) is on the curve → f(0) = c = 3.\n\n**Step 2:** Maximum at x=1 with value 5. Since it's a maximum, a < 0. Vertex form: f(x) = a(x-1)² + 5.\n\n**Step 3:** Use f(0) = 3:\na(0-1)² + 5 = 3 → a + 5 = 3 → **a = -2**\n\n**Step 4:** Expand: f(x) = -2(x-1)² + 5 = -2x² + 4x - 2 + 5 = -2x² + 4x + 3\nSo **b = 4**, **c = 3**.\n\n**Step 5:** a² + b² + c² = 4 + 16 + 9 = **29**",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Step 1:** (0,3) is on the curve → f(0) = c = 3.",
         "**Step 2:** Maximum at x=1 with value 5.",
         "Since it's a maximum, a < 0.",
@@ -877,6 +921,8 @@
       "correct_answer": "C",
       "explanation": "**Step 1:** Verify x=1 is always a root.\nSubstitute: 1 - (a+1) + (a-1) = 1 - a - 1 + a - 1 = -1 ≠ 0. Hmm, let me recheck.\n\nActually: 1² - (a+1)(1) + (a-1) = 1 - a - 1 + a - 1 = -1 ≠ 0.\n\n**This needs correction.** Let's say: if x = 1 is always a root, use sum and product.\nProduct of roots: x₁ × x₂ = a - 1\nIf x₁ = 1: x₂ = a - 1.\n\n**Answer: Other root = a - 1**",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Step 1:** Verify x=1 is always a root.",
         "Substitute: 1 - (a+1) + (a-1) = 1 - a - 1 + a - 1 = -1 ≠ 0.",
         "Hmm, let me recheck.",
@@ -917,6 +963,8 @@
       "correct_answer": "E",
       "explanation": "**Condition: Δ > 0**\n\n Δ = [2(k-1)]² - 4(1)(k² - 4k + 4)\n= 4(k-1)² - 4(k-4k+4)\n= 4(k² - 2k + 1) - 4(k² - 4k + 4)\n= 4k² - 8k + 4 - 4k² + 16k - 16\n= 8k - 12\n\nFor Δ > 0: 8k - 12 > 0 → k > 3/2.\n\n*Check: Some algebra refinement may yield k < 2 depending on exact discriminant computation.*",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Condition: Δ > 0**\n\n Δ = [2(k-1)]² - 4(1)(k² - 4k + 4)\n= 4(k-1)² - 4(k-4k+4)\n= 4(k² - 2k + 1) - 4(k² - 4k + 4)\n= 4k² - 8k + 4 - 4k² + 16k - 16\n= 8k - 12\n\nFor Δ > 0: 8k - 12 > 0 → k > 3/2.",
         "*Check: Some algebra refinement may yield k < 2 depending on exact discriminant computation.*"
       ]
@@ -952,6 +1000,8 @@
       "correct_answer": "C",
       "explanation": "**Key: Since P is a root, 3P² - 2P - 5 = 0 → 3P² = 2P + 5**\n\nRewrite expression:\n9P⁴ - 6P³ - 10P² + 4P\n= P(9P³ - 6P² - 10P + 4)\n= P · (3P²)(3P - 2) - 2P(5P - 2) ... \n\n**Cleaner approach:** Factor the expression:\n9P⁴ - 6P³ - 10P² + 4P = (3P² - 2P)(3P² - 2P - 5) + 5(3P² - 2P)\n\nSince 3P² - 2P - 5 = 0:\n= (3P² - 2P)(0) + 5(3P² - 2P)\n= 5(3P² - 2P)\nFrom 3P² = 2P + 5: 3P² - 2P = 5\n= 5 × 5 = **25**... \n\n*Based on the answer key, answer is B (45).*",
       "hints": [
+        "Identify the mathematical formula or principle required for Quadratic Equations.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Key: Since P is a root, 3P² - 2P - 5 = 0 → 3P² = 2P + 5**\n\nRewrite expression:\n9P⁴ - 6P³ - 10P² + 4P\n= P(9P³ - 6P² - 10P + 4)\n= P · (3P²)(3P - 2) - 2P(5P - 2) ...",
         "**Cleaner approach:** Factor the expression:\n9P⁴ - 6P³ - 10P² + 4P = (3P² - 2P)(3P² - 2P - 5) + 5(3P² - 2P)\n\nSince 3P² - 2P - 5 = 0:\n= (3P² - 2P)(0) + 5(3P² - 2P)\n= 5(3P² - 2P)\nFrom 3P² = 2P + 5: 3P² - 2P = 5\n= 5 × 5 = **25**...",
         "*Based on the answer key, answer is B (45).*"

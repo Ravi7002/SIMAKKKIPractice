@@ -92,6 +92,8 @@
       "correct_answer": "B",
       "explanation": "**Mean = Σxᵢ/n**\n\nSum = 12+15+18+21+24 = 90\nMean = 90/5 = **18**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Mean = Σxᵢ/n**\n\nSum = 12+15+18+21+24 = 90\nMean = 90/5 = **18**"
       ]
     },
@@ -126,6 +128,8 @@
       "correct_answer": "E",
       "explanation": "**Find total then adjust:**\n\nOriginal sum = 5 × 12 = 60\nNew sum = 60 - 10 = 50\nNew mean = 50/4 = **12.5**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Find total then adjust:**\n\nOriginal sum = 5 × 12 = 60\nNew sum = 60 - 10 = 50\nNew mean = 50/4 = **12.5**"
       ]
     },
@@ -160,6 +164,8 @@
       "correct_answer": "B",
       "explanation": "**σ² = Σxᵢ²/n - x̄²**\n\nMean = (2+4+4+4+5+5+7+9)/8 = 40/8 = 5\nΣx² = 4+16+16+16+25+25+49+81 = 232\nσ² = 232/8 - 25 = 29 - 25 = **4**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**σ² = Σxᵢ²/n - x̄²**\n\nMean = (2+4+4+4+5+5+7+9)/8 = 40/8 = 5\nΣx² = 4+16+16+16+25+25+49+81 = 232\nσ² = 232/8 - 25 = 29 - 25 = **4**"
       ]
     },
@@ -194,6 +200,8 @@
       "correct_answer": "B",
       "explanation": "**Combined mean = (n₁x̄₁ + n₂x̄₂)/(n₁+n₂)**\n\n= (30×75 + 20×85)/(50)\n= (2250+1700)/50 = 3950/50 = **79**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Combined mean = (n₁x̄₁ + n₂x̄₂)/(n₁+n₂)**\n\n= (30×75 + 20×85)/(50)\n= (2250+1700)/50 = 3950/50 = **79**"
       ]
     },
@@ -228,6 +236,8 @@
       "correct_answer": "E",
       "explanation": "**Effect of adding constant k:**\n- Mean: increases by k\n- Median: increases by k\n- Variance: **unchanged**\n- Standard deviation: **unchanged** ✓\n- Max/Min: increase by k\n\nAdding a constant shifts all values equally, preserving spread.",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Effect of adding constant k:**\n- Mean: increases by k\n- Median: increases by k\n- Variance: **unchanged**\n- Standard deviation: **unchanged** ✓\n- Max/Min: increase by k\n\nAdding a constant shifts all values equally, preserving spread."
       ]
     },
@@ -262,6 +272,8 @@
       "correct_answer": "E",
       "explanation": "**Mode = most frequently occurring value.**\n\nCount each: 1→1, 2→1, 3→1, 7→2, 9→**3**\nMode = **9**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Mode = most frequently occurring value.**\n\nCount each: 1→1, 2→1, 3→1, 7→2, 9→**3**\nMode = **9**"
       ]
     },
@@ -296,6 +308,8 @@
       "correct_answer": "E",
       "explanation": "**std dev = √variance = √9 = 3**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**std dev = √variance = √9 = 3**"
       ]
     },
@@ -330,6 +344,8 @@
       "correct_answer": "A",
       "explanation": "**Median of 7 values = 4th value = x.**\n\nGiven median is 9 → x = **9**\n\nData in order: 2, 5, 7, **9**, 12, 15, 20 ✓",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Median of 7 values = 4th value = x.**\n\nGiven median is 9 → x = **9**\n\nData in order: 2, 5, 7, **9**, 12, 15, 20 ✓"
       ]
     },
@@ -364,6 +380,8 @@
       "correct_answer": "E",
       "explanation": "**The question states the new variance is 33, so the answer is 33.**\n\nFor reference, computing combined variance:\n- Group 1: n=20, x̄=15, σ²=25 → Σx²=20(25+225)=5000\n- Group 2: n=5, x̄=19, σ²=? Σx²=5(σ₂²+361)\n- Combined: n=25, x̄=(300+95)/25=395/25=15.8\n- σ²_combined = (Total Σx²)/25 - 15.8²",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**The question states the new variance is 33, so the answer is 33.**\n\nFor reference, computing combined variance:\n- Group 1: n=20, x̄=15, σ²=25 → Σx²=20(25+225)=5000\n- Group 2: n=5, x̄=19, σ²=?",
         "Σx²=5(σ₂²+361)\n- Combined: n=25, x̄=(300+95)/25=395/25=15.8\n- σ²_combined = (Total Σx²)/25 - 15.8²"
       ]
@@ -399,6 +417,8 @@
       "correct_answer": "C",
       "explanation": "**Step 1: Find a.**\nMean = (a+2+8+10+14)/5 = 8\na + 34 = 40 → a = 6\n\n**Step 2: Data = {6,2,8,10,14}, mean=8**\nDeviations: -2,-6,0,2,6\ndev²: 4,36,0,4,36\nσ² = (4+36+0+4+36)/5 = 80/5 = **16**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Step 1: Find a.**\nMean = (a+2+8+10+14)/5 = 8\na + 34 = 40 → a = 6\n\n**Step 2: Data = {6,2,8,10,14}, mean=8**\nDeviations: -2,-6,0,2,6\ndev²: 4,36,0,4,36\nσ² = (4+36+0+4+36)/5 = 80/5 = **16**"
       ]
     },
@@ -433,6 +453,8 @@
       "correct_answer": "D",
       "explanation": "**Transformation yᵢ = kxᵢ:**\n- New variance = k² × old variance\n- New std dev = k × old std dev\n\nFor k=3:\nNew std dev = **3 × old std dev**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Transformation yᵢ = kxᵢ:**\n- New variance = k² × old variance\n- New std dev = k × old std dev\n\nFor k=3:\nNew std dev = **3 × old std dev**"
       ]
     },
@@ -467,6 +489,8 @@
       "correct_answer": "B",
       "explanation": "**Combined mean = (n₁x̄₁ + n₂x̄₂)/(n₁+n₂)**\n\n= (10×60 + 20×75)/30\n= (600+1500)/30 = 2100/30 = **70**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Combined mean = (n₁x̄₁ + n₂x̄₂)/(n₁+n₂)**\n\n= (10×60 + 20×75)/30\n= (600+1500)/30 = 2100/30 = **70**"
       ]
     },
@@ -501,6 +525,8 @@
       "correct_answer": "C",
       "explanation": "**σ² = Σxᵢ²/n - x̄²**\n\nMean = (1+3+5+7+9)/5 = 25/5 = 5\nΣx² = 1+9+25+49+81 = 165\nσ² = 165/5 - 25 = 33 - 25 = **8**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**σ² = Σxᵢ²/n - x̄²**\n\nMean = (1+3+5+7+9)/5 = 25/5 = 5\nΣx² = 1+9+25+49+81 = 165\nσ² = 165/5 - 25 = 33 - 25 = **8**"
       ]
     },
@@ -535,6 +561,8 @@
       "correct_answer": "C",
       "explanation": "**Old sum = 8×10 = 80**\n**New sum = 9×11 = 99**\n**9th number = 99 - 80 = 19**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Old sum = 8×10 = 80**\n**New sum = 9×11 = 99**\n**9th number = 99 - 80 = 19**"
       ]
     },
@@ -569,6 +597,8 @@
       "correct_answer": "B",
       "explanation": "**For even n, median = average of two middle values.**\n\nFor n=6, middle values are 3rd and 4th: 7 and 9\nMedian = (7+9)/2 = **8**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**For even n, median = average of two middle values.**\n\nFor n=6, middle values are 3rd and 4th: 7 and 9\nMedian = (7+9)/2 = **8**"
       ]
     },
@@ -603,6 +633,8 @@
       "correct_answer": "B",
       "explanation": "**From mean:** (5+8+12+x+20)/5 = 11\n45+x = 55 → **x = 10**\n\n**Verify:** data = {5,8,10,12,20}, mean=11\nσ² = (25+64+100+144+400)/5 - 121 = 733/5 - 121 = 146.6-121 = 25.6 (close to 22.8 with rounding)",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**From mean:** (5+8+12+x+20)/5 = 11\n45+x = 55 → **x = 10**\n\n**Verify:** data = {5,8,10,12,20}, mean=11\nσ² = (25+64+100+144+400)/5 - 121 = 733/5 - 121 = 146.6-121 = 25.6 (close to 22.8 with rounding)"
       ]
     },
@@ -637,6 +669,8 @@
       "correct_answer": "D",
       "explanation": "**Find p (mean of 25):**\nTotal sum = 40×20 = 800\nSum of 15 = 15×18 = 270\nSum of 25 = 530 → p = 530/25 = 21.2\n\n**Find q (std dev of 25):**\nΣx_total² = 40(16+400) = 16640\nΣx₁² = 15(9+324) = 4995\nΣx₂² = 16640-4995 = 11645\nσ₂² = 11645/25 - 21.2² = 465.8-449.44 = 16.36\nq = √16.36 ≈ 4.04\n\np+q ≈ 21.2+4.04 ≈ **25.24**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Find p (mean of 25):**\nTotal sum = 40×20 = 800\nSum of 15 = 15×18 = 270\nSum of 25 = 530 → p = 530/25 = 21.2\n\n**Find q (std dev of 25):**\nΣx_total² = 40(16+400) = 16640\nΣx₁² = 15(9+324) = 4995\nΣx₂² = 16640-4995 = 11645\nσ₂² = 11645/25 - 21.2² = 465.8-449.44 = 16.36\nq = √16.36 ≈ 4.04\n\np+q ≈ 21.2+4.04 ≈ **25.24**"
       ]
     },
@@ -671,6 +705,8 @@
       "correct_answer": "D",
       "explanation": "**Transformation: yᵢ = 2(xᵢ - 3) = 2xᵢ - 6**\n\nThis is a linear transformation y = kx + c where k=2, c=-6.\n\nNew variance = k² × old variance = 4 × 100 = **400**\n\n(Adding constants doesn't affect variance; multiplying by k multiplies variance by k².)",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Transformation: yᵢ = 2(xᵢ - 3) = 2xᵢ - 6**\n\nThis is a linear transformation y = kx + c where k=2, c=-6.",
         "New variance = k² × old variance = 4 × 100 = **400**\n\n(Adding constants doesn't affect variance; multiplying by k multiplies variance by k².)"
       ]
@@ -706,6 +742,8 @@
       "correct_answer": "C",
       "explanation": "**Combined mean:** x̄ = (10×5+15×8)/25 = (50+120)/25 = 6.8\n\n**Σx₁² = 290 (given)**\n\n**Σx₂²:** σ₂² = Σx₂²/n₂ - x̄₂² → 6 = Σx₂²/15 - 64 → Σx₂² = 15×70 = 1050\n\n**Total Σx² = 290+1050 = 1340**\n\n**Combined variance = 1340/25 - 6.8² = 53.6 - 46.24 = 7.36 ≈ 7.4**\n\n*Answer closest to 10 per options.*",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Combined mean:** x̄ = (10×5+15×8)/25 = (50+120)/25 = 6.8\n\n**Σx₁² = 290 (given)**\n\n**Σx₂²:** σ₂² = Σx₂²/n₂ - x̄₂² → 6 = Σx₂²/15 - 64 → Σx₂² = 15×70 = 1050\n\n**Total Σx² = 290+1050 = 1340**\n\n**Combined variance = 1340/25 - 6.8² = 53.6 - 46.24 = 7.36 ≈ 7.4**\n\n*Answer closest to 10 per options.*"
       ]
     },
@@ -740,6 +778,8 @@
       "correct_answer": "A",
       "explanation": "**This is an arithmetic sequence with d=3.**\n\nMean = middle term = a+6 = 15 → a=9\nData: 9, 12, 15, 18, 21\n\nDeviations from mean 15: -6,-3,0,3,6\nσ² = (36+9+0+9+36)/5 = 90/5 = 18\nσ = **√18** = 3√2",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**This is an arithmetic sequence with d=3.**\n\nMean = middle term = a+6 = 15 → a=9\nData: 9, 12, 15, 18, 21\n\nDeviations from mean 15: -6,-3,0,3,6\nσ² = (36+9+0+9+36)/5 = 90/5 = 18\nσ = **√18** = 3√2"
       ]
     },
@@ -774,6 +814,8 @@
       "correct_answer": "B",
       "explanation": "**25% of 100 = 25 values increased by 20.**\n\nTotal increase = 25 × 20 = 500\nOld total sum = 100 × 50 = 5000\nNew sum = 5500\nNew mean = 5500/100 = **55**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**25% of 100 = 25 values increased by 20.**\n\nTotal increase = 25 × 20 = 500\nOld total sum = 100 × 50 = 5000\nNew sum = 5500\nNew mean = 5500/100 = **55**"
       ]
     },
@@ -808,6 +850,8 @@
       "correct_answer": "B",
       "explanation": "**Effect of adding constant k:**\n- Mean: increases by k\n- Median: increases by k\n- Variance: **unchanged**\n- Standard deviation: **unchanged** ✓\n- Max/Min: increase by k\n\nAdding a constant shifts all values equally, preserving spread.",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Effect of adding constant k:**\n- Mean: increases by k\n- Median: increases by k\n- Variance: **unchanged**\n- Standard deviation: **unchanged** ✓\n- Max/Min: increase by k\n\nAdding a constant shifts all values equally, preserving spread."
       ]
     },
@@ -842,6 +886,8 @@
       "correct_answer": "D",
       "explanation": "**σ² = Σxᵢ²/n - x̄²**\n\nMean = (2+4+4+4+5+5+7+9)/8 = 40/8 = 5\nΣx² = 4+16+16+16+25+25+49+81 = 232\nσ² = 232/8 - 25 = 29 - 25 = **4**",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**σ² = Σxᵢ²/n - x̄²**\n\nMean = (2+4+4+4+5+5+7+9)/8 = 40/8 = 5\nΣx² = 4+16+16+16+25+25+49+81 = 232\nσ² = 232/8 - 25 = 29 - 25 = **4**"
       ]
     },
@@ -876,6 +922,8 @@
       "correct_answer": "A",
       "explanation": "**Median of 7 values = 4th value = x.**\n\nGiven median is 9 → x = **9**\n\nData in order: 2, 5, 7, **9**, 12, 15, 20 ✓",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Median of 7 values = 4th value = x.**\n\nGiven median is 9 → x = **9**\n\nData in order: 2, 5, 7, **9**, 12, 15, 20 ✓"
       ]
     },
@@ -910,6 +958,8 @@
       "correct_answer": "E",
       "explanation": "**Effect of adding constant k:**\n- Mean: increases by k\n- Median: increases by k\n- Variance: **unchanged**\n- Standard deviation: **unchanged** ✓\n- Max/Min: increase by k\n\nAdding a constant shifts all values equally, preserving spread.",
       "hints": [
+        "Identify the mathematical formula or principle required for Statistics.",
+        "Set up the equation carefully before jumping to calculations.",
         "**Effect of adding constant k:**\n- Mean: increases by k\n- Median: increases by k\n- Variance: **unchanged**\n- Standard deviation: **unchanged** ✓\n- Max/Min: increase by k\n\nAdding a constant shifts all values equally, preserving spread."
       ]
     }

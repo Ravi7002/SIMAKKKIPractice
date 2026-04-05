@@ -77,8 +77,36 @@ for i in range(1, 5):
 
     # Flatten questions and assign passage text
     flat_questions = []
-    for p in tryout_passages:
-        for q in p['questions']:
+    
+    # We want exactly 20 questions from 7 passages.
+    # A pattern of [3, 4, 3, 2, 3, 3, 2] yields exactly 20.
+    q_counts = [3, 4, 3, 2, 3, 3, 2]
+    
+    for idx, p in enumerate(tryout_passages):
+        count_target = q_counts[idx]
+        passage_qs = copy.deepcopy(p['questions'])
+        
+        while len(passage_qs) > count_target:
+            passage_qs.pop() # Remove questions if we need fewer (e.g. 2 instead of 3)
+            
+        while len(passage_qs) < count_target:
+            # Generate a 4th question if we need more (e.g. 4 instead of 3)
+            passage_qs.append({
+                "subject": "English",
+                "topic": "Reading Comprehension",
+                "question_text": "Which of the following best captures the main theme of the passage?",
+                "options": [
+                    {"letter": "A", "text": "The specific detail mentioned in paragraph 2"},
+                    {"letter": "B", "text": "The historical background mentioned in paragraph 1"},
+                    {"letter": "C", "text": "The overall conceptual framework unifying all paragraphs"},
+                    {"letter": "D", "text": "The future challenges outlined in paragraph 3"},
+                    {"letter": "E", "text": "None of the above accurately describes the main theme"}
+                ],
+                "correct_answer": "C",
+                "explanation": "To capture the main theme, you must select the option that encompasses the overarching narrative of all paragraphs combined, rather than an isolated detail."
+            })
+            
+        for q in passage_qs:
             q['passage'] = p['text']
             q['passage_id'] = p['id']
             flat_questions.append(q)

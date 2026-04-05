@@ -40,6 +40,8 @@
       "correct_answer": "A",
       "explanation": "Distance = Rate × Time = 20 × 3.5 = 70 miles.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Distance = Rate × Time = 20 × 3.5 = 70 miles."
       ]
     },
@@ -74,6 +76,8 @@
       "correct_answer": "A",
       "explanation": "Relative speed (chasing) = 8 - 6 = 2 m/s. Time = Distance / Relative Speed = 20 / 2 = 10 seconds.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Relative speed (chasing) = 8 - 6 = 2 m/s.",
         "Time = Distance / Relative Speed = 20 / 2 = 10 seconds."
       ]
@@ -109,6 +113,8 @@
       "correct_answer": "B",
       "explanation": "By 3:00 PM, Car A has a 1-hour head start, so it is 40 miles ahead. \nRelative speed of B catching A = 60 - 40 = 20 mph. \nTime to close the 40-mile gap = Dist / Rel Speed = 40 / 20 = 2 hours. \n2 hours after 3:00 PM is 5:00 PM.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "By 3:00 PM, Car A has a 1-hour head start, so it is 40 miles ahead.",
         "Relative speed of B catching A = 60 - 40 = 20 mph.",
         "Time to close the 40-mile gap = Dist / Rel Speed = 40 / 20 = 2 hours.",
@@ -146,6 +152,8 @@
       "correct_answer": "D",
       "explanation": "For the train to completely clear the tunnel, its front must travel the entire length of the tunnel plus the entire length of the train (to pull the back out). \nTotal distance = 400 + 100 = 500 meters. \nTime = 500 / 20 = 25 seconds.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "For the train to completely clear the tunnel, its front must travel the entire length of the tunnel plus the entire length of the train (to pull the back out).",
         "Total distance = 400 + 100 = 500 meters.",
         "Time = 500 / 20 = 25 seconds."
@@ -182,6 +190,8 @@
       "correct_answer": "C",
       "explanation": "Average speed is not merely the average of the two speeds. The formula for average speed of a round trip over the same distance is (2 * v1 * v2) / (v1 + v2). \n(2 * 30 * 60) / (30 + 60) = 3600 / 90 = 40 mph. Alternatively, assume distance=60 miles. Outward takes 2h, return takes 1h. Total dist = 120, total time = 3h. 120/3 = 40.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Average speed is not merely the average of the two speeds.",
         "The formula for average speed of a round trip over the same distance is (2 * v1 * v2) / (v1 + v2).",
         "(2 * 30 * 60) / (30 + 60) = 3600 / 90 = 40 mph.",
@@ -222,6 +232,8 @@
       "correct_answer": "D",
       "explanation": "To meet for the first time moving opposite: they together cover 1 lap (400m). Relative speed = 5 + 3 = 8 m/s. Time = 400 / 8 = 50 seconds. \nTo meet at the starting point: P completes a lap every 400/5 = 80s. Q completes a lap every 400/3 = 133.33s. The time they meet at start is the LCM of their lap times: LCM(80, 400/3). \nLCM of fractions (A/B, C/D) = LCM(A, C) / GCD(B, D) = LCM(80, 400) / GCD(1, 3) = 400 / 1 = 400 seconds. \nThus, 50s and 400s.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "To meet for the first time moving opposite: they together cover 1 lap (400m).",
         "Relative speed = 5 + 3 = 8 m/s.",
         "Time = 400 / 8 = 50 seconds.",
@@ -263,6 +275,8 @@
       "correct_answer": "C",
       "explanation": "Against wind: Plane - Wind = 600 / 4 = 150 mph. \nWith wind: Plane + Wind = 600 / 3 = 200 mph. \nSubtract equation 1 from 2: (P + W) - (P - W) = 200 - 150 → 2W = 50 → W = 25 mph.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Against wind: Plane - Wind = 600 / 4 = 150 mph.",
         "With wind: Plane + Wind = 600 / 3 = 200 mph.",
         "Subtract equation 1 from 2: (P + W) - (P - W) = 200 - 150 → 2W = 50 → W = 25 mph."
@@ -299,6 +313,8 @@
       "correct_answer": "C",
       "explanation": "Let E = total steps of the escalator. Let v be the man's speed (steps/sec), and u be the escalator's speed (steps/sec). \nCase 1: Man takes 40 steps. He was on the escalator for 40/v seconds. During this time, the escalator moved (40/v)*u steps. Total steps = man's steps + escalator's steps: E = 40 + 40(u/v). \nCase 2: Man's speed is 2v. He takes 60 steps. Time on escalator = 60/(2v) = 30/v seconds. Escalator moved (30/v)*u steps. Total: E = 60 + 30(u/v). \nEquate E: 40 + 40(u/v) = 60 + 30(u/v) → 10(u/v) = 20 → (u/v) = 2. \nSubstitute back into E: E = 40 + 40(2) = 40 + 80 = 120 steps. \nIf off, he walks the total length himself, which is 120 steps.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Let E = total steps of the escalator.",
         "Let v be the man's speed (steps/sec), and u be the escalator's speed (steps/sec).",
         "Case 1: Man takes 40 steps.",
@@ -346,6 +362,8 @@
       "correct_answer": "A",
       "explanation": "Let D be distance, T be exact time required. \nD / 10 = T + 1. \nD / 15 = T - 1. \nSubtract: (D/10) - (D/15) = 2 → 3D/30 - 2D/30 = 2 → D/30 = 2 → D = 60 km. \nFind T: 60/10 = 6 hours (which is 1 hr late, so exact T = 5 hours). \nRequired speed = D / T = 60 / 5 = 12 km/h.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Let D be distance, T be exact time required.",
         "D / 10 = T + 1.",
         "D / 15 = T - 1.",
@@ -385,6 +403,8 @@
       "correct_answer": "A",
       "explanation": "Let's track Train A in minutes. It takes 80 / 4 = 20 minutes to reach 80 mph. \nDuring this acceleration phase, its average speed is (0+80)/2 = 40 mph. \nDistance A covers in the first 20 minutes: 40 mph * (20/60) hours = 40 * 1/3 = 13.33 miles. \nDistance B covers in the first 20 minutes: 60 mph * (20/60) hours = 20 miles. \nAt t = 20 mins, B is ahead by 20 - 13.33 = 6.67 miles (20/3 miles). \nAfter t = 20 mins, A travels at 80 mph, B travels at 60 mph. Relative speed = 20 mph. \nTime to catch up = Gap / Rel Speed = (20/3) / 20 = 1/3 hours = 20 minutes. \nTotal time from departure = 20 mins (accel phase) + 20 mins (catch up phase) = 40 minutes.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Let's track Train A in minutes.",
         "It takes 80 / 4 = 20 minutes to reach 80 mph.",
         "During this acceleration phase, its average speed is (0+80)/2 = 40 mph.",
@@ -428,6 +448,8 @@
       "correct_answer": "C",
       "explanation": "Average speed is not merely the average of the two speeds. The formula for average speed of a round trip over the same distance is (2 * v1 * v2) / (v1 + v2). \n(2 * 30 * 60) / (30 + 60) = 3600 / 90 = 40 mph. Alternatively, assume distance=60 miles. Outward takes 2h, return takes 1h. Total dist = 120, total time = 3h. 120/3 = 40.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Average speed is not merely the average of the two speeds.",
         "The formula for average speed of a round trip over the same distance is (2 * v1 * v2) / (v1 + v2).",
         "(2 * 30 * 60) / (30 + 60) = 3600 / 90 = 40 mph.",
@@ -468,6 +490,8 @@
       "correct_answer": "A",
       "explanation": "Average speed is not merely the average of the two speeds. The formula for average speed of a round trip over the same distance is (2 * v1 * v2) / (v1 + v2). \n(2 * 30 * 60) / (30 + 60) = 3600 / 90 = 40 mph. Alternatively, assume distance=60 miles. Outward takes 2h, return takes 1h. Total dist = 120, total time = 3h. 120/3 = 40.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Average speed is not merely the average of the two speeds.",
         "The formula for average speed of a round trip over the same distance is (2 * v1 * v2) / (v1 + v2).",
         "(2 * 30 * 60) / (30 + 60) = 3600 / 90 = 40 mph.",
@@ -508,6 +532,8 @@
       "correct_answer": "C",
       "explanation": "By 3:00 PM, Car A has a 1-hour head start, so it is 40 miles ahead. \nRelative speed of B catching A = 60 - 40 = 20 mph. \nTime to close the 40-mile gap = Dist / Rel Speed = 40 / 20 = 2 hours. \n2 hours after 3:00 PM is 5:00 PM.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "By 3:00 PM, Car A has a 1-hour head start, so it is 40 miles ahead.",
         "Relative speed of B catching A = 60 - 40 = 20 mph.",
         "Time to close the 40-mile gap = Dist / Rel Speed = 40 / 20 = 2 hours.",
@@ -545,6 +571,8 @@
       "correct_answer": "B",
       "explanation": "Distance = Rate × Time = 20 × 3.5 = 70 miles.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Distance = Rate × Time = 20 × 3.5 = 70 miles."
       ]
     },
@@ -579,6 +607,8 @@
       "correct_answer": "E",
       "explanation": "Against wind: Plane - Wind = 600 / 4 = 150 mph. \nWith wind: Plane + Wind = 600 / 3 = 200 mph. \nSubtract equation 1 from 2: (P + W) - (P - W) = 200 - 150 → 2W = 50 → W = 25 mph.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Against wind: Plane - Wind = 600 / 4 = 150 mph.",
         "With wind: Plane + Wind = 600 / 3 = 200 mph.",
         "Subtract equation 1 from 2: (P + W) - (P - W) = 200 - 150 → 2W = 50 → W = 25 mph."
@@ -615,6 +645,8 @@
       "correct_answer": "D",
       "explanation": "Distance = Rate × Time = 20 × 3.5 = 70 miles.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Distance = Rate × Time = 20 × 3.5 = 70 miles."
       ]
     },
@@ -649,6 +681,8 @@
       "correct_answer": "B",
       "explanation": "By 3:00 PM, Car A has a 1-hour head start, so it is 40 miles ahead. \nRelative speed of B catching A = 60 - 40 = 20 mph. \nTime to close the 40-mile gap = Dist / Rel Speed = 40 / 20 = 2 hours. \n2 hours after 3:00 PM is 5:00 PM.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "By 3:00 PM, Car A has a 1-hour head start, so it is 40 miles ahead.",
         "Relative speed of B catching A = 60 - 40 = 20 mph.",
         "Time to close the 40-mile gap = Dist / Rel Speed = 40 / 20 = 2 hours.",
@@ -686,6 +720,8 @@
       "correct_answer": "D",
       "explanation": "Against wind: Plane - Wind = 600 / 4 = 150 mph. \nWith wind: Plane + Wind = 600 / 3 = 200 mph. \nSubtract equation 1 from 2: (P + W) - (P - W) = 200 - 150 → 2W = 50 → W = 25 mph.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Against wind: Plane - Wind = 600 / 4 = 150 mph.",
         "With wind: Plane + Wind = 600 / 3 = 200 mph.",
         "Subtract equation 1 from 2: (P + W) - (P - W) = 200 - 150 → 2W = 50 → W = 25 mph."
@@ -722,6 +758,8 @@
       "correct_answer": "A",
       "explanation": "Let D be distance, T be exact time required. \nD / 10 = T + 1. \nD / 15 = T - 1. \nSubtract: (D/10) - (D/15) = 2 → 3D/30 - 2D/30 = 2 → D/30 = 2 → D = 60 km. \nFind T: 60/10 = 6 hours (which is 1 hr late, so exact T = 5 hours). \nRequired speed = D / T = 60 / 5 = 12 km/h.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Let D be distance, T be exact time required.",
         "D / 10 = T + 1.",
         "D / 15 = T - 1.",
@@ -761,6 +799,8 @@
       "correct_answer": "E",
       "explanation": "For the train to completely clear the tunnel, its front must travel the entire length of the tunnel plus the entire length of the train (to pull the back out). \nTotal distance = 400 + 100 = 500 meters. \nTime = 500 / 20 = 25 seconds.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "For the train to completely clear the tunnel, its front must travel the entire length of the tunnel plus the entire length of the train (to pull the back out).",
         "Total distance = 400 + 100 = 500 meters.",
         "Time = 500 / 20 = 25 seconds."
@@ -797,6 +837,8 @@
       "correct_answer": "C",
       "explanation": "To meet for the first time moving opposite: they together cover 1 lap (400m). Relative speed = 5 + 3 = 8 m/s. Time = 400 / 8 = 50 seconds. \nTo meet at the starting point: P completes a lap every 400/5 = 80s. Q completes a lap every 400/3 = 133.33s. The time they meet at start is the LCM of their lap times: LCM(80, 400/3). \nLCM of fractions (A/B, C/D) = LCM(A, C) / GCD(B, D) = LCM(80, 400) / GCD(1, 3) = 400 / 1 = 400 seconds. \nThus, 50s and 400s.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "To meet for the first time moving opposite: they together cover 1 lap (400m).",
         "Relative speed = 5 + 3 = 8 m/s.",
         "Time = 400 / 8 = 50 seconds.",
@@ -838,6 +880,8 @@
       "correct_answer": "E",
       "explanation": "Relative speed (chasing) = 8 - 6 = 2 m/s. Time = Distance / Relative Speed = 20 / 2 = 10 seconds.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Relative speed (chasing) = 8 - 6 = 2 m/s.",
         "Time = Distance / Relative Speed = 20 / 2 = 10 seconds."
       ]
@@ -873,6 +917,8 @@
       "correct_answer": "C",
       "explanation": "Let E = total steps of the escalator. Let v be the man's speed (steps/sec), and u be the escalator's speed (steps/sec). \nCase 1: Man takes 40 steps. He was on the escalator for 40/v seconds. During this time, the escalator moved (40/v)*u steps. Total steps = man's steps + escalator's steps: E = 40 + 40(u/v). \nCase 2: Man's speed is 2v. He takes 60 steps. Time on escalator = 60/(2v) = 30/v seconds. Escalator moved (30/v)*u steps. Total: E = 60 + 30(u/v). \nEquate E: 40 + 40(u/v) = 60 + 30(u/v) → 10(u/v) = 20 → (u/v) = 2. \nSubstitute back into E: E = 40 + 40(2) = 40 + 80 = 120 steps. \nIf off, he walks the total length himself, which is 120 steps.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Let E = total steps of the escalator.",
         "Let v be the man's speed (steps/sec), and u be the escalator's speed (steps/sec).",
         "Case 1: Man takes 40 steps.",
@@ -920,6 +966,8 @@
       "correct_answer": "D",
       "explanation": "Let's track Train A in minutes. It takes 80 / 4 = 20 minutes to reach 80 mph. \nDuring this acceleration phase, its average speed is (0+80)/2 = 40 mph. \nDistance A covers in the first 20 minutes: 40 mph * (20/60) hours = 40 * 1/3 = 13.33 miles. \nDistance B covers in the first 20 minutes: 60 mph * (20/60) hours = 20 miles. \nAt t = 20 mins, B is ahead by 20 - 13.33 = 6.67 miles (20/3 miles). \nAfter t = 20 mins, A travels at 80 mph, B travels at 60 mph. Relative speed = 20 mph. \nTime to catch up = Gap / Rel Speed = (20/3) / 20 = 1/3 hours = 20 minutes. \nTotal time from departure = 20 mins (accel phase) + 20 mins (catch up phase) = 40 minutes.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Let's track Train A in minutes.",
         "It takes 80 / 4 = 20 minutes to reach 80 mph.",
         "During this acceleration phase, its average speed is (0+80)/2 = 40 mph.",
@@ -963,6 +1011,8 @@
       "correct_answer": "C",
       "explanation": "Distance = Rate × Time = 20 × 3.5 = 70 miles.",
       "hints": [
+        "Break down the logical conditions provided in this Rate Time and Distance problem.",
+        "Map out the sequence or deduction steps systematically.",
         "Distance = Rate × Time = 20 × 3.5 = 70 miles."
       ]
     }
