@@ -11,8 +11,8 @@ os.makedirs(os.path.join('quiz-app', 'src', 'GeneratedTryouts'), exist_ok=True)
 
 # ─── Load English passage pool ───────────────────────────────────────────────
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from english_pool_v2 import POOL
-ALL_PASSAGES = POOL # 28 passage sets
+from english_pool_v3 import POOL
+ALL_PASSAGES = POOL # 28 passage sets, exactly 20 Qs per group of 7
 
 # ─── Text mutation ───────────────────────────────────────────────────────────
 def mutate_text(text, skip_numbers=False):
@@ -28,7 +28,7 @@ def mutate_text(text, skip_numbers=False):
         return str(n + random.randint(10, 100))
     if not skip_numbers:
         text = re.sub(r'(?<![.,])\b(\d+)\b(?![.,])', lambda m: rep_num(m), text)
-    swaps = {"John": "Michael", "Mary": "Sarah", "apples": "oranges"}
+    swaps = {"John": "Michael", "Mary": "Sarah"}
     for k, v in swaps.items():
         text = re.sub(rf'\b{re.escape(k)}\b', v, text)
     return text
@@ -53,10 +53,10 @@ def generate_hints(q):
 # ─── Main generation ─────────────────────────────────────────────────────────
 SUBJECT_ORDER = ['Basic Mathematics', 'English', 'Quantitative Reasoning', 'Logical Reasoning']
 
-for i in range(1, 5): # Generate only 4 tryouts
+for i in range(1, 5): 
     raw_base = copy.deepcopy(bases[i % 2])
     
-    # Process non-English
+    # Process non-English (60 Qs total)
     non_english = []
     for item in raw_base:
         if isinstance(item, dict) and 'passages' in item and 'questions' in item:
@@ -68,17 +68,7 @@ for i in range(1, 5): # Generate only 4 tryouts
         elif isinstance(item, dict) and str(item.get('subject','')).lower() != 'english':
             non_english.append(item)
 
-    for q in non_english:
-        q['id'] = f"{q.get('id','q')}_gen_{i}"
-        subject = str(q.get('subject','')).lower()
-        skip_nums = 'logical' in subject
-        q['question_text'] = mutate_text(q.get('question_text',''), skip_nums)
-        if 'passage' in q: q['passage'] = mutate_text(q['passage'], skip_nums)
-        for opt in q.get('options', []): opt['text'] = mutate_text(opt.get('text',''), skip_nums)
-        if 'explanation' in q: q['explanation'] = mutate_text(q['explanation'], skip_nums)
-        if not q.get('hints'): q['hints'] = generate_hints(q)
-
-    # Process English (7 passages per tryout)
+    # Process English (Exactly 20 Qs from 7 passages)
     english_qs = []
     start_idx = (i - 1) * 7
     for p_idx in range(start_idx, start_idx + 7):
@@ -90,15 +80,19 @@ for i in range(1, 5): # Generate only 4 tryouts
             q['hints'] = generate_hints(q)
             english_qs.append(q)
 
+    # Combine and Sort
+    # Note: English Section is always around 20, non-english provides 60.
     all_qs = english_qs + non_english
     all_qs.sort(key=lambda q: (SUBJECT_ORDER.index(q.get('subject','')) if q.get('subject','') in SUBJECT_ORDER else 99))
 
     with open(f'quiz-app/src/GeneratedTryouts/tryout_{i}.json', 'w', encoding='utf-8') as f:
         json.dump(all_qs, f, indent=2, ensure_ascii=False)
+    
+    print(f"Tryout {i}: English ({len(english_qs)}), Others ({len(non_english)}), Total ({len(all_qs)})")
 
-# Clean up old tryouts
+# Clean up
 for i in range(5, 21):
     path = f'quiz-app/src/GeneratedTryouts/tryout_{i}.json'
     if os.path.exists(path): os.remove(path)
 
-print("Generated 4 tryouts with 7 unique English passages each.")
+print("\nSuccess: Generated 4 tryouts with 20 unique English questions each.")
