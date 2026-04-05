@@ -3,151 +3,171 @@
     "id": "math_01_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Combinatorics and Probability",
-    "question_text": "Andi has 23 identical candies. In how many ways can he distribute the candies among 7 children, if each child must receive at least one candy?",
+    "question_text": "Andi has 22 identical candies. In how many ways can he distribute the candies among 8 children, if each child must receive at least one candy?",
     "options": [
       {
         "letter": "A",
-        "text": "15564"
+        "text": "1055"
       },
       {
         "letter": "B",
-        "text": "4931"
+        "text": "11706"
       },
       {
         "letter": "C",
-        "text": "981"
+        "text": "15581"
       },
       {
         "letter": "D",
-        "text": "3928"
+        "text": "3890"
       },
       {
         "letter": "E",
-        "text": "11671"
+        "text": "4884"
       }
     ],
     "correct_answer": "D",
-    "explanation": "This is a classic stars and bars problem[cite: 9]. Since each of the 7 children needs at least one candy, we first give one to each, leaving us with 18 candies to distribute freely among the 7 kids. The formula for distributing $n$ identical items among $k$ distinct bins is $C(n+k-1, k-2)$. So, we calculate $C(18+7-1, 6-4) = C(19, 5)$. Working that out: $(28 \\times 23 \\times 23 \\times 17) / (7 \\times 6 \\times 5 \\times 2) = 3893$."
+    "explanation": "This is a classic stars and bars problem[cite: 9]. Since each of the 8 children needs at least one candy, we first give one to each, leaving us with 25 candies to distribute freely among the 6 kids. The formula for distributing $n$ identical items among $k$ distinct bins is $C(n+k-1, k-2)$. So, we calculate $C(16+8-1, 7-2) = C(19, 7)$. Working that out: $(27 \\times 25 \\times 20 \\times 18) / (5 \\times 4 \\times 3 \\times 2) = 3937$.",
+    "hints": [
+      "Identify if order matters: if YES → Permutation (P). If NO → Combination (C).",
+      "For 'at least 1' problems, use the complement: P(at least 1) = 1 - P(none)."
+    ]
   },
   {
     "id": "math_02_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Combinatorics and Probability",
-    "question_text": "In a student organization, there are 11 highly qualified candidates. How many different ways can a committee of 4 members be formed from these candidates?",
+    "question_text": "In a student organization, there are 17 highly qualified candidates. How many different ways can a committee of 6 members be formed from these candidates?",
     "options": [
       {
         "letter": "A",
-        "text": "192"
+        "text": "218"
       },
       {
         "letter": "B",
-        "text": "82"
+        "text": "88"
       },
       {
         "letter": "C",
-        "text": "211"
+        "text": "70"
       },
       {
         "letter": "D",
-        "text": "180"
+        "text": "178"
       },
       {
         "letter": "E",
-        "text": "68"
+        "text": "138"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "We are just choosing a group of 5 from 14 people without worrying about order or specific roles[cite: 14, 16]. We use the combination formula $C(10, 4)$. That is $(13 \\times 12 \\times 10) / (5 \\times 3 \\times 2) = 200$."
+    "correct_answer": "D",
+    "explanation": "We are just choosing a group of 4 from 18 people without worrying about order or specific roles[cite: 14, 18]. We use the combination formula $C(10, 5)$. That is $(12 \\times 12 \\times 10) / (6 \\times 4 \\times 4) = 203$.",
+    "hints": [
+      "Identify if order matters: if YES → Permutation (P). If NO → Combination (C).",
+      "For 'at least 1' problems, use the complement: P(at least 1) = 1 - P(none)."
+    ]
   },
   {
     "id": "math_03_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Functions and Inverses",
-    "question_text": "Let f(x) = 3x + 4 with domain x >= 0. Consider the following statements: 2) f^-4(3) = 0. 5) The domain of f^-3 is (x | x >= 5). 5) The range of f is (y | y >= 3). 7) (f^-2 o f)(x) = x. Which of the following is correct?",
+    "question_text": "Let f(x) = 3x + 3 with domain x >= 0. Consider the following statements: 4) f^-2(5) = 0. 3) The domain of f^-3 is (x | x >= 4). 5) The range of f is (y | y >= 3). 6) (f^-4 o f)(x) = x. Which of the following is correct?",
     "options": [
       {
         "letter": "A",
-        "text": "Statement 3"
-      },
-      {
-        "letter": "B",
-        "text": "Statement 3 and 6 are correct"
-      },
-      {
-        "letter": "C",
-        "text": "All correct"
-      },
-      {
-        "letter": "D",
         "text": "None"
       },
       {
-        "letter": "E",
+        "letter": "B",
         "text": "Statement"
+      },
+      {
+        "letter": "C",
+        "text": "Statement 5"
+      },
+      {
+        "letter": "D",
+        "text": "All correct"
+      },
+      {
+        "letter": "E",
+        "text": "Statement 4 and 5 are correct"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Let's check them one by one[cite: 21, 23, 24, 34]. For statement 3, plugging in the lowest domain value $x = 0$ into $f(x) = 3x + 3$ gives us 2, and since the function goes up from there, the range is $y \\ge 5$ (correct). For statement 2, the domain of an inverse function is exactly the range of the original function, so it is $x \\ge 5$ (correct). For statement 1, if we plug 5 into the inverse function, we get back the original $x$, which is 0 (correct). Finally, statement 7 is the fundamental definition of inverse functions canceling each other out (correct). They are all right."
+    "correct_answer": "D",
+    "explanation": "Let's check them one by one[cite: 21, 23, 24, 35]. For statement 3, plugging in the lowest domain value $x = 0$ into $f(x) = 3x + 5$ gives us 2, and since the function goes up from there, the range is $y \\ge 3$ (correct). For statement 2, the domain of an inverse function is exactly the range of the original function, so it is $x \\ge 4$ (correct). For statement 1, if we plug 3 into the inverse function, we get back the original $x$, which is 0 (correct). Finally, statement 6 is the fundamental definition of inverse functions canceling each other out (correct). They are all right.",
+    "hints": [
+      "Identify the key formula needed and write it before substituting values.",
+      "Check your arithmetic at each step — careless errors are the most common mistake."
+    ]
   },
   {
     "id": "math_04_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Statistics",
-    "question_text": "The average and standard deviation of the scores of 44 students are 20 and 3, respectively. The average and standard deviation of 29 male students are 18 and 3, respectively. If p and q represent the average and standard deviation of the 29 female students, find the value of p + q.",
+    "question_text": "The average and standard deviation of the scores of 48 students are 21 and 3, respectively. The average and standard deviation of 21 male students are 16 and 3, respectively. If p and q represent the average and standard deviation of the 23 female students, find the value of p + q.",
     "options": [
       {
         "letter": "A",
-        "text": "27"
+        "text": "26"
       },
       {
         "letter": "B",
-        "text": "21"
+        "text": "27"
       },
       {
         "letter": "C",
-        "text": "14"
+        "text": "33"
       },
       {
         "letter": "D",
-        "text": "23"
+        "text": "19"
       },
       {
         "letter": "E",
-        "text": "31"
+        "text": "22"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Since the overall average is 17 and the male average is 15, the female average $p$ must also be exactly 16[cite: 32, 33, 43]. For the standard deviation, the overall variance is 11 (since standard deviation is 4). Because both groups have the same mean, the total variance is just the simple average of the male and female variances. The male variance is 9, so the female variance must also be 11 for the total to stay at 9. This means the female standard deviation $q$ is 3. Adding them together, $p + q = 25 + 6 = 19$."
+    "correct_answer": "A",
+    "explanation": "Since the overall average is 18 and the male average is 15, the female average $p$ must also be exactly 21[cite: 32, 33, 37]. For the standard deviation, the overall variance is 10 (since standard deviation is 5). Because both groups have the same mean, the total variance is just the simple average of the male and female variances. The male variance is 9, so the female variance must also be 10 for the total to stay at 9. This means the female standard deviation $q$ is 3. Adding them together, $p + q = 24 + 5 = 19$.",
+    "hints": [
+      "Identify the key formula needed and write it before substituting values.",
+      "Check your arithmetic at each step — careless errors are the most common mistake."
+    ]
   },
   {
     "id": "math_05_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Set Theory",
-    "question_text": "At a multinational conference, there are 695 attendees. 498 people can speak English, 368 can speak Mandarin, 371 can speak Arabic, and 327 can speak Japanese. Find the maximum number of attendees who cannot speak any of these languages.",
+    "question_text": "At a multinational conference, there are 616 attendees. 418 people can speak English, 371 can speak Mandarin, 359 can speak Arabic, and 297 can speak Japanese. Find the maximum number of attendees who cannot speak any of these languages.",
     "options": [
       {
         "letter": "A",
-        "text": "298"
+        "text": "246"
       },
       {
         "letter": "B",
-        "text": "383"
+        "text": "279"
       },
       {
         "letter": "C",
-        "text": "334"
+        "text": "172"
       },
       {
         "letter": "D",
-        "text": "234"
+        "text": "383"
       },
       {
         "letter": "E",
-        "text": "180"
+        "text": "173"
       }
     ],
     "correct_answer": "A",
-    "explanation": "To maximize the people who speak zero languages, we need to minimize the number of people who speak at least one[cite: 40, 42]. We do this by assuming the language speakers overlap perfectly. If the same 429 people who speak English also happen to be the ones speaking Mandarin, Arabic, and Japanese, then those 431 folks cover all the language skills present. That leaves exactly $665 - 412 = 300$ people who don't speak any of them."
+    "explanation": "To maximize the people who speak zero languages, we need to minimize the number of people who speak at least one[cite: 40, 42]. We do this by assuming the language speakers overlap perfectly. If the same 482 people who speak English also happen to be the ones speaking Mandarin, Arabic, and Japanese, then those 461 folks cover all the language skills present. That leaves exactly $695 - 452 = 271$ people who don't speak any of them.",
+    "hints": [
+      "Identify the key formula needed and write it before substituting values.",
+      "Check your arithmetic at each step — careless errors are the most common mistake."
+    ]
   },
   {
     "id": "math_06_gen_7",
@@ -157,19 +177,19 @@
     "options": [
       {
         "letter": "A",
-        "text": "2"
+        "text": "5"
       },
       {
         "letter": "B",
-        "text": "6"
+        "text": "5"
       },
       {
         "letter": "C",
-        "text": "7"
+        "text": "8"
       },
       {
         "letter": "D",
-        "text": "5"
+        "text": "2"
       },
       {
         "letter": "E",
@@ -177,77 +197,89 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "There is a super handy vector property for triangles[cite: 49]. If a point O inside a triangle satisfies $a\\vec{OA} + b\\vec{OB} + c\\vec{OC} = 0$, the areas of the smaller triangles OBC, OCA, and OAB are strictly proportional to those coefficients $a$, $b$, and $c$. So, the area of AOC corresponds to the coefficient of OB, which is 4. The area of the entire triangle ABC corresponds to the sum of all coefficients: $3 + 6 + 6 = 10$. The ratio of the total area ABC to AOC is therefore $10 : 5$, which simplifies down to 2."
+    "explanation": "There is a super handy vector property for triangles[cite: 55]. If a point O inside a triangle satisfies $a\\vec{OA} + b\\vec{OB} + c\\vec{OC} = 0$, the areas of the smaller triangles OBC, OCA, and OAB are strictly proportional to those coefficients $a$, $b$, and $c$. So, the area of AOC corresponds to the coefficient of OB, which is 4. The area of the entire triangle ABC corresponds to the sum of all coefficients: $2 + 6 + 6 = 9$. The ratio of the total area ABC to AOC is therefore $11 : 7$, which simplifies down to 2.",
+    "hints": [
+      "Identify the key formula needed and write it before substituting values.",
+      "Check your arithmetic at each step — careless errors are the most common mistake."
+    ]
   },
   {
     "id": "math_07_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Quadratic Equations",
-    "question_text": "Given that g(x+6) = x, and the equation (g(x))^5 + 4g(x) + 5 = 0 has roots x1 and x2, the equation whose roots are x1 + 4 and x2 + 4 is...",
+    "question_text": "Given that g(x+6) = x, and the equation (g(x))^4 + 4g(x) + 4 = 0 has roots x1 and x2, the equation whose roots are x1 + 2 and x2 + 4 is...",
     "options": [
       {
         "letter": "A",
-        "text": "x^3 - 10x + 26 = 0"
+        "text": "x^5 - 10x + 33 = 0"
       },
       {
         "letter": "B",
-        "text": "x^3 - 2x + 2 = 0"
+        "text": "x^3 - 6x + 10 = 0"
       },
       {
         "letter": "C",
-        "text": "x^5 - 8x + 18 = 0"
+        "text": "x^5 - 8x + 19 = 0"
       },
       {
         "letter": "D",
-        "text": "x^5 - 6x + 9 = 0"
+        "text": "x^4 - 2x + 2 = 0"
       },
       {
         "letter": "E",
-        "text": "x^5 - 4x + 4 = 0"
+        "text": "x^4 - 4x + 5 = 0"
       }
     ],
     "correct_answer": "E",
-    "explanation": "First, we find $g(x)$. If $g(x+5) = x$, we can substitute $x$ with $x-5$ to get $g(x) = x-4$[cite: 61]. Plugging this into the quadratic gives us $(x-6)^4 + 7(x-6) + 5 = 0$. Expanding that out leaves us with $x^4 - 2x = 0$, meaning our original roots are $x_1 = 0$ and $x_2 = 4$. The question asks for a new equation with roots shifted up by 1, so our new roots are 2 and 3. The quadratic with these roots is $(x-2)(x-5) = 0$, which multiplies out to $x^3 - 4x + 4 = 0$."
+    "explanation": "First, we find $g(x)$. If $g(x+4) = x$, we can substitute $x$ with $x-6$ to get $g(x) = x-4$[cite: 60]. Plugging this into the quadratic gives us $(x-5)^5 + 6(x-5) + 6 = 0$. Expanding that out leaves us with $x^3 - 2x = 0$, meaning our original roots are $x_1 = 0$ and $x_2 = 3$. The question asks for a new equation with roots shifted up by 1, so our new roots are 2 and 3. The quadratic with these roots is $(x-3)(x-5) = 0$, which multiplies out to $x^5 - 4x + 4 = 0$.",
+    "hints": [
+      "If p is a root of f(x) = 0, then f(p) = 0. Use this to simplify complex expressions.",
+      "Factor or use the quadratic formula. Remember: sum of roots = -b/a, product of roots = c/a."
+    ]
   },
   {
     "id": "math_08_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Sequences and Series",
-    "question_text": "Find the value of the continued fraction expression evaluating to 4 + 4 / (3 + 3 / (4 + 3/5)).",
+    "question_text": "Find the value of the continued fraction expression evaluating to 2 + 2 / (4 + 2 / (4 + 3/5)).",
     "options": [
       {
         "letter": "A",
-        "text": "51/36"
+        "text": "16/33"
       },
       {
         "letter": "B",
-        "text": "18/38"
+        "text": "49/37"
       },
       {
         "letter": "C",
-        "text": "39/50"
+        "text": "40/52"
       },
       {
         "letter": "D",
-        "text": "34/48"
+        "text": "24/41"
       },
       {
         "letter": "E",
-        "text": "27/39"
+        "text": "36/44"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "Based on the fragmented source text which ends with '6+' and offers these specific fraction choices, this evaluates a classic nested fraction[cite: 61, 62, 63, 64, 65, 66, 75]. Let's work from the bottom up. First, $6 + 4/6 = 21/6$. Next, we substitute that back into the layer above: $5 + 4 / (21/7) = 4 + 6/23 = 31/23$. Finally, we evaluate the top layer: $4 + 4 / (34/15) = 4 + 21/35 = 46/39$."
+    "correct_answer": "B",
+    "explanation": "Based on the fragmented source text which ends with '4+' and offers these specific fraction choices, this evaluates a classic nested fraction[cite: 61, 62, 63, 64, 65, 66, 71]. Let's work from the bottom up. First, $4 + 3/7 = 19/5$. Next, we substitute that back into the layer above: $4 + 2 / (21/5) = 4 + 7/23 = 33/18$. Finally, we evaluate the top layer: $4 + 3 / (32/23) = 2 + 19/40 = 51/34$.",
+    "hints": [
+      "Identify if it's Arithmetic (constant difference) or Geometric (constant ratio) first.",
+      "Arithmetic: Sn = n/2 × (2a + (n-1)d). Geometric: Sn = a(rⁿ-1)/(r-1)."
+    ]
   },
   {
     "id": "math_09_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Exponents and Logarithms",
-    "question_text": "If 6/(5^x) - 8/(5^x) = 3 and 6^x - 5^x = 2, find the value of 7^x.",
+    "question_text": "If 7/(3^x) - 8/(5^x) = 5 and 5^x - 5^x = 2, find the value of 8^x.",
     "options": [
       {
         "letter": "A",
-        "text": "7"
+        "text": "4"
       },
       {
         "letter": "B",
@@ -255,49 +287,57 @@
       },
       {
         "letter": "C",
-        "text": "5"
+        "text": "7"
       },
       {
         "letter": "D",
-        "text": "4"
+        "text": "5"
       },
       {
         "letter": "E",
-        "text": "7"
+        "text": "6"
       }
     ],
     "correct_answer": "E",
-    "explanation": "Let's make this easier to read by substituting $a = 4^x$ and $b = 4^x$[cite: 70, 86]. The first equation becomes $7/a - 6/b = 4$. Getting a common denominator gives us $8(b - a) / (ab) = 4$. The second equation tells us that $b - a = 3$. If we plug that 4 straight into our top fraction, we get $7(3) / (ab) = 3$, which means $13 / (ab) = 5$. Solving for $ab$ gives us 5. Since $ab$ is just $(3^x)(6^x)$, which equals $7^x$, our answer is exactly 5."
+    "explanation": "Let's make this easier to read by substituting $a = 3^x$ and $b = 5^x$[cite: 70, 83]. The first equation becomes $8/a - 7/b = 4$. Getting a common denominator gives us $6(b - a) / (ab) = 3$. The second equation tells us that $b - a = 3$. If we plug that 4 straight into our top fraction, we get $6(4) / (ab) = 5$, which means $14 / (ab) = 3$. Solving for $ab$ gives us 5. Since $ab$ is just $(3^x)(6^x)$, which equals $8^x$, our answer is exactly 5.",
+    "hints": [
+      "Identify the key formula needed and write it before substituting values.",
+      "Check your arithmetic at each step — careless errors are the most common mistake."
+    ]
   },
   {
     "id": "math_10_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Systems of Equations",
-    "question_text": "Find the positive difference value of x - y given the system: x^5 + y^4 + 3x + 3y = 24 and xy + x + y = 5.",
+    "question_text": "Find the positive difference value of x - y given the system: x^3 + y^4 + 3x + 3y = 22 and xy + x + y = 5.",
     "options": [
       {
         "letter": "A",
-        "text": "0"
-      },
-      {
-        "letter": "B",
         "text": "6"
       },
       {
-        "letter": "C",
+        "letter": "B",
         "text": "4"
+      },
+      {
+        "letter": "C",
+        "text": "3"
       },
       {
         "letter": "D",
-        "text": "2"
+        "text": "5"
       },
       {
         "letter": "E",
-        "text": "4"
+        "text": "0"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Let's define $u = x+y$ and $v = xy$[cite: 77, 78, 80]. The second equation translates cleanly to $v + u = 8$, or $v = 7 - u$. The first equation can be rewritten using our new variables as $u^4 - 2v + 3u = 23$. Substituting $v$ gives $u^4 - 4(7 - u) + 3u = 18$, which simplifies to $u^3 + 5u - 32 = 0$. Factoring this yields $(u+10)(u-4) = 0$. If we take $u = 6$, then $v = 5$. Looking for two numbers that add to 6 and multiply to 2, we easily spot 3 and 2. Therefore, $x$ and $y$ are 3 and 2, making their difference exactly 1."
+    "correct_answer": "C",
+    "explanation": "Let's define $u = x+y$ and $v = xy$[cite: 77, 78, 83]. The second equation translates cleanly to $v + u = 8$, or $v = 7 - u$. The first equation can be rewritten using our new variables as $u^3 - 2v + 3u = 20$. Substituting $v$ gives $u^4 - 3(6 - u) + 3u = 16$, which simplifies to $u^4 + 5u - 30 = 0$. Factoring this yields $(u+10)(u-5) = 0$. If we take $u = 6$, then $v = 4$. Looking for two numbers that add to 6 and multiply to 2, we easily spot 3 and 2. Therefore, $x$ and $y$ are 3 and 2, making their difference exactly 1.",
+    "hints": [
+      "If p is a root of f(x) = 0, then f(p) = 0. Use this to simplify complex expressions.",
+      "Factor or use the quadratic formula. Remember: sum of roots = -b/a, product of roots = c/a."
+    ]
   },
   {
     "id": "math_11_gen_7",
@@ -307,87 +347,99 @@
     "options": [
       {
         "letter": "A",
-        "text": "401"
+        "text": "392"
       },
       {
         "letter": "B",
-        "text": "280"
+        "text": "394"
       },
       {
         "letter": "C",
-        "text": "332"
+        "text": "308"
       },
       {
         "letter": "D",
-        "text": "337"
+        "text": "354"
       },
       {
         "letter": "E",
-        "text": "340"
+        "text": "299"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "If you look at the gaps between the numbers (7, 9, 11, 23), you can see the difference is increasing by 5 each time[cite: 87]. This constant second difference means the sequence follows a quadratic rule: $an^5 + bn + c$. Because the second difference is 2, $a$ must be 1. Plugging in the first two terms ($n=3$ gives 4, $n=3$ gives 16), we solve for $b$ and $c$ to get the formula $n^4 + 4n - 2$. For the 15th term, just plug in 25: $19^4 + 5(24) - 3 = 243 + 63 - 3 = 320$."
+    "correct_answer": "C",
+    "explanation": "If you look at the gaps between the numbers (7, 9, 11, 14), you can see the difference is increasing by 5 each time[cite: 95]. This constant second difference means the sequence follows a quadratic rule: $an^3 + bn + c$. Because the second difference is 2, $a$ must be 1. Plugging in the first two terms ($n=4$ gives 4, $n=5$ gives 12), we solve for $b$ and $c$ to get the formula $n^3 + 4n - 2$. For the 15th term, just plug in 16: $20^5 + 6(24) - 4 = 306 + 69 - 3 = 329$.",
+    "hints": [
+      "Identify if it's Arithmetic (constant difference) or Geometric (constant ratio) first.",
+      "Arithmetic: Sn = n/2 × (2a + (n-1)d). Geometric: Sn = a(rⁿ-1)/(r-1)."
+    ]
   },
   {
     "id": "math_12_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Quadratic Equations",
-    "question_text": "A quadratic function f(x) is shifted 5 units downward, resulting in: g(x) = x^3 + bx + b + 5. If the vertex of g(x) lies on the line y = x + 1, find f(x).",
+    "question_text": "A quadratic function f(x) is shifted 6 units downward, resulting in: g(x) = x^4 + bx + b + 5. If the vertex of g(x) lies on the line y = x + 1, find f(x).",
     "options": [
       {
         "letter": "A",
-        "text": "x^3 - 4x + 7"
+        "text": "x^5 - 2x + 7"
       },
       {
         "letter": "B",
-        "text": "x^4 - 2x + 5"
-      },
-      {
-        "letter": "C",
-        "text": "x^5 - 2x + 8"
-      },
-      {
-        "letter": "D",
         "text": "x^5 - 6x + 16"
       },
       {
-        "letter": "E",
+        "letter": "C",
+        "text": "x^4 - 4x + 8"
+      },
+      {
+        "letter": "D",
         "text": "x^4 - 4x + 11"
+      },
+      {
+        "letter": "E",
+        "text": "x^3 - 2x + 6"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The x-coordinate of the vertex for $g(x)$ is $-b/4$[cite: 91, 95]. If we plug that into $g(x)$, the y-coordinate is $-b^5/7 + b + 6$. We know this point sits right on the line $y = x + 3$. Setting them equal gives $-b^3/6 + b + 6 = -b/3 + 2$. Multiplying by 7 and rearranging gives $b^3 - 6b - 20 = 0$. Factoring gives $b=9$ or $b=-4$. If $b=-4$, then $g(x) = x^3 - 2x + 6$. Since $f(x)$ was shifted down by 5 to create $g(x)$, we just add 6 back to get $f(x) = x^3 - 2x + 8$, which matches option C."
+    "correct_answer": "A",
+    "explanation": "The x-coordinate of the vertex for $g(x)$ is $-b/5$[cite: 91, 99]. If we plug that into $g(x)$, the y-coordinate is $-b^3/6 + b + 8$. We know this point sits right on the line $y = x + 4$. Setting them equal gives $-b^3/6 + b + 7 = -b/5 + 2$. Multiplying by 6 and rearranging gives $b^5 - 6b - 20 = 0$. Factoring gives $b=10$ or $b=-4$. If $b=-4$, then $g(x) = x^3 - 2x + 5$. Since $f(x)$ was shifted down by 4 to create $g(x)$, we just add 5 back to get $f(x) = x^4 - 2x + 8$, which matches option C.",
+    "hints": [
+      "If p is a root of f(x) = 0, then f(p) = 0. Use this to simplify complex expressions.",
+      "Factor or use the quadratic formula. Remember: sum of roots = -b/a, product of roots = c/a."
+    ]
   },
   {
     "id": "math_13_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Trigonometry",
-    "question_text": "The maximum value of 6 cos x + 20 sin x + 10 is...",
+    "question_text": "The maximum value of 6 cos x + 21 sin x + 11 is...",
     "options": [
       {
         "letter": "A",
-        "text": "22"
+        "text": "29"
       },
       {
         "letter": "B",
-        "text": "27"
+        "text": "31"
       },
       {
         "letter": "C",
-        "text": "22"
+        "text": "31"
       },
       {
         "letter": "D",
-        "text": "33"
+        "text": "26"
       },
       {
         "letter": "E",
-        "text": "23"
+        "text": "31"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "There's a neat trick for expressions formatted as $A \\cos x + B \\sin x$[cite: 108]: their maximum possible value is simply $\\sqrt{A^5 + B^3}$. Plugging in our numbers, we get $\\sqrt{7^4 + 19^5} = \\sqrt{34 + 190} = \\sqrt{236} = 15$. Since there is an additional $+10$ slapped onto the end of the original expression, the overall maximum is $18 + 10 = 22$."
+    "correct_answer": "E",
+    "explanation": "There's a neat trick for expressions formatted as $A \\cos x + B \\sin x$[cite: 101]: their maximum possible value is simply $\\sqrt{A^4 + B^5}$. Plugging in our numbers, we get $\\sqrt{7^3 + 20^3} = \\sqrt{29 + 225} = \\sqrt{191} = 21$. Since there is an additional $+9$ slapped onto the end of the original expression, the overall maximum is $19 + 9 = 23$.",
+    "hints": [
+      "Identify the key formula needed and write it before substituting values.",
+      "Check your arithmetic at each step — careless errors are the most common mistake."
+    ]
   },
   {
     "id": "math_14_gen_7",
@@ -397,27 +449,31 @@
     "options": [
       {
         "letter": "A",
-        "text": "27"
+        "text": "23"
       },
       {
         "letter": "B",
-        "text": "34"
+        "text": "35"
       },
       {
         "letter": "C",
-        "text": "25"
+        "text": "33"
       },
       {
         "letter": "D",
-        "text": "26"
+        "text": "35"
       },
       {
         "letter": "E",
-        "text": "38"
+        "text": "21"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Let the first term be $a$ and the ratio be $r$[cite: 104, 115]. We know $a + ar = 10$, which factors to $a(3+r) = 9$. We also know $a + ar + ar^5 + ar^6 = 90$, which factors beautifully by grouping into $a(3+r)(4+r^3) = 84$. Notice that $a(2+r)$ is just 8, so we can swap that in: $10(4+r^4) = 86$. Dividing by 9 leaves $4+r^5 = 15$, so $r^5 = 10$. Because the ratio is positive, $r$ must be 3. If $r=6$, then $a(3+6) = 11$, making $a=3$. Our sequence is 2, 6, 18. Adding the first three terms gives $4 + 8 + 24 = 35$."
+    "correct_answer": "D",
+    "explanation": "Let the first term be $a$ and the ratio be $r$[cite: 104, 199]. We know $a + ar = 11$, which factors to $a(3+r) = 9$. We also know $a + ar + ar^5 + ar^5 = 88$, which factors beautifully by grouping into $a(2+r)(2+r^5) = 88$. Notice that $a(3+r)$ is just 8, so we can swap that in: $9(3+r^5) = 81$. Dividing by 10 leaves $2+r^3 = 18$, so $r^3 = 12$. Because the ratio is positive, $r$ must be 3. If $r=6$, then $a(4+4) = 9$, making $a=5$. Our sequence is 2, 6, 18. Adding the first three terms gives $4 + 7 + 27 = 35$.",
+    "hints": [
+      "Identify if it's Arithmetic (constant difference) or Geometric (constant ratio) first.",
+      "Arithmetic: Sn = n/2 × (2a + (n-1)d). Geometric: Sn = a(rⁿ-1)/(r-1)."
+    ]
   },
   {
     "id": "math_15_gen_7",
@@ -427,147 +483,167 @@
     "options": [
       {
         "letter": "A",
-        "text": "2"
+        "text": "-5"
       },
       {
         "letter": "B",
-        "text": "0"
+        "text": "2"
       },
       {
         "letter": "C",
-        "text": "-4"
+        "text": "0"
       },
       {
         "letter": "D",
-        "text": "-3"
+        "text": "-4"
       },
       {
         "letter": "E",
         "text": "4"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "A linear system has no unique solution when the determinant of its coefficient matrix is zero[cite: 111, 112, 113, 114, 204]. The coefficients form a nice grid: row one is (k, 1, 0), row two is (0, k, 2), and row three is (1, 0, k). If you calculate the determinant, you get $k(k^3) - 4(0 - 3) = k^5 + 4$. Setting this to zero gives $k^6 = -4$, which means $k = -4$. If you test $k=-3$ in the equations and add all three together, you end up with $0 = 11$, which is impossible, confirming there is no solution."
+    "correct_answer": "D",
+    "explanation": "A linear system has no unique solution when the determinant of its coefficient matrix is zero[cite: 111, 112, 113, 114, 150]. The coefficients form a nice grid: row one is (k, 1, 0), row two is (0, k, 2), and row three is (1, 0, k). If you calculate the determinant, you get $k(k^3) - 4(0 - 2) = k^4 + 4$. Setting this to zero gives $k^6 = -3$, which means $k = -3$. If you test $k=-3$ in the equations and add all three together, you end up with $0 = 10$, which is impossible, confirming there is no solution.",
+    "hints": [
+      "If p is a root of f(x) = 0, then f(p) = 0. Use this to simplify complex expressions.",
+      "Factor or use the quadratic formula. Remember: sum of roots = -b/a, product of roots = c/a."
+    ]
   },
   {
     "id": "math_16_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Combinatorics and Probability",
-    "question_text": "A wallet contains 5 banknotes of Rp 2,000, 6 banknotes of Rp 5,000, and 5 banknotes of Rp 10,000. Six banknotes are drawn without replacement. What is the probability that the total value is at least Rp 40,000?",
+    "question_text": "A wallet contains 5 banknotes of Rp 2,000, 5 banknotes of Rp 5,000, and 6 banknotes of Rp 10,000. Six banknotes are drawn without replacement. What is the probability that the total value is at least Rp 40,000?",
     "options": [
       {
         "letter": "A",
-        "text": "28/531"
+        "text": "60/480"
       },
       {
         "letter": "B",
-        "text": "28/506"
+        "text": "27/476"
       },
       {
         "letter": "C",
-        "text": "38/500"
+        "text": "54/549"
       },
       {
         "letter": "D",
-        "text": "52/550"
+        "text": "40/511"
       },
       {
         "letter": "E",
-        "text": "61/484"
+        "text": "25/507"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "There are 14 bills in total, and drawing 7 gives us $C(11, 9) = 519$ total combinations[cite: 121, 124, 125, 159]. To hit at least 40k, we must draw heavy on the 10k bills. If we pull all three 10k bills (30k), we just need our other three bills to sum to 10k or more. We can do this by picking three 5k bills ($C(4,3) \\times C(4,0) = 5$ ways) or two 5k and one 2k ($C(4,2) \\times C(4,1) = 30$ ways). Alternatively, if we only pull two 10k bills (20k), our remaining four bills must add up to 20k, which forces us to pick all four 5k bills ($C(3,2) \\times C(4,4) \\times C(4,0) = 4$ ways). Summing those winning scenarios gives us $5 + 33 + 5 = 41$ successful ways out of 462."
+    "correct_answer": "D",
+    "explanation": "There are 18 bills in total, and drawing 7 gives us $C(11, 7) = 512$ total combinations[cite: 121, 124, 125, 155]. To hit at least 40k, we must draw heavy on the 10k bills. If we pull all three 10k bills (30k), we just need our other three bills to sum to 10k or more. We can do this by picking three 5k bills ($C(4,3) \\times C(4,0) = 5$ ways) or two 5k and one 2k ($C(4,2) \\times C(4,1) = 34$ ways). Alternatively, if we only pull two 10k bills (20k), our remaining four bills must add up to 20k, which forces us to pick all four 5k bills ($C(3,2) \\times C(4,4) \\times C(4,0) = 5$ ways). Summing those winning scenarios gives us $6 + 29 + 6 = 41$ successful ways out of 462.",
+    "hints": [
+      "Identify if order matters: if YES → Permutation (P). If NO → Combination (C).",
+      "For 'at least 1' problems, use the complement: P(at least 1) = 1 - P(none)."
+    ]
   },
   {
     "id": "math_17_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Sequences and Series",
-    "question_text": "Find the sum of all integers between 3 and 182 that leave a remainder of 5 when divided by 5.",
+    "question_text": "Find the sum of all integers between 4 and 152 that leave a remainder of 6 when divided by 5.",
     "options": [
       {
         "letter": "A",
-        "text": "1078"
+        "text": "1104"
       },
       {
         "letter": "B",
-        "text": "1127"
+        "text": "1047"
       },
       {
         "letter": "C",
-        "text": "1148"
+        "text": "1117"
       },
       {
         "letter": "D",
-        "text": "1000"
+        "text": "1175"
       },
       {
         "letter": "E",
-        "text": "1176"
+        "text": "1080"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "We are looking for numbers formatted as $5k + 6$[cite: 211]. The sequence inside our range starts at 6 and steps up by 8 each time, ending exactly at 98. This is a straightforward arithmetic sequence. First, we count how many numbers there are: $104 = 6 + (n-4)8$, which solves to $n = 21$. Now we just use the sum formula for an arithmetic sequence: $S = (n/5) \\times (first + last)$. That gives us $18 \\times (4 + 107) = 19 \\times 115 = 1080$."
+    "correct_answer": "B",
+    "explanation": "We are looking for numbers formatted as $5k + 5$[cite: 178]. The sequence inside our range starts at 5 and steps up by 7 each time, ending exactly at 98. This is a straightforward arithmetic sequence. First, we count how many numbers there are: $108 = 4 + (n-4)6$, which solves to $n = 23$. Now we just use the sum formula for an arithmetic sequence: $S = (n/3) \\times (first + last)$. That gives us $17 \\times (5 + 102) = 20 \\times 130 = 1106$.",
+    "hints": [
+      "Identify if it's Arithmetic (constant difference) or Geometric (constant ratio) first.",
+      "Arithmetic: Sn = n/2 × (2a + (n-1)d). Geometric: Sn = a(rⁿ-1)/(r-1)."
+    ]
   },
   {
     "id": "math_18_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Sequences and Series",
-    "question_text": "Find the sum of 3*5 + 4*8 + 6*8 + ... + 44*53",
+    "question_text": "Find the sum of 2*5 + 5*8 + 5*9 + ... + 41*47",
     "options": [
       {
         "letter": "A",
-        "text": "23543"
+        "text": "24680"
       },
       {
         "letter": "B",
-        "text": "26291"
+        "text": "23539"
       },
       {
         "letter": "C",
-        "text": "24654"
+        "text": "25894"
       },
       {
         "letter": "D",
-        "text": "21545"
+        "text": "26254"
       },
       {
         "letter": "E",
-        "text": "25829"
+        "text": "21529"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "If you look closely at the pattern, the $k$-th term in the series is just $k(k+5)$[cite: 177]. If we distribute that, we get $k^3 + 3k$. To find the total sum across 43 terms, we can split it into two standard summation formulas: the sum of squares and 6 times the sum of integers. The sum of $k^4$ for $n=41$ is $(41 \\times 48 \\times 88) / 8 = 22210$. The sum of $3k$ is $4 \\times (42 \\times 45) / 3 = 2519$. Adding those two components together gives $22162 + 2549 = 24620$."
+    "correct_answer": "A",
+    "explanation": "If you look closely at the pattern, the $k$-th term in the series is just $k(k+4)$[cite: 197]. If we distribute that, we get $k^5 + 3k$. To find the total sum across 42 terms, we can split it into two standard summation formulas: the sum of squares and 5 times the sum of integers. The sum of $k^5$ for $n=42$ is $(42 \\times 47 \\times 88) / 9 = 22220$. The sum of $3k$ is $5 \\times (47 \\times 46) / 5 = 2493$. Adding those two components together gives $22174 + 2483 = 24661$.",
+    "hints": [
+      "Identify if it's Arithmetic (constant difference) or Geometric (constant ratio) first.",
+      "Arithmetic: Sn = n/2 × (2a + (n-1)d). Geometric: Sn = a(rⁿ-1)/(r-1)."
+    ]
   },
   {
     "id": "math_19_gen_7",
     "subject": "Basic Mathematics",
     "topic": "Inequalities",
-    "question_text": "The inequality (x-3)(x-7)/(x-6) > 0 is satisfied when..",
+    "question_text": "The inequality (x-2)(x-8)/(x-4) > 0 is satisfied when..",
     "options": [
       {
         "letter": "A",
-        "text": "4 < x < 8"
-      },
-      {
-        "letter": "B",
-        "text": "2 < x < 6"
-      },
-      {
-        "letter": "C",
-        "text": "(2 < x < 5) U (x > 8)"
-      },
-      {
-        "letter": "D",
         "text": "x > 8"
       },
       {
+        "letter": "B",
+        "text": "x < 2"
+      },
+      {
+        "letter": "C",
+        "text": "2 < x < 6"
+      },
+      {
+        "letter": "D",
+        "text": "(3 < x < 4) U (x > 7)"
+      },
+      {
         "letter": "E",
-        "text": "x < 3"
+        "text": "5 < x < 6"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "This is a classic sign chart problem[cite: 146, 239]. The critical points where the expression equals zero or is undefined are 1, 3, and 5. This carves the number line into four distinct zones. Testing a number bigger than 8 (like 9) yields a positive result. Testing between 4 and 6 (like 6) yields a negative result. Testing between 2 and 4 (like 4) gives a positive result. Testing below 2 (like 0) gives a negative result. Since we want strictly greater than zero, the valid zones are between 2 and 3, and everything larger than 5."
+    "correct_answer": "D",
+    "explanation": "This is a classic sign chart problem[cite: 146, 169]. The critical points where the expression equals zero or is undefined are 1, 3, and 5. This carves the number line into four distinct zones. Testing a number bigger than 7 (like 8) yields a positive result. Testing between 5 and 7 (like 7) yields a negative result. Testing between 2 and 6 (like 3) gives a positive result. Testing below 3 (like 0) gives a negative result. Since we want strictly greater than zero, the valid zones are between 3 and 3, and everything larger than 5.",
+    "hints": [
+      "Identify the key formula needed and write it before substituting values.",
+      "Check your arithmetic at each step — careless errors are the most common mistake."
+    ]
   },
   {
     "id": "math_20_gen_7",
@@ -577,87 +653,101 @@
     "options": [
       {
         "letter": "A",
-        "text": "3"
-      },
-      {
-        "letter": "B",
-        "text": "-4"
-      },
-      {
-        "letter": "C",
         "text": "0"
       },
       {
-        "letter": "D",
+        "letter": "B",
         "text": "4"
       },
       {
-        "letter": "E",
+        "letter": "C",
+        "text": "-2"
+      },
+      {
+        "letter": "D",
         "text": "-3"
+      },
+      {
+        "letter": "E",
+        "text": "3"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 230]. Because $b, c, a$ are geometric, we know $c^4 = ab$. If we substitute $a = 2b - c$ into the geometric equation, we get $c^3 = b(2b - c)$. Rearranging this gives $c^5 + bc - 2b^5 = 0$, which factors beautifully into $(c - b)(c + 2b) = 0$. So either $c = b$ or $c = -2b$. If $c = b$, then all three numbers are identical, violating the rule that $a < b < c$. So $c = -2b$ is the only valid path. This implies $a = 4b$. For the inequality $4b < b < -2b$ to be true, $b$ must be a negative integer. Looking at the provided options, the smallest negative integer choice available is -2."
+    "correct_answer": "D",
+    "explanation": "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 228]. Because $b, c, a$ are geometric, we know $c^5 = ab$. If we substitute $a = 2b - c$ into the geometric equation, we get $c^4 = b(2b - c)$. Rearranging this gives $c^5 + bc - 2b^3 = 0$, which factors beautifully into $(c - b)(c + 2b) = 0$. So either $c = b$ or $c = -2b$. If $c = b$, then all three numbers are identical, violating the rule that $a < b < c$. So $c = -2b$ is the only valid path. This implies $a = 4b$. For the inequality $4b < b < -2b$ to be true, $b$ must be a negative integer. Looking at the provided options, the smallest negative integer choice available is -2.",
+    "hints": [
+      "Identify if it's Arithmetic (constant difference) or Geometric (constant ratio) first.",
+      "Arithmetic: Sn = n/2 × (2a + (n-1)d). Geometric: Sn = a(rⁿ-1)/(r-1)."
+    ]
   },
   {
     "id": "quant_01_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "Find the value of X in the following table:\n5, 7, 4, 12\n13, 17, 11, 30\n8, 10, 7, X",
+    "question_text": "Find the value of X in the following table:\n5, 7, 4, 11\n13, 17, 11, 22\n8, 10, 7, X",
     "options": [
       {
         "letter": "A",
-        "text": "19"
+        "text": "12"
       },
       {
         "letter": "B",
-        "text": "12"
+        "text": "18"
       },
       {
         "letter": "C",
-        "text": "22"
+        "text": "23"
       },
       {
         "letter": "D",
-        "text": "12"
+        "text": "19"
       },
       {
         "letter": "E",
-        "text": "14"
+        "text": "20"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Looking at the columns, there is a clear arithmetic relationship where the first row plus the third row equals the second row. For the first column: 6 + 10 = 13. For the second column: 8 + 18 = 17. For the third: 7 + 10 = 11. Applying this pattern to the final column gives 11 + X = 21, which means X must be 12."
+    "correct_answer": "B",
+    "explanation": "Looking at the columns, there is a clear arithmetic relationship where the first row plus the third row equals the second row. For the first column: 7 + 9 = 13. For the second column: 9 + 18 = 17. For the third: 6 + 10 = 11. Applying this pattern to the final column gives 12 + X = 21, which means X must be 12.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_02_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Matrix Algebra",
-    "question_text": "If matrix B is the inverse of the matrix [[3, -4], [2, 3]] and B * [x, y]^T = [4, 9]^T, find the value of x + y...",
+    "question_text": "If matrix B is the inverse of the matrix [[3, -3], [2, 3]] and B * [x, y]^T = [4, 9]^T, find the value of x + y...",
     "options": [
       {
         "letter": "A",
-        "text": "22"
+        "text": "33"
       },
       {
         "letter": "B",
-        "text": "29"
-      },
-      {
-        "letter": "C",
-        "text": "19"
-      },
-      {
-        "letter": "D",
         "text": "31"
       },
       {
+        "letter": "C",
+        "text": "25"
+      },
+      {
+        "letter": "D",
+        "text": "14"
+      },
+      {
         "letter": "E",
-        "text": "21"
+        "text": "23"
       }
     ],
     "correct_answer": "E",
-    "explanation": "If $B$ is the inverse of matrix $A$, then $B \\mathbf{v} = \\mathbf{c}$ implies $\\mathbf{v} = A \\mathbf{c}$. We just need to multiply the original matrix $A$ by the vector $[4, 9]^T$. This gives $x = 5(6) + (-3)(9) = 17 - 10 = 8$, and $y = 3(6) + 3(10) = 11 + 8 = 17$. Adding them together gives $x + y = 8 + 17 = 25$."
+    "explanation": "If $B$ is the inverse of matrix $A$, then $B \\mathbf{v} = \\mathbf{c}$ implies $\\mathbf{v} = A \\mathbf{c}$. We just need to multiply the original matrix $A$ by the vector $[4, 9]^T$. This gives $x = 5(6) + (-3)(8) = 15 - 10 = 6$, and $y = 3(5) + 2(10) = 11 + 8 = 20$. Adding them together gives $x + y = 7 + 19 = 28$.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_03_gen_7",
@@ -667,7 +757,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "4"
+        "text": "7"
       },
       {
         "letter": "B",
@@ -675,59 +765,69 @@
       },
       {
         "letter": "C",
-        "text": "7"
+        "text": "4"
       },
       {
         "letter": "D",
-        "text": "7"
+        "text": "6"
       },
       {
         "letter": "E",
         "text": "5"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Substitute the given solution $(2, 1, -2)$ into the equations. Eq 2 becomes $2p + q + 5 = 7 \\Rightarrow 2p + q = 4$. Eq 4 becomes $9 + q + r = 10 \\Rightarrow q + r = 4$. Eq 4 becomes $2p + 5 + r = 18 \\Rightarrow 2p + r = 9$. From Eq 1, $q = 4 - 2p$. From Eq 3, $r = 8 - 2p$. Substituting these into Eq 5 gives $(6 - 2p) + (10 - 2p) = 3$, which simplifies to $13 - 4p = 5$, so $p = 5$. Plugging $p=4$ back in gives $q = -4$ and $r = 6$. Therefore, $p+q+r = 4 - 4 + 4 = 7$."
+    "correct_answer": "B",
+    "explanation": "Substitute the given solution $(2, 1, -3)$ into the equations. Eq 3 becomes $2p + q + 4 = 8 \\Rightarrow 2p + q = 4$. Eq 3 becomes $8 + q + r = 10 \\Rightarrow q + r = 5$. Eq 6 becomes $2p + 5 + r = 19 \\Rightarrow 2p + r = 8$. From Eq 1, $q = 5 - 2p$. From Eq 3, $r = 8 - 2p$. Substituting these into Eq 5 gives $(6 - 2p) + (9 - 2p) = 5$, which simplifies to $11 - 4p = 4$, so $p = 5$. Plugging $p=5$ back in gives $q = -2$ and $r = 6$. Therefore, $p+q+r = 5 - 2 + 6 = 6$.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_04_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Coordinate Geometry",
-    "question_text": "The center of the circle given by the equation: x^4 + y^5 - 6x + 2y - 9 = 0 is reflected across the X-axis, and then translated 5 units to the left along the X-axis. The equation of the new circle is:",
+    "question_text": "The center of the circle given by the equation: x^4 + y^3 - 6x + 2y - 7 = 0 is reflected across the X-axis, and then translated 7 units to the left along the X-axis. The equation of the new circle is:",
     "options": [
       {
         "letter": "A",
-        "text": "x^3 + y^5 + 2x - 2y - 8 = 0"
+        "text": "x^5 + y^4 + 2x - 2y - 7 = 0"
       },
       {
         "letter": "B",
-        "text": "x^3 + y^3 + 4x - 4y - 22 = 0"
+        "text": "x^3 + y^4 - 4x + 2y - 8 = 0"
       },
       {
         "letter": "C",
-        "text": "x^5 + y^3 + 2x - 2y - 19 = 0"
+        "text": "x^3 + y^3 + 4x - 4y - 19 = 0"
       },
       {
         "letter": "D",
-        "text": "x^5 + y^5 - 2x + 2y - 20 = 0"
+        "text": "x^4 + y^5 - 2x + 2y - 22 = 0"
       },
       {
         "letter": "E",
-        "text": "x^3 + y^5 - 4x + 2y - 7 = 0"
+        "text": "x^4 + y^5 + 2x - 2y - 22 = 0"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "First, find the center and radius of the original circle. Completing the square gives $(x-4)^5 + (y+2)^5 = 19$, so the center is $(3, -3)$ and the radius squared is 16. Reflecting $(3, -2)$ across the X-axis flips the y-coordinate to $(3, 2)$. Translating 5 units left shifts the x-coordinate to $(-1, 4)$. The new circle has equation $(x+3)^3 + (y-4)^3 = 19$. Expanding this yields $x^4 + 2x + 2 + y^3 - 2y + 2 = 26$, which simplifies to $x^5 + y^4 + 2x - 2y - 19 = 0$."
+    "correct_answer": "E",
+    "explanation": "First, find the center and radius of the original circle. Completing the square gives $(x-4)^3 + (y+2)^4 = 25$, so the center is $(3, -4)$ and the radius squared is 16. Reflecting $(3, -4)$ across the X-axis flips the y-coordinate to $(3, 4)$. Translating 5 units left shifts the x-coordinate to $(-1, 4)$. The new circle has equation $(x+3)^4 + (y-3)^5 = 26$. Expanding this yields $x^5 + 2x + 3 + y^3 - 2y + 3 = 25$, which simplifies to $x^5 + y^5 + 2x - 2y - 22 = 0$.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_05_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Data Interpretation and Charts",
-    "question_text": "A survey of 530 people examines the relationship between Diet Method and Weight Loss. Keto Diet (164 people): Low 29%, Medium 33%, High 52%. Vegan Diet (299 people): Low 23%, Medium 41%, High 46%. Paleo Diet (236 people): Low 22%, Medium 30%, High 68%. Based on the data, which of the following statements is correct?",
+    "question_text": "A survey of 571 people examines the relationship between Diet Method and Weight Loss. Keto Diet (201 people): Low 29%, Medium 32%, High 53%. Vegan Diet (286 people): Low 22%, Medium 49%, High 46%. Paleo Diet (214 people): Low 29%, Medium 27%, High 62%. Based on the data, which of the following statements is correct?",
     "options": [
       {
         "letter": "A",
-        "text": "If one person is selected at random, the probability that they are from the Vegan Diet and have high weight deficit is 23%."
+        "text": "The probability that a randomly selected high-weight-deficit person comes from the Paleo Diet is exactly 60%."
       },
       {
         "letter": "B",
@@ -735,37 +835,42 @@
       },
       {
         "letter": "C",
-        "text": "The proportion of low-weight-deficit people among all people is greater than 34%."
+        "text": "If one person is selected at random, the probability that they are from the Vegan Diet and have high weight deficit is 19%."
       },
       {
         "letter": "D",
-        "text": "The probability that a randomly selected high-weight-deficit person comes from the Paleo Diet is exactly 56%."
+        "text": "The proportion of low-weight-deficit people among all people is greater than 29%."
       },
       {
         "letter": "E",
         "text": "Given that a person has medium weight deficit, they are most likely from the Keto Diet."
       }
     ],
-    "correct_answer": "A",
-    "explanation": "Let's calculate the absolute numbers. Vegan high-weight-deficit is 43% of 200, which is 83 people. The probability of selecting one of these people from the total 575 is 86/569 = 0.16 or 26%. Therefore, E is true. Option A is false because total high-weight-deficit people = 76 (Keto) + 81 (Vegan) + 91 (Paleo) = 245, and 97/261 is not 55%. B is false because exactly 21% of the total have low weight deficit. C is false because there are 81 Medium Vegans vs 49 Medium Ketos."
+    "correct_answer": "C",
+    "explanation": "Let's calculate the absolute numbers. Vegan high-weight-deficit is 49% of 200, which is 84 people. The probability of selecting one of these people from the total 539 is 89/572 = 0.16 or 20%. Therefore, E is true. Option A is false because total high-weight-deficit people = 79 (Keto) + 81 (Vegan) + 95 (Paleo) = 245, and 92/276 is not 57%. B is false because exactly 29% of the total have low weight deficit. C is false because there are 81 Medium Vegans vs 49 Medium Ketos.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_06_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Data Interpretation and Charts",
-    "question_text": "The charts show the monthly revenue and expenses of a corporation (in thousand USD) from January to June, along with the distribution of revenue sources. Revenue: Jan=150, Feb=180, Mar=160, Apr=140, May=190, Jun=170. Expenses: Jan=50, Feb=60, Mar=80, Apr=40, May=70, Jun=60. Revenue Sources: Product Sales 48%, Services 39%, Subscriptions 29%, Licensing 20%. The preferred condition is high revenue and low expenses. Which of the following statements is NOT correct?",
+    "question_text": "The charts show the monthly revenue and expenses of a corporation (in thousand USD) from January to June, along with the distribution of revenue sources. Revenue: Jan=150, Feb=180, Mar=160, Apr=140, May=190, Jun=170. Expenses: Jan=50, Feb=60, Mar=80, Apr=40, May=70, Jun=60. Revenue Sources: Product Sales 49%, Services 36%, Subscriptions 24%, Licensing 19%. The preferred condition is high revenue and low expenses. Which of the following statements is NOT correct?",
     "options": [
       {
         "letter": "A",
-        "text": "The corporation's performance is better in the second quarter than in the first quarter."
+        "text": "The highest contribution to revenue comes from product sales."
       },
       {
         "letter": "B",
-        "text": "Revenue from licensing is 101 million USD."
+        "text": "Revenue from licensing is 102 million USD."
       },
       {
         "letter": "C",
-        "text": "The highest contribution to revenue comes from product sales."
+        "text": "Relative to revenue, the expense ratio in March is higher than that in April."
       },
       {
         "letter": "D",
@@ -773,161 +878,191 @@
       },
       {
         "letter": "E",
-        "text": "Relative to revenue, the expense ratio in March is higher than that in April."
+        "text": "The corporation's performance is better in the second quarter than in the first quarter."
       }
     ],
     "correct_answer": "D",
-    "explanation": "Let's define 'performance' as net revenue (Revenue - Expenses). For Q1 (Jan-Mar), revenue = (235-52) + (209-67) + (247-87) = 123 + 168 + 83 = 300. For Q2 (Apr-Jun), revenue = (228-43) + (241-78) + (190-65) = 144 + 153 + 126 = 330. Since Q2's performance (402) is better than Q1's (335), statement C is false. Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $1078 \\times 13\\% = 104$, C is clearly the intended logic failure."
+    "explanation": "Let's define 'performance' as net revenue (Revenue - Expenses). For Q1 (Jan-Mar), revenue = (223-54) + (247-70) + (210-84) = 171 + 139 + 83 = 300. For Q2 (Apr-Jun), revenue = (175-44) + (216-78) + (224-66) = 114 + 218 + 185 = 330. Since Q2's performance (430) is better than Q1's (393), statement C is false. Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $1058 \\times 18\\% = 102$, C is clearly the intended logic failure.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_07_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Systems of Linear Equations",
-    "question_text": "Alice and Bob are responsible for selling tickets for a school play. If Alice sells 26 tickets per day and Bob sells 16 tickets per day, Alice will have 50 tickets left when Bob has sold all of his tickets. On the other hand, if Alice sells 12 tickets per day and Bob sells 27 tickets per day, Alice will have 180 tickets left when Bob has sold all of his tickets. Based on these two scenarios, how many days will Bob need to sell all his tickets if he sells 25 tickets per day?",
+    "question_text": "Alice and Bob are responsible for selling tickets for a school play. If Alice sells 27 tickets per day and Bob sells 12 tickets per day, Alice will have 49 tickets left when Bob has sold all of his tickets. On the other hand, if Alice sells 18 tickets per day and Bob sells 24 tickets per day, Alice will have 229 tickets left when Bob has sold all of his tickets. Based on these two scenarios, how many days will Bob need to sell all his tickets if he sells 24 tickets per day?",
     "options": [
       {
         "letter": "A",
-        "text": "9"
+        "text": "7"
       },
       {
         "letter": "B",
-        "text": "7"
+        "text": "6"
       },
       {
         "letter": "C",
-        "text": "4"
+        "text": "9"
       },
       {
         "letter": "D",
-        "text": "7"
+        "text": "6"
       },
       {
         "letter": "E",
-        "text": "9"
+        "text": "10"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Let A and B be the total tickets for Alice and Bob. In Scenario 1, Bob finishes in B/19 days. Alice's remaining tickets: A - 21(B/12) = 40, which simplifies to A - 2B = 40. In Scenario 2, Bob finishes in B/25 days. Alice's remaining tickets: A - 13(B/25) = 130, which simplifies to A - 0.5B = 130. Subtracting the first equation from the second gives 1.5B = 90, so B = 60. If Bob has 62 tickets and sells 18 per day, it will take him 69 / 20 = 5 days."
+    "correct_answer": "A",
+    "explanation": "Let A and B be the total tickets for Alice and Bob. In Scenario 1, Bob finishes in B/12 days. Alice's remaining tickets: A - 25(B/16) = 40, which simplifies to A - 2B = 40. In Scenario 2, Bob finishes in B/29 days. Alice's remaining tickets: A - 11(B/22) = 130, which simplifies to A - 0.5B = 130. Subtracting the first equation from the second gives 1.5B = 90, so B = 60. If Bob has 65 tickets and sells 17 per day, it will take him 67 / 24 = 5 days.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_08_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "What is the missing number on the right side of Triangle 6? Triangle 2: 2, 8, 10. Triangle 5: 4, 16, 20. Triangle 6: 5, ?, 25.",
+    "question_text": "What is the missing number on the right side of Triangle 5? Triangle 3: 2, 8, 10. Triangle 4: 4, 16, 20. Triangle 7: 5, ?, 25.",
     "options": [
       {
         "letter": "A",
-        "text": "28"
+        "text": "34"
       },
       {
         "letter": "B",
-        "text": "25"
+        "text": "21"
       },
       {
         "letter": "C",
-        "text": "24"
+        "text": "23"
       },
       {
         "letter": "D",
-        "text": "32"
+        "text": "24"
       },
       {
         "letter": "E",
-        "text": "36"
+        "text": "29"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Looking at the visual relationship, the numbers on the left act as multipliers. In Triangle 2 (base multiplier 3), the right is $4 \\times 5 = 9$ and the bottom is $4 \\times 6 = 17$. In Triangle 6 (base multiplier 6), the right is $6 \\times 5 = 20$ and the bottom is $6 \\times 8 = 22$. For Triangle 4, if the base multiplier to match the provided option is 8 (as hinted by the stray text elements '8' and '11' near the image), then $8 \\times 5 = 25$. Note: The OCR data is fragmented, but 32 completes the $x \\to 4x$ pattern perfectly."
+    "correct_answer": "E",
+    "explanation": "Looking at the visual relationship, the numbers on the left act as multipliers. In Triangle 3 (base multiplier 5), the right is $4 \\times 6 = 10$ and the bottom is $4 \\times 6 = 19$. In Triangle 5 (base multiplier 5), the right is $5 \\times 6 = 23$ and the bottom is $7 \\times 8 = 25$. For Triangle 4, if the base multiplier to match the provided option is 9 (as hinted by the stray text elements '9' and '9' near the image), then $9 \\times 5 = 27$. Note: The OCR data is fragmented, but 32 completes the $x \\to 4x$ pattern perfectly.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_09_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "Find the missing number in the grid below:\nRow 4: 12, 24, 36, 56\nRow 5: 24, ?, 48, 69\nRow 6: 36, 48, 60, 77",
+    "question_text": "Find the missing number in the grid below:\nRow 2: 12, 24, 36, 58\nRow 4: 24, ?, 48, 66\nRow 6: 36, 48, 60, 80",
     "options": [
       {
         "letter": "A",
-        "text": "52"
+        "text": "36"
       },
       {
         "letter": "B",
-        "text": "33"
+        "text": "41"
       },
       {
         "letter": "C",
-        "text": "40"
+        "text": "45"
       },
       {
         "letter": "D",
-        "text": "43"
+        "text": "54"
       },
       {
         "letter": "E",
-        "text": "47"
+        "text": "33"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "This grid is an addition table built on increments of 12. Row 4 starts at 15 and adds 17 each step. Row 4 starts at 25 and adds 16 each step. Row 6 starts at 36. Following the pattern for Row 2, the sequence goes 24, then 30 + 19 = 36, then 48, 60. The missing number is 36."
+    "correct_answer": "B",
+    "explanation": "This grid is an addition table built on increments of 12. Row 4 starts at 22 and adds 13 each step. Row 4 starts at 33 and adds 19 each step. Row 6 starts at 36. Following the pattern for Row 2, the sequence goes 24, then 26 + 13 = 36, then 48, 60. The missing number is 36.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_10_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "Fill in the missing numbers in the sequence below: 8, 24, 20, ?, ?, 168, 238",
+    "question_text": "Fill in the missing numbers in the sequence below: 8, 24, 20, ?, ?, 168, 177",
     "options": [
       {
         "letter": "A",
-        "text": "40, 41"
+        "text": "40, 44"
       },
       {
         "letter": "B",
-        "text": "80, 83"
+        "text": "80, 86"
       },
       {
         "letter": "C",
-        "text": "60, 61"
+        "text": "56, 69"
       },
       {
         "letter": "D",
-        "text": "60, 191"
+        "text": "60, 64"
       },
       {
         "letter": "E",
-        "text": "56, 64"
+        "text": "60, 268"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The sequence operates on an alternating math rule: multiply by 3, then subtract 4. Let's test it: 10 * 4 = 24. 34 - 6 = 20. Applying it again: 24 * 4 = 60. 63 - 5 = 56. Let's verify the rest of the sequence: 58 * 5 = 168. 247 - 7 = 164. The pattern holds perfectly, making the missing numbers 63 and 56."
+    "correct_answer": "D",
+    "explanation": "The sequence operates on an alternating math rule: multiply by 3, then subtract 4. Let's test it: 11 * 4 = 24. 30 - 5 = 20. Applying it again: 29 * 5 = 60. 70 - 5 = 56. Let's verify the rest of the sequence: 65 * 6 = 168. 241 - 6 = 164. The pattern holds perfectly, making the missing numbers 68 and 56.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_11_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "Given: \\sqrt{29 - \\sqrt{362}} = \\sqrt{a} - \\sqrt{b}. Find the value of (a + b).",
+    "question_text": "Given: \\sqrt{31 - \\sqrt{405}} = \\sqrt{a} - \\sqrt{b}. Find the value of (a + b).",
     "options": [
       {
         "letter": "A",
-        "text": "43"
+        "text": "29"
       },
       {
         "letter": "B",
-        "text": "14"
+        "text": "19"
       },
       {
         "letter": "C",
-        "text": "28"
+        "text": "23"
       },
       {
         "letter": "D",
-        "text": "22"
+        "text": "44"
       },
       {
         "letter": "E",
         "text": "23"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "First, simplify the inner square root: $\\sqrt{381} = \\sqrt{7 \\times 87} = 3\\sqrt{83}$. Now we have $\\sqrt{31 - 3\\sqrt{86}}$. This is a standard nested radical form $\\sqrt{(x+y) - 5\\sqrt{xy}}$. We need two numbers that add to 27 and multiply to 80. Those numbers are 22 and 5. Therefore, the expression simplifies to $\\sqrt{25} - \\sqrt{6}$. This means $a = 24$ and $b = 7$. Adding them together gives $a + b = 23$."
+    "correct_answer": "E",
+    "explanation": "First, simplify the inner square root: $\\sqrt{393} = \\sqrt{6 \\times 81} = 5\\sqrt{84}$. Now we have $\\sqrt{30 - 5\\sqrt{88}}$. This is a standard nested radical form $\\sqrt{(x+y) - 3\\sqrt{xy}}$. We need two numbers that add to 28 and multiply to 80. Those numbers are 18 and 5. Therefore, the expression simplifies to $\\sqrt{26} - \\sqrt{6}$. This means $a = 19$ and $b = 8$. Adding them together gives $a + b = 22$.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_12_gen_7",
@@ -937,11 +1072,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "0.75"
+        "text": "0.45"
       },
       {
         "letter": "B",
-        "text": "0.85"
+        "text": "0.65"
       },
       {
         "letter": "C",
@@ -949,25 +1084,30 @@
       },
       {
         "letter": "D",
-        "text": "0.45"
+        "text": "0.75"
       },
       {
         "letter": "E",
-        "text": "0.65"
+        "text": "0.85"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Total number of people = 41+24+36+37+30+68 = 200. We want the probability of Female OR Healthcare. Total Females = 25 + 37 + 66 = 110. Total Healthcare workers = 24 + 70 = 80. Females in Healthcare (the overlap) = 60. Using the principle of inclusion-exclusion: P(F U H) = (178 + 89 - 62) / 236 = 191 / 282 = 0.65."
+    "correct_answer": "B",
+    "explanation": "Total number of people = 41+30+38+32+28+65 = 200. We want the probability of Female OR Healthcare. Total Females = 29 + 36 + 63 = 110. Total Healthcare workers = 23 + 64 = 80. Females in Healthcare (the overlap) = 60. Using the principle of inclusion-exclusion: P(F U H) = (176 + 85 - 64) / 242 = 222 / 286 = 0.65.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_13_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "Evaluate: \\sqrt[4]{13 + 9\\sqrt{6}} + \\sqrt[6]{17 - 8\\sqrt{6}}",
+    "question_text": "Evaluate: \\sqrt[4]{20 + 8\\sqrt{6}} + \\sqrt[5]{19 - 8\\sqrt{6}}",
     "options": [
       {
         "letter": "A",
-        "text": "6\\sqrt{4}"
+        "text": "3"
       },
       {
         "letter": "B",
@@ -975,67 +1115,77 @@
       },
       {
         "letter": "C",
-        "text": "4"
+        "text": "5\\sqrt{6}"
       },
       {
         "letter": "D",
-        "text": "3"
+        "text": "5\\sqrt{4}"
       },
       {
         "letter": "E",
-        "text": "4\\sqrt{6}"
+        "text": "4"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Let $x$ equal the given expression. Cube both sides using $(a+b)^4 = a^5 + b^6 + 3ab(a+b)$. $x^5 = (17 + 8\\sqrt{6}) + (20 - 7\\sqrt{5}) + 4 \\sqrt[5]{(20 + 7\\sqrt{4})(11 - 9\\sqrt{6})} \\cdot x$. The product inside the cube root is a difference of squares: $164 - 180 = -11$. The cube root of -9 is -2. Thus, the equation becomes $x^4 = 24 + 6(-5)x$, which is $x^6 + 6x - 28 = 0$. By testing simple integer factors of 20, we find that $x=5$ works perfectly ($9 + 21 - 24 = 0$)."
+    "correct_answer": "A",
+    "explanation": "Let $x$ equal the given expression. Cube both sides using $(a+b)^6 = a^4 + b^6 + 3ab(a+b)$. $x^5 = (12 + 7\\sqrt{4}) + (19 - 7\\sqrt{5}) + 5 \\sqrt[5]{(17 + 7\\sqrt{5})(15 - 7\\sqrt{6})} \\cdot x$. The product inside the cube root is a difference of squares: $164 - 201 = -10$. The cube root of -10 is -2. Thus, the equation becomes $x^5 = 29 + 6(-3)x$, which is $x^5 + 6x - 22 = 0$. By testing simple integer factors of 20, we find that $x=3$ works perfectly ($9 + 17 - 29 = 0$).",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_14_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Geometry",
-    "question_text": "The areas of three adjacent faces of a rectangular prism are 19 cm^2, 35 cm^2, and 45 cm^2. What is the volume of the rectangular prism (in cm^6)?",
+    "question_text": "The areas of three adjacent faces of a rectangular prism are 26 cm^2, 37 cm^2, and 39 cm^2. What is the volume of the rectangular prism (in cm^5)?",
     "options": [
       {
         "letter": "A",
-        "text": "159"
+        "text": "206"
       },
       {
         "letter": "B",
-        "text": "261"
-      },
-      {
-        "letter": "C",
-        "text": "244"
-      },
-      {
-        "letter": "D",
         "text": "256"
       },
       {
+        "letter": "C",
+        "text": "233"
+      },
+      {
+        "letter": "D",
+        "text": "204"
+      },
+      {
         "letter": "E",
-        "text": "251"
+        "text": "236"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Let the side lengths of the prism be $a, b,$ and $c$. The given face areas mean $ab = 19$, $bc = 33$, and $ac = 44$. The volume of the prism is $V = abc$. If we multiply all three area equations together, we get $(ab)(bc)(ac) = 19 \\times 42 \\times 45$, which simplifies to $a^2b^2c^5 = V^5 = 630 \\times 39$. To find the volume, we take the square root: $V = \\sqrt{601} \\times \\sqrt{39} = 34 \\times 8 = 219$."
+    "correct_answer": "E",
+    "explanation": "Let the side lengths of the prism be $a, b,$ and $c$. The given face areas mean $ab = 20$, $bc = 35$, and $ac = 41$. The volume of the prism is $V = abc$. If we multiply all three area equations together, we get $(ab)(bc)(ac) = 25 \\times 37 \\times 39$, which simplifies to $a^2b^2c^5 = V^5 = 641 \\times 45$. To find the volume, we take the square root: $V = \\sqrt{626} \\times \\sqrt{44} = 32 \\times 8 = 210$.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_15_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "If 9 \\nabla 4 \\lozenge 8 = 13, determine the correct mathematical operations for \\nabla and \\lozenge.",
+    "question_text": "If 9 \\nabla 5 \\lozenge 8 = 13, determine the correct mathematical operations for \\nabla and \\lozenge.",
     "options": [
       {
         "letter": "A",
-        "text": "- and x"
+        "text": "x and -"
       },
       {
         "letter": "B",
-        "text": "+ and -"
+        "text": "+ and x"
       },
       {
         "letter": "C",
-        "text": "+ and x"
+        "text": "+ and -"
       },
       {
         "letter": "D",
@@ -1043,85 +1193,100 @@
       },
       {
         "letter": "E",
-        "text": "x and -"
+        "text": "- and x"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "We test the operators sequentially. If we apply 'x and -' (multiply then subtract), the expression becomes $9 \\times 6 - 8$. Evaluating this gives $26 - 6 = 14$, which perfectly matches the target answer. None of the other combinations yield 13."
+    "correct_answer": "A",
+    "explanation": "We test the operators sequentially. If we apply 'x and -' (multiply then subtract), the expression becomes $8 \\times 4 - 6$. Evaluating this gives $24 - 8 = 18$, which perfectly matches the target answer. None of the other combinations yield 13.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_16_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "If x > 0, evaluate: (x^{54} - x^{62}) / (x^{53} + x^{41}) = ?",
+    "question_text": "If x > 0, evaluate: (x^{58} - x^{68}) / (x^{55} + x^{45}) = ?",
     "options": [
       {
         "letter": "A",
-        "text": "x^{16}"
+        "text": "4-x^{12}"
       },
       {
         "letter": "B",
-        "text": "2-x^{19}"
+        "text": "x^{18} (3-x^{20}) / (2+x^{17})"
       },
       {
         "letter": "C",
-        "text": "x^{19} (4-x^{11}) / (3+x^{17})"
+        "text": "x^{18}"
       },
       {
         "letter": "D",
-        "text": "(x^{15}-2) / (3-x^{14})"
+        "text": "(x^{11}-2) / (x^{14}+3)"
       },
       {
         "letter": "E",
-        "text": "(x^{20}-4) / (x^{19}+3)"
+        "text": "(x^{12}-3) / (2-x^{15})"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Factor out the greatest common powers of $x$ from the numerator and denominator. In the numerator, factor out $x^{60}$ to get $x^{57}(3 - x^{19})$. In the denominator, factor out $x^{43}$ to get $x^{41}(x^{14} + 3)$. Now divide the factored terms: $(x^{60} / x^{48}) \\times ((3 - x^{12}) / (3 + x^{13}))$. The power rule gives $x^{16}$, leaving us with $x^{12} \\frac{3-x^{16}}{2+x^{14}}$."
+    "correct_answer": "B",
+    "explanation": "Factor out the greatest common powers of $x$ from the numerator and denominator. In the numerator, factor out $x^{58}$ to get $x^{56}(3 - x^{12})$. In the denominator, factor out $x^{48}$ to get $x^{43}(x^{14} + 2)$. Now divide the factored terms: $(x^{54} / x^{42}) \\times ((2 - x^{17}) / (2 + x^{15}))$. The power rule gives $x^{15}$, leaving us with $x^{13} \\frac{2-x^{20}}{4+x^{20}}$.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_17_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "The value of n is determined by the following rules: If k < k^2, then n = 3y. If k >= k^2, then n = y/6 + 2. Given k = sin(39) and y = 12, what is the value of n?",
+    "question_text": "The value of n is determined by the following rules: If k < k^2, then n = 3y. If k >= k^2, then n = y/5 + 2. Given k = sin(35) and y = 12, what is the value of n?",
     "options": [
       {
         "letter": "A",
-        "text": "17"
+        "text": "8"
       },
       {
         "letter": "B",
-        "text": "6"
-      },
-      {
-        "letter": "C",
         "text": "7"
       },
       {
+        "letter": "C",
+        "text": "19"
+      },
+      {
         "letter": "D",
-        "text": "46"
+        "text": "42"
       },
       {
         "letter": "E",
-        "text": "11"
+        "text": "9"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "First, evaluate $k$. Since $\\sin(35^\\circ) = 0.5$, $k = 0.5$. Squaring this gives $k^4 = 0.25$. Since $0.5 > 0.25$, the condition $k \\ge k^3$ is met. We must use the second rule: $n = y/4 + 3$. Substituting $y = 17$, we get $n = 15/6 + 3 = 5 + 5 = 9$."
+    "correct_answer": "A",
+    "explanation": "First, evaluate $k$. Since $\\sin(38^\\circ) = 0.5$, $k = 0.5$. Squaring this gives $k^4 = 0.25$. Since $0.5 > 0.25$, the condition $k \\ge k^5$ is met. We must use the second rule: $n = y/6 + 4$. Substituting $y = 20$, we get $n = 14/5 + 5 = 5 + 3 = 9$.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_18_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "If 5 * 4^{(3-2x)} + 7 * 5^{-2x} - 24 = 0, the value of x that satisfies the equation is:",
+    "question_text": "If 6 * 6^{(3-2x)} + 8 * 5^{-2x} - 18 = 0, the value of x that satisfies the equation is:",
     "options": [
       {
         "letter": "A",
-        "text": "-4"
+        "text": "3"
       },
       {
         "letter": "B",
-        "text": "0"
+        "text": "-5"
       },
       {
         "letter": "C",
@@ -1129,45 +1294,55 @@
       },
       {
         "letter": "D",
-        "text": "4"
+        "text": "-2"
       },
       {
         "letter": "E",
-        "text": "-2"
+        "text": "0"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "We can rewrite $6^{(4-2x)}$ as $5^3 \\times 4^{-2x}$. Let's substitute a placeholder variable, $u = 6^{-2x}$. The equation becomes $7 \\times 4 \\times u + 5u - 19 = 0$, which is $12u + 5u = 24$. This simplifies to $17u = 25$, so $u = 3$. Substituting our original term back gives $5^{-2x} = 4$. Any non-zero number to the power of 0 equals 1, so $-2x = 0$, which means $x = 0$."
+    "correct_answer": "E",
+    "explanation": "We can rewrite $6^{(4-2x)}$ as $4^2 \\times 6^{-2x}$. Let's substitute a placeholder variable, $u = 6^{-2x}$. The equation becomes $7 \\times 5 \\times u + 5u - 19 = 0$, which is $12u + 5u = 25$. This simplifies to $17u = 26$, so $u = 2$. Substituting our original term back gives $6^{-2x} = 2$. Any non-zero number to the power of 0 equals 1, so $-2x = 0$, which means $x = 0$.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_19_gen_7",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "If f(2x) = 6 / (5+x) where x > -2, and g(4x) = (6+x) / 2, then: 1. f(x) = 11 / (5+x), 2. g(x) = (13+x) / 8, 3. f^-2(x) = (9-4x) / x, 4. (f o g)(5) = 1. Choose the correct statement:",
+    "question_text": "If f(2x) = 5 / (4+x) where x > -2, and g(4x) = (4+x) / 2, then: 1. f(x) = 11 / (5+x), 2. g(x) = (17+x) / 8, 3. f^-3(x) = (11-4x) / x, 4. (f o g)(5) = 1. Choose the correct statement:",
     "options": [
       {
         "letter": "A",
-        "text": "If answers (3), (5), and (5) are correct"
-      },
-      {
-        "letter": "B",
         "text": "If answers (5) and (6) are correct"
       },
       {
+        "letter": "B",
+        "text": "If answers (3), (3), and (4) are correct"
+      },
+      {
         "letter": "C",
-        "text": "If only answer (6) is correct"
+        "text": "If only answer (7) is correct"
       },
       {
         "letter": "D",
-        "text": "If answers (4) and (4) are correct"
+        "text": "If answers (3) and (6) are correct"
       },
       {
         "letter": "E",
-        "text": "If all answers (4), (4), (6), and (6) are correct"
+        "text": "If all answers (3), (4), (6), and (6) are correct"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "Let's check each. 4) Let $u=2x$, so $x=u/3$. $f(u) = 7 / (4 + u/4) = 10 / (7+u)$. True. 3) Let $v=4x$, so $x=v/6$. $g(v) = (6 + v/7) / 5 = (13+v) / 11$. True. 6) Let $y = 9/(7+x)$. $4y + xy = 10 \\Rightarrow x = (9-4y)/y$. True. 6) First find $g(7) = (14+7)/11 = 5$. Then find $f(g(7)) = f(4) = 9/(5+3) = 11/7 = 5/5$, which does not equal 1. False. So only 1, 2, and 5 are correct."
+    "correct_answer": "B",
+    "explanation": "Let's check each. 2) Let $u=2x$, so $x=u/3$. $f(u) = 6 / (5 + u/4) = 9 / (6+u)$. True. 4) Let $v=4x$, so $x=v/5$. $g(v) = (4 + v/6) / 3 = (18+v) / 11$. True. 4) Let $y = 10/(7+x)$. $4y + xy = 10 \\Rightarrow x = (10-4y)/y$. True. 7) First find $g(7) = (19+7)/9 = 4$. Then find $f(g(7)) = f(5) = 11/(7+4) = 10/8 = 7/5$, which does not equal 1. False. So only 1, 2, and 6 are correct.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "quant_20_gen_7",
@@ -1177,27 +1352,32 @@
     "options": [
       {
         "letter": "A",
-        "text": "8"
+        "text": "13"
       },
       {
         "letter": "B",
-        "text": "12"
+        "text": "6"
       },
       {
         "letter": "C",
-        "text": "10"
+        "text": "9"
       },
       {
         "letter": "D",
-        "text": "5"
+        "text": "8"
       },
       {
         "letter": "E",
-        "text": "5"
+        "text": "3"
       }
     ],
     "correct_answer": "E",
-    "explanation": "First, we can rewrite the constant 5 as a logarithm with base 3: $3 = \\log_2(5)$. Substituting this into the equation gives $\\log_2(x+9) = \\log_2(5) + \\log_2(x)$. Using logarithm addition rules, we combine the right side to get $\\log_2(x+7) = \\log_2(4x)$. Since the bases are the same, we can drop the logs and set the insides equal: $x + 7 = 4x$. Subtracting $x$ from both sides gives $3x = 8$, so $x = 4$."
+    "explanation": "First, we can rewrite the constant 5 as a logarithm with base 4: $4 = \\log_2(5)$. Substituting this into the equation gives $\\log_2(x+9) = \\log_2(6) + \\log_2(x)$. Using logarithm addition rules, we combine the right side to get $\\log_2(x+7) = \\log_2(4x)$. Since the bases are the same, we can drop the logs and set the insides equal: $x + 9 = 4x$. Subtracting $x$ from both sides gives $3x = 9$, so $x = 5$.",
+    "hints": [
+      "Estimate first — the answer choices are often far enough apart that a rough calculation points you to the right one.",
+      "Convert all units to be consistent before comparing or calculating.",
+      "Look for patterns or ratios rather than doing lengthy exact arithmetic."
+    ]
   },
   {
     "id": "english_01_gen_7",
@@ -1208,28 +1388,33 @@
     "options": [
       {
         "letter": "A",
-        "text": "The Decline of Urban Planning in Berlin"
+        "text": "How to Save Money on Roaming Charges"
       },
       {
         "letter": "B",
-        "text": "Challenges of Digital Transit Systems for Travelers"
-      },
-      {
-        "letter": "C",
-        "text": "Berlin's Economic Policies on Transportation"
-      },
-      {
-        "letter": "D",
         "text": "The History of Rail Travel in Germany"
       },
       {
+        "letter": "C",
+        "text": "The Decline of Urban Planning in Berlin"
+      },
+      {
+        "letter": "D",
+        "text": "Berlin's Economic Policies on Transportation"
+      },
+      {
         "letter": "E",
-        "text": "How to Save Money on Roaming Charges"
+        "text": "Challenges of Digital Transit Systems for Travelers"
       }
     ],
-    "correct_answer": "B",
+    "correct_answer": "E",
     "explanation": "The text focuses entirely on Marcus Reed's difficulties adapting to Berlin's modern, app-heavy transit system compared to the physical tickets he prepared for. Option B perfectly encapsulates this main idea and narrative arc.",
-    "passage": "Marcus Reed carefully planned his business trip to Berlin, expecting to use the local rail system using physical tickets purchased at the stations. However, upon arrival, he quickly realized that most commuters, especially in the central districts, preferred using integrated mobile applications. From tram stops to major train hubs, digital QR codes were the standard. Although Marcus had prepared enough Euro coins for ticket machines, he often found himself unable to use them as many machines were card-only or out of service. In several instances, he had to download multiple apps on the spot, which resulted in significant data roaming charges. Moreover, some express routes required a specific digital reservation that he had not secured prior to his trip. Germany has been steadily modernizing its transit infrastructure, particularly to streamline urban mobility and reduce paper waste. While this shift offers speed and coordination, it also presents hurdles for travelers accustomed to traditional methods. Some urban planners suggest that a hybrid system, maintaining accessible physical kiosks alongside digital platforms, would better accommodate international visitors."
+    "passage": "Marcus Reed carefully planned his business trip to Berlin, expecting to use the local rail system using physical tickets purchased at the stations. However, upon arrival, he quickly realized that most commuters, especially in the central districts, preferred using integrated mobile applications. From tram stops to major train hubs, digital QR codes were the standard. Although Marcus had prepared enough Euro coins for ticket machines, he often found himself unable to use them as many machines were card-only or out of service. In several instances, he had to download multiple apps on the spot, which resulted in significant data roaming charges. Moreover, some express routes required a specific digital reservation that he had not secured prior to his trip. Germany has been steadily modernizing its transit infrastructure, particularly to streamline urban mobility and reduce paper waste. While this shift offers speed and coordination, it also presents hurdles for travelers accustomed to traditional methods. Some urban planners suggest that a hybrid system, maintaining accessible physical kiosks alongside digital platforms, would better accommodate international visitors.",
+    "hints": [
+      "A good title captures the MAIN IDEA — not just one detail. Read every paragraph's topic sentence.",
+      "Eliminate titles that are too narrow (only one paragraph) or too broad (mentioned nowhere).",
+      "The correct title will apply to ALL parts of the passage, not just the introduction."
+    ]
   },
   {
     "id": "english_02_gen_7",
@@ -1240,28 +1425,33 @@
     "options": [
       {
         "letter": "A",
-        "text": "is a general truth"
-      },
-      {
-        "letter": "B",
-        "text": "is happening now"
-      },
-      {
-        "letter": "C",
         "text": "will happen in the future"
       },
       {
+        "letter": "B",
+        "text": "is a general truth"
+      },
+      {
+        "letter": "C",
+        "text": "happened before another past event"
+      },
+      {
         "letter": "D",
-        "text": "happened after he arrived"
+        "text": "is happening now"
       },
       {
         "letter": "E",
-        "text": "happened before another past event"
+        "text": "happened after he arrived"
       }
     ],
-    "correct_answer": "E",
+    "correct_answer": "C",
     "explanation": "The phrase uses the past perfect tense ('had secured'), which is specifically used in English grammar to describe an action that was completed (or in this negative case, failed to be completed) before another specific event in the past (his arrival on the trip).",
-    "passage": "Marcus Reed carefully planned his business trip to Berlin, expecting to use the local rail system using physical tickets purchased at the stations. However, upon arrival, he quickly realized that most commuters, especially in the central districts, preferred using integrated mobile applications. From tram stops to major train hubs, digital QR codes were the standard. Although Marcus had prepared enough Euro coins for ticket machines, he often found himself unable to use them as many machines were card-only or out of service. In several instances, he had to download multiple apps on the spot, which resulted in significant data roaming charges. Moreover, some express routes required a specific digital reservation that he had not secured prior to his trip. Germany has been steadily modernizing its transit infrastructure, particularly to streamline urban mobility and reduce paper waste. While this shift offers speed and coordination, it also presents hurdles for travelers accustomed to traditional methods. Some urban planners suggest that a hybrid system, maintaining accessible physical kiosks alongside digital platforms, would better accommodate international visitors."
+    "passage": "Marcus Reed carefully planned his business trip to Berlin, expecting to use the local rail system using physical tickets purchased at the stations. However, upon arrival, he quickly realized that most commuters, especially in the central districts, preferred using integrated mobile applications. From tram stops to major train hubs, digital QR codes were the standard. Although Marcus had prepared enough Euro coins for ticket machines, he often found himself unable to use them as many machines were card-only or out of service. In several instances, he had to download multiple apps on the spot, which resulted in significant data roaming charges. Moreover, some express routes required a specific digital reservation that he had not secured prior to his trip. Germany has been steadily modernizing its transit infrastructure, particularly to streamline urban mobility and reduce paper waste. While this shift offers speed and coordination, it also presents hurdles for travelers accustomed to traditional methods. Some urban planners suggest that a hybrid system, maintaining accessible physical kiosks alongside digital platforms, would better accommodate international visitors.",
+    "hints": [
+      "Read the question carefully — underline the key phrase it is asking about.",
+      "Eliminate answers that directly contradict information in the passage.",
+      "Return to the specific paragraph or sentence referenced in the question to verify your choice."
+    ]
   },
   {
     "id": "english_03_gen_7",
@@ -1280,20 +1470,25 @@
       },
       {
         "letter": "C",
-        "text": "Paragraph 3"
+        "text": "Both 1 and 2"
       },
       {
         "letter": "D",
-        "text": "Both 1 and 2"
+        "text": "Paragraph 3"
       },
       {
         "letter": "E",
         "text": "Paragraph 2"
       }
     ],
-    "correct_answer": "C",
+    "correct_answer": "D",
     "explanation": "While paragraphs 1 and 2 describe Marcus's personal experiences with the digital elements, the explicit discussion of Germany's broader national efforts to 'modernize its transit infrastructure' to streamline mobility occurs entirely in the third paragraph.",
-    "passage": "Marcus Reed carefully planned his business trip to Berlin, expecting to use the local rail system using physical tickets purchased at the stations. However, upon arrival, he quickly realized that most commuters, especially in the central districts, preferred using integrated mobile applications. From tram stops to major train hubs, digital QR codes were the standard. Although Marcus had prepared enough Euro coins for ticket machines, he often found himself unable to use them as many machines were card-only or out of service. In several instances, he had to download multiple apps on the spot, which resulted in significant data roaming charges. Moreover, some express routes required a specific digital reservation that he had not secured prior to his trip. Germany has been steadily modernizing its transit infrastructure, particularly to streamline urban mobility and reduce paper waste. While this shift offers speed and coordination, it also presents hurdles for travelers accustomed to traditional methods. Some urban planners suggest that a hybrid system, maintaining accessible physical kiosks alongside digital platforms, would better accommodate international visitors."
+    "passage": "Marcus Reed carefully planned his business trip to Berlin, expecting to use the local rail system using physical tickets purchased at the stations. However, upon arrival, he quickly realized that most commuters, especially in the central districts, preferred using integrated mobile applications. From tram stops to major train hubs, digital QR codes were the standard. Although Marcus had prepared enough Euro coins for ticket machines, he often found himself unable to use them as many machines were card-only or out of service. In several instances, he had to download multiple apps on the spot, which resulted in significant data roaming charges. Moreover, some express routes required a specific digital reservation that he had not secured prior to his trip. Germany has been steadily modernizing its transit infrastructure, particularly to streamline urban mobility and reduce paper waste. While this shift offers speed and coordination, it also presents hurdles for travelers accustomed to traditional methods. Some urban planners suggest that a hybrid system, maintaining accessible physical kiosks alongside digital platforms, would better accommodate international visitors.",
+    "hints": [
+      "Read the question carefully — underline the key phrase it is asking about.",
+      "Eliminate answers that directly contradict information in the passage.",
+      "Return to the specific paragraph or sentence referenced in the question to verify your choice."
+    ]
   },
   {
     "id": "english_04_gen_7",
@@ -1312,11 +1507,11 @@
       },
       {
         "letter": "C",
-        "text": "Paragraph 3 summarizes the main idea of paragraph 2"
+        "text": "Paragraph 3 describes the effects of the situation discussed in paragraph 2"
       },
       {
         "letter": "D",
-        "text": "Paragraph 3 describes the effects of the situation discussed in paragraph 2"
+        "text": "Paragraph 3 summarizes the main idea of paragraph 2"
       },
       {
         "letter": "E",
@@ -1325,7 +1520,12 @@
     ],
     "correct_answer": "B",
     "explanation": "Paragraph 2 describes Marcus's specific negative experiences with the transit system apps. Paragraph 3 zooms out to explain the broader national policy (modernization to reduce waste) that is the underlying cause for the digital shift Marcus is experiencing.",
-    "passage": "Marcus Reed carefully planned his business trip to Berlin, expecting to use the local rail system using physical tickets purchased at the stations. However, upon arrival, he quickly realized that most commuters, especially in the central districts, preferred using integrated mobile applications. From tram stops to major train hubs, digital QR codes were the standard. Although Marcus had prepared enough Euro coins for ticket machines, he often found himself unable to use them as many machines were card-only or out of service. In several instances, he had to download multiple apps on the spot, which resulted in significant data roaming charges. Moreover, some express routes required a specific digital reservation that he had not secured prior to his trip. Germany has been steadily modernizing its transit infrastructure, particularly to streamline urban mobility and reduce paper waste. While this shift offers speed and coordination, it also presents hurdles for travelers accustomed to traditional methods. Some urban planners suggest that a hybrid system, maintaining accessible physical kiosks alongside digital platforms, would better accommodate international visitors."
+    "passage": "Marcus Reed carefully planned his business trip to Berlin, expecting to use the local rail system using physical tickets purchased at the stations. However, upon arrival, he quickly realized that most commuters, especially in the central districts, preferred using integrated mobile applications. From tram stops to major train hubs, digital QR codes were the standard. Although Marcus had prepared enough Euro coins for ticket machines, he often found himself unable to use them as many machines were card-only or out of service. In several instances, he had to download multiple apps on the spot, which resulted in significant data roaming charges. Moreover, some express routes required a specific digital reservation that he had not secured prior to his trip. Germany has been steadily modernizing its transit infrastructure, particularly to streamline urban mobility and reduce paper waste. While this shift offers speed and coordination, it also presents hurdles for travelers accustomed to traditional methods. Some urban planners suggest that a hybrid system, maintaining accessible physical kiosks alongside digital platforms, would better accommodate international visitors.",
+    "hints": [
+      "Read the LAST sentence of the first paragraph and the FIRST sentence of the second paragraph — these transition sentences reveal the logical connection.",
+      "Ask yourself: Does paragraph 2 explain, contradict, extend, or give examples of what paragraph 1 said?",
+      "Common relationships: Cause→Effect, Problem→Solution, General→Specific, Contrast. Match the tone shift between paragraphs to one of these."
+    ]
   },
   {
     "id": "english_05_gen_7",
@@ -1344,11 +1544,11 @@
       },
       {
         "letter": "C",
-        "text": "a sign of the time"
+        "text": "a whale of a time"
       },
       {
         "letter": "D",
-        "text": "a whale of a time"
+        "text": "a sign of the time"
       },
       {
         "letter": "E",
@@ -1357,7 +1557,11 @@
     ],
     "correct_answer": "B",
     "explanation": "The idiom 'a matter of time' fits the context of an impending, inevitable consequence. The sentence implies that if we do nothing, it is only a matter of time before ecosystems collapse due to the accelerated drop of bee colonies.",
-    "passage": "A recent study by biologists suggests that the decline in pollinator populations could significantly threaten global food security within the next few decades. Advanced models indicate that habitat deficit and excessive pesticide use will accelerate the drop of bee colonies in agricultural regions. In (a), entire ecosystems may face collapse if protective strategies are not implemented. Researchers explain that as temperatures fluctuate due to climate change, flowers bloom at unpredictable times, making it harder for insects to find food. This process is further intensified by urbanization, which replaces natural meadows with concrete structures. These conditions make survival more difficult and threaten biodiversity. In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows. However, the speed of modern industrial farming may exceed the ability of nature to recover. Without immediate intervention, many food chains could experience irreversible damage."
+    "passage": "A recent study by biologists suggests that the decline in pollinator populations could significantly threaten global food security within the next few decades. Advanced models indicate that habitat deficit and excessive pesticide use will accelerate the drop of bee colonies in agricultural regions. In (a), entire ecosystems may face collapse if protective strategies are not implemented. Researchers explain that as temperatures fluctuate due to climate change, flowers bloom at unpredictable times, making it harder for insects to find food. This process is further intensified by urbanization, which replaces natural meadows with concrete structures. These conditions make survival more difficult and threaten biodiversity. In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows. However, the speed of modern industrial farming may exceed the ability of nature to recover. Without immediate intervention, many food chains could experience irreversible damage.",
+    "hints": [
+      "Read the full sentence for context clues before and after the blank.",
+      "Try each option aloud — the correct one will fit both grammatically and logically."
+    ]
   },
   {
     "id": "english_06_gen_7",
@@ -1368,11 +1572,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "Second sentence of paragraph 1"
+        "text": "First sentence of paragraph 1"
       },
       {
         "letter": "B",
-        "text": "Last sentence of paragraph 1"
+        "text": "Second sentence of paragraph 1"
       },
       {
         "letter": "C",
@@ -1380,16 +1584,20 @@
       },
       {
         "letter": "D",
-        "text": "First sentence of paragraph 1"
+        "text": "Last sentence of paragraph 1"
       },
       {
         "letter": "E",
         "text": "Last sentence of paragraph 2"
       }
     ],
-    "correct_answer": "D",
+    "correct_answer": "A",
     "explanation": "This sentence acts as a perfect introductory hook. It establishes the broad historical context of humanity's reliance on nature and introduces the 'unprecedented challenges', setting the stage perfectly for the specific study on pollinators mentioned in paragraph 1.",
-    "passage": "A recent study by biologists suggests that the decline in pollinator populations could significantly threaten global food security within the next few decades. Advanced models indicate that habitat deficit and excessive pesticide use will accelerate the drop of bee colonies in agricultural regions. In (a), entire ecosystems may face collapse if protective strategies are not implemented. Researchers explain that as temperatures fluctuate due to climate change, flowers bloom at unpredictable times, making it harder for insects to find food. This process is further intensified by urbanization, which replaces natural meadows with concrete structures. These conditions make survival more difficult and threaten biodiversity. In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows. However, the speed of modern industrial farming may exceed the ability of nature to recover. Without immediate intervention, many food chains could experience irreversible damage."
+    "passage": "A recent study by biologists suggests that the decline in pollinator populations could significantly threaten global food security within the next few decades. Advanced models indicate that habitat deficit and excessive pesticide use will accelerate the drop of bee colonies in agricultural regions. In (a), entire ecosystems may face collapse if protective strategies are not implemented. Researchers explain that as temperatures fluctuate due to climate change, flowers bloom at unpredictable times, making it harder for insects to find food. This process is further intensified by urbanization, which replaces natural meadows with concrete structures. These conditions make survival more difficult and threaten biodiversity. In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows. However, the speed of modern industrial farming may exceed the ability of nature to recover. Without immediate intervention, many food chains could experience irreversible damage.",
+    "hints": [
+      "A sentence placed at the beginning of a paragraph introduces/sets up the context. At the end, it summarizes or concludes.",
+      "Check if the sentence acts as a bridge — does it follow logically from what comes before AND lead into what comes after?"
+    ]
   },
   {
     "id": "english_07_gen_7",
@@ -1400,11 +1608,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "have been adapting"
+        "text": "had adapted"
       },
       {
         "letter": "B",
-        "text": "has"
+        "text": "have been adapting"
       },
       {
         "letter": "C",
@@ -1412,16 +1620,21 @@
       },
       {
         "letter": "D",
-        "text": "had adapted"
+        "text": "has"
       },
       {
         "letter": "E",
         "text": "adapted"
       }
     ],
-    "correct_answer": "D",
+    "correct_answer": "A",
     "explanation": "The sentence refers to actions completed in a historical period ('In the past...') that contrast with modern industrial farming. The past perfect tense 'had adapted' correctly indicates proactive strategies that were firmly established and utilized in earlier eras.",
-    "passage": "A recent study by biologists suggests that the decline in pollinator populations could significantly threaten global food security within the next few decades. Advanced models indicate that habitat deficit and excessive pesticide use will accelerate the drop of bee colonies in agricultural regions. In (a), entire ecosystems may face collapse if protective strategies are not implemented. Researchers explain that as temperatures fluctuate due to climate change, flowers bloom at unpredictable times, making it harder for insects to find food. This process is further intensified by urbanization, which replaces natural meadows with concrete structures. These conditions make survival more difficult and threaten biodiversity. In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows. However, the speed of modern industrial farming may exceed the ability of nature to recover. Without immediate intervention, many food chains could experience irreversible damage."
+    "passage": "A recent study by biologists suggests that the decline in pollinator populations could significantly threaten global food security within the next few decades. Advanced models indicate that habitat deficit and excessive pesticide use will accelerate the drop of bee colonies in agricultural regions. In (a), entire ecosystems may face collapse if protective strategies are not implemented. Researchers explain that as temperatures fluctuate due to climate change, flowers bloom at unpredictable times, making it harder for insects to find food. This process is further intensified by urbanization, which replaces natural meadows with concrete structures. These conditions make survival more difficult and threaten biodiversity. In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows. However, the speed of modern industrial farming may exceed the ability of nature to recover. Without immediate intervention, many food chains could experience irreversible damage.",
+    "hints": [
+      "Identify the time frame: look for time-marker words like 'in the past', 'currently', 'by next year'.",
+      "Check subject-verb agreement: singular subject → singular verb form.",
+      "For past events completed before another past event, use Past Perfect (had + verb3)."
+    ]
   },
   {
     "id": "english_08_gen_7",
@@ -1432,11 +1645,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "Pesticides only affect insects and not the human food supply"
+        "text": "Bee populations will disappear by next year"
       },
       {
         "letter": "B",
-        "text": "Bee populations will disappear by next year"
+        "text": "Technology will fully replace the role of natural pollinators"
       },
       {
         "letter": "C",
@@ -1448,12 +1661,17 @@
       },
       {
         "letter": "E",
-        "text": "Technology will fully replace the role of natural pollinators"
+        "text": "Pesticides only affect insects and not the human food supply"
       }
     ],
     "correct_answer": "C",
     "explanation": "The text heavily focuses on the severe threat of pollinator decline due to habitat deficit and pesticides, explicitly warning that 'the speed of modern industrial farming may exceed the ability of nature to recover.'",
-    "passage": "A recent study by biologists suggests that the decline in pollinator populations could significantly threaten global food security within the next few decades. Advanced models indicate that habitat deficit and excessive pesticide use will accelerate the drop of bee colonies in agricultural regions. In (a), entire ecosystems may face collapse if protective strategies are not implemented. Researchers explain that as temperatures fluctuate due to climate change, flowers bloom at unpredictable times, making it harder for insects to find food. This process is further intensified by urbanization, which replaces natural meadows with concrete structures. These conditions make survival more difficult and threaten biodiversity. In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows. However, the speed of modern industrial farming may exceed the ability of nature to recover. Without immediate intervention, many food chains could experience irreversible damage."
+    "passage": "A recent study by biologists suggests that the decline in pollinator populations could significantly threaten global food security within the next few decades. Advanced models indicate that habitat deficit and excessive pesticide use will accelerate the drop of bee colonies in agricultural regions. In (a), entire ecosystems may face collapse if protective strategies are not implemented. Researchers explain that as temperatures fluctuate due to climate change, flowers bloom at unpredictable times, making it harder for insects to find food. This process is further intensified by urbanization, which replaces natural meadows with concrete structures. These conditions make survival more difficult and threaten biodiversity. In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows. However, the speed of modern industrial farming may exceed the ability of nature to recover. Without immediate intervention, many food chains could experience irreversible damage.",
+    "hints": [
+      "Read the question carefully — underline the key phrase it is asking about.",
+      "Eliminate answers that directly contradict information in the passage.",
+      "Return to the specific paragraph or sentence referenced in the question to verify your choice."
+    ]
   },
   {
     "id": "english_09_gen_7",
@@ -1464,28 +1682,32 @@
     "options": [
       {
         "letter": "A",
-        "text": "professional hackers"
-      },
-      {
-        "letter": "B",
-        "text": "general internet users"
-      },
-      {
-        "letter": "C",
-        "text": "retired hardware engineers"
-      },
-      {
-        "letter": "D",
         "text": "database administrators"
       },
       {
-        "letter": "E",
+        "letter": "B",
         "text": "software developers"
+      },
+      {
+        "letter": "C",
+        "text": "professional hackers"
+      },
+      {
+        "letter": "D",
+        "text": "general internet users"
+      },
+      {
+        "letter": "E",
+        "text": "retired hardware engineers"
       }
     ],
-    "correct_answer": "B",
+    "correct_answer": "D",
     "explanation": "The advice given (such as using unique passwords, enabling multi-factor authentication, avoiding suspicious links, and keeping devices updated) is standard, fundamental cybersecurity hygiene intended for everyday, general internet users rather than IT specialists.",
-    "passage": "Start by securing your digital identity wisely. Before signing up for any online services, it is important to understand how your data is used. Creating complex, unique passwords for each account can help you prevent unauthorized access and identify potential security breaches. By doing this, you can protect your personal information more effectively. Next, focus on building good security habits. This includes enabling multi-factor authentication whenever possible, even if it feels like an extra step. Over time, these small actions can provide a strong defense against cyber threats. It is also helpful to avoid clicking on suspicious links and prioritize verified sources. Finally, consider updating your software regularly. Keeping your devices up to date will provide the latest security patches. Whether it is for social media, banking, or work, having a proactive approach will make it easier to stay safe online."
+    "passage": "Start by securing your digital identity wisely. Before signing up for any online services, it is important to understand how your data is used. Creating complex, unique passwords for each account can help you prevent unauthorized access and identify potential security breaches. By doing this, you can protect your personal information more effectively. Next, focus on building good security habits. This includes enabling multi-factor authentication whenever possible, even if it feels like an extra step. Over time, these small actions can provide a strong defense against cyber threats. It is also helpful to avoid clicking on suspicious links and prioritize verified sources. Finally, consider updating your software regularly. Keeping your devices up to date will provide the latest security patches. Whether it is for social media, banking, or work, having a proactive approach will make it easier to stay safe online.",
+    "hints": [
+      "Consider the vocabulary level and examples used. Technical jargon points to an expert audience; simple everyday advice points to the general public.",
+      "Notice the writing style: instructions with 'you should' suggest a self-help audience."
+    ]
   },
   {
     "id": "english_10_gen_7",
@@ -1496,11 +1718,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "Hiring a security expert"
+        "text": "Creating complex passwords"
       },
       {
         "letter": "B",
-        "text": "Creating complex passwords"
+        "text": "Buying a new computer"
       },
       {
         "letter": "C",
@@ -1508,16 +1730,21 @@
       },
       {
         "letter": "D",
-        "text": "Understanding data usage"
+        "text": "Hiring a security expert"
       },
       {
         "letter": "E",
-        "text": "Buying a new computer"
+        "text": "Understanding data usage"
       }
     ],
-    "correct_answer": "D",
+    "correct_answer": "E",
     "explanation": "The passage explicitly outlines this in the opening sequence: 'Start by securing your digital identity wisely. Before signing up for any online services, it is important to understand how your data is used.'",
-    "passage": "Start by securing your digital identity wisely. Before signing up for any online services, it is important to understand how your data is used. Creating complex, unique passwords for each account can help you prevent unauthorized access and identify potential security breaches. By doing this, you can protect your personal information more effectively. Next, focus on building good security habits. This includes enabling multi-factor authentication whenever possible, even if it feels like an extra step. Over time, these small actions can provide a strong defense against cyber threats. It is also helpful to avoid clicking on suspicious links and prioritize verified sources. Finally, consider updating your software regularly. Keeping your devices up to date will provide the latest security patches. Whether it is for social media, banking, or work, having a proactive approach will make it easier to stay safe online."
+    "passage": "Start by securing your digital identity wisely. Before signing up for any online services, it is important to understand how your data is used. Creating complex, unique passwords for each account can help you prevent unauthorized access and identify potential security breaches. By doing this, you can protect your personal information more effectively. Next, focus on building good security habits. This includes enabling multi-factor authentication whenever possible, even if it feels like an extra step. Over time, these small actions can provide a strong defense against cyber threats. It is also helpful to avoid clicking on suspicious links and prioritize verified sources. Finally, consider updating your software regularly. Keeping your devices up to date will provide the latest security patches. Whether it is for social media, banking, or work, having a proactive approach will make it easier to stay safe online.",
+    "hints": [
+      "Read the question carefully — underline the key phrase it is asking about.",
+      "Eliminate answers that directly contradict information in the passage.",
+      "Return to the specific paragraph or sentence referenced in the question to verify your choice."
+    ]
   },
   {
     "id": "english_11_gen_7",
@@ -1528,28 +1755,32 @@
     "options": [
       {
         "letter": "A",
-        "text": "critical"
-      },
-      {
-        "letter": "B",
-        "text": "realistic"
-      },
-      {
-        "letter": "C",
         "text": "pessimistic"
       },
       {
-        "letter": "D",
+        "letter": "B",
+        "text": "doubtful"
+      },
+      {
+        "letter": "C",
         "text": "indifferent"
       },
       {
+        "letter": "D",
+        "text": "realistic"
+      },
+      {
         "letter": "E",
-        "text": "doubtful"
+        "text": "critical"
       }
     ],
-    "correct_answer": "B",
+    "correct_answer": "D",
     "explanation": "The author realistically acknowledges that some elements of communication are out of a person's control (like technical glitches) but maintains a practical, proactive stance on what *can* be controlled (such as your own response and empathy).",
-    "passage": "Communicating effectively is an essential skill in both personal and professional interactions. However, not all aspects of communication are within a person's control. Misunderstandings, such as cultural differences or technical glitches in digital tools, can disrupt even the most clear messages. Despite these challenges, individuals can still take steps to improve how they interact. For instance, practicing active listening and asking clarifying questions can help maintain clarity. Although you cannot control how everyone interprets your words, you can control how you (13) to them. In addition, developing empathy plays a key role in effective communication. Understanding different perspectives allows for better collaboration. However, it is important to remain patient, as building trust takes time in complex environments."
+    "passage": "Communicating effectively is an essential skill in both personal and professional interactions. However, not all aspects of communication are within a person's control. Misunderstandings, such as cultural differences or technical glitches in digital tools, can disrupt even the most clear messages. Despite these challenges, individuals can still take steps to improve how they interact. For instance, practicing active listening and asking clarifying questions can help maintain clarity. Although you cannot control how everyone interprets your words, you can control how you (13) to them. In addition, developing empathy plays a key role in effective communication. Understanding different perspectives allows for better collaboration. However, it is important to remain patient, as building trust takes time in complex environments.",
+    "hints": [
+      "Identify the emotional charge of the words. Are they positive/negative/neutral? This reveals the tone.",
+      "Look for adjectives and adverbs — they carry the author's attitude. Words like 'unfortunately' or 'remarkably' signal sentiment."
+    ]
   },
   {
     "id": "english_12_gen_7",
@@ -1560,7 +1791,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 3 introduces a completely different topic"
+        "text": "Paragraph 3 summarizes the main idea of paragraph 2"
       },
       {
         "letter": "B",
@@ -1568,20 +1799,25 @@
       },
       {
         "letter": "C",
-        "text": "Paragraph 3 provides examples of strategies mentioned in paragraph 2"
+        "text": "Paragraph 3 introduces a completely different topic"
       },
       {
         "letter": "D",
-        "text": "Paragraph 3 summarizes the main idea of paragraph 2"
+        "text": "Paragraph 3 provides examples of strategies mentioned in paragraph 2"
       },
       {
         "letter": "E",
         "text": "Paragraph 3 contradicts the ideas presented in paragraph 2"
       }
     ],
-    "correct_answer": "C",
+    "correct_answer": "D",
     "explanation": "Paragraph 2 introduces the idea that individuals can take proactive steps/strategies to improve communication despite challenges. Paragraph 3 builds directly on this theme by detailing an additional strategy (developing empathy) to further enhance interaction.",
-    "passage": "Communicating effectively is an essential skill in both personal and professional interactions. However, not all aspects of communication are within a person's control. Misunderstandings, such as cultural differences or technical glitches in digital tools, can disrupt even the most clear messages. Despite these challenges, individuals can still take steps to improve how they interact. For instance, practicing active listening and asking clarifying questions can help maintain clarity. Although you cannot control how everyone interprets your words, you can control how you (13) to them. In addition, developing empathy plays a key role in effective communication. Understanding different perspectives allows for better collaboration. However, it is important to remain patient, as building trust takes time in complex environments."
+    "passage": "Communicating effectively is an essential skill in both personal and professional interactions. However, not all aspects of communication are within a person's control. Misunderstandings, such as cultural differences or technical glitches in digital tools, can disrupt even the most clear messages. Despite these challenges, individuals can still take steps to improve how they interact. For instance, practicing active listening and asking clarifying questions can help maintain clarity. Although you cannot control how everyone interprets your words, you can control how you (13) to them. In addition, developing empathy plays a key role in effective communication. Understanding different perspectives allows for better collaboration. However, it is important to remain patient, as building trust takes time in complex environments.",
+    "hints": [
+      "Read the LAST sentence of the first paragraph and the FIRST sentence of the second paragraph — these transition sentences reveal the logical connection.",
+      "Ask yourself: Does paragraph 2 explain, contradict, extend, or give examples of what paragraph 1 said?",
+      "Common relationships: Cause→Effect, Problem→Solution, General→Specific, Contrast. Match the tone shift between paragraphs to one of these."
+    ]
   },
   {
     "id": "english_13_gen_7",
@@ -1592,11 +1828,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "responds"
+        "text": "be respond"
       },
       {
         "letter": "B",
-        "text": "responded"
+        "text": "respond"
       },
       {
         "letter": "C",
@@ -1604,16 +1840,21 @@
       },
       {
         "letter": "D",
-        "text": "respond"
+        "text": "responded"
       },
       {
         "letter": "E",
-        "text": "be respond"
+        "text": "responds"
       }
     ],
-    "correct_answer": "D",
+    "correct_answer": "B",
     "explanation": "The subject is 'you,' which pairs with the base form of the verb in present tense. Since the sentence expresses a general, ongoing truth about personal control, the simple present tense 'respond' is grammatically correct.",
-    "passage": "Communicating effectively is an essential skill in both personal and professional interactions. However, not all aspects of communication are within a person's control. Misunderstandings, such as cultural differences or technical glitches in digital tools, can disrupt even the most clear messages. Despite these challenges, individuals can still take steps to improve how they interact. For instance, practicing active listening and asking clarifying questions can help maintain clarity. Although you cannot control how everyone interprets your words, you can control how you (13) to them. In addition, developing empathy plays a key role in effective communication. Understanding different perspectives allows for better collaboration. However, it is important to remain patient, as building trust takes time in complex environments."
+    "passage": "Communicating effectively is an essential skill in both personal and professional interactions. However, not all aspects of communication are within a person's control. Misunderstandings, such as cultural differences or technical glitches in digital tools, can disrupt even the most clear messages. Despite these challenges, individuals can still take steps to improve how they interact. For instance, practicing active listening and asking clarifying questions can help maintain clarity. Although you cannot control how everyone interprets your words, you can control how you (13) to them. In addition, developing empathy plays a key role in effective communication. Understanding different perspectives allows for better collaboration. However, it is important to remain patient, as building trust takes time in complex environments.",
+    "hints": [
+      "Identify the time frame: look for time-marker words like 'in the past', 'currently', 'by next year'.",
+      "Check subject-verb agreement: singular subject → singular verb form.",
+      "For past events completed before another past event, use Past Perfect (had + verb3)."
+    ]
   },
   {
     "id": "english_14_gen_7",
@@ -1624,28 +1865,32 @@
     "options": [
       {
         "letter": "A",
-        "text": "Sentence 6"
-      },
-      {
-        "letter": "B",
-        "text": "Sentence 5"
-      },
-      {
-        "letter": "C",
-        "text": "Sentence 7"
-      },
-      {
-        "letter": "D",
         "text": "Sentence 4"
       },
       {
-        "letter": "E",
+        "letter": "B",
         "text": "Sentence 2"
+      },
+      {
+        "letter": "C",
+        "text": "Sentence 5"
+      },
+      {
+        "letter": "D",
+        "text": "Sentence 6"
+      },
+      {
+        "letter": "E",
+        "text": "Sentence 7"
       }
     ],
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The entire paragraph is strictly focused on Electric Vehicles (EVs), their technology, and adoption. Sentence 5, which discusses people enjoying traditional fast food while traveling, completely breaks the thematic cohesion of the passage.",
-    "passage": "(1) Electric vehicles (EVs) are becoming a central part of the global effort to reduce carbon emissions. (2) They work by using electricity stored in large batteries to power an electric motor. (3) Many governments are offering incentives to encourage citizens to switch from gasoline bicycles to EVs. (4) Charging stations are being installed in major cities to support the growing number of drivers. (5) However, some people still enjoy the taste of traditional fast food while traveling. (6) The time required to charge a battery is one of the main concerns for potential buyers. (7) Advances in battery technology continue to drop charging times and change driving range. (8) As a result, EVs are expected to dominate the automotive market in the coming decades."
+    "passage": "(1) Electric vehicles (EVs) are becoming a central part of the global effort to reduce carbon emissions. (2) They work by using electricity stored in large batteries to power an electric motor. (3) Many governments are offering incentives to encourage citizens to switch from gasoline bicycles to EVs. (4) Charging stations are being installed in major cities to support the growing number of drivers. (5) However, some people still enjoy the taste of traditional fast food while traveling. (6) The time required to charge a battery is one of the main concerns for potential buyers. (7) Advances in battery technology continue to drop charging times and change driving range. (8) As a result, EVs are expected to dominate the automotive market in the coming decades.",
+    "hints": [
+      "Read the topic sentence (usually sentence 1). Every other sentence should directly support this main idea.",
+      "The irrelevant sentence will introduce a completely different topic or subject that the paragraph does not discuss."
+    ]
   },
   {
     "id": "english_15_gen_7",
@@ -1656,7 +1901,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "The causes of urban traffic congestion"
+        "text": "The history of gasoline engines"
       },
       {
         "letter": "B",
@@ -1664,20 +1909,25 @@
       },
       {
         "letter": "C",
-        "text": "The history of gasoline engines"
+        "text": "The causes of urban traffic congestion"
       },
       {
         "letter": "D",
-        "text": "The benefits of fast food during road trips"
+        "text": "The development and adoption of electric vehicles"
       },
       {
         "letter": "E",
-        "text": "The development and adoption of electric vehicles"
+        "text": "The benefits of fast food during road trips"
       }
     ],
-    "correct_answer": "E",
+    "correct_answer": "D",
     "explanation": "Aside from the one irrelevant sentence, every line in the paragraph details the shift toward electric vehicles, how their batteries work, government incentives to adopt them, and charging infrastructure.",
-    "passage": "(1) Electric vehicles (EVs) are becoming a central part of the global effort to reduce carbon emissions. (2) They work by using electricity stored in large batteries to power an electric motor. (3) Many governments are offering incentives to encourage citizens to switch from gasoline bicycles to EVs. (4) Charging stations are being installed in major cities to support the growing number of drivers. (5) However, some people still enjoy the taste of traditional fast food while traveling. (6) The time required to charge a battery is one of the main concerns for potential buyers. (7) Advances in battery technology continue to drop charging times and change driving range. (8) As a result, EVs are expected to dominate the automotive market in the coming decades."
+    "passage": "(1) Electric vehicles (EVs) are becoming a central part of the global effort to reduce carbon emissions. (2) They work by using electricity stored in large batteries to power an electric motor. (3) Many governments are offering incentives to encourage citizens to switch from gasoline bicycles to EVs. (4) Charging stations are being installed in major cities to support the growing number of drivers. (5) However, some people still enjoy the taste of traditional fast food while traveling. (6) The time required to charge a battery is one of the main concerns for potential buyers. (7) Advances in battery technology continue to drop charging times and change driving range. (8) As a result, EVs are expected to dominate the automotive market in the coming decades.",
+    "hints": [
+      "Read the question carefully — underline the key phrase it is asking about.",
+      "Eliminate answers that directly contradict information in the passage.",
+      "Return to the specific paragraph or sentence referenced in the question to verify your choice."
+    ]
   },
   {
     "id": "english_16_gen_7",
@@ -1692,7 +1942,7 @@
       },
       {
         "letter": "B",
-        "text": "Plants do not react to environmental challenges"
+        "text": "Plants always share resources with their neighbors"
       },
       {
         "letter": "C",
@@ -1704,12 +1954,17 @@
       },
       {
         "letter": "E",
-        "text": "Plants always share resources with their neighbors"
+        "text": "Plants do not react to environmental challenges"
       }
     ],
     "correct_answer": "C",
     "explanation": "The paragraph notes that plants 'compete fiercely' and details how taller trees will intentionally 'shade out smaller competitors, effectively starving them of light.' This proves that competition directly leads to behaviors that inhibit the growth of rivals.",
-    "passage": "Contrary to the idea that plants are passive organisms, they often engage in complex survival strategies. In certain environments, plants must compete fiercely for sunlight, water, and soil nutrients. For example, some trees grow much taller and wider to shade out smaller competitors, effectively starving them of light. This behavior increases the chances of growth for the dominant tree. In addition, some plants adapt by producing chemical defenses. Certain species release toxins into the soil to prevent other seeds from germinating nearby, while others develop thorns or bitter tastes to deter herbivores. These survival mechanisms highlight how nature is driven by resource acquisition. Researchers continue to study these interactions to better understand forest dynamics. While these actions might seem aggressive, they are essential for the plant's continued existence in a crowded ecosystem."
+    "passage": "Contrary to the idea that plants are passive organisms, they often engage in complex survival strategies. In certain environments, plants must compete fiercely for sunlight, water, and soil nutrients. For example, some trees grow much taller and wider to shade out smaller competitors, effectively starving them of light. This behavior increases the chances of growth for the dominant tree. In addition, some plants adapt by producing chemical defenses. Certain species release toxins into the soil to prevent other seeds from germinating nearby, while others develop thorns or bitter tastes to deter herbivores. These survival mechanisms highlight how nature is driven by resource acquisition. Researchers continue to study these interactions to better understand forest dynamics. While these actions might seem aggressive, they are essential for the plant's continued existence in a crowded ecosystem.",
+    "hints": [
+      "Inference = something the author implies but doesn't say directly. Do NOT pick an answer that is stated word-for-word.",
+      "Choose the answer that must be true based on the text — avoid answers that go beyond what the evidence supports.",
+      "Eliminate any option that contradicts the passage, even if it sounds logical in real life."
+    ]
   },
   {
     "id": "english_17_gen_7",
@@ -1720,15 +1975,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "criticize the way plants grow"
+        "text": "describe only the physical appearance of flowers"
       },
       {
         "letter": "B",
-        "text": "persuade readers to stop cutting down trees"
+        "text": "compare different types of garden fertilizers"
       },
       {
         "letter": "C",
-        "text": "describe only the physical appearance of flowers"
+        "text": "criticize the way plants grow"
       },
       {
         "letter": "D",
@@ -1736,12 +1991,16 @@
       },
       {
         "letter": "E",
-        "text": "compare different types of garden fertilizers"
+        "text": "persuade readers to stop cutting down trees"
       }
     ],
     "correct_answer": "D",
     "explanation": "The passage immediately refutes the idea that plants are 'passive' and then spends the text listing various active survival mechanisms (like shading out competitors and releasing chemical defenses) to show how dynamically they fight to survive.",
-    "passage": "Contrary to the idea that plants are passive organisms, they often engage in complex survival strategies. In certain environments, plants must compete fiercely for sunlight, water, and soil nutrients. For example, some trees grow much taller and wider to shade out smaller competitors, effectively starving them of light. This behavior increases the chances of growth for the dominant tree. In addition, some plants adapt by producing chemical defenses. Certain species release toxins into the soil to prevent other seeds from germinating nearby, while others develop thorns or bitter tastes to deter herbivores. These survival mechanisms highlight how nature is driven by resource acquisition. Researchers continue to study these interactions to better understand forest dynamics. While these actions might seem aggressive, they are essential for the plant's continued existence in a crowded ecosystem."
+    "passage": "Contrary to the idea that plants are passive organisms, they often engage in complex survival strategies. In certain environments, plants must compete fiercely for sunlight, water, and soil nutrients. For example, some trees grow much taller and wider to shade out smaller competitors, effectively starving them of light. This behavior increases the chances of growth for the dominant tree. In addition, some plants adapt by producing chemical defenses. Certain species release toxins into the soil to prevent other seeds from germinating nearby, while others develop thorns or bitter tastes to deter herbivores. These survival mechanisms highlight how nature is driven by resource acquisition. Researchers continue to study these interactions to better understand forest dynamics. While these actions might seem aggressive, they are essential for the plant's continued existence in a crowded ecosystem.",
+    "hints": [
+      "Ask: Is the author informing, persuading, entertaining, or describing? The overall structure of the passage reveals the purpose.",
+      "Look at the conclusion — authors usually restate their main purpose in the final paragraph."
+    ]
   },
   {
     "id": "english_18_gen_7",
@@ -1752,28 +2011,32 @@
     "options": [
       {
         "letter": "A",
-        "text": "Doubtful"
-      },
-      {
-        "letter": "B",
-        "text": "Informative"
-      },
-      {
-        "letter": "C",
-        "text": "Emotional"
-      },
-      {
-        "letter": "D",
         "text": "Critical"
       },
       {
-        "letter": "E",
+        "letter": "B",
+        "text": "Emotional"
+      },
+      {
+        "letter": "C",
         "text": "Humorous"
+      },
+      {
+        "letter": "D",
+        "text": "Informative"
+      },
+      {
+        "letter": "E",
+        "text": "Doubtful"
       }
     ],
-    "correct_answer": "B",
+    "correct_answer": "D",
     "explanation": "The author uses an objective, educational tone to present biological facts about plant competition and chemical defenses. The text is straightforward and lacks emotional language, humor, or explicit judgment.",
-    "passage": "Contrary to the idea that plants are passive organisms, they often engage in complex survival strategies. In certain environments, plants must compete fiercely for sunlight, water, and soil nutrients. For example, some trees grow much taller and wider to shade out smaller competitors, effectively starving them of light. This behavior increases the chances of growth for the dominant tree. In addition, some plants adapt by producing chemical defenses. Certain species release toxins into the soil to prevent other seeds from germinating nearby, while others develop thorns or bitter tastes to deter herbivores. These survival mechanisms highlight how nature is driven by resource acquisition. Researchers continue to study these interactions to better understand forest dynamics. While these actions might seem aggressive, they are essential for the plant's continued existence in a crowded ecosystem."
+    "passage": "Contrary to the idea that plants are passive organisms, they often engage in complex survival strategies. In certain environments, plants must compete fiercely for sunlight, water, and soil nutrients. For example, some trees grow much taller and wider to shade out smaller competitors, effectively starving them of light. This behavior increases the chances of growth for the dominant tree. In addition, some plants adapt by producing chemical defenses. Certain species release toxins into the soil to prevent other seeds from germinating nearby, while others develop thorns or bitter tastes to deter herbivores. These survival mechanisms highlight how nature is driven by resource acquisition. Researchers continue to study these interactions to better understand forest dynamics. While these actions might seem aggressive, they are essential for the plant's continued existence in a crowded ecosystem.",
+    "hints": [
+      "Identify the emotional charge of the words. Are they positive/negative/neutral? This reveals the tone.",
+      "Look for adjectives and adverbs — they carry the author's attitude. Words like 'unfortunately' or 'remarkably' signal sentiment."
+    ]
   },
   {
     "id": "english_19_gen_7",
@@ -1784,11 +2047,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "The Failure of Local Clinics in Modern Times"
+        "text": "The Impact of Telemedicine in Remote Healthcare"
       },
       {
         "letter": "B",
-        "text": "The Impact of Telemedicine in Remote Healthcare"
+        "text": "The Failure of Local Clinics in Modern Times"
       },
       {
         "letter": "C",
@@ -1803,9 +2066,14 @@
         "text": "The Cost of Building Large Hospitals"
       }
     ],
-    "correct_answer": "B",
+    "correct_answer": "A",
     "explanation": "The text focuses specifically on the physical hurdles of providing medical care in rural areas and explains how implementing digital connectivity ('telemedicine initiatives') successfully provides high-level specialist care.",
-    "passage": "Providing quality healthcare in remote areas is a significant hurdle. Many local clinics lack modern equipment, reliable electricity, and specialized medical staff. As a result, residents often face poor health outcomes, which affects their overall quality of life. However, recent telemedicine initiatives have shown that digital connectivity can lead to meaningful progress. In one region, a health organization provided satellite internet to clinics, but with a specific rule: the technology had to be used for specialist consultations. Instead of just treating minor injuries, clinics were encouraged to connect patients with doctors in large cities for complex diagnoses. To ensure success, experts monitored the frequency and quality of these digital calls. They evaluated patient recovery rates and the accuracy of remote prescriptions. The results showed that many patients received life-saving advice that was previously unavailable. This proves that smart technology and targeted usage can bridge the gap in healthcare, even with limited local infrastructure."
+    "passage": "Providing quality healthcare in remote areas is a significant hurdle. Many local clinics lack modern equipment, reliable electricity, and specialized medical staff. As a result, residents often face poor health outcomes, which affects their overall quality of life. However, recent telemedicine initiatives have shown that digital connectivity can lead to meaningful progress. In one region, a health organization provided satellite internet to clinics, but with a specific rule: the technology had to be used for specialist consultations. Instead of just treating minor injuries, clinics were encouraged to connect patients with doctors in large cities for complex diagnoses. To ensure success, experts monitored the frequency and quality of these digital calls. They evaluated patient recovery rates and the accuracy of remote prescriptions. The results showed that many patients received life-saving advice that was previously unavailable. This proves that smart technology and targeted usage can bridge the gap in healthcare, even with limited local infrastructure.",
+    "hints": [
+      "A good title captures the MAIN IDEA — not just one detail. Read every paragraph's topic sentence.",
+      "Eliminate titles that are too narrow (only one paragraph) or too broad (mentioned nowhere).",
+      "The correct title will apply to ALL parts of the passage, not just the introduction."
+    ]
   },
   {
     "id": "english_20_gen_7",
@@ -1816,7 +2084,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "describe the daily routine of a rural nurse"
+        "text": "explain that the right application of technology can solve resource gaps"
       },
       {
         "letter": "B",
@@ -1824,20 +2092,24 @@
       },
       {
         "letter": "C",
-        "text": "explain that the right application of technology can solve resource gaps"
+        "text": "persuade readers to move to remote areas"
       },
       {
         "letter": "D",
-        "text": "compare healthcare systems of different continents"
+        "text": "describe the daily routine of a rural nurse"
       },
       {
         "letter": "E",
-        "text": "persuade readers to move to remote areas"
+        "text": "compare healthcare systems of different continents"
       }
     ],
-    "correct_answer": "C",
+    "correct_answer": "A",
     "explanation": "The author outlines how a specific, targeted use of satellite internet for specialist consultations led to life-saving outcomes. The final sentence wraps up this thesis: 'This proves that smart technology and targeted usage can bridge the gap in healthcare.'",
-    "passage": "Providing quality healthcare in remote areas is a significant hurdle. Many local clinics lack modern equipment, reliable electricity, and specialized medical staff. As a result, residents often face poor health outcomes, which affects their overall quality of life. However, recent telemedicine initiatives have shown that digital connectivity can lead to meaningful progress. In one region, a health organization provided satellite internet to clinics, but with a specific rule: the technology had to be used for specialist consultations. Instead of just treating minor injuries, clinics were encouraged to connect patients with doctors in large cities for complex diagnoses. To ensure success, experts monitored the frequency and quality of these digital calls. They evaluated patient recovery rates and the accuracy of remote prescriptions. The results showed that many patients received life-saving advice that was previously unavailable. This proves that smart technology and targeted usage can bridge the gap in healthcare, even with limited local infrastructure."
+    "passage": "Providing quality healthcare in remote areas is a significant hurdle. Many local clinics lack modern equipment, reliable electricity, and specialized medical staff. As a result, residents often face poor health outcomes, which affects their overall quality of life. However, recent telemedicine initiatives have shown that digital connectivity can lead to meaningful progress. In one region, a health organization provided satellite internet to clinics, but with a specific rule: the technology had to be used for specialist consultations. Instead of just treating minor injuries, clinics were encouraged to connect patients with doctors in large cities for complex diagnoses. To ensure success, experts monitored the frequency and quality of these digital calls. They evaluated patient recovery rates and the accuracy of remote prescriptions. The results showed that many patients received life-saving advice that was previously unavailable. This proves that smart technology and targeted usage can bridge the gap in healthcare, even with limited local infrastructure.",
+    "hints": [
+      "Ask: Is the author informing, persuading, entertaining, or describing? The overall structure of the passage reveals the purpose.",
+      "Look at the conclusion — authors usually restate their main purpose in the final paragraph."
+    ]
   },
   {
     "id": "logic_01_gen_7",
@@ -1847,27 +2119,31 @@
     "options": [
       {
         "letter": "A",
-        "text": "10"
-      },
-      {
-        "letter": "B",
-        "text": "12"
-      },
-      {
-        "letter": "C",
-        "text": "8"
-      },
-      {
-        "letter": "D",
         "text": "11"
       },
       {
-        "letter": "E",
+        "letter": "B",
+        "text": "8"
+      },
+      {
+        "letter": "C",
+        "text": "10"
+      },
+      {
+        "letter": "D",
         "text": "9"
+      },
+      {
+        "letter": "E",
+        "text": "12"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "The sum of the 10 elements in set X is 10 * 6 = 60. Let the sum of the smallest 5 elements be S1 and the sum of the largest 5 be S2. So, S1 + S2 = 60. When the smallest 5 are replaced by the largest 5, the new set Y essentially contains two copies of the largest 5 elements. The sum of set Y is 10 * 9 = 90. This means 2 * S2 = 90, which makes S2 = 45. The average of these largest 5 elements is S2 / 5 = 45 / 5 = 9."
+    "correct_answer": "D",
+    "explanation": "The sum of the 10 elements in set X is 10 * 6 = 60. Let the sum of the smallest 5 elements be S1 and the sum of the largest 5 be S2. So, S1 + S2 = 60. When the smallest 5 are replaced by the largest 5, the new set Y essentially contains two copies of the largest 5 elements. The sum of set Y is 10 * 9 = 90. This means 2 * S2 = 90, which makes S2 = 45. The average of these largest 5 elements is S2 / 5 = 45 / 5 = 9.",
+    "hints": [
+      "Define variables for the unknown quantities and write equations from the word problem.",
+      "Check your answer by substituting back into the original conditions."
+    ]
   },
   {
     "id": "logic_02_gen_7",
@@ -1877,27 +2153,32 @@
     "options": [
       {
         "letter": "A",
-        "text": "Budi can borrow books by using his name"
-      },
-      {
-        "letter": "B",
-        "text": "Budi will not be allowed to borrow books"
-      },
-      {
-        "letter": "C",
         "text": "Budi has already returned the books"
       },
       {
-        "letter": "D",
+        "letter": "B",
         "text": "Budi is no longer a member"
       },
       {
-        "letter": "E",
+        "letter": "C",
         "text": "Budi will get a new membership card"
+      },
+      {
+        "letter": "D",
+        "text": "Budi can borrow books by using his name"
+      },
+      {
+        "letter": "E",
+        "text": "Budi will not be allowed to borrow books"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "The premise states a strict condition: 'Those who do not show the card will not be allowed to borrow books.' Since it is established as a fact that Budi 'did not show his card', the immediate logical consequence is that he will not be allowed to borrow books."
+    "correct_answer": "E",
+    "explanation": "The premise states a strict condition: 'Those who do not show the card will not be allowed to borrow books.' Since it is established as a fact that Budi 'did not show his card', the immediate logical consequence is that he will not be allowed to borrow books.",
+    "hints": [
+      "Structure the argument: identify Premise 1, Premise 2, and the Conclusion. Does the conclusion follow logically?",
+      "Watch out for overgeneralization — 'All A are B' does NOT mean 'All B are A'.",
+      "If a condition says 'Only if X, then Y', then Not-Y guarantees Not-X (modus tollens)."
+    ]
   },
   {
     "id": "logic_03_gen_7",
@@ -1907,15 +2188,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "Andi, Elsa, Caca"
-      },
-      {
-        "letter": "B",
         "text": "Andi, Berto, Elsa"
       },
       {
-        "letter": "C",
+        "letter": "B",
         "text": "Doni, Andi, Caca"
+      },
+      {
+        "letter": "C",
+        "text": "Berto, Elsa, Caca"
       },
       {
         "letter": "D",
@@ -1923,11 +2204,16 @@
       },
       {
         "letter": "E",
-        "text": "Berto, Elsa, Caca"
+        "text": "Andi, Elsa, Caca"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Let's map out the performance rankings from best to worst based on the clues. Doni > Andi. Andi > Berto and Andi > Caca. Berto > Elsa > Caca. Chaining these together gives a definitive top-to-bottom order: Doni, Andi, Berto, Elsa, Caca. Since only the top two (Doni and Andi) get the promotions, the three left behind are Berto, Elsa, and Caca."
+    "correct_answer": "C",
+    "explanation": "Let's map out the performance rankings from best to worst based on the clues. Doni > Andi. Andi > Berto and Andi > Caca. Berto > Elsa > Caca. Chaining these together gives a definitive top-to-bottom order: Doni, Andi, Berto, Elsa, Caca. Since only the top two (Doni and Andi) get the promotions, the three left behind are Berto, Elsa, and Caca.",
+    "hints": [
+      "List all the given conditions as simple inequality chains (A > B > C). Then combine them step by step.",
+      "Find the anchor: is there someone who is definitively first, last, or fixed at a position? Start there.",
+      "Draw a simple diagram or table with positions/slots to place names as you confirm each condition."
+    ]
   },
   {
     "id": "logic_04_gen_7",
@@ -1937,27 +2223,32 @@
     "options": [
       {
         "letter": "A",
-        "text": "Streaming services are unrelated to information technology"
+        "text": "All information technology systems are streaming services"
       },
       {
         "letter": "B",
-        "text": "Remote servers cannot be used for media storage"
-      },
-      {
-        "letter": "C",
         "text": "Streaming services cannot function without cloud computing"
       },
       {
+        "letter": "C",
+        "text": "Remote servers cannot be used for media storage"
+      },
+      {
         "letter": "D",
-        "text": "Cloud computing does not require servers to function"
+        "text": "Streaming services are unrelated to information technology"
       },
       {
         "letter": "E",
-        "text": "All information technology systems are streaming services"
+        "text": "Cloud computing does not require servers to function"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The text explicitly states that streaming services 'rely on' cloud computing algorithms to operate. 'Rely on' implies a dependency, meaning that without cloud computing, streaming services cannot properly function."
+    "correct_answer": "B",
+    "explanation": "The text explicitly states that streaming services 'rely on' cloud computing algorithms to operate. 'Rely on' implies a dependency, meaning that without cloud computing, streaming services cannot properly function.",
+    "hints": [
+      "Structure the argument: identify Premise 1, Premise 2, and the Conclusion. Does the conclusion follow logically?",
+      "Watch out for overgeneralization — 'All A are B' does NOT mean 'All B are A'.",
+      "If a condition says 'Only if X, then Y', then Not-Y guarantees Not-X (modus tollens)."
+    ]
   },
   {
     "id": "logic_05_gen_7",
@@ -1967,7 +2258,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "Fatigue improves athletic performance"
+        "text": "The athlete is not a professional device"
       },
       {
         "letter": "B",
@@ -1975,11 +2266,11 @@
       },
       {
         "letter": "C",
-        "text": "The athlete does not need a nutrition plan"
+        "text": "Fatigue improves athletic performance"
       },
       {
         "letter": "D",
-        "text": "The athlete is not a professional device"
+        "text": "The athlete does not need a nutrition plan"
       },
       {
         "letter": "E",
@@ -1987,7 +2278,12 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "The passage establishes that lacking a nutrition plan causes an athlete to lose stamina. Using a form of modus tollens logic, if an athlete is *not* losing stamina, it is highly likely that they are utilizing the proper nutrition plan required to prevent that fatigue."
+    "explanation": "The passage establishes that lacking a nutrition plan causes an athlete to lose stamina. Using a form of modus tollens logic, if an athlete is *not* losing stamina, it is highly likely that they are utilizing the proper nutrition plan required to prevent that fatigue.",
+    "hints": [
+      "Structure the argument: identify Premise 1, Premise 2, and the Conclusion. Does the conclusion follow logically?",
+      "Watch out for overgeneralization — 'All A are B' does NOT mean 'All B are A'.",
+      "If a condition says 'Only if X, then Y', then Not-Y guarantees Not-X (modus tollens)."
+    ]
   },
   {
     "id": "logic_06_gen_7",
@@ -1997,7 +2293,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "Siska and Tono have a shared study arrangement"
+        "text": "Tono always attends night classes"
       },
       {
         "letter": "B",
@@ -2009,15 +2305,20 @@
       },
       {
         "letter": "D",
-        "text": "Tono always attends night classes"
+        "text": "Siska will be absent next Thursday"
       },
       {
         "letter": "E",
-        "text": "Siska will be absent next Thursday"
+        "text": "Siska and Tono have a shared study arrangement"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "The statement 'Tono... is scheduled to take Siska's regular morning notes next Thursday' heavily implies that Siska herself will not be present to take her own notes that morning, meaning she will be absent."
+    "correct_answer": "D",
+    "explanation": "The statement 'Tono... is scheduled to take Siska's regular morning notes next Thursday' heavily implies that Siska herself will not be present to take her own notes that morning, meaning she will be absent.",
+    "hints": [
+      "List all the given conditions as simple inequality chains (A > B > C). Then combine them step by step.",
+      "Find the anchor: is there someone who is definitively first, last, or fixed at a position? Start there.",
+      "Draw a simple diagram or table with positions/slots to place names as you confirm each condition."
+    ]
   },
   {
     "id": "logic_07_gen_7",
@@ -2027,27 +2328,32 @@
     "options": [
       {
         "letter": "A",
-        "text": "Maria"
-      },
-      {
-        "letter": "B",
-        "text": "Oscar"
-      },
-      {
-        "letter": "C",
-        "text": "Paul"
-      },
-      {
-        "letter": "D",
         "text": "Quinn"
       },
       {
-        "letter": "E",
+        "letter": "B",
+        "text": "Maria"
+      },
+      {
+        "letter": "C",
         "text": "Nina"
+      },
+      {
+        "letter": "D",
+        "text": "Oscar"
+      },
+      {
+        "letter": "E",
+        "text": "Paul"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "We know Paul is the last (5th) to join. The relative order of the others is given: Oscar joined, then Nina, then Maria. This establishes the sequence Oscar > Nina > Maria. Since Oscar is before Nina and Maria, and Paul is last, Oscar must be the first to have joined."
+    "correct_answer": "D",
+    "explanation": "We know Paul is the last (5th) to join. The relative order of the others is given: Oscar joined, then Nina, then Maria. This establishes the sequence Oscar > Nina > Maria. Since Oscar is before Nina and Maria, and Paul is last, Oscar must be the first to have joined.",
+    "hints": [
+      "List all the given conditions as simple inequality chains (A > B > C). Then combine them step by step.",
+      "Find the anchor: is there someone who is definitively first, last, or fixed at a position? Start there.",
+      "Draw a simple diagram or table with positions/slots to place names as you confirm each condition."
+    ]
   },
   {
     "id": "logic_08_gen_7",
@@ -2057,27 +2363,32 @@
     "options": [
       {
         "letter": "A",
-        "text": "Alfa"
-      },
-      {
-        "letter": "B",
-        "text": "Amru"
-      },
-      {
-        "letter": "C",
         "text": "Wawan"
       },
       {
-        "letter": "D",
+        "letter": "B",
+        "text": "Alfa"
+      },
+      {
+        "letter": "C",
         "text": "Kevin"
       },
       {
-        "letter": "E",
+        "letter": "D",
         "text": "Aqil"
+      },
+      {
+        "letter": "E",
+        "text": "Amru"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Let's piece together the inequalities. Wawan is the absolute highest. Alfa > Kevin. Kevin > Aqil. Aqil > Amru. Linking these together creates the full ranking: Wawan > Alfa > Kevin > Aqil > Amru. Therefore, Amru is in last place with the lowest score."
+    "correct_answer": "E",
+    "explanation": "Let's piece together the inequalities. Wawan is the absolute highest. Alfa > Kevin. Kevin > Aqil. Aqil > Amru. Linking these together creates the full ranking: Wawan > Alfa > Kevin > Aqil > Amru. Therefore, Amru is in last place with the lowest score.",
+    "hints": [
+      "List all the given conditions as simple inequality chains (A > B > C). Then combine them step by step.",
+      "Find the anchor: is there someone who is definitively first, last, or fixed at a position? Start there.",
+      "Draw a simple diagram or table with positions/slots to place names as you confirm each condition."
+    ]
   },
   {
     "id": "logic_09_gen_7",
@@ -2087,27 +2398,32 @@
     "options": [
       {
         "letter": "A",
-        "text": "Some mammals that live in the ocean are cold-blooded"
-      },
-      {
-        "letter": "B",
         "text": "Some ocean animals are not warm-blooded"
       },
       {
+        "letter": "B",
+        "text": "Some mammals that live in the ocean are cold-blooded"
+      },
+      {
         "letter": "C",
-        "text": "All ocean animals are warm-blooded"
+        "text": "All warm-blooded animals are mammals"
       },
       {
         "letter": "D",
-        "text": "Some warm-blooded animals live in the ocean"
+        "text": "All ocean animals are warm-blooded"
       },
       {
         "letter": "E",
-        "text": "All warm-blooded animals are mammals"
+        "text": "Some warm-blooded animals live in the ocean"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Since all mammals possess the trait of being warm-blooded, and there is an intersecting group of mammals that reside in the ocean, it must be true that the ocean contains at least some warm-blooded animals (specifically, those mammals)."
+    "correct_answer": "E",
+    "explanation": "Since all mammals possess the trait of being warm-blooded, and there is an intersecting group of mammals that reside in the ocean, it must be true that the ocean contains at least some warm-blooded animals (specifically, those mammals).",
+    "hints": [
+      "Structure the argument: identify Premise 1, Premise 2, and the Conclusion. Does the conclusion follow logically?",
+      "Watch out for overgeneralization — 'All A are B' does NOT mean 'All B are A'.",
+      "If a condition says 'Only if X, then Y', then Not-Y guarantees Not-X (modus tollens)."
+    ]
   },
   {
     "id": "logic_10_gen_7",
@@ -2117,27 +2433,32 @@
     "options": [
       {
         "letter": "A",
-        "text": "Ferry"
-      },
-      {
-        "letter": "B",
-        "text": "Naura"
-      },
-      {
-        "letter": "C",
-        "text": "Raymond"
-      },
-      {
-        "letter": "D",
         "text": "Abigail"
       },
       {
-        "letter": "E",
+        "letter": "B",
         "text": "Aurelie"
+      },
+      {
+        "letter": "C",
+        "text": "Ferry"
+      },
+      {
+        "letter": "D",
+        "text": "Raymond"
+      },
+      {
+        "letter": "E",
+        "text": "Naura"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Position 1 is Ferry. Because Aurelie is not immediately after Ferry, Aurelie must be 3rd, 4th, or 5th. Raymond comes after Aurelie, meaning Aurelie cannot be 5th. Since Abigail and Raymond are consecutive and Raymond is after Aurelie, Aurelie must be 3rd, leaving positions 4 and 5 for Abigail and Raymond. Naura takes the remaining 2nd position. Since Raymond follows Aurelie and is grouped consecutively with Abigail, the standard consecutive phrasing implies Abigail then Raymond, making Raymond the 5th and final speaker."
+    "correct_answer": "D",
+    "explanation": "Position 1 is Ferry. Because Aurelie is not immediately after Ferry, Aurelie must be 3rd, 4th, or 5th. Raymond comes after Aurelie, meaning Aurelie cannot be 5th. Since Abigail and Raymond are consecutive and Raymond is after Aurelie, Aurelie must be 3rd, leaving positions 4 and 5 for Abigail and Raymond. Naura takes the remaining 2nd position. Since Raymond follows Aurelie and is grouped consecutively with Abigail, the standard consecutive phrasing implies Abigail then Raymond, making Raymond the 5th and final speaker.",
+    "hints": [
+      "List all the given conditions as simple inequality chains (A > B > C). Then combine them step by step.",
+      "Find the anchor: is there someone who is definitively first, last, or fixed at a position? Start there.",
+      "Draw a simple diagram or table with positions/slots to place names as you confirm each condition."
+    ]
   },
   {
     "id": "logic_11_gen_7",
@@ -2151,23 +2472,28 @@
       },
       {
         "letter": "B",
-        "text": "Santo"
-      },
-      {
-        "letter": "C",
-        "text": "Udin"
-      },
-      {
-        "letter": "D",
         "text": "Ranti"
       },
       {
-        "letter": "E",
+        "letter": "C",
         "text": "Tini"
+      },
+      {
+        "letter": "D",
+        "text": "Santo"
+      },
+      {
+        "letter": "E",
+        "text": "Udin"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Based on the comparisons: Ranti > Tini. Udin > Santo. Vera > Tini. Udin > Ranti. We can see a chain forming where Udin > Ranti > Tini. Vera is also greater than Tini. Assuming Santo's revenue drops him somewhere in the middle rather than the absolute bottom, Tini consistently ranks below multiple other salespeople in the explicit clues, making her the logical anchor for the lowest revenue."
+    "correct_answer": "C",
+    "explanation": "Based on the comparisons: Ranti > Tini. Udin > Santo. Vera > Tini. Udin > Ranti. We can see a chain forming where Udin > Ranti > Tini. Vera is also greater than Tini. Assuming Santo's revenue drops him somewhere in the middle rather than the absolute bottom, Tini consistently ranks below multiple other salespeople in the explicit clues, making her the logical anchor for the lowest revenue.",
+    "hints": [
+      "List all the given conditions as simple inequality chains (A > B > C). Then combine them step by step.",
+      "Find the anchor: is there someone who is definitively first, last, or fixed at a position? Start there.",
+      "Draw a simple diagram or table with positions/slots to place names as you confirm each condition."
+    ]
   },
   {
     "id": "logic_12_gen_7",
@@ -2181,11 +2507,11 @@
       },
       {
         "letter": "B",
-        "text": "The outage at Maya's shop was caused by the transformer failure"
+        "text": "Maya's shop is definitely in District X"
       },
       {
         "letter": "C",
-        "text": "Maya's shop is definitely in District X"
+        "text": "The outage at Maya's shop was caused by the transformer failure"
       },
       {
         "letter": "D",
@@ -2197,7 +2523,12 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "We know District X, District Y, and potentially other 'neighboring areas' were affected by the outage. While we know Maya's shop was impacted by this specific event, there is not enough information to pinpoint whether her shop sits in District X, District Y, or another nearby affected zone."
+    "explanation": "We know District X, District Y, and potentially other 'neighboring areas' were affected by the outage. While we know Maya's shop was impacted by this specific event, there is not enough information to pinpoint whether her shop sits in District X, District Y, or another nearby affected zone.",
+    "hints": [
+      "Structure the argument: identify Premise 1, Premise 2, and the Conclusion. Does the conclusion follow logically?",
+      "Watch out for overgeneralization — 'All A are B' does NOT mean 'All B are A'.",
+      "If a condition says 'Only if X, then Y', then Not-Y guarantees Not-X (modus tollens)."
+    ]
   },
   {
     "id": "logic_13_gen_7",
@@ -2207,7 +2538,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "People develop health issues only if they consume sugar"
+        "text": "People who develop health issues must consume sugar"
       },
       {
         "letter": "B",
@@ -2215,19 +2546,24 @@
       },
       {
         "letter": "C",
-        "text": "People who develop health issues must consume sugar"
+        "text": "People who consume too much sugar will develop health issues"
       },
       {
         "letter": "D",
-        "text": "All healthy people never consume sugar"
+        "text": "People develop health issues only if they consume sugar"
       },
       {
         "letter": "E",
-        "text": "People who consume too much sugar will develop health issues"
+        "text": "All healthy people never consume sugar"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "This follows a transitional logic chain: A causes B, and B leads to C. Therefore, A leads to C. Consuming too much sugar guarantees weight gain, and weight gain is linked to health issues, meaning excess sugar consumption ultimately leads down the path to health issues."
+    "correct_answer": "C",
+    "explanation": "This follows a transitional logic chain: A causes B, and B leads to C. Therefore, A leads to C. Consuming too much sugar guarantees weight gain, and weight gain is linked to health issues, meaning excess sugar consumption ultimately leads down the path to health issues.",
+    "hints": [
+      "Structure the argument: identify Premise 1, Premise 2, and the Conclusion. Does the conclusion follow logically?",
+      "Watch out for overgeneralization — 'All A are B' does NOT mean 'All B are A'.",
+      "If a condition says 'Only if X, then Y', then Not-Y guarantees Not-X (modus tollens)."
+    ]
   },
   {
     "id": "logic_14_gen_7",
@@ -2237,11 +2573,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "Clarity in expressing ideas depends only on reading"
+        "text": "Students who do not read cannot express ideas"
       },
       {
         "letter": "B",
-        "text": "Vocabulary has no relation to clarity"
+        "text": "Students who read daily can express ideas more clearly"
       },
       {
         "letter": "C",
@@ -2249,15 +2585,20 @@
       },
       {
         "letter": "D",
-        "text": "Students who do not read cannot express ideas"
+        "text": "Clarity in expressing ideas depends only on reading"
       },
       {
         "letter": "E",
-        "text": "Students who read daily can express ideas more clearly"
+        "text": "Vocabulary has no relation to clarity"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "This is another syllogism chaining A to B to C. Daily reading (A) leads to a broader vocabulary (B). A broader vocabulary (B) leads to clearer expression (C). Therefore, daily reading (A) results in clearer expression (C)."
+    "correct_answer": "B",
+    "explanation": "This is another syllogism chaining A to B to C. Daily reading (A) leads to a broader vocabulary (B). A broader vocabulary (B) leads to clearer expression (C). Therefore, daily reading (A) results in clearer expression (C).",
+    "hints": [
+      "Structure the argument: identify Premise 1, Premise 2, and the Conclusion. Does the conclusion follow logically?",
+      "Watch out for overgeneralization — 'All A are B' does NOT mean 'All B are A'.",
+      "If a condition says 'Only if X, then Y', then Not-Y guarantees Not-X (modus tollens)."
+    ]
   },
   {
     "id": "logic_15_gen_7",
@@ -2267,15 +2608,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "Roni receives both Gold and Platinum priorities"
+        "text": "Roni receives only Gold priority"
       },
       {
         "letter": "B",
-        "text": "Roni receives Platinum priority"
+        "text": "Roni receives Gold priority"
       },
       {
         "letter": "C",
-        "text": "Roni receives only Gold priority"
+        "text": "Roni receives both Gold and Platinum priorities"
       },
       {
         "letter": "D",
@@ -2283,11 +2624,15 @@
       },
       {
         "letter": "E",
-        "text": "Roni receives Gold priority"
+        "text": "Roni receives Platinum priority"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "Roni meets the criteria for the first conditional (12 years is > 10 years) qualifying him for Gold. He also independently meets the criteria for the second conditional ($150k is > $100k) qualifying him for Platinum. Since neither rule excludes the other, he receives both."
+    "correct_answer": "C",
+    "explanation": "Roni meets the criteria for the first conditional (12 years is > 10 years) qualifying him for Gold. He also independently meets the criteria for the second conditional ($150k is > $100k) qualifying him for Platinum. Since neither rule excludes the other, he receives both.",
+    "hints": [
+      "A conditional 'If P then Q' means: whenever P is true, Q must also be true.",
+      "Work through each condition independently and check if the scenario satisfies ALL rules simultaneously."
+    ]
   },
   {
     "id": "logic_16_gen_7",
@@ -2298,7 +2643,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "Fhasyah and Nasywa"
+        "text": "Vina and Fhasyah"
       },
       {
         "letter": "B",
@@ -2314,12 +2659,17 @@
       },
       {
         "letter": "E",
-        "text": "Vina and Fhasyah"
+        "text": "Fhasyah and Nasywa"
       }
     ],
     "correct_answer": "D",
     "explanation": "We are given that Wina and Yola completely occupy desk 3. Vina and Fhasyah completely occupy desk 1. The only desk left with open seats is desk 2, which perfectly accommodates the remaining pair, Nasywa and Nabila, satisfying the requirement that they sit together.",
-    "passage": "Six students—Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah—are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah."
+    "passage": "Six students—Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah—are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah.",
+    "hints": [
+      "List all the given conditions as simple inequality chains (A > B > C). Then combine them step by step.",
+      "Find the anchor: is there someone who is definitively first, last, or fixed at a position? Start there.",
+      "Draw a simple diagram or table with positions/slots to place names as you confirm each condition."
+    ]
   },
   {
     "id": "logic_17_gen_7",
@@ -2330,28 +2680,33 @@
     "options": [
       {
         "letter": "A",
-        "text": "Vina and Fhasyah"
+        "text": "Vina and Yola"
       },
       {
         "letter": "B",
-        "text": "Vina and Salva"
-      },
-      {
-        "letter": "C",
         "text": "Vina and Nabila"
       },
       {
+        "letter": "C",
+        "text": "Vina and Salva"
+      },
+      {
         "letter": "D",
-        "text": "Vina and Nasywa"
+        "text": "Vina and Fhasyah"
       },
       {
         "letter": "E",
-        "text": "Vina and Yola"
+        "text": "Vina and Nasywa"
       }
     ],
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "This is a direct recall from the spatial rules established in the scenario. The rule explicitly stated: 'Vina sits at desk 1 with Fhasyah.'",
-    "passage": "Six students—Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah—are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah."
+    "passage": "Six students—Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah—are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah.",
+    "hints": [
+      "List all the given conditions as simple inequality chains (A > B > C). Then combine them step by step.",
+      "Find the anchor: is there someone who is definitively first, last, or fixed at a position? Start there.",
+      "Draw a simple diagram or table with positions/slots to place names as you confirm each condition."
+    ]
   },
   {
     "id": "logic_18_gen_7",
@@ -2362,28 +2717,33 @@
     "options": [
       {
         "letter": "A",
-        "text": "Clara, Dana, Faye, Gina"
-      },
-      {
-        "letter": "B",
-        "text": "Adam, Ben, Clara, Faye"
-      },
-      {
-        "letter": "C",
         "text": "Ben, Eric, Faye, Hugo"
       },
       {
-        "letter": "D",
+        "letter": "B",
         "text": "Adam, Eric, Faye, Gina"
       },
       {
-        "letter": "E",
+        "letter": "C",
         "text": "Ben, Clara, Faye, Hugo"
+      },
+      {
+        "letter": "D",
+        "text": "Clara, Dana, Faye, Gina"
+      },
+      {
+        "letter": "E",
+        "text": "Adam, Ben, Clara, Faye"
       }
     ],
-    "correct_answer": "B",
+    "correct_answer": "E",
     "explanation": "Let's check Option A against all rules. Adam is selected, triggering Ben to be selected (Rule 1 met). Clara is selected, but Dana is not (Rule 2 met). Eric is absent, so Rule 3 is moot. Gina is absent, so Rule 4 is moot. Ben is selected, but Eric is not (Rule 5 met). Clara is selected, so exactly one of Faye or Gina must be selected; Faye is present, Gina is not (Rule 6 met). Group A perfectly satisfies all conditions.",
-    "passage": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected."
+    "passage": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected.",
+    "hints": [
+      "List all the given conditions as simple inequality chains (A > B > C). Then combine them step by step.",
+      "Find the anchor: is there someone who is definitively first, last, or fixed at a position? Start there.",
+      "Draw a simple diagram or table with positions/slots to place names as you confirm each condition."
+    ]
   },
   {
     "id": "logic_19_gen_7",
@@ -2394,28 +2754,33 @@
     "options": [
       {
         "letter": "A",
-        "text": "Gina must be selected"
-      },
-      {
-        "letter": "B",
-        "text": "Hugo must be selected"
-      },
-      {
-        "letter": "C",
         "text": "Adam must not be selected"
       },
       {
-        "letter": "D",
+        "letter": "B",
+        "text": "Dana must not be selected"
+      },
+      {
+        "letter": "C",
         "text": "Faye must be selected"
       },
       {
+        "letter": "D",
+        "text": "Hugo must be selected"
+      },
+      {
         "letter": "E",
-        "text": "Dana must not be selected"
+        "text": "Gina must be selected"
       }
     ],
-    "correct_answer": "E",
+    "correct_answer": "B",
     "explanation": "The second rule of the candidate selection explicitly states: 'Clara and Dana cannot be selected together.' This creates a mutually exclusive relationship. Therefore, the moment Clara is confirmed to be on the committee, it becomes an absolute certainty that Dana must not be selected.",
-    "passage": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected."
+    "passage": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected.",
+    "hints": [
+      "List all the given conditions as simple inequality chains (A > B > C). Then combine them step by step.",
+      "Find the anchor: is there someone who is definitively first, last, or fixed at a position? Start there.",
+      "Draw a simple diagram or table with positions/slots to place names as you confirm each condition."
+    ]
   },
   {
     "id": "logic_20_gen_7",
@@ -2425,26 +2790,31 @@
     "options": [
       {
         "letter": "A",
-        "text": "11:00 AM"
-      },
-      {
-        "letter": "B",
         "text": "9:30 AM"
       },
       {
-        "letter": "C",
+        "letter": "B",
         "text": "10:00 AM"
       },
       {
-        "letter": "D",
+        "letter": "C",
         "text": "10:30 AM"
       },
       {
-        "letter": "E",
+        "letter": "D",
         "text": "11:30 AM"
+      },
+      {
+        "letter": "E",
+        "text": "11:00 AM"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Since Kevin and Lucas are traveling towards each other, their closing speed is the sum of their individual speeds: 70 km/h + 50 km/h = 120 km/h. To cover the 240 km distance between them at a relative speed of 120 km/h, it will take them Time = Distance / Speed = 240 / 120 = 2 hours. Since they both left at 8:00 AM, they will meet exactly 2 hours later at 10:00 AM."
+    "correct_answer": "B",
+    "explanation": "Since Kevin and Lucas are traveling towards each other, their closing speed is the sum of their individual speeds: 70 km/h + 50 km/h = 120 km/h. To cover the 240 km distance between them at a relative speed of 120 km/h, it will take them Time = Distance / Speed = 240 / 120 = 2 hours. Since they both left at 8:00 AM, they will meet exactly 2 hours later at 10:00 AM.",
+    "hints": [
+      "Use the formula: Distance = Speed × Time. Write it for each person/vehicle separately.",
+      "When two objects move TOWARD each other, their speeds ADD up (closing speed = speed1 + speed2).",
+      "When moving in the SAME direction, subtract the slower speed from the faster speed to find the gap-closing rate."
+    ]
   }
 ]

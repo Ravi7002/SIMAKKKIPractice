@@ -15,7 +15,14 @@ const practiceModules = import.meta.glob('./PracticeQuestions/**/*.json', { eage
 export const allTopicsData = Object.values(practiceModules).map(mod => mod.default || mod);
 
 const tryoutModules = import.meta.glob('./GeneratedTryouts/**/*.json', { eager: true });
-export const generatedTryoutsData = Object.values(tryoutModules).map(mod => mod.default || mod);
+// Sort numerically by the tryout number (e.g. tryout_2 before tryout_10)
+export const generatedTryoutsData = Object.entries(tryoutModules)
+  .sort(([keyA], [keyB]) => {
+    const numA = parseInt((keyA.match(/tryout_(\d+)/) || [])[1] || '0', 10);
+    const numB = parseInt((keyB.match(/tryout_(\d+)/) || [])[1] || '0', 10);
+    return numA - numB;
+  })
+  .map(([, mod]) => mod.default || mod);
 
 function App() {
   const [phase, setPhase] = useState('intro'); // 'intro', 'practice', 'ability', 'tryout', 'practice-tryout', 'results'
