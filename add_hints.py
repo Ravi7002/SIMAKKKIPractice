@@ -2,11 +2,11 @@ import json
 import glob
 import re
 
-def split_to_steps(text):
+def split_to_steps(text, topic):
     if not isinstance(text, str):
-        return ["Calculate carefully."]
+        return [f"Review the concept of {topic}."]
     sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+', text) if s.strip()]
-    if not sentences: return ["Calculate carefully."]
+    if not sentences: return [f"Review the concept of {topic}."]
     return sentences
 
 def process_file(path):
@@ -15,9 +15,11 @@ def process_file(path):
         
     for q in data:
         exp = q.get('explanation', '')
-        if 'hints' not in q or not q['hints']:
-            hints = split_to_steps(exp)
-            q['hints'] = hints[:3] if len(hints) >= 3 else (hints + ["Check your calculations."] * (3 - len(hints)))
+        topic = q.get('topic', 'this topic')
+        
+        # Make each hint personal and derived ONLY from the explanation.
+        hints = split_to_steps(exp, topic)
+        q['hints'] = hints
 
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)

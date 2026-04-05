@@ -27,7 +27,13 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "This is a classic 'stars and bars' problem. We are distributing n = 18 identical items into k = 4 distinct containers, with each container receiving at least 1 item. The formula for this is C(n-1, k-1). Calculating C(17, 3) = (17 * 16 * 15) / (3 * 2 * 1) = 17 * 8 * 5 = 680."
+    "explanation": "This is a classic 'stars and bars' problem. We are distributing n = 18 identical items into k = 4 distinct containers, with each container receiving at least 1 item. The formula for this is C(n-1, k-1). Calculating C(17, 3) = (17 * 16 * 15) / (3 * 2 * 1) = 17 * 8 * 5 = 680.",
+    "hints": [
+      "This is a classic 'stars and bars' problem.",
+      "We are distributing n = 18 identical items into k = 4 distinct containers, with each container receiving at least 1 item.",
+      "The formula for this is C(n-1, k-1).",
+      "Calculating C(17, 3) = (17 * 16 * 15) / (3 * 2 * 1) = 17 * 8 * 5 = 680."
+    ]
   },
   {
     "id": "math_02",
@@ -57,7 +63,11 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Since p is a root of the equation, we know that 3p^2 - 2p = 5. By substituting this relationship back into the polynomial and manipulating the expression to match the expected test logic, the value evaluates to 45."
+    "explanation": "Since p is a root of the equation, we know that 3p^2 - 2p = 5. By substituting this relationship back into the polynomial and manipulating the expression to match the expected test logic, the value evaluates to 45.",
+    "hints": [
+      "Since p is a root of the equation, we know that 3p^2 - 2p = 5.",
+      "By substituting this relationship back into the polynomial and manipulating the expression to match the expected test logic, the value evaluates to 45."
+    ]
   },
   {
     "id": "math_03",
@@ -87,7 +97,14 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "Since x >= 0, f(x) >= 3, so the range of f is y >= 3 (Statement 3 is true). The domain of the inverse function is the range of the original function, so its domain is x >= 3 (Statement 2 is true). f(0) = 3, so f^-1(3) = 0 (Statement 1 is true). The composition of a function and its inverse always yields x (Statement 4 is true). Therefore, all statements are correct."
+    "explanation": "Since x >= 0, f(x) >= 3, so the range of f is y >= 3 (Statement 3 is true). The domain of the inverse function is the range of the original function, so its domain is x >= 3 (Statement 2 is true). f(0) = 3, so f^-1(3) = 0 (Statement 1 is true). The composition of a function and its inverse always yields x (Statement 4 is true). Therefore, all statements are correct.",
+    "hints": [
+      "Since x >= 0, f(x) >= 3, so the range of f is y >= 3 (Statement 3 is true).",
+      "The domain of the inverse function is the range of the original function, so its domain is x >= 3 (Statement 2 is true).",
+      "f(0) = 3, so f^-1(3) = 0 (Statement 1 is true).",
+      "The composition of a function and its inverse always yields x (Statement 4 is true).",
+      "Therefore, all statements are correct."
+    ]
   },
   {
     "id": "math_04",
@@ -117,7 +134,14 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "First, we find the female average (p). The total sum is 40 * 20 = 800. The male sum is 15 * 18 = 270. The female sum is 800 - 270 = 530, making p = 530 / 25 = 21.2. When calculating the variance and standard deviation (q), the exact math yields a decimal, but based on standard test approximations designed to land on an integer, the combined value of p + q maps to 24."
+    "explanation": "First, we find the female average (p). The total sum is 40 * 20 = 800. The male sum is 15 * 18 = 270. The female sum is 800 - 270 = 530, making p = 530 / 25 = 21.2. When calculating the variance and standard deviation (q), the exact math yields a decimal, but based on standard test approximations designed to land on an integer, the combined value of p + q maps to 24.",
+    "hints": [
+      "First, we find the female average (p).",
+      "The total sum is 40 * 20 = 800.",
+      "The male sum is 15 * 18 = 270.",
+      "The female sum is 800 - 270 = 530, making p = 530 / 25 = 21.2.",
+      "When calculating the variance and standard deviation (q), the exact math yields a decimal, but based on standard test approximations designed to land on an integer, the combined value of p + q maps to 24."
+    ]
   },
   {
     "id": "math_05",
@@ -147,7 +171,14 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "To maximize the number of people who speak NONE of the languages, we must minimize the number of people who speak AT LEAST ONE. Since 300 people speak Spanish, at least 300 people must speak a language. We can overlap the other language speakers entirely within this group of 300 (since 300 * 4 = 1200 maximum language slots, which is greater than the 1080 total speakers needed). Therefore, the minimum number of people speaking at least one language is 300. 500 - 300 = 200 maximum people speaking none."
+    "explanation": "To maximize the number of people who speak NONE of the languages, we must minimize the number of people who speak AT LEAST ONE. Since 300 people speak Spanish, at least 300 people must speak a language. We can overlap the other language speakers entirely within this group of 300 (since 300 * 4 = 1200 maximum language slots, which is greater than the 1080 total speakers needed). Therefore, the minimum number of people speaking at least one language is 300. 500 - 300 = 200 maximum people speaking none.",
+    "hints": [
+      "To maximize the number of people who speak NONE of the languages, we must minimize the number of people who speak AT LEAST ONE.",
+      "Since 300 people speak Spanish, at least 300 people must speak a language.",
+      "We can overlap the other language speakers entirely within this group of 300 (since 300 * 4 = 1200 maximum language slots, which is greater than the 1080 total speakers needed).",
+      "Therefore, the minimum number of people speaking at least one language is 300.",
+      "500 - 300 = 200 maximum people speaking none."
+    ]
   },
   {
     "id": "math_06",
@@ -177,7 +208,14 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "For any point O inside triangle ABC satisfying xOA + yOB + zOC = 0, the areas of the sub-triangles OBC, OCA, and OAB are proportional to the coefficients x, y, and z respectively. Here, x=1, y=3, z=2. The area of AOC is proportional to y = 3. The area of the whole triangle ABC is proportional to x + y + z = 1 + 3 + 2 = 6. The ratio of Area(ABC) to Area(AOC) is 6 / 3 = 2."
+    "explanation": "For any point O inside triangle ABC satisfying xOA + yOB + zOC = 0, the areas of the sub-triangles OBC, OCA, and OAB are proportional to the coefficients x, y, and z respectively. Here, x=1, y=3, z=2. The area of AOC is proportional to y = 3. The area of the whole triangle ABC is proportional to x + y + z = 1 + 3 + 2 = 6. The ratio of Area(ABC) to Area(AOC) is 6 / 3 = 2.",
+    "hints": [
+      "For any point O inside triangle ABC satisfying xOA + yOB + zOC = 0, the areas of the sub-triangles OBC, OCA, and OAB are proportional to the coefficients x, y, and z respectively.",
+      "Here, x=1, y=3, z=2.",
+      "The area of AOC is proportional to y = 3.",
+      "The area of the whole triangle ABC is proportional to x + y + z = 1 + 3 + 2 = 6.",
+      "The ratio of Area(ABC) to Area(AOC) is 6 / 3 = 2."
+    ]
   },
   {
     "id": "math_07",
@@ -207,7 +245,15 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Since f(x+2) = x, letting u = x+2 gives f(u) = u - 2, so f(x) = x - 2. Substituting this into the quadratic: (x-2)^2 + 5(x-2) + 6 = 0. Expanding gives x^2 - 4x + 4 + 5x - 10 + 6 = 0, which simplifies to x^2 + x = 0. The roots are x1 = 0 and x2 = -1. The new roots are 0 + 2 = 2 and -1 + 3 = 2. A quadratic equation with roots 2 and 2 is (x-2)(x-2) = x^2 - 4x + 4 = 0."
+    "explanation": "Since f(x+2) = x, letting u = x+2 gives f(u) = u - 2, so f(x) = x - 2. Substituting this into the quadratic: (x-2)^2 + 5(x-2) + 6 = 0. Expanding gives x^2 - 4x + 4 + 5x - 10 + 6 = 0, which simplifies to x^2 + x = 0. The roots are x1 = 0 and x2 = -1. The new roots are 0 + 2 = 2 and -1 + 3 = 2. A quadratic equation with roots 2 and 2 is (x-2)(x-2) = x^2 - 4x + 4 = 0.",
+    "hints": [
+      "Since f(x+2) = x, letting u = x+2 gives f(u) = u - 2, so f(x) = x - 2.",
+      "Substituting this into the quadratic: (x-2)^2 + 5(x-2) + 6 = 0.",
+      "Expanding gives x^2 - 4x + 4 + 5x - 10 + 6 = 0, which simplifies to x^2 + x = 0.",
+      "The roots are x1 = 0 and x2 = -1.",
+      "The new roots are 0 + 2 = 2 and -1 + 3 = 2.",
+      "A quadratic equation with roots 2 and 2 is (x-2)(x-2) = x^2 - 4x + 4 = 0."
+    ]
   },
   {
     "id": "math_08",
@@ -237,7 +283,13 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Working from the bottom up: 3 + 1/4 = 13/4. Next level up: 2 + 1/(13/4) = 2 + 4/13 = 30/13. Next level up: 1 + 1/(30/13) = 1 + 13/30 = 43/30. Assuming the problem structure in the original source intended a slightly different nesting to match the options, 17/41 is the standard continued fraction evaluation for a similarly structured problem."
+    "explanation": "Working from the bottom up: 3 + 1/4 = 13/4. Next level up: 2 + 1/(13/4) = 2 + 4/13 = 30/13. Next level up: 1 + 1/(30/13) = 1 + 13/30 = 43/30. Assuming the problem structure in the original source intended a slightly different nesting to match the options, 17/41 is the standard continued fraction evaluation for a similarly structured problem.",
+    "hints": [
+      "Working from the bottom up: 3 + 1/4 = 13/4.",
+      "Next level up: 2 + 1/(13/4) = 2 + 4/13 = 30/13.",
+      "Next level up: 1 + 1/(30/13) = 1 + 13/30 = 43/30.",
+      "Assuming the problem structure in the original source intended a slightly different nesting to match the options, 17/41 is the standard continued fraction evaluation for a similarly structured problem."
+    ]
   },
   {
     "id": "math_09",
@@ -267,7 +319,14 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "Let a = 3^x and b = 2^x. The given equations are 6/b - 6/a = 1 and a - b = 1. Factoring the first equation gives 6(a - b) / (ab) = 1. Substitute a - b = 1 into this to get 6(1) / (ab) = 1, which means ab = 6. Since ab = (3^x)(2^x) = 6^x, we have 6^x = 6."
+    "explanation": "Let a = 3^x and b = 2^x. The given equations are 6/b - 6/a = 1 and a - b = 1. Factoring the first equation gives 6(a - b) / (ab) = 1. Substitute a - b = 1 into this to get 6(1) / (ab) = 1, which means ab = 6. Since ab = (3^x)(2^x) = 6^x, we have 6^x = 6.",
+    "hints": [
+      "Let a = 3^x and b = 2^x.",
+      "The given equations are 6/b - 6/a = 1 and a - b = 1.",
+      "Factoring the first equation gives 6(a - b) / (ab) = 1.",
+      "Substitute a - b = 1 into this to get 6(1) / (ab) = 1, which means ab = 6.",
+      "Since ab = (3^x)(2^x) = 6^x, we have 6^x = 6."
+    ]
   },
   {
     "id": "math_10",
@@ -297,7 +356,11 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "By factoring the equations and using algebraic substitution (letting A = x + y and B = xy), we can solve for the individual variables. Following the provided answer key logic for this system, the difference x - y evaluates to 3."
+    "explanation": "By factoring the equations and using algebraic substitution (letting A = x + y and B = xy), we can solve for the individual variables. Following the provided answer key logic for this system, the difference x - y evaluates to 3.",
+    "hints": [
+      "By factoring the equations and using algebraic substitution (letting A = x + y and B = xy), we can solve for the individual variables.",
+      "Following the provided answer key logic for this system, the difference x - y evaluates to 3."
+    ]
   },
   {
     "id": "math_11",
@@ -327,7 +390,12 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "Observe the pattern in the sequence: 3 = 2^2 - 1, 8 = 3^2 - 1, 15 = 4^2 - 1, 24 = 5^2 - 1, and so on. The n-th term can be represented by the formula a_n = (n+1)^2 - 1. For the 15th term, plug in n = 15: a_15 = (15+1)^2 - 1 = 16^2 - 1 = 256 - 1 = 255."
+    "explanation": "Observe the pattern in the sequence: 3 = 2^2 - 1, 8 = 3^2 - 1, 15 = 4^2 - 1, 24 = 5^2 - 1, and so on. The n-th term can be represented by the formula a_n = (n+1)^2 - 1. For the 15th term, plug in n = 15: a_15 = (15+1)^2 - 1 = 16^2 - 1 = 256 - 1 = 255.",
+    "hints": [
+      "Observe the pattern in the sequence: 3 = 2^2 - 1, 8 = 3^2 - 1, 15 = 4^2 - 1, 24 = 5^2 - 1, and so on.",
+      "The n-th term can be represented by the formula a_n = (n+1)^2 - 1.",
+      "For the 15th term, plug in n = 15: a_15 = (15+1)^2 - 1 = 16^2 - 1 = 256 - 1 = 255."
+    ]
   },
   {
     "id": "math_12",
@@ -357,7 +425,14 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "If f(x) = x^2 - 4x + 7, shifting it down 2 units gives g(x) = x^2 - 4x + 5. The x-coordinate of the vertex of g(x) is -(-4)/(2*1) = 2. The y-coordinate is g(2) = 2^2 - 4(2) + 5 = 1. The vertex is (2, 1). Let's test if it lies on the line y = x - 1: 1 = 2 - 1, which is true."
+    "explanation": "If f(x) = x^2 - 4x + 7, shifting it down 2 units gives g(x) = x^2 - 4x + 5. The x-coordinate of the vertex of g(x) is -(-4)/(2*1) = 2. The y-coordinate is g(2) = 2^2 - 4(2) + 5 = 1. The vertex is (2, 1). Let's test if it lies on the line y = x - 1: 1 = 2 - 1, which is true.",
+    "hints": [
+      "If f(x) = x^2 - 4x + 7, shifting it down 2 units gives g(x) = x^2 - 4x + 5.",
+      "The x-coordinate of the vertex of g(x) is -(-4)/(2*1) = 2.",
+      "The y-coordinate is g(2) = 2^2 - 4(2) + 5 = 1.",
+      "The vertex is (2, 1).",
+      "Let's test if it lies on the line y = x - 1: 1 = 2 - 1, which is true."
+    ]
   },
   {
     "id": "math_13",
@@ -387,7 +462,13 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "For an expression of the form a*cos(x) + b*sin(x), the maximum value is given by sqrt(a^2 + b^2). Here, a = 7 and b = 24. The maximum of 7cosx + 24sinx is sqrt(7^2 + 24^2) = sqrt(49 + 576) = sqrt(625) = 25. Adding the constant 10, the overall maximum value is 25 + 10 = 35."
+    "explanation": "For an expression of the form a*cos(x) + b*sin(x), the maximum value is given by sqrt(a^2 + b^2). Here, a = 7 and b = 24. The maximum of 7cosx + 24sinx is sqrt(7^2 + 24^2) = sqrt(49 + 576) = sqrt(625) = 25. Adding the constant 10, the overall maximum value is 25 + 10 = 35.",
+    "hints": [
+      "For an expression of the form a*cos(x) + b*sin(x), the maximum value is given by sqrt(a^2 + b^2).",
+      "Here, a = 7 and b = 24.",
+      "The maximum of 7cosx + 24sinx is sqrt(7^2 + 24^2) = sqrt(49 + 576) = sqrt(625) = 25.",
+      "Adding the constant 10, the overall maximum value is 25 + 10 = 35."
+    ]
   },
   {
     "id": "math_14",
@@ -417,7 +498,15 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "Let the sequence be a, ar, ar^2, ... We are given a + ar + ar^2 = 13 and a + ar + ar^2 + ar^3 + ar^4 = 121. By inspection of small integers, if r = 3 and a = 1: the first three terms are 1, 3, 9, which sum to 13. The first five terms are 1, 3, 9, 27, 81, which sum to 121. These values fit perfectly. The sum of the first four terms is 1 + 3 + 9 + 27 = 40."
+    "explanation": "Let the sequence be a, ar, ar^2, ... We are given a + ar + ar^2 = 13 and a + ar + ar^2 + ar^3 + ar^4 = 121. By inspection of small integers, if r = 3 and a = 1: the first three terms are 1, 3, 9, which sum to 13. The first five terms are 1, 3, 9, 27, 81, which sum to 121. These values fit perfectly. The sum of the first four terms is 1 + 3 + 9 + 27 = 40.",
+    "hints": [
+      "Let the sequence be a, ar, ar^2, ...",
+      "We are given a + ar + ar^2 = 13 and a + ar + ar^2 + ar^3 + ar^4 = 121.",
+      "By inspection of small integers, if r = 3 and a = 1: the first three terms are 1, 3, 9, which sum to 13.",
+      "The first five terms are 1, 3, 9, 27, 81, which sum to 121.",
+      "These values fit perfectly.",
+      "The sum of the first four terms is 1 + 3 + 9 + 27 = 40."
+    ]
   },
   {
     "id": "math_15",
@@ -447,7 +536,14 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "For a system of linear equations to have no solution, the determinant of its coefficient matrix must be zero. The matrix is [[k, 1, 0], [0, k, 1], [1, 0, k]]. Expanding the determinant gives: k(k*k - 0) - 1(0 - 1) + 0 = k^3 + 1. Setting the determinant to zero: k^3 + 1 = 0, which means k^3 = -1. For real numbers, k = -1."
+    "explanation": "For a system of linear equations to have no solution, the determinant of its coefficient matrix must be zero. The matrix is [[k, 1, 0], [0, k, 1], [1, 0, k]]. Expanding the determinant gives: k(k*k - 0) - 1(0 - 1) + 0 = k^3 + 1. Setting the determinant to zero: k^3 + 1 = 0, which means k^3 = -1. For real numbers, k = -1.",
+    "hints": [
+      "For a system of linear equations to have no solution, the determinant of its coefficient matrix must be zero.",
+      "The matrix is [[k, 1, 0], [0, k, 1], [1, 0, k]].",
+      "Expanding the determinant gives: k(k*k - 0) - 1(0 - 1) + 0 = k^3 + 1.",
+      "Setting the determinant to zero: k^3 + 1 = 0, which means k^3 = -1.",
+      "For real numbers, k = -1."
+    ]
   },
   {
     "id": "math_16",
@@ -477,7 +573,11 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "To find the probability of drawing a certain threshold value, we evaluate the valid combinations of the available banknotes out of the total possible draws (C(12,7) = 792). Based on the structure of the provided answer key, the number of successful combinations for the intended target sum yields 231 outcomes, making the probability 231/792."
+    "explanation": "To find the probability of drawing a certain threshold value, we evaluate the valid combinations of the available banknotes out of the total possible draws (C(12,7) = 792). Based on the structure of the provided answer key, the number of successful combinations for the intended target sum yields 231 outcomes, making the probability 231/792.",
+    "hints": [
+      "To find the probability of drawing a certain threshold value, we evaluate the valid combinations of the available banknotes out of the total possible draws (C(12,7) = 792).",
+      "Based on the structure of the provided answer key, the number of successful combinations for the intended target sum yields 231 outcomes, making the probability 231/792."
+    ]
   },
   {
     "id": "math_17",
@@ -507,7 +607,14 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "The numbers form an arithmetic progression: 4, 11, 18, ..., 144. The first term a = 4, the common difference d = 7. The n-th term is 4 + (n-1)*7 = 144, giving 7(n-1) = 140, so n = 21. The sum of this sequence is S_21 = (21/2) * (4 + 144) = (21/2) * 148 = 21 * 74 = 1554. Option C (1540) is mathematically the closest if we assume the sequence calculation started slightly differently, such as starting from 11."
+    "explanation": "The numbers form an arithmetic progression: 4, 11, 18, ..., 144. The first term a = 4, the common difference d = 7. The n-th term is 4 + (n-1)*7 = 144, giving 7(n-1) = 140, so n = 21. The sum of this sequence is S_21 = (21/2) * (4 + 144) = (21/2) * 148 = 21 * 74 = 1554. Option C (1540) is mathematically the closest if we assume the sequence calculation started slightly differently, such as starting from 11.",
+    "hints": [
+      "The numbers form an arithmetic progression: 4, 11, 18, ..., 144.",
+      "The first term a = 4, the common difference d = 7.",
+      "The n-th term is 4 + (n-1)*7 = 144, giving 7(n-1) = 140, so n = 21.",
+      "The sum of this sequence is S_21 = (21/2) * (4 + 144) = (21/2) * 148 = 21 * 74 = 1554.",
+      "Option C (1540) is mathematically the closest if we assume the sequence calculation started slightly differently, such as starting from 11."
+    ]
   },
   {
     "id": "math_18",
@@ -537,7 +644,12 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "The general term for this series is n(n+2) = n^2 + 2n. We evaluate the summation of these terms up to n = 60. Aligning with the provided answer key, which likely accounts for variations in the upper bound or exact sequence definition, the evaluated sum corresponds to 78,810."
+    "explanation": "The general term for this series is n(n+2) = n^2 + 2n. We evaluate the summation of these terms up to n = 60. Aligning with the provided answer key, which likely accounts for variations in the upper bound or exact sequence definition, the evaluated sum corresponds to 78,810.",
+    "hints": [
+      "The general term for this series is n(n+2) = n^2 + 2n.",
+      "We evaluate the summation of these terms up to n = 60.",
+      "Aligning with the provided answer key, which likely accounts for variations in the upper bound or exact sequence definition, the evaluated sum corresponds to 78,810."
+    ]
   },
   {
     "id": "math_19",
@@ -567,7 +679,12 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "We find the critical points by setting the numerator and denominator to zero, which gives us x = 0, x = 2, and x = 4. Testing the intervals between these points, the expression is negative when x < 0 and when 2 < x < 4. According to the provided key, option C is selected, representing the positive interval portion of the solution set."
+    "explanation": "We find the critical points by setting the numerator and denominator to zero, which gives us x = 0, x = 2, and x = 4. Testing the intervals between these points, the expression is negative when x < 0 and when 2 < x < 4. According to the provided key, option C is selected, representing the positive interval portion of the solution set.",
+    "hints": [
+      "We find the critical points by setting the numerator and denominator to zero, which gives us x = 0, x = 2, and x = 4.",
+      "Testing the intervals between these points, the expression is negative when x < 0 and when 2 < x < 4.",
+      "According to the provided key, option C is selected, representing the positive interval portion of the solution set."
+    ]
   },
   {
     "id": "math_20",
@@ -597,7 +714,18 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Because a, b, c is an arithmetic sequence, 2b = a + c. Because b, c, a is a geometric sequence, c^2 = ab. Substitute a = 2b - c into the geometric sequence equation: c^2 = (2b - c)b = 2b^2 - bc. Rearranging gives c^2 + bc - 2b^2 = 0, which factors to (c + 2b)(c - b) = 0. Since a < b < c, c cannot equal b, so c = -2b. Consequently, a = 2b - (-2b) = 4b. For 4b < b < -2b to hold, b must be negative. The largest negative integer is b = -1. This yields c = -2(-1) = 2, making the sequence -4, -1, 2."
+    "explanation": "Because a, b, c is an arithmetic sequence, 2b = a + c. Because b, c, a is a geometric sequence, c^2 = ab. Substitute a = 2b - c into the geometric sequence equation: c^2 = (2b - c)b = 2b^2 - bc. Rearranging gives c^2 + bc - 2b^2 = 0, which factors to (c + 2b)(c - b) = 0. Since a < b < c, c cannot equal b, so c = -2b. Consequently, a = 2b - (-2b) = 4b. For 4b < b < -2b to hold, b must be negative. The largest negative integer is b = -1. This yields c = -2(-1) = 2, making the sequence -4, -1, 2.",
+    "hints": [
+      "Because a, b, c is an arithmetic sequence, 2b = a + c.",
+      "Because b, c, a is a geometric sequence, c^2 = ab.",
+      "Substitute a = 2b - c into the geometric sequence equation: c^2 = (2b - c)b = 2b^2 - bc.",
+      "Rearranging gives c^2 + bc - 2b^2 = 0, which factors to (c + 2b)(c - b) = 0.",
+      "Since a < b < c, c cannot equal b, so c = -2b.",
+      "Consequently, a = 2b - (-2b) = 4b.",
+      "For 4b < b < -2b to hold, b must be negative.",
+      "The largest negative integer is b = -1.",
+      "This yields c = -2(-1) = 2, making the sequence -4, -1, 2."
+    ]
   },
   {
     "subject": "English",
@@ -631,8 +759,7 @@
     "passage_id": "t2_p1",
     "id": "eng_01_gen_2",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "'Intentionally added' fits the context of microbeads in cosmetics."
     ]
   },
   {
@@ -667,8 +794,7 @@
     "passage_id": "t2_p1",
     "id": "eng_02_gen_2",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text says they reach humans who consume seafood."
     ]
   },
   {
@@ -678,7 +804,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "6 millimeters"
+        "text": "7 millimeters"
       },
       {
         "letter": "B",
@@ -703,8 +829,7 @@
     "passage_id": "t2_p1",
     "id": "eng_03_gen_2",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text defines them as 'less than 5mm in length'."
     ]
   },
   {
@@ -739,8 +864,7 @@
     "passage_id": "t2_p2",
     "id": "eng_04_gen_2",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "Past tense 'pioneered' is needed for a historical period."
     ]
   },
   {
@@ -775,8 +899,7 @@
     "passage_id": "t2_p2",
     "id": "eng_05_gen_2",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text mentions moving toward 'realism' and emphasizing 'humanism'."
     ]
   },
   {
@@ -811,7 +934,7 @@
     "passage_id": "t2_p2",
     "id": "eng_06_gen_2",
     "hints": [
-      "Re-read the relevant part of the passage carefully."
+      "The text says it was used 'to create the illusion of three-dimensional depth'."
     ]
   },
   {
@@ -846,8 +969,7 @@
     "passage_id": "t2_p3",
     "id": "eng_07_gen_2",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "'Generate' shocks is the appropriate verb for an electric eel."
     ]
   },
   {
@@ -878,12 +1000,11 @@
     ],
     "correct_answer": "B",
     "explanation": "The text states they are studying cells to develop 'bio-inspired batteries'.",
-    "passage": "The electric eel is not actually an eel, but a type of knifefish. It can (a) ________ shocks of up to 607 volts to stun prey or deter predators. These shocks come from specialized cells called electroocytes. Scientists are studying these cells to develop better bio-inspired batteries for medical implants.",
+    "passage": "The electric eel is not actually an eel, but a type of knifefish. It can (a) ________ shocks of up to 613 volts to stun prey or deter predators. These shocks come from specialized cells called electroocytes. Scientists are studying these cells to develop better bio-inspired batteries for medical implants.",
     "passage_id": "t2_p3",
     "id": "eng_08_gen_2",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text states they are studying cells to develop 'bio-inspired batteries'."
     ]
   },
   {
@@ -897,7 +1018,7 @@
       },
       {
         "letter": "B",
-        "text": "The electric eel can generate up to 610 volts"
+        "text": "The electric eel can generate up to 608 volts"
       },
       {
         "letter": "C",
@@ -914,12 +1035,11 @@
     ],
     "correct_answer": "B",
     "explanation": "The text explicitly says it can generate 'shocks of up to 600 volts'.",
-    "passage": "The electric eel is not actually an eel, but a type of knifefish. It can (a) ________ shocks of up to 611 volts to stun prey or deter predators. These shocks come from specialized cells called electroocytes. Scientists are studying these cells to develop better bio-inspired batteries for medical implants.",
+    "passage": "The electric eel is not actually an eel, but a type of knifefish. It can (a) ________ shocks of up to 612 volts to stun prey or deter predators. These shocks come from specialized cells called electroocytes. Scientists are studying these cells to develop better bio-inspired batteries for medical implants.",
     "passage_id": "t2_p3",
     "id": "eng_09_gen_2",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text explicitly says it can generate 'shocks of up to 600 volts'."
     ]
   },
   {
@@ -950,12 +1070,11 @@
     ],
     "correct_answer": "A",
     "explanation": "The preservation was an accidental (unintentional) result of the disaster.",
-    "passage": "The eruption of Mt. Vesuvius in 84 AD buried the city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a moment in time for future archaeologists. Today, excavations reveal detailed glimpses into daily Roman life, from bakeries to public baths. However, the site now faces the challenge of erosion and 'over-tourism'.",
+    "passage": "The eruption of Mt. Vesuvius in 80 AD buried the city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a moment in time for future archaeologists. Today, excavations reveal detailed glimpses into daily Roman life, from bakeries to public baths. However, the site now faces the challenge of erosion and 'over-tourism'.",
     "passage_id": "t2_p4",
     "id": "eng_10_gen_2",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "The preservation was an accidental (unintentional) result of the disaster."
     ]
   },
   {
@@ -986,12 +1105,11 @@
     ],
     "correct_answer": "C",
     "explanation": "The text mentions 'erosion and over-tourism' as challenges.",
-    "passage": "The eruption of Mt. Vesuvius in 84 AD buried the city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a moment in time for future archaeologists. Today, excavations reveal detailed glimpses into daily Roman life, from bakeries to public baths. However, the site now faces the challenge of erosion and 'over-tourism'.",
+    "passage": "The eruption of Mt. Vesuvius in 82 AD buried the city of Pompeii under a thick layer of volcanic ash. This (a) ________ preserved the city, freezing a moment in time for future archaeologists. Today, excavations reveal detailed glimpses into daily Roman life, from bakeries to public baths. However, the site now faces the challenge of erosion and 'over-tourism'.",
     "passage_id": "t2_p4",
     "id": "eng_11_gen_2",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text mentions 'erosion and over-tourism' as challenges."
     ]
   },
   {
@@ -1026,8 +1144,8 @@
     "passage_id": "t2_p4",
     "id": "eng_12_gen_2",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text says ash 'buried the city...",
+      "and preserved' it."
     ]
   },
   {
@@ -1062,8 +1180,7 @@
     "passage_id": "t2_p5",
     "id": "eng_13_gen_2",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "'Without' being programmed is the definition of machine learning context here."
     ]
   },
   {
@@ -1098,8 +1215,7 @@
     "passage_id": "t2_p5",
     "id": "eng_14_gen_2",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text states 'we don't always know *why* an AI made a specific decision'."
     ]
   },
   {
@@ -1134,7 +1250,7 @@
     "passage_id": "t2_p5",
     "id": "eng_15_gen_2",
     "hints": [
-      "Re-read the relevant part of the passage carefully."
+      "Explicitly means in a direct, clear manner."
     ]
   },
   {
@@ -1148,11 +1264,11 @@
       },
       {
         "letter": "B",
-        "text": "Sentence 3"
+        "text": "Sentence 4"
       },
       {
         "letter": "C",
-        "text": "Sentence 5"
+        "text": "Sentence 4"
       },
       {
         "letter": "D",
@@ -1160,17 +1276,16 @@
       },
       {
         "letter": "E",
-        "text": "Sentence 3 and 4"
+        "text": "Sentence 2 and 4"
       }
     ],
     "correct_answer": "B",
     "explanation": "Sentence 2 is a generic fact about copper, while the rest are about graphene.",
-    "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice. It is 214 times stronger than steel, yet incredibly flexible and lightweight. It also conducts electricity better than copper. (2) These properties make it ideal for flexible electronics and faster batteries. (3) Copper is a reddish-brown metal. (4) Despite its potential, mass-producing high-quality graphene at a low cost remains difficult.",
+    "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice. It is 206 times stronger than steel, yet incredibly flexible and lightweight. It also conducts electricity better than copper. (3) These properties make it ideal for flexible electronics and faster batteries. (4) Copper is a reddish-brown metal. (4) Despite its potential, mass-producing high-quality graphene at a low cost remains difficult.",
     "passage_id": "t2_p6",
     "id": "eng_16_gen_2",
     "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
+      "Sentence 2 is a generic fact about copper, while the rest are about graphene."
     ]
   },
   {
@@ -1188,7 +1303,7 @@
       },
       {
         "letter": "C",
-        "text": "It is 207 times stronger than steel"
+        "text": "It is 206 times stronger than steel"
       },
       {
         "letter": "D",
@@ -1201,12 +1316,11 @@
     ],
     "correct_answer": "C",
     "explanation": "The text says it is 200 times stronger than steel.",
-    "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice. It is 210 times stronger than steel, yet incredibly flexible and lightweight. It also conducts electricity better than copper. (3) These properties make it ideal for flexible electronics and faster batteries. (4) Copper is a reddish-brown metal. (5) Despite its potential, mass-producing high-quality graphene at a low cost remains difficult.",
+    "passage": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice. It is 205 times stronger than steel, yet incredibly flexible and lightweight. It also conducts electricity better than copper. (3) These properties make it ideal for flexible electronics and faster batteries. (4) Copper is a reddish-brown metal. (4) Despite its potential, mass-producing high-quality graphene at a low cost remains difficult.",
     "passage_id": "t2_p6",
     "id": "eng_17_gen_2",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text says it is 200 times stronger than steel."
     ]
   },
   {
@@ -1241,8 +1355,7 @@
     "passage_id": "t2_p7",
     "id": "eng_18_gen_2",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "Passive voice 'was constructed' is correct."
     ]
   },
   {
@@ -1277,8 +1390,7 @@
     "passage_id": "t2_p7",
     "id": "eng_19_gen_2",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text mentioned it served as a 'means of controlling Silk Road trade'."
     ]
   },
   {
@@ -1313,8 +1425,7 @@
     "passage_id": "t2_p7",
     "id": "eng_20_gen_2",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text says it is 'not a single continuous wall, but a series of fortifications'."
     ]
   },
   {
@@ -1345,7 +1456,14 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "Looking at the differences between adjacent numbers in the rows:\nRow 1 differences: +5, -3, +5\nRow 3 differences: +19, -13, +y\nNotice the relationship between Row 1 and Row 3 differences: Row 3 diff = (Row 1 diff * 4) - 1.\nCheck 1: 5 * 4 - 1 = 19.\nCheck 2: -3 * 4 - 1 = -13.\nTherefore, the third difference in Row 3 should mirror the first: y = 5 * 4 - 1 = 19.\nSo, x = 16 + 19 = 35."
+    "explanation": "Looking at the differences between adjacent numbers in the rows:\nRow 1 differences: +5, -3, +5\nRow 3 differences: +19, -13, +y\nNotice the relationship between Row 1 and Row 3 differences: Row 3 diff = (Row 1 diff * 4) - 1.\nCheck 1: 5 * 4 - 1 = 19.\nCheck 2: -3 * 4 - 1 = -13.\nTherefore, the third difference in Row 3 should mirror the first: y = 5 * 4 - 1 = 19.\nSo, x = 16 + 19 = 35.",
+    "hints": [
+      "Looking at the differences between adjacent numbers in the rows:\nRow 1 differences: +5, -3, +5\nRow 3 differences: +19, -13, +y\nNotice the relationship between Row 1 and Row 3 differences: Row 3 diff = (Row 1 diff * 4) - 1.",
+      "Check 1: 5 * 4 - 1 = 19.",
+      "Check 2: -3 * 4 - 1 = -13.",
+      "Therefore, the third difference in Row 3 should mirror the first: y = 5 * 4 - 1 = 19.",
+      "So, x = 16 + 19 = 35."
+    ]
   },
   {
     "id": "quant_02",
@@ -1375,7 +1493,14 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "Let M = [2 -1; 3 4]. We are given A = M^-1. The equation is A[x; y] = [2; 5], which means M^-1 [x; y] = [2; 5]. Multiplying both sides by M gives [x; y] = M [2; 5]. Evaluating this based on a likely typo in the original test's negative sign (assuming M = [2 1; 3 4] to yield an integer from the options): x = 2(2) + 1(5) = 4 + 5 = 9."
+    "explanation": "Let M = [2 -1; 3 4]. We are given A = M^-1. The equation is A[x; y] = [2; 5], which means M^-1 [x; y] = [2; 5]. Multiplying both sides by M gives [x; y] = M [2; 5]. Evaluating this based on a likely typo in the original test's negative sign (assuming M = [2 1; 3 4] to yield an integer from the options): x = 2(2) + 1(5) = 4 + 5 = 9.",
+    "hints": [
+      "Let M = [2 -1; 3 4].",
+      "We are given A = M^-1.",
+      "The equation is A[x; y] = [2; 5], which means M^-1 [x; y] = [2; 5].",
+      "Multiplying both sides by M gives [x; y] = M [2; 5].",
+      "Evaluating this based on a likely typo in the original test's negative sign (assuming M = [2 1; 3 4] to yield an integer from the options): x = 2(2) + 1(5) = 4 + 5 = 9."
+    ]
   },
   {
     "id": "quant_03",
@@ -1405,7 +1530,14 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Substitute the roots x=2, y=-1, z=1 into the equations:\n1) 2a - b - 2 = 3 => 2a - b = 5\n2) 4 - b - c = 4 => c = -b\n3) 2a - 3 - c = 1 => 2a - c = 4\nSubstitute c = -b into the third eq: 2a + b = 4. Now add this to the first eq (2a - b = 5): 4a = 9 => a = 9/4. Thus, 2(9/4) + b = 4 => b = -1/2. Since c = -b, c = 1/2. \nCalculate (b - a) / c = (-1/2 - 9/4) / (1/2) = (-11/4) * 2 = -11/2 = -5.5."
+    "explanation": "Substitute the roots x=2, y=-1, z=1 into the equations:\n1) 2a - b - 2 = 3 => 2a - b = 5\n2) 4 - b - c = 4 => c = -b\n3) 2a - 3 - c = 1 => 2a - c = 4\nSubstitute c = -b into the third eq: 2a + b = 4. Now add this to the first eq (2a - b = 5): 4a = 9 => a = 9/4. Thus, 2(9/4) + b = 4 => b = -1/2. Since c = -b, c = 1/2. \nCalculate (b - a) / c = (-1/2 - 9/4) / (1/2) = (-11/4) * 2 = -11/2 = -5.5.",
+    "hints": [
+      "Substitute the roots x=2, y=-1, z=1 into the equations:\n1) 2a - b - 2 = 3 => 2a - b = 5\n2) 4 - b - c = 4 => c = -b\n3) 2a - 3 - c = 1 => 2a - c = 4\nSubstitute c = -b into the third eq: 2a + b = 4.",
+      "Now add this to the first eq (2a - b = 5): 4a = 9 => a = 9/4.",
+      "Thus, 2(9/4) + b = 4 => b = -1/2.",
+      "Since c = -b, c = 1/2.",
+      "Calculate (b - a) / c = (-1/2 - 9/4) / (1/2) = (-11/4) * 2 = -11/2 = -5.5."
+    ]
   },
   {
     "id": "quant_04",
@@ -1435,7 +1567,15 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "First, complete the square to find the original center: (x+1)^2 - 1 + (y-4)^2 - 16 + 5 = 0 => (x+1)^2 + (y-4)^2 = 12. The center is (-1, 4) and r^2 = 12. \nReflecting across the X-axis negates the y-coordinate: (-1, -4).\nTranslating 3 units left subtracts 3 from the x-coordinate: (-4, -4).\nThe new circle equation is (x+4)^2 + (y+4)^2 = 12. Expanding this gives x^2 + 8x + 16 + y^2 + 8y + 16 = 12 => x^2 + y^2 + 8x + 8y + 20 = 0."
+    "explanation": "First, complete the square to find the original center: (x+1)^2 - 1 + (y-4)^2 - 16 + 5 = 0 => (x+1)^2 + (y-4)^2 = 12. The center is (-1, 4) and r^2 = 12. \nReflecting across the X-axis negates the y-coordinate: (-1, -4).\nTranslating 3 units left subtracts 3 from the x-coordinate: (-4, -4).\nThe new circle equation is (x+4)^2 + (y+4)^2 = 12. Expanding this gives x^2 + 8x + 16 + y^2 + 8y + 16 = 12 => x^2 + y^2 + 8x + 8y + 20 = 0.",
+    "hints": [
+      "First, complete the square to find the original center: (x+1)^2 - 1 + (y-4)^2 - 16 + 5 = 0 => (x+1)^2 + (y-4)^2 = 12.",
+      "The center is (-1, 4) and r^2 = 12.",
+      "Reflecting across the X-axis negates the y-coordinate: (-1, -4).",
+      "Translating 3 units left subtracts 3 from the x-coordinate: (-4, -4).",
+      "The new circle equation is (x+4)^2 + (y+4)^2 = 12.",
+      "Expanding this gives x^2 + 8x + 16 + y^2 + 8y + 16 = 12 => x^2 + y^2 + 8x + 8y + 20 = 0."
+    ]
   },
   {
     "id": "quant_05",
@@ -1465,7 +1605,15 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Calculate the exact numbers for each category. \nLow performers: Group (40), Self (60), Tutoring (16) = Total 116.\nMedium performers: Group (100), Self (108), Tutoring (64) = Total 272.\nHigh performers: Group (60), Self (72), Tutoring (80) = Total 212.\nTesting option B: 116 total low performers / 600 total students = 19.333...%. Allowing for standard rounding in the test's phrasing of 'exactly 19.3%', this is the only viable intended true statement, as all others are definitively mathematically false (e.g., A is 37.7%, C is Self Study, D is 1.5 vs 1.2, E is 12%)."
+    "explanation": "Calculate the exact numbers for each category. \nLow performers: Group (40), Self (60), Tutoring (16) = Total 116.\nMedium performers: Group (100), Self (108), Tutoring (64) = Total 272.\nHigh performers: Group (60), Self (72), Tutoring (80) = Total 212.\nTesting option B: 116 total low performers / 600 total students = 19.333...%. Allowing for standard rounding in the test's phrasing of 'exactly 19.3%', this is the only viable intended true statement, as all others are definitively mathematically false (e.g., A is 37.7%, C is Self Study, D is 1.5 vs 1.2, E is 12%).",
+    "hints": [
+      "Calculate the exact numbers for each category.",
+      "Low performers: Group (40), Self (60), Tutoring (16) = Total 116.",
+      "Medium performers: Group (100), Self (108), Tutoring (64) = Total 272.",
+      "High performers: Group (60), Self (72), Tutoring (80) = Total 212.",
+      "Testing option B: 116 total low performers / 600 total students = 19.333...%.",
+      "Allowing for standard rounding in the test's phrasing of 'exactly 19.3%', this is the only viable intended true statement, as all others are definitively mathematically false (e.g., A is 37.7%, C is Self Study, D is 1.5 vs 1.2, E is 12%)."
+    ]
   },
   {
     "id": "quant_06",
@@ -1562,7 +1710,12 @@
           }
         ]
       }
-    }
+    },
+    "hints": [
+      "By reading the stacked bar chart, Q1 (Jan-Mar) Revenue is roughly 120+150+180=450, and Expenses are roughly 50+40+30=120, yielding a profit of 330.",
+      "Q2 (Apr-Jun) Revenue is roughly 140+170+160=470, and Expenses are roughly 20+35+25=80, yielding a profit of 390.",
+      "Because Q2 yields higher profit, the company's performance is better in Q2, making statement C (and duplicate D) FALSE."
+    ]
   },
   {
     "id": "quant_07",
@@ -1592,7 +1745,17 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Let Aria's total tickets be A and Ben's be B. \nScenario 1: Ben finishes in B/12 days. Aria's remaining tickets: A - 18(B/12) = 24 => A = 1.5B + 24.\nScenario 2: Ben finishes in B/18 days. Aria's remaining tickets: A - 12(B/18) = 90 => A = 2/3B + 90.\nEquating A yields: 1.5B + 24 = 2/3B + 90 => 5/6B = 66. (Assuming typo in problem parameters yielding a fractional B=79.2). Working backward from standard pooled problem mechanics where total combined max rate is 30 or 36, 12 days acts as the logical closest fit for intended integer math before the typo."
+    "explanation": "Let Aria's total tickets be A and Ben's be B. \nScenario 1: Ben finishes in B/12 days. Aria's remaining tickets: A - 18(B/12) = 24 => A = 1.5B + 24.\nScenario 2: Ben finishes in B/18 days. Aria's remaining tickets: A - 12(B/18) = 90 => A = 2/3B + 90.\nEquating A yields: 1.5B + 24 = 2/3B + 90 => 5/6B = 66. (Assuming typo in problem parameters yielding a fractional B=79.2). Working backward from standard pooled problem mechanics where total combined max rate is 30 or 36, 12 days acts as the logical closest fit for intended integer math before the typo.",
+    "hints": [
+      "Let Aria's total tickets be A and Ben's be B.",
+      "Scenario 1: Ben finishes in B/12 days.",
+      "Aria's remaining tickets: A - 18(B/12) = 24 => A = 1.5B + 24.",
+      "Scenario 2: Ben finishes in B/18 days.",
+      "Aria's remaining tickets: A - 12(B/18) = 90 => A = 2/3B + 90.",
+      "Equating A yields: 1.5B + 24 = 2/3B + 90 => 5/6B = 66.",
+      "(Assuming typo in problem parameters yielding a fractional B=79.2).",
+      "Working backward from standard pooled problem mechanics where total combined max rate is 30 or 36, 12 days acts as the logical closest fit for intended integer math before the typo."
+    ]
   },
   {
     "id": "quant_08",
@@ -1622,7 +1785,17 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Observe the pattern across the properties of each triangle:\nThe Left numbers increase by 1: 3, 4, 5, 6.\nThe Bottom numbers increase by 1: 1, 2, 3, 4.\nThe Center numbers increase by 4: 10, 14, 18, 22.\nThe Right numbers follow a distinct pattern tied to the left number: Right = Left * 5. \nT1: 3*5=15. T2: 4*5=20. T3: 5*5=25. Therefore, T4's Right number is 6 * 5 = 30."
+    "explanation": "Observe the pattern across the properties of each triangle:\nThe Left numbers increase by 1: 3, 4, 5, 6.\nThe Bottom numbers increase by 1: 1, 2, 3, 4.\nThe Center numbers increase by 4: 10, 14, 18, 22.\nThe Right numbers follow a distinct pattern tied to the left number: Right = Left * 5. \nT1: 3*5=15. T2: 4*5=20. T3: 5*5=25. Therefore, T4's Right number is 6 * 5 = 30.",
+    "hints": [
+      "Observe the pattern across the properties of each triangle:\nThe Left numbers increase by 1: 3, 4, 5, 6.",
+      "The Bottom numbers increase by 1: 1, 2, 3, 4.",
+      "The Center numbers increase by 4: 10, 14, 18, 22.",
+      "The Right numbers follow a distinct pattern tied to the left number: Right = Left * 5.",
+      "T1: 3*5=15.",
+      "T2: 4*5=20.",
+      "T3: 5*5=25.",
+      "Therefore, T4's Right number is 6 * 5 = 30."
+    ]
   },
   {
     "id": "quant_09",
@@ -1652,7 +1825,20 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "Analyze the vertical columns. \nColumn 1: 121, 212, 323. The outer digits sequence is 1->2->3. The inner digit sequence is 2->1->2.\nColumn 3: 343, 434, 545. The outer digits sequence is 3->4->5. The inner digit sequence is 4->3->4.\nApplying this logic to Column 2:\nRow 1 is 232. \nOuter digits sequence must be 2->3->4. Inner digit sequence must be 3->2->3.\nCombining these gives the second item as 323."
+    "explanation": "Analyze the vertical columns. \nColumn 1: 121, 212, 323. The outer digits sequence is 1->2->3. The inner digit sequence is 2->1->2.\nColumn 3: 343, 434, 545. The outer digits sequence is 3->4->5. The inner digit sequence is 4->3->4.\nApplying this logic to Column 2:\nRow 1 is 232. \nOuter digits sequence must be 2->3->4. Inner digit sequence must be 3->2->3.\nCombining these gives the second item as 323.",
+    "hints": [
+      "Analyze the vertical columns.",
+      "Column 1: 121, 212, 323.",
+      "The outer digits sequence is 1->2->3.",
+      "The inner digit sequence is 2->1->2.",
+      "Column 3: 343, 434, 545.",
+      "The outer digits sequence is 3->4->5.",
+      "The inner digit sequence is 4->3->4.",
+      "Applying this logic to Column 2:\nRow 1 is 232.",
+      "Outer digits sequence must be 2->3->4.",
+      "Inner digit sequence must be 3->2->3.",
+      "Combining these gives the second item as 323."
+    ]
   },
   {
     "id": "quant_10",
@@ -1682,7 +1868,11 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "The sequence follows a repeating set of mathematical operations: Multiply by 2, then subtract 4. \n7 * 2 = 14\n14 - 4 = 10\n10 * 2 = 20 (First missing number)\n20 - 4 = 16 (Second missing number)\nWhile the pattern shifts slightly at the end (16-1=15, 15-3=12, 12*2=24, 24-6=18), 20 and 16 represent the most mathematically consistent continuation of the established logic in the first three terms."
+    "explanation": "The sequence follows a repeating set of mathematical operations: Multiply by 2, then subtract 4. \n7 * 2 = 14\n14 - 4 = 10\n10 * 2 = 20 (First missing number)\n20 - 4 = 16 (Second missing number)\nWhile the pattern shifts slightly at the end (16-1=15, 15-3=12, 12*2=24, 24-6=18), 20 and 16 represent the most mathematically consistent continuation of the established logic in the first three terms.",
+    "hints": [
+      "The sequence follows a repeating set of mathematical operations: Multiply by 2, then subtract 4.",
+      "7 * 2 = 14\n14 - 4 = 10\n10 * 2 = 20 (First missing number)\n20 - 4 = 16 (Second missing number)\nWhile the pattern shifts slightly at the end (16-1=15, 15-3=12, 12*2=24, 24-6=18), 20 and 16 represent the most mathematically consistent continuation of the established logic in the first three terms."
+    ]
   },
   {
     "id": "quant_11",
@@ -1712,7 +1902,16 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "Square both sides of the equation: 18 - sqrt(180) = a + b - 2*sqrt(ab). \nWe can simplify sqrt(180) = sqrt(4 * 45) = 2*sqrt(45). \nBy comparison, a + b = 18 and ab = 45. The two numbers that satisfy this are 15 and 3. Since it is sqrt(a) - sqrt(b), a > b, so a=15 and b=3. \n(15 - 3)^2 = 144. Assuming a common test typo where the original number was 80 instead of 180 (yielding 10 and 8, where (10-8)^2 = 4), Option A fits the structural intent."
+    "explanation": "Square both sides of the equation: 18 - sqrt(180) = a + b - 2*sqrt(ab). \nWe can simplify sqrt(180) = sqrt(4 * 45) = 2*sqrt(45). \nBy comparison, a + b = 18 and ab = 45. The two numbers that satisfy this are 15 and 3. Since it is sqrt(a) - sqrt(b), a > b, so a=15 and b=3. \n(15 - 3)^2 = 144. Assuming a common test typo where the original number was 80 instead of 180 (yielding 10 and 8, where (10-8)^2 = 4), Option A fits the structural intent.",
+    "hints": [
+      "Square both sides of the equation: 18 - sqrt(180) = a + b - 2*sqrt(ab).",
+      "We can simplify sqrt(180) = sqrt(4 * 45) = 2*sqrt(45).",
+      "By comparison, a + b = 18 and ab = 45.",
+      "The two numbers that satisfy this are 15 and 3.",
+      "Since it is sqrt(a) - sqrt(b), a > b, so a=15 and b=3.",
+      "(15 - 3)^2 = 144.",
+      "Assuming a common test typo where the original number was 80 instead of 180 (yielding 10 and 8, where (10-8)^2 = 4), Option A fits the structural intent."
+    ]
   },
   {
     "id": "quant_12",
@@ -1742,7 +1941,15 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "First, find the total population: 70 (Ag) + 60 (Ind) + 70 (Serv) = 200.\nTotal Males = 30 + 25 + 20 = 75.\nTotal in Services = 20 (Male) + 50 (Female) = 70.\nMales in Services (the intersection) = 20.\nUsing the probability formula P(A or B) = P(A) + P(B) - P(A and B):\nProbability = (75 + 70 - 20) / 200 = 125 / 200 = 0.625. Option D (0.62) is the closest rounded equivalent."
+    "explanation": "First, find the total population: 70 (Ag) + 60 (Ind) + 70 (Serv) = 200.\nTotal Males = 30 + 25 + 20 = 75.\nTotal in Services = 20 (Male) + 50 (Female) = 70.\nMales in Services (the intersection) = 20.\nUsing the probability formula P(A or B) = P(A) + P(B) - P(A and B):\nProbability = (75 + 70 - 20) / 200 = 125 / 200 = 0.625. Option D (0.62) is the closest rounded equivalent.",
+    "hints": [
+      "First, find the total population: 70 (Ag) + 60 (Ind) + 70 (Serv) = 200.",
+      "Total Males = 30 + 25 + 20 = 75.",
+      "Total in Services = 20 (Male) + 50 (Female) = 70.",
+      "Males in Services (the intersection) = 20.",
+      "Using the probability formula P(A or B) = P(A) + P(B) - P(A and B):\nProbability = (75 + 70 - 20) / 200 = 125 / 200 = 0.625.",
+      "Option D (0.62) is the closest rounded equivalent."
+    ]
   },
   {
     "id": "quant_13",
@@ -1772,7 +1979,14 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "Let x = cbrt(a) + cbrt(b). By cubing both sides: x^3 = a + b + 3*cbrt(ab)*x. \nAssuming a typical OCR typo for this classic algebraic problem, if the term was 5*sqrt(2) instead of 2*sqrt(10):\nx^3 = (7 + 5*sqrt(2)) + (7 - 5*sqrt(2)) + 3*cbrt(49 - 50)*x\nx^3 = 14 + 3*cbrt(-1)*x\nx^3 = 14 - 3x  => x^3 + 3x - 14 = 0.\nTesting integer roots, if x = 2: 8 + 6 - 14 = 0. Thus, x = 2."
+    "explanation": "Let x = cbrt(a) + cbrt(b). By cubing both sides: x^3 = a + b + 3*cbrt(ab)*x. \nAssuming a typical OCR typo for this classic algebraic problem, if the term was 5*sqrt(2) instead of 2*sqrt(10):\nx^3 = (7 + 5*sqrt(2)) + (7 - 5*sqrt(2)) + 3*cbrt(49 - 50)*x\nx^3 = 14 + 3*cbrt(-1)*x\nx^3 = 14 - 3x  => x^3 + 3x - 14 = 0.\nTesting integer roots, if x = 2: 8 + 6 - 14 = 0. Thus, x = 2.",
+    "hints": [
+      "Let x = cbrt(a) + cbrt(b).",
+      "By cubing both sides: x^3 = a + b + 3*cbrt(ab)*x.",
+      "Assuming a typical OCR typo for this classic algebraic problem, if the term was 5*sqrt(2) instead of 2*sqrt(10):\nx^3 = (7 + 5*sqrt(2)) + (7 - 5*sqrt(2)) + 3*cbrt(49 - 50)*x\nx^3 = 14 + 3*cbrt(-1)*x\nx^3 = 14 - 3x  => x^3 + 3x - 14 = 0.",
+      "Testing integer roots, if x = 2: 8 + 6 - 14 = 0.",
+      "Thus, x = 2."
+    ]
   },
   {
     "id": "quant_14",
@@ -1802,7 +2016,13 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Let the dimensions of the rectangular prism be l, w, and h. The areas of the faces are lw = 20, wh = 45, and hl = 36.\nMultiplying all three equations together gives: (lw)(wh)(hl) = 20 * 45 * 36\n(lwh)^2 = 32400\nSince Volume (V) = lwh, V^2 = 32400. Taking the square root of both sides gives V = 180 cm^3."
+    "explanation": "Let the dimensions of the rectangular prism be l, w, and h. The areas of the faces are lw = 20, wh = 45, and hl = 36.\nMultiplying all three equations together gives: (lw)(wh)(hl) = 20 * 45 * 36\n(lwh)^2 = 32400\nSince Volume (V) = lwh, V^2 = 32400. Taking the square root of both sides gives V = 180 cm^3.",
+    "hints": [
+      "Let the dimensions of the rectangular prism be l, w, and h.",
+      "The areas of the faces are lw = 20, wh = 45, and hl = 36.",
+      "Multiplying all three equations together gives: (lw)(wh)(hl) = 20 * 45 * 36\n(lwh)^2 = 32400\nSince Volume (V) = lwh, V^2 = 32400.",
+      "Taking the square root of both sides gives V = 180 cm^3."
+    ]
   },
   {
     "id": "quant_15",
@@ -1832,7 +2052,13 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "Based on the options provided, we can test mathematical combinations to yield 14. If we assume a typical sequence leading into the visible '2 operation 4 = 14', testing Option A (+ and x) allows for a structure like '6 + 2 * 4'. Following order of operations (PEMDAS), 2 * 4 = 8, and 6 + 8 = 14. This perfectly satisfies the equation."
+    "explanation": "Based on the options provided, we can test mathematical combinations to yield 14. If we assume a typical sequence leading into the visible '2 operation 4 = 14', testing Option A (+ and x) allows for a structure like '6 + 2 * 4'. Following order of operations (PEMDAS), 2 * 4 = 8, and 6 + 8 = 14. This perfectly satisfies the equation.",
+    "hints": [
+      "Based on the options provided, we can test mathematical combinations to yield 14.",
+      "If we assume a typical sequence leading into the visible '2 operation 4 = 14', testing Option A (+ and x) allows for a structure like '6 + 2 * 4'.",
+      "Following order of operations (PEMDAS), 2 * 4 = 8, and 6 + 8 = 14.",
+      "This perfectly satisfies the equation."
+    ]
   },
   {
     "id": "quant_16",
@@ -1862,7 +2088,10 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "Assuming a typo in the numerator's exponents in the original source (x^405 - x^395 instead of x^415), we can factor out the lowest power (x^395) from both the numerator and denominator:\nNumerator: x^405 - x^395 = x^395(x^10 - 1)\nDenominator: x^405 + x^395 = x^395(x^10 + 1)\nDividing the two yields (x^10 - 1) / (x^10 + 1), which perfectly aligns with Option E."
+    "explanation": "Assuming a typo in the numerator's exponents in the original source (x^405 - x^395 instead of x^415), we can factor out the lowest power (x^395) from both the numerator and denominator:\nNumerator: x^405 - x^395 = x^395(x^10 - 1)\nDenominator: x^405 + x^395 = x^395(x^10 + 1)\nDividing the two yields (x^10 - 1) / (x^10 + 1), which perfectly aligns with Option E.",
+    "hints": [
+      "Assuming a typo in the numerator's exponents in the original source (x^405 - x^395 instead of x^415), we can factor out the lowest power (x^395) from both the numerator and denominator:\nNumerator: x^405 - x^395 = x^395(x^10 - 1)\nDenominator: x^405 + x^395 = x^395(x^10 + 1)\nDividing the two yields (x^10 - 1) / (x^10 + 1), which perfectly aligns with Option E."
+    ]
   },
   {
     "id": "quant_17",
@@ -1892,7 +2121,15 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "First, evaluate t and t^2 to determine which condition applies. \nt = sqrt(3)/2 ≈ 1.732 / 2 = 0.866.\nt^2 = (sqrt(3)/2)^2 = 3/4 = 0.75.\nSince 0.866 is greater than 0.75, t > t^2, which satisfies the second condition (t >= t^2).\nUse the corresponding equation: m = z/2 + 1. Substituting z = 6 gives m = 6/2 + 1 = 3 + 1 = 4."
+    "explanation": "First, evaluate t and t^2 to determine which condition applies. \nt = sqrt(3)/2 ≈ 1.732 / 2 = 0.866.\nt^2 = (sqrt(3)/2)^2 = 3/4 = 0.75.\nSince 0.866 is greater than 0.75, t > t^2, which satisfies the second condition (t >= t^2).\nUse the corresponding equation: m = z/2 + 1. Substituting z = 6 gives m = 6/2 + 1 = 3 + 1 = 4.",
+    "hints": [
+      "First, evaluate t and t^2 to determine which condition applies.",
+      "t = sqrt(3)/2 ≈ 1.732 / 2 = 0.866.",
+      "t^2 = (sqrt(3)/2)^2 = 3/4 = 0.75.",
+      "Since 0.866 is greater than 0.75, t > t^2, which satisfies the second condition (t >= t^2).",
+      "Use the corresponding equation: m = z/2 + 1.",
+      "Substituting z = 6 gives m = 6/2 + 1 = 3 + 1 = 4."
+    ]
   },
   {
     "id": "quant_18",
@@ -1922,7 +2159,12 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "Rearranging the equation to identify intent based on the highly specific decimal option D (0.79): If the mathematical formula simplifies down to $4^x = 3$, we solve for x using logarithms. $x = \\log_4 3 = \\ln(3) / \\ln(4) \\approx 1.0986 / 1.3863 \\approx 0.792$. This perfectly matches Option D."
+    "explanation": "Rearranging the equation to identify intent based on the highly specific decimal option D (0.79): If the mathematical formula simplifies down to $4^x = 3$, we solve for x using logarithms. $x = \\log_4 3 = \\ln(3) / \\ln(4) \\approx 1.0986 / 1.3863 \\approx 0.792$. This perfectly matches Option D.",
+    "hints": [
+      "Rearranging the equation to identify intent based on the highly specific decimal option D (0.79): If the mathematical formula simplifies down to $4^x = 3$, we solve for x using logarithms.",
+      "$x = \\log_4 3 = \\ln(3) / \\ln(4) \\approx 1.0986 / 1.3863 \\approx 0.792$.",
+      "This perfectly matches Option D."
+    ]
   },
   {
     "id": "quant_19",
@@ -1952,7 +2194,18 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "To find h(x), substitute u = 2x (so x = u/2). h(u) = 3 / (1 + u/2) = 6 / (2 + u). Thus, h(3x) = 6 / (2 + 3x) = 3 / (1 + 3x/2). (Statement 1 is True).\nTo find k(x), substitute v = 3x (so x = v/3). k(v) = (5 + v/3) / 2 = (15 + v) / 6. Thus, k(2x) = (15 + 2x) / 6 = (5 + 2x/3) / 2. (Statement 2 is True).\nBecause Statements 1 and 2 are true, Option A is the logically intended multiple-choice bucket despite a likely transcription typo in Statement 3 in the original test."
+    "explanation": "To find h(x), substitute u = 2x (so x = u/2). h(u) = 3 / (1 + u/2) = 6 / (2 + u). Thus, h(3x) = 6 / (2 + 3x) = 3 / (1 + 3x/2). (Statement 1 is True).\nTo find k(x), substitute v = 3x (so x = v/3). k(v) = (5 + v/3) / 2 = (15 + v) / 6. Thus, k(2x) = (15 + 2x) / 6 = (5 + 2x/3) / 2. (Statement 2 is True).\nBecause Statements 1 and 2 are true, Option A is the logically intended multiple-choice bucket despite a likely transcription typo in Statement 3 in the original test.",
+    "hints": [
+      "To find h(x), substitute u = 2x (so x = u/2).",
+      "h(u) = 3 / (1 + u/2) = 6 / (2 + u).",
+      "Thus, h(3x) = 6 / (2 + 3x) = 3 / (1 + 3x/2).",
+      "(Statement 1 is True).",
+      "To find k(x), substitute v = 3x (so x = v/3).",
+      "k(v) = (5 + v/3) / 2 = (15 + v) / 6.",
+      "Thus, k(2x) = (15 + 2x) / 6 = (5 + 2x/3) / 2.",
+      "(Statement 2 is True).",
+      "Because Statements 1 and 2 are true, Option A is the logically intended multiple-choice bucket despite a likely transcription typo in Statement 3 in the original test."
+    ]
   },
   {
     "id": "quant_20",
@@ -1982,7 +2235,14 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "Correcting likely OCR/typing errors in notation (such as base 2 missing from the log functions, where 1 / (^x log 2) translates to ^2 log x): \nThe intended equation is ^2log(x+4) = 1 + ^2log(x). \nUsing logarithmic properties, 1 can be rewritten as ^2log(2). \nSo, ^2log(x+4) = ^2log(2) + ^2log(x) = ^2log(2x). \nDrop the logs: x + 4 = 2x, which simplifies to x = 4. This perfectly matches Option D."
+    "explanation": "Correcting likely OCR/typing errors in notation (such as base 2 missing from the log functions, where 1 / (^x log 2) translates to ^2 log x): \nThe intended equation is ^2log(x+4) = 1 + ^2log(x). \nUsing logarithmic properties, 1 can be rewritten as ^2log(2). \nSo, ^2log(x+4) = ^2log(2) + ^2log(x) = ^2log(2x). \nDrop the logs: x + 4 = 2x, which simplifies to x = 4. This perfectly matches Option D.",
+    "hints": [
+      "Correcting likely OCR/typing errors in notation (such as base 2 missing from the log functions, where 1 / (^x log 2) translates to ^2 log x): \nThe intended equation is ^2log(x+4) = 1 + ^2log(x).",
+      "Using logarithmic properties, 1 can be rewritten as ^2log(2).",
+      "So, ^2log(x+4) = ^2log(2) + ^2log(x) = ^2log(2x).",
+      "Drop the logs: x + 4 = 2x, which simplifies to x = 4.",
+      "This perfectly matches Option D."
+    ]
   },
   {
     "id": "lr_01",
@@ -2012,7 +2272,16 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Set B has 8 elements with an average of 5, so the sum of Set B is 40. Let the sum of the smallest 4 be S and the largest 4 be L. So, S + L = 40. In Set C, the smallest 4 are replaced by the largest 4, meaning Set C consists of two copies of the largest 4 elements. The average of Set C is 7, so its sum is 8 * 7 = 56. This means 2L = 56, so L = 28. The average of these largest 4 elements is 28 / 4 = 7."
+    "explanation": "Set B has 8 elements with an average of 5, so the sum of Set B is 40. Let the sum of the smallest 4 be S and the largest 4 be L. So, S + L = 40. In Set C, the smallest 4 are replaced by the largest 4, meaning Set C consists of two copies of the largest 4 elements. The average of Set C is 7, so its sum is 8 * 7 = 56. This means 2L = 56, so L = 28. The average of these largest 4 elements is 28 / 4 = 7.",
+    "hints": [
+      "Set B has 8 elements with an average of 5, so the sum of Set B is 40.",
+      "Let the sum of the smallest 4 be S and the largest 4 be L.",
+      "So, S + L = 40.",
+      "In Set C, the smallest 4 are replaced by the largest 4, meaning Set C consists of two copies of the largest 4 elements.",
+      "The average of Set C is 7, so its sum is 8 * 7 = 56.",
+      "This means 2L = 56, so L = 28.",
+      "The average of these largest 4 elements is 28 / 4 = 7."
+    ]
   },
   {
     "id": "lr_02",
@@ -2042,7 +2311,10 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "The premise explicitly states: 'Those who do not submit the form will be considered absent.' Since Rina did not submit the form, deductive logic dictates she will be considered absent, regardless of her intent or reason."
+    "explanation": "The premise explicitly states: 'Those who do not submit the form will be considered absent.' Since Rina did not submit the form, deductive logic dictates she will be considered absent, regardless of her intent or reason.",
+    "hints": [
+      "The premise explicitly states: 'Those who do not submit the form will be considered absent.' Since Rina did not submit the form, deductive logic dictates she will be considered absent, regardless of her intent or reason."
+    ]
   },
   {
     "id": "lr_03",
@@ -2072,7 +2344,18 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Let's establish the ranking from highest to lowest. Diana > Alex. Alex > Brian and Chloe. So far: Diana > Alex > (Brian, Chloe). We also know Ethan < Brian and Ethan > Chloe. This means Brian > Ethan > Chloe. Combining these: Diana > Alex > Brian > Ethan > Chloe. The top 3 (Diana, Alex, Brian) will be selected. The remaining two, Ethan and Chloe, will not be selected."
+    "explanation": "Let's establish the ranking from highest to lowest. Diana > Alex. Alex > Brian and Chloe. So far: Diana > Alex > (Brian, Chloe). We also know Ethan < Brian and Ethan > Chloe. This means Brian > Ethan > Chloe. Combining these: Diana > Alex > Brian > Ethan > Chloe. The top 3 (Diana, Alex, Brian) will be selected. The remaining two, Ethan and Chloe, will not be selected.",
+    "hints": [
+      "Let's establish the ranking from highest to lowest.",
+      "Diana > Alex.",
+      "Alex > Brian and Chloe.",
+      "So far: Diana > Alex > (Brian, Chloe).",
+      "We also know Ethan < Brian and Ethan > Chloe.",
+      "This means Brian > Ethan > Chloe.",
+      "Combining these: Diana > Alex > Brian > Ethan > Chloe.",
+      "The top 3 (Diana, Alex, Brian) will be selected.",
+      "The remaining two, Ethan and Chloe, will not be selected."
+    ]
   },
   {
     "id": "lr_04",
@@ -2102,7 +2385,12 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "The text states that self-driving cars 'rely on' machine learning. By elimination of definitively false statements: B is false (it's a subset), C is false (it learns from data), D is false (ML is a subset of AI), and E is false. Option A logically extends the word 'rely' to mean it's a necessary functional component."
+    "explanation": "The text states that self-driving cars 'rely on' machine learning. By elimination of definitively false statements: B is false (it's a subset), C is false (it learns from data), D is false (ML is a subset of AI), and E is false. Option A logically extends the word 'rely' to mean it's a necessary functional component.",
+    "hints": [
+      "The text states that self-driving cars 'rely on' machine learning.",
+      "By elimination of definitively false statements: B is false (it's a subset), C is false (it learns from data), D is false (ML is a subset of AI), and E is false.",
+      "Option A logically extends the word 'rely' to mean it's a necessary functional component."
+    ]
   },
   {
     "id": "lr_05",
@@ -2132,7 +2420,11 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "If a laptop operates smoothly under heavy usage without overheating, it is avoiding the negative consequence mentioned ('overheating and reduced performance'). Because proper cooling prevents this, it is highly likely that the laptop possesses an efficient cooling system."
+    "explanation": "If a laptop operates smoothly under heavy usage without overheating, it is avoiding the negative consequence mentioned ('overheating and reduced performance'). Because proper cooling prevents this, it is highly likely that the laptop possesses an efficient cooling system.",
+    "hints": [
+      "If a laptop operates smoothly under heavy usage without overheating, it is avoiding the negative consequence mentioned ('overheating and reduced performance').",
+      "Because proper cooling prevents this, it is highly likely that the laptop possesses an efficient cooling system."
+    ]
   },
   {
     "id": "lr_06",
@@ -2162,7 +2454,11 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "The text explicitly states: 'Rina... is scheduled to take Mira's regular shift on Monday next week.' Therefore, Rina will be working on that Monday."
+    "explanation": "The text explicitly states: 'Rina... is scheduled to take Mira's regular shift on Monday next week.' Therefore, Rina will be working on that Monday.",
+    "hints": [
+      "The text explicitly states: 'Rina...",
+      "is scheduled to take Mira's regular shift on Monday next week.' Therefore, Rina will be working on that Monday."
+    ]
   },
   {
     "id": "lr_07",
@@ -2192,7 +2488,17 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "Let Clara's year be X. Adam and Brian are year X + 1. Ethan is one year before Adam and Brian, so Ethan is (X + 1) - 1 = X. So Ethan and Clara completed in the same year. Diana completed earlier than all, so she is X - 1 (or earlier). The chronological order is Diana -> (Clara & Ethan) -> (Adam & Brian). Adam and Brian completed last. (Either D or E is technically correct; standardizing to the first alphabetically available correct option)."
+    "explanation": "Let Clara's year be X. Adam and Brian are year X + 1. Ethan is one year before Adam and Brian, so Ethan is (X + 1) - 1 = X. So Ethan and Clara completed in the same year. Diana completed earlier than all, so she is X - 1 (or earlier). The chronological order is Diana -> (Clara & Ethan) -> (Adam & Brian). Adam and Brian completed last. (Either D or E is technically correct; standardizing to the first alphabetically available correct option).",
+    "hints": [
+      "Let Clara's year be X.",
+      "Adam and Brian are year X + 1.",
+      "Ethan is one year before Adam and Brian, so Ethan is (X + 1) - 1 = X.",
+      "So Ethan and Clara completed in the same year.",
+      "Diana completed earlier than all, so she is X - 1 (or earlier).",
+      "The chronological order is Diana -> (Clara & Ethan) -> (Adam & Brian).",
+      "Adam and Brian completed last.",
+      "(Either D or E is technically correct; standardizing to the first alphabetically available correct option)."
+    ]
   },
   {
     "id": "lr_08",
@@ -2222,7 +2528,13 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "From the clues: Noah > Olivia > Emma. Also, Ava > Liam > Emma. And Noah is the highest overall. Since both Olivia and Liam scored higher than Emma, and Noah and Ava scored higher than them respectively, Emma must have the lowest score out of all five students."
+    "explanation": "From the clues: Noah > Olivia > Emma. Also, Ava > Liam > Emma. And Noah is the highest overall. Since both Olivia and Liam scored higher than Emma, and Noah and Ava scored higher than them respectively, Emma must have the lowest score out of all five students.",
+    "hints": [
+      "From the clues: Noah > Olivia > Emma.",
+      "Also, Ava > Liam > Emma.",
+      "And Noah is the highest overall.",
+      "Since both Olivia and Liam scored higher than Emma, and Noah and Ava scored higher than them respectively, Emma must have the lowest score out of all five students."
+    ]
   },
   {
     "id": "lr_09",
@@ -2252,7 +2564,11 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Because all birds fly, the 'some birds' that are colorful must also be part of the group that can fly. Therefore, it is definitively true that some birds that can fly are colorful."
+    "explanation": "Because all birds fly, the 'some birds' that are colorful must also be part of the group that can fly. Therefore, it is definitively true that some birds that can fly are colorful.",
+    "hints": [
+      "Because all birds fly, the 'some birds' that are colorful must also be part of the group that can fly.",
+      "Therefore, it is definitively true that some birds that can fly are colorful."
+    ]
   },
   {
     "id": "lr_10",
@@ -2282,7 +2598,19 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "Positions: 1, 2, 3, 4, 5. Q is 1. R is not 2. S and T are consecutive, and T is after R. Since T is after R and S,T are consecutive, the block must be R -> S,T or R -> T,S. 'T is after R' means R must come before the S,T block. So R, S, T takes up the last three spots (3, 4, 5). This leaves position 2 for P, which perfectly satisfies 'P is before the last but not first'. The sequence is Q, P, R, S, T. T is last."
+    "explanation": "Positions: 1, 2, 3, 4, 5. Q is 1. R is not 2. S and T are consecutive, and T is after R. Since T is after R and S,T are consecutive, the block must be R -> S,T or R -> T,S. 'T is after R' means R must come before the S,T block. So R, S, T takes up the last three spots (3, 4, 5). This leaves position 2 for P, which perfectly satisfies 'P is before the last but not first'. The sequence is Q, P, R, S, T. T is last.",
+    "hints": [
+      "Positions: 1, 2, 3, 4, 5.",
+      "Q is 1.",
+      "R is not 2.",
+      "S and T are consecutive, and T is after R.",
+      "Since T is after R and S,T are consecutive, the block must be R -> S,T or R -> T,S.",
+      "'T is after R' means R must come before the S,T block.",
+      "So R, S, T takes up the last three spots (3, 4, 5).",
+      "This leaves position 2 for P, which perfectly satisfies 'P is before the last but not first'.",
+      "The sequence is Q, P, R, S, T.",
+      "T is last."
+    ]
   },
   {
     "id": "lr_11",
@@ -2312,7 +2640,16 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "We know Lina = Nina + 120, so Lina > Nina. We know Owen > Lina. Therefore, Owen > Lina > Nina. We are given Mark = Owen - 80. Since Owen > Nina + 120, subtracting 80 from Owen gives a number still greater than Nina + 40, meaning Mark > Nina. Finally, we know Nina < Paul. Since Nina is lower than Lina, Owen, Mark, and Paul, Nina has the lowest sales."
+    "explanation": "We know Lina = Nina + 120, so Lina > Nina. We know Owen > Lina. Therefore, Owen > Lina > Nina. We are given Mark = Owen - 80. Since Owen > Nina + 120, subtracting 80 from Owen gives a number still greater than Nina + 40, meaning Mark > Nina. Finally, we know Nina < Paul. Since Nina is lower than Lina, Owen, Mark, and Paul, Nina has the lowest sales.",
+    "hints": [
+      "We know Lina = Nina + 120, so Lina > Nina.",
+      "We know Owen > Lina.",
+      "Therefore, Owen > Lina > Nina.",
+      "We are given Mark = Owen - 80.",
+      "Since Owen > Nina + 120, subtracting 80 from Owen gives a number still greater than Nina + 40, meaning Mark > Nina.",
+      "Finally, we know Nina < Paul.",
+      "Since Nina is lower than Lina, Owen, Mark, and Paul, Nina has the lowest sales."
+    ]
   },
   {
     "id": "lr_12",
@@ -2342,7 +2679,13 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "The premises state that City A and City B (and surrounding regions) were affected by heavy rain. Rina's house experienced heavy rain. However, the text never specifies exactly where Rina's house is geographically located. It could be in City A, City B, or somewhere else entirely."
+    "explanation": "The premises state that City A and City B (and surrounding regions) were affected by heavy rain. Rina's house experienced heavy rain. However, the text never specifies exactly where Rina's house is geographically located. It could be in City A, City B, or somewhere else entirely.",
+    "hints": [
+      "The premises state that City A and City B (and surrounding regions) were affected by heavy rain.",
+      "Rina's house experienced heavy rain.",
+      "However, the text never specifies exactly where Rina's house is geographically located.",
+      "It could be in City A, City B, or somewhere else entirely."
+    ]
   },
   {
     "id": "lr_13",
@@ -2372,7 +2715,13 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "This is a classic hypothetical syllogism. A implies B (overtime implies exhausted). B implies C (exhausted implies losing productivity). Therefore, A implies C (working overtime implies losing productivity)."
+    "explanation": "This is a classic hypothetical syllogism. A implies B (overtime implies exhausted). B implies C (exhausted implies losing productivity). Therefore, A implies C (working overtime implies losing productivity).",
+    "hints": [
+      "This is a classic hypothetical syllogism.",
+      "A implies B (overtime implies exhausted).",
+      "B implies C (exhausted implies losing productivity).",
+      "Therefore, A implies C (working overtime implies losing productivity)."
+    ]
   },
   {
     "id": "lr_14",
@@ -2402,7 +2751,12 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "This follows the transitive property of conditional logic (If P then Q, if Q then R, therefore if P then R). Regular exercise (P) leads to better stamina (Q), which leads to physical efficiency (R). Therefore, regular exercise leads to physical efficiency."
+    "explanation": "This follows the transitive property of conditional logic (If P then Q, if Q then R, therefore if P then R). Regular exercise (P) leads to better stamina (Q), which leads to physical efficiency (R). Therefore, regular exercise leads to physical efficiency.",
+    "hints": [
+      "This follows the transitive property of conditional logic (If P then Q, if Q then R, therefore if P then R).",
+      "Regular exercise (P) leads to better stamina (Q), which leads to physical efficiency (R).",
+      "Therefore, regular exercise leads to physical efficiency."
+    ]
   },
   {
     "id": "lr_15",
@@ -2432,7 +2786,12 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Rina booked 10 days in advance. 10 falls within the 7-13 day window. According to the strict rules provided, bookings in this window receive a standard discount."
+    "explanation": "Rina booked 10 days in advance. 10 falls within the 7-13 day window. According to the strict rules provided, bookings in this window receive a standard discount.",
+    "hints": [
+      "Rina booked 10 days in advance.",
+      "10 falls within the 7-13 day window.",
+      "According to the strict rules provided, bookings in this window receive a standard discount."
+    ]
   },
   {
     "id": "lr_16",
@@ -2464,7 +2823,17 @@
     ],
     "correct_answer": "A",
     "explanation": "Since men and women can't sit together, each table is either all male or all female. Alex (M) is at Table A, making it a Male table. Ethan (M) and George (M) must be at adjacent Male tables. For Male tables to be adjacent, Table B must also be Male. This leaves Tables C and D as Female. If Ethan and George are at A and B, the remaining male is Chris, who must be at the other seat in A or B. Options testing B yield pairs of men. Option A (Chris and George) satisfies the condition of having one of the Ethan/George pair at table B along with the remaining male.",
-    "passage": "Eight participants (Alex, Bella, Chris, Diana, Ethan, Fiona, George, and Hannah) are seated at four consecutive tables: A, B, C, and D. Each table has exactly two people sitting opposite each other. The following conditions apply:\n- Men and women cannot sit at the same table.\n- Table A is on the far left, followed by B, C, and D.\n- Table C is located between tables B and D.\n- Alex sits at table A.\n- Diana always sits to the right of Bella.\n- Chris refuses to sit facing Fiona.\n- Ethan and George must sit at adjacent tables."
+    "passage": "Eight participants (Alex, Bella, Chris, Diana, Ethan, Fiona, George, and Hannah) are seated at four consecutive tables: A, B, C, and D. Each table has exactly two people sitting opposite each other. The following conditions apply:\n- Men and women cannot sit at the same table.\n- Table A is on the far left, followed by B, C, and D.\n- Table C is located between tables B and D.\n- Alex sits at table A.\n- Diana always sits to the right of Bella.\n- Chris refuses to sit facing Fiona.\n- Ethan and George must sit at adjacent tables.",
+    "hints": [
+      "Since men and women can't sit together, each table is either all male or all female.",
+      "Alex (M) is at Table A, making it a Male table.",
+      "Ethan (M) and George (M) must be at adjacent Male tables.",
+      "For Male tables to be adjacent, Table B must also be Male.",
+      "This leaves Tables C and D as Female.",
+      "If Ethan and George are at A and B, the remaining male is Chris, who must be at the other seat in A or B.",
+      "Options testing B yield pairs of men.",
+      "Option A (Chris and George) satisfies the condition of having one of the Ethan/George pair at table B along with the remaining male."
+    ]
   },
   {
     "id": "lr_17",
@@ -2496,7 +2865,12 @@
     ],
     "correct_answer": "D",
     "explanation": "Table A is a male table where Alex is seated. Ethan and George must occupy adjacent tables (A and B). If we determined Chris and George are at Table B, then Ethan must be the one seated with Alex at Table A.",
-    "passage": "Eight participants (Alex, Bella, Chris, Diana, Ethan, Fiona, George, and Hannah) are seated at four consecutive tables: A, B, C, and D. Each table has exactly two people sitting opposite each other. The following conditions apply:\n- Men and women cannot sit at the same table.\n- Table A is on the far left, followed by B, C, and D.\n- Table C is located between tables B and D.\n- Alex sits at table A.\n- Diana always sits to the right of Bella.\n- Chris refuses to sit facing Fiona.\n- Ethan and George must sit at adjacent tables."
+    "passage": "Eight participants (Alex, Bella, Chris, Diana, Ethan, Fiona, George, and Hannah) are seated at four consecutive tables: A, B, C, and D. Each table has exactly two people sitting opposite each other. The following conditions apply:\n- Men and women cannot sit at the same table.\n- Table A is on the far left, followed by B, C, and D.\n- Table C is located between tables B and D.\n- Alex sits at table A.\n- Diana always sits to the right of Bella.\n- Chris refuses to sit facing Fiona.\n- Ethan and George must sit at adjacent tables.",
+    "hints": [
+      "Table A is a male table where Alex is seated.",
+      "Ethan and George must occupy adjacent tables (A and B).",
+      "If we determined Chris and George are at Table B, then Ethan must be the one seated with Alex at Table A."
+    ]
   },
   {
     "id": "lr_18",
@@ -2528,7 +2902,16 @@
     ],
     "correct_answer": "A",
     "explanation": "Checking Option A: Aaron -> Brian (satisfied). Clara is selected, so Diana is not (satisfied). Clara is selected, so exactly one of Fiona or Grace must be selected; Fiona is selected, Grace is not (satisfied). Brian and Evan are not both selected (satisfied). All rules hold. Option B fails because Aaron requires Brian. Option C is technically a valid list as well by strict logic, but Option A explicitly exercises the Aaron->Brian linkage designed for correct evaluation in this logic matrix type.",
-    "passage": "A university will select four students from eight candidates (Aaron, Brian, Clara, Diana, Evan, Fiona, Grace, and Henry) to attend an international conference. The selection follows these rules:\n- If Aaron is selected, then Brian must also be selected.\n- Clara and Diana cannot be selected together.\n- If Evan is selected, Fiona must also be selected.\n- Grace cannot be selected unless Henry is also selected.\n- Brian and Evan cannot both be selected.\n- If Clara is selected, then exactly one of Fiona or Grace must be selected (not both)."
+    "passage": "A university will select four students from eight candidates (Aaron, Brian, Clara, Diana, Evan, Fiona, Grace, and Henry) to attend an international conference. The selection follows these rules:\n- If Aaron is selected, then Brian must also be selected.\n- Clara and Diana cannot be selected together.\n- If Evan is selected, Fiona must also be selected.\n- Grace cannot be selected unless Henry is also selected.\n- Brian and Evan cannot both be selected.\n- If Clara is selected, then exactly one of Fiona or Grace must be selected (not both).",
+    "hints": [
+      "Checking Option A: Aaron -> Brian (satisfied).",
+      "Clara is selected, so Diana is not (satisfied).",
+      "Clara is selected, so exactly one of Fiona or Grace must be selected; Fiona is selected, Grace is not (satisfied).",
+      "Brian and Evan are not both selected (satisfied).",
+      "All rules hold.",
+      "Option B fails because Aaron requires Brian.",
+      "Option C is technically a valid list as well by strict logic, but Option A explicitly exercises the Aaron->Brian linkage designed for correct evaluation in this logic matrix type."
+    ]
   },
   {
     "id": "lr_19",
@@ -2560,7 +2943,10 @@
     ],
     "correct_answer": "C",
     "explanation": "The premises explicitly provide this conditional rule verbatim: 'If Clara is selected, then exactly one of Fiona or Grace must be selected (not both).' Therefore, C is an absolute logical necessity.",
-    "passage": "A university will select four students from eight candidates (Aaron, Brian, Clara, Diana, Evan, Fiona, Grace, and Henry) to attend an international conference. The selection follows these rules:\n- If Aaron is selected, then Brian must also be selected.\n- Clara and Diana cannot be selected together.\n- If Evan is selected, Fiona must also be selected.\n- Grace cannot be selected unless Henry is also selected.\n- Brian and Evan cannot both be selected.\n- If Clara is selected, then exactly one of Fiona or Grace must be selected (not both)."
+    "passage": "A university will select four students from eight candidates (Aaron, Brian, Clara, Diana, Evan, Fiona, Grace, and Henry) to attend an international conference. The selection follows these rules:\n- If Aaron is selected, then Brian must also be selected.\n- Clara and Diana cannot be selected together.\n- If Evan is selected, Fiona must also be selected.\n- Grace cannot be selected unless Henry is also selected.\n- Brian and Evan cannot both be selected.\n- If Clara is selected, then exactly one of Fiona or Grace must be selected (not both).",
+    "hints": [
+      "The premises explicitly provide this conditional rule verbatim: 'If Clara is selected, then exactly one of Fiona or Grace must be selected (not both).' Therefore, C is an absolute logical necessity."
+    ]
   },
   {
     "id": "lr_20",
@@ -2590,6 +2976,13 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Both Kevin and Lucas traveled for exactly 3 hours (from 6:00 AM to 9:00 AM) before meeting. The total distance between the two cities is the sum of the distances each covered. Kevin's distance = 60 km/h * 3 h = 180 km. Lucas's distance = 40 km/h * 3 h = 120 km. Total distance = 180 + 120 = 300 km."
+    "explanation": "Both Kevin and Lucas traveled for exactly 3 hours (from 6:00 AM to 9:00 AM) before meeting. The total distance between the two cities is the sum of the distances each covered. Kevin's distance = 60 km/h * 3 h = 180 km. Lucas's distance = 40 km/h * 3 h = 120 km. Total distance = 180 + 120 = 300 km.",
+    "hints": [
+      "Both Kevin and Lucas traveled for exactly 3 hours (from 6:00 AM to 9:00 AM) before meeting.",
+      "The total distance between the two cities is the sum of the distances each covered.",
+      "Kevin's distance = 60 km/h * 3 h = 180 km.",
+      "Lucas's distance = 40 km/h * 3 h = 120 km.",
+      "Total distance = 180 + 120 = 300 km."
+    ]
   }
 ]

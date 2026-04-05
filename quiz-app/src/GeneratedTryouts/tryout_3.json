@@ -27,7 +27,14 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "This is a classic stars and bars problem[cite: 8]. Since each of the 5 children needs at least one candy, we first give one to each, leaving us with 15 candies to distribute freely among the 5 kids. The formula for distributing $n$ identical items among $k$ distinct bins is $C(n+k-1, k-1)$. So, we calculate $C(15+5-1, 5-1) = C(19, 4)$. Working that out: $(19 \\times 18 \\times 17 \\times 16) / (4 \\times 3 \\times 2 \\times 1) = 3876$."
+    "explanation": "This is a classic stars and bars problem[cite: 8]. Since each of the 5 children needs at least one candy, we first give one to each, leaving us with 15 candies to distribute freely among the 5 kids. The formula for distributing $n$ identical items among $k$ distinct bins is $C(n+k-1, k-1)$. So, we calculate $C(15+5-1, 5-1) = C(19, 4)$. Working that out: $(19 \\times 18 \\times 17 \\times 16) / (4 \\times 3 \\times 2 \\times 1) = 3876$.",
+    "hints": [
+      "This is a classic stars and bars problem[cite: 8].",
+      "Since each of the 5 children needs at least one candy, we first give one to each, leaving us with 15 candies to distribute freely among the 5 kids.",
+      "The formula for distributing $n$ identical items among $k$ distinct bins is $C(n+k-1, k-1)$.",
+      "So, we calculate $C(15+5-1, 5-1) = C(19, 4)$.",
+      "Working that out: $(19 \\times 18 \\times 17 \\times 16) / (4 \\times 3 \\times 2 \\times 1) = 3876$."
+    ]
   },
   {
     "id": "math_02",
@@ -57,7 +64,12 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "We are just choosing a group of 3 from 10 people without worrying about order or specific roles[cite: 14, 15]. We use the combination formula $C(10, 3)$. That is $(10 \\times 9 \\times 8) / (3 \\times 2 \\times 1) = 120$."
+    "explanation": "We are just choosing a group of 3 from 10 people without worrying about order or specific roles[cite: 14, 15]. We use the combination formula $C(10, 3)$. That is $(10 \\times 9 \\times 8) / (3 \\times 2 \\times 1) = 120$.",
+    "hints": [
+      "We are just choosing a group of 3 from 10 people without worrying about order or specific roles[cite: 14, 15].",
+      "We use the combination formula $C(10, 3)$.",
+      "That is $(10 \\times 9 \\times 8) / (3 \\times 2 \\times 1) = 120$."
+    ]
   },
   {
     "id": "math_03",
@@ -87,7 +99,15 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "Let's check them one by one[cite: 21, 23, 24, 25]. For statement 3, plugging in the lowest domain value $x = 0$ into $f(x) = 3x + 2$ gives us 2, and since the function goes up from there, the range is $y \\ge 2$ (correct). For statement 2, the domain of an inverse function is exactly the range of the original function, so it is $x \\ge 2$ (correct). For statement 1, if we plug 2 into the inverse function, we get back the original $x$, which is 0 (correct). Finally, statement 4 is the fundamental definition of inverse functions canceling each other out (correct). They are all right."
+    "explanation": "Let's check them one by one[cite: 21, 23, 24, 25]. For statement 3, plugging in the lowest domain value $x = 0$ into $f(x) = 3x + 2$ gives us 2, and since the function goes up from there, the range is $y \\ge 2$ (correct). For statement 2, the domain of an inverse function is exactly the range of the original function, so it is $x \\ge 2$ (correct). For statement 1, if we plug 2 into the inverse function, we get back the original $x$, which is 0 (correct). Finally, statement 4 is the fundamental definition of inverse functions canceling each other out (correct). They are all right.",
+    "hints": [
+      "Let's check them one by one[cite: 21, 23, 24, 25].",
+      "For statement 3, plugging in the lowest domain value $x = 0$ into $f(x) = 3x + 2$ gives us 2, and since the function goes up from there, the range is $y \\ge 2$ (correct).",
+      "For statement 2, the domain of an inverse function is exactly the range of the original function, so it is $x \\ge 2$ (correct).",
+      "For statement 1, if we plug 2 into the inverse function, we get back the original $x$, which is 0 (correct).",
+      "Finally, statement 4 is the fundamental definition of inverse functions canceling each other out (correct).",
+      "They are all right."
+    ]
   },
   {
     "id": "math_04",
@@ -117,7 +137,15 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Since the overall average is 15 and the male average is 15, the female average $p$ must also be exactly 15[cite: 32, 33, 34]. For the standard deviation, the overall variance is 9 (since standard deviation is 3). Because both groups have the same mean, the total variance is just the simple average of the male and female variances. The male variance is 9, so the female variance must also be 9 for the total to stay at 9. This means the female standard deviation $q$ is 3. Adding them together, $p + q = 15 + 3 = 18$."
+    "explanation": "Since the overall average is 15 and the male average is 15, the female average $p$ must also be exactly 15[cite: 32, 33, 34]. For the standard deviation, the overall variance is 9 (since standard deviation is 3). Because both groups have the same mean, the total variance is just the simple average of the male and female variances. The male variance is 9, so the female variance must also be 9 for the total to stay at 9. This means the female standard deviation $q$ is 3. Adding them together, $p + q = 15 + 3 = 18$.",
+    "hints": [
+      "Since the overall average is 15 and the male average is 15, the female average $p$ must also be exactly 15[cite: 32, 33, 34].",
+      "For the standard deviation, the overall variance is 9 (since standard deviation is 3).",
+      "Because both groups have the same mean, the total variance is just the simple average of the male and female variances.",
+      "The male variance is 9, so the female variance must also be 9 for the total to stay at 9.",
+      "This means the female standard deviation $q$ is 3.",
+      "Adding them together, $p + q = 15 + 3 = 18$."
+    ]
   },
   {
     "id": "math_05",
@@ -147,7 +175,13 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "To maximize the people who speak zero languages, we need to minimize the number of people who speak at least one[cite: 40, 41]. We do this by assuming the language speakers overlap perfectly. If the same 400 people who speak English also happen to be the ones speaking Mandarin, Arabic, and Japanese, then those 400 folks cover all the language skills present. That leaves exactly $600 - 400 = 200$ people who don't speak any of them."
+    "explanation": "To maximize the people who speak zero languages, we need to minimize the number of people who speak at least one[cite: 40, 41]. We do this by assuming the language speakers overlap perfectly. If the same 400 people who speak English also happen to be the ones speaking Mandarin, Arabic, and Japanese, then those 400 folks cover all the language skills present. That leaves exactly $600 - 400 = 200$ people who don't speak any of them.",
+    "hints": [
+      "To maximize the people who speak zero languages, we need to minimize the number of people who speak at least one[cite: 40, 41].",
+      "We do this by assuming the language speakers overlap perfectly.",
+      "If the same 400 people who speak English also happen to be the ones speaking Mandarin, Arabic, and Japanese, then those 400 folks cover all the language skills present.",
+      "That leaves exactly $600 - 400 = 200$ people who don't speak any of them."
+    ]
   },
   {
     "id": "math_06",
@@ -177,7 +211,14 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "There is a super handy vector property for triangles[cite: 47]. If a point O inside a triangle satisfies $a\\vec{OA} + b\\vec{OB} + c\\vec{OC} = 0$, the areas of the smaller triangles OBC, OCA, and OAB are strictly proportional to those coefficients $a$, $b$, and $c$. So, the area of AOC corresponds to the coefficient of OB, which is 4. The area of the entire triangle ABC corresponds to the sum of all coefficients: $1 + 4 + 3 = 8$. The ratio of the total area ABC to AOC is therefore $8 : 4$, which simplifies down to 2."
+    "explanation": "There is a super handy vector property for triangles[cite: 47]. If a point O inside a triangle satisfies $a\\vec{OA} + b\\vec{OB} + c\\vec{OC} = 0$, the areas of the smaller triangles OBC, OCA, and OAB are strictly proportional to those coefficients $a$, $b$, and $c$. So, the area of AOC corresponds to the coefficient of OB, which is 4. The area of the entire triangle ABC corresponds to the sum of all coefficients: $1 + 4 + 3 = 8$. The ratio of the total area ABC to AOC is therefore $8 : 4$, which simplifies down to 2.",
+    "hints": [
+      "There is a super handy vector property for triangles[cite: 47].",
+      "If a point O inside a triangle satisfies $a\\vec{OA} + b\\vec{OB} + c\\vec{OC} = 0$, the areas of the smaller triangles OBC, OCA, and OAB are strictly proportional to those coefficients $a$, $b$, and $c$.",
+      "So, the area of AOC corresponds to the coefficient of OB, which is 4.",
+      "The area of the entire triangle ABC corresponds to the sum of all coefficients: $1 + 4 + 3 = 8$.",
+      "The ratio of the total area ABC to AOC is therefore $8 : 4$, which simplifies down to 2."
+    ]
   },
   {
     "id": "math_07",
@@ -207,7 +248,15 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "First, we find $g(x)$. If $g(x+3) = x$, we can substitute $x$ with $x-3$ to get $g(x) = x-3$[cite: 53]. Plugging this into the quadratic gives us $(x-3)^2 + 4(x-3) + 3 = 0$. Expanding that out leaves us with $x^2 - 2x = 0$, meaning our original roots are $x_1 = 0$ and $x_2 = 2$. The question asks for a new equation with roots shifted up by 1, so our new roots are 1 and 3. The quadratic with these roots is $(x-1)(x-3) = 0$, which multiplies out to $x^2 - 4x + 3 = 0$."
+    "explanation": "First, we find $g(x)$. If $g(x+3) = x$, we can substitute $x$ with $x-3$ to get $g(x) = x-3$[cite: 53]. Plugging this into the quadratic gives us $(x-3)^2 + 4(x-3) + 3 = 0$. Expanding that out leaves us with $x^2 - 2x = 0$, meaning our original roots are $x_1 = 0$ and $x_2 = 2$. The question asks for a new equation with roots shifted up by 1, so our new roots are 1 and 3. The quadratic with these roots is $(x-1)(x-3) = 0$, which multiplies out to $x^2 - 4x + 3 = 0$.",
+    "hints": [
+      "First, we find $g(x)$.",
+      "If $g(x+3) = x$, we can substitute $x$ with $x-3$ to get $g(x) = x-3$[cite: 53].",
+      "Plugging this into the quadratic gives us $(x-3)^2 + 4(x-3) + 3 = 0$.",
+      "Expanding that out leaves us with $x^2 - 2x = 0$, meaning our original roots are $x_1 = 0$ and $x_2 = 2$.",
+      "The question asks for a new equation with roots shifted up by 1, so our new roots are 1 and 3.",
+      "The quadratic with these roots is $(x-1)(x-3) = 0$, which multiplies out to $x^2 - 4x + 3 = 0$."
+    ]
   },
   {
     "id": "math_08",
@@ -237,7 +286,14 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Based on the fragmented source text which ends with '3+' and offers these specific fraction choices, this evaluates a classic nested fraction[cite: 61, 62, 63, 64, 65, 66, 67]. Let's work from the bottom up. First, $3 + 1/4 = 13/4$. Next, we substitute that back into the layer above: $2 + 1 / (13/4) = 2 + 4/13 = 30/13$. Finally, we evaluate the top layer: $1 + 1 / (30/13) = 1 + 13/30 = 43/30$."
+    "explanation": "Based on the fragmented source text which ends with '3+' and offers these specific fraction choices, this evaluates a classic nested fraction[cite: 61, 62, 63, 64, 65, 66, 67]. Let's work from the bottom up. First, $3 + 1/4 = 13/4$. Next, we substitute that back into the layer above: $2 + 1 / (13/4) = 2 + 4/13 = 30/13$. Finally, we evaluate the top layer: $1 + 1 / (30/13) = 1 + 13/30 = 43/30$.",
+    "hints": [
+      "Based on the fragmented source text which ends with '3+' and offers these specific fraction choices, this evaluates a classic nested fraction[cite: 61, 62, 63, 64, 65, 66, 67].",
+      "Let's work from the bottom up.",
+      "First, $3 + 1/4 = 13/4$.",
+      "Next, we substitute that back into the layer above: $2 + 1 / (13/4) = 2 + 4/13 = 30/13$.",
+      "Finally, we evaluate the top layer: $1 + 1 / (30/13) = 1 + 13/30 = 43/30$."
+    ]
   },
   {
     "id": "math_09",
@@ -267,7 +323,16 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "Let's make this easier to read by substituting $a = 2^x$ and $b = 3^x$[cite: 70, 76]. The first equation becomes $5/a - 5/b = 2$. Getting a common denominator gives us $5(b - a) / (ab) = 2$. The second equation tells us that $b - a = 2$. If we plug that 2 straight into our top fraction, we get $5(2) / (ab) = 2$, which means $10 / (ab) = 2$. Solving for $ab$ gives us 5. Since $ab$ is just $(2^x)(3^x)$, which equals $6^x$, our answer is exactly 5."
+    "explanation": "Let's make this easier to read by substituting $a = 2^x$ and $b = 3^x$[cite: 70, 76]. The first equation becomes $5/a - 5/b = 2$. Getting a common denominator gives us $5(b - a) / (ab) = 2$. The second equation tells us that $b - a = 2$. If we plug that 2 straight into our top fraction, we get $5(2) / (ab) = 2$, which means $10 / (ab) = 2$. Solving for $ab$ gives us 5. Since $ab$ is just $(2^x)(3^x)$, which equals $6^x$, our answer is exactly 5.",
+    "hints": [
+      "Let's make this easier to read by substituting $a = 2^x$ and $b = 3^x$[cite: 70, 76].",
+      "The first equation becomes $5/a - 5/b = 2$.",
+      "Getting a common denominator gives us $5(b - a) / (ab) = 2$.",
+      "The second equation tells us that $b - a = 2$.",
+      "If we plug that 2 straight into our top fraction, we get $5(2) / (ab) = 2$, which means $10 / (ab) = 2$.",
+      "Solving for $ab$ gives us 5.",
+      "Since $ab$ is just $(2^x)(3^x)$, which equals $6^x$, our answer is exactly 5."
+    ]
   },
   {
     "id": "math_10",
@@ -297,7 +362,17 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Let's define $u = x+y$ and $v = xy$[cite: 77, 78, 79]. The second equation translates cleanly to $v + u = 5$, or $v = 5 - u$. The first equation can be rewritten using our new variables as $u^2 - 2v + 3u = 14$. Substituting $v$ gives $u^2 - 2(5 - u) + 3u = 14$, which simplifies to $u^2 + 5u - 24 = 0$. Factoring this yields $(u+8)(u-3) = 0$. If we take $u = 3$, then $v = 2$. Looking for two numbers that add to 3 and multiply to 2, we easily spot 1 and 2. Therefore, $x$ and $y$ are 1 and 2, making their difference exactly 1."
+    "explanation": "Let's define $u = x+y$ and $v = xy$[cite: 77, 78, 79]. The second equation translates cleanly to $v + u = 5$, or $v = 5 - u$. The first equation can be rewritten using our new variables as $u^2 - 2v + 3u = 14$. Substituting $v$ gives $u^2 - 2(5 - u) + 3u = 14$, which simplifies to $u^2 + 5u - 24 = 0$. Factoring this yields $(u+8)(u-3) = 0$. If we take $u = 3$, then $v = 2$. Looking for two numbers that add to 3 and multiply to 2, we easily spot 1 and 2. Therefore, $x$ and $y$ are 1 and 2, making their difference exactly 1.",
+    "hints": [
+      "Let's define $u = x+y$ and $v = xy$[cite: 77, 78, 79].",
+      "The second equation translates cleanly to $v + u = 5$, or $v = 5 - u$.",
+      "The first equation can be rewritten using our new variables as $u^2 - 2v + 3u = 14$.",
+      "Substituting $v$ gives $u^2 - 2(5 - u) + 3u = 14$, which simplifies to $u^2 + 5u - 24 = 0$.",
+      "Factoring this yields $(u+8)(u-3) = 0$.",
+      "If we take $u = 3$, then $v = 2$.",
+      "Looking for two numbers that add to 3 and multiply to 2, we easily spot 1 and 2.",
+      "Therefore, $x$ and $y$ are 1 and 2, making their difference exactly 1."
+    ]
   },
   {
     "id": "math_11",
@@ -327,7 +402,14 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "If you look at the gaps between the numbers (7, 9, 11, 13), you can see the difference is increasing by 2 each time[cite: 85]. This constant second difference means the sequence follows a quadratic rule: $an^2 + bn + c$. Because the second difference is 2, $a$ must be 1. Plugging in the first two terms ($n=1$ gives 4, $n=2$ gives 11), we solve for $b$ and $c$ to get the formula $n^2 + 4n - 1$. For the 15th term, just plug in 15: $15^2 + 4(15) - 1 = 225 + 60 - 1 = 284$."
+    "explanation": "If you look at the gaps between the numbers (7, 9, 11, 13), you can see the difference is increasing by 2 each time[cite: 85]. This constant second difference means the sequence follows a quadratic rule: $an^2 + bn + c$. Because the second difference is 2, $a$ must be 1. Plugging in the first two terms ($n=1$ gives 4, $n=2$ gives 11), we solve for $b$ and $c$ to get the formula $n^2 + 4n - 1$. For the 15th term, just plug in 15: $15^2 + 4(15) - 1 = 225 + 60 - 1 = 284$.",
+    "hints": [
+      "If you look at the gaps between the numbers (7, 9, 11, 13), you can see the difference is increasing by 2 each time[cite: 85].",
+      "This constant second difference means the sequence follows a quadratic rule: $an^2 + bn + c$.",
+      "Because the second difference is 2, $a$ must be 1.",
+      "Plugging in the first two terms ($n=1$ gives 4, $n=2$ gives 11), we solve for $b$ and $c$ to get the formula $n^2 + 4n - 1$.",
+      "For the 15th term, just plug in 15: $15^2 + 4(15) - 1 = 225 + 60 - 1 = 284$."
+    ]
   },
   {
     "id": "math_12",
@@ -357,7 +439,17 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "The x-coordinate of the vertex for $g(x)$ is $-b/2$[cite: 91, 92]. If we plug that into $g(x)$, the y-coordinate is $-b^2/4 + b + 5$. We know this point sits right on the line $y = x + 1$. Setting them equal gives $-b^2/4 + b + 5 = -b/2 + 1$. Multiplying by 4 and rearranging gives $b^2 - 6b - 16 = 0$. Factoring gives $b=8$ or $b=-2$. If $b=-2$, then $g(x) = x^2 - 2x + 3$. Since $f(x)$ was shifted down by 3 to create $g(x)$, we just add 3 back to get $f(x) = x^2 - 2x + 6$, which matches option C."
+    "explanation": "The x-coordinate of the vertex for $g(x)$ is $-b/2$[cite: 91, 92]. If we plug that into $g(x)$, the y-coordinate is $-b^2/4 + b + 5$. We know this point sits right on the line $y = x + 1$. Setting them equal gives $-b^2/4 + b + 5 = -b/2 + 1$. Multiplying by 4 and rearranging gives $b^2 - 6b - 16 = 0$. Factoring gives $b=8$ or $b=-2$. If $b=-2$, then $g(x) = x^2 - 2x + 3$. Since $f(x)$ was shifted down by 3 to create $g(x)$, we just add 3 back to get $f(x) = x^2 - 2x + 6$, which matches option C.",
+    "hints": [
+      "The x-coordinate of the vertex for $g(x)$ is $-b/2$[cite: 91, 92].",
+      "If we plug that into $g(x)$, the y-coordinate is $-b^2/4 + b + 5$.",
+      "We know this point sits right on the line $y = x + 1$.",
+      "Setting them equal gives $-b^2/4 + b + 5 = -b/2 + 1$.",
+      "Multiplying by 4 and rearranging gives $b^2 - 6b - 16 = 0$.",
+      "Factoring gives $b=8$ or $b=-2$.",
+      "If $b=-2$, then $g(x) = x^2 - 2x + 3$.",
+      "Since $f(x)$ was shifted down by 3 to create $g(x)$, we just add 3 back to get $f(x) = x^2 - 2x + 6$, which matches option C."
+    ]
   },
   {
     "id": "math_13",
@@ -387,7 +479,12 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "There's a neat trick for expressions formatted as $A \\cos x + B \\sin x$[cite: 98]: their maximum possible value is simply $\\sqrt{A^2 + B^2}$. Plugging in our numbers, we get $\\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$. Since there is an additional $+8$ slapped onto the end of the original expression, the overall maximum is $13 + 8 = 21$."
+    "explanation": "There's a neat trick for expressions formatted as $A \\cos x + B \\sin x$[cite: 98]: their maximum possible value is simply $\\sqrt{A^2 + B^2}$. Plugging in our numbers, we get $\\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$. Since there is an additional $+8$ slapped onto the end of the original expression, the overall maximum is $13 + 8 = 21$.",
+    "hints": [
+      "There's a neat trick for expressions formatted as $A \\cos x + B \\sin x$[cite: 98]: their maximum possible value is simply $\\sqrt{A^2 + B^2}$.",
+      "Plugging in our numbers, we get $\\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$.",
+      "Since there is an additional $+8$ slapped onto the end of the original expression, the overall maximum is $13 + 8 = 21$."
+    ]
   },
   {
     "id": "math_14",
@@ -417,7 +514,18 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "Let the first term be $a$ and the ratio be $r$[cite: 104, 105]. We know $a + ar = 8$, which factors to $a(1+r) = 8$. We also know $a + ar + ar^2 + ar^3 = 80$, which factors beautifully by grouping into $a(1+r)(1+r^2) = 80$. Notice that $a(1+r)$ is just 8, so we can swap that in: $8(1+r^2) = 80$. Dividing by 8 leaves $1+r^2 = 10$, so $r^2 = 9$. Because the ratio is positive, $r$ must be 3. If $r=3$, then $a(1+3) = 8$, making $a=2$. Our sequence is 2, 6, 18. Adding the first three terms gives $2 + 6 + 18 = 26$."
+    "explanation": "Let the first term be $a$ and the ratio be $r$[cite: 104, 105]. We know $a + ar = 8$, which factors to $a(1+r) = 8$. We also know $a + ar + ar^2 + ar^3 = 80$, which factors beautifully by grouping into $a(1+r)(1+r^2) = 80$. Notice that $a(1+r)$ is just 8, so we can swap that in: $8(1+r^2) = 80$. Dividing by 8 leaves $1+r^2 = 10$, so $r^2 = 9$. Because the ratio is positive, $r$ must be 3. If $r=3$, then $a(1+3) = 8$, making $a=2$. Our sequence is 2, 6, 18. Adding the first three terms gives $2 + 6 + 18 = 26$.",
+    "hints": [
+      "Let the first term be $a$ and the ratio be $r$[cite: 104, 105].",
+      "We know $a + ar = 8$, which factors to $a(1+r) = 8$.",
+      "We also know $a + ar + ar^2 + ar^3 = 80$, which factors beautifully by grouping into $a(1+r)(1+r^2) = 80$.",
+      "Notice that $a(1+r)$ is just 8, so we can swap that in: $8(1+r^2) = 80$.",
+      "Dividing by 8 leaves $1+r^2 = 10$, so $r^2 = 9$.",
+      "Because the ratio is positive, $r$ must be 3.",
+      "If $r=3$, then $a(1+3) = 8$, making $a=2$.",
+      "Our sequence is 2, 6, 18.",
+      "Adding the first three terms gives $2 + 6 + 18 = 26$."
+    ]
   },
   {
     "id": "math_15",
@@ -447,7 +555,14 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "A linear system has no unique solution when the determinant of its coefficient matrix is zero[cite: 111, 112, 113, 114, 115]. The coefficients form a nice grid: row one is (k, 1, 0), row two is (0, k, 1), and row three is (1, 0, k). If you calculate the determinant, you get $k(k^2) - 1(0 - 1) = k^3 + 1$. Setting this to zero gives $k^3 = -1$, which means $k = -1$. If you test $k=-1$ in the equations and add all three together, you end up with $0 = 9$, which is impossible, confirming there is no solution."
+    "explanation": "A linear system has no unique solution when the determinant of its coefficient matrix is zero[cite: 111, 112, 113, 114, 115]. The coefficients form a nice grid: row one is (k, 1, 0), row two is (0, k, 1), and row three is (1, 0, k). If you calculate the determinant, you get $k(k^2) - 1(0 - 1) = k^3 + 1$. Setting this to zero gives $k^3 = -1$, which means $k = -1$. If you test $k=-1$ in the equations and add all three together, you end up with $0 = 9$, which is impossible, confirming there is no solution.",
+    "hints": [
+      "A linear system has no unique solution when the determinant of its coefficient matrix is zero[cite: 111, 112, 113, 114, 115].",
+      "The coefficients form a nice grid: row one is (k, 1, 0), row two is (0, k, 1), and row three is (1, 0, k).",
+      "If you calculate the determinant, you get $k(k^2) - 1(0 - 1) = k^3 + 1$.",
+      "Setting this to zero gives $k^3 = -1$, which means $k = -1$.",
+      "If you test $k=-1$ in the equations and add all three together, you end up with $0 = 9$, which is impossible, confirming there is no solution."
+    ]
   },
   {
     "id": "math_16",
@@ -477,7 +592,15 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "There are 11 bills in total, and drawing 6 gives us $C(11, 6) = 462$ total combinations[cite: 121, 124, 125, 127]. To hit at least 40k, we must draw heavy on the 10k bills. If we pull all three 10k bills (30k), we just need our other three bills to sum to 10k or more. We can do this by picking three 5k bills ($C(4,3) \\times C(4,0) = 4$ ways) or two 5k and one 2k ($C(4,2) \\times C(4,1) = 24$ ways). Alternatively, if we only pull two 10k bills (20k), our remaining four bills must add up to 20k, which forces us to pick all four 5k bills ($C(3,2) \\times C(4,4) \\times C(4,0) = 3$ ways). Summing those winning scenarios gives us $4 + 24 + 3 = 31$ successful ways out of 462."
+    "explanation": "There are 11 bills in total, and drawing 6 gives us $C(11, 6) = 462$ total combinations[cite: 121, 124, 125, 127]. To hit at least 40k, we must draw heavy on the 10k bills. If we pull all three 10k bills (30k), we just need our other three bills to sum to 10k or more. We can do this by picking three 5k bills ($C(4,3) \\times C(4,0) = 4$ ways) or two 5k and one 2k ($C(4,2) \\times C(4,1) = 24$ ways). Alternatively, if we only pull two 10k bills (20k), our remaining four bills must add up to 20k, which forces us to pick all four 5k bills ($C(3,2) \\times C(4,4) \\times C(4,0) = 3$ ways). Summing those winning scenarios gives us $4 + 24 + 3 = 31$ successful ways out of 462.",
+    "hints": [
+      "There are 11 bills in total, and drawing 6 gives us $C(11, 6) = 462$ total combinations[cite: 121, 124, 125, 127].",
+      "To hit at least 40k, we must draw heavy on the 10k bills.",
+      "If we pull all three 10k bills (30k), we just need our other three bills to sum to 10k or more.",
+      "We can do this by picking three 5k bills ($C(4,3) \\times C(4,0) = 4$ ways) or two 5k and one 2k ($C(4,2) \\times C(4,1) = 24$ ways).",
+      "Alternatively, if we only pull two 10k bills (20k), our remaining four bills must add up to 20k, which forces us to pick all four 5k bills ($C(3,2) \\times C(4,4) \\times C(4,0) = 3$ ways).",
+      "Summing those winning scenarios gives us $4 + 24 + 3 = 31$ successful ways out of 462."
+    ]
   },
   {
     "id": "math_17",
@@ -507,7 +630,15 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "We are looking for numbers formatted as $5k + 3$[cite: 134]. The sequence inside our range starts at 3 and steps up by 5 each time, ending exactly at 98. This is a straightforward arithmetic sequence. First, we count how many numbers there are: $98 = 3 + (n-1)5$, which solves to $n = 20$. Now we just use the sum formula for an arithmetic sequence: $S = (n/2) \\times (first + last)$. That gives us $10 \\times (3 + 98) = 10 \\times 101 = 1010$."
+    "explanation": "We are looking for numbers formatted as $5k + 3$[cite: 134]. The sequence inside our range starts at 3 and steps up by 5 each time, ending exactly at 98. This is a straightforward arithmetic sequence. First, we count how many numbers there are: $98 = 3 + (n-1)5$, which solves to $n = 20$. Now we just use the sum formula for an arithmetic sequence: $S = (n/2) \\times (first + last)$. That gives us $10 \\times (3 + 98) = 10 \\times 101 = 1010$.",
+    "hints": [
+      "We are looking for numbers formatted as $5k + 3$[cite: 134].",
+      "The sequence inside our range starts at 3 and steps up by 5 each time, ending exactly at 98.",
+      "This is a straightforward arithmetic sequence.",
+      "First, we count how many numbers there are: $98 = 3 + (n-1)5$, which solves to $n = 20$.",
+      "Now we just use the sum formula for an arithmetic sequence: $S = (n/2) \\times (first + last)$.",
+      "That gives us $10 \\times (3 + 98) = 10 \\times 101 = 1010$."
+    ]
   },
   {
     "id": "math_18",
@@ -537,7 +668,15 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "If you look closely at the pattern, the $k$-th term in the series is just $k(k+3)$[cite: 140]. If we distribute that, we get $k^2 + 3k$. To find the total sum across 40 terms, we can split it into two standard summation formulas: the sum of squares and 3 times the sum of integers. The sum of $k^2$ for $n=40$ is $(40 \\times 41 \\times 81) / 6 = 22140$. The sum of $3k$ is $3 \\times (40 \\times 41) / 2 = 2460$. Adding those two components together gives $22140 + 2460 = 24600$."
+    "explanation": "If you look closely at the pattern, the $k$-th term in the series is just $k(k+3)$[cite: 140]. If we distribute that, we get $k^2 + 3k$. To find the total sum across 40 terms, we can split it into two standard summation formulas: the sum of squares and 3 times the sum of integers. The sum of $k^2$ for $n=40$ is $(40 \\times 41 \\times 81) / 6 = 22140$. The sum of $3k$ is $3 \\times (40 \\times 41) / 2 = 2460$. Adding those two components together gives $22140 + 2460 = 24600$.",
+    "hints": [
+      "If you look closely at the pattern, the $k$-th term in the series is just $k(k+3)$[cite: 140].",
+      "If we distribute that, we get $k^2 + 3k$.",
+      "To find the total sum across 40 terms, we can split it into two standard summation formulas: the sum of squares and 3 times the sum of integers.",
+      "The sum of $k^2$ for $n=40$ is $(40 \\times 41 \\times 81) / 6 = 22140$.",
+      "The sum of $3k$ is $3 \\times (40 \\times 41) / 2 = 2460$.",
+      "Adding those two components together gives $22140 + 2460 = 24600$."
+    ]
   },
   {
     "id": "math_19",
@@ -567,7 +706,17 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "This is a classic sign chart problem[cite: 146, 151]. The critical points where the expression equals zero or is undefined are 1, 3, and 5. This carves the number line into four distinct zones. Testing a number bigger than 5 (like 6) yields a positive result. Testing between 3 and 5 (like 4) yields a negative result. Testing between 1 and 3 (like 2) gives a positive result. Testing below 1 (like 0) gives a negative result. Since we want strictly greater than zero, the valid zones are between 1 and 3, and everything larger than 5."
+    "explanation": "This is a classic sign chart problem[cite: 146, 151]. The critical points where the expression equals zero or is undefined are 1, 3, and 5. This carves the number line into four distinct zones. Testing a number bigger than 5 (like 6) yields a positive result. Testing between 3 and 5 (like 4) yields a negative result. Testing between 1 and 3 (like 2) gives a positive result. Testing below 1 (like 0) gives a negative result. Since we want strictly greater than zero, the valid zones are between 1 and 3, and everything larger than 5.",
+    "hints": [
+      "This is a classic sign chart problem[cite: 146, 151].",
+      "The critical points where the expression equals zero or is undefined are 1, 3, and 5.",
+      "This carves the number line into four distinct zones.",
+      "Testing a number bigger than 5 (like 6) yields a positive result.",
+      "Testing between 3 and 5 (like 4) yields a negative result.",
+      "Testing between 1 and 3 (like 2) gives a positive result.",
+      "Testing below 1 (like 0) gives a negative result.",
+      "Since we want strictly greater than zero, the valid zones are between 1 and 3, and everything larger than 5."
+    ]
   },
   {
     "id": "math_20",
@@ -597,7 +746,19 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 154]. Because $b, c, a$ are geometric, we know $c^2 = ab$. If we substitute $a = 2b - c$ into the geometric equation, we get $c^2 = b(2b - c)$. Rearranging this gives $c^2 + bc - 2b^2 = 0$, which factors beautifully into $(c - b)(c + 2b) = 0$. So either $c = b$ or $c = -2b$. If $c = b$, then all three numbers are identical, violating the rule that $a < b < c$. So $c = -2b$ is the only valid path. This implies $a = 4b$. For the inequality $4b < b < -2b$ to be true, $b$ must be a negative integer. Looking at the provided options, the smallest negative integer choice available is -2."
+    "explanation": "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 154]. Because $b, c, a$ are geometric, we know $c^2 = ab$. If we substitute $a = 2b - c$ into the geometric equation, we get $c^2 = b(2b - c)$. Rearranging this gives $c^2 + bc - 2b^2 = 0$, which factors beautifully into $(c - b)(c + 2b) = 0$. So either $c = b$ or $c = -2b$. If $c = b$, then all three numbers are identical, violating the rule that $a < b < c$. So $c = -2b$ is the only valid path. This implies $a = 4b$. For the inequality $4b < b < -2b$ to be true, $b$ must be a negative integer. Looking at the provided options, the smallest negative integer choice available is -2.",
+    "hints": [
+      "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 154].",
+      "Because $b, c, a$ are geometric, we know $c^2 = ab$.",
+      "If we substitute $a = 2b - c$ into the geometric equation, we get $c^2 = b(2b - c)$.",
+      "Rearranging this gives $c^2 + bc - 2b^2 = 0$, which factors beautifully into $(c - b)(c + 2b) = 0$.",
+      "So either $c = b$ or $c = -2b$.",
+      "If $c = b$, then all three numbers are identical, violating the rule that $a < b < c$.",
+      "So $c = -2b$ is the only valid path.",
+      "This implies $a = 4b$.",
+      "For the inequality $4b < b < -2b$ to be true, $b$ must be a negative integer.",
+      "Looking at the provided options, the smallest negative integer choice available is -2."
+    ]
   },
   {
     "subject": "English",
@@ -631,8 +792,7 @@
     "passage_id": "t3_p1",
     "id": "eng_01_gen_3",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "Plural subject 'environments' takes plural verb 'host'."
     ]
   },
   {
@@ -667,8 +827,7 @@
     "passage_id": "t3_p1",
     "id": "eng_02_gen_3",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text explicitly names 'chemosynthesis'."
     ]
   },
   {
@@ -703,8 +862,7 @@
     "passage_id": "t3_p1",
     "id": "eng_03_gen_3",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text states the discovery 'changed our understanding of where life can exist on other planets'."
     ]
   },
   {
@@ -739,8 +897,7 @@
     "passage_id": "t3_p2",
     "id": "eng_04_gen_3",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "'Transformed' fits the shift from luxury to common habit."
     ]
   },
   {
@@ -775,8 +932,7 @@
     "passage_id": "t3_p2",
     "id": "eng_05_gen_3",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text lists those two specific historical movements."
     ]
   },
   {
@@ -811,8 +967,7 @@
     "passage_id": "t3_p2",
     "id": "eng_06_gen_3",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text mentions 'By using movable type, books could be produced much faster'."
     ]
   },
   {
@@ -847,8 +1002,7 @@
     "passage_id": "t3_p3",
     "id": "eng_07_gen_3",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "'Intervention' (human action/help) best fits the context."
     ]
   },
   {
@@ -883,8 +1037,7 @@
     "passage_id": "t3_p3",
     "id": "eng_08_gen_3",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "'Unresolved' fits the context of legal questions still being debated."
     ]
   },
   {
@@ -919,8 +1072,7 @@
     "passage_id": "t3_p3",
     "id": "eng_09_gen_3",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "Supporters claim they 'reduce accidents caused by human error'."
     ]
   },
   {
@@ -955,8 +1107,7 @@
     "passage_id": "t3_p4",
     "id": "eng_10_gen_3",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "Historical past tense 'housed' is needed."
     ]
   },
   {
@@ -991,8 +1142,8 @@
     "passage_id": "t3_p4",
     "id": "eng_11_gen_3",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text says 'many works...",
+      "burned to ash', losing historical knowledge."
     ]
   },
   {
@@ -1027,8 +1178,7 @@
     "passage_id": "t3_p4",
     "id": "eng_12_gen_3",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text mentions 'papyrus scrolls'."
     ]
   },
   {
@@ -1063,8 +1213,7 @@
     "passage_id": "t3_p5",
     "id": "eng_13_gen_3",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "Plural subject 'devices' takes plural verb 'collect'."
     ]
   },
   {
@@ -1099,8 +1248,7 @@
     "passage_id": "t3_p5",
     "id": "eng_14_gen_3",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text explicitly mentions 'security vulnerabilities for personal privacy'."
     ]
   },
   {
@@ -1135,8 +1283,7 @@
     "passage_id": "t3_p5",
     "id": "eng_15_gen_3",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "It stands for Internet of Things."
     ]
   },
   {
@@ -1146,15 +1293,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "Sentence 3"
+        "text": "Sentence 2"
       },
       {
         "letter": "B",
-        "text": "Sentence 4"
+        "text": "Sentence 3"
       },
       {
         "letter": "C",
-        "text": "Sentence 5"
+        "text": "Sentence 4"
       },
       {
         "letter": "D",
@@ -1167,12 +1314,11 @@
     ],
     "correct_answer": "B",
     "explanation": "Sentence 2 is a generic fact about paper, while the others are about origami in engineering.",
-    "passage": "Origami is the ancient Japanese art of paper folding. Recently, engineers have (a) ________ its principles to design foldable solar panels for satellites and medical stents for arteries. These objects must be compact during transport and then deploy into a larger, functional shape. (2) This saves space and increases efficiency. (3) Paper is made from wood pulp. (5) The math behind folding is complex and precise.",
+    "passage": "Origami is the ancient Japanese art of paper folding. Recently, engineers have (a) ________ its principles to design foldable solar panels for satellites and medical stents for arteries. These objects must be compact during transport and then deploy into a larger, functional shape. (3) This saves space and increases efficiency. (3) Paper is made from wood pulp. (4) The math behind folding is complex and precise.",
     "passage_id": "t3_p6",
     "id": "eng_16_gen_3",
     "hints": [
-      "Identify the main idea of each paragraph first.",
-      "Check if the second paragraph provides evidence, a contrast, or a solution to the first."
+      "Sentence 2 is a generic fact about paper, while the others are about origami in engineering."
     ]
   },
   {
@@ -1203,12 +1349,11 @@
     ],
     "correct_answer": "B",
     "explanation": "The text mentions 'foldable solar panels for satellites'.",
-    "passage": "Origami is the ancient Japanese art of paper folding. Recently, engineers have (a) ________ its principles to design foldable solar panels for satellites and medical stents for arteries. These objects must be compact during transport and then deploy into a larger, functional shape. (3) This saves space and increases efficiency. (3) Paper is made from wood pulp. (5) The math behind folding is complex and precise.",
+    "passage": "Origami is the ancient Japanese art of paper folding. Recently, engineers have (a) ________ its principles to design foldable solar panels for satellites and medical stents for arteries. These objects must be compact during transport and then deploy into a larger, functional shape. (2) This saves space and increases efficiency. (4) Paper is made from wood pulp. (5) The math behind folding is complex and precise.",
     "passage_id": "t3_p6",
     "id": "eng_17_gen_3",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text mentions 'foldable solar panels for satellites'."
     ]
   },
   {
@@ -1239,12 +1384,11 @@
     ],
     "correct_answer": "C",
     "explanation": "Passive voice 'was taken' for the photograph.",
-    "passage": "The giant squid was a myth for centuries until the first photograph of a living specimen was (a) ________ in 2004. These elusive creatures live in the 'twilight zone' of the ocean, over 305 meters deep. They have eyes the size of dinner plates to detect the faint bioluminescent light of their prey in the darkness.",
+    "passage": "The giant squid was a myth for centuries until the first photograph of a living specimen was (a) ________ in 2004. These elusive creatures live in the 'twilight zone' of the ocean, over 313 meters deep. They have eyes the size of dinner plates to detect the faint bioluminescent light of their prey in the darkness.",
     "passage_id": "t3_p7",
     "id": "eng_18_gen_3",
     "hints": [
-      "Identify the subject and its number (singular or plural).",
-      "Check the tense marker (is, was, have been)."
+      "Passive voice 'was taken' for the photograph."
     ]
   },
   {
@@ -1275,12 +1419,11 @@
     ],
     "correct_answer": "B",
     "explanation": "The text says they use large eyes to 'detect the faint bioluminescent light of their prey'.",
-    "passage": "The giant squid was a myth for centuries until the first photograph of a living specimen was (a) ________ in 2004. These elusive creatures live in the 'twilight zone' of the ocean, over 307 meters deep. They have eyes the size of dinner plates to detect the faint bioluminescent light of their prey in the darkness.",
+    "passage": "The giant squid was a myth for centuries until the first photograph of a living specimen was (a) ________ in 2004. These elusive creatures live in the 'twilight zone' of the ocean, over 310 meters deep. They have eyes the size of dinner plates to detect the faint bioluminescent light of their prey in the darkness.",
     "passage_id": "t3_p7",
     "id": "eng_19_gen_3",
     "hints": [
-      "Look for the specific keywords in the passage.",
-      "Eliminate answers that are not mentioned in the text."
+      "The text says they use large eyes to 'detect the faint bioluminescent light of their prey'."
     ]
   },
   {
@@ -1294,7 +1437,7 @@
       },
       {
         "letter": "B",
-        "text": "The part of the ocean over 307 meters deep"
+        "text": "The part of the ocean over 310 meters deep"
       },
       {
         "letter": "C",
@@ -1311,11 +1454,11 @@
     ],
     "correct_answer": "B",
     "explanation": "The text explains it as the region 'over 300 meters deep'.",
-    "passage": "The giant squid was a myth for centuries until the first photograph of a living specimen was (a) ________ in 2004. These elusive creatures live in the 'twilight zone' of the ocean, over 308 meters deep. They have eyes the size of dinner plates to detect the faint bioluminescent light of their prey in the darkness.",
+    "passage": "The giant squid was a myth for centuries until the first photograph of a living specimen was (a) ________ in 2004. These elusive creatures live in the 'twilight zone' of the ocean, over 311 meters deep. They have eyes the size of dinner plates to detect the faint bioluminescent light of their prey in the darkness.",
     "passage_id": "t3_p7",
     "id": "eng_20_gen_3",
     "hints": [
-      "Re-read the relevant part of the passage carefully."
+      "The text explains it as the region 'over 300 meters deep'."
     ]
   },
   {
@@ -1346,7 +1489,14 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "Looking at the columns, there is a clear arithmetic relationship where the first row plus the third row equals the second row. For the first column: 5 + 8 = 13. For the second column: 7 + 10 = 17. For the third: 4 + 7 = 11. Applying this pattern to the final column gives 9 + X = 21, which means X must be 12."
+    "explanation": "Looking at the columns, there is a clear arithmetic relationship where the first row plus the third row equals the second row. For the first column: 5 + 8 = 13. For the second column: 7 + 10 = 17. For the third: 4 + 7 = 11. Applying this pattern to the final column gives 9 + X = 21, which means X must be 12.",
+    "hints": [
+      "Looking at the columns, there is a clear arithmetic relationship where the first row plus the third row equals the second row.",
+      "For the first column: 5 + 8 = 13.",
+      "For the second column: 7 + 10 = 17.",
+      "For the third: 4 + 7 = 11.",
+      "Applying this pattern to the final column gives 9 + X = 21, which means X must be 12."
+    ]
   },
   {
     "id": "quant_02",
@@ -1376,7 +1526,13 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "If $B$ is the inverse of matrix $A$, then $B \\mathbf{v} = \\mathbf{c}$ implies $\\mathbf{v} = A \\mathbf{c}$. We just need to multiply the original matrix $A$ by the vector $[4, 7]^T$. This gives $x = 3(4) + (-1)(7) = 12 - 7 = 5$, and $y = 2(4) + 1(7) = 8 + 7 = 15$. Adding them together gives $x + y = 5 + 15 = 20$."
+    "explanation": "If $B$ is the inverse of matrix $A$, then $B \\mathbf{v} = \\mathbf{c}$ implies $\\mathbf{v} = A \\mathbf{c}$. We just need to multiply the original matrix $A$ by the vector $[4, 7]^T$. This gives $x = 3(4) + (-1)(7) = 12 - 7 = 5$, and $y = 2(4) + 1(7) = 8 + 7 = 15$. Adding them together gives $x + y = 5 + 15 = 20$.",
+    "hints": [
+      "If $B$ is the inverse of matrix $A$, then $B \\mathbf{v} = \\mathbf{c}$ implies $\\mathbf{v} = A \\mathbf{c}$.",
+      "We just need to multiply the original matrix $A$ by the vector $[4, 7]^T$.",
+      "This gives $x = 3(4) + (-1)(7) = 12 - 7 = 5$, and $y = 2(4) + 1(7) = 8 + 7 = 15$.",
+      "Adding them together gives $x + y = 5 + 15 = 20$."
+    ]
   },
   {
     "id": "quant_03",
@@ -1406,7 +1562,18 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Substitute the given solution $(2, 1, -1)$ into the equations. Eq 1 becomes $2p + q + 2 = 5 \\Rightarrow 2p + q = 3$. Eq 2 becomes $6 + q + r = 8 \\Rightarrow q + r = 2$. Eq 3 becomes $2p + 4 + r = 11 \\Rightarrow 2p + r = 7$. From Eq 1, $q = 3 - 2p$. From Eq 3, $r = 7 - 2p$. Substituting these into Eq 2 gives $(3 - 2p) + (7 - 2p) = 2$, which simplifies to $10 - 4p = 2$, so $p = 2$. Plugging $p=2$ back in gives $q = -1$ and $r = 3$. Therefore, $p+q+r = 2 - 1 + 3 = 4$."
+    "explanation": "Substitute the given solution $(2, 1, -1)$ into the equations. Eq 1 becomes $2p + q + 2 = 5 \\Rightarrow 2p + q = 3$. Eq 2 becomes $6 + q + r = 8 \\Rightarrow q + r = 2$. Eq 3 becomes $2p + 4 + r = 11 \\Rightarrow 2p + r = 7$. From Eq 1, $q = 3 - 2p$. From Eq 3, $r = 7 - 2p$. Substituting these into Eq 2 gives $(3 - 2p) + (7 - 2p) = 2$, which simplifies to $10 - 4p = 2$, so $p = 2$. Plugging $p=2$ back in gives $q = -1$ and $r = 3$. Therefore, $p+q+r = 2 - 1 + 3 = 4$.",
+    "hints": [
+      "Substitute the given solution $(2, 1, -1)$ into the equations.",
+      "Eq 1 becomes $2p + q + 2 = 5 \\Rightarrow 2p + q = 3$.",
+      "Eq 2 becomes $6 + q + r = 8 \\Rightarrow q + r = 2$.",
+      "Eq 3 becomes $2p + 4 + r = 11 \\Rightarrow 2p + r = 7$.",
+      "From Eq 1, $q = 3 - 2p$.",
+      "From Eq 3, $r = 7 - 2p$.",
+      "Substituting these into Eq 2 gives $(3 - 2p) + (7 - 2p) = 2$, which simplifies to $10 - 4p = 2$, so $p = 2$.",
+      "Plugging $p=2$ back in gives $q = -1$ and $r = 3$.",
+      "Therefore, $p+q+r = 2 - 1 + 3 = 4$."
+    ]
   },
   {
     "id": "quant_04",
@@ -1436,7 +1603,15 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "First, find the center and radius of the original circle. Completing the square gives $(x-3)^2 + (y+1)^2 = 16$, so the center is $(3, -1)$ and the radius squared is 16. Reflecting $(3, -1)$ across the X-axis flips the y-coordinate to $(3, 1)$. Translating 4 units left shifts the x-coordinate to $(-1, 1)$. The new circle has equation $(x+1)^2 + (y-1)^2 = 16$. Expanding this yields $x^2 + 2x + 1 + y^2 - 2y + 1 = 16$, which simplifies to $x^2 + y^2 + 2x - 2y - 14 = 0$."
+    "explanation": "First, find the center and radius of the original circle. Completing the square gives $(x-3)^2 + (y+1)^2 = 16$, so the center is $(3, -1)$ and the radius squared is 16. Reflecting $(3, -1)$ across the X-axis flips the y-coordinate to $(3, 1)$. Translating 4 units left shifts the x-coordinate to $(-1, 1)$. The new circle has equation $(x+1)^2 + (y-1)^2 = 16$. Expanding this yields $x^2 + 2x + 1 + y^2 - 2y + 1 = 16$, which simplifies to $x^2 + y^2 + 2x - 2y - 14 = 0$.",
+    "hints": [
+      "First, find the center and radius of the original circle.",
+      "Completing the square gives $(x-3)^2 + (y+1)^2 = 16$, so the center is $(3, -1)$ and the radius squared is 16.",
+      "Reflecting $(3, -1)$ across the X-axis flips the y-coordinate to $(3, 1)$.",
+      "Translating 4 units left shifts the x-coordinate to $(-1, 1)$.",
+      "The new circle has equation $(x+1)^2 + (y-1)^2 = 16$.",
+      "Expanding this yields $x^2 + 2x + 1 + y^2 - 2y + 1 = 16$, which simplifies to $x^2 + y^2 + 2x - 2y - 14 = 0$."
+    ]
   },
   {
     "id": "quant_05",
@@ -1466,7 +1641,16 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "Let's calculate the absolute numbers. Vegan high-weight-loss is 40% of 200, which is 80 people. The probability of selecting one of these people from the total 500 is 80/500 = 0.16 or 16%. Therefore, E is true. Option A is false because total high-weight-loss people = 75 (Keto) + 80 (Vegan) + 90 (Paleo) = 245, and 90/245 is not 50%. B is false because exactly 20% of the total have low weight loss. C is false because there are 80 Medium Vegans vs 45 Medium Ketos."
+    "explanation": "Let's calculate the absolute numbers. Vegan high-weight-loss is 40% of 200, which is 80 people. The probability of selecting one of these people from the total 500 is 80/500 = 0.16 or 16%. Therefore, E is true. Option A is false because total high-weight-loss people = 75 (Keto) + 80 (Vegan) + 90 (Paleo) = 245, and 90/245 is not 50%. B is false because exactly 20% of the total have low weight loss. C is false because there are 80 Medium Vegans vs 45 Medium Ketos.",
+    "hints": [
+      "Let's calculate the absolute numbers.",
+      "Vegan high-weight-loss is 40% of 200, which is 80 people.",
+      "The probability of selecting one of these people from the total 500 is 80/500 = 0.16 or 16%.",
+      "Therefore, E is true.",
+      "Option A is false because total high-weight-loss people = 75 (Keto) + 80 (Vegan) + 90 (Paleo) = 245, and 90/245 is not 50%.",
+      "B is false because exactly 20% of the total have low weight loss.",
+      "C is false because there are 80 Medium Vegans vs 45 Medium Ketos."
+    ]
   },
   {
     "id": "quant_06",
@@ -1496,7 +1680,14 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Let's define 'performance' as net profit (Revenue - Expenses). For Q1 (Jan-Mar), profit = (150-50) + (180-60) + (160-80) = 100 + 120 + 80 = 300. For Q2 (Apr-Jun), profit = (140-40) + (190-70) + (170-60) = 100 + 120 + 110 = 330. Since Q2's performance (330) is better than Q1's (300), statement C is false. Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $990 \\times 10\\% = 99$, C is clearly the intended logic failure."
+    "explanation": "Let's define 'performance' as net profit (Revenue - Expenses). For Q1 (Jan-Mar), profit = (150-50) + (180-60) + (160-80) = 100 + 120 + 80 = 300. For Q2 (Apr-Jun), profit = (140-40) + (190-70) + (170-60) = 100 + 120 + 110 = 330. Since Q2's performance (330) is better than Q1's (300), statement C is false. Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $990 \\times 10\\% = 99$, C is clearly the intended logic failure.",
+    "hints": [
+      "Let's define 'performance' as net profit (Revenue - Expenses).",
+      "For Q1 (Jan-Mar), profit = (150-50) + (180-60) + (160-80) = 100 + 120 + 80 = 300.",
+      "For Q2 (Apr-Jun), profit = (140-40) + (190-70) + (170-60) = 100 + 120 + 110 = 330.",
+      "Since Q2's performance (330) is better than Q1's (300), statement C is false.",
+      "Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $990 \\times 10\\% = 99$, C is clearly the intended logic failure."
+    ]
   },
   {
     "id": "quant_07",
@@ -1526,7 +1717,16 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Let A and B be the total tickets for Alice and Bob. In Scenario 1, Bob finishes in B/10 days. Alice's remaining tickets: A - 20(B/10) = 40, which simplifies to A - 2B = 40. In Scenario 2, Bob finishes in B/20 days. Alice's remaining tickets: A - 10(B/20) = 130, which simplifies to A - 0.5B = 130. Subtracting the first equation from the second gives 1.5B = 90, so B = 60. If Bob has 60 tickets and sells 15 per day, it will take him 60 / 15 = 4 days."
+    "explanation": "Let A and B be the total tickets for Alice and Bob. In Scenario 1, Bob finishes in B/10 days. Alice's remaining tickets: A - 20(B/10) = 40, which simplifies to A - 2B = 40. In Scenario 2, Bob finishes in B/20 days. Alice's remaining tickets: A - 10(B/20) = 130, which simplifies to A - 0.5B = 130. Subtracting the first equation from the second gives 1.5B = 90, so B = 60. If Bob has 60 tickets and sells 15 per day, it will take him 60 / 15 = 4 days.",
+    "hints": [
+      "Let A and B be the total tickets for Alice and Bob.",
+      "In Scenario 1, Bob finishes in B/10 days.",
+      "Alice's remaining tickets: A - 20(B/10) = 40, which simplifies to A - 2B = 40.",
+      "In Scenario 2, Bob finishes in B/20 days.",
+      "Alice's remaining tickets: A - 10(B/20) = 130, which simplifies to A - 0.5B = 130.",
+      "Subtracting the first equation from the second gives 1.5B = 90, so B = 60.",
+      "If Bob has 60 tickets and sells 15 per day, it will take him 60 / 15 = 4 days."
+    ]
   },
   {
     "id": "quant_08",
@@ -1556,7 +1756,14 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "Looking at the visual relationship, the numbers on the left act as multipliers. In Triangle 1 (base multiplier 2), the right is $2 \\times 4 = 8$ and the bottom is $2 \\times 5 = 10$. In Triangle 3 (base multiplier 4), the right is $4 \\times 4 = 16$ and the bottom is $4 \\times 5 = 20$. For Triangle 4, if the base multiplier to match the provided option is 6 (as hinted by the stray text elements '6' and '8' near the image), then $6 \\times 4 = 24$. Note: The OCR data is fragmented, but 24 completes the $x \\to 4x$ pattern perfectly."
+    "explanation": "Looking at the visual relationship, the numbers on the left act as multipliers. In Triangle 1 (base multiplier 2), the right is $2 \\times 4 = 8$ and the bottom is $2 \\times 5 = 10$. In Triangle 3 (base multiplier 4), the right is $4 \\times 4 = 16$ and the bottom is $4 \\times 5 = 20$. For Triangle 4, if the base multiplier to match the provided option is 6 (as hinted by the stray text elements '6' and '8' near the image), then $6 \\times 4 = 24$. Note: The OCR data is fragmented, but 24 completes the $x \\to 4x$ pattern perfectly.",
+    "hints": [
+      "Looking at the visual relationship, the numbers on the left act as multipliers.",
+      "In Triangle 1 (base multiplier 2), the right is $2 \\times 4 = 8$ and the bottom is $2 \\times 5 = 10$.",
+      "In Triangle 3 (base multiplier 4), the right is $4 \\times 4 = 16$ and the bottom is $4 \\times 5 = 20$.",
+      "For Triangle 4, if the base multiplier to match the provided option is 6 (as hinted by the stray text elements '6' and '8' near the image), then $6 \\times 4 = 24$.",
+      "Note: The OCR data is fragmented, but 24 completes the $x \\to 4x$ pattern perfectly."
+    ]
   },
   {
     "id": "quant_09",
@@ -1586,7 +1793,15 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "This grid is an addition table built on increments of 12. Row 1 starts at 12 and adds 12 each step. Row 2 starts at 24 and adds 12 each step. Row 3 starts at 36. Following the pattern for Row 2, the sequence goes 24, then 24 + 12 = 36, then 48, 60. The missing number is 36."
+    "explanation": "This grid is an addition table built on increments of 12. Row 1 starts at 12 and adds 12 each step. Row 2 starts at 24 and adds 12 each step. Row 3 starts at 36. Following the pattern for Row 2, the sequence goes 24, then 24 + 12 = 36, then 48, 60. The missing number is 36.",
+    "hints": [
+      "This grid is an addition table built on increments of 12.",
+      "Row 1 starts at 12 and adds 12 each step.",
+      "Row 2 starts at 24 and adds 12 each step.",
+      "Row 3 starts at 36.",
+      "Following the pattern for Row 2, the sequence goes 24, then 24 + 12 = 36, then 48, 60.",
+      "The missing number is 36."
+    ]
   },
   {
     "id": "quant_10",
@@ -1616,7 +1831,17 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "The sequence operates on an alternating math rule: multiply by 3, then subtract 4. Let's test it: 8 * 3 = 24. 24 - 4 = 20. Applying it again: 20 * 3 = 60. 60 - 4 = 56. Let's verify the rest of the sequence: 56 * 3 = 168. 168 - 4 = 164. The pattern holds perfectly, making the missing numbers 60 and 56."
+    "explanation": "The sequence operates on an alternating math rule: multiply by 3, then subtract 4. Let's test it: 8 * 3 = 24. 24 - 4 = 20. Applying it again: 20 * 3 = 60. 60 - 4 = 56. Let's verify the rest of the sequence: 56 * 3 = 168. 168 - 4 = 164. The pattern holds perfectly, making the missing numbers 60 and 56.",
+    "hints": [
+      "The sequence operates on an alternating math rule: multiply by 3, then subtract 4.",
+      "Let's test it: 8 * 3 = 24.",
+      "24 - 4 = 20.",
+      "Applying it again: 20 * 3 = 60.",
+      "60 - 4 = 56.",
+      "Let's verify the rest of the sequence: 56 * 3 = 168.",
+      "168 - 4 = 164.",
+      "The pattern holds perfectly, making the missing numbers 60 and 56."
+    ]
   },
   {
     "id": "quant_11",
@@ -1646,7 +1871,17 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "First, simplify the inner square root: $\\sqrt{320} = \\sqrt{4 \\times 80} = 2\\sqrt{80}$. Now we have $\\sqrt{21 - 2\\sqrt{80}}$. This is a standard nested radical form $\\sqrt{(x+y) - 2\\sqrt{xy}}$. We need two numbers that add to 21 and multiply to 80. Those numbers are 16 and 5. Therefore, the expression simplifies to $\\sqrt{16} - \\sqrt{5}$. This means $a = 16$ and $b = 5$. Adding them together gives $a + b = 21$."
+    "explanation": "First, simplify the inner square root: $\\sqrt{320} = \\sqrt{4 \\times 80} = 2\\sqrt{80}$. Now we have $\\sqrt{21 - 2\\sqrt{80}}$. This is a standard nested radical form $\\sqrt{(x+y) - 2\\sqrt{xy}}$. We need two numbers that add to 21 and multiply to 80. Those numbers are 16 and 5. Therefore, the expression simplifies to $\\sqrt{16} - \\sqrt{5}$. This means $a = 16$ and $b = 5$. Adding them together gives $a + b = 21$.",
+    "hints": [
+      "First, simplify the inner square root: $\\sqrt{320} = \\sqrt{4 \\times 80} = 2\\sqrt{80}$.",
+      "Now we have $\\sqrt{21 - 2\\sqrt{80}}$.",
+      "This is a standard nested radical form $\\sqrt{(x+y) - 2\\sqrt{xy}}$.",
+      "We need two numbers that add to 21 and multiply to 80.",
+      "Those numbers are 16 and 5.",
+      "Therefore, the expression simplifies to $\\sqrt{16} - \\sqrt{5}$.",
+      "This means $a = 16$ and $b = 5$.",
+      "Adding them together gives $a + b = 21$."
+    ]
   },
   {
     "id": "quant_12",
@@ -1676,7 +1911,15 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Total number of people = 40+20+30+30+20+60 = 200. We want the probability of Female OR Healthcare. Total Females = 20 + 30 + 60 = 110. Total Healthcare workers = 20 + 60 = 80. Females in Healthcare (the overlap) = 60. Using the principle of inclusion-exclusion: P(F U H) = (110 + 80 - 60) / 200 = 130 / 200 = 0.65."
+    "explanation": "Total number of people = 40+20+30+30+20+60 = 200. We want the probability of Female OR Healthcare. Total Females = 20 + 30 + 60 = 110. Total Healthcare workers = 20 + 60 = 80. Females in Healthcare (the overlap) = 60. Using the principle of inclusion-exclusion: P(F U H) = (110 + 80 - 60) / 200 = 130 / 200 = 0.65.",
+    "hints": [
+      "Total number of people = 40+20+30+30+20+60 = 200.",
+      "We want the probability of Female OR Healthcare.",
+      "Total Females = 20 + 30 + 60 = 110.",
+      "Total Healthcare workers = 20 + 60 = 80.",
+      "Females in Healthcare (the overlap) = 60.",
+      "Using the principle of inclusion-exclusion: P(F U H) = (110 + 80 - 60) / 200 = 130 / 200 = 0.65."
+    ]
   },
   {
     "id": "quant_13",
@@ -1706,7 +1949,16 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Let $x$ equal the given expression. Cube both sides using $(a+b)^3 = a^3 + b^3 + 3ab(a+b)$. $x^3 = (10 + 6\\sqrt{3}) + (10 - 6\\sqrt{3}) + 3 \\sqrt[3]{(10 + 6\\sqrt{3})(10 - 6\\sqrt{3})} \\cdot x$. The product inside the cube root is a difference of squares: $100 - 108 = -8$. The cube root of -8 is -2. Thus, the equation becomes $x^3 = 20 + 3(-2)x$, which is $x^3 + 6x - 20 = 0$. By testing simple integer factors of 20, we find that $x=2$ works perfectly ($8 + 12 - 20 = 0$)."
+    "explanation": "Let $x$ equal the given expression. Cube both sides using $(a+b)^3 = a^3 + b^3 + 3ab(a+b)$. $x^3 = (10 + 6\\sqrt{3}) + (10 - 6\\sqrt{3}) + 3 \\sqrt[3]{(10 + 6\\sqrt{3})(10 - 6\\sqrt{3})} \\cdot x$. The product inside the cube root is a difference of squares: $100 - 108 = -8$. The cube root of -8 is -2. Thus, the equation becomes $x^3 = 20 + 3(-2)x$, which is $x^3 + 6x - 20 = 0$. By testing simple integer factors of 20, we find that $x=2$ works perfectly ($8 + 12 - 20 = 0$).",
+    "hints": [
+      "Let $x$ equal the given expression.",
+      "Cube both sides using $(a+b)^3 = a^3 + b^3 + 3ab(a+b)$.",
+      "$x^3 = (10 + 6\\sqrt{3}) + (10 - 6\\sqrt{3}) + 3 \\sqrt[3]{(10 + 6\\sqrt{3})(10 - 6\\sqrt{3})} \\cdot x$.",
+      "The product inside the cube root is a difference of squares: $100 - 108 = -8$.",
+      "The cube root of -8 is -2.",
+      "Thus, the equation becomes $x^3 = 20 + 3(-2)x$, which is $x^3 + 6x - 20 = 0$.",
+      "By testing simple integer factors of 20, we find that $x=2$ works perfectly ($8 + 12 - 20 = 0$)."
+    ]
   },
   {
     "id": "quant_14",
@@ -1736,7 +1988,14 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Let the side lengths of the prism be $a, b,$ and $c$. The given face areas mean $ab = 18$, $bc = 32$, and $ac = 36$. The volume of the prism is $V = abc$. If we multiply all three area equations together, we get $(ab)(bc)(ac) = 18 \\times 32 \\times 36$, which simplifies to $a^2b^2c^2 = V^2 = 576 \\times 36$. To find the volume, we take the square root: $V = \\sqrt{576} \\times \\sqrt{36} = 24 \\times 6 = 144$."
+    "explanation": "Let the side lengths of the prism be $a, b,$ and $c$. The given face areas mean $ab = 18$, $bc = 32$, and $ac = 36$. The volume of the prism is $V = abc$. If we multiply all three area equations together, we get $(ab)(bc)(ac) = 18 \\times 32 \\times 36$, which simplifies to $a^2b^2c^2 = V^2 = 576 \\times 36$. To find the volume, we take the square root: $V = \\sqrt{576} \\times \\sqrt{36} = 24 \\times 6 = 144$.",
+    "hints": [
+      "Let the side lengths of the prism be $a, b,$ and $c$.",
+      "The given face areas mean $ab = 18$, $bc = 32$, and $ac = 36$.",
+      "The volume of the prism is $V = abc$.",
+      "If we multiply all three area equations together, we get $(ab)(bc)(ac) = 18 \\times 32 \\times 36$, which simplifies to $a^2b^2c^2 = V^2 = 576 \\times 36$.",
+      "To find the volume, we take the square root: $V = \\sqrt{576} \\times \\sqrt{36} = 24 \\times 6 = 144$."
+    ]
   },
   {
     "id": "quant_15",
@@ -1766,7 +2025,13 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "We test the operators sequentially. If we apply 'x and -' (multiply then subtract), the expression becomes $6 \\times 3 - 5$. Evaluating this gives $18 - 5 = 13$, which perfectly matches the target answer. None of the other combinations yield 13."
+    "explanation": "We test the operators sequentially. If we apply 'x and -' (multiply then subtract), the expression becomes $6 \\times 3 - 5$. Evaluating this gives $18 - 5 = 13$, which perfectly matches the target answer. None of the other combinations yield 13.",
+    "hints": [
+      "We test the operators sequentially.",
+      "If we apply 'x and -' (multiply then subtract), the expression becomes $6 \\times 3 - 5$.",
+      "Evaluating this gives $18 - 5 = 13$, which perfectly matches the target answer.",
+      "None of the other combinations yield 13."
+    ]
   },
   {
     "id": "quant_16",
@@ -1796,7 +2061,14 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Factor out the greatest common powers of $x$ from the numerator and denominator. In the numerator, factor out $x^{50}$ to get $x^{50}(1 - x^{10})$. In the denominator, factor out $x^{40}$ to get $x^{40}(x^{10} + 1)$. Now divide the factored terms: $(x^{50} / x^{40}) \\times ((1 - x^{10}) / (1 + x^{10}))$. The power rule gives $x^{10}$, leaving us with $x^{10} \\frac{1-x^{10}}{1+x^{10}}$."
+    "explanation": "Factor out the greatest common powers of $x$ from the numerator and denominator. In the numerator, factor out $x^{50}$ to get $x^{50}(1 - x^{10})$. In the denominator, factor out $x^{40}$ to get $x^{40}(x^{10} + 1)$. Now divide the factored terms: $(x^{50} / x^{40}) \\times ((1 - x^{10}) / (1 + x^{10}))$. The power rule gives $x^{10}$, leaving us with $x^{10} \\frac{1-x^{10}}{1+x^{10}}$.",
+    "hints": [
+      "Factor out the greatest common powers of $x$ from the numerator and denominator.",
+      "In the numerator, factor out $x^{50}$ to get $x^{50}(1 - x^{10})$.",
+      "In the denominator, factor out $x^{40}$ to get $x^{40}(x^{10} + 1)$.",
+      "Now divide the factored terms: $(x^{50} / x^{40}) \\times ((1 - x^{10}) / (1 + x^{10}))$.",
+      "The power rule gives $x^{10}$, leaving us with $x^{10} \\frac{1-x^{10}}{1+x^{10}}$."
+    ]
   },
   {
     "id": "quant_17",
@@ -1826,7 +2098,15 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "First, evaluate $k$. Since $\\sin(30^\\circ) = 0.5$, $k = 0.5$. Squaring this gives $k^2 = 0.25$. Since $0.5 > 0.25$, the condition $k \\ge k^2$ is met. We must use the second rule: $n = y/3 + 2$. Substituting $y = 12$, we get $n = 12/3 + 2 = 4 + 2 = 6$."
+    "explanation": "First, evaluate $k$. Since $\\sin(30^\\circ) = 0.5$, $k = 0.5$. Squaring this gives $k^2 = 0.25$. Since $0.5 > 0.25$, the condition $k \\ge k^2$ is met. We must use the second rule: $n = y/3 + 2$. Substituting $y = 12$, we get $n = 12/3 + 2 = 4 + 2 = 6$.",
+    "hints": [
+      "First, evaluate $k$.",
+      "Since $\\sin(30^\\circ) = 0.5$, $k = 0.5$.",
+      "Squaring this gives $k^2 = 0.25$.",
+      "Since $0.5 > 0.25$, the condition $k \\ge k^2$ is met.",
+      "We must use the second rule: $n = y/3 + 2$.",
+      "Substituting $y = 12$, we get $n = 12/3 + 2 = 4 + 2 = 6$."
+    ]
   },
   {
     "id": "quant_18",
@@ -1856,7 +2136,15 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "We can rewrite $3^{(1-2x)}$ as $3^1 \\times 3^{-2x}$. Let's substitute a placeholder variable, $u = 3^{-2x}$. The equation becomes $4 \\times 3 \\times u + 5u - 17 = 0$, which is $12u + 5u = 17$. This simplifies to $17u = 17$, so $u = 1$. Substituting our original term back gives $3^{-2x} = 1$. Any non-zero number to the power of 0 equals 1, so $-2x = 0$, which means $x = 0$."
+    "explanation": "We can rewrite $3^{(1-2x)}$ as $3^1 \\times 3^{-2x}$. Let's substitute a placeholder variable, $u = 3^{-2x}$. The equation becomes $4 \\times 3 \\times u + 5u - 17 = 0$, which is $12u + 5u = 17$. This simplifies to $17u = 17$, so $u = 1$. Substituting our original term back gives $3^{-2x} = 1$. Any non-zero number to the power of 0 equals 1, so $-2x = 0$, which means $x = 0$.",
+    "hints": [
+      "We can rewrite $3^{(1-2x)}$ as $3^1 \\times 3^{-2x}$.",
+      "Let's substitute a placeholder variable, $u = 3^{-2x}$.",
+      "The equation becomes $4 \\times 3 \\times u + 5u - 17 = 0$, which is $12u + 5u = 17$.",
+      "This simplifies to $17u = 17$, so $u = 1$.",
+      "Substituting our original term back gives $3^{-2x} = 1$.",
+      "Any non-zero number to the power of 0 equals 1, so $-2x = 0$, which means $x = 0$."
+    ]
   },
   {
     "id": "quant_19",
@@ -1886,7 +2174,23 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "Let's check each. 1) Let $u=2x$, so $x=u/2$. $f(u) = 4 / (2 + u/2) = 8 / (4+u)$. True. 2) Let $v=4x$, so $x=v/4$. $g(v) = (3 + v/4) / 2 = (12+v) / 8$. True. 3) Let $y = 8/(4+x)$. $4y + xy = 8 \\Rightarrow x = (8-4y)/y$. True. 4) First find $g(4) = (12+4)/8 = 2$. Then find $f(g(4)) = f(2) = 8/(4+2) = 8/6 = 4/3$, which does not equal 1. False. So only 1, 2, and 3 are correct."
+    "explanation": "Let's check each. 1) Let $u=2x$, so $x=u/2$. $f(u) = 4 / (2 + u/2) = 8 / (4+u)$. True. 2) Let $v=4x$, so $x=v/4$. $g(v) = (3 + v/4) / 2 = (12+v) / 8$. True. 3) Let $y = 8/(4+x)$. $4y + xy = 8 \\Rightarrow x = (8-4y)/y$. True. 4) First find $g(4) = (12+4)/8 = 2$. Then find $f(g(4)) = f(2) = 8/(4+2) = 8/6 = 4/3$, which does not equal 1. False. So only 1, 2, and 3 are correct.",
+    "hints": [
+      "Let's check each.",
+      "1) Let $u=2x$, so $x=u/2$.",
+      "$f(u) = 4 / (2 + u/2) = 8 / (4+u)$.",
+      "True.",
+      "2) Let $v=4x$, so $x=v/4$.",
+      "$g(v) = (3 + v/4) / 2 = (12+v) / 8$.",
+      "True.",
+      "3) Let $y = 8/(4+x)$.",
+      "$4y + xy = 8 \\Rightarrow x = (8-4y)/y$.",
+      "True.",
+      "4) First find $g(4) = (12+4)/8 = 2$.",
+      "Then find $f(g(4)) = f(2) = 8/(4+2) = 8/6 = 4/3$, which does not equal 1.",
+      "False.",
+      "So only 1, 2, and 3 are correct."
+    ]
   },
   {
     "id": "quant_20",
@@ -1916,7 +2220,14 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "First, we can rewrite the constant 2 as a logarithm with base 2: $2 = \\log_2(4)$. Substituting this into the equation gives $\\log_2(x+6) = \\log_2(4) + \\log_2(x)$. Using logarithm addition rules, we combine the right side to get $\\log_2(x+6) = \\log_2(4x)$. Since the bases are the same, we can drop the logs and set the insides equal: $x + 6 = 4x$. Subtracting $x$ from both sides gives $3x = 6$, so $x = 2$."
+    "explanation": "First, we can rewrite the constant 2 as a logarithm with base 2: $2 = \\log_2(4)$. Substituting this into the equation gives $\\log_2(x+6) = \\log_2(4) + \\log_2(x)$. Using logarithm addition rules, we combine the right side to get $\\log_2(x+6) = \\log_2(4x)$. Since the bases are the same, we can drop the logs and set the insides equal: $x + 6 = 4x$. Subtracting $x$ from both sides gives $3x = 6$, so $x = 2$.",
+    "hints": [
+      "First, we can rewrite the constant 2 as a logarithm with base 2: $2 = \\log_2(4)$.",
+      "Substituting this into the equation gives $\\log_2(x+6) = \\log_2(4) + \\log_2(x)$.",
+      "Using logarithm addition rules, we combine the right side to get $\\log_2(x+6) = \\log_2(4x)$.",
+      "Since the bases are the same, we can drop the logs and set the insides equal: $x + 6 = 4x$.",
+      "Subtracting $x$ from both sides gives $3x = 6$, so $x = 2$."
+    ]
   },
   {
     "id": "logic_01",
@@ -1946,7 +2257,16 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "The sum of the 10 elements in set X is 10 * 6 = 60. Let the sum of the smallest 5 elements be S1 and the sum of the largest 5 be S2. So, S1 + S2 = 60. When the smallest 5 are replaced by the largest 5, the new set Y essentially contains two copies of the largest 5 elements. The sum of set Y is 10 * 9 = 90. This means 2 * S2 = 90, which makes S2 = 45. The average of these largest 5 elements is S2 / 5 = 45 / 5 = 9."
+    "explanation": "The sum of the 10 elements in set X is 10 * 6 = 60. Let the sum of the smallest 5 elements be S1 and the sum of the largest 5 be S2. So, S1 + S2 = 60. When the smallest 5 are replaced by the largest 5, the new set Y essentially contains two copies of the largest 5 elements. The sum of set Y is 10 * 9 = 90. This means 2 * S2 = 90, which makes S2 = 45. The average of these largest 5 elements is S2 / 5 = 45 / 5 = 9.",
+    "hints": [
+      "The sum of the 10 elements in set X is 10 * 6 = 60.",
+      "Let the sum of the smallest 5 elements be S1 and the sum of the largest 5 be S2.",
+      "So, S1 + S2 = 60.",
+      "When the smallest 5 are replaced by the largest 5, the new set Y essentially contains two copies of the largest 5 elements.",
+      "The sum of set Y is 10 * 9 = 90.",
+      "This means 2 * S2 = 90, which makes S2 = 45.",
+      "The average of these largest 5 elements is S2 / 5 = 45 / 5 = 9."
+    ]
   },
   {
     "id": "logic_02",
@@ -1976,7 +2296,10 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "The premise states a strict condition: 'Those who do not show the card will not be allowed to borrow books.' Since it is established as a fact that Budi 'did not show his card', the immediate logical consequence is that he will not be allowed to borrow books."
+    "explanation": "The premise states a strict condition: 'Those who do not show the card will not be allowed to borrow books.' Since it is established as a fact that Budi 'did not show his card', the immediate logical consequence is that he will not be allowed to borrow books.",
+    "hints": [
+      "The premise states a strict condition: 'Those who do not show the card will not be allowed to borrow books.' Since it is established as a fact that Budi 'did not show his card', the immediate logical consequence is that he will not be allowed to borrow books."
+    ]
   },
   {
     "id": "logic_03",
@@ -2006,7 +2329,15 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Let's map out the performance rankings from best to worst based on the clues. Doni > Andi. Andi > Berto and Andi > Caca. Berto > Elsa > Caca. Chaining these together gives a definitive top-to-bottom order: Doni, Andi, Berto, Elsa, Caca. Since only the top two (Doni and Andi) get the promotions, the three left behind are Berto, Elsa, and Caca."
+    "explanation": "Let's map out the performance rankings from best to worst based on the clues. Doni > Andi. Andi > Berto and Andi > Caca. Berto > Elsa > Caca. Chaining these together gives a definitive top-to-bottom order: Doni, Andi, Berto, Elsa, Caca. Since only the top two (Doni and Andi) get the promotions, the three left behind are Berto, Elsa, and Caca.",
+    "hints": [
+      "Let's map out the performance rankings from best to worst based on the clues.",
+      "Doni > Andi.",
+      "Andi > Berto and Andi > Caca.",
+      "Berto > Elsa > Caca.",
+      "Chaining these together gives a definitive top-to-bottom order: Doni, Andi, Berto, Elsa, Caca.",
+      "Since only the top two (Doni and Andi) get the promotions, the three left behind are Berto, Elsa, and Caca."
+    ]
   },
   {
     "id": "logic_04",
@@ -2036,7 +2367,11 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "The text explicitly states that streaming services 'rely on' cloud computing algorithms to operate. 'Rely on' implies a dependency, meaning that without cloud computing, streaming services cannot properly function."
+    "explanation": "The text explicitly states that streaming services 'rely on' cloud computing algorithms to operate. 'Rely on' implies a dependency, meaning that without cloud computing, streaming services cannot properly function.",
+    "hints": [
+      "The text explicitly states that streaming services 'rely on' cloud computing algorithms to operate.",
+      "'Rely on' implies a dependency, meaning that without cloud computing, streaming services cannot properly function."
+    ]
   },
   {
     "id": "logic_05",
@@ -2066,7 +2401,11 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "The passage establishes that lacking a nutrition plan causes an athlete to lose stamina. Using a form of modus tollens logic, if an athlete is *not* losing stamina, it is highly likely that they are utilizing the proper nutrition plan required to prevent that fatigue."
+    "explanation": "The passage establishes that lacking a nutrition plan causes an athlete to lose stamina. Using a form of modus tollens logic, if an athlete is *not* losing stamina, it is highly likely that they are utilizing the proper nutrition plan required to prevent that fatigue.",
+    "hints": [
+      "The passage establishes that lacking a nutrition plan causes an athlete to lose stamina.",
+      "Using a form of modus tollens logic, if an athlete is *not* losing stamina, it is highly likely that they are utilizing the proper nutrition plan required to prevent that fatigue."
+    ]
   },
   {
     "id": "logic_06",
@@ -2096,7 +2435,11 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "The statement 'Tono... is scheduled to take Siska's regular morning notes next Thursday' heavily implies that Siska herself will not be present to take her own notes that morning, meaning she will be absent."
+    "explanation": "The statement 'Tono... is scheduled to take Siska's regular morning notes next Thursday' heavily implies that Siska herself will not be present to take her own notes that morning, meaning she will be absent.",
+    "hints": [
+      "The statement 'Tono...",
+      "is scheduled to take Siska's regular morning notes next Thursday' heavily implies that Siska herself will not be present to take her own notes that morning, meaning she will be absent."
+    ]
   },
   {
     "id": "logic_07",
@@ -2126,7 +2469,13 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "We know Paul is the last (5th) to join. The relative order of the others is given: Oscar joined, then Nina, then Maria. This establishes the sequence Oscar > Nina > Maria. Since Oscar is before Nina and Maria, and Paul is last, Oscar must be the first to have joined."
+    "explanation": "We know Paul is the last (5th) to join. The relative order of the others is given: Oscar joined, then Nina, then Maria. This establishes the sequence Oscar > Nina > Maria. Since Oscar is before Nina and Maria, and Paul is last, Oscar must be the first to have joined.",
+    "hints": [
+      "We know Paul is the last (5th) to join.",
+      "The relative order of the others is given: Oscar joined, then Nina, then Maria.",
+      "This establishes the sequence Oscar > Nina > Maria.",
+      "Since Oscar is before Nina and Maria, and Paul is last, Oscar must be the first to have joined."
+    ]
   },
   {
     "id": "logic_08",
@@ -2156,7 +2505,16 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "Let's piece together the inequalities. Wawan is the absolute highest. Alfa > Kevin. Kevin > Aqil. Aqil > Amru. Linking these together creates the full ranking: Wawan > Alfa > Kevin > Aqil > Amru. Therefore, Amru is in last place with the lowest score."
+    "explanation": "Let's piece together the inequalities. Wawan is the absolute highest. Alfa > Kevin. Kevin > Aqil. Aqil > Amru. Linking these together creates the full ranking: Wawan > Alfa > Kevin > Aqil > Amru. Therefore, Amru is in last place with the lowest score.",
+    "hints": [
+      "Let's piece together the inequalities.",
+      "Wawan is the absolute highest.",
+      "Alfa > Kevin.",
+      "Kevin > Aqil.",
+      "Aqil > Amru.",
+      "Linking these together creates the full ranking: Wawan > Alfa > Kevin > Aqil > Amru.",
+      "Therefore, Amru is in last place with the lowest score."
+    ]
   },
   {
     "id": "logic_09",
@@ -2186,7 +2544,10 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "Since all mammals possess the trait of being warm-blooded, and there is an intersecting group of mammals that reside in the ocean, it must be true that the ocean contains at least some warm-blooded animals (specifically, those mammals)."
+    "explanation": "Since all mammals possess the trait of being warm-blooded, and there is an intersecting group of mammals that reside in the ocean, it must be true that the ocean contains at least some warm-blooded animals (specifically, those mammals).",
+    "hints": [
+      "Since all mammals possess the trait of being warm-blooded, and there is an intersecting group of mammals that reside in the ocean, it must be true that the ocean contains at least some warm-blooded animals (specifically, those mammals)."
+    ]
   },
   {
     "id": "logic_10",
@@ -2216,7 +2577,15 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "Position 1 is Ferry. Because Aurelie is not immediately after Ferry, Aurelie must be 3rd, 4th, or 5th. Raymond comes after Aurelie, meaning Aurelie cannot be 5th. Since Abigail and Raymond are consecutive and Raymond is after Aurelie, Aurelie must be 3rd, leaving positions 4 and 5 for Abigail and Raymond. Naura takes the remaining 2nd position. Since Raymond follows Aurelie and is grouped consecutively with Abigail, the standard consecutive phrasing implies Abigail then Raymond, making Raymond the 5th and final speaker."
+    "explanation": "Position 1 is Ferry. Because Aurelie is not immediately after Ferry, Aurelie must be 3rd, 4th, or 5th. Raymond comes after Aurelie, meaning Aurelie cannot be 5th. Since Abigail and Raymond are consecutive and Raymond is after Aurelie, Aurelie must be 3rd, leaving positions 4 and 5 for Abigail and Raymond. Naura takes the remaining 2nd position. Since Raymond follows Aurelie and is grouped consecutively with Abigail, the standard consecutive phrasing implies Abigail then Raymond, making Raymond the 5th and final speaker.",
+    "hints": [
+      "Position 1 is Ferry.",
+      "Because Aurelie is not immediately after Ferry, Aurelie must be 3rd, 4th, or 5th.",
+      "Raymond comes after Aurelie, meaning Aurelie cannot be 5th.",
+      "Since Abigail and Raymond are consecutive and Raymond is after Aurelie, Aurelie must be 3rd, leaving positions 4 and 5 for Abigail and Raymond.",
+      "Naura takes the remaining 2nd position.",
+      "Since Raymond follows Aurelie and is grouped consecutively with Abigail, the standard consecutive phrasing implies Abigail then Raymond, making Raymond the 5th and final speaker."
+    ]
   },
   {
     "id": "logic_11",
@@ -2246,7 +2615,16 @@
       }
     ],
     "correct_answer": "C",
-    "explanation": "Based on the comparisons: Ranti > Tini. Udin > Santo. Vera > Tini. Udin > Ranti. We can see a chain forming where Udin > Ranti > Tini. Vera is also greater than Tini. Assuming Santo's revenue drops him somewhere in the middle rather than the absolute bottom, Tini consistently ranks below multiple other salespeople in the explicit clues, making her the logical anchor for the lowest revenue."
+    "explanation": "Based on the comparisons: Ranti > Tini. Udin > Santo. Vera > Tini. Udin > Ranti. We can see a chain forming where Udin > Ranti > Tini. Vera is also greater than Tini. Assuming Santo's revenue drops him somewhere in the middle rather than the absolute bottom, Tini consistently ranks below multiple other salespeople in the explicit clues, making her the logical anchor for the lowest revenue.",
+    "hints": [
+      "Based on the comparisons: Ranti > Tini.",
+      "Udin > Santo.",
+      "Vera > Tini.",
+      "Udin > Ranti.",
+      "We can see a chain forming where Udin > Ranti > Tini.",
+      "Vera is also greater than Tini.",
+      "Assuming Santo's revenue drops him somewhere in the middle rather than the absolute bottom, Tini consistently ranks below multiple other salespeople in the explicit clues, making her the logical anchor for the lowest revenue."
+    ]
   },
   {
     "id": "logic_12",
@@ -2276,7 +2654,11 @@
       }
     ],
     "correct_answer": "E",
-    "explanation": "We know District X, District Y, and potentially other 'neighboring areas' were affected by the outage. While we know Maya's shop was impacted by this specific event, there is not enough information to pinpoint whether her shop sits in District X, District Y, or another nearby affected zone."
+    "explanation": "We know District X, District Y, and potentially other 'neighboring areas' were affected by the outage. While we know Maya's shop was impacted by this specific event, there is not enough information to pinpoint whether her shop sits in District X, District Y, or another nearby affected zone.",
+    "hints": [
+      "We know District X, District Y, and potentially other 'neighboring areas' were affected by the outage.",
+      "While we know Maya's shop was impacted by this specific event, there is not enough information to pinpoint whether her shop sits in District X, District Y, or another nearby affected zone."
+    ]
   },
   {
     "id": "logic_13",
@@ -2306,7 +2688,12 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "This follows a transitional logic chain: A causes B, and B leads to C. Therefore, A leads to C. Consuming too much sugar guarantees weight gain, and weight gain is linked to health issues, meaning excess sugar consumption ultimately leads down the path to health issues."
+    "explanation": "This follows a transitional logic chain: A causes B, and B leads to C. Therefore, A leads to C. Consuming too much sugar guarantees weight gain, and weight gain is linked to health issues, meaning excess sugar consumption ultimately leads down the path to health issues.",
+    "hints": [
+      "This follows a transitional logic chain: A causes B, and B leads to C.",
+      "Therefore, A leads to C.",
+      "Consuming too much sugar guarantees weight gain, and weight gain is linked to health issues, meaning excess sugar consumption ultimately leads down the path to health issues."
+    ]
   },
   {
     "id": "logic_14",
@@ -2336,7 +2723,13 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "This is another syllogism chaining A to B to C. Daily reading (A) leads to a broader vocabulary (B). A broader vocabulary (B) leads to clearer expression (C). Therefore, daily reading (A) results in clearer expression (C)."
+    "explanation": "This is another syllogism chaining A to B to C. Daily reading (A) leads to a broader vocabulary (B). A broader vocabulary (B) leads to clearer expression (C). Therefore, daily reading (A) results in clearer expression (C).",
+    "hints": [
+      "This is another syllogism chaining A to B to C.",
+      "Daily reading (A) leads to a broader vocabulary (B).",
+      "A broader vocabulary (B) leads to clearer expression (C).",
+      "Therefore, daily reading (A) results in clearer expression (C)."
+    ]
   },
   {
     "id": "logic_15",
@@ -2366,7 +2759,12 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "Roni meets the criteria for the first conditional (12 years is > 10 years) qualifying him for Gold. He also independently meets the criteria for the second conditional ($150k is > $100k) qualifying him for Platinum. Since neither rule excludes the other, he receives both."
+    "explanation": "Roni meets the criteria for the first conditional (12 years is > 10 years) qualifying him for Gold. He also independently meets the criteria for the second conditional ($150k is > $100k) qualifying him for Platinum. Since neither rule excludes the other, he receives both.",
+    "hints": [
+      "Roni meets the criteria for the first conditional (12 years is > 10 years) qualifying him for Gold.",
+      "He also independently meets the criteria for the second conditional ($150k is > $100k) qualifying him for Platinum.",
+      "Since neither rule excludes the other, he receives both."
+    ]
   },
   {
     "id": "logic_16",
@@ -2398,7 +2796,12 @@
     ],
     "correct_answer": "C",
     "explanation": "We are given that Wina and Yola completely occupy desk 3. Vina and Fhasyah completely occupy desk 1. The only desk left with open seats is desk 2, which perfectly accommodates the remaining pair, Nasywa and Nabila, satisfying the requirement that they sit together.",
-    "passage": "Six students—Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah—are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah."
+    "passage": "Six students—Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah—are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah.",
+    "hints": [
+      "We are given that Wina and Yola completely occupy desk 3.",
+      "Vina and Fhasyah completely occupy desk 1.",
+      "The only desk left with open seats is desk 2, which perfectly accommodates the remaining pair, Nasywa and Nabila, satisfying the requirement that they sit together."
+    ]
   },
   {
     "id": "logic_17",
@@ -2430,7 +2833,11 @@
     ],
     "correct_answer": "B",
     "explanation": "This is a direct recall from the spatial rules established in the scenario. The rule explicitly stated: 'Vina sits at desk 1 with Fhasyah.'",
-    "passage": "Six students—Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah—are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah."
+    "passage": "Six students—Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah—are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah.",
+    "hints": [
+      "This is a direct recall from the spatial rules established in the scenario.",
+      "The rule explicitly stated: 'Vina sits at desk 1 with Fhasyah.'"
+    ]
   },
   {
     "id": "logic_18",
@@ -2462,7 +2869,17 @@
     ],
     "correct_answer": "A",
     "explanation": "Let's check Option A against all rules. Adam is selected, triggering Ben to be selected (Rule 1 met). Clara is selected, but Dana is not (Rule 2 met). Eric is absent, so Rule 3 is moot. Gina is absent, so Rule 4 is moot. Ben is selected, but Eric is not (Rule 5 met). Clara is selected, so exactly one of Faye or Gina must be selected; Faye is present, Gina is not (Rule 6 met). Group A perfectly satisfies all conditions.",
-    "passage": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected."
+    "passage": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected.",
+    "hints": [
+      "Let's check Option A against all rules.",
+      "Adam is selected, triggering Ben to be selected (Rule 1 met).",
+      "Clara is selected, but Dana is not (Rule 2 met).",
+      "Eric is absent, so Rule 3 is moot.",
+      "Gina is absent, so Rule 4 is moot.",
+      "Ben is selected, but Eric is not (Rule 5 met).",
+      "Clara is selected, so exactly one of Faye or Gina must be selected; Faye is present, Gina is not (Rule 6 met).",
+      "Group A perfectly satisfies all conditions."
+    ]
   },
   {
     "id": "logic_19",
@@ -2494,7 +2911,11 @@
     ],
     "correct_answer": "C",
     "explanation": "The second rule of the candidate selection explicitly states: 'Clara and Dana cannot be selected together.' This creates a mutually exclusive relationship. Therefore, the moment Clara is confirmed to be on the committee, it becomes an absolute certainty that Dana must not be selected.",
-    "passage": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected."
+    "passage": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected.",
+    "hints": [
+      "The second rule of the candidate selection explicitly states: 'Clara and Dana cannot be selected together.' This creates a mutually exclusive relationship.",
+      "Therefore, the moment Clara is confirmed to be on the committee, it becomes an absolute certainty that Dana must not be selected."
+    ]
   },
   {
     "id": "logic_20",
@@ -2524,6 +2945,11 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Since Kevin and Lucas are traveling towards each other, their closing speed is the sum of their individual speeds: 70 km/h + 50 km/h = 120 km/h. To cover the 240 km distance between them at a relative speed of 120 km/h, it will take them Time = Distance / Speed = 240 / 120 = 2 hours. Since they both left at 8:00 AM, they will meet exactly 2 hours later at 10:00 AM."
+    "explanation": "Since Kevin and Lucas are traveling towards each other, their closing speed is the sum of their individual speeds: 70 km/h + 50 km/h = 120 km/h. To cover the 240 km distance between them at a relative speed of 120 km/h, it will take them Time = Distance / Speed = 240 / 120 = 2 hours. Since they both left at 8:00 AM, they will meet exactly 2 hours later at 10:00 AM.",
+    "hints": [
+      "Since Kevin and Lucas are traveling towards each other, their closing speed is the sum of their individual speeds: 70 km/h + 50 km/h = 120 km/h.",
+      "To cover the 240 km distance between them at a relative speed of 120 km/h, it will take them Time = Distance / Speed = 240 / 120 = 2 hours.",
+      "Since they both left at 8:00 AM, they will meet exactly 2 hours later at 10:00 AM."
+    ]
   }
 ]
