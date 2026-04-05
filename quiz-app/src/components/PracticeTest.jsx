@@ -6,7 +6,7 @@ import ChartDisplay from './ChartDisplay';
 import QuestionChart from './QuestionChart';
 
 /* ─── Topic Quiz ─── */
-const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
+const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank, isHayyu }) => {
   const [currentIndex, setCurrentIndex] = useState(startIndex);
   const [guessedOptions, setGuessedOptions] = useState([]);
   const [showExplanation, setShowExplanation] = useState(false);
@@ -64,12 +64,12 @@ const TopicQuiz = ({ questions, startIndex = 0, onFinish, onBackToBank }) => {
   return (
     <div className="fade-in" style={{ display: 'flex', gap: '2rem', maxWidth: '1200px', margin: '0 auto', alignItems: 'flex-start' }}>
       
-      {feedback && (
+      {feedback && isHayyu && (
         <div className="feedback-overlay">
-          <img 
-            src={feedback === 'correct' ? '/correct.jpeg' : '/wrong.jpeg'} 
-            className="feedback-image" 
-            alt={feedback} 
+          <img
+            src={feedback === 'correct' ? '/correct.jpeg' : '/wrong.jpeg'}
+            className="feedback-image"
+            alt={feedback}
           />
         </div>
       )}
@@ -391,7 +391,7 @@ const QuizComplete = ({ onRetry, onBack }) => (
 );
 
 /* ─── Main PracticeTest Component ────────────────────── */
-const PracticeTest = ({ allTopicsData, generatedTryouts = [], initialTryoutIndex = null, onBack }) => {
+const PracticeTest = ({ allTopicsData, generatedTryouts = [], initialTryoutIndex = null, onBack, isHayyu }) => {
   const [view, setView] = useState('subjects'); // 'subjects', 'topics', 'learn', 'quiz', 'done'
   const [selectedSubject, setSelectedSubject] = useState(null);
   const [selectedTopic, setSelectedTopic] = useState(null);
@@ -589,6 +589,7 @@ const PracticeTest = ({ allTopicsData, generatedTryouts = [], initialTryoutIndex
           startIndex={quizStartIndex}
           onFinish={() => setView('done')}
           onBackToBank={initialTryoutIndex !== null ? onBack : () => setView(selectedTopic ? 'learn' : 'subjects')}
+          isHayyu={isHayyu}
         />
       )}
 
