@@ -120,10 +120,11 @@ for i in range(1, 5):
     for idx, q in enumerate(english_qs):
         base_id = q.get('id', f'eng_{idx+1:02d}')
         q['id'] = f"{base_id}_gen_{i}"
-        q['passage'] = mutate_text(q['passage'])
-        q['question_text'] = mutate_text(q['question_text'])
-        for opt in q.get('options', []):
-            opt['text'] = mutate_text(opt['text'])
+        # Disable text mutation for English questions because it corrupts paragraph and sentence indices!
+        # q['passage'] = mutate_text(q['passage'])
+        # q['question_text'] = mutate_text(q['question_text'])
+        # for opt in q.get('options', []):
+        #     opt['text'] = mutate_text(opt['text'])
         q['hints'] = generate_hints(q)
 
     # Combine and Sort
