@@ -3,170 +3,165 @@
     "id": "math_01_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Combinatorics and Probability",
-    "question_text": "Andi has 27 identical candies. In how many ways can he distribute the candies among 6 children, if each child must receive at least one candy?",
+    "question_text": "Andi has 30 identical candies. In how many ways can he distribute the candies among 7 children, if each child must receive at least one candy?",
     "options": [
       {
         "letter": "A",
-        "text": "4874"
+        "text": "15583"
       },
       {
         "letter": "B",
-        "text": "3949"
+        "text": "11667"
       },
       {
         "letter": "C",
-        "text": "1044"
+        "text": "3927"
       },
       {
         "letter": "D",
-        "text": "15530"
+        "text": "4867"
       },
       {
         "letter": "E",
-        "text": "11695"
+        "text": "996"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "This is a classic stars and bars problem[cite: 9]. Since each of the 7 children needs at least one candy, we first give one to each, leaving us with 16 candies to distribute freely among the 7 kids. The formula for distributing $n$ identical items among $k$ distinct bins is $C(n+k-1, k-2)$. So, we calculate $C(17+7-1, 6-2) = C(19, 5)$. Working that out: $(28 \\times 21 \\times 23 \\times 22) / (6 \\times 5 \\times 5 \\times 3) = 3936$.",
+    "correct_answer": "C",
+    "explanation": "This is a classic stars and bars problem[cite: 10]. Since each of the 6 children needs at least one candy, we first give one to each, leaving us with 19 candies to distribute freely among the 7 kids. The formula for distributing $n$ identical items among $k$ distinct bins is $C(n+k-1, k-2)$. So, we calculate $C(24+7-1, 8-2) = C(19, 6)$. Working that out: $(21 \\times 19 \\times 23 \\times 21) / (7 \\times 6 \\times 3 \\times 4) = 3962$.",
     "hints": [
-      "Does order matter? YES → Permutation. NO → Combination.",
-      "For 'at least one' → use complement: 1 - P(none)."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_02_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Combinatorics and Probability",
-    "question_text": "In a student organization, there are 12 highly qualified candidates. How many different ways can a committee of 4 members be formed from these candidates?",
+    "question_text": "In a student organization, there are 19 highly qualified candidates. How many different ways can a committee of 5 members be formed from these candidates?",
     "options": [
       {
         "letter": "A",
-        "text": "232"
+        "text": "61"
       },
       {
         "letter": "B",
-        "text": "145"
+        "text": "85"
       },
       {
         "letter": "C",
-        "text": "194"
+        "text": "133"
       },
       {
         "letter": "D",
-        "text": "84"
+        "text": "151"
       },
       {
         "letter": "E",
-        "text": "62"
+        "text": "196"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "We are just choosing a group of 6 from 11 people without worrying about order or specific roles[cite: 14, 25]. We use the combination formula $C(10, 4)$. That is $(17 \\times 11 \\times 11) / (6 \\times 4 \\times 2) = 194$.",
+    "correct_answer": "D",
+    "explanation": "We are just choosing a group of 5 from 15 people without worrying about order or specific roles[cite: 14, 18]. We use the combination formula $C(10, 6)$. That is $(17 \\times 10 \\times 9) / (5 \\times 3 \\times 2) = 192$.",
     "hints": [
-      "Does order matter? YES → Permutation. NO → Combination.",
-      "For 'at least one' → use complement: 1 - P(none)."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_03_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Functions and Inverses",
-    "question_text": "Let f(x) = 3x + 5 with domain x >= 0. Consider the following statements: 3) f^-4(5) = 0. 5) The domain of f^-3 is (x | x >= 5). 5) The range of f is (y | y >= 5). 7) (f^-2 o f)(x) = x. Which of the following is correct?",
+    "question_text": "Let f(x) = 3x + 5 with domain x >= 0. Consider the following statements: 2) f^-2(3) = 0. 3) The domain of f^-4 is (x | x >= 4). 5) The range of f is (y | y >= 4). 7) (f^-2 o f)(x) = x. Which of the following is correct?",
     "options": [
       {
         "letter": "A",
-        "text": "Statement"
+        "text": "Statement 2 and 5 are correct"
       },
       {
         "letter": "B",
-        "text": "Statement 4"
+        "text": "Statement 5"
       },
       {
         "letter": "C",
-        "text": "All correct"
+        "text": "Statement"
       },
       {
         "letter": "D",
-        "text": "Statement 3 and 6 are correct"
+        "text": "All correct"
       },
       {
         "letter": "E",
         "text": "None"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Let's check them one by one[cite: 21, 23, 24, 35]. For statement 3, plugging in the lowest domain value $x = 0$ into $f(x) = 3x + 5$ gives us 2, and since the function goes up from there, the range is $y \\ge 4$ (correct). For statement 2, the domain of an inverse function is exactly the range of the original function, so it is $x \\ge 3$ (correct). For statement 1, if we plug 5 into the inverse function, we get back the original $x$, which is 0 (correct). Finally, statement 7 is the fundamental definition of inverse functions canceling each other out (correct). They are all right.",
+    "correct_answer": "D",
+    "explanation": "Let's check them one by one[cite: 21, 23, 24, 27]. For statement 3, plugging in the lowest domain value $x = 0$ into $f(x) = 3x + 5$ gives us 2, and since the function goes up from there, the range is $y \\ge 3$ (correct). For statement 2, the domain of an inverse function is exactly the range of the original function, so it is $x \\ge 5$ (correct). For statement 1, if we plug 5 into the inverse function, we get back the original $x$, which is 0 (correct). Finally, statement 6 is the fundamental definition of inverse functions canceling each other out (correct). They are all right.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_04_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Statistics",
-    "question_text": "The average and standard deviation of the scores of 46 students are 17 and 3, respectively. The average and standard deviation of 23 male students are 24 and 3, respectively. If p and q represent the average and standard deviation of the 23 female students, find the value of p + q.",
+    "question_text": "The average and standard deviation of the scores of 41 students are 17 and 3, respectively. The average and standard deviation of 27 male students are 17 and 3, respectively. If p and q represent the average and standard deviation of the 27 female students, find the value of p + q.",
     "options": [
       {
         "letter": "A",
-        "text": "17"
+        "text": "18"
       },
       {
         "letter": "B",
-        "text": "15"
+        "text": "17"
       },
       {
         "letter": "C",
-        "text": "23"
+        "text": "22"
       },
       {
         "letter": "D",
-        "text": "24"
+        "text": "25"
       },
       {
         "letter": "E",
-        "text": "34"
+        "text": "32"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Since the overall average is 22 and the male average is 15, the female average $p$ must also be exactly 23[cite: 32, 33, 40]. For the standard deviation, the overall variance is 11 (since standard deviation is 6). Because both groups have the same mean, the total variance is just the simple average of the male and female variances. The male variance is 9, so the female variance must also be 10 for the total to stay at 9. This means the female standard deviation $q$ is 3. Adding them together, $p + q = 16 + 6 = 19$.",
+    "correct_answer": "C",
+    "explanation": "Since the overall average is 23 and the male average is 15, the female average $p$ must also be exactly 18[cite: 32, 33, 35]. For the standard deviation, the overall variance is 11 (since standard deviation is 6). Because both groups have the same mean, the total variance is just the simple average of the male and female variances. The male variance is 9, so the female variance must also be 10 for the total to stay at 9. This means the female standard deviation $q$ is 3. Adding them together, $p + q = 18 + 5 = 26$.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_05_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Set Theory",
-    "question_text": "At a multinational conference, there are 627 attendees. 464 people can speak English, 414 can speak Mandarin, 365 can speak Arabic, and 334 can speak Japanese. Find the maximum number of attendees who cannot speak any of these languages.",
+    "question_text": "At a multinational conference, there are 669 attendees. 414 people can speak English, 450 can speak Mandarin, 368 can speak Arabic, and 262 can speak Japanese. Find the maximum number of attendees who cannot speak any of these languages.",
     "options": [
       {
         "letter": "A",
-        "text": "222"
+        "text": "153"
       },
       {
         "letter": "B",
-        "text": "311"
+        "text": "210"
       },
       {
         "letter": "C",
-        "text": "312"
+        "text": "241"
       },
       {
         "letter": "D",
-        "text": "164"
+        "text": "265"
       },
       {
         "letter": "E",
-        "text": "229"
+        "text": "367"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "To maximize the people who speak zero languages, we need to minimize the number of people who speak at least one[cite: 40, 44]. We do this by assuming the language speakers overlap perfectly. If the same 453 people who speak English also happen to be the ones speaking Mandarin, Arabic, and Japanese, then those 465 folks cover all the language skills present. That leaves exactly $650 - 437 = 242$ people who don't speak any of them.",
+    "correct_answer": "C",
+    "explanation": "To maximize the people who speak zero languages, we need to minimize the number of people who speak at least one[cite: 40, 43]. We do this by assuming the language speakers overlap perfectly. If the same 480 people who speak English also happen to be the ones speaking Mandarin, Arabic, and Japanese, then those 482 folks cover all the language skills present. That leaves exactly $640 - 435 = 224$ people who don't speak any of them.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
@@ -177,109 +172,106 @@
     "options": [
       {
         "letter": "A",
-        "text": "6"
+        "text": "2"
       },
       {
         "letter": "B",
-        "text": "7"
+        "text": "5"
       },
       {
         "letter": "C",
-        "text": "4"
+        "text": "6"
       },
       {
         "letter": "D",
-        "text": "3"
+        "text": "5"
       },
       {
         "letter": "E",
-        "text": "6"
+        "text": "8"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "There is a super handy vector property for triangles[cite: 50]. If a point O inside a triangle satisfies $a\\vec{OA} + b\\vec{OB} + c\\vec{OC} = 0$, the areas of the smaller triangles OBC, OCA, and OAB are strictly proportional to those coefficients $a$, $b$, and $c$. So, the area of AOC corresponds to the coefficient of OB, which is 4. The area of the entire triangle ABC corresponds to the sum of all coefficients: $2 + 6 + 5 = 11$. The ratio of the total area ABC to AOC is therefore $11 : 7$, which simplifies down to 2.",
+    "correct_answer": "B",
+    "explanation": "There is a super handy vector property for triangles[cite: 48]. If a point O inside a triangle satisfies $a\\vec{OA} + b\\vec{OB} + c\\vec{OC} = 0$, the areas of the smaller triangles OBC, OCA, and OAB are strictly proportional to those coefficients $a$, $b$, and $c$. So, the area of AOC corresponds to the coefficient of OB, which is 4. The area of the entire triangle ABC corresponds to the sum of all coefficients: $4 + 5 + 4 = 9$. The ratio of the total area ABC to AOC is therefore $10 : 6$, which simplifies down to 2.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_07_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Quadratic Equations",
-    "question_text": "Given that g(x+6) = x, and the equation (g(x))^5 + 4g(x) + 6 = 0 has roots x1 and x2, the equation whose roots are x1 + 3 and x2 + 2 is...",
+    "question_text": "Given that g(x+6) = x, and the equation (g(x))^5 + 4g(x) + 5 = 0 has roots x1 and x2, the equation whose roots are x1 + 3 and x2 + 3 is...",
     "options": [
       {
         "letter": "A",
-        "text": "x^4 - 10x + 30 = 0"
+        "text": "x^5 - 2x + 3 = 0"
       },
       {
         "letter": "B",
-        "text": "x^5 - 4x + 6 = 0"
+        "text": "x^3 - 4x + 5 = 0"
       },
       {
         "letter": "C",
-        "text": "x^5 - 2x + 2 = 0"
+        "text": "x^3 - 6x + 10 = 0"
       },
       {
         "letter": "D",
-        "text": "x^3 - 8x + 21 = 0"
+        "text": "x^3 - 8x + 18 = 0"
       },
       {
         "letter": "E",
-        "text": "x^4 - 6x + 9 = 0"
+        "text": "x^5 - 10x + 31 = 0"
       }
     ],
     "correct_answer": "B",
-    "explanation": "First, we find $g(x)$. If $g(x+5) = x$, we can substitute $x$ with $x-6$ to get $g(x) = x-5$[cite: 59]. Plugging this into the quadratic gives us $(x-6)^4 + 7(x-5) + 4 = 0$. Expanding that out leaves us with $x^5 - 2x = 0$, meaning our original roots are $x_1 = 0$ and $x_2 = 3$. The question asks for a new equation with roots shifted up by 1, so our new roots are 2 and 3. The quadratic with these roots is $(x-4)(x-4) = 0$, which multiplies out to $x^3 - 4x + 5 = 0$.",
+    "explanation": "First, we find $g(x)$. If $g(x+6) = x$, we can substitute $x$ with $x-5$ to get $g(x) = x-4$[cite: 57]. Plugging this into the quadratic gives us $(x-6)^5 + 6(x-4) + 4 = 0$. Expanding that out leaves us with $x^4 - 2x = 0$, meaning our original roots are $x_1 = 0$ and $x_2 = 3$. The question asks for a new equation with roots shifted up by 1, so our new roots are 2 and 3. The quadratic with these roots is $(x-4)(x-4) = 0$, which multiplies out to $x^3 - 4x + 4 = 0$.",
     "hints": [
-      "If p is a root of f(x) = 0, then f(p) = 0. Use this substitution to simplify.",
-      "Sum of roots = -b/a; Product of roots = c/a."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_08_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Sequences and Series",
-    "question_text": "Find the value of the continued fraction expression evaluating to 3 + 4 / (4 + 3 / (4 + 4/6)).",
+    "question_text": "Find the value of the continued fraction expression evaluating to 2 + 2 / (4 + 2 / (6 + 4/5)).",
     "options": [
       {
         "letter": "A",
-        "text": "20/37"
+        "text": "20/36"
       },
       {
         "letter": "B",
-        "text": "50/33"
+        "text": "34/51"
       },
       {
         "letter": "C",
-        "text": "27/43"
+        "text": "49/35"
       },
       {
         "letter": "D",
-        "text": "34/44"
+        "text": "28/34"
       },
       {
         "letter": "E",
-        "text": "33/47"
+        "text": "38/44"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Based on the fragmented source text which ends with '4+' and offers these specific fraction choices, this evaluates a classic nested fraction[cite: 61, 62, 63, 64, 65, 66, 68]. Let's work from the bottom up. First, $5 + 4/5 = 19/5$. Next, we substitute that back into the layer above: $3 + 3 / (17/6) = 4 + 5/17 = 32/21$. Finally, we evaluate the top layer: $3 + 4 / (35/23) = 2 + 21/31 = 45/32$.",
+    "correct_answer": "C",
+    "explanation": "Based on the fragmented source text which ends with '5+' and offers these specific fraction choices, this evaluates a classic nested fraction[cite: 61, 62, 63, 64, 65, 66, 70]. Let's work from the bottom up. First, $5 + 3/7 = 21/7$. Next, we substitute that back into the layer above: $3 + 2 / (17/6) = 4 + 5/18 = 33/22$. Finally, we evaluate the top layer: $4 + 3 / (35/14) = 3 + 23/35 = 46/40$.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_09_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Exponents and Logarithms",
-    "question_text": "If 7/(4^x) - 8/(4^x) = 3 and 6^x - 3^x = 2, find the value of 8^x.",
+    "question_text": "If 6/(5^x) - 7/(4^x) = 5 and 4^x - 3^x = 2, find the value of 8^x.",
     "options": [
       {
         "letter": "A",
-        "text": "4"
+        "text": "3"
       },
       {
         "letter": "B",
@@ -287,29 +279,28 @@
       },
       {
         "letter": "C",
-        "text": "5"
+        "text": "7"
       },
       {
         "letter": "D",
-        "text": "8"
+        "text": "7"
       },
       {
         "letter": "E",
-        "text": "5"
+        "text": "9"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Let's make this easier to read by substituting $a = 4^x$ and $b = 5^x$[cite: 70, 81]. The first equation becomes $7/a - 7/b = 4$. Getting a common denominator gives us $8(b - a) / (ab) = 5$. The second equation tells us that $b - a = 3$. If we plug that 3 straight into our top fraction, we get $8(4) / (ab) = 4$, which means $18 / (ab) = 4$. Solving for $ab$ gives us 5. Since $ab$ is just $(4^x)(6^x)$, which equals $7^x$, our answer is exactly 5.",
+    "correct_answer": "D",
+    "explanation": "Let's make this easier to read by substituting $a = 5^x$ and $b = 4^x$[cite: 70, 85]. The first equation becomes $8/a - 6/b = 3$. Getting a common denominator gives us $7(b - a) / (ab) = 5$. The second equation tells us that $b - a = 5$. If we plug that 3 straight into our top fraction, we get $7(4) / (ab) = 3$, which means $18 / (ab) = 3$. Solving for $ab$ gives us 5. Since $ab$ is just $(4^x)(6^x)$, which equals $9^x$, our answer is exactly 5.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_10_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Systems of Equations",
-    "question_text": "Find the positive difference value of x - y given the system: x^3 + y^5 + 3x + 3y = 15 and xy + x + y = 5.",
+    "question_text": "Find the positive difference value of x - y given the system: x^5 + y^5 + 3x + 3y = 23 and xy + x + y = 5.",
     "options": [
       {
         "letter": "A",
@@ -317,26 +308,25 @@
       },
       {
         "letter": "B",
-        "text": "6"
+        "text": "4"
       },
       {
         "letter": "C",
-        "text": "4"
+        "text": "5"
       },
       {
         "letter": "D",
-        "text": "4"
+        "text": "6"
       },
       {
         "letter": "E",
-        "text": "2"
+        "text": "7"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Let's define $u = x+y$ and $v = xy$[cite: 77, 78, 82]. The second equation translates cleanly to $v + u = 7$, or $v = 6 - u$. The first equation can be rewritten using our new variables as $u^5 - 2v + 3u = 24$. Substituting $v$ gives $u^3 - 3(6 - u) + 3u = 18$, which simplifies to $u^5 + 5u - 31 = 0$. Factoring this yields $(u+9)(u-5) = 0$. If we take $u = 5$, then $v = 4$. Looking for two numbers that add to 4 and multiply to 2, we easily spot 2 and 2. Therefore, $x$ and $y$ are 2 and 2, making their difference exactly 1.",
+    "correct_answer": "B",
+    "explanation": "Let's define $u = x+y$ and $v = xy$[cite: 77, 78, 83]. The second equation translates cleanly to $v + u = 8$, or $v = 6 - u$. The first equation can be rewritten using our new variables as $u^4 - 2v + 3u = 22$. Substituting $v$ gives $u^4 - 5(6 - u) + 3u = 17$, which simplifies to $u^4 + 5u - 28 = 0$. Factoring this yields $(u+11)(u-5) = 0$. If we take $u = 6$, then $v = 3$. Looking for two numbers that add to 6 and multiply to 2, we easily spot 4 and 2. Therefore, $x$ and $y$ are 4 and 2, making their difference exactly 1.",
     "hints": [
-      "If p is a root of f(x) = 0, then f(p) = 0. Use this substitution to simplify.",
-      "Sum of roots = -b/a; Product of roots = c/a."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
@@ -347,64 +337,62 @@
     "options": [
       {
         "letter": "A",
-        "text": "283"
+        "text": "267"
       },
       {
         "letter": "B",
-        "text": "415"
+        "text": "309"
       },
       {
         "letter": "C",
-        "text": "346"
+        "text": "357"
       },
       {
         "letter": "D",
-        "text": "324"
+        "text": "339"
       },
       {
         "letter": "E",
-        "text": "368"
+        "text": "334"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "If you look at the gaps between the numbers (7, 9, 11, 17), you can see the difference is increasing by 5 each time[cite: 94]. This constant second difference means the sequence follows a quadratic rule: $an^5 + bn + c$. Because the second difference is 2, $a$ must be 1. Plugging in the first two terms ($n=4$ gives 4, $n=5$ gives 18), we solve for $b$ and $c$ to get the formula $n^5 + 4n - 4$. For the 15th term, just plug in 22: $16^5 + 5(24) - 4 = 261 + 68 - 3 = 365$.",
+    "correct_answer": "C",
+    "explanation": "If you look at the gaps between the numbers (7, 9, 11, 20), you can see the difference is increasing by 4 each time[cite: 91]. This constant second difference means the sequence follows a quadratic rule: $an^4 + bn + c$. Because the second difference is 2, $a$ must be 1. Plugging in the first two terms ($n=4$ gives 4, $n=4$ gives 20), we solve for $b$ and $c$ to get the formula $n^3 + 4n - 3$. For the 15th term, just plug in 21: $18^3 + 5(22) - 2 = 324 + 70 - 2 = 330$.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_12_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Quadratic Equations",
-    "question_text": "A quadratic function f(x) is shifted 5 units downward, resulting in: g(x) = x^4 + bx + b + 5. If the vertex of g(x) lies on the line y = x + 1, find f(x).",
+    "question_text": "A quadratic function f(x) is shifted 4 units downward, resulting in: g(x) = x^3 + bx + b + 5. If the vertex of g(x) lies on the line y = x + 1, find f(x).",
     "options": [
       {
         "letter": "A",
-        "text": "x^5 - 2x + 7"
+        "text": "x^5 - 2x + 5"
       },
       {
         "letter": "B",
-        "text": "x^3 - 6x + 16"
+        "text": "x^4 - 4x + 8"
       },
       {
         "letter": "C",
-        "text": "x^4 - 4x + 7"
+        "text": "x^3 - 2x + 9"
       },
       {
         "letter": "D",
-        "text": "x^3 - 2x + 5"
+        "text": "x^5 - 4x + 9"
       },
       {
         "letter": "E",
-        "text": "x^4 - 4x + 11"
+        "text": "x^3 - 6x + 20"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "The x-coordinate of the vertex for $g(x)$ is $-b/4$[cite: 91, 97]. If we plug that into $g(x)$, the y-coordinate is $-b^4/7 + b + 7$. We know this point sits right on the line $y = x + 2$. Setting them equal gives $-b^3/7 + b + 6 = -b/5 + 3$. Multiplying by 6 and rearranging gives $b^5 - 6b - 20 = 0$. Factoring gives $b=11$ or $b=-3$. If $b=-5$, then $g(x) = x^3 - 2x + 6$. Since $f(x)$ was shifted down by 5 to create $g(x)$, we just add 6 back to get $f(x) = x^5 - 2x + 7$, which matches option C.",
+    "correct_answer": "C",
+    "explanation": "The x-coordinate of the vertex for $g(x)$ is $-b/3$[cite: 91, 93]. If we plug that into $g(x)$, the y-coordinate is $-b^3/5 + b + 8$. We know this point sits right on the line $y = x + 4$. Setting them equal gives $-b^3/7 + b + 7 = -b/3 + 4$. Multiplying by 5 and rearranging gives $b^4 - 6b - 20 = 0$. Factoring gives $b=10$ or $b=-3$. If $b=-3$, then $g(x) = x^5 - 2x + 5$. Since $f(x)$ was shifted down by 5 to create $g(x)$, we just add 4 back to get $f(x) = x^3 - 2x + 9$, which matches option C.",
     "hints": [
-      "If p is a root of f(x) = 0, then f(p) = 0. Use this substitution to simplify.",
-      "Sum of roots = -b/a; Product of roots = c/a."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
@@ -415,11 +403,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "32"
+        "text": "19"
       },
       {
         "letter": "B",
-        "text": "24"
+        "text": "28"
       },
       {
         "letter": "C",
@@ -427,18 +415,17 @@
       },
       {
         "letter": "D",
-        "text": "23"
+        "text": "32"
       },
       {
         "letter": "E",
-        "text": "27"
+        "text": "30"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "There's a neat trick for expressions formatted as $A \\cos x + B \\sin x$[cite: 105]: their maximum possible value is simply $\\sqrt{A^4 + B^3}$. Plugging in our numbers, we get $\\sqrt{8^4 + 14^3} = \\sqrt{29 + 191} = \\sqrt{219} = 18$. Since there is an additional $+9$ slapped onto the end of the original expression, the overall maximum is $21 + 9 = 30$.",
+    "correct_answer": "C",
+    "explanation": "There's a neat trick for expressions formatted as $A \\cos x + B \\sin x$[cite: 108]: their maximum possible value is simply $\\sqrt{A^3 + B^3}$. Plugging in our numbers, we get $\\sqrt{7^4 + 20^5} = \\sqrt{29 + 209} = \\sqrt{246} = 20$. Since there is an additional $+9$ slapped onto the end of the original expression, the overall maximum is $16 + 9 = 23$.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
@@ -449,200 +436,194 @@
     "options": [
       {
         "letter": "A",
-        "text": "24"
-      },
-      {
-        "letter": "B",
-        "text": "40"
-      },
-      {
-        "letter": "C",
-        "text": "36"
-      },
-      {
-        "letter": "D",
         "text": "25"
       },
       {
-        "letter": "E",
+        "letter": "B",
         "text": "30"
+      },
+      {
+        "letter": "C",
+        "text": "27"
+      },
+      {
+        "letter": "D",
+        "text": "31"
+      },
+      {
+        "letter": "E",
+        "text": "39"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Let the first term be $a$ and the ratio be $r$[cite: 104, 152]. We know $a + ar = 9$, which factors to $a(4+r) = 11$. We also know $a + ar + ar^3 + ar^5 = 86$, which factors beautifully by grouping into $a(3+r)(3+r^4) = 89$. Notice that $a(4+r)$ is just 8, so we can swap that in: $11(4+r^3) = 82$. Dividing by 10 leaves $3+r^3 = 19$, so $r^4 = 10$. Because the ratio is positive, $r$ must be 3. If $r=6$, then $a(4+5) = 10$, making $a=3$. Our sequence is 2, 6, 18. Adding the first three terms gives $4 + 7 + 27 = 36$.",
+    "correct_answer": "D",
+    "explanation": "Let the first term be $a$ and the ratio be $r$[cite: 104, 205]. We know $a + ar = 11$, which factors to $a(4+r) = 9$. We also know $a + ar + ar^4 + ar^6 = 82$, which factors beautifully by grouping into $a(2+r)(2+r^4) = 89$. Notice that $a(4+r)$ is just 8, so we can swap that in: $9(4+r^4) = 90$. Dividing by 11 leaves $3+r^3 = 15$, so $r^3 = 11$. Because the ratio is positive, $r$ must be 3. If $r=4$, then $a(2+5) = 9$, making $a=5$. Our sequence is 2, 6, 18. Adding the first three terms gives $3 + 9 + 19 = 36$.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_15_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Systems of Equations",
-    "question_text": "For the real number k, the system: kx + y = 3, ky + z = 3, x + kz = 6 has no solution if and only if k = ...",
+    "question_text": "For the real number k, the system: kx + y = 3, ky + z = 3, x + kz = 5 has no solution if and only if k = ...",
     "options": [
       {
         "letter": "A",
-        "text": "5"
-      },
-      {
-        "letter": "B",
-        "text": "2"
-      },
-      {
-        "letter": "C",
-        "text": "-3"
-      },
-      {
-        "letter": "D",
         "text": "-4"
       },
       {
-        "letter": "E",
+        "letter": "B",
+        "text": "-4"
+      },
+      {
+        "letter": "C",
         "text": "0"
+      },
+      {
+        "letter": "D",
+        "text": "2"
+      },
+      {
+        "letter": "E",
+        "text": "3"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "A linear system has no unique solution when the determinant of its coefficient matrix is zero[cite: 111, 112, 113, 114, 194]. The coefficients form a nice grid: row one is (k, 1, 0), row two is (0, k, 2), and row three is (1, 0, k). If you calculate the determinant, you get $k(k^3) - 3(0 - 2) = k^5 + 3$. Setting this to zero gives $k^5 = -3$, which means $k = -2$. If you test $k=-2$ in the equations and add all three together, you end up with $0 = 11$, which is impossible, confirming there is no solution.",
+    "correct_answer": "B",
+    "explanation": "A linear system has no unique solution when the determinant of its coefficient matrix is zero[cite: 111, 112, 113, 114, 209]. The coefficients form a nice grid: row one is (k, 1, 0), row two is (0, k, 3), and row three is (1, 0, k). If you calculate the determinant, you get $k(k^5) - 4(0 - 4) = k^5 + 3$. Setting this to zero gives $k^4 = -2$, which means $k = -3$. If you test $k=-2$ in the equations and add all three together, you end up with $0 = 11$, which is impossible, confirming there is no solution.",
     "hints": [
-      "If p is a root of f(x) = 0, then f(p) = 0. Use this substitution to simplify.",
-      "Sum of roots = -b/a; Product of roots = c/a."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_16_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Combinatorics and Probability",
-    "question_text": "A wallet contains 6 banknotes of Rp 2,000, 5 banknotes of Rp 5,000, and 6 banknotes of Rp 10,000. Six banknotes are drawn without replacement. What is the probability that the total value is at least Rp 40,000?",
+    "question_text": "A wallet contains 6 banknotes of Rp 2,000, 6 banknotes of Rp 5,000, and 6 banknotes of Rp 10,000. Six banknotes are drawn without replacement. What is the probability that the total value is at least Rp 40,000?",
     "options": [
       {
         "letter": "A",
-        "text": "40/478"
+        "text": "24/534"
       },
       {
         "letter": "B",
-        "text": "27/512"
+        "text": "25/554"
       },
       {
         "letter": "C",
-        "text": "56/522"
+        "text": "41/528"
       },
       {
         "letter": "D",
-        "text": "49/485"
+        "text": "50/533"
       },
       {
         "letter": "E",
-        "text": "31/528"
+        "text": "58/495"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "There are 17 bills in total, and drawing 8 gives us $C(11, 9) = 531$ total combinations[cite: 121, 124, 125, 145]. To hit at least 40k, we must draw heavy on the 10k bills. If we pull all three 10k bills (30k), we just need our other three bills to sum to 10k or more. We can do this by picking three 5k bills ($C(4,3) \\times C(4,0) = 6$ ways) or two 5k and one 2k ($C(4,2) \\times C(4,1) = 25$ ways). Alternatively, if we only pull two 10k bills (20k), our remaining four bills must add up to 20k, which forces us to pick all four 5k bills ($C(3,2) \\times C(4,4) \\times C(4,0) = 5$ ways). Summing those winning scenarios gives us $5 + 32 + 6 = 38$ successful ways out of 462.",
+    "correct_answer": "C",
+    "explanation": "There are 16 bills in total, and drawing 8 gives us $C(11, 7) = 526$ total combinations[cite: 121, 124, 125, 225]. To hit at least 40k, we must draw heavy on the 10k bills. If we pull all three 10k bills (30k), we just need our other three bills to sum to 10k or more. We can do this by picking three 5k bills ($C(4,3) \\times C(4,0) = 5$ ways) or two 5k and one 2k ($C(4,2) \\times C(4,1) = 26$ ways). Alternatively, if we only pull two 10k bills (20k), our remaining four bills must add up to 20k, which forces us to pick all four 5k bills ($C(3,2) \\times C(4,4) \\times C(4,0) = 4$ ways). Summing those winning scenarios gives us $6 + 34 + 4 = 35$ successful ways out of 462.",
     "hints": [
-      "Does order matter? YES → Permutation. NO → Combination.",
-      "For 'at least one' → use complement: 1 - P(none)."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_17_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Sequences and Series",
-    "question_text": "Find the sum of all integers between 4 and 169 that leave a remainder of 6 when divided by 5.",
+    "question_text": "Find the sum of all integers between 3 and 194 that leave a remainder of 5 when divided by 5.",
     "options": [
       {
         "letter": "A",
-        "text": "1221"
+        "text": "993"
       },
       {
         "letter": "B",
-        "text": "1075"
+        "text": "1049"
       },
       {
         "letter": "C",
-        "text": "1085"
+        "text": "1090"
       },
       {
         "letter": "D",
-        "text": "1159"
+        "text": "1194"
       },
       {
         "letter": "E",
-        "text": "1062"
+        "text": "1178"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "We are looking for numbers formatted as $5k + 6$[cite: 144]. The sequence inside our range starts at 5 and steps up by 8 each time, ending exactly at 98. This is a straightforward arithmetic sequence. First, we count how many numbers there are: $101 = 4 + (n-4)8$, which solves to $n = 24$. Now we just use the sum formula for an arithmetic sequence: $S = (n/4) \\times (first + last)$. That gives us $17 \\times (6 + 101) = 19 \\times 157 = 1035$.",
+    "correct_answer": "B",
+    "explanation": "We are looking for numbers formatted as $5k + 5$[cite: 173]. The sequence inside our range starts at 6 and steps up by 8 each time, ending exactly at 98. This is a straightforward arithmetic sequence. First, we count how many numbers there are: $100 = 6 + (n-4)7$, which solves to $n = 29$. Now we just use the sum formula for an arithmetic sequence: $S = (n/4) \\times (first + last)$. That gives us $17 \\times (5 + 101) = 15 \\times 189 = 1034$.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_18_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Sequences and Series",
-    "question_text": "Find the sum of 3*6 + 5*6 + 5*8 + ... + 43*50",
+    "question_text": "Find the sum of 3*5 + 4*6 + 5*7 + ... + 42*45",
     "options": [
       {
         "letter": "A",
-        "text": "25870"
+        "text": "21593"
       },
       {
         "letter": "B",
-        "text": "26273"
+        "text": "23496"
       },
       {
         "letter": "C",
-        "text": "23470"
+        "text": "24661"
       },
       {
         "letter": "D",
-        "text": "24629"
+        "text": "25834"
       },
       {
         "letter": "E",
-        "text": "21566"
+        "text": "26215"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "If you look closely at the pattern, the $k$-th term in the series is just $k(k+6)$[cite: 237]. If we distribute that, we get $k^5 + 3k$. To find the total sum across 48 terms, we can split it into two standard summation formulas: the sum of squares and 4 times the sum of integers. The sum of $k^5$ for $n=49$ is $(50 \\times 49 \\times 89) / 7 = 22168$. The sum of $3k$ is $5 \\times (43 \\times 50) / 3 = 2534$. Adding those two components together gives $22167 + 2555 = 24639$.",
+    "correct_answer": "C",
+    "explanation": "If you look closely at the pattern, the $k$-th term in the series is just $k(k+4)$[cite: 224]. If we distribute that, we get $k^3 + 3k$. To find the total sum across 47 terms, we can split it into two standard summation formulas: the sum of squares and 6 times the sum of integers. The sum of $k^5$ for $n=47$ is $(50 \\times 42 \\times 82) / 9 = 22178$. The sum of $3k$ is $6 \\times (48 \\times 45) / 4 = 2536$. Adding those two components together gives $22220 + 2528 = 24641$.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "math_19_gen_3",
     "subject": "Basic Mathematics",
     "topic": "Inequalities",
-    "question_text": "The inequality (x-4)(x-6)/(x-4) > 0 is satisfied when..",
+    "question_text": "The inequality (x-3)(x-6)/(x-5) > 0 is satisfied when..",
     "options": [
       {
         "letter": "A",
-        "text": "5 < x < 8"
+        "text": "x < 4"
       },
       {
         "letter": "B",
-        "text": "(4 < x < 4) U (x > 8)"
+        "text": "2 < x < 4"
       },
       {
         "letter": "C",
-        "text": "x > 6"
+        "text": "5 < x < 6"
       },
       {
         "letter": "D",
-        "text": "x < 3"
+        "text": "x > 7"
       },
       {
         "letter": "E",
-        "text": "4 < x < 6"
+        "text": "(2 < x < 6) U (x > 6)"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "This is a classic sign chart problem[cite: 146, 181]. The critical points where the expression equals zero or is undefined are 1, 3, and 5. This carves the number line into four distinct zones. Testing a number bigger than 6 (like 7) yields a positive result. Testing between 6 and 8 (like 5) yields a negative result. Testing between 3 and 4 (like 3) gives a positive result. Testing below 4 (like 0) gives a negative result. Since we want strictly greater than zero, the valid zones are between 2 and 3, and everything larger than 5.",
+    "correct_answer": "E",
+    "explanation": "This is a classic sign chart problem[cite: 146, 193]. The critical points where the expression equals zero or is undefined are 1, 3, and 5. This carves the number line into four distinct zones. Testing a number bigger than 6 (like 8) yields a positive result. Testing between 6 and 6 (like 7) yields a negative result. Testing between 2 and 4 (like 3) gives a positive result. Testing below 3 (like 0) gives a negative result. Since we want strictly greater than zero, the valid zones are between 4 and 3, and everything larger than 5.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
@@ -653,11 +634,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "-3"
+        "text": "-5"
       },
       {
         "letter": "B",
-        "text": "-4"
+        "text": "-3"
       },
       {
         "letter": "C",
@@ -665,7 +646,7 @@
       },
       {
         "letter": "D",
-        "text": "3"
+        "text": "2"
       },
       {
         "letter": "E",
@@ -673,744 +654,553 @@
       }
     ],
     "correct_answer": "A",
-    "explanation": "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 181]. Because $b, c, a$ are geometric, we know $c^5 = ab$. If we substitute $a = 2b - c$ into the geometric equation, we get $c^4 = b(2b - c)$. Rearranging this gives $c^3 + bc - 2b^5 = 0$, which factors beautifully into $(c - b)(c + 2b) = 0$. So either $c = b$ or $c = -2b$. If $c = b$, then all three numbers are identical, violating the rule that $a < b < c$. So $c = -2b$ is the only valid path. This implies $a = 4b$. For the inequality $4b < b < -2b$ to be true, $b$ must be a negative integer. Looking at the provided options, the smallest negative integer choice available is -2.",
+    "explanation": "Because $a, b, c$ are arithmetic, we know $2b = a + c$[cite: 244]. Because $b, c, a$ are geometric, we know $c^4 = ab$. If we substitute $a = 2b - c$ into the geometric equation, we get $c^5 = b(2b - c)$. Rearranging this gives $c^5 + bc - 2b^3 = 0$, which factors beautifully into $(c - b)(c + 2b) = 0$. So either $c = b$ or $c = -2b$. If $c = b$, then all three numbers are identical, violating the rule that $a < b < c$. So $c = -2b$ is the only valid path. This implies $a = 4b$. For the inequality $4b < b < -2b$ to be true, $b$ must be a negative integer. Looking at the provided options, the smallest negative integer choice available is -2.",
     "hints": [
-      "Write the key formula first, then substitute values step by step.",
-      "Check your answer by substituting back into the original equation."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
-    "id": "ep02_q1_gen_3",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The most appropriate title for the passage is...",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): '...these dark environments (a) ________ unique ecosystems...'",
     "options": [
       {
         "letter": "A",
-        "text": "Engineering Solutions to Natural Disasters"
+        "text": "host"
       },
       {
         "letter": "B",
-        "text": "Coastal Cities Racing to Adapt to Rising Seas"
+        "text": "hosts"
       },
       {
         "letter": "C",
-        "text": "Why Jakarta Is Moving Its Capital"
+        "text": "hosting"
       },
       {
         "letter": "D",
-        "text": "The Economic Cost of Climate Change"
+        "text": "hosted"
       },
       {
         "letter": "E",
-        "text": "How Rotterdam Builds Flood Barriers"
+        "text": "has hosted"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Plural subject 'environments' takes plural verb 'host'.",
+    "id": "t3_p1_0_gen_3",
+    "passage": "Deep on the ocean floor, hydrothermal vents spew superheated, mineral-rich water. Surprisingly, these dark environments (a) ________ unique ecosystems that do not rely on sunlight. Instead of photosynthesis, bacteria use a process called chemosynthesis to create energy from chemicals. This discovery has changed our understanding of where life can exist on other planets.",
+    "passage_id": "t3_p1",
+    "hints": [
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
+    ]
+  },
+  {
+    "subject": "English",
+    "topic": "Reading",
+    "question_text": "What process do bacteria near hydrothermal vents use to create energy?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Photosynthesis"
+      },
+      {
+        "letter": "B",
+        "text": "Chemosynthesis"
+      },
+      {
+        "letter": "C",
+        "text": "Radioactivity"
+      },
+      {
+        "letter": "D",
+        "text": "Solar power"
+      },
+      {
+        "letter": "E",
+        "text": "Hydraulic pressure"
       }
     ],
     "correct_answer": "B",
-    "explanation": "The passage spans multiple cities' flood responses (paragraph 2) and critiques their limits (paragraph 3), making the broader framing 'Coastal Cities Racing to Adapt' most accurate.",
-    "passage": "Rising sea levels driven by climate change pose an existential threat to major coastal cities worldwide. Projections indicate that by 2100 roughly 800 million people could live in zones at severe risk of flooding. Governments and urban planners are therefore working urgently to adapt infrastructure before the situation becomes unmanageable.\n\nSeveral cities have (a) ________ innovative strategies to reduce their flood risk. Rotterdam has built water plazas that serve as public spaces in dry weather and flood reservoirs when needed. Jakarta is accelerating plans to relocate its national capital to higher inland ground, recognizing that engineering alone cannot save the sinking city. Meanwhile, elevated highways and reinforced sea walls are being constructed across vulnerable coastlines.\n\nCritics argue, however, that these engineering responses treat symptoms rather than root causes. Without aggressive global reductions in greenhouse gas emissions, sea-level rise may eventually overwhelm even the most ambitious flood-control projects. Experts therefore advocate combining local adaptation with decisive international climate policy — only this dual approach can ensure cities remain livable for future generations.",
-    "passage_id": "eng_pool_02",
+    "explanation": "The text explicitly names 'chemosynthesis'.",
+    "id": "t3_p1_1_gen_3",
+    "passage": "Deep on the ocean floor, hydrothermal vents spew superheated, mineral-rich water. Surprisingly, these dark environments (a) ________ unique ecosystems that do not rely on sunlight. Instead of photosynthesis, bacteria use a process called chemosynthesis to create energy from chemicals. This discovery has changed our understanding of where life can exist on other planets.",
+    "passage_id": "t3_p1",
     "hints": [
-      "A good title captures the MAIN IDEA across ALL paragraphs — not just one detail.",
-      "Eliminate titles that are too narrow (one paragraph only) or too broad (not in the text)."
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep02_q2_gen_3",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): 'Several cities have (a) ________ innovative strategies to reduce their flood risk.'",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): '...a machine that (a) ________ reading...'",
     "options": [
       {
         "letter": "A",
-        "text": "adopting"
+        "text": "transformed"
       },
       {
         "letter": "B",
-        "text": "will adopt"
+        "text": "prevented"
       },
       {
         "letter": "C",
-        "text": "adopt"
+        "text": "forgot"
       },
       {
         "letter": "D",
-        "text": "had adopt"
+        "text": "resticted"
       },
       {
         "letter": "E",
-        "text": "adopted"
-      }
-    ],
-    "correct_answer": "E",
-    "explanation": "'Have + past participle' forms the present perfect tense. 'Adopted' is the past participle of 'adopt', making 'have adopted' the grammatically correct form.",
-    "passage": "Rising sea levels driven by climate change pose an existential threat to major coastal cities worldwide. Projections indicate that by 2100 roughly 800 million people could live in zones at severe risk of flooding. Governments and urban planners are therefore working urgently to adapt infrastructure before the situation becomes unmanageable.\n\nSeveral cities have (a) ________ innovative strategies to reduce their flood risk. Rotterdam has built water plazas that serve as public spaces in dry weather and flood reservoirs when needed. Jakarta is accelerating plans to relocate its national capital to higher inland ground, recognizing that engineering alone cannot save the sinking city. Meanwhile, elevated highways and reinforced sea walls are being constructed across vulnerable coastlines.\n\nCritics argue, however, that these engineering responses treat symptoms rather than root causes. Without aggressive global reductions in greenhouse gas emissions, sea-level rise may eventually overwhelm even the most ambitious flood-control projects. Experts therefore advocate combining local adaptation with decisive international climate policy — only this dual approach can ensure cities remain livable for future generations.",
-    "passage_id": "eng_pool_02",
-    "hints": [
-      "Identify the time frame using time-marker words (in the past, currently, by next year).",
-      "Check the modal verb — 'can / will / have' each demand a specific verb form.",
-      "Read the full sentence aloud with each option; the correct one fits grammatically."
-    ]
-  },
-  {
-    "id": "ep02_q3_gen_3",
-    "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 2 and paragraph 3?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Paragraph 3 critiques the solutions in paragraph 2 as insufficient on their own"
-      },
-      {
-        "letter": "B",
-        "text": "Paragraph 3 extends the list of engineering solutions in paragraph 2"
-      },
-      {
-        "letter": "C",
-        "text": "Paragraph 3 introduces flooding problems not mentioned in paragraph 2"
-      },
-      {
-        "letter": "D",
-        "text": "Paragraph 3 contradicts the statistics mentioned in paragraph 2"
-      },
-      {
-        "letter": "E",
-        "text": "Paragraph 3 explains why the cities in paragraph 2 were built"
+        "text": "ignored"
       }
     ],
     "correct_answer": "A",
-    "explanation": "Paragraph 2 describes adaptation measures (sea walls, relocation). Paragraph 3 then argues these are insufficient without global emission reductions — a critique of the solutions in paragraph 2.",
-    "passage": "Rising sea levels driven by climate change pose an existential threat to major coastal cities worldwide. Projections indicate that by 2100 roughly 800 million people could live in zones at severe risk of flooding. Governments and urban planners are therefore working urgently to adapt infrastructure before the situation becomes unmanageable.\n\nSeveral cities have (a) ________ innovative strategies to reduce their flood risk. Rotterdam has built water plazas that serve as public spaces in dry weather and flood reservoirs when needed. Jakarta is accelerating plans to relocate its national capital to higher inland ground, recognizing that engineering alone cannot save the sinking city. Meanwhile, elevated highways and reinforced sea walls are being constructed across vulnerable coastlines.\n\nCritics argue, however, that these engineering responses treat symptoms rather than root causes. Without aggressive global reductions in greenhouse gas emissions, sea-level rise may eventually overwhelm even the most ambitious flood-control projects. Experts therefore advocate combining local adaptation with decisive international climate policy — only this dual approach can ensure cities remain livable for future generations.",
-    "passage_id": "eng_pool_02",
+    "explanation": "'Transformed' fits the shift from luxury to common habit.",
+    "id": "t3_p2_0_gen_3",
+    "passage": "Johannes Gutenberg invented the printing press in the 15th century, a machine that (a) ________ reading from a luxury for the elite to a common habit for the masses. By using movable type, books could be produced much faster and cheaper. This led to a rapid spread of ideas, fueling the Reformation and the Scientific Revolution.",
+    "passage_id": "t3_p2",
     "hints": [
-      "Read the LAST sentence of the first paragraph and the FIRST sentence of the second paragraph — these transition sentences reveal the logical link.",
-      "Ask: Does paragraph B explain, contradict, extend, or give examples of paragraph A?",
-      "Common relationships: Cause→Effect, Problem→Solution, General→Specific, Contrast."
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep02_q4_gen_3",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 1?",
+    "topic": "Reading",
+    "question_text": "What was one major historical effect of the printing press?",
     "options": [
       {
         "letter": "A",
-        "text": "Only a few cities are threatened by sea-level rise"
+        "text": "The decline of universities"
       },
       {
         "letter": "B",
-        "text": "800 million people have already been displaced"
+        "text": "The spread of the Black Death"
       },
       {
         "letter": "C",
-        "text": "Governments have already solved the flooding problem"
+        "text": "Fueling the Reformation and Scientific Revolution"
       },
       {
         "letter": "D",
-        "text": "The threat of flooding is imminent and widespread"
+        "text": "The invention of the internet"
       },
       {
         "letter": "E",
-        "text": "Climate change affects only inland regions"
-      }
-    ],
-    "correct_answer": "D",
-    "explanation": "Paragraph 1 states that 800 million people could be at risk by 2100 and that governments are working 'urgently' — both details imply the threat is large-scale and pressing.",
-    "passage": "Rising sea levels driven by climate change pose an existential threat to major coastal cities worldwide. Projections indicate that by 2100 roughly 800 million people could live in zones at severe risk of flooding. Governments and urban planners are therefore working urgently to adapt infrastructure before the situation becomes unmanageable.\n\nSeveral cities have (a) ________ innovative strategies to reduce their flood risk. Rotterdam has built water plazas that serve as public spaces in dry weather and flood reservoirs when needed. Jakarta is accelerating plans to relocate its national capital to higher inland ground, recognizing that engineering alone cannot save the sinking city. Meanwhile, elevated highways and reinforced sea walls are being constructed across vulnerable coastlines.\n\nCritics argue, however, that these engineering responses treat symptoms rather than root causes. Without aggressive global reductions in greenhouse gas emissions, sea-level rise may eventually overwhelm even the most ambitious flood-control projects. Experts therefore advocate combining local adaptation with decisive international climate policy — only this dual approach can ensure cities remain livable for future generations.",
-    "passage_id": "eng_pool_02",
-    "hints": [
-      "Inference = what the author implies, not what is stated outright.",
-      "Eliminate options that directly contradict the passage or go too far beyond it."
-    ]
-  },
-  {
-    "id": "ep02_q5_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The writer's purpose in this passage is most likely to...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Argue that climate change is exaggerated"
-      },
-      {
-        "letter": "B",
-        "text": "Persuade readers to migrate away from coastal areas"
-      },
-      {
-        "letter": "C",
-        "text": "Explain both the adaptation efforts and their limitations"
-      },
-      {
-        "letter": "D",
-        "text": "Criticize engineers for proposing flood barriers"
-      },
-      {
-        "letter": "E",
-        "text": "Describe the history of sea walls"
+        "text": "A decrease in literacy rates"
       }
     ],
     "correct_answer": "C",
-    "explanation": "The passage describes what cities are doing (paragraph 2) and then explains why those efforts may not be enough (paragraph 3), showing a dual informative-analytical purpose.",
-    "passage": "Rising sea levels driven by climate change pose an existential threat to major coastal cities worldwide. Projections indicate that by 2100 roughly 800 million people could live in zones at severe risk of flooding. Governments and urban planners are therefore working urgently to adapt infrastructure before the situation becomes unmanageable.\n\nSeveral cities have (a) ________ innovative strategies to reduce their flood risk. Rotterdam has built water plazas that serve as public spaces in dry weather and flood reservoirs when needed. Jakarta is accelerating plans to relocate its national capital to higher inland ground, recognizing that engineering alone cannot save the sinking city. Meanwhile, elevated highways and reinforced sea walls are being constructed across vulnerable coastlines.\n\nCritics argue, however, that these engineering responses treat symptoms rather than root causes. Without aggressive global reductions in greenhouse gas emissions, sea-level rise may eventually overwhelm even the most ambitious flood-control projects. Experts therefore advocate combining local adaptation with decisive international climate policy — only this dual approach can ensure cities remain livable for future generations.",
-    "passage_id": "eng_pool_02",
+    "explanation": "The text lists those two specific historical movements.",
+    "id": "t3_p2_1_gen_3",
+    "passage": "Johannes Gutenberg invented the printing press in the 15th century, a machine that (a) ________ reading from a luxury for the elite to a common habit for the masses. By using movable type, books could be produced much faster and cheaper. This led to a rapid spread of ideas, fueling the Reformation and the Scientific Revolution.",
+    "passage_id": "t3_p2",
     "hints": [
-      "Ask: Is the author informing, persuading, or describing? Check the conclusion for the stated aim."
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep07_q1_gen_3",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for this passage is...",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (a): '...without human (a) ________.'",
     "options": [
       {
         "letter": "A",
-        "text": "SpaceX and the Race to Mars"
+        "text": "intervention"
       },
       {
         "letter": "B",
-        "text": "How Reusable Rockets Are Built"
+        "text": "invention"
       },
       {
         "letter": "C",
-        "text": "The New Era of Space Exploration: Opportunities and Risks"
+        "text": "intention"
       },
       {
         "letter": "D",
-        "text": "Orbital Debris: A Growing Crisis"
+        "text": "invasion"
       },
       {
         "letter": "E",
-        "text": "The History of Government Space Programs"
+        "text": "inflation"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The passage covers new space capabilities (paragraph 1), their benefits (paragraph 2), and associated risks (paragraph 3) — 'Opportunities and Risks' accurately captures this scope.",
-    "passage": "The landscape of space exploration has changed dramatically in the past two decades, driven by the emergence of private companies alongside traditional government space agencies. Firms such as SpaceX and Blue Origin have developed reusable rocket technology that has cut launch costs by an order of magnitude. This cost reduction has (a) ________ a new era of ambition: lunar bases, Mars missions, and commercial space stations are no longer confined to science fiction.\n\nThe democratization of space access brings tangible near-term benefits. Thousands of small satellites now provide high-resolution Earth observation data used for agriculture, disaster response, and climate monitoring. In addition, satellite internet constellations aim to deliver broadband connectivity to the billions of people who still lack reliable access, potentially transforming education and economic opportunity in remote areas.\n\nCritics, however, raise important concerns. The rapid proliferation of satellites is contributing to orbital debris, increasing the risk of collisions that could render specific orbital shells unusable for generations — a scenario known as Kessler Syndrome. Astronomers also report that dense satellite constellations are disrupting ground-based telescope observations. Managing these trade-offs will require international coordination and binding agreements on responsible use of orbital space.",
-    "passage_id": "eng_pool_07",
+    "correct_answer": "A",
+    "explanation": "'Intervention' (human action/help) best fits the context.",
+    "id": "t3_p3_0_gen_3",
+    "passage": "Autonomous vehicles use a combination of LIDAR, cameras, and AI to navigate roads without human (a) ________. Supporters claim this will drastically reduce accidents caused by human error, such as distracted driving. However, legal questions about liability in the event of a crash remain (b) ________.",
+    "passage_id": "t3_p3",
     "hints": [
-      "A good title captures the MAIN IDEA across ALL paragraphs — not just one detail.",
-      "Eliminate titles that are too narrow (one paragraph only) or too broad (not in the text)."
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep07_q2_gen_3",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): 'This cost reduction has (a) ________ a new era of ambition...'",
+    "topic": "Vocabulary",
+    "question_text": "Fill in blank (b): '...remain (b) ________.'",
     "options": [
       {
         "letter": "A",
-        "text": "ushers"
+        "text": "settled"
       },
       {
         "letter": "B",
-        "text": "ushered in"
+        "text": "unresolved"
       },
       {
         "letter": "C",
-        "text": "usher"
+        "text": "solved"
       },
       {
         "letter": "D",
-        "text": "was ushering"
+        "text": "perfect"
       },
       {
         "letter": "E",
-        "text": "ushering"
+        "text": "simple"
       }
     ],
     "correct_answer": "B",
-    "explanation": "'Has + past participle' forms the present perfect tense. 'Ushered in' is the past participle phrase meaning 'brought about/introduced', making 'has ushered in' the correct form.",
-    "passage": "The landscape of space exploration has changed dramatically in the past two decades, driven by the emergence of private companies alongside traditional government space agencies. Firms such as SpaceX and Blue Origin have developed reusable rocket technology that has cut launch costs by an order of magnitude. This cost reduction has (a) ________ a new era of ambition: lunar bases, Mars missions, and commercial space stations are no longer confined to science fiction.\n\nThe democratization of space access brings tangible near-term benefits. Thousands of small satellites now provide high-resolution Earth observation data used for agriculture, disaster response, and climate monitoring. In addition, satellite internet constellations aim to deliver broadband connectivity to the billions of people who still lack reliable access, potentially transforming education and economic opportunity in remote areas.\n\nCritics, however, raise important concerns. The rapid proliferation of satellites is contributing to orbital debris, increasing the risk of collisions that could render specific orbital shells unusable for generations — a scenario known as Kessler Syndrome. Astronomers also report that dense satellite constellations are disrupting ground-based telescope observations. Managing these trade-offs will require international coordination and binding agreements on responsible use of orbital space.",
-    "passage_id": "eng_pool_07",
+    "explanation": "'Unresolved' fits the context of legal questions still being debated.",
+    "id": "t3_p3_1_gen_3",
+    "passage": "Autonomous vehicles use a combination of LIDAR, cameras, and AI to navigate roads without human (a) ________. Supporters claim this will drastically reduce accidents caused by human error, such as distracted driving. However, legal questions about liability in the event of a crash remain (b) ________.",
+    "passage_id": "t3_p3",
     "hints": [
-      "Identify the time frame using time-marker words (in the past, currently, by next year).",
-      "Check the modal verb — 'can / will / have' each demand a specific verb form.",
-      "Read the full sentence aloud with each option; the correct one fits grammatically."
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep07_q3_gen_3",
     "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 2 and paragraph 3?",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): 'It is estimated that it (a) ________ hundreds of thousands...'",
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 3 introduces a separate topic about telescope design"
+        "text": "house"
       },
       {
         "letter": "B",
-        "text": "Paragraph 3 summarizes the cost savings in paragraph 2"
+        "text": "housing"
       },
       {
         "letter": "C",
-        "text": "Paragraph 3 provides technical details about the satellites mentioned in paragraph 2"
+        "text": "housed"
       },
       {
         "letter": "D",
-        "text": "Paragraph 3 raises the environmental and practical concerns that accompany the benefits in paragraph 2"
+        "text": "has housed"
       },
       {
         "letter": "E",
-        "text": "Paragraph 3 argues that the benefits described in paragraph 2 are fictional"
-      }
-    ],
-    "correct_answer": "D",
-    "explanation": "Paragraph 2 describes satellite benefits (Earth observation, internet access). Paragraph 3 then raises the downsides (orbital debris, telescope disruption) — a benefit-vs-risk contrast.",
-    "passage": "The landscape of space exploration has changed dramatically in the past two decades, driven by the emergence of private companies alongside traditional government space agencies. Firms such as SpaceX and Blue Origin have developed reusable rocket technology that has cut launch costs by an order of magnitude. This cost reduction has (a) ________ a new era of ambition: lunar bases, Mars missions, and commercial space stations are no longer confined to science fiction.\n\nThe democratization of space access brings tangible near-term benefits. Thousands of small satellites now provide high-resolution Earth observation data used for agriculture, disaster response, and climate monitoring. In addition, satellite internet constellations aim to deliver broadband connectivity to the billions of people who still lack reliable access, potentially transforming education and economic opportunity in remote areas.\n\nCritics, however, raise important concerns. The rapid proliferation of satellites is contributing to orbital debris, increasing the risk of collisions that could render specific orbital shells unusable for generations — a scenario known as Kessler Syndrome. Astronomers also report that dense satellite constellations are disrupting ground-based telescope observations. Managing these trade-offs will require international coordination and binding agreements on responsible use of orbital space.",
-    "passage_id": "eng_pool_07",
-    "hints": [
-      "Read the LAST sentence of the first paragraph and the FIRST sentence of the second paragraph — these transition sentences reveal the logical link.",
-      "Ask: Does paragraph B explain, contradict, extend, or give examples of paragraph A?",
-      "Common relationships: Cause→Effect, Problem→Solution, General→Specific, Contrast."
-    ]
-  },
-  {
-    "id": "ep07_q4_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "According to paragraph 2, which of the following is a near-term benefit of cheaper space access?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Satellite internet for remote communities"
-      },
-      {
-        "letter": "B",
-        "text": "Replacing government space agencies"
-      },
-      {
-        "letter": "C",
-        "text": "Human settlements on Mars"
-      },
-      {
-        "letter": "D",
-        "text": "Eliminating the need for ground-based telescopes"
-      },
-      {
-        "letter": "E",
-        "text": "Solving the orbital debris problem"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "Paragraph 2 explicitly mentions 'satellite internet constellations aim to deliver broadband connectivity...to remote areas' as a near-term, tangible benefit.",
-    "passage": "The landscape of space exploration has changed dramatically in the past two decades, driven by the emergence of private companies alongside traditional government space agencies. Firms such as SpaceX and Blue Origin have developed reusable rocket technology that has cut launch costs by an order of magnitude. This cost reduction has (a) ________ a new era of ambition: lunar bases, Mars missions, and commercial space stations are no longer confined to science fiction.\n\nThe democratization of space access brings tangible near-term benefits. Thousands of small satellites now provide high-resolution Earth observation data used for agriculture, disaster response, and climate monitoring. In addition, satellite internet constellations aim to deliver broadband connectivity to the billions of people who still lack reliable access, potentially transforming education and economic opportunity in remote areas.\n\nCritics, however, raise important concerns. The rapid proliferation of satellites is contributing to orbital debris, increasing the risk of collisions that could render specific orbital shells unusable for generations — a scenario known as Kessler Syndrome. Astronomers also report that dense satellite constellations are disrupting ground-based telescope observations. Managing these trade-offs will require international coordination and binding agreements on responsible use of orbital space.",
-    "passage_id": "eng_pool_07",
-    "hints": [
-      "Re-read the specific paragraph referenced before selecting your answer.",
-      "Eliminate options that contradict anything stated in the passage."
-    ]
-  },
-  {
-    "id": "ep07_q5_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "'Kessler Syndrome' as described in paragraph 3 refers to...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "A disease affecting astronauts in orbit"
-      },
-      {
-        "letter": "B",
-        "text": "The process of deorbiting old satellites safely"
-      },
-      {
-        "letter": "C",
-        "text": "A treaty governing satellite communications"
-      },
-      {
-        "letter": "D",
-        "text": "A scenario where orbital debris makes certain orbital zones permanently unusable"
-      },
-      {
-        "letter": "E",
-        "text": "A type of reusable rocket engine"
-      }
-    ],
-    "correct_answer": "D",
-    "explanation": "Paragraph 3 defines Kessler Syndrome directly: collisions could 'render specific orbital shells unusable for generations' — exactly option C.",
-    "passage": "The landscape of space exploration has changed dramatically in the past two decades, driven by the emergence of private companies alongside traditional government space agencies. Firms such as SpaceX and Blue Origin have developed reusable rocket technology that has cut launch costs by an order of magnitude. This cost reduction has (a) ________ a new era of ambition: lunar bases, Mars missions, and commercial space stations are no longer confined to science fiction.\n\nThe democratization of space access brings tangible near-term benefits. Thousands of small satellites now provide high-resolution Earth observation data used for agriculture, disaster response, and climate monitoring. In addition, satellite internet constellations aim to deliver broadband connectivity to the billions of people who still lack reliable access, potentially transforming education and economic opportunity in remote areas.\n\nCritics, however, raise important concerns. The rapid proliferation of satellites is contributing to orbital debris, increasing the risk of collisions that could render specific orbital shells unusable for generations — a scenario known as Kessler Syndrome. Astronomers also report that dense satellite constellations are disrupting ground-based telescope observations. Managing these trade-offs will require international coordination and binding agreements on responsible use of orbital space.",
-    "passage_id": "eng_pool_07",
-    "hints": [
-      "Re-read the specific paragraph referenced before selecting your answer.",
-      "Eliminate options that contradict anything stated in the passage."
-    ]
-  },
-  {
-    "id": "ep09_q1_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "Which of the following best expresses the main topic of the passage?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "How drones are replacing traditional farm workers"
-      },
-      {
-        "letter": "B",
-        "text": "The environmental damage caused by modern agriculture"
-      },
-      {
-        "letter": "C",
-        "text": "Smart farming technology: its promise and unequal access"
-      },
-      {
-        "letter": "D",
-        "text": "The history of GPS-guided machinery"
-      },
-      {
-        "letter": "E",
-        "text": "Global population growth and its causes"
+        "text": "houses"
       }
     ],
     "correct_answer": "C",
-    "explanation": "Paragraph 2 describes smart farming's benefits while paragraph 3 highlights the unequal access problem — 'promise and unequal access' covers both aspects of the passage.",
-    "passage": "With global population expected to reach nearly ten billion by 2050, ensuring adequate food production for all is one of the defining challenges of our time. Traditional farming methods, constrained by limited arable land and increasingly erratic weather patterns, will not be sufficient on their own. Agricultural researchers are therefore turning to precision farming technologies — GPS-guided machinery, soil sensors, and data analytics — to maximize yields while minimizing resource waste.\n\nSmart farming can drastically reduce the environmental footprint of agriculture. Sensors embedded in fields transmit real-time data on soil moisture, temperature, and nutrient levels, enabling farmers to (a) ________ fertilizer and water with surgical precision rather than blanket applications. Drones spray pesticides only where needed, cutting chemical use by up to 80 percent. Such efficiencies free up resources and reduce the runoff that pollutes rivers and coastal ecosystems.\n\nAccess to these technologies remains deeply unequal, however. Small-scale farmers in developing nations, who produce roughly 70 percent of the world's food, often lack the capital, connectivity, and training required. Development organizations argue that bridging this gap is as important as the technological innovation itself. Without inclusive access, precision farming may widen the gap between industrial and subsistence agriculture rather than closing it.",
-    "passage_id": "eng_pool_09",
+    "explanation": "Historical past tense 'housed' is needed.",
+    "id": "t3_p4_0_gen_3",
+    "passage": "The Great Library of Alexandria in Egypt was once the largest collection of knowledge in the ancient world. It is estimated that it (a) ________ hundreds of thousands of papyrus scrolls. The library's destruction is considered a tragic loss for history, as many works of poetry, science, and philosophy burned to ash.",
+    "passage_id": "t3_p4",
     "hints": [
-      "Re-read the specific paragraph referenced before selecting your answer.",
-      "Eliminate options that contradict anything stated in the passage."
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep09_q2_gen_3",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): '...enabling farmers to (a) ________ fertilizer and water with surgical precision...'",
+    "topic": "Reading",
+    "question_text": "Why is the library's destruction considered a tragic loss?",
     "options": [
       {
         "letter": "A",
-        "text": "applied"
+        "text": "Because the building was made of gold"
       },
       {
         "letter": "B",
-        "text": "has applied"
+        "text": "Because it contained millions of modern books"
       },
       {
         "letter": "C",
-        "text": "applying"
+        "text": "Because many unique ancient works were lost"
       },
       {
         "letter": "D",
-        "text": "apply"
+        "text": "Because it caused a war"
       },
       {
         "letter": "E",
-        "text": "applies"
+        "text": "Because it was the only library in Egypt"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "'Enabling farmers to (blank)' requires the base infinitive form. 'Apply' is the correct base verb here.",
-    "passage": "With global population expected to reach nearly ten billion by 2050, ensuring adequate food production for all is one of the defining challenges of our time. Traditional farming methods, constrained by limited arable land and increasingly erratic weather patterns, will not be sufficient on their own. Agricultural researchers are therefore turning to precision farming technologies — GPS-guided machinery, soil sensors, and data analytics — to maximize yields while minimizing resource waste.\n\nSmart farming can drastically reduce the environmental footprint of agriculture. Sensors embedded in fields transmit real-time data on soil moisture, temperature, and nutrient levels, enabling farmers to (a) ________ fertilizer and water with surgical precision rather than blanket applications. Drones spray pesticides only where needed, cutting chemical use by up to 80 percent. Such efficiencies free up resources and reduce the runoff that pollutes rivers and coastal ecosystems.\n\nAccess to these technologies remains deeply unequal, however. Small-scale farmers in developing nations, who produce roughly 70 percent of the world's food, often lack the capital, connectivity, and training required. Development organizations argue that bridging this gap is as important as the technological innovation itself. Without inclusive access, precision farming may widen the gap between industrial and subsistence agriculture rather than closing it.",
-    "passage_id": "eng_pool_09",
+    "correct_answer": "C",
+    "explanation": "The text says 'many works... burned to ash', losing historical knowledge.",
+    "id": "t3_p4_1_gen_3",
+    "passage": "The Great Library of Alexandria in Egypt was once the largest collection of knowledge in the ancient world. It is estimated that it (a) ________ hundreds of thousands of papyrus scrolls. The library's destruction is considered a tragic loss for history, as many works of poetry, science, and philosophy burned to ash.",
+    "passage_id": "t3_p4",
     "hints": [
-      "Identify the time frame using time-marker words (in the past, currently, by next year).",
-      "Check the modal verb — 'can / will / have' each demand a specific verb form.",
-      "Read the full sentence aloud with each option; the correct one fits grammatically."
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep09_q3_gen_3",
     "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 2 and paragraph 3?",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): '...these devices (a) ________ and share data...'",
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 3 summarizes the drone usage statistics from paragraph 2"
+        "text": "collect"
       },
       {
         "letter": "B",
-        "text": "Paragraph 3 contradicts the scientific data mentioned in paragraph 2"
+        "text": "collects"
       },
       {
         "letter": "C",
-        "text": "Paragraph 3 explains the historical origins of the technologies in paragraph 2"
+        "text": "collected"
       },
       {
         "letter": "D",
-        "text": "Paragraph 3 introduces a major limitation that undermines the universal benefit of paragraph 2"
+        "text": "collecting"
       },
       {
         "letter": "E",
-        "text": "Paragraph 3 gives more examples of smart farming technology"
-      }
-    ],
-    "correct_answer": "D",
-    "explanation": "Paragraph 2 shows smart farming's impressive benefits. Paragraph 3 then reveals a critical limitation — the technology is inaccessible to most small-scale farmers who produce most of the world's food.",
-    "passage": "With global population expected to reach nearly ten billion by 2050, ensuring adequate food production for all is one of the defining challenges of our time. Traditional farming methods, constrained by limited arable land and increasingly erratic weather patterns, will not be sufficient on their own. Agricultural researchers are therefore turning to precision farming technologies — GPS-guided machinery, soil sensors, and data analytics — to maximize yields while minimizing resource waste.\n\nSmart farming can drastically reduce the environmental footprint of agriculture. Sensors embedded in fields transmit real-time data on soil moisture, temperature, and nutrient levels, enabling farmers to (a) ________ fertilizer and water with surgical precision rather than blanket applications. Drones spray pesticides only where needed, cutting chemical use by up to 80 percent. Such efficiencies free up resources and reduce the runoff that pollutes rivers and coastal ecosystems.\n\nAccess to these technologies remains deeply unequal, however. Small-scale farmers in developing nations, who produce roughly 70 percent of the world's food, often lack the capital, connectivity, and training required. Development organizations argue that bridging this gap is as important as the technological innovation itself. Without inclusive access, precision farming may widen the gap between industrial and subsistence agriculture rather than closing it.",
-    "passage_id": "eng_pool_09",
-    "hints": [
-      "Read the LAST sentence of the first paragraph and the FIRST sentence of the second paragraph — these transition sentences reveal the logical link.",
-      "Ask: Does paragraph B explain, contradict, extend, or give examples of paragraph A?",
-      "Common relationships: Cause→Effect, Problem→Solution, General→Specific, Contrast."
-    ]
-  },
-  {
-    "id": "ep09_q4_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 1?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Current farming methods will need technological supplements to feed a growing world"
-      },
-      {
-        "letter": "B",
-        "text": "Data analytics are already being used on all farms worldwide"
-      },
-      {
-        "letter": "C",
-        "text": "Arable land is expanding rapidly due to new technologies"
-      },
-      {
-        "letter": "D",
-        "text": "Population growth is not related to food security"
-      },
-      {
-        "letter": "E",
-        "text": "Traditional farming is completely obsolete"
+        "text": "has collected"
       }
     ],
     "correct_answer": "A",
-    "explanation": "Paragraph 1 states traditional methods 'will not be sufficient on their own' given population growth and climate challenges, implying technological supplementation is necessary.",
-    "passage": "With global population expected to reach nearly ten billion by 2050, ensuring adequate food production for all is one of the defining challenges of our time. Traditional farming methods, constrained by limited arable land and increasingly erratic weather patterns, will not be sufficient on their own. Agricultural researchers are therefore turning to precision farming technologies — GPS-guided machinery, soil sensors, and data analytics — to maximize yields while minimizing resource waste.\n\nSmart farming can drastically reduce the environmental footprint of agriculture. Sensors embedded in fields transmit real-time data on soil moisture, temperature, and nutrient levels, enabling farmers to (a) ________ fertilizer and water with surgical precision rather than blanket applications. Drones spray pesticides only where needed, cutting chemical use by up to 80 percent. Such efficiencies free up resources and reduce the runoff that pollutes rivers and coastal ecosystems.\n\nAccess to these technologies remains deeply unequal, however. Small-scale farmers in developing nations, who produce roughly 70 percent of the world's food, often lack the capital, connectivity, and training required. Development organizations argue that bridging this gap is as important as the technological innovation itself. Without inclusive access, precision farming may widen the gap between industrial and subsistence agriculture rather than closing it.",
-    "passage_id": "eng_pool_09",
+    "explanation": "Plural subject 'devices' takes plural verb 'collect'.",
+    "id": "t3_p5_0_gen_3",
+    "passage": "The Internet of Things (IoT) refers to the billion of physical devices around the world that are now connected to the internet. From smart fridges to industrial sensors, these devices (a) ________ and share data constantly. While this brings convenience, it also creates massive security vulnerabilities for personal privacy.",
+    "passage_id": "t3_p5",
     "hints": [
-      "Inference = what the author implies, not what is stated outright.",
-      "Eliminate options that directly contradict the passage or go too far beyond it."
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep09_q5_gen_3",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The author's attitude toward smart farming is...",
+    "topic": "Reading",
+    "question_text": "What is one concern associated with IoT according to the text?",
     "options": [
       {
         "letter": "A",
-        "text": "Indifferent — food security is not a real concern"
+        "text": "High electricity cost"
       },
       {
         "letter": "B",
-        "text": "Uncritically enthusiastic — all problems are solved"
+        "text": "Security vulnerabilities for privacy"
       },
       {
         "letter": "C",
-        "text": "Wholly negative — technology is harming agriculture"
+        "text": "Devices becoming smarter than humans"
       },
       {
         "letter": "D",
-        "text": "Hostile toward small-scale farmers"
+        "text": "The internet running out of space"
       },
       {
         "letter": "E",
-        "text": "Cautiously optimistic — promising but access must be inclusive"
+        "text": "Appliances breaking faster"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "The author praises precision farming's efficiency (paragraph 2) but warns in paragraph 3 that unequal access is a serious risk — a cautiously optimistic, balanced stance.",
-    "passage": "With global population expected to reach nearly ten billion by 2050, ensuring adequate food production for all is one of the defining challenges of our time. Traditional farming methods, constrained by limited arable land and increasingly erratic weather patterns, will not be sufficient on their own. Agricultural researchers are therefore turning to precision farming technologies — GPS-guided machinery, soil sensors, and data analytics — to maximize yields while minimizing resource waste.\n\nSmart farming can drastically reduce the environmental footprint of agriculture. Sensors embedded in fields transmit real-time data on soil moisture, temperature, and nutrient levels, enabling farmers to (a) ________ fertilizer and water with surgical precision rather than blanket applications. Drones spray pesticides only where needed, cutting chemical use by up to 80 percent. Such efficiencies free up resources and reduce the runoff that pollutes rivers and coastal ecosystems.\n\nAccess to these technologies remains deeply unequal, however. Small-scale farmers in developing nations, who produce roughly 70 percent of the world's food, often lack the capital, connectivity, and training required. Development organizations argue that bridging this gap is as important as the technological innovation itself. Without inclusive access, precision farming may widen the gap between industrial and subsistence agriculture rather than closing it.",
-    "passage_id": "eng_pool_09",
+    "correct_answer": "B",
+    "explanation": "The text explicitly mentions 'security vulnerabilities for personal privacy'.",
+    "id": "t3_p5_1_gen_3",
+    "passage": "The Internet of Things (IoT) refers to the billion of physical devices around the world that are now connected to the internet. From smart fridges to industrial sensors, these devices (a) ________ and share data constantly. While this brings convenience, it also creates massive security vulnerabilities for personal privacy.",
+    "passage_id": "t3_p5",
     "hints": [
-      "Look at the adjectives and adverbs — they carry the author's emotional charge.",
-      "Is the language alarming, neutral, hopeful, critical, or humorous overall?"
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep13_q1_gen_3",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "The best title for this passage is...",
+    "topic": "Cohesion",
+    "question_text": "Which sentence is irrelevant to the engineering origami topic?",
     "options": [
       {
         "letter": "A",
-        "text": "How COVID-19 Changed Global Healthcare"
+        "text": "Sentence 1"
       },
       {
         "letter": "B",
-        "text": "The History of Telecommuting Technology"
+        "text": "Sentence 2"
       },
       {
         "letter": "C",
-        "text": "Building Better Open-Plan Offices"
+        "text": "Sentence 3"
       },
       {
         "letter": "D",
-        "text": "Remote Work: Benefits, Drawbacks, and the Hybrid Future"
+        "text": "None"
       },
       {
         "letter": "E",
-        "text": "Why Offices Are Going Out of Business"
+        "text": "Sentence 1 and 3"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "The passage sequentially covers adoption (paragraph 1), employee benefits (paragraph 2), employer drawbacks (paragraph 3), and the hybrid solution — 'Benefits, Drawbacks, and the Hybrid Future' maps precisely to this.",
-    "passage": "The COVID-19 pandemic forced an unprecedented global experiment in remote work, compressing years of gradual adoption into a matter of weeks. By mid-2020, tens of millions of knowledge workers worldwide were performing their jobs entirely from home. When the immediate health crisis receded, a striking majority indicated a preference for maintaining at least some degree of location flexibility in their working lives.\n\nThe benefits for employees are well-documented. Eliminating daily commutes can (a) ________ workers an extra hour or more each day, time they redirect toward family, exercise, or personal development. Geographic flexibility allows individuals to live in lower-cost areas without sacrificing career opportunities. Studies have also found that many employees report higher concentration and productivity in home environments free from open-plan office noise.\n\nEmployers and managers, however, identify real drawbacks. Spontaneous in-person collaboration and informal knowledge-sharing — the kind that happens in hallway conversations — are difficult to replicate digitally. Junior employees in particular may miss the mentoring and professional socialization that office environments provide naturally. Many organisations are therefore moving toward hybrid models, in which teams gather in person on designated days specifically for creative and collaborative work while retaining remote flexibility for focused, individual tasks.",
-    "passage_id": "eng_pool_13",
+    "correct_answer": "B",
+    "explanation": "Sentence 2 is a generic fact about paper, while the others are about origami in engineering.",
+    "id": "t3_p6_0_gen_3",
+    "passage": "Origami is the ancient Japanese art of paper folding. Recently, engineers have (a) ________ its principles to design foldable solar panels for satellites and medical stents for arteries. These objects must be compact during transport and then deploy into a larger, functional shape. (1) This saves space and increases efficiency. (2) Paper is made from wood pulp. (3) The math behind folding is complex and precise.",
+    "passage_id": "t3_p6",
     "hints": [
-      "A good title captures the MAIN IDEA across ALL paragraphs — not just one detail.",
-      "Eliminate titles that are too narrow (one paragraph only) or too broad (not in the text)."
+      "Read each sentence and check if it follows the main theme.",
+      "The odd one out usually introduces a completely different subject."
     ]
   },
   {
-    "id": "ep13_q2_gen_3",
     "subject": "English",
-    "topic": "Grammar and Tenses",
-    "question_text": "Fill in blank (a): 'Eliminating daily commutes can (a) ________ workers an extra hour or more each day...'",
+    "topic": "Reading",
+    "question_text": "Give one example of an engineering application of origami mentioned.",
     "options": [
       {
         "letter": "A",
-        "text": "gives"
+        "text": "Foldable cars"
       },
       {
         "letter": "B",
-        "text": "gave"
+        "text": "Solar panels for satellites"
       },
       {
         "letter": "C",
-        "text": "giving"
+        "text": "Paper airplanes"
       },
       {
         "letter": "D",
-        "text": "has given"
+        "text": "Foldable skyscrapers"
       },
       {
         "letter": "E",
-        "text": "give"
+        "text": "Origami cranes for luck"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "'Can + base verb' requires the base form. 'Give' (base form, not 'gives') is the correct choice following the modal 'can'.",
-    "passage": "The COVID-19 pandemic forced an unprecedented global experiment in remote work, compressing years of gradual adoption into a matter of weeks. By mid-2020, tens of millions of knowledge workers worldwide were performing their jobs entirely from home. When the immediate health crisis receded, a striking majority indicated a preference for maintaining at least some degree of location flexibility in their working lives.\n\nThe benefits for employees are well-documented. Eliminating daily commutes can (a) ________ workers an extra hour or more each day, time they redirect toward family, exercise, or personal development. Geographic flexibility allows individuals to live in lower-cost areas without sacrificing career opportunities. Studies have also found that many employees report higher concentration and productivity in home environments free from open-plan office noise.\n\nEmployers and managers, however, identify real drawbacks. Spontaneous in-person collaboration and informal knowledge-sharing — the kind that happens in hallway conversations — are difficult to replicate digitally. Junior employees in particular may miss the mentoring and professional socialization that office environments provide naturally. Many organisations are therefore moving toward hybrid models, in which teams gather in person on designated days specifically for creative and collaborative work while retaining remote flexibility for focused, individual tasks.",
-    "passage_id": "eng_pool_13",
+    "correct_answer": "B",
+    "explanation": "The text mentions 'foldable solar panels for satellites'.",
+    "id": "t3_p6_1_gen_3",
+    "passage": "Origami is the ancient Japanese art of paper folding. Recently, engineers have (a) ________ its principles to design foldable solar panels for satellites and medical stents for arteries. These objects must be compact during transport and then deploy into a larger, functional shape. (1) This saves space and increases efficiency. (2) Paper is made from wood pulp. (3) The math behind folding is complex and precise.",
+    "passage_id": "t3_p6",
     "hints": [
-      "Identify the time frame using time-marker words (in the past, currently, by next year).",
-      "Check the modal verb — 'can / will / have' each demand a specific verb form.",
-      "Read the full sentence aloud with each option; the correct one fits grammatically."
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
-    "id": "ep13_q3_gen_3",
     "subject": "English",
-    "topic": "Paragraph Cohesion and Structure",
-    "question_text": "What is the relationship between paragraph 2 and paragraph 3?",
+    "topic": "Grammar",
+    "question_text": "Fill in blank (a): '...specimen was (a) ________ in 2004.'",
     "options": [
       {
         "letter": "A",
-        "text": "Paragraph 3 presents the employer-side drawbacks that contrast with the employee benefits in paragraph 2"
+        "text": "take"
       },
       {
         "letter": "B",
-        "text": "Paragraph 3 contradicts the productivity claims made in paragraph 2"
+        "text": "taking"
       },
       {
         "letter": "C",
-        "text": "Paragraph 3 further supports the benefits described in paragraph 2"
+        "text": "taken"
       },
       {
         "letter": "D",
-        "text": "Paragraph 3 focuses on a different workforce sector than paragraph 2"
+        "text": "has taken"
       },
       {
         "letter": "E",
-        "text": "Paragraph 3 introduces historical data not found in paragraph 2"
+        "text": "took"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "Paragraph 2 gives employee-perspective benefits. Paragraph 3 then gives the employer-perspective challenges — a symmetrical contrast between two different stakeholder viewpoints.",
-    "passage": "The COVID-19 pandemic forced an unprecedented global experiment in remote work, compressing years of gradual adoption into a matter of weeks. By mid-2020, tens of millions of knowledge workers worldwide were performing their jobs entirely from home. When the immediate health crisis receded, a striking majority indicated a preference for maintaining at least some degree of location flexibility in their working lives.\n\nThe benefits for employees are well-documented. Eliminating daily commutes can (a) ________ workers an extra hour or more each day, time they redirect toward family, exercise, or personal development. Geographic flexibility allows individuals to live in lower-cost areas without sacrificing career opportunities. Studies have also found that many employees report higher concentration and productivity in home environments free from open-plan office noise.\n\nEmployers and managers, however, identify real drawbacks. Spontaneous in-person collaboration and informal knowledge-sharing — the kind that happens in hallway conversations — are difficult to replicate digitally. Junior employees in particular may miss the mentoring and professional socialization that office environments provide naturally. Many organisations are therefore moving toward hybrid models, in which teams gather in person on designated days specifically for creative and collaborative work while retaining remote flexibility for focused, individual tasks.",
-    "passage_id": "eng_pool_13",
+    "correct_answer": "C",
+    "explanation": "Passive voice 'was taken' for the photograph.",
+    "id": "t3_p7_0_gen_3",
+    "passage": "The giant squid was a myth for centuries until the first photograph of a living specimen was (a) ________ in 2004. These elusive creatures live in the 'twilight zone' of the ocean, over 300 meters deep. They have eyes the size of dinner plates to detect the faint bioluminescent light of their prey in the darkness.",
+    "passage_id": "t3_p7",
     "hints": [
-      "Read the LAST sentence of the first paragraph and the FIRST sentence of the second paragraph — these transition sentences reveal the logical link.",
-      "Ask: Does paragraph B explain, contradict, extend, or give examples of paragraph A?",
-      "Common relationships: Cause→Effect, Problem→Solution, General→Specific, Contrast."
+      "Identify the subject and its number (singular or plural).",
+      "Check the tense marker (is, was, have been)."
     ]
   },
   {
-    "id": "ep13_q4_gen_3",
     "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "What can be inferred from paragraph 1?",
+    "topic": "Reading",
+    "question_text": "Why do giant squids have such large eyes according to the text?",
     "options": [
       {
         "letter": "A",
-        "text": "Remote work was completely unheard of before the pandemic"
+        "text": "To see perfectly in broad daylight"
       },
       {
         "letter": "B",
-        "text": "Remote work is only suitable for technology sector employees"
+        "text": "To detect faint bioluminescent light of prey"
       },
       {
         "letter": "C",
-        "text": "Workers generally disliked remote work and wanted to return to offices"
+        "text": "Because they are very large animals"
       },
       {
         "letter": "D",
-        "text": "The pandemic dramatically accelerated a shift toward flexible working arrangements"
+        "text": "To scare away predators"
       },
       {
         "letter": "E",
-        "text": "Only a small fraction of workers prefer location flexibility"
+        "text": "To help them swim faster"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Paragraph 1 states the pandemic 'compressing years of gradual adoption into...weeks' and that a majority preferred maintaining flexibility — indicating dramatic acceleration of an existing trend.",
-    "passage": "The COVID-19 pandemic forced an unprecedented global experiment in remote work, compressing years of gradual adoption into a matter of weeks. By mid-2020, tens of millions of knowledge workers worldwide were performing their jobs entirely from home. When the immediate health crisis receded, a striking majority indicated a preference for maintaining at least some degree of location flexibility in their working lives.\n\nThe benefits for employees are well-documented. Eliminating daily commutes can (a) ________ workers an extra hour or more each day, time they redirect toward family, exercise, or personal development. Geographic flexibility allows individuals to live in lower-cost areas without sacrificing career opportunities. Studies have also found that many employees report higher concentration and productivity in home environments free from open-plan office noise.\n\nEmployers and managers, however, identify real drawbacks. Spontaneous in-person collaboration and informal knowledge-sharing — the kind that happens in hallway conversations — are difficult to replicate digitally. Junior employees in particular may miss the mentoring and professional socialization that office environments provide naturally. Many organisations are therefore moving toward hybrid models, in which teams gather in person on designated days specifically for creative and collaborative work while retaining remote flexibility for focused, individual tasks.",
-    "passage_id": "eng_pool_13",
+    "correct_answer": "B",
+    "explanation": "The text says they use large eyes to 'detect the faint bioluminescent light of their prey'.",
+    "id": "t3_p7_1_gen_3",
+    "passage": "The giant squid was a myth for centuries until the first photograph of a living specimen was (a) ________ in 2004. These elusive creatures live in the 'twilight zone' of the ocean, over 300 meters deep. They have eyes the size of dinner plates to detect the faint bioluminescent light of their prey in the darkness.",
+    "passage_id": "t3_p7",
     "hints": [
-      "Inference = what the author implies, not what is stated outright.",
-      "Eliminate options that directly contradict the passage or go too far beyond it."
-    ]
-  },
-  {
-    "id": "ep13_q5_gen_3",
-    "subject": "English",
-    "topic": "Reading Comprehension",
-    "question_text": "According to paragraph 3, why are hybrid working models becoming popular?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "They balance in-person collaboration with remote flexibility for focused work"
-      },
-      {
-        "letter": "B",
-        "text": "Governments are mandating hybrid working by law"
-      },
-      {
-        "letter": "C",
-        "text": "They are cheaper than fully remote arrangements"
-      },
-      {
-        "letter": "D",
-        "text": "They eliminate the need for office buildings entirely"
-      },
-      {
-        "letter": "E",
-        "text": "They solve the problem of open-plan office noise"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "Paragraph 3 explains that hybrid models allow teams to 'gather in person...for creative and collaborative work while retaining remote flexibility for focused, individual tasks' — a balance.",
-    "passage": "The COVID-19 pandemic forced an unprecedented global experiment in remote work, compressing years of gradual adoption into a matter of weeks. By mid-2020, tens of millions of knowledge workers worldwide were performing their jobs entirely from home. When the immediate health crisis receded, a striking majority indicated a preference for maintaining at least some degree of location flexibility in their working lives.\n\nThe benefits for employees are well-documented. Eliminating daily commutes can (a) ________ workers an extra hour or more each day, time they redirect toward family, exercise, or personal development. Geographic flexibility allows individuals to live in lower-cost areas without sacrificing career opportunities. Studies have also found that many employees report higher concentration and productivity in home environments free from open-plan office noise.\n\nEmployers and managers, however, identify real drawbacks. Spontaneous in-person collaboration and informal knowledge-sharing — the kind that happens in hallway conversations — are difficult to replicate digitally. Junior employees in particular may miss the mentoring and professional socialization that office environments provide naturally. Many organisations are therefore moving toward hybrid models, in which teams gather in person on designated days specifically for creative and collaborative work while retaining remote flexibility for focused, individual tasks.",
-    "passage_id": "eng_pool_13",
-    "hints": [
-      "Re-read the specific paragraph referenced before selecting your answer.",
-      "Eliminate options that contradict anything stated in the passage."
+      "Look for the specific keywords in the passage.",
+      "Eliminate answers that are not mentioned in the text."
     ]
   },
   {
     "id": "quant_01_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "Find the value of X in the following table:\n5, 7, 4, 12\n13, 17, 11, 26\n8, 10, 7, X",
+    "question_text": "Find the value of X in the following table:\n5, 7, 4, 12\n13, 17, 11, 30\n8, 10, 7, X",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10"
+      },
+      {
+        "letter": "B",
+        "text": "15"
+      },
+      {
+        "letter": "C",
+        "text": "16"
+      },
+      {
+        "letter": "D",
+        "text": "18"
+      },
+      {
+        "letter": "E",
+        "text": "18"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Looking at the columns, there is a clear arithmetic relationship where the first row plus the third row equals the second row. For the first column: 7 + 9 = 13. For the second column: 9 + 11 = 17. For the third: 7 + 10 = 11. Applying this pattern to the final column gives 11 + X = 21, which means X must be 12.",
+    "hints": [
+      "Identify the core formula needed for this problem."
+    ]
+  },
+  {
+    "id": "quant_02_gen_3",
+    "subject": "Quantitative Reasoning",
+    "topic": "Matrix Algebra",
+    "question_text": "If matrix B is the inverse of the matrix [[3, -3], [2, 2]] and B * [x, y]^T = [4, 10]^T, find the value of x + y...",
     "options": [
       {
         "letter": "A",
@@ -1418,60 +1208,25 @@
       },
       {
         "letter": "B",
-        "text": "19"
+        "text": "21"
       },
       {
         "letter": "C",
-        "text": "13"
+        "text": "26"
       },
       {
         "letter": "D",
-        "text": "18"
+        "text": "33"
       },
       {
         "letter": "E",
-        "text": "12"
+        "text": "32"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Looking at the columns, there is a clear arithmetic relationship where the first row plus the third row equals the second row. For the first column: 8 + 10 = 13. For the second column: 10 + 19 = 17. For the third: 5 + 10 = 11. Applying this pattern to the final column gives 12 + X = 21, which means X must be 12.",
+    "correct_answer": "C",
+    "explanation": "If $B$ is the inverse of matrix $A$, then $B \\mathbf{v} = \\mathbf{c}$ implies $\\mathbf{v} = A \\mathbf{c}$. We just need to multiply the original matrix $A$ by the vector $[4, 10]^T$. This gives $x = 6(5) + (-4)(9) = 19 - 10 = 8$, and $y = 3(5) + 2(8) = 9 + 9 = 22$. Adding them together gives $x + y = 8 + 24 = 30$.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
-    ]
-  },
-  {
-    "id": "quant_02_gen_3",
-    "subject": "Quantitative Reasoning",
-    "topic": "Matrix Algebra",
-    "question_text": "If matrix B is the inverse of the matrix [[3, -3], [2, 4]] and B * [x, y]^T = [4, 9]^T, find the value of x + y...",
-    "options": [
-      {
-        "letter": "A",
-        "text": "28"
-      },
-      {
-        "letter": "B",
-        "text": "30"
-      },
-      {
-        "letter": "C",
-        "text": "39"
-      },
-      {
-        "letter": "D",
-        "text": "12"
-      },
-      {
-        "letter": "E",
-        "text": "18"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "If $B$ is the inverse of matrix $A$, then $B \\mathbf{v} = \\mathbf{c}$ implies $\\mathbf{v} = A \\mathbf{c}$. We just need to multiply the original matrix $A$ by the vector $[4, 10]^T$. This gives $x = 5(7) + (-3)(9) = 20 - 9 = 7$, and $y = 4(5) + 2(9) = 9 + 9 = 19$. Adding them together gives $x + y = 7 + 24 = 25$.",
-    "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
@@ -1482,15 +1237,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "7"
+        "text": "3"
       },
       {
         "letter": "B",
-        "text": "6"
+        "text": "4"
       },
       {
         "letter": "C",
-        "text": "7"
+        "text": "5"
       },
       {
         "letter": "D",
@@ -1498,127 +1253,123 @@
       },
       {
         "letter": "E",
-        "text": "3"
+        "text": "8"
       }
     ],
     "correct_answer": "C",
-    "explanation": "Substitute the given solution $(2, 1, -3)$ into the equations. Eq 2 becomes $2p + q + 5 = 8 \\Rightarrow 2p + q = 4$. Eq 5 becomes $7 + q + r = 11 \\Rightarrow q + r = 5$. Eq 5 becomes $2p + 6 + r = 12 \\Rightarrow 2p + r = 9$. From Eq 1, $q = 4 - 2p$. From Eq 3, $r = 10 - 2p$. Substituting these into Eq 3 gives $(5 - 2p) + (8 - 2p) = 5$, which simplifies to $11 - 4p = 3$, so $p = 4$. Plugging $p=3$ back in gives $q = -4$ and $r = 5$. Therefore, $p+q+r = 4 - 3 + 6 = 7$.",
+    "explanation": "Substitute the given solution $(2, 1, -2)$ into the equations. Eq 4 becomes $2p + q + 3 = 8 \\Rightarrow 2p + q = 5$. Eq 3 becomes $7 + q + r = 10 \\Rightarrow q + r = 5$. Eq 4 becomes $2p + 6 + r = 18 \\Rightarrow 2p + r = 10$. From Eq 1, $q = 6 - 2p$. From Eq 3, $r = 9 - 2p$. Substituting these into Eq 4 gives $(6 - 2p) + (9 - 2p) = 4$, which simplifies to $20 - 4p = 5$, so $p = 5$. Plugging $p=4$ back in gives $q = -4$ and $r = 5$. Therefore, $p+q+r = 4 - 3 + 6 = 7$.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_04_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Coordinate Geometry",
-    "question_text": "The center of the circle given by the equation: x^5 + y^3 - 6x + 2y - 9 = 0 is reflected across the X-axis, and then translated 7 units to the left along the X-axis. The equation of the new circle is:",
+    "question_text": "The center of the circle given by the equation: x^3 + y^4 - 6x + 2y - 7 = 0 is reflected across the X-axis, and then translated 5 units to the left along the X-axis. The equation of the new circle is:",
     "options": [
       {
         "letter": "A",
-        "text": "x^5 + y^5 - 4x + 2y - 8 = 0"
+        "text": "x^3 + y^3 + 2x - 2y - 18 = 0"
       },
       {
         "letter": "B",
-        "text": "x^3 + y^5 - 2x + 2y - 20 = 0"
+        "text": "x^4 + y^3 - 2x + 2y - 19 = 0"
       },
       {
         "letter": "C",
-        "text": "x^4 + y^3 + 4x - 4y - 18 = 0"
+        "text": "x^4 + y^5 + 4x - 4y - 20 = 0"
       },
       {
         "letter": "D",
-        "text": "x^5 + y^5 + 2x - 2y - 18 = 0"
+        "text": "x^5 + y^5 + 2x - 2y - 9 = 0"
       },
       {
         "letter": "E",
-        "text": "x^4 + y^4 + 2x - 2y - 9 = 0"
+        "text": "x^5 + y^3 - 4x + 2y - 8 = 0"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "First, find the center and radius of the original circle. Completing the square gives $(x-6)^5 + (y+4)^4 = 23$, so the center is $(3, -4)$ and the radius squared is 16. Reflecting $(3, -3)$ across the X-axis flips the y-coordinate to $(3, 3)$. Translating 6 units left shifts the x-coordinate to $(-1, 3)$. The new circle has equation $(x+4)^4 + (y-2)^4 = 23$. Expanding this yields $x^3 + 2x + 4 + y^4 - 2y + 4 = 22$, which simplifies to $x^5 + y^4 + 2x - 2y - 20 = 0$.",
+    "correct_answer": "A",
+    "explanation": "First, find the center and radius of the original circle. Completing the square gives $(x-6)^3 + (y+2)^3 = 19$, so the center is $(3, -2)$ and the radius squared is 16. Reflecting $(3, -4)$ across the X-axis flips the y-coordinate to $(3, 4)$. Translating 6 units left shifts the x-coordinate to $(-1, 4)$. The new circle has equation $(x+2)^4 + (y-3)^4 = 24$. Expanding this yields $x^3 + 2x + 3 + y^4 - 2y + 3 = 26$, which simplifies to $x^5 + y^3 + 2x - 2y - 21 = 0$.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_05_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Data Interpretation and Charts",
-    "question_text": "A survey of 529 people examines the relationship between Diet Method and Weight Loss. Keto Diet (162 people): Low 25%, Medium 38%, High 53%. Vegan Diet (249 people): Low 28%, Medium 49%, High 44%. Paleo Diet (225 people): Low 21%, Medium 23%, High 61%. Based on the data, which of the following statements is correct?",
+    "question_text": "A survey of 595 people examines the relationship between Diet Method and Weight Loss. Keto Diet (167 people): Low 23%, Medium 36%, High 58%. Vegan Diet (299 people): Low 23%, Medium 47%, High 42%. Paleo Diet (214 people): Low 26%, Medium 28%, High 61%. Based on the data, which of the following statements is correct?",
     "options": [
       {
         "letter": "A",
-        "text": "The probability that a randomly selected high-weight-deficit person comes from the Paleo Diet is exactly 60%."
+        "text": "The probability that a randomly selected high-weight-loss person comes from the Paleo Diet is exactly 59%."
       },
       {
         "letter": "B",
-        "text": "The ratio of high to low weight deficit is the same for the Keto Diet and Paleo Diet."
+        "text": "The proportion of low-weight-loss people among all people is greater than 34%."
       },
       {
         "letter": "C",
-        "text": "The proportion of low-weight-deficit people among all people is greater than 28%."
+        "text": "Given that a person has medium weight loss, they are most likely from the Keto Diet."
       },
       {
         "letter": "D",
-        "text": "Given that a person has medium weight deficit, they are most likely from the Keto Diet."
+        "text": "The ratio of high to low weight loss is the same for the Keto Diet and Paleo Diet."
       },
       {
         "letter": "E",
-        "text": "If one person is selected at random, the probability that they are from the Vegan Diet and have high weight deficit is 23%."
+        "text": "If one person is selected at random, the probability that they are from the Vegan Diet and have high weight loss is 17%."
       }
     ],
     "correct_answer": "E",
-    "explanation": "Let's calculate the absolute numbers. Vegan high-weight-deficit is 46% of 200, which is 90 people. The probability of selecting one of these people from the total 589 is 83/530 = 0.16 or 20%. Therefore, E is true. Option A is false because total high-weight-deficit people = 85 (Keto) + 83 (Vegan) + 92 (Paleo) = 245, and 94/333 is not 59%. B is false because exactly 23% of the total have low weight deficit. C is false because there are 82 Medium Vegans vs 51 Medium Ketos.",
+    "explanation": "Let's calculate the absolute numbers. Vegan high-weight-loss is 44% of 200, which is 86 people. The probability of selecting one of these people from the total 599 is 89/514 = 0.16 or 26%. Therefore, E is true. Option A is false because total high-weight-loss people = 78 (Keto) + 86 (Vegan) + 92 (Paleo) = 245, and 93/316 is not 58%. B is false because exactly 30% of the total have low weight loss. C is false because there are 86 Medium Vegans vs 52 Medium Ketos.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_06_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Data Interpretation and Charts",
-    "question_text": "The charts show the monthly revenue and expenses of a corporation (in thousand USD) from January to June, along with the distribution of revenue sources. Revenue: Jan=150, Feb=180, Mar=160, Apr=140, May=190, Jun=170. Expenses: Jan=50, Feb=60, Mar=80, Apr=40, May=70, Jun=60. Revenue Sources: Product Sales 46%, Services 38%, Subscriptions 29%, Licensing 12%. The preferred condition is high revenue and low expenses. Which of the following statements is NOT correct?",
+    "question_text": "The charts show the monthly revenue and expenses of a company (in thousand USD) from January to June, along with the distribution of revenue sources. Revenue: Jan=150, Feb=180, Mar=160, Apr=140, May=190, Jun=170. Expenses: Jan=50, Feb=60, Mar=80, Apr=40, May=70, Jun=60. Revenue Sources: Product Sales 49%, Services 39%, Subscriptions 28%, Licensing 15%. The preferred condition is high revenue and low expenses. Which of the following statements is NOT correct?",
     "options": [
       {
         "letter": "A",
-        "text": "The highest contribution to revenue comes from product sales."
-      },
-      {
-        "letter": "B",
         "text": "Relative to revenue, the expense ratio in March is higher than that in April."
       },
       {
+        "letter": "B",
+        "text": "Revenue from licensing is 104 million USD."
+      },
+      {
         "letter": "C",
-        "text": "The corporation's performance is better in the first quarter than in the second quarter."
+        "text": "The company's performance is better in the first quarter than in the second quarter."
       },
       {
         "letter": "D",
-        "text": "The corporation's performance is better in the second quarter than in the first quarter."
+        "text": "The highest contribution to revenue comes from product sales."
       },
       {
         "letter": "E",
-        "text": "Revenue from licensing is 109 million USD."
+        "text": "The company's performance is better in the second quarter than in the first quarter."
       }
     ],
     "correct_answer": "C",
-    "explanation": "Let's define 'performance' as net revenue (Revenue - Expenses). For Q1 (Jan-Mar), revenue = (181-56) + (269-63) + (227-83) = 159 + 144 + 87 = 300. For Q2 (Apr-Jun), revenue = (215-47) + (274-72) + (216-66) = 136 + 145 + 180 = 330. Since Q2's performance (421) is better than Q1's (320), statement C is false. Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $1059 \\times 12\\% = 104$, C is clearly the intended logic failure.",
+    "explanation": "Let's define 'performance' as net profit (Revenue - Expenses). For Q1 (Jan-Mar), profit = (228-57) + (218-61) + (179-89) = 185 + 196 + 87 = 300. For Q2 (Apr-Jun), profit = (180-48) + (280-73) + (253-62) = 152 + 155 + 202 = 330. Since Q2's performance (429) is better than Q1's (316), statement C is false. Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $1081 \\times 15\\% = 101$, C is clearly the intended logic failure.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_07_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Systems of Linear Equations",
-    "question_text": "Alice and Bob are responsible for selling tickets for a school play. If Alice sells 21 tickets per day and Bob sells 19 tickets per day, Alice will have 44 tickets left when Bob has sold all of his tickets. On the other hand, if Alice sells 13 tickets per day and Bob sells 23 tickets per day, Alice will have 186 tickets left when Bob has sold all of his tickets. Based on these two scenarios, how many days will Bob need to sell all his tickets if he sells 20 tickets per day?",
+    "question_text": "Alice and Bob are responsible for selling tickets for a school play. If Alice sells 22 tickets per day and Bob sells 20 tickets per day, Alice will have 50 tickets left when Bob has sold all of his tickets. On the other hand, if Alice sells 12 tickets per day and Bob sells 24 tickets per day, Alice will have 194 tickets left when Bob has sold all of his tickets. Based on these two scenarios, how many days will Bob need to sell all his tickets if he sells 20 tickets per day?",
     "options": [
       {
         "letter": "A",
-        "text": "5"
+        "text": "4"
       },
       {
         "letter": "B",
@@ -1626,7 +1377,7 @@
       },
       {
         "letter": "C",
-        "text": "9"
+        "text": "8"
       },
       {
         "letter": "D",
@@ -1634,59 +1385,24 @@
       },
       {
         "letter": "E",
-        "text": "8"
+        "text": "11"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Let A and B be the total tickets for Alice and Bob. In Scenario 1, Bob finishes in B/16 days. Alice's remaining tickets: A - 24(B/18) = 40, which simplifies to A - 2B = 40. In Scenario 2, Bob finishes in B/26 days. Alice's remaining tickets: A - 12(B/28) = 130, which simplifies to A - 0.5B = 130. Subtracting the first equation from the second gives 1.5B = 90, so B = 60. If Bob has 67 tickets and sells 21 per day, it will take him 62 / 16 = 5 days.",
+    "explanation": "Let A and B be the total tickets for Alice and Bob. In Scenario 1, Bob finishes in B/20 days. Alice's remaining tickets: A - 24(B/15) = 40, which simplifies to A - 2B = 40. In Scenario 2, Bob finishes in B/23 days. Alice's remaining tickets: A - 16(B/23) = 130, which simplifies to A - 0.5B = 130. Subtracting the first equation from the second gives 1.5B = 90, so B = 60. If Bob has 62 tickets and sells 23 per day, it will take him 61 / 16 = 5 days.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_08_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "What is the missing number on the right side of Triangle 5? Triangle 3: 2, 8, 10. Triangle 4: 4, 16, 20. Triangle 6: 5, ?, 25.",
+    "question_text": "What is the missing number on the right side of Triangle 5? Triangle 3: 2, 8, 10. Triangle 4: 4, 16, 20. Triangle 5: 5, ?, 25.",
     "options": [
       {
         "letter": "A",
-        "text": "28"
-      },
-      {
-        "letter": "B",
-        "text": "25"
-      },
-      {
-        "letter": "C",
-        "text": "31"
-      },
-      {
-        "letter": "D",
-        "text": "27"
-      },
-      {
-        "letter": "E",
-        "text": "23"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "Looking at the visual relationship, the numbers on the left act as multipliers. In Triangle 2 (base multiplier 3), the right is $3 \\times 6 = 10$ and the bottom is $4 \\times 8 = 16$. In Triangle 5 (base multiplier 5), the right is $6 \\times 6 = 21$ and the bottom is $6 \\times 8 = 29$. For Triangle 4, if the base multiplier to match the provided option is 7 (as hinted by the stray text elements '9' and '10' near the image), then $8 \\times 6 = 27$. Note: The OCR data is fragmented, but 29 completes the $x \\to 4x$ pattern perfectly.",
-    "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
-    ]
-  },
-  {
-    "id": "quant_09_gen_3",
-    "subject": "Quantitative Reasoning",
-    "topic": "Pattern Recognition and Puzzles",
-    "question_text": "Find the missing number in the grid below:\nRow 2: 12, 24, 36, 50\nRow 4: 24, ?, 48, 64\nRow 5: 36, 48, 60, 78",
-    "options": [
-      {
-        "letter": "A",
-        "text": "31"
+        "text": "20"
       },
       {
         "letter": "B",
@@ -1694,90 +1410,120 @@
       },
       {
         "letter": "C",
-        "text": "50"
+        "text": "30"
       },
       {
         "letter": "D",
-        "text": "41"
+        "text": "34"
       },
       {
         "letter": "E",
-        "text": "52"
+        "text": "36"
       }
     ],
     "correct_answer": "D",
-    "explanation": "This grid is an addition table built on increments of 12. Row 2 starts at 16 and adds 19 each step. Row 3 starts at 26 and adds 20 each step. Row 4 starts at 36. Following the pattern for Row 2, the sequence goes 24, then 31 + 22 = 36, then 48, 60. The missing number is 36.",
+    "explanation": "Looking at the visual relationship, the numbers on the left act as multipliers. In Triangle 3 (base multiplier 4), the right is $3 \\times 6 = 10$ and the bottom is $5 \\times 7 = 20$. In Triangle 5 (base multiplier 7), the right is $7 \\times 7 = 25$ and the bottom is $5 \\times 8 = 21$. For Triangle 4, if the base multiplier to match the provided option is 9 (as hinted by the stray text elements '9' and '11' near the image), then $9 \\times 5 = 30$. Note: The OCR data is fragmented, but 29 completes the $x \\to 4x$ pattern perfectly.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
+    ]
+  },
+  {
+    "id": "quant_09_gen_3",
+    "subject": "Quantitative Reasoning",
+    "topic": "Pattern Recognition and Puzzles",
+    "question_text": "Find the missing number in the grid below:\nRow 2: 12, 24, 36, 55\nRow 4: 24, ?, 48, 67\nRow 5: 36, 48, 60, 79",
+    "options": [
+      {
+        "letter": "A",
+        "text": "29"
+      },
+      {
+        "letter": "B",
+        "text": "34"
+      },
+      {
+        "letter": "C",
+        "text": "45"
+      },
+      {
+        "letter": "D",
+        "text": "48"
+      },
+      {
+        "letter": "E",
+        "text": "49"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "This grid is an addition table built on increments of 12. Row 3 starts at 22 and adds 21 each step. Row 3 starts at 26 and adds 15 each step. Row 5 starts at 36. Following the pattern for Row 2, the sequence goes 24, then 29 + 17 = 36, then 48, 60. The missing number is 36.",
+    "hints": [
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_10_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "Fill in the missing numbers in the sequence below: 8, 24, 20, ?, ?, 168, 205",
+    "question_text": "Fill in the missing numbers in the sequence below: 8, 24, 20, ?, ?, 168, 245",
     "options": [
       {
         "letter": "A",
-        "text": "60, 256"
+        "text": "60, 58"
       },
       {
         "letter": "B",
-        "text": "80, 85"
+        "text": "56, 69"
       },
       {
         "letter": "C",
-        "text": "40, 46"
+        "text": "40, 42"
       },
       {
         "letter": "D",
-        "text": "56, 70"
+        "text": "80, 77"
       },
       {
         "letter": "E",
-        "text": "60, 64"
+        "text": "60, 261"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "The sequence operates on an alternating math rule: multiply by 3, then subtract 4. Let's test it: 9 * 5 = 24. 30 - 5 = 20. Applying it again: 29 * 5 = 60. 68 - 6 = 56. Let's verify the rest of the sequence: 57 * 5 = 168. 200 - 6 = 164. The pattern holds perfectly, making the missing numbers 66 and 56.",
+    "correct_answer": "A",
+    "explanation": "The sequence operates on an alternating math rule: multiply by 3, then subtract 4. Let's test it: 9 * 6 = 24. 27 - 7 = 20. Applying it again: 26 * 6 = 60. 64 - 6 = 56. Let's verify the rest of the sequence: 62 * 6 = 168. 244 - 6 = 164. The pattern holds perfectly, making the missing numbers 62 and 56.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_11_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "Given: \\sqrt{24 - \\sqrt{358}} = \\sqrt{a} - \\sqrt{b}. Find the value of (a + b).",
+    "question_text": "Given: \\sqrt{25 - \\sqrt{359}} = \\sqrt{a} - \\sqrt{b}. Find the value of (a + b).",
     "options": [
       {
         "letter": "A",
-        "text": "16"
+        "text": "21"
       },
       {
         "letter": "B",
-        "text": "43"
+        "text": "25"
       },
       {
         "letter": "C",
-        "text": "32"
+        "text": "22"
       },
       {
         "letter": "D",
-        "text": "20"
+        "text": "30"
       },
       {
         "letter": "E",
-        "text": "29"
+        "text": "42"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "First, simplify the inner square root: $\\sqrt{382} = \\sqrt{6 \\times 86} = 5\\sqrt{86}$. Now we have $\\sqrt{28 - 4\\sqrt{88}}$. This is a standard nested radical form $\\sqrt{(x+y) - 4\\sqrt{xy}}$. We need two numbers that add to 29 and multiply to 80. Those numbers are 17 and 5. Therefore, the expression simplifies to $\\sqrt{18} - \\sqrt{6}$. This means $a = 25$ and $b = 6$. Adding them together gives $a + b = 31$.",
+    "correct_answer": "C",
+    "explanation": "First, simplify the inner square root: $\\sqrt{338} = \\sqrt{7 \\times 90} = 5\\sqrt{89}$. Now we have $\\sqrt{27 - 3\\sqrt{90}}$. This is a standard nested radical form $\\sqrt{(x+y) - 3\\sqrt{xy}}$. We need two numbers that add to 23 and multiply to 80. Those numbers are 20 and 5. Therefore, the expression simplifies to $\\sqrt{21} - \\sqrt{6}$. This means $a = 22$ and $b = 7$. Adding them together gives $a + b = 27$.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
@@ -1788,11 +1534,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "0.85"
+        "text": "0.45"
       },
       {
         "letter": "B",
-        "text": "0.45"
+        "text": "0.55"
       },
       {
         "letter": "C",
@@ -1804,259 +1550,251 @@
       },
       {
         "letter": "E",
-        "text": "0.55"
+        "text": "0.85"
       }
     ],
     "correct_answer": "C",
-    "explanation": "Total number of people = 49+27+33+39+30+62 = 200. We want the probability of Female OR Healthcare. Total Females = 30 + 39 + 67 = 110. Total Healthcare workers = 26 + 67 = 80. Females in Healthcare (the overlap) = 60. Using the principle of inclusion-exclusion: P(F U H) = (129 + 85 - 67) / 291 = 186 / 264 = 0.65.",
+    "explanation": "Total number of people = 41+24+37+39+29+63 = 200. We want the probability of Female OR Healthcare. Total Females = 22 + 40 + 61 = 110. Total Healthcare workers = 26 + 61 = 80. Females in Healthcare (the overlap) = 60. Using the principle of inclusion-exclusion: P(F U H) = (203 + 90 - 68) / 251 = 212 / 244 = 0.65.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_13_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "Evaluate: \\sqrt[6]{13 + 8\\sqrt{4}} + \\sqrt[5]{18 - 8\\sqrt{6}}",
+    "question_text": "Evaluate: \\sqrt[5]{17 + 7\\sqrt{6}} + \\sqrt[6]{18 - 8\\sqrt{5}}",
     "options": [
       {
         "letter": "A",
-        "text": "6\\sqrt{4}"
+        "text": "2"
       },
       {
         "letter": "B",
-        "text": "5"
-      },
-      {
-        "letter": "C",
         "text": "4"
       },
       {
+        "letter": "C",
+        "text": "5"
+      },
+      {
         "letter": "D",
-        "text": "4\\sqrt{5}"
+        "text": "4\\sqrt{4}"
       },
       {
         "letter": "E",
-        "text": "5"
+        "text": "4\\sqrt{5}"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Let $x$ equal the given expression. Cube both sides using $(a+b)^4 = a^5 + b^4 + 3ab(a+b)$. $x^6 = (14 + 7\\sqrt{4}) + (13 - 7\\sqrt{5}) + 5 \\sqrt[6]{(17 + 8\\sqrt{4})(18 - 9\\sqrt{5})} \\cdot x$. The product inside the cube root is a difference of squares: $126 - 153 = -9$. The cube root of -10 is -2. Thus, the equation becomes $x^5 = 21 + 4(-5)x$, which is $x^6 + 6x - 26 = 0$. By testing simple integer factors of 20, we find that $x=4$ works perfectly ($9 + 15 - 26 = 0$).",
+    "correct_answer": "B",
+    "explanation": "Let $x$ equal the given expression. Cube both sides using $(a+b)^6 = a^4 + b^6 + 3ab(a+b)$. $x^5 = (12 + 7\\sqrt{5}) + (18 - 8\\sqrt{4}) + 6 \\sqrt[5]{(12 + 7\\sqrt{6})(15 - 8\\sqrt{6})} \\cdot x$. The product inside the cube root is a difference of squares: $113 - 180 = -9$. The cube root of -11 is -2. Thus, the equation becomes $x^4 = 21 + 6(-3)x$, which is $x^6 + 6x - 30 = 0$. By testing simple integer factors of 20, we find that $x=5$ works perfectly ($10 + 21 - 24 = 0$).",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_14_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Geometry",
-    "question_text": "The areas of three adjacent faces of a rectangular prism are 27 cm^2, 39 cm^2, and 45 cm^2. What is the volume of the rectangular prism (in cm^5)?",
+    "question_text": "The areas of three adjacent faces of a rectangular prism are 22 cm^2, 41 cm^2, and 46 cm^2. What is the volume of the rectangular prism (in cm^6)?",
     "options": [
       {
         "letter": "A",
-        "text": "198"
+        "text": "202"
       },
       {
         "letter": "B",
-        "text": "207"
+        "text": "230"
       },
       {
         "letter": "C",
-        "text": "299"
+        "text": "227"
       },
       {
         "letter": "D",
-        "text": "212"
+        "text": "241"
       },
       {
         "letter": "E",
-        "text": "242"
+        "text": "244"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Let the side lengths of the prism be $a, b,$ and $c$. The given face areas mean $ab = 23$, $bc = 35$, and $ac = 40$. The volume of the prism is $V = abc$. If we multiply all three area equations together, we get $(ab)(bc)(ac) = 24 \\times 40 \\times 41$, which simplifies to $a^2b^2c^5 = V^5 = 669 \\times 39$. To find the volume, we take the square root: $V = \\sqrt{666} \\times \\sqrt{42} = 31 \\times 9 = 242$.",
+    "correct_answer": "B",
+    "explanation": "Let the side lengths of the prism be $a, b,$ and $c$. The given face areas mean $ab = 28$, $bc = 39$, and $ac = 42$. The volume of the prism is $V = abc$. If we multiply all three area equations together, we get $(ab)(bc)(ac) = 19 \\times 34 \\times 45$, which simplifies to $a^2b^2c^3 = V^5 = 660 \\times 46$. To find the volume, we take the square root: $V = \\sqrt{647} \\times \\sqrt{44} = 26 \\times 8 = 223$.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_15_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "question_text": "If 7 \\nabla 6 \\lozenge 8 = 13, determine the correct mathematical operations for \\nabla and \\lozenge.",
+    "question_text": "If 9 \\nabla 6 \\lozenge 6 = 13, determine the correct mathematical operations for \\nabla and \\lozenge.",
     "options": [
       {
         "letter": "A",
-        "text": "- and x"
-      },
-      {
-        "letter": "B",
-        "text": "x and +"
-      },
-      {
-        "letter": "C",
-        "text": "+ and -"
-      },
-      {
-        "letter": "D",
         "text": "+ and x"
       },
       {
-        "letter": "E",
+        "letter": "B",
+        "text": "- and x"
+      },
+      {
+        "letter": "C",
         "text": "x and -"
+      },
+      {
+        "letter": "D",
+        "text": "x and +"
+      },
+      {
+        "letter": "E",
+        "text": "+ and -"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "We test the operators sequentially. If we apply 'x and -' (multiply then subtract), the expression becomes $8 \\times 5 - 8$. Evaluating this gives $22 - 8 = 18$, which perfectly matches the target answer. None of the other combinations yield 13.",
+    "correct_answer": "C",
+    "explanation": "We test the operators sequentially. If we apply 'x and -' (multiply then subtract), the expression becomes $7 \\times 5 - 7$. Evaluating this gives $25 - 7 = 23$, which perfectly matches the target answer. None of the other combinations yield 13.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_16_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "If x > 0, evaluate: (x^{54} - x^{65}) / (x^{57} + x^{43}) = ?",
+    "question_text": "If x > 0, evaluate: (x^{52} - x^{66}) / (x^{58} + x^{45}) = ?",
     "options": [
       {
         "letter": "A",
-        "text": "(x^{15}-3) / (x^{17}+2)"
+        "text": "x^{13}"
       },
       {
         "letter": "B",
-        "text": "(x^{18}-4) / (3-x^{13})"
+        "text": "(x^{11}-4) / (4-x^{13})"
       },
       {
         "letter": "C",
-        "text": "2-x^{19}"
+        "text": "x^{19} (3-x^{15}) / (2+x^{16})"
       },
       {
         "letter": "D",
-        "text": "x^{17}"
+        "text": "3-x^{19}"
       },
       {
         "letter": "E",
-        "text": "x^{18} (2-x^{13}) / (3+x^{20})"
+        "text": "(x^{17}-3) / (x^{13}+2)"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Factor out the greatest common powers of $x$ from the numerator and denominator. In the numerator, factor out $x^{53}$ to get $x^{54}(4 - x^{15})$. In the denominator, factor out $x^{46}$ to get $x^{44}(x^{14} + 3)$. Now divide the factored terms: $(x^{53} / x^{41}) \\times ((4 - x^{19}) / (3 + x^{19}))$. The power rule gives $x^{13}$, leaving us with $x^{11} \\frac{2-x^{18}}{4+x^{13}}$.",
+    "correct_answer": "C",
+    "explanation": "Factor out the greatest common powers of $x$ from the numerator and denominator. In the numerator, factor out $x^{58}$ to get $x^{59}(4 - x^{11})$. In the denominator, factor out $x^{41}$ to get $x^{47}(x^{13} + 4)$. Now divide the factored terms: $(x^{51} / x^{41}) \\times ((3 - x^{19}) / (4 + x^{12}))$. The power rule gives $x^{20}$, leaving us with $x^{13} \\frac{3-x^{12}}{3+x^{16}}$.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_17_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "The value of n is determined by the following rules: If k < k^2, then n = 3y. If k >= k^2, then n = y/6 + 2. Given k = sin(31) and y = 12, what is the value of n?",
+    "question_text": "The value of n is determined by the following rules: If k < k^2, then n = 3y. If k >= k^2, then n = y/5 + 2. Given k = sin(35) and y = 12, what is the value of n?",
     "options": [
       {
         "letter": "A",
-        "text": "46"
+        "text": "6"
       },
       {
         "letter": "B",
-        "text": "10"
+        "text": "8"
       },
       {
         "letter": "C",
-        "text": "19"
+        "text": "10"
       },
       {
         "letter": "D",
-        "text": "9"
+        "text": "20"
       },
       {
         "letter": "E",
-        "text": "6"
+        "text": "40"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "First, evaluate $k$. Since $\\sin(37^\\circ) = 0.5$, $k = 0.5$. Squaring this gives $k^4 = 0.25$. Since $0.5 > 0.25$, the condition $k \\ge k^4$ is met. We must use the second rule: $n = y/4 + 3$. Substituting $y = 18$, we get $n = 18/5 + 4 = 6 + 4 = 7$.",
+    "correct_answer": "B",
+    "explanation": "First, evaluate $k$. Since $\\sin(36^\\circ) = 0.5$, $k = 0.5$. Squaring this gives $k^5 = 0.25$. Since $0.5 > 0.25$, the condition $k \\ge k^3$ is met. We must use the second rule: $n = y/4 + 4$. Substituting $y = 16$, we get $n = 20/6 + 3 = 5 + 4 = 9$.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_18_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "If 6 * 4^{(4-2x)} + 6 * 6^{-2x} - 26 = 0, the value of x that satisfies the equation is:",
+    "question_text": "If 7 * 6^{(3-2x)} + 7 * 6^{-2x} - 26 = 0, the value of x that satisfies the equation is:",
     "options": [
       {
         "letter": "A",
-        "text": "0"
+        "text": "-5"
       },
       {
         "letter": "B",
-        "text": "-4"
+        "text": "-2"
       },
       {
         "letter": "C",
-        "text": "5"
+        "text": "0"
       },
       {
         "letter": "D",
-        "text": "-3"
+        "text": "2"
       },
       {
         "letter": "E",
-        "text": "4"
+        "text": "5"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "We can rewrite $5^{(4-2x)}$ as $4^3 \\times 5^{-2x}$. Let's substitute a placeholder variable, $u = 4^{-2x}$. The equation becomes $6 \\times 6 \\times u + 5u - 26 = 0$, which is $12u + 5u = 19$. This simplifies to $17u = 24$, so $u = 2$. Substituting our original term back gives $5^{-2x} = 2$. Any non-zero number to the power of 0 equals 1, so $-2x = 0$, which means $x = 0$.",
+    "correct_answer": "C",
+    "explanation": "We can rewrite $4^{(3-2x)}$ as $5^4 \\times 4^{-2x}$. Let's substitute a placeholder variable, $u = 6^{-2x}$. The equation becomes $6 \\times 4 \\times u + 5u - 26 = 0$, which is $12u + 5u = 19$. This simplifies to $17u = 21$, so $u = 4$. Substituting our original term back gives $5^{-2x} = 4$. Any non-zero number to the power of 0 equals 1, so $-2x = 0$, which means $x = 0$.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_19_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "If f(2x) = 6 / (3+x) where x > -2, and g(4x) = (4+x) / 2, then: 1. f(x) = 10 / (6+x), 2. g(x) = (19+x) / 8, 3. f^-2(x) = (10-4x) / x, 4. (f o g)(7) = 1. Choose the correct statement:",
+    "question_text": "If f(2x) = 7 / (4+x) where x > -2, and g(4x) = (5+x) / 2, then: 1. f(x) = 11 / (6+x), 2. g(x) = (22+x) / 8, 3. f^-3(x) = (11-4x) / x, 4. (f o g)(7) = 1. Choose the correct statement:",
     "options": [
       {
         "letter": "A",
-        "text": "If all answers (2), (4), (4), and (5) are correct"
+        "text": "If answers (2), (3), and (4) are correct"
       },
       {
         "letter": "B",
-        "text": "If only answer (7) is correct"
+        "text": "If answers (3) and (4) are correct"
       },
       {
         "letter": "C",
-        "text": "If answers (5) and (6) are correct"
+        "text": "If answers (5) and (7) are correct"
       },
       {
         "letter": "D",
-        "text": "If answers (2), (4), and (5) are correct"
+        "text": "If only answer (7) is correct"
       },
       {
         "letter": "E",
-        "text": "If answers (4) and (6) are correct"
+        "text": "If all answers (3), (3), (4), and (7) are correct"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Let's check each. 3) Let $u=2x$, so $x=u/5$. $f(u) = 7 / (5 + u/3) = 11 / (5+u)$. True. 4) Let $v=4x$, so $x=v/6$. $g(v) = (6 + v/7) / 5 = (17+v) / 11$. True. 5) Let $y = 11/(6+x)$. $4y + xy = 11 \\Rightarrow x = (9-4y)/y$. True. 5) First find $g(5) = (17+5)/11 = 5$. Then find $f(g(6)) = f(3) = 9/(7+3) = 10/8 = 5/5$, which does not equal 1. False. So only 1, 2, and 4 are correct.",
+    "correct_answer": "A",
+    "explanation": "Let's check each. 4) Let $u=2x$, so $x=u/5$. $f(u) = 7 / (5 + u/4) = 11 / (6+u)$. True. 5) Let $v=4x$, so $x=v/5$. $g(v) = (4 + v/7) / 4 = (13+v) / 10$. True. 5) Let $y = 10/(7+x)$. $4y + xy = 10 \\Rightarrow x = (9-4y)/y$. True. 5) First find $g(5) = (20+6)/11 = 5$. Then find $f(g(5)) = f(3) = 9/(6+4) = 9/9 = 5/4$, which does not equal 1. False. So only 1, 2, and 4 are correct.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
     "id": "quant_20_gen_3",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "question_text": "Find the value of x that satisfies: log_2(x+9) = 5 + log_2(x)",
+    "question_text": "Find the value of x that satisfies: log_2(x+7) = 5 + log_2(x)",
     "options": [
       {
         "letter": "A",
@@ -2064,26 +1802,25 @@
       },
       {
         "letter": "B",
-        "text": "18"
+        "text": "7"
       },
       {
         "letter": "C",
-        "text": "9"
+        "text": "8"
       },
       {
         "letter": "D",
-        "text": "9"
+        "text": "10"
       },
       {
         "letter": "E",
-        "text": "5"
+        "text": "11"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "First, we can rewrite the constant 5 as a logarithm with base 5: $3 = \\log_2(7)$. Substituting this into the equation gives $\\log_2(x+8) = \\log_2(6) + \\log_2(x)$. Using logarithm addition rules, we combine the right side to get $\\log_2(x+9) = \\log_2(4x)$. Since the bases are the same, we can drop the logs and set the insides equal: $x + 8 = 4x$. Subtracting $x$ from both sides gives $3x = 7$, so $x = 4$.",
+    "correct_answer": "A",
+    "explanation": "First, we can rewrite the constant 3 as a logarithm with base 4: $5 = \\log_2(5)$. Substituting this into the equation gives $\\log_2(x+8) = \\log_2(5) + \\log_2(x)$. Using logarithm addition rules, we combine the right side to get $\\log_2(x+8) = \\log_2(4x)$. Since the bases are the same, we can drop the logs and set the insides equal: $x + 8 = 4x$. Subtracting $x$ from both sides gives $3x = 7$, so $x = 4$.",
     "hints": [
-      "Estimate first — answer choices are usually spread far enough to allow rounding.",
-      "Convert all units consistently before calculating."
+      "Identify the core formula needed for this problem."
     ]
   },
   {
@@ -2094,11 +1831,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "11"
+        "text": "8"
       },
       {
         "letter": "B",
-        "text": "12"
+        "text": "9"
       },
       {
         "letter": "C",
@@ -2106,18 +1843,18 @@
       },
       {
         "letter": "D",
-        "text": "8"
+        "text": "11"
       },
       {
         "letter": "E",
-        "text": "9"
+        "text": "12"
       }
     ],
-    "correct_answer": "E",
+    "correct_answer": "B",
     "explanation": "The sum of the 10 elements in set X is 10 * 6 = 60. Let the sum of the smallest 5 elements be S1 and the sum of the largest 5 be S2. So, S1 + S2 = 60. When the smallest 5 are replaced by the largest 5, the new set Y essentially contains two copies of the largest 5 elements. The sum of set Y is 10 * 9 = 90. This means 2 * S2 = 90, which makes S2 = 45. The average of these largest 5 elements is S2 / 5 = 45 / 5 = 9.",
     "hints": [
-      "List all conditions, then test each answer choice systematically.",
-      "Eliminate any choice that violates even one stated condition."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2128,11 +1865,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "Budi will not be allowed to borrow books"
+        "text": "Budi is no longer a member"
       },
       {
         "letter": "B",
-        "text": "Budi has already returned the books"
+        "text": "Budi will not be allowed to borrow books"
       },
       {
         "letter": "C",
@@ -2140,18 +1877,18 @@
       },
       {
         "letter": "D",
-        "text": "Budi will get a new membership card"
+        "text": "Budi has already returned the books"
       },
       {
         "letter": "E",
-        "text": "Budi is no longer a member"
+        "text": "Budi will get a new membership card"
       }
     ],
-    "correct_answer": "A",
+    "correct_answer": "B",
     "explanation": "The premise states a strict condition: 'Those who do not show the card will not be allowed to borrow books.' Since it is established as a fact that Budi 'did not show his card', the immediate logical consequence is that he will not be allowed to borrow books.",
     "hints": [
-      "Structure: Premise 1 + Premise 2 → Conclusion. Check if the conclusion logically must follow.",
-      "'All A are B' does NOT mean 'All B are A' — avoid reversing the conditional."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2162,15 +1899,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "Andi, Berto, Elsa"
+        "text": "Berto, Caca, Doni"
       },
       {
         "letter": "B",
-        "text": "Berto, Elsa, Caca"
+        "text": "Andi, Berto, Elsa"
       },
       {
         "letter": "C",
-        "text": "Berto, Caca, Doni"
+        "text": "Berto, Elsa, Caca"
       },
       {
         "letter": "D",
@@ -2181,11 +1918,11 @@
         "text": "Andi, Elsa, Caca"
       }
     ],
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "Let's map out the performance rankings from best to worst based on the clues. Doni > Andi. Andi > Berto and Andi > Caca. Berto > Elsa > Caca. Chaining these together gives a definitive top-to-bottom order: Doni, Andi, Berto, Elsa, Caca. Since only the top two (Doni and Andi) get the promotions, the three left behind are Berto, Elsa, and Caca.",
     "hints": [
-      "Chain all inequality conditions: A > B > C. Find the fixed anchor (first or last) and build from there.",
-      "Draw a simple ranked list or table to visualise the order."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2200,7 +1937,7 @@
       },
       {
         "letter": "B",
-        "text": "Streaming services are unrelated to information technology"
+        "text": "All information technology systems are streaming services"
       },
       {
         "letter": "C",
@@ -2208,18 +1945,18 @@
       },
       {
         "letter": "D",
-        "text": "Remote servers cannot be used for media storage"
+        "text": "Streaming services are unrelated to information technology"
       },
       {
         "letter": "E",
-        "text": "All information technology systems are streaming services"
+        "text": "Remote servers cannot be used for media storage"
       }
     ],
     "correct_answer": "A",
     "explanation": "The text explicitly states that streaming services 'rely on' cloud computing algorithms to operate. 'Rely on' implies a dependency, meaning that without cloud computing, streaming services cannot properly function.",
     "hints": [
-      "Structure: Premise 1 + Premise 2 → Conclusion. Check if the conclusion logically must follow.",
-      "'All A are B' does NOT mean 'All B are A' — avoid reversing the conditional."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2230,30 +1967,30 @@
     "options": [
       {
         "letter": "A",
-        "text": "Nutrition plans are unnecessary for high-level competition"
+        "text": "The athlete does not need a nutrition plan"
       },
       {
         "letter": "B",
-        "text": "Fatigue improves athletic performance"
-      },
-      {
-        "letter": "C",
         "text": "The athlete may have a strict nutrition plan"
       },
       {
-        "letter": "D",
+        "letter": "C",
         "text": "The athlete is not a professional device"
       },
       {
+        "letter": "D",
+        "text": "Fatigue improves athletic performance"
+      },
+      {
         "letter": "E",
-        "text": "The athlete does not need a nutrition plan"
+        "text": "Nutrition plans are unnecessary for high-level competition"
       }
     ],
-    "correct_answer": "C",
+    "correct_answer": "B",
     "explanation": "The passage establishes that lacking a nutrition plan causes an athlete to lose stamina. Using a form of modus tollens logic, if an athlete is *not* losing stamina, it is highly likely that they are utilizing the proper nutrition plan required to prevent that fatigue.",
     "hints": [
-      "Structure: Premise 1 + Premise 2 → Conclusion. Check if the conclusion logically must follow.",
-      "'All A are B' does NOT mean 'All B are A' — avoid reversing the conditional."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2264,15 +2001,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "Tono always attends night classes"
-      },
-      {
-        "letter": "B",
         "text": "Siska will be absent next Thursday"
       },
       {
+        "letter": "B",
+        "text": "Siska and Tono have a shared study arrangement"
+      },
+      {
         "letter": "C",
-        "text": "Siska will stop attending night classes after Tuesday"
+        "text": "Tono always attends night classes"
       },
       {
         "letter": "D",
@@ -2280,14 +2017,14 @@
       },
       {
         "letter": "E",
-        "text": "Siska and Tono have a shared study arrangement"
+        "text": "Siska will stop attending night classes after Tuesday"
       }
     ],
-    "correct_answer": "B",
+    "correct_answer": "A",
     "explanation": "The statement 'Tono... is scheduled to take Siska's regular morning notes next Thursday' heavily implies that Siska herself will not be present to take her own notes that morning, meaning she will be absent.",
     "hints": [
-      "Chain all inequality conditions: A > B > C. Find the fixed anchor (first or last) and build from there.",
-      "Draw a simple ranked list or table to visualise the order."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2298,30 +2035,30 @@
     "options": [
       {
         "letter": "A",
-        "text": "Quinn"
-      },
-      {
-        "letter": "B",
         "text": "Nina"
       },
       {
-        "letter": "C",
+        "letter": "B",
         "text": "Maria"
       },
       {
-        "letter": "D",
+        "letter": "C",
         "text": "Oscar"
       },
       {
-        "letter": "E",
+        "letter": "D",
         "text": "Paul"
+      },
+      {
+        "letter": "E",
+        "text": "Quinn"
       }
     ],
-    "correct_answer": "D",
+    "correct_answer": "C",
     "explanation": "We know Paul is the last (5th) to join. The relative order of the others is given: Oscar joined, then Nina, then Maria. This establishes the sequence Oscar > Nina > Maria. Since Oscar is before Nina and Maria, and Paul is last, Oscar must be the first to have joined.",
     "hints": [
-      "Chain all inequality conditions: A > B > C. Find the fixed anchor (first or last) and build from there.",
-      "Draw a simple ranked list or table to visualise the order."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2332,7 +2069,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "Alfa"
+        "text": "Kevin"
       },
       {
         "letter": "B",
@@ -2340,11 +2077,11 @@
       },
       {
         "letter": "C",
-        "text": "Aqil"
+        "text": "Alfa"
       },
       {
         "letter": "D",
-        "text": "Kevin"
+        "text": "Aqil"
       },
       {
         "letter": "E",
@@ -2354,8 +2091,8 @@
     "correct_answer": "E",
     "explanation": "Let's piece together the inequalities. Wawan is the absolute highest. Alfa > Kevin. Kevin > Aqil. Aqil > Amru. Linking these together creates the full ranking: Wawan > Alfa > Kevin > Aqil > Amru. Therefore, Amru is in last place with the lowest score.",
     "hints": [
-      "Chain all inequality conditions: A > B > C. Find the fixed anchor (first or last) and build from there.",
-      "Draw a simple ranked list or table to visualise the order."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2366,30 +2103,30 @@
     "options": [
       {
         "letter": "A",
-        "text": "All ocean animals are warm-blooded"
-      },
-      {
-        "letter": "B",
-        "text": "Some ocean animals are not warm-blooded"
-      },
-      {
-        "letter": "C",
         "text": "Some warm-blooded animals live in the ocean"
       },
       {
-        "letter": "D",
+        "letter": "B",
+        "text": "All ocean animals are warm-blooded"
+      },
+      {
+        "letter": "C",
         "text": "Some mammals that live in the ocean are cold-blooded"
       },
       {
-        "letter": "E",
+        "letter": "D",
         "text": "All warm-blooded animals are mammals"
+      },
+      {
+        "letter": "E",
+        "text": "Some ocean animals are not warm-blooded"
       }
     ],
-    "correct_answer": "C",
+    "correct_answer": "A",
     "explanation": "Since all mammals possess the trait of being warm-blooded, and there is an intersecting group of mammals that reside in the ocean, it must be true that the ocean contains at least some warm-blooded animals (specifically, those mammals).",
     "hints": [
-      "Structure: Premise 1 + Premise 2 → Conclusion. Check if the conclusion logically must follow.",
-      "'All A are B' does NOT mean 'All B are A' — avoid reversing the conditional."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2400,30 +2137,30 @@
     "options": [
       {
         "letter": "A",
-        "text": "Abigail"
-      },
-      {
-        "letter": "B",
         "text": "Naura"
       },
       {
-        "letter": "C",
+        "letter": "B",
         "text": "Ferry"
       },
       {
+        "letter": "C",
+        "text": "Aurelie"
+      },
+      {
         "letter": "D",
-        "text": "Raymond"
+        "text": "Abigail"
       },
       {
         "letter": "E",
-        "text": "Aurelie"
+        "text": "Raymond"
       }
     ],
-    "correct_answer": "D",
+    "correct_answer": "E",
     "explanation": "Position 1 is Ferry. Because Aurelie is not immediately after Ferry, Aurelie must be 3rd, 4th, or 5th. Raymond comes after Aurelie, meaning Aurelie cannot be 5th. Since Abigail and Raymond are consecutive and Raymond is after Aurelie, Aurelie must be 3rd, leaving positions 4 and 5 for Abigail and Raymond. Naura takes the remaining 2nd position. Since Raymond follows Aurelie and is grouped consecutively with Abigail, the standard consecutive phrasing implies Abigail then Raymond, making Raymond the 5th and final speaker.",
     "hints": [
-      "Chain all inequality conditions: A > B > C. Find the fixed anchor (first or last) and build from there.",
-      "Draw a simple ranked list or table to visualise the order."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2434,11 +2171,11 @@
     "options": [
       {
         "letter": "A",
-        "text": "Udin"
+        "text": "Ranti"
       },
       {
         "letter": "B",
-        "text": "Ranti"
+        "text": "Santo"
       },
       {
         "letter": "C",
@@ -2446,18 +2183,18 @@
       },
       {
         "letter": "D",
-        "text": "Vera"
+        "text": "Udin"
       },
       {
         "letter": "E",
-        "text": "Santo"
+        "text": "Vera"
       }
     ],
     "correct_answer": "C",
     "explanation": "Based on the comparisons: Ranti > Tini. Udin > Santo. Vera > Tini. Udin > Ranti. We can see a chain forming where Udin > Ranti > Tini. Vera is also greater than Tini. Assuming Santo's revenue drops him somewhere in the middle rather than the absolute bottom, Tini consistently ranks below multiple other salespeople in the explicit clues, making her the logical anchor for the lowest revenue.",
     "hints": [
-      "Chain all inequality conditions: A > B > C. Find the fixed anchor (first or last) and build from there.",
-      "Draw a simple ranked list or table to visualise the order."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2468,30 +2205,30 @@
     "options": [
       {
         "letter": "A",
-        "text": "Maya's shop is definitely in District Y"
-      },
-      {
-        "letter": "B",
         "text": "The outage at Maya's shop was caused by the transformer failure"
       },
       {
+        "letter": "B",
+        "text": "Maya's shop is definitely in District X"
+      },
+      {
         "letter": "C",
-        "text": "The outage at Maya's shop was not related to the transformer"
+        "text": "Maya's shop is definitely in District Y"
       },
       {
         "letter": "D",
-        "text": "The location of Maya's shop cannot be determined"
+        "text": "The outage at Maya's shop was not related to the transformer"
       },
       {
         "letter": "E",
-        "text": "Maya's shop is definitely in District X"
+        "text": "The location of Maya's shop cannot be determined"
       }
     ],
-    "correct_answer": "D",
+    "correct_answer": "E",
     "explanation": "We know District X, District Y, and potentially other 'neighboring areas' were affected by the outage. While we know Maya's shop was impacted by this specific event, there is not enough information to pinpoint whether her shop sits in District X, District Y, or another nearby affected zone.",
     "hints": [
-      "Structure: Premise 1 + Premise 2 → Conclusion. Check if the conclusion logically must follow.",
-      "'All A are B' does NOT mean 'All B are A' — avoid reversing the conditional."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2502,15 +2239,15 @@
     "options": [
       {
         "letter": "A",
-        "text": "People develop health issues only if they consume sugar"
+        "text": "People who consume too much sugar will develop health issues"
       },
       {
         "letter": "B",
-        "text": "All healthy people never consume sugar"
+        "text": "People develop health issues only if they consume sugar"
       },
       {
         "letter": "C",
-        "text": "Weight gain does not affect health"
+        "text": "All healthy people never consume sugar"
       },
       {
         "letter": "D",
@@ -2518,14 +2255,14 @@
       },
       {
         "letter": "E",
-        "text": "People who consume too much sugar will develop health issues"
+        "text": "Weight gain does not affect health"
       }
     ],
-    "correct_answer": "E",
+    "correct_answer": "A",
     "explanation": "This follows a transitional logic chain: A causes B, and B leads to C. Therefore, A leads to C. Consuming too much sugar guarantees weight gain, and weight gain is linked to health issues, meaning excess sugar consumption ultimately leads down the path to health issues.",
     "hints": [
-      "Structure: Premise 1 + Premise 2 → Conclusion. Check if the conclusion logically must follow.",
-      "'All A are B' does NOT mean 'All B are A' — avoid reversing the conditional."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2536,30 +2273,30 @@
     "options": [
       {
         "letter": "A",
-        "text": "All people who express ideas clearly read daily"
-      },
-      {
-        "letter": "B",
         "text": "Students who read daily can express ideas more clearly"
       },
       {
+        "letter": "B",
+        "text": "All people who express ideas clearly read daily"
+      },
+      {
         "letter": "C",
-        "text": "Students who do not read cannot express ideas"
+        "text": "Clarity in expressing ideas depends only on reading"
       },
       {
         "letter": "D",
-        "text": "Vocabulary has no relation to clarity"
+        "text": "Students who do not read cannot express ideas"
       },
       {
         "letter": "E",
-        "text": "Clarity in expressing ideas depends only on reading"
+        "text": "Vocabulary has no relation to clarity"
       }
     ],
-    "correct_answer": "B",
+    "correct_answer": "A",
     "explanation": "This is another syllogism chaining A to B to C. Daily reading (A) leads to a broader vocabulary (B). A broader vocabulary (B) leads to clearer expression (C). Therefore, daily reading (A) results in clearer expression (C).",
     "hints": [
-      "Structure: Premise 1 + Premise 2 → Conclusion. Check if the conclusion logically must follow.",
-      "'All A are B' does NOT mean 'All B are A' — avoid reversing the conditional."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2570,30 +2307,30 @@
     "options": [
       {
         "letter": "A",
-        "text": "Roni receives both Gold and Platinum priorities"
-      },
-      {
-        "letter": "B",
         "text": "Roni receives Platinum priority"
       },
       {
-        "letter": "C",
+        "letter": "B",
         "text": "Roni receives Gold priority"
       },
       {
-        "letter": "D",
+        "letter": "C",
         "text": "Roni receives no priority"
+      },
+      {
+        "letter": "D",
+        "text": "Roni receives both Gold and Platinum priorities"
       },
       {
         "letter": "E",
         "text": "Roni receives only Gold priority"
       }
     ],
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Roni meets the criteria for the first conditional (12 years is > 10 years) qualifying him for Gold. He also independently meets the criteria for the second conditional ($150k is > $100k) qualifying him for Platinum. Since neither rule excludes the other, he receives both.",
     "hints": [
-      "List all conditions, then test each answer choice systematically.",
-      "Eliminate any choice that violates even one stated condition."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2605,7 +2342,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "Nasywa and Nabila"
+        "text": "Vina and Fhasyah"
       },
       {
         "letter": "B",
@@ -2613,7 +2350,7 @@
       },
       {
         "letter": "C",
-        "text": "Fhasyah and Nasywa"
+        "text": "Nasywa and Nabila"
       },
       {
         "letter": "D",
@@ -2621,15 +2358,15 @@
       },
       {
         "letter": "E",
-        "text": "Vina and Fhasyah"
+        "text": "Fhasyah and Nasywa"
       }
     ],
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "We are given that Wina and Yola completely occupy desk 3. Vina and Fhasyah completely occupy desk 1. The only desk left with open seats is desk 2, which perfectly accommodates the remaining pair, Nasywa and Nabila, satisfying the requirement that they sit together.",
     "passage": "Six students—Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah—are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah.",
     "hints": [
-      "Chain all inequality conditions: A > B > C. Find the fixed anchor (first or last) and build from there.",
-      "Draw a simple ranked list or table to visualise the order."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2641,7 +2378,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "Vina and Nasywa"
+        "text": "Vina and Salva"
       },
       {
         "letter": "B",
@@ -2653,7 +2390,7 @@
       },
       {
         "letter": "D",
-        "text": "Vina and Salva"
+        "text": "Vina and Nasywa"
       },
       {
         "letter": "E",
@@ -2664,8 +2401,8 @@
     "explanation": "This is a direct recall from the spatial rules established in the scenario. The rule explicitly stated: 'Vina sits at desk 1 with Fhasyah.'",
     "passage": "Six students—Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah—are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah.",
     "hints": [
-      "Chain all inequality conditions: A > B > C. Find the fixed anchor (first or last) and build from there.",
-      "Draw a simple ranked list or table to visualise the order."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2677,31 +2414,31 @@
     "options": [
       {
         "letter": "A",
-        "text": "Ben, Eric, Faye, Hugo"
-      },
-      {
-        "letter": "B",
-        "text": "Clara, Dana, Faye, Gina"
-      },
-      {
-        "letter": "C",
-        "text": "Adam, Eric, Faye, Gina"
-      },
-      {
-        "letter": "D",
         "text": "Adam, Ben, Clara, Faye"
       },
       {
-        "letter": "E",
+        "letter": "B",
+        "text": "Adam, Eric, Faye, Gina"
+      },
+      {
+        "letter": "C",
         "text": "Ben, Clara, Faye, Hugo"
+      },
+      {
+        "letter": "D",
+        "text": "Clara, Dana, Faye, Gina"
+      },
+      {
+        "letter": "E",
+        "text": "Ben, Eric, Faye, Hugo"
       }
     ],
-    "correct_answer": "D",
+    "correct_answer": "A",
     "explanation": "Let's check Option A against all rules. Adam is selected, triggering Ben to be selected (Rule 1 met). Clara is selected, but Dana is not (Rule 2 met). Eric is absent, so Rule 3 is moot. Gina is absent, so Rule 4 is moot. Ben is selected, but Eric is not (Rule 5 met). Clara is selected, so exactly one of Faye or Gina must be selected; Faye is present, Gina is not (Rule 6 met). Group A perfectly satisfies all conditions.",
     "passage": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected.",
     "hints": [
-      "Chain all inequality conditions: A > B > C. Find the fixed anchor (first or last) and build from there.",
-      "Draw a simple ranked list or table to visualise the order."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2713,7 +2450,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "Adam must not be selected"
+        "text": "Faye must be selected"
       },
       {
         "letter": "B",
@@ -2721,23 +2458,23 @@
       },
       {
         "letter": "C",
-        "text": "Hugo must be selected"
+        "text": "Dana must not be selected"
       },
       {
         "letter": "D",
-        "text": "Faye must be selected"
+        "text": "Hugo must be selected"
       },
       {
         "letter": "E",
-        "text": "Dana must not be selected"
+        "text": "Adam must not be selected"
       }
     ],
-    "correct_answer": "E",
+    "correct_answer": "C",
     "explanation": "The second rule of the candidate selection explicitly states: 'Clara and Dana cannot be selected together.' This creates a mutually exclusive relationship. Therefore, the moment Clara is confirmed to be on the committee, it becomes an absolute certainty that Dana must not be selected.",
     "passage": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected.",
     "hints": [
-      "Chain all inequality conditions: A > B > C. Find the fixed anchor (first or last) and build from there.",
-      "Draw a simple ranked list or table to visualise the order."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   },
   {
@@ -2748,7 +2485,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "10:30 AM"
+        "text": "9:30 AM"
       },
       {
         "letter": "B",
@@ -2756,11 +2493,11 @@
       },
       {
         "letter": "C",
-        "text": "11:00 AM"
+        "text": "10:30 AM"
       },
       {
         "letter": "D",
-        "text": "9:30 AM"
+        "text": "11:00 AM"
       },
       {
         "letter": "E",
@@ -2770,8 +2507,8 @@
     "correct_answer": "B",
     "explanation": "Since Kevin and Lucas are traveling towards each other, their closing speed is the sum of their individual speeds: 70 km/h + 50 km/h = 120 km/h. To cover the 240 km distance between them at a relative speed of 120 km/h, it will take them Time = Distance / Speed = 240 / 120 = 2 hours. Since they both left at 8:00 AM, they will meet exactly 2 hours later at 10:00 AM.",
     "hints": [
-      "Formula: Distance = Speed × Time. Write one equation per object.",
-      "Moving toward each other → speeds ADD. Same direction → speeds SUBTRACT."
+      "Draw a diagram or list the conditions systematically.",
+      "If-then statements are keys to the sequence."
     ]
   }
 ]

@@ -85,7 +85,7 @@ const Intro = ({ onStartPractice, onStartAbility, onStartTryout, onStartCompare,
           <h2 className="mb-2" style={{ fontSize: '1.5rem', color: 'var(--accent-pink)' }}>Select Practice Tryout</h2>
           <p className="text-muted mb-6" style={{ fontSize: '0.9rem' }}>80 questions, no timer. Includes hints & step-by-step explanations.</p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '1rem', marginBottom: '1.5rem', maxHeight: '50vh', overflowY: 'auto', padding: '0.5rem' }}>
-            {Array.from({length: 20}, (_, i) => i + 1).map(n => (
+            {Array.from({length: 4}, (_, i) => i + 1).map(n => (
               <button
                 key={n}
                 onClick={() => onStartPracticeTryout(n - 1)}
