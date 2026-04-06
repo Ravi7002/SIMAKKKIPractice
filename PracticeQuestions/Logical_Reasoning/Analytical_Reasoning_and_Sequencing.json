@@ -369,6 +369,654 @@
         "P is not 1 or 5.",
         "So P must be 3 or 4."
       ]
+    },
+    {
+      "id": "aras_exp_1",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "medium",
+      "question_text": "Six students (A, B, C, D, E, F) are seated in a row. B sits immediately to the right of A. D sits to the left of E but to the right of C. F sits at the far right. If A sits in seat 1, who sits in seat 4?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "C"
+        },
+        {
+          "letter": "B",
+          "text": "D"
+        },
+        {
+          "letter": "C",
+          "text": "E"
+        },
+        {
+          "letter": "D",
+          "text": "F"
+        },
+        {
+          "letter": "E",
+          "text": "B"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A is in seat 1, B immediately right means B is in seat 2. F is at the far right (seat 6). C, D, E fill seats 3-5 with D left of E and right of C: C, D, E. So seat 4 is D.",
+      "hints": [
+        "A is seat 1, B is seat 2.",
+        "F is seat 6.",
+        "Remaining C, D, E with C < D < E."
+      ]
+    },
+    {
+      "id": "aras_exp_2",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "hard",
+      "question_text": "Seven items (P, Q, R, S, T, U, V) are arranged on a shelf from left to right.\n- P is somewhere to the left of Q.\n- R is immediately to the right of S.\n- T is at position 4.\n- U is somewhere to the right of V.\n- V is at position 1.\nWho is at position 7?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Q"
+        },
+        {
+          "letter": "B",
+          "text": "U"
+        },
+        {
+          "letter": "C",
+          "text": "R"
+        },
+        {
+          "letter": "D",
+          "text": "P"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "V is at 1, T is at 4. Remaining positions 2,3,5,6,7 for P,Q,R,S,U. SR block could be at (2,3), (5,6), or (6,7). P<Q and V<U. Multiple valid arrangements exist for position 7.",
+      "hints": [
+        "Fix V at 1 and T at 4.",
+        "SR is a consecutive block.",
+        "Check if position 7 is uniquely determined."
+      ]
+    },
+    {
+      "id": "aras_exp_3",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "medium",
+      "question_text": "Five athletes (J, K, L, M, N) finish a swimming race. K finishes before M but after N. L finishes after M. J finishes first. What position does K finish in?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2nd"
+        },
+        {
+          "letter": "B",
+          "text": "3rd"
+        },
+        {
+          "letter": "C",
+          "text": "4th"
+        },
+        {
+          "letter": "D",
+          "text": "5th"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "J is 1st. N > K > M, and M > L. So chain: J > N > K > M > L. K is 3rd.",
+      "hints": [
+        "J is first.",
+        "Build the chain: N > K > M.",
+        "L comes after M."
+      ]
+    },
+    {
+      "id": "aras_exp_4",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "easy",
+      "question_text": "Three friends (X, Y, Z) are standing in a queue. X is not first. Z is not last. Who is in the middle?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "X"
+        },
+        {
+          "letter": "B",
+          "text": "Y"
+        },
+        {
+          "letter": "C",
+          "text": "Z"
+        },
+        {
+          "letter": "D",
+          "text": "Either X or Z"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "X cannot be first, Z cannot be last. Valid arrangements: (Z,X,Y), (Z,Y,X), (Y,Z,X). The middle position varies, so it cannot be determined.",
+      "hints": [
+        "List all valid arrangements.",
+        "X ≠ 1st, Z ≠ last.",
+        "Check who occupies the middle in each."
+      ]
+    },
+    {
+      "id": "aras_exp_5",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "hard",
+      "question_text": "Eight employees (A-H) are ranked by seniority (1=most senior).\n- A is more senior than D and E.\n- B is less senior than C but more senior than F.\n- G is ranked 1st.\n- H is ranked immediately after A.\n- D is ranked 8th.\nIf A is ranked 3rd, what is B's rank?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5th"
+        },
+        {
+          "letter": "B",
+          "text": "6th"
+        },
+        {
+          "letter": "C",
+          "text": "7th"
+        },
+        {
+          "letter": "D",
+          "text": "Either 5th, 6th, or 7th"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "G=1, A=3, H=4 (immediately after A), D=8. Remaining ranks 2,5,6,7 for B,C,E,F. C>B>F. C could be rank 2. Then B could be 5,6 with F after B. E fills remaining. Multiple valid positions for B exist.",
+      "hints": [
+        "G=1, A=3, H=4, D=8.",
+        "Remaining: 2,5,6,7 for B,C,E,F.",
+        "C > B > F constrains but doesn't fix B."
+      ]
+    },
+    {
+      "id": "aras_exp_6",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "medium",
+      "question_text": "Four cars (Red, Blue, Green, White) are parked in a row of 4 spots.\n- The Red car is not in spot 1 or spot 4.\n- The Blue car is immediately to the left of the Green car.\n- The White car is in spot 1.\nIn which spot is the Red car?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Spot 2"
+        },
+        {
+          "letter": "B",
+          "text": "Spot 3"
+        },
+        {
+          "letter": "C",
+          "text": "Spot 4"
+        },
+        {
+          "letter": "D",
+          "text": "Spot 2 or 3"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "White=1. Red is not in 1 or 4, so Red is in 2 or 3. Blue-Green block needs consecutive spots. Available: 2,3,4. If Red=2, Blue-Green is 3,4. If Red=3, Blue-Green must be in 2,4 (not consecutive) - impossible. So Red=2.",
+      "hints": [
+        "White is in spot 1.",
+        "Red can only be 2 or 3.",
+        "Blue+Green need consecutive spots."
+      ]
+    },
+    {
+      "id": "aras_exp_7",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "hard",
+      "question_text": "Six books (A-F) are stacked vertically. A is above B. C is between A and D. E is at the very top. F is directly below B. What position (from top) is C?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2nd"
+        },
+        {
+          "letter": "B",
+          "text": "3rd"
+        },
+        {
+          "letter": "C",
+          "text": "4th"
+        },
+        {
+          "letter": "D",
+          "text": "5th"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "E is top (1st). A > B, and F is directly below B. C is between A and D. Stack from top: E, A, C, D, B, F or E, A, C, B, F with D somewhere. Since C is between A and D, and A>B>F: E(1), A(2), C(3), then D and B,F below. C is 3rd.",
+      "hints": [
+        "E is first (top).",
+        "A is above B, F is below B.",
+        "C is between A and D."
+      ]
+    },
+    {
+      "id": "aras_exp_8",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "easy",
+      "question_text": "In a race of 4 runners (P, Q, R, S): P beats Q, R beats P, S finishes last. Who wins the race?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "P"
+        },
+        {
+          "letter": "B",
+          "text": "Q"
+        },
+        {
+          "letter": "C",
+          "text": "R"
+        },
+        {
+          "letter": "D",
+          "text": "S"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "R > P > Q, S is last. So order: R, P, Q, S. R wins.",
+      "hints": [
+        "R beats P, P beats Q.",
+        "S is last.",
+        "Build the chain."
+      ]
+    },
+    {
+      "id": "aras_exp_9",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "medium",
+      "question_text": "Five tasks (1-5) are scheduled for Monday to Friday.\n- Task 3 is scheduled before Task 1.\n- Task 5 is on Wednesday.\n- Task 2 is on Friday.\n- Task 4 is immediately after Task 3.\nOn which day is Task 1?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Monday"
+        },
+        {
+          "letter": "B",
+          "text": "Tuesday"
+        },
+        {
+          "letter": "C",
+          "text": "Thursday"
+        },
+        {
+          "letter": "D",
+          "text": "Friday"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Task 5=Wed, Task 2=Fri. Tasks 3,4 are consecutive (3 then 4). Task 3 before Task 1. Available days: Mon,Tue,Thu. Block 3-4 = Mon,Tue. Then Task 1 = Thu.",
+      "hints": [
+        "Fix Task 5=Wed, Task 2=Fri.",
+        "Tasks 3,4 form a block.",
+        "Task 3 must be before Task 1."
+      ]
+    },
+    {
+      "id": "aras_exp_10",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "hard",
+      "question_text": "Six people (A-F) sit around a circular table.\n- A sits opposite D.\n- B sits to the immediate left of A.\n- C does not sit next to D.\n- E sits to the immediate right of D.\nWho sits opposite B?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "C"
+        },
+        {
+          "letter": "B",
+          "text": "E"
+        },
+        {
+          "letter": "C",
+          "text": "F"
+        },
+        {
+          "letter": "D",
+          "text": "D"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "A at 1, D at 4 (opposite). B at 6 (left of A). E at 5 (right of D). C cannot be next to D (not 3 or 5). So C=2, F=3. Opposite of B (position 6) is position 3 = F.",
+      "hints": [
+        "Place A and D opposite each other.",
+        "B is left of A, E is right of D.",
+        "C cannot be adjacent to D."
+      ]
+    },
+    {
+      "id": "aras_exp_11",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "medium",
+      "question_text": "Five students take an exam. Their ranks (1=best) follow these rules:\n- Maya scores higher than Nora.\n- Omar scores lower than both Maya and Priya.\n- Qasim scores highest of all.\nIf Nora is 4th, what is Omar's rank?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2nd"
+        },
+        {
+          "letter": "B",
+          "text": "3rd"
+        },
+        {
+          "letter": "C",
+          "text": "5th"
+        },
+        {
+          "letter": "D",
+          "text": "4th"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Qasim=1st. Maya>Nora, Nora=4th so Maya is 2nd or 3rd. Omar < Maya and Omar < Priya. Since Nora=4th and Omar is below both Maya and Priya, Omar must be 5th.",
+      "hints": [
+        "Qasim is 1st.",
+        "Maya is above Nora (4th), so Maya is 2nd or 3rd.",
+        "Omar is below both Maya and Priya."
+      ]
+    },
+    {
+      "id": "aras_exp_12",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "easy",
+      "question_text": "Three packages (Small, Medium, Large) must be loaded onto a truck in order.\n- The Large package cannot be loaded first.\n- The Small package must be loaded before the Medium package.\nWhat is the loading order?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Small, Large, Medium"
+        },
+        {
+          "letter": "B",
+          "text": "Large, Small, Medium"
+        },
+        {
+          "letter": "C",
+          "text": "Small, Medium, Large"
+        },
+        {
+          "letter": "D",
+          "text": "Medium, Small, Large"
+        },
+        {
+          "letter": "E",
+          "text": "A or C"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Large≠1st. Small before Medium. Options: S,L,M or S,M,L. Both satisfy all rules. So the answer is A or C.",
+      "hints": [
+        "Large cannot be first.",
+        "Small must precede Medium.",
+        "Check which full orderings satisfy both rules."
+      ]
+    },
+    {
+      "id": "aras_exp_13",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "hard",
+      "question_text": "Seven athletes (A-G) compete. Rankings:\n- B finishes exactly two positions after F.\n- C finishes immediately after A.\n- D finishes 1st.\n- G finishes last (7th).\nIf A finishes 2nd, what position does F finish?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4th"
+        },
+        {
+          "letter": "B",
+          "text": "5th"
+        },
+        {
+          "letter": "C",
+          "text": "6th"
+        },
+        {
+          "letter": "D",
+          "text": "4th or 5th"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "D=1, A=2, C=3, G=7. Remaining: 4,5,6 for B,E,F. B=F+2. If F=4, B=6, E=5 works. If F=5, B=7 conflicts with G. So F must be 4th.",
+      "hints": [
+        "Fix D=1, A=2, C=3, G=7.",
+        "B is exactly 2 after F.",
+        "Test F=4 and F=5."
+      ]
+    },
+    {
+      "id": "aras_exp_14",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "medium",
+      "question_text": "Four meetings (W, X, Y, Z) are held on Monday through Thursday, one per day.\n- W is not on Monday.\n- X is the day before Y.\n- Z is on Thursday.\nOn which day is W?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Monday"
+        },
+        {
+          "letter": "B",
+          "text": "Tuesday"
+        },
+        {
+          "letter": "C",
+          "text": "Wednesday"
+        },
+        {
+          "letter": "D",
+          "text": "Tuesday or Wednesday"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Z=Thursday. X is the day before Y, so XY block is (Mon,Tue), (Tue,Wed), or (Wed,Thu). Since Z=Thu, XY can be (Mon,Tue) or (Tue,Wed). W≠Monday. If XY=(Mon,Tue), W fills Wed. If XY=(Tue,Wed), remaining is Mon for W, but W≠Mon. So XY=(Mon,Tue), W=Wednesday.",
+      "hints": [
+        "Z is Thursday.",
+        "XY is a consecutive block.",
+        "W cannot be Monday."
+      ]
+    },
+    {
+      "id": "aras_exp_15",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "hard",
+      "question_text": "Six products (1-6) are displayed on shelves, numbered 1 (top) to 6 (bottom).\n- Product 2 is on a higher shelf than Product 5.\n- Product 3 is immediately below Product 1.\n- Product 4 is on shelf 6 (bottom).\n- Product 6 is on shelf 1 (top).\nOn which shelf is Product 5?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Shelf 3"
+        },
+        {
+          "letter": "B",
+          "text": "Shelf 4"
+        },
+        {
+          "letter": "C",
+          "text": "Shelf 5"
+        },
+        {
+          "letter": "D",
+          "text": "Shelf 4 or 5"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Product 6=shelf 1, Product 4=shelf 6. Products 1&3 consecutive. Multiple valid arrangements give Product 5 different shelves (3 or 5).",
+      "hints": [
+        "Fix Product 6 at top, Product 4 at bottom.",
+        "Products 1 and 3 form a consecutive pair.",
+        "Product 2 must be above Product 5."
+      ]
+    },
+    {
+      "id": "aras_exp_16",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "medium",
+      "question_text": "Five people (A, B, C, D, E) are seated in a row.\n- A is at one end.\n- B is next to C.\n- D is not next to A.\n- E is in the middle (seat 3).\nIf A is in seat 1, who is in seat 2?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "B"
+        },
+        {
+          "letter": "B",
+          "text": "C"
+        },
+        {
+          "letter": "C",
+          "text": "D"
+        },
+        {
+          "letter": "D",
+          "text": "B or C"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "A=1, E=3. B and C must be adjacent - only seats 4,5 work. D fills seat 2.",
+      "hints": [
+        "A=1, E=3.",
+        "B and C need adjacent seats.",
+        "Only seats 4,5 are available and adjacent."
+      ]
+    },
+    {
+      "id": "aras_exp_17",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "easy",
+      "question_text": "Four siblings are born in order from oldest to youngest. Ana is older than Ben. Chris is the youngest. Dana is older than Ana. Who is the second oldest?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ana"
+        },
+        {
+          "letter": "B",
+          "text": "Ben"
+        },
+        {
+          "letter": "C",
+          "text": "Chris"
+        },
+        {
+          "letter": "D",
+          "text": "Dana"
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Dana > Ana > Ben, Chris is youngest. Order: Dana, Ana, Ben, Chris. Second oldest is Ana.",
+      "hints": [
+        "Dana is older than Ana.",
+        "Ana is older than Ben.",
+        "Chris is the youngest."
+      ]
+    },
+    {
+      "id": "aras_exp_18",
+      "subject": "Logical Reasoning",
+      "topic": "Analytical Reasoning and Sequencing",
+      "difficulty": "hard",
+      "question_text": "Eight conference rooms (1-8) are booked in sequence.\n- Room 3 is booked before Room 7.\n- Room 1 is booked immediately after Room 5.\n- Room 8 is booked first.\n- Room 2 is booked last.\n- Room 4 is booked before Room 6.\nIf Room 5 is booked 3rd, which room is booked 4th?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Room 1"
+        },
+        {
+          "letter": "B",
+          "text": "Room 3"
+        },
+        {
+          "letter": "C",
+          "text": "Room 4"
+        },
+        {
+          "letter": "D",
+          "text": "Room 6"
+        },
+        {
+          "letter": "E",
+          "text": "Room 7"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Room 8 is 1st, Room 2 is last (8th). Room 5 is 3rd, and Room 1 is immediately after Room 5, so Room 1 is 4th.",
+      "hints": [
+        "Room 8=1st, Room 2=8th.",
+        "Room 5=3rd.",
+        "Room 1 immediately follows Room 5."
+      ]
     }
   ],
   "worked_examples": [

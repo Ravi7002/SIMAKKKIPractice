@@ -365,6 +365,653 @@
         "Since Greg did Y (approved overtime), Greg MUST be an X (a director).",
         "Premise B is irrelevant filler information."
       ]
+    },
+    {
+      "id": "dlas_exp_1",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "medium",
+      "question_text": "Rule: All managers attend the weekly meeting. Fact: Tom did not attend the weekly meeting. What can we conclude?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tom is a manager who skipped the meeting."
+        },
+        {
+          "letter": "B",
+          "text": "Tom is not a manager."
+        },
+        {
+          "letter": "C",
+          "text": "Tom was sick."
+        },
+        {
+          "letter": "D",
+          "text": "The meeting was cancelled."
+        },
+        {
+          "letter": "E",
+          "text": "Nothing can be concluded."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "By contrapositive: If NOT attend → NOT manager. Tom did not attend, so Tom is not a manager.",
+      "hints": [
+        "Use the contrapositive.",
+        "If all managers attend, what does not attending imply?"
+      ]
+    },
+    {
+      "id": "dlas_exp_2",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "hard",
+      "question_text": "Premise 1: All philosophers are thinkers. Premise 2: Some thinkers are writers. Premise 3: No writers are athletes. Which must be true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Some philosophers are writers."
+        },
+        {
+          "letter": "B",
+          "text": "No philosophers are athletes."
+        },
+        {
+          "letter": "C",
+          "text": "Some thinkers are not athletes."
+        },
+        {
+          "letter": "D",
+          "text": "All thinkers are philosophers."
+        },
+        {
+          "letter": "E",
+          "text": "Some athletes are thinkers."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Some thinkers are writers (P2). No writers are athletes (P3). Therefore those thinkers who are writers cannot be athletes. So some thinkers are not athletes.",
+      "hints": [
+        "Focus on the overlap between thinkers and writers.",
+        "Writers cannot be athletes.",
+        "What does that mean for those thinkers?"
+      ]
+    },
+    {
+      "id": "dlas_exp_3",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "easy",
+      "question_text": "Rule: If a number is divisible by 6, it is divisible by 3. Fact: The number 15 is divisible by 3. Can we conclude it is divisible by 6?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes, definitely."
+        },
+        {
+          "letter": "B",
+          "text": "No, this is the converse fallacy."
+        },
+        {
+          "letter": "C",
+          "text": "Maybe, we need more information."
+        },
+        {
+          "letter": "D",
+          "text": "Yes, because 3 is a factor of 6."
+        },
+        {
+          "letter": "E",
+          "text": "No, because 15 is odd."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The rule states div_by_6 → div_by_3. Knowing div_by_3 does NOT prove div_by_6. This is the converse fallacy. 15 is indeed divisible by 3 but not by 6.",
+      "hints": [
+        "The rule only goes one direction.",
+        "A→B does not mean B→A.",
+        "This is a classic converse fallacy."
+      ]
+    },
+    {
+      "id": "dlas_exp_4",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "medium",
+      "question_text": "Rule 1: If the alarm rings, everyone evacuates. Rule 2: If everyone evacuates, the building is empty. Rule 3: The building is NOT empty. What can we conclude?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The alarm rang but people ignored it."
+        },
+        {
+          "letter": "B",
+          "text": "The alarm did not ring."
+        },
+        {
+          "letter": "C",
+          "text": "Some people evacuated."
+        },
+        {
+          "letter": "D",
+          "text": "The alarm system is broken."
+        },
+        {
+          "letter": "E",
+          "text": "We cannot conclude anything."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Chain: alarm → evacuate → empty. Building NOT empty → NOT everyone evacuated (contrapositive of R2) → alarm did NOT ring (contrapositive of R1).",
+      "hints": [
+        "Apply contrapositive chain.",
+        "NOT empty → NOT evacuate → NOT alarm.",
+        "Work backwards from the known fact."
+      ]
+    },
+    {
+      "id": "dlas_exp_5",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "hard",
+      "question_text": "Premise: If and only if you have a valid ticket, you may board the train. Maria does not have a valid ticket. What is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Maria may board if she buys a ticket on the train."
+        },
+        {
+          "letter": "B",
+          "text": "Maria definitely cannot board the train."
+        },
+        {
+          "letter": "C",
+          "text": "Maria might still board if the conductor allows it."
+        },
+        {
+          "letter": "D",
+          "text": "Nothing can be determined."
+        },
+        {
+          "letter": "E",
+          "text": "Maria can board but must stand."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "'If and only if' (biconditional) means both directions hold. No ticket ↔ no boarding. Since Maria has no valid ticket, she definitely cannot board.",
+      "hints": [
+        "'If and only if' is a biconditional.",
+        "Both directions are guaranteed.",
+        "No ticket = no boarding, guaranteed."
+      ]
+    },
+    {
+      "id": "dlas_exp_6",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "medium",
+      "question_text": "Premise 1: All roses are flowers. Premise 2: All flowers need water. Premise 3: This plant is a rose. What must be true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "This plant needs water."
+        },
+        {
+          "letter": "B",
+          "text": "All plants that need water are roses."
+        },
+        {
+          "letter": "C",
+          "text": "This plant is red."
+        },
+        {
+          "letter": "D",
+          "text": "All flowers are roses."
+        },
+        {
+          "letter": "E",
+          "text": "Only roses need water."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Rose → Flower → Needs water. This plant is a rose, so it is a flower, so it needs water. Transitive chain.",
+      "hints": [
+        "Follow the chain: rose → flower → needs water.",
+        "Apply transitivity.",
+        "The plant is a rose."
+      ]
+    },
+    {
+      "id": "dlas_exp_7",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "easy",
+      "question_text": "Rule: No birds are reptiles. Fact: A parrot is a bird. What can we conclude about the parrot?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The parrot is a reptile."
+        },
+        {
+          "letter": "B",
+          "text": "The parrot is not a reptile."
+        },
+        {
+          "letter": "C",
+          "text": "The parrot can fly."
+        },
+        {
+          "letter": "D",
+          "text": "We cannot determine anything."
+        },
+        {
+          "letter": "E",
+          "text": "Some reptiles are parrots."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "No birds are reptiles. A parrot is a bird. Therefore a parrot is not a reptile. Direct application of universal negative.",
+      "hints": [
+        "No birds are reptiles - this is absolute.",
+        "A parrot is a bird.",
+        "Apply the universal rule."
+      ]
+    },
+    {
+      "id": "dlas_exp_8",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "hard",
+      "question_text": "Rule: Either the project is approved or the budget is cut, but not both. The budget was NOT cut. What follows?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The project was not approved."
+        },
+        {
+          "letter": "B",
+          "text": "The project was approved."
+        },
+        {
+          "letter": "C",
+          "text": "Both happened."
+        },
+        {
+          "letter": "D",
+          "text": "Neither happened."
+        },
+        {
+          "letter": "E",
+          "text": "Cannot be determined."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "XOR: exactly one must be true. Budget NOT cut (one is false), so project approved (the other must be true).",
+      "hints": [
+        "This is an exclusive OR.",
+        "Exactly one statement must be true.",
+        "If budget was NOT cut..."
+      ]
+    },
+    {
+      "id": "dlas_exp_9",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "medium",
+      "question_text": "Premise 1: Some doctors are researchers. Premise 2: All researchers publish papers. What can we conclude?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "All doctors publish papers."
+        },
+        {
+          "letter": "B",
+          "text": "Some doctors publish papers."
+        },
+        {
+          "letter": "C",
+          "text": "No doctors publish papers."
+        },
+        {
+          "letter": "D",
+          "text": "All people who publish papers are doctors."
+        },
+        {
+          "letter": "E",
+          "text": "Nothing can be concluded."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Some doctors are researchers. All researchers publish papers. So those doctors who are researchers publish papers. Therefore, some doctors publish papers.",
+      "hints": [
+        "Some doctors = researchers.",
+        "All researchers publish.",
+        "What about those doctor-researchers?"
+      ]
+    },
+    {
+      "id": "dlas_exp_10",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "easy",
+      "question_text": "Rule: Only adults can vote. Fact: Alex voted. What must be true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alex is a child."
+        },
+        {
+          "letter": "B",
+          "text": "Alex is an adult."
+        },
+        {
+          "letter": "C",
+          "text": "All adults voted."
+        },
+        {
+          "letter": "D",
+          "text": "Alex may or may not be an adult."
+        },
+        {
+          "letter": "E",
+          "text": "Voting is optional for adults."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "'Only adults can vote' means voting → adult. Alex voted, so Alex is an adult.",
+      "hints": [
+        "'Only X can Y' means Y→X.",
+        "Alex did Y (voted).",
+        "Therefore Alex is X (adult)."
+      ]
+    },
+    {
+      "id": "dlas_exp_11",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "hard",
+      "question_text": "Premise 1: If a country has free elections, it is a democracy. Premise 2: Country Z does not have free elections. What can we conclude?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Country Z is not a democracy."
+        },
+        {
+          "letter": "B",
+          "text": "Country Z is a dictatorship."
+        },
+        {
+          "letter": "C",
+          "text": "We cannot conclude whether Z is a democracy."
+        },
+        {
+          "letter": "D",
+          "text": "Country Z might still be a democracy."
+        },
+        {
+          "letter": "E",
+          "text": "C and D are both valid."
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Free elections → democracy. Not having free elections does NOT prove it's not a democracy (denying the antecedent fallacy). A country could be a democracy through other means. So we genuinely cannot conclude, and Z might still be a democracy.",
+      "hints": [
+        "Denying the antecedent is a fallacy.",
+        "Not A does NOT prove Not B.",
+        "A→B but ¬A tells us nothing about B."
+      ]
+    },
+    {
+      "id": "dlas_exp_12",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "medium",
+      "question_text": "Premise 1: All members of Club X pay dues. Premise 2: Jenny does not pay dues. Premise 3: Jenny attends Club X events. What must be true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jenny is a member of Club X."
+        },
+        {
+          "letter": "B",
+          "text": "Jenny is not a member of Club X."
+        },
+        {
+          "letter": "C",
+          "text": "Jenny is a guest at events."
+        },
+        {
+          "letter": "D",
+          "text": "Jenny pays dues secretly."
+        },
+        {
+          "letter": "E",
+          "text": "Club X doesn't enforce its rules."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "All members pay dues (contrapositive: not pay → not member). Jenny doesn't pay, so Jenny is not a member. Attending events is irrelevant to membership status.",
+      "hints": [
+        "Contrapositive: not paying → not a member.",
+        "Jenny doesn't pay dues.",
+        "Attending events is separate from membership."
+      ]
+    },
+    {
+      "id": "dlas_exp_13",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "hard",
+      "question_text": "Rule 1: If the sensor detects motion, the light turns on. Rule 2: If the light turns on, the camera starts recording. Rule 3: The camera is NOT recording. Which statements MUST be true?\nI. The light is off.\nII. The sensor did not detect motion.\nIII. There is no one in the room.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I only"
+        },
+        {
+          "letter": "B",
+          "text": "I and II only"
+        },
+        {
+          "letter": "C",
+          "text": "I, II, and III"
+        },
+        {
+          "letter": "D",
+          "text": "II only"
+        },
+        {
+          "letter": "E",
+          "text": "None of the above"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Camera NOT recording → light NOT on (contrapositive R2) → sensor NOT detect motion (contrapositive R1). So I and II are true. III cannot be concluded because people could be still (no motion detected).",
+      "hints": [
+        "Apply contrapositive chain backwards.",
+        "NOT recording → NOT light → NOT motion.",
+        "Does no motion mean no one is there?"
+      ]
+    },
+    {
+      "id": "dlas_exp_14",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "easy",
+      "question_text": "Premise: All even numbers are divisible by 2. The number 7 is not divisible by 2. What can we conclude?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "7 is even."
+        },
+        {
+          "letter": "B",
+          "text": "7 is not even."
+        },
+        {
+          "letter": "C",
+          "text": "7 is prime."
+        },
+        {
+          "letter": "D",
+          "text": "All odd numbers are 7."
+        },
+        {
+          "letter": "E",
+          "text": "Nothing can be concluded."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Even → divisible by 2. Not divisible by 2 → not even. 7 is not divisible by 2, so 7 is not even.",
+      "hints": [
+        "Apply the contrapositive.",
+        "Not divisible by 2 means not even.",
+        "This is straightforward."
+      ]
+    },
+    {
+      "id": "dlas_exp_15",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "medium",
+      "question_text": "Premise 1: No vegetarians eat meat. Premise 2: Some athletes are vegetarians. What can we conclude?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "All athletes are vegetarians."
+        },
+        {
+          "letter": "B",
+          "text": "Some athletes do not eat meat."
+        },
+        {
+          "letter": "C",
+          "text": "No athletes eat meat."
+        },
+        {
+          "letter": "D",
+          "text": "Some vegetarians are not athletes."
+        },
+        {
+          "letter": "E",
+          "text": "Nothing can be concluded."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Some athletes are vegetarians. No vegetarians eat meat. Those athletes who are vegetarians don't eat meat. Therefore, some athletes do not eat meat.",
+      "hints": [
+        "Some athletes = vegetarians.",
+        "Vegetarians don't eat meat.",
+        "What about those athlete-vegetarians?"
+      ]
+    },
+    {
+      "id": "dlas_exp_16",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "hard",
+      "question_text": "Statement: 'All that glitters is not gold.' Which interpretation is logically correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nothing that glitters is gold."
+        },
+        {
+          "letter": "B",
+          "text": "Some things that glitter are not gold."
+        },
+        {
+          "letter": "C",
+          "text": "Gold never glitters."
+        },
+        {
+          "letter": "D",
+          "text": "Only gold glitters."
+        },
+        {
+          "letter": "E",
+          "text": "Everything that glitters is gold."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The statement means 'Not everything that glitters is gold,' i.e., some glittering things are NOT gold. It does NOT mean nothing glittering is gold.",
+      "hints": [
+        "Parse the negation carefully.",
+        "'All X is not Y' typically means 'not all X is Y'.",
+        "Some X may still be Y."
+      ]
+    },
+    {
+      "id": "dlas_exp_17",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "medium",
+      "question_text": "Rule: Exactly one of the following is true: A or B. We know A is false. What can we conclude?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "B is true."
+        },
+        {
+          "letter": "B",
+          "text": "B is false."
+        },
+        {
+          "letter": "C",
+          "text": "Both are false."
+        },
+        {
+          "letter": "D",
+          "text": "Cannot determine B."
+        },
+        {
+          "letter": "E",
+          "text": "Both could be true."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Exactly one of A,B is true. A is false. Therefore B must be true.",
+      "hints": [
+        "Exactly one must be true.",
+        "A is false.",
+        "What must B be?"
+      ]
+    },
+    {
+      "id": "dlas_exp_18",
+      "subject": "Logical Reasoning",
+      "topic": "Deductive Logic and Syllogisms",
+      "difficulty": "easy",
+      "question_text": "Rule: If you are a student, you must have an ID card. Fact: Lisa has an ID card. Is Lisa a student?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes, definitely."
+        },
+        {
+          "letter": "B",
+          "text": "No, definitely not."
+        },
+        {
+          "letter": "C",
+          "text": "Cannot be determined from the given information."
+        },
+        {
+          "letter": "D",
+          "text": "Yes, because all ID holders are students."
+        },
+        {
+          "letter": "E",
+          "text": "No, because ID cards are for employees."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Student → ID card. Having an ID card doesn't prove being a student (converse fallacy). Non-students might also have ID cards.",
+      "hints": [
+        "The rule goes one way: student → ID.",
+        "Having ID doesn't prove studenthood.",
+        "This is the converse fallacy."
+      ]
     }
   ],
   "worked_examples": [

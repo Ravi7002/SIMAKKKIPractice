@@ -66,6 +66,7 @@ for fp in glob.glob('PracticeQuestions/**/*.json', recursive=True):
                 practice_pools[key].append(q)
 
 used_q_ids = set()
+used_q_texts = set()
 
 for i in range(1, 5): 
     raw_base = copy.deepcopy(bases[i % 2])
@@ -77,7 +78,7 @@ for i in range(1, 5):
         s_key = item.get('subject', '').lower().strip()
         t_key = item.get('topic', '').lower().strip()
         pool = practice_pools.get((s_key, t_key), [])
-        avail = [q for q in pool if q.get('id') not in used_q_ids]
+        avail = [q for q in pool if q.get('id') not in used_q_ids and q.get('question_text', '')[:80] not in used_q_texts]
         
         # If pool is empty or missing, try fuzzy topic matching within the subject
         if not avail:
@@ -85,11 +86,12 @@ for i in range(1, 5):
             for (ps, pt), qs in practice_pools.items():
                 if ps == s_key:
                     fallback_pool.extend(qs)
-            avail = [q for q in fallback_pool if q.get('id') not in used_q_ids]
+            avail = [q for q in fallback_pool if q.get('id') not in used_q_ids and q.get('question_text', '')[:80] not in used_q_texts]
             
         if avail:
             rep_q = copy.deepcopy(random.choice(avail))
             used_q_ids.add(rep_q.get('id'))
+            used_q_texts.add(rep_q.get('question_text', '')[:80])
             rep_q['id'] = f"{item.get('id', rep_q.get('id'))}_gen_{item_id_suffix}"
             if 'hints' not in rep_q:
                 rep_q['hints'] = generate_hints(rep_q)
@@ -106,12 +108,12 @@ for i in range(1, 5):
             pmap = {p['id']: p['text'] for p in item['passages']}
             for q in item['questions']:
                 if str(q.get('subject','')).lower() == 'english': continue
-                # We won't sample passage-dependent ones generically yet, keep original
-                # but we will assign ID
-                if q.get('passage_id') and not q.get('passage'): q['passage'] = pmap.get(q['passage_id'])
-                q['id'] = f"{q.get('id')}_gen_{i}"
-                if 'hints' not in q: q['hints'] = generate_hints(q)
-                non_english.append(q)
+                # Apply passage text so process_item_for_tryout has it if fallback occurs
+                q_with_passage = copy.deepcopy(q)
+                if q_with_passage.get('passage_id') and not q_with_passage.get('passage'): 
+                    q_with_passage['passage'] = pmap.get(q_with_passage['passage_id'])
+                # Sample a replacement question dynamically based on subject/topic
+                non_english.append(process_item_for_tryout(q_with_passage, i))
         elif isinstance(item, dict) and str(item.get('subject','')).lower() != 'english':
             # This is a standalone non-english question! Let's substitute it!
             non_english.append(process_item_for_tryout(item, i))

@@ -891,6 +891,181 @@
         "Difference of squares: (3x - 4)(3x + 4) = 9x² - 16.",
         "If x=1, it is 9 - 16 = -7."
       ]
+    },
+    {
+      "id": "am_exp_1",
+      "subject": "Quantitative Reasoning",
+      "topic": "Algebraic Manipulation",
+      "difficulty": "medium",
+      "question_text": "If x + y = 10 and xy = 21, find the value of x^2 + y^2.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "58"
+        },
+        {
+          "letter": "B",
+          "text": "52"
+        },
+        {
+          "letter": "C",
+          "text": "48"
+        },
+        {
+          "letter": "D",
+          "text": "42"
+        },
+        {
+          "letter": "E",
+          "text": "100"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "(x+y)^2 = x^2 + 2xy + y^2. So x^2+y^2 = (x+y)^2 - 2xy = 100 - 42 = 58.",
+      "hints": [
+        "Use (x+y)^2 = x^2 + 2xy + y^2.",
+        "Substitute known values."
+      ]
+    },
+    {
+      "id": "am_exp_2",
+      "subject": "Quantitative Reasoning",
+      "topic": "Algebraic Manipulation",
+      "difficulty": "hard",
+      "question_text": "Simplify: (2^50 + 2^48) / (2^49 + 2^47)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2"
+        },
+        {
+          "letter": "B",
+          "text": "4"
+        },
+        {
+          "letter": "C",
+          "text": "1"
+        },
+        {
+          "letter": "D",
+          "text": "8"
+        },
+        {
+          "letter": "E",
+          "text": "3"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Factor 2^48 from numerator: 2^48(2^2 + 1) = 2^48 * 5. Factor 2^47 from denominator: 2^47(2^2 + 1) = 2^47 * 5. Result: 2^48/2^47 = 2.",
+      "hints": [
+        "Factor out the lowest power.",
+        "Cancel common factors."
+      ]
+    },
+    {
+      "id": "am_exp_3",
+      "subject": "Quantitative Reasoning",
+      "topic": "Algebraic Manipulation",
+      "difficulty": "medium",
+      "question_text": "If a - b = 5 and a^2 - b^2 = 35, find a + b.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5"
+        },
+        {
+          "letter": "B",
+          "text": "7"
+        },
+        {
+          "letter": "C",
+          "text": "10"
+        },
+        {
+          "letter": "D",
+          "text": "12"
+        },
+        {
+          "letter": "E",
+          "text": "6"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "a^2 - b^2 = (a-b)(a+b). So 35 = 5(a+b). Therefore a+b = 7.",
+      "hints": [
+        "Use difference of squares.",
+        "a^2-b^2 = (a-b)(a+b)."
+      ]
+    },
+    {
+      "id": "am_exp_4",
+      "subject": "Quantitative Reasoning",
+      "topic": "Algebraic Manipulation",
+      "difficulty": "easy",
+      "question_text": "Simplify: (x^3 - 8) / (x - 2)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "x^2 + 2x + 4"
+        },
+        {
+          "letter": "B",
+          "text": "x^2 - 4"
+        },
+        {
+          "letter": "C",
+          "text": "x^2 + 4"
+        },
+        {
+          "letter": "D",
+          "text": "x^2 - 2x + 4"
+        },
+        {
+          "letter": "E",
+          "text": "(x-2)^2"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Difference of cubes: a^3 - b^3 = (a-b)(a^2+ab+b^2). x^3-8 = (x-2)(x^2+2x+4). Cancel (x-2).",
+      "hints": [
+        "Use difference of cubes formula.",
+        "a^3-b^3 = (a-b)(a^2+ab+b^2)."
+      ]
+    },
+    {
+      "id": "am_exp_5",
+      "subject": "Quantitative Reasoning",
+      "topic": "Algebraic Manipulation",
+      "difficulty": "hard",
+      "question_text": "If x + 1/x = 4, find the value of x^2 + 1/x^2.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "16"
+        },
+        {
+          "letter": "B",
+          "text": "14"
+        },
+        {
+          "letter": "C",
+          "text": "12"
+        },
+        {
+          "letter": "D",
+          "text": "18"
+        },
+        {
+          "letter": "E",
+          "text": "8"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Square both sides: (x+1/x)^2 = x^2 + 2 + 1/x^2. So 16 = x^2 + 1/x^2 + 2. Therefore x^2 + 1/x^2 = 14.",
+      "hints": [
+        "Square x + 1/x.",
+        "(x+1/x)^2 = x^2 + 2 + 1/x^2."
+      ]
     }
   ],
   "worked_examples": [

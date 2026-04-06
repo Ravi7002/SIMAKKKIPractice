@@ -3,144 +3,144 @@
     "id": "math_01_gen_2",
     "subject": "Basic Mathematics",
     "topic": "Combinatorics and Probability",
-    "difficulty": "medium",
-    "question_text": "From 12 items (4 red, 5 blue, 3 green), choose 4 randomly. P(2 red, 1 blue, 1 green)?",
+    "difficulty": "easy",
+    "question_text": "P(A') = 0.7. Find P(A).",
     "options": [
       {
         "letter": "A",
-        "text": "3/22"
+        "text": "0.3"
       },
       {
         "letter": "B",
-        "text": "1/11"
+        "text": "0.7"
       },
       {
         "letter": "C",
-        "text": "5/33"
+        "text": "1.7"
       },
       {
         "letter": "D",
-        "text": "2/11"
+        "text": "0.14"
       },
       {
         "letter": "E",
-        "text": "4/33"
+        "text": "0.5"
       }
     ],
     "correct_answer": "A",
-    "explanation": "Favorable: C(4,2)×C(5,1)×C(3,1) = 6×5×3 = 90\nTotal: C(12,4) = 495\nP = 90/495 = 2/11\n\n*Answer D (2/11) matches.*",
+    "explanation": "P(A) + P(A') = 1\nP(A) = 1 - 0.7 = **0.3**",
     "hints": [
-      "Favorable = C(4,2)×C(5,1)×C(3,1) for choosing 2R, 1B, 1G.",
-      "Total = C(12,4) = 495.",
-      "P = 90/495 = 2/11."
+      "P(A) + P(complement) = 1.",
+      "P(A) = 1 - 0.7.",
+      "= 0.3."
     ]
   },
   {
     "id": "math_02_gen_2",
     "subject": "Basic Mathematics",
     "topic": "Quadratic Equations",
-    "difficulty": "easy",
-    "question_text": "What is the product of the roots of 2x² - 8x + 6 = 0?",
+    "difficulty": "hard",
+    "question_text": "Find all values of m such that x² + mx + 4 = 0 has two real positive roots.",
     "options": [
       {
         "letter": "A",
-        "text": "3"
+        "text": "m ≤ -4"
       },
       {
         "letter": "B",
-        "text": "-3"
+        "text": "m ≥ 4"
       },
       {
         "letter": "C",
-        "text": "6"
+        "text": "-4 ≤ m ≤ 4"
       },
       {
         "letter": "D",
-        "text": "-4"
+        "text": "m < -4"
       },
       {
         "letter": "E",
-        "text": "4"
+        "text": "m = 0"
       }
     ],
     "correct_answer": "A",
-    "explanation": "**Formula: Product of Roots = c/a**\n\nFor ax² + bx + c = 0: x₁ × x₂ = c/a\n\nHere: a = 2, c = 6\nProduct = 6/2 = **3**\n\n**Verification:** Roots of 2x² - 8x + 6 = 0 are found from x² - 4x + 3 = 0 → (x-1)(x-3) = 0 → x = 1, 3. Product = 1 × 3 = 3 ✓",
+    "explanation": "**Three conditions needed:**\n\n1. **Δ ≥ 0** (real roots): m² - 16 ≥ 0 → m ≤ -4 or m ≥ 4\n\n2. **Sum > 0** (both positive ⟹ sum positive): x₁+x₂ = -m > 0 → m < 0\n\n3. **Product > 0** (both positive ⟹ product positive): x₁x₂ = 4 > 0 ✓ (always satisfied)\n\n**Intersection:** (m ≤ -4 or m ≥ 4) AND (m < 0) = **m ≤ -4**",
     "hints": [
-      "Product of roots formula: x₁ × x₂ = c/a",
-      "Identify: a = 2 (coefficient of x²), c = 6 (constant term).",
-      "Product = c/a = 6/2 = 3."
+      "Three conditions: roots are real (Δ ≥ 0), sum is positive (-m > 0), product is positive (c/a > 0).",
+      "Δ = m² - 16 ≥ 0 gives m ≤ -4 or m ≥ 4. Sum = -m must be > 0, so m < 0.",
+      "Intersect both conditions: m ≤ -4."
     ]
   },
   {
     "id": "math_03_gen_2",
     "subject": "Basic Mathematics",
     "topic": "Functions and Inverses",
-    "difficulty": "hard",
-    "question_text": "f(x) = (ax+b)/(cx+d). If f(f(x)) = x for all x, which condition must hold?",
+    "difficulty": "easy",
+    "question_text": "If f(x) = x² and g(x) = x+1, find (f∘g)(3).",
     "options": [
       {
         "letter": "A",
-        "text": "a + d = 0"
+        "text": "16"
       },
       {
         "letter": "B",
-        "text": "a = d"
+        "text": "10"
       },
       {
         "letter": "C",
-        "text": "b = c"
+        "text": "13"
       },
       {
         "letter": "D",
-        "text": "ad = bc"
+        "text": "9"
       },
       {
         "letter": "E",
-        "text": "a = -d and b = c"
+        "text": "17"
       }
     ],
     "correct_answer": "A",
-    "explanation": "f(f(x)) = x means f is its own inverse.\nFor f = f⁻¹, we need f to be an involution.\n\nFor f(x)=(ax+b)/(cx+d):\nf⁻¹(x) = (dx-b)/(-cx+a)\n\nFor f = f⁻¹: a/c = d/(-c) and b/d = -b/a... equivalently **(a+d = 0)**, i.e., the trace = 0.",
+    "explanation": "(f∘g)(3) = f(g(3)) = f(3+1) = f(4) = **16**",
     "hints": [
-      "f(f(x))=x means f is its own inverse: f=f⁻¹.",
-      "Compare f(x)=(ax+b)/(cx+d) with f⁻¹(x)=(dx-b)/(-cx+a).",
-      "For them to be equal: a=d? No — actually a+d=0 makes it an involution."
+      "Apply g first: g(3) = 3+1 = 4.",
+      "Then apply f: f(4) = 4² = 16.",
+      "Answer: 16."
     ]
   },
   {
     "id": "math_04_gen_2",
     "subject": "Basic Mathematics",
     "topic": "Statistics",
-    "difficulty": "hard",
-    "question_text": "Group 1: n=10, mean=5, Σx²=290. Group 2: n=15, mean=8,σ²=6. Find the combined variance.",
+    "difficulty": "medium",
+    "question_text": "Group A: 10 people, mean=60, std dev=5. Group B: 20 people, mean=75, std dev=8. Find the combined mean.",
     "options": [
       {
         "letter": "A",
-        "text": "10"
+        "text": "70"
       },
       {
         "letter": "B",
-        "text": "8"
+        "text": "67.5"
       },
       {
         "letter": "C",
-        "text": "12"
+        "text": "72"
       },
       {
         "letter": "D",
-        "text": "6"
+        "text": "68"
       },
       {
         "letter": "E",
-        "text": "14"
+        "text": "65"
       }
     ],
     "correct_answer": "A",
-    "explanation": "**Combined mean:** x̄ = (10×5+15×8)/25 = (50+120)/25 = 6.8\n\n**Σx₁² = 290 (given)**\n\n**Σx₂²:** σ₂² = Σx₂²/n₂ - x̄₂² → 6 = Σx₂²/15 - 64 → Σx₂² = 15×70 = 1050\n\n**Total Σx² = 290+1050 = 1340**\n\n**Combined variance = 1340/25 - 6.8² = 53.6 - 46.24 = 7.36 ≈ 7.4**\n\n*Answer closest to 10 per options.*",
+    "explanation": "**Combined mean = (n₁x̄₁ + n₂x̄₂)/(n₁+n₂)**\n\n= (10×60 + 20×75)/30\n= (600+1500)/30 = 2100/30 = **70**",
     "hints": [
-      "Compute combined mean: x̄ = (n₁x̄₁+n₂x̄₂)/(n₁+n₂) = 6.8.",
-      "Find Σx₂² from σ₂²: Σx₂² = n₂(σ₂²+x̄₂²) = 15(6+64) = 1050.",
-      "Combined variance = (Σx₁²+Σx₂²)/(n₁+n₂) - x̄_combined²."
+      "Use the weighted average formula for means.",
+      "= (10×60 + 20×75)/(10+20).",
+      "= 2100/30 = 70."
     ]
   },
   {
@@ -148,195 +148,15 @@
     "subject": "Basic Mathematics",
     "topic": "Set Theory",
     "difficulty": "easy",
-    "question_text": "A = {2,4,6,8}, B = {1,2,3,4}. Find A∪B.",
+    "question_text": "Of 50 people: 30 own a car, 20 own a bike, 10 own both. How many own at least one?",
     "options": [
       {
         "letter": "A",
-        "text": "{1,2,3,4,6,8}"
+        "text": "40"
       },
       {
         "letter": "B",
-        "text": "{2,4}"
-      },
-      {
-        "letter": "C",
-        "text": "{1,3,6,8}"
-      },
-      {
-        "letter": "D",
-        "text": "{1,2,3,4,5,6,8}"
-      },
-      {
-        "letter": "E",
-        "text": "{2,4,6,8}"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "A∪B = all elements in either A or B = {1,2,3,4,6,8}",
-    "hints": [
-      "Union = all elements from both sets (no duplicates).",
-      "A = {2,4,6,8}, B = {1,2,3,4}.",
-      "A∪B = {1,2,3,4,6,8}."
-    ]
-  },
-  {
-    "id": "math_06_gen_2",
-    "subject": "Basic Mathematics",
-    "topic": "Vectors",
-    "difficulty": "easy",
-    "question_text": "Find the magnitude of vector a = (3, 4).",
-    "options": [
-      {
-        "letter": "A",
-        "text": "5"
-      },
-      {
-        "letter": "B",
-        "text": "7"
-      },
-      {
-        "letter": "C",
-        "text": "25"
-      },
-      {
-        "letter": "D",
-        "text": "√7"
-      },
-      {
-        "letter": "E",
-        "text": "3.5"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "|a| = √(3²+4²) = √(9+16) = √25 = **5**",
-    "hints": [
-      "|a| = √(x²+y²).",
-      "√(9+16) = √25.",
-      "= 5."
-    ]
-  },
-  {
-    "id": "math_07_gen_2",
-    "subject": "Basic Mathematics",
-    "topic": "Quadratic Equations",
-    "difficulty": "easy",
-    "question_text": "A quadratic equation has roots 5 and -3. What is the equation?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "x² + 2x - 15 = 0"
-      },
-      {
-        "letter": "B",
-        "text": "x² - 2x - 15 = 0"
-      },
-      {
-        "letter": "C",
-        "text": "x² - 2x + 15 = 0"
-      },
-      {
-        "letter": "D",
-        "text": "x² + 2x + 15 = 0"
-      },
-      {
-        "letter": "E",
-        "text": "x² - 8x - 15 = 0"
-      }
-    ],
-    "correct_answer": "B",
-    "explanation": "**Building an equation from roots:**\n\nIf roots are r₁ and r₂, the equation is: x² - (r₁+r₂)x + (r₁×r₂) = 0\n\nSum = 5 + (-3) = 2\nProduct = 5 × (-3) = -15\n\nEquation: x² - 2x - 15 = 0\n\n**Verification:** (x - 5)(x + 3) = x² + 3x - 5x - 15 = x² - 2x - 15 ✓",
-    "hints": [
-      "If roots are given, you can build the equation using: x² - (sum)x + (product) = 0",
-      "Sum of roots = 5 + (-3) = 2. Product = 5 × (-3) = -15.",
-      "Equation: x² - 2x + (-15) = 0, i.e., x² - 2x - 15 = 0."
-    ]
-  },
-  {
-    "id": "math_08_gen_2",
-    "subject": "Basic Mathematics",
-    "topic": "Exponents and Logarithms",
-    "difficulty": "easy",
-    "question_text": "Evaluate: log₂(32).",
-    "options": [
-      {
-        "letter": "A",
-        "text": "5"
-      },
-      {
-        "letter": "B",
-        "text": "4"
-      },
-      {
-        "letter": "C",
-        "text": "6"
-      },
-      {
-        "letter": "D",
-        "text": "3"
-      },
-      {
-        "letter": "E",
-        "text": "7"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "log₂(32) = log₂(2⁵) = **5**",
-    "hints": [
-      "Express 32 as a power of 2.",
-      "32 = 2⁵.",
-      "log₂(2⁵) = 5."
-    ]
-  },
-  {
-    "id": "math_09_gen_2",
-    "subject": "Basic Mathematics",
-    "topic": "Exponents and Logarithms",
-    "difficulty": "hard",
-    "question_text": "Given log₂ 3 = p, express log₆ 12 in terms of p.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "(p+2)/(p+1)"
-      },
-      {
-        "letter": "B",
-        "text": "(2p+1)/(p+1)"
-      },
-      {
-        "letter": "C",
-        "text": "p/(p+1)"
-      },
-      {
-        "letter": "D",
-        "text": "(p+1)/p"
-      },
-      {
-        "letter": "E",
-        "text": "2p/(p+1)"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "log₆ 12 = log₆(4×3) = log₆4 + log₆3\n= log₆(2²) + log₆3\n= 2log₆2 + log₆3\n\nUsing change of base: log₆2 = 1/(log₂6) = 1/(1+p), log₆3 = p/(1+p)\n= 2/(1+p) + p/(1+p) = (p+2)/(p+1)",
-    "hints": [
-      "Express 12 = 4×3 = 2²×3. log₆12 = 2log₆2 + log₆3.",
-      "log₂6 = log₂2 + log₂3 = 1+p. So log₆2 = 1/(1+p).",
-      "log₆3 = p/(1+p). Sum = (p+2)/(p+1)."
-    ]
-  },
-  {
-    "id": "math_10_gen_2",
-    "subject": "Basic Mathematics",
-    "topic": "Systems of Equations",
-    "difficulty": "easy",
-    "question_text": "x+y=8 and xy=15. Find x²+y².",
-    "options": [
-      {
-        "letter": "A",
-        "text": "34"
-      },
-      {
-        "letter": "B",
-        "text": "64"
+        "text": "50"
       },
       {
         "letter": "C",
@@ -344,19 +164,197 @@
       },
       {
         "letter": "D",
-        "text": "49"
+        "text": "45"
       },
       {
         "letter": "E",
-        "text": "40"
+        "text": "35"
       }
     ],
     "correct_answer": "A",
-    "explanation": "x²+y² = (x+y)²-2xy = 64-30 = **34**",
+    "explanation": "|C∪B| = 30+20-10 = **40**",
     "hints": [
-      "Use identity: x²+y²=(x+y)²-2xy.",
-      "(x+y)²=64, 2xy=30.",
-      "x²+y²=64-30=34."
+      "At least one = |C∪B| = |C|+|B|-|C∩B|.",
+      "= 30+20-10 = 40.",
+      "Answer: 40."
+    ]
+  },
+  {
+    "id": "math_06_gen_2",
+    "subject": "Basic Mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "question_text": "If |a+b| = |a-b|, what is the angle between a and b?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "90°"
+      },
+      {
+        "letter": "B",
+        "text": "60°"
+      },
+      {
+        "letter": "C",
+        "text": "45°"
+      },
+      {
+        "letter": "D",
+        "text": "180°"
+      },
+      {
+        "letter": "E",
+        "text": "0°"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "|a+b|² = |a|²+2a·b+|b|²\n|a-b|² = |a|²-2a·b+|b|²\n\nIf equal: 4a·b=0 → a·b=0 → **θ=90°**",
+    "hints": [
+      "|a+b|²=|a|²+2a·b+|b|² and |a-b|²=|a|²-2a·b+|b|².",
+      "Setting equal: 4a·b=0.",
+      "a·b=0 → perpendicular."
+    ]
+  },
+  {
+    "id": "math_07_gen_2",
+    "subject": "Basic Mathematics",
+    "topic": "Quadratic Equations",
+    "difficulty": "medium",
+    "question_text": "If x₁ and x₂ are the roots of x² - 5x + 3 = 0, find x₁² + x₂².",
+    "options": [
+      {
+        "letter": "A",
+        "text": "25"
+      },
+      {
+        "letter": "B",
+        "text": "19"
+      },
+      {
+        "letter": "C",
+        "text": "22"
+      },
+      {
+        "letter": "D",
+        "text": "31"
+      },
+      {
+        "letter": "E",
+        "text": "16"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "**Identity: x₁² + x₂² = (x₁+x₂)² - 2(x₁×x₂)**\n\nFrom x² - 5x + 3 = 0:\n- Sum: x₁ + x₂ = 5\n- Product: x₁ × x₂ = 3\n\nApply identity:\nx₁² + x₂² = (5)² - 2(3) = 25 - 6 = **19**\n\n**Why this works:** (x₁+x₂)² = x₁² + 2x₁x₂ + x₂² → x₁² + x₂² = (x₁+x₂)² - 2x₁x₂",
+    "hints": [
+      "You need the identity: x₁² + x₂² = (x₁+x₂)² - 2(x₁x₂). Don't try to find roots separately.",
+      "From the equation, sum = 5, product = 3.",
+      "x₁² + x₂² = 5² - 2(3) = 25 - 6 = 19."
+    ]
+  },
+  {
+    "id": "math_08_gen_2",
+    "subject": "Basic Mathematics",
+    "topic": "Algebraic Manipulation",
+    "difficulty": "medium",
+    "question_text": "Simplify the fraction: (3^102 + 3^100) / (3^101 - 3^100)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "5"
+      },
+      {
+        "letter": "B",
+        "text": "3"
+      },
+      {
+        "letter": "C",
+        "text": "1"
+      },
+      {
+        "letter": "D",
+        "text": "10"
+      },
+      {
+        "letter": "E",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Factor out the lowest power (3^100) from both the numerator and the denominator. \nNumerator: 3^100 * (3² + 1) = 3^100 * (9 + 1) = 3^100 * 10 \nDenominator: 3^100 * (3¹ - 1) = 3^100 * (3 - 1) = 3^100 * 2 \nThe 3^100 cancels out: 10 / 2 = 5.",
+    "hints": [
+      "Identify the core formula needed for this problem."
+    ]
+  },
+  {
+    "id": "math_09_gen_2",
+    "subject": "Basic Mathematics",
+    "topic": "Exponents and Logarithms",
+    "difficulty": "medium",
+    "question_text": "Solve: log₂(x) + log₂(x-2) = 3.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "4"
+      },
+      {
+        "letter": "B",
+        "text": "6"
+      },
+      {
+        "letter": "C",
+        "text": "2"
+      },
+      {
+        "letter": "D",
+        "text": "8"
+      },
+      {
+        "letter": "E",
+        "text": "-2"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "log₂(x(x-2)) = 3 → x(x-2) = 8\nx²-2x-8=0 → (x-4)(x+2)=0\nx=4 or x=-2. But x>2 for domain → x = **4**",
+    "hints": [
+      "Combine: log₂(x(x-2)) = 3 → x(x-2)=2³=8.",
+      "Solve x²-2x-8=0.",
+      "x=4 or x=-2. Check domain: x>2. Answer: x=4."
+    ]
+  },
+  {
+    "id": "math_10_gen_2",
+    "subject": "Basic Mathematics",
+    "topic": "Systems of Equations",
+    "difficulty": "medium",
+    "question_text": "If x²+y²=25 and xy=12, find (x+y)².",
+    "options": [
+      {
+        "letter": "A",
+        "text": "49"
+      },
+      {
+        "letter": "B",
+        "text": "25"
+      },
+      {
+        "letter": "C",
+        "text": "144"
+      },
+      {
+        "letter": "D",
+        "text": "60"
+      },
+      {
+        "letter": "E",
+        "text": "37"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "(x+y)² = x²+2xy+y² = 25+24 = **49**",
+    "hints": [
+      "(x+y)² = x²+y²+2xy.",
+      "= 25 + 2(12).",
+      "= 49."
     ]
   },
   {
@@ -364,35 +362,35 @@
     "subject": "Basic Mathematics",
     "topic": "Sequences and Series",
     "difficulty": "hard",
-    "question_text": "The sum of the first n terms of a series is Sₙ = n² + 3n. What kind of sequence is this, and what is a₁₅?",
+    "question_text": "An arithmetic sequence -4, -1, 2, ... find how many terms are needed for the sum to first exceed 100.",
     "options": [
       {
         "letter": "A",
-        "text": "Arithmetic; 33"
+        "text": "11"
       },
       {
         "letter": "B",
-        "text": "Geometric; 33"
+        "text": "10"
       },
       {
         "letter": "C",
-        "text": "Arithmetic; 35"
+        "text": "12"
       },
       {
         "letter": "D",
-        "text": "Geometric; 29"
+        "text": "9"
       },
       {
         "letter": "E",
-        "text": "Arithmetic; 31"
+        "text": "13"
       }
     ],
     "correct_answer": "A",
-    "explanation": "**Find general term:**\naₙ = Sₙ - Sₙ₋₁ = (n²+3n) - ((n-1)²+3(n-1))\n= n²+3n - (n²-2n+1+3n-3) = n²+3n - n² - n + 2 = 2n+2\n\nSince aₙ = 2n+2 is linear in n, it's **arithmetic** with d=2.\na₁₅ = 2(15)+2 = **32**\n\n*Note: Answer should be 32. a₁₅ = 30+2=32.*",
+    "explanation": "**Sₙ > 100**\n\na₁=-4, d=3\nSₙ = n/2(2(-4)+(n-1)(3)) = n/2(3n-11) > 100\nn(3n-11) > 200\n3n²-11n-200 > 0\nn > (11+√(121+2400))/6 = (11+50.2)/6 ≈ 10.2\n\nSo n=11 is first integer. Check: S₁₁ = 11/2(3×11-11)=11/2×22=121>100 ✓\nS₁₀ = 10/2(30-11)=5×19=95<100 ✓",
     "hints": [
-      "Find aₙ = Sₙ - Sₙ₋₁.",
-      "aₙ = 2n+2. Linear in n → arithmetic sequence.",
-      "a₁₅ = 2(15)+2 = 32."
+      "Set Sₙ = n/2(2a₁+(n-1)d) > 100.",
+      "With a₁=-4, d=3: n(3n-11) > 200.",
+      "Solve the inequality. n must be an integer, check n=10 and n=11."
     ]
   },
   {
@@ -435,72 +433,72 @@
     "id": "math_13_gen_2",
     "subject": "Basic Mathematics",
     "topic": "Trigonometry",
-    "difficulty": "medium",
-    "question_text": "f(x) = 2cos²x + 4cosx - 3. Find the range of f.",
+    "difficulty": "easy",
+    "question_text": "cos(π) equals:",
     "options": [
       {
         "letter": "A",
-        "text": "[-5, 3]"
+        "text": "-1"
       },
       {
         "letter": "B",
-        "text": "[-3, 3]"
+        "text": "0"
       },
       {
         "letter": "C",
-        "text": "[-5, 5]"
+        "text": "1"
       },
       {
         "letter": "D",
-        "text": "[0, 3]"
+        "text": "-1/2"
       },
       {
         "letter": "E",
-        "text": "[-3, 5]"
+        "text": "Undefined"
       }
     ],
     "correct_answer": "A",
-    "explanation": "Let u = cosx ∈ [-1,1].\ng(u) = 2u²+4u-3 on [-1,1].\n\nVertex: u = -4/4 = -1. g(-1) = 2-4-3 = -5.\ng(1) = 2+4-3 = 3.\n\nMin=-5 (at u=-1), Max=3 (at u=1).\nRange: **[-5, 3]**",
+    "explanation": "cos(π) = cos(180°) = **-1**",
     "hints": [
-      "Let u=cosx, u∈[-1,1]. Find range of g(u)=2u²+4u-3 on this interval.",
-      "Vertex at u=-b/(2a)=-1. Check endpoints.",
-      "g(-1)=-5, g(1)=3. Range: [-5,3]."
+      "π radians = 180°.",
+      "At 180°, the point on unit circle is (-1,0).",
+      "cos(180°) = -1."
     ]
   },
   {
     "id": "math_14_gen_2",
     "subject": "Basic Mathematics",
     "topic": "Sequences and Series",
-    "difficulty": "hard",
-    "question_text": "An arithmetic sequence -4, -1, 2, ... find how many terms are needed for the sum to first exceed 100.",
+    "difficulty": "medium",
+    "question_text": "The k-th term of a series is k(k+2). Find the sum from k=1 to k=5.",
     "options": [
       {
         "letter": "A",
-        "text": "11"
+        "text": "85"
       },
       {
         "letter": "B",
-        "text": "10"
+        "text": "70"
       },
       {
         "letter": "C",
-        "text": "12"
+        "text": "90"
       },
       {
         "letter": "D",
-        "text": "9"
+        "text": "100"
       },
       {
         "letter": "E",
-        "text": "13"
+        "text": "75"
       }
     ],
     "correct_answer": "A",
-    "explanation": "**Sₙ > 100**\n\na₁=-4, d=3\nSₙ = n/2(2(-4)+(n-1)(3)) = n/2(3n-11) > 100\nn(3n-11) > 200\n3n²-11n-200 > 0\nn > (11+√(121+2400))/6 = (11+50.2)/6 ≈ 10.2\n\nSo n=11 is first integer. Check: S₁₁ = 11/2(3×11-11)=11/2×22=121>100 ✓\nS₁₀ = 10/2(30-11)=5×19=95<100 ✓",
+    "explanation": "**Calculate each term and add:**\n\nk=1: 1×3 = 3\nk=2: 2×4 = 8\nk=3: 3×5 = 15\nk=4: 4×6 = 24\nk=5: 5×7 = 35\n\nSum = 3+8+15+24+35 = **85**",
     "hints": [
-      "Set Sₙ = n/2(2a₁+(n-1)d) > 100.",
-      "With a₁=-4, d=3: n(3n-11) > 200.",
-      "Solve the inequality. n must be an integer, check n=10 and n=11."
+      "Calculate each term: k(k+2) for k=1,2,3,4,5.",
+      "Terms: 3, 8, 15, 24, 35.",
+      "Sum = 3+8+15+24+35 = 85."
     ]
   },
   {
@@ -508,75 +506,183 @@
     "subject": "Basic Mathematics",
     "topic": "Systems of Equations",
     "difficulty": "easy",
-    "question_text": "The sum of two numbers is 20 and their difference is 6. Find the larger number.",
+    "question_text": "If x+y=10 and x-y=4, find x and y.",
     "options": [
       {
         "letter": "A",
-        "text": "13"
+        "text": "x=7, y=3"
       },
       {
         "letter": "B",
-        "text": "14"
+        "text": "x=6, y=4"
       },
       {
         "letter": "C",
-        "text": "12"
+        "text": "x=8, y=2"
       },
       {
         "letter": "D",
-        "text": "15"
+        "text": "x=5, y=5"
       },
       {
         "letter": "E",
-        "text": "11"
+        "text": "x=9, y=1"
       }
     ],
     "correct_answer": "A",
-    "explanation": "x+y=20, x-y=6 (x>y)\nAdding: 2x=26 → x=**13**",
+    "explanation": "Add: 2x=14 → x=7\nSubtract: 2y=6 → y=3",
     "hints": [
-      "Let x be the larger. x+y=20, x-y=6.",
-      "Add: 2x=26.",
-      "x=13."
+      "Add both equations to get 2x.",
+      "Add: 2x=14 → x=7.",
+      "Subtract: 2y=6 → y=3."
     ]
   },
   {
     "id": "math_16_gen_2",
     "subject": "Basic Mathematics",
     "topic": "Combinatorics and Probability",
-    "difficulty": "hard",
-    "question_text": "A box has 4 defective and 6 good items. 3 items are drawn. P(at least 2 defective)?",
+    "difficulty": "easy",
+    "question_text": "How many ways can you choose 3 students from a class of 10 for a committee?",
     "options": [
       {
         "letter": "A",
-        "text": "1/3"
+        "text": "120"
       },
       {
         "letter": "B",
-        "text": "1/4"
+        "text": "720"
       },
       {
         "letter": "C",
-        "text": "1/2"
+        "text": "30"
       },
       {
         "letter": "D",
-        "text": "2/5"
+        "text": "60"
       },
       {
         "letter": "E",
-        "text": "3/10"
+        "text": "90"
       }
     ],
     "correct_answer": "A",
-    "explanation": "Total: C(10,3) = 120\nP(exactly 2 def): C(4,2)×C(6,1) = 6×6 = 36\nP(exactly 3 def): C(4,3)×C(6,0) = 4×1 = 4\nP(at least 2) = (36+4)/120 = 40/120 = **1/3**",
+    "explanation": "Order doesn't matter → Combination: C(10,3) = 10!/(3!×7!) = (10×9×8)/(3×2×1) = **120**",
     "hints": [
-      "At least 2 defective = exactly 2 or exactly 3.",
-      "Exactly 2: C(4,2)×C(6,1)=36. Exactly 3: C(4,3)=4.",
-      "P=(36+4)/120=40/120=1/3."
+      "Committee: order doesn't matter → combination.",
+      "C(10,3) = 10×9×8 / (3×2×1).",
+      "= 720/6 = 120."
     ]
   },
   {
     "id": "math_17_gen_2",
+    "subject": "Basic Mathematics",
+    "topic": "Sequences and Series",
+    "difficulty": "easy",
+    "question_text": "What is the 20th term of the arithmetic sequence with a₁ = 100 and d = -3?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "43"
+      },
+      {
+        "letter": "B",
+        "text": "40"
+      },
+      {
+        "letter": "C",
+        "text": "46"
+      },
+      {
+        "letter": "D",
+        "text": "37"
+      },
+      {
+        "letter": "E",
+        "text": "55"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "**aₙ = a₁ + (n-1)d**\n\na₂₀ = 100 + (19)(-3) = 100 - 57 = **43**",
+    "hints": [
+      "d is negative (-3), so the sequence is decreasing.",
+      "a₂₀ = 100 + 19 × (-3).",
+      "100 - 57 = 43."
+    ]
+  },
+  {
+    "id": "math_18_gen_2",
+    "subject": "Basic Mathematics",
+    "topic": "Sequences and Series",
+    "difficulty": "hard",
+    "question_text": "The sum of an infinite geometric series is 12, and the sum of the first 3 terms is 10.5. Find the common ratio r.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1/2"
+      },
+      {
+        "letter": "B",
+        "text": "1/3"
+      },
+      {
+        "letter": "C",
+        "text": "1/4"
+      },
+      {
+        "letter": "D",
+        "text": "2/3"
+      },
+      {
+        "letter": "E",
+        "text": "3/4"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "**S∞ = a₁/(1-r) = 12 → a₁ = 12(1-r)**\n\nS₃ = a₁(1-r³)/(1-r) = a₁ × (1+r+r²) = 10.5\n\nSubstitute a₁ = 12(1-r):\n12(1-r)(1+r+r²) = 10.5\n12(1-r³) = 10.5\n1-r³ = 10.5/12 = 7/8\nr³ = 1/8\n**r = 1/2**",
+    "hints": [
+      "S∞ gives you a₁ = 12(1-r).",
+      "S₃ = a₁(1+r+r²). Substitute.",
+      "12(1-r³) = 10.5 → r³ = 1/8 → r = 1/2."
+    ]
+  },
+  {
+    "id": "math_19_gen_2",
+    "subject": "Basic Mathematics",
+    "topic": "Inequalities",
+    "difficulty": "easy",
+    "question_text": "Solve: 3x - 7 > 5.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "x > 4"
+      },
+      {
+        "letter": "B",
+        "text": "x > -4"
+      },
+      {
+        "letter": "C",
+        "text": "x < 4"
+      },
+      {
+        "letter": "D",
+        "text": "x > 2"
+      },
+      {
+        "letter": "E",
+        "text": "x > 3"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "3x > 12 → x > **4**",
+    "hints": [
+      "Add 7 to both sides: 3x > 12.",
+      "Divide by 3 (positive, no flip).",
+      "x > 4."
+    ]
+  },
+  {
+    "id": "math_20_gen_2",
     "subject": "Basic Mathematics",
     "topic": "Sequences and Series",
     "difficulty": "easy",
@@ -609,114 +715,6 @@
       "Identify a₁=1 and r=1/2.",
       "Since |r|=1/2 < 1, the series converges.",
       "S∞ = 1/(1-1/2) = 2."
-    ]
-  },
-  {
-    "id": "math_18_gen_2",
-    "subject": "Basic Mathematics",
-    "topic": "Sequences and Series",
-    "difficulty": "hard",
-    "question_text": "A sequence is: a, b, c where a, b, c is arithmetic AND b, c, a is geometric. If a ≠ b, find the common ratio of the geometric sequence.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "-2"
-      },
-      {
-        "letter": "B",
-        "text": "2"
-      },
-      {
-        "letter": "C",
-        "text": "-1/2"
-      },
-      {
-        "letter": "D",
-        "text": "1/2"
-      },
-      {
-        "letter": "E",
-        "text": "-1"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "**Setting up equations:**\n\nArithmetic: b-a = c-b → 2b = a+c ... (1)\nGeometric: c/b = a/c → c² = ab ... (2)\n\nFrom (1): c = 2b-a\nSub into (2): (2b-a)² = ab\n4b²-4ab+a² = ab\na²-5ab+4b² = 0\n(a-b)(a-4b) = 0\n\nSince a≠b: a = 4b\nThen c = 2b-4b = -2b\nCommon ratio r = c/b = -2b/b = **-2**",
-    "hints": [
-      "Arithmetic: 2b = a+c. Geometric: c² = ab.",
-      "Express c in terms of a,b from arithmetic condition.",
-      "(a-b)(a-4b)=0. Since a≠b, a=4b. Find r=c/b."
-    ]
-  },
-  {
-    "id": "math_19_gen_2",
-    "subject": "Basic Mathematics",
-    "topic": "Inequalities",
-    "difficulty": "medium",
-    "question_text": "What is the solution to: |x-2| + |x-5| ≥ 5?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "All real x"
-      },
-      {
-        "letter": "B",
-        "text": "x ≤ 2 or x ≥ 5"
-      },
-      {
-        "letter": "C",
-        "text": "2 ≤ x ≤ 5"
-      },
-      {
-        "letter": "D",
-        "text": "x ≤ 0 or x ≥ 7"
-      },
-      {
-        "letter": "E",
-        "text": "x = 3.5"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "By triangle inequality: |x-2|+|x-5| ≥ |(x-2)-(x-5)| = |3| = 3\nBut we need ≥ 5... Let's analyze:\n- x<2: (2-x)+(5-x)=7-2x ≥ 5 → x≤1\n- 2≤x≤5: (x-2)+(5-x)=3 — always 3, never ≥5\n- x>5: (x-2)+(x-5)=2x-7 ≥ 5 → x≥6\n\nSolution: x≤1 or x≥6.",
-    "hints": [
-      "Split into three cases based on critical points x=2 and x=5.",
-      "For 2≤x≤5: |x-2|+|x-5|=3 (constant). 3≥5 is false.",
-      "For x≤1: sum=7-2x≥5. For x≥6: sum=2x-7≥5. Solution: x≤1 or x≥6."
-    ]
-  },
-  {
-    "id": "math_20_gen_2",
-    "subject": "Basic Mathematics",
-    "topic": "Sequences and Series",
-    "difficulty": "medium",
-    "question_text": "Find the sum: 1 + 3 + 5 + ... + 99 (sum of first 50 odd numbers).",
-    "options": [
-      {
-        "letter": "A",
-        "text": "2500"
-      },
-      {
-        "letter": "B",
-        "text": "2400"
-      },
-      {
-        "letter": "C",
-        "text": "2550"
-      },
-      {
-        "letter": "D",
-        "text": "2450"
-      },
-      {
-        "letter": "E",
-        "text": "2600"
-      }
-    ],
-    "correct_answer": "A",
-    "explanation": "**Property: Sum of first n odd numbers = n²**\n\n1, 3, 5, ..., 99 → n = 50 (since 2n-1 = 99 → n=50)\nSum = 50² = **2500**\n\n**Alt method:** S₅₀ = 50/2(1+99) = 25×100 = 2500 ✓",
-    "hints": [
-      "Recognize: sum of first n odd numbers = n².",
-      "99 = 2n-1 → n = 50.",
-      "Sum = 50² = 2500."
     ]
   },
   {
@@ -1443,35 +1441,35 @@
     "id": "quant_01_gen_2",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "difficulty": "hard",
-    "question_text": "Find the next number in the pattern: 5, 20, 80, ...",
+    "difficulty": "easy",
+    "question_text": "Find the next number in the pattern: 6, 18, 54, ...",
     "options": [
       {
         "letter": "A",
-        "text": "330"
+        "text": "162"
       },
       {
         "letter": "B",
-        "text": "320"
+        "text": "159"
       },
       {
         "letter": "C",
-        "text": "316"
+        "text": "152"
       },
       {
         "letter": "D",
-        "text": "324"
+        "text": "165"
       },
       {
         "letter": "E",
-        "text": "310"
+        "text": "172"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Each number is multiplied by 4. Next is 80 * 4 = 320.",
+    "correct_answer": "A",
+    "explanation": "Each number is multiplied by 3. Next is 54 * 3 = 162.",
     "hints": [
-      "Each number is multiplied by 4.",
-      "Next is 80 * 4 = 320."
+      "Each number is multiplied by 3.",
+      "Next is 54 * 3 = 162."
     ]
   },
   {
@@ -1479,35 +1477,34 @@
     "subject": "Quantitative Reasoning",
     "topic": "Matrix Algebra",
     "difficulty": "hard",
-    "question_text": "Given that the determinant of a 3x3 matrix M is 5. What is the determinant of the matrix 2M?",
+    "question_text": "If A = [5 0; 0 5] and B = [4; 4], what is the sum of the elements in the matrix AB?",
     "options": [
       {
         "letter": "A",
-        "text": "10"
+        "text": "35"
       },
       {
         "letter": "B",
-        "text": "20"
+        "text": "41"
       },
       {
         "letter": "C",
-        "text": "40"
+        "text": "45"
       },
       {
         "letter": "D",
-        "text": "30"
+        "text": "40"
       },
       {
         "letter": "E",
-        "text": "15"
+        "text": "39"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "When a matrix of size n x n is multiplied by a scalar k, the determinant is multiplied by k^n. \nHere, M is 3x3 and k = 2. So Det(2M) = 2³ * Det(M) = 8 * 5 = 40. Distractor trap A is 10 (just 5*2).",
+    "correct_answer": "D",
+    "explanation": "AB = [20; 20]. Sum = 20 + 20 = 40.",
     "hints": [
-      "When a matrix of size n x n is multiplied by a scalar k, the determinant is multiplied by k^n.",
-      "Here, M is 3x3 and k = 2.",
-      "So Det(2M) = 2³ * Det(M) = 8 * 5 = 40."
+      "AB = [20; 20].",
+      "Sum = 20 + 20 = 40."
     ]
   },
   {
@@ -1515,103 +1512,103 @@
     "subject": "Quantitative Reasoning",
     "topic": "Systems of Linear Equations",
     "difficulty": "easy",
-    "question_text": "If x + y = 9 and x - y = 1, find the product xy.",
+    "question_text": "If 4 apples and 3 bananas cost $10, and 2 apples and 3 bananas cost $7, how much does one apple cost?",
     "options": [
       {
         "letter": "A",
-        "text": "21"
+        "text": "$2.50"
       },
       {
         "letter": "B",
-        "text": "22"
+        "text": "$1.50"
       },
       {
         "letter": "C",
-        "text": "18"
+        "text": "$1.00"
       },
       {
         "letter": "D",
-        "text": "19"
+        "text": "$3.00"
       },
       {
         "letter": "E",
-        "text": "20"
+        "text": "$0.50"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Adding equations: 2x = 10 -> x = 5. Subtracting: 2y = 8 -> y = 4. Product = 20 = 20.",
+    "correct_answer": "B",
+    "explanation": "Equation 1: 4a + 3b = 10. Equation 2: 2a + 3b = 7. Subtract Equation 2 from Equation 1 to eliminate the bananas: (4a - 2a) + (3b - 3b) = 10 - 7 → 2a = 3 → a = 1.50.",
     "hints": [
-      "Adding equations: 2x = 10 -> x = 5.",
-      "Subtracting: 2y = 8 -> y = 4.",
-      "Product = 20 = 20."
+      "Equation 1: 4a + 3b = 10.",
+      "Equation 2: 2a + 3b = 7.",
+      "Subtract Equation 2 from Equation 1 to eliminate the bananas: (4a - 2a) + (3b - 3b) = 10 - 7 → 2a = 3 → a = 1."
     ]
   },
   {
     "id": "quant_04_gen_2",
     "subject": "Quantitative Reasoning",
     "topic": "Coordinate Geometry",
-    "difficulty": "easy",
-    "question_text": "What is the squared distance between the points (0, 5) and (1, 10)?",
+    "difficulty": "medium",
+    "question_text": "What is the squared distance between the points (2, 4) and (5, 6)?",
     "options": [
       {
         "letter": "A",
-        "text": "25"
+        "text": "13"
       },
       {
         "letter": "B",
-        "text": "30"
+        "text": "14"
       },
       {
         "letter": "C",
-        "text": "22"
+        "text": "9"
       },
       {
         "letter": "D",
-        "text": "27"
+        "text": "17"
       },
       {
         "letter": "E",
-        "text": "26"
+        "text": "12"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (1-0)² + (10-5)² = 26.",
+    "correct_answer": "A",
+    "explanation": "Distance squared = (x2-x1)² + (y2-y1)² = (5-2)² + (6-4)² = 13.",
     "hints": [
-      "Distance squared = (x2-x1)² + (y2-y1)² = (1-0)² + (10-5)² = 26."
+      "Distance squared = (x2-x1)² + (y2-y1)² = (5-2)² + (6-4)² = 13."
     ]
   },
   {
     "id": "quant_05_gen_2",
     "subject": "Quantitative Reasoning",
     "topic": "Data Interpretation and Charts",
-    "difficulty": "hard",
-    "question_text": "A pie chart shows 30% of a 300 budget went to Housing. How much was allocated to Housing?",
+    "difficulty": "easy",
+    "question_text": "A pie chart shows 20% of a 200 budget went to Housing. How much was allocated to Housing?",
     "options": [
       {
         "letter": "A",
-        "text": "100"
+        "text": "20"
       },
       {
         "letter": "B",
-        "text": "110"
+        "text": "40"
       },
       {
         "letter": "C",
-        "text": "70"
+        "text": "30"
       },
       {
         "letter": "D",
-        "text": "80"
+        "text": "50"
       },
       {
         "letter": "E",
-        "text": "90"
+        "text": "60"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "30% of 300 = (30/100) * 300 = 90.",
+    "correct_answer": "B",
+    "explanation": "20% of 200 = (20/100) * 200 = 40.",
     "hints": [
-      "30% of 300 = (30/100) * 300 = 90."
+      "20% of 200 = (20/100) * 200 = 40."
     ],
     "chart_data": {
       "type": "pie",
@@ -1624,8 +1621,8 @@
         {
           "label": "Amount",
           "values": [
-            30,
-            70
+            20,
+            80
           ]
         }
       ]
@@ -1635,93 +1632,86 @@
     "id": "quant_06_gen_2",
     "subject": "Quantitative Reasoning",
     "topic": "Data Interpretation and Charts",
-    "difficulty": "hard",
-    "question_text": "An incomplete table of male/female test performance reveals that 60% of females passed and 40% of males passed. If the overall pass rate for the entire group was 45%, what is the ratio of males to females in the group?",
+    "difficulty": "medium",
+    "question_text": "A pie chart shows 70% of a 300 budget went to Housing. How much was allocated to Housing?",
     "options": [
       {
         "letter": "A",
-        "text": "3:1"
+        "text": "190"
       },
       {
         "letter": "B",
-        "text": "2:3"
+        "text": "220"
       },
       {
         "letter": "C",
-        "text": "1:3"
+        "text": "210"
       },
       {
         "letter": "D",
-        "text": "3:2"
+        "text": "200"
       },
       {
         "letter": "E",
-        "text": "4:1"
+        "text": "230"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "Let F = number of females, M = number of males. \nTotal passed = 0.6F + 0.4M. \nAlso, Total passed = 0.45 * (F + M). \nEquating: 0.6F + 0.4M = 0.45F + 0.45M → 0.15F = 0.05M. \nDivide by 0.05: 3F = M. \nTherefore, the ratio of Males to Females (M : F) is 3 : 1.",
-    "chart_data": {
-      "type": "table",
-      "title": "Survey Data",
-      "headers": [
-        "Group",
-        "Members",
-        "Seniors%"
-      ],
-      "rows": [
-        [
-          "Club A",
-          "120",
-          "20%"
-        ],
-        [
-          "Club B",
-          "80",
-          "50%"
-        ]
-      ]
-    },
+    "correct_answer": "C",
+    "explanation": "70% of 300 = (70/100) * 300 = 210.",
     "hints": [
-      "Let F = number of females, M = number of males.",
-      "Total passed = 0.",
-      "6F + 0."
-    ]
+      "70% of 300 = (70/100) * 300 = 210."
+    ],
+    "chart_data": {
+      "type": "pie",
+      "title": "Budget Breakdown",
+      "labels": [
+        "Housing",
+        "Other"
+      ],
+      "datasets": [
+        {
+          "label": "Amount",
+          "values": [
+            70,
+            30
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "quant_07_gen_2",
     "subject": "Quantitative Reasoning",
     "topic": "Word Problems",
-    "difficulty": "hard",
-    "question_text": "A contractor estimated a house would take 30 workers 60 days to build. After 20 days, 10 workers quit. How many TOTAL days will it take to build the house from the very beginning to completion?",
+    "difficulty": "medium",
+    "question_text": "Worker A finishes 4 tasks per hour. Worker B finishes 4 tasks per hour. How many tasks do they finish together in 3 hours?",
     "options": [
       {
         "letter": "A",
-        "text": "60 days"
+        "text": "21"
       },
       {
         "letter": "B",
-        "text": "80 days"
+        "text": "27"
       },
       {
         "letter": "C",
-        "text": "100 days"
+        "text": "22"
       },
       {
         "letter": "D",
-        "text": "75 days"
+        "text": "24"
       },
       {
         "letter": "E",
-        "text": "90 days"
+        "text": "26"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Total job requires = 30 workers * 60 days = 1800 worker-days. \nWork done in first 20 days: 30 workers * 20 days = 600 worker-days. \nWork remaining: 1800 - 600 = 1200 worker-days. \nRemaining workers: 30 - 10 = 20 workers. \nTime for remaining work: 1200 / 20 = 60 days. \nTotal time from start = 20 (initial) + 60 (remaining) = 80 days.",
+    "correct_answer": "D",
+    "explanation": "Combined rate = 4 + 4 = 8 tasks/hr. In 3 hours: 3 * 8 = 24.",
     "hints": [
-      "Total job requires = 30 workers * 60 days = 1800 worker-days.",
-      "Work done in first 20 days: 30 workers * 20 days = 600 worker-days.",
-      "Work remaining: 1800 - 600 = 1200 worker-days."
+      "Combined rate = 4 + 4 = 8 tasks/hr.",
+      "In 3 hours: 3 * 8 = 24."
     ]
   },
   {
@@ -1729,34 +1719,35 @@
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
     "difficulty": "hard",
-    "question_text": "Find the next number in the pattern: 5, 20, 80, ...",
+    "question_text": "Examine the continuous string of numbers: 3 1 4 2 5 3 6 4 7 5 _ _. What are the next two numbers?",
     "options": [
       {
         "letter": "A",
-        "text": "330"
+        "text": "8 6"
       },
       {
         "letter": "B",
-        "text": "324"
+        "text": "6 8"
       },
       {
         "letter": "C",
-        "text": "310"
+        "text": "8 7"
       },
       {
         "letter": "D",
-        "text": "320"
+        "text": "9 7"
       },
       {
         "letter": "E",
-        "text": "316"
+        "text": "7 5"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Each number is multiplied by 4. Next is 80 * 4 = 320.",
+    "correct_answer": "A",
+    "explanation": "The sequence can be broken into pairs or alternates. Look at the odd positions: 3, 4, 5, 6, 7. This is counting up by 1. The next odd position will be 8. \nLook at the even positions: 1, 2, 3, 4, 5. This is also counting up by 1. The next even position will be 6. \nTherefore, the next two numbers are 8 and 6.",
     "hints": [
-      "Each number is multiplied by 4.",
-      "Next is 80 * 4 = 320."
+      "The sequence can be broken into pairs or alternates.",
+      "Look at the odd positions: 3, 4, 5, 6, 7.",
+      "This is counting up by 1."
     ]
   },
   {
@@ -1764,35 +1755,35 @@
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
     "difficulty": "hard",
-    "question_text": "If 9 ⊕ 3 = 36,  8 ⊕ 4 = 48,  and 7 ⊕ 2 = 45, what is the value of  6 ⊕ 5 ?",
+    "question_text": "Observe the grid: \n[ 8 ] [ 3 ] [ 21 ]\n[ 6 ] [ 5 ] [ 25 ]\n[ 12 ] [ 2 ] [  ?  ]",
     "options": [
       {
         "letter": "A",
-        "text": "60"
+        "text": "22"
       },
       {
         "letter": "B",
-        "text": "11"
+        "text": "24"
       },
       {
         "letter": "C",
-        "text": "55"
+        "text": "14"
       },
       {
         "letter": "D",
-        "text": "41"
+        "text": "10"
       },
       {
         "letter": "E",
-        "text": "80"
+        "text": "20"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Find the underlying operation for the symbol ⊕. \n9² - 3² = 81 - 9 = 72? Hmm, then divided by 2 = 36. \n8² - 4² = 64 - 16 = 48? 48/2 = 24. This doesn't match 48. \nLet's try (A + B) * (A - B). \n9 + 3 = 12. 9 - 3 = 6. 12 x 6 = 72. (Half is 36). \n8 + 4 = 12. 8 - 4 = 4. 12 x 4 = 48. (Match!) \n7 + 2 = 9. 7 - 2 = 5. 9 x 5 = 45. (Match!) \nWait, the first one 9⊕3 is 36 but (12*6) = 72. So my rule failed for 1. Let's fix 9 ⊕ 3 to be 72 so the rule A² - B² applies identically. \nWait, let's redefine the values to fit the rule A² - B² perfectly: 9⊕3=72. 8⊕4=48. 7⊕2=45. \nThen 6 ⊕ 5 = 6² - 5² = 36 - 25 = 11.",
+    "correct_answer": "A",
+    "explanation": "The pattern connects the first two columns to the third. Let's test combinations: \n(8 - 1) x 3 = 21. \n(6 - 1) x 5 = 25. \nThe logic is (Col1 - 1) * Col2 = Col3. \nApplying this to the last row: (12 - 1) * 2 = 11 * 2 = 22.",
     "hints": [
-      "Find the underlying operation for the symbol ⊕.",
-      "9² - 3² = 81 - 9 = 72? Hmm, then divided by 2 = 36.",
-      "8² - 4² = 64 - 16 = 48? 48/2 = 24."
+      "The pattern connects the first two columns to the third.",
+      "Let's test combinations:  (8 - 1) x 3 = 21.",
+      "(6 - 1) x 5 = 25."
     ]
   },
   {
@@ -1800,34 +1791,34 @@
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
     "difficulty": "medium",
-    "question_text": "Find the next number in the pattern: 6, 24, 96, ...",
+    "question_text": "Find the next number in the pattern: 10, 30, 90, ...",
     "options": [
       {
         "letter": "A",
-        "text": "394"
+        "text": "270"
       },
       {
         "letter": "B",
-        "text": "380"
+        "text": "280"
       },
       {
         "letter": "C",
-        "text": "388"
+        "text": "260"
       },
       {
         "letter": "D",
-        "text": "374"
+        "text": "273"
       },
       {
         "letter": "E",
-        "text": "384"
+        "text": "267"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Each number is multiplied by 4. Next is 96 * 4 = 384.",
+    "correct_answer": "A",
+    "explanation": "Each number is multiplied by 3. Next is 90 * 3 = 270.",
     "hints": [
-      "Each number is multiplied by 4.",
-      "Next is 96 * 4 = 384."
+      "Each number is multiplied by 3.",
+      "Next is 90 * 3 = 270."
     ]
   },
   {
@@ -1869,264 +1860,199 @@
     "id": "quant_12_gen_2",
     "subject": "Quantitative Reasoning",
     "topic": "Data Interpretation and Charts",
-    "difficulty": "hard",
-    "question_text": "A pie chart shows 20% of a 500 budget went to Housing. How much was allocated to Housing?",
+    "difficulty": "easy",
+    "question_text": "A pie chart shows a total budget of $2000. Rent takes up 40% and Food takes up 20%. How much money is allocated to Rent and Food combined?",
     "options": [
       {
         "letter": "A",
-        "text": "100"
+        "text": "$1200"
       },
       {
         "letter": "B",
-        "text": "110"
+        "text": "$800"
       },
       {
         "letter": "C",
-        "text": "90"
+        "text": "$400"
       },
       {
         "letter": "D",
-        "text": "80"
+        "text": "$1000"
       },
       {
         "letter": "E",
-        "text": "120"
+        "text": "$600"
       }
     ],
     "correct_answer": "A",
-    "explanation": "20% of 500 = (20/100) * 500 = 100.",
-    "hints": [
-      "20% of 500 = (20/100) * 500 = 100."
-    ],
+    "explanation": "Total percentage for Rent and Food = 40% + 20% = 60%. \n60% of $2000 = 0.60 * 2000 = $1200.",
     "chart_data": {
       "type": "pie",
-      "title": "Budget Breakdown",
+      "title": "Distribution",
       "labels": [
-        "Housing",
-        "Other"
+        "Category A",
+        "Category B",
+        "Category C"
       ],
       "datasets": [
         {
           "label": "Amount",
           "values": [
+            40,
             20,
-            80
+            40
           ]
         }
       ]
-    }
+    },
+    "hints": [
+      "Total percentage for Rent and Food = 40% + 20% = 60%.",
+      "60% of $2000 = 0.",
+      "60 * 2000 = $1200."
+    ]
   },
   {
     "id": "quant_13_gen_2",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "difficulty": "easy",
-    "question_text": "Simplify the expression: (x² - 9) / (x - 3)",
+    "difficulty": "hard",
+    "question_text": "Simplify and evaluate: (4x - 3)(4x + 3) when x = 1",
     "options": [
       {
         "letter": "A",
-        "text": "x - 3"
+        "text": "8"
       },
       {
         "letter": "B",
-        "text": "x + 3"
+        "text": "7"
       },
       {
         "letter": "C",
-        "text": "x² - 3"
+        "text": "5"
       },
       {
         "letter": "D",
-        "text": "3x"
+        "text": "9"
       },
       {
         "letter": "E",
-        "text": "1"
+        "text": "6"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Use the difference of squares rule: (x² - 9) = (x - 3)(x + 3). The (x - 3) terms cancel out, leaving just x + 3.",
+    "explanation": "Difference of squares: (4x - 3)(4x + 3) = 16x² - 9. If x=1, it is 16 - 9 = 7.",
     "hints": [
-      "Use the difference of squares rule: (x² - 9) = (x - 3)(x + 3).",
-      "The (x - 3) terms cancel out, leaving just x + 3."
+      "Difference of squares: (4x - 3)(4x + 3) = 16x² - 9.",
+      "If x=1, it is 16 - 9 = 7."
     ]
   },
   {
     "id": "quant_14_gen_2",
     "subject": "Quantitative Reasoning",
     "topic": "Geometry",
-    "difficulty": "easy",
-    "question_text": "Find the volume of a rectangular prism with length 5, width 4, and height 2.",
+    "difficulty": "hard",
+    "question_text": "Find the volume of a rectangular prism with length 3, width 4, and height 5.",
     "options": [
       {
         "letter": "A",
-        "text": "44"
+        "text": "62"
       },
       {
         "letter": "B",
-        "text": "38"
+        "text": "60"
       },
       {
         "letter": "C",
-        "text": "40"
+        "text": "64"
       },
       {
         "letter": "D",
-        "text": "36"
+        "text": "58"
       },
       {
         "letter": "E",
-        "text": "42"
+        "text": "56"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Volume = l * w * h = 5 * 4 * 2 = 40.",
+    "correct_answer": "B",
+    "explanation": "Volume = l * w * h = 3 * 4 * 5 = 60.",
     "hints": [
-      "Volume = l * w * h = 5 * 4 * 2 = 40."
+      "Volume = l * w * h = 3 * 4 * 5 = 60."
     ]
   },
   {
     "id": "quant_15_gen_2",
     "subject": "Quantitative Reasoning",
     "topic": "Pattern Recognition and Puzzles",
-    "difficulty": "easy",
-    "question_text": "Find the next number in the pattern: 10, 30, 90, ...",
+    "difficulty": "medium",
+    "question_text": "Find the next number in the pattern: 6, 24, 96, ...",
     "options": [
       {
         "letter": "A",
-        "text": "280"
+        "text": "394"
       },
       {
         "letter": "B",
-        "text": "273"
+        "text": "380"
       },
       {
         "letter": "C",
-        "text": "267"
+        "text": "388"
       },
       {
         "letter": "D",
-        "text": "270"
+        "text": "374"
       },
       {
         "letter": "E",
-        "text": "260"
+        "text": "384"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Each number is multiplied by 3. Next is 90 * 3 = 270.",
+    "correct_answer": "E",
+    "explanation": "Each number is multiplied by 4. Next is 96 * 4 = 384.",
     "hints": [
-      "Each number is multiplied by 3.",
-      "Next is 90 * 3 = 270."
+      "Each number is multiplied by 4.",
+      "Next is 96 * 4 = 384."
     ]
   },
   {
     "id": "quant_16_gen_2",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
-    "difficulty": "medium",
-    "question_text": "Given x + y = 6 and xy = 4, find the value of x² + y².",
+    "difficulty": "hard",
+    "question_text": "Simplify fully into a fraction: 1 / (1 + √2) + 1 / (√2 + √3) + 1 / (√3 + √4)",
     "options": [
       {
         "letter": "A",
-        "text": "36"
+        "text": "1"
       },
       {
         "letter": "B",
-        "text": "32"
+        "text": "2"
       },
       {
         "letter": "C",
-        "text": "28"
+        "text": "√4 - 1"
       },
       {
         "letter": "D",
-        "text": "24"
+        "text": "√3"
       },
       {
         "letter": "E",
-        "text": "40"
+        "text": "1 + √2"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Square both sides of x + y = 6 → (x + y)² = 36. \nExpand: x² + 2xy + y² = 36. \nSubstitute xy = 4: x² + 2(4) + y² = 36 → x² + 8 + y² = 36 → x² + y² = 28.",
+    "correct_answer": "A",
+    "explanation": "Rationalize each denominator by multiplying by its conjugate. \n1 / (√k + √(k+1)) * (√(k+1) - √k) / (√(k+1) - √k) = (√(k+1) - √k) / 1. \nThus, the formula telescopes: \n(√2 - 1) + (√3 - √2) + (√4 - √3) \nThe inner roots cancel out (√2, √3), leaving √4 - 1 = 2 - 1 = 1.",
     "hints": [
-      "Square both sides of x + y = 6 → (x + y)² = 36.",
-      "Expand: x² + 2xy + y² = 36.",
-      "Substitute xy = 4: x² + 2(4) + y² = 36 → x² + 8 + y² = 36 → x² + y² = 28."
+      "Rationalize each denominator by multiplying by its conjugate.",
+      "1 / (√k + √(k+1)) * (√(k+1) - √k) / (√(k+1) - √k) = (√(k+1) - √k) / 1.",
+      "Thus, the formula telescopes:  (√2 - 1) + (√3 - √2) + (√4 - √3)  The inner roots cancel out (√2, √3), leaving √4 - 1 = 2 - 1 = 1."
     ]
   },
   {
     "id": "quant_17_gen_2",
-    "subject": "Quantitative Reasoning",
-    "topic": "Algebraic Manipulation",
-    "difficulty": "medium",
-    "question_text": "Simplify and evaluate: (6x - 5)(6x + 5) when x = 1",
-    "options": [
-      {
-        "letter": "A",
-        "text": "13"
-      },
-      {
-        "letter": "B",
-        "text": "9"
-      },
-      {
-        "letter": "C",
-        "text": "11"
-      },
-      {
-        "letter": "D",
-        "text": "10"
-      },
-      {
-        "letter": "E",
-        "text": "12"
-      }
-    ],
-    "correct_answer": "C",
-    "explanation": "Difference of squares: (6x - 5)(6x + 5) = 36x² - 25. If x=1, it is 36 - 25 = 11.",
-    "hints": [
-      "Difference of squares: (6x - 5)(6x + 5) = 36x² - 25.",
-      "If x=1, it is 36 - 25 = 11."
-    ]
-  },
-  {
-    "id": "quant_18_gen_2",
-    "subject": "Quantitative Reasoning",
-    "topic": "Algebraic Manipulation",
-    "difficulty": "easy",
-    "question_text": "Expand and simplify: (2x + 5)²",
-    "options": [
-      {
-        "letter": "A",
-        "text": "4x² + 25"
-      },
-      {
-        "letter": "B",
-        "text": "4x² + 10x + 25"
-      },
-      {
-        "letter": "C",
-        "text": "2x² + 20x + 25"
-      },
-      {
-        "letter": "D",
-        "text": "4x² + 20x + 25"
-      },
-      {
-        "letter": "E",
-        "text": "4x² + 10"
-      }
-    ],
-    "correct_answer": "D",
-    "explanation": "Use the binomial square rule: (a + b)² = a² + 2ab + b². Here a = 2x, b = 5. So (2x)² + 2(2x)(5) + 5² = 4x² + 20x + 25.",
-    "hints": [
-      "Identify the core formula needed for this problem."
-    ]
-  },
-  {
-    "id": "quant_19_gen_2",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
     "difficulty": "medium",
@@ -2161,49 +2087,15 @@
     ]
   },
   {
-    "id": "quant_20_gen_2",
+    "id": "quant_18_gen_2",
     "subject": "Quantitative Reasoning",
     "topic": "Algebraic Manipulation",
     "difficulty": "medium",
-    "question_text": "Simplify and evaluate: (6x - 3)(6x + 3) when x = 1",
+    "question_text": "If a - b = 5 and a^2 - b^2 = 35, find a + b.",
     "options": [
       {
         "letter": "A",
-        "text": "26"
-      },
-      {
-        "letter": "B",
-        "text": "28"
-      },
-      {
-        "letter": "C",
-        "text": "29"
-      },
-      {
-        "letter": "D",
-        "text": "27"
-      },
-      {
-        "letter": "E",
-        "text": "25"
-      }
-    ],
-    "correct_answer": "D",
-    "explanation": "Difference of squares: (6x - 3)(6x + 3) = 36x² - 9. If x=1, it is 36 - 9 = 27.",
-    "hints": [
-      "Difference of squares: (6x - 3)(6x + 3) = 36x² - 9.",
-      "If x=1, it is 36 - 9 = 27."
-    ]
-  },
-  {
-    "id": "lr_01_gen_2",
-    "subject": "Logical Reasoning",
-    "topic": "Mathematical Logic",
-    "question_text": "A set B consists of 8 integers with an average value of 5. The elements are arranged in ascending order. The smallest 4 elements are replaced by the largest 4 elements to form a new set C. The average of set C becomes 7. What is the average of the largest 4 elements in set B?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "6"
+        "text": "5"
       },
       {
         "letter": "B",
@@ -2211,301 +2103,424 @@
       },
       {
         "letter": "C",
-        "text": "8"
+        "text": "10"
       },
       {
         "letter": "D",
-        "text": "9"
+        "text": "12"
       },
       {
         "letter": "E",
-        "text": "10"
+        "text": "6"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Set B has 8 elements with an average of 5, so the sum of Set B is 40. Let the sum of the smallest 4 be S and the largest 4 be L. So, S + L = 40. In Set C, the smallest 4 are replaced by the largest 4, meaning Set C consists of two copies of the largest 4 elements. The average of Set C is 7, so its sum is 8 * 7 = 56. This means 2L = 56, so L = 28. The average of these largest 4 elements is 28 / 4 = 7.",
+    "explanation": "a^2 - b^2 = (a-b)(a+b). So 35 = 5(a+b). Therefore a+b = 7.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "Use difference of squares.",
+      "a^2-b^2 = (a-b)(a+b)."
+    ]
+  },
+  {
+    "id": "quant_19_gen_2",
+    "subject": "Quantitative Reasoning",
+    "topic": "Algebraic Manipulation",
+    "difficulty": "medium",
+    "question_text": "Simplify and evaluate: (6x - 5)(6x + 5) when x = 1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "13"
+      },
+      {
+        "letter": "B",
+        "text": "9"
+      },
+      {
+        "letter": "C",
+        "text": "11"
+      },
+      {
+        "letter": "D",
+        "text": "10"
+      },
+      {
+        "letter": "E",
+        "text": "12"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Difference of squares: (6x - 5)(6x + 5) = 36x² - 25. If x=1, it is 36 - 25 = 11.",
+    "hints": [
+      "Difference of squares: (6x - 5)(6x + 5) = 36x² - 25.",
+      "If x=1, it is 36 - 25 = 11."
+    ]
+  },
+  {
+    "id": "quant_20_gen_2",
+    "subject": "Quantitative Reasoning",
+    "topic": "Algebraic Manipulation",
+    "difficulty": "medium",
+    "question_text": "If x + y = 10 and xy = 21, find the value of x^2 + y^2.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "58"
+      },
+      {
+        "letter": "B",
+        "text": "52"
+      },
+      {
+        "letter": "C",
+        "text": "48"
+      },
+      {
+        "letter": "D",
+        "text": "42"
+      },
+      {
+        "letter": "E",
+        "text": "100"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "(x+y)^2 = x^2 + 2xy + y^2. So x^2+y^2 = (x+y)^2 - 2xy = 100 - 42 = 58.",
+    "hints": [
+      "Use (x+y)^2 = x^2 + 2xy + y^2.",
+      "Substitute known values."
+    ]
+  },
+  {
+    "id": "lr_01_gen_2",
+    "subject": "Logical Reasoning",
+    "topic": "Mathematical Logic",
+    "difficulty": "hard",
+    "question_text": "Let f(x, y) = x² + y. Let g(x) = f(x, f(x, x)). What is the value of g(2)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10"
+      },
+      {
+        "letter": "B",
+        "text": "12"
+      },
+      {
+        "letter": "C",
+        "text": "14"
+      },
+      {
+        "letter": "D",
+        "text": "8"
+      },
+      {
+        "letter": "E",
+        "text": "16"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Work from the deepest level outwards. \nFirst evaluate f(x, x) → f(2, 2) = 2² + 2 = 6. \nNow substitute back into g(2): g(2) = f(2, 6) = 2² + 6 = 4 + 6 = 10.",
+    "hints": [
+      "Work from the deepest level outwards.",
+      "First evaluate f(x, x) → f(2, 2) = 2² + 2 = 6.",
+      "Now substitute back into g(2): g(2) = f(2, 6) = 2² + 6 = 4 + 6 = 10."
     ]
   },
   {
     "id": "lr_02_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Deductive Logic and Syllogisms",
-    "question_text": "All participants of a workshop must confirm their attendance by submitting a registration form. Those who do not submit the form will be considered absent. The organizers use the confirmed list to prepare materials and seating arrangements. Rina, a participant, did not submit the registration form because she forgot. Thus, the correct conclusion is...",
+    "difficulty": "medium",
+    "question_text": "Premise 1: All members of Club X pay dues. Premise 2: Jenny does not pay dues. Premise 3: Jenny attends Club X events. What must be true?",
     "options": [
       {
         "letter": "A",
-        "text": "Rina is not interested in the workshop"
+        "text": "Jenny is a member of Club X."
       },
       {
         "letter": "B",
-        "text": "Rina will be considered absent"
+        "text": "Jenny is not a member of Club X."
       },
       {
         "letter": "C",
-        "text": "Rina is not allowed to attend the workshop"
+        "text": "Jenny is a guest at events."
       },
       {
         "letter": "D",
-        "text": "Rina has already attended the workshop"
+        "text": "Jenny pays dues secretly."
       },
       {
         "letter": "E",
-        "text": "Rina will automatically be registered"
+        "text": "Club X doesn't enforce its rules."
       }
     ],
     "correct_answer": "B",
-    "explanation": "The premise explicitly states: 'Those who do not submit the form will be considered absent.' Since Rina did not submit the form, deductive logic dictates she will be considered absent, regardless of her intent or reason.",
+    "explanation": "All members pay dues (contrapositive: not pay → not member). Jenny doesn't pay, so Jenny is not a member. Attending events is irrelevant to membership status.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "Contrapositive: not paying → not a member.",
+      "Jenny doesn't pay dues.",
+      "Attending events is separate from membership."
     ]
   },
   {
     "id": "lr_03_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "Five students—Alex, Brian, Chloe, Diana, and Ethan—are competing for three positions in a debate team. Their performance rankings are all different. Alex performs better than Brian and Chloe. Diana performs better than Alex. Ethan performs worse than Brian but better than Chloe. Who are the two students that will not be selected?",
+    "difficulty": "easy",
+    "question_text": "Four siblings are born in order from oldest to youngest. Ana is older than Ben. Chris is the youngest. Dana is older than Ana. Who is the second oldest?",
     "options": [
       {
         "letter": "A",
-        "text": "Brian and Chloe"
+        "text": "Ana"
       },
       {
         "letter": "B",
-        "text": "Alex and Brian"
+        "text": "Ben"
       },
       {
         "letter": "C",
-        "text": "Chloe and Ethan"
+        "text": "Chris"
       },
       {
         "letter": "D",
-        "text": "Brian and Ethan"
+        "text": "Dana"
       },
       {
         "letter": "E",
-        "text": "Alex and Chloe"
+        "text": "Cannot be determined"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "Let's establish the ranking from highest to lowest. Diana > Alex. Alex > Brian and Chloe. So far: Diana > Alex > (Brian, Chloe). We also know Ethan < Brian and Ethan > Chloe. This means Brian > Ethan > Chloe. Combining these: Diana > Alex > Brian > Ethan > Chloe. The top 3 (Diana, Alex, Brian) will be selected. The remaining two, Ethan and Chloe, will not be selected.",
+    "correct_answer": "A",
+    "explanation": "Dana > Ana > Ben, Chris is youngest. Order: Dana, Ana, Ben, Chris. Second oldest is Ana.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "Dana is older than Ana.",
+      "Ana is older than Ben.",
+      "Chris is the youngest."
     ]
   },
   {
     "id": "lr_04_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Deductive Logic and Syllogisms",
-    "question_text": "Machine learning is a subset of artificial intelligence that enables systems to learn from data without being explicitly programmed. Self-driving cars rely on machine learning algorithms to analyze their environment and make decisions. Based on the statement above, the correct conclusion is...",
+    "difficulty": "medium",
+    "question_text": "Rule 1: If the alarm rings, everyone evacuates. Rule 2: If everyone evacuates, the building is empty. Rule 3: The building is NOT empty. What can we conclude?",
     "options": [
       {
         "letter": "A",
-        "text": "Self-driving cars cannot function without machine learning"
+        "text": "The alarm rang but people ignored it."
       },
       {
         "letter": "B",
-        "text": "All artificial intelligence systems are self-driving cars"
+        "text": "The alarm did not ring."
       },
       {
         "letter": "C",
-        "text": "Machine learning does not require data to function"
+        "text": "Some people evacuated."
       },
       {
         "letter": "D",
-        "text": "Self-driving cars are unrelated to artificial intelligence"
+        "text": "The alarm system is broken."
       },
       {
         "letter": "E",
-        "text": "Artificial intelligence cannot be used in vehicles"
+        "text": "We cannot conclude anything."
       }
     ],
-    "correct_answer": "A",
-    "explanation": "The text states that self-driving cars 'rely on' machine learning. By elimination of definitively false statements: B is false (it's a subset), C is false (it learns from data), D is false (ML is a subset of AI), and E is false. Option A logically extends the word 'rely' to mean it's a necessary functional component.",
+    "correct_answer": "B",
+    "explanation": "Chain: alarm → evacuate → empty. Building NOT empty → NOT everyone evacuated (contrapositive of R2) → alarm did NOT ring (contrapositive of R1).",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "Apply contrapositive chain.",
+      "NOT empty → NOT evacuate → NOT alarm.",
+      "Work backwards from the known fact."
     ]
   },
   {
     "id": "lr_05_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Deductive Logic and Syllogisms",
-    "question_text": "All high-performance laptops require efficient cooling systems. Without proper cooling, the laptop may overheat and reduce performance. If a laptop continues to operate smoothly under heavy usage without overheating, the correct conclusion is....",
+    "difficulty": "easy",
+    "question_text": "Rule: No birds are reptiles. Fact: A parrot is a bird. What can we conclude about the parrot?",
     "options": [
       {
         "letter": "A",
-        "text": "The laptop does not need a cooling system"
+        "text": "The parrot is a reptile."
       },
       {
         "letter": "B",
-        "text": "The laptop may have an efficient cooling system"
+        "text": "The parrot is not a reptile."
       },
       {
         "letter": "C",
-        "text": "The laptop is not a high-performance device"
+        "text": "The parrot can fly."
       },
       {
         "letter": "D",
-        "text": "Overheating improves laptop performance"
+        "text": "We cannot determine anything."
       },
       {
         "letter": "E",
-        "text": "Cooling systems are unnecessary for laptops"
+        "text": "Some reptiles are parrots."
       }
     ],
     "correct_answer": "B",
-    "explanation": "If a laptop operates smoothly under heavy usage without overheating, it is avoiding the negative consequence mentioned ('overheating and reduced performance'). Because proper cooling prevents this, it is highly likely that the laptop possesses an efficient cooling system.",
+    "explanation": "No birds are reptiles. A parrot is a bird. Therefore a parrot is not a reptile. Direct application of universal negative.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "No birds are reptiles - this is absolute.",
+      "A parrot is a bird.",
+      "Apply the universal rule."
     ]
   },
   {
     "id": "lr_06_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Deductive Logic and Syllogisms",
-    "question_text": "Mira does not usually work on weekends, but she agreed to take a shift on Saturday this week. Rina, her colleague, is scheduled to take Mira's regular shift on Monday next week. The correct statement is...",
+    "difficulty": "medium",
+    "question_text": "Rule: If you wear a red shirt, you exist in Sector 4. Fact: John is in Sector 4. What can we conclude?",
     "options": [
       {
         "letter": "A",
-        "text": "Mira will work her regular shift on Monday next week"
+        "text": "John is wearing a red shirt."
       },
       {
         "letter": "B",
-        "text": "Mira and Rina have the same work schedule"
+        "text": "John is wearing a blue shirt."
       },
       {
         "letter": "C",
-        "text": "Rina will work on Monday next week"
+        "text": "No conclusion can be definitely drawn about John's shirt."
       },
       {
         "letter": "D",
-        "text": "Mira prefers working on weekends"
+        "text": "Everyone in Sector 4 wears red shirts."
       },
       {
         "letter": "E",
-        "text": "Rina is replacing Mira's Saturday shift"
+        "text": "John was forced to go to Sector 4."
       }
     ],
     "correct_answer": "C",
-    "explanation": "The text explicitly states: 'Rina... is scheduled to take Mira's regular shift on Monday next week.' Therefore, Rina will be working on that Monday.",
+    "explanation": "This tests the converse fallacy. If A (Red Shirt) → B (Sector 4). Knowing B is true does NOT mean A is true. People could be in Sector 4 wearing green shirts. So we cannot definitively know what shirt he is wearing.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "This tests the converse fallacy.",
+      "If A (Red Shirt) → B (Sector 4).",
+      "Knowing B is true does NOT mean A is true."
     ]
   },
   {
     "id": "lr_07_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "Company Y has five employees who completed their training in consecutive years. Adam and Brian completed their training in the same year, one year after Clara. Diana completed her training earlier than all the others. Ethan completed his training one year before Adam and Brian. Who completed their training last?",
+    "difficulty": "medium",
+    "question_text": "Five tasks (1-5) are scheduled for Monday to Friday.\n- Task 3 is scheduled before Task 1.\n- Task 5 is on Wednesday.\n- Task 2 is on Friday.\n- Task 4 is immediately after Task 3.\nOn which day is Task 1?",
     "options": [
       {
         "letter": "A",
-        "text": "Diana"
+        "text": "Monday"
       },
       {
         "letter": "B",
-        "text": "Clara"
+        "text": "Tuesday"
       },
       {
         "letter": "C",
-        "text": "Ethan"
+        "text": "Thursday"
       },
       {
         "letter": "D",
-        "text": "Adam"
+        "text": "Friday"
       },
       {
         "letter": "E",
-        "text": "Brian"
+        "text": "Cannot be determined"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Let Clara's year be X. Adam and Brian are year X + 1. Ethan is one year before Adam and Brian, so Ethan is (X + 1) - 1 = X. So Ethan and Clara completed in the same year. Diana completed earlier than all, so she is X - 1 (or earlier). The chronological order is Diana -> (Clara & Ethan) -> (Adam & Brian). Adam and Brian completed last. (Either D or E is technically correct; standardizing to the first alphabetically available correct option).",
+    "correct_answer": "C",
+    "explanation": "Task 5=Wed, Task 2=Fri. Tasks 3,4 are consecutive (3 then 4). Task 3 before Task 1. Available days: Mon,Tue,Thu. Block 3-4 = Mon,Tue. Then Task 1 = Thu.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "Fix Task 5=Wed, Task 2=Fri.",
+      "Tasks 3,4 form a block.",
+      "Task 3 must be before Task 1."
     ]
   },
   {
     "id": "lr_08_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "In a school competition, five students—Liam, Noah, Olivia, Emma, and Ava are ranked based on their scores. Olivia scores higher than Emma but lower than Noah. Liam scores lower than Ava but higher than Emma. Noah scores higher than all the others. Who has the lowest score?",
+    "difficulty": "hard",
+    "question_text": "Seven athletes (A-G) compete. Rankings:\n- B finishes exactly two positions after F.\n- C finishes immediately after A.\n- D finishes 1st.\n- G finishes last (7th).\nIf A finishes 2nd, what position does F finish?",
     "options": [
       {
         "letter": "A",
-        "text": "Liam"
+        "text": "4th"
       },
       {
         "letter": "B",
-        "text": "Emma"
+        "text": "5th"
       },
       {
         "letter": "C",
-        "text": "Ava"
+        "text": "6th"
       },
       {
         "letter": "D",
-        "text": "Olivia"
+        "text": "4th or 5th"
       },
       {
         "letter": "E",
-        "text": "Noah"
+        "text": "Cannot be determined"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "From the clues: Noah > Olivia > Emma. Also, Ava > Liam > Emma. And Noah is the highest overall. Since both Olivia and Liam scored higher than Emma, and Noah and Ava scored higher than them respectively, Emma must have the lowest score out of all five students.",
+    "correct_answer": "A",
+    "explanation": "D=1, A=2, C=3, G=7. Remaining: 4,5,6 for B,E,F. B=F+2. If F=4, B=6, E=5 works. If F=5, B=7 conflicts with G. So F must be 4th.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "Fix D=1, A=2, C=3, G=7.",
+      "B is exactly 2 after F.",
+      "Test F=4 and F=5."
     ]
   },
   {
     "id": "lr_09_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Deductive Logic and Syllogisms",
-    "question_text": "All birds can fly. Some birds are colorful. The correct conclusion is...",
+    "difficulty": "hard",
+    "question_text": "Premise 1: All philosophers are thinkers. Premise 2: Some thinkers are writers. Premise 3: No writers are athletes. Which must be true?",
     "options": [
       {
         "letter": "A",
-        "text": "Some colorful animals can fly"
+        "text": "Some philosophers are writers."
       },
       {
         "letter": "B",
-        "text": "All colorful birds can fly"
+        "text": "No philosophers are athletes."
       },
       {
         "letter": "C",
-        "text": "Some birds that can fly are colorful"
+        "text": "Some thinkers are not athletes."
       },
       {
         "letter": "D",
-        "text": "All flying animals are birds"
+        "text": "All thinkers are philosophers."
       },
       {
         "letter": "E",
-        "text": "Some birds that cannot fly are colorful"
+        "text": "Some athletes are thinkers."
       }
     ],
     "correct_answer": "C",
-    "explanation": "Because all birds fly, the 'some birds' that are colorful must also be part of the group that can fly. Therefore, it is definitively true that some birds that can fly are colorful.",
+    "explanation": "Some thinkers are writers (P2). No writers are athletes (P3). Therefore those thinkers who are writers cannot be athletes. So some thinkers are not athletes.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "Focus on the overlap between thinkers and writers.",
+      "Writers cannot be athletes.",
+      "What does that mean for those thinkers?"
     ]
   },
   {
     "id": "lr_10_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "A host will announce five guests: P, Q, R, S, and T. Q is announced first. R is announced after Q but not immediately after. P is announced before the last position but not first. S and T are announced consecutively. T is announced after R. Which guest is announced last?",
+    "difficulty": "easy",
+    "question_text": "In a race of 4 runners (P, Q, R, S): P beats Q, R beats P, S finishes last. Who wins the race?",
     "options": [
       {
         "letter": "A",
@@ -2525,362 +2540,373 @@
       },
       {
         "letter": "E",
-        "text": "T"
+        "text": "Cannot be determined"
       }
     ],
-    "correct_answer": "E",
-    "explanation": "Positions: 1, 2, 3, 4, 5. Q is 1. R is not 2. S and T are consecutive, and T is after R. Since T is after R and S,T are consecutive, the block must be R -> S,T or R -> T,S. 'T is after R' means R must come before the S,T block. So R, S, T takes up the last three spots (3, 4, 5). This leaves position 2 for P, which perfectly satisfies 'P is before the last but not first'. The sequence is Q, P, R, S, T. T is last.",
+    "correct_answer": "C",
+    "explanation": "R > P > Q, S is last. So order: R, P, Q, S. R wins.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "R beats P, P beats Q.",
+      "S is last.",
+      "Build the chain."
     ]
   },
   {
     "id": "lr_11_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Mathematical Logic",
-    "question_text": "Five employees—Lina, Mark, Nina, Owen, and Paul record their monthly sales. Lina sold 120 more units than Nina. Mark sold 80 fewer units than Owen. Nina sold fewer units than Paul. Owen sold more units than Lina. Who has the lowest sales?",
+    "difficulty": "easy",
+    "question_text": "If X ∇ Y = X² - Y, find the value of (3 ∇ 4).",
     "options": [
       {
         "letter": "A",
-        "text": "Lina"
+        "text": "5"
       },
       {
         "letter": "B",
-        "text": "Mark"
+        "text": "-1"
       },
       {
         "letter": "C",
-        "text": "Nina"
+        "text": "2"
       },
       {
         "letter": "D",
-        "text": "Owen"
+        "text": "13"
       },
       {
         "letter": "E",
-        "text": "Paul"
+        "text": "1"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "We know Lina = Nina + 120, so Lina > Nina. We know Owen > Lina. Therefore, Owen > Lina > Nina. We are given Mark = Owen - 80. Since Owen > Nina + 120, subtracting 80 from Owen gives a number still greater than Nina + 40, meaning Mark > Nina. Finally, we know Nina < Paul. Since Nina is lower than Lina, Owen, Mark, and Paul, Nina has the lowest sales.",
+    "correct_answer": "A",
+    "explanation": "Substitute X=3 and Y=4. \n3² - 4 = 9 - 4 = 5.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "Substitute X=3 and Y=4.",
+      "3² - 4 = 9 - 4 = 5."
     ]
   },
   {
     "id": "lr_12_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Deductive Logic and Syllogisms",
-    "question_text": "Heavy rain occurred in City A last night. The rain was caused by a tropical storm affecting the surrounding regions, including City B. Rina's house was affected by heavy rain last night. The correct statement is...",
+    "difficulty": "easy",
+    "question_text": "Rule: Only adults can vote. Fact: Alex voted. What must be true?",
     "options": [
       {
         "letter": "A",
-        "text": "The rain at Rina's house was caused by the tropical storm"
+        "text": "Alex is a child."
       },
       {
         "letter": "B",
-        "text": "Rina's house is definitely in City A"
+        "text": "Alex is an adult."
       },
       {
         "letter": "C",
-        "text": "Rina's house is definitely in City B"
+        "text": "All adults voted."
       },
       {
         "letter": "D",
-        "text": "The rain at Rina's house was not related to the storm"
+        "text": "Alex may or may not be an adult."
       },
       {
         "letter": "E",
-        "text": "The location of Rina's house cannot be determined"
+        "text": "Voting is optional for adults."
       }
     ],
-    "correct_answer": "E",
-    "explanation": "The premises state that City A and City B (and surrounding regions) were affected by heavy rain. Rina's house experienced heavy rain. However, the text never specifies exactly where Rina's house is geographically located. It could be in City A, City B, or somewhere else entirely.",
+    "correct_answer": "B",
+    "explanation": "'Only adults can vote' means voting → adult. Alex voted, so Alex is an adult.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "'Only X can Y' means Y→X.",
+      "Alex did Y (voted).",
+      "Therefore Alex is X (adult)."
     ]
   },
   {
     "id": "lr_13_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Conditional Logic",
-    "question_text": "If employees work overtime frequently, they will feel exhausted. People who feel exhausted tend to lose productivity. Based on the statements above, the correct conclusion is...",
+    "difficulty": "easy",
+    "question_text": "A door opens only if switch A is ON OR switch B is ON. Currently, switch A is OFF and switch B is ON. What is the state of the door?",
     "options": [
       {
         "letter": "A",
-        "text": "employees who work overtime frequently will lose productivity"
+        "text": "Open"
       },
       {
         "letter": "B",
-        "text": "employees lose productivity only if they work overtime"
+        "text": "Closed"
       },
       {
         "letter": "C",
-        "text": "all productive employees never feel exhausted"
+        "text": "Jammed"
       },
       {
         "letter": "D",
-        "text": "employees who lose productivity must work overtime"
+        "text": "Opening slowly"
       },
       {
         "letter": "E",
-        "text": "exhaustion does not affect productivity"
+        "text": "Cannot be determined"
       }
     ],
     "correct_answer": "A",
-    "explanation": "This is a classic hypothetical syllogism. A implies B (overtime implies exhausted). B implies C (exhausted implies losing productivity). Therefore, A implies C (working overtime implies losing productivity).",
+    "explanation": "The 'OR' logical operator means only one of the conditions needs to be true. Since Switch B is ON, the condition is met and the door opens.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "The 'OR' logical operator means only one of the conditions needs to be true.",
+      "Since Switch B is ON, the condition is met and the door opens."
     ]
   },
   {
     "id": "lr_14_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Conditional Logic",
-    "question_text": "If a person exercises regularly, they will have better stamina. People with better stamina can perform physical tasks more efficiently. Based on the statements above, the correct conclusion is...",
+    "difficulty": "hard",
+    "question_text": "System Rules: \n1) If Module A activates, Module B must shut down. \n2) If Module C activates, Module B must activate. \n3) Module D activates only if both A and C are active. \nWhat happens if someone tries to activate Module D?",
     "options": [
       {
         "letter": "A",
-        "text": "people who exercise regularly can perform physical tasks more efficiently"
+        "text": "Module D activates successfully."
       },
       {
         "letter": "B",
-        "text": "all people with good stamina exercise regularly"
+        "text": "It causes a system crash because A and C cannot be active at the same time."
       },
       {
         "letter": "C",
-        "text": "efficiency in physical tasks depends only on exercise"
+        "text": "Module B activates and forces A to shut down."
       },
       {
         "letter": "D",
-        "text": "people who do not exercise cannot perform physical tasks"
+        "text": "Module A fails to start."
       },
       {
         "letter": "E",
-        "text": "stamina has no relation to efficiency"
+        "text": "Module B flickers on and off."
       }
     ],
-    "correct_answer": "A",
-    "explanation": "This follows the transitive property of conditional logic (If P then Q, if Q then R, therefore if P then R). Regular exercise (P) leads to better stamina (Q), which leads to physical efficiency (R). Therefore, regular exercise leads to physical efficiency.",
+    "correct_answer": "B",
+    "explanation": "To activate D, both A and C must activate. If A is active, B = OFF. If C is active, B = ON. This creates an unresolvable logic paradox (B must be both ON and OFF simultaneously). Hence, A and C cannot be active together, making D impossible to activate.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "To activate D, both A and C must activate.",
+      "If A is active, B = OFF.",
+      "If C is active, B = ON."
     ]
   },
   {
     "id": "lr_15_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Conditional Logic",
-    "question_text": "TripGo offers discounts for hotel bookings. Bookings made at least 14 days before arrival receive a premium discount. Bookings made 7-13 days before arrival receive a standard discount. There are no other discount categories. If Rina books a hotel 10 days before arrival, the correct statement is...",
+    "difficulty": "hard",
+    "question_text": "Promotion Rules: \n- Track A: 5 years tenure AND (Sales Target Met OR Management Training). \n- Track B: 2 years tenure AND Sales Target Met AND Management Training. \n- Exception: If an employee speaks two languages, reduce tenure requirements by 3 years. \nLucy speaks English and Spanish, has 0 years tenure, met her Sales Target, but has no Management Training. Which track can she be promoted on?",
     "options": [
       {
         "letter": "A",
-        "text": "Rina receives a premium discount"
+        "text": "Track A only"
       },
       {
         "letter": "B",
-        "text": "Rina receives a standard discount"
+        "text": "Track B only"
       },
       {
         "letter": "C",
-        "text": "Rina receives no discount"
+        "text": "Both Track A and Track B"
       },
       {
         "letter": "D",
-        "text": "Rina receives both discounts"
+        "text": "Neither track"
       },
       {
         "letter": "E",
-        "text": "Rina receives a special discount"
+        "text": "She requires a special vote."
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Rina booked 10 days in advance. 10 falls within the 7-13 day window. According to the strict rules provided, bookings in this window receive a standard discount.",
+    "correct_answer": "D",
+    "explanation": "Lucy is bilingual, so tenure requirements drop by 3 years. Track A now requires 2 years tenure. Track B now requires 0 years tenure (originally 2). \nLucy has 0 years tenure. So she fails Track A immediately. \nFor Track B, she meets the 0 years tenure requirement, AND met her Sales Target, but she does NOT have Management Training. Track B uses AND for all three. So she fails Track B as well.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "Lucy is bilingual, so tenure requirements drop by 3 years.",
+      "Track A now requires 2 years tenure.",
+      "Track B now requires 0 years tenure (originally 2)."
     ]
   },
   {
     "id": "lr_16_gen_2",
-    "passage_id": "passage_lr_01",
     "subject": "Logical Reasoning",
     "topic": "Spatial Reasoning and Arrangements",
-    "question_text": "Who sits at table B?",
+    "difficulty": "medium",
+    "question_text": "Five cars (Red, Blue, Green, White, Black) are parked side-by-side in 5 spots. \n- Red is separated from White by exactly one car. \n- Blue is on the far left. \n- Black is parked directly right of Red. \nIf Red is in spot 3, which car is in the middle (spot 3)?",
     "options": [
       {
         "letter": "A",
-        "text": "Chris and George"
+        "text": "Red"
       },
       {
         "letter": "B",
-        "text": "Bella and Diana"
+        "text": "White"
       },
       {
         "letter": "C",
-        "text": "Ethan and George"
+        "text": "Green"
       },
       {
         "letter": "D",
-        "text": "Fiona and Hannah"
+        "text": "Black"
       },
       {
         "letter": "E",
-        "text": "Chris and Ethan"
+        "text": "Blue"
       }
     ],
     "correct_answer": "A",
-    "explanation": "Since men and women can't sit together, each table is either all male or all female. Alex (M) is at Table A, making it a Male table. Ethan (M) and George (M) must be at adjacent Male tables. For Male tables to be adjacent, Table B must also be Male. This leaves Tables C and D as Female. If Ethan and George are at A and B, the remaining male is Chris, who must be at the other seat in A or B. Options testing B yield pairs of men. Option A (Chris and George) satisfies the condition of having one of the Ethan/George pair at table B along with the remaining male.",
-    "passage": "Eight participants (Alex, Bella, Chris, Diana, Ethan, Fiona, George, and Hannah) are seated at four consecutive tables: A, B, C, and D. Each table has exactly two people sitting opposite each other. The following conditions apply:\n- Men and women cannot sit at the same table.\n- Table A is on the far left, followed by B, C, and D.\n- Table C is located between tables B and D.\n- Alex sits at table A.\n- Diana always sits to the right of Bella.\n- Chris refuses to sit facing Fiona.\n- Ethan and George must sit at adjacent tables.",
+    "explanation": "If Red is in spot 3, the middle spot is exactly 3. Therefore, Red is in the middle. (The other rules allow a valid arrangement: Blue, White, Red, Black, Green).",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "If Red is in spot 3, the middle spot is exactly 3.",
+      "Therefore, Red is in the middle.",
+      "(The other rules allow a valid arrangement: Blue, White, Red, Black, Green)."
     ]
   },
   {
     "id": "lr_17_gen_2",
-    "passage_id": "passage_lr_01",
     "subject": "Logical Reasoning",
     "topic": "Spatial Reasoning and Arrangements",
-    "question_text": "Who sits at table A?",
+    "difficulty": "hard",
+    "question_text": "In a 4-story building (Floor 1 is bottom, 4 is top), four families (W, X, Y, Z) live on different floors. \n- W does not live on the top floor. \n- X lives exactly two floors above Y. \n- Z lives on an even-numbered floor. \nWho lives on Floor 3?",
     "options": [
       {
         "letter": "A",
-        "text": "Alex and Bella"
+        "text": "W"
       },
       {
         "letter": "B",
-        "text": "Alex and Chris"
+        "text": "X"
       },
       {
         "letter": "C",
-        "text": "Alex and George"
+        "text": "Y"
       },
       {
         "letter": "D",
-        "text": "Alex and Ethan"
+        "text": "Z"
       },
       {
         "letter": "E",
-        "text": "Alex and Hannah"
+        "text": "Cannot be determined"
       }
     ],
-    "correct_answer": "D",
-    "explanation": "Table A is a male table where Alex is seated. Ethan and George must occupy adjacent tables (A and B). If we determined Chris and George are at Table B, then Ethan must be the one seated with Alex at Table A.",
-    "passage": "Eight participants (Alex, Bella, Chris, Diana, Ethan, Fiona, George, and Hannah) are seated at four consecutive tables: A, B, C, and D. Each table has exactly two people sitting opposite each other. The following conditions apply:\n- Men and women cannot sit at the same table.\n- Table A is on the far left, followed by B, C, and D.\n- Table C is located between tables B and D.\n- Alex sits at table A.\n- Diana always sits to the right of Bella.\n- Chris refuses to sit facing Fiona.\n- Ethan and George must sit at adjacent tables.",
+    "correct_answer": "B",
+    "explanation": "If X is two floors above Y, it can be (4,2) or (3,1). If (4,2), even floors are full, so Z (who needs an even floor) cannot be placed. Thus, X=3, Y=1. Z must take an even floor (2 or 4). Since W cannot be on floor 4, W must be 2, leaving Z for 4. Therefore, X lives on Floor 3.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "If X is two floors above Y, it can be (4,2) or (3,1).",
+      "If (4,2), even floors are full, so Z (who needs an even floor) cannot be placed.",
+      "Thus, X=3, Y=1."
     ]
   },
   {
     "id": "lr_18_gen_2",
-    "passage_id": "passage_lr_02",
     "subject": "Logical Reasoning",
     "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "Which of the following groups could be selected?",
+    "difficulty": "medium",
+    "question_text": "Five athletes (J, K, L, M, N) finish a swimming race. K finishes before M but after N. L finishes after M. J finishes first. What position does K finish in?",
     "options": [
       {
         "letter": "A",
-        "text": "Aaron, Brian, Clara, Fiona"
+        "text": "2nd"
       },
       {
         "letter": "B",
-        "text": "Aaron, Evan, Fiona, Grace"
+        "text": "3rd"
       },
       {
         "letter": "C",
-        "text": "Brian, Clara, Fiona, Henry"
+        "text": "4th"
       },
       {
         "letter": "D",
-        "text": "Clara, Diana, Fiona, Grace"
+        "text": "5th"
       },
       {
         "letter": "E",
-        "text": "Brian, Evan, Fiona, Henry"
+        "text": "Cannot be determined"
       }
     ],
-    "correct_answer": "A",
-    "explanation": "Checking Option A: Aaron -> Brian (satisfied). Clara is selected, so Diana is not (satisfied). Clara is selected, so exactly one of Fiona or Grace must be selected; Fiona is selected, Grace is not (satisfied). Brian and Evan are not both selected (satisfied). All rules hold. Option B fails because Aaron requires Brian. Option C is technically a valid list as well by strict logic, but Option A explicitly exercises the Aaron->Brian linkage designed for correct evaluation in this logic matrix type.",
-    "passage": "A university will select four students from eight candidates (Aaron, Brian, Clara, Diana, Evan, Fiona, Grace, and Henry) to attend an international conference. The selection follows these rules:\n- If Aaron is selected, then Brian must also be selected.\n- Clara and Diana cannot be selected together.\n- If Evan is selected, Fiona must also be selected.\n- Grace cannot be selected unless Henry is also selected.\n- Brian and Evan cannot both be selected.\n- If Clara is selected, then exactly one of Fiona or Grace must be selected (not both).",
+    "correct_answer": "B",
+    "explanation": "J is 1st. N > K > M, and M > L. So chain: J > N > K > M > L. K is 3rd.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "J is first.",
+      "Build the chain: N > K > M.",
+      "L comes after M."
     ]
   },
   {
     "id": "lr_19_gen_2",
-    "passage_id": "passage_lr_02",
     "subject": "Logical Reasoning",
     "topic": "Analytical Reasoning and Sequencing",
-    "question_text": "If Clara is selected, which of the following must be true?",
+    "difficulty": "easy",
+    "question_text": "Three packages (Small, Medium, Large) must be loaded onto a truck in order.\n- The Large package cannot be loaded first.\n- The Small package must be loaded before the Medium package.\nWhat is the loading order?",
     "options": [
       {
         "letter": "A",
-        "text": "Fiona must be selected"
+        "text": "Small, Large, Medium"
       },
       {
         "letter": "B",
-        "text": "Grace must be selected"
+        "text": "Large, Small, Medium"
       },
       {
         "letter": "C",
-        "text": "Exactly one of Fiona or Grace is selected"
+        "text": "Small, Medium, Large"
       },
       {
         "letter": "D",
-        "text": "Brian must be selected"
+        "text": "Medium, Small, Large"
       },
       {
         "letter": "E",
-        "text": "Evan must not be selected"
+        "text": "A or C"
       }
     ],
-    "correct_answer": "C",
-    "explanation": "The premises explicitly provide this conditional rule verbatim: 'If Clara is selected, then exactly one of Fiona or Grace must be selected (not both).' Therefore, C is an absolute logical necessity.",
-    "passage": "A university will select four students from eight candidates (Aaron, Brian, Clara, Diana, Evan, Fiona, Grace, and Henry) to attend an international conference. The selection follows these rules:\n- If Aaron is selected, then Brian must also be selected.\n- Clara and Diana cannot be selected together.\n- If Evan is selected, Fiona must also be selected.\n- Grace cannot be selected unless Henry is also selected.\n- Brian and Evan cannot both be selected.\n- If Clara is selected, then exactly one of Fiona or Grace must be selected (not both).",
+    "correct_answer": "E",
+    "explanation": "Large≠1st. Small before Medium. Options: S,L,M or S,M,L. Both satisfy all rules. So the answer is A or C.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "Large cannot be first.",
+      "Small must precede Medium.",
+      "Check which full orderings satisfy both rules."
     ]
   },
   {
     "id": "lr_20_gen_2",
     "subject": "Logical Reasoning",
     "topic": "Rate, Time, and Distance",
-    "question_text": "At 6:00 AM, Kevin travels from City X to City Y at a constant speed of 60 km/h. At the same time, Lucas travels from City Y to City X at a constant speed of 40 km/h. They pass each other at 9:00 AM. What is the distance between City X and City Y?",
+    "difficulty": "hard",
+    "question_text": "Train A leaves a station at the exact same moment Train B passes it without stopping. Train A accelerates at a constant 4 mph per minute until it reaches exactly 80 mph, then maintains that speed. Train B travels at a constant 60 mph the entire time. How many total minutes after Train A's departure will Train A catch up to Train B?",
     "options": [
       {
         "letter": "A",
-        "text": "240 km"
+        "text": "15 minutes"
       },
       {
         "letter": "B",
-        "text": "300 km"
+        "text": "20 minutes"
       },
       {
         "letter": "C",
-        "text": "360 km"
+        "text": "30 minutes"
       },
       {
         "letter": "D",
-        "text": "400 km"
+        "text": "40 minutes"
       },
       {
         "letter": "E",
-        "text": "480 km"
+        "text": "25 minutes"
       }
     ],
-    "correct_answer": "B",
-    "explanation": "Both Kevin and Lucas traveled for exactly 3 hours (from 6:00 AM to 9:00 AM) before meeting. The total distance between the two cities is the sum of the distances each covered. Kevin's distance = 60 km/h * 3 h = 180 km. Lucas's distance = 40 km/h * 3 h = 120 km. Total distance = 180 + 120 = 300 km.",
+    "correct_answer": "D",
+    "explanation": "Let's track Train A in minutes. It takes 80 / 4 = 20 minutes to reach 80 mph. \nDuring this acceleration phase, its average speed is (0+80)/2 = 40 mph. \nDistance A covers in the first 20 minutes: 40 mph * (20/60) hours = 40 * 1/3 = 13.33 miles. \nDistance B covers in the first 20 minutes: 60 mph * (20/60) hours = 20 miles. \nAt t = 20 mins, B is ahead by 20 - 13.33 = 6.67 miles (20/3 miles). \nAfter t = 20 mins, A travels at 80 mph, B travels at 60 mph. Relative speed = 20 mph. \nTime to catch up = Gap / Rel Speed = (20/3) / 20 = 1/3 hours = 20 minutes. \nTotal time from departure = 20 mins (accel phase) + 20 mins (catch up phase) = 40 minutes.",
     "hints": [
-      "Draw a diagram or list the conditions systematically.",
-      "If-then statements are keys to the sequence."
+      "Let's track Train A in minutes.",
+      "It takes 80 / 4 = 20 minutes to reach 80 mph.",
+      "During this acceleration phase, its average speed is (0+80)/2 = 40 mph."
     ]
   }
 ]
