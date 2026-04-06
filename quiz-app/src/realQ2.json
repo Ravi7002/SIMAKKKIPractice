@@ -747,7 +747,17 @@
             }
         ],
         "correct_answer": "E",
-        "explanation": "Let's calculate the absolute numbers. Vegan high-weight-loss is 40% of 200, which is 80 people. The probability of selecting one of these people from the total 500 is 80/500 = 0.16 or 16%. Therefore, E is true. Option A is false because total high-weight-loss people = 75 (Keto) + 80 (Vegan) + 90 (Paleo) = 245, and 90/245 is not 50%. B is false because exactly 20% of the total have low weight loss. C is false because there are 80 Medium Vegans vs 45 Medium Ketos."
+        "explanation": "Let's calculate the absolute numbers. Vegan high-weight-loss is 40% of 200, which is 80 people. The probability of selecting one of these people from the total 500 is 80/500 = 0.16 or 16%. Therefore, E is true. Option A is false because total high-weight-loss people = 75 (Keto) + 80 (Vegan) + 90 (Paleo) = 245, and 90/245 is not 50%. B is false because exactly 20% of the total have low weight loss. C is false because there are 80 Medium Vegans vs 45 Medium Ketos.",
+        "chart_data": {
+            "type": "bar",
+            "title": "Weight Loss by Diet Method",
+            "labels": ["Keto", "Vegan", "Paleo"],
+            "datasets": [
+                {"label": "Low", "values": [30, 40, 30]},
+                {"label": "Medium", "values": [45, 80, 30]},
+                {"label": "High", "values": [75, 80, 90]}
+            ]
+        }
     },
     {
         "id": "quant_06",
@@ -777,7 +787,16 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "Let's define 'performance' as net profit (Revenue - Expenses). For Q1 (Jan-Mar), profit = (150-50) + (180-60) + (160-80) = 100 + 120 + 80 = 300. For Q2 (Apr-Jun), profit = (140-40) + (190-70) + (170-60) = 100 + 120 + 110 = 330. Since Q2's performance (330) is better than Q1's (300), statement C is false. Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $990 \\times 10\\% = 99$, C is clearly the intended logic failure."
+        "explanation": "Let's define 'performance' as net profit (Revenue - Expenses). For Q1 (Jan-Mar), profit = (150-50) + (180-60) + (160-80) = 100 + 120 + 80 = 300. For Q2 (Apr-Jun), profit = (140-40) + (190-70) + (170-60) = 100 + 120 + 110 = 330. Since Q2's performance (330) is better than Q1's (300), statement C is false. Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $990 \\times 10\\% = 99$, C is clearly the intended logic failure.",
+        "chart_data": {
+            "type": "line",
+            "title": "Company Revenue vs Expenses (kUSD)",
+            "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+            "datasets": [
+                {"label": "Revenue", "values": [150, 180, 160, 140, 190, 170]},
+                {"label": "Expenses", "values": [50, 60, 80, 40, 70, 60]}
+            ]
+        }
     },
     {
         "id": "quant_07",
@@ -957,7 +976,16 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "Total number of people = 40+20+30+30+20+60 = 200. We want the probability of Female OR Healthcare. Total Females = 20 + 30 + 60 = 110. Total Healthcare workers = 20 + 60 = 80. Females in Healthcare (the overlap) = 60. Using the principle of inclusion-exclusion: P(F U H) = (110 + 80 - 60) / 200 = 130 / 200 = 0.65."
+        "explanation": "Total number of people = 40+20+30+30+20+60 = 200. We want the probability of Female OR Healthcare. Total Females = 20 + 30 + 60 = 110. Total Healthcare workers = 20 + 60 = 80. Females in Healthcare (the overlap) = 60. Using the principle of inclusion-exclusion: P(F U H) = (110 + 80 - 60) / 200 = 130 / 200 = 0.65.",
+        "chart_data": {
+            "type": "bar",
+            "title": "Employment Sectors",
+            "labels": ["Technology", "Finance", "Healthcare"],
+            "datasets": [
+                {"label": "Male", "values": [40, 30, 20]},
+                {"label": "Female", "values": [20, 30, 60]}
+            ]
+        }
     },
     {
         "id": "quant_13",
@@ -1201,6 +1229,7 @@
     },
     {
         "id": "english_01",
+        "passage_id": "eng_passage_01",
         "subject": "English",
         "topic": "Reading Comprehension",
         "question_text": "Which of the following is the best title for the text?",
@@ -1227,10 +1256,12 @@
             }
         ],
         "correct_answer": "B",
-        "explanation": "The text focuses entirely on Marcus Reed's difficulties adapting to Berlin's modern, app-heavy transit system compared to the physical tickets he prepared for. Option B perfectly encapsulates this main idea and narrative arc."
+        "explanation": "The text focuses entirely on Marcus Reed's difficulties adapting to Berlin's modern, app-heavy transit system compared to the physical tickets he prepared for. Option B perfectly encapsulates this main idea and narrative arc.",
+        "passage": "Marcus Reed carefully planned his business trip to Berlin, expecting to use the local rail system using physical tickets purchased at the stations. However, upon arrival, he quickly realized that most commuters, especially in the central districts, preferred using integrated mobile applications. From tram stops to major train hubs, digital QR codes were the standard. Although Marcus had prepared enough Euro coins for ticket machines, he often found himself unable to use them as many machines were card-only or out of service. In several instances, he had to download multiple apps on the spot, which resulted in significant data roaming charges. Moreover, some express routes required a specific digital reservation that he had not secured prior to his trip. Germany has been steadily modernizing its transit infrastructure, particularly to streamline urban mobility and reduce paper waste. While this shift offers speed and coordination, it also presents hurdles for travelers accustomed to traditional methods. Some urban planners suggest that a hybrid system, maintaining accessible physical kiosks alongside digital platforms, would better accommodate international visitors."
     },
     {
         "id": "english_02",
+        "passage_id": "eng_passage_01",
         "subject": "English",
         "topic": "Grammar and Tenses",
         "question_text": "In the sentence: 'which he had not secured prior to his trip,' the phrase 'had not secured' indicates that the action:",
@@ -1257,10 +1288,12 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "The phrase uses the past perfect tense ('had secured'), which is specifically used in English grammar to describe an action that was completed (or in this negative case, failed to be completed) before another specific event in the past (his arrival on the trip)."
+        "explanation": "The phrase uses the past perfect tense ('had secured'), which is specifically used in English grammar to describe an action that was completed (or in this negative case, failed to be completed) before another specific event in the past (his arrival on the trip).",
+        "passage": "Marcus Reed carefully planned his business trip to Berlin, expecting to use the local rail system using physical tickets purchased at the stations. However, upon arrival, he quickly realized that most commuters, especially in the central districts, preferred using integrated mobile applications. From tram stops to major train hubs, digital QR codes were the standard. Although Marcus had prepared enough Euro coins for ticket machines, he often found himself unable to use them as many machines were card-only or out of service. In several instances, he had to download multiple apps on the spot, which resulted in significant data roaming charges. Moreover, some express routes required a specific digital reservation that he had not secured prior to his trip. Germany has been steadily modernizing its transit infrastructure, particularly to streamline urban mobility and reduce paper waste. While this shift offers speed and coordination, it also presents hurdles for travelers accustomed to traditional methods. Some urban planners suggest that a hybrid system, maintaining accessible physical kiosks alongside digital platforms, would better accommodate international visitors."
     },
     {
         "id": "english_03",
+        "passage_id": "eng_passage_01",
         "subject": "English",
         "topic": "Paragraph Cohesion and Structure",
         "question_text": "The author discusses the modernization of transit infrastructure in...",
@@ -1287,10 +1320,12 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "While paragraphs 1 and 2 describe Marcus's personal experiences with the digital elements, the explicit discussion of Germany's broader national efforts to 'modernize its transit infrastructure' to streamline mobility occurs entirely in the third paragraph."
+        "explanation": "While paragraphs 1 and 2 describe Marcus's personal experiences with the digital elements, the explicit discussion of Germany's broader national efforts to 'modernize its transit infrastructure' to streamline mobility occurs entirely in the third paragraph.",
+        "passage": "Marcus Reed carefully planned his business trip to Berlin, expecting to use the local rail system using physical tickets purchased at the stations. However, upon arrival, he quickly realized that most commuters, especially in the central districts, preferred using integrated mobile applications. From tram stops to major train hubs, digital QR codes were the standard. Although Marcus had prepared enough Euro coins for ticket machines, he often found himself unable to use them as many machines were card-only or out of service. In several instances, he had to download multiple apps on the spot, which resulted in significant data roaming charges. Moreover, some express routes required a specific digital reservation that he had not secured prior to his trip. Germany has been steadily modernizing its transit infrastructure, particularly to streamline urban mobility and reduce paper waste. While this shift offers speed and coordination, it also presents hurdles for travelers accustomed to traditional methods. Some urban planners suggest that a hybrid system, maintaining accessible physical kiosks alongside digital platforms, would better accommodate international visitors."
     },
     {
         "id": "english_04",
+        "passage_id": "eng_passage_01",
         "subject": "English",
         "topic": "Paragraph Cohesion and Structure",
         "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
@@ -1317,10 +1352,12 @@
             }
         ],
         "correct_answer": "B",
-        "explanation": "Paragraph 2 describes Marcus's specific negative experiences with the transit system apps. Paragraph 3 zooms out to explain the broader national policy (modernization to reduce waste) that is the underlying cause for the digital shift Marcus is experiencing."
+        "explanation": "Paragraph 2 describes Marcus's specific negative experiences with the transit system apps. Paragraph 3 zooms out to explain the broader national policy (modernization to reduce waste) that is the underlying cause for the digital shift Marcus is experiencing.",
+        "passage": "Marcus Reed carefully planned his business trip to Berlin, expecting to use the local rail system using physical tickets purchased at the stations. However, upon arrival, he quickly realized that most commuters, especially in the central districts, preferred using integrated mobile applications. From tram stops to major train hubs, digital QR codes were the standard. Although Marcus had prepared enough Euro coins for ticket machines, he often found himself unable to use them as many machines were card-only or out of service. In several instances, he had to download multiple apps on the spot, which resulted in significant data roaming charges. Moreover, some express routes required a specific digital reservation that he had not secured prior to his trip. Germany has been steadily modernizing its transit infrastructure, particularly to streamline urban mobility and reduce paper waste. While this shift offers speed and coordination, it also presents hurdles for travelers accustomed to traditional methods. Some urban planners suggest that a hybrid system, maintaining accessible physical kiosks alongside digital platforms, would better accommodate international visitors."
     },
     {
         "id": "english_05",
+        "passage_id": "eng_passage_02",
         "subject": "English",
         "topic": "Vocabulary in Context",
         "question_text": "Fill in the blank for (a): In (a), entire ecosystems may face collapse if protective strategies are not implemented.",
@@ -1347,10 +1384,12 @@
             }
         ],
         "correct_answer": "B",
-        "explanation": "The idiom 'a matter of time' fits the context of an impending, inevitable consequence. The sentence implies that if we do nothing, it is only a matter of time before ecosystems collapse due to the accelerated decrease of bee colonies."
+        "explanation": "The idiom 'a matter of time' fits the context of an impending, inevitable consequence. The sentence implies that if we do nothing, it is only a matter of time before ecosystems collapse due to the accelerated decrease of bee colonies.",
+        "passage": "A recent study by biologists suggests that the decline in pollinator populations could significantly threaten global food security within the next few decades. Advanced models indicate that habitat loss and excessive pesticide use will accelerate the decrease of bee colonies in agricultural regions. In (a), entire ecosystems may face collapse if protective strategies are not implemented. Researchers explain that as temperatures fluctuate due to climate change, flowers bloom at unpredictable times, making it harder for insects to find food. This process is further intensified by urbanization, which replaces natural meadows with concrete structures. These conditions make survival more difficult and threaten biodiversity. In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows. However, the speed of modern industrial farming may exceed the ability of nature to recover. Without immediate intervention, many food chains could experience irreversible damage."
     },
     {
         "id": "english_06",
+        "passage_id": "eng_passage_02",
         "subject": "English",
         "topic": "Paragraph Cohesion and Structure",
         "question_text": "The sentence: 'Humanity has historically relied on the stability of natural cycles, but the current rate of ecological shift presents unprecedented challenges.' should be placed as the...",
@@ -1377,10 +1416,12 @@
             }
         ],
         "correct_answer": "A",
-        "explanation": "This sentence acts as a perfect introductory hook. It establishes the broad historical context of humanity's reliance on nature and introduces the 'unprecedented challenges', setting the stage perfectly for the specific study on pollinators mentioned in paragraph 1."
+        "explanation": "This sentence acts as a perfect introductory hook. It establishes the broad historical context of humanity's reliance on nature and introduces the 'unprecedented challenges', setting the stage perfectly for the specific study on pollinators mentioned in paragraph 1.",
+        "passage": "A recent study by biologists suggests that the decline in pollinator populations could significantly threaten global food security within the next few decades. Advanced models indicate that habitat loss and excessive pesticide use will accelerate the decrease of bee colonies in agricultural regions. In (a), entire ecosystems may face collapse if protective strategies are not implemented. Researchers explain that as temperatures fluctuate due to climate change, flowers bloom at unpredictable times, making it harder for insects to find food. This process is further intensified by urbanization, which replaces natural meadows with concrete structures. These conditions make survival more difficult and threaten biodiversity. In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows. However, the speed of modern industrial farming may exceed the ability of nature to recover. Without immediate intervention, many food chains could experience irreversible damage."
     },
     {
         "id": "english_07",
+        "passage_id": "eng_passage_02",
         "subject": "English",
         "topic": "Grammar and Tenses",
         "question_text": "Fill in the blank for (b): In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows.",
@@ -1407,10 +1448,12 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "The sentence refers to actions completed in a historical period ('In the past...') that contrast with modern industrial farming. The past perfect tense 'had adapted' correctly indicates proactive strategies that were firmly established and utilized in earlier eras."
+        "explanation": "The sentence refers to actions completed in a historical period ('In the past...') that contrast with modern industrial farming. The past perfect tense 'had adapted' correctly indicates proactive strategies that were firmly established and utilized in earlier eras.",
+        "passage": "A recent study by biologists suggests that the decline in pollinator populations could significantly threaten global food security within the next few decades. Advanced models indicate that habitat loss and excessive pesticide use will accelerate the decrease of bee colonies in agricultural regions. In (a), entire ecosystems may face collapse if protective strategies are not implemented. Researchers explain that as temperatures fluctuate due to climate change, flowers bloom at unpredictable times, making it harder for insects to find food. This process is further intensified by urbanization, which replaces natural meadows with concrete structures. These conditions make survival more difficult and threaten biodiversity. In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows. However, the speed of modern industrial farming may exceed the ability of nature to recover. Without immediate intervention, many food chains could experience irreversible damage."
     },
     {
         "id": "english_08",
+        "passage_id": "eng_passage_02",
         "subject": "English",
         "topic": "Reading Comprehension",
         "question_text": "Which of the following best expresses the author's message?",
@@ -1437,10 +1480,12 @@
             }
         ],
         "correct_answer": "B",
-        "explanation": "The text heavily focuses on the severe threat of pollinator decline due to habitat loss and pesticides, explicitly warning that 'the speed of modern industrial farming may exceed the ability of nature to recover.'"
+        "explanation": "The text heavily focuses on the severe threat of pollinator decline due to habitat loss and pesticides, explicitly warning that 'the speed of modern industrial farming may exceed the ability of nature to recover.'",
+        "passage": "A recent study by biologists suggests that the decline in pollinator populations could significantly threaten global food security within the next few decades. Advanced models indicate that habitat loss and excessive pesticide use will accelerate the decrease of bee colonies in agricultural regions. In (a), entire ecosystems may face collapse if protective strategies are not implemented. Researchers explain that as temperatures fluctuate due to climate change, flowers bloom at unpredictable times, making it harder for insects to find food. This process is further intensified by urbanization, which replaces natural meadows with concrete structures. These conditions make survival more difficult and threaten biodiversity. In the past, agricultural communities (b) by planting diverse crops or by maintaining natural hedgerows. However, the speed of modern industrial farming may exceed the ability of nature to recover. Without immediate intervention, many food chains could experience irreversible damage."
     },
     {
         "id": "english_09",
+        "passage_id": "eng_passage_03",
         "subject": "English",
         "topic": "Reading Comprehension",
         "question_text": "The text is addressed especially to...",
@@ -1467,10 +1512,12 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "The advice given—such as using unique passwords, enabling multi-factor authentication, avoiding suspicious links, and keeping devices updated—is standard, fundamental cybersecurity hygiene intended for everyday, general internet users rather than IT specialists."
+        "explanation": "The advice given (such as using unique passwords, enabling multi-factor authentication, avoiding suspicious links, and keeping devices updated) is standard, fundamental cybersecurity hygiene intended for everyday, general internet users rather than IT specialists.",
+        "passage": "Start by securing your digital identity wisely. Before signing up for any online services, it is important to understand how your data is used. Creating complex, unique passwords for each account can help you prevent unauthorized access and identify potential security breaches. By doing this, you can protect your personal information more effectively. Next, focus on building good security habits. This includes enabling multi-factor authentication whenever possible, even if it feels like an extra step. Over time, these small actions can provide a strong defense against cyber threats. It is also helpful to avoid clicking on suspicious links and prioritize verified sources. Finally, consider updating your software regularly. Keeping your devices up to date will provide the latest security patches. Whether it is for social media, banking, or work, having a proactive approach will make it easier to stay safe online."
     },
     {
         "id": "english_10",
+        "passage_id": "eng_passage_03",
         "subject": "English",
         "topic": "Reading Comprehension",
         "question_text": "What is the first step in securing digital identity according to the text?",
@@ -1497,10 +1544,12 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "The passage explicitly outlines this in the opening sequence: 'Start by securing your digital identity wisely. Before signing up for any online services, it is important to understand how your data is used.'"
+        "explanation": "The passage explicitly outlines this in the opening sequence: 'Start by securing your digital identity wisely. Before signing up for any online services, it is important to understand how your data is used.'",
+        "passage": "Start by securing your digital identity wisely. Before signing up for any online services, it is important to understand how your data is used. Creating complex, unique passwords for each account can help you prevent unauthorized access and identify potential security breaches. By doing this, you can protect your personal information more effectively. Next, focus on building good security habits. This includes enabling multi-factor authentication whenever possible, even if it feels like an extra step. Over time, these small actions can provide a strong defense against cyber threats. It is also helpful to avoid clicking on suspicious links and prioritize verified sources. Finally, consider updating your software regularly. Keeping your devices up to date will provide the latest security patches. Whether it is for social media, banking, or work, having a proactive approach will make it easier to stay safe online."
     },
     {
         "id": "english_11",
+        "passage_id": "eng_passage_04",
         "subject": "English",
         "topic": "Reading Comprehension",
         "question_text": "The author's attitude regarding communication challenges is...",
@@ -1527,10 +1576,12 @@
             }
         ],
         "correct_answer": "B",
-        "explanation": "The author realistically acknowledges that some elements of communication are out of a person's control (like technical glitches) but maintains a practical, proactive stance on what *can* be controlled (such as your own response and empathy)."
+        "explanation": "The author realistically acknowledges that some elements of communication are out of a person's control (like technical glitches) but maintains a practical, proactive stance on what *can* be controlled (such as your own response and empathy).",
+        "passage": "Communicating effectively is an essential skill in both personal and professional interactions. However, not all aspects of communication are within a person's control. Misunderstandings, such as cultural differences or technical glitches in digital tools, can disrupt even the most clear messages. Despite these challenges, individuals can still take steps to improve how they interact. For instance, practicing active listening and asking clarifying questions can help maintain clarity. Although you cannot control how everyone interprets your words, you can control how you (13) to them. In addition, developing empathy plays a key role in effective communication. Understanding different perspectives allows for better collaboration. However, it is important to remain patient, as building trust takes time in complex environments."
     },
     {
         "id": "english_12",
+        "passage_id": "eng_passage_04",
         "subject": "English",
         "topic": "Paragraph Cohesion and Structure",
         "question_text": "What is the relationship between the ideas in paragraph 2 and paragraph 3?",
@@ -1557,10 +1608,12 @@
             }
         ],
         "correct_answer": "A",
-        "explanation": "Paragraph 2 introduces the idea that individuals can take proactive steps/strategies to improve communication despite challenges. Paragraph 3 builds directly on this theme by detailing an additional strategy (developing empathy) to further enhance interaction."
+        "explanation": "Paragraph 2 introduces the idea that individuals can take proactive steps/strategies to improve communication despite challenges. Paragraph 3 builds directly on this theme by detailing an additional strategy (developing empathy) to further enhance interaction.",
+        "passage": "Communicating effectively is an essential skill in both personal and professional interactions. However, not all aspects of communication are within a person's control. Misunderstandings, such as cultural differences or technical glitches in digital tools, can disrupt even the most clear messages. Despite these challenges, individuals can still take steps to improve how they interact. For instance, practicing active listening and asking clarifying questions can help maintain clarity. Although you cannot control how everyone interprets your words, you can control how you (13) to them. In addition, developing empathy plays a key role in effective communication. Understanding different perspectives allows for better collaboration. However, it is important to remain patient, as building trust takes time in complex environments."
     },
     {
         "id": "english_13",
+        "passage_id": "eng_passage_04",
         "subject": "English",
         "topic": "Grammar and Tenses",
         "question_text": "Fill in the blank: ...you can control how you (13) to them.",
@@ -1587,10 +1640,12 @@
             }
         ],
         "correct_answer": "A",
-        "explanation": "The subject is 'you,' which pairs with the base form of the verb in present tense. Since the sentence expresses a general, ongoing truth about personal control, the simple present tense 'respond' is grammatically correct."
+        "explanation": "The subject is 'you,' which pairs with the base form of the verb in present tense. Since the sentence expresses a general, ongoing truth about personal control, the simple present tense 'respond' is grammatically correct.",
+        "passage": "Communicating effectively is an essential skill in both personal and professional interactions. However, not all aspects of communication are within a person's control. Misunderstandings, such as cultural differences or technical glitches in digital tools, can disrupt even the most clear messages. Despite these challenges, individuals can still take steps to improve how they interact. For instance, practicing active listening and asking clarifying questions can help maintain clarity. Although you cannot control how everyone interprets your words, you can control how you (13) to them. In addition, developing empathy plays a key role in effective communication. Understanding different perspectives allows for better collaboration. However, it is important to remain patient, as building trust takes time in complex environments."
     },
     {
         "id": "english_14",
+        "passage_id": "eng_passage_05",
         "subject": "English",
         "topic": "Paragraph Cohesion and Structure",
         "question_text": "The sentence which is irrelevant to the topic of the paragraph is...",
@@ -1617,10 +1672,12 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "The entire paragraph is strictly focused on Electric Vehicles (EVs), their technology, and adoption. Sentence 5, which discusses people enjoying traditional fast food while traveling, completely breaks the thematic cohesion of the passage."
+        "explanation": "The entire paragraph is strictly focused on Electric Vehicles (EVs), their technology, and adoption. Sentence 5, which discusses people enjoying traditional fast food while traveling, completely breaks the thematic cohesion of the passage.",
+        "passage": "(1) Electric vehicles (EVs) are becoming a central part of the global effort to reduce carbon emissions. (2) They work by using electricity stored in large batteries to power an electric motor. (3) Many governments are offering incentives to encourage citizens to switch from gasoline cars to EVs. (4) Charging stations are being installed in major cities to support the growing number of drivers. (5) However, some people still enjoy the taste of traditional fast food while traveling. (6) The time required to charge a battery is one of the main concerns for potential buyers. (7) Advances in battery technology continue to decrease charging times and increase driving range. (8) As a result, EVs are expected to dominate the automotive market in the coming decades."
     },
     {
         "id": "english_15",
+        "passage_id": "eng_passage_05",
         "subject": "English",
         "topic": "Reading Comprehension",
         "question_text": "What is the topic of the paragraph?",
@@ -1647,10 +1704,12 @@
             }
         ],
         "correct_answer": "B",
-        "explanation": "Aside from the one irrelevant sentence, every line in the paragraph details the shift toward electric vehicles, how their batteries work, government incentives to adopt them, and charging infrastructure."
+        "explanation": "Aside from the one irrelevant sentence, every line in the paragraph details the shift toward electric vehicles, how their batteries work, government incentives to adopt them, and charging infrastructure.",
+        "passage": "(1) Electric vehicles (EVs) are becoming a central part of the global effort to reduce carbon emissions. (2) They work by using electricity stored in large batteries to power an electric motor. (3) Many governments are offering incentives to encourage citizens to switch from gasoline cars to EVs. (4) Charging stations are being installed in major cities to support the growing number of drivers. (5) However, some people still enjoy the taste of traditional fast food while traveling. (6) The time required to charge a battery is one of the main concerns for potential buyers. (7) Advances in battery technology continue to decrease charging times and increase driving range. (8) As a result, EVs are expected to dominate the automotive market in the coming decades."
     },
     {
         "id": "english_16",
+        "passage_id": "eng_passage_06",
         "subject": "English",
         "topic": "Reading Comprehension",
         "question_text": "What can be inferred from paragraph 1?",
@@ -1677,10 +1736,12 @@
             }
         ],
         "correct_answer": "B",
-        "explanation": "The paragraph notes that plants 'compete fiercely' and details how taller trees will intentionally 'shade out smaller competitors, effectively starving them of light.' This proves that competition directly leads to behaviors that inhibit the growth of rivals."
+        "explanation": "The paragraph notes that plants 'compete fiercely' and details how taller trees will intentionally 'shade out smaller competitors, effectively starving them of light.' This proves that competition directly leads to behaviors that inhibit the growth of rivals.",
+        "passage": "Contrary to the idea that plants are passive organisms, they often engage in complex survival strategies. In certain environments, plants must compete fiercely for sunlight, water, and soil nutrients. For example, some trees grow much taller and wider to shade out smaller competitors, effectively starving them of light. This behavior increases the chances of growth for the dominant tree. In addition, some plants adapt by producing chemical defenses. Certain species release toxins into the soil to prevent other seeds from germinating nearby, while others develop thorns or bitter tastes to deter herbivores. These survival mechanisms highlight how nature is driven by resource acquisition. Researchers continue to study these interactions to better understand forest dynamics. While these actions might seem aggressive, they are essential for the plant's continued existence in a crowded ecosystem."
     },
     {
         "id": "english_17",
+        "passage_id": "eng_passage_06",
         "subject": "English",
         "topic": "Reading Comprehension",
         "question_text": "The purpose of this passage is to...",
@@ -1707,10 +1768,12 @@
             }
         ],
         "correct_answer": "B",
-        "explanation": "The passage immediately refutes the idea that plants are 'passive' and then spends the text listing various active survival mechanisms (like shading out competitors and releasing chemical defenses) to show how dynamically they fight to survive."
+        "explanation": "The passage immediately refutes the idea that plants are 'passive' and then spends the text listing various active survival mechanisms (like shading out competitors and releasing chemical defenses) to show how dynamically they fight to survive.",
+        "passage": "Contrary to the idea that plants are passive organisms, they often engage in complex survival strategies. In certain environments, plants must compete fiercely for sunlight, water, and soil nutrients. For example, some trees grow much taller and wider to shade out smaller competitors, effectively starving them of light. This behavior increases the chances of growth for the dominant tree. In addition, some plants adapt by producing chemical defenses. Certain species release toxins into the soil to prevent other seeds from germinating nearby, while others develop thorns or bitter tastes to deter herbivores. These survival mechanisms highlight how nature is driven by resource acquisition. Researchers continue to study these interactions to better understand forest dynamics. While these actions might seem aggressive, they are essential for the plant's continued existence in a crowded ecosystem."
     },
     {
         "id": "english_18",
+        "passage_id": "eng_passage_06",
         "subject": "English",
         "topic": "Reading Comprehension",
         "question_text": "What is the tone of the text?",
@@ -1737,10 +1800,12 @@
             }
         ],
         "correct_answer": "B",
-        "explanation": "The author uses an objective, educational tone to present biological facts about plant competition and chemical defenses. The text is straightforward and lacks emotional language, humor, or explicit judgment."
+        "explanation": "The author uses an objective, educational tone to present biological facts about plant competition and chemical defenses. The text is straightforward and lacks emotional language, humor, or explicit judgment.",
+        "passage": "Contrary to the idea that plants are passive organisms, they often engage in complex survival strategies. In certain environments, plants must compete fiercely for sunlight, water, and soil nutrients. For example, some trees grow much taller and wider to shade out smaller competitors, effectively starving them of light. This behavior increases the chances of growth for the dominant tree. In addition, some plants adapt by producing chemical defenses. Certain species release toxins into the soil to prevent other seeds from germinating nearby, while others develop thorns or bitter tastes to deter herbivores. These survival mechanisms highlight how nature is driven by resource acquisition. Researchers continue to study these interactions to better understand forest dynamics. While these actions might seem aggressive, they are essential for the plant's continued existence in a crowded ecosystem."
     },
     {
         "id": "english_19",
+        "passage_id": "eng_passage_07",
         "subject": "English",
         "topic": "Reading Comprehension",
         "question_text": "The most appropriate title for the text is...",
@@ -1767,10 +1832,12 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "The text focuses specifically on the physical hurdles of providing medical care in rural areas and explains how implementing digital connectivity ('telemedicine initiatives') successfully provides high-level specialist care."
+        "explanation": "The text focuses specifically on the physical hurdles of providing medical care in rural areas and explains how implementing digital connectivity ('telemedicine initiatives') successfully provides high-level specialist care.",
+        "passage": "Providing quality healthcare in remote areas is a significant hurdle. Many local clinics lack modern equipment, reliable electricity, and specialized medical staff. As a result, residents often face poor health outcomes, which affects their overall quality of life. However, recent telemedicine initiatives have shown that digital connectivity can lead to meaningful progress. In one region, a health organization provided satellite internet to clinics, but with a specific rule: the technology had to be used for specialist consultations. Instead of just treating minor injuries, clinics were encouraged to connect patients with doctors in large cities for complex diagnoses. To ensure success, experts monitored the frequency and quality of these digital calls. They evaluated patient recovery rates and the accuracy of remote prescriptions. The results showed that many patients received life-saving advice that was previously unavailable. This proves that smart technology and targeted usage can bridge the gap in healthcare, even with limited local infrastructure."
     },
     {
         "id": "english_20",
+        "passage_id": "eng_passage_07",
         "subject": "English",
         "topic": "Reading Comprehension",
         "question_text": "The purpose of the writer in writing this article is probably to...",
@@ -1797,7 +1864,8 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "The author outlines how a specific, targeted use of satellite internet for specialist consultations led to life-saving outcomes. The final sentence wraps up this thesis: 'This proves that smart technology and targeted usage can bridge the gap in healthcare.'"
+        "explanation": "The author outlines how a specific, targeted use of satellite internet for specialist consultations led to life-saving outcomes. The final sentence wraps up this thesis: 'This proves that smart technology and targeted usage can bridge the gap in healthcare.'",
+        "passage": "Providing quality healthcare in remote areas is a significant hurdle. Many local clinics lack modern equipment, reliable electricity, and specialized medical staff. As a result, residents often face poor health outcomes, which affects their overall quality of life. However, recent telemedicine initiatives have shown that digital connectivity can lead to meaningful progress. In one region, a health organization provided satellite internet to clinics, but with a specific rule: the technology had to be used for specialist consultations. Instead of just treating minor injuries, clinics were encouraged to connect patients with doctors in large cities for complex diagnoses. To ensure success, experts monitored the frequency and quality of these digital calls. They evaluated patient recovery rates and the accuracy of remote prescriptions. The results showed that many patients received life-saving advice that was previously unavailable. This proves that smart technology and targeted usage can bridge the gap in healthcare, even with limited local infrastructure."
     },
     {
         "id": "logic_01",
@@ -2251,9 +2319,10 @@
     },
     {
         "id": "logic_16",
+        "passage_id": "logic_passage_01",
         "subject": "Logical Reasoning",
         "topic": "Spatial Reasoning and Arrangements",
-        "question_text": "Six students-Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah-are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah. Who sits at desk 2?",
+        "question_text": "Who sits at desk 2?",
         "options": [
             {
                 "letter": "A",
@@ -2277,13 +2346,15 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "We are given that Wina and Yola completely occupy desk 3. Vina and Fhasyah completely occupy desk 1. The only desk left with open seats is desk 2, which perfectly accommodates the remaining pair, Nasywa and Nabila, satisfying the requirement that they sit together."
+        "explanation": "We are given that Wina and Yola completely occupy desk 3. Vina and Fhasyah completely occupy desk 1. The only desk left with open seats is desk 2, which perfectly accommodates the remaining pair, Nasywa and Nabila, satisfying the requirement that they sit together.",
+        "passage": "Six students\u2014Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah\u2014are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah."
     },
     {
         "id": "logic_17",
+        "passage_id": "logic_passage_01",
         "subject": "Logical Reasoning",
         "topic": "Spatial Reasoning and Arrangements",
-        "question_text": "Based on the desk arrangement in question 16, who sits at desk 1?",
+        "question_text": "Based on the desk arrangement, who sits at desk 1?",
         "options": [
             {
                 "letter": "A",
@@ -2307,13 +2378,15 @@
             }
         ],
         "correct_answer": "B",
-        "explanation": "This is a direct recall from the spatial rules established in the scenario. The rule explicitly stated: 'Vina sits at desk 1 with Fhasyah.'"
+        "explanation": "This is a direct recall from the spatial rules established in the scenario. The rule explicitly stated: 'Vina sits at desk 1 with Fhasyah.'",
+        "passage": "Six students\u2014Nasywa, Nabila, Wina, Yola, Vina, and Fhasyah\u2014are sitting at three two-person desks numbered 1 to 3. Nasywa and Nabila must sit at adjacent desks. Wina and Yola sit at desk 3. Vina sits at desk 1 with Fhasyah."
     },
     {
         "id": "logic_18",
+        "passage_id": "logic_passage_02",
         "subject": "Logical Reasoning",
         "topic": "Analytical Reasoning and Sequencing",
-        "question_text": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected. Which of the following groups could be selected?",
+        "question_text": "Which of the following groups could be selected?",
         "options": [
             {
                 "letter": "A",
@@ -2337,13 +2410,15 @@
             }
         ],
         "correct_answer": "A",
-        "explanation": "Let's check Option A against all rules. Adam is selected, triggering Ben to be selected (Rule 1 met). Clara is selected, but Dana is not (Rule 2 met). Eric is absent, so Rule 3 is moot. Gina is absent, so Rule 4 is moot. Ben is selected, but Eric is not (Rule 5 met). Clara is selected, so exactly one of Faye or Gina must be selected; Faye is present, Gina is not (Rule 6 met). Group A perfectly satisfies all conditions."
+        "explanation": "Let's check Option A against all rules. Adam is selected, triggering Ben to be selected (Rule 1 met). Clara is selected, but Dana is not (Rule 2 met). Eric is absent, so Rule 3 is moot. Gina is absent, so Rule 4 is moot. Ben is selected, but Eric is not (Rule 5 met). Clara is selected, so exactly one of Faye or Gina must be selected; Faye is present, Gina is not (Rule 6 met). Group A perfectly satisfies all conditions.",
+        "passage": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected."
     },
     {
         "id": "logic_19",
+        "passage_id": "logic_passage_02",
         "subject": "Logical Reasoning",
         "topic": "Analytical Reasoning and Sequencing",
-        "question_text": "If Clara is selected (using the same rules as question 18), which of the following must be true?",
+        "question_text": "If Clara is selected, which of the following must be true?",
         "options": [
             {
                 "letter": "A",
@@ -2367,7 +2442,8 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "The second rule of the candidate selection explicitly states: 'Clara and Dana cannot be selected together.' This creates a mutually exclusive relationship. Therefore, the moment Clara is confirmed to be on the committee, it becomes an absolute certainty that Dana must not be selected."
+        "explanation": "The second rule of the candidate selection explicitly states: 'Clara and Dana cannot be selected together.' This creates a mutually exclusive relationship. Therefore, the moment Clara is confirmed to be on the committee, it becomes an absolute certainty that Dana must not be selected.",
+        "passage": "A committee will select four experts from eight candidates (Adam, Ben, Clara, Dana, Eric, Faye, Gina, and Hugo) to lead a project. The selection follows these rules: If Adam is selected, then Ben must also be selected. Clara and Dana cannot be selected together. If Eric is selected, Faye must also be selected. Gina cannot be selected unless Hugo is also selected. Ben and Eric cannot both be selected. If Clara is selected, then exactly one of Faye or Gina must be selected."
     },
     {
         "id": "logic_20",

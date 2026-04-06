@@ -1,4 +1,4 @@
-import json, random, re, os, copy, sys
+import json, random, re, os, copy, sys, glob
 
 # ─── Load real exam bases ────────────────────────────────────────────────────
 with open('realQ1.json', 'r', encoding='utf-8') as f:
@@ -49,20 +49,73 @@ def generate_hints(q):
 # ─── Main generation ─────────────────────────────────────────────────────────
 SUBJECT_ORDER = ['Basic Mathematics', 'English', 'Quantitative Reasoning', 'Logical Reasoning']
 
+# Load Practice Pools and map them by (subject, topic) using cleaned strings
+practice_pools = {}
+for fp in glob.glob('PracticeQuestions/**/*.json', recursive=True):
+    with open(fp, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        if 'questions' in data:
+            s_key = data.get('subject', '').lower().strip()
+            # Handle potential mismatch between topic strings gracefully by normalizing them later
+            for q in data['questions']:
+                t_key = q.get('topic', data.get('topic', '')).lower().strip()
+                s_key_q = q.get('subject', s_key).lower().strip()
+                key = (s_key_q, t_key)
+                if key not in practice_pools:
+                    practice_pools[key] = []
+                practice_pools[key].append(q)
+
+used_q_ids = set()
+
 for i in range(1, 5): 
     raw_base = copy.deepcopy(bases[i % 2])
     
     # Process non-English (60 Qs total)
     non_english = []
+    
+    def process_item_for_tryout(item, item_id_suffix):
+        s_key = item.get('subject', '').lower().strip()
+        t_key = item.get('topic', '').lower().strip()
+        pool = practice_pools.get((s_key, t_key), [])
+        avail = [q for q in pool if q.get('id') not in used_q_ids]
+        
+        # If pool is empty or missing, try fuzzy topic matching within the subject
+        if not avail:
+            fallback_pool = []
+            for (ps, pt), qs in practice_pools.items():
+                if ps == s_key:
+                    fallback_pool.extend(qs)
+            avail = [q for q in fallback_pool if q.get('id') not in used_q_ids]
+            
+        if avail:
+            rep_q = copy.deepcopy(random.choice(avail))
+            used_q_ids.add(rep_q.get('id'))
+            rep_q['id'] = f"{item.get('id', rep_q.get('id'))}_gen_{item_id_suffix}"
+            if 'hints' not in rep_q:
+                rep_q['hints'] = generate_hints(rep_q)
+            return rep_q
+        else:
+            q_copy = copy.deepcopy(item)
+            q_copy['id'] = f"{item.get('id', 'unk')}_gen_{item_id_suffix}"
+            if 'hints' not in q_copy:
+                q_copy['hints'] = generate_hints(q_copy)
+            return q_copy
+
     for item in raw_base:
         if isinstance(item, dict) and 'passages' in item and 'questions' in item:
             pmap = {p['id']: p['text'] for p in item['passages']}
             for q in item['questions']:
                 if str(q.get('subject','')).lower() == 'english': continue
+                # We won't sample passage-dependent ones generically yet, keep original
+                # but we will assign ID
                 if q.get('passage_id') and not q.get('passage'): q['passage'] = pmap.get(q['passage_id'])
+                q['id'] = f"{q.get('id')}_gen_{i}"
+                if 'hints' not in q: q['hints'] = generate_hints(q)
                 non_english.append(q)
         elif isinstance(item, dict) and str(item.get('subject','')).lower() != 'english':
-            non_english.append(item)
+            # This is a standalone non-english question! Let's substitute it!
+            non_english.append(process_item_for_tryout(item, i))
+
 
     # Process English (Exactly 20 Qs from 7 distinct passages per tryout)
     english_qs = []
@@ -75,7 +128,7 @@ for i in range(1, 5):
         if j == 3:
             # Force the 4th passage to be the specially structured ones (indices 28-31)
             # This aligns exactly with questions 11 and 12 (Test #31 and #32)
-            p_idx = 28 + (i - 1)
+            p_idx = 28 + ((i - 1) % 3)
         tryout_passages.append(copy.deepcopy(LONG_PASSAGES[p_idx]))
 
     # Flatten questions and assign passage text

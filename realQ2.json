@@ -747,7 +747,17 @@
             }
         ],
         "correct_answer": "E",
-        "explanation": "Let's calculate the absolute numbers. Vegan high-weight-loss is 40% of 200, which is 80 people. The probability of selecting one of these people from the total 500 is 80/500 = 0.16 or 16%. Therefore, E is true. Option A is false because total high-weight-loss people = 75 (Keto) + 80 (Vegan) + 90 (Paleo) = 245, and 90/245 is not 50%. B is false because exactly 20% of the total have low weight loss. C is false because there are 80 Medium Vegans vs 45 Medium Ketos."
+        "explanation": "Let's calculate the absolute numbers. Vegan high-weight-loss is 40% of 200, which is 80 people. The probability of selecting one of these people from the total 500 is 80/500 = 0.16 or 16%. Therefore, E is true. Option A is false because total high-weight-loss people = 75 (Keto) + 80 (Vegan) + 90 (Paleo) = 245, and 90/245 is not 50%. B is false because exactly 20% of the total have low weight loss. C is false because there are 80 Medium Vegans vs 45 Medium Ketos.",
+        "chart_data": {
+            "type": "bar",
+            "title": "Weight Loss by Diet Method",
+            "labels": ["Keto", "Vegan", "Paleo"],
+            "datasets": [
+                {"label": "Low", "values": [30, 40, 30]},
+                {"label": "Medium", "values": [45, 80, 30]},
+                {"label": "High", "values": [75, 80, 90]}
+            ]
+        }
     },
     {
         "id": "quant_06",
@@ -777,7 +787,16 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "Let's define 'performance' as net profit (Revenue - Expenses). For Q1 (Jan-Mar), profit = (150-50) + (180-60) + (160-80) = 100 + 120 + 80 = 300. For Q2 (Apr-Jun), profit = (140-40) + (190-70) + (170-60) = 100 + 120 + 110 = 330. Since Q2's performance (330) is better than Q1's (300), statement C is false. Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $990 \\times 10\\% = 99$, C is clearly the intended logic failure."
+        "explanation": "Let's define 'performance' as net profit (Revenue - Expenses). For Q1 (Jan-Mar), profit = (150-50) + (180-60) + (160-80) = 100 + 120 + 80 = 300. For Q2 (Apr-Jun), profit = (140-40) + (190-70) + (170-60) = 100 + 120 + 110 = 330. Since Q2's performance (330) is better than Q1's (300), statement C is false. Note: Statement B contains a typo in the original text ('million' instead of 'thousand') but based on the math $990 \\times 10\\% = 99$, C is clearly the intended logic failure.",
+        "chart_data": {
+            "type": "line",
+            "title": "Company Revenue vs Expenses (kUSD)",
+            "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+            "datasets": [
+                {"label": "Revenue", "values": [150, 180, 160, 140, 190, 170]},
+                {"label": "Expenses", "values": [50, 60, 80, 40, 70, 60]}
+            ]
+        }
     },
     {
         "id": "quant_07",
@@ -957,7 +976,16 @@
             }
         ],
         "correct_answer": "C",
-        "explanation": "Total number of people = 40+20+30+30+20+60 = 200. We want the probability of Female OR Healthcare. Total Females = 20 + 30 + 60 = 110. Total Healthcare workers = 20 + 60 = 80. Females in Healthcare (the overlap) = 60. Using the principle of inclusion-exclusion: P(F U H) = (110 + 80 - 60) / 200 = 130 / 200 = 0.65."
+        "explanation": "Total number of people = 40+20+30+30+20+60 = 200. We want the probability of Female OR Healthcare. Total Females = 20 + 30 + 60 = 110. Total Healthcare workers = 20 + 60 = 80. Females in Healthcare (the overlap) = 60. Using the principle of inclusion-exclusion: P(F U H) = (110 + 80 - 60) / 200 = 130 / 200 = 0.65.",
+        "chart_data": {
+            "type": "bar",
+            "title": "Employment Sectors",
+            "labels": ["Technology", "Finance", "Healthcare"],
+            "datasets": [
+                {"label": "Male", "values": [40, 30, 20]},
+                {"label": "Female", "values": [20, 30, 60]}
+            ]
+        }
     },
     {
         "id": "quant_13",

@@ -747,7 +747,17 @@
       }
     ],
     "correct_answer": "B",
-    "explanation": "Calculate the exact numbers for each category. \nLow performers: Group (40), Self (60), Tutoring (16) = Total 116.\nMedium performers: Group (100), Self (108), Tutoring (64) = Total 272.\nHigh performers: Group (60), Self (72), Tutoring (80) = Total 212.\nTesting option B: 116 total low performers / 600 total students = 19.333...%. Allowing for standard rounding in the test's phrasing of 'exactly 19.3%', this is the only viable intended true statement, as all others are definitively mathematically false (e.g., A is 37.7%, C is Self Study, D is 1.5 vs 1.2, E is 12%)."
+    "explanation": "Calculate the exact numbers for each category. \nLow performers: Group (40), Self (60), Tutoring (16) = Total 116.\nMedium performers: Group (100), Self (108), Tutoring (64) = Total 272.\nHigh performers: Group (60), Self (72), Tutoring (80) = Total 212.\nTesting option B: 116 total low performers / 600 total students = 19.333...%. Allowing for standard rounding in the test's phrasing of 'exactly 19.3%', this is the only viable intended true statement, as all others are definitively mathematically false (e.g., A is 37.7%, C is Self Study, D is 1.5 vs 1.2, E is 12%).",
+    "chart_data": {
+      "type": "bar",
+      "title": "Exam Performance by Study Method",
+      "labels": ["Group Study", "Self Study", "Tutoring"],
+      "datasets": [
+        {"label": "Low", "values": [20, 25, 10]},
+        {"label": "Medium", "values": [50, 45, 40]},
+        {"label": "High", "values": [30, 30, 50]}
+      ]
+    }
   },
   {
     "id": "quant_06",
@@ -1024,7 +1034,16 @@
       }
     ],
     "correct_answer": "D",
-    "explanation": "First, find the total population: 70 (Ag) + 60 (Ind) + 70 (Serv) = 200.\nTotal Males = 30 + 25 + 20 = 75.\nTotal in Services = 20 (Male) + 50 (Female) = 70.\nMales in Services (the intersection) = 20.\nUsing the probability formula P(A or B) = P(A) + P(B) - P(A and B):\nProbability = (75 + 70 - 20) / 200 = 125 / 200 = 0.625. Option D (0.62) is the closest rounded equivalent."
+    "explanation": "First, find the total population: 70 (Ag) + 60 (Ind) + 70 (Serv) = 200.\nTotal Males = 30 + 25 + 20 = 75.\nTotal in Services = 20 (Male) + 50 (Female) = 70.\nMales in Services (the intersection) = 20.\nUsing the probability formula P(A or B) = P(A) + P(B) - P(A and B):\nProbability = (75 + 70 - 20) / 200 = 125 / 200 = 0.625. Option D (0.62) is the closest rounded equivalent.",
+    "chart_data": {
+      "type": "bar",
+      "title": "Employment Sectors",
+      "labels": ["Agriculture", "Industry", "Services"],
+      "datasets": [
+        {"label": "Male", "values": [30, 25, 20]},
+        {"label": "Female", "values": [40, 35, 50]}
+      ]
+    }
   },
   {
     "id": "quant_13",
